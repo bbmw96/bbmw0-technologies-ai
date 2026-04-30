@@ -1,11 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#7c5cff"/>
-      <stop offset="1" stop-color="#ff5cb1"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5b3aff"/>
+      <stop offset="40%" stop-color="#a83bff"/>
+      <stop offset="70%" stop-color="#ff3ba8"/>
+      <stop offset="100%" stop-color="#ff8a3b"/>
     </linearGradient>
+    <radialGradient id="glow" cx="160" cy="140" r="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="b-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#fff0fa"/>
+    </linearGradient>
+    <filter id="bshadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+      <feOffset dx="0" dy="6"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.45"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
-  <rect width="64" height="64" rx="14" fill="url(#g)"/>
-  <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle"
-    font-family="Inter, system-ui, sans-serif" font-weight="900" font-size="36" fill="white">B</text>
+  <!-- background tile -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="112" fill="url(#glow)"/>
+  <!-- bottom diagonal accent -->
+  <path d="M0 380 L512 220 L512 512 L0 512 Z" fill="#ffffff" opacity="0.05"/>
+  <!-- Bold B mark — custom path, not text. Spine + two bowls. -->
+  <g filter="url(#bshadow)">
+    <!-- Spine -->
+    <rect x="118" y="92" width="68" height="328" rx="14" fill="url(#b-grad)"/>
+    <!-- Top bowl -->
+    <path d="M186 92 H300 a96 96 0 0 1 0 192 H186 V92 Z M186 132 V244 H290 a52 52 0 0 0 0-104 z"
+      fill="url(#b-grad)" fill-rule="evenodd"/>
+    <!-- Bottom bowl -->
+    <path d="M186 244 H312 a92 92 0 0 1 0 184 H186 V244 Z M186 284 V388 H300 a48 48 0 0 0 0-96 H186 z"
+      fill="url(#b-grad)" fill-rule="evenodd"/>
+  </g>
+  <!-- Play triangle nestled inside the lower bowl's negative space -->
+  <path d="M212 314 L268 338 L212 362 Z" fill="#ff3ba8" opacity="0.95"/>
+  <!-- Sparkle accent upper-right -->
+  <g transform="translate(408 100) rotate(15)">
+    <path d="M0 -28 L6 -6 L28 0 L6 6 L0 28 L-6 6 L-28 0 L-6 -6 Z" fill="#ffffff" opacity="0.9"/>
+    <circle r="4" fill="#ffffff"/>
+  </g>
+  <!-- Small "AI" pip lower-right -->
+  <circle cx="412" cy="412" r="32" fill="#0a0a0f" opacity="0.65"/>
+  <text x="412" y="424" text-anchor="middle" font-family="Inter, sans-serif" font-weight="900" font-size="28" fill="#ffffff" letter-spacing="2">AI</text>
 </svg>

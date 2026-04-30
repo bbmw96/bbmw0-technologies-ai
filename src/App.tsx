@@ -89,7 +89,12 @@ export const App: React.FC = () => {
 
         <section className="editor app-chrome">
           <div className="editor-handle" aria-hidden />
-          <AIBar onApply={onAIApply} placeholder={t("aiPlaceholder")} buttonLabel={t("aiButton")} />
+          <AIBar
+            onApply={onAIApply}
+            placeholder={t("aiPlaceholder")}
+            buttonLabel={t("aiButton")}
+            sceneId={activeId}
+          />
           <PropEditor
             sceneId={activeId}
             values={state[activeId]}

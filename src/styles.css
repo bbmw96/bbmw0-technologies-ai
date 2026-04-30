@@ -607,3 +607,59 @@ textarea:focus-visible {
 @media (display-mode: standalone) {
   body { padding-top: env(safe-area-inset-top); }
 }
+
+/* ========== AI provider picker ========== */
+.ai-provider-pill {
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 5px 9px; border-radius: 999px;
+  background: rgba(124, 92, 255, 0.18);
+  color: var(--text);
+  border: 1px solid rgba(124, 92, 255, 0.4);
+  flex-shrink: 0;
+  transition: background var(--dur) var(--ease);
+}
+.ai-provider-pill:hover { background: rgba(124, 92, 255, 0.28); }
+
+.ai-provider-menu {
+  background: var(--bg-elev-1); border: 1px solid var(--border);
+  border-radius: var(--r-md); padding: 6px;
+  box-shadow: 0 16px 40px rgba(0,0,0,0.5);
+  display: grid; gap: 2px;
+  max-height: 50vh; overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.ai-provider-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 12px; border-radius: var(--r-sm);
+  color: var(--text); font-size: 14px; text-align: start;
+  transition: background var(--dur) var(--ease);
+  width: 100%;
+}
+.ai-provider-item:hover:not(:disabled), .ai-provider-item:active:not(:disabled) {
+  background: var(--bg-elev-2);
+}
+.ai-provider-item:disabled { opacity: 0.4; cursor: not-allowed; }
+.ai-provider-item[aria-checked="true"] {
+  background: rgba(124, 92, 255, 0.18); color: var(--accent);
+}
+.ai-provider-check { margin-inline-start: auto; color: var(--accent); font-weight: 700; }
+.ai-provider-mute {
+  margin-inline-start: auto; font-size: 11px;
+  color: var(--text-mute);
+  background: var(--bg-elev-2);
+  padding: 2px 8px; border-radius: 999px;
+  font-weight: 600;
+}
+.ai-error {
+  font-size: 12px; color: var(--danger);
+  background: rgba(255, 94, 126, 0.12);
+  border: 1px solid rgba(255, 94, 126, 0.3);
+  padding: 8px 12px; border-radius: var(--r-sm);
+}
+.ai-hint {
+  font-size: 12px; color: var(--text-dim);
+  background: rgba(124, 92, 255, 0.08);
+  border: 1px dashed rgba(124, 92, 255, 0.3);
+  padding: 8px 12px; border-radius: var(--r-sm);
+  line-height: 1.4;
+}
