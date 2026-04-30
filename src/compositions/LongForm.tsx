@@ -1,12 +1,31 @@
 import {
   AbsoluteFill,
+  Audio,
+  Sequence,
   Series,
   interpolate,
   spring,
+  staticFile,
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
 import React from "react";
+
+// Voiceover offsets (in frames at 30fps) — match each chapter's start.
+// File durations: ch1 40s, ch2 102s, ch3 128s, ch4 133s, ch5 117s,
+// ch6 120s, ch7 90s, ch8 99s, ch9 41s. Each fits comfortably within
+// its chapter window with breathing room.
+const VOICEOVER = [
+  { from: 0, file: "voiceover-ch1.mp3" },        // 0:00 → Ch1 Intro (60s)
+  { from: 1800, file: "voiceover-ch2.mp3" },     // 1:00 → Ch2 Why (180s)
+  { from: 7200, file: "voiceover-ch3.mp3" },     // 4:00 → Ch3 Tour (300s)
+  { from: 16200, file: "voiceover-ch4.mp3" },    // 9:00 → Ch4 AI (300s)
+  { from: 25200, file: "voiceover-ch5.mp3" },    // 14:00 → Ch5 Demo (300s)
+  { from: 34200, file: "voiceover-ch6.mp3" },    // 19:00 → Ch6 Tech (240s)
+  { from: 41400, file: "voiceover-ch7.mp3" },    // 23:00 → Ch7 Deploy (180s)
+  { from: 46800, file: "voiceover-ch8.mp3" },    // 26:00 → Ch8 Roadmap (180s)
+  { from: 52200, file: "voiceover-ch9.mp3" },    // 29:00 → Ch9 Outro (60s)
+];
 
 // =====================================================================
 // LongForm — 30-minute explainer for YouTube. 1920×1080 landscape.
@@ -1477,6 +1496,61 @@ export const LongForm: React.FC<LongFormProps> = ({ url, brand }) => {
           <Ch9Outro url={url} brand={brand} />
         </Series.Sequence>
       </Series>
+      {/* Voiceover track — 9 chapter MP3s aligned to chapter starts.
+          Each Audio plays from frame `from` until the file ends; if a
+          file is missing, Remotion logs a warning but keeps rendering. */}
+      {VOICEOVER.map((vo) => (
+        <Sequence key={vo.file} from={vo.from}>
+          <Audio src={staticFile(vo.file)} />
+        </Sequence>
+      ))}
+    </AbsoluteFill>
+  );
+};
+ckground: COLORS.bg }}>
+      <Series>
+        <Series.Sequence durationInFrames={1800}>
+          <Ch1Intro brand={brand} />
+        </Series.Sequence>
+        <Series.Sequence durationInFrames={5400}>
+          <Ch2Why />
+        </Series.Sequence>
+        <Series.Sequence durationInFrames={9000}>
+          <Ch3Tour />
+        </Series.Sequence>
+        <Series.Sequence durationInFrames={9000}>
+          <Ch4AI />
+        </Series.Sequence>
+        <Series.Sequence durationInFrames={9000}>
+          <Ch5Demo />
+        </Series.Sequence>
+        <Series.Sequence durationInFrames={7200}>
+          <Ch6Tech />
+        </Series.Sequence>
+        <Series.Sequence durationInFrames={5400}>
+          <Ch7Deploy />
+        </Series.Sequence>
+        <Series.Sequence durationInFrames={5400}>
+          <Ch8Road />
+        </Series.Sequence>
+        <Series.Sequence durationInFrames={1800}>
+          <Ch9Outro url={url} brand={brand} />
+        </Series.Sequence>
+      </Series>
+      {VOICEOVER.map((vo) => (
+        <Sequence key={vo.file} from={vo.from}>
+          <Audio src={staticFile(vo.file)} />
+        </Sequence>
+      ))}
+    </AbsoluteFill>
+  );
+};
+ a warning but keeps rendering. */}
+      {VOICEOVER.map((vo) => (
+        <Sequence key={vo.file} from={vo.from}>
+          <Audio src={staticFile(vo.file)} />
+        </Sequence>
+      ))}
     </AbsoluteFill>
   );
 };
