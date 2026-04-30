@@ -6,11 +6,14 @@ import { SceneCarousel } from "./components/SceneCarousel";
 import { PropEditor } from "./components/PropEditor";
 import { ExportModal } from "./components/ExportModal";
 import { AIBar, type AISuggestion } from "./components/AIBar";
+import { LangSwitcher } from "./components/LangSwitcher";
+import { useLang } from "./i18n";
 
 export const App: React.FC = () => {
   const { activeId, setActiveId, state, updateProp } = useEditorState();
   const [exportOpen, setExportOpen] = useState(false);
   const playerRef = useRef<PlayerRef>(null);
+  const { lang, setLang, t } = useLang();
 
   const activeScene = useMemo(
     () => scenes.find((s) => s.id === activeId)!,
@@ -23,7 +26,6 @@ export const App: React.FC = () => {
   );
 
   const onAIApply = (s: AISuggestion) => {
-    // Pour AI suggestions into whatever fields the active scene cares about.
     const target = state[activeId];
     Object.entries(s).forEach(([k, v]) => {
       if (v === undefined) return;
@@ -44,14 +46,15 @@ export const App: React.FC = () => {
         <div className="brand">
           <div className="brand-mark">B</div>
           <div className="brand-name">
-            <b>BBMW0</b> Technologies AI
+            <b>BBMW0</b> {t("brandTagline")}
           </div>
         </div>
         <div className="header-actions">
+          <LangSwitcher lang={lang} setLang={setLang} />
           <button
             className="icon-btn"
             type="button"
-            aria-label="Play / Pause"
+            aria-label={t("play")}
             onClick={togglePlay}
           >
             ▶
@@ -86,11 +89,12 @@ export const App: React.FC = () => {
 
         <section className="editor app-chrome">
           <div className="editor-handle" aria-hidden />
-          <AIBar onApply={onAIApply} />
+          <AIBar onApply={onAIApply} placeholder={t("aiPlaceholder")} buttonLabel={t("aiButton")} />
           <PropEditor
             sceneId={activeId}
             values={state[activeId]}
             onChange={(k, v) => updateProp(activeId, k, v)}
+            t={t}
           />
         </section>
       </main>
@@ -100,16 +104,16 @@ export const App: React.FC = () => {
           className="btn btn-secondary"
           onClick={() => navigator.clipboard?.writeText(propsJson)}
           type="button"
-          aria-label="Copy current props as JSON"
+          aria-label="Copy props as JSON"
         >
-          Copy JSON
+          {t("copyJson")}
         </button>
         <button
           className="btn btn-primary"
           onClick={() => setExportOpen(true)}
           type="button"
         >
-          Export to MP4
+          {t("exportToMP4")}
         </button>
       </footer>
 
@@ -118,6 +122,7 @@ export const App: React.FC = () => {
         onClose={() => setExportOpen(false)}
         sceneId={activeId}
         propsJson={propsJson}
+        t={t}
       />
     </div>
   );

@@ -1,10 +1,12 @@
 import { useEffect } from "react";
+import type { StringKey } from "../i18n";
 
 type Props = {
   open: boolean;
   onClose: () => void;
   sceneId: string;
   propsJson: string;
+  t: (key: StringKey) => string;
 };
 
 export const ExportModal: React.FC<Props> = ({
@@ -12,6 +14,7 @@ export const ExportModal: React.FC<Props> = ({
   onClose,
   sceneId,
   propsJson,
+  t,
 }) => {
   useEffect(() => {
     if (!open) return;
@@ -49,23 +52,20 @@ export const ExportModal: React.FC<Props> = ({
       className="modal-backdrop"
       role="dialog"
       aria-modal="true"
-      aria-label="Export"
+      aria-label={t("exportTitle")}
       onClick={(e) => {
         if (e.target === e.currentTarget) onClose();
       }}
     >
       <div className="modal">
-        <h2>Export to MP4</h2>
-        <p>
-          Save your settings, then run the command in a terminal at the project
-          root. The MP4 lands in <code>out/</code>.
-        </p>
+        <h2>{t("exportTitle")}</h2>
+        <p>{t("exportBlurb")}</p>
         <button
           className="btn btn-primary"
           onClick={downloadProps}
           type="button"
         >
-          ⬇  Download props.json
+          {t("downloadProps")}
         </button>
         <code className="code">{cmd}</code>
         <div style={{ display: "flex", gap: 8 }}>
@@ -74,14 +74,14 @@ export const ExportModal: React.FC<Props> = ({
             onClick={copyCmd}
             type="button"
           >
-            Copy command
+            {t("copyCommand")}
           </button>
           <button
             className="btn btn-ghost"
             onClick={onClose}
             type="button"
           >
-            Close
+            {t("close")}
           </button>
         </div>
       </div>

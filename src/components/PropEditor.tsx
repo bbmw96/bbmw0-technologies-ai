@@ -1,41 +1,42 @@
 import { PRESET_COLORS } from "../state";
 import type { SceneId } from "../compositions/registry";
+import type { StringKey } from "../i18n";
 
 type Field =
-  | { kind: "text"; key: string; label: string; multiline?: boolean }
-  | { kind: "color"; key: string; label: string }
-  | { kind: "list"; key: string; label: string; max?: number };
+  | { kind: "text"; key: string; labelKey: StringKey; multiline?: boolean }
+  | { kind: "color"; key: string; labelKey: StringKey }
+  | { kind: "list"; key: string; labelKey: StringKey; max?: number };
 
 const SCHEMA: Record<SceneId, Field[]> = {
   Hook: [
-    { kind: "text", key: "text", label: "Headline", multiline: true },
-    { kind: "text", key: "emoji", label: "Emoji" },
-    { kind: "color", key: "accent", label: "Accent" },
-    { kind: "color", key: "bg", label: "Background" },
+    { kind: "text", key: "text", labelKey: "headline", multiline: true },
+    { kind: "text", key: "emoji", labelKey: "emoji" },
+    { kind: "color", key: "accent", labelKey: "accent" },
+    { kind: "color", key: "bg", labelKey: "background" },
   ],
   Title: [
-    { kind: "text", key: "title", label: "Title" },
-    { kind: "text", key: "subtitle", label: "Subtitle" },
-    { kind: "color", key: "accent", label: "Accent" },
-    { kind: "color", key: "bg", label: "Background" },
+    { kind: "text", key: "title", labelKey: "title" },
+    { kind: "text", key: "subtitle", labelKey: "subtitle" },
+    { kind: "color", key: "accent", labelKey: "accent" },
+    { kind: "color", key: "bg", labelKey: "background" },
   ],
   Bullets: [
-    { kind: "text", key: "heading", label: "Heading" },
-    { kind: "list", key: "items", label: "Bullets", max: 4 },
-    { kind: "color", key: "accent", label: "Accent" },
-    { kind: "color", key: "bg", label: "Background" },
+    { kind: "text", key: "heading", labelKey: "heading" },
+    { kind: "list", key: "items", labelKey: "bullets", max: 4 },
+    { kind: "color", key: "accent", labelKey: "accent" },
+    { kind: "color", key: "bg", labelKey: "background" },
   ],
   Quote: [
-    { kind: "text", key: "quote", label: "Quote", multiline: true },
-    { kind: "text", key: "author", label: "Author" },
-    { kind: "color", key: "accent", label: "Accent" },
-    { kind: "color", key: "bg", label: "Background" },
+    { kind: "text", key: "quote", labelKey: "quote", multiline: true },
+    { kind: "text", key: "author", labelKey: "author" },
+    { kind: "color", key: "accent", labelKey: "accent" },
+    { kind: "color", key: "bg", labelKey: "background" },
   ],
   CTA: [
-    { kind: "text", key: "title", label: "Headline" },
-    { kind: "text", key: "url", label: "URL" },
-    { kind: "color", key: "accent", label: "Accent" },
-    { kind: "color", key: "bg", label: "Background" },
+    { kind: "text", key: "title", labelKey: "headline" },
+    { kind: "text", key: "url", labelKey: "url" },
+    { kind: "color", key: "accent", labelKey: "accent" },
+    { kind: "color", key: "bg", labelKey: "background" },
   ],
 };
 
@@ -43,21 +44,27 @@ type Props = {
   sceneId: SceneId;
   values: Record<string, unknown>;
   onChange: (key: string, value: unknown) => void;
+  t: (key: StringKey) => string;
 };
 
-export const PropEditor: React.FC<Props> = ({ sceneId, values, onChange }) => {
+export const PropEditor: React.FC<Props> = ({
+  sceneId,
+  values,
+  onChange,
+  t,
+}) => {
   const fields = SCHEMA[sceneId];
 
   return (
     <>
-      <div className="editor-section-label">Edit {sceneId}</div>
+      <div className="editor-section-label">{t("editScene")} · {sceneId}</div>
 
       {fields.map((f) => {
         if (f.kind === "text") {
           return (
             <div key={f.key} className="field">
               <label className="field-label" htmlFor={`f-${f.key}`}>
-                {f.label}
+                {t(f.labelKey)}
               </label>
               {f.multiline ? (
                 <textarea
@@ -82,7 +89,7 @@ export const PropEditor: React.FC<Props> = ({ sceneId, values, onChange }) => {
           const current = (values[f.key] as string) ?? PRESET_COLORS[0];
           return (
             <div key={f.key} className="field">
-              <label className="field-label">{f.label}</label>
+              <label className="field-label">{t(f.labelKey)}</label>
               <div className="color-row">
                 {PRESET_COLORS.map((c) => (
                   <button
@@ -92,7 +99,7 @@ export const PropEditor: React.FC<Props> = ({ sceneId, values, onChange }) => {
                     aria-selected={c.toLowerCase() === current.toLowerCase()}
                     style={{ background: c }}
                     onClick={() => onChange(f.key, c)}
-                    aria-label={`Set ${f.label} to ${c}`}
+                    aria-label={c}
                   />
                 ))}
                 <label
@@ -119,7 +126,7 @@ export const PropEditor: React.FC<Props> = ({ sceneId, values, onChange }) => {
           };
           const addItem = () => {
             if (f.max && items.length >= f.max) return;
-            onChange(f.key, [...items, "New point"]);
+            onChange(f.key, [...items, ""]);
           };
           const removeItem = (idx: number) => {
             onChange(
@@ -129,7 +136,7 @@ export const PropEditor: React.FC<Props> = ({ sceneId, values, onChange }) => {
           };
           return (
             <div key={f.key} className="field">
-              <label className="field-label">{f.label}</label>
+              <label className="field-label">{t(f.labelKey)}</label>
               {items.map((item, idx) => (
                 <div
                   key={idx}
@@ -148,7 +155,7 @@ export const PropEditor: React.FC<Props> = ({ sceneId, values, onChange }) => {
                     type="button"
                     className="icon-btn"
                     onClick={() => removeItem(idx)}
-                    aria-label="Remove bullet"
+                    aria-label={t("removeBullet")}
                   >
                     ✕
                   </button>
@@ -161,7 +168,7 @@ export const PropEditor: React.FC<Props> = ({ sceneId, values, onChange }) => {
                   onClick={addItem}
                   style={{ marginTop: 4 }}
                 >
-                  + Add bullet
+                  {t("addBullet")}
                 </button>
               )}
             </div>
