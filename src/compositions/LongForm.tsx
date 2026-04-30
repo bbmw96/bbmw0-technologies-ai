@@ -1496,56 +1496,6 @@ export const LongForm: React.FC<LongFormProps> = ({ url, brand }) => {
           <Ch9Outro url={url} brand={brand} />
         </Series.Sequence>
       </Series>
-      {/* Voiceover track — 9 chapter MP3s aligned to chapter starts.
-          Each Audio plays from frame `from` until the file ends; if a
-          file is missing, Remotion logs a warning but keeps rendering. */}
-      {VOICEOVER.map((vo) => (
-        <Sequence key={vo.file} from={vo.from}>
-          <Audio src={staticFile(vo.file)} />
-        </Sequence>
-      ))}
-    </AbsoluteFill>
-  );
-};
-ckground: COLORS.bg }}>
-      <Series>
-        <Series.Sequence durationInFrames={1800}>
-          <Ch1Intro brand={brand} />
-        </Series.Sequence>
-        <Series.Sequence durationInFrames={5400}>
-          <Ch2Why />
-        </Series.Sequence>
-        <Series.Sequence durationInFrames={9000}>
-          <Ch3Tour />
-        </Series.Sequence>
-        <Series.Sequence durationInFrames={9000}>
-          <Ch4AI />
-        </Series.Sequence>
-        <Series.Sequence durationInFrames={9000}>
-          <Ch5Demo />
-        </Series.Sequence>
-        <Series.Sequence durationInFrames={7200}>
-          <Ch6Tech />
-        </Series.Sequence>
-        <Series.Sequence durationInFrames={5400}>
-          <Ch7Deploy />
-        </Series.Sequence>
-        <Series.Sequence durationInFrames={5400}>
-          <Ch8Road />
-        </Series.Sequence>
-        <Series.Sequence durationInFrames={1800}>
-          <Ch9Outro url={url} brand={brand} />
-        </Series.Sequence>
-      </Series>
-      {VOICEOVER.map((vo) => (
-        <Sequence key={vo.file} from={vo.from}>
-          <Audio src={staticFile(vo.file)} />
-        </Sequence>
-      ))}
-    </AbsoluteFill>
-  );
-};
- a warning but keeps rendering. */}
       {VOICEOVER.map((vo) => (
         <Sequence key={vo.file} from={vo.from}>
           <Audio src={staticFile(vo.file)} />
