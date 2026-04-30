@@ -9,7 +9,8 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "render": "remotion render src/compositions/registry.tsx",
-    "render:short": "remotion render src/compositions/registry.tsx Showcase out/short.mp4"
+    "render:short": "remotion render src/compositions/registry.tsx Showcase out/short.mp4",
+    "render:tutorial": "remotion render src/compositions/registry.tsx Tutorial out/tutorial.mp4"
   },
   "dependencies": {
     "@remotion/player": "4.0.454",

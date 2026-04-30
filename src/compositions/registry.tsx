@@ -5,52 +5,19 @@ import { Bullets, bulletsDefaults } from "./Bullets";
 import { Quote, quoteDefaults } from "./Quote";
 import { CTA, ctaDefaults } from "./CTA";
 import { Showcase, showcaseDefaults } from "./Showcase";
-
-// Single source of truth: all compositions live here.
-// The editor reads from this for the scene picker.
-// The Remotion CLI uses this for `remotion render`.
+import { Tutorial, tutorialDefaults } from "./Tutorial";
 
 export const SCENE_FPS = 30;
 export const SCENE_W = 1080;
 export const SCENE_H = 1920;
-export const SCENE_DURATION = 5 * SCENE_FPS; // 5 seconds per preset
+export const SCENE_DURATION = 5 * SCENE_FPS;
 
 export const scenes = [
-  {
-    id: "Hook",
-    label: "Hook",
-    component: Hook,
-    defaults: hookDefaults,
-    durationInFrames: SCENE_DURATION,
-  },
-  {
-    id: "Title",
-    label: "Title",
-    component: Title,
-    defaults: titleDefaults,
-    durationInFrames: SCENE_DURATION,
-  },
-  {
-    id: "Bullets",
-    label: "Bullets",
-    component: Bullets,
-    defaults: bulletsDefaults,
-    durationInFrames: 7 * SCENE_FPS,
-  },
-  {
-    id: "Quote",
-    label: "Quote",
-    component: Quote,
-    defaults: quoteDefaults,
-    durationInFrames: 6 * SCENE_FPS,
-  },
-  {
-    id: "CTA",
-    label: "CTA",
-    component: CTA,
-    defaults: ctaDefaults,
-    durationInFrames: SCENE_DURATION,
-  },
+  { id: "Hook", label: "Hook", component: Hook, defaults: hookDefaults, durationInFrames: SCENE_DURATION },
+  { id: "Title", label: "Title", component: Title, defaults: titleDefaults, durationInFrames: SCENE_DURATION },
+  { id: "Bullets", label: "Bullets", component: Bullets, defaults: bulletsDefaults, durationInFrames: 7 * SCENE_FPS },
+  { id: "Quote", label: "Quote", component: Quote, defaults: quoteDefaults, durationInFrames: 6 * SCENE_FPS },
+  { id: "CTA", label: "CTA", component: CTA, defaults: ctaDefaults, durationInFrames: SCENE_DURATION },
 ] as const;
 
 export type SceneId = (typeof scenes)[number]["id"];
@@ -79,11 +46,18 @@ const Root: React.FC = () => {
         height={SCENE_H}
         defaultProps={showcaseDefaults}
       />
+      <Composition
+        id="Tutorial"
+        component={Tutorial}
+        durationInFrames={60 * SCENE_FPS}
+        fps={SCENE_FPS}
+        width={SCENE_W}
+        height={SCENE_H}
+        defaultProps={tutorialDefaults}
+      />
     </>
   );
 };
 
-// `remotion render` calls registerRoot. Vite ignores it (no ReactDOM.render).
 registerRoot(Root);
-
 export default Root;
