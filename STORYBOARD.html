@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>BBMW0 Technologies AI — 60s Showcase Storyboard</title>
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --accent: #7c5cff;
+    --accent2: #ff5cb1;
+    --text: #f5f5fa;
+    --text-dim: #a0a0b8;
+    --border: #2a2a3a;
+    --frame-w: 360px;
+    --frame-h: 640px; /* 9:16 */
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: radial-gradient(ellipse at top, #1a1430, var(--bg) 60%);
+    color: var(--text);
+    font-family: ui-sans-serif, -apple-system, "Inter", "Segoe UI", system-ui, sans-serif;
+    min-height: 100vh;
+    padding: 32px 16px 80px;
+  }
+  h1 {
+    font-size: 28px; margin: 0 0 6px; letter-spacing: -0.02em;
+    text-align: center;
+  }
+  .sub {
+    text-align: center; color: var(--text-dim); font-size: 14px; margin-bottom: 32px;
+  }
+  .stage {
+    width: var(--frame-w);
+    height: var(--frame-h);
+    margin: 0 auto;
+    border-radius: 22px;
+    overflow: hidden;
+    background: #000;
+    position: relative;
+    box-shadow: 0 30px 80px rgba(0,0,0,0.6), 0 0 0 1px var(--border) inset;
+  }
+  .controls {
+    display: flex; gap: 12px; justify-content: center; margin-top: 20px; align-items: center;
+  }
+  button {
+    background: var(--accent); color: #fff; border: 0; border-radius: 10px;
+    padding: 10px 18px; font-size: 14px; font-weight: 700; cursor: pointer;
+    box-shadow: 0 6px 20px rgba(124,92,255,0.3);
+  }
+  button.secondary { background: #1a1a26; color: var(--text); border: 1px solid var(--border); box-shadow: none; }
+  .timeline {
+    margin: 28px auto 0; max-width: 720px; display: grid; gap: 6px;
+  }
+  .timeline-bar { height: 6px; background: #1a1a26; border-radius: 3px; overflow: hidden; }
+  .timeline-fill { height: 100%; background: var(--accent); width: 0%; transition: width 0.1s linear; }
+  .timeline-labels {
+    display: grid; grid-template-columns: repeat(7, auto); gap: 0;
+    font-size: 11px; color: var(--text-mute, #6a6a85);
+  }
+  .timeline-labels span { padding: 4px 0; text-align: left; font-variant-numeric: tabular-nums;}
+
+  /* === Scenes === */
+  .scene {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 24px; text-align: center;
+    opacity: 0; pointer-events: none;
+  }
+  .scene.active { opacity: 1; pointer-events: auto; animation: fade 0.4s ease both; }
+  @keyframes fade { from { opacity: 0; transform: scale(0.97);} to { opacity: 1; transform: none;} }
+
+  /* Scene 1 — Hook */
+  .s-hook { background: radial-gradient(ellipse at 50% 30%, rgba(124,92,255,0.3), var(--bg) 65%); }
+  .s-hook .emoji { font-size: 90px; margin-bottom: 16px; animation: bounce 0.6s ease both, wobble 1.6s ease-in-out infinite; transform-origin: center; }
+  .s-hook h1 { font-size: 36px; line-height: 1.05; font-weight: 900; letter-spacing: -0.02em; margin: 0; text-shadow: 0 0 30px rgba(124,92,255,0.6); animation: rise 0.5s 0.05s ease both;}
+  @keyframes bounce { from { transform: scale(0);} to { transform: scale(1);} }
+  @keyframes rise { from { opacity: 0; transform: translateY(20px);} to { opacity: 1; transform: none;} }
+  @keyframes wobble { 0%,100% { transform: rotate(-2deg);} 50% { transform: rotate(2deg);} }
+
+  /* Scene 2 — Title */
+  .s-title { background: linear-gradient(160deg, var(--bg) 0%, #1a1430 100%); }
+  .s-title .mark {
+    width: 64px; height: 64px; border-radius: 16px;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    display: grid; place-items: center; color: white; font-size: 32px; font-weight: 900;
+    box-shadow: 0 12px 40px rgba(124,92,255,0.5);
+    margin-bottom: 20px;
+    animation: pop 0.5s ease both;
+  }
+  .s-title h1 { font-size: 32px; line-height: 1; letter-spacing: -0.03em; font-weight: 900; margin: 0; animation: rise 0.5s 0.1s ease both;}
+  .s-title .underline { width: 0; height: 3px; background: var(--accent); border-radius: 2px; margin: 16px 0; box-shadow: 0 0 16px var(--accent); animation: grow 0.6s 0.3s ease both forwards;}
+  .s-title p { color: rgba(255,255,255,0.78); font-size: 16px; margin: 0; max-width: 280px; animation: rise 0.5s 0.4s ease both;}
+  @keyframes pop { from { transform: scale(0);} to { transform: scale(1);}}
+  @keyframes grow { from { width: 0;} to { width: 60%;} }
+
+  /* Scene 3 — Bullets */
+  .s-bullets { background: var(--bg); padding: 32px 24px; }
+  .s-bullets .label { color: var(--accent); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 700; margin-bottom: 8px; animation: rise 0.4s ease both;}
+  .s-bullets h2 { font-size: 30px; line-height: 1.05; letter-spacing: -0.02em; font-weight: 900; margin: 0 0 28px; animation: rise 0.4s 0.05s ease both; text-align: left;}
+  .s-bullets .item { display: flex; gap: 14px; align-items: center; margin-bottom: 14px; opacity: 0; animation: bulletIn 0.4s ease both;}
+  .s-bullets .item:nth-child(3) { animation-delay: 0.5s;}
+  .s-bullets .item:nth-child(4) { animation-delay: 0.9s;}
+  .s-bullets .item:nth-child(5) { animation-delay: 1.3s;}
+  .s-bullets .num {
+    width: 36px; height: 36px; border-radius: 12px;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    display: grid; place-items: center; color: white; font-weight: 900; font-size: 17px;
+    box-shadow: 0 6px 20px rgba(124,92,255,0.5); flex-shrink: 0;
+  }
+  .s-bullets .text { font-size: 18px; font-weight: 700; line-height: 1.2; text-align: left;}
+  @keyframes bulletIn { from { opacity: 0; transform: translateX(-30px);} to { opacity: 1; transform: none;} }
+
+  /* Scene 4 — Quote */
+  .s-quote { background: radial-gradient(ellipse at 30% 0%, rgba(124,92,255,0.18), var(--bg) 70%); align-items: flex-start; text-align: left; padding: 32px;}
+  .s-quote .qmark { font-size: 110px; color: var(--accent); line-height: 0.7; font-family: Georgia, serif; opacity: 0.7; margin-bottom: -10px; animation: pop 0.5s ease both;}
+  .s-quote p { font-size: 26px; font-weight: 600; line-height: 1.15; margin: 0; animation: rise 0.5s 0.1s ease both;}
+  .s-quote .cite { display: flex; align-items: center; gap: 10px; margin-top: 24px; color: rgba(255,255,255,0.7); font-size: 14px; animation: rise 0.5s 0.3s ease both;}
+  .s-quote .cite::before { content: ""; width: 28px; height: 3px; background: var(--accent); border-radius: 2px;}
+
+  /* Scene 5 — Hook 2 */
+  .s-hook2 { background: radial-gradient(ellipse at 50% 30%, rgba(124,92,255,0.3), var(--bg) 65%); }
+  .s-hook2 .emoji { font-size: 80px; margin-bottom: 14px; animation: spin 1.2s ease-in-out infinite alternate;}
+  .s-hook2 h1 { font-size: 32px; line-height: 1.05; font-weight: 900; letter-spacing: -0.02em; margin: 0; animation: rise 0.4s ease both;}
+  @keyframes spin { from { transform: rotate(-15deg);} to { transform: rotate(15deg);} }
+
+  /* Scene 6 — Tool demo (phone mockup) */
+  .s-demo { background: radial-gradient(ellipse at 50% 0%, #1a1430 0%, var(--bg) 60%); padding: 24px 16px 0; justify-content: flex-start; gap: 12px;}
+  .s-demo .topline { color: var(--accent); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 700; margin-top: 12px; animation: rise 0.4s ease both;}
+  .s-demo h2 { font-size: 24px; line-height: 1.05; font-weight: 900; letter-spacing: -0.02em; margin: 0 0 4px; animation: rise 0.4s 0.05s ease both;}
+  .s-demo h2 span { color: var(--accent); }
+  .s-demo .phone {
+    width: 200px; height: 380px; background: #12121a; border: 4px solid #2a2a3a;
+    border-radius: 28px; box-shadow: 0 16px 50px rgba(0,0,0,0.6); overflow: hidden;
+    position: relative; animation: rise 0.5s 0.1s ease both;
+  }
+  .s-demo .phone .pview {
+    margin: 14px 14px 0; height: 145px; border-radius: 14px;
+    background: radial-gradient(ellipse at 50% 30%, rgba(124,92,255,0.4), #050510 70%);
+    display: grid; place-items: center; padding: 8px;
+    border: 1px solid #2a2a3a;
+  }
+  .s-demo .phone .pview .e { font-size: 30px; }
+  .s-demo .phone .pview .t { font-size: 10px; font-weight: 900; line-height: 1.1; text-align: center; margin-top: 4px;}
+  .s-demo .phone .tabs { display: flex; gap: 4px; padding: 8px 12px; }
+  .s-demo .phone .tab { padding: 4px 8px; border-radius: 999px; font-size: 8px; font-weight: 700; background: #1a1a26; color: var(--text-dim); border: 1px solid var(--border);}
+  .s-demo .phone .tab.active { background: var(--accent); color: white; border-color: var(--accent); animation: tabSwitch 1.2s ease infinite;}
+  @keyframes tabSwitch {
+    0%,33% { background: var(--accent);}
+    34%,66% { background: var(--accent);}
+    67%,100% { background: var(--accent);}
+  }
+  .s-demo .phone .editor {
+    margin: 4px 12px; background: #1a1a26; border-radius: 10px; padding: 10px;
+    border: 1px solid #2a2a3a;
+  }
+  .s-demo .phone .editor .lab { font-size: 7px; color: #6a6a85; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 700; margin-bottom: 4px;}
+  .s-demo .phone .editor .input { background: #0a0a0f; border-radius: 5px; padding: 6px; font-size: 9px; border: 1px solid var(--border); margin-bottom: 6px;}
+  .s-demo .phone .editor .swatches { display: flex; gap: 4px;}
+  .s-demo .phone .editor .swatches > div { width: 14px; height: 14px; border-radius: 50%; }
+  .s-demo .phone .cta {
+    position: absolute; bottom: 14px; left: 12px; right: 12px; height: 28px;
+    background: var(--accent); border-radius: 8px; display: grid; place-items: center;
+    color: white; font-size: 10px; font-weight: 700; box-shadow: 0 4px 12px rgba(124,92,255,0.6);
+    animation: tap 1.6s ease-in-out infinite;
+  }
+  @keyframes tap {
+    0%, 80%, 100% { transform: scale(1);}
+    85% { transform: scale(0.94);}
+  }
+  .s-demo .phone .finger {
+    position: absolute; bottom: 8px; right: 24px; width: 22px; height: 22px;
+    border: 2px solid white; border-radius: 50%; background: rgba(255,255,255,0.15);
+    animation: tapDot 1.6s ease-in-out infinite;
+  }
+  @keyframes tapDot {
+    0%, 80%, 100% { transform: translateY(0); opacity: 0.4;}
+    85% { transform: translateY(-4px); opacity: 1;}
+  }
+
+  /* Scene 7 — CTA */
+  .s-cta { background: linear-gradient(160deg, #1a0f2e 0%, var(--bg) 100%); }
+  .s-cta h1 { font-size: 36px; line-height: 1; font-weight: 900; letter-spacing: -0.03em; margin: 0 0 12px; animation: rise 0.5s ease both;}
+  .s-cta .arrow { font-size: 40px; animation: pulse 1s ease-in-out infinite;}
+  @keyframes pulse { 0%,100% { transform: translateY(-4px);} 50% { transform: translateY(4px);} }
+  .s-cta .url {
+    background: rgba(255,255,255,0.04); border: 2px solid var(--accent); border-radius: 14px;
+    padding: 14px 18px; font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 14px; font-weight: 600; word-break: break-all;
+    box-shadow: 0 0 30px rgba(124,92,255,0.5), inset 0 0 10px rgba(124,92,255,0.2);
+    animation: rise 0.5s 0.2s ease both;
+    margin-top: 10px;
+  }
+
+  /* progress bar inside the phone preview */
+  .stage .progress {
+    position: absolute; bottom: 12px; left: 12px; right: 12px;
+    height: 3px; background: rgba(255,255,255,0.18); border-radius: 2px;
+    z-index: 50; pointer-events: none;
+  }
+  .stage .progress span {
+    display: block; height: 100%; width: 0%;
+    background: var(--accent); border-radius: 2px;
+    box-shadow: 0 0 8px var(--accent);
+    transition: width 0.05s linear;
+  }
+
+  /* time pill */
+  .time {
+    position: absolute; top: 10px; right: 12px;
+    background: rgba(0,0,0,0.5); backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    color: white; font-size: 11px; font-variant-numeric: tabular-nums;
+    padding: 4px 9px; border-radius: 999px; z-index: 50;
+  }
+</style>
+</head>
+<body>
+  <h1>BBMW0 Technologies AI — 60s Storyboard</h1>
+  <p class="sub">Animated preview of the YouTube Short. The actual MP4 will be a polished 1080×1920 H.264.</p>
+
+  <div class="stage" id="stage">
+
+    <!-- Scene 1: 0–5s Hook -->
+    <div class="scene s-hook" data-from="0" data-to="5">
+      <div class="emoji">👀</div>
+      <h1>POV: you stop scrolling</h1>
+    </div>
+
+    <!-- Scene 2: 5–10s Title -->
+    <div class="scene s-title" data-from="5" data-to="10">
+      <div class="mark">B</div>
+      <h1>BBMW0<br/>Technologies AI</h1>
+      <div class="underline"></div>
+      <p>Make a Short. In seconds.</p>
+    </div>
+
+    <!-- Scene 3: 10–17s Bullets -->
+    <div class="scene s-bullets" data-from="10" data-to="17">
+      <div class="label">★ Highlights</div>
+      <h2>Why this is different</h2>
+      <div class="item"><div class="num">1</div><div class="text">Touch-first, 9:16 by default</div></div>
+      <div class="item"><div class="num">2</div><div class="text">Swipe between scenes</div></div>
+      <div class="item"><div class="num">3</div><div class="text">Export to MP4 in one tap</div></div>
+    </div>
+
+    <!-- Scene 4: 17–22s Quote -->
+    <div class="scene s-quote" data-from="17" data-to="22">
+      <div class="qmark">"</div>
+      <p>If you can scroll it, you can edit it.</p>
+      <div class="cite">BBMW0 Manifesto</div>
+    </div>
+
+    <!-- Scene 5: 22–26s Hook 2 -->
+    <div class="scene s-hook2" data-from="22" data-to="26">
+      <div class="emoji">✨</div>
+      <h1>Now look how it works ↓</h1>
+    </div>
+
+    <!-- Scene 6: 26–50s Tool Demo -->
+    <div class="scene s-demo" data-from="26" data-to="50">
+      <div class="topline">✦ The Tool ✦</div>
+      <h2>Made in 30 seconds<br/>on your <span>phone</span></h2>
+      <div class="phone">
+        <div class="pview">
+          <div>
+            <div class="e">👀</div>
+            <div class="t">POV: you stop scrolling</div>
+          </div>
+        </div>
+        <div class="tabs">
+          <div class="tab active">Hook</div>
+          <div class="tab">Title</div>
+          <div class="tab">Bullets</div>
+          <div class="tab">CTA</div>
+        </div>
+        <div class="editor">
+          <div class="lab">Text</div>
+          <div class="input">POV: you stop scrolling</div>
+          <div class="lab">Color</div>
+          <div class="swatches">
+            <div style="background:#7c5cff; border:2px solid white;"></div>
+            <div style="background:#ff5cb1;"></div>
+            <div style="background:#22d3a8;"></div>
+            <div style="background:#ffb547;"></div>
+            <div style="background:#ff5e7e;"></div>
+          </div>
+        </div>
+        <div class="cta">Export to MP4</div>
+        <div class="finger"></div>
+      </div>
+    </div>
+
+    <!-- Scene 7: 50–60s CTA -->
+    <div class="scene s-cta" data-from="50" data-to="60">
+      <h1>Try it yourself</h1>
+      <div class="arrow">↓</div>
+      <div class="url">github.com/BBMW0/<br/>bbmw0-technologies-ai</div>
+    </div>
+
+    <div class="time" id="time">0:00</div>
+    <div class="progress"><span id="pbar"></span></div>
+  </div>
+
+  <div class="controls">
+    <button id="play">⏯ Play / Pause</button>
+    <button class="secondary" id="restart">↺ Restart</button>
+  </div>
+
+  <div class="timeline">
+    <div class="timeline-bar"><div class="timeline-fill" id="tlfill"></div></div>
+    <div class="timeline-labels">
+      <span>0:00 Hook</span>
+      <span>0:05 Title</span>
+      <span>0:10 Bullets</span>
+      <span>0:17 Quote</span>
+      <span>0:22 Tease</span>
+      <span>0:26 Demo</span>
+      <span>0:50 CTA</span>
+    </div>
+  </div>
+
+<script>
+  const TOTAL = 60; // seconds
+  const scenes = [...document.querySelectorAll('.scene')];
+  const time = document.getElementById('time');
+  const pbar = document.getElementById('pbar');
+  const tlfill = document.getElementById('tlfill');
+  const playBtn = document.getElementById('play');
+  const restartBtn = document.getElementById('restart');
+
+  let t = 0;          // current time in seconds
+  let last = null;    // last animation frame timestamp
+  let playing = true;
+
+  function setActiveScene() {
+    let any = false;
+    scenes.forEach(s => {
+      const from = +s.dataset.from, to = +s.dataset.to;
+      const isActive = t >= from && t < to;
+      if (isActive !== s.classList.contains('active')) {
+        s.classList.toggle('active', isActive);
+      }
+      any = any || isActive;
+    });
+    // ensure at end the CTA stays
+    if (t >= TOTAL) {
+      scenes[scenes.length - 1].classList.add('active');
+    }
+  }
+
+  function fmt(s) {
+    const m = Math.floor(s / 60);
+    const sec = Math.floor(s % 60).toString().padStart(2, '0');
+    return `${m}:${sec}`;
+  }
+
+  function tick(now) {
+    if (last === null) last = now;
+    const dt = (now - last) / 1000;
+    last = now;
+    if (playing) {
+      t += dt;
+      if (t >= TOTAL) {
+        t = TOTAL;
+        playing = false;
+      }
+    }
+    setActiveScene();
+    const pct = Math.min(t / TOTAL, 1);
+    time.textContent = fmt(t);
+    pbar.style.width = (pct * 100) + '%';
+    tlfill.style.width = (pct * 100) + '%';
+    requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+
+  playBtn.addEventListener('click', () => {
+    if (t >= TOTAL) { t = 0; }
+    playing = !playing;
+    last = null;
+  });
+  restartBtn.addEventListener('click', () => {
+    t = 0;
+    last = null;
+    playing = true;
+  });
+</script>
+</body>
+</html>

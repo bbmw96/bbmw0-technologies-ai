@@ -1,0 +1,29 @@
+{
+  "name": "bbmw0-technologies-ai",
+  "version": "0.1.0",
+  "description": "Mobile-first, Shorts-native video editor built on Remotion. Touch-friendly, 9:16 by default, AI-assisted.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "render": "remotion render src/compositions/registry.tsx",
+    "render:short": "remotion render --props=./project.json src/compositions/registry.tsx Showcase out/short.mp4"
+  },
+  "dependencies": {
+    "@remotion/player": "4.0.454",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.454"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.454",
+    "@remotion/eslint-config-flat": "4.0.454",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "@vitejs/plugin-react": "4.3.3",
+    "typescript": "5.6.3",
+    "vite": "5.4.10"
+  }
+}
