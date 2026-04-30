@@ -10,11 +10,21 @@ import { Battle, battleDefaults } from "./Battle";
 import { SpeedRun, speedRunDefaults } from "./SpeedRun";
 import { FeatureDrop, featureDropDefaults } from "./FeatureDrop";
 import { LongForm, longFormDefaults } from "./LongForm";
+import {
+  ConsensusShort, consensusShortDefaults,
+  PhoneInstallShort, phoneInstallShortDefaults,
+  LanguagesShort, languagesShortDefaults,
+  PresetsShort, presetsShortDefaults,
+  OpenSourceShort, openSourceShortDefaults,
+  MobileFirstShort, mobileFirstShortDefaults,
+} from "./themedShorts";
 
 export const SCENE_FPS = 30;
 export const SCENE_W = 1080;
 export const SCENE_H = 1920;
 export const SCENE_DURATION = 5 * SCENE_FPS;
+const SHORT_60S = 60 * SCENE_FPS;
+const SHORT_40S = 40 * SCENE_FPS;
 
 export const scenes = [
   { id: "Hook", label: "Hook", component: Hook, defaults: hookDefaults, durationInFrames: SCENE_DURATION },
@@ -41,62 +51,24 @@ const Root: React.FC = () => {
           defaultProps={s.defaults as any}
         />
       ))}
-      {/* 60-second vertical Shorts (1080×1920) */}
-      <Composition
-        id="Showcase"
-        component={Showcase}
-        durationInFrames={60 * SCENE_FPS}
-        fps={SCENE_FPS}
-        width={SCENE_W}
-        height={SCENE_H}
-        defaultProps={showcaseDefaults}
-      />
-      <Composition
-        id="Tutorial"
-        component={Tutorial}
-        durationInFrames={60 * SCENE_FPS}
-        fps={SCENE_FPS}
-        width={SCENE_W}
-        height={SCENE_H}
-        defaultProps={tutorialDefaults}
-      />
-      <Composition
-        id="Battle"
-        component={Battle}
-        durationInFrames={60 * SCENE_FPS}
-        fps={SCENE_FPS}
-        width={SCENE_W}
-        height={SCENE_H}
-        defaultProps={battleDefaults}
-      />
-      <Composition
-        id="SpeedRun"
-        component={SpeedRun}
-        durationInFrames={60 * SCENE_FPS}
-        fps={SCENE_FPS}
-        width={SCENE_W}
-        height={SCENE_H}
-        defaultProps={speedRunDefaults}
-      />
-      <Composition
-        id="FeatureDrop"
-        component={FeatureDrop}
-        durationInFrames={60 * SCENE_FPS}
-        fps={SCENE_FPS}
-        width={SCENE_W}
-        height={SCENE_H}
-        defaultProps={featureDropDefaults}
-      />
-      {/* 30-minute landscape long-form (1920×1080) */}
-      <Composition
-        id="LongForm"
-        component={LongForm}
-        durationInFrames={30 * 60 * SCENE_FPS}
-        fps={SCENE_FPS}
-        width={1920}
-        height={1080}
-        defaultProps={longFormDefaults}
-      />
+
+      {/* 60s vertical Shorts (1080x1920) */}
+      <Composition id="Showcase" component={Showcase} durationInFrames={SHORT_60S} fps={SCENE_FPS} width={SCENE_W} height={SCENE_H} defaultProps={showcaseDefaults} />
+      <Composition id="Tutorial" component={Tutorial} durationInFrames={SHORT_60S} fps={SCENE_FPS} width={SCENE_W} height={SCENE_H} defaultProps={tutorialDefaults} />
+      <Composition id="Battle" component={Battle} durationInFrames={SHORT_60S} fps={SCENE_FPS} width={SCENE_W} height={SCENE_H} defaultProps={battleDefaults} />
+      <Composition id="SpeedRun" component={SpeedRun} durationInFrames={SHORT_60S} fps={SCENE_FPS} width={SCENE_W} height={SCENE_H} defaultProps={speedRunDefaults} />
+      <Composition id="FeatureDrop" component={FeatureDrop} durationInFrames={SHORT_60S} fps={SCENE_FPS} width={SCENE_W} height={SCENE_H} defaultProps={featureDropDefaults} />
+
+      {/* 40s themed Shorts (1080x1920) */}
+      <Composition id="Consensus" component={ConsensusShort} durationInFrames={SHORT_40S} fps={SCENE_FPS} width={SCENE_W} height={SCENE_H} defaultProps={consensusShortDefaults} />
+      <Composition id="PhoneInstall" component={PhoneInstallShort} durationInFrames={SHORT_40S} fps={SCENE_FPS} width={SCENE_W} height={SCENE_H} defaultProps={phoneInstallShortDefaults} />
+      <Composition id="Languages" component={LanguagesShort} durationInFrames={SHORT_40S} fps={SCENE_FPS} width={SCENE_W} height={SCENE_H} defaultProps={languagesShortDefaults} />
+      <Composition id="Presets" component={PresetsShort} durationInFrames={SHORT_40S} fps={SCENE_FPS} width={SCENE_W} height={SCENE_H} defaultProps={presetsShortDefaults} />
+      <Composition id="OpenSource" component={OpenSourceShort} durationInFrames={SHORT_40S} fps={SCENE_FPS} width={SCENE_W} height={SCENE_H} defaultProps={openSourceShortDefaults} />
+      <Composition id="MobileFirst" component={MobileFirstShort} durationInFrames={SHORT_40S} fps={SCENE_FPS} width={SCENE_W} height={SCENE_H} defaultProps={mobileFirstShortDefaults} />
+
+      {/* 30-minute long-form (1920x1080) */}
+      <Composition id="LongForm" component={LongForm} durationInFrames={30 * 60 * SCENE_FPS} fps={SCENE_FPS} width={1920} height={1080} defaultProps={longFormDefaults} />
     </>
   );
 };

@@ -1,6 +1,6 @@
 {
   "name": "bbmw0-technologies-ai",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Mobile-first, Shorts-native video editor built on Remotion. Touch-friendly, 9:16 by default, AI-assisted, 10 languages, 5-LLM consensus.",
   "private": true,
   "type": "module",
@@ -14,8 +14,15 @@
     "render:battle": "remotion render src/compositions/registry.tsx Battle out/battle.mp4",
     "render:speedrun": "remotion render src/compositions/registry.tsx SpeedRun out/speedrun.mp4",
     "render:featuredrop": "remotion render src/compositions/registry.tsx FeatureDrop out/featuredrop.mp4",
+    "render:consensus": "remotion render src/compositions/registry.tsx Consensus out/consensus.mp4",
+    "render:phoneinstall": "remotion render src/compositions/registry.tsx PhoneInstall out/phoneinstall.mp4",
+    "render:languages": "remotion render src/compositions/registry.tsx Languages out/languages.mp4",
+    "render:presets": "remotion render src/compositions/registry.tsx Presets out/presets.mp4",
+    "render:opensource": "remotion render src/compositions/registry.tsx OpenSource out/opensource.mp4",
+    "render:mobilefirst": "remotion render src/compositions/registry.tsx MobileFirst out/mobilefirst.mp4",
     "render:longform": "remotion render src/compositions/registry.tsx LongForm out/longform.mp4",
-    "render:all-shorts": "npm run render:short && npm run render:tutorial && npm run render:battle && npm run render:speedrun && npm run render:featuredrop"
+    "render:all-themed": "npm run render:consensus && npm run render:phoneinstall && npm run render:languages && npm run render:presets && npm run render:opensource && npm run render:mobilefirst",
+    "render:all-shorts": "npm run render:short && npm run render:tutorial && npm run render:battle && npm run render:speedrun && npm run render:featuredrop && npm run render:all-themed"
   },
   "dependencies": {
     "@remotion/player": "4.0.454",

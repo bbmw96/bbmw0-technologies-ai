@@ -179,7 +179,14 @@ async function callGemini(
   const j = await r.json();
   const text: string =
     j.candidates?.[0]?.content?.parts?.[0]?.text ?? "{}";
-  return JSON.parse(text);
+  const cleaned = text.replace(/^```(?:json)?\s*|\s*```$/g, "").trim();
+  try {
+    return JSON.parse(cleaned);
+  } catch (e) {
+    throw new Error(
+      `gemini returned non-JSON: ${cleaned.slice(0, 200)} (${(e as Error).message})`,
+    );
+  }
 }
 
 async function callPerplexity(
@@ -397,34 +404,47 @@ export default async function handler(req: Request): Promise<Response> {
     );
   }
 
-  // Pick a single provider — either the requested one or the highest-priority available
-  let pick: ProviderId;
+  // Specific provider requested.
   if ((PROVIDER_PRIORITY as string[]).includes(mode)) {
-    pick = mode as ProviderId;
+    const pick = mode as ProviderId;
     if (!available.includes(pick)) {
       return Response.json(
         { error: `provider '${mode}' has no key configured` },
         { status: 400, headers: corsHeaders() },
       );
     }
-  } else {
-    pick = available[0];
+    const result = await callOne(pick, prompt, sceneId);
+    if (!result._ok) {
+      return Response.json(
+        { error: `provider '${pick}' failed`, detail: result._error },
+        { status: 502, headers: corsHeaders() },
+      );
+    }
+    return Response.json(
+      { suggestion: stripMeta(result), mode: pick, ms: result._ms },
+      { headers: corsHeaders() },
+    );
   }
 
-  const result = await callOne(pick, prompt, sceneId);
-  if (!result._ok) {
-    return Response.json(
-      { error: `provider '${pick}' failed`, detail: result._error },
-      { status: 502, headers: corsHeaders() },
-    );
+  // Auto mode. Try providers in priority order until one succeeds.
+  const attempts: { provider: ProviderId; error?: string }[] = [];
+  for (const p of available) {
+    const result = await callOne(p, prompt, sceneId);
+    attempts.push({ provider: p, error: result._error });
+    if (result._ok) {
+      return Response.json(
+        { suggestion: stripMeta(result), mode: p, ms: result._ms, attempts },
+        { headers: corsHeaders() },
+      );
+    }
   }
   return Response.json(
     {
-      suggestion: stripMeta(result),
-      mode: pick,
-      ms: result._ms,
+      error: "all configured providers failed",
+      attempts,
+      hint: "Check your API keys in Vercel env vars, or the providers' rate limits.",
     },
-    { headers: corsHeaders() },
+    { status: 502, headers: corsHeaders() },
   );
 }
 
