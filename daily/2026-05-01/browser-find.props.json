@@ -1,0 +1,57 @@
+{
+  "themeId": "sunset",
+  "fontFamilyId": "mono",
+  "audioUrl": "sounds/Drums.mp3",
+  "audioVolume": 0.4,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Heads up.",
+      "text": "Ctrl+F searches any page.",
+      "sub": "Here's the thing.",
+      "durationInFrames": 204,
+      "variant": 3
+    },
+    {
+      "kind": "bigword",
+      "text": "Finds words you missed.",
+      "durationInFrames": 217,
+      "variant": 2
+    },
+    {
+      "kind": "stat",
+      "number": "3 keys",
+      "label": "Hold that thought.",
+      "durationInFrames": 229,
+      "variant": 2
+    },
+    {
+      "kind": "list",
+      "heading": "What this means",
+      "items": [
+        "Less mouse, more keys",
+        "Fewer apps, more focus",
+        "Smaller batches, faster wins"
+      ],
+      "durationInFrames": 257,
+      "variant": 3
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Pause.",
+        "Think.",
+        "Save."
+      ],
+      "durationInFrames": 165,
+      "variant": 2
+    },
+    {
+      "kind": "cta",
+      "headline": "Worth knowing.",
+      "url": "youtube.com/@bbmw0",
+      "durationInFrames": 128,
+      "variant": 2
+    }
+  ]
+}

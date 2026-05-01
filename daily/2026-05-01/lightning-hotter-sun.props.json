@@ -1,0 +1,57 @@
+{
+  "themeId": "slate",
+  "fontFamilyId": "serif",
+  "audioUrl": "sounds/ocean waves.mp3",
+  "audioVolume": 0.5,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Did you know.",
+      "text": "Lightning is hotter than the Sun.",
+      "sub": "Here's the thing.",
+      "durationInFrames": 244,
+      "variant": 2
+    },
+    {
+      "kind": "bigword",
+      "text": "Five times hotter.",
+      "durationInFrames": 235,
+      "variant": 2
+    },
+    {
+      "kind": "stat",
+      "number": "10",
+      "label": "Think about it.",
+      "durationInFrames": 228,
+      "variant": 1
+    },
+    {
+      "kind": "list",
+      "heading": "Quick context",
+      "items": [
+        "Experiments first",
+        "Then a theory",
+        "Then peer review"
+      ],
+      "durationInFrames": 242,
+      "variant": 1
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Tap.",
+        "Save.",
+        "Reuse."
+      ],
+      "durationInFrames": 131,
+      "variant": 3
+    },
+    {
+      "kind": "cta",
+      "headline": "Worth knowing.",
+      "url": "github.com/bbmw96/bbmw0-technologies-ai",
+      "durationInFrames": 120,
+      "variant": 3
+    }
+  ]
+}

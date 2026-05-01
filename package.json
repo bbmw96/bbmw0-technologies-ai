@@ -1,7 +1,7 @@
 {
   "name": "bbmw0-technologies-ai",
-  "version": "0.3.0",
-  "description": "Mobile-first, Shorts-native video editor built on Remotion. Touch-friendly, 9:16 by default, AI-assisted, 10 languages, 5-LLM consensus.",
+  "version": "0.4.0",
+  "description": "Mobile-first, Shorts-native video editor built on Remotion. Touch-friendly, 9:16 by default, AI-assisted, 10 languages, 5-LLM consensus, daily auto-publish to YouTube.",
   "private": true,
   "type": "module",
   "scripts": {
@@ -20,12 +20,23 @@
     "render:presets": "remotion render src/compositions/registry.tsx Presets out/presets.mp4",
     "render:opensource": "remotion render src/compositions/registry.tsx OpenSource out/opensource.mp4",
     "render:mobilefirst": "remotion render src/compositions/registry.tsx MobileFirst out/mobilefirst.mp4",
+    "render:whyvertical": "remotion render src/compositions/registry.tsx WhyVertical out/whyvertical.mp4",
+    "render:yourpocket": "remotion render src/compositions/registry.tsx YourPocket out/yourpocket.mp4",
+    "render:fromidea": "remotion render src/compositions/registry.tsx FromIdea out/fromidea.mp4",
     "render:longform": "remotion render src/compositions/registry.tsx LongForm out/longform.mp4",
-    "render:all-themed": "npm run render:consensus && npm run render:phoneinstall && npm run render:languages && npm run render:presets && npm run render:opensource && npm run render:mobilefirst",
-    "render:all-shorts": "npm run render:short && npm run render:tutorial && npm run render:battle && npm run render:speedrun && npm run render:featuredrop && npm run render:all-themed"
+    "render:all-themed": "npm run render:consensus && npm run render:phoneinstall && npm run render:languages && npm run render:presets && npm run render:opensource && npm run render:mobilefirst && npm run render:whyvertical && npm run render:yourpocket && npm run render:fromidea",
+    "render:all-shorts": "npm run render:short && npm run render:tutorial && npm run render:battle && npm run render:speedrun && npm run render:featuredrop && npm run render:all-themed",
+    "yt:auth": "node scripts/youtube-auth.mjs",
+    "yt:upload": "node scripts/youtube-upload.mjs",
+    "gen:daily": "node scripts/generate-shorts.mjs",
+    "render:daily": "node scripts/render-batch.mjs",
+    "publish:daily": "node scripts/render-batch.mjs --upload",
+    "research:trends": "node scripts/research-trends.mjs",
+    "print:secrets": "node scripts/print-secrets.mjs"
   },
   "dependencies": {
     "@remotion/player": "4.0.454",
+    "googleapis": "^171.4.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "remotion": "4.0.454"

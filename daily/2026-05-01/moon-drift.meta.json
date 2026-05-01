@@ -1,0 +1,21 @@
+{
+  "slug": "moon-drift",
+  "date": "2026-05-01",
+  "title": "The Moon drifts 3.8cm away each year. #Shorts #didyouknow",
+  "description": "Pure kinetic typography. No faces, no chatter.\n\nThe Moon drifts 3.8cm away each year. It's slowly leaving.\n\nMade with BBMW0 Technologies AI — open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #didyouknow",
+  "tags": [
+    "shorts",
+    "quickfact",
+    "education",
+    "trivia"
+  ],
+  "categoryId": "27",
+  "privacy": "private",
+  "file": "out/daily-2026-05-01-moon-drift.mp4",
+  "propsFile": "daily/2026-05-01/moon-drift.props.json",
+  "durationInFrames": 1214,
+  "themeId": "forest",
+  "fontFamilyId": "rounded",
+  "audioUrl": "sounds/forest ambiance.mp3",
+  "niche": "space"
+}

@@ -1,0 +1,119 @@
+{
+  "_comment": "Tracks every video ever generated. Generator never reuses a topic. Delete entries here only if you want to republish.",
+  "topicsUsed": [
+    "browser-find",
+    "keyboard-tab",
+    "open-source-mit",
+    "rainbow-circle",
+    "git-snapshot",
+    "echo-bat",
+    "bananas-radioactive",
+    "moon-drift",
+    "sleep-stages",
+    "lightning-hotter-sun"
+  ],
+  "combosUsed": [
+    "sunset|mono|sounds/Drums.mp3",
+    "peach|display|sounds/rain.mp3",
+    "sandstorm|sans|sounds/thunder and rain.mp3",
+    "ember|rounded|sounds/Drums.mp3",
+    "glacier|sans|sounds/ocean waves.mp3",
+    "sunset|sans|sounds/Drums.mp3",
+    "ember|mono|sounds/thunder and rain.mp3",
+    "forest|rounded|sounds/forest ambiance.mp3",
+    "midnight|serif|sounds/thunder and rain.mp3",
+    "slate|serif|sounds/ocean waves.mp3"
+  ],
+  "videos": [
+    {
+      "id": "browser-find",
+      "date": "2026-05-01",
+      "themeId": "sunset",
+      "fontFamilyId": "mono",
+      "audioUrl": "sounds/Drums.mp3",
+      "title": "Ctrl+F searches any page. #Shorts",
+      "niche": "productivity"
+    },
+    {
+      "id": "keyboard-tab",
+      "date": "2026-05-01",
+      "themeId": "peach",
+      "fontFamilyId": "display",
+      "audioUrl": "sounds/rain.mp3",
+      "title": "Tab can navigate any web form. #Shorts",
+      "niche": "productivity"
+    },
+    {
+      "id": "open-source-mit",
+      "date": "2026-05-01",
+      "themeId": "sandstorm",
+      "fontFamilyId": "sans",
+      "audioUrl": "sounds/thunder and rain.mp3",
+      "title": "MIT licence means take it and ship it. #Shorts #learn",
+      "niche": "app"
+    },
+    {
+      "id": "rainbow-circle",
+      "date": "2026-05-01",
+      "themeId": "ember",
+      "fontFamilyId": "rounded",
+      "audioUrl": "sounds/Drums.mp3",
+      "title": "Rainbows are full circles. #Shorts #quickfact",
+      "niche": "weather"
+    },
+    {
+      "id": "git-snapshot",
+      "date": "2026-05-01",
+      "themeId": "glacier",
+      "fontFamilyId": "sans",
+      "audioUrl": "sounds/ocean waves.mp3",
+      "title": "Git stores snapshots, not diffs. #Shorts",
+      "niche": "tech"
+    },
+    {
+      "id": "echo-bat",
+      "date": "2026-05-01",
+      "themeId": "sunset",
+      "fontFamilyId": "sans",
+      "audioUrl": "sounds/Drums.mp3",
+      "title": "Bats see with sound. #Shorts",
+      "niche": "animals"
+    },
+    {
+      "id": "bananas-radioactive",
+      "date": "2026-05-01",
+      "themeId": "ember",
+      "fontFamilyId": "mono",
+      "audioUrl": "sounds/thunder and rain.mp3",
+      "title": "Bananas are slightly radioactive. #Shorts #quickfact",
+      "niche": "food"
+    },
+    {
+      "id": "moon-drift",
+      "date": "2026-05-01",
+      "themeId": "forest",
+      "fontFamilyId": "rounded",
+      "audioUrl": "sounds/forest ambiance.mp3",
+      "title": "The Moon drifts 3.8cm away each year. #Shorts #didyouknow",
+      "niche": "space"
+    },
+    {
+      "id": "sleep-stages",
+      "date": "2026-05-01",
+      "themeId": "midnight",
+      "fontFamilyId": "serif",
+      "audioUrl": "sounds/thunder and rain.mp3",
+      "title": "You cycle through 5 sleep stages. #Shorts #learn",
+      "niche": "biology"
+    },
+    {
+      "id": "lightning-hotter-sun",
+      "date": "2026-05-01",
+      "themeId": "slate",
+      "fontFamilyId": "serif",
+      "audioUrl": "sounds/ocean waves.mp3",
+      "title": "Lightning is hotter than the Sun. #Shorts #learn",
+      "niche": "science"
+    }
+  ]
+}

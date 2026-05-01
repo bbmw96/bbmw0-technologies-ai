@@ -1,0 +1,119 @@
+name: Daily Shorts
+
+on:
+  schedule:
+    # 09:00 UTC every day. Adjust HH:MM to your preferred publish hour.
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+    # Lets you trigger manually from the Actions tab.
+    inputs:
+      count:
+        description: "Number of Shorts to publish"
+        required: false
+        default: "5"
+      niche:
+        description: "Optional niche filter (animals, space, science, etc.)"
+        required: false
+        default: ""
+      research:
+        description: "Refresh topics from AI research first?"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # needed to commit history back
+
+concurrency:
+  group: daily-shorts
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install ffmpeg + deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          npm ci
+          npm install googleapis
+
+      - name: Restore YouTube credentials from secrets
+        env:
+          OAUTH_CLIENT_JSON: ${{ secrets.YT_OAUTH_CLIENT_JSON }}
+          REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+        run: |
+          if [ -z "$OAUTH_CLIENT_JSON" ] || [ -z "$REFRESH_TOKEN" ]; then
+            echo "Missing YouTube secrets. Set YT_OAUTH_CLIENT_JSON, YT_REFRESH_TOKEN, YT_CLIENT_ID, YT_CLIENT_SECRET in repo settings." >&2
+            exit 1
+          fi
+          echo "$OAUTH_CLIENT_JSON" > scripts/oauth-client.json
+          cat > scripts/yt-credentials.json << JSON
+          {
+            "client_id": "$CLIENT_ID",
+            "client_secret": "$CLIENT_SECRET",
+            "refresh_token": "$REFRESH_TOKEN"
+          }
+          JSON
+
+      - name: (Optional) Refresh topic library via AI research
+        if: ${{ inputs.research == true }}
+        env:
+          AI_ENDPOINT: ${{ secrets.AI_ENDPOINT }}
+        run: |
+          node scripts/research-trends.mjs --count=10 || echo "research skipped (non-fatal)"
+
+      - name: Generate today's Shorts
+        run: |
+          DATE=$(date -u +%F)
+          COUNT="${{ inputs.count || '5' }}"
+          NICHE="${{ inputs.niche }}"
+          if [ -n "$NICHE" ]; then
+            node scripts/generate-shorts.mjs --count="$COUNT" --date="$DATE" --niche="$NICHE"
+          else
+            node scripts/generate-shorts.mjs --count="$COUNT" --date="$DATE"
+          fi
+
+      - name: Render and upload (private)
+        run: |
+          DATE=$(date -u +%F)
+          node scripts/render-batch.mjs --date="$DATE" --upload
+
+      - name: Clean up credentials
+        if: always()
+        run: |
+          rm -f scripts/oauth-client.json scripts/yt-credentials.json
+
+      - name: Commit history back
+        run: |
+          git config user.name "bbmw0-bot"
+          git config user.email "bot@bbmw0.local"
+          git add scripts/data/published.json daily/ scripts/data/topics.json scripts/data/trend-log.json 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -m "Daily Shorts: $(date -u +%F) [skip ci]"
+          git push
+
+      - name: Upload artefacts (videos + meta)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-shorts-${{ github.run_id }}
+          path: |
+            out/daily-*.mp4
+            daily/
+          retention-days: 14

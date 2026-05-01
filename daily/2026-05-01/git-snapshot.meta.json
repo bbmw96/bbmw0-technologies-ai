@@ -1,0 +1,21 @@
+{
+  "slug": "git-snapshot",
+  "date": "2026-05-01",
+  "title": "Git stores snapshots, not diffs. #Shorts",
+  "description": "Made on a phone. For a phone.\n\nGit stores snapshots, not diffs. That's why it's fast.\n\nMade with BBMW0 Technologies AI — open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts",
+  "tags": [
+    "shorts",
+    "science",
+    "facts",
+    "school"
+  ],
+  "categoryId": "28",
+  "privacy": "private",
+  "file": "out/daily-2026-05-01-git-snapshot.mp4",
+  "propsFile": "daily/2026-05-01/git-snapshot.props.json",
+  "durationInFrames": 1200,
+  "themeId": "glacier",
+  "fontFamilyId": "sans",
+  "audioUrl": "sounds/ocean waves.mp3",
+  "niche": "tech"
+}

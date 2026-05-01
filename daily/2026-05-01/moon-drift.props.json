@@ -1,0 +1,57 @@
+{
+  "themeId": "forest",
+  "fontFamilyId": "rounded",
+  "audioUrl": "sounds/forest ambiance.mp3",
+  "audioVolume": 0.5,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "One minute fact.",
+      "text": "The Moon drifts 3.8cm away each year.",
+      "sub": "Stay with us.",
+      "durationInFrames": 120,
+      "variant": 2
+    },
+    {
+      "kind": "bigword",
+      "text": "It's slowly leaving.",
+      "durationInFrames": 238,
+      "variant": 1
+    },
+    {
+      "kind": "stat",
+      "number": "299792",
+      "label": "Think about it.",
+      "durationInFrames": 254,
+      "variant": 3
+    },
+    {
+      "kind": "list",
+      "heading": "What's interesting",
+      "items": [
+        "Distance is wild",
+        "Time is weirder",
+        "Scale breaks brains"
+      ],
+      "durationInFrames": 260,
+      "variant": 3
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Watch.",
+        "Learn.",
+        "Apply."
+      ],
+      "durationInFrames": 168,
+      "variant": 1
+    },
+    {
+      "kind": "cta",
+      "headline": "Worth knowing.",
+      "url": "youtube.com/@bbmw0",
+      "durationInFrames": 174,
+      "variant": 2
+    }
+  ]
+}

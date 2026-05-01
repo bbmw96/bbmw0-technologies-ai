@@ -1,0 +1,57 @@
+{
+  "themeId": "peach",
+  "fontFamilyId": "display",
+  "audioUrl": "sounds/rain.mp3",
+  "audioVolume": 0.45,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "True story.",
+      "text": "Tab can navigate any web form.",
+      "sub": "Worth knowing.",
+      "durationInFrames": 248,
+      "variant": 2
+    },
+    {
+      "kind": "bigword",
+      "text": "No mouse needed.",
+      "durationInFrames": 202,
+      "variant": 1
+    },
+    {
+      "kind": "stat",
+      "number": "3 keys",
+      "label": "Worth remembering.",
+      "durationInFrames": 211,
+      "variant": 3
+    },
+    {
+      "kind": "list",
+      "heading": "What to remember",
+      "items": [
+        "Less mouse, more keys",
+        "Fewer apps, more focus",
+        "Smaller batches, faster wins"
+      ],
+      "durationInFrames": 255,
+      "variant": 2
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Watch.",
+        "Learn.",
+        "Apply."
+      ],
+      "durationInFrames": 150,
+      "variant": 1
+    },
+    {
+      "kind": "cta",
+      "headline": "Save this one.",
+      "url": "youtube.com/@bbmw0",
+      "durationInFrames": 134,
+      "variant": 1
+    }
+  ]
+}

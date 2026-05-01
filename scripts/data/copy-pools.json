@@ -1,0 +1,45 @@
+{
+  "_comment": "Copy variant pools per beat slot. The generator picks one entry per slot per video. Variation prevents identical videos.",
+  "eyebrows":     ["Did you know.", "Quick fact.", "Today, learn.", "One minute fact.", "True story.", "Listen.", "Wait, what?", "Heads up."],
+  "subs_intro":   ["Here's the thing.", "Stay with us.", "Worth knowing.", "Useful, actually.", "True, mostly.", "Look closer."],
+  "trio_outros":  [["See.", "Hear.", "Know."], ["Read.", "Note.", "Share."], ["Pause.", "Think.", "Save."], ["Watch.", "Learn.", "Apply."], ["Tap.", "Save.", "Reuse."]],
+  "trio_journeys":[["Idea.", "Try.", "Done."], ["Spot.", "Test.", "Ship."], ["Plan.", "Build.", "Show."]],
+  "list_headings":["Three things to know", "Quick context", "What this means", "What's interesting", "How it works", "Why it matters", "What to remember"],
+  "stat_labels":  ["Hold that thought.", "Worth remembering.", "Mind the number.", "Think about it.", "Keep that in mind."],
+  "cta_headlines":["Tell a friend.", "Save this one.", "Share it.", "Pass it on.", "Worth knowing.", "Now you know.", "File it away."],
+  "cta_urls": [
+    "bbmw0-technologies-ai.vercel.app",
+    "github.com/bbmw96/bbmw0-technologies-ai",
+    "youtube.com/@bbmw0",
+    "bbmw0-technologies-ai.vercel.app/install"
+  ],
+  "themes":   ["sunset","midnight","ocean","sandstorm","forest","neon","ember","glacier","lavender","mint","peach","slate"],
+  "fonts":    ["sans","display","mono","serif","rounded"],
+  "audios":   [
+    { "url": "sounds/Drums.mp3",                "vol": 0.40 },
+    { "url": "sounds/forest ambiance.mp3",      "vol": 0.50 },
+    { "url": "sounds/ocean waves.mp3",          "vol": 0.50 },
+    { "url": "sounds/rain.mp3",                 "vol": 0.45 },
+    { "url": "sounds/thunder and rain.mp3",     "vol": 0.45 },
+    { "url": "sounds/waterfalls and frogs.mp3", "vol": 0.50 }
+  ],
+  "title_tags": ["#Shorts", "#Shorts #facts", "#Shorts #didyouknow", "#Shorts #learn", "#Shorts #quickfact", "#Shorts"],
+  "description_intros": [
+    "Here's a one-minute fact you didn't know you needed.",
+    "A quick fact, in vertical, with no faces and no fluff.",
+    "Daily Short. Drop a comment if you knew it.",
+    "Take 40 seconds. Learn something tiny.",
+    "Pure kinetic typography. No faces, no chatter.",
+    "Made on a phone. For a phone."
+  ],
+  "tag_pools": [
+    "shorts,facts,didyouknow,learning",
+    "shorts,quickfact,education,trivia",
+    "shorts,science,facts,school",
+    "shorts,history,facts,education",
+    "shorts,animals,nature,facts",
+    "shorts,space,facts,astronomy",
+    "shorts,coding,tech,developer",
+    "shorts,productivity,tips,learn"
+  ]
+}

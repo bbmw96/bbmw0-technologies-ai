@@ -1,0 +1,21 @@
+{
+  "slug": "bananas-radioactive",
+  "date": "2026-05-01",
+  "title": "Bananas are slightly radioactive. #Shorts #quickfact",
+  "description": "Made on a phone. For a phone.\n\nBananas are slightly radioactive. Just enough to be safe.\n\nMade with BBMW0 Technologies AI — open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #quickfact",
+  "tags": [
+    "shorts",
+    "quickfact",
+    "education",
+    "trivia"
+  ],
+  "categoryId": "27",
+  "privacy": "private",
+  "file": "out/daily-2026-05-01-bananas-radioactive.mp4",
+  "propsFile": "daily/2026-05-01/bananas-radioactive.props.json",
+  "durationInFrames": 1200,
+  "themeId": "ember",
+  "fontFamilyId": "mono",
+  "audioUrl": "sounds/thunder and rain.mp3",
+  "niche": "food"
+}

@@ -1,0 +1,57 @@
+{
+  "themeId": "sandstorm",
+  "fontFamilyId": "sans",
+  "audioUrl": "sounds/thunder and rain.mp3",
+  "audioVolume": 0.45,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "True story.",
+      "text": "MIT licence means take it and ship it.",
+      "sub": "Useful, actually.",
+      "durationInFrames": 189,
+      "variant": 1
+    },
+    {
+      "kind": "bigword",
+      "text": "Free forever.",
+      "durationInFrames": 181,
+      "variant": 1
+    },
+    {
+      "kind": "stat",
+      "number": "5",
+      "label": "Mind the number.",
+      "durationInFrames": 267,
+      "variant": 2
+    },
+    {
+      "kind": "list",
+      "heading": "What's interesting",
+      "items": [
+        "Open it",
+        "Try it",
+        "Share it"
+      ],
+      "durationInFrames": 291,
+      "variant": 2
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Pause.",
+        "Think.",
+        "Save."
+      ],
+      "durationInFrames": 131,
+      "variant": 3
+    },
+    {
+      "kind": "cta",
+      "headline": "Now you know.",
+      "url": "bbmw0-technologies-ai.vercel.app/install",
+      "durationInFrames": 141,
+      "variant": 2
+    }
+  ]
+}

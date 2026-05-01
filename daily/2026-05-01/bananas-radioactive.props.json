@@ -1,0 +1,57 @@
+{
+  "themeId": "ember",
+  "fontFamilyId": "mono",
+  "audioUrl": "sounds/thunder and rain.mp3",
+  "audioVolume": 0.45,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Quick fact.",
+      "text": "Bananas are slightly radioactive.",
+      "sub": "Worth knowing.",
+      "durationInFrames": 210,
+      "variant": 3
+    },
+    {
+      "kind": "bigword",
+      "text": "Just enough to be safe.",
+      "durationInFrames": 229,
+      "variant": 1
+    },
+    {
+      "kind": "stat",
+      "number": "0",
+      "label": "Hold that thought.",
+      "durationInFrames": 242,
+      "variant": 2
+    },
+    {
+      "kind": "list",
+      "heading": "What's interesting",
+      "items": [
+        "Origin matters",
+        "Storage too",
+        "Then, science"
+      ],
+      "durationInFrames": 258,
+      "variant": 1
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Read.",
+        "Note.",
+        "Share."
+      ],
+      "durationInFrames": 123,
+      "variant": 3
+    },
+    {
+      "kind": "cta",
+      "headline": "File it away.",
+      "url": "github.com/bbmw96/bbmw0-technologies-ai",
+      "durationInFrames": 138,
+      "variant": 2
+    }
+  ]
+}

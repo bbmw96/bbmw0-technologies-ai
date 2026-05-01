@@ -1,0 +1,21 @@
+{
+  "slug": "echo-bat",
+  "date": "2026-05-01",
+  "title": "Bats see with sound. #Shorts",
+  "description": "Made on a phone. For a phone.\n\nBats see with sound. Echolocation builds the picture.\n\nMade with BBMW0 Technologies AI — open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts",
+  "tags": [
+    "shorts",
+    "history",
+    "facts",
+    "education"
+  ],
+  "categoryId": "27",
+  "privacy": "private",
+  "file": "out/daily-2026-05-01-echo-bat.mp4",
+  "propsFile": "daily/2026-05-01/echo-bat.props.json",
+  "durationInFrames": 1200,
+  "themeId": "sunset",
+  "fontFamilyId": "sans",
+  "audioUrl": "sounds/Drums.mp3",
+  "niche": "animals"
+}

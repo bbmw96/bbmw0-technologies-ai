@@ -1,0 +1,21 @@
+{
+  "slug": "browser-find",
+  "date": "2026-05-01",
+  "title": "Ctrl+F searches any page. #Shorts",
+  "description": "Take 40 seconds. Learn something tiny.\n\nCtrl+F searches any page. Finds words you missed.\n\nMade with BBMW0 Technologies AI — open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts",
+  "tags": [
+    "shorts",
+    "facts",
+    "didyouknow",
+    "learning"
+  ],
+  "categoryId": "27",
+  "privacy": "private",
+  "file": "out/daily-2026-05-01-browser-find.mp4",
+  "propsFile": "daily/2026-05-01/browser-find.props.json",
+  "durationInFrames": 1200,
+  "themeId": "sunset",
+  "fontFamilyId": "mono",
+  "audioUrl": "sounds/Drums.mp3",
+  "niche": "productivity"
+}

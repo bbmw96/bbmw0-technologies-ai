@@ -1,0 +1,57 @@
+{
+  "themeId": "glacier",
+  "fontFamilyId": "sans",
+  "audioUrl": "sounds/ocean waves.mp3",
+  "audioVolume": 0.5,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Wait, what?",
+      "text": "Git stores snapshots, not diffs.",
+      "sub": "Look closer.",
+      "durationInFrames": 230,
+      "variant": 1
+    },
+    {
+      "kind": "bigword",
+      "text": "That's why it's fast.",
+      "durationInFrames": 230,
+      "variant": 2
+    },
+    {
+      "kind": "stat",
+      "number": "10x",
+      "label": "Worth remembering.",
+      "durationInFrames": 227,
+      "variant": 2
+    },
+    {
+      "kind": "list",
+      "heading": "Three things to know",
+      "items": [
+        "Read the spec",
+        "Try it small",
+        "Ship it"
+      ],
+      "durationInFrames": 261,
+      "variant": 3
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Read.",
+        "Note.",
+        "Share."
+      ],
+      "durationInFrames": 129,
+      "variant": 3
+    },
+    {
+      "kind": "cta",
+      "headline": "Now you know.",
+      "url": "bbmw0-technologies-ai.vercel.app/install",
+      "durationInFrames": 123,
+      "variant": 1
+    }
+  ]
+}

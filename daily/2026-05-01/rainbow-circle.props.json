@@ -1,0 +1,57 @@
+{
+  "themeId": "ember",
+  "fontFamilyId": "rounded",
+  "audioUrl": "sounds/Drums.mp3",
+  "audioVolume": 0.4,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Did you know.",
+      "text": "Rainbows are full circles.",
+      "sub": "Look closer.",
+      "durationInFrames": 120,
+      "variant": 1
+    },
+    {
+      "kind": "bigword",
+      "text": "We only see the top arc.",
+      "durationInFrames": 233,
+      "variant": 3
+    },
+    {
+      "kind": "stat",
+      "number": "20",
+      "label": "Think about it.",
+      "durationInFrames": 246,
+      "variant": 1
+    },
+    {
+      "kind": "list",
+      "heading": "Why it matters",
+      "items": [
+        "Pressure drives wind",
+        "Heat drives rain",
+        "Spin drives storms"
+      ],
+      "durationInFrames": 293,
+      "variant": 1
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Pause.",
+        "Think.",
+        "Save."
+      ],
+      "durationInFrames": 152,
+      "variant": 1
+    },
+    {
+      "kind": "cta",
+      "headline": "Save this one.",
+      "url": "github.com/bbmw96/bbmw0-technologies-ai",
+      "durationInFrames": 169,
+      "variant": 2
+    }
+  ]
+}

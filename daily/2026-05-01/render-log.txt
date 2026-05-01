@@ -1,0 +1,54 @@
+Rendering 10 Shorts for 2026-05-01
+
+--- bananas-radioactive ---
+  theme=ember font=mono audio=sounds/thunder and rain.mp3
+  rendered: out/daily-2026-05-01-bananas-radioactive.mp4
+  FAILED upload: Command failed: node scripts/youtube-upload.mjs --file="C:\Users\BBMW0\OneDrive\Documents\Claude\Projects\Video Editing\bbmw0-technologies-ai\out\daily-2026-05-01-bananas-radioactive.mp4" --title="Bananas are slightly radioactive. #Shorts #quickfact" --description="Made on a phone. For a phone.\n\nBananas are slightly radioactive. Just enough to be safe.\n\nMade with BBMW0 Technologies AI — open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #quickfact" --tags="shorts,quickfact,education,trivia" --category=27 --privacy=private --shorts
+
+--- browser-find ---
+  theme=sunset font=mono audio=sounds/Drums.mp3
+  rendered: out/daily-2026-05-01-browser-find.mp4
+  FAILED upload: Command failed: node scripts/youtube-upload.mjs --file="C:\Users\BBMW0\OneDrive\Documents\Claude\Projects\Video Editing\bbmw0-technologies-ai\out\daily-2026-05-01-browser-find.mp4" --title="Ctrl+F searches any page. #Shorts" --description="Take 40 seconds. Learn something tiny.\n\nCtrl+F searches any page. Finds words you missed.\n\nMade with BBMW0 Technologies AI — open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts" --tags="shorts,facts,didyouknow,learning" --category=27 --privacy=private --shorts
+
+--- echo-bat ---
+  theme=sunset font=sans audio=sounds/Drums.mp3
+  rendered: out/daily-2026-05-01-echo-bat.mp4
+  FAILED upload: Command failed: node scripts/youtube-upload.mjs --file="C:\Users\BBMW0\OneDrive\Documents\Claude\Projects\Video Editing\bbmw0-technologies-ai\out\daily-2026-05-01-echo-bat.mp4" --title="Bats see with sound. #Shorts" --description="Made on a phone. For a phone.\n\nBats see with sound. Echolocation builds the picture.\n\nMade with BBMW0 Technologies AI — open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts" --tags="shorts,history,facts,education" --category=27 --privacy=private --shorts
+
+--- git-snapshot ---
+  theme=glacier font=sans audio=sounds/ocean waves.mp3
+  rendered: out/daily-2026-05-01-git-snapshot.mp4
+  FAILED upload: Command failed: node scripts/youtube-upload.mjs --file="C:\Users\BBMW0\OneDrive\Documents\Claude\Projects\Video Editing\bbmw0-technologies-ai\out\daily-2026-05-01-git-snapshot.mp4" --title="Git stores snapshots, not diffs. #Shorts" --description="Made on a phone. For a phone.\n\nGit stores snapshots, not diffs. That's why it's fast.\n\nMade with BBMW0 Technologies AI — open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts" --tags="shorts,science,facts,school" --category=28 --privacy=private --shorts
+
+--- keyboard-tab ---
+  theme=peach font=display audio=sounds/rain.mp3
+  rendered: out/daily-2026-05-01-keyboard-tab.mp4
+  FAILED upload: Command failed: node scripts/youtube-upload.mjs --file="C:\Users\BBMW0\OneDrive\Documents\Claude\Projects\Video Editing\bbmw0-technologies-ai\out\daily-2026-05-01-keyboard-tab.mp4" --title="Tab can navigate any web form. #Shorts" --description="Daily Short. Drop a comment if you knew it.\n\nTab can navigate any web form. No mouse needed.\n\nMade with BBMW0 Technologies AI — open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts" --tags="shorts,space,facts,astronomy" --category=27 --privacy=private --shorts
+
+--- lightning-hotter-sun ---
+  theme=slate font=serif audio=sounds/ocean waves.mp3
+  rendered: out/daily-2026-05-01-lightning-hotter-sun.mp4
+  FAILED upload: Command failed: node scripts/youtube-upload.mjs --file="C:\Users\BBMW0\OneDrive\Documents\Claude\Projects\Video Editing\bbmw0-technologies-ai\out\daily-2026-05-01-lightning-hotter-sun.mp4" --title="Lightning is hotter than the Sun. #Shorts #learn" --description="Take 40 seconds. Learn something tiny.\n\nLightning is hotter than the Sun. Five times hotter.\n\nMade with BBMW0 Technologies AI — open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #learn" --tags="shorts,history,facts,education" --category=27 --privacy=private --shorts
+
+--- moon-drift ---
+  theme=forest font=rounded audio=sounds/forest ambiance.mp3
+  rendered: out/daily-2026-05-01-moon-drift.mp4
+  FAILED upload: Command failed: node scripts/youtube-upload.mjs --file="C:\Users\BBMW0\OneDrive\Documents\Claude\Projects\Video Editing\bbmw0-technologies-ai\out\daily-2026-05-01-moon-drift.mp4" --title="The Moon drifts 3.8cm away each year. #Shorts #didyouknow" --description="Pure kinetic typography. No faces, no chatter.\n\nThe Moon drifts 3.8cm away each year. It's slowly leaving.\n\nMade with BBMW0 Technologies AI — open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #didyouknow" --tags="shorts,quickfact,education,trivia" --category=27 --privacy=private --shorts
+
+--- open-source-mit ---
+  theme=sandstorm font=sans audio=sounds/thunder and rain.mp3
+  rendered: out/daily-2026-05-01-open-source-mit.mp4
+  FAILED upload: Command failed: node scripts/youtube-upload.mjs --file="C:\Users\BBMW0\OneDrive\Documents\Claude\Projects\Video Editing\bbmw0-technologies-ai\out\daily-2026-05-01-open-source-mit.mp4" --title="MIT licence means take it and ship it. #Shorts #learn" --description="Take 40 seconds. Learn something tiny.\n\nMIT licence means take it and ship it. Free forever.\n\nMade with BBMW0 Technologies AI — open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #learn" --tags="shorts,productivity,tips,learn" --category=28 --privacy=private --shorts
+
+--- rainbow-circle ---
+  theme=ember font=rounded audio=sounds/Drums.mp3
+  rendered: out/daily-2026-05-01-rainbow-circle.mp4
+  FAILED upload: Command failed: node scripts/youtube-upload.mjs --file="C:\Users\BBMW0\OneDrive\Documents\Claude\Projects\Video Editing\bbmw0-technologies-ai\out\daily-2026-05-01-rainbow-circle.mp4" --title="Rainbows are full circles. #Shorts #quickfact" --description="Take 40 seconds. Learn something tiny.\n\nRainbows are full circles. We only see the top arc.\n\nMade with BBMW0 Technologies AI — open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #quickfact" --tags="shorts,animals,nature,facts" --category=27 --privacy=private --shorts
+
+--- sleep-stages ---
+  theme=midnight font=serif audio=sounds/thunder and rain.mp3
+  rendered: out/daily-2026-05-01-sleep-stages.mp4
+  FAILED upload: Command failed: node scripts/youtube-upload.mjs --file="C:\Users\BBMW0\OneDrive\Documents\Claude\Projects\Video Editing\bbmw0-technologies-ai\out\daily-2026-05-01-sleep-stages.mp4" --title="You cycle through 5 sleep stages. #Shorts #learn" --description="Here's a one-minute fact you didn't know you needed.\n\nYou cycle through 5 sleep stages. REM is when dreams happen.\n\nMade with BBMW0 Technologies AI — open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #learn" --tags="shorts,history,facts,education" --category=27 --privacy=private --shorts
+
+=== Done. 10 rendered, 0 failed. ===
+All uploads default to PRIVATE — promote them in YouTube Studio after manual review.

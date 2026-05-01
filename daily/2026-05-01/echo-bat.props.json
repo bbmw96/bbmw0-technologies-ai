@@ -1,0 +1,57 @@
+{
+  "themeId": "sunset",
+  "fontFamilyId": "sans",
+  "audioUrl": "sounds/Drums.mp3",
+  "audioVolume": 0.4,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "One minute fact.",
+      "text": "Bats see with sound.",
+      "sub": "Stay with us.",
+      "durationInFrames": 186,
+      "variant": 2
+    },
+    {
+      "kind": "bigword",
+      "text": "Echolocation builds the picture.",
+      "durationInFrames": 217,
+      "variant": 2
+    },
+    {
+      "kind": "stat",
+      "number": "12",
+      "label": "Hold that thought.",
+      "durationInFrames": 222,
+      "variant": 3
+    },
+    {
+      "kind": "list",
+      "heading": "How it works",
+      "items": [
+        "They evolved early",
+        "Most are misunderstood",
+        "There's always more"
+      ],
+      "durationInFrames": 289,
+      "variant": 3
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Read.",
+        "Note.",
+        "Share."
+      ],
+      "durationInFrames": 127,
+      "variant": 2
+    },
+    {
+      "kind": "cta",
+      "headline": "Tell a friend.",
+      "url": "github.com/bbmw96/bbmw0-technologies-ai",
+      "durationInFrames": 159,
+      "variant": 2
+    }
+  ]
+}

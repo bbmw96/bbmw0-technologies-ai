@@ -1,0 +1,72 @@
+name: Monthly Long-form
+
+on:
+  schedule:
+    # 08:00 UTC on the 1st of each month
+    - cron: "0 8 1 * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: monthly-longform
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240   # long-form rendering is heavy
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install ffmpeg + deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          npm ci
+          npm install googleapis
+
+      - name: Restore YouTube credentials
+        env:
+          OAUTH_CLIENT_JSON: ${{ secrets.YT_OAUTH_CLIENT_JSON }}
+          CLIENT_ID:        ${{ secrets.YT_CLIENT_ID }}
+          CLIENT_SECRET:    ${{ secrets.YT_CLIENT_SECRET }}
+          REFRESH_TOKEN:    ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          echo "$OAUTH_CLIENT_JSON" > scripts/oauth-client.json
+          cat > scripts/yt-credentials.json << JSON
+          { "client_id": "$CLIENT_ID", "client_secret": "$CLIENT_SECRET", "refresh_token": "$REFRESH_TOKEN" }
+          JSON
+
+      - name: Render long-form
+        run: npm run render:longform
+
+      - name: Upload long-form to YouTube (private)
+        run: |
+          MONTH=$(date -u +"%B %Y")
+          node scripts/youtube-upload.mjs \
+            --file=out/longform.mp4 \
+            --title="BBMW0 Technologies AI: $MONTH long-form" \
+            --description="Monthly deep-dive into mobile-first video editing.\n\nhttps://github.com/bbmw96/bbmw0-technologies-ai" \
+            --tags="videoeditor,opensource,react,remotion,longform,$MONTH" \
+            --category=28 \
+            --privacy=private
+
+      - name: Clean up credentials
+        if: always()
+        run: rm -f scripts/oauth-client.json scripts/yt-credentials.json
+
+      - name: Upload artefact
+        uses: actions/upload-artifact@v4
+        with:
+          name: monthly-longform-${{ github.run_id }}
+          path: out/longform.mp4
+          retention-days: 30

@@ -125,3 +125,60 @@ export const MobileFirstShort: React.FC<ShortProps> = ({ url = URL, audioUrl = "
   <ThemedShort themeId="neon" beats={mobileFirstBeats(url)} audioUrl={audioUrl} audioVolume={0.45} />
 );
 export const mobileFirstShortDefaults: ShortProps = { url: URL, audioUrl: "sounds/thunder and rain.mp3" };
+
+// =====================================================================
+// 7. WhyVertical  (Neon)  — vertical is the format that wins
+// =====================================================================
+
+const whyVerticalBeats = (url: string): Beat[] => [
+  { kind: "title", eyebrow: "The format that wins", text: "Vertical first.", sub: "Because the phone is vertical.", durationInFrames: 150 },
+  { kind: "stat", number: "9:16", label: "is the only ratio that fills the screen.", durationInFrames: 180 },
+  { kind: "trio", words: ["Shorts.", "Reels.", "TikTok."], durationInFrames: 150 },
+  { kind: "list", heading: "Other editors", items: ["Open in 16:9 by default", "Letterbox your footage", "Crop in post"], durationInFrames: 270 },
+  { kind: "bigword", text: "We don't.", durationInFrames: 180 },
+  { kind: "title", text: "1080 x 1920.", sub: "Every preview, every export.", durationInFrames: 120 },
+  { kind: "cta", headline: "Edit vertical.", url, durationInFrames: 150 },
+];
+
+export const WhyVerticalShort: React.FC<ShortProps> = ({ url = URL, audioUrl = "sounds/rain.mp3" }) => (
+  <ThemedShort themeId="neon" beats={whyVerticalBeats(url)} audioUrl={audioUrl} audioVolume={0.45} />
+);
+export const whyVerticalShortDefaults: ShortProps = { url: URL, audioUrl: "sounds/rain.mp3" };
+
+// =====================================================================
+// 8. YourPocket  (Forest)  — the whole studio, in your pocket
+// =====================================================================
+
+const yourPocketBeats = (url: string): Beat[] => [
+  { kind: "title", eyebrow: "No desk. No laptop.", text: "In your pocket.", sub: "The whole studio.", durationInFrames: 150 },
+  { kind: "trio", words: ["Edit.", "Preview.", "Export."], durationInFrames: 180 },
+  { kind: "bigword", text: "All on phone.", durationInFrames: 150 },
+  { kind: "list", heading: "What runs on your phone", items: ["The full editor (PWA)", "The 9:16 preview", "The AI bar with five models"], durationInFrames: 300 },
+  { kind: "stat", number: "0", label: "extra apps to install. Just the browser.", durationInFrames: 150 },
+  { kind: "title", text: "Open the link.", sub: "Add to home screen. Done.", durationInFrames: 120 },
+  { kind: "cta", headline: "Open it now.", url, durationInFrames: 150 },
+];
+
+export const YourPocketShort: React.FC<ShortProps> = ({ url = URL, audioUrl = "sounds/waterfalls and frogs.mp3" }) => (
+  <ThemedShort themeId="forest" beats={yourPocketBeats(url)} audioUrl={audioUrl} audioVolume={0.5} />
+);
+export const yourPocketShortDefaults: ShortProps = { url: URL, audioUrl: "sounds/waterfalls and frogs.mp3" };
+
+// =====================================================================
+// 9. FromIdea  (Midnight)  — idea to posted Short in minutes
+// =====================================================================
+
+const fromIdeaBeats = (url: string): Beat[] => [
+  { kind: "title", eyebrow: "From idea to posted", text: "In minutes.", sub: "Not afternoons.", durationInFrames: 150 },
+  { kind: "stat", number: "4 taps", label: "from blank scene to MP4.", durationInFrames: 180 },
+  { kind: "list", heading: "The whole flow", items: ["1. Pick a preset", "2. Type the words", "3. Let AI fill the rest", "4. Tap Export"], durationInFrames: 360 },
+  { kind: "trio", words: ["Pick.", "Type.", "Post."], durationInFrames: 180 },
+  { kind: "bigword", text: "That's it.", durationInFrames: 120 },
+  { kind: "title", text: "No timeline.", sub: "No keyframes. No menus.", durationInFrames: 90 },
+  { kind: "cta", headline: "Make one now.", url, durationInFrames: 120 },
+];
+
+export const FromIdeaShort: React.FC<ShortProps> = ({ url = URL, audioUrl = "sounds/Drums.mp3" }) => (
+  <ThemedShort themeId="midnight" beats={fromIdeaBeats(url)} audioUrl={audioUrl} audioVolume={0.4} />
+);
+export const fromIdeaShortDefaults: ShortProps = { url: URL, audioUrl: "sounds/Drums.mp3" };
