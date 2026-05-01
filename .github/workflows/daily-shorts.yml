@@ -48,7 +48,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg
-          npm ci
+          npm install
           npm install googleapis
 
       - name: Restore YouTube credentials from secrets
