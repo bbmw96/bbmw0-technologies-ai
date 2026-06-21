@@ -41,7 +41,7 @@ jobs:
       - name: Set up Node 20
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
           cache: "npm"
 
       - name: Install ffmpeg + deps
@@ -78,6 +78,23 @@ jobs:
         run: |
           node scripts/research-trends.mjs --count=10 || echo "research skipped (non-fatal)"
 
+      - name: Auto-refill topics if library is running low
+        env:
+          AI_ENDPOINT: ${{ secrets.AI_ENDPOINT }}
+        run: |
+          TOTAL=$(node -e "const t=JSON.parse(require('fs').readFileSync('./scripts/data/topics.json','utf8')); console.log(t.topics.length)")
+          USED=$(node -e "const p=JSON.parse(require('fs').readFileSync('./scripts/data/published.json','utf8')); console.log((p.topicsUsed||[]).length)")
+          UNUSED=$((TOTAL - USED))
+          echo "Topic library: $TOTAL total, $USED used, $UNUSED unused."
+          if [ "$UNUSED" -lt 5 ]; then
+            echo "::warning title=Low topics::Only $UNUSED topics remaining. Running AI auto-refill."
+            if [ -n "$AI_ENDPOINT" ]; then
+              node scripts/research-trends.mjs --count=15 || echo "::warning::Auto-refill failed (non-fatal)."
+            else
+              echo "::warning title=Low topics::AI_ENDPOINT secret not set. Add topics to scripts/data/topics.json manually."
+            fi
+          fi
+
       - name: Generate today's Shorts
         run: |
           DATE=$(date -u +%F)
@@ -91,8 +108,13 @@ jobs:
 
       - name: Render and upload (private)
         run: |
+          set -o pipefail
           DATE=$(date -u +%F)
-          node scripts/render-batch.mjs --date="$DATE" --upload
+          node scripts/render-batch.mjs --date="$DATE" --upload 2>&1 | tee /tmp/render-output.txt
+          if grep -qi "invalid_grant" /tmp/render-output.txt; then
+            echo "::error title=OAuth Expired::YouTube refresh token has expired. Go to GitHub repo Settings, Secrets and variables, Actions, and rotate YT_REFRESH_TOKEN. See AUTOMATION.md for rotation steps."
+            exit 1
+          fi
 
       - name: Clean up credentials
         if: always()

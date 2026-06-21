@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+﻿#!/usr/bin/env node
 // Render every video in daily/<date>/ then optionally upload to YouTube.
 //
 // USAGE:
@@ -15,12 +15,19 @@
 // after manual review until you trust the automation.
 
 import fs from "node:fs";
+import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { execSync } from "node:child_process";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
+
+// Auto-detect i9/RTX hardware — use ~75% of logical CPU threads for Remotion workers
+const CONCURRENCY = Math.max(2, Math.floor(os.cpus().length * 0.75));
+
+// On Windows, ANGLE translates OpenGL → Direct3D so the RTX GPU accelerates Chromium rendering
+const GL_FLAGS = process.platform === "win32" ? "--gl=angle" : "";
 
 function args(argv) {
   const o = {};
@@ -54,8 +61,12 @@ const log = [];
 const logPath = path.join(dir, "render-log.txt");
 const append = (s) => { log.push(s); fs.writeFileSync(logPath, log.join("\n") + "\n"); console.log(s); };
 
-append(`Rendering ${propsFiles.length} Shorts for ${DATE}`);
+append(`Rendering ${propsFiles.length} Shorts for ${DATE} (concurrency=${CONCURRENCY}, GL=${GL_FLAGS || "default"})`);
 let okCount = 0, failCount = 0;
+
+const publishedPath = path.join(ROOT, "scripts/data/published.json");
+const published = JSON.parse(fs.readFileSync(publishedPath, "utf8"));
+const publishedIds = new Set(published.topicsUsed || []);
 
 for (const propsFile of propsFiles) {
   const slug = propsFile.replace(/\.props\.json$/, "");
@@ -65,13 +76,24 @@ for (const propsFile of propsFiles) {
   const outFile = path.join(ROOT, meta.file);
 
   append(`\n--- ${slug} ---`);
+
+  if (publishedIds.has(slug)) {
+    append(`  SKIPPED: ${slug} already in published.json: remove it from topicsUsed to re-run.`);
+    continue;
+  }
   append(`  theme=${meta.themeId} font=${meta.fontFamilyId} audio=${meta.audioUrl}`);
 
+  const renderCmd = [
+    "npx remotion render",
+    "src/compositions/registry.tsx Daily",
+    `"${outFile}"`,
+    `--props="${propsAbs}"`,
+    `--concurrency=${CONCURRENCY}`,
+    GL_FLAGS,
+  ].filter(Boolean).join(" ");
+
   try {
-    execSync(
-      `npx remotion render src/compositions/registry.tsx Daily "${outFile}" --props="${propsAbs}"`,
-      { cwd: ROOT, stdio: "inherit" }
-    );
+    execSync(renderCmd, { cwd: ROOT, stdio: "inherit" });
     append(`  rendered: ${meta.file}`);
     okCount++;
   } catch (err) {
