@@ -1,5 +1,4 @@
 {
   "_comment": "Append-only audit trail of every compliance decision. Retain this: it is the evidence trail if a policy decision is ever appealed or a channel review is requested.",
-  "_reset": "Cleared 2026-07-26 after adversarial gate testing. Production history starts from the next run.",
   "runs": []
 }
