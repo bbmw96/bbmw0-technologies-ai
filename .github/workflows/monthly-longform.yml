@@ -24,7 +24,7 @@ jobs:
       - name: Set up Node 20
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
           cache: "npm"
 
       - name: Install ffmpeg + deps
@@ -58,7 +58,7 @@ jobs:
             --description="Monthly deep-dive into mobile-first video editing.\n\nhttps://github.com/bbmw96/bbmw0-technologies-ai" \
             --tags="videoeditor,opensource,react,remotion,longform,$MONTH" \
             --category=28 \
-            --privacy=private
+            --privacy=public
 
       - name: Clean up credentials
         if: always()

@@ -26,7 +26,7 @@
 //   - title + description + tag set
 //
 // EXIT 0 on success. EXIT 1 on argument error. EXIT 2 if topic library
-// runs out (you've published every topic — add more to topics.json).
+// runs out (you've published every topic .  add more to topics.json).
 
 import fs from "node:fs";
 import path from "node:path";
@@ -36,9 +36,20 @@ import crypto from "node:crypto";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const DATA = path.join(__dirname, "data");
+
+// BOM-tolerant JSON reader. OneDrive and PowerShell both like to prepend a
+// UTF-8 BOM, which makes JSON.parse throw. Strip it before parsing, always.
+function readJSON(p) {
+  const raw = fs.readFileSync(p, "utf8").replace(/^\uFEFF/, "");
+  try {
+    return JSON.parse(raw);
+  } catch (err) {
+    throw new Error(`Invalid JSON in ${p}: ${err.message}`);
+  }
+}
 const PUBLISHED = path.join(DATA, "published.json");
-const TOPICS = JSON.parse(fs.readFileSync(path.join(DATA, "topics.json"), "utf8"));
-const POOLS  = JSON.parse(fs.readFileSync(path.join(DATA, "copy-pools.json"), "utf8"));
+const TOPICS = readJSON(path.join(DATA, "topics.json"));
+const POOLS  = readJSON(path.join(DATA, "copy-pools.json"));
 
 function args(argv) {
   const o = {};
@@ -78,9 +89,12 @@ function seededRand(seed) {
 }
 const pick = (arr, r) => arr[Math.floor(r() * arr.length)];
 
+// Publish live by default. Override with --privacy=private|unlisted.
+const PRIVACY = ["private", "unlisted", "public"].includes(A.privacy) ? A.privacy : "public";
+
 // Load history.
 const history = fs.existsSync(PUBLISHED)
-  ? JSON.parse(fs.readFileSync(PUBLISHED, "utf8"))
+  ? readJSON(PUBLISHED)
   : { topicsUsed: [], combosUsed: [], videos: [] };
 
 // Pick unused topics.
@@ -116,7 +130,7 @@ for (const topic of chosen) {
   const fontFamilyId = pick(POOLS.fonts, r);
   const audio = pick(POOLS.audios, r);
 
-  // 2. Build beats — fixed structural skeleton (intro / fact / payoff / cta)
+  // 2. Build beats .  fixed structural skeleton (intro / fact / payoff / cta)
   //    but every slot is filled from a copy pool with randomised variant.
   const eyebrow   = pick(POOLS.eyebrows, r);
   const sub_intro = pick(POOLS.subs_intro, r);
@@ -167,7 +181,38 @@ for (const topic of chosen) {
   };
 
   // Metadata for YouTube uploader.
-  const tagPool = pick(POOLS.tag_pools, r);
+  // Tags must match the topic's niche or YouTube surfaces the video to the
+  // wrong audience. Base tags are fixed per niche; the extra rotates so no two
+  // videos in a niche carry an identical tag set.
+  const NICHE_TAGS = {
+    animals:      ["shorts", "animals", "wildlife", "nature", "animalfacts"],
+    space:        ["shorts", "space", "astronomy", "universe", "spacefacts"],
+    biology:      ["shorts", "biology", "human body", "science", "howitworks"],
+    science:      ["shorts", "science", "physics", "sciencefacts", "learn"],
+    history:      ["shorts", "history", "historyfacts", "past", "education"],
+    food:         ["shorts", "food", "foodfacts", "cooking", "didyouknow"],
+    weather:      ["shorts", "weather", "nature", "sky", "sciencefacts"],
+    music:        ["shorts", "music", "musicfacts", "sound", "learn"],
+    productivity: ["shorts", "productivity", "tips", "lifehacks", "workflow"],
+    tech:         ["shorts", "tech", "coding", "developer", "techfacts"],
+    app:          ["shorts", "app", "opensource", "videoediting", "creator"],
+  };
+  const NICHE_EXTRAS = {
+    animals:      ["zoology", "creatures", "amazinganimals"],
+    space:        ["cosmos", "planets", "nasa"],
+    biology:      ["anatomy", "cells", "lifescience"],
+    science:      ["chemistry", "experiment", "stem"],
+    history:      ["ancienthistory", "thisdayinhistory", "civilisation"],
+    food:         ["foodscience", "kitchen", "nutrition"],
+    weather:      ["meteorology", "storms", "climate"],
+    music:        ["musictheory", "instruments", "composer"],
+    productivity: ["keyboardshortcuts", "efficiency", "studytips"],
+    tech:         ["programming", "software", "computerscience"],
+    app:          ["indiedev", "webapp", "pwa"],
+  };
+  const baseTags = NICHE_TAGS[topic.niche] || ["shorts", "facts", "didyouknow", "learning"];
+  const extras = NICHE_EXTRAS[topic.niche] || ["facts", "trivia", "education"];
+  const tagList = [...baseTags, pick(extras, r)];
   const titleTag = pick(POOLS.title_tags, r);
   const descIntro = pick(POOLS.description_intros, r);
   const meta = {
@@ -176,11 +221,11 @@ for (const topic of chosen) {
     title: `${topic.hook} ${titleTag}`.slice(0, 100),
     description:
       `${descIntro}\n\n${topic.hook} ${topic.punchline}\n\n` +
-      `Made with BBMW0 Technologies AI — open-source, mobile-first video editor.\n` +
+      `Made with BBMW0 Technologies AI. Open-source, mobile-first video editor.\n` +
       `https://bbmw0-technologies-ai.vercel.app\n\n${titleTag}`,
-    tags: tagPool.split(","),
+    tags: tagList,
     categoryId: topic.niche === "tech" || topic.niche === "app" ? "28" : "27",
-    privacy: "private",
+    privacy: PRIVACY,
     file: `out/daily-${DATE}-${topic.id}.mp4`,
     propsFile: `daily/${DATE}/${topic.id}.props.json`,
     durationInFrames: total,
@@ -237,7 +282,7 @@ function pickStatNumber(topic, r) {
 function pickListItems(topic, r) {
   // Each topic could ship with bespoke items; for now, generate three short
   // related items based on the niche. Generator-side variation is fine for
-  // the avoid-repetition goal — what matters is that no two videos match.
+  // the avoid-repetition goal .  what matters is that no two videos match.
   const banks = {
     animals:  [["They evolved early", "Most are misunderstood", "There's always more"], ["Watch closer", "Listen too", "Think how"]],
     food:     [["Origin matters", "Storage too", "Then, science"], ["Where", "How", "Why"]],

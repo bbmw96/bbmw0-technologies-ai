@@ -1,91 +1,106 @@
-// One-time YouTube OAuth setup.
-// Run this once on your local machine to capture a refresh token.
-// After that, scripts/youtube-upload.mjs can upload videos unattended.
+// One-time YouTube OAuth setup using the modern localhost loopback flow
+// (Google deprecated the legacy OOB code-paste flow in 2022).
 //
-// USAGE:
-//   1) Create a Google Cloud project (https://console.cloud.google.com)
-//   2) Enable "YouTube Data API v3"
-//   3) Create OAuth 2.0 Client ID for "Desktop app"
-//   4) Save the JSON as scripts/oauth-client.json
-//   5) Run: npm run yt:auth
-//   6) Open the printed URL, sign in, copy the code back into the terminal.
-//   7) Refresh token is saved to scripts/yt-credentials.json (gitignored).
+// USAGE:  npm run yt:auth
 //
-// SCOPES: youtube.upload (private uploads only). Set videos public from
-// YouTube Studio after review until you trust the automation.
+// REQUIRES: scripts/oauth-client.json with at minimum:
+//   { "installed": { "client_id": "...", "client_secret": "..." } }
+//
+// Saves a refresh token to scripts/yt-credentials.json so the upload
+// script can run unattended.
 
 import { google } from "googleapis";
 import http from "node:http";
 import fs from "node:fs";
 import path from "node:path";
+import url from "node:url";
+import crypto from "node:crypto";
 import { fileURLToPath } from "node:url";
-import readline from "node:readline";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const CLIENT_PATH = path.join(__dirname, "oauth-client.json");
-const CREDS_PATH = path.join(__dirname, "yt-credentials.json");
+const CREDS_PATH  = path.join(__dirname, "yt-credentials.json");
 const SCOPES = ["https://www.googleapis.com/auth/youtube.upload"];
 
 if (!fs.existsSync(CLIENT_PATH)) {
   console.error(
     `Missing ${CLIENT_PATH}.\n` +
-    "Download it from Google Cloud Console:\n" +
-    "  APIs & Services > Credentials > Create Credentials > OAuth client ID > Desktop app\n" +
-    "Save the downloaded JSON to scripts/oauth-client.json and re-run."
+    "Create it manually (Google removed the Download-JSON button):\n" +
+    '  { "installed": { "client_id": "...", "client_secret": "..." } }\n' +
+    "See scripts/README.md for the full one-liner."
   );
   process.exit(1);
 }
 
 const raw = JSON.parse(fs.readFileSync(CLIENT_PATH, "utf8"));
 const cfg = raw.installed || raw.web;
-if (!cfg || !cfg.client_id || !cfg.client_secret) {
-  console.error("oauth-client.json does not look like a Desktop OAuth client. Re-download from Google Cloud Console.");
+if (!cfg?.client_id || !cfg?.client_secret) {
+  console.error("oauth-client.json must contain installed.client_id and installed.client_secret.");
   process.exit(1);
 }
 
-const oauth2 = new google.auth.OAuth2(
-  cfg.client_id,
-  cfg.client_secret,
-  "urn:ietf:wg:oauth:2.0:oob" // legacy out-of-band; we'll prompt on console
-);
+// Stand up a one-shot HTTP server on a random localhost port.
+const server = http.createServer();
+server.listen(0, "127.0.0.1", () => {
+  const { port } = server.address();
+  const redirectUri = `http://127.0.0.1:${port}/callback`;
+  const oauth2 = new google.auth.OAuth2(cfg.client_id, cfg.client_secret, redirectUri);
+  const state = crypto.randomBytes(16).toString("hex");
+  const authUrl = oauth2.generateAuthUrl({
+    access_type: "offline",
+    prompt: "consent",
+    scope: SCOPES,
+    state,
+  });
 
-const url = oauth2.generateAuthUrl({
-  access_type: "offline",
-  prompt: "consent",
-  scope: SCOPES,
+  console.log("\n1. Open this URL in your browser:\n");
+  console.log(authUrl);
+  console.log(
+    "\n2. If you see 'App not verified', click 'Advanced' then 'Go to YT Shorts Engine (unsafe)'.\n" +
+    "   That's normal for a personal Desktop client. Sign in with the YouTube account you want to publish from.\n"
+  );
+  console.log("3. Waiting for Google to redirect you back here...\n");
 });
 
-console.log("\n1) Open this URL in a browser, sign in to the YouTube account you want to publish from:\n");
-console.log(url);
-console.log("\n2) After approving, Google will show a code. Copy it and paste it below.\n");
-
-const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
-rl.question("Paste the code here: ", async (code) => {
-  rl.close();
+server.on("request", async (req, res) => {
+  const reqUrl = url.parse(req.url, true);
+  if (reqUrl.pathname !== "/callback") {
+    res.writeHead(404).end("Not found");
+    return;
+  }
+  const { code, state: gotState, error } = reqUrl.query;
+  if (error) {
+    res.writeHead(400, { "Content-Type": "text/html" });
+    res.end(`<h1>OAuth error: ${error}</h1>`);
+    console.error("OAuth error:", error);
+    server.close(); process.exit(1);
+  }
+  // Re-derive the OAuth client (state captured via closure isn't stable across requests,
+  // but our one-shot server only handles one /callback so we recreate it).
+  const cfg2 = (raw.installed || raw.web);
+  const port = server.address().port;
+  const oauth2 = new google.auth.OAuth2(cfg2.client_id, cfg2.client_secret, `http://127.0.0.1:${port}/callback`);
   try {
-    const { tokens } = await oauth2.getToken(code.trim());
+    const { tokens } = await oauth2.getToken(code);
     if (!tokens.refresh_token) {
-      console.error(
-        "\nNo refresh_token returned. This usually means you've already authorised this client.\n" +
-        "Revoke access at https://myaccount.google.com/permissions and try again."
-      );
-      process.exit(1);
+      res.writeHead(400, { "Content-Type": "text/html" });
+      res.end("<h1>No refresh_token returned</h1><p>Revoke this app at https://myaccount.google.com/permissions and retry.</p>");
+      console.error("No refresh_token. Revoke at https://myaccount.google.com/permissions and re-run.");
+      server.close(); process.exit(1);
     }
-    fs.writeFileSync(
-      CREDS_PATH,
-      JSON.stringify(
-        {
-          client_id: cfg.client_id,
-          client_secret: cfg.client_secret,
-          refresh_token: tokens.refresh_token,
-        },
-        null,
-        2
-      ) + "\n"
-    );
-    console.log(`\nSaved ${CREDS_PATH}. You're ready. Run npm run yt:upload to publish a video.\n`);
+    fs.writeFileSync(CREDS_PATH, JSON.stringify({
+      client_id: cfg2.client_id,
+      client_secret: cfg2.client_secret,
+      refresh_token: tokens.refresh_token,
+    }, null, 2) + "\n");
+    res.writeHead(200, { "Content-Type": "text/html" });
+    res.end("<h1>Done.</h1><p>You can close this tab and return to your terminal.</p>");
+    console.log(`\nSaved ${path.relative(process.cwd(), CREDS_PATH)}.\nRun npm run print:secrets to see the GitHub secret values.\n`);
+    server.close(); process.exit(0);
   } catch (err) {
+    res.writeHead(500, { "Content-Type": "text/html" });
+    res.end(`<h1>Token exchange failed</h1><pre>${(err.message || err).toString()}</pre>`);
     console.error("Token exchange failed:", err.message || err);
-    process.exit(1);
+    server.close(); process.exit(1);
   }
 });

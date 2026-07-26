@@ -44,6 +44,19 @@ jobs:
           node-version: "22"
           cache: "npm"
 
+      - name: Strip UTF-8 BOMs (OneDrive sync guard)
+        run: |
+          CLEANED=0
+          for f in $(find scripts src .github -type f \( -name "*.json" -o -name "*.mjs" -o -name "*.yml" -o -name "*.ts" -o -name "*.tsx" \) 2>/dev/null); do
+            if [ "$(head -c 3 "$f" | od -An -tx1 | tr -d ' \n')" = "efbbbf" ]; then
+              sed -i '1s/^\xEF\xBB\xBF//' "$f"
+              echo "::warning title=BOM stripped::$f had a UTF-8 BOM and was cleaned."
+              CLEANED=$((CLEANED+1))
+            fi
+          done
+          echo "BOM guard: $CLEANED file(s) cleaned."
+          node -e "const rd=p=>JSON.parse(require('fs').readFileSync(p,'utf8').replace(/^\uFEFF/,'')); rd('./scripts/data/topics.json'); rd('./scripts/data/copy-pools.json'); rd('./scripts/data/published.json'); console.log('All data files parse cleanly.')"
+
       - name: Install ffmpeg + deps
         run: |
           sudo apt-get update
@@ -82,8 +95,9 @@ jobs:
         env:
           AI_ENDPOINT: ${{ secrets.AI_ENDPOINT }}
         run: |
-          TOTAL=$(node -e "const t=JSON.parse(require('fs').readFileSync('./scripts/data/topics.json','utf8')); console.log(t.topics.length)")
-          USED=$(node -e "const p=JSON.parse(require('fs').readFileSync('./scripts/data/published.json','utf8')); console.log((p.topicsUsed||[]).length)")
+          RD="p=>JSON.parse(require('fs').readFileSync(p,'utf8').replace(/^\uFEFF/,''))"
+          TOTAL=$(node -e "const rd=$RD; console.log(rd('./scripts/data/topics.json').topics.length)")
+          USED=$(node -e "const rd=$RD; console.log((rd('./scripts/data/published.json').topicsUsed||[]).length)")
           UNUSED=$((TOTAL - USED))
           echo "Topic library: $TOTAL total, $USED used, $UNUSED unused."
           if [ "$UNUSED" -lt 5 ]; then
@@ -106,7 +120,7 @@ jobs:
             node scripts/generate-shorts.mjs --count="$COUNT" --date="$DATE"
           fi
 
-      - name: Render and upload (private)
+      - name: Render and upload (public)
         run: |
           set -o pipefail
           DATE=$(date -u +%F)
@@ -129,6 +143,17 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -m "Daily Shorts: $(date -u +%F) [skip ci]"
           git push
+
+      - name: Daily content health report
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          bash scripts/daily-report.sh || true
+          echo "### BBMW0 Daily Content Report" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          cat /tmp/bbmw0-content-report.log >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
 
       - name: Upload artefacts (videos + meta)
         if: always()

@@ -203,15 +203,46 @@ async function role8_tags(items) {
   return items;
 }
 
-// ---- Role 9: Synthesiser (Gemini) — local concat into final JSON ----
+// ---- House style guard ----------------------------------------------------
+// AI models routinely emit em-dashes, US spellings and emoji. Every line here
+// ends up burned into a video frame and a public YouTube description, so it is
+// sanitised at the boundary rather than trusted.
+const UK_SPELLINGS = [
+  [/\bcolor(s|ed|ing)?\b/gi, (m) => m.replace(/olor/i, "olour")],
+  [/\bcustomiz(e|ed|ing|ation)\b/gi, (m) => m.replace(/iz/i, "is")],
+  [/\borganiz(e|ed|ing|ation)\b/gi, (m) => m.replace(/iz/i, "is")],
+  [/\brecogniz(e|ed|ing)\b/gi, (m) => m.replace(/iz/i, "is")],
+  [/\bcenter(s|ed)?\b/gi, (m) => m.replace(/center/i, "centre")],
+  [/\bmeter(s)?\b/gi, (m) => m.replace(/meter/i, "metre")],
+  [/\blicense\b/gi, "licence"],
+  [/\bdefense\b/gi, "defence"],
+  [/\btraveled\b/gi, "travelled"],
+];
+
+function sanitise(text) {
+  if (typeof text !== "string") return text;
+  let t = text;
+  t = t.replace(/[\u2014\u2013]/g, "-");            // em-dash, en-dash
+  t = t.replace(/[\u2018\u2019]/g, "'");            // smart single quotes
+  t = t.replace(/[\u201C\u201D]/g, '"');            // smart double quotes
+  t = t.replace(/[\u2026]/g, "...");                // ellipsis
+  t = t.replace(
+    /[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}\u{FE0F}\u{1F1E6}-\u{1F1FF}]/gu,
+    ""
+  );                                                // emoji
+  for (const [re, rep] of UK_SPELLINGS) t = t.replace(re, rep);
+  return t.replace(/\s{2,}/g, " ").trim();
+}
+
+// ---- Role 9: Synthesiser (Gemini). Local concat into final JSON ----
 function role9_synthesise(items) {
   items.sort((a, b) => (b.score ?? 5) - (a.score ?? 5));
   const top = items.slice(0, COUNT);
   const out = top.map((i) => ({
     id: i.slug,
     niche: i.niche,
-    hook: i.hook,
-    punchline: i.punchline,
+    hook: sanitise(i.hook),
+    punchline: sanitise(i.punchline),
   }));
   recordRole("Synthesiser", "local", `keep top ${COUNT}`, { added: out.length });
   return out;

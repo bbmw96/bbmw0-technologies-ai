@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env node
+#!/usr/bin/env node
 // Render every video in daily/<date>/ then optionally upload to YouTube.
 //
 // USAGE:
@@ -7,12 +7,13 @@
 //
 // What it does:
 //   1. Finds every <slug>.props.json in daily/<date>/
-//   2. For each, runs `npx remotion render registry.tsx Daily out/<file>.mp4 --props=<...>`
-//   3. If --upload: runs scripts/youtube-upload.mjs with the slug's meta.json
-//   4. Logs everything to daily/<date>/render-log.txt
+//   2. Skips any slug that already has a recorded youtubeId (never re-uploads)
+//   3. Runs `npx remotion render registry.tsx Daily out/<file>.mp4 --props=<...>`
+//   4. If --upload: runs scripts/youtube-upload.mjs with the slug's meta.json
+//   5. Records the returned YouTube video ID back into published.json
+//   6. Logs everything to daily/<date>/render-log.txt
 //
-// Privacy default: PRIVATE. You must promote videos in YouTube Studio
-// after manual review until you trust the automation.
+// Privacy: driven by meta.privacy written by the generator (default public).
 
 import fs from "node:fs";
 import os from "node:os";
@@ -23,10 +24,21 @@ import { execSync } from "node:child_process";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 
-// Auto-detect i9/RTX hardware — use ~75% of logical CPU threads for Remotion workers
+// BOM-tolerant JSON reader. OneDrive and PowerShell both like to prepend a
+// UTF-8 BOM, which makes JSON.parse throw. Strip it before parsing, always.
+function readJSON(p) {
+  const raw = fs.readFileSync(p, "utf8").replace(/^\uFEFF/, "");
+  try {
+    return JSON.parse(raw);
+  } catch (err) {
+    throw new Error(`Invalid JSON in ${p}: ${err.message}`);
+  }
+}
+
+// Auto-detect i9/RTX hardware. Use ~75% of logical CPU threads for Remotion workers.
 const CONCURRENCY = Math.max(2, Math.floor(os.cpus().length * 0.75));
 
-// On Windows, ANGLE translates OpenGL → Direct3D so the RTX GPU accelerates Chromium rendering
+// On Windows, ANGLE translates OpenGL to Direct3D so the RTX GPU accelerates Chromium.
 const GL_FLAGS = process.platform === "win32" ? "--gl=angle" : "";
 
 function args(argv) {
@@ -62,44 +74,79 @@ const logPath = path.join(dir, "render-log.txt");
 const append = (s) => { log.push(s); fs.writeFileSync(logPath, log.join("\n") + "\n"); console.log(s); };
 
 append(`Rendering ${propsFiles.length} Shorts for ${DATE} (concurrency=${CONCURRENCY}, GL=${GL_FLAGS || "default"})`);
-let okCount = 0, failCount = 0;
+let okCount = 0, failCount = 0, skipCount = 0, uploadCount = 0;
 
 const publishedPath = path.join(ROOT, "scripts/data/published.json");
-const published = JSON.parse(fs.readFileSync(publishedPath, "utf8"));
-const publishedIds = new Set(published.topicsUsed || []);
+const published = readJSON(publishedPath);
+published.videos = published.videos || [];
+
+// CRITICAL: the generator records a topic in topicsUsed at GENERATION time, so
+// topicsUsed can never be the skip signal. It would skip every single video.
+// The real signal is whether we already have a YouTube video ID for that slug.
+const uploadedIds = new Set(
+  published.videos.filter((v) => v && v.youtubeId).map((v) => v.id)
+);
+
+function recordUpload(slug, youtubeId, privacy) {
+  const fresh = readJSON(publishedPath);
+  fresh.videos = fresh.videos || [];
+  const entry = fresh.videos.find((v) => v && v.id === slug);
+  if (entry) {
+    entry.youtubeId = youtubeId;
+    entry.youtubeUrl = `https://youtu.be/${youtubeId}`;
+    entry.uploadedAt = new Date().toISOString();
+    entry.privacy = privacy;
+  }
+  fs.writeFileSync(publishedPath, JSON.stringify(fresh, null, 2) + "\n");
+}
 
 for (const propsFile of propsFiles) {
   const slug = propsFile.replace(/\.props\.json$/, "");
   const metaPath = path.join(dir, `${slug}.meta.json`);
-  const meta = JSON.parse(fs.readFileSync(metaPath, "utf8"));
+  const meta = readJSON(metaPath);
   const propsAbs = path.join(dir, propsFile);
   const outFile = path.join(ROOT, meta.file);
 
   append(`\n--- ${slug} ---`);
 
-  if (publishedIds.has(slug)) {
-    append(`  SKIPPED: ${slug} already in published.json: remove it from topicsUsed to re-run.`);
+  if (UPLOAD && uploadedIds.has(slug)) {
+    append(`  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.`);
+    skipCount++;
     continue;
   }
-  append(`  theme=${meta.themeId} font=${meta.fontFamilyId} audio=${meta.audioUrl}`);
+  append(`  theme=${meta.themeId} font=${meta.fontFamilyId} audio=${meta.audioUrl} privacy=${meta.privacy}`);
 
-  const renderCmd = [
-    "npx remotion render",
-    "src/compositions/registry.tsx Daily",
-    `"${outFile}"`,
-    `--props="${propsAbs}"`,
-    `--concurrency=${CONCURRENCY}`,
-    GL_FLAGS,
-  ].filter(Boolean).join(" ");
+  // Reuse an existing render if one is already on disk and non-trivial in size.
+  let needsRender = true;
+  if (fs.existsSync(outFile)) {
+    try {
+      if (fs.statSync(outFile).size > 100_000) {
+        append(`  reusing existing render: ${meta.file}`);
+        needsRender = false;
+        okCount++;
+      }
+    } catch { /* fall through and re-render */ }
+  }
 
-  try {
-    execSync(renderCmd, { cwd: ROOT, stdio: "inherit" });
-    append(`  rendered: ${meta.file}`);
-    okCount++;
-  } catch (err) {
-    append(`  FAILED render: ${err.message || err}`);
-    failCount++;
-    continue;
+  if (needsRender) {
+    const renderCmd = [
+      "npx remotion render",
+      "src/compositions/registry.tsx Daily",
+      `"${outFile}"`,
+      `--props="${propsAbs}"`,
+      `--concurrency=${CONCURRENCY}`,
+      GL_FLAGS,
+    ].filter(Boolean).join(" ");
+
+    try {
+      execSync(renderCmd, { cwd: ROOT, stdio: "inherit" });
+      append(`  rendered: ${meta.file}`);
+      okCount++;
+    } catch (err) {
+      append(`  FAILED render: ${err.message || err}`);
+      failCount++;
+      continue;
+    }
   }
 
   if (UPLOAD) {
@@ -115,13 +162,26 @@ for (const propsFile of propsFiles) {
         `--privacy=${meta.privacy}`,
         "--shorts",
       ].join(" ");
-      execSync(cmd, { cwd: ROOT, stdio: "inherit" });
-      append(`  uploaded: ${meta.title}`);
+
+      // Capture stdout so we can pull the video ID out, but still show progress.
+      const out = execSync(cmd, { cwd: ROOT, encoding: "utf8", stdio: ["inherit", "pipe", "inherit"] });
+      process.stdout.write(out);
+
+      const m = out.match(/Video ID:\s*([A-Za-z0-9_-]{6,})/);
+      if (m) {
+        recordUpload(slug, m[1], meta.privacy);
+        uploadedIds.add(slug);
+        append(`  uploaded ${meta.privacy}: https://youtu.be/${m[1]}`);
+      } else {
+        append(`  uploaded, but no video ID found in output. Not recorded.`);
+      }
+      uploadCount++;
     } catch (err) {
       append(`  FAILED upload: ${err.message || err}`);
+      failCount++;
     }
   }
 }
 
-append(`\n=== Done. ${okCount} rendered, ${failCount} failed. ===`);
-if (UPLOAD) append("All uploads default to PRIVATE — promote them in YouTube Studio after manual review.");
+append(`\n=== Done. ${okCount} rendered, ${uploadCount} uploaded, ${skipCount} skipped, ${failCount} failed. ===`);
+if (failCount > 0) process.exit(1);

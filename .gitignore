@@ -25,3 +25,10 @@ Thumbs.db
 
 # Remotion cache
 .cache/
+
+# YouTube uploader credentials (NEVER commit)
+scripts/oauth-client.json
+scripts/yt-credentials.json
+
+# TypeScript incremental build info
+*.tsbuildinfo

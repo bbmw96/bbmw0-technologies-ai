@@ -1,61 +1,44 @@
 # /daily-check — bbmw0-technologies-ai pipeline health check
 
-Run ALL of the following checks in one pass and produce a clear status report.
-
-## 1. Latest workflow runs
+Run the real health-check script and report the result.
 
 ```bash
-gh run list --repo bbmw96/bbmw0-technologies-ai --workflow=daily-shorts.yml --limit=5 --json databaseId,status,conclusion,startedAt,displayTitle
+bash scripts/daily-report.sh
 ```
 
-Flag any `conclusion` that is not `success`. For the most recent run, grab its ID.
+That single command performs all five checks and writes a full report to
+`/tmp/bbmw0-content-report.log`:
 
-## 2. OAuth health (invalid_grant check)
+1. **Latest workflow runs** — last 5 runs of `daily-shorts.yml`, flagging any
+   conclusion that is not `success`. The script resolves the latest run ID
+   itself with `jq`.
+2. **OAuth health** — greps the latest run log for `invalid_grant`. If found,
+   the fix is to rotate `YT_REFRESH_TOKEN` in GitHub repo Settings, Secrets and
+   variables, Actions. Regenerate with `npm run yt:auth` then `npm run print:secrets`.
+3. **Topic library** — total, used, unused, days remaining at 5/day, and the
+   count already uploaded to YouTube.
+4. **Data file integrity** — detects UTF-8 BOMs, which silently break
+   `JSON.parse` and were the original cause of the pipeline outage.
+5. **YouTube quota** — 1,600 units per upload against the 10,000/day limit.
 
-```bash
-gh run view <latest-run-id> --repo bbmw96/bbmw0-technologies-ai --log 2>&1 | grep -i "invalid_grant" | head -5
-```
+## Exit codes
 
-If any output appears: report "OAuth token expired — rotate YT_REFRESH_TOKEN in GitHub repo Secrets (Settings, Secrets and variables, Actions). Follow the AUTOMATION.md Security cleanup section."
+| Code | Meaning |
+|------|---------|
+| 0 | Pipeline HEALTHY |
+| 1 | Pipeline WARNING |
+| 2 | Pipeline CRITICAL |
 
-## 3. Topic library status
+## Why this is a script and not inline commands
 
-```bash
-node -e "
-const t = JSON.parse(require('fs').readFileSync('./scripts/data/topics.json', 'utf8'));
-const p = JSON.parse(require('fs').readFileSync('./scripts/data/published.json', 'utf8'));
-const used = new Set(p.topicsUsed || []);
-const unused = t.topics.filter(x => !used.has(x.id));
-const byNiche = unused.reduce((a, x) => { a[x.niche] = (a[x.niche] || 0) + 1; return a; }, {});
-console.log('Total topics:', t.topics.length);
-console.log('Used:', used.size);
-console.log('Unused:', unused.length);
-console.log('Days remaining at 5/day:', Math.floor(unused.length / 5));
-console.log('Breakdown by niche:', JSON.stringify(byNiche, null, 2));
-"
-```
+An earlier version of this file listed the raw shell commands, including
+`gh run view <latest-run-id>`. `<latest-run-id>` is a human placeholder, not a
+shell variable. Anything that executed this file directly as a shell script
+failed on that line every time and logged the error to
+`/tmp/bbmw0-content-report.log`. The logic now lives in
+`scripts/daily-report.sh`, which resolves the run ID properly.
 
-Status thresholds:
-- 10+ unused: green
-- 5-9 unused: warning (auto-refill will trigger on next CI run)
-- less than 5 unused: critical (auto-refill is running but AI_ENDPOINT must be set)
+## Report the result
 
-## 4. YouTube quota estimate
-
-Each upload costs approximately 1,600 API units. Daily quota is 10,000 units.
-At 5 videos per day: 5 x 1,600 = 8,000 units used, 2,000 remaining headroom.
-
-Check if recent runs uploaded more than 5 videos (stale files re-uploaded before the skip fix). If so, calculate actual quota used.
-
-## 5. Output format
-
-Present the report as a clean table:
-
-| Check | Status | Detail |
-|-------|--------|--------|
-| Last 5 runs | ... | ... |
-| OAuth | ... | ... |
-| Topics unused | ... | ... |
-| Quota headroom | ... | ... |
-
-End with one line: "Pipeline: HEALTHY" / "Pipeline: WARNING — [issue]" / "Pipeline: CRITICAL — [issue]"
+After running, present the log as a table and finish with one line:
+`Pipeline: HEALTHY` / `Pipeline: WARNING — [issue]` / `Pipeline: CRITICAL — [issue]`
