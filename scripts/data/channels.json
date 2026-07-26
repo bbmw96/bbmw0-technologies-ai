@@ -13,7 +13,13 @@
       "secretPrefix": "YT",
       "dailyCount": 5,
       "privacy": "public",
-      "niches": ["tech", "app", "productivity", "science", "history"],
+      "niches": [
+        "tech",
+        "app",
+        "productivity",
+        "science",
+        "history"
+      ],
       "categoryId": "28",
       "notes": "Primary channel. The daily-shorts workflow publishes here."
     },
@@ -28,7 +34,13 @@
       "secretPrefix": "YT2",
       "dailyCount": 3,
       "privacy": "public",
-      "niches": ["animals", "space", "biology", "food", "weather"],
+      "niches": [
+        "animals",
+        "space",
+        "biology",
+        "food",
+        "weather"
+      ],
       "categoryId": "27",
       "notes": "Enable once YT2_REFRESH_TOKEN, YT2_CLIENT_ID, YT2_CLIENT_SECRET and YT2_OAUTH_CLIENT_JSON are set. Deliberately different niches from yt-bbmw0 so the two channels never compete or look duplicated."
     },
@@ -41,8 +53,18 @@
       "secretPrefix": "IG",
       "dailyCount": 2,
       "privacy": "public",
-      "niches": ["space", "animals", "science"],
-      "notes": "Enable once IG_ACCESS_TOKEN and IG_USER_ID are set. Requires an Instagram Business or Creator account linked to a Facebook Page, and a Meta app with instagram_content_publish. Reels only: 9:16, 3 to 90 seconds."
+      "niches": [
+        "space",
+        "animals",
+        "science"
+      ],
+      "notes": "Enable once IG_ACCESS_TOKEN, IG_USER_ID and PUBLIC_MEDIA_BASE_URL are set. Uses Instagram API with Instagram Login, so NO Facebook account or linked Page is required. Account is Business on up866106@gmail.com with no Facebook. Do not use the Facebook Login permission names (instagram_basic / instagram_content_publish) on this path: they will fail. Reels only: 9:16, 3 to 90 seconds. Instagram fetches the video from a public https URL, it does not accept uploads.",
+      "loginType": "Business Login for Instagram",
+      "apiHost": "graph.instagram.com",
+      "permissions": [
+        "instagram_business_basic",
+        "instagram_business_content_publish"
+      ]
     }
   ],
   "instagram_limits": {
@@ -51,7 +73,7 @@
     "reel_min_seconds": 3,
     "reel_max_seconds": 90,
     "aspect_ratio": "9:16",
-    "daily_publish_limit": 50,
-    "_source": "Meta Instagram Content Publishing API limits."
+    "daily_publish_limit": 100,
+    "_source": "Meta Instagram Platform, Content Publishing. 100 API-published posts per rolling 24h."
   }
 }

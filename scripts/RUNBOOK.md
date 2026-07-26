@@ -49,31 +49,48 @@ gh run watch --repo bbmw96/bbmw0-technologies-ai
 
 **You. About 1 minute.**
 
-`bbm0902-daily-influencer-brief` generates its brief correctly but every push
-fails with 403. The Claude Code GitHub App has read-only scope on
-`bbmw96/bbmw0-technologies`, so commit `a925fa6` and everything after it is
-stranded locally.
+**Why this is needed at all:** your routine `bbm0902-daily-influencer-brief`
+is configured to commit its output into `bbmw96/bbmw0-technologies`. It writes
+`content/bbm0902/daily-briefs/<date>.md` and `content-log.csv`, commits locally,
+then pushes. The push returns 403 because the Claude Code GitHub App has
+read-only scope on that repo, so commit `a925fa6` and everything since is
+stranded. Nothing to do with me needing access: it is your routine's own
+configured destination.
 
-1. Open <https://github.com/settings/installations>
-2. Click **Claude**, then **Repository access**
-3. Ensure `bbmw96/bbmw0-technologies` is selected with **Read and write**
+You were right that `bbmw0-technologies` is the wrong home for this. It is the
+company website repo, not a content store. So a dedicated repo now exists:
 
-Then re-run the routine. The stranded commits will push.
+**`bbmw96/bbmw0-content-ops`** (private)
 
----
+Point the routine there instead. That keeps website code and content operations
+cleanly separated, and means you never have to widen write access on the
+website repo.
 
-## 3. Fix the routine repo association
+1. Open the `bbm0902-daily-influencer-brief` routine
+2. Change the repository to `bbmw96/bbmw0-content-ops`
+3. Grant the Claude GitHub App write on that one repo at
+   <https://github.com/settings/installations>
+
+If you would rather leave it pointing at `bbmw0-technologies`, the fix is just
+step 3 against that repo instead. Either works. The dedicated repo is cleaner.
+
+## 3. Detach the Daily Content Report from verifiq
 
 **You. About 30 seconds.**
 
-`BBMW0 Daily Content Report` is attached to `bbmw96/verifiq`, which is the IFC
-compliance product and unrelated to social reporting. Harmless, but it means the
-routine has no useful repo context.
+**What I meant:** the `BBMW0 Daily Content Report` routine has
+`bbmw96/verifiq` listed under Repositories. You are right that VERIFIQ has
+nothing to do with the social accounts. That is exactly the problem: the routine
+has an unrelated repo attached, so any repo context it pulls is the IFC
+compliance checker rather than anything about content.
 
-Open the routine, click the pencil icon, change the repository to
-`bbmw96/bbmw0-technologies-ai`.
+That routine only reads three social channels through Composio and emails a
+summary. It does not need a repo at all.
 
----
+Open the routine, click the pencil, and either remove the repository or set it
+to `bbmw96/bbmw0-content-ops` so its context matches what it actually does.
+
+Low priority. It is running fine. It just has a misleading attachment.
 
 ## 4. Enable channel two (@bbm0902)
 
@@ -100,37 +117,54 @@ gh workflow run daily-shorts.yml --repo bbmw96/bbmw0-technologies-ai -f channel=
 
 ## 5. Enable Instagram (@ai_game_odyssey)
 
-**You. This is the longest one, allow an hour.** It is a genuine platform
-integration, not a config change.
+**You. About 30 minutes.**
 
-Instagram will not accept a file upload. It fetches the video from a public
-https URL, so the MP4 must be hosted before publishing. That is the main
-architectural difference from YouTube.
+**Correction to an earlier version of this runbook.** It said you need a
+Facebook Page and App Review taking days. That was out of date and wrong for
+your situation. Meta shipped **Instagram API with Instagram Login** in July 2024,
+which supports content publishing with **no Facebook account and no linked
+Page**. Your account is already a Business account on up866106@gmail.com with no
+Facebook attached, which is exactly what this path is for.
 
-### Prerequisites
+`scripts/instagram-upload.mjs` has been rewritten to use it:
 
-- The account must be **Business or Creator**, not personal
-- It must be linked to a Facebook Page
-- A Meta app with the **instagram_content_publish** permission
-- App Review approval, which takes days, unless the account is a test user
+| | Instagram Login (what we use) | Facebook Login (what we do not) |
+|---|---|---|
+| Host | `graph.instagram.com` | `graph.facebook.com` |
+| Needs a Facebook Page | No | Yes |
+| Permissions | `instagram_business_basic`, `instagram_business_content_publish` | `instagram_basic`, `instagram_content_publish`, `pages_read_engagement` |
+| Auth | `Authorization: Bearer` | `access_token` query param |
+
+Using the Facebook-Login permission names on this path fails, which is a common
+and confusing dead end.
 
 ### Steps
 
-1. <https://developers.facebook.com/apps> then create an app of type **Business**
-2. Add the **Instagram Graph API** product
-3. Generate a **long-lived** access token with `instagram_content_publish` and
-   `instagram_basic`. Short-lived tokens expire in an hour and will fail overnight
-4. Find the Instagram Business account id, which is a number and not the @handle
-5. Add GitHub secrets:
+1. <https://developers.facebook.com/apps> then **Create app**
+2. Add the **Instagram** product and choose **Business Login for Instagram**
+3. Under permissions request `instagram_business_basic` and
+   `instagram_business_content_publish`
+4. Run the login flow as **@ai_game_odyssey** and exchange for a **long-lived**
+   token. Short-lived tokens expire in an hour and will fail overnight
+5. Get the numeric Instagram account id, which is not the @handle
+6. Add GitHub secrets:
    - `IG_ACCESS_TOKEN`
    - `IG_USER_ID`
-   - `PUBLIC_MEDIA_BASE_URL` (where rendered MP4s are publicly served)
-6. Set `enabled: true` on `ig-aigameodyssey` in `channels.json`
+   - `PUBLIC_MEDIA_BASE_URL` (where rendered MP4s are publicly served over https)
+7. Set `enabled: true` on `ig-aigameodyssey` in `scripts/data/channels.json`
 
-**Long-lived tokens last 60 days.** Diarise the refresh, or publishing stops
-silently. The daily report will flag the failures, but only after they happen.
+### Two things that will bite
 
----
+**Instagram fetches the video itself.** It cURLs the URL you give it, so the MP4
+must be publicly reachable over https with no auth at that moment. This is why
+`PUBLIC_MEDIA_BASE_URL` exists. Without somewhere to host the renders, Instagram
+publishing cannot work at all, and the script skips with a clear message rather
+than failing the batch.
+
+**Long-lived tokens last 60 days.** Diarise the refresh. When it lapses,
+publishing stops and you find out from the daily report after the fact.
+
+Rate limit is 100 API-published posts per rolling 24 hours, far above your 2/day.
 
 ## Daily operation, once live
 
@@ -163,9 +197,10 @@ The pipeline runs itself at 09:00 UTC daily. Watch the report for:
 - Channel one: code ready, **blocked on step 1**
 - Channel two: code ready, **blocked on step 4**
 - Instagram: code ready and untested against the live API, **blocked on step 5**
+- Content ops repo: `bbmw96/bbmw0-content-ops` created and empty, ready for the routine
 
-The Instagram publisher has never run against a real account. Expect one or two
-rounds of debugging on first use. The container-then-publish handshake and the
-60 to 90 second transcode wait are handled, but Meta's error messages are
-famously unhelpful and the most common cause is the account not being a Business
-account.
+The Instagram publisher has never run against a live account. Expect a round of
+debugging on first use. The container-then-publish handshake, the status polling
+and the error paths are built to the current documented spec, but Meta's error
+messages are unhelpful and the usual culprits are a missing
+`PUBLIC_MEDIA_BASE_URL` or the wrong permission names.
