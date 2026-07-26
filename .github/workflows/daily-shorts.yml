@@ -120,6 +120,27 @@ jobs:
             node scripts/generate-shorts.mjs --count="$COUNT" --date="$DATE"
           fi
 
+      - name: Compliance gate
+        env:
+          AI_ENDPOINT: ${{ secrets.AI_ENDPOINT }}
+        run: |
+          set +e
+          DATE=$(date -u +%F)
+          node scripts/compliance-gate.mjs --date="$DATE" 2>&1 | tee /tmp/compliance.txt
+          GATE_RC=${PIPESTATUS[0]}
+          set -e
+          echo "### Compliance gate" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          cat /tmp/compliance.txt >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          if [ "$GATE_RC" = "2" ]; then
+            echo "::error title=Compliance gate failed to run::The gate could not evaluate this batch. Nothing will be uploaded."
+            exit 1
+          fi
+          if [ "$GATE_RC" = "1" ]; then
+            echo "::warning title=Videos blocked::Some videos were blocked by the compliance gate and will not be uploaded. Cleared videos still publish."
+          fi
+
       - name: Render and upload (public)
         run: |
           set -o pipefail
@@ -139,7 +160,7 @@ jobs:
         run: |
           git config user.name "bbmw0-bot"
           git config user.email "bot@bbmw0.local"
-          git add scripts/data/published.json daily/ scripts/data/topics.json scripts/data/trend-log.json 2>/dev/null || true
+          git add scripts/data/published.json daily/ scripts/data/topics.json scripts/data/trend-log.json scripts/data/compliance-log.json scripts/data/audio-licences.json 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -m "Daily Shorts: $(date -u +%F) [skip ci]"
           git push

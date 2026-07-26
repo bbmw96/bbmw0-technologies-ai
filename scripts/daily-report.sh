@@ -188,6 +188,91 @@ elif [ "$EST" -gt $(( DAILY_QUOTA * 8 / 10 )) ]; then
 fi
 say ""
 
+# ------------------------------------------------------------- 6. Compliance
+say "6. COMPLIANCE GATE"
+say "----------------------------------------------"
+if [ ! -f scripts/data/compliance-log.json ]; then
+  say "  No compliance history yet. The gate runs on the next publish."
+else
+  COMP=$(node -e '
+    const fs = require("fs");
+    const rd = p => JSON.parse(fs.readFileSync(p, "utf8").replace(/^\ufeff/, ""));
+    try {
+      const log = rd("./scripts/data/compliance-log.json");
+      const runs = log.runs || [];
+      if (!runs.length) { console.log("NORUNS=1"); process.exit(0); }
+      const last = runs[runs.length - 1];
+      console.log("LAST_DATE=" + last.date);
+      console.log("REVIEWED=" + last.reviewed);
+      console.log("PASSED=" + last.passed);
+      console.log("BLOCKED=" + last.blocked);
+      const recent = runs.slice(-7);
+      const tot = recent.reduce((a, r) => a + (r.reviewed || 0), 0);
+      const blk = recent.reduce((a, r) => a + (r.blocked || 0), 0);
+      console.log("WEEK_TOTAL=" + tot);
+      console.log("WEEK_BLOCKED=" + blk);
+      const reasons = {};
+      recent.forEach(r => (r.results || []).forEach(v => (v.blocks || []).forEach(b => { reasons[b] = (reasons[b] || 0) + 1; })));
+      const top = Object.entries(reasons).sort((a,b) => b[1]-a[1]).slice(0,3).map(([k,v]) => k + " x" + v).join(", ");
+      console.log("TOPREASONS=" + (top || "none"));
+    } catch (e) { console.log("ERROR=" + e.message); }
+  ' 2>&1)
+  if echo "$COMP" | grep -q "^ERROR="; then
+    say "  Could not read compliance log: ${COMP#ERROR=}"
+    escalate WARNING "compliance log unreadable"
+  elif echo "$COMP" | grep -q "^NORUNS="; then
+    say "  Compliance log exists but has no runs recorded yet."
+  else
+    eval "$(echo "$COMP" | grep -E '^(LAST_DATE|REVIEWED|PASSED|BLOCKED|WEEK_TOTAL|WEEK_BLOCKED)=')"
+    TOPREASONS=$(echo "$COMP" | sed -n 's/^TOPREASONS=//p')
+    say "  Last run:          $LAST_DATE"
+    say "  Reviewed:          $REVIEWED"
+    say "  Cleared:           $PASSED"
+    say "  Blocked:           $BLOCKED"
+    say "  Last 7 runs:       $WEEK_BLOCKED blocked of $WEEK_TOTAL reviewed"
+    say "  Top block reasons: $TOPREASONS"
+    if [ "${BLOCKED:-0}" -gt 0 ]; then
+      escalate WARNING "$BLOCKED video(s) blocked by compliance on $LAST_DATE"
+    fi
+    if [ "${WEEK_TOTAL:-0}" -gt 0 ] && [ "$(( WEEK_BLOCKED * 100 / WEEK_TOTAL ))" -gt 40 ]; then
+      escalate CRITICAL "over 40% of videos blocked this week, the generator is producing non-compliant output"
+    fi
+  fi
+fi
+
+# --------------------------------------------------- 7. Audio licence exposure
+say ""
+say "7. AUDIO LICENCE EXPOSURE"
+say "----------------------------------------------"
+if [ ! -f scripts/data/audio-licences.json ]; then
+  say "  audio-licences.json missing. Copyright provenance is unrecorded."
+  escalate CRITICAL "no audio licence manifest"
+else
+  AUD=$(node -e '
+    const fs = require("fs");
+    const rd = p => JSON.parse(fs.readFileSync(p, "utf8").replace(/^\ufeff/, ""));
+    const m = rd("./scripts/data/audio-licences.json");
+    const t = m.tracks || [];
+    const unknown = t.filter(x => !x.licence || x.licence === "UNKNOWN");
+    console.log("TOTAL=" + t.length);
+    console.log("UNKNOWN=" + unknown.length);
+    console.log("UNKNOWNLIST=" + unknown.map(x => x.file).join(", "));
+  ' 2>&1)
+  eval "$(echo "$AUD" | grep -E '^(TOTAL|UNKNOWN)=')"
+  UNKNOWNLIST=$(echo "$AUD" | sed -n 's/^UNKNOWNLIST=//p')
+  say "  Tracks recorded:   $TOTAL"
+  say "  Unknown licence:   $UNKNOWN"
+  if [ "${UNKNOWN:-0}" -gt 0 ]; then
+    say "  At risk: $UNKNOWNLIST"
+    say "  Every video using these carries Content ID claim risk."
+    escalate WARNING "$UNKNOWN audio track(s) have no recorded licence"
+  else
+    say "  All audio beds have a recorded licence."
+  fi
+fi
+
+say ""
+
 # ------------------------------------------------------------------- Verdict
 say "=============================================="
 if [ -n "$ISSUES" ]; then

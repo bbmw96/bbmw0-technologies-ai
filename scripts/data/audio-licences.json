@@ -1,0 +1,86 @@
+{
+  "_comment": "Audio licence provenance. Background music is the most common cause of YouTube Content ID claims, which strip monetisation and can escalate to strikes. Every bed used in a published video must have a recorded, verifiable licence. The compliance gate reads this file.",
+  "_how_to_fill": "For each entry set licence to one of the acceptable values in compliance-policy.json legal.acceptable_audio_licences, paste the exact source_url you downloaded it from, and set verified_by and verified_on. Keep a copy of the licence page as a PDF alongside this file.",
+  "_warning": "Files whose original source cannot be established should be replaced rather than guessed at. A wrong entry here is worse than an honest UNKNOWN.",
+  "updated": "2026-07-26",
+  "tracks": [
+    {
+      "file": "sounds/Drums.mp3",
+      "sha256": "9311c95830bb62f0b13de30cdd660585",
+      "bytes": 2075585,
+      "licence": "UNKNOWN",
+      "source_url": "",
+      "downloaded_from": "",
+      "attribution_required": null,
+      "commercial_use": null,
+      "verified_by": "",
+      "verified_on": "",
+      "notes": "Provenance not yet recorded. Confirm the original source and licence, then replace UNKNOWN."
+    },
+    {
+      "file": "sounds/forest ambiance.mp3",
+      "sha256": "3db31cddd8f4752ad5c2ab8e7898565c",
+      "bytes": 2243328,
+      "licence": "UNKNOWN",
+      "source_url": "",
+      "downloaded_from": "",
+      "attribution_required": null,
+      "commercial_use": null,
+      "verified_by": "",
+      "verified_on": "",
+      "notes": "Provenance not yet recorded. Confirm the original source and licence, then replace UNKNOWN."
+    },
+    {
+      "file": "sounds/ocean waves.mp3",
+      "sha256": "398b6cdc0b816d18c5e6bdda26640d54",
+      "bytes": 1536768,
+      "licence": "UNKNOWN",
+      "source_url": "",
+      "downloaded_from": "",
+      "attribution_required": null,
+      "commercial_use": null,
+      "verified_by": "",
+      "verified_on": "",
+      "notes": "Provenance not yet recorded. Confirm the original source and licence, then replace UNKNOWN."
+    },
+    {
+      "file": "sounds/rain.mp3",
+      "sha256": "51c31a25e38aa7f8e9747fd1135b3bd4",
+      "bytes": 1443072,
+      "licence": "UNKNOWN",
+      "source_url": "",
+      "downloaded_from": "",
+      "attribution_required": null,
+      "commercial_use": null,
+      "verified_by": "",
+      "verified_on": "",
+      "notes": "Provenance not yet recorded. Confirm the original source and licence, then replace UNKNOWN."
+    },
+    {
+      "file": "sounds/thunder and rain.mp3",
+      "sha256": "450b957ad61280b2c36b00c29e25c28a",
+      "bytes": 14526240,
+      "licence": "UNKNOWN",
+      "source_url": "",
+      "downloaded_from": "",
+      "attribution_required": null,
+      "commercial_use": null,
+      "verified_by": "",
+      "verified_on": "",
+      "notes": "Provenance not yet recorded. Confirm the original source and licence, then replace UNKNOWN."
+    },
+    {
+      "file": "sounds/waterfalls and frogs.mp3",
+      "sha256": "54c4bc02346492a339208eb1b48258d5",
+      "bytes": 1162762,
+      "licence": "UNKNOWN",
+      "source_url": "",
+      "downloaded_from": "",
+      "attribution_required": null,
+      "commercial_use": null,
+      "verified_by": "",
+      "verified_on": "",
+      "notes": "Provenance not yet recorded. Confirm the original source and licence, then replace UNKNOWN."
+    }
+  ]
+}

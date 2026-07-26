@@ -74,7 +74,35 @@ const logPath = path.join(dir, "render-log.txt");
 const append = (s) => { log.push(s); fs.writeFileSync(logPath, log.join("\n") + "\n"); console.log(s); };
 
 append(`Rendering ${propsFiles.length} Shorts for ${DATE} (concurrency=${CONCURRENCY}, GL=${GL_FLAGS || "default"})`);
-let okCount = 0, failCount = 0, skipCount = 0, uploadCount = 0;
+let okCount = 0, failCount = 0, skipCount = 0, uploadCount = 0, blockedCount = 0;
+
+// ---------------------------------------------------------------- compliance
+// Nothing reaches YouTube without clearing the compliance gate. If the verdict
+// is missing we run the gate rather than trusting an unreviewed batch: an
+// absent verdict must never be read as approval.
+let complianceBlocked = new Set();
+if (UPLOAD) {
+  const verdictPath = path.join(dir, "compliance-verdict.json");
+  if (!fs.existsSync(verdictPath)) {
+    append("No compliance verdict found. Running the gate before upload.");
+    try {
+      execSync(`node scripts/compliance-gate.mjs --date="${DATE}"`, { cwd: ROOT, stdio: "inherit" });
+    } catch {
+      // Exit code 1 means some videos were blocked, which is a normal outcome.
+      // The verdict file is still written, so carry on and read it.
+    }
+  }
+  if (!fs.existsSync(verdictPath)) {
+    append("FATAL: compliance gate did not produce a verdict. Refusing to upload.");
+    process.exit(1);
+  }
+  const verdict = readJSON(verdictPath);
+  complianceBlocked = new Set(verdict.blocked || []);
+  append(`Compliance: ${(verdict.allowed || []).length} cleared, ${complianceBlocked.size} blocked (policy v${verdict.policyVersion}).`);
+  if (complianceBlocked.size) {
+    append(`Blocked by compliance: ${[...complianceBlocked].join(", ")}`);
+  }
+}
 
 const publishedPath = path.join(ROOT, "scripts/data/published.json");
 const published = readJSON(publishedPath);
@@ -149,6 +177,12 @@ for (const propsFile of propsFiles) {
     }
   }
 
+  if (UPLOAD && complianceBlocked.has(slug)) {
+    append(`  BLOCKED BY COMPLIANCE: not uploaded. See daily/${DATE}/compliance-verdict.json.`);
+    blockedCount++;
+    continue;
+  }
+
   if (UPLOAD) {
     try {
       const tags = (meta.tags || []).join(",");
@@ -183,5 +217,5 @@ for (const propsFile of propsFiles) {
   }
 }
 
-append(`\n=== Done. ${okCount} rendered, ${uploadCount} uploaded, ${skipCount} skipped, ${failCount} failed. ===`);
+append(`\n=== Done. ${okCount} rendered, ${uploadCount} uploaded, ${skipCount} skipped, ${blockedCount} blocked by compliance, ${failCount} failed. ===`);
 if (failCount > 0) process.exit(1);
