@@ -145,11 +145,19 @@ jobs:
             echo "::warning title=Videos blocked::Some videos were blocked by the compliance gate and will not be uploaded. Cleared videos still publish."
           fi
 
+      - name: Host media for Instagram (public URLs)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DATE=$(date -u +%F)
+          node scripts/publish-media.mjs --date="$DATE" || echo "::warning title=Media hosting::No Instagram videos to host, or hosting failed. YouTube uploads are unaffected."
+
       - name: Render and upload (public)
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           PUBLIC_MEDIA_BASE_URL: ${{ secrets.PUBLIC_MEDIA_BASE_URL }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -o pipefail
           DATE=$(date -u +%F)

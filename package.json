@@ -38,7 +38,8 @@
     "compliance:strict": "node scripts/compliance-gate.mjs --strict",
     "yt:rotate": "bash scripts/rotate-youtube-token.sh",
     "gen:channel": "node scripts/generate-shorts.mjs --channel",
-    "ig:upload": "node scripts/instagram-upload.mjs"
+    "ig:upload": "node scripts/instagram-upload.mjs",
+    "media:host": "node scripts/publish-media.mjs"
   },
   "dependencies": {
     "@remotion/player": "4.0.454",

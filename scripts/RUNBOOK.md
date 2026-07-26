@@ -153,16 +153,34 @@ and confusing dead end.
    - `PUBLIC_MEDIA_BASE_URL` (where rendered MP4s are publicly served over https)
 7. Set `enabled: true` on `ig-aigameodyssey` in `scripts/data/channels.json`
 
-### Two things that will bite
+### Media hosting is solved
 
-**Instagram fetches the video itself.** It cURLs the URL you give it, so the MP4
-must be publicly reachable over https with no auth at that moment. This is why
-`PUBLIC_MEDIA_BASE_URL` exists. Without somewhere to host the renders, Instagram
-publishing cannot work at all, and the script skips with a clear message rather
-than failing the batch.
+Instagram cURLs the video from a public URL rather than accepting an upload, so
+the MP4 must be reachable over https at the moment of publishing.
+
+`scripts/publish-media.mjs` handles this by attaching the rendered videos to a
+**GitHub Release** on `bbmw0-technologies-ai`, tagged `media-<date>`. Release
+assets on a public repo are publicly fetchable, free, and do not bloat the git
+history. The renderer calls it automatically, so there is nothing to configure.
+
+Options considered and rejected:
+
+| Approach | Why not |
+|---|---|
+| Commit MP4s to the repo | About 3MB x 5/day is roughly 5GB/year of permanent history |
+| Vercel static hosting | Same problem: files must live in the repo |
+| Workflow artifacts | **Require auth to download, so Instagram cannot fetch them.** They look public but are not |
+| Vercel Blob or S3 | Works, but adds a paid dependency and more secrets |
+
+Set `PUBLIC_MEDIA_BASE_URL` only if you want to override this with your own CDN.
+
+**One dependency worth knowing:** this relies on `bbmw0-technologies-ai` staying
+**public**. Make it private and release assets start requiring auth, and
+Instagram fetches will fail. `publish-media.mjs` checks visibility first and
+stops with a clear message rather than letting it fail opaquely later.
 
 **Long-lived tokens last 60 days.** Diarise the refresh. When it lapses,
-publishing stops and you find out from the daily report after the fact.
+publishing stops and the daily report tells you after the fact.
 
 Rate limit is 100 API-published posts per rolling 24 hours, far above your 2/day.
 
@@ -197,7 +215,14 @@ The pipeline runs itself at 09:00 UTC daily. Watch the report for:
 - Channel one: code ready, **blocked on step 1**
 - Channel two: code ready, **blocked on step 4**
 - Instagram: code ready and untested against the live API, **blocked on step 5**
-- Content ops repo: `bbmw96/bbmw0-content-ops` created and empty, ready for the routine
+- Content ops repo: `bbmw96/bbmw0-content-ops` created and seeded
+- Media hosting: solved via GitHub Releases, no configuration needed
+
+## Repository check
+
+All 18 repos under `bbmw96` were audited. **There is no separate YouTube repo.**
+`bbmw0-technologies-ai` is the video pipeline, and nothing was duplicated. The
+only content-related repos are that one and the new `bbmw0-content-ops`.
 
 The Instagram publisher has never run against a live account. Expect a round of
 debugging on first use. The container-then-publish handshake, the status polling

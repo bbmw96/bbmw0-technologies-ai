@@ -193,13 +193,36 @@ for (const propsFile of propsFiles) {
       // upload, so it needs the file hosted first. Skip rather than fail the
       // batch if no public base URL is configured.
       if (meta.platform === "instagram") {
-        const base = process.env.PUBLIC_MEDIA_BASE_URL;
-        if (!base) {
-          append(`  SKIPPED: Instagram needs PUBLIC_MEDIA_BASE_URL set. It fetches the video from a public URL and cannot accept a local file.`);
+        // Instagram cURLs the video from a public URL. Resolve it in priority
+        // order: an explicit override, then the media-urls.json written by
+        // publish-media.mjs, then host it now.
+        let videoUrl = null;
+        const urlsPath = path.join(dir, "media-urls.json");
+
+        if (process.env.PUBLIC_MEDIA_BASE_URL) {
+          videoUrl = `${process.env.PUBLIC_MEDIA_BASE_URL.replace(/\/$/, "")}/${encodeURIComponent(path.basename(outFile))}`;
+        } else {
+          if (!fs.existsSync(urlsPath)) {
+            append(`  hosting media so Instagram can fetch it...`);
+            try {
+              execSync(`node scripts/publish-media.mjs --date="${DATE}"`, { cwd: ROOT, stdio: "inherit" });
+            } catch {
+              append(`  FAILED to host media. Instagram cannot fetch a local file.`);
+              failCount++;
+              continue;
+            }
+          }
+          if (fs.existsSync(urlsPath)) {
+            const m = readJSON(urlsPath, { urls: {} });
+            videoUrl = (m.urls || {})[slug] || null;
+          }
+        }
+
+        if (!videoUrl) {
+          append(`  SKIPPED: no public URL for ${slug}. Set PUBLIC_MEDIA_BASE_URL or check publish-media.mjs.`);
           skipCount++;
           continue;
         }
-        const videoUrl = `${base.replace(/\/$/, "")}/${path.basename(outFile)}`;
         const igCmd = [
           "node", "scripts/instagram-upload.mjs",
           `--video-url="${videoUrl}"`,
