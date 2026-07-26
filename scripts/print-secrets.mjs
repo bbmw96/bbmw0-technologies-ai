@@ -9,6 +9,24 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+
+// SAFETY GUARD -------------------------------------------------------------
+// This script prints live credentials to the terminal. That is how the previous
+// client secret and refresh token ended up pasted into a chat window, from
+// where they had to be treated as compromised and rotated.
+//
+// Use `npm run yt:rotate` instead: it pipes each secret straight into
+// `gh secret set` over stdin and never displays a value.
+if (!process.argv.includes("--i-understand-the-risk")) {
+  console.error("\nREFUSED: this prints live credentials in plain text.\n");
+  console.error("  Use:  npm run yt:rotate");
+  console.error("        Sets every GitHub secret without displaying any value.\n");
+  console.error("  Override (not recommended):");
+  console.error("        node scripts/print-secrets.mjs --i-understand-the-risk\n");
+  process.exit(1);
+}
+
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const CLIENT = path.join(__dirname, "oauth-client.json");
 const CREDS  = path.join(__dirname, "yt-credentials.json");

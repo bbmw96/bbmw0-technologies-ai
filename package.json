@@ -35,7 +35,8 @@
     "print:secrets": "node scripts/print-secrets.mjs",
     "report:daily": "bash scripts/daily-report.sh",
     "compliance": "node scripts/compliance-gate.mjs",
-    "compliance:strict": "node scripts/compliance-gate.mjs --strict"
+    "compliance:strict": "node scripts/compliance-gate.mjs --strict",
+    "yt:rotate": "bash scripts/rotate-youtube-token.sh"
   },
   "dependencies": {
     "@remotion/player": "4.0.454",
