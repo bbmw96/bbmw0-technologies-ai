@@ -116,28 +116,36 @@
   ],
   "audios": [
     {
-      "url": "sounds/bbmw0-rain.mp3",
+      "url": "sounds/bbmw0-rain-light.mp3",
       "vol": 0.45
     },
     {
-      "url": "sounds/bbmw0-ocean.mp3",
-      "vol": 0.45
+      "url": "sounds/bbmw0-rain-heavy.mp3",
+      "vol": 0.4
     },
     {
-      "url": "sounds/bbmw0-forest.mp3",
+      "url": "sounds/bbmw0-rain-distant.mp3",
       "vol": 0.5
+    },
+    {
+      "url": "sounds/bbmw0-ocean-swell.mp3",
+      "vol": 0.45
+    },
+    {
+      "url": "sounds/bbmw0-ocean-shore.mp3",
+      "vol": 0.45
     },
     {
       "url": "sounds/bbmw0-stream.mp3",
       "vol": 0.5
     },
     {
-      "url": "sounds/bbmw0-hum.mp3",
-      "vol": 0.4
+      "url": "sounds/bbmw0-forest-wind.mp3",
+      "vol": 0.5
     },
     {
-      "url": "sounds/bbmw0-pulse.mp3",
-      "vol": 0.4
+      "url": "sounds/bbmw0-wind-open.mp3",
+      "vol": 0.5
     }
   ],
   "title_tags": [
@@ -165,5 +173,6 @@
     "shorts,space,facts,astronomy",
     "shorts,coding,tech,developer",
     "shorts,productivity,tips,learn"
-  ]
+  ],
+  "_audio_note": "Natural ambience only. No instruments, tones, melody or beat. All beds are original synthesised works, see scripts/audio/generate-beds.sh."
 }

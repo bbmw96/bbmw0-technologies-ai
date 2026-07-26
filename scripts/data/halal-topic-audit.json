@@ -1,0 +1,10 @@
+{
+  "_comment": "Audit of the topic library against the halal rules in compliance-policy.json. Regenerate after changing either file.",
+  "audited": "2026-07-26",
+  "total": 105,
+  "blocked": 0,
+  "needs_review": 1,
+  "context_review": [
+    "honeybee-dance -> dancing"
+  ]
+}

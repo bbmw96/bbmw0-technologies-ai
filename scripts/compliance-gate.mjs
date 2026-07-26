@@ -5,7 +5,7 @@
 // Runs three independent layers over every candidate video and returns a
 // verdict per video plus a machine-readable audit trail.
 //
-//   Layer 1  Deterministic rules   objective, offline, always runs
+//   Layer 1  Deterministic rules   platform, legal and halal. Offline, always runs
 //   Layer 2  Repetition analysis   defends the mass-produced content policy
 //   Layer 3  AI review panel       judgement calls, majority vote
 //
@@ -24,6 +24,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { runRules, SEVERITY } from "./compliance/rules.mjs";
 import { checkRepetition } from "./compliance/similarity.mjs";
+import { runHalalRules } from "./compliance/halal.mjs";
 import { runPanel } from "./compliance/ai-panel.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -97,6 +98,7 @@ for (const item of batch) {
 
   // Layer 1
   findings.push(...runRules(meta, props, policy, audioLicences));
+  findings.push(...runHalalRules(meta, props, policy));
 
   // Layer 2
   const rep = checkRepetition(

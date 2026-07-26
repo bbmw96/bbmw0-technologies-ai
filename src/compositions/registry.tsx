@@ -52,7 +52,7 @@ const dailyDefaults = {
   themeId: "midnight" as const,
   fontFamilyId: "sans" as const,
   beats: dailyDefaultBeats,
-  audioUrl: "sounds/bbmw0-pulse.mp3",
+  audioUrl: "sounds/bbmw0-rain-light.mp3",
   audioVolume: 0.4,
 };
 

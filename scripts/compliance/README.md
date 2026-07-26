@@ -22,6 +22,7 @@ immediately. See `scripts/data/audio-licences.json`.
 | Layer | File | What it does | Can it be wrong? |
 |---|---|---|---|
 | 1. Rules | `rules.mjs` | Objective, offline checks: field limits, house style, hard-banned terms, keyword stuffing, misleading metadata, COPPA, audio licence records | No. Same input, same verdict, every time |
+| 1b. Halal | `halal.mjs` | Intoxicants, pork, gambling, riba, immodesty, profanity, astrology and superstition, contested origins claims, depiction of animate beings | No, but it is keyword-based. See the limits below |
 | 2. Repetition | `similarity.mjs` | Trigram and token similarity against the last 200 videos and the current batch, plus theme/font/audio reuse and niche concentration | Thresholds are a judgement call, tune in policy |
 | 3. AI panel | `ai-panel.mjs` | Four reviewers on four different providers: factual accuracy, safety, legal, misleading metadata. Majority must pass | Yes, which is why it is a majority vote and only one of three layers |
 
@@ -62,9 +63,44 @@ science and history facts. An early flat wordlist blocked "Jellyfish have no
 brain, heart, or blood", which is textbook biology. Context-sensitive hits are
 referred to the AI safety reviewer, which can read the sentence.
 
+## The halal layer
+
+Enforced as hard blocks on every video, at the channel owner's instruction.
+Configured under `halal` in the policy file.
+
+| Category | Blocks |
+|---|---|
+| Intoxicants | Alcohol, drugs, tobacco, vaping |
+| Pork | Pork and derived products |
+| Gambling | Casinos, betting, lotteries |
+| Riba | Interest, usury, APR, payday loans |
+| Immodesty | Nudity, romance, dating |
+| Superstition | Astrology, fortune telling, charms, omens |
+| Origins | Contested origins and deep-time claims stated as settled fact |
+| Imagery | Any image or video asset in a composition |
+
+**Audio is natural ambience only.** All eight beds are filtered noise: no
+instrument, tone, melody or beat. Amplitude modulation runs at 0.1 to 0.3 Hz to
+reproduce wind and water swell, far below anything perceived as rhythm. A
+sustained three-tone drone and a 72 bpm low pulse were removed for this reason.
+Do not reintroduce `sine`, `square`, `triangle` or `sawtooth` sources into
+`scripts/audio/generate-beds.sh`.
+
+**The origins rule is deliberately broad.** It matches evolution, natural
+selection, common ancestry, big bang, and "millions of years ago". This removed
+one topic from the library and caught a phrase buried in the generator's own
+animals copy bank that no topic audit would have found. Run
+`scripts/data/halal-topic-audit.json` again after changing either the rules or
+the topic library.
+
+Terms that are legitimate in one context and not another (`music`, `festival`,
+`celebration`, `wedding`) raise a warning and go to the AI reviewer rather than
+being blocked outright.
+
 ## Honest limits
 
 - The gate reads **text and metadata**, not rendered pixels. It cannot see a visual layout problem, a contrast failure or a font that renders illegibly.
 - The AI panel is advisory. Models are wrong sometimes, in both directions.
 - It cannot verify audio licences for you. It can only check whether you have recorded one. An entry saying `CC0` that is actually wrong is worse than `UNKNOWN`.
 - Passing this gate is not legal advice and is not a guarantee against a strike. It materially reduces risk. It does not eliminate it.
+- **The halal layer is a keyword and pattern filter, not a scholar.** It catches clear cases reliably, as the adversarial tests show. It cannot judge nuance, intent or context the way a person can. Treat it as a first line of defence that makes human review faster, not as a religious ruling.

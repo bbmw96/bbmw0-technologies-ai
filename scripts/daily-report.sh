@@ -271,6 +271,28 @@ else
   fi
 fi
 
+# --------------------------------------------------------- 8. Halal integrity
+say ""
+say "8. HALAL INTEGRITY"
+say "----------------------------------------------"
+TONAL=$(grep -cE "sine=|square=|triangle=|sawtooth=" scripts/audio/generate-beds.sh 2>/dev/null || echo 0)
+if [ "$TONAL" -gt 0 ]; then
+  say "  $TONAL tonal generator(s) in generate-beds.sh. Audio must be natural ambience only."
+  escalate CRITICAL "tonal/instrumental audio source reintroduced"
+else
+  say "  Audio sources:     natural ambience only (no tonal generators)"
+fi
+if [ -f scripts/data/halal-topic-audit.json ]; then
+  HB=$(node -e 'const a=JSON.parse(require("fs").readFileSync("./scripts/data/halal-topic-audit.json","utf8"));console.log((a.blocked||0)+" "+(a.needs_review||0)+" "+(a.total||0))' 2>/dev/null)
+  set -- $HB
+  say "  Topic library:     $3 topics, $1 blocked, $2 need context review"
+  if [ "${1:-0}" -gt 0 ]; then
+    escalate WARNING "$1 topic(s) in the library violate the halal rules"
+  fi
+else
+  say "  No topic audit found. Regenerate it after changing rules or topics."
+fi
+
 say ""
 
 # ------------------------------------------------------------------- Verdict

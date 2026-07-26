@@ -26,10 +26,10 @@ const consensusBeats = (url: string): Beat[] => [
   { kind: "cta", headline: "Try it.", url, durationInFrames: 150 },
 ];
 
-export const ConsensusShort: React.FC<ShortProps> = ({ url = URL, audioUrl = "sounds/bbmw0-pulse.mp3" }) => (
+export const ConsensusShort: React.FC<ShortProps> = ({ url = URL, audioUrl = "sounds/bbmw0-rain-light.mp3" }) => (
   <ThemedShort themeId="sunset" beats={consensusBeats(url)} audioUrl={audioUrl} audioVolume={0.4} />
 );
-export const consensusShortDefaults: ShortProps = { url: URL, audioUrl: "sounds/bbmw0-pulse.mp3" };
+export const consensusShortDefaults: ShortProps = { url: URL, audioUrl: "sounds/bbmw0-rain-light.mp3" };
 
 // =====================================================================
 // 2. PhoneInstall  (Midnight)  — install as a real app on your phone
@@ -45,10 +45,10 @@ const phoneInstallBeats = (url: string): Beat[] => [
   { kind: "cta", headline: "Install yours.", url, durationInFrames: 150 },
 ];
 
-export const PhoneInstallShort: React.FC<ShortProps> = ({ url = URL, audioUrl = "sounds/bbmw0-pulse.mp3" }) => (
+export const PhoneInstallShort: React.FC<ShortProps> = ({ url = URL, audioUrl = "sounds/bbmw0-rain-light.mp3" }) => (
   <ThemedShort themeId="midnight" beats={phoneInstallBeats(url)} audioUrl={audioUrl} audioVolume={0.4} />
 );
-export const phoneInstallShortDefaults: ShortProps = { url: URL, audioUrl: "sounds/bbmw0-pulse.mp3" };
+export const phoneInstallShortDefaults: ShortProps = { url: URL, audioUrl: "sounds/bbmw0-rain-light.mp3" };
 
 // =====================================================================
 // 3. Languages  (Ocean)  — speaks 10 languages including RTL
@@ -64,10 +64,10 @@ const languagesBeats = (url: string): Beat[] => [
   { kind: "cta", headline: "Pick your language.", url, durationInFrames: 150 },
 ];
 
-export const LanguagesShort: React.FC<ShortProps> = ({ url = URL, audioUrl = "sounds/bbmw0-ocean.mp3" }) => (
+export const LanguagesShort: React.FC<ShortProps> = ({ url = URL, audioUrl = "sounds/bbmw0-ocean-swell.mp3" }) => (
   <ThemedShort themeId="ocean" beats={languagesBeats(url)} audioUrl={audioUrl} audioVolume={0.5} />
 );
-export const languagesShortDefaults: ShortProps = { url: URL, audioUrl: "sounds/bbmw0-ocean.mp3" };
+export const languagesShortDefaults: ShortProps = { url: URL, audioUrl: "sounds/bbmw0-ocean-swell.mp3" };
 
 // =====================================================================
 // 4. Presets  (Sandstorm)  — 5 polished scene presets
@@ -83,10 +83,10 @@ const presetsBeats = (url: string): Beat[] => [
   { kind: "cta", headline: "Pick a preset.", url, durationInFrames: 150 },
 ];
 
-export const PresetsShort: React.FC<ShortProps> = ({ url = URL, audioUrl = "sounds/bbmw0-pulse.mp3" }) => (
+export const PresetsShort: React.FC<ShortProps> = ({ url = URL, audioUrl = "sounds/bbmw0-rain-light.mp3" }) => (
   <ThemedShort themeId="sandstorm" beats={presetsBeats(url)} audioUrl={audioUrl} audioVolume={0.4} />
 );
-export const presetsShortDefaults: ShortProps = { url: URL, audioUrl: "sounds/bbmw0-pulse.mp3" };
+export const presetsShortDefaults: ShortProps = { url: URL, audioUrl: "sounds/bbmw0-rain-light.mp3" };
 
 // =====================================================================
 // 5. OpenSource  (Forest)  — free, MIT, fork it
@@ -102,10 +102,10 @@ const openSourceBeats = (url: string): Beat[] => [
   { kind: "cta", headline: "Star the repo.", url, durationInFrames: 150 },
 ];
 
-export const OpenSourceShort: React.FC<ShortProps> = ({ url = URL, audioUrl = "sounds/bbmw0-forest.mp3" }) => (
+export const OpenSourceShort: React.FC<ShortProps> = ({ url = URL, audioUrl = "sounds/bbmw0-forest-wind.mp3" }) => (
   <ThemedShort themeId="forest" beats={openSourceBeats(url)} audioUrl={audioUrl} audioVolume={0.5} />
 );
-export const openSourceShortDefaults: ShortProps = { url: URL, audioUrl: "sounds/bbmw0-forest.mp3" };
+export const openSourceShortDefaults: ShortProps = { url: URL, audioUrl: "sounds/bbmw0-forest-wind.mp3" };
 
 // =====================================================================
 // 6. MobileFirst  (Neon)  — design philosophy
@@ -121,10 +121,10 @@ const mobileFirstBeats = (url: string): Beat[] => [
   { kind: "cta", headline: "Try the difference.", url, durationInFrames: 150 },
 ];
 
-export const MobileFirstShort: React.FC<ShortProps> = ({ url = URL, audioUrl = "sounds/bbmw0-rain.mp3" }) => (
+export const MobileFirstShort: React.FC<ShortProps> = ({ url = URL, audioUrl = "sounds/bbmw0-rain-light.mp3" }) => (
   <ThemedShort themeId="neon" beats={mobileFirstBeats(url)} audioUrl={audioUrl} audioVolume={0.45} />
 );
-export const mobileFirstShortDefaults: ShortProps = { url: URL, audioUrl: "sounds/bbmw0-rain.mp3" };
+export const mobileFirstShortDefaults: ShortProps = { url: URL, audioUrl: "sounds/bbmw0-rain-light.mp3" };
 
 // =====================================================================
 // 7. WhyVertical  (Neon)  — vertical is the format that wins
@@ -140,10 +140,10 @@ const whyVerticalBeats = (url: string): Beat[] => [
   { kind: "cta", headline: "Edit vertical.", url, durationInFrames: 150 },
 ];
 
-export const WhyVerticalShort: React.FC<ShortProps> = ({ url = URL, audioUrl = "sounds/bbmw0-rain.mp3" }) => (
+export const WhyVerticalShort: React.FC<ShortProps> = ({ url = URL, audioUrl = "sounds/bbmw0-rain-light.mp3" }) => (
   <ThemedShort themeId="neon" beats={whyVerticalBeats(url)} audioUrl={audioUrl} audioVolume={0.45} />
 );
-export const whyVerticalShortDefaults: ShortProps = { url: URL, audioUrl: "sounds/bbmw0-rain.mp3" };
+export const whyVerticalShortDefaults: ShortProps = { url: URL, audioUrl: "sounds/bbmw0-rain-light.mp3" };
 
 // =====================================================================
 // 8. YourPocket  (Forest)  — the whole studio, in your pocket
@@ -178,7 +178,7 @@ const fromIdeaBeats = (url: string): Beat[] => [
   { kind: "cta", headline: "Make one now.", url, durationInFrames: 120 },
 ];
 
-export const FromIdeaShort: React.FC<ShortProps> = ({ url = URL, audioUrl = "sounds/bbmw0-pulse.mp3" }) => (
+export const FromIdeaShort: React.FC<ShortProps> = ({ url = URL, audioUrl = "sounds/bbmw0-rain-light.mp3" }) => (
   <ThemedShort themeId="midnight" beats={fromIdeaBeats(url)} audioUrl={audioUrl} audioVolume={0.4} />
 );
-export const fromIdeaShortDefaults: ShortProps = { url: URL, audioUrl: "sounds/bbmw0-pulse.mp3" };
+export const fromIdeaShortDefaults: ShortProps = { url: URL, audioUrl: "sounds/bbmw0-rain-light.mp3" };

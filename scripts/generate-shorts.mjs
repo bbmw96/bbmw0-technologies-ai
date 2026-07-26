@@ -284,7 +284,7 @@ function pickListItems(topic, r) {
   // related items based on the niche. Generator-side variation is fine for
   // the avoid-repetition goal .  what matters is that no two videos match.
   const banks = {
-    animals:  [["They evolved early", "Most are misunderstood", "There's always more"], ["Watch closer", "Listen too", "Think how"]],
+    animals:  [["Built for their world", "Most are misunderstood", "There's always more"], ["Watch closer", "Listen too", "Think how"]],
     food:     [["Origin matters", "Storage too", "Then, science"], ["Where", "How", "Why"]],
     space:    [["Distance is wild", "Time is weirder", "Scale breaks brains"], ["Look up", "Wait longer", "Be amazed"]],
     history:  [["Records are sparse", "Witnesses are rare", "Truth is fragile"], ["Read more", "Cross-check", "Stay curious"]],
