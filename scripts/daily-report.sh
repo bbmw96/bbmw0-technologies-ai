@@ -293,6 +293,41 @@ else
   say "  No topic audit found. Regenerate it after changing rules or topics."
 fi
 
+# ------------------------------------------------------------- 9. Channels
+say ""
+say "9. PUBLISHING CHANNELS"
+say "----------------------------------------------"
+if [ ! -f scripts/data/channels.json ]; then
+  say "  channels.json missing."
+  escalate WARNING "no channel registry"
+else
+  node -e '
+    const fs=require("fs");
+    const rd=p=>JSON.parse(fs.readFileSync(p,"utf8").replace(/^\ufeff/,""));
+    const c=rd("./scripts/data/channels.json").channels||[];
+    const pub=rd("./scripts/data/published.json").videos||[];
+    for(const ch of c){
+      const n=pub.filter(v=>v&&v.channelId===ch.id).length;
+      const up=pub.filter(v=>v&&v.channelId===ch.id&&v.youtubeId).length;
+      console.log("  "+(ch.enabled?"LIVE    ":"disabled")+"  "+ch.id.padEnd(18)+ch.handle.padEnd(20)+ch.platform.padEnd(11)+"generated="+n+" published="+up);
+    }
+    const live=c.filter(x=>x.enabled).length;
+    console.log("  ---");
+    console.log("  "+live+" of "+c.length+" channels enabled");
+  ' >> "$LOG" 2>&1
+  [ "$QUIET" -eq 0 ] && node -e '
+    const fs=require("fs");
+    const rd=p=>JSON.parse(fs.readFileSync(p,"utf8").replace(/^\ufeff/,""));
+    const c=rd("./scripts/data/channels.json").channels||[];
+    const pub=rd("./scripts/data/published.json").videos||[];
+    for(const ch of c){
+      const n=pub.filter(v=>v&&v.channelId===ch.id).length;
+      const up=pub.filter(v=>v&&v.channelId===ch.id&&v.youtubeId).length;
+      console.log("  "+(ch.enabled?"LIVE    ":"disabled")+"  "+ch.id.padEnd(18)+ch.handle.padEnd(20)+ch.platform.padEnd(11)+"generated="+n+" published="+up);
+    }
+  '
+fi
+
 say ""
 
 # ------------------------------------------------------------------- Verdict

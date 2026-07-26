@@ -92,6 +92,15 @@ const pick = (arr, r) => arr[Math.floor(r() * arr.length)];
 // Publish live by default. Override with --privacy=private|unlisted.
 const PRIVACY = ["private", "unlisted", "public"].includes(A.privacy) ? A.privacy : "public";
 
+// Channel routing. Each channel owns a distinct set of niches so two owned
+// channels never publish the same fact, which the compliance gate blocks and
+// which reads as reuploading to YouTube.
+const CHANNELS = readJSON(path.join(DATA, "channels.json"));
+const CHANNEL = A.channel
+  ? (CHANNELS.channels.find((c) => c.id === A.channel)
+     || (() => { console.error(`Unknown channel "${A.channel}". Known: ${CHANNELS.channels.map(c => c.id).join(", ")}`); process.exit(1); })())
+  : CHANNELS.channels.find((c) => c.enabled) || CHANNELS.channels[0];
+
 // Load history.
 const history = fs.existsSync(PUBLISHED)
   ? readJSON(PUBLISHED)
@@ -99,8 +108,11 @@ const history = fs.existsSync(PUBLISHED)
 
 // Pick unused topics.
 const usedTopics = new Set(history.topicsUsed);
+const channelNiches = new Set(CHANNEL.niches || []);
 const candidates = TOPICS.topics.filter((t) =>
-  !usedTopics.has(t.id) && (!NICHE || t.niche === NICHE)
+  !usedTopics.has(t.id) &&
+  (NICHE ? t.niche === NICHE
+         : (channelNiches.size ? channelNiches.has(t.niche) : true))
 );
 if (candidates.length < COUNT) {
   console.error(`Only ${candidates.length} unused topics${NICHE ? ` for niche=${NICHE}` : ""}. Add more to scripts/data/topics.json or pick a smaller --count.`);
@@ -224,8 +236,11 @@ for (const topic of chosen) {
       `Made with BBMW0 Technologies AI. Open-source, mobile-first video editor.\n` +
       `https://bbmw0-technologies-ai.vercel.app\n\n${titleTag}`,
     tags: tagList,
-    categoryId: topic.niche === "tech" || topic.niche === "app" ? "28" : "27",
-    privacy: PRIVACY,
+    categoryId: CHANNEL.categoryId || (topic.niche === "tech" || topic.niche === "app" ? "28" : "27"),
+    privacy: A.privacy ? PRIVACY : (CHANNEL.privacy || PRIVACY),
+    channelId: CHANNEL.id,
+    platform: CHANNEL.platform,
+    handle: CHANNEL.handle,
     file: `out/daily-${DATE}-${topic.id}.mp4`,
     propsFile: `daily/${DATE}/${topic.id}.props.json`,
     durationInFrames: total,
@@ -244,13 +259,14 @@ for (const topic of chosen) {
   history.combosUsed.push(`${themeId}|${fontFamilyId}|${audio.url}`);
   history.videos.push({
     id: topic.id, date: DATE, themeId, fontFamilyId, audioUrl: audio.url,
-    title: meta.title, niche: topic.niche,
+    title: meta.title, description: meta.description, niche: topic.niche,
+    channelId: CHANNEL.id, platform: CHANNEL.platform,
   });
 }
 
 fs.writeFileSync(PUBLISHED, JSON.stringify(history, null, 2));
 
-console.log(`Generated ${generated.length} unique Shorts for ${DATE}:`);
+console.log(`Generated ${generated.length} unique Shorts for ${DATE} on ${CHANNEL.id} (${CHANNEL.handle}, ${CHANNEL.platform}):`);
 for (const g of generated) {
   console.log(`  ${g.slug.padEnd(22)} theme=${g.themeId.padEnd(10)} font=${g.fontFamilyId.padEnd(8)} -> ${g.file}`);
 }

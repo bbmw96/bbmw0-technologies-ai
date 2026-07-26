@@ -136,6 +136,34 @@ export function checkRepetition(candidate, history, batch, policy) {
       `Audio "${candidate.audioUrl}" reused after only ${audioGap} video(s). Minimum gap is ${R.min_audio_gap}.`));
   }
 
+  // ---- 2b. Cross-channel duplication -------------------------------------
+  // Publishing the same fact to two owned channels is a mass-produced content
+  // signal across the whole estate, and on YouTube it can read as one channel
+  // reuploading another. Channels are given separate niches for this reason;
+  // this catches the case where allocation drifts or a topic is forced.
+  if (candidate.channelId) {
+    const elsewhere = recent.find(
+      (p) => p && p.id === candidate.id && p.channelId && p.channelId !== candidate.channelId
+    );
+    if (elsewhere) {
+      out.push(finding(SEVERITY.BLOCK, "repetition.cross_channel",
+        `Topic "${candidate.id}" was already published on channel "${elsewhere.channelId}". Publishing it again on "${candidate.channelId}" duplicates content across owned channels.`,
+        { otherChannel: elsewhere.channelId }));
+    }
+
+    let worstCross = { score: 0, against: null, channel: null };
+    for (const p of recent) {
+      if (!p || !p.channelId || p.channelId === candidate.channelId) continue;
+      const sc = similarity(candidate.title, p.title || "");
+      if (sc > worstCross.score) worstCross = { score: sc, against: p.id, channel: p.channelId };
+    }
+    if (worstCross.score > R.max_cross_channel_similarity) {
+      out.push(finding(SEVERITY.BLOCK, "repetition.cross_channel_similar",
+        `Title is ${(worstCross.score * 100).toFixed(0)}% similar to "${worstCross.against}" on channel "${worstCross.channel}" (limit ${(R.max_cross_channel_similarity * 100).toFixed(0)}%).`,
+        { score: worstCross.score, against: worstCross.against, channel: worstCross.channel }));
+    }
+  }
+
   // ---- 3. Topical concentration ------------------------------------------
   const sameNicheInBatch = batch.filter((o) => o.niche === candidate.niche).length;
   if (sameNicheInBatch > R.max_same_niche_per_day) {

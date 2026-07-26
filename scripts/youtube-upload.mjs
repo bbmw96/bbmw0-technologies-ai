@@ -23,6 +23,7 @@
 //   --shorts     if present, appends "#Shorts" to title and description
 //                so YouTube treats the upload as a Short
 //   --thumbnail  optional path to a JPG/PNG thumbnail to attach
+//   --credentials  path to a channel credentials JSON (default scripts/yt-credentials.json)
 //
 // EXIT CODES:
 //   0  uploaded successfully
@@ -38,7 +39,16 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const CREDS_PATH = path.join(__dirname, "yt-credentials.json");
+// Per-channel credentials. --credentials=<path> lets a second channel reuse
+// this script without duplicating it. Defaults to the primary channel.
+const CREDS_PATH = (() => {
+  const flag = process.argv.find((a) => a.startsWith("--credentials="));
+  if (flag) {
+    const p = flag.slice("--credentials=".length);
+    return path.isAbsolute(p) ? p : path.join(__dirname, "..", p);
+  }
+  return path.join(__dirname, "yt-credentials.json");
+})();
 
 function parseArgs(argv) {
   const out = { _: [] };
@@ -68,11 +78,11 @@ if (!args.file) fail("Missing --file=<path-to-mp4>");
 if (!args.title) fail("Missing --title=<video-title>");
 if (!fs.existsSync(args.file)) fail(`File not found: ${args.file}`);
 if (!fs.existsSync(CREDS_PATH))
-  fail(`Missing ${CREDS_PATH}. Run npm run yt:auth first.`);
+  fail(`Missing ${CREDS_PATH}. Run npm run yt:rotate first.`);
 
 const creds = JSON.parse(fs.readFileSync(CREDS_PATH, "utf8"));
 if (!creds.refresh_token)
-  fail("yt-credentials.json has no refresh_token. Re-run npm run yt:auth.");
+  fail(`${CREDS_PATH} has no refresh_token. Re-run npm run yt:rotate.`);
 
 const oauth2 = new google.auth.OAuth2(creds.client_id, creds.client_secret);
 oauth2.setCredentials({ refresh_token: creds.refresh_token });

@@ -85,10 +85,18 @@ const batch = metaFiles.map((f) => {
 
 // The generator records each video in published.json at generation time, so the
 // candidates are already in history by the time the gate runs. Comparing a video
-// against itself produced phantom "combination already used" blocks. Exclude the
-// current batch from history; same-batch collisions are checked separately.
-const batchIds = new Set(batch.map((b) => b.slug));
-const history = allHistory.filter((v) => v && !batchIds.has(v.id));
+// against itself produced phantom "combination already used" blocks.
+//
+// Exclude a history entry only when it is the SAME slug on the SAME channel,
+// which is the self-reference. A matching slug on a DIFFERENT channel is not
+// noise: it is exactly the cross-channel duplication we need to catch, and an
+// earlier version of this filter was silently discarding it.
+const batchKeys = new Set(
+  batch.map((b) => `${b.slug}::${(b.meta && b.meta.channelId) || "default"}`)
+);
+const history = allHistory.filter(
+  (v) => v && !batchKeys.has(`${v.id}::${v.channelId || "default"}`)
+);
 
 const results = [];
 
@@ -104,7 +112,8 @@ for (const item of batch) {
   const rep = checkRepetition(
     { id: slug, title: meta.title, description: meta.description,
       themeId: meta.themeId, fontFamilyId: meta.fontFamilyId,
-      audioUrl: meta.audioUrl, niche: meta.niche },
+      audioUrl: meta.audioUrl, niche: meta.niche,
+      channelId: meta.channelId || null },
     history, batch, policy
   );
   findings.push(...rep.findings);
@@ -125,6 +134,8 @@ for (const item of batch) {
 
   results.push({
     slug,
+    channelId: meta.channelId || null,
+    platform: meta.platform || "youtube",
     verdict: blocks.length ? "BLOCK" : warns.length ? "PASS_WITH_WARNINGS" : "PASS",
     title: meta.title,
     niche: meta.niche,

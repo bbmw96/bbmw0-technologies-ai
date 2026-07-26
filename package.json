@@ -36,7 +36,9 @@
     "report:daily": "bash scripts/daily-report.sh",
     "compliance": "node scripts/compliance-gate.mjs",
     "compliance:strict": "node scripts/compliance-gate.mjs --strict",
-    "yt:rotate": "bash scripts/rotate-youtube-token.sh"
+    "yt:rotate": "bash scripts/rotate-youtube-token.sh",
+    "gen:channel": "node scripts/generate-shorts.mjs --channel",
+    "ig:upload": "node scripts/instagram-upload.mjs"
   },
   "dependencies": {
     "@remotion/player": "4.0.454",

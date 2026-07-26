@@ -24,7 +24,9 @@
     "min_theme_gap": 3,
     "min_audio_gap": 2,
     "max_same_niche_per_day": 2,
-    "max_same_niche_in_last_10": 4
+    "max_same_niche_in_last_10": 4,
+    "max_cross_channel_similarity": 0.45,
+    "_cross_channel_note": "Stricter than the within-channel limit. Two owned channels posting near-identical titles is a worse signal than one channel repeating itself, because it can read as reuploading. Channels are allocated separate niches in channels.json to avoid this by design."
   },
   "kid_safety": {
     "_comment": "Two tiers. hard_banned is blocked outright with no appeal. context_sensitive words are legitimate in educational science and history but need a judgement call, so they raise a warning and are referred to the AI safety reviewer. A flat list blocked 'jellyfish have no blood', which is why the split exists.",
@@ -414,5 +416,12 @@
       "shrine",
       "wedding"
     ]
+  },
+  "instagram_limits": {
+    "caption_max_chars": 2200,
+    "hashtags_max": 30,
+    "reel_min_seconds": 3,
+    "reel_max_seconds": 90,
+    "_source": "Meta Instagram Content Publishing API limits."
   }
 }

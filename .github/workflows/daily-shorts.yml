@@ -19,6 +19,10 @@ on:
         description: "Refresh topics from AI research first?"
         type: boolean
         default: false
+      channel:
+        description: "Channel id from scripts/data/channels.json (blank = first enabled)"
+        required: false
+        default: ""
 
 permissions:
   contents: write   # needed to commit history back
@@ -114,11 +118,11 @@ jobs:
           DATE=$(date -u +%F)
           COUNT="${{ inputs.count || '5' }}"
           NICHE="${{ inputs.niche }}"
-          if [ -n "$NICHE" ]; then
-            node scripts/generate-shorts.mjs --count="$COUNT" --date="$DATE" --niche="$NICHE"
-          else
-            node scripts/generate-shorts.mjs --count="$COUNT" --date="$DATE"
-          fi
+          CHANNEL="${{ inputs.channel }}"
+          ARGS="--count=$COUNT --date=$DATE"
+          [ -n "$NICHE" ]   && ARGS="$ARGS --niche=$NICHE"
+          [ -n "$CHANNEL" ] && ARGS="$ARGS --channel=$CHANNEL"
+          node scripts/generate-shorts.mjs $ARGS
 
       - name: Compliance gate
         env:
@@ -142,6 +146,10 @@ jobs:
           fi
 
       - name: Render and upload (public)
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          PUBLIC_MEDIA_BASE_URL: ${{ secrets.PUBLIC_MEDIA_BASE_URL }}
         run: |
           set -o pipefail
           DATE=$(date -u +%F)
@@ -160,7 +168,7 @@ jobs:
         run: |
           git config user.name "bbmw0-bot"
           git config user.email "bot@bbmw0.local"
-          git add scripts/data/published.json daily/ scripts/data/topics.json scripts/data/trend-log.json scripts/data/compliance-log.json scripts/data/audio-licences.json 2>/dev/null || true
+          git add scripts/data/published.json daily/ scripts/data/topics.json scripts/data/trend-log.json scripts/data/compliance-log.json scripts/data/audio-licences.json scripts/data/channels.json 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -m "Daily Shorts: $(date -u +%F) [skip ci]"
           git push

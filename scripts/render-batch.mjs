@@ -104,6 +104,7 @@ if (UPLOAD) {
   }
 }
 
+const channels = readJSON(path.join(ROOT, "scripts/data/channels.json"), { channels: [] });
 const publishedPath = path.join(ROOT, "scripts/data/published.json");
 const published = readJSON(publishedPath);
 published.videos = published.videos || [];
@@ -186,6 +187,39 @@ for (const propsFile of propsFiles) {
   if (UPLOAD) {
     try {
       const tags = (meta.tags || []).join(",");
+      const channel = (channels.channels || []).find((c) => c.id === meta.channelId);
+
+      // Instagram fetches the video from a public URL rather than accepting an
+      // upload, so it needs the file hosted first. Skip rather than fail the
+      // batch if no public base URL is configured.
+      if (meta.platform === "instagram") {
+        const base = process.env.PUBLIC_MEDIA_BASE_URL;
+        if (!base) {
+          append(`  SKIPPED: Instagram needs PUBLIC_MEDIA_BASE_URL set. It fetches the video from a public URL and cannot accept a local file.`);
+          skipCount++;
+          continue;
+        }
+        const videoUrl = `${base.replace(/\/$/, "")}/${path.basename(outFile)}`;
+        const igCmd = [
+          "node", "scripts/instagram-upload.mjs",
+          `--video-url="${videoUrl}"`,
+          `--caption="${meta.title.replace(/"/g, '\\"')}"`,
+          `--tags="${tags}"`,
+        ].join(" ");
+        const igOut = execSync(igCmd, { cwd: ROOT, encoding: "utf8", stdio: ["inherit", "pipe", "inherit"] });
+        process.stdout.write(igOut);
+        const im = igOut.match(/Media ID:\s*(\d+)/);
+        if (im) {
+          recordUpload(slug, im[1], meta.privacy);
+          uploadedIds.add(slug);
+          append(`  published to Instagram: media ${im[1]}`);
+        }
+        uploadCount++;
+        continue;
+      }
+
+      const credFlag = channel && channel.credentialsFile
+        ? ` --credentials="${channel.credentialsFile}"` : "";
       const cmd = [
         "node", "scripts/youtube-upload.mjs",
         `--file="${outFile}"`,
@@ -195,7 +229,7 @@ for (const propsFile of propsFiles) {
         `--category=${meta.categoryId}`,
         `--privacy=${meta.privacy}`,
         "--shorts",
-      ].join(" ");
+      ].join(" ") + credFlag;
 
       // Capture stdout so we can pull the video ID out, but still show progress.
       const out = execSync(cmd, { cwd: ROOT, encoding: "utf8", stdio: ["inherit", "pipe", "inherit"] });

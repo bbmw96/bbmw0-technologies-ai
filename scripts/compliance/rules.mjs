@@ -54,8 +54,29 @@ function checkFieldLimits(meta, policy) {
       `${titleHashes} hashtags in title. YouTube ignores all of them above ${L.title_max_hashtags}.`));
   }
 
+  // Instagram has its own envelope. A video that is fine for YouTube can be
+  // rejected outright by Instagram, so check against the destination.
+  if (meta.platform === "instagram") {
+    const IG = policy.instagram_limits || {};
+    const cap = `${meta.title}\n${meta.description}`;
+    if (cap.length > (IG.caption_max_chars || 2200)) {
+      out.push(finding(SEVERITY.BLOCK, "instagram.caption_too_long",
+        `Caption is ${cap.length} chars, Instagram limit is ${IG.caption_max_chars}.`));
+    }
+    const hashCount = (cap.match(/#\w+/g) || []).length + (meta.tags || []).length;
+    if (hashCount > (IG.hashtags_max || 30)) {
+      out.push(finding(SEVERITY.BLOCK, "instagram.too_many_hashtags",
+        `${hashCount} hashtags, Instagram limit is ${IG.hashtags_max}.`));
+    }
+    const sec = meta.durationInFrames ? meta.durationInFrames / 30 : null;
+    if (sec !== null && (sec < (IG.reel_min_seconds || 3) || sec > (IG.reel_max_seconds || 90))) {
+      out.push(finding(SEVERITY.BLOCK, "instagram.duration",
+        `${sec.toFixed(1)}s is outside the Reels range of ${IG.reel_min_seconds} to ${IG.reel_max_seconds}s.`));
+    }
+  }
+
   const durSec = meta.durationInFrames ? meta.durationInFrames / 30 : null;
-  if (durSec !== null && durSec > L.shorts_max_seconds) {
+  if (meta.platform !== "instagram" && durSec !== null && durSec > L.shorts_max_seconds) {
     out.push(finding(SEVERITY.BLOCK, "duration.not_a_short",
       `${durSec.toFixed(1)}s exceeds the ${L.shorts_max_seconds}s Shorts limit. It will publish as a normal video.`));
   }

@@ -1,0 +1,57 @@
+{
+  "_comment": "Channel registry. One entry per publishing destination. The generator allocates topics per channel, the compliance gate enforces cross-channel uniqueness, and render-batch routes each upload to the right adapter.",
+  "_cross_channel_warning": "Publishing the same or near-identical video to two channels is a mass-produced content risk across the whole estate, not just within one channel. The gate blocks it. Give each channel its own niches.",
+  "channels": [
+    {
+      "id": "yt-bbmw0",
+      "enabled": true,
+      "platform": "youtube",
+      "handle": "@bbmw.0",
+      "channelId": "UCSRkqZ0PckW8ae-cnZcN1hw",
+      "composioConnection": "youtube_boris-stasis",
+      "credentialsFile": "scripts/yt-credentials.json",
+      "secretPrefix": "YT",
+      "dailyCount": 5,
+      "privacy": "public",
+      "niches": ["tech", "app", "productivity", "science", "history"],
+      "categoryId": "28",
+      "notes": "Primary channel. The daily-shorts workflow publishes here."
+    },
+    {
+      "id": "yt-bbm0902",
+      "enabled": false,
+      "platform": "youtube",
+      "handle": "@bbm0902",
+      "channelId": "UC5O9s1vte7UiLICKP1pHIiQ",
+      "composioConnection": "youtube_tao-juang",
+      "credentialsFile": "scripts/yt-credentials-bbm0902.json",
+      "secretPrefix": "YT2",
+      "dailyCount": 3,
+      "privacy": "public",
+      "niches": ["animals", "space", "biology", "food", "weather"],
+      "categoryId": "27",
+      "notes": "Enable once YT2_REFRESH_TOKEN, YT2_CLIENT_ID, YT2_CLIENT_SECRET and YT2_OAUTH_CLIENT_JSON are set. Deliberately different niches from yt-bbmw0 so the two channels never compete or look duplicated."
+    },
+    {
+      "id": "ig-aigameodyssey",
+      "enabled": false,
+      "platform": "instagram",
+      "handle": "@ai_game_odyssey",
+      "composioConnection": "instagram_stays-moo",
+      "secretPrefix": "IG",
+      "dailyCount": 2,
+      "privacy": "public",
+      "niches": ["space", "animals", "science"],
+      "notes": "Enable once IG_ACCESS_TOKEN and IG_USER_ID are set. Requires an Instagram Business or Creator account linked to a Facebook Page, and a Meta app with instagram_content_publish. Reels only: 9:16, 3 to 90 seconds."
+    }
+  ],
+  "instagram_limits": {
+    "caption_max_chars": 2200,
+    "hashtags_max": 30,
+    "reel_min_seconds": 3,
+    "reel_max_seconds": 90,
+    "aspect_ratio": "9:16",
+    "daily_publish_limit": 50,
+    "_source": "Meta Instagram Content Publishing API limits."
+  }
+}
