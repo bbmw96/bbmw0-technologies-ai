@@ -22,7 +22,12 @@ compromised. Replace the client, not just the token.
 ### 1b. Rotate the token
 
 Open a terminal. The working directory matters: running `npm` anywhere else
-gives `ENOENT ... package.json`, which is what happened before.
+gives `ENOENT ... package.json`.
+
+Note: this used to be a bash script and failed on Windows with a misleading
+"gh CLI not found". Plain `bash` resolves to **WSL's** bash when Ubuntu is
+installed, and WSL cannot see the Windows PATH, so it could not find the
+Windows `gh`. It is now a Node script with no shell dependency.
 
 ```
 cd /d "C:\Users\BBMW0\OneDrive\Documents\Claude\Projects\Video Editing\bbmw0-technologies-ai"
