@@ -28,8 +28,34 @@ import { spawnSync } from "node:child_process";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const REPO = process.env.GH_REPO || "bbmw96/bbmw0-technologies-ai";
-const CREDS = path.join(ROOT, "scripts/yt-credentials.json");
-const CLIENT = path.join(ROOT, "scripts/oauth-client.json");
+
+// --channel=<id> rotates a specific channel from the registry. Each YouTube
+// channel needs its OWN Google sign-in and its own OAuth client: a token
+// authorises one account, and reusing @bbmw.0's token would silently publish
+// to the wrong channel.
+const channelArg = process.argv.find((a) => a.startsWith("--channel="));
+const CHANNEL_ID = channelArg ? channelArg.slice("--channel=".length) : null;
+
+const readRegistry = () =>
+  JSON.parse(fs.readFileSync(path.join(ROOT, "scripts/data/channels.json"), "utf8").replace(/^\uFEFF/, ""));
+
+let CHANNEL = null;
+if (CHANNEL_ID) {
+  CHANNEL = (readRegistry().channels || []).find((c) => c.id === CHANNEL_ID);
+  if (!CHANNEL) {
+    console.error(`Unknown channel "${CHANNEL_ID}". Known: ${(readRegistry().channels || []).map((c) => c.id).join(", ")}`);
+    process.exit(1);
+  }
+  if (CHANNEL.platform !== "youtube") {
+    console.error(`Channel "${CHANNEL_ID}" is ${CHANNEL.platform}, not youtube. See scripts/RUNBOOK.md step 5.`);
+    process.exit(1);
+  }
+}
+
+const PREFIX = CHANNEL ? CHANNEL.secretPrefix : "YT";
+const SUFFIX = PREFIX === "YT" ? "" : `-${CHANNEL_ID.replace(/^yt-/, "")}`;
+const CREDS = path.join(ROOT, CHANNEL?.credentialsFile || "scripts/yt-credentials.json");
+const CLIENT = path.join(ROOT, `scripts/oauth-client${SUFFIX}.json`);
 
 const readJSON = (p) => JSON.parse(fs.readFileSync(p, "utf8").replace(/^\uFEFF/, ""));
 const line = "=".repeat(46);
@@ -64,6 +90,10 @@ function findGh() {
 
 console.log(line);
 console.log(" Rotate YouTube token");
+if (CHANNEL) {
+  console.log(` Channel: ${CHANNEL.id}  ${CHANNEL.handle}`);
+  console.log(` SIGN IN AS ${CHANNEL.handle}, not any other account.`);
+}
 console.log(line);
 
 const GH = findGh();
@@ -92,7 +122,10 @@ console.log("\nStep 1 of 3: Google sign-in");
 console.log("  A browser window will open. Sign in with the account that owns");
 console.log("  the channel and approve YouTube upload access.\n");
 
-const authRun = run(process.execPath, [path.join(ROOT, "scripts/youtube-auth.mjs")], { stdio: "inherit" });
+const authRun = run(process.execPath,
+  [path.join(ROOT, "scripts/youtube-auth.mjs"),
+   `--client=${CLIENT}`, `--out=${CREDS}`],
+  { stdio: "inherit" });
 if (authRun.status !== 0) { console.error("\nSign-in did not complete."); process.exit(1); }
 
 if (!fs.existsSync(CREDS)) {
@@ -114,10 +147,10 @@ console.log("  Values are piped over stdin and are never displayed.");
 
 const client = readJSON(CLIENT).installed || readJSON(CLIENT).web || {};
 const secrets = {
-  YT_REFRESH_TOKEN: creds.refresh_token,
-  YT_CLIENT_ID: creds.client_id || client.client_id,
-  YT_CLIENT_SECRET: creds.client_secret || client.client_secret,
-  YT_OAUTH_CLIENT_JSON: JSON.stringify({
+  [`${PREFIX}_REFRESH_TOKEN`]: creds.refresh_token,
+  [`${PREFIX}_CLIENT_ID`]: creds.client_id || client.client_id,
+  [`${PREFIX}_CLIENT_SECRET`]: creds.client_secret || client.client_secret,
+  [`${PREFIX}_OAUTH_CLIENT_JSON`]: JSON.stringify({
     installed: {
       client_id: client.client_id,
       client_secret: client.client_secret,
@@ -140,7 +173,7 @@ if (failed) { console.error(`\n${failed} secret(s) failed. Nothing else will wor
 
 console.log("\nStep 3 of 3: verifying");
 const list = run(GH, ["secret", "list", "--repo", REPO], { stdio: "pipe" });
-(list.stdout || "").split("\n").filter((l) => l.startsWith("YT")).forEach((l) => console.log("  " + l.trim()));
+(list.stdout || "").split("\n").filter((l) => l.startsWith(PREFIX)).forEach((l) => console.log("  " + l.trim()));
 
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 rl.question("\nDelete the local credentials file (it holds a live token)? [Y/n] ", (ans) => {

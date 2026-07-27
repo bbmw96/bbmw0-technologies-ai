@@ -25,7 +25,7 @@
     },
     {
       "id": "yt-bbm0902",
-      "enabled": false,
+      "enabled": true,
       "platform": "youtube",
       "handle": "@bbm0902",
       "channelId": "UC5O9s1vte7UiLICKP1pHIiQ",
@@ -46,7 +46,7 @@
     },
     {
       "id": "ig-aigameodyssey",
-      "enabled": false,
+      "enabled": true,
       "platform": "instagram",
       "handle": "@ai_game_odyssey",
       "composioConnection": "instagram_stays-moo",
@@ -75,5 +75,6 @@
     "aspect_ratio": "9:16",
     "daily_publish_limit": 100,
     "_source": "Meta Instagram Platform, Content Publishing. 100 API-published posts per rolling 24h."
-  }
+  },
+  "_enabled_note": "All three channels are enabled. A channel without its credentials is SKIPPED with a clear message rather than failing the run, so enabling early is safe. Check `npm run channels` for live readiness."
 }

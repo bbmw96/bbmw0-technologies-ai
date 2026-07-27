@@ -39,7 +39,8 @@
     "yt:rotate": "node scripts/rotate-youtube-token.mjs",
     "gen:channel": "node scripts/generate-shorts.mjs --channel",
     "ig:upload": "node scripts/instagram-upload.mjs",
-    "media:host": "node scripts/publish-media.mjs"
+    "media:host": "node scripts/publish-media.mjs",
+    "channels": "node scripts/channel-status.mjs"
   },
   "dependencies": {
     "@remotion/player": "4.0.454",
