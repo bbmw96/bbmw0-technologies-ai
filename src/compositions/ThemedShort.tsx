@@ -10,6 +10,9 @@ import {
 } from "remotion";
 import React from "react";
 import {
+  MovingBackdrop, Grain, Vignette, ProgressBar, BeatDots, CutFlash, useDrift,
+} from "./Cinematic";
+import {
   THEMES,
   FONT_FAMILIES,
   FONT,
@@ -268,16 +271,58 @@ export const ThemedShort: React.FC<ThemedShortProps> = ({
   const ctx: BeatCtx = { t: theme, heading: f.heading, body: f.body };
 
   return (
-    <AbsoluteFill style={{ background: theme.bg }}>
-      <Series>
-        {beats.map((b, i) => (
-          <Series.Sequence key={i} durationInFrames={b.durationInFrames}>
-            <BeatRenderer b={b} ctx={ctx} />
-          </Series.Sequence>
-        ))}
-      </Series>
+    <AbsoluteFill style={{ background: theme.bg, overflow: "hidden" }}>
+      <CinematicShell theme={theme} beats={beats} ctx={ctx} />
       {audioUrl && <Audio src={staticFile(audioUrl)} volume={audioVolume} />}
     </AbsoluteFill>
+  );
+};
+
+/**
+ * Wraps the beat series in the shared cinematic layer.
+ *
+ * Split into its own component because useDrift calls useVideoConfig, which
+ * must run inside the composition. Layer order matters: backdrop, then the
+ * content, then grain, vignette and chrome on top, so texture sits OVER the
+ * type rather than under it.
+ */
+const CinematicShell: React.FC<{
+  theme: Theme;
+  beats: Beat[];
+  ctx: BeatCtx;
+}> = ({ theme, beats, ctx }) => {
+  const { scale, x, y, progress } = useDrift();
+  const frame = useCurrentFrame();
+
+  // Which beat is on screen, for the orientation dots.
+  let acc = 0;
+  let current = 0;
+  for (let i = 0; i < beats.length; i++) {
+    acc += beats[i].durationInFrames;
+    current = i;
+    if (frame < acc) break;
+  }
+
+  return (
+    <>
+      <MovingBackdrop t={theme} />
+      <AbsoluteFill style={{ transform: `scale(${scale}) translate(${x}px, ${y}px)` }}>
+        <Series>
+          {beats.map((b, i) => (
+            <Series.Sequence key={i} durationInFrames={b.durationInFrames}>
+              <AbsoluteFill>
+                <BeatRenderer b={b} ctx={ctx} />
+                <CutFlash t={theme} />
+              </AbsoluteFill>
+            </Series.Sequence>
+          ))}
+        </Series>
+      </AbsoluteFill>
+      <Vignette />
+      <Grain />
+      <BeatDots t={theme} total={beats.length} current={current} />
+      <ProgressBar t={theme} progress={progress} />
+    </>
   );
 };
 

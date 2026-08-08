@@ -93,7 +93,13 @@ const isShort = !!args.shorts;
 const title = isShort && !args.title.includes("#Shorts")
   ? `${args.title} #Shorts`
   : args.title;
-let description = args.description || "";
+// render-batch escapes newlines to survive the shell (\n becomes backslash-n).
+// Without unescaping here, YouTube receives the LITERAL two characters, which
+// is why every published description read "No chatter.\n\nThe first vending
+// machine..." instead of having real paragraph breaks.
+let description = (args.description || "")
+  .replace(/\\n/g, "\n")
+  .replace(/\\"/g, '"');
 if (isShort && !/#Shorts/i.test(description)) {
   description = description ? `${description}\n\n#Shorts` : "#Shorts";
 }

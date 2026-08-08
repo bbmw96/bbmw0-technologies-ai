@@ -155,15 +155,34 @@ for (const topic of chosen) {
   // Randomised layout variants per beat (1, 2, or 3).
   const v = () => 1 + Math.floor(r() * 3);
 
-  // Randomised durations within a band (total = 1200 frames = 40s).
-  // Distribute 1200 across 6 beats with mild jitter.
-  const baseDurations = [180, 210, 240, 270, 150, 150];
-  // Jitter +/- 30 frames each, then re-balance so total stays 1200.
-  let durations = baseDurations.map((d) => d + Math.floor((r() - 0.5) * 60));
+  // PACING. The first published batch used [180,210,240,270,150,150] over 40s,
+  // which held single static cards for up to NINE seconds. On Shorts that is
+  // fatal: viewers swipe when nothing changes, and the videos read as a
+  // slideshow rather than as edited video.
+  //
+  // Now 30s total with a front-loaded curve. The hook gets the shortest hold
+  // because the first two seconds decide whether anyone stays, and no beat
+  // exceeds 6s. Combined with the continuous drift and grain in Cinematic.tsx,
+  // nothing on screen is ever motionless.
+  const TOTAL = 900; // 30s at 30fps
+  const baseDurations = [110, 150, 170, 190, 150, 130];
+  // Jitter +/- 20 frames, then re-balance so the total stays exact.
+  let durations = baseDurations.map((d) => d + Math.floor((r() - 0.5) * 40));
   const totalNow = durations.reduce((s, d) => s + d, 0);
-  const correction = 1200 - totalNow;
-  durations[0] += correction;
-  durations = durations.map((d) => Math.max(120, d));
+  // Spread the correction across all beats rather than dumping it into one,
+  // which previously pushed a single beat back up to 7s and defeated the point.
+  const spread = Math.trunc((TOTAL - totalNow) / durations.length);
+  durations = durations.map((d) => Math.max(80, d + spread));
+  // Absorb any remainder one frame at a time, shortest beat first, so no
+  // single beat can drift long.
+  let remainder = TOTAL - durations.reduce((s, d) => s + d, 0);
+  while (remainder !== 0) {
+    const idx = remainder > 0
+      ? durations.indexOf(Math.min(...durations))
+      : durations.indexOf(Math.max(...durations));
+    durations[idx] += remainder > 0 ? 1 : -1;
+    remainder += remainder > 0 ? -1 : 1;
+  }
 
   const beats = [
     { kind: "title", eyebrow, text: topic.hook, sub: sub_intro,

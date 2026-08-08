@@ -26,9 +26,20 @@ Thumbs.db
 # Remotion cache
 .cache/
 
-# YouTube uploader credentials (NEVER commit)
-scripts/oauth-client.json
-scripts/yt-credentials.json
+# Credentials (NEVER commit)
+#
+# Glob patterns, not exact filenames. An exact-match rule missed
+# scripts/scriptsoauth-client-bbm0902.json (a mistyped save path) and git add -A
+# swept a live Google OAuth client secret into a commit. GitHub push protection
+# caught it, but the ignore rule should have caught it first.
+*oauth-client*.json
+*yt-credentials*.json
+*credentials*.json
+*client_secret*.json
+scripts/*.secret
+.env
+.env.*
+!.env.example
 
 # TypeScript incremental build info
 *.tsbuildinfo
