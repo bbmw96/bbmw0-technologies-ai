@@ -41,7 +41,8 @@
     "ig:upload": "node scripts/instagram-upload.mjs",
     "media:host": "node scripts/publish-media.mjs",
     "channels": "node scripts/channel-status.mjs",
-    "ig:upload:composio": "node scripts/instagram-upload-composio.mjs"
+    "ig:upload:composio": "node scripts/instagram-upload-composio.mjs",
+    "doctor": "node scripts/doctor.mjs"
   },
   "dependencies": {
     "@remotion/player": "4.0.454",

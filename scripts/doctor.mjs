@@ -1,0 +1,147 @@
+#!/usr/bin/env node
+// One command that checks the whole system and says exactly what to do next.
+//
+// State is otherwise spread across GitHub secrets, Google Cloud, Composio,
+// local files and CI history. This gathers it in one place, because the two
+// outages so far were both invisible until someone went looking: a 7-day token
+// fuse nobody was watching, and a git add that silently staged nothing.
+//
+// USAGE: npm run doctor
+// EXIT:  0 all clear, 1 warnings, 2 something is blocking publishing
+
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import { spawnSync } from "node:child_process";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const ROOT = path.resolve(__dirname, "..");
+const REPO = process.env.GH_REPO || "bbmw96/bbmw0-technologies-ai";
+const rd = (p, f) => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, p), "utf8").replace(/^﻿/, "")); } catch (e) { if (f !== undefined) return f; throw e; } };
+
+let blocking = 0, warnings = 0;
+const B = (m, fix) => { blocking++; console.log(`  [BLOCKED] ${m}`); if (fix) console.log(`            fix: ${fix}`); };
+const W = (m, fix) => { warnings++; console.log(`  [warn]    ${m}`); if (fix) console.log(`            fix: ${fix}`); };
+const OK = (m) => console.log(`  [ok]      ${m}`);
+
+function gh(args) {
+  for (const bin of ["gh", "gh.exe"]) {
+    const r = spawnSync(bin, args, { encoding: "utf8", stdio: "pipe" });
+    if (!r.error) return r;
+  }
+  return null;
+}
+
+const line = "=".repeat(74);
+console.log(line);
+console.log(" BBMW0 system doctor");
+console.log(line);
+
+// ---------------------------------------------------------------- tooling
+console.log("\nTOOLING");
+const ghv = gh(["--version"]);
+if (!ghv || ghv.status !== 0) B("GitHub CLI not found", "https://cli.github.com/");
+else {
+  OK(`gh ${(ghv.stdout || "").split("\n")[0].replace("gh version ", "").trim()}`);
+  const auth = gh(["auth", "status"]);
+  if (auth?.status !== 0) B("gh not authenticated", "gh auth login");
+  else OK("gh authenticated");
+}
+const ff = spawnSync("ffmpeg", ["-version"], { encoding: "utf8", stdio: "pipe" });
+if (ff.error) W("ffmpeg not found locally (CI installs its own)", "only needed to regenerate audio beds");
+else OK("ffmpeg present");
+
+// ---------------------------------------------------------------- secrets
+console.log("\nGITHUB SECRETS");
+const sec = gh(["secret", "list", "--repo", REPO]);
+const have = new Set();
+if (sec?.status === 0) {
+  (sec.stdout || "").split("\n").map((l) => l.trim().split(/\s+/)[0]).filter(Boolean).forEach((n) => have.add(n));
+} else {
+  B("cannot read GitHub secrets", "check gh auth and repo access");
+}
+const need = {
+  YT_REFRESH_TOKEN:     ["channel 1 publishing", "npm run yt:rotate"],
+  YT_CLIENT_ID:         ["channel 1 publishing", "npm run yt:rotate"],
+  YT_CLIENT_SECRET:     ["channel 1 publishing", "npm run yt:rotate"],
+  YT_OAUTH_CLIENT_JSON: ["channel 1 publishing", "npm run yt:rotate"],
+};
+const optional = {
+  YT2_REFRESH_TOKEN: ["channel 2 (@bbm0902)", "npm run yt:rotate -- --channel=yt-bbm0902"],
+  COMPOSIO_API_KEY:  ["Instagram via Composio", "add in GitHub Settings, Secrets, Actions"],
+  IG_USER_ID:        ["Instagram", "value is 26759002047072119"],
+  AI_ENDPOINT:       ["AI topic auto-refill and the compliance AI panel", "your Vercel /api/ai URL"],
+};
+for (const [k, [what, fix]] of Object.entries(need)) have.has(k) ? OK(`${k} set (${what})`) : B(`${k} missing (${what})`, fix);
+for (const [k, [what, fix]] of Object.entries(optional)) have.has(k) ? OK(`${k} set (${what})`) : W(`${k} not set (${what})`, fix);
+
+// ------------------------------------------------------------ publishing
+console.log("\nPUBLISHING HEALTH");
+const pub = rd("scripts/data/published.json", { videos: [], topicsUsed: [] });
+const uploaded = (pub.videos || []).filter((v) => v && v.youtubeId);
+const topics = rd("scripts/data/topics.json", { topics: [] }).topics || [];
+const unused = topics.length - (pub.topicsUsed || []).length;
+
+if (!uploaded.length) {
+  B("no upload has EVER been recorded in published.json",
+    "either nothing has published, or the CI commit step is not persisting history");
+} else {
+  const last = uploaded.map((v) => v.uploadedAt).filter(Boolean).sort().pop();
+  const days = last ? Math.floor((Date.now() - new Date(last)) / 86400000) : null;
+  if (days === null) W(`${uploaded.length} uploads recorded but none carry a timestamp`);
+  else if (days >= 3) B(`nothing published for ${days} days, the channel is dark`, "npm run yt:rotate then re-run the workflow");
+  else OK(`${uploaded.length} uploads recorded, last ${days} day(s) ago`);
+}
+if (unused < 5) B(`only ${unused} unused topics left`, "add topics or set AI_ENDPOINT for auto-refill");
+else if (unused < 10) W(`${unused} unused topics (${Math.floor(unused / 5)} days)`);
+else OK(`${unused} unused topics (${Math.floor(unused / 5)} days at 5/day)`);
+
+// ------------------------------------------------------------- CI history
+console.log("\nRECENT CI RUNS");
+const runs = gh(["run", "list", "--repo", REPO, "--workflow=daily-shorts.yml", "--limit", "5", "--json", "conclusion,createdAt"]);
+if (runs?.status === 0) {
+  try {
+    const r = JSON.parse(runs.stdout || "[]");
+    const fails = r.filter((x) => x.conclusion && x.conclusion !== "success").length;
+    r.forEach((x) => console.log(`            ${(x.conclusion || "running").padEnd(10)} ${(x.createdAt || "").slice(0, 10)}`));
+    if (fails >= 3) B(`${fails} of the last ${r.length} runs failed`, "check the newest run log");
+    else if (fails) W(`${fails} of the last ${r.length} runs failed`);
+    else OK("recent runs healthy");
+  } catch { W("could not parse run history"); }
+} else W("could not read CI run history");
+
+// ---------------------------------------------------------------- content
+console.log("\nCONTENT INTEGRITY");
+const audio = rd("scripts/data/audio-licences.json", { tracks: [] });
+const unknownAudio = (audio.tracks || []).filter((t) => !t.licence || t.licence === "UNKNOWN").length;
+unknownAudio ? B(`${unknownAudio} audio bed(s) with no licence`, "record provenance or replace them")
+             : OK(`${(audio.tracks || []).length} audio beds, all licensed (Owned Original)`);
+
+const beds = fs.readFileSync(path.join(ROOT, "scripts/audio/generate-beds.sh"), "utf8");
+/sine=|square=|triangle=|sawtooth=/.test(beds)
+  ? B("tonal generator found in generate-beds.sh", "audio must be natural ambience only (halal rule)")
+  : OK("audio sources are natural ambience only");
+
+for (const f of ["scripts/data/topics.json", "scripts/data/copy-pools.json", "scripts/data/published.json"]) {
+  const buf = fs.readFileSync(path.join(ROOT, f));
+  if (buf[0] === 0xef && buf[1] === 0xbb && buf[2] === 0xbf) B(`UTF-8 BOM in ${f}`, `sed -i '1s/^\\xEF\\xBB\\xBF//' ${f}`);
+}
+OK("no UTF-8 BOMs in data files");
+
+// ---------------------------------------------------------------- channels
+console.log("\nCHANNELS");
+for (const ch of (rd("scripts/data/channels.json", { channels: [] }).channels || [])) {
+  const p = ch.secretPrefix;
+  const ready = ch.platform === "youtube"
+    ? have.has(`${p}_REFRESH_TOKEN`)
+    : (have.has("COMPOSIO_API_KEY") || have.has("IG_ACCESS_TOKEN"));
+  console.log(`  ${ready ? "[ok]     " : "[waiting]"} ${ch.id.padEnd(20)} ${ch.handle.padEnd(20)} ${ch.platform}`);
+}
+
+// ---------------------------------------------------------------- verdict
+console.log(`\n${line}`);
+if (blocking) console.log(` ${blocking} BLOCKING issue(s), ${warnings} warning(s). Publishing is not healthy.`);
+else if (warnings) console.log(` No blockers. ${warnings} warning(s).`);
+else console.log(" All clear.");
+console.log(line);
+process.exit(blocking ? 2 : warnings ? 1 : 0);

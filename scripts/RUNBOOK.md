@@ -1,5 +1,21 @@
 # BBMW0 publishing runbook
 
+## Start here
+
+```
+npm run doctor
+```
+
+One command. Checks tooling, GitHub secrets, publishing liveness, CI history,
+audio licensing, halal audio compliance, BOMs and channel readiness, then tells
+you exactly what is blocking and the command to fix it.
+
+Exit codes: 0 all clear, 1 warnings, 2 something is blocking publishing.
+
+Both outages so far were invisible until someone went looking: a 7-day token
+fuse nobody was watching, and a `git add` that silently staged nothing. This
+command exists so neither can hide again.
+
 Everything that cannot be automated, in the order it needs doing. Each step says
 who does it and roughly how long it takes.
 
