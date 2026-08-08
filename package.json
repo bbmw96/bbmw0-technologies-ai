@@ -42,7 +42,8 @@
     "media:host": "node scripts/publish-media.mjs",
     "channels": "node scripts/channel-status.mjs",
     "ig:upload:composio": "node scripts/instagram-upload-composio.mjs",
-    "doctor": "node scripts/doctor.mjs"
+    "doctor": "node scripts/doctor.mjs",
+    "yt:verify": "node scripts/verify-channel.mjs"
   },
   "dependencies": {
     "@remotion/player": "4.0.454",

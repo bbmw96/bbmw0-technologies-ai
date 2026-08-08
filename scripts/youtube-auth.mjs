@@ -65,7 +65,7 @@ server.listen(0, "127.0.0.1", () => {
   console.log("\n1. Open this URL in your browser:\n");
   console.log(authUrl);
   console.log(
-    "\n2. If you see 'App not verified', click 'Advanced' then 'Go to YT Shorts Engine (unsafe)'.\n" +
+    "\n2. If you see 'App not verified', click 'Advanced' then 'Go to <app name> (unsafe)'.\n" +
     "   That's normal for a personal Desktop client. Sign in with the YouTube account you want to publish from.\n"
   );
   console.log("3. Waiting for Google to redirect you back here...\n");
