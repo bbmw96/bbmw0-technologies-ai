@@ -173,13 +173,57 @@ jobs:
           rm -f scripts/oauth-client.json scripts/yt-credentials.json
 
       - name: Commit history back
+        # MUST be always(). When the upload step exits non-zero this step was
+        # skipped, so the record of what DID publish was thrown away.
+        if: always()
         run: |
           git config user.name "bbmw0-bot"
           git config user.email "bot@bbmw0.local"
-          git add scripts/data/published.json daily/ scripts/data/topics.json scripts/data/trend-log.json scripts/data/compliance-log.json scripts/data/audio-licences.json scripts/data/channels.json 2>/dev/null || true
-          git diff --cached --quiet && exit 0
+
+          # Add paths ONE AT A TIME. `git add a b c` is all-or-nothing: if any
+          # single path does not exist, git stages NOTHING. trend-log.json is
+          # only created when AI research runs, so it was usually absent, which
+          # silently staged zero files. The `|| true` then hid the error and
+          # `git diff --cached --quiet && exit 0` reported success. Result: the
+          # publishing history never persisted on any run, topicsUsed stayed
+          # frozen, and youtubeId records were lost every time.
+          for p in scripts/data/published.json \
+                   scripts/data/topics.json \
+                   scripts/data/compliance-log.json \
+                   scripts/data/audio-licences.json \
+                   scripts/data/channels.json \
+                   scripts/data/trend-log.json \
+                   daily; do
+            if [ -e "$p" ]; then
+              git add "$p" && echo "  staged: $p"
+            else
+              echo "  absent (fine): $p"
+            fi
+          done
+
+          if git diff --cached --quiet; then
+            echo "::warning title=Nothing to commit::No history changes were staged. If videos were generated this run, that is a bug."
+            exit 0
+          fi
+
+          echo "Files to commit:"
+          git diff --cached --name-only | sed 's/^/  /'
           git commit -m "Daily Shorts: $(date -u +%F) [skip ci]"
-          git push
+
+          # A concurrent push (a human committing mid-run) makes a plain push
+          # fail non-fast-forward. Rebase and retry rather than losing the run.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected, rebasing and retrying ($attempt of 3)..."
+            git pull --rebase --autostash origin main || true
+            sleep 5
+          done
+
+          echo "::error title=History not saved::Could not push the publishing record after 3 attempts. topicsUsed and youtubeId records for this run are LOST, which means topics may be reused."
+          exit 1
 
       - name: Daily content health report
         if: always()

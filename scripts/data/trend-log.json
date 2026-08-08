@@ -1,0 +1,4 @@
+{
+  "_comment": "Log of AI trend-research runs. Created empty so its absence cannot break the CI commit step, which stages paths individually but is happier with a file that exists.",
+  "runs": []
+}
