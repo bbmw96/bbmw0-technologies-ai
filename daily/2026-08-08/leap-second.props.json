@@ -1,0 +1,57 @@
+{
+  "themeId": "slate",
+  "fontFamilyId": "mono",
+  "audioUrl": "sounds/bbmw0-rain-heavy.mp3",
+  "audioVolume": 0.4,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "True story.",
+      "text": "Some years have a leap second.",
+      "sub": "Stay with us.",
+      "durationInFrames": 198,
+      "variant": 3
+    },
+    {
+      "kind": "bigword",
+      "text": "Earth wobbles, clocks adjust.",
+      "durationInFrames": 183,
+      "variant": 3
+    },
+    {
+      "kind": "stat",
+      "number": "7",
+      "label": "Think about it.",
+      "durationInFrames": 221,
+      "variant": 1
+    },
+    {
+      "kind": "list",
+      "heading": "What's interesting",
+      "items": [
+        "Observe",
+        "Hypothesise",
+        "Verify"
+      ],
+      "durationInFrames": 278,
+      "variant": 3
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Tap.",
+        "Save.",
+        "Reuse."
+      ],
+      "durationInFrames": 162,
+      "variant": 3
+    },
+    {
+      "kind": "cta",
+      "headline": "Worth knowing.",
+      "url": "bbmw0-technologies-ai.vercel.app/install",
+      "durationInFrames": 158,
+      "variant": 1
+    }
+  ]
+}

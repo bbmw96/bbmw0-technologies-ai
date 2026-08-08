@@ -1,0 +1,26 @@
+{
+  "slug": "leap-second",
+  "date": "2026-08-08",
+  "title": "Some years have a leap second. #Shorts #learn",
+  "description": "Here's a one-minute fact you didn't know you needed.\n\nSome years have a leap second. Earth wobbles, clocks adjust.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #learn",
+  "tags": [
+    "shorts",
+    "science",
+    "physics",
+    "sciencefacts",
+    "learn",
+    "experiment"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-08-08-leap-second.mp4",
+  "propsFile": "daily/2026-08-08/leap-second.props.json",
+  "durationInFrames": 1200,
+  "themeId": "slate",
+  "fontFamilyId": "mono",
+  "audioUrl": "sounds/bbmw0-rain-heavy.mp3",
+  "niche": "science"
+}

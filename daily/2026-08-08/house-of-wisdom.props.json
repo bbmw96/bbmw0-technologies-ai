@@ -1,0 +1,57 @@
+{
+  "themeId": "neon",
+  "fontFamilyId": "sans",
+  "audioUrl": "sounds/bbmw0-ocean-swell.mp3",
+  "audioVolume": 0.45,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Listen.",
+      "text": "Baghdad had a library that translated the known world.",
+      "sub": "Stay with us.",
+      "durationInFrames": 169,
+      "variant": 3
+    },
+    {
+      "kind": "bigword",
+      "text": "The House of Wisdom.",
+      "durationInFrames": 193,
+      "variant": 2
+    },
+    {
+      "kind": "stat",
+      "number": "38",
+      "label": "Keep that in mind.",
+      "durationInFrames": 263,
+      "variant": 2
+    },
+    {
+      "kind": "list",
+      "heading": "Why it matters",
+      "items": [
+        "Read more",
+        "Cross-check",
+        "Stay curious"
+      ],
+      "durationInFrames": 288,
+      "variant": 1
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "See.",
+        "Hear.",
+        "Know."
+      ],
+      "durationInFrames": 148,
+      "variant": 3
+    },
+    {
+      "kind": "cta",
+      "headline": "Pass it on.",
+      "url": "youtube.com/@bbmw0",
+      "durationInFrames": 139,
+      "variant": 3
+    }
+  ]
+}

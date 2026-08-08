@@ -1,0 +1,57 @@
+{
+  "themeId": "ocean",
+  "fontFamilyId": "mono",
+  "audioUrl": "sounds/bbmw0-ocean-shore.mp3",
+  "audioVolume": 0.45,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Wait, what?",
+      "text": "The first computer bug was a real moth.",
+      "sub": "True, mostly.",
+      "durationInFrames": 179,
+      "variant": 3
+    },
+    {
+      "kind": "bigword",
+      "text": "Found inside Harvard Mark II.",
+      "durationInFrames": 197,
+      "variant": 2
+    },
+    {
+      "kind": "stat",
+      "number": "1ms",
+      "label": "Mind the number.",
+      "durationInFrames": 226,
+      "variant": 1
+    },
+    {
+      "kind": "list",
+      "heading": "What to remember",
+      "items": [
+        "The model is simple",
+        "The result is fast",
+        "The reason is design"
+      ],
+      "durationInFrames": 255,
+      "variant": 3
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Tap.",
+        "Save.",
+        "Reuse."
+      ],
+      "durationInFrames": 179,
+      "variant": 2
+    },
+    {
+      "kind": "cta",
+      "headline": "Share it.",
+      "url": "youtube.com/@bbmw0",
+      "durationInFrames": 164,
+      "variant": 2
+    }
+  ]
+}

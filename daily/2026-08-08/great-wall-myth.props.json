@@ -1,0 +1,57 @@
+{
+  "themeId": "sandstorm",
+  "fontFamilyId": "display",
+  "audioUrl": "sounds/bbmw0-rain-heavy.mp3",
+  "audioVolume": 0.4,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Today, learn.",
+      "text": "You can't see the Great Wall from space.",
+      "sub": "Look closer.",
+      "durationInFrames": 177,
+      "variant": 1
+    },
+    {
+      "kind": "bigword",
+      "text": "Common myth, busted.",
+      "durationInFrames": 212,
+      "variant": 2
+    },
+    {
+      "kind": "stat",
+      "number": "20",
+      "label": "Think about it.",
+      "durationInFrames": 240,
+      "variant": 1
+    },
+    {
+      "kind": "list",
+      "heading": "Quick context",
+      "items": [
+        "Records are sparse",
+        "Witnesses are rare",
+        "Truth is fragile"
+      ],
+      "durationInFrames": 245,
+      "variant": 2
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Pause.",
+        "Think.",
+        "Save."
+      ],
+      "durationInFrames": 176,
+      "variant": 1
+    },
+    {
+      "kind": "cta",
+      "headline": "Share it.",
+      "url": "youtube.com/@bbmw0",
+      "durationInFrames": 150,
+      "variant": 1
+    }
+  ]
+}

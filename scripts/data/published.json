@@ -10,7 +10,12 @@
     "bananas-radioactive",
     "moon-drift",
     "sleep-stages",
-    "lightning-hotter-sun"
+    "lightning-hotter-sun",
+    "house-of-wisdom",
+    "leap-second",
+    "first-bug-real",
+    "caps-lock-fix",
+    "great-wall-myth"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -22,7 +27,12 @@
     "ember|mono|sounds/thunder and rain.mp3",
     "forest|rounded|sounds/forest ambiance.mp3",
     "midnight|serif|sounds/thunder and rain.mp3",
-    "slate|serif|sounds/ocean waves.mp3"
+    "slate|serif|sounds/ocean waves.mp3",
+    "neon|sans|sounds/bbmw0-ocean-swell.mp3",
+    "slate|mono|sounds/bbmw0-rain-heavy.mp3",
+    "ocean|mono|sounds/bbmw0-ocean-shore.mp3",
+    "ember|rounded|sounds/bbmw0-wind-open.mp3",
+    "sandstorm|display|sounds/bbmw0-rain-heavy.mp3"
   ],
   "videos": [
     {
@@ -114,6 +124,86 @@
       "audioUrl": "sounds/ocean waves.mp3",
       "title": "Lightning is hotter than the Sun. #Shorts #learn",
       "niche": "science"
+    },
+    {
+      "id": "house-of-wisdom",
+      "date": "2026-08-08",
+      "themeId": "neon",
+      "fontFamilyId": "sans",
+      "audioUrl": "sounds/bbmw0-ocean-swell.mp3",
+      "title": "Baghdad had a library that translated the known world. #Shorts #learn",
+      "description": "Made on a phone. For a phone.\n\nBaghdad had a library that translated the known world. The House of Wisdom.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #learn",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "youtubeId": "OIRPSOZFqdI",
+      "youtubeUrl": "https://youtu.be/OIRPSOZFqdI",
+      "uploadedAt": "2026-08-08T20:22:44.393Z",
+      "privacy": "public"
+    },
+    {
+      "id": "leap-second",
+      "date": "2026-08-08",
+      "themeId": "slate",
+      "fontFamilyId": "mono",
+      "audioUrl": "sounds/bbmw0-rain-heavy.mp3",
+      "title": "Some years have a leap second. #Shorts #learn",
+      "description": "Here's a one-minute fact you didn't know you needed.\n\nSome years have a leap second. Earth wobbles, clocks adjust.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #learn",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "youtubeId": "rqyKMfB2BBM",
+      "youtubeUrl": "https://youtu.be/rqyKMfB2BBM",
+      "uploadedAt": "2026-08-08T20:23:46.151Z",
+      "privacy": "public"
+    },
+    {
+      "id": "first-bug-real",
+      "date": "2026-08-08",
+      "themeId": "ocean",
+      "fontFamilyId": "mono",
+      "audioUrl": "sounds/bbmw0-ocean-shore.mp3",
+      "title": "The first computer bug was a real moth. #Shorts",
+      "description": "Pure kinetic typography. No faces, no chatter.\n\nThe first computer bug was a real moth. Found inside Harvard Mark II.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "youtubeId": "LYbtVmNlzZ4",
+      "youtubeUrl": "https://youtu.be/LYbtVmNlzZ4",
+      "uploadedAt": "2026-08-08T20:20:33.487Z",
+      "privacy": "public"
+    },
+    {
+      "id": "caps-lock-fix",
+      "date": "2026-08-08",
+      "themeId": "ember",
+      "fontFamilyId": "rounded",
+      "audioUrl": "sounds/bbmw0-wind-open.mp3",
+      "title": "Shift+F3 changes text case in most editors. #Shorts",
+      "description": "Here's a one-minute fact you didn't know you needed.\n\nShift+F3 changes text case in most editors. No retyping needed.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "youtubeId": "-ISmLR9M5Ug",
+      "youtubeUrl": "https://youtu.be/-ISmLR9M5Ug",
+      "uploadedAt": "2026-08-08T20:19:28.377Z",
+      "privacy": "public"
+    },
+    {
+      "id": "great-wall-myth",
+      "date": "2026-08-08",
+      "themeId": "sandstorm",
+      "fontFamilyId": "display",
+      "audioUrl": "sounds/bbmw0-rain-heavy.mp3",
+      "title": "You can't see the Great Wall from space. #Shorts #learn",
+      "description": "Pure kinetic typography. No faces, no chatter.\n\nYou can't see the Great Wall from space. Common myth, busted.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #learn",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "youtubeId": "zNjtbJHVhKE",
+      "youtubeUrl": "https://youtu.be/zNjtbJHVhKE",
+      "uploadedAt": "2026-08-08T20:21:37.284Z",
+      "privacy": "public"
     }
   ]
 }

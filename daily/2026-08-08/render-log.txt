@@ -1,0 +1,29 @@
+Rendering 5 Shorts for 2026-08-08 (concurrency=3, GL=default)
+Compliance: 5 cleared, 0 blocked (policy v1.0.0).
+
+--- caps-lock-fix ---
+  theme=ember font=rounded audio=sounds/bbmw0-wind-open.mp3 privacy=public
+  rendered: out/daily-2026-08-08-caps-lock-fix.mp4
+  uploaded public: https://youtu.be/-ISmLR9M5Ug
+
+--- first-bug-real ---
+  theme=ocean font=mono audio=sounds/bbmw0-ocean-shore.mp3 privacy=public
+  rendered: out/daily-2026-08-08-first-bug-real.mp4
+  uploaded public: https://youtu.be/LYbtVmNlzZ4
+
+--- great-wall-myth ---
+  theme=sandstorm font=display audio=sounds/bbmw0-rain-heavy.mp3 privacy=public
+  rendered: out/daily-2026-08-08-great-wall-myth.mp4
+  uploaded public: https://youtu.be/zNjtbJHVhKE
+
+--- house-of-wisdom ---
+  theme=neon font=sans audio=sounds/bbmw0-ocean-swell.mp3 privacy=public
+  rendered: out/daily-2026-08-08-house-of-wisdom.mp4
+  uploaded public: https://youtu.be/OIRPSOZFqdI
+
+--- leap-second ---
+  theme=slate font=mono audio=sounds/bbmw0-rain-heavy.mp3 privacy=public
+  rendered: out/daily-2026-08-08-leap-second.mp4
+  uploaded public: https://youtu.be/rqyKMfB2BBM
+
+=== Done. 5 rendered, 5 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

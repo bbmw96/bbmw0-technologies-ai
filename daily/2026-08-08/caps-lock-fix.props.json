@@ -1,0 +1,57 @@
+{
+  "themeId": "ember",
+  "fontFamilyId": "rounded",
+  "audioUrl": "sounds/bbmw0-wind-open.mp3",
+  "audioVolume": 0.5,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "True story.",
+      "text": "Shift+F3 changes text case in most editors.",
+      "sub": "Look closer.",
+      "durationInFrames": 164,
+      "variant": 2
+    },
+    {
+      "kind": "bigword",
+      "text": "No retyping needed.",
+      "durationInFrames": 236,
+      "variant": 1
+    },
+    {
+      "kind": "stat",
+      "number": "Ctrl+F",
+      "label": "Worth remembering.",
+      "durationInFrames": 245,
+      "variant": 1
+    },
+    {
+      "kind": "list",
+      "heading": "How it works",
+      "items": [
+        "Notice",
+        "Reduce",
+        "Repeat"
+      ],
+      "durationInFrames": 241,
+      "variant": 2
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "See.",
+        "Hear.",
+        "Know."
+      ],
+      "durationInFrames": 167,
+      "variant": 2
+    },
+    {
+      "kind": "cta",
+      "headline": "Pass it on.",
+      "url": "bbmw0-technologies-ai.vercel.app/install",
+      "durationInFrames": 147,
+      "variant": 3
+    }
+  ]
+}
