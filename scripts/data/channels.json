@@ -21,7 +21,9 @@
         "history"
       ],
       "categoryId": "28",
-      "notes": "Primary channel. The daily-shorts workflow publishes here."
+      "notes": "Primary channel. The daily-shorts workflow publishes here.",
+      "oauthPublishingStatus": "In production",
+      "oauthNote": "Consent screen MUST stay In production. In Testing, Google expires refresh tokens after 7 days, which silently killed publishing between 3 and 8 Aug 2026. Check console.cloud.google.com/auth/audience?project=yt-shorts-engine"
     },
     {
       "id": "yt-bbm0902",

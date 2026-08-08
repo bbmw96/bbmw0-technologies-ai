@@ -18,13 +18,17 @@ import crypto from "node:crypto";
 import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const CLIENT_PATH = argOf("client") || path.join(__dirname, "oauth-client.json");
+
 // Overridable so a second channel can use its own client and credentials file.
+// Declared BEFORE first use: `const` is hoisted but not initialised, so calling
+// argOf above this line throws "Cannot access 'argOf' before initialization".
 const argOf = (n) => {
   const f = process.argv.find((a) => a.startsWith(`--${n}=`));
   return f ? f.slice(n.length + 3) : null;
 };
-const CREDS_PATH = argOf("out") || path.join(__dirname, "yt-credentials.json");
+
+const CLIENT_PATH = argOf("client") || path.join(__dirname, "oauth-client.json");
+const CREDS_PATH  = argOf("out")    || path.join(__dirname, "yt-credentials.json");
 const SCOPES = ["https://www.googleapis.com/auth/youtube.upload"];
 
 if (!fs.existsSync(CLIENT_PATH)) {
