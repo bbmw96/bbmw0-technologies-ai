@@ -223,8 +223,14 @@ for (const propsFile of propsFiles) {
           skipCount++;
           continue;
         }
+        // Prefer Composio when configured: it holds the auth and refreshes the
+        // token itself, so there is no 60-day expiry to forget about.
+        const igScript = process.env.COMPOSIO_API_KEY
+          ? "scripts/instagram-upload-composio.mjs"
+          : "scripts/instagram-upload.mjs";
+        append(`  instagram via: ${process.env.COMPOSIO_API_KEY ? "Composio" : "direct Meta API"}`);
         const igCmd = [
-          "node", "scripts/instagram-upload.mjs",
+          "node", igScript,
           `--video-url="${videoUrl}"`,
           `--caption="${meta.title.replace(/"/g, '\\"')}"`,
           `--tags="${tags}"`,

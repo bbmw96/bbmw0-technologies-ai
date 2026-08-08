@@ -8,7 +8,7 @@
       "platform": "youtube",
       "handle": "@bbmw.0",
       "channelId": "UCSRkqZ0PckW8ae-cnZcN1hw",
-      "composioConnection": "youtube_boris-stasis",
+      "composioConnection": "youtube_wounds-headed",
       "credentialsFile": "scripts/yt-credentials.json",
       "secretPrefix": "YT",
       "dailyCount": 5,
@@ -23,7 +23,8 @@
       "categoryId": "28",
       "notes": "Primary channel. The daily-shorts workflow publishes here.",
       "oauthPublishingStatus": "In production",
-      "oauthNote": "Consent screen MUST stay In production. In Testing, Google expires refresh tokens after 7 days, which silently killed publishing between 3 and 8 Aug 2026. Check console.cloud.google.com/auth/audience?project=yt-shorts-engine"
+      "oauthNote": "Consent screen MUST stay In production. In Testing, Google expires refresh tokens after 7 days, which silently killed publishing between 3 and 8 Aug 2026. Check console.cloud.google.com/auth/audience?project=yt-shorts-engine",
+      "publishVia": "direct-oauth"
     },
     {
       "id": "yt-bbm0902",
@@ -31,7 +32,7 @@
       "platform": "youtube",
       "handle": "@bbm0902",
       "channelId": "UC5O9s1vte7UiLICKP1pHIiQ",
-      "composioConnection": "youtube_tao-juang",
+      "composioConnection": null,
       "credentialsFile": "scripts/yt-credentials-bbm0902.json",
       "secretPrefix": "YT2",
       "dailyCount": 3,
@@ -44,14 +45,15 @@
         "weather"
       ],
       "categoryId": "27",
-      "notes": "Enable once YT2_REFRESH_TOKEN, YT2_CLIENT_ID, YT2_CLIENT_SECRET and YT2_OAUTH_CLIENT_JSON are set. Deliberately different niches from yt-bbmw0 so the two channels never compete or look duplicated."
+      "notes": "NOT connected to Composio despite the other two being connected, and has no YT2_* secrets. Needs its own Google sign-in: npm run yt:rotate -- --channel=yt-bbm0902",
+      "publishVia": "direct-oauth"
     },
     {
       "id": "ig-aigameodyssey",
       "enabled": true,
       "platform": "instagram",
       "handle": "@ai_game_odyssey",
-      "composioConnection": "instagram_stays-moo",
+      "composioConnection": "instagram_sledge-got",
       "secretPrefix": "IG",
       "dailyCount": 2,
       "privacy": "public",
@@ -60,13 +62,15 @@
         "animals",
         "science"
       ],
-      "notes": "Enable once IG_ACCESS_TOKEN, IG_USER_ID and PUBLIC_MEDIA_BASE_URL are set. Uses Instagram API with Instagram Login, so NO Facebook account or linked Page is required. Account is Business on up866106@gmail.com with no Facebook. Do not use the Facebook Login permission names (instagram_basic / instagram_content_publish) on this path: they will fail. Reels only: 9:16, 3 to 90 seconds. Instagram fetches the video from a public https URL, it does not accept uploads.",
+      "notes": "Publishes via Composio (scripts/instagram-upload-composio.mjs), which already holds an ACTIVE authenticated connection and manages the token lifecycle. That removes the Meta app build, App Review, and the 60-day token refresh that would otherwise kill publishing silently. Needs COMPOSIO_API_KEY as a GitHub secret. scripts/instagram-upload.mjs remains as the direct-Meta fallback. Instagram still fetches the video from a public URL, so publish-media.mjs is still required.",
       "loginType": "Business Login for Instagram",
       "apiHost": "graph.instagram.com",
       "permissions": [
         "instagram_business_basic",
         "instagram_business_content_publish"
-      ]
+      ],
+      "igUserId": "26759002047072119",
+      "publishVia": "composio"
     }
   ],
   "instagram_limits": {

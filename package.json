@@ -40,7 +40,8 @@
     "gen:channel": "node scripts/generate-shorts.mjs --channel",
     "ig:upload": "node scripts/instagram-upload.mjs",
     "media:host": "node scripts/publish-media.mjs",
-    "channels": "node scripts/channel-status.mjs"
+    "channels": "node scripts/channel-status.mjs",
+    "ig:upload:composio": "node scripts/instagram-upload-composio.mjs"
   },
   "dependencies": {
     "@remotion/player": "4.0.454",
