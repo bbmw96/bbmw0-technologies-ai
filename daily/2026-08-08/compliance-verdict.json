@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "generatedAt": "2026-08-08T20:18:04.518Z",
+  "generatedAt": "2026-08-08T21:08:31.729Z",
   "policyVersion": "1.0.0",
   "strictMode": false,
   "allowed": [
@@ -8,7 +8,8 @@
     "first-bug-real",
     "great-wall-myth",
     "house-of-wisdom",
-    "leap-second"
+    "leap-second",
+    "platypus-electricity"
   ],
   "blocked": [],
   "results": [
@@ -199,6 +200,44 @@
         "worstDescriptionSimilarity": 0.516,
         "combo": "slate|mono|sounds/bbmw0-rain-heavy.mp3",
         "themeGap": 0,
+        "audioGap": null
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "platypus-electricity",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "The platypus hunts by detecting electrical fields. #Shorts #facts",
+      "niche": "animals",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.032,
+        "worstTitleAgainst": "lightning-hotter-sun",
+        "worstDescriptionSimilarity": 0.483,
+        "combo": "mint|mono|sounds/bbmw0-stream.mp3",
+        "themeGap": null,
         "audioGap": null
       },
       "aiPanel": {

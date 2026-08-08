@@ -1,29 +1,24 @@
-Rendering 5 Shorts for 2026-08-08 (concurrency=3, GL=default)
-Compliance: 5 cleared, 0 blocked (policy v1.0.0).
+Rendering 6 Shorts for 2026-08-08 (concurrency=3, GL=default)
+Compliance: 6 cleared, 0 blocked (policy v1.0.0).
 
 --- caps-lock-fix ---
-  theme=ember font=rounded audio=sounds/bbmw0-wind-open.mp3 privacy=public
-  rendered: out/daily-2026-08-08-caps-lock-fix.mp4
-  uploaded public: https://youtu.be/-ISmLR9M5Ug
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
 
 --- first-bug-real ---
-  theme=ocean font=mono audio=sounds/bbmw0-ocean-shore.mp3 privacy=public
-  rendered: out/daily-2026-08-08-first-bug-real.mp4
-  uploaded public: https://youtu.be/LYbtVmNlzZ4
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
 
 --- great-wall-myth ---
-  theme=sandstorm font=display audio=sounds/bbmw0-rain-heavy.mp3 privacy=public
-  rendered: out/daily-2026-08-08-great-wall-myth.mp4
-  uploaded public: https://youtu.be/zNjtbJHVhKE
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
 
 --- house-of-wisdom ---
-  theme=neon font=sans audio=sounds/bbmw0-ocean-swell.mp3 privacy=public
-  rendered: out/daily-2026-08-08-house-of-wisdom.mp4
-  uploaded public: https://youtu.be/OIRPSOZFqdI
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
 
 --- leap-second ---
-  theme=slate font=mono audio=sounds/bbmw0-rain-heavy.mp3 privacy=public
-  rendered: out/daily-2026-08-08-leap-second.mp4
-  uploaded public: https://youtu.be/rqyKMfB2BBM
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
 
-=== Done. 5 rendered, 5 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===
+--- platypus-electricity ---
+  theme=mint font=mono audio=sounds/bbmw0-stream.mp3 privacy=public
+  rendered: out/daily-2026-08-08-platypus-electricity.mp4
+  FAILED upload: Command failed: node scripts/youtube-upload.mjs --file="/home/runner/work/bbmw0-technologies-ai/bbmw0-technologies-ai/out/daily-2026-08-08-platypus-electricity.mp4" --title="The platypus hunts by detecting electrical fields. #Shorts #facts" --description="Pure kinetic typography. No faces, no chatter.\n\nThe platypus hunts by detecting electrical fields. No eyes needed underwater.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #facts" --tags="shorts,animals,wildlife,nature,animalfacts,creatures" --category=27 --privacy=public --shorts --credentials="scripts/yt-credentials-bbm0902.json"
+
+=== Done. 1 rendered, 0 uploaded, 5 skipped, 0 blocked by compliance, 1 failed. ===

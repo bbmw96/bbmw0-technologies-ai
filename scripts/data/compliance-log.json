@@ -1,4 +1,125 @@
 {
   "_comment": "Append-only audit trail of every compliance decision. Retain this: it is the evidence trail if a policy decision is ever appealed or a channel review is requested.",
-  "runs": []
+  "runs": [
+    {
+      "timestamp": "2026-08-08T21:08:31.729Z",
+      "date": "2026-08-08",
+      "policyVersion": "1.0.0",
+      "strictMode": false,
+      "reviewed": 6,
+      "passed": 6,
+      "blocked": 0,
+      "results": [
+        {
+          "slug": "caps-lock-fix",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.018,
+            "worstTitleAgainst": "git-snapshot",
+            "worstDescriptionSimilarity": 0.516,
+            "combo": "ember|rounded|sounds/bbmw0-wind-open.mp3",
+            "themeGap": 3,
+            "audioGap": null
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "first-bug-real",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.058,
+            "worstTitleAgainst": "bananas-radioactive",
+            "worstDescriptionSimilarity": 0.516,
+            "combo": "ocean|mono|sounds/bbmw0-ocean-shore.mp3",
+            "themeGap": null,
+            "audioGap": null
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "great-wall-myth",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.167,
+            "worstTitleAgainst": "echo-bat",
+            "worstDescriptionSimilarity": 0.516,
+            "combo": "sandstorm|display|sounds/bbmw0-rain-heavy.mp3",
+            "themeGap": 7,
+            "audioGap": null
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "house-of-wisdom",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.03,
+            "worstTitleAgainst": "lightning-hotter-sun",
+            "worstDescriptionSimilarity": 0.319,
+            "combo": "neon|sans|sounds/bbmw0-ocean-swell.mp3",
+            "themeGap": null,
+            "audioGap": null
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "leap-second",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.theme_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.067,
+            "worstTitleAgainst": "moon-drift",
+            "worstDescriptionSimilarity": 0.516,
+            "combo": "slate|mono|sounds/bbmw0-rain-heavy.mp3",
+            "themeGap": 0,
+            "audioGap": null
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "platypus-electricity",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.032,
+            "worstTitleAgainst": "lightning-hotter-sun",
+            "worstDescriptionSimilarity": 0.483,
+            "combo": "mint|mono|sounds/bbmw0-stream.mp3",
+            "themeGap": null,
+            "audioGap": null
+          },
+          "aiPassRatio": null
+        }
+      ]
+    }
+  ]
 }

@@ -1,0 +1,57 @@
+{
+  "themeId": "mint",
+  "fontFamilyId": "mono",
+  "audioUrl": "sounds/bbmw0-stream.mp3",
+  "audioVolume": 0.5,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Did you know.",
+      "text": "The platypus hunts by detecting electrical fields.",
+      "sub": "Useful, actually.",
+      "durationInFrames": 123,
+      "variant": 2
+    },
+    {
+      "kind": "bigword",
+      "text": "No eyes needed underwater.",
+      "durationInFrames": 145,
+      "variant": 2
+    },
+    {
+      "kind": "stat",
+      "number": "12",
+      "label": "Keep that in mind.",
+      "durationInFrames": 157,
+      "variant": 2
+    },
+    {
+      "kind": "list",
+      "heading": "What this means",
+      "items": [
+        "Built for their world",
+        "Most are misunderstood",
+        "There's always more"
+      ],
+      "durationInFrames": 199,
+      "variant": 3
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Pause.",
+        "Think.",
+        "Save."
+      ],
+      "durationInFrames": 133,
+      "variant": 3
+    },
+    {
+      "kind": "cta",
+      "headline": "File it away.",
+      "url": "youtube.com/@bbmw0",
+      "durationInFrames": 143,
+      "variant": 1
+    }
+  ]
+}

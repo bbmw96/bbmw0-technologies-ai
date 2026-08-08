@@ -15,7 +15,8 @@
     "leap-second",
     "first-bug-real",
     "caps-lock-fix",
-    "great-wall-myth"
+    "great-wall-myth",
+    "platypus-electricity"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -32,7 +33,8 @@
     "slate|mono|sounds/bbmw0-rain-heavy.mp3",
     "ocean|mono|sounds/bbmw0-ocean-shore.mp3",
     "ember|rounded|sounds/bbmw0-wind-open.mp3",
-    "sandstorm|display|sounds/bbmw0-rain-heavy.mp3"
+    "sandstorm|display|sounds/bbmw0-rain-heavy.mp3",
+    "mint|mono|sounds/bbmw0-stream.mp3"
   ],
   "videos": [
     {
@@ -204,6 +206,18 @@
       "youtubeUrl": "https://youtu.be/zNjtbJHVhKE",
       "uploadedAt": "2026-08-08T20:21:37.284Z",
       "privacy": "public"
+    },
+    {
+      "id": "platypus-electricity",
+      "date": "2026-08-08",
+      "themeId": "mint",
+      "fontFamilyId": "mono",
+      "audioUrl": "sounds/bbmw0-stream.mp3",
+      "title": "The platypus hunts by detecting electrical fields. #Shorts #facts",
+      "description": "Pure kinetic typography. No faces, no chatter.\n\nThe platypus hunts by detecting electrical fields. No eyes needed underwater.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #facts",
+      "niche": "animals",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube"
     }
   ]
 }
