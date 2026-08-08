@@ -1,0 +1,34 @@
+# Line-ending policy.
+#
+# WHY THIS FILE EXISTS
+# scripts/daily-report.sh was committed with CRLF line endings from a Windows
+# machine. bash on the Linux CI runner treats the trailing \r as part of each
+# token, so the run failed with:
+#
+#   line 15: $'\r': command not found
+#   line 16: set: pipefail : invalid option name
+#   line 33: syntax error near unexpected token `$'{\r''
+#
+# Shell scripts MUST be LF. Without this file the problem silently returns the
+# next time anyone edits a script on Windows.
+
+* text=auto eol=lf
+
+*.sh    text eol=lf
+*.mjs   text eol=lf
+*.js    text eol=lf
+*.ts    text eol=lf
+*.tsx   text eol=lf
+*.json  text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.md    text eol=lf
+
+# Never touch binaries.
+*.mp3   binary
+*.mp4   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.webp  binary
+*.ico   binary
