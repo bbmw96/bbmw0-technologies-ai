@@ -150,6 +150,13 @@ try {
   );
   process.stdout.write("\n");
   const id = res.data.id;
+  // The insert response tells us which channel actually received the video.
+  // This is the only reliable wrong-channel check available: the youtube.upload
+  // scope does not permit channels.list, so it cannot be verified beforehand.
+  // Surfacing it here lets render-batch catch a wrong-account authorisation on
+  // video ONE rather than after a whole batch has gone to the wrong place.
+  const actualChannel = res.data.snippet?.channelId;
+  if (actualChannel) console.log(`Channel ID: ${actualChannel}`);
   console.log(`Uploaded. Video ID: ${id}`);
   console.log(`URL: https://youtu.be/${id}`);
 

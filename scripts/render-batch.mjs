@@ -264,6 +264,19 @@ for (const propsFile of propsFiles) {
       const out = execSync(cmd, { cwd: ROOT, encoding: "utf8", stdio: ["inherit", "pipe", "inherit"] });
       process.stdout.write(out);
 
+      // Wrong-channel guard. If the operator signed in as the wrong Google
+      // account during rotation, every upload silently lands on someone else's
+      // channel. Compare what YouTube says against the registry and stop the
+      // batch immediately rather than publishing four more to the wrong place.
+      const chMatch = out.match(/Channel ID:\s*(UC[A-Za-z0-9_-]+)/);
+      if (chMatch && channel && channel.channelId && chMatch[1] !== channel.channelId) {
+        append(`  FATAL: uploaded to channel ${chMatch[1]} but ${meta.channelId} expects ${channel.channelId}.`);
+        append(`  The credentials authorise the WRONG channel. Stopping before more go astray.`);
+        append(`  Fix: npm run yt:rotate -- --channel=${meta.channelId}  (sign in as ${channel.handle})`);
+        failCount++;
+        break;
+      }
+
       const m = out.match(/Video ID:\s*([A-Za-z0-9_-]{6,})/);
       if (m) {
         recordUpload(slug, m[1], meta.privacy);

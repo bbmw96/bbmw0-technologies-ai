@@ -7,9 +7,18 @@
 // happily and the pipeline then publishes to the WRONG CHANNEL. That failure is
 // silent and only visible once videos appear somewhere unexpected.
 //
-// This calls channels.list(mine=true) and compares the returned channel id to
-// the one recorded in channels.json. It prints the channel title and id. It
-// never prints the token.
+// LIMITATION, FOUND THE HARD WAY
+// This calls channels.list(mine=true), which needs youtube.readonly. The
+// pipeline only requests youtube.upload, the narrowest scope that does the job,
+// so this returns "Request had insufficient authentication scopes".
+//
+// Broadening the scope purely to enable a pre-flight check was not worth
+// re-authorising every channel and widening the permission. The wrong-channel
+// check therefore lives in render-batch instead: the videos.insert response
+// carries snippet.channelId, so a wrong-account authorisation is caught on
+// video ONE and the batch halts.
+//
+// Kept because it works if you ever add youtube.readonly for another reason.
 //
 // USAGE:
 //   node scripts/verify-channel.mjs --channel=yt-bbm0902
