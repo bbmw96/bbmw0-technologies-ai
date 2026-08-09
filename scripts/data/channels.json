@@ -11,7 +11,7 @@
       "composioConnection": "youtube_wounds-headed",
       "credentialsFile": "scripts/yt-credentials.json",
       "secretPrefix": "YT",
-      "dailyCount": 5,
+      "dailyCount": 4,
       "privacy": "public",
       "niches": [
         "tech",
@@ -24,7 +24,8 @@
       "notes": "Primary channel. The daily-shorts workflow publishes here.",
       "oauthPublishingStatus": "In production",
       "oauthNote": "Consent screen MUST stay In production. In Testing, Google expires refresh tokens after 7 days, which silently killed publishing between 3 and 8 Aug 2026. Check console.cloud.google.com/auth/audience?project=yt-shorts-engine",
-      "publishVia": "direct-oauth"
+      "publishVia": "direct-oauth",
+      "weekendCount": 2
     },
     {
       "id": "yt-bbm0902",
@@ -35,7 +36,7 @@
       "composioConnection": null,
       "credentialsFile": "scripts/yt-credentials-bbm0902.json",
       "secretPrefix": "YT2",
-      "dailyCount": 3,
+      "dailyCount": 4,
       "privacy": "public",
       "niches": [
         "animals",
@@ -47,7 +48,8 @@
       "categoryId": "27",
       "notes": "NOT connected to Composio despite the other two being connected, and has no YT2_* secrets. Needs its own Google sign-in: npm run yt:rotate -- --channel=yt-bbm0902",
       "publishVia": "direct-oauth",
-      "_channelId_note": "Taken from the videos.insert response, which is authoritative. An earlier hand-transcribed value had the i and I at positions 21-22 transposed, which made the wrong-channel guard fire on a correct upload. Never retype a channel id: copy it from an API response."
+      "_channelId_note": "Taken from the videos.insert response, which is authoritative. An earlier hand-transcribed value had the i and I at positions 21-22 transposed, which made the wrong-channel guard fire on a correct upload. Never retype a channel id: copy it from an API response.",
+      "weekendCount": 2
     },
     {
       "id": "ig-aigameodyssey",
@@ -56,12 +58,13 @@
       "handle": "@ai_game_odyssey",
       "composioConnection": "instagram_sledge-got",
       "secretPrefix": "IG",
-      "dailyCount": 2,
+      "dailyCount": 4,
       "privacy": "public",
       "niches": [
-        "space",
-        "animals",
-        "science"
+        "gaming",
+        "ai",
+        "tech",
+        "app"
       ],
       "notes": "Publishes via Composio (scripts/instagram-upload-composio.mjs), which already holds an ACTIVE authenticated connection and manages the token lifecycle. That removes the Meta app build, App Review, and the 60-day token refresh that would otherwise kill publishing silently. Needs COMPOSIO_API_KEY as a GitHub secret. scripts/instagram-upload.mjs remains as the direct-Meta fallback. Instagram still fetches the video from a public URL, so publish-media.mjs is still required.",
       "loginType": "Business Login for Instagram",
@@ -71,7 +74,9 @@
         "instagram_business_content_publish"
       ],
       "igUserId": "26759002047072119",
-      "publishVia": "composio"
+      "publishVia": "composio",
+      "weekendCount": 2,
+      "_niche_note": "Matched to the account's stated brand (weekly AI-video saga, gaming). Publishing animal and space facts to a gaming account is off-brand, and Instagram reads topical consistency hard on a small account: it would suppress reach on both these posts and any gaming content later."
     }
   ],
   "instagram_limits": {
@@ -83,5 +88,6 @@
     "daily_publish_limit": 100,
     "_source": "Meta Instagram Platform, Content Publishing. 100 API-published posts per rolling 24h."
   },
-  "_enabled_note": "All three channels are enabled. A channel without its credentials is SKIPPED with a clear message rather than failing the run, so enabling early is safe. Check `npm run channels` for live readiness."
+  "_enabled_note": "All three channels are enabled. A channel without its credentials is SKIPPED with a clear message rather than failing the run, so enabling early is safe. Check `npm run channels` for live readiness.",
+  "_cadence": "4 clips per weekday per channel, plus 2 extra at the weekend flagged as special. Weekend specials get the premium visual treatment (see specialTreatment in the generator)."
 }

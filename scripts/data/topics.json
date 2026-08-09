@@ -630,6 +630,114 @@
       "niche": "tech",
       "hook": "Binary search finds one item in a million in twenty steps.",
       "punchline": "Halving beats counting."
+    },
+    {
+      "id": "first-video-game",
+      "niche": "gaming",
+      "hook": "The first video game was built on an oscilloscope.",
+      "punchline": "Tennis for Two, 1958."
+    },
+    {
+      "id": "konami-code",
+      "niche": "gaming",
+      "hook": "The Konami code was a debug shortcut.",
+      "punchline": "A developer could not finish his own game."
+    },
+    {
+      "id": "tetris-effect",
+      "niche": "gaming",
+      "hook": "Playing Tetris can change how you dream.",
+      "punchline": "Researchers named it the Tetris effect."
+    },
+    {
+      "id": "pixel-origin",
+      "niche": "gaming",
+      "hook": "A pixel is short for picture element.",
+      "punchline": "The term predates games entirely."
+    },
+    {
+      "id": "speedrun-frame",
+      "niche": "gaming",
+      "hook": "Speedrun records are decided by single frames.",
+      "punchline": "One thirtieth of a second."
+    },
+    {
+      "id": "game-loop",
+      "niche": "gaming",
+      "hook": "Every game runs the same three steps forever.",
+      "punchline": "Input, update, render."
+    },
+    {
+      "id": "sixty-fps",
+      "niche": "gaming",
+      "hook": "60fps means the screen redraws every 16 milliseconds.",
+      "punchline": "Miss it and the eye notices."
+    },
+    {
+      "id": "procedural-worlds",
+      "niche": "gaming",
+      "hook": "Some games generate their worlds from a single number.",
+      "punchline": "One seed, an entire universe."
+    },
+    {
+      "id": "collision-boxes",
+      "niche": "gaming",
+      "hook": "Game characters are mostly invisible boxes.",
+      "punchline": "You collide with the box, not the art."
+    },
+    {
+      "id": "neural-net-layers",
+      "niche": "ai",
+      "hook": "A neural network is layers of simple sums.",
+      "punchline": "Depth is where the power comes from."
+    },
+    {
+      "id": "tokens-not-words",
+      "niche": "ai",
+      "hook": "AI models read tokens, not words.",
+      "punchline": "One word can be several tokens."
+    },
+    {
+      "id": "training-vs-inference",
+      "niche": "ai",
+      "hook": "Training a model and using it are different jobs.",
+      "punchline": "One takes months, one takes milliseconds."
+    },
+    {
+      "id": "gpu-parallel",
+      "niche": "ai",
+      "hook": "A GPU does thousands of small sums at once.",
+      "punchline": "That is why it trains models."
+    },
+    {
+      "id": "context-window",
+      "niche": "ai",
+      "hook": "A context window is how much a model can hold at once.",
+      "punchline": "Beyond it, earlier text falls away."
+    },
+    {
+      "id": "embeddings-meaning",
+      "niche": "ai",
+      "hook": "AI turns words into coordinates.",
+      "punchline": "Similar meanings sit close together."
+    },
+    {
+      "id": "upscaling-frames",
+      "niche": "ai",
+      "hook": "AI upscaling invents pixels that were never captured.",
+      "punchline": "Games render lower, display higher."
+    },
+    {
+      "id": "pathfinding-astar",
+      "niche": "ai",
+      "hook": "Game characters navigate using A star.",
+      "punchline": "Guess the distance, take the best guess."
+    },
+    {
+      "id": "random-not-random",
+      "niche": "ai",
+      "hook": "Computer randomness is not actually random.",
+      "punchline": "It is a formula with a starting number."
     }
   ]
 }

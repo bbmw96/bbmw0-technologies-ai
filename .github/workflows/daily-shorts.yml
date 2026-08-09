@@ -3,14 +3,21 @@ name: Daily Shorts
 on:
   schedule:
     # 09:00 UTC every day. Adjust HH:MM to your preferred publish hour.
-    - cron: "0 9 * * *"
+    # Weekdays: the standard run.
+    - cron: "0 9 * * 1-5"
+    # Weekends: the standard run plus the specials job below.
+    - cron: "0 9 * * 6,0"
   workflow_dispatch:
     # Lets you trigger manually from the Actions tab.
     inputs:
       count:
         description: "Number of Shorts to publish"
         required: false
-        default: "5"
+        default: "4"
+      special:
+        description: "Weekend special treatment (45s, premium pacing)"
+        type: boolean
+        default: false
       niche:
         description: "Optional niche filter (animals, space, science, etc.)"
         required: false
@@ -145,10 +152,18 @@ jobs:
       - name: Generate today's Shorts
         run: |
           DATE=$(date -u +%F)
-          COUNT="${{ inputs.count || '5' }}"
+          COUNT="${{ inputs.count || '4' }}"
           NICHE="${{ inputs.niche }}"
           CHANNEL="${{ inputs.channel }}"
+          SPECIAL="${{ inputs.special }}"
+          # Cadence from channels.json: 4 per weekday, plus 2 weekend specials.
+          # Sat=6 Sun=7 in ISO day numbering.
+          DOW=$(date -u +%u)
+          if [ -z "${{ inputs.count }}" ]; then
+            if [ "$DOW" -ge 6 ]; then COUNT=2; SPECIAL=true; else COUNT=4; fi
+          fi
           ARGS="--count=$COUNT --date=$DATE"
+          [ "$SPECIAL" = "true" ] && ARGS="$ARGS --special"
           [ -n "$NICHE" ]   && ARGS="$ARGS --niche=$NICHE"
           [ -n "$CHANNEL" ] && ARGS="$ARGS --channel=$CHANNEL"
           node scripts/generate-shorts.mjs $ARGS

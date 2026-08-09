@@ -90,6 +90,12 @@ function seededRand(seed) {
 const pick = (arr, r) => arr[Math.floor(r() * arr.length)];
 
 // Publish live by default. Override with --privacy=private|unlisted.
+// Weekend specials get a longer runtime and the premium visual treatment.
+// Not a different renderer: the same components, given more room to breathe
+// and an extra beat, which is what actually reads as "produced" rather than
+// "generated".
+const IS_SPECIAL = A.special === true || A.special === "true";
+
 const PRIVACY = ["private", "unlisted", "public"].includes(A.privacy) ? A.privacy : "public";
 
 // Channel routing. Each channel owns a distinct set of niches so two owned
@@ -164,8 +170,13 @@ for (const topic of chosen) {
   // because the first two seconds decide whether anyone stays, and no beat
   // exceeds 6s. Combined with the continuous drift and grain in Cinematic.tsx,
   // nothing on screen is ever motionless.
-  const TOTAL = 900; // 30s at 30fps
-  const baseDurations = [110, 150, 170, 190, 150, 130];
+  // 30s standard, 45s for weekend specials. Longer only works because the
+  // pacing curve keeps individual holds short; a 45s video with 8s cards would
+  // be worse than a 30s one, not better.
+  const TOTAL = IS_SPECIAL ? 1350 : 900;
+  const baseDurations = IS_SPECIAL
+    ? [120, 150, 160, 190, 160, 150, 150, 170] // 8 beats, none over ~6.5s
+    : [110, 150, 170, 190, 150, 130];          // 6 beats
   // Jitter +/- 20 frames, then re-balance so the total stays exact.
   let durations = baseDurations.map((d) => d + Math.floor((r() - 0.5) * 40));
   const totalNow = durations.reduce((s, d) => s + d, 0);
@@ -184,6 +195,33 @@ for (const topic of chosen) {
     remainder += remainder > 0 ? -1 : 1;
   }
 
+  // HARD CAP on any single beat. Jitter plus correction could still push one
+  // beat past 7s, which is the exact slideshow problem the rebuild exists to
+  // fix. Enforce it as an invariant rather than trusting the arithmetic:
+  // trim anything over the cap and give the frames to the shortest beat.
+  const MAX_BEAT = 195; // 6.5s at 30fps
+  const MIN_BEAT = 80;  // 2.7s, below this a beat cannot be read
+  for (let pass = 0; pass < 40; pass++) {
+    const over = durations.findIndex((d) => d > MAX_BEAT);
+    if (over === -1) break;
+    const excess = durations[over] - MAX_BEAT;
+    durations[over] = MAX_BEAT;
+    const shortest = durations.indexOf(Math.min(...durations));
+    durations[shortest] += excess;
+  }
+  // If capping could not absorb the total (too few beats for the runtime),
+  // fail loudly rather than silently shipping a slideshow.
+  const finalTotal = durations.reduce((s, d) => s + d, 0);
+  if (finalTotal !== TOTAL) {
+    console.error(`Beat durations sum to ${finalTotal}, expected ${TOTAL}. ` +
+      `Add beats rather than lengthening them.`);
+    process.exit(1);
+  }
+  if (durations.some((d) => d > MAX_BEAT || d < MIN_BEAT)) {
+    console.error(`A beat is outside ${MIN_BEAT}-${MAX_BEAT} frames: ${durations.join(", ")}`);
+    process.exit(1);
+  }
+
   const beats = [
     { kind: "title", eyebrow, text: topic.hook, sub: sub_intro,
       durationInFrames: durations[0], variant: v() },
@@ -199,11 +237,24 @@ for (const topic of chosen) {
       durationInFrames: durations[5], variant: v() },
   ];
 
+  // Specials insert two extra beats before the CTA so the added runtime buys
+  // more moments rather than longer holds. Reusing the existing kinds keeps
+  // one renderer and one set of layout variants.
+  if (IS_SPECIAL) {
+    const cta = beats.pop();
+    beats.push(
+      { kind: "bigword", text: topic.hook, durationInFrames: durations[6], variant: v() },
+      { kind: "trio", words: pick(POOLS.trio_journeys, r), durationInFrames: durations[7], variant: v() },
+      { ...cta, durationInFrames: durations[5] },
+    );
+  }
+
   // Verify total
   const total = beats.reduce((s, b) => s + b.durationInFrames, 0);
 
   // Props for Remotion --props.
   const props = {
+    special: IS_SPECIAL,
     themeId,
     fontFamilyId,
     audioUrl: audio.url,
@@ -258,6 +309,7 @@ for (const topic of chosen) {
     categoryId: CHANNEL.categoryId || (topic.niche === "tech" || topic.niche === "app" ? "28" : "27"),
     privacy: A.privacy ? PRIVACY : (CHANNEL.privacy || PRIVACY),
     channelId: CHANNEL.id,
+    special: IS_SPECIAL,
     platform: CHANNEL.platform,
     handle: CHANNEL.handle,
     file: `out/daily-${DATE}-${topic.id}.mp4`,
@@ -279,7 +331,8 @@ for (const topic of chosen) {
   history.videos.push({
     id: topic.id, date: DATE, themeId, fontFamilyId, audioUrl: audio.url,
     title: meta.title, description: meta.description, niche: topic.niche,
-    channelId: CHANNEL.id, platform: CHANNEL.platform,
+    channelId: CHANNEL.id,
+    special: IS_SPECIAL, platform: CHANNEL.platform,
   });
 }
 

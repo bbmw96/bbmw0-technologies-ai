@@ -3,7 +3,7 @@ import {
   Audio,
   Series,
   interpolate,
-  spring,
+
   staticFile,
   useCurrentFrame,
   useVideoConfig,
@@ -12,6 +12,9 @@ import React from "react";
 import {
   MovingBackdrop, Grain, Vignette, ProgressBar, BeatDots, CutFlash, useDrift,
 } from "./Cinematic";
+import {
+  KineticText, DepthField, DrawRule, Chip, CountUp, Sweep, snap, glide,
+} from "./Kinetic";
 import {
   THEMES,
   FONT_FAMILIES,
@@ -36,217 +39,183 @@ export type ThemedShortProps = {
   fontFamilyId?: FontFamilyId; // default "sans"
 };
 
-const fadeIn = (frame: number, fps: number) =>
-  spring({ frame, fps, config: { damping: 14, stiffness: 100 } });
-
 type BeatCtx = { t: Theme; heading: string; body: string };
 
 // ============== Title (3 variants) ==============
 const TitleBeat: React.FC<{ b: Extract<Beat, { kind: "title" }>; ctx: BeatCtx }> = ({ b, ctx }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const a = fadeIn(frame, fps);
-  const c = fadeIn(frame - 12, fps);
-  const d = fadeIn(frame - 24, fps);
   const v = b.variant ?? 1;
   const { t, heading, body } = ctx;
-  const align: React.CSSProperties = v === 2
-    ? { alignItems: "flex-start", textAlign: "left", padding: "0 80px" }
-    : v === 3
-    ? { alignItems: "flex-end", textAlign: "right", padding: "0 80px" }
-    : { alignItems: "center", textAlign: "center", padding: 60 };
-  const titleSize = v === 2 ? 96 : v === 3 ? 100 : 110;
+  const centred = v !== 2;
+  const size = v === 2 ? 92 : v === 3 ? 100 : 108;
+  const sub = glide(frame, fps, 26);
+
   return (
-    <div style={{ position: "absolute", inset: 0, display: "flex",
-      flexDirection: "column", justifyContent: "center", ...align }}>
-      {b.eyebrow && (
-        <div style={{ fontFamily: heading, fontWeight: 800, fontSize: 30, color: t.accent,
-          letterSpacing: "0.22em", textTransform: "uppercase", marginBottom: 28,
-          opacity: a, transform: `translateY(${interpolate(a, [0, 1], [-18, 0])}px)` }}>
-          {b.eyebrow}
-        </div>
-      )}
-      <div style={{ fontFamily: heading, fontWeight: 900, fontSize: titleSize, color: t.text,
-        letterSpacing: "-0.04em", lineHeight: 1.0, opacity: c,
-        transform: `translateY(${interpolate(c, [0, 1], [40, 0])}px)`,
-        textShadow: `0 0 60px ${t.glow}` }}>
-        {b.text}
-      </div>
+    <AbsoluteFill style={{
+      justifyContent: "center",
+      alignItems: centred ? "center" : "flex-start",
+      padding: centred ? "0 88px" : "0 88px 0 96px",
+      textAlign: centred ? "center" : "left",
+      gap: 30,
+    }}>
+      {b.eyebrow && <Chip t={t} font={heading}>{b.eyebrow}</Chip>}
+      <KineticText text={b.text} t={t} font={heading} size={size}
+        align={centred ? "center" : "left"} delay={8} gradient />
+      <DrawRule t={t} delay={20} width={centred ? 260 : 200} />
       {b.sub && (
-        <div style={{ fontFamily: body, fontWeight: 500, fontSize: 36, color: t.textDim,
-          marginTop: 32, maxWidth: 800, lineHeight: 1.3, opacity: d }}>
+        <div style={{
+          fontFamily: body, fontWeight: 500, fontSize: 36, color: t.textDim,
+          maxWidth: 820, lineHeight: 1.32, opacity: sub,
+          transform: `translateY(${interpolate(sub, [0, 1], [22, 0])}px)`,
+        }}>
           {b.sub}
         </div>
       )}
-    </div>
+    </AbsoluteFill>
   );
 };
 
-// ============== BigWord (3 variants) ==============
 const BigWord: React.FC<{ b: Extract<Beat, { kind: "bigword" }>; ctx: BeatCtx }> = ({ b, ctx }) => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-  const a = spring({ frame, fps, config: { damping: 10, stiffness: 130 } });
   const v = b.variant ?? 1;
   const { t, heading } = ctx;
-  const size = v === 2 ? 200 : v === 3 ? 180 : 240;
-  const transform = v === 2
-    ? `scale(${a}) rotate(${interpolate(a, [0, 1], [-4, 0])}deg)`
-    : v === 3
-    ? `translateY(${interpolate(a, [0, 1], [200, 0])}px)`
-    : `scale(${a})`;
-  const colour = v === 3 ? t.accent : t.text;
+  const size = v === 2 ? 128 : v === 3 ? 116 : 140;
   return (
-    <div style={{ position: "absolute", inset: 0, display: "grid", placeItems: "center", padding: 60 }}>
-      <div style={{ fontFamily: heading, fontWeight: 900, fontSize: size, color: colour,
-        letterSpacing: "-0.05em", lineHeight: 0.9, textAlign: "center",
-        transform, textShadow: `0 0 80px ${t.glow}` }}>
-        {b.text}
-      </div>
-    </div>
+    <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", padding: "0 76px", textAlign: "center" }}>
+      <Sweep t={t} />
+      <KineticText text={b.text} t={t} font={heading} size={size}
+        stagger={4} delay={4} gradient maxWidth={940} />
+    </AbsoluteFill>
   );
 };
 
-// ============== Trio (3 variants) ==============
 const Trio: React.FC<{ b: Extract<Beat, { kind: "trio" }>; ctx: BeatCtx }> = ({ b, ctx }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const v = b.variant ?? 1;
   const { t, heading } = ctx;
-  const stack: React.CSSProperties = v === 2
-    ? { flexDirection: "row", gap: 12, justifyContent: "center", alignItems: "center", flexWrap: "wrap" }
-    : v === 3
-    ? { flexDirection: "column", gap: 8, alignItems: "flex-start", padding: "0 80px" }
-    : { flexDirection: "column", gap: 28, alignItems: "center" };
-  const sizeFor = (i: number) => v === 2 ? 84 : v === 3 ? (i === 1 ? 130 : 100) : 110;
+  const words = b.words || [];
+  const size = v === 2 ? 96 : v === 3 ? 118 : 106;
   return (
-    <div style={{ position: "absolute", inset: 0, display: "flex",
-      justifyContent: "center", padding: 60, ...stack }}>
-      {b.words.map((word, i) => {
-        const a = spring({ frame: frame - i * 10, fps, config: { damping: 14, stiffness: 100 } });
-        const dx = v === 2
-          ? interpolate(a, [0, 1], [0, 0])
-          : interpolate(a, [0, 1], [i % 2 === 0 ? -50 : 50, 0]);
+    <AbsoluteFill style={{
+      justifyContent: "center", alignItems: "center", padding: "0 76px", gap: 22,
+    }}>
+      {words.map((w, i) => {
+        const a = snap(frame, fps, 6 + i * 11);
+        const dir = i % 2 === 0 ? -1 : 1;
         return (
-          <div key={i} style={{ fontFamily: heading, fontWeight: 900, fontSize: sizeFor(i),
-            color: i === 1 ? t.accent : t.text, letterSpacing: "-0.04em", lineHeight: 1.0,
-            opacity: a, transform: `translateX(${dx}px)`,
-            textShadow: i === 1 ? `0 0 50px ${t.glow}` : "none" }}>
-            {word}
+          <div key={i} style={{
+            display: "flex", alignItems: "center", gap: 20,
+            opacity: a,
+            transform: `translateX(${interpolate(a, [0, 1], [dir * 90, 0])}px)`,
+          }}>
+            <div style={{
+              width: 14, height: 14, borderRadius: 7,
+              background: i === 1 ? t.accent2 : t.accent,
+              boxShadow: `0 0 20px ${t.glow}`,
+            }} />
+            <span style={{
+              fontFamily: heading, fontWeight: 900,
+              fontSize: i === 1 ? size * 1.14 : size,
+              color: i === 1 ? t.accent : t.text,
+              letterSpacing: "-0.04em",
+              textShadow: `0 0 ${size * 0.3}px ${t.glow}`,
+            }}>
+              {w}
+            </span>
           </div>
         );
       })}
-    </div>
+    </AbsoluteFill>
   );
 };
 
-// ============== Stat (3 variants) ==============
 const Stat: React.FC<{ b: Extract<Beat, { kind: "stat" }>; ctx: BeatCtx }> = ({ b, ctx }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const a = spring({ frame, fps, config: { damping: 8, stiffness: 130 } });
-  const c = fadeIn(frame - 18, fps);
   const v = b.variant ?? 1;
   const { t, heading, body } = ctx;
-  const numSize = v === 2 ? 260 : v === 3 ? 220 : 320;
-  const labelOnTop = v === 2;
-  const labelEl = (
-    <div style={{ fontFamily: body, fontWeight: 700, fontSize: 44, color: t.text,
-      marginTop: labelOnTop ? 0 : 36, marginBottom: labelOnTop ? 36 : 0,
-      opacity: c, letterSpacing: "-0.01em", maxWidth: 800, lineHeight: 1.2 }}>
-      {b.label}
-    </div>
-  );
-  const numEl = (
-    <div style={{ fontFamily: heading, fontWeight: 900, fontSize: numSize, color: t.accent,
-      letterSpacing: "-0.05em", lineHeight: 0.85, transform: `scale(${a})`,
-      textShadow: `0 0 80px ${t.glow}` }}>
-      {b.number}
-    </div>
-  );
-  const align = v === 3 ? "flex-start" : "center";
+  const size = v === 2 ? 230 : v === 3 ? 200 : 260;
+  const lab = glide(frame, fps, 28);
   return (
-    <div style={{ position: "absolute", inset: 0, display: "flex",
-      flexDirection: "column", alignItems: align, justifyContent: "center",
-      padding: 60, textAlign: align === "center" ? "center" : "left" }}>
-      {labelOnTop && labelEl}
-      {numEl}
-      {!labelOnTop && labelEl}
-    </div>
+    <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", padding: "0 76px", textAlign: "center", gap: 26 }}>
+      <Sweep t={t} />
+      <CountUp value={String(b.number)} t={t} font={heading} size={size} delay={4} />
+      <DrawRule t={t} delay={22} width={200} />
+      {b.label && (
+        <div style={{
+          fontFamily: body, fontWeight: 600, fontSize: 42, color: t.textDim,
+          maxWidth: 780, lineHeight: 1.28, opacity: lab,
+          transform: `translateY(${interpolate(lab, [0, 1], [24, 0])}px)`,
+        }}>
+          {b.label}
+        </div>
+      )}
+    </AbsoluteFill>
   );
 };
 
-// ============== List (3 variants) ==============
 const List: React.FC<{ b: Extract<Beat, { kind: "list" }>; ctx: BeatCtx }> = ({ b, ctx }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const a = fadeIn(frame, fps);
-  const v = b.variant ?? 1;
   const { t, heading, body } = ctx;
-  const dotShape: React.CSSProperties = v === 2
-    ? { width: 22, height: 22, borderRadius: "50%" }
-    : v === 3
-    ? { width: 6, height: 36, borderRadius: 2 }
-    : { width: 16, height: 16, borderRadius: 4 };
+  const items = b.items || [];
   return (
-    <div style={{ position: "absolute", inset: 0, display: "flex",
-      flexDirection: "column", justifyContent: "center", padding: "0 80px" }}>
-      <div style={{ fontFamily: heading, fontWeight: 900, fontSize: 76, color: t.text,
-        letterSpacing: "-0.03em", lineHeight: 1.05, marginBottom: 56, opacity: a,
-        transform: `translateY(${interpolate(a, [0, 1], [-20, 0])}px)`,
-        textAlign: v === 2 ? "center" : "left" }}>
-        {b.heading}
-      </div>
-      <div style={{ display: "flex", flexDirection: "column", gap: 28,
-        alignItems: v === 2 ? "center" : "flex-start" }}>
-        {b.items.map((item, i) => {
-          const fade = spring({ frame: frame - 12 - i * 12, fps, config: { damping: 14, stiffness: 100 } });
+    <AbsoluteFill style={{ justifyContent: "center", padding: "0 80px", gap: 34 }}>
+      {b.heading && <Chip t={t} font={heading}>{b.heading}</Chip>}
+      <div style={{ display: "flex", flexDirection: "column", gap: 26 }}>
+        {items.map((it, i) => {
+          const a = snap(frame, fps, 14 + i * 8);
           return (
-            <div key={i} style={{ display: "flex", alignItems: "center", gap: 24,
-              opacity: fade, transform: `translateX(${interpolate(fade, [0, 1], [-40, 0])}px)` }}>
-              <div style={{ ...dotShape, background: t.accent, boxShadow: `0 0 20px ${t.glow}`, flexShrink: 0 }} />
-              <div style={{ fontFamily: body, fontWeight: 700, fontSize: 48, color: t.text,
-                letterSpacing: "-0.01em", lineHeight: 1.2 }}>
-                {item}
+            <div key={i} style={{
+              display: "flex", alignItems: "center", gap: 26,
+              opacity: a,
+              transform: `translateX(${interpolate(a, [0, 1], [-64, 0])}px)`,
+            }}>
+              <div style={{
+                minWidth: 76, height: 76, borderRadius: 20,
+                display: "flex", alignItems: "center", justifyContent: "center",
+                background: `linear-gradient(135deg, ${t.accent}, ${t.accent2})`,
+                boxShadow: `0 0 34px ${t.glow}`,
+                fontFamily: heading, fontWeight: 900, fontSize: 38, color: "#0b0b12",
+              }}>
+                {i + 1}
+              </div>
+              <div style={{
+                fontFamily: body, fontWeight: 650, fontSize: 46, color: t.text,
+                lineHeight: 1.18, letterSpacing: "-0.02em",
+              }}>
+                {it}
               </div>
             </div>
           );
         })}
       </div>
-    </div>
+    </AbsoluteFill>
   );
 };
 
-// ============== CTA (3 variants) ==============
 const CTABeat: React.FC<{ b: Extract<Beat, { kind: "cta" }>; ctx: BeatCtx }> = ({ b, ctx }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const a = fadeIn(frame, fps);
-  const c = spring({ frame: frame - 18, fps, config: { damping: 14, stiffness: 100 } });
-  const v = b.variant ?? 1;
-  const { t, heading } = ctx;
-  const monoFont = FONT_FAMILIES.mono.heading;
-  const headlineSize = v === 2 ? 110 : v === 3 ? 120 : 130;
-  const pillStyle: React.CSSProperties = v === 2
-    ? { padding: "30px 50px", borderRadius: 60, background: t.accent, color: "#0a0a0a", fontWeight: 800 }
-    : v === 3
-    ? { padding: "20px 32px", border: `2px dashed ${t.accent}`, background: "transparent", color: t.text }
-    : { padding: "26px 40px", background: t.surface, border: `3px solid ${t.accent}`, color: t.text, borderRadius: 22 };
+  const { t, heading, body } = ctx;
+  const url = glide(frame, fps, 24);
   return (
-    <div style={{ position: "absolute", inset: 0, display: "flex",
-      flexDirection: "column", alignItems: "center", justifyContent: "center",
-      padding: 60, textAlign: "center" }}>
-      <div style={{ fontFamily: heading, fontWeight: 900, fontSize: headlineSize, color: t.text,
-        letterSpacing: "-0.04em", lineHeight: 1, opacity: a,
-        transform: `translateY(${interpolate(a, [0, 1], [40, 0])}px)` }}>
-        {b.headline}
-      </div>
-      <div style={{ ...pillStyle, marginTop: 60, fontFamily: monoFont, fontSize: 36,
-        opacity: c, transform: `scale(${c})`, boxShadow: `0 0 50px ${t.glow}`,
-        wordBreak: "break-all", maxWidth: "100%" }}>
-        {b.url}
-      </div>
-    </div>
+    <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", padding: "0 76px", textAlign: "center", gap: 30 }}>
+      <KineticText text={b.headline} t={t} font={heading} size={104} delay={4} gradient maxWidth={880} />
+      <DrawRule t={t} delay={18} width={240} />
+      {b.url && (
+        <div style={{
+          fontFamily: body, fontWeight: 700, fontSize: 34, color: t.textDim,
+          letterSpacing: "0.02em", opacity: url,
+          transform: `translateY(${interpolate(url, [0, 1], [20, 0])}px)`,
+          padding: "14px 30px", borderRadius: 999,
+          border: `2px solid ${t.border}`, background: t.surface,
+        }}>
+          {b.url}
+        </div>
+      )}
+    </AbsoluteFill>
   );
 };
 
@@ -306,6 +275,7 @@ const CinematicShell: React.FC<{
   return (
     <>
       <MovingBackdrop t={theme} />
+      <DepthField t={theme} seed={beats.length} />
       <AbsoluteFill style={{ transform: `scale(${scale}) translate(${x}px, ${y}px)` }}>
         <Series>
           {beats.map((b, i) => (
