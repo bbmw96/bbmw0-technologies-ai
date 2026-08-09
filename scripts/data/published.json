@@ -24,7 +24,8 @@
     "undo-shortcut",
     "at-symbol-accounting",
     "semantic-html",
-    "paper-samarkand"
+    "paper-samarkand",
+    "first-video-game"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -50,7 +51,8 @@
     "mint|sans|sounds/bbmw0-rain-light.mp3",
     "sandstorm|rounded|sounds/bbmw0-ocean-swell.mp3",
     "sunset|display|sounds/bbmw0-stream.mp3",
-    "forest|rounded|sounds/bbmw0-forest-wind.mp3"
+    "forest|rounded|sounds/bbmw0-forest-wind.mp3",
+    "slate|mono|sounds/bbmw0-rain-distant.mp3"
   ],
   "videos": [
     {
@@ -358,6 +360,19 @@
       "youtubeUrl": "https://youtu.be/H0d5nv_F7Kk",
       "uploadedAt": "2026-08-09T09:30:21.845Z",
       "privacy": "public"
+    },
+    {
+      "id": "first-video-game",
+      "date": "2026-08-09",
+      "themeId": "slate",
+      "fontFamilyId": "mono",
+      "audioUrl": "sounds/bbmw0-rain-distant.mp3",
+      "title": "The first video game was built on an oscilloscope. #Shorts #facts",
+      "description": "Daily Short. Drop a comment if you knew it.\n\nThe first video game was built on an oscilloscope. Tennis for Two, 1958.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #facts",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }

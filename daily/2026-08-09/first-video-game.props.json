@@ -1,0 +1,58 @@
+{
+  "special": false,
+  "themeId": "slate",
+  "fontFamilyId": "mono",
+  "audioUrl": "sounds/bbmw0-rain-distant.mp3",
+  "audioVolume": 0.5,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "One minute fact.",
+      "text": "The first video game was built on an oscilloscope.",
+      "sub": "Here's the thing.",
+      "durationInFrames": 126,
+      "variant": 2
+    },
+    {
+      "kind": "bigword",
+      "text": "Tennis for Two, 1958.",
+      "durationInFrames": 139,
+      "variant": 1
+    },
+    {
+      "kind": "stat",
+      "number": "5",
+      "label": "Hold that thought.",
+      "durationInFrames": 161,
+      "variant": 2
+    },
+    {
+      "kind": "list",
+      "heading": "Why it matters",
+      "items": [
+        "One",
+        "Two",
+        "Three"
+      ],
+      "durationInFrames": 175,
+      "variant": 3
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Pause.",
+        "Think.",
+        "Save."
+      ],
+      "durationInFrames": 155,
+      "variant": 3
+    },
+    {
+      "kind": "cta",
+      "headline": "Share it.",
+      "url": "youtube.com/@bbmw0",
+      "durationInFrames": 144,
+      "variant": 1
+    }
+  ]
+}

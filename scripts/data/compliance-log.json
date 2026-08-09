@@ -1,4 +1,186 @@
 {
   "_comment": "Append-only audit trail of every compliance decision. Retain this: it is the evidence trail if a policy decision is ever appealed or a channel review is requested.",
-  "runs": []
+  "runs": [
+    {
+      "timestamp": "2026-08-09T12:42:58.356Z",
+      "date": "2026-08-09",
+      "policyVersion": "1.0.0",
+      "strictMode": false,
+      "reviewed": 9,
+      "passed": 8,
+      "blocked": 1,
+      "results": [
+        {
+          "slug": "at-symbol-accounting",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.theme_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.087,
+            "worstTitleAgainst": "vending-machine-greece (same batch)",
+            "worstDescriptionSimilarity": 0.5,
+            "combo": "sandstorm|rounded|sounds/bbmw0-ocean-swell.mp3",
+            "themeGap": 1,
+            "audioGap": 5
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "first-video-game",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.227,
+            "worstTitleAgainst": "vending-machine-greece (same batch)",
+            "worstDescriptionSimilarity": 0.5,
+            "combo": "slate|mono|sounds/bbmw0-rain-distant.mp3",
+            "themeGap": 4,
+            "audioGap": null
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "mars-volcano",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.061,
+            "worstTitleAgainst": "undo-shortcut (same batch)",
+            "worstDescriptionSimilarity": 0.385,
+            "combo": "neon|serif|sounds/bbmw0-ocean-shore.mp3",
+            "themeGap": 5,
+            "audioGap": 3
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "paper-samarkand",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.125,
+            "worstTitleAgainst": "sleep-stages",
+            "worstDescriptionSimilarity": 0.5,
+            "combo": "forest|rounded|sounds/bbmw0-forest-wind.mp3",
+            "themeGap": 8,
+            "audioGap": null
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "parrot-age",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.125,
+            "worstTitleAgainst": "leap-second",
+            "worstDescriptionSimilarity": 0.314,
+            "combo": "neon|sans|sounds/bbmw0-rain-heavy.mp3",
+            "themeGap": 5,
+            "audioGap": 1
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "semantic-html",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.04,
+            "worstTitleAgainst": "vending-machine-greece (same batch)",
+            "worstDescriptionSimilarity": 0.31,
+            "combo": "sunset|display|sounds/bbmw0-stream.mp3",
+            "themeGap": 10,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "sloth-digest",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.theme_spacing",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.1,
+            "worstTitleAgainst": "open-source-mit",
+            "worstDescriptionSimilarity": 0.489,
+            "combo": "sandstorm|mono|sounds/bbmw0-stream.mp3",
+            "themeGap": 1,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "undo-shortcut",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.theme_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.111,
+            "worstTitleAgainst": "browser-find",
+            "worstDescriptionSimilarity": 0.497,
+            "combo": "mint|sans|sounds/bbmw0-rain-light.mp3",
+            "themeGap": 0,
+            "audioGap": null
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "vending-machine-greece",
+          "verdict": "BLOCK",
+          "blocks": [
+            "repetition.combo"
+          ],
+          "warnings": [
+            "coppa.undeclared",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.227,
+            "worstTitleAgainst": "first-video-game (same batch)",
+            "worstDescriptionSimilarity": 0.516,
+            "combo": "neon|sans|sounds/bbmw0-ocean-swell.mp3",
+            "themeGap": 5,
+            "audioGap": 5
+          },
+          "aiPassRatio": null
+        }
+      ]
+    }
+  ]
 }
