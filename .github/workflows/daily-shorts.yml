@@ -42,20 +42,53 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+
+    # One job PER CHANNEL. Previously a single job ran, and with no channel
+    # input the generator fell back to the first enabled channel, so the daily
+    # schedule only ever published to @bbmw.0. Channels two and three would
+    # never have run automatically no matter what secrets were set.
+    #
+    # fail-fast: false so one channel's failure does not cancel the others.
+    # max-parallel: 1 because they share published.json and would otherwise
+    # race each other on the commit-history-back step.
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        channel:
+          - yt-bbmw0
+          - yt-bbm0902
+          - ig-aigameodyssey
+
     steps:
+      - name: Skip channels not selected for this run
+        id: gate
+        run: |
+          WANTED="${{ inputs.channel }}"
+          THIS="${{ matrix.channel }}"
+          if [ -n "$WANTED" ] && [ "$WANTED" != "$THIS" ]; then
+            echo "run=false" >> $GITHUB_OUTPUT
+            echo "Manual dispatch targeted $WANTED, skipping $THIS."
+          else
+            echo "run=true" >> $GITHUB_OUTPUT
+          fi
+
       - name: Checkout
+        if: steps.gate.outputs.run == 'true' 
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Node 20
+        if: steps.gate.outputs.run == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: "22"
           cache: "npm"
 
       - name: Strip UTF-8 BOMs (OneDrive sync guard)
+        if: steps.gate.outputs.run == 'true'
         run: |
           CLEANED=0
           for f in $(find scripts src .github -type f \( -name "*.json" -o -name "*.mjs" -o -name "*.yml" -o -name "*.ts" -o -name "*.tsx" \) 2>/dev/null); do
@@ -69,6 +102,7 @@ jobs:
           node -e "const rd=p=>JSON.parse(require('fs').readFileSync(p,'utf8').replace(/^\uFEFF/,'')); rd('./scripts/data/topics.json'); rd('./scripts/data/copy-pools.json'); rd('./scripts/data/published.json'); console.log('All data files parse cleanly.')"
 
       - name: Install ffmpeg + deps
+        if: steps.gate.outputs.run == 'true'
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg
@@ -76,6 +110,7 @@ jobs:
           npm install googleapis
 
       - name: Restore YouTube credentials from secrets
+        if: steps.gate.outputs.run == 'true'
         env:
           # Channel 1 (@bbmw.0)
           YT_OAUTH_CLIENT_JSON: ${{ secrets.YT_OAUTH_CLIENT_JSON }}
@@ -132,6 +167,7 @@ jobs:
           node scripts/research-trends.mjs --count=10 || echo "research skipped (non-fatal)"
 
       - name: Auto-refill topics if library is running low
+        if: steps.gate.outputs.run == 'true'
         env:
           AI_ENDPOINT: ${{ secrets.AI_ENDPOINT }}
         run: |
@@ -149,12 +185,46 @@ jobs:
             fi
           fi
 
+      - name: Preflight channel credentials
+        if: steps.gate.outputs.run == 'true'
+        env:
+          COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: |
+          # Check BEFORE rendering. Discovering a missing credential after a
+          # six-minute render wastes the whole run, which is exactly what
+          # happened to channel two.
+          CH="${{ matrix.channel }}"
+          node -e '
+            const fs = require("fs");
+            const rd = p => JSON.parse(fs.readFileSync(p,"utf8").replace(/^\uFEFF/,""));
+            const id = process.argv[1];
+            const c = (rd("./scripts/data/channels.json").channels||[]).find(x=>x.id===id);
+            if (!c) { console.log(`::warning::Unknown channel ${id}, skipping.`); process.exit(78); }
+            if (!c.enabled) { console.log(`::warning::${id} is disabled, skipping.`); process.exit(78); }
+            const missing = [];
+            if (c.platform === "youtube" && !fs.existsSync(c.credentialsFile)) {
+              missing.push(`${c.secretPrefix}_* secrets`);
+            }
+            if (c.platform === "instagram") {
+              if (!process.env.COMPOSIO_API_KEY) missing.push("COMPOSIO_API_KEY");
+              if (!process.env.IG_USER_ID) missing.push("IG_USER_ID");
+            }
+            if (missing.length) {
+              console.log(`::warning title=${id} skipped::Missing ${missing.join(", ")}. Nothing rendered, no time wasted.`);
+              process.exit(78);
+            }
+            console.log(`${id} has its credentials. Proceeding.`);
+          ' "$CH" || { echo "skip=true" >> $GITHUB_OUTPUT; exit 0; }
+        continue-on-error: true
+
       - name: Generate today's Shorts
+        if: steps.gate.outputs.run == 'true'
         run: |
           DATE=$(date -u +%F)
           COUNT="${{ inputs.count || '4' }}"
           NICHE="${{ inputs.niche }}"
-          CHANNEL="${{ inputs.channel }}"
+          CHANNEL="${{ matrix.channel }}"
           SPECIAL="${{ inputs.special }}"
           # Cadence from channels.json: 4 per weekday, plus 2 weekend specials.
           # Sat=6 Sun=7 in ISO day numbering.
@@ -169,6 +239,7 @@ jobs:
           node scripts/generate-shorts.mjs $ARGS
 
       - name: Compliance gate
+        if: steps.gate.outputs.run == 'true'
         env:
           AI_ENDPOINT: ${{ secrets.AI_ENDPOINT }}
         run: |
@@ -190,6 +261,7 @@ jobs:
           fi
 
       - name: Host media for Instagram (public URLs)
+        if: steps.gate.outputs.run == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -197,6 +269,7 @@ jobs:
           node scripts/publish-media.mjs --date="$DATE" || echo "::warning title=Media hosting::No Instagram videos to host, or hosting failed. YouTube uploads are unaffected."
 
       - name: Render and upload (public)
+        if: steps.gate.outputs.run == 'true'
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
@@ -219,6 +292,7 @@ jobs:
           rm -f scripts/oauth-client*.json scripts/yt-credentials*.json
 
       - name: Commit history back
+        if: steps.gate.outputs.run == 'true'
         # MUST be always(). When the upload step exits non-zero this step was
         # skipped, so the record of what DID publish was thrown away.
         if: always()
