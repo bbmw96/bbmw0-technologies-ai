@@ -31,7 +31,7 @@
       "enabled": true,
       "platform": "youtube",
       "handle": "@bbm0902",
-      "channelId": "UC5O9s1vte7UiLICKP1pHIiQ",
+      "channelId": "UC5O9s1vte7UiLICKP1pHiIQ",
       "composioConnection": null,
       "credentialsFile": "scripts/yt-credentials-bbm0902.json",
       "secretPrefix": "YT2",
@@ -46,7 +46,8 @@
       ],
       "categoryId": "27",
       "notes": "NOT connected to Composio despite the other two being connected, and has no YT2_* secrets. Needs its own Google sign-in: npm run yt:rotate -- --channel=yt-bbm0902",
-      "publishVia": "direct-oauth"
+      "publishVia": "direct-oauth",
+      "_channelId_note": "Taken from the videos.insert response, which is authoritative. An earlier hand-transcribed value had the i and I at positions 21-22 transposed, which made the wrong-channel guard fire on a correct upload. Never retype a channel id: copy it from an API response."
     },
     {
       "id": "ig-aigameodyssey",

@@ -270,7 +270,12 @@ for (const propsFile of propsFiles) {
       // batch immediately rather than publishing four more to the wrong place.
       const chMatch = out.match(/Channel ID:\s*(UC[A-Za-z0-9_-]+)/);
       if (chMatch && channel && channel.channelId && chMatch[1] !== channel.channelId) {
+        // Record it first. The video IS published; losing it from history would
+        // mean re-uploading a duplicate later. Halt after recording, not before.
+        const vm = out.match(/Video ID:\s*([A-Za-z0-9_-]{6,})/);
+        if (vm) { recordUpload(slug, vm[1], meta.privacy); uploadedIds.add(slug); }
         append(`  FATAL: uploaded to channel ${chMatch[1]} but ${meta.channelId} expects ${channel.channelId}.`);
+        append(`  The video IS live${vm ? ` at https://youtu.be/${vm[1]}` : ""} and has been recorded.`);
         append(`  The credentials authorise the WRONG channel. Stopping before more go astray.`);
         append(`  Fix: npm run yt:rotate -- --channel=${meta.channelId}  (sign in as ${channel.handle})`);
         failCount++;
