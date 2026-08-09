@@ -1,5 +1,5 @@
-Rendering 9 Shorts for 2026-08-09 (concurrency=3, GL=default)
-Compliance: 8 cleared, 1 blocked (policy v1.0.0).
+Rendering 10 Shorts for 2026-08-09 (concurrency=3, GL=default)
+Compliance: 9 cleared, 1 blocked (policy v1.0.0).
 Blocked by compliance: vending-machine-greece
 
 --- at-symbol-accounting ---
@@ -8,9 +8,8 @@ Blocked by compliance: vending-machine-greece
 --- first-video-game ---
   theme=slate font=mono audio=sounds/bbmw0-rain-distant.mp3 privacy=public
   rendered: out/daily-2026-08-09-first-video-game.mp4
-  hosting media so Instagram can fetch it...
-  instagram via: direct Meta API
-  FAILED upload: Command failed: node scripts/instagram-upload.mjs --video-url="https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-08-09/daily-2026-08-09-first-video-game.mp4" --caption="The first video game was built on an oscilloscope. #Shorts #facts" --tags="shorts,facts,didyouknow,learning,education"
+  ig credentials: COMPOSIO_API_KEY=EMPTY(set but blank), IG_ACCESS_TOKEN=EMPTY(set but blank), IG_USER_ID=present(17 chars)
+  FAILED: no usable Instagram credential. COMPOSIO_API_KEY is set but empty and IG_ACCESS_TOKEN is set but empty. Set one of them as a repository secret and re-run.
 
 --- mars-volcano ---
   SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
@@ -27,6 +26,11 @@ Blocked by compliance: vending-machine-greece
 --- sloth-digest ---
   SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
 
+--- tokens-not-words ---
+  theme=neon font=mono audio=sounds/bbmw0-stream.mp3 privacy=public
+  rendered: out/daily-2026-08-09-tokens-not-words.mp4
+  SKIPPED: no public URL for tokens-not-words. Set PUBLIC_MEDIA_BASE_URL or check publish-media.mjs.
+
 --- undo-shortcut ---
   SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
 
@@ -35,4 +39,4 @@ Blocked by compliance: vending-machine-greece
   rendered: out/daily-2026-08-09-vending-machine-greece.mp4
   BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-08-09/compliance-verdict.json.
 
-=== Done. 2 rendered, 0 uploaded, 7 skipped, 1 blocked by compliance, 1 failed. ===
+=== Done. 3 rendered, 0 uploaded, 8 skipped, 1 blocked by compliance, 1 failed. ===

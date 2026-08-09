@@ -1,6 +1,6 @@
 {
   "date": "2026-08-09",
-  "generatedAt": "2026-08-09T12:42:58.357Z",
+  "generatedAt": "2026-08-09T13:23:36.057Z",
   "policyVersion": "1.0.0",
   "strictMode": false,
   "allowed": [
@@ -11,6 +11,7 @@
     "parrot-age",
     "semantic-html",
     "sloth-digest",
+    "tokens-not-words",
     "undo-shortcut"
   ],
   "blocked": [
@@ -249,8 +250,8 @@
       ],
       "info": [],
       "similarity": {
-        "worstTitleSimilarity": 0.04,
-        "worstTitleAgainst": "vending-machine-greece (same batch)",
+        "worstTitleSimilarity": 0.054,
+        "worstTitleAgainst": "tokens-not-words (same batch)",
         "worstDescriptionSimilarity": 0.31,
         "combo": "sunset|display|sounds/bbmw0-stream.mp3",
         "themeGap": 10,
@@ -304,6 +305,50 @@
         "worstDescriptionSimilarity": 0.489,
         "combo": "sandstorm|mono|sounds/bbmw0-stream.mp3",
         "themeGap": 1,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "tokens-not-words",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "AI models read tokens, not words. #Shorts #learn",
+      "niche": "ai",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"sounds/bbmw0-stream.mp3\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.054,
+        "worstTitleAgainst": "semantic-html (same batch)",
+        "worstDescriptionSimilarity": 0.519,
+        "combo": "neon|mono|sounds/bbmw0-stream.mp3",
+        "themeGap": 5,
         "audioGap": 0
       },
       "aiPanel": {

@@ -1,0 +1,58 @@
+{
+  "special": false,
+  "themeId": "neon",
+  "fontFamilyId": "mono",
+  "audioUrl": "sounds/bbmw0-stream.mp3",
+  "audioVolume": 0.5,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Heads up.",
+      "text": "AI models read tokens, not words.",
+      "sub": "Useful, actually.",
+      "durationInFrames": 118,
+      "variant": 2
+    },
+    {
+      "kind": "bigword",
+      "text": "One word can be several tokens.",
+      "durationInFrames": 160,
+      "variant": 3
+    },
+    {
+      "kind": "stat",
+      "number": "5",
+      "label": "Mind the number.",
+      "durationInFrames": 180,
+      "variant": 2
+    },
+    {
+      "kind": "list",
+      "heading": "Why it matters",
+      "items": [
+        "One",
+        "Two",
+        "Three"
+      ],
+      "durationInFrames": 180,
+      "variant": 2
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Pause.",
+        "Think.",
+        "Save."
+      ],
+      "durationInFrames": 134,
+      "variant": 3
+    },
+    {
+      "kind": "cta",
+      "headline": "Now you know.",
+      "url": "youtube.com/@bbmw0",
+      "durationInFrames": 128,
+      "variant": 1
+    }
+  ]
+}

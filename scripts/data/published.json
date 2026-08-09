@@ -25,7 +25,8 @@
     "at-symbol-accounting",
     "semantic-html",
     "paper-samarkand",
-    "first-video-game"
+    "first-video-game",
+    "tokens-not-words"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -52,7 +53,8 @@
     "sandstorm|rounded|sounds/bbmw0-ocean-swell.mp3",
     "sunset|display|sounds/bbmw0-stream.mp3",
     "forest|rounded|sounds/bbmw0-forest-wind.mp3",
-    "slate|mono|sounds/bbmw0-rain-distant.mp3"
+    "slate|mono|sounds/bbmw0-rain-distant.mp3",
+    "neon|mono|sounds/bbmw0-stream.mp3"
   ],
   "videos": [
     {
@@ -370,6 +372,19 @@
       "title": "The first video game was built on an oscilloscope. #Shorts #facts",
       "description": "Daily Short. Drop a comment if you knew it.\n\nThe first video game was built on an oscilloscope. Tennis for Two, 1958.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #facts",
       "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "tokens-not-words",
+      "date": "2026-08-09",
+      "themeId": "neon",
+      "fontFamilyId": "mono",
+      "audioUrl": "sounds/bbmw0-stream.mp3",
+      "title": "AI models read tokens, not words. #Shorts #learn",
+      "description": "Pure kinetic typography. No faces, no chatter.\n\nAI models read tokens, not words. One word can be several tokens.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #learn",
+      "niche": "ai",
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
