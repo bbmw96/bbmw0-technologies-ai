@@ -225,17 +225,60 @@ for (const propsFile of propsFiles) {
         }
         // Prefer Composio when configured: it holds the auth and refreshes the
         // token itself, so there is no 60-day expiry to forget about.
-        const igScript = process.env.COMPOSIO_API_KEY
+        //
+        // A secret that EXISTS but is EMPTY reads as an empty string here, which
+        // is falsy, so it silently falls through to the direct Meta path and
+        // then fails for a completely unrelated-looking reason. Report the
+        // length of each credential (never the value) so an empty secret is
+        // distinguishable from a missing one at a glance.
+        const credState = (name) => {
+          const v = process.env[name];
+          if (v === undefined) return `${name}=absent`;
+          if (v === "") return `${name}=EMPTY(set but blank)`;
+          return `${name}=present(${v.length} chars)`;
+        };
+        append(
+          `  ig credentials: ${["COMPOSIO_API_KEY", "IG_ACCESS_TOKEN", "IG_USER_ID"]
+            .map(credState)
+            .join(", ")}`
+        );
+
+        const useComposio = !!process.env.COMPOSIO_API_KEY;
+        const igScript = useComposio
           ? "scripts/instagram-upload-composio.mjs"
           : "scripts/instagram-upload.mjs";
-        append(`  instagram via: ${process.env.COMPOSIO_API_KEY ? "Composio" : "direct Meta API"}`);
+
+        // Fail with a message that names the actual problem, rather than
+        // letting the upload script fail on a missing token further down.
+        if (!useComposio && !process.env.IG_ACCESS_TOKEN) {
+          append(
+            `  FAILED: no usable Instagram credential. COMPOSIO_API_KEY is ` +
+              `${process.env.COMPOSIO_API_KEY === "" ? "set but empty" : "absent"} ` +
+              `and IG_ACCESS_TOKEN is ` +
+              `${process.env.IG_ACCESS_TOKEN === "" ? "set but empty" : "absent"}. ` +
+              `Set one of them as a repository secret and re-run.`
+          );
+          failCount++;
+          continue;
+        }
+        append(`  instagram via: ${useComposio ? "Composio" : "direct Meta API"}`);
         const igCmd = [
           "node", igScript,
           `--video-url="${videoUrl}"`,
           `--caption="${meta.title.replace(/"/g, '\\"')}"`,
           `--tags="${tags}"`,
         ].join(" ");
-        const igOut = execSync(igCmd, { cwd: ROOT, encoding: "utf8", stdio: ["inherit", "pipe", "inherit"] });
+        // stderr must be "pipe", not "inherit". With "inherit" the child's
+        // error text goes straight to the runner console and is NOT attached to
+        // the thrown error, so the catch block below has nothing to report and
+        // the failure reads as a bare "Command failed". Capturing it means the
+        // reason lands in render-log.txt, which is committed back to the repo
+        // and is therefore readable without digging through CI output.
+        const igOut = execSync(igCmd, {
+          cwd: ROOT,
+          encoding: "utf8",
+          stdio: ["inherit", "pipe", "pipe"],
+        });
         process.stdout.write(igOut);
         const im = igOut.match(/Media ID:\s*(\d+)/);
         if (im) {
@@ -292,7 +335,20 @@ for (const propsFile of propsFiles) {
       }
       uploadCount++;
     } catch (err) {
+      // execSync throws with the child's output on .stdout / .stderr. Logging
+      // only err.message gives "Command failed: node scripts/..." and nothing
+      // about WHY, which made the first Instagram failure impossible to
+      // diagnose from the run log. Surface the child's own words.
       append(`  FAILED upload: ${err.message || err}`);
+      const decode = (b) => (b == null ? "" : Buffer.isBuffer(b) ? b.toString("utf8") : String(b));
+      for (const [label, buf] of [["stdout", err.stdout], ["stderr", err.stderr]]) {
+        const body = decode(buf).trim();
+        if (!body) continue;
+        append(`  --- child ${label} ---`);
+        // Cap it: an API error is short, but a stack trace or an HTML error
+        // page is not, and the log gets committed back to the repo.
+        for (const line of body.split("\n").slice(-25)) append(`  | ${line}`);
+      }
       failCount++;
     }
   }
