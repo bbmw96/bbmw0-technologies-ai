@@ -17,7 +17,9 @@
     "caps-lock-fix",
     "great-wall-myth",
     "platypus-electricity",
-    "parrot-age"
+    "parrot-age",
+    "sloth-digest",
+    "mars-volcano"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -36,7 +38,9 @@
     "ember|rounded|sounds/bbmw0-wind-open.mp3",
     "sandstorm|display|sounds/bbmw0-rain-heavy.mp3",
     "mint|mono|sounds/bbmw0-stream.mp3",
-    "neon|sans|sounds/bbmw0-rain-heavy.mp3"
+    "neon|sans|sounds/bbmw0-rain-heavy.mp3",
+    "sandstorm|mono|sounds/bbmw0-stream.mp3",
+    "neon|serif|sounds/bbmw0-ocean-shore.mp3"
   ],
   "videos": [
     {
@@ -231,7 +235,43 @@
       "description": "A quick fact, in vertical, with no faces and no fluff.\n\nSome parrots outlive their owners. 80-year lifespan is possible.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #quickfact",
       "niche": "animals",
       "channelId": "yt-bbm0902",
-      "platform": "youtube"
+      "platform": "youtube",
+      "youtubeId": "Pvhp1ChJBNs",
+      "youtubeUrl": "https://youtu.be/Pvhp1ChJBNs",
+      "uploadedAt": "2026-08-09T08:57:13.574Z",
+      "privacy": "public"
+    },
+    {
+      "id": "sloth-digest",
+      "date": "2026-08-09",
+      "themeId": "sandstorm",
+      "fontFamilyId": "mono",
+      "audioUrl": "sounds/bbmw0-stream.mp3",
+      "title": "Sloths take a month to digest one meal. #Shorts #quickfact",
+      "description": "Daily Short. Drop a comment if you knew it.\n\nSloths take a month to digest one meal. Slowest gut on Earth.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #quickfact",
+      "niche": "animals",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "youtubeId": "rnyQzW5FI34",
+      "youtubeUrl": "https://youtu.be/rnyQzW5FI34",
+      "uploadedAt": "2026-08-09T08:59:07.708Z",
+      "privacy": "public"
+    },
+    {
+      "id": "mars-volcano",
+      "date": "2026-08-09",
+      "themeId": "neon",
+      "fontFamilyId": "serif",
+      "audioUrl": "sounds/bbmw0-ocean-shore.mp3",
+      "title": "Mars has the tallest volcano in the solar system. #Shorts #quickfact",
+      "description": "Made on a phone. For a phone.\n\nMars has the tallest volcano in the solar system. Three times Everest's height.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #quickfact",
+      "niche": "space",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "youtubeId": "i-K8hoD-Lew",
+      "youtubeUrl": "https://youtu.be/i-K8hoD-Lew",
+      "uploadedAt": "2026-08-09T08:55:22.134Z",
+      "privacy": "public"
     }
   ]
 }

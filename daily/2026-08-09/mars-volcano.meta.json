@@ -1,0 +1,26 @@
+{
+  "slug": "mars-volcano",
+  "date": "2026-08-09",
+  "title": "Mars has the tallest volcano in the solar system. #Shorts #quickfact",
+  "description": "Made on a phone. For a phone.\n\nMars has the tallest volcano in the solar system. Three times Everest's height.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #quickfact",
+  "tags": [
+    "shorts",
+    "space",
+    "astronomy",
+    "universe",
+    "spacefacts",
+    "nasa"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "yt-bbm0902",
+  "platform": "youtube",
+  "handle": "@bbm0902",
+  "file": "out/daily-2026-08-09-mars-volcano.mp4",
+  "propsFile": "daily/2026-08-09/mars-volcano.props.json",
+  "durationInFrames": 900,
+  "themeId": "neon",
+  "fontFamilyId": "serif",
+  "audioUrl": "sounds/bbmw0-ocean-shore.mp3",
+  "niche": "space"
+}

@@ -1,0 +1,57 @@
+{
+  "themeId": "sandstorm",
+  "fontFamilyId": "mono",
+  "audioUrl": "sounds/bbmw0-stream.mp3",
+  "audioVolume": 0.5,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Wait, what?",
+      "text": "Sloths take a month to digest one meal.",
+      "sub": "True, mostly.",
+      "durationInFrames": 126,
+      "variant": 3
+    },
+    {
+      "kind": "bigword",
+      "text": "Slowest gut on Earth.",
+      "durationInFrames": 134,
+      "variant": 2
+    },
+    {
+      "kind": "stat",
+      "number": "12",
+      "label": "Worth remembering.",
+      "durationInFrames": 182,
+      "variant": 1
+    },
+    {
+      "kind": "list",
+      "heading": "What to remember",
+      "items": [
+        "Built for their world",
+        "Most are misunderstood",
+        "There's always more"
+      ],
+      "durationInFrames": 206,
+      "variant": 2
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Watch.",
+        "Learn.",
+        "Apply."
+      ],
+      "durationInFrames": 137,
+      "variant": 2
+    },
+    {
+      "kind": "cta",
+      "headline": "Share it.",
+      "url": "bbmw0-technologies-ai.vercel.app",
+      "durationInFrames": 115,
+      "variant": 1
+    }
+  ]
+}

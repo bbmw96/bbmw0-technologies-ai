@@ -1,11 +1,19 @@
-Rendering 1 Shorts for 2026-08-09 (concurrency=3, GL=default)
-Compliance: 1 cleared, 0 blocked (policy v1.0.0).
+Rendering 3 Shorts for 2026-08-09 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- mars-volcano ---
+  theme=neon font=serif audio=sounds/bbmw0-ocean-shore.mp3 privacy=public
+  rendered: out/daily-2026-08-09-mars-volcano.mp4
+  uploaded public: https://youtu.be/i-K8hoD-Lew
 
 --- parrot-age ---
   theme=neon font=sans audio=sounds/bbmw0-rain-heavy.mp3 privacy=public
   rendered: out/daily-2026-08-09-parrot-age.mp4
-  FATAL: uploaded to channel UC5O9s1vte7UiLICKP1pHiIQ but yt-bbm0902 expects UC5O9s1vte7UiLICKP1pHIiQ.
-  The credentials authorise the WRONG channel. Stopping before more go astray.
-  Fix: npm run yt:rotate -- --channel=yt-bbm0902  (sign in as @bbm0902)
+  uploaded public: https://youtu.be/Pvhp1ChJBNs
 
-=== Done. 1 rendered, 0 uploaded, 0 skipped, 0 blocked by compliance, 1 failed. ===
+--- sloth-digest ---
+  theme=sandstorm font=mono audio=sounds/bbmw0-stream.mp3 privacy=public
+  rendered: out/daily-2026-08-09-sloth-digest.mp4
+  uploaded public: https://youtu.be/rnyQzW5FI34
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

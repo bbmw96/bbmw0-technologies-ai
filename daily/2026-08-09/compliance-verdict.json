@@ -1,13 +1,53 @@
 {
   "date": "2026-08-09",
-  "generatedAt": "2026-08-09T08:41:19.701Z",
+  "generatedAt": "2026-08-09T08:53:32.386Z",
   "policyVersion": "1.0.0",
   "strictMode": false,
   "allowed": [
-    "parrot-age"
+    "mars-volcano",
+    "parrot-age",
+    "sloth-digest"
   ],
   "blocked": [],
   "results": [
+    {
+      "slug": "mars-volcano",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Mars has the tallest volcano in the solar system. #Shorts #quickfact",
+      "niche": "space",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.055,
+        "worstTitleAgainst": "leap-second",
+        "worstDescriptionSimilarity": 0.385,
+        "combo": "neon|serif|sounds/bbmw0-ocean-shore.mp3",
+        "themeGap": 5,
+        "audioGap": 3
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
     {
       "slug": "parrot-age",
       "channelId": "yt-bbm0902",
@@ -44,6 +84,56 @@
         "combo": "neon|sans|sounds/bbmw0-rain-heavy.mp3",
         "themeGap": 5,
         "audioGap": 1
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "sloth-digest",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Sloths take a month to digest one meal. #Shorts #quickfact",
+      "niche": "animals",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.theme_spacing",
+          "message": "Theme \"sandstorm\" reused after only 1 video(s). Minimum gap is 3.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"sounds/bbmw0-stream.mp3\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.1,
+        "worstTitleAgainst": "open-source-mit",
+        "worstDescriptionSimilarity": 0.306,
+        "combo": "sandstorm|mono|sounds/bbmw0-stream.mp3",
+        "themeGap": 1,
+        "audioGap": 0
       },
       "aiPanel": {
         "available": false,

@@ -1,0 +1,57 @@
+{
+  "themeId": "neon",
+  "fontFamilyId": "serif",
+  "audioUrl": "sounds/bbmw0-ocean-shore.mp3",
+  "audioVolume": 0.45,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Wait, what?",
+      "text": "Mars has the tallest volcano in the solar system.",
+      "sub": "Worth knowing.",
+      "durationInFrames": 120,
+      "variant": 2
+    },
+    {
+      "kind": "bigword",
+      "text": "Three times Everest's height.",
+      "durationInFrames": 131,
+      "variant": 3
+    },
+    {
+      "kind": "stat",
+      "number": "365.25",
+      "label": "Think about it.",
+      "durationInFrames": 180,
+      "variant": 2
+    },
+    {
+      "kind": "list",
+      "heading": "Why it matters",
+      "items": [
+        "Distance is wild",
+        "Time is weirder",
+        "Scale breaks brains"
+      ],
+      "durationInFrames": 204,
+      "variant": 1
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Read.",
+        "Note.",
+        "Share."
+      ],
+      "durationInFrames": 143,
+      "variant": 1
+    },
+    {
+      "kind": "cta",
+      "headline": "Tell a friend.",
+      "url": "youtube.com/@bbmw0",
+      "durationInFrames": 122,
+      "variant": 2
+    }
+  ]
+}
