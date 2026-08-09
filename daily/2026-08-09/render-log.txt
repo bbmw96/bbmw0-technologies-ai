@@ -1,0 +1,11 @@
+Rendering 1 Shorts for 2026-08-09 (concurrency=3, GL=default)
+Compliance: 1 cleared, 0 blocked (policy v1.0.0).
+
+--- parrot-age ---
+  theme=neon font=sans audio=sounds/bbmw0-rain-heavy.mp3 privacy=public
+  rendered: out/daily-2026-08-09-parrot-age.mp4
+  FATAL: uploaded to channel UC5O9s1vte7UiLICKP1pHiIQ but yt-bbm0902 expects UC5O9s1vte7UiLICKP1pHIiQ.
+  The credentials authorise the WRONG channel. Stopping before more go astray.
+  Fix: npm run yt:rotate -- --channel=yt-bbm0902  (sign in as @bbm0902)
+
+=== Done. 1 rendered, 0 uploaded, 0 skipped, 0 blocked by compliance, 1 failed. ===

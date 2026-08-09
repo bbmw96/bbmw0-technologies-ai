@@ -1,0 +1,57 @@
+{
+  "themeId": "neon",
+  "fontFamilyId": "sans",
+  "audioUrl": "sounds/bbmw0-rain-heavy.mp3",
+  "audioVolume": 0.4,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "True story.",
+      "text": "Some parrots outlive their owners.",
+      "sub": "Useful, actually.",
+      "durationInFrames": 93,
+      "variant": 1
+    },
+    {
+      "kind": "bigword",
+      "text": "80-year lifespan is possible.",
+      "durationInFrames": 161,
+      "variant": 1
+    },
+    {
+      "kind": "stat",
+      "number": "12",
+      "label": "Think about it.",
+      "durationInFrames": 172,
+      "variant": 2
+    },
+    {
+      "kind": "list",
+      "heading": "What to remember",
+      "items": [
+        "Watch closer",
+        "Listen too",
+        "Think how"
+      ],
+      "durationInFrames": 198,
+      "variant": 1
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Read.",
+        "Note.",
+        "Share."
+      ],
+      "durationInFrames": 148,
+      "variant": 3
+    },
+    {
+      "kind": "cta",
+      "headline": "File it away.",
+      "url": "github.com/bbmw96/bbmw0-technologies-ai",
+      "durationInFrames": 128,
+      "variant": 1
+    }
+  ]
+}

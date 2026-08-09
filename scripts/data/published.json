@@ -16,7 +16,8 @@
     "first-bug-real",
     "caps-lock-fix",
     "great-wall-myth",
-    "platypus-electricity"
+    "platypus-electricity",
+    "parrot-age"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -34,7 +35,8 @@
     "ocean|mono|sounds/bbmw0-ocean-shore.mp3",
     "ember|rounded|sounds/bbmw0-wind-open.mp3",
     "sandstorm|display|sounds/bbmw0-rain-heavy.mp3",
-    "mint|mono|sounds/bbmw0-stream.mp3"
+    "mint|mono|sounds/bbmw0-stream.mp3",
+    "neon|sans|sounds/bbmw0-rain-heavy.mp3"
   ],
   "videos": [
     {
@@ -215,6 +217,18 @@
       "audioUrl": "sounds/bbmw0-stream.mp3",
       "title": "The platypus hunts by detecting electrical fields. #Shorts #facts",
       "description": "Pure kinetic typography. No faces, no chatter.\n\nThe platypus hunts by detecting electrical fields. No eyes needed underwater.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #facts",
+      "niche": "animals",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube"
+    },
+    {
+      "id": "parrot-age",
+      "date": "2026-08-09",
+      "themeId": "neon",
+      "fontFamilyId": "sans",
+      "audioUrl": "sounds/bbmw0-rain-heavy.mp3",
+      "title": "Some parrots outlive their owners. #Shorts #quickfact",
+      "description": "A quick fact, in vertical, with no faces and no fluff.\n\nSome parrots outlive their owners. 80-year lifespan is possible.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #quickfact",
       "niche": "animals",
       "channelId": "yt-bbm0902",
       "platform": "youtube"

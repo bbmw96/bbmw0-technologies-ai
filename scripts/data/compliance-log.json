@@ -120,6 +120,36 @@
           "aiPassRatio": null
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-09T08:41:19.701Z",
+      "date": "2026-08-09",
+      "policyVersion": "1.0.0",
+      "strictMode": false,
+      "reviewed": 1,
+      "passed": 1,
+      "blocked": 0,
+      "results": [
+        {
+          "slug": "parrot-age",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.125,
+            "worstTitleAgainst": "leap-second",
+            "worstDescriptionSimilarity": 0.314,
+            "combo": "neon|sans|sounds/bbmw0-rain-heavy.mp3",
+            "themeGap": 5,
+            "audioGap": 1
+          },
+          "aiPassRatio": null
+        }
+      ]
     }
   ]
 }

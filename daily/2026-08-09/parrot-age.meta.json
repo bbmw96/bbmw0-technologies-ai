@@ -1,0 +1,26 @@
+{
+  "slug": "parrot-age",
+  "date": "2026-08-09",
+  "title": "Some parrots outlive their owners. #Shorts #quickfact",
+  "description": "A quick fact, in vertical, with no faces and no fluff.\n\nSome parrots outlive their owners. 80-year lifespan is possible.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #quickfact",
+  "tags": [
+    "shorts",
+    "animals",
+    "wildlife",
+    "nature",
+    "animalfacts",
+    "creatures"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "yt-bbm0902",
+  "platform": "youtube",
+  "handle": "@bbm0902",
+  "file": "out/daily-2026-08-09-parrot-age.mp4",
+  "propsFile": "daily/2026-08-09/parrot-age.props.json",
+  "durationInFrames": 900,
+  "themeId": "neon",
+  "fontFamilyId": "sans",
+  "audioUrl": "sounds/bbmw0-rain-heavy.mp3",
+  "niche": "animals"
+}
