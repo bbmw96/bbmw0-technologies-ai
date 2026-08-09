@@ -160,7 +160,7 @@ jobs:
           '
 
       - name: (Optional) Refresh topic library via AI research
-        if: ${{ inputs.research == true }}
+        if: ${{ inputs.research == true && steps.gate.outputs.run == 'true' }}
         env:
           AI_ENDPOINT: ${{ secrets.AI_ENDPOINT }}
         run: |
@@ -292,10 +292,12 @@ jobs:
           rm -f scripts/oauth-client*.json scripts/yt-credentials*.json
 
       - name: Commit history back
-        if: steps.gate.outputs.run == 'true'
-        # MUST be always(). When the upload step exits non-zero this step was
-        # skipped, so the record of what DID publish was thrown away.
-        if: always()
+        # MUST include always(). When the upload step exits non-zero this step
+        # was skipped, so the record of what DID publish was thrown away.
+        # The gate clause keeps it off matrix legs this run did not target.
+        # These MUST be one expression: two `if:` keys on one step is a
+        # duplicate mapping key, which GitHub rejects as an invalid workflow.
+        if: always() && steps.gate.outputs.run == 'true'
         run: |
           git config user.name "bbmw0-bot"
           git config user.email "bot@bbmw0.local"
@@ -346,22 +348,34 @@ jobs:
           exit 1
 
       - name: Daily content health report
-        if: always()
+        # Gated: on a skipped matrix leg there is no checkout, so the script is
+        # not on disk and the log it writes never exists. `cat` on a missing
+        # file exits 1 and would fail the step, marking the whole run red even
+        # though nothing was wrong.
+        if: always() && steps.gate.outputs.run == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           bash scripts/daily-report.sh || true
-          echo "### BBMW0 Daily Content Report" >> $GITHUB_STEP_SUMMARY
+          echo "### BBMW0 Daily Content Report (${{ matrix.channel }})" >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
-          cat /tmp/bbmw0-content-report.log >> $GITHUB_STEP_SUMMARY
+          # `cat` a file that may not exist would exit 1 and fail this step.
+          cat /tmp/bbmw0-content-report.log 2>/dev/null || echo "(report not produced)"
+          cat /tmp/bbmw0-content-report.log >> $GITHUB_STEP_SUMMARY 2>/dev/null \
+            || echo "(report not produced)" >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
 
       - name: Upload artefacts (videos + meta)
-        if: always()
+        if: always() && steps.gate.outputs.run == 'true'
         uses: actions/upload-artifact@v4
         with:
-          name: daily-shorts-${{ github.run_id }}
+          # MUST include the channel. upload-artifact@v4 errors on a duplicate
+          # artefact name within one run, so with a three-way matrix every leg
+          # after the first would fail its upload and turn the run red even
+          # when the videos published perfectly.
+          name: daily-shorts-${{ matrix.channel }}-${{ github.run_id }}
           path: |
             out/daily-*.mp4
             daily/
           retention-days: 14
+          if-no-files-found: ignore
