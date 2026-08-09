@@ -128,6 +128,31 @@ for (const f of ["scripts/data/topics.json", "scripts/data/copy-pools.json", "sc
 }
 OK("no UTF-8 BOMs in data files");
 
+// -------------------------------------------------------------- workflows
+// A workflow GitHub rejects does not fail loudly, it never starts. On
+// 2026-08-09 a duplicate `if:` key made the file invalid and every run died
+// instantly, including the first Instagram publish. CI cannot catch this,
+// because CI is the thing that will not run. So check it here.
+console.log("\nWORKFLOWS");
+try {
+  const r = spawnSync(process.execPath, [path.join(ROOT, "scripts/validate-workflows.mjs")], {
+    encoding: "utf8",
+  });
+  if (r.status === 0) {
+    OK("all workflow files valid (GitHub will accept them)");
+  } else {
+    const detail = String(r.stdout || "")
+      .split("\n")
+      .filter((l) => l.trim().startsWith("x "))
+      .map((l) => l.trim().slice(2))
+      .join("; ");
+    B(`invalid workflow file: ${detail || "see npm run validate:workflows"}`,
+      "run `npm run validate:workflows` and fix before pushing");
+  }
+} catch (err) {
+  W(`could not validate workflows: ${err.message}`);
+}
+
 // ---------------------------------------------------------------- channels
 console.log("\nCHANNELS");
 for (const ch of (rd("scripts/data/channels.json", { channels: [] }).channels || [])) {
