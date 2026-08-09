@@ -70,23 +70,52 @@ jobs:
 
       - name: Restore YouTube credentials from secrets
         env:
-          OAUTH_CLIENT_JSON: ${{ secrets.YT_OAUTH_CLIENT_JSON }}
-          REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
-          CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
-          CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          # Channel 1 (@bbmw.0)
+          YT_OAUTH_CLIENT_JSON: ${{ secrets.YT_OAUTH_CLIENT_JSON }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          # Channel 2 (@bbm0902)
+          YT2_OAUTH_CLIENT_JSON: ${{ secrets.YT2_OAUTH_CLIENT_JSON }}
+          YT2_REFRESH_TOKEN: ${{ secrets.YT2_REFRESH_TOKEN }}
+          YT2_CLIENT_ID: ${{ secrets.YT2_CLIENT_ID }}
+          YT2_CLIENT_SECRET: ${{ secrets.YT2_CLIENT_SECRET }}
         run: |
-          if [ -z "$OAUTH_CLIENT_JSON" ] || [ -z "$REFRESH_TOKEN" ]; then
-            echo "Missing YouTube secrets. Set YT_OAUTH_CLIENT_JSON, YT_REFRESH_TOKEN, YT_CLIENT_ID, YT_CLIENT_SECRET in repo settings." >&2
-            exit 1
-          fi
-          echo "$OAUTH_CLIENT_JSON" > scripts/oauth-client.json
-          cat > scripts/yt-credentials.json << JSON
-          {
-            "client_id": "$CLIENT_ID",
-            "client_secret": "$CLIENT_SECRET",
-            "refresh_token": "$REFRESH_TOKEN"
-          }
-          JSON
+          # Materialise a credentials file per channel from its secret prefix.
+          #
+          # Previously this only wrote channel 1's file. render-batch passes
+          # --credentials=<channel.credentialsFile> from the registry, so a
+          # channel-2 run looked for scripts/yt-credentials-bbm0902.json, which
+          # exists only on the operator's machine. Every channel-2 upload failed
+          # with "Missing ... Run npm run yt:rotate first" AFTER rendering,
+          # wasting a full render each time.
+          #
+          # Driven by channels.json so adding a channel needs no workflow edit.
+          node -e '
+            const fs = require("fs");
+            const rd = p => JSON.parse(fs.readFileSync(p, "utf8").replace(/^\uFEFF/, ""));
+            const chans = (rd("./scripts/data/channels.json").channels || [])
+              .filter(c => c.platform === "youtube");
+            let wrote = 0, skipped = [];
+            for (const c of chans) {
+              const p = c.secretPrefix;
+              const token  = process.env[`${p}_REFRESH_TOKEN`];
+              const id     = process.env[`${p}_CLIENT_ID`];
+              const secret = process.env[`${p}_CLIENT_SECRET`];
+              const client = process.env[`${p}_OAUTH_CLIENT_JSON`];
+              if (!token || !id || !secret) { skipped.push(`${c.id} (${p}_* not set)`); continue; }
+              fs.writeFileSync(c.credentialsFile,
+                JSON.stringify({ client_id: id, client_secret: secret, refresh_token: token }, null, 2));
+              if (client) {
+                const suffix = p === "YT" ? "" : "-" + c.id.replace(/^yt-/, "");
+                fs.writeFileSync(`scripts/oauth-client${suffix}.json`, client);
+              }
+              console.log(`  restored ${c.id} -> ${c.credentialsFile}`);
+              wrote++;
+            }
+            if (skipped.length) console.log(`  skipped: ${skipped.join(", ")}`);
+            if (!wrote) { console.error("No YouTube credentials could be restored."); process.exit(1); }
+          '
 
       - name: (Optional) Refresh topic library via AI research
         if: ${{ inputs.research == true }}
@@ -172,7 +201,7 @@ jobs:
       - name: Clean up credentials
         if: always()
         run: |
-          rm -f scripts/oauth-client.json scripts/yt-credentials.json
+          rm -f scripts/oauth-client*.json scripts/yt-credentials*.json
 
       - name: Commit history back
         # MUST be always(). When the upload step exits non-zero this step was
