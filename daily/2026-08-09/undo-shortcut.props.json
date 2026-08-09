@@ -1,0 +1,57 @@
+{
+  "themeId": "mint",
+  "fontFamilyId": "sans",
+  "audioUrl": "sounds/bbmw0-rain-light.mp3",
+  "audioVolume": 0.45,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Today, learn.",
+      "text": "Ctrl+Shift+T reopens the tab you just closed.",
+      "sub": "Useful, actually.",
+      "durationInFrames": 124,
+      "variant": 2
+    },
+    {
+      "kind": "bigword",
+      "text": "Works in every major browser.",
+      "durationInFrames": 141,
+      "variant": 2
+    },
+    {
+      "kind": "stat",
+      "number": "Ctrl+F",
+      "label": "Mind the number.",
+      "durationInFrames": 184,
+      "variant": 1
+    },
+    {
+      "kind": "list",
+      "heading": "Why it matters",
+      "items": [
+        "Notice",
+        "Reduce",
+        "Repeat"
+      ],
+      "durationInFrames": 183,
+      "variant": 2
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "See.",
+        "Hear.",
+        "Know."
+      ],
+      "durationInFrames": 135,
+      "variant": 3
+    },
+    {
+      "kind": "cta",
+      "headline": "Share it.",
+      "url": "bbmw0-technologies-ai.vercel.app",
+      "durationInFrames": 133,
+      "variant": 3
+    }
+  ]
+}

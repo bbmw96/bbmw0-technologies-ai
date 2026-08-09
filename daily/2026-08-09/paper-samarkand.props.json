@@ -1,0 +1,57 @@
+{
+  "themeId": "forest",
+  "fontFamilyId": "rounded",
+  "audioUrl": "sounds/bbmw0-forest-wind.mp3",
+  "audioVolume": 0.5,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Listen.",
+      "text": "Paper reached Europe through Samarkand.",
+      "sub": "Look closer.",
+      "durationInFrames": 115,
+      "variant": 1
+    },
+    {
+      "kind": "bigword",
+      "text": "It replaced parchment entirely.",
+      "durationInFrames": 158,
+      "variant": 2
+    },
+    {
+      "kind": "stat",
+      "number": "500",
+      "label": "Hold that thought.",
+      "durationInFrames": 155,
+      "variant": 1
+    },
+    {
+      "kind": "list",
+      "heading": "What's interesting",
+      "items": [
+        "Records are sparse",
+        "Witnesses are rare",
+        "Truth is fragile"
+      ],
+      "durationInFrames": 205,
+      "variant": 2
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "See.",
+        "Hear.",
+        "Know."
+      ],
+      "durationInFrames": 142,
+      "variant": 2
+    },
+    {
+      "kind": "cta",
+      "headline": "Save this one.",
+      "url": "youtube.com/@bbmw0",
+      "durationInFrames": 125,
+      "variant": 2
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "themeId": "neon",
+  "fontFamilyId": "sans",
+  "audioUrl": "sounds/bbmw0-ocean-swell.mp3",
+  "audioVolume": 0.45,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Did you know.",
+      "text": "The first vending machine was built in ancient Greece.",
+      "sub": "Useful, actually.",
+      "durationInFrames": 108,
+      "variant": 3
+    },
+    {
+      "kind": "bigword",
+      "text": "It dispensed holy water.",
+      "durationInFrames": 158,
+      "variant": 1
+    },
+    {
+      "kind": "stat",
+      "number": "38",
+      "label": "Mind the number.",
+      "durationInFrames": 167,
+      "variant": 2
+    },
+    {
+      "kind": "list",
+      "heading": "How it works",
+      "items": [
+        "Read more",
+        "Cross-check",
+        "Stay curious"
+      ],
+      "durationInFrames": 213,
+      "variant": 3
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Pause.",
+        "Think.",
+        "Save."
+      ],
+      "durationInFrames": 137,
+      "variant": 3
+    },
+    {
+      "kind": "cta",
+      "headline": "Save this one.",
+      "url": "youtube.com/@bbmw0",
+      "durationInFrames": 117,
+      "variant": 2
+    }
+  ]
+}

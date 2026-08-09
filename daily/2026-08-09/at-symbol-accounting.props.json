@@ -1,0 +1,57 @@
+{
+  "themeId": "sandstorm",
+  "fontFamilyId": "rounded",
+  "audioUrl": "sounds/bbmw0-ocean-swell.mp3",
+  "audioVolume": 0.45,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Quick fact.",
+      "text": "The @ symbol was used in accounting before email existed.",
+      "sub": "Stay with us.",
+      "durationInFrames": 108,
+      "variant": 1
+    },
+    {
+      "kind": "bigword",
+      "text": "It meant at a price of.",
+      "durationInFrames": 155,
+      "variant": 3
+    },
+    {
+      "kind": "stat",
+      "number": "1ms",
+      "label": "Keep that in mind.",
+      "durationInFrames": 178,
+      "variant": 1
+    },
+    {
+      "kind": "list",
+      "heading": "How it works",
+      "items": [
+        "The model is simple",
+        "The result is fast",
+        "The reason is design"
+      ],
+      "durationInFrames": 181,
+      "variant": 3
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Tap.",
+        "Save.",
+        "Reuse."
+      ],
+      "durationInFrames": 150,
+      "variant": 3
+    },
+    {
+      "kind": "cta",
+      "headline": "Tell a friend.",
+      "url": "github.com/bbmw96/bbmw0-technologies-ai",
+      "durationInFrames": 128,
+      "variant": 2
+    }
+  ]
+}

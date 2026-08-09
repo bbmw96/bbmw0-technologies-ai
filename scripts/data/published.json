@@ -19,7 +19,12 @@
     "platypus-electricity",
     "parrot-age",
     "sloth-digest",
-    "mars-volcano"
+    "mars-volcano",
+    "vending-machine-greece",
+    "undo-shortcut",
+    "at-symbol-accounting",
+    "semantic-html",
+    "paper-samarkand"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -40,7 +45,12 @@
     "mint|mono|sounds/bbmw0-stream.mp3",
     "neon|sans|sounds/bbmw0-rain-heavy.mp3",
     "sandstorm|mono|sounds/bbmw0-stream.mp3",
-    "neon|serif|sounds/bbmw0-ocean-shore.mp3"
+    "neon|serif|sounds/bbmw0-ocean-shore.mp3",
+    "neon|sans|sounds/bbmw0-ocean-swell.mp3",
+    "mint|sans|sounds/bbmw0-rain-light.mp3",
+    "sandstorm|rounded|sounds/bbmw0-ocean-swell.mp3",
+    "sunset|display|sounds/bbmw0-stream.mp3",
+    "forest|rounded|sounds/bbmw0-forest-wind.mp3"
   ],
   "videos": [
     {
@@ -271,6 +281,82 @@
       "youtubeId": "i-K8hoD-Lew",
       "youtubeUrl": "https://youtu.be/i-K8hoD-Lew",
       "uploadedAt": "2026-08-09T08:55:22.134Z",
+      "privacy": "public"
+    },
+    {
+      "id": "vending-machine-greece",
+      "date": "2026-08-09",
+      "themeId": "neon",
+      "fontFamilyId": "sans",
+      "audioUrl": "sounds/bbmw0-ocean-swell.mp3",
+      "title": "The first vending machine was built in ancient Greece. #Shorts #facts",
+      "description": "Here's a one-minute fact you didn't know you needed.\n\nThe first vending machine was built in ancient Greece. It dispensed holy water.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #facts",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube"
+    },
+    {
+      "id": "undo-shortcut",
+      "date": "2026-08-09",
+      "themeId": "mint",
+      "fontFamilyId": "sans",
+      "audioUrl": "sounds/bbmw0-rain-light.mp3",
+      "title": "Ctrl+Shift+T reopens the tab you just closed. #Shorts #facts",
+      "description": "Pure kinetic typography. No faces, no chatter.\n\nCtrl+Shift+T reopens the tab you just closed. Works in every major browser.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #facts",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "youtubeId": "xO212265odY",
+      "youtubeUrl": "https://youtu.be/xO212265odY",
+      "uploadedAt": "2026-08-09T09:34:24.524Z",
+      "privacy": "public"
+    },
+    {
+      "id": "at-symbol-accounting",
+      "date": "2026-08-09",
+      "themeId": "sandstorm",
+      "fontFamilyId": "rounded",
+      "audioUrl": "sounds/bbmw0-ocean-swell.mp3",
+      "title": "The @ symbol was used in accounting before email existed. #Shorts",
+      "description": "Daily Short. Drop a comment if you knew it.\n\nThe @ symbol was used in accounting before email existed. It meant at a price of.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "youtubeId": "OOvF5nbD1bE",
+      "youtubeUrl": "https://youtu.be/OOvF5nbD1bE",
+      "uploadedAt": "2026-08-09T09:28:16.972Z",
+      "privacy": "public"
+    },
+    {
+      "id": "semantic-html",
+      "date": "2026-08-09",
+      "themeId": "sunset",
+      "fontFamilyId": "display",
+      "audioUrl": "sounds/bbmw0-stream.mp3",
+      "title": "Screen readers rely on correct HTML headings. #Shorts",
+      "description": "Take 40 seconds. Learn something tiny.\n\nScreen readers rely on correct HTML headings. Structure is accessibility.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "youtubeId": "t__22G95Iew",
+      "youtubeUrl": "https://youtu.be/t__22G95Iew",
+      "uploadedAt": "2026-08-09T09:32:23.331Z",
+      "privacy": "public"
+    },
+    {
+      "id": "paper-samarkand",
+      "date": "2026-08-09",
+      "themeId": "forest",
+      "fontFamilyId": "rounded",
+      "audioUrl": "sounds/bbmw0-forest-wind.mp3",
+      "title": "Paper reached Europe through Samarkand. #Shorts #didyouknow",
+      "description": "Daily Short. Drop a comment if you knew it.\n\nPaper reached Europe through Samarkand. It replaced parchment entirely.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #didyouknow",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "youtubeId": "H0d5nv_F7Kk",
+      "youtubeUrl": "https://youtu.be/H0d5nv_F7Kk",
+      "uploadedAt": "2026-08-09T09:30:21.845Z",
       "privacy": "public"
     }
   ]

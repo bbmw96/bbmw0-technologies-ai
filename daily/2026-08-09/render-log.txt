@@ -1,19 +1,39 @@
-Rendering 3 Shorts for 2026-08-09 (concurrency=3, GL=default)
-Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+Rendering 8 Shorts for 2026-08-09 (concurrency=3, GL=default)
+Compliance: 7 cleared, 1 blocked (policy v1.0.0).
+Blocked by compliance: vending-machine-greece
+
+--- at-symbol-accounting ---
+  theme=sandstorm font=rounded audio=sounds/bbmw0-ocean-swell.mp3 privacy=public
+  rendered: out/daily-2026-08-09-at-symbol-accounting.mp4
+  uploaded public: https://youtu.be/OOvF5nbD1bE
 
 --- mars-volcano ---
-  theme=neon font=serif audio=sounds/bbmw0-ocean-shore.mp3 privacy=public
-  rendered: out/daily-2026-08-09-mars-volcano.mp4
-  uploaded public: https://youtu.be/i-K8hoD-Lew
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
+
+--- paper-samarkand ---
+  theme=forest font=rounded audio=sounds/bbmw0-forest-wind.mp3 privacy=public
+  rendered: out/daily-2026-08-09-paper-samarkand.mp4
+  uploaded public: https://youtu.be/H0d5nv_F7Kk
 
 --- parrot-age ---
-  theme=neon font=sans audio=sounds/bbmw0-rain-heavy.mp3 privacy=public
-  rendered: out/daily-2026-08-09-parrot-age.mp4
-  uploaded public: https://youtu.be/Pvhp1ChJBNs
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
+
+--- semantic-html ---
+  theme=sunset font=display audio=sounds/bbmw0-stream.mp3 privacy=public
+  rendered: out/daily-2026-08-09-semantic-html.mp4
+  uploaded public: https://youtu.be/t__22G95Iew
 
 --- sloth-digest ---
-  theme=sandstorm font=mono audio=sounds/bbmw0-stream.mp3 privacy=public
-  rendered: out/daily-2026-08-09-sloth-digest.mp4
-  uploaded public: https://youtu.be/rnyQzW5FI34
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
 
-=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===
+--- undo-shortcut ---
+  theme=mint font=sans audio=sounds/bbmw0-rain-light.mp3 privacy=public
+  rendered: out/daily-2026-08-09-undo-shortcut.mp4
+  uploaded public: https://youtu.be/xO212265odY
+
+--- vending-machine-greece ---
+  theme=neon font=sans audio=sounds/bbmw0-ocean-swell.mp3 privacy=public
+  rendered: out/daily-2026-08-09-vending-machine-greece.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-08-09/compliance-verdict.json.
+
+=== Done. 5 rendered, 4 uploaded, 3 skipped, 1 blocked by compliance, 0 failed. ===

@@ -1,0 +1,57 @@
+{
+  "themeId": "sunset",
+  "fontFamilyId": "display",
+  "audioUrl": "sounds/bbmw0-stream.mp3",
+  "audioVolume": 0.5,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "True story.",
+      "text": "Screen readers rely on correct HTML headings.",
+      "sub": "Worth knowing.",
+      "durationInFrames": 93,
+      "variant": 2
+    },
+    {
+      "kind": "bigword",
+      "text": "Structure is accessibility.",
+      "durationInFrames": 145,
+      "variant": 2
+    },
+    {
+      "kind": "stat",
+      "number": "10x",
+      "label": "Hold that thought.",
+      "durationInFrames": 151,
+      "variant": 1
+    },
+    {
+      "kind": "list",
+      "heading": "Why it matters",
+      "items": [
+        "The model is simple",
+        "The result is fast",
+        "The reason is design"
+      ],
+      "durationInFrames": 206,
+      "variant": 3
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Read.",
+        "Note.",
+        "Share."
+      ],
+      "durationInFrames": 158,
+      "variant": 3
+    },
+    {
+      "kind": "cta",
+      "headline": "Worth knowing.",
+      "url": "youtube.com/@bbmw0",
+      "durationInFrames": 147,
+      "variant": 2
+    }
+  ]
+}
