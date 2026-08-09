@@ -1,0 +1,90 @@
+name: Validate
+
+# Guards the publishing pipeline against changes that break it silently.
+#
+# This lives in its OWN file on purpose. On 2026-08-09 daily-shorts.yml was
+# pushed with a duplicate `if:` key. GitHub rejected the file outright, so it
+# did not fail, it never ran, and nothing reported a problem. A check inside
+# daily-shorts.yml could never have caught that, because the file GitHub is
+# refusing to parse is the file that would hold the check.
+#
+# A separate workflow still runs, still parses every workflow in the repo, and
+# still goes red. That is the only way this class of fault becomes visible.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install
+        run: npm install --no-audit --no-fund
+
+      - name: Validate workflow files
+        run: node scripts/validate-workflows.mjs
+
+      - name: Check data files parse and carry no BOM
+        run: |
+          for f in scripts/data/topics.json \
+                   scripts/data/copy-pools.json \
+                   scripts/data/published.json \
+                   scripts/data/channels.json; do
+            if [ ! -f "$f" ]; then
+              echo "::error::missing $f"; exit 1
+            fi
+            # A UTF-8 BOM has broken generation before. OneDrive adds them.
+            if head -c 3 "$f" | grep -q $'\xef\xbb\xbf'; then
+              echo "::error::$f starts with a UTF-8 BOM"; exit 1
+            fi
+            node -e "JSON.parse(require('fs').readFileSync('$f','utf8'))" \
+              || { echo "::error::$f is not valid JSON"; exit 1; }
+            echo "ok  $f"
+          done
+
+      - name: Check every script named in package.json exists
+        run: |
+          node -e '
+            const fs = require("fs");
+            const scripts = require("./package.json").scripts || {};
+            let bad = 0;
+            for (const [name, cmd] of Object.entries(scripts)) {
+              for (const m of String(cmd).matchAll(/(scripts\/[A-Za-z0-9._\/-]+\.(mjs|js|sh))/g)) {
+                if (!fs.existsSync(m[1])) {
+                  console.log(`::error::npm script "${name}" runs ${m[1]}, which does not exist`);
+                  bad++;
+                }
+              }
+            }
+            if (bad) process.exit(1);
+            console.log(`ok  all ${Object.keys(scripts).length} npm scripts point at real files`);
+          '
+
+      - name: Compliance rules self-test
+        run: |
+          # The gate is what keeps the channels inside platform policy and the
+          # halal rules. If it cannot even load, publishing must not proceed.
+          node -e '
+            const mods = [
+              "./scripts/compliance/rules.mjs",
+              "./scripts/compliance/similarity.mjs",
+              "./scripts/compliance/halal.mjs",
+            ];
+            Promise.all(mods.map((m) => import(m)))
+              .then(() => console.log("ok  compliance modules load"))
+              .catch((e) => { console.log("::error::" + e.message); process.exit(1); });
+          '
