@@ -65,8 +65,13 @@ jobs:
         run: rm -f scripts/oauth-client.json scripts/yt-credentials.json
 
       - name: Upload artefact
+        # always(), so that a partially rendered file survives a failed upload
+        # step and can be inspected. Without this the evidence is discarded at
+        # exactly the moment it is needed.
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: monthly-longform-${{ github.run_id }}
           path: out/longform.mp4
           retention-days: 30
+          if-no-files-found: ignore
