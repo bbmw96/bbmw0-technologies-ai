@@ -231,10 +231,14 @@ for (const propsFile of propsFiles) {
         // then fails for a completely unrelated-looking reason. Report the
         // length of each credential (never the value) so an empty secret is
         // distinguishable from a missing one at a glance.
+        // Note the limit of what a runner can actually know: GitHub substitutes
+        // an empty string for a secret that does not exist AND for one whose
+        // value is blank, so from in here the two are indistinguishable. Say
+        // "empty or not set" rather than asserting which, and check the repo
+        // secret list to tell them apart.
         const credState = (name) => {
           const v = process.env[name];
-          if (v === undefined) return `${name}=absent`;
-          if (v === "") return `${name}=EMPTY(set but blank)`;
+          if (!v) return `${name}=EMPTY or not set`;
           return `${name}=present(${v.length} chars)`;
         };
         append(
@@ -252,11 +256,11 @@ for (const propsFile of propsFiles) {
         // letting the upload script fail on a missing token further down.
         if (!useComposio && !process.env.IG_ACCESS_TOKEN) {
           append(
-            `  FAILED: no usable Instagram credential. COMPOSIO_API_KEY is ` +
-              `${process.env.COMPOSIO_API_KEY === "" ? "set but empty" : "absent"} ` +
-              `and IG_ACCESS_TOKEN is ` +
-              `${process.env.IG_ACCESS_TOKEN === "" ? "set but empty" : "absent"}. ` +
-              `Set one of them as a repository secret and re-run.`
+            `  FAILED: no usable Instagram credential. Both COMPOSIO_API_KEY ` +
+              `and IG_ACCESS_TOKEN arrived empty. If the secret is listed in ` +
+              `the repo but arrives empty here, it was stored with a blank ` +
+              `value; re-set it with:\n` +
+              `    gh secret set COMPOSIO_API_KEY --repo bbmw96/bbmw0-technologies-ai`
           );
           failCount++;
           continue;
