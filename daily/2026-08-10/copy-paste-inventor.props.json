@@ -1,0 +1,58 @@
+{
+  "special": false,
+  "themeId": "sandstorm",
+  "fontFamilyId": "display",
+  "audioUrl": "sounds/bbmw0-rain-heavy.mp3",
+  "audioVolume": 0.4,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "True story.",
+      "text": "Copy and paste was invented by Larry Tesler in 1974.",
+      "sub": "Here's the thing.",
+      "durationInFrames": 104,
+      "variant": 1
+    },
+    {
+      "kind": "bigword",
+      "text": "You use it every single day.",
+      "durationInFrames": 163,
+      "variant": 3
+    },
+    {
+      "kind": "stat",
+      "number": "10x",
+      "label": "Mind the number.",
+      "durationInFrames": 167,
+      "variant": 2
+    },
+    {
+      "kind": "list",
+      "heading": "What this means",
+      "items": [
+        "The model is simple",
+        "The result is fast",
+        "The reason is design"
+      ],
+      "durationInFrames": 185,
+      "variant": 3
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Watch.",
+        "Learn.",
+        "Apply."
+      ],
+      "durationInFrames": 152,
+      "variant": 2
+    },
+    {
+      "kind": "cta",
+      "headline": "Save this one.",
+      "url": "github.com/bbmw96/bbmw0-technologies-ai",
+      "durationInFrames": 129,
+      "variant": 3
+    }
+  ]
+}

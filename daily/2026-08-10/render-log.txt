@@ -1,0 +1,25 @@
+Rendering 4 Shorts for 2026-08-10 (concurrency=3, GL=default)
+Compliance: 3 cleared, 1 blocked (policy v1.0.0).
+Blocked by compliance: copy-paste-inventor
+
+--- cleopatra-moon ---
+  theme=glacier font=serif audio=sounds/bbmw0-ocean-shore.mp3 privacy=public
+  rendered: out/daily-2026-08-10-cleopatra-moon.mp4
+  uploaded public: https://youtu.be/tFD2RuVXKSw
+
+--- copy-paste-inventor ---
+  theme=sandstorm font=display audio=sounds/bbmw0-rain-heavy.mp3 privacy=public
+  rendered: out/daily-2026-08-10-copy-paste-inventor.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-08-10/compliance-verdict.json.
+
+--- css-flex ---
+  theme=midnight font=sans audio=sounds/bbmw0-rain-distant.mp3 privacy=public
+  rendered: out/daily-2026-08-10-css-flex.mp4
+  uploaded public: https://youtu.be/WB8x3_4KOJk
+
+--- first-sms-1992 ---
+  theme=neon font=sans audio=sounds/bbmw0-wind-open.mp3 privacy=public
+  rendered: out/daily-2026-08-10-first-sms-1992.mp4
+  uploaded public: https://youtu.be/k7SOVwKNd0s
+
+=== Done. 4 rendered, 3 uploaded, 0 skipped, 1 blocked by compliance, 0 failed. ===

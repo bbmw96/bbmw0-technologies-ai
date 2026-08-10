@@ -1,0 +1,189 @@
+{
+  "date": "2026-08-10",
+  "generatedAt": "2026-08-10T10:13:57.647Z",
+  "policyVersion": "1.0.0",
+  "strictMode": false,
+  "allowed": [
+    "cleopatra-moon",
+    "css-flex",
+    "first-sms-1992"
+  ],
+  "blocked": [
+    "copy-paste-inventor"
+  ],
+  "results": [
+    {
+      "slug": "cleopatra-moon",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Cleopatra lived closer to the Moon landing than to the pyramids. #Shorts #facts",
+      "niche": "history",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.1,
+        "worstTitleAgainst": "lightning-hotter-sun",
+        "worstDescriptionSimilarity": 0.485,
+        "combo": "glacier|serif|sounds/bbmw0-ocean-shore.mp3",
+        "themeGap": 21,
+        "audioGap": 7
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "copy-paste-inventor",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "Copy and paste was invented by Larry Tesler in 1974. #Shorts",
+      "niche": "tech",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "repetition.combo",
+          "message": "Theme/font/audio combination already used by \"great-wall-myth\".",
+          "detail": {
+            "combo": "sandstorm|display|sounds/bbmw0-rain-heavy.mp3"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.077,
+        "worstTitleAgainst": "first-sms-1992 (same batch)",
+        "worstDescriptionSimilarity": 0.492,
+        "combo": "sandstorm|display|sounds/bbmw0-rain-heavy.mp3",
+        "themeGap": 4,
+        "audioGap": 9
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "css-flex",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Flexbox replaced 90% of CSS layout hacks. #Shorts #learn",
+      "niche": "tech",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"sounds/bbmw0-rain-distant.mp3\" reused after only 1 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.034,
+        "worstTitleAgainst": "great-wall-myth",
+        "worstDescriptionSimilarity": 0.536,
+        "combo": "midnight|sans|sounds/bbmw0-rain-distant.mp3",
+        "themeGap": 17,
+        "audioGap": 1
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "first-sms-1992",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "The first text message was sent in 1992. #Shorts",
+      "niche": "history",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.theme_spacing",
+          "message": "Theme \"neon\" reused after only 0 video(s). Minimum gap is 3.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.159,
+        "worstTitleAgainst": "vending-machine-greece",
+        "worstDescriptionSimilarity": 0.483,
+        "combo": "neon|sans|sounds/bbmw0-wind-open.mp3",
+        "themeGap": 0,
+        "audioGap": 12
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    }
+  ]
+}

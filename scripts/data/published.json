@@ -26,7 +26,11 @@
     "semantic-html",
     "paper-samarkand",
     "first-video-game",
-    "tokens-not-words"
+    "tokens-not-words",
+    "cleopatra-moon",
+    "css-flex",
+    "copy-paste-inventor",
+    "first-sms-1992"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -54,7 +58,11 @@
     "sunset|display|sounds/bbmw0-stream.mp3",
     "forest|rounded|sounds/bbmw0-forest-wind.mp3",
     "slate|mono|sounds/bbmw0-rain-distant.mp3",
-    "neon|mono|sounds/bbmw0-stream.mp3"
+    "neon|mono|sounds/bbmw0-stream.mp3",
+    "glacier|serif|sounds/bbmw0-ocean-shore.mp3",
+    "midnight|sans|sounds/bbmw0-rain-distant.mp3",
+    "sandstorm|display|sounds/bbmw0-rain-heavy.mp3",
+    "neon|sans|sounds/bbmw0-wind-open.mp3"
   ],
   "videos": [
     {
@@ -388,6 +396,70 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "cleopatra-moon",
+      "date": "2026-08-10",
+      "themeId": "glacier",
+      "fontFamilyId": "serif",
+      "audioUrl": "sounds/bbmw0-ocean-shore.mp3",
+      "title": "Cleopatra lived closer to the Moon landing than to the pyramids. #Shorts #facts",
+      "description": "Here's a one-minute fact you didn't know you needed.\n\nCleopatra lived closer to the Moon landing than to the pyramids. Time is genuinely strange.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #facts",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "tFD2RuVXKSw",
+      "youtubeUrl": "https://youtu.be/tFD2RuVXKSw",
+      "uploadedAt": "2026-08-10T10:19:19.276Z",
+      "privacy": "public"
+    },
+    {
+      "id": "css-flex",
+      "date": "2026-08-10",
+      "themeId": "midnight",
+      "fontFamilyId": "sans",
+      "audioUrl": "sounds/bbmw0-rain-distant.mp3",
+      "title": "Flexbox replaced 90% of CSS layout hacks. #Shorts #learn",
+      "description": "Pure kinetic typography. No faces, no chatter.\n\nFlexbox replaced 90% of CSS layout hacks. One property, 90% solved.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #learn",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "WB8x3_4KOJk",
+      "youtubeUrl": "https://youtu.be/WB8x3_4KOJk",
+      "uploadedAt": "2026-08-10T10:29:34.316Z",
+      "privacy": "public"
+    },
+    {
+      "id": "copy-paste-inventor",
+      "date": "2026-08-10",
+      "themeId": "sandstorm",
+      "fontFamilyId": "display",
+      "audioUrl": "sounds/bbmw0-rain-heavy.mp3",
+      "title": "Copy and paste was invented by Larry Tesler in 1974. #Shorts",
+      "description": "Here's a one-minute fact you didn't know you needed.\n\nCopy and paste was invented by Larry Tesler in 1974. You use it every single day.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "first-sms-1992",
+      "date": "2026-08-10",
+      "themeId": "neon",
+      "fontFamilyId": "sans",
+      "audioUrl": "sounds/bbmw0-wind-open.mp3",
+      "title": "The first text message was sent in 1992. #Shorts",
+      "description": "A quick fact, in vertical, with no faces and no fluff.\n\nThe first text message was sent in 1992. Typed on a computer, not a phone.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "k7SOVwKNd0s",
+      "youtubeUrl": "https://youtu.be/k7SOVwKNd0s",
+      "uploadedAt": "2026-08-10T10:34:43.145Z",
+      "privacy": "public"
     }
   ]
 }

@@ -381,6 +381,93 @@
           "aiPassRatio": null
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-10T10:13:57.646Z",
+      "date": "2026-08-10",
+      "policyVersion": "1.0.0",
+      "strictMode": false,
+      "reviewed": 4,
+      "passed": 3,
+      "blocked": 1,
+      "results": [
+        {
+          "slug": "cleopatra-moon",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.1,
+            "worstTitleAgainst": "lightning-hotter-sun",
+            "worstDescriptionSimilarity": 0.485,
+            "combo": "glacier|serif|sounds/bbmw0-ocean-shore.mp3",
+            "themeGap": 21,
+            "audioGap": 7
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "copy-paste-inventor",
+          "verdict": "BLOCK",
+          "blocks": [
+            "repetition.combo"
+          ],
+          "warnings": [
+            "coppa.undeclared",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.077,
+            "worstTitleAgainst": "first-sms-1992 (same batch)",
+            "worstDescriptionSimilarity": 0.492,
+            "combo": "sandstorm|display|sounds/bbmw0-rain-heavy.mp3",
+            "themeGap": 4,
+            "audioGap": 9
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "css-flex",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.034,
+            "worstTitleAgainst": "great-wall-myth",
+            "worstDescriptionSimilarity": 0.536,
+            "combo": "midnight|sans|sounds/bbmw0-rain-distant.mp3",
+            "themeGap": 17,
+            "audioGap": 1
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "first-sms-1992",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.theme_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.159,
+            "worstTitleAgainst": "vending-machine-greece",
+            "worstDescriptionSimilarity": 0.483,
+            "combo": "neon|sans|sounds/bbmw0-wind-open.mp3",
+            "themeGap": 0,
+            "audioGap": 12
+          },
+          "aiPassRatio": null
+        }
+      ]
     }
   ]
 }

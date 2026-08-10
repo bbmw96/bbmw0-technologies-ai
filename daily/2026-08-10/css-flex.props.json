@@ -1,0 +1,58 @@
+{
+  "special": false,
+  "themeId": "midnight",
+  "fontFamilyId": "sans",
+  "audioUrl": "sounds/bbmw0-rain-distant.mp3",
+  "audioVolume": 0.5,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Did you know.",
+      "text": "Flexbox replaced 90% of CSS layout hacks.",
+      "sub": "Look closer.",
+      "durationInFrames": 100,
+      "variant": 1
+    },
+    {
+      "kind": "bigword",
+      "text": "One property, 90% solved.",
+      "durationInFrames": 145,
+      "variant": 2
+    },
+    {
+      "kind": "stat",
+      "number": "10x",
+      "label": "Worth remembering.",
+      "durationInFrames": 163,
+      "variant": 1
+    },
+    {
+      "kind": "list",
+      "heading": "What this means",
+      "items": [
+        "Read the spec",
+        "Try it small",
+        "Ship it"
+      ],
+      "durationInFrames": 195,
+      "variant": 3
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Watch.",
+        "Learn.",
+        "Apply."
+      ],
+      "durationInFrames": 158,
+      "variant": 3
+    },
+    {
+      "kind": "cta",
+      "headline": "Pass it on.",
+      "url": "youtube.com/@bbmw0",
+      "durationInFrames": 139,
+      "variant": 3
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "special": false,
+  "themeId": "neon",
+  "fontFamilyId": "sans",
+  "audioUrl": "sounds/bbmw0-wind-open.mp3",
+  "audioVolume": 0.5,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "True story.",
+      "text": "The first text message was sent in 1992.",
+      "sub": "Worth knowing.",
+      "durationInFrames": 110,
+      "variant": 1
+    },
+    {
+      "kind": "bigword",
+      "text": "Typed on a computer, not a phone.",
+      "durationInFrames": 165,
+      "variant": 3
+    },
+    {
+      "kind": "stat",
+      "number": "5",
+      "label": "Keep that in mind.",
+      "durationInFrames": 174,
+      "variant": 1
+    },
+    {
+      "kind": "list",
+      "heading": "What this means",
+      "items": [
+        "Records are sparse",
+        "Witnesses are rare",
+        "Truth is fragile"
+      ],
+      "durationInFrames": 186,
+      "variant": 3
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Watch.",
+        "Learn.",
+        "Apply."
+      ],
+      "durationInFrames": 142,
+      "variant": 3
+    },
+    {
+      "kind": "cta",
+      "headline": "Tell a friend.",
+      "url": "github.com/bbmw96/bbmw0-technologies-ai",
+      "durationInFrames": 123,
+      "variant": 2
+    }
+  ]
+}

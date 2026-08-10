@@ -1,0 +1,58 @@
+{
+  "special": false,
+  "themeId": "glacier",
+  "fontFamilyId": "serif",
+  "audioUrl": "sounds/bbmw0-ocean-shore.mp3",
+  "audioVolume": 0.45,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Quick fact.",
+      "text": "Cleopatra lived closer to the Moon landing than to the pyramids.",
+      "sub": "Useful, actually.",
+      "durationInFrames": 100,
+      "variant": 3
+    },
+    {
+      "kind": "bigword",
+      "text": "Time is genuinely strange.",
+      "durationInFrames": 165,
+      "variant": 1
+    },
+    {
+      "kind": "stat",
+      "number": "500",
+      "label": "Worth remembering.",
+      "durationInFrames": 169,
+      "variant": 1
+    },
+    {
+      "kind": "list",
+      "heading": "What this means",
+      "items": [
+        "Read more",
+        "Cross-check",
+        "Stay curious"
+      ],
+      "durationInFrames": 195,
+      "variant": 1
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "See.",
+        "Hear.",
+        "Know."
+      ],
+      "durationInFrames": 140,
+      "variant": 3
+    },
+    {
+      "kind": "cta",
+      "headline": "Now you know.",
+      "url": "bbmw0-technologies-ai.vercel.app",
+      "durationInFrames": 131,
+      "variant": 1
+    }
+  ]
+}
