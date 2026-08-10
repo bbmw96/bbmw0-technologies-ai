@@ -88,3 +88,86 @@ jobs:
               .then(() => console.log("ok  compliance modules load"))
               .catch((e) => { console.log("::error::" + e.message); process.exit(1); });
           '
+
+  # ---------------------------------------------------------------------------
+  # Manual credential check. Run this from the Actions tab straight after
+  # setting a secret.
+  #
+  # It exists because the only way to find out whether COMPOSIO_API_KEY was
+  # stored correctly used to be a full publish run: roughly twenty minutes of
+  # rendering before the credential was even touched. A secret stored with a
+  # blank value is indistinguishable from a missing one from inside a runner,
+  # and gh secret list shows names but never values, so nothing else can see it.
+  #
+  # This reports LENGTHS ONLY, never values, and then makes one live call to
+  # Composio using the same host and header the publisher uses, reporting only
+  # the HTTP status. That separates "not set" from "set but wrong" from "works".
+  # ---------------------------------------------------------------------------
+  credentials:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Report which credentials are present
+        env:
+          COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
+          COMPOSIO_IG_ACCOUNT_ID: ${{ secrets.COMPOSIO_IG_ACCOUNT_ID }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT2_REFRESH_TOKEN: ${{ secrets.YT2_REFRESH_TOKEN }}
+          AI_ENDPOINT: ${{ secrets.AI_ENDPOINT }}
+        run: |
+          node -e '
+            const names = ["COMPOSIO_API_KEY","COMPOSIO_IG_ACCOUNT_ID","IG_USER_ID",
+                           "IG_ACCESS_TOKEN","YT_REFRESH_TOKEN","YT2_REFRESH_TOKEN","AI_ENDPOINT"];
+            let out = "";
+            for (const n of names) {
+              const v = process.env[n];
+              // Length only. A length is not a secret, and it is the one thing
+              // that distinguishes a blank secret from a real one.
+              const state = !v ? "EMPTY or not set" : `present, ${v.length} characters`;
+              const line = `  ${n.padEnd(24)} ${state}`;
+              console.log(line);
+              out += line + "\n";
+            }
+            require("fs").appendFileSync(process.env.GITHUB_STEP_SUMMARY,
+              "### Credential state\n```\n" + out + "```\n");
+          '
+
+      - name: Live-check the Composio key
+        env:
+          COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
+        run: |
+          if [ -z "$COMPOSIO_API_KEY" ]; then
+            echo "::error title=Composio key not set::COMPOSIO_API_KEY arrived empty. The secret exists in the repo but has no value, or was never created. Re-set it and run this check again."
+            exit 1
+          fi
+
+          # Same host and header the publisher uses, so this tests the real
+          # thing rather than an approximation. Only the status code is printed.
+          STATUS=$(curl -s -o /tmp/body.txt -w "%{http_code}" \
+            -H "x-api-key: $COMPOSIO_API_KEY" \
+            "https://backend.composio.dev/api/v3/toolkits?limit=1" || echo "000")
+
+          echo "  HTTP $STATUS from backend.composio.dev"
+          case "$STATUS" in
+            2*)
+              echo "  The key authenticates. Instagram publishing should work."
+              echo "### Composio key: WORKING (HTTP $STATUS)" >> $GITHUB_STEP_SUMMARY
+              ;;
+            401|403)
+              echo "::error title=Composio key rejected::HTTP $STATUS. The key is set but Composio will not accept it. It may be from the wrong project, revoked, or truncated when pasted. Create a fresh key and set the secret again."
+              echo "### Composio key: REJECTED (HTTP $STATUS)" >> $GITHUB_STEP_SUMMARY
+              exit 1
+              ;;
+            000)
+              echo "::warning::Could not reach Composio. Network issue, not necessarily a bad key."
+              ;;
+            *)
+              # A non-auth error still proves the key was accepted for auth.
+              echo "::warning title=Unexpected status::HTTP $STATUS. Not an auth failure, so the key itself is probably fine."
+              echo "### Composio key: reached the API (HTTP $STATUS)" >> $GITHUB_STEP_SUMMARY
+              ;;
+          esac
