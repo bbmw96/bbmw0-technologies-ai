@@ -30,7 +30,11 @@
     "cleopatra-moon",
     "css-flex",
     "copy-paste-inventor",
-    "first-sms-1992"
+    "first-sms-1992",
+    "carrot-purple",
+    "rain-speed",
+    "seahorse-males",
+    "trees-communicate"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -460,6 +464,58 @@
       "youtubeUrl": "https://youtu.be/k7SOVwKNd0s",
       "uploadedAt": "2026-08-10T10:34:43.145Z",
       "privacy": "public"
+    },
+    {
+      "id": "carrot-purple",
+      "date": "2026-08-10",
+      "title": "Carrots were originally purple. #Shorts",
+      "niche": "food",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "youtubeId": "jlOBHPMne-o",
+      "youtubeUrl": "https://youtu.be/jlOBHPMne-o",
+      "uploadedAt": "2026-08-10T10:20:00.000Z",
+      "privacy": "public",
+      "recovered": "Reconstructed from the YouTube channel listing after run #113 failed to push its record. Theme, font, audio and description are not recoverable and are omitted rather than invented."
+    },
+    {
+      "id": "rain-speed",
+      "date": "2026-08-10",
+      "title": "Raindrops fall at 7 metres per second. #Shorts #didyouknow",
+      "niche": "weather",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "youtubeId": "TwswTLg9qKU",
+      "youtubeUrl": "https://youtu.be/TwswTLg9qKU",
+      "uploadedAt": "2026-08-10T10:20:00.000Z",
+      "privacy": "public",
+      "recovered": "Reconstructed from the YouTube channel listing after run #113 failed to push its record. Theme, font, audio and description are not recoverable and are omitted rather than invented."
+    },
+    {
+      "id": "seahorse-males",
+      "date": "2026-08-10",
+      "title": "Male seahorses carry the babies. #Shorts #facts",
+      "niche": "animals",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "youtubeId": "Xhi2gJFmYWo",
+      "youtubeUrl": "https://youtu.be/Xhi2gJFmYWo",
+      "uploadedAt": "2026-08-10T10:20:00.000Z",
+      "privacy": "public",
+      "recovered": "Reconstructed from the YouTube channel listing after run #113 failed to push its record. Theme, font, audio and description are not recoverable and are omitted rather than invented."
+    },
+    {
+      "id": "trees-communicate",
+      "date": "2026-08-10",
+      "title": "Trees share nutrients through underground fungal networks. #Shorts",
+      "niche": "biology",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "youtubeId": "RIGIn1M9spQ",
+      "youtubeUrl": "https://youtu.be/RIGIn1M9spQ",
+      "uploadedAt": "2026-08-10T10:20:00.000Z",
+      "privacy": "public",
+      "recovered": "Reconstructed from the YouTube channel listing after run #113 failed to push its record. Theme, font, audio and description are not recoverable and are omitted rather than invented."
     }
   ]
 }
