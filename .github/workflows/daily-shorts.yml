@@ -302,50 +302,19 @@ jobs:
           git config user.name "bbmw0-bot"
           git config user.email "bot@bbmw0.local"
 
-          # Add paths ONE AT A TIME. `git add a b c` is all-or-nothing: if any
-          # single path does not exist, git stages NOTHING. trend-log.json is
-          # only created when AI research runs, so it was usually absent, which
-          # silently staged zero files. The `|| true` then hid the error and
-          # `git diff --cached --quiet && exit 0` reported success. Result: the
-          # publishing history never persisted on any run, topicsUsed stayed
-          # frozen, and youtubeId records were lost every time.
-          for p in scripts/data/published.json \
-                   scripts/data/topics.json \
-                   scripts/data/compliance-log.json \
-                   scripts/data/audio-licences.json \
-                   scripts/data/channels.json \
-                   scripts/data/trend-log.json \
-                   daily; do
-            if [ -e "$p" ]; then
-              git add "$p" && echo "  staged: $p"
-            else
-              echo "  absent (fine): $p"
-            fi
-          done
-
-          if git diff --cached --quiet; then
-            echo "::warning title=Nothing to commit::No history changes were staged. If videos were generated this run, that is a bug."
-            exit 0
-          fi
-
-          echo "Files to commit:"
-          git diff --cached --name-only | sed 's/^/  /'
-          git commit -m "Daily Shorts: $(date -u +%F) [skip ci]"
-
-          # A concurrent push (a human committing mid-run) makes a plain push
-          # fail non-fast-forward. Rebase and retry rather than losing the run.
-          for attempt in 1 2 3; do
-            if git push; then
-              echo "Pushed on attempt $attempt."
-              exit 0
-            fi
-            echo "Push rejected, rebasing and retrying ($attempt of 3)..."
-            git pull --rebase --autostash origin main || true
-            sleep 5
-          done
-
-          echo "::error title=History not saved::Could not push the publishing record after 3 attempts. topicsUsed and youtubeId records for this run are LOST, which means topics may be reused."
-          exit 1
+          # Delegated to a script because the inline rebase-and-retry could
+          # never work. Every matrix leg checks out the SAME commit at run
+          # start, so leg two commits a published.json built on a base that leg
+          # one has already moved. `git pull --rebase` then hits add/add and
+          # content conflicts on exactly the files that matter, stops in a
+          # detached HEAD, and the remaining attempts die on "unmerged files".
+          # On 2026-08-10 that lost the record of four videos that had really
+          # been published to @bbm0902.
+          #
+          # commit-history.mjs commits a DELTA instead of a snapshot: on every
+          # attempt it resets to the real origin/main and re-applies just what
+          # this leg produced. Verified against a three-way simultaneous race.
+          node scripts/commit-history.mjs --date="$(date -u +%F)" --channel="${{ matrix.channel }}"
 
       - name: Daily content health report
         # Gated: on a skipped matrix leg there is no checkout, so the script is
