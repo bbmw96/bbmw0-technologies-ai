@@ -72,8 +72,19 @@ const optional = {
   IG_USER_ID:        ["Instagram", "value is 26759002047072119"],
   AI_ENDPOINT:       ["AI topic auto-refill and the compliance AI panel", "your Vercel /api/ai URL"],
 };
-for (const [k, [what, fix]] of Object.entries(need)) have.has(k) ? OK(`${k} set (${what})`) : B(`${k} missing (${what})`, fix);
-for (const [k, [what, fix]] of Object.entries(optional)) have.has(k) ? OK(`${k} set (${what})`) : W(`${k} not set (${what})`, fix);
+// "Could not check" is NOT the same as "missing". When gh is unavailable (no
+// CLI, not authenticated, sandboxed shell) the secret list comes back empty,
+// and reporting every secret as absent produces a screen of blockers that are
+// all false. A health tool that invents problems is one you learn to ignore,
+// which defeats the point of having it.
+const secretsReadable = sec?.status === 0;
+const report = (k, what, fix, blocking) => {
+  if (!secretsReadable) return W(`${k}: cannot check (gh unavailable), assume unknown`);
+  if (have.has(k)) return OK(`${k} set (${what})`);
+  return blocking ? B(`${k} missing (${what})`, fix) : W(`${k} not set (${what})`, fix);
+};
+for (const [k, [what, fix]] of Object.entries(need)) report(k, what, fix, true);
+for (const [k, [what, fix]] of Object.entries(optional)) report(k, what, fix, false);
 
 // ------------------------------------------------------------ publishing
 console.log("\nPUBLISHING HEALTH");
@@ -160,7 +171,9 @@ for (const ch of (rd("scripts/data/channels.json", { channels: [] }).channels ||
   const ready = ch.platform === "youtube"
     ? have.has(`${p}_REFRESH_TOKEN`)
     : (have.has("COMPOSIO_API_KEY") || have.has("IG_ACCESS_TOKEN"));
-  console.log(`  ${ready ? "[ok]     " : "[waiting]"} ${ch.id.padEnd(20)} ${ch.handle.padEnd(20)} ${ch.platform}`);
+  // Same distinction as above: unknown is not the same as not ready.
+  const mark = !secretsReadable ? "[unknown]" : ready ? "[ok]     " : "[waiting]";
+  console.log(`  ${mark} ${ch.id.padEnd(20)} ${ch.handle.padEnd(20)} ${ch.platform}`);
 }
 
 // ---------------------------------------------------------------- verdict
