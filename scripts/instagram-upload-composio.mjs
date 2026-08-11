@@ -29,6 +29,11 @@
 // EXIT CODES: 0 published, 1 bad arguments or config, 2 API failure
 
 const API = "https://backend.composio.dev/api/v3/tools/execute";
+// Declared up here, not beside diagnose(). diagnose is a hoisted function and
+// is called during argument handling near the top of the file; a const defined
+// further down would still be in its temporal dead zone at that point and
+// throw a ReferenceError instead of running.
+const BASE = "https://backend.composio.dev/api/v3";
 
 function args(argv) {
   const o = {};
@@ -49,6 +54,16 @@ const ACCOUNT = process.env.COMPOSIO_IG_ACCOUNT_ID || "instagram_sledge-got";
 const IG_USER_ID = process.env.IG_USER_ID;
 
 if (!KEY)        fail("Missing COMPOSIO_API_KEY. Add it as a GitHub secret. Never paste it into a chat.");
+
+// --diagnose is checked HERE, above the upload-argument validation, because it
+// publishes nothing and therefore needs none of those arguments. Placed after
+// them, the first diagnose run died on "Missing --video-url" before reaching
+// the code it was written to run.
+if (A.diagnose) {
+  await diagnose("requested");
+  process.exit(0);
+}
+
 if (!IG_USER_ID) fail("Missing IG_USER_ID (the numeric Instagram Business account id).");
 if (!A["video-url"]) fail("Missing --video-url=<public https url to the mp4>");
 if (!A.caption)      fail("Missing --caption=<caption text>");
@@ -62,8 +77,6 @@ const hashtags = tags.slice(0, HASHTAG_MAX).map((t) => `#${t.replace(/[^\p{L}\p{
 let caption = A.caption;
 if (hashtags.length) caption = `${caption}\n\n${hashtags.join(" ")}`;
 if (caption.length > CAPTION_MAX) caption = caption.slice(0, CAPTION_MAX);
-
-const BASE = "https://backend.composio.dev/api/v3";
 
 /** Ask the key what it can actually see, and print it.
  *
@@ -105,19 +118,20 @@ async function diagnose(label) {
   const ti = tools.json?.items || tools.json?.data || [];
   console.log(`instagram tools visible to this key: HTTP ${tools.status}, ${Array.isArray(ti) ? ti.length : "?"} found`);
   for (const t of (Array.isArray(ti) ? ti : []).slice(0, 40)) console.log(`  ${t.slug || t.name}`);
-  if (Array.isArray(ti) && ti.length === 0) {
-    console.log(`  NONE. The key is authenticating but has no Instagram toolkit in its project.`);
-    console.log(`  Fix in the Composio dashboard: confirm the API key and the connected`);
-    console.log(`  account belong to the SAME project, and that Instagram is enabled for it.`);
+  // Only conclude anything when the request actually SUCCEEDED. On a network
+  // error, status is undefined and the list is empty for a reason that has
+  // nothing to do with the key — and announcing "no toolkit" there would be
+  // the same confident-wrong-diagnosis this rewrite exists to remove.
+  if (tools.error || tools.status === undefined) {
+    console.log(`  Could not reach the API (${tools.error || "no response"}). No conclusion drawn.`);
+  } else if (tools.status >= 400) {
+    console.log(`  Request rejected with HTTP ${tools.status}. The key is being refused, not empty-handed.`);
+  } else if (Array.isArray(ti) && ti.length === 0) {
+    console.log(`  NONE, and the request succeeded — so the key is genuinely seeing an`);
+    console.log(`  Instagram toolkit with no tools in it. Confirm in the Composio dashboard`);
+    console.log(`  that the API key and the connected account are in the SAME project.`);
   }
   console.log(`--- end diagnostics ---\n`);
-}
-
-// node scripts/instagram-upload-composio.mjs --diagnose
-// Prints what the key can see and exits. Publishes nothing, needs no video.
-if (A.diagnose) {
-  await diagnose("requested");
-  process.exit(0);
 }
 
 async function execTool(slug, argumentsObj) {
