@@ -1,5 +1,4 @@
 {
-  "_DRAFT": "UNVERIFIED TOPIC. Generated with --allow-unverified. The factual claims in these beats have not been checked against a source. Do not publish this. See reviewNote in scripts/data/topics-rich.json.",
   "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (konami-code)",
   "_timing": "Cuts land on pauses measured in sounds/konami-keen.mp3 with ffmpeg silencedetect, offset by voiceDelayInFrames=37 so the opening beat finishes before the narration starts. Re-measure if the narration is regenerated.",
   "palette": {

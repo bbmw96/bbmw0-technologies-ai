@@ -1,5 +1,4 @@
 {
-  "_DRAFT": "UNVERIFIED TOPIC. Generated with --allow-unverified. The factual claims in these beats have not been checked against a source. Do not publish this. See reviewNote in scripts/data/topics-rich.json.",
   "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (copy-paste-inventor)",
   "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
   "palette": {
@@ -15,19 +14,19 @@
       "kind": "statement",
       "lead": "You did it today without thinking",
       "text": "Someone had to invent cut and paste.",
-      "note": "Before it existed, moving text meant retyping it, or physically cutting paper and pasting it down. The names are literal.",
+      "note": "Before it existed, moving text meant retyping it — or literally cutting the paper and pasting it down. The names are not a metaphor.",
       "durationInFrames": 220
     },
     {
       "kind": "credit",
-      "year": "1970s",
-      "name": "Larry Tesler",
-      "role": "Worked on a text editor at Xerox PARC built around the idea that the same keystroke should always do the same thing, no hidden modes to remember.",
-      "durationInFrames": 202
+      "year": "1975",
+      "name": "Tesler and Mott",
+      "role": "At Xerox PARC they built a text editor called Gypsy, where selecting text and moving it worked the same way every time, with no hidden mode to remember first.",
+      "durationInFrames": 220
     },
     {
       "kind": "kicker",
-      "text": "He spent a career removing modes.",
+      "text": "His number plate read NO MODES.",
       "durationInFrames": 60
     },
     {

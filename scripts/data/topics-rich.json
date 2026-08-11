@@ -18,10 +18,12 @@
     "accident. Set verified:true only when every factual claim in the beats is",
     "backed by an entry in sources, and you have actually read them.",
     "",
-    "DRAFTS ARE USEFUL",
-    "An entry with verified:false is not a mistake. It is a claim worth checking,",
-    "written down so the checking is a small job rather than a blank page. Fill",
-    "sources, confirm the numbers, flip the flag.",
+    "ON NUMBERS SPECIFICALLY",
+    "A figure beat renders a value at 300px. That is an enormous claim to make.",
+    "Only add one where the number is real, specific and sourced. Two of the",
+    "three topics below have no figure beat, because forcing one would mean",
+    "inventing it, and a four-beat video is the correct answer to not having a",
+    "fifth true thing to say.",
     "",
     "BEAT KINDS available: code, statement, credit, figure, kicker, sign.",
     "Durations are NOT set here. generate-reels.mjs computes them from how long",
@@ -33,9 +35,14 @@
     {
       "id": "konami-code",
       "niche": "gaming",
-      "verified": false,
-      "sources": [],
-      "reviewNote": "Written by hand in an earlier session and already rendered as the demo reel. The sources were never recorded, so it cannot claim verified status. Everything below needs a citation before this ships: that Hashimoto was porting Gradius to the NES in 1986, that the code began as a debug shortcut granting a full power-up set, that he left it in, and that Contra granted 30 lives. Konami's own 2020 statement on Hashimoto's death is a likely primary source.",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kazuhisa_Hashimoto — Hashimoto (1958-2020) created the code while porting the arcade Gradius to the NES in 1986; he added a sequence granting full power-ups so he could finish the game for in-house testing, and intended to remove it before ship.",
+        "https://en.wikipedia.org/wiki/Konami_Code — the game shipped with the code still in it; players found it and reported it back to Konami. Wider fame came with Contra in 1988, where the code granted additional lives.",
+        "https://www.npr.org/2020/02/26/809622331/kazuhisa-hashimoto-creator-of-famous-konami-code-gaming-cheat-dies — obituary confirming authorship and the Gradius origin.",
+        "https://contra.fandom.com/wiki/Konami_Code — the Contra figure specifically: the code gives 30 lives, shown in-game as 'Rest 30'. Corroborated by multiple cheat references; the code is commonly called the 30 Lives Code."
+      ],
+      "verifiedNote": "Checked 11 Aug 2026. The '30 lives' figure was the one worth confirming separately from the origin story — Wikipedia says only 'additional lives', so the number comes from the Contra-specific sources. The beat text is left exactly as rendered because the narration track is cut to it; changing a word would desync voiceCuts.",
       "voice": "sounds/konami-keen.mp3",
       "voiceDelayInFrames": 37,
       "voiceCuts": [1.784, 3.997, 9.710, 17.669, 22.561, 24.189],
@@ -54,31 +61,42 @@
     {
       "id": "first-bug-real",
       "niche": "tech",
-      "verified": false,
-      "sources": [],
-      "reviewNote": "DRAFT — every claim here is from memory and none of it is checked. Needs confirming: the date, that the machine was the Harvard Mark II, who actually found and taped the moth, the exact logbook wording, and where the logbook is held now. Grace Hopper is popularly credited but the attribution is contested — do not state it as fact until sourced. The Smithsonian's own catalogue entry is the obvious place to start.",
+      "verified": true,
+      "sources": [
+        "https://americanhistory.si.edu/collections/object/nmah_334663 — the Smithsonian National Museum of American History's own catalogue entry for the log book with the moth still taped in.",
+        "https://www.computerhistory.org/tdih/september/9/ — date and machine: 9 September 1947, Harvard Mark II.",
+        "https://daily.jstor.org/the-bug-in-the-computer-bug-story/ — the correction that matters: 'bug' for a technical fault predates 1947 by over a century, back to Edison, so this was never the coining of the term.",
+        "https://www.pricefx.com/learning-center/software-engineering-debacles-grace-hopper-and-the-first-reported-bug — the logbook wording: '15:45 Relay #70 Panel F (moth) in relay. First actual case of bug being found.'"
+      ],
+      "verifiedNote": "Checked 11 Aug 2026. Grace Hopper is deliberately NOT named. Sources agree she was on the Mark II team and popularised the story in later lectures, but the log book was probably not hers and the attribution is contested. The beats credit the machine and an unnamed operator instead, which is what the evidence actually supports. The joke in the note beat — that engineers had used 'bug' for decades before one turned out to be literal — is the JSTOR correction, used as the hook rather than buried. There WAS a figure beat here showing 70, the relay number, and it was cut. The number is true and sourced, but a figure beat renders its value at 300px, and the relay number carries no significance whatsoever — it is an address, not a fact. Setting it that large would have overstated it. Being true is not sufficient; a number given that much emphasis has to deserve it. The detail now sits in a statement beat where it reads as the log entry it actually is.",
       "palette": { "bg": "#0E1116", "ink": "#F2F4F3", "accent": "#4ADE80", "muted": "#7C8794" },
       "bed": { "url": "sounds/bbmw0-rain-distant.mp3", "volume": 0.32 },
       "beats": [
-        { "kind": "statement", "lead": "The word predates the machine", "text": "The first computer bug was an actual insect.", "note": "Engineers had been calling faults bugs for decades. This is the day one turned out to be literal." },
-        { "kind": "credit", "year": "1947", "name": "Harvard Mark II", "role": "An operator traced a fault to a moth caught in a relay, removed it, and taped it into the logbook rather than throwing it away." },
+        { "kind": "statement", "lead": "The word is older than the machine", "text": "One day the bug was literal.", "note": "Engineers had called faults bugs since Edison. On this one afternoon, someone opened a relay and found an actual insect." },
+        { "kind": "credit", "year": "1947", "name": "Harvard Mark II", "role": "9 September. An operator traced a fault to a moth caught in a relay, removed it, and taped it into the log book instead of throwing it away." },
+        { "kind": "statement", "lead": "What they wrote in the log", "text": "First actual case of bug being found.", "note": "Relay #70, Panel F. 15:45. The wording gives it away — they knew the joke they were making." },
         { "kind": "kicker", "text": "They kept the moth." },
-        { "kind": "sign", "line": "The bug is still in the logbook.", "handle": "@bbmw.0" }
+        { "kind": "sign", "line": "It is still taped to the page, in the Smithsonian.", "handle": "@bbmw.0" }
       ]
     },
 
     {
       "id": "copy-paste-inventor",
       "niche": "tech",
-      "verified": false,
-      "sources": [],
-      "reviewNote": "DRAFT — unchecked. Confirm: the year, that the editor was called Gypsy, that Tim Mott co-designed it, that Xerox PARC is the right lab, and above all what Tesler's actual contribution was. His own site and obituaries are good sources. Do not invent a usage statistic for the figure beat — there is deliberately no figure beat here because I have no real number.",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Larry_Tesler — joined Xerox PARC in 1973; worked with Tim Mott on the Gypsy text editor; developed cut, copy and paste and the principle of modeless software. Died 2020, aged 74.",
+        "https://worrydream.com/refs/Tesler_2012_-_A_Personal_History_of_Modeless_Text_Editing_and_Cut-Copy-Paste.pdf — Tesler's own 2012 account, the primary source for how the commands came about.",
+        "https://www.fastcompany.com/90466328/a-tribute-to-larry-tesler-the-father-of-user-friendly-design — the NO MODES number plate, and the framing of modelessness as his life's argument.",
+        "https://www.tiny.cloud/blog/copy-paste-inventor/ — Gypsy dated to 1974-75 and the mechanics of the modeless selection it introduced."
+      ],
+      "verifiedNote": "Checked 11 Aug 2026. Tim Mott is credited alongside Tesler in every source, so the credit beat names both — 'invented by Larry Tesler' alone is the popular shorthand and it is not quite right. No figure beat: there is no real number here, and a usage statistic would have had to be invented, which is the exact thing this file exists to prevent. The NO MODES plate is real and does the work a number would have.",
       "palette": { "bg": "#12100E", "ink": "#F5F0E8", "accent": "#F59E0B", "muted": "#8B8178" },
       "bed": { "url": "sounds/bbmw0-stream.mp3", "volume": 0.3 },
       "beats": [
-        { "kind": "statement", "lead": "You did it today without thinking", "text": "Someone had to invent cut and paste.", "note": "Before it existed, moving text meant retyping it, or physically cutting paper and pasting it down. The names are literal." },
-        { "kind": "credit", "year": "1970s", "name": "Larry Tesler", "role": "Worked on a text editor at Xerox PARC built around the idea that the same keystroke should always do the same thing, no hidden modes to remember." },
-        { "kind": "kicker", "text": "He spent a career removing modes." },
+        { "kind": "statement", "lead": "You did it today without thinking", "text": "Someone had to invent cut and paste.", "note": "Before it existed, moving text meant retyping it — or literally cutting the paper and pasting it down. The names are not a metaphor." },
+        { "kind": "credit", "year": "1975", "name": "Tesler and Mott", "role": "At Xerox PARC they built a text editor called Gypsy, where selecting text and moving it worked the same way every time, with no hidden mode to remember first." },
+        { "kind": "kicker", "text": "His number plate read NO MODES." },
         { "kind": "sign", "line": "The best tools disappear.", "handle": "@bbmw.0" }
       ]
     }
