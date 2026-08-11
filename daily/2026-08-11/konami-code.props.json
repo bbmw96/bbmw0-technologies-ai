@@ -1,0 +1,56 @@
+{
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (konami-code)",
+  "_timing": "Cuts land on pauses measured in sounds/konami-keen.mp3 with ffmpeg silencedetect, offset by voiceDelayInFrames=37 so the opening beat finishes before the narration starts. Re-measure if the narration is regenerated.",
+  "palette": {
+    "bg": "#0B0B0F",
+    "ink": "#F5F5F0",
+    "accent": "#FF3D2E",
+    "muted": "#8A8A93"
+  },
+  "voiceUrl": "sounds/konami-keen.mp3",
+  "voiceVolume": 1,
+  "voiceDelayInFrames": 37,
+  "audioUrl": "sounds/norm/bbmw0-wind-open.mp3",
+  "audioVolume": 0.6,
+  "beats": [
+    {
+      "kind": "code",
+      "chars": "↑↑↓↓←→←→BA",
+      "caption": "You already know this one.",
+      "durationInFrames": 91
+    },
+    {
+      "kind": "statement",
+      "lead": "But here is the part nobody says",
+      "text": "It was never meant to ship.",
+      "note": "The Konami Code was debug scaffolding. It was supposed to be deleted before release.",
+      "durationInFrames": 66
+    },
+    {
+      "kind": "credit",
+      "year": "1986",
+      "name": "Kazuhisa Hashimoto",
+      "role": "Porting Gradius to the NES. He could not get through his own game well enough to test it, so he wrote a shortcut that handed the player every power-up at once.",
+      "durationInFrames": 171
+    },
+    {
+      "kind": "figure",
+      "value": "30",
+      "unit": "lives",
+      "context": "What the same code granted in Contra, two years later. That is the version most people remember.",
+      "durationInFrames": 239
+    },
+    {
+      "kind": "kicker",
+      "text": "He forgot to take it out.",
+      "durationInFrames": 147
+    },
+    {
+      "kind": "sign",
+      "line": "A bug that outlived the console.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 94
+    }
+  ],
+  "_composition": "Reel"
+}

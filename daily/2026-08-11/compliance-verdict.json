@@ -14,7 +14,8 @@
     "wombat-poo",
     "embeddings-meaning",
     "pixel-origin",
-    "speedrun-frame"
+    "speedrun-frame",
+    "konami-code"
   ],
   "blocked": [],
   "results": [
@@ -456,6 +457,62 @@
         "combo": "glacier|sans|sounds/bbmw0-rain-heavy.mp3",
         "themeGap": 7,
         "audioGap": 5
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "konami-code",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "You already know this one.",
+      "niche": "gaming",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.theme_spacing",
+          "message": "Theme \"undefined\" reused after only 1 video(s). Minimum gap is 3.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.niche_batch",
+          "message": "3 videos in this batch are \"gaming\". Maximum is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.125,
+        "worstTitleAgainst": "sloth-digest",
+        "worstDescriptionSimilarity": 0.21,
+        "combo": "undefined|undefined|sounds/norm/bbmw0-wind-open.mp3",
+        "themeGap": 1,
+        "audioGap": null
       },
       "aiPanel": {
         "available": false,

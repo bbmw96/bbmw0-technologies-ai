@@ -45,7 +45,8 @@
     "octopus-blood",
     "speedrun-frame",
     "pixel-origin",
-    "embeddings-meaning"
+    "embeddings-meaning",
+    "reel:konami-code"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -712,6 +713,19 @@
       "title": "AI turns words into coordinates. #Shorts",
       "description": "A quick fact, in vertical, with no faces and no fluff.\n\nAI turns words into coordinates. Similar meanings sit close together.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts",
       "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "konami-code",
+      "date": "2026-08-11",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "sounds/norm/bbmw0-wind-open.mp3",
+      "title": "You already know this one.",
+      "description": "You already know this one.\n\nIt was never meant to ship. The Konami Code was debug scaffolding. It was supposed to be deleted before release.\n\nPorting Gradius to the NES. He could not get through his own game well enough to test it, so he wrote a shortcut that handed the player every power-up at once.\n\nWhat the same code granted in Contra, two years later. That is the version most people remember.\n\nHe forgot to take it out.\n\nSources:\n- https://en.wikipedia.org/wiki/Kazuhisa_Hashimoto\n- https://en.wikipedia.org/wiki/Konami_Code\n- https://www.npr.org/2020/02/26/809622331/kazuhisa-hashimoto-creator-of-famous-konami-code-gaming-cheat-dies\n- https://contra.fandom.com/wiki/Konami_Code\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
