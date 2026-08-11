@@ -1,0 +1,58 @@
+{
+  "special": false,
+  "themeId": "forest",
+  "fontFamilyId": "sans",
+  "audioUrl": "sounds/bbmw0-forest-wind.mp3",
+  "audioVolume": 0.5,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "True story.",
+      "text": "Old window glass is not slowly flowing.",
+      "sub": "Stay with us.",
+      "durationInFrames": 116,
+      "variant": 2
+    },
+    {
+      "kind": "bigword",
+      "text": "It was made uneven.",
+      "durationInFrames": 159,
+      "variant": 2
+    },
+    {
+      "kind": "stat",
+      "number": "7",
+      "label": "Keep that in mind.",
+      "durationInFrames": 176,
+      "variant": 1
+    },
+    {
+      "kind": "list",
+      "heading": "Three things to know",
+      "items": [
+        "Experiments first",
+        "Then a theory",
+        "Then peer review"
+      ],
+      "durationInFrames": 185,
+      "variant": 2
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Read.",
+        "Note.",
+        "Share."
+      ],
+      "durationInFrames": 133,
+      "variant": 1
+    },
+    {
+      "kind": "cta",
+      "headline": "Save this one.",
+      "url": "youtube.com/@bbmw0",
+      "durationInFrames": 131,
+      "variant": 3
+    }
+  ]
+}

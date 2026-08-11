@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-11",
+  "generatedAt": "2026-08-11T09:56:41.971Z",
+  "policyVersion": "1.0.0",
+  "strictMode": false,
+  "allowed": [
+    "binary-search-half",
+    "eiffel-temp",
+    "glass-liquid-myth",
+    "nintendo-1889"
+  ],
+  "blocked": [],
+  "results": [
+    {
+      "slug": "binary-search-half",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Binary search finds one item in a million in twenty steps. #Shorts",
+      "niche": "tech",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.077,
+        "worstTitleAgainst": "sloth-digest",
+        "worstDescriptionSimilarity": 0.409,
+        "combo": "midnight|serif|sounds/bbmw0-stream.mp3",
+        "themeGap": 6,
+        "audioGap": 8
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "eiffel-temp",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "The Eiffel Tower was built to be temporary. #Shorts",
+      "niche": "history",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.127,
+        "worstTitleAgainst": "first-video-game",
+        "worstDescriptionSimilarity": 0.409,
+        "combo": "peach|serif|sounds/bbmw0-stream.mp3",
+        "themeGap": 32,
+        "audioGap": 8
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "glass-liquid-myth",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Old window glass is not slowly flowing. #Shorts",
+      "niche": "science",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.061,
+        "worstTitleAgainst": "git-snapshot",
+        "worstDescriptionSimilarity": 0.537,
+        "combo": "forest|sans|sounds/bbmw0-forest-wind.mp3",
+        "themeGap": 10,
+        "audioGap": 10
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "nintendo-1889",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Nintendo was founded in 1889. #Shorts #didyouknow",
+      "niche": "history",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.065,
+        "worstTitleAgainst": "at-symbol-accounting",
+        "worstDescriptionSimilarity": 0.5,
+        "combo": "mint|sans|sounds/bbmw0-ocean-shore.mp3",
+        "themeGap": 13,
+        "audioGap": 7
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    }
+  ]
+}

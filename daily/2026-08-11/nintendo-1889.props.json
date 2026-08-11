@@ -1,0 +1,58 @@
+{
+  "special": false,
+  "themeId": "mint",
+  "fontFamilyId": "sans",
+  "audioUrl": "sounds/bbmw0-ocean-shore.mp3",
+  "audioVolume": 0.45,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "One minute fact.",
+      "text": "Nintendo was founded in 1889.",
+      "sub": "Here's the thing.",
+      "durationInFrames": 114,
+      "variant": 2
+    },
+    {
+      "kind": "bigword",
+      "text": "It started selling playing cards.",
+      "durationInFrames": 140,
+      "variant": 3
+    },
+    {
+      "kind": "stat",
+      "number": "5",
+      "label": "Mind the number.",
+      "durationInFrames": 166,
+      "variant": 3
+    },
+    {
+      "kind": "list",
+      "heading": "What this means",
+      "items": [
+        "Records are sparse",
+        "Witnesses are rare",
+        "Truth is fragile"
+      ],
+      "durationInFrames": 180,
+      "variant": 3
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Watch.",
+        "Learn.",
+        "Apply."
+      ],
+      "durationInFrames": 152,
+      "variant": 2
+    },
+    {
+      "kind": "cta",
+      "headline": "Share it.",
+      "url": "bbmw0-technologies-ai.vercel.app",
+      "durationInFrames": 148,
+      "variant": 1
+    }
+  ]
+}

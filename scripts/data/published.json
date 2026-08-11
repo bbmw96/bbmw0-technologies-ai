@@ -34,7 +34,11 @@
     "carrot-purple",
     "rain-speed",
     "seahorse-males",
-    "trees-communicate"
+    "trees-communicate",
+    "glass-liquid-myth",
+    "binary-search-half",
+    "eiffel-temp",
+    "nintendo-1889"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -516,6 +520,74 @@
       "uploadedAt": "2026-08-10T10:20:00.000Z",
       "privacy": "public",
       "recovered": "Reconstructed from the YouTube channel listing after run #113 failed to push its record. Theme, font, audio and description are not recoverable and are omitted rather than invented."
+    },
+    {
+      "id": "glass-liquid-myth",
+      "date": "2026-08-11",
+      "themeId": "forest",
+      "fontFamilyId": "sans",
+      "audioUrl": "sounds/bbmw0-forest-wind.mp3",
+      "title": "Old window glass is not slowly flowing. #Shorts",
+      "description": "Pure kinetic typography. No faces, no chatter.\n\nOld window glass is not slowly flowing. It was made uneven.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "exoVMFddMsY",
+      "youtubeUrl": "https://youtu.be/exoVMFddMsY",
+      "uploadedAt": "2026-08-11T10:12:00.274Z",
+      "privacy": "public"
+    },
+    {
+      "id": "binary-search-half",
+      "date": "2026-08-11",
+      "themeId": "midnight",
+      "fontFamilyId": "serif",
+      "audioUrl": "sounds/bbmw0-stream.mp3",
+      "title": "Binary search finds one item in a million in twenty steps. #Shorts",
+      "description": "Take 40 seconds. Learn something tiny.\n\nBinary search finds one item in a million in twenty steps. Halving beats counting.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "VZ3Gzy7GxB8",
+      "youtubeUrl": "https://youtu.be/VZ3Gzy7GxB8",
+      "uploadedAt": "2026-08-11T10:01:50.148Z",
+      "privacy": "public"
+    },
+    {
+      "id": "eiffel-temp",
+      "date": "2026-08-11",
+      "themeId": "peach",
+      "fontFamilyId": "serif",
+      "audioUrl": "sounds/bbmw0-stream.mp3",
+      "title": "The Eiffel Tower was built to be temporary. #Shorts",
+      "description": "Made on a phone. For a phone.\n\nThe Eiffel Tower was built to be temporary. Lasted 137 years so far.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "AY-I_LMlBfM",
+      "youtubeUrl": "https://youtu.be/AY-I_LMlBfM",
+      "uploadedAt": "2026-08-11T10:06:55.100Z",
+      "privacy": "public"
+    },
+    {
+      "id": "nintendo-1889",
+      "date": "2026-08-11",
+      "themeId": "mint",
+      "fontFamilyId": "sans",
+      "audioUrl": "sounds/bbmw0-ocean-shore.mp3",
+      "title": "Nintendo was founded in 1889. #Shorts #didyouknow",
+      "description": "A quick fact, in vertical, with no faces and no fluff.\n\nNintendo was founded in 1889. It started selling playing cards.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #didyouknow",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "fKxeSmJxZTA",
+      "youtubeUrl": "https://youtu.be/fKxeSmJxZTA",
+      "uploadedAt": "2026-08-11T10:17:09.478Z",
+      "privacy": "public"
     }
   ]
 }

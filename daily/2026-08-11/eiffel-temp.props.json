@@ -1,0 +1,58 @@
+{
+  "special": false,
+  "themeId": "peach",
+  "fontFamilyId": "serif",
+  "audioUrl": "sounds/bbmw0-stream.mp3",
+  "audioVolume": 0.5,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "True story.",
+      "text": "The Eiffel Tower was built to be temporary.",
+      "sub": "True, mostly.",
+      "durationInFrames": 110,
+      "variant": 3
+    },
+    {
+      "kind": "bigword",
+      "text": "Lasted 137 years so far.",
+      "durationInFrames": 140,
+      "variant": 2
+    },
+    {
+      "kind": "stat",
+      "number": "38",
+      "label": "Mind the number.",
+      "durationInFrames": 169,
+      "variant": 3
+    },
+    {
+      "kind": "list",
+      "heading": "Quick context",
+      "items": [
+        "Records are sparse",
+        "Witnesses are rare",
+        "Truth is fragile"
+      ],
+      "durationInFrames": 193,
+      "variant": 1
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Read.",
+        "Note.",
+        "Share."
+      ],
+      "durationInFrames": 149,
+      "variant": 2
+    },
+    {
+      "kind": "cta",
+      "headline": "File it away.",
+      "url": "bbmw0-technologies-ai.vercel.app",
+      "durationInFrames": 139,
+      "variant": 1
+    }
+  ]
+}

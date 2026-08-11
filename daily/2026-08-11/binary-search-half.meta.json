@@ -1,0 +1,27 @@
+{
+  "slug": "binary-search-half",
+  "date": "2026-08-11",
+  "title": "Binary search finds one item in a million in twenty steps. #Shorts",
+  "description": "Take 40 seconds. Learn something tiny.\n\nBinary search finds one item in a million in twenty steps. Halving beats counting.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts",
+  "tags": [
+    "shorts",
+    "tech",
+    "coding",
+    "developer",
+    "techfacts",
+    "computerscience"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-08-11-binary-search-half.mp4",
+  "propsFile": "daily/2026-08-11/binary-search-half.props.json",
+  "durationInFrames": 900,
+  "themeId": "midnight",
+  "fontFamilyId": "serif",
+  "audioUrl": "sounds/bbmw0-stream.mp3",
+  "niche": "tech"
+}

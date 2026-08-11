@@ -1,0 +1,58 @@
+{
+  "special": false,
+  "themeId": "midnight",
+  "fontFamilyId": "serif",
+  "audioUrl": "sounds/bbmw0-stream.mp3",
+  "audioVolume": 0.5,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "True story.",
+      "text": "Binary search finds one item in a million in twenty steps.",
+      "sub": "Stay with us.",
+      "durationInFrames": 125,
+      "variant": 3
+    },
+    {
+      "kind": "bigword",
+      "text": "Halving beats counting.",
+      "durationInFrames": 137,
+      "variant": 2
+    },
+    {
+      "kind": "stat",
+      "number": "0",
+      "label": "Mind the number.",
+      "durationInFrames": 157,
+      "variant": 2
+    },
+    {
+      "kind": "list",
+      "heading": "What to remember",
+      "items": [
+        "Read the spec",
+        "Try it small",
+        "Ship it"
+      ],
+      "durationInFrames": 195,
+      "variant": 1
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Read.",
+        "Note.",
+        "Share."
+      ],
+      "durationInFrames": 151,
+      "variant": 3
+    },
+    {
+      "kind": "cta",
+      "headline": "Share it.",
+      "url": "bbmw0-technologies-ai.vercel.app/install",
+      "durationInFrames": 135,
+      "variant": 1
+    }
+  ]
+}

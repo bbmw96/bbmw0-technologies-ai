@@ -1,0 +1,24 @@
+Rendering 4 Shorts for 2026-08-11 (concurrency=3, GL=default)
+Compliance: 4 cleared, 0 blocked (policy v1.0.0).
+
+--- binary-search-half ---
+  theme=midnight font=serif audio=sounds/bbmw0-stream.mp3 privacy=public
+  rendered: out/daily-2026-08-11-binary-search-half.mp4
+  uploaded public: https://youtu.be/VZ3Gzy7GxB8
+
+--- eiffel-temp ---
+  theme=peach font=serif audio=sounds/bbmw0-stream.mp3 privacy=public
+  rendered: out/daily-2026-08-11-eiffel-temp.mp4
+  uploaded public: https://youtu.be/AY-I_LMlBfM
+
+--- glass-liquid-myth ---
+  theme=forest font=sans audio=sounds/bbmw0-forest-wind.mp3 privacy=public
+  rendered: out/daily-2026-08-11-glass-liquid-myth.mp4
+  uploaded public: https://youtu.be/exoVMFddMsY
+
+--- nintendo-1889 ---
+  theme=mint font=sans audio=sounds/bbmw0-ocean-shore.mp3 privacy=public
+  rendered: out/daily-2026-08-11-nintendo-1889.mp4
+  uploaded public: https://youtu.be/fKxeSmJxZTA
+
+=== Done. 4 rendered, 4 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===
