@@ -1,0 +1,50 @@
+{
+  "palette": {
+    "bg": "#0B0B0F",
+    "ink": "#F5F5F0",
+    "accent": "#FF3D2E",
+    "muted": "#8A8A93"
+  },
+  "audioUrl": "sounds/bbmw0-wind-open.mp3",
+  "audioVolume": 0.34,
+  "beats": [
+    {
+      "kind": "code",
+      "chars": "↑↑↓↓←→←→BA",
+      "caption": "You already know this one.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "statement",
+      "lead": "But here is the part nobody says",
+      "text": "It was never meant to ship.",
+      "note": "The Konami Code was debug scaffolding. It was supposed to be deleted before release.",
+      "durationInFrames": 150
+    },
+    {
+      "kind": "credit",
+      "year": "1986",
+      "name": "Kazuhisa Hashimoto",
+      "role": "Porting Gradius to the NES. He could not get through his own game well enough to test it, so he wrote a shortcut that handed the player every power-up at once.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "figure",
+      "value": "30",
+      "unit": "lives",
+      "context": "What the same code granted in Contra, two years later. That is the version most people remember.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "kicker",
+      "text": "He forgot to take it out.",
+      "durationInFrames": 150
+    },
+    {
+      "kind": "sign",
+      "line": "A bug that outlived the console.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 150
+    }
+  ]
+}
