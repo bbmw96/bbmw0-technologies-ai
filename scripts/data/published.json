@@ -48,7 +48,8 @@
     "embeddings-meaning",
     "reel:konami-code",
     "reel:first-bug-real",
-    "reel:copy-paste-inventor"
+    "reel:copy-paste-inventor",
+    "qwerty-not-speed"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -753,6 +754,19 @@
       "audioUrl": "sounds/norm/bbmw0-stream.mp3",
       "title": "Someone had to invent cut and paste.",
       "description": "Someone had to invent cut and paste. Before it existed, moving text meant retyping it, or literally cutting the paper and pasting it down. The names are not a metaphor.\n\nAt Xerox PARC they built a text editor called Gypsy, where selecting text and moving it worked the same way every time, with no hidden mode to remember first.\n\nIn 1975 it turned up in Businessweek. In a feature called The Office of the Future. The idea was worth reporting before it was furniture.\n\nHis number plate read NO MODES.\n\nSources:\n- https://en.wikipedia.org/wiki/Larry_Tesler\n- https://worrydream.com/refs/Tesler_2012_-_A_Personal_History_of_Modeless_Text_Editing_and_Cut-Copy-Paste.pdf\n- https://www.fastcompany.com/90466328/a-tribute-to-larry-tesler-the-father-of-user-friendly-design\n- https://www.tiny.cloud/blog/copy-paste-inventor/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "qwerty-not-speed",
+      "date": "2026-08-11",
+      "themeId": "ember",
+      "fontFamilyId": "sans",
+      "audioUrl": "sounds/norm/bbmw0-ocean-swell.mp3",
+      "title": "QWERTY was not designed for typing speed. #Shorts",
+      "description": "Pure kinetic typography. No faces, no chatter.\n\nQWERTY was not designed for typing speed. It was built for telegraph operators.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts",
       "niche": "tech",
       "channelId": "ig-aigameodyssey",
       "special": false,

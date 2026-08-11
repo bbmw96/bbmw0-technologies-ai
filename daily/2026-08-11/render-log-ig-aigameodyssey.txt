@@ -1,5 +1,5 @@
-Rendering 11 Shorts for 2026-08-11 (concurrency=3, GL=default)
-Compliance: 8 cleared, 3 blocked (policy v1.0.0).
+Rendering 12 Shorts for 2026-08-11 (concurrency=3, GL=default)
+Compliance: 9 cleared, 3 blocked (policy v1.0.0).
 Blocked by compliance: binary-search-half, copy-paste-inventor, first-bug-real
 
 --- atom-replacement ---
@@ -29,7 +29,39 @@ Blocked by compliance: binary-search-half, copy-paste-inventor, first-bug-real
   composition=Reel audio=sounds/norm/bbmw0-wind-open.mp3 privacy=public
   rendered: out/daily-2026-08-11-konami-code.mp4
   hosting media so Instagram can fetch it...
-  FAILED to host media. Instagram cannot fetch a local file.
+  ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
+  instagram via: Composio
+  FAILED upload: Command failed: node scripts/instagram-upload-composio.mjs --video-url="https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-08-11/daily-2026-08-11-konami-code.mp4" --caption="You already know this one." --tags="shorts,gaming,facts,didyouknow,history"
+Upload failed: INSTAGRAM_POST_IG_USER_MEDIA: HTTP 404: {"error":{"message":"Tool INSTAGRAM_POST_IG_USER_MEDIA not found","code":2401,"slug":"Tool_ToolNotFound","status":404,"request_id":"fff05d51-e0fa-4bc1-970b-28d2292729fa","suggested_fix":"Check your input."}}
+
+  --- child stdout ---
+  |   _1PASSWORD_REMOVE_GROUP_MEMBERS
+  |   _1PASSWORD_SEARCH_COMPANIES
+  |   _1PASSWORD_SEARCH_STATES
+  |   _21RISK_GET_COMPLIANCE
+  |   _21RISK_GET_ITEMS
+  |   _21RISK_GET_ITEMS_PER_MONTH
+  |   _21RISK_GET_ORGANIZATIONS
+  |   _21RISK_GET_PROPERTIES
+  |   _21RISK_GET_REPORTS
+  |   _21RISK_GET_RISKMODEL_CATEGORIES
+  |   _21RISK_GET_RISK_MODELS
+  |   _21RISK_GET_SITES
+  |   _2CHAT_CREATE_CONTACT
+  |   _2CHAT_GET_API_USAGE_INFO
+  |   _2CHAT_LIST_CONTACTS
+  |   _2CHAT_LIST_WEBHOOKS
+  |   _2CHAT_TEST_API_KEY
+  |   ABLY_BATCH_PRESENCE
+  |   ABLY_BATCH_PRESENCE_HISTORY
+  |   ABLY_CREATE_CHANNEL
+  |   ABLY_DELETE_CHANNEL_SUBSCRIPTION
+  |   ABLY_GET_CHANNEL_DETAILS
+  |   ABLY_GET_CHANNEL_HISTORY
+  |   ABLY_GET_PRESENCE_HISTORY
+  | --- end diagnostics ---
+  --- child stderr ---
+  | Upload failed: INSTAGRAM_POST_IG_USER_MEDIA: HTTP 404: {"error":{"message":"Tool INSTAGRAM_POST_IG_USER_MEDIA not found","code":2401,"slug":"Tool_ToolNotFound","status":404,"request_id":"fff05d51-e0fa-4bc1-970b-28d2292729fa","suggested_fix":"Check your input."}}
 
 --- nintendo-1889 ---
   SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
@@ -37,7 +69,45 @@ Blocked by compliance: binary-search-half, copy-paste-inventor, first-bug-real
 --- octopus-blood ---
   SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
 
+--- qwerty-not-speed ---
+  theme=ember font=sans audio=sounds/norm/bbmw0-ocean-swell.mp3 privacy=public
+  rendered: out/daily-2026-08-11-qwerty-not-speed.mp4
+  hosting media so Instagram can fetch it...
+  ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
+  instagram via: Composio
+  FAILED upload: Command failed: node scripts/instagram-upload-composio.mjs --video-url="https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-08-11/daily-2026-08-11-qwerty-not-speed.mp4" --caption="QWERTY was not designed for typing speed. #Shorts" --tags="shorts,tech,coding,developer,techfacts,computerscience"
+Upload failed: INSTAGRAM_POST_IG_USER_MEDIA: HTTP 404: {"error":{"message":"Tool INSTAGRAM_POST_IG_USER_MEDIA not found","code":2401,"slug":"Tool_ToolNotFound","status":404,"request_id":"e687f0e9-0e37-46bd-b606-651d80e00e5d","suggested_fix":"Check your input."}}
+
+  --- child stdout ---
+  |   _1PASSWORD_REMOVE_GROUP_MEMBERS
+  |   _1PASSWORD_SEARCH_COMPANIES
+  |   _1PASSWORD_SEARCH_STATES
+  |   _21RISK_GET_COMPLIANCE
+  |   _21RISK_GET_ITEMS
+  |   _21RISK_GET_ITEMS_PER_MONTH
+  |   _21RISK_GET_ORGANIZATIONS
+  |   _21RISK_GET_PROPERTIES
+  |   _21RISK_GET_REPORTS
+  |   _21RISK_GET_RISKMODEL_CATEGORIES
+  |   _21RISK_GET_RISK_MODELS
+  |   _21RISK_GET_SITES
+  |   _2CHAT_CREATE_CONTACT
+  |   _2CHAT_GET_API_USAGE_INFO
+  |   _2CHAT_LIST_CONTACTS
+  |   _2CHAT_LIST_WEBHOOKS
+  |   _2CHAT_TEST_API_KEY
+  |   ABLY_BATCH_PRESENCE
+  |   ABLY_BATCH_PRESENCE_HISTORY
+  |   ABLY_CREATE_CHANNEL
+  |   ABLY_DELETE_CHANNEL_SUBSCRIPTION
+  |   ABLY_GET_CHANNEL_DETAILS
+  |   ABLY_GET_CHANNEL_HISTORY
+  |   ABLY_GET_PRESENCE_HISTORY
+  | --- end diagnostics ---
+  --- child stderr ---
+  | Upload failed: INSTAGRAM_POST_IG_USER_MEDIA: HTTP 404: {"error":{"message":"Tool INSTAGRAM_POST_IG_USER_MEDIA not found","code":2401,"slug":"Tool_ToolNotFound","status":404,"request_id":"e687f0e9-0e37-46bd-b606-651d80e00e5d","suggested_fix":"Check your input."}}
+
 --- wombat-poo ---
   SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
 
-=== Done. 2 rendered, 0 uploaded, 9 skipped, 1 blocked by compliance, 1 failed. ===
+=== Done. 3 rendered, 0 uploaded, 9 skipped, 1 blocked by compliance, 2 failed. ===

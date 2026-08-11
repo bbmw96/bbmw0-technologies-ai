@@ -1,0 +1,51 @@
+{
+  "special": false,
+  "themeId": "ember",
+  "fontFamilyId": "sans",
+  "audioUrl": "sounds/norm/bbmw0-ocean-swell.mp3",
+  "audioVolume": 0.9,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Today, learn.",
+      "text": "QWERTY was not designed for typing speed.",
+      "sub": "Here's the thing.",
+      "durationInFrames": 195,
+      "variant": 3
+    },
+    {
+      "kind": "bigword",
+      "text": "It was built for telegraph operators.",
+      "durationInFrames": 195,
+      "variant": 3
+    },
+    {
+      "kind": "list",
+      "heading": "What this means",
+      "items": [
+        "The model is simple",
+        "The result is fast",
+        "The reason is design"
+      ],
+      "durationInFrames": 195,
+      "variant": 3
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Pause.",
+        "Think.",
+        "Save."
+      ],
+      "durationInFrames": 187,
+      "variant": 2
+    },
+    {
+      "kind": "cta",
+      "headline": "Tell a friend.",
+      "url": "github.com/bbmw96/bbmw0-technologies-ai",
+      "durationInFrames": 128,
+      "variant": 3
+    }
+  ]
+}
