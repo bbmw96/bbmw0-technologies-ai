@@ -1,0 +1,47 @@
+{
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (first-bug-real)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0E1116",
+    "ink": "#F2F4F3",
+    "accent": "#4ADE80",
+    "muted": "#7C8794"
+  },
+  "audioUrl": "sounds/norm/bbmw0-rain-distant.mp3",
+  "audioVolume": 1,
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The word is older than the machine",
+      "text": "One day the bug was literal.",
+      "note": "Engineers had called faults bugs since Edison. On this one afternoon, someone opened a relay and found an actual insect.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1947",
+      "name": "Harvard Mark II",
+      "role": "9 September. An operator traced a fault to a moth caught in a relay, removed it, and taped it into the log book instead of throwing it away.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "What they wrote in the log",
+      "text": "First actual case of bug being found.",
+      "note": "Relay #70, Panel F. 15:45. The wording gives it away — they knew the joke they were making.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "kicker",
+      "text": "They kept the moth.",
+      "durationInFrames": 60
+    },
+    {
+      "kind": "sign",
+      "line": "It is still taped to the page, in the Smithsonian.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 88
+    }
+  ],
+  "_composition": "Reel"
+}
