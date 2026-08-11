@@ -43,3 +43,8 @@ scripts/*.secret
 
 # TypeScript incremental build info
 *.tsbuildinfo
+
+# Render logs are a per-run artefact, not source. They are written into the
+# dated folder next to the props they describe, so without this every render
+# leaves an untracked file behind and real changes get lost in the noise.
+daily/*/render-log.txt

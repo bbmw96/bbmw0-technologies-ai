@@ -533,7 +533,11 @@ for (const g of generated) {
   console.log(`  ${g.slug.padEnd(22)} theme=${theme.padEnd(10)} font=${font.padEnd(8)} -> ${g.file}`);
 }
 console.log(`\nProps + meta files:  daily/${DATE}/`);
-console.log(`Render with:        npm run render:daily -- ${DATE}`);
+// --date=, not a positional. render-batch parses named flags only, so a bare
+// date is silently ignored and it falls back to today — which, followed
+// literally, re-renders the current day's whole batch instead of the one you
+// asked for. This hint said the wrong thing and cost a confusing ten minutes.
+console.log(`Render with:        npm run render:daily -- --date=${DATE}`);
 // Guarded. In --reels-only mode the padded path is switched off entirely, so
 // `chosen` is empty and chosen[0].id threw — the second time a cosmetic
 // summary line has crashed this script AFTER props, meta and the ledger were

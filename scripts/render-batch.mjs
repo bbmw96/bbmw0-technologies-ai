@@ -143,7 +143,14 @@ for (const propsFile of propsFiles) {
     skipCount++;
     continue;
   }
-  append(`  theme=${meta.themeId} font=${meta.fontFamilyId} audio=${meta.audioUrl} privacy=${meta.privacy}`);
+  // A Reel has no theme or font — those are ThemedShort's knobs — so this line
+  // read "theme=undefined font=undefined" for every reel. Harmless, but a log
+  // that says undefined trains you to ignore it, and this log is the record of
+  // what actually shipped.
+  const look = meta.composition === "Reel"
+    ? `composition=Reel`
+    : `theme=${meta.themeId} font=${meta.fontFamilyId}`;
+  append(`  ${look} audio=${meta.audioUrl} privacy=${meta.privacy}`);
 
   // Reuse an existing render if one is already on disk and non-trivial in size.
   let needsRender = true;
