@@ -116,36 +116,36 @@
   ],
   "audios": [
     {
-      "url": "sounds/bbmw0-rain-light.mp3",
-      "vol": 0.45
+      "url": "sounds/norm/bbmw0-rain-light.mp3",
+      "vol": 0.9
     },
     {
-      "url": "sounds/bbmw0-rain-heavy.mp3",
-      "vol": 0.4
+      "url": "sounds/norm/bbmw0-rain-heavy.mp3",
+      "vol": 0.9
     },
     {
-      "url": "sounds/bbmw0-rain-distant.mp3",
-      "vol": 0.5
+      "url": "sounds/norm/bbmw0-rain-distant.mp3",
+      "vol": 0.9
     },
     {
-      "url": "sounds/bbmw0-ocean-swell.mp3",
-      "vol": 0.45
+      "url": "sounds/norm/bbmw0-ocean-swell.mp3",
+      "vol": 0.9
     },
     {
-      "url": "sounds/bbmw0-ocean-shore.mp3",
-      "vol": 0.45
+      "url": "sounds/norm/bbmw0-ocean-shore.mp3",
+      "vol": 0.9
     },
     {
-      "url": "sounds/bbmw0-stream.mp3",
-      "vol": 0.5
+      "url": "sounds/norm/bbmw0-stream.mp3",
+      "vol": 0.9
     },
     {
-      "url": "sounds/bbmw0-forest-wind.mp3",
-      "vol": 0.5
+      "url": "sounds/norm/bbmw0-forest-wind.mp3",
+      "vol": 0.9
     },
     {
-      "url": "sounds/bbmw0-wind-open.mp3",
-      "vol": 0.5
+      "url": "sounds/norm/bbmw0-wind-open.mp3",
+      "vol": 0.9
     }
   ],
   "title_tags": [

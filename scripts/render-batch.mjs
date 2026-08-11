@@ -158,9 +158,21 @@ for (const propsFile of propsFiles) {
   }
 
   if (needsRender) {
+    // Which composition to render. Rich topics emit Editorial Reel props and
+    // stamp _composition: "Reel"; everything the ThemedShort path produces has
+    // no such field and renders as Daily, exactly as before. The allow-list
+    // matters — this string is interpolated straight into a shell command, so
+    // an unexpected value from a props file must not reach it.
+    let composition = "Daily";
+    try {
+      const declared = JSON.parse(fs.readFileSync(propsAbs, "utf8"))._composition;
+      if (declared === "Reel" || declared === "Daily") composition = declared;
+      else if (declared) append(`  ${slug}: ignoring unknown _composition "${declared}", rendering Daily`);
+    } catch { /* unreadable props will fail the render below with a clearer error */ }
+
     const renderCmd = [
       "npx remotion render",
-      "src/compositions/registry.tsx Daily",
+      `src/compositions/registry.tsx ${composition}`,
       `"${outFile}"`,
       `--props="${propsAbs}"`,
       `--concurrency=${CONCURRENCY}`,

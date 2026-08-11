@@ -32,6 +32,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import crypto from "node:crypto";
+import { execFileSync } from "node:child_process";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -63,7 +64,9 @@ function args(argv) {
   return o;
 }
 const A = args(process.argv);
-const COUNT = parseInt(A.count || "5", 10);
+// let, not const: rich topics claim slots off the top of the batch and the
+// padded ThemedShort path only covers the remainder.
+let COUNT = parseInt(A.count || "5", 10);
 const DATE  = A.date || new Date().toISOString().slice(0, 10);
 const NICHE = A.niche || null;
 
@@ -115,8 +118,67 @@ const history = fs.existsSync(PUBLISHED)
 // Pick unused topics.
 const usedTopics = new Set(history.topicsUsed);
 const channelNiches = new Set(CHANNEL.niches || []);
+
+// ---------------------------------------------------------------- rich first
+// A rich topic in topics-rich.json carries real researched content and renders
+// as an Editorial Reel: no filler list, no generic trio, no invented number.
+// A topic in topics.json carries ten words and has to be padded to fill the
+// runtime. So rich topics are always preferred, and the ThemedShort path only
+// fills whatever the rich pool cannot.
+//
+// There are three rich topics and the daily cadence is four per weekday per
+// channel, so both paths run for now. As topics-rich.json grows, the padded
+// path shrinks on its own without another change here.
+//
+// EVERYTHING BELOW IS DEFENSIVE ON PURPOSE. This runs unattended at 09:00
+// against three live channels. A malformed rich topic, a missing file, a bad
+// generator — any of it — must degrade to the old behaviour and still publish,
+// never abort the run. Hence the try/catch returning an empty list.
+let richChosen = [];
+try {
+  const RICH_FILE = path.join(DATA, "topics-rich.json");
+  if (fs.existsSync(RICH_FILE)) {
+    const rich = readJSON(RICH_FILE);
+    // Usage is tracked as "reel:<id>", not "<id>".
+    //
+    // A rich topic deliberately shares its id with the thin topics.json entry
+    // for the same subject — konami-code, first-bug-real and
+    // copy-paste-inventor all exist in both files. Checking the bare id meant
+    // every rich topic was already "used", because the padded version had
+    // shipped weeks earlier, and the reel path silently produced nothing at
+    // all. The prefix keeps the two ledgers apart: a subject can be covered
+    // once as a padded Short and once, properly, as a Reel.
+    //
+    // Nothing here stops the same subject appearing twice close together. The
+    // compliance gate's similarity rules already compare each candidate's
+    // title and description against recent videos, so genuine repetition gets
+    // flagged there rather than being silently prevented here.
+    richChosen = (rich.topics || [])
+      .filter((t) => t && t.verified === true)          // unverified never ships
+      .filter((t) => !usedTopics.has(`reel:${t.id}`))
+      .filter((t) => Array.isArray(t.beats) && t.beats.length)
+      .filter((t) => (NICHE ? t.niche === NICHE
+                            : (channelNiches.size ? channelNiches.has(t.niche) : true)))
+      .sort((a, b) => crypto.createHash("sha256").update(DATE + a.id).digest("hex")
+        .localeCompare(crypto.createHash("sha256").update(DATE + b.id).digest("hex")))
+      .slice(0, COUNT);
+  }
+} catch (err) {
+  console.log(`::warning::Rich topics unavailable (${err.message}). Falling back to ThemedShort for the whole batch.`);
+  richChosen = [];
+}
+
+// The padded path only needs to cover what rich could not.
+COUNT = Math.max(0, COUNT - richChosen.length);
+
+// Excluding richChosen ids matters: props and meta are written as
+// <id>.props.json, so if both paths picked the same subject on the same day
+// they would write to the same filenames and one would silently overwrite the
+// other.
+const richIds = new Set(richChosen.map((t) => t.id));
 const candidates = TOPICS.topics.filter((t) =>
   !usedTopics.has(t.id) &&
+  !richIds.has(t.id) &&
   (NICHE ? t.niche === NICHE
          : (channelNiches.size ? channelNiches.has(t.niche) : true))
 );
@@ -358,11 +420,92 @@ for (const topic of chosen) {
   });
 }
 
+// ---------------------------------------------------------------- reels
+// Rich topics render as Editorial Reels. Rather than reimplement the beat
+// timing here, this shells out to generate-reels.mjs — the same script that
+// produced and verified the three reels by hand, including the voice-cut
+// timing. One implementation, already tested, no second copy to drift.
+//
+// Each topic is wrapped individually: one bad rich topic loses its own slot
+// and nothing else. The batch still publishes.
+for (const topic of richChosen) {
+  try {
+    execFileSync(process.execPath,
+      [path.join(__dirname, "generate-reels.mjs"), `--id=${topic.id}`, `--out=daily/${DATE}`],
+      { cwd: ROOT, stdio: "pipe" });
+
+    const propsPath = path.join(OUTDIR, `${topic.id}.props.json`);
+    const props = readJSON(propsPath);
+    if (!Array.isArray(props.beats) || !props.beats.length) throw new Error("no beats in generated props");
+    if (props._DRAFT) throw new Error("generator marked this a draft");
+
+    // render-batch reads this to choose the composition. Absent, it renders
+    // Daily, which is what every existing props file wants.
+    props._composition = "Reel";
+    fs.writeFileSync(propsPath, JSON.stringify(props, null, 2));
+
+    const total = props.beats.reduce((s, b) => s + (b.durationInFrames || 0), 0);
+    const pub = topic.publish || {};
+    const firstText = props.beats.map((b) => b.text || b.caption).find(Boolean) || topic.id;
+    const bodyLines = props.beats
+      .map((b) => [b.text || b.caption, b.note || b.role || b.context].filter(Boolean).join(" "))
+      .filter(Boolean);
+
+    // House style forbids em-dashes in the title and description. They read
+    // well on screen, so the beats keep them; this only rewrites the copy
+    // lifted into the metadata. A comma carries the same pause.
+    const noDash = (s) => String(s).replace(/\s*—\s*/g, ", ");
+
+    const meta = {
+      slug: topic.id,
+      date: DATE,
+      title: noDash(pub.title || firstText).slice(0, 100),
+      description: noDash(pub.description || (
+        `${bodyLines.join("\n\n")}\n\n` +
+        `Sources:\n${(topic.sources || []).map((s) => `- ${String(s).split(" — ")[0]}`).join("\n")}\n\n` +
+        `Made with BBMW0 Technologies AI. Open-source, mobile-first video editor.\n` +
+        `https://bbmw0-technologies-ai.vercel.app`
+      )),
+      tags: pub.tags || ["shorts", topic.niche, "facts", "didyouknow", "history"].filter(Boolean),
+      categoryId: CHANNEL.categoryId || (topic.niche === "tech" || topic.niche === "app" ? "28" : "27"),
+      privacy: A.privacy ? PRIVACY : (CHANNEL.privacy || PRIVACY),
+      channelId: CHANNEL.id,
+      special: IS_SPECIAL,
+      platform: CHANNEL.platform,
+      handle: CHANNEL.handle,
+      file: `out/daily-${DATE}-${topic.id}.mp4`,
+      propsFile: `daily/${DATE}/${topic.id}.props.json`,
+      durationInFrames: total,
+      audioUrl: props.audioUrl || "",
+      niche: topic.niche,
+      composition: "Reel",
+    };
+    fs.writeFileSync(path.join(OUTDIR, `${topic.id}.meta.json`), JSON.stringify(meta, null, 2));
+    generated.push({ themeId: "reel", ...meta });
+
+    history.topicsUsed.push(`reel:${topic.id}`);
+    history.videos.push({
+      id: topic.id, date: DATE, themeId: "reel", fontFamilyId: "reel",
+      audioUrl: props.audioUrl || "", title: meta.title, description: meta.description,
+      niche: topic.niche, channelId: CHANNEL.id,
+      special: IS_SPECIAL, platform: CHANNEL.platform,
+    });
+  } catch (err) {
+    console.log(`::warning::Reel generation failed for ${topic.id} (${err.message}). Skipping this one; the rest of the batch is unaffected.`);
+  }
+}
+
 fs.writeFileSync(PUBLISHED, JSON.stringify(history, null, 2));
 
 console.log(`Generated ${generated.length} unique Shorts for ${DATE} on ${CHANNEL.id} (${CHANNEL.handle}, ${CHANNEL.platform}):`);
 for (const g of generated) {
-  console.log(`  ${g.slug.padEnd(22)} theme=${g.themeId.padEnd(10)} font=${g.fontFamilyId.padEnd(8)} -> ${g.file}`);
+  // Defaults, because a Reel has no theme or font: those are ThemedShort's
+  // knobs. Without them this line threw on the first hybrid batch AFTER the
+  // props, meta and ledger had all been written — a non-zero exit on work that
+  // had actually succeeded, which in the 09:00 workflow reads as a failed run.
+  const theme = g.themeId || (g.composition === "Reel" ? "reel" : "?");
+  const font = g.fontFamilyId || (g.composition === "Reel" ? "editorial" : "?");
+  console.log(`  ${g.slug.padEnd(22)} theme=${theme.padEnd(10)} font=${font.padEnd(8)} -> ${g.file}`);
 }
 console.log(`\nProps + meta files:  daily/${DATE}/`);
 console.log(`Render with:        npm run render:daily -- ${DATE}`);

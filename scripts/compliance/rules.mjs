@@ -88,6 +88,13 @@ function checkHouseStyle(meta, policy) {
   const out = [];
   const H = policy.house_style;
   const text = `${meta.title}\n${meta.description}`;
+  // House style applies to prose, not to literal addresses. A URL is not
+  // written in any dialect: a source link ending /learning-center/ blocked a
+  // video for the US spelling of "centre", which is meaningless — the path is
+  // not ours to spell and changing it would break the link. Strip URLs before
+  // the spelling check only. Em-dashes, en-dashes and emoji are still checked
+  // against the full text, because those can appear in prose around a link.
+  const prose = text.replace(/https?:\/\/\S+/g, " ");
 
   if (H.forbid_em_dash && /—/.test(text)) {
     out.push(finding(SEVERITY.BLOCK, "style.em_dash", "Em-dash found in title or description."));
@@ -101,7 +108,7 @@ function checkHouseStyle(meta, policy) {
   }
   if (H.require_uk_english) {
     for (const [us, uk] of Object.entries(H.us_spellings)) {
-      if (wordBoundary(us).test(text)) {
+      if (wordBoundary(us).test(prose)) {
         out.push(finding(SEVERITY.BLOCK, "style.us_spelling",
           `US spelling "${us}" found. Use "${uk}".`));
       }
