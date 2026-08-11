@@ -164,6 +164,18 @@ for (const propsFile of propsFiles) {
       `"${outFile}"`,
       `--props="${propsAbs}"`,
       `--concurrency=${CONCURRENCY}`,
+      // Encoding was previously left entirely to defaults, which is how a
+      // vertical Short ended up soft and heavy at the same time.
+      "--codec=h264",
+      // yuv420p is the only chroma format every phone, browser and social
+      // platform decodes reliably. Without it some encoders emit yuv444p,
+      // which several players refuse outright or fall back to software
+      // decoding for, and software decode on a phone is what stutter is.
+      "--pixel-format=yuv420p",
+      // Constant quality rather than a bitrate target: type and flat colour
+      // need very few bits, so a fixed bitrate wastes them on still frames and
+      // starves the motion. 18 is visually transparent for this material.
+      "--crf=18",
       GL_FLAGS,
     ].filter(Boolean).join(" ");
 
