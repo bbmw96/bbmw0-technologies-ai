@@ -66,9 +66,29 @@ jobs:
         run: |
           WANTED="${{ inputs.channel }}"
           THIS="${{ matrix.channel }}"
+          EVENT="${{ github.event_name }}"
+
+          # Channels held back from the AUTOMATIC schedule only. A manual
+          # dispatch that names one still publishes it, so this is a hold and
+          # not a disable.
+          #
+          # ig-aigameodyssey is held because the account has no posts at all
+          # yet, and its first ever Reel should not be one of the current
+          # filler-heavy videos. Remove it from this list once the content
+          # model is fixed.
+          #
+          # This lives here rather than in channels.json because this step runs
+          # BEFORE checkout, so channels.json is not on disk yet. Keeping one
+          # copy in the place that actually enforces it beats a second copy in
+          # a file that cannot be read at this point.
+          AUTO_HOLD="ig-aigameodyssey"
+
           if [ -n "$WANTED" ] && [ "$WANTED" != "$THIS" ]; then
             echo "run=false" >> $GITHUB_OUTPUT
             echo "Manual dispatch targeted $WANTED, skipping $THIS."
+          elif [ "$EVENT" = "schedule" ] && echo " $AUTO_HOLD " | grep -q " $THIS "; then
+            echo "run=false" >> $GITHUB_OUTPUT
+            echo "$THIS is held back from the automatic schedule. Trigger it manually to publish."
           else
             echo "run=true" >> $GITHUB_OUTPUT
           fi
