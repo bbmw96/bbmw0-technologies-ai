@@ -81,7 +81,10 @@ jobs:
           # BEFORE checkout, so channels.json is not on disk yet. Keeping one
           # copy in the place that actually enforces it beats a second copy in
           # a file that cannot be read at this point.
-          AUTO_HOLD="ig-aigameodyssey"
+          # Emptied on request: all three channels now publish on the schedule.
+          # Put a channel id back here to hold it from the cron while still
+          # allowing a manual dispatch.
+          AUTO_HOLD=""
 
           if [ -n "$WANTED" ] && [ "$WANTED" != "$THIS" ]; then
             echo "run=false" >> $GITHUB_OUTPUT
