@@ -1,12 +1,29 @@
 name: Daily Shorts
 
+# CADENCE: Monday, Wednesday, Friday at 09:00 UTC. One video per channel.
+#
+# This used to be four a weekday plus two at weekends, on three channels —
+# fourteen videos a day. That was changed deliberately, and not for cost.
+#
+# In July 2025 YouTube renamed its "repetitious content" policy to INAUTHENTIC
+# CONTENT, and the first category it names is generic, repetitive or
+# template-based content. Detection runs at CHANNEL level, not per video, and
+# the penalty ladder ends at permanent removal from the Partner Program.
+# Fourteen templated videos a day from one composition is close to a
+# description of what that policy targets.
+#
+# The volume was never buying anything either. Ad revenue needs 1,000
+# subscribers and 20 million Shorts views in 90 days for new creators as of
+# February 2026 — about 220,000 views a day. Publishing more thin videos does
+# not move that number; it just raises the risk of being removed before
+# reaching it.
+#
+# Three a week per channel, each one a researched Editorial Reel, is the trade:
+# far below the mass-production signal, and every upload is something a person
+# might actually finish watching.
 on:
   schedule:
-    # 09:00 UTC every day. Adjust HH:MM to your preferred publish hour.
-    # Weekdays: the standard run.
-    - cron: "0 9 * * 1-5"
-    # Weekends: the standard run plus the specials job below.
-    - cron: "0 9 * * 6,0"
+    - cron: "0 9 * * 1,3,5"
   workflow_dispatch:
     # Lets you trigger manually from the Actions tab.
     inputs:
@@ -84,7 +101,15 @@ jobs:
           # Emptied on request: all three channels now publish on the schedule.
           # Put a channel id back here to hold it from the cron while still
           # allowing a manual dispatch.
-          AUTO_HOLD=""
+          # Held back from the AUTOMATIC schedule. A manual dispatch naming a
+          # channel still publishes it.
+          #
+          # yt-bbm0902 covers animals, space, biology, food and weather, and
+          # topics-rich.json has nothing in those niches — so every scheduled
+          # run would fall through to the padded ThemedShort path and publish
+          # exactly the templated filler the cadence change exists to stop.
+          # It comes off hold as soon as it has researched topics of its own.
+          AUTO_HOLD="yt-bbm0902"
 
           if [ -n "$WANTED" ] && [ "$WANTED" != "$THIS" ]; then
             echo "run=false" >> $GITHUB_OUTPUT
@@ -249,12 +274,14 @@ jobs:
           NICHE="${{ inputs.niche }}"
           CHANNEL="${{ matrix.channel }}"
           SPECIAL="${{ inputs.special }}"
-          # Cadence from channels.json: 4 per weekday, plus 2 weekend specials.
-          # Sat=6 Sun=7 in ISO day numbering.
-          DOW=$(date -u +%u)
-          if [ -z "${{ inputs.count }}" ]; then
-            if [ "$DOW" -ge 6 ]; then COUNT=2; SPECIAL=true; else COUNT=4; fi
-          fi
+          # One per channel per run. See the cadence note at the top of this
+          # file: the constraint is the inauthentic-content policy, not cost.
+          #
+          # A run only publishes what it can make well. generate-shorts prefers
+          # a verified rich topic and falls back to a padded ThemedShort, so
+          # asking for one video a run means the reel path covers it as soon as
+          # topics-rich.json has an unused topic for that channel's niches.
+          if [ -z "${{ inputs.count }}" ]; then COUNT=1; fi
           ARGS="--count=$COUNT --date=$DATE"
           [ "$SPECIAL" = "true" ] && ARGS="$ARGS --special"
           [ -n "$NICHE" ]   && ARGS="$ARGS --niche=$NICHE"
