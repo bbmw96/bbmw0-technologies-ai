@@ -37,9 +37,23 @@ export type ReelBeat =
 export type ReelProps = {
   palette: { bg: string; ink: string; accent: string; muted: string };
   beats: ReelBeat[];
+  /** Ambient bed. Ducked automatically whenever voiceUrl is also set. */
   audioUrl?: string;
   audioVolume?: number;
+  /** Narration. The primary track when present; the bed sits under it. */
+  voiceUrl?: string;
+  voiceVolume?: number;
+  /** Hold the narration back this many frames. The opening beat has to finish
+   *  its own animation before anyone speaks over it — on the Konami reel the
+   *  code types itself in silence, and the voice arrives on the last glyph. */
+  voiceDelayInFrames?: number;
 };
+
+/** How far the ambient bed drops when narration is present.
+ *  A fixed duck rather than a sidechain: the browser does not expose the
+ *  voice's envelope during render, so a dynamic duck cannot be computed.
+ *  Fixed is predictable and, unlike a badly tuned compressor, never pumps. */
+const BED_DUCK = 0.38;
 
 const SANS = '"Helvetica Neue", Inter, Arial, system-ui, sans-serif';
 const MONO = 'ui-monospace, "SF Mono", Menlo, Consolas, monospace';
@@ -183,8 +197,12 @@ const FigureBeat: React.FC<{ b: Extract<ReelBeat, { kind: "figure" }>; p: ReelPr
             <span style={{ fontFamily: SANS, fontSize: 76, fontWeight: 800, color: p.accent }}>{b.unit}</span>
           ) : null}
         </div>
+        {/* p.ink, not p.bg. The wipe above paints the lower two thirds in
+            p.bg, and this line sits inside that band — set in p.bg it was
+            dark on dark and rendered invisible. The contact sheet showed the
+            beat as a bare number with no context at all. */}
         <div style={{ marginTop: 48, maxWidth: "90%" }}>
-          <Words text={b.context} size={48} colour={p.bg} weight={600} delay={18} lineHeight={1.2} tracking={0} />
+          <Words text={b.context} size={48} colour={p.ink} weight={600} delay={18} lineHeight={1.2} tracking={0} />
         </div>
       </div>
     </AbsoluteFill>
@@ -229,13 +247,23 @@ const renderBeat = (b: ReelBeat, p: ReelProps["palette"]) => {
   }
 };
 
-export const EditorialReel: React.FC<ReelProps> = ({ palette, beats, audioUrl, audioVolume = 0.4 }) => {
+export const EditorialReel: React.FC<ReelProps> = ({
+  palette, beats, audioUrl, audioVolume = 0.4,
+  voiceUrl, voiceVolume = 1, voiceDelayInFrames = 0,
+}) => {
   const { durationInFrames } = useVideoConfig();
   const frame = useCurrentFrame();
+  const bedVolume = voiceUrl ? audioVolume * BED_DUCK : audioVolume;
   let cursor = 0;
   return (
     <AbsoluteFill style={{ background: palette.bg }}>
-      {audioUrl ? <Audio src={staticFile(audioUrl)} volume={audioVolume} /> : null}
+      {audioUrl ? <Audio src={staticFile(audioUrl)} volume={bedVolume} /> : null}
+      {/* Narration last so it sits on top of the bed in the mix graph. */}
+      {voiceUrl ? (
+        <Sequence from={voiceDelayInFrames} name="narration">
+          <Audio src={staticFile(voiceUrl)} volume={voiceVolume} />
+        </Sequence>
+      ) : null}
       {beats.map((b, i) => {
         const from = cursor;
         cursor += b.durationInFrames;

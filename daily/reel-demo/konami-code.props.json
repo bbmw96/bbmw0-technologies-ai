@@ -1,50 +1,37 @@
 {
-  "palette": {
-    "bg": "#0B0B0F",
-    "ink": "#F5F5F0",
-    "accent": "#FF3D2E",
-    "muted": "#8A8A93"
-  },
+  "_timing": "Beat durations are cut to the narration's own pauses, measured with ffmpeg silencedetect on sounds/konami-keen.mp3 (-35dB, 0.30s). The voice's six speech segments end at 1.784 / 3.997 / 9.710 / 17.669 / 22.561 / 24.189s. The narration is then held back by voiceDelayInFrames so the opening code beat can finish typing in silence before anyone speaks; every boundary below is a segment end plus that delay. Cuts land within ~20ms of the speaker's sentence breaks, so the picture changes where the voice breathes. Re-measure and re-cut all of this if the narration is ever regenerated.",
+
+  "palette": { "bg": "#0B0B0F", "ink": "#F5F5F0", "accent": "#FF3D2E", "muted": "#8A8A93" },
+
+  "voiceUrl": "sounds/konami-keen.mp3",
+  "voiceVolume": 1,
+  "voiceDelayInFrames": 37,
   "audioUrl": "sounds/bbmw0-wind-open.mp3",
   "audioVolume": 0.34,
+
   "beats": [
-    {
-      "kind": "code",
-      "chars": "↑↑↓↓←→←→BA",
+    { "kind": "code", "chars": "↑↑↓↓←→←→BA",
       "caption": "You already know this one.",
-      "durationInFrames": 130
-    },
-    {
-      "kind": "statement",
-      "lead": "But here is the part nobody says",
+      "durationInFrames": 90 },
+
+    { "kind": "statement", "lead": "But here is the part nobody says",
       "text": "It was never meant to ship.",
       "note": "The Konami Code was debug scaffolding. It was supposed to be deleted before release.",
-      "durationInFrames": 150
-    },
-    {
-      "kind": "credit",
-      "year": "1986",
-      "name": "Kazuhisa Hashimoto",
+      "durationInFrames": 67 },
+
+    { "kind": "credit", "year": "1986", "name": "Kazuhisa Hashimoto",
       "role": "Porting Gradius to the NES. He could not get through his own game well enough to test it, so he wrote a shortcut that handed the player every power-up at once.",
-      "durationInFrames": 160
-    },
-    {
-      "kind": "figure",
-      "value": "30",
-      "unit": "lives",
+      "durationInFrames": 171 },
+
+    { "kind": "figure", "value": "30", "unit": "lives",
       "context": "What the same code granted in Contra, two years later. That is the version most people remember.",
-      "durationInFrames": 160
-    },
-    {
-      "kind": "kicker",
-      "text": "He forgot to take it out.",
-      "durationInFrames": 150
-    },
-    {
-      "kind": "sign",
-      "line": "A bug that outlived the console.",
+      "durationInFrames": 239 },
+
+    { "kind": "kicker", "text": "He forgot to take it out.",
+      "durationInFrames": 147 },
+
+    { "kind": "sign", "line": "A bug that outlived the console.",
       "handle": "@ai_game_odyssey",
-      "durationInFrames": 150
-    }
+      "durationInFrames": 94 }
   ]
 }
