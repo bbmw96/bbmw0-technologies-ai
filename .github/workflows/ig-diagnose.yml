@@ -1,0 +1,35 @@
+name: Instagram Diagnose
+
+# Asks Composio what the API key can actually see, and prints it.
+# Publishes nothing, renders nothing, takes about a minute.
+#
+# WHY THIS EXISTS
+# Instagram has never published: generated=7, published=0. The upload fails
+# with "Tool INSTAGRAM_POST_IG_USER_MEDIA not found" (404), and that tool is
+# real — it is listed in Composio's own Instagram toolkit. So the key is not
+# seeing the toolkit, which points at a project mismatch rather than a bad
+# name. That cannot be diagnosed from a laptop, because the key only exists
+# as a repo secret.
+#
+# Every previous attempt to answer this cost a 15-minute render first, because
+# the only code path that touches Composio ran after the render.
+
+on:
+  workflow_dispatch:
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Ask Composio what this key can see
+        env:
+          COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          COMPOSIO_IG_ACCOUNT_ID: ${{ secrets.COMPOSIO_IG_ACCOUNT_ID }}
+        run: node scripts/instagram-upload-composio.mjs --diagnose

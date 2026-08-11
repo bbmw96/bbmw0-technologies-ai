@@ -63,6 +63,63 @@ let caption = A.caption;
 if (hashtags.length) caption = `${caption}\n\n${hashtags.join(" ")}`;
 if (caption.length > CAPTION_MAX) caption = caption.slice(0, CAPTION_MAX);
 
+const BASE = "https://backend.composio.dev/api/v3";
+
+/** Ask the key what it can actually see, and print it.
+ *
+ *  Run on any failure, because the guesses this file used to print were wrong
+ *  and cost real time. A run failed with:
+ *
+ *    Tool INSTAGRAM_POST_IG_USER_MEDIA not found  (Tool_ToolNotFound, 404)
+ *
+ *  and this script responded "COMPOSIO_API_KEY looks invalid" and "connected
+ *  account may be wrong". Both were false. The key authenticated, and the
+ *  account was connected and Active. INSTAGRAM_POST_IG_USER_MEDIA is also a
+ *  real tool — it is listed in Composio's own Instagram toolkit.
+ *
+ *  A 404 on a tool that exists means the key cannot SEE it: wrong project,
+ *  toolkit not enabled for that key, or the connected account living in a
+ *  different project from the one the key belongs to. None of that is
+ *  guessable from here — so stop guessing and ask the API. */
+async function diagnose(label) {
+  const get = async (path) => {
+    try {
+      const r = await fetch(`${BASE}${path}`, { headers: { "x-api-key": KEY } });
+      const t = await r.text();
+      try { return { status: r.status, json: JSON.parse(t) }; }
+      catch { return { status: r.status, text: t.slice(0, 300) }; }
+    } catch (e) { return { error: e.message }; }
+  };
+
+  console.log(`\n--- Composio diagnostics (${label}) ---`);
+
+  const accts = await get("/connected_accounts");
+  const list = accts.json?.items || accts.json?.data || [];
+  console.log(`connected accounts: HTTP ${accts.status}, ${Array.isArray(list) ? list.length : "?"} found`);
+  for (const a of (Array.isArray(list) ? list : []).slice(0, 10)) {
+    console.log(`  id=${a.id}  toolkit=${a.toolkit?.slug || a.appName || "?"}  name=${a.name || a.nickname || "-"}  status=${a.status}`);
+  }
+  console.log(`  (this script was passed ACCOUNT="${ACCOUNT}" — it must match an id above, not a nickname)`);
+
+  const tools = await get("/tools?toolkit_slugs=instagram&limit=50");
+  const ti = tools.json?.items || tools.json?.data || [];
+  console.log(`instagram tools visible to this key: HTTP ${tools.status}, ${Array.isArray(ti) ? ti.length : "?"} found`);
+  for (const t of (Array.isArray(ti) ? ti : []).slice(0, 40)) console.log(`  ${t.slug || t.name}`);
+  if (Array.isArray(ti) && ti.length === 0) {
+    console.log(`  NONE. The key is authenticating but has no Instagram toolkit in its project.`);
+    console.log(`  Fix in the Composio dashboard: confirm the API key and the connected`);
+    console.log(`  account belong to the SAME project, and that Instagram is enabled for it.`);
+  }
+  console.log(`--- end diagnostics ---\n`);
+}
+
+// node scripts/instagram-upload-composio.mjs --diagnose
+// Prints what the key can see and exits. Publishes nothing, needs no video.
+if (A.diagnose) {
+  await diagnose("requested");
+  process.exit(0);
+}
+
 async function execTool(slug, argumentsObj) {
   const res = await fetch(`${API}/${slug}`, {
     method: "POST",
@@ -125,14 +182,21 @@ try {
 } catch (err) {
   const m = String(err.message || err);
   console.error(`Upload failed: ${m}`);
-  if (/api.?key|401|403|unauthor/i.test(m)) {
-    console.error("COMPOSIO_API_KEY looks invalid or lacks scope for this toolkit.");
-  }
-  if (/connected_account|not found|404/i.test(m)) {
-    console.error(`Connected account "${ACCOUNT}" may be wrong. List them in the Composio dashboard.`);
-  }
+
+  // Only one guess survives, because it is the one the error text actually
+  // supports: Meta reporting it could not fetch the file.
+  //
+  // The other two hints that used to live here — "API key looks invalid" and
+  // "connected account may be wrong" — fired on any 404 and were both wrong
+  // when it mattered. They read as findings, were quoted as findings, and sent
+  // an investigation to the Composio dashboard twice for nothing. A confident
+  // wrong diagnosis is worse than none: it stops people looking at the real
+  // error, which in that run was three lines further down.
   if (/video_url|fetch|ingest/i.test(m)) {
     console.error("Meta could not fetch the video. The URL must be public https, no redirects, no auth.");
   }
+
+  // Instead of guessing, ask the API what this key can see and print it.
+  await diagnose("after failure").catch(() => {});
   process.exit(2);
 }
