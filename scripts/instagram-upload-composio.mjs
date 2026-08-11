@@ -106,7 +106,25 @@ async function diagnose(label) {
 
   console.log(`\n--- Composio diagnostics (${label}) ---`);
 
-  const accts = await get("/connected_accounts");
+  // Ask specifically for Instagram as well as listing everything. The plain
+  // list could be paginated, default-filtered, or scoped to one project, and
+  // "it was not in the first page" looks identical to "it does not exist".
+  const igAccts = await get("/connected_accounts?toolkit_slugs=instagram&limit=50");
+  const igList = igAccts.json?.items || igAccts.json?.data || [];
+  console.log(`instagram connected accounts: HTTP ${igAccts.status}, ${Array.isArray(igList) ? igList.length : "?"} found`);
+  for (const a of (Array.isArray(igList) ? igList : [])) {
+    console.log(`  id=${a.id}  status=${a.status}  name=${a.name || a.nickname || "-"}`);
+  }
+  if (Array.isArray(igList) && igList.length === 0 && igAccts.status === 200) {
+    console.log(`  Raw response: ${JSON.stringify(igAccts.json).slice(0, 400)}`);
+  }
+
+  // Which project is this key actually in? If the key and the connection sit
+  // in different projects, every list above is correct and still unhelpful.
+  const proj = await get("/projects");
+  console.log(`projects visible to this key: HTTP ${proj.status} ${JSON.stringify(proj.json || proj.text || "").slice(0, 300)}`);
+
+  const accts = await get("/connected_accounts?limit=100");
   const list = accts.json?.items || accts.json?.data || [];
   console.log(`connected accounts: HTTP ${accts.status}, ${Array.isArray(list) ? list.length : "?"} found`);
   for (const a of (Array.isArray(list) ? list : []).slice(0, 10)) {
