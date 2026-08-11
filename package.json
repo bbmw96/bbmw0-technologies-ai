@@ -44,7 +44,9 @@
     "ig:upload:composio": "node scripts/instagram-upload-composio.mjs",
     "doctor": "node scripts/doctor.mjs",
     "yt:verify": "node scripts/verify-channel.mjs",
-    "validate:workflows": "node scripts/validate-workflows.mjs"
+    "validate:workflows": "node scripts/validate-workflows.mjs",
+    "reels": "node scripts/generate-reels.mjs --list",
+    "gen:reel": "node scripts/generate-reels.mjs"
   },
   "dependencies": {
     "@remotion/player": "4.0.454",

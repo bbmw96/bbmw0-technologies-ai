@@ -1,0 +1,40 @@
+{
+  "_DRAFT": "UNVERIFIED TOPIC. Generated with --allow-unverified. The factual claims in these beats have not been checked against a source. Do not publish this. See reviewNote in scripts/data/topics-rich.json.",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (first-bug-real)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0E1116",
+    "ink": "#F2F4F3",
+    "accent": "#4ADE80",
+    "muted": "#7C8794"
+  },
+  "audioUrl": "sounds/bbmw0-rain-distant.mp3",
+  "audioVolume": 0.32,
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The word predates the machine",
+      "text": "The first computer bug was an actual insect.",
+      "note": "Engineers had been calling faults bugs for decades. This is the day one turned out to be literal.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "credit",
+      "year": "1947",
+      "name": "Harvard Mark II",
+      "role": "An operator traced a fault to a moth caught in a relay, removed it, and taped it into the logbook rather than throwing it away.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "kicker",
+      "text": "They kept the moth.",
+      "durationInFrames": 60
+    },
+    {
+      "kind": "sign",
+      "line": "The bug is still in the logbook.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 70
+    }
+  ]
+}

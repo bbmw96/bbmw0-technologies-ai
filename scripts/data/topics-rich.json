@@ -1,0 +1,86 @@
+{
+  "_README": [
+    "Rich topics. The input to the Editorial Reel, and the replacement for the",
+    "hook+punchline pairs in topics.json.",
+    "",
+    "WHY THIS FILE EXISTS",
+    "A topic in topics.json is about ten words. A thirty-second video needs",
+    "roughly eighty. generate-shorts.mjs closed that gap with filler, and in one",
+    "case with a number drawn at random from a pool and captioned 'Mind the",
+    "number.' A video about Nintendo's founding showed '5'. That is the failure",
+    "this file exists to make impossible: a topic either carries real content or",
+    "it does not get made into a video.",
+    "",
+    "THE verified FLAG IS LOAD-BEARING",
+    "generate-reels.mjs refuses to emit props for a topic with verified:false",
+    "unless --allow-unverified is passed, and that flag also stamps the props so",
+    "the render is obviously a draft. Nothing unverified can reach a channel by",
+    "accident. Set verified:true only when every factual claim in the beats is",
+    "backed by an entry in sources, and you have actually read them.",
+    "",
+    "DRAFTS ARE USEFUL",
+    "An entry with verified:false is not a mistake. It is a claim worth checking,",
+    "written down so the checking is a small job rather than a blank page. Fill",
+    "sources, confirm the numbers, flip the flag.",
+    "",
+    "BEAT KINDS available: code, statement, credit, figure, kicker, sign.",
+    "Durations are NOT set here. generate-reels.mjs computes them from how long",
+    "each beat takes to animate and read, or from voiceCuts when a narration",
+    "track has been measured."
+  ],
+
+  "topics": [
+    {
+      "id": "konami-code",
+      "niche": "gaming",
+      "verified": false,
+      "sources": [],
+      "reviewNote": "Written by hand in an earlier session and already rendered as the demo reel. The sources were never recorded, so it cannot claim verified status. Everything below needs a citation before this ships: that Hashimoto was porting Gradius to the NES in 1986, that the code began as a debug shortcut granting a full power-up set, that he left it in, and that Contra granted 30 lives. Konami's own 2020 statement on Hashimoto's death is a likely primary source.",
+      "voice": "sounds/konami-keen.mp3",
+      "voiceDelayInFrames": 37,
+      "voiceCuts": [1.784, 3.997, 9.710, 17.669, 22.561, 24.189],
+      "palette": { "bg": "#0B0B0F", "ink": "#F5F5F0", "accent": "#FF3D2E", "muted": "#8A8A93" },
+      "bed": { "url": "sounds/bbmw0-wind-open.mp3", "volume": 0.34 },
+      "beats": [
+        { "kind": "code", "chars": "↑↑↓↓←→←→BA", "caption": "You already know this one." },
+        { "kind": "statement", "lead": "But here is the part nobody says", "text": "It was never meant to ship.", "note": "The Konami Code was debug scaffolding. It was supposed to be deleted before release." },
+        { "kind": "credit", "year": "1986", "name": "Kazuhisa Hashimoto", "role": "Porting Gradius to the NES. He could not get through his own game well enough to test it, so he wrote a shortcut that handed the player every power-up at once." },
+        { "kind": "figure", "value": "30", "unit": "lives", "context": "What the same code granted in Contra, two years later. That is the version most people remember." },
+        { "kind": "kicker", "text": "He forgot to take it out." },
+        { "kind": "sign", "line": "A bug that outlived the console.", "handle": "@ai_game_odyssey" }
+      ]
+    },
+
+    {
+      "id": "first-bug-real",
+      "niche": "tech",
+      "verified": false,
+      "sources": [],
+      "reviewNote": "DRAFT — every claim here is from memory and none of it is checked. Needs confirming: the date, that the machine was the Harvard Mark II, who actually found and taped the moth, the exact logbook wording, and where the logbook is held now. Grace Hopper is popularly credited but the attribution is contested — do not state it as fact until sourced. The Smithsonian's own catalogue entry is the obvious place to start.",
+      "palette": { "bg": "#0E1116", "ink": "#F2F4F3", "accent": "#4ADE80", "muted": "#7C8794" },
+      "bed": { "url": "sounds/bbmw0-rain-distant.mp3", "volume": 0.32 },
+      "beats": [
+        { "kind": "statement", "lead": "The word predates the machine", "text": "The first computer bug was an actual insect.", "note": "Engineers had been calling faults bugs for decades. This is the day one turned out to be literal." },
+        { "kind": "credit", "year": "1947", "name": "Harvard Mark II", "role": "An operator traced a fault to a moth caught in a relay, removed it, and taped it into the logbook rather than throwing it away." },
+        { "kind": "kicker", "text": "They kept the moth." },
+        { "kind": "sign", "line": "The bug is still in the logbook.", "handle": "@bbmw.0" }
+      ]
+    },
+
+    {
+      "id": "copy-paste-inventor",
+      "niche": "tech",
+      "verified": false,
+      "sources": [],
+      "reviewNote": "DRAFT — unchecked. Confirm: the year, that the editor was called Gypsy, that Tim Mott co-designed it, that Xerox PARC is the right lab, and above all what Tesler's actual contribution was. His own site and obituaries are good sources. Do not invent a usage statistic for the figure beat — there is deliberately no figure beat here because I have no real number.",
+      "palette": { "bg": "#12100E", "ink": "#F5F0E8", "accent": "#F59E0B", "muted": "#8B8178" },
+      "bed": { "url": "sounds/bbmw0-stream.mp3", "volume": 0.3 },
+      "beats": [
+        { "kind": "statement", "lead": "You did it today without thinking", "text": "Someone had to invent cut and paste.", "note": "Before it existed, moving text meant retyping it, or physically cutting paper and pasting it down. The names are literal." },
+        { "kind": "credit", "year": "1970s", "name": "Larry Tesler", "role": "Worked on a text editor at Xerox PARC built around the idea that the same keystroke should always do the same thing, no hidden modes to remember." },
+        { "kind": "kicker", "text": "He spent a career removing modes." },
+        { "kind": "sign", "line": "The best tools disappear.", "handle": "@bbmw.0" }
+      ]
+    }
+  ]
+}
