@@ -1,4 +1,5 @@
 import React from "react";
+import { EditorialReel } from "./EditorialReel";
 import { Composition, registerRoot } from "remotion";
 import { Hook, hookDefaults } from "./Hook";
 import { Title, titleDefaults } from "./Title";
@@ -91,6 +92,30 @@ const Root: React.FC = () => {
       <Composition id="FromIdea" component={FromIdeaShort} durationInFrames={SHORT_40S} fps={SCENE_FPS} width={SCENE_W} height={SCENE_H} defaultProps={fromIdeaShortDefaults} />
 
       {/* Generic Daily Short — render with --props=daily/<file>.json */}
+      {/* Editorial Reel — first archetype of the visual rebuild. Rendered with
+          --props=daily/<date>/<slug>.props.json, same as Daily. */}
+      <Composition
+        id="Reel"
+        component={EditorialReel as React.FC<any>}
+        durationInFrames={SHORT_40S}
+        fps={SCENE_FPS}
+        width={SCENE_W}
+        height={SCENE_H}
+        defaultProps={{
+          palette: { bg: "#0B0B0F", ink: "#F5F5F0", accent: "#FF3D2E", muted: "#8A8A93" },
+          beats: [
+            { kind: "statement", text: "Pass --props to render a real Reel.", durationInFrames: 150 },
+          ],
+        } as any}
+        calculateMetadata={({ props }) => {
+          const beats = (props as any).beats as { durationInFrames?: number }[] | undefined;
+          const total = Array.isArray(beats)
+            ? beats.reduce((s, b) => s + (b.durationInFrames || 0), 0)
+            : SHORT_40S;
+          return { durationInFrames: Math.max(150, total) };
+        }}
+      />
+
       <Composition
         id="Daily"
         component={ThemedShort as React.FC<any>}
