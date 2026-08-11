@@ -1,0 +1,104 @@
+name: Preview
+
+# Renders still frames from real props and commits them to previews/, so the
+# look can be judged BEFORE anything is published.
+#
+# Every visual decision before this was made from YouTube thumbnails, which
+# show one frame of one beat. That is how five videos shipped sharing a single
+# composition without anyone noticing. Stills are cheap, so there is no excuse
+# for guessing.
+#
+# Does not publish, does not upload, does not touch published.json.
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Date folder under daily/ to preview (blank = today)"
+        required: false
+        default: ""
+      limit:
+        description: "How many videos to sample"
+        required: false
+        default: "6"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: preview
+  cancel-in-progress: false
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install
+        run: |
+          npm install --no-audit --no-fund
+
+      - name: Pick a date that actually has props
+        id: pick
+        run: |
+          DATE="${{ inputs.date }}"
+          if [ -z "$DATE" ]; then DATE=$(date -u +%F); fi
+          # Fall back to the most recent day that has props, so a preview run
+          # on a quiet morning still shows something instead of exiting empty.
+          if [ ! -d "daily/$DATE" ]; then
+            DATE=$(ls -1 daily 2>/dev/null | sort | tail -1)
+            echo "Requested date had no folder, using $DATE"
+          fi
+          echo "date=$DATE" >> $GITHUB_OUTPUT
+          echo "Previewing daily/$DATE"
+
+      - name: Render stills
+        run: |
+          node scripts/render-previews.mjs \
+            --date="${{ steps.pick.outputs.date }}" \
+            --limit="${{ inputs.limit || '6' }}"
+
+      - name: Commit the preview sheet
+        if: always()
+        run: |
+          git config user.name "bbmw0-bot"
+          git config user.email "bot@bbmw0.local"
+          # Same delta-and-retry approach as the publish workflow: previews are
+          # additive files, so re-deriving from origin/main is always safe.
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git stash push -u -- previews >/dev/null 2>&1 || true
+            git checkout -B main origin/main
+            git stash pop >/dev/null 2>&1 || true
+            git add previews || true
+            if git diff --cached --quiet; then
+              echo "No preview changes to commit."
+              exit 0
+            fi
+            git commit -m "Preview stills ${{ steps.pick.outputs.date }} [skip ci]"
+            if git push origin main; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected, retrying from a fresh origin/main..."
+            sleep 4
+          done
+          echo "::warning::Could not push previews. They are still in the artefact below."
+
+      - name: Upload previews as an artefact too
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: previews-${{ steps.pick.outputs.date }}-${{ github.run_id }}
+          path: previews/
+          retention-days: 14
+          if-no-files-found: ignore
