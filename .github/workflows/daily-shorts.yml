@@ -227,7 +227,14 @@ jobs:
             fi
           fi
 
+      # id is load-bearing. This step wrote "skip=true" to GITHUB_OUTPUT, but
+      # without an id no later step could reference steps.<id>.outputs.skip, so
+      # the result was written and then discarded. The check ran, correctly
+      # detected the missing Instagram credential, printed a warning nobody
+      # was listening to, and the run carried on to render four videos and die
+      # at the upload — which is precisely the waste the step exists to prevent.
       - name: Preflight channel credentials
+        id: creds
         if: steps.gate.outputs.run == 'true'
         env:
           COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
@@ -262,7 +269,7 @@ jobs:
 
       - name: Generate today's Shorts
         id: generate
-        if: steps.gate.outputs.run == 'true'
+        if: steps.gate.outputs.run == 'true' && steps.creds.outputs.skip != 'true'
         run: |
           DATE=$(date -u +%F)
           COUNT="${{ inputs.count || '4' }}"
@@ -300,7 +307,7 @@ jobs:
           [ "$RC" = "0" ] || exit "$RC"
 
       - name: Compliance gate
-        if: steps.gate.outputs.run == 'true' && steps.generate.outputs.skip != 'true'
+        if: steps.gate.outputs.run == 'true' && steps.creds.outputs.skip != 'true' && steps.generate.outputs.skip != 'true'
         env:
           AI_ENDPOINT: ${{ secrets.AI_ENDPOINT }}
         run: |
@@ -331,11 +338,11 @@ jobs:
       # against a live channel reported as a malformed command rather than a
       # missing field. Seconds here beats that.
       - name: Preflight the batch
-        if: steps.gate.outputs.run == 'true' && steps.generate.outputs.skip != 'true'
+        if: steps.gate.outputs.run == 'true' && steps.creds.outputs.skip != 'true' && steps.generate.outputs.skip != 'true'
         run: node scripts/preflight-daily.mjs --date="$(date -u +%F)"
 
       - name: Host media for Instagram (public URLs)
-        if: steps.gate.outputs.run == 'true' && steps.generate.outputs.skip != 'true'
+        if: steps.gate.outputs.run == 'true' && steps.creds.outputs.skip != 'true' && steps.generate.outputs.skip != 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -343,7 +350,7 @@ jobs:
           node scripts/publish-media.mjs --date="$DATE" || echo "::warning title=Media hosting::No Instagram videos to host, or hosting failed. YouTube uploads are unaffected."
 
       - name: Render and upload (public)
-        if: steps.gate.outputs.run == 'true' && steps.generate.outputs.skip != 'true'
+        if: steps.gate.outputs.run == 'true' && steps.creds.outputs.skip != 'true' && steps.generate.outputs.skip != 'true'
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
