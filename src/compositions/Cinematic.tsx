@@ -62,14 +62,20 @@ export const MovingBackdrop: React.FC<{ t: Theme }> = ({ t }) => {
 };
 
 /**
- * Film grain. An inline SVG feTurbulence rather than an image asset, so it
- * needs no file, cannot go missing at render time, and adds nothing to repo
- * size. The seed advances with the frame so the grain actually moves; a static
- * grain reads as a dirty lens rather than as film.
+ * Film grain, deliberately STATIC.
+ *
+ * It used to reseed every frame, which looks more like real film but is close
+ * to the worst thing you can hand a video codec. Compression works by
+ * predicting each frame from the one before; noise that changes on every pixel
+ * every frame defeats that completely. The encoder then spends its bitrate
+ * describing noise instead of type edges, so the picture gets softer AND the
+ * file gets heavier, and YouTube's re-encode inherits both problems.
+ *
+ * A fixed seed keeps the texture that stops gradient banding while being
+ * perfectly predicted frame to frame, so it costs almost nothing.
  */
-export const Grain: React.FC<{ opacity?: number }> = ({ opacity = 0.16 }) => {
-  const frame = useCurrentFrame();
-  const seed = frame % 12;
+export const Grain: React.FC<{ opacity?: number }> = ({ opacity = 0.1 }) => {
+  const seed = 7;
   const svg = `<svg xmlns='http://www.w3.org/2000/svg' width='260' height='260'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' seed='${seed}' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='260' height='260' filter='url(%23n)' opacity='1'/></svg>`;
   return (
     <AbsoluteFill
