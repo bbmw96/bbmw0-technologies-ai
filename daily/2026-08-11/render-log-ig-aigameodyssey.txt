@@ -1,6 +1,6 @@
-Rendering 10 Shorts for 2026-08-11 (concurrency=3, GL=default)
-Compliance: 8 cleared, 2 blocked (policy v1.0.0).
-Blocked by compliance: binary-search-half, first-bug-real
+Rendering 11 Shorts for 2026-08-11 (concurrency=3, GL=default)
+Compliance: 8 cleared, 3 blocked (policy v1.0.0).
+Blocked by compliance: binary-search-half, copy-paste-inventor, first-bug-real
 
 --- atom-replacement ---
   SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
@@ -10,6 +10,11 @@ Blocked by compliance: binary-search-half, first-bug-real
 
 --- camel-water ---
   SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
+
+--- copy-paste-inventor ---
+  composition=Reel audio=sounds/norm/bbmw0-stream.mp3 privacy=public
+  rendered: out/daily-2026-08-11-copy-paste-inventor.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-08-11/compliance-verdict.json.
 
 --- eiffel-temp ---
   SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
@@ -23,7 +28,8 @@ Blocked by compliance: binary-search-half, first-bug-real
 --- konami-code ---
   composition=Reel audio=sounds/norm/bbmw0-wind-open.mp3 privacy=public
   rendered: out/daily-2026-08-11-konami-code.mp4
-  SKIPPED: no public URL for konami-code. Set PUBLIC_MEDIA_BASE_URL or check publish-media.mjs.
+  hosting media so Instagram can fetch it...
+  FAILED to host media. Instagram cannot fetch a local file.
 
 --- nintendo-1889 ---
   SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
@@ -34,4 +40,4 @@ Blocked by compliance: binary-search-half, first-bug-real
 --- wombat-poo ---
   SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
 
-=== Done. 1 rendered, 0 uploaded, 10 skipped, 0 blocked by compliance, 0 failed. ===
+=== Done. 2 rendered, 0 uploaded, 9 skipped, 1 blocked by compliance, 1 failed. ===

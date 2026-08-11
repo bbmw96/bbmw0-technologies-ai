@@ -1,0 +1,25 @@
+{
+  "slug": "copy-paste-inventor",
+  "date": "2026-08-11",
+  "title": "Someone had to invent cut and paste.",
+  "description": "Someone had to invent cut and paste. Before it existed, moving text meant retyping it, or literally cutting the paper and pasting it down. The names are not a metaphor.\n\nAt Xerox PARC they built a text editor called Gypsy, where selecting text and moving it worked the same way every time, with no hidden mode to remember first.\n\nIn 1975 it turned up in Businessweek. In a feature called The Office of the Future. The idea was worth reporting before it was furniture.\n\nHis number plate read NO MODES.\n\nSources:\n- https://en.wikipedia.org/wiki/Larry_Tesler\n- https://worrydream.com/refs/Tesler_2012_-_A_Personal_History_of_Modeless_Text_Editing_and_Cut-Copy-Paste.pdf\n- https://www.fastcompany.com/90466328/a-tribute-to-larry-tesler-the-father-of-user-friendly-design\n- https://www.tiny.cloud/blog/copy-paste-inventor/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-08-11-copy-paste-inventor.mp4",
+  "propsFile": "daily/2026-08-11/copy-paste-inventor.props.json",
+  "durationInFrames": 778,
+  "audioUrl": "sounds/norm/bbmw0-stream.mp3",
+  "niche": "tech",
+  "composition": "Reel"
+}
