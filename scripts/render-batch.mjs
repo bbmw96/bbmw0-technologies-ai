@@ -233,7 +233,24 @@ for (const propsFile of propsFiles) {
         if (process.env.PUBLIC_MEDIA_BASE_URL) {
           videoUrl = `${process.env.PUBLIC_MEDIA_BASE_URL.replace(/\/$/, "")}/${encodeURIComponent(path.basename(outFile))}`;
         } else {
-          if (!fs.existsSync(urlsPath)) {
+          // Re-host when this slug has no URL yet — not merely when the file
+          // is absent.
+          //
+          // The workflow's "Host media for Instagram" step runs BEFORE the
+          // render, so on a clean runner it finds nothing rendered, hosts
+          // nothing, and writes an EMPTY urls file. The old check only asked
+          // whether the file existed, saw that it did, and never re-hosted.
+          // The video then rendered fine and was skipped with "no public URL".
+          //
+          // Earlier batches hid this: with several videos, hosting fired on
+          // the first slug and the later ones inherited the release. With a
+          // single video there is no second pass, so konami-code rendered and
+          // silently went nowhere.
+          const hostedFor = (slug) => {
+            if (!fs.existsSync(urlsPath)) return null;
+            return (readJSON(urlsPath, { urls: {} }).urls || {})[slug] || null;
+          };
+          if (!hostedFor(slug)) {
             append(`  hosting media so Instagram can fetch it...`);
             try {
               execSync(`node scripts/publish-media.mjs --date="${DATE}"`, { cwd: ROOT, stdio: "inherit" });
