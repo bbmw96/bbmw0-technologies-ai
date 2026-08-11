@@ -132,29 +132,47 @@ async function diagnose(label) {
   }
   console.log(`  (this script was passed ACCOUNT="${ACCOUNT}" — it must match an id above, not a nickname)`);
 
-  const tools = await get("/tools?toolkit_slugs=instagram&limit=50");
-  const ti = tools.json?.items || tools.json?.data || [];
-  console.log(`instagram tools visible to this key: HTTP ${tools.status}, ${Array.isArray(ti) ? ti.length : "?"} found`);
+  // Page through and filter CLIENT-SIDE on toolkit.slug.
+  //
+  // ?toolkit_slugs=instagram was silently ignored: the response came back with
+  // 50 items whose first entry was 0CODEKIT_CALCULATE_BMI — the whole catalogue
+  // in alphabetical order. That "50 found" was then read as "50 Instagram
+  // tools", which was wrong and was reported as fact.
+  //
+  // The raw payload shows each tool carries toolkit.slug, so filtering here
+  // needs no guess about query-parameter names and cannot be silently ignored.
+  // Slower, and correct.
+  const igTools = [];
+  let page = 1, pages = 1, scanned = 0, lastStatus = 0;
+  while (page <= pages && page <= 40) {
+    const r = await get(`/tools?limit=100&page=${page}`);
+    lastStatus = r.status;
+    const items = r.json?.items || r.json?.data || [];
+    if (!Array.isArray(items) || !items.length) break;
+    scanned += items.length;
+    pages = r.json?.total_pages || pages;
+    for (const t of items) {
+      if ((t.toolkit?.slug || "").toLowerCase() === "instagram") igTools.push(t.slug || t.name);
+    }
+    page++;
+  }
+  const tools = { status: lastStatus, json: { items: igTools } };
+  const ti = igTools;
+  console.log(`instagram tools visible to this key: HTTP ${lastStatus}, ${igTools.length} found (scanned ${scanned} across ${page - 1} page(s))`);
 
   // Print the RAW first item before assuming any field name. The previous
   // version printed `t.slug || t.name` and produced forty lines of "undefined",
   // because the items are not shaped the way that guessed. Forty undefineds
   // look like output and carry no information — the same trap as a confident
   // wrong error message, just quieter.
-  if (Array.isArray(ti) && ti.length) {
-    console.log(`  raw first item: ${JSON.stringify(ti[0]).slice(0, 400)}`);
-  }
-  for (const t of (Array.isArray(ti) ? ti : []).slice(0, 40)) {
-    const name = t.slug || t.name || t.enum || t.tool_slug || t.function?.name;
-    if (name) console.log(`  ${name}`);
-  }
+  for (const name of ti) console.log(`  ${name}`);
 
   // Does the exact tool this script calls appear anywhere in that payload?
   // That is the whole question, and a substring check over the raw JSON
   // answers it regardless of which field holds the identifier.
   const WANT = "INSTAGRAM_POST_IG_USER_MEDIA";
-  if (Array.isArray(ti) && ti.length) {
-    const present = JSON.stringify(ti).includes(WANT);
+  if (ti.length) {
+    const present = ti.includes(WANT);
     console.log(`  ${WANT} present in this key's tool list: ${present ? "YES" : "NO"}`);
     if (!present) {
       console.log(`  So the 404 is correct: the key can see Instagram tools, but not that one.`);
