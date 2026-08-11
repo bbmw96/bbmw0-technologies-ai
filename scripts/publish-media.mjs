@@ -72,7 +72,10 @@ const sh = (cmd, opts = {}) =>
 const metas = fs.readdirSync(dir).filter((f) => f.endsWith(".meta.json"))
   .map((f) => ({ slug: f.replace(/\.meta\.json$/, ""), meta: readJSON(path.join(dir, f)) }));
 
-const needsHosting = metas.filter((m) => m.meta.platform === "instagram");
+// let, not const: unrendered slugs are filtered out of this list below rather
+// than aborting the run. Assigning to a const would throw at runtime, and
+// node --check does not catch it because it is not a syntax error.
+let needsHosting = metas.filter((m) => m.meta.platform === "instagram");
 if (!needsHosting.length) {
   console.log("No Instagram-destined videos for this date. Nothing to host.");
   process.exit(0);
@@ -93,10 +96,25 @@ try {
   process.exit(2);
 }
 
+// Host what is ready. Do NOT refuse the whole batch because one item is not.
+//
+// This used to exit(1) if any slug was unrendered, which made hosting
+// all-or-nothing. On 2026-08-11 konami-code passed compliance, rendered
+// cleanly, and was then never hosted — because first-bug-real, sitting in the
+// same batch, had been BLOCKED by compliance and so would never be rendered at
+// all. A permanently absent file blocked a finished one indefinitely.
+//
+// The caller decides what to do about a slug with no URL: render-batch already
+// skips it with a clear message. Refusing here just denies every other video
+// in the batch its release.
 const missing = needsHosting.filter((m) => !fs.existsSync(path.join(ROOT, m.meta.file)));
 if (missing.length) {
-  console.error(`Not rendered yet: ${missing.map((m) => m.slug).join(", ")}`);
-  process.exit(1);
+  console.log(`Not rendered yet, skipping: ${missing.map((m) => m.slug).join(", ")}`);
+  needsHosting = needsHosting.filter((m) => fs.existsSync(path.join(ROOT, m.meta.file)));
+}
+if (!needsHosting.length) {
+  console.log(`Nothing rendered to host for ${DATE}. Not an error.`);
+  process.exit(0);
 }
 
 const base = `https://github.com/${REPO}/releases/download/${TAG}`;
