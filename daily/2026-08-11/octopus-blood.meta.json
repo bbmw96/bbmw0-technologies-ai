@@ -1,0 +1,27 @@
+{
+  "slug": "octopus-blood",
+  "date": "2026-08-11",
+  "title": "Octopuses have blue blood. #Shorts #facts",
+  "description": "Take 40 seconds. Learn something tiny.\n\nOctopuses have blue blood. Three hearts, too.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #facts",
+  "tags": [
+    "shorts",
+    "animals",
+    "wildlife",
+    "nature",
+    "animalfacts",
+    "zoology"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "yt-bbm0902",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbm0902",
+  "file": "out/daily-2026-08-11-octopus-blood.mp4",
+  "propsFile": "daily/2026-08-11/octopus-blood.props.json",
+  "durationInFrames": 900,
+  "themeId": "forest",
+  "fontFamilyId": "mono",
+  "audioUrl": "sounds/bbmw0-ocean-swell.mp3",
+  "niche": "animals"
+}

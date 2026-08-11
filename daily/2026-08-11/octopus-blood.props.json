@@ -1,0 +1,58 @@
+{
+  "special": false,
+  "themeId": "forest",
+  "fontFamilyId": "mono",
+  "audioUrl": "sounds/bbmw0-ocean-swell.mp3",
+  "audioVolume": 0.45,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Today, learn.",
+      "text": "Octopuses have blue blood.",
+      "sub": "True, mostly.",
+      "durationInFrames": 118,
+      "variant": 2
+    },
+    {
+      "kind": "bigword",
+      "text": "Three hearts, too.",
+      "durationInFrames": 134,
+      "variant": 3
+    },
+    {
+      "kind": "stat",
+      "number": "3",
+      "label": "Keep that in mind.",
+      "durationInFrames": 170,
+      "variant": 2
+    },
+    {
+      "kind": "list",
+      "heading": "Why it matters",
+      "items": [
+        "Watch closer",
+        "Listen too",
+        "Think how"
+      ],
+      "durationInFrames": 180,
+      "variant": 3
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Pause.",
+        "Think.",
+        "Save."
+      ],
+      "durationInFrames": 172,
+      "variant": 2
+    },
+    {
+      "kind": "cta",
+      "headline": "Pass it on.",
+      "url": "github.com/bbmw96/bbmw0-technologies-ai",
+      "durationInFrames": 126,
+      "variant": 1
+    }
+  ]
+}

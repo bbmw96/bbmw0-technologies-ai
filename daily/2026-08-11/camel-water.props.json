@@ -1,0 +1,58 @@
+{
+  "special": false,
+  "themeId": "mint",
+  "fontFamilyId": "mono",
+  "audioUrl": "sounds/bbmw0-rain-distant.mp3",
+  "audioVolume": 0.5,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Quick fact.",
+      "text": "A camel can drink 100 litres in ten minutes.",
+      "sub": "Worth knowing.",
+      "durationInFrames": 107,
+      "variant": 2
+    },
+    {
+      "kind": "bigword",
+      "text": "Refilled faster than any mammal.",
+      "durationInFrames": 137,
+      "variant": 2
+    },
+    {
+      "kind": "stat",
+      "number": "100",
+      "label": "Keep that in mind.",
+      "durationInFrames": 169,
+      "variant": 2
+    },
+    {
+      "kind": "list",
+      "heading": "Why it matters",
+      "items": [
+        "Watch closer",
+        "Listen too",
+        "Think how"
+      ],
+      "durationInFrames": 183,
+      "variant": 3
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Watch.",
+        "Learn.",
+        "Apply."
+      ],
+      "durationInFrames": 171,
+      "variant": 1
+    },
+    {
+      "kind": "cta",
+      "headline": "Worth knowing.",
+      "url": "github.com/bbmw96/bbmw0-technologies-ai",
+      "durationInFrames": 133,
+      "variant": 2
+    }
+  ]
+}

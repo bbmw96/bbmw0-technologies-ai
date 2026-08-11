@@ -7,7 +7,11 @@
     "binary-search-half",
     "eiffel-temp",
     "glass-liquid-myth",
-    "nintendo-1889"
+    "nintendo-1889",
+    "atom-replacement",
+    "camel-water",
+    "octopus-blood",
+    "wombat-poo"
   ],
   "blocked": [],
   "results": [
@@ -155,6 +159,186 @@
         "combo": "mint|sans|sounds/bbmw0-ocean-shore.mp3",
         "themeGap": 13,
         "audioGap": 7
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "atom-replacement",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Your body replaces most of its atoms every few years. #Shorts #quickfact",
+      "niche": "biology",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.1,
+        "worstTitleAgainst": "leap-second",
+        "worstDescriptionSimilarity": 0.473,
+        "combo": "lavender|mono|sounds/bbmw0-ocean-swell.mp3",
+        "themeGap": null,
+        "audioGap": 12
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "camel-water",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "A camel can drink 100 litres in ten minutes. #Shorts #learn",
+      "niche": "animals",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.niche_batch",
+          "message": "3 videos in this batch are \"animals\". Maximum is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.074,
+        "worstTitleAgainst": "copy-paste-inventor",
+        "worstDescriptionSimilarity": 0.469,
+        "combo": "mint|mono|sounds/bbmw0-rain-distant.mp3",
+        "themeGap": 13,
+        "audioGap": 6
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "octopus-blood",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Octopuses have blue blood. #Shorts #facts",
+      "niche": "animals",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "safety.context_review",
+          "message": "Context-sensitive term(s) present: blood. Legitimate in educational science and history, referred to the AI safety reviewer.",
+          "detail": {
+            "terms": [
+              "blood"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.niche_batch",
+          "message": "3 videos in this batch are \"animals\". Maximum is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.079,
+        "worstTitleAgainst": "leap-second",
+        "worstDescriptionSimilarity": 0.551,
+        "combo": "forest|mono|sounds/bbmw0-ocean-swell.mp3",
+        "themeGap": 10,
+        "audioGap": 12
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "wombat-poo",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Wombat poo is cube-shaped. #Shorts #quickfact",
+      "niche": "animals",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.niche_batch",
+          "message": "3 videos in this batch are \"animals\". Maximum is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.056,
+        "worstTitleAgainst": "octopus-blood (same batch)",
+        "worstDescriptionSimilarity": 0.551,
+        "combo": "sandstorm|serif|sounds/bbmw0-ocean-swell.mp3",
+        "themeGap": 5,
+        "audioGap": 12
       },
       "aiPanel": {
         "available": false,

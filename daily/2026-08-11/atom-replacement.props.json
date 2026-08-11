@@ -1,0 +1,58 @@
+{
+  "special": false,
+  "themeId": "lavender",
+  "fontFamilyId": "mono",
+  "audioUrl": "sounds/bbmw0-ocean-swell.mp3",
+  "audioVolume": 0.45,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "True story.",
+      "text": "Your body replaces most of its atoms every few years.",
+      "sub": "Worth knowing.",
+      "durationInFrames": 130,
+      "variant": 2
+    },
+    {
+      "kind": "bigword",
+      "text": "You are always brand new.",
+      "durationInFrames": 137,
+      "variant": 2
+    },
+    {
+      "kind": "stat",
+      "number": "70",
+      "label": "Worth remembering.",
+      "durationInFrames": 155,
+      "variant": 2
+    },
+    {
+      "kind": "list",
+      "heading": "Quick context",
+      "items": [
+        "Cells are the start",
+        "Systems emerge",
+        "Behaviour follows"
+      ],
+      "durationInFrames": 195,
+      "variant": 3
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Watch.",
+        "Learn.",
+        "Apply."
+      ],
+      "durationInFrames": 156,
+      "variant": 1
+    },
+    {
+      "kind": "cta",
+      "headline": "Save this one.",
+      "url": "github.com/bbmw96/bbmw0-technologies-ai",
+      "durationInFrames": 127,
+      "variant": 2
+    }
+  ]
+}

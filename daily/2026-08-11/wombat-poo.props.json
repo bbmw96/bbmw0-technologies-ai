@@ -1,0 +1,58 @@
+{
+  "special": false,
+  "themeId": "sandstorm",
+  "fontFamilyId": "serif",
+  "audioUrl": "sounds/bbmw0-ocean-swell.mp3",
+  "audioVolume": 0.45,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Did you know.",
+      "text": "Wombat poo is cube-shaped.",
+      "sub": "True, mostly.",
+      "durationInFrames": 121,
+      "variant": 2
+    },
+    {
+      "kind": "bigword",
+      "text": "Nature's only cube poop.",
+      "durationInFrames": 153,
+      "variant": 3
+    },
+    {
+      "kind": "stat",
+      "number": "3",
+      "label": "Mind the number.",
+      "durationInFrames": 184,
+      "variant": 3
+    },
+    {
+      "kind": "list",
+      "heading": "Three things to know",
+      "items": [
+        "Watch closer",
+        "Listen too",
+        "Think how"
+      ],
+      "durationInFrames": 182,
+      "variant": 1
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Watch.",
+        "Learn.",
+        "Apply."
+      ],
+      "durationInFrames": 148,
+      "variant": 2
+    },
+    {
+      "kind": "cta",
+      "headline": "Pass it on.",
+      "url": "bbmw0-technologies-ai.vercel.app/install",
+      "durationInFrames": 112,
+      "variant": 1
+    }
+  ]
+}
