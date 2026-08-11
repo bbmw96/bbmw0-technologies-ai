@@ -1,0 +1,109 @@
+name: Reel Demo
+
+# Renders ONE complete Instagram Reel and publishes it as a public release
+# asset, so it can be watched in a browser before anything reaches the account.
+#
+# Publishes NOTHING to Instagram. No upload, no published.json change, no
+# topic consumed. It exists purely so the look and the pacing can be judged on
+# a real 30-second video rather than from stills or thumbnails.
+#
+# The release asset gives a direct URL, which beats downloading an artefact zip.
+
+on:
+  workflow_dispatch:
+    inputs:
+      props:
+        description: "Props file to render"
+        required: false
+        default: "daily/reel-demo/konami-code.props.json"
+      composition:
+        description: "Composition id (Reel or Daily)"
+        required: false
+        default: "Reel"
+
+permissions:
+  contents: write
+
+jobs:
+  reel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install ffmpeg + deps
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          npm install --no-audit --no-fund
+
+      - name: Render the Reel
+        run: |
+          PROPS="${{ inputs.props || 'daily/reel-demo/konami-code.props.json' }}"
+          COMP="${{ inputs.composition || 'Reel' }}"
+          test -f "$PROPS" || { echo "::error::props file not found: $PROPS"; exit 1; }
+          mkdir -p out
+          SLUG=$(basename "$PROPS" .props.json)
+          echo "SLUG=$SLUG" >> $GITHUB_ENV
+
+          # Same encoding settings the real pipeline now uses, so what is
+          # judged here is what would actually ship.
+          npx remotion render src/compositions/registry.tsx "$COMP" \
+            "out/$SLUG-demo.mp4" \
+            --props="$PROPS" \
+            --codec=h264 \
+            --pixel-format=yuv420p \
+            --crf=18 \
+            --gl=swangle
+
+          ls -lh "out/$SLUG-demo.mp4"
+
+      - name: Report what was produced
+        run: |
+          F="out/${SLUG}-demo.mp4"
+          SIZE=$(stat -c %s "$F")
+          # Real numbers rather than assertions: duration, bitrate and pixel
+          # format are the three things that decide whether it stutters.
+          ffprobe -v error -show_entries format=duration,bit_rate \
+                  -show_entries stream=codec_name,width,height,pix_fmt,r_frame_rate \
+                  -of default=noprint_wrappers=1 "$F" | sed 's/^/  /'
+          echo "  file_size_MB=$(awk "BEGIN{printf \"%.1f\", $SIZE/1048576}")"
+          {
+            echo "### Reel demo: ${SLUG}"
+            echo '```'
+            ffprobe -v error -show_entries format=duration,bit_rate \
+                    -show_entries stream=codec_name,width,height,pix_fmt \
+                    -of default=noprint_wrappers=1 "$F"
+            echo "file_size_MB=$(awk "BEGIN{printf \"%.1f\", $SIZE/1048576}")"
+            echo '```'
+          } >> $GITHUB_STEP_SUMMARY
+
+      - name: Publish as a public release asset
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="reel-demo-${SLUG}-${{ github.run_id }}"
+          gh release create "$TAG" \
+            --title "Reel demo: ${SLUG}" \
+            --notes "Preview render only. Not published to Instagram." \
+            "out/${SLUG}-demo.mp4" \
+            || gh release upload "$TAG" "out/${SLUG}-demo.mp4" --clobber
+
+          URL="https://github.com/${{ github.repository }}/releases/download/${TAG}/${SLUG}-demo.mp4"
+          echo "Watch it here: $URL"
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**[Watch the Reel]($URL)**" >> $GITHUB_STEP_SUMMARY
+
+      - name: Also attach as an artefact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reel-demo-${{ github.run_id }}
+          path: out/*.mp4
+          retention-days: 14
+          if-no-files-found: ignore
