@@ -1,0 +1,58 @@
+{
+  "special": false,
+  "themeId": "lavender",
+  "fontFamilyId": "mono",
+  "audioUrl": "sounds/bbmw0-rain-light.mp3",
+  "audioVolume": 0.45,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Listen.",
+      "text": "A pixel is short for picture element.",
+      "sub": "Look closer.",
+      "durationInFrames": 107,
+      "variant": 2
+    },
+    {
+      "kind": "bigword",
+      "text": "The term predates games entirely.",
+      "durationInFrames": 149,
+      "variant": 3
+    },
+    {
+      "kind": "stat",
+      "number": "1",
+      "label": "Think about it.",
+      "durationInFrames": 187,
+      "variant": 1
+    },
+    {
+      "kind": "list",
+      "heading": "What's interesting",
+      "items": [
+        "One",
+        "Two",
+        "Three"
+      ],
+      "durationInFrames": 195,
+      "variant": 1
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Tap.",
+        "Save.",
+        "Reuse."
+      ],
+      "durationInFrames": 135,
+      "variant": 1
+    },
+    {
+      "kind": "cta",
+      "headline": "Save this one.",
+      "url": "youtube.com/@bbmw0",
+      "durationInFrames": 127,
+      "variant": 2
+    }
+  ]
+}

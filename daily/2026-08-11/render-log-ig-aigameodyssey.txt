@@ -1,0 +1,30 @@
+Rendering 4 Shorts for 2026-08-11 (concurrency=3, GL=default)
+Compliance: 4 cleared, 0 blocked (policy v1.0.0).
+
+--- binary-search-half ---
+  theme=midnight font=serif audio=sounds/bbmw0-stream.mp3 privacy=public
+  rendered: out/daily-2026-08-11-binary-search-half.mp4
+  hosting media so Instagram can fetch it...
+  FAILED to host media. Instagram cannot fetch a local file.
+
+--- embeddings-meaning ---
+  theme=forest font=serif audio=sounds/bbmw0-stream.mp3 privacy=public
+  rendered: out/daily-2026-08-11-embeddings-meaning.mp4
+  hosting media so Instagram can fetch it...
+  FAILED to host media. Instagram cannot fetch a local file.
+
+--- pixel-origin ---
+  theme=lavender font=mono audio=sounds/bbmw0-rain-light.mp3 privacy=public
+  rendered: out/daily-2026-08-11-pixel-origin.mp4
+  hosting media so Instagram can fetch it...
+  FAILED to host media. Instagram cannot fetch a local file.
+
+--- speedrun-frame ---
+  theme=glacier font=sans audio=sounds/bbmw0-rain-heavy.mp3 privacy=public
+  rendered: out/daily-2026-08-11-speedrun-frame.mp4
+  hosting media so Instagram can fetch it...
+  ig credentials: COMPOSIO_API_KEY=EMPTY or not set, IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
+  FAILED: no usable Instagram credential. Both COMPOSIO_API_KEY and IG_ACCESS_TOKEN arrived empty. If the secret is listed in the repo but arrives empty here, it was stored with a blank value; re-set it with:
+    gh secret set COMPOSIO_API_KEY --repo bbmw96/bbmw0-technologies-ai
+
+=== Done. 4 rendered, 0 uploaded, 0 skipped, 0 blocked by compliance, 4 failed. ===

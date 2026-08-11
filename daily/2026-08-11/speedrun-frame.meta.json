@@ -1,0 +1,26 @@
+{
+  "slug": "speedrun-frame",
+  "date": "2026-08-11",
+  "title": "Speedrun records are decided by single frames. #Shorts",
+  "description": "Pure kinetic typography. No faces, no chatter.\n\nSpeedrun records are decided by single frames. One thirtieth of a second.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts",
+  "tags": [
+    "shorts",
+    "facts",
+    "didyouknow",
+    "learning",
+    "education"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-08-11-speedrun-frame.mp4",
+  "propsFile": "daily/2026-08-11/speedrun-frame.props.json",
+  "durationInFrames": 900,
+  "themeId": "glacier",
+  "fontFamilyId": "sans",
+  "audioUrl": "sounds/bbmw0-rain-heavy.mp3",
+  "niche": "gaming"
+}

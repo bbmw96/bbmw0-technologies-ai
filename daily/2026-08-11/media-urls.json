@@ -1,0 +1,12 @@
+{
+  "date": "2026-08-11",
+  "repo": "bbmw96/bbmw0-technologies-ai",
+  "tag": "media-2026-08-11",
+  "base": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-08-11",
+  "urls": {
+    "binary-search-half": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-08-11/daily-2026-08-11-binary-search-half.mp4",
+    "embeddings-meaning": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-08-11/daily-2026-08-11-embeddings-meaning.mp4",
+    "pixel-origin": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-08-11/daily-2026-08-11-pixel-origin.mp4",
+    "speedrun-frame": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-08-11/daily-2026-08-11-speedrun-frame.mp4"
+  }
+}

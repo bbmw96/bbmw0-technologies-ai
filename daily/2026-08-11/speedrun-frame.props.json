@@ -1,0 +1,58 @@
+{
+  "special": false,
+  "themeId": "glacier",
+  "fontFamilyId": "sans",
+  "audioUrl": "sounds/bbmw0-rain-heavy.mp3",
+  "audioVolume": 0.4,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Quick fact.",
+      "text": "Speedrun records are decided by single frames.",
+      "sub": "Useful, actually.",
+      "durationInFrames": 117,
+      "variant": 1
+    },
+    {
+      "kind": "bigword",
+      "text": "One thirtieth of a second.",
+      "durationInFrames": 147,
+      "variant": 1
+    },
+    {
+      "kind": "stat",
+      "number": "3",
+      "label": "Hold that thought.",
+      "durationInFrames": 156,
+      "variant": 1
+    },
+    {
+      "kind": "list",
+      "heading": "Three things to know",
+      "items": [
+        "One",
+        "Two",
+        "Three"
+      ],
+      "durationInFrames": 176,
+      "variant": 2
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Read.",
+        "Note.",
+        "Share."
+      ],
+      "durationInFrames": 158,
+      "variant": 3
+    },
+    {
+      "kind": "cta",
+      "headline": "Save this one.",
+      "url": "github.com/bbmw96/bbmw0-technologies-ai",
+      "durationInFrames": 146,
+      "variant": 3
+    }
+  ]
+}

@@ -11,7 +11,10 @@
     "atom-replacement",
     "camel-water",
     "octopus-blood",
-    "wombat-poo"
+    "wombat-poo",
+    "embeddings-meaning",
+    "pixel-origin",
+    "speedrun-frame"
   ],
   "blocked": [],
   "results": [
@@ -339,6 +342,120 @@
         "combo": "sandstorm|serif|sounds/bbmw0-ocean-swell.mp3",
         "themeGap": 5,
         "audioGap": 12
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "embeddings-meaning",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "AI turns words into coordinates. #Shorts",
+      "niche": "ai",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.143,
+        "worstTitleAgainst": "tokens-not-words",
+        "worstDescriptionSimilarity": 0.475,
+        "combo": "forest|serif|sounds/bbmw0-stream.mp3",
+        "themeGap": 10,
+        "audioGap": 8
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "pixel-origin",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "A pixel is short for picture element. #Shorts #quickfact",
+      "niche": "gaming",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.042,
+        "worstTitleAgainst": "trees-communicate",
+        "worstDescriptionSimilarity": 0.536,
+        "combo": "lavender|mono|sounds/bbmw0-rain-light.mp3",
+        "themeGap": null,
+        "audioGap": 13
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "speedrun-frame",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Speedrun records are decided by single frames. #Shorts",
+      "niche": "gaming",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.059,
+        "worstTitleAgainst": "semantic-html",
+        "worstDescriptionSimilarity": 0.536,
+        "combo": "glacier|sans|sounds/bbmw0-rain-heavy.mp3",
+        "themeGap": 7,
+        "audioGap": 5
       },
       "aiPanel": {
         "available": false,
