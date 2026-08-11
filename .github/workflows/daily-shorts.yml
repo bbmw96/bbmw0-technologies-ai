@@ -321,6 +321,19 @@ jobs:
             echo "::warning title=Videos blocked::Some videos were blocked by the compliance gate and will not be uploaded. Cleared videos still publish."
           fi
 
+      # Between compliance and any rendering. Compliance judges the CONTENT;
+      # this checks the batch is structurally fit to publish — every field the
+      # upload path reads is present, no draft slipped through, audio exists,
+      # props and meta agree on the composition.
+      #
+      # It runs before the render on purpose. Without it, a missing field
+      # surfaces at the upload step: minutes of rendering spent, then a failure
+      # against a live channel reported as a malformed command rather than a
+      # missing field. Seconds here beats that.
+      - name: Preflight the batch
+        if: steps.gate.outputs.run == 'true' && steps.generate.outputs.skip != 'true'
+        run: node scripts/preflight-daily.mjs --date="$(date -u +%F)"
+
       - name: Host media for Instagram (public URLs)
         if: steps.gate.outputs.run == 'true' && steps.generate.outputs.skip != 'true'
         env:

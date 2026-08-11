@@ -45,6 +45,7 @@
     "doctor": "node scripts/doctor.mjs",
     "yt:verify": "node scripts/verify-channel.mjs",
     "validate:workflows": "node scripts/validate-workflows.mjs",
+    "preflight": "node scripts/preflight-daily.mjs",
     "reels": "node scripts/generate-reels.mjs --list",
     "gen:reel": "node scripts/generate-reels.mjs"
   },
