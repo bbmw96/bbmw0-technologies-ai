@@ -222,13 +222,35 @@ for (const topic of chosen) {
     process.exit(1);
   }
 
+  // The stat beat used to sit third. It has been removed.
+  //
+  // pickStatNumber drew a number at random from a per-niche pool and printed
+  // it at 300px under a label like "Mind the number." Nothing tied that number
+  // to the topic. The 11 August video about Nintendo's founding showed "5",
+  // chosen at random from the history pool, with no relationship to Nintendo
+  // whatsoever — presented with the full visual authority of a statistic.
+  //
+  // The other padding beats are merely empty. This one asserted a false fact
+  // four times a day across three channels. A topic in topics.json carries a
+  // hook and a punchline and nothing numeric, so there is no honest number to
+  // put here. Restore the beat only when topics carry real, sourced figures.
+  //
+  // Its frames go back to the beats that hold the actual fact, capped at
+  // MAX_BEAT so nothing outstays being read. Any frames that will not fit
+  // simply shorten the video, which is the correct trade.
+  let spare = durations[2];
+  for (const i of [0, 1, 3, 4, 5]) {
+    if (spare <= 0) break;
+    const give = Math.min(spare, MAX_BEAT - durations[i]);
+    durations[i] += give;
+    spare -= give;
+  }
+
   const beats = [
     { kind: "title", eyebrow, text: topic.hook, sub: sub_intro,
       durationInFrames: durations[0], variant: v() },
     { kind: "bigword", text: topic.punchline,
       durationInFrames: durations[1], variant: v() },
-    { kind: "stat", number: pickStatNumber(topic, r), label: stat_label,
-      durationInFrames: durations[2], variant: v() },
     { kind: "list", heading: list_head, items: pickListItems(topic, r),
       durationInFrames: durations[3], variant: v() },
     { kind: "trio", words: trio_outro,
