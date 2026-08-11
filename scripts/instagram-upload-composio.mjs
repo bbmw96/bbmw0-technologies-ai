@@ -135,7 +135,32 @@ async function diagnose(label) {
   const tools = await get("/tools?toolkit_slugs=instagram&limit=50");
   const ti = tools.json?.items || tools.json?.data || [];
   console.log(`instagram tools visible to this key: HTTP ${tools.status}, ${Array.isArray(ti) ? ti.length : "?"} found`);
-  for (const t of (Array.isArray(ti) ? ti : []).slice(0, 40)) console.log(`  ${t.slug || t.name}`);
+
+  // Print the RAW first item before assuming any field name. The previous
+  // version printed `t.slug || t.name` and produced forty lines of "undefined",
+  // because the items are not shaped the way that guessed. Forty undefineds
+  // look like output and carry no information — the same trap as a confident
+  // wrong error message, just quieter.
+  if (Array.isArray(ti) && ti.length) {
+    console.log(`  raw first item: ${JSON.stringify(ti[0]).slice(0, 400)}`);
+  }
+  for (const t of (Array.isArray(ti) ? ti : []).slice(0, 40)) {
+    const name = t.slug || t.name || t.enum || t.tool_slug || t.function?.name;
+    if (name) console.log(`  ${name}`);
+  }
+
+  // Does the exact tool this script calls appear anywhere in that payload?
+  // That is the whole question, and a substring check over the raw JSON
+  // answers it regardless of which field holds the identifier.
+  const WANT = "INSTAGRAM_POST_IG_USER_MEDIA";
+  if (Array.isArray(ti) && ti.length) {
+    const present = JSON.stringify(ti).includes(WANT);
+    console.log(`  ${WANT} present in this key's tool list: ${present ? "YES" : "NO"}`);
+    if (!present) {
+      console.log(`  So the 404 is correct: the key can see Instagram tools, but not that one.`);
+      console.log(`  Pick a slug from the list above that publishes media, and use it instead.`);
+    }
+  }
   // Only conclude anything when the request actually SUCCEEDED. On a network
   // error, status is undefined and the list is empty for a reason that has
   // nothing to do with the key — and announcing "no toolkit" there would be
