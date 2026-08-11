@@ -7,8 +7,8 @@
     "accent": "#F59E0B",
     "muted": "#8B8178"
   },
-  "audioUrl": "sounds/bbmw0-stream.mp3",
-  "audioVolume": 0.3,
+  "audioUrl": "sounds/norm/bbmw0-stream.mp3",
+  "audioVolume": 1,
   "beats": [
     {
       "kind": "statement",
@@ -23,6 +23,13 @@
       "name": "Tesler and Mott",
       "role": "At Xerox PARC they built a text editor called Gypsy, where selecting text and moving it worked the same way every time, with no hidden mode to remember first.",
       "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "It was news at the time",
+      "text": "In 1975 it turned up in Businessweek.",
+      "note": "In a feature called The Office of the Future. The idea was worth reporting before it was furniture.",
+      "durationInFrames": 208
     },
     {
       "kind": "kicker",

@@ -25,6 +25,15 @@
     "inventing it, and a four-beat video is the correct answer to not having a",
     "fifth true thing to say.",
     "",
+    "BEDS COME FROM sounds/norm/, NOT sounds/",
+    "The originals in public/sounds/ are unmastered field recordings: around",
+    "-37dB mean and -23dB peak. Played at the old bed volumes they produced a",
+    "reel measuring -43dB mean — silent in practice on a phone. sounds/norm/",
+    "holds loudnorm'd copies at I=-18, TP=-2, which land near -21dB mean and",
+    "-8dB peak. Point beds here. The originals are untouched, because the daily",
+    "Shorts pipeline still references them and changing shared assets under a",
+    "scheduled run is not a thing to do unattended.",
+    "",
     "BEAT KINDS available: code, statement, credit, figure, kicker, sign.",
     "Durations are NOT set here. generate-reels.mjs computes them from how long",
     "each beat takes to animate and read, or from voiceCuts when a narration",
@@ -47,7 +56,7 @@
       "voiceDelayInFrames": 37,
       "voiceCuts": [1.784, 3.997, 9.710, 17.669, 22.561, 24.189],
       "palette": { "bg": "#0B0B0F", "ink": "#F5F5F0", "accent": "#FF3D2E", "muted": "#8A8A93" },
-      "bed": { "url": "sounds/bbmw0-wind-open.mp3", "volume": 0.34 },
+      "bed": { "url": "sounds/norm/bbmw0-wind-open.mp3", "volume": 0.6 },
       "beats": [
         { "kind": "code", "chars": "↑↑↓↓←→←→BA", "caption": "You already know this one." },
         { "kind": "statement", "lead": "But here is the part nobody says", "text": "It was never meant to ship.", "note": "The Konami Code was debug scaffolding. It was supposed to be deleted before release." },
@@ -70,7 +79,7 @@
       ],
       "verifiedNote": "Checked 11 Aug 2026. Grace Hopper is deliberately NOT named. Sources agree she was on the Mark II team and popularised the story in later lectures, but the log book was probably not hers and the attribution is contested. The beats credit the machine and an unnamed operator instead, which is what the evidence actually supports. The joke in the note beat — that engineers had used 'bug' for decades before one turned out to be literal — is the JSTOR correction, used as the hook rather than buried. There WAS a figure beat here showing 70, the relay number, and it was cut. The number is true and sourced, but a figure beat renders its value at 300px, and the relay number carries no significance whatsoever — it is an address, not a fact. Setting it that large would have overstated it. Being true is not sufficient; a number given that much emphasis has to deserve it. The detail now sits in a statement beat where it reads as the log entry it actually is.",
       "palette": { "bg": "#0E1116", "ink": "#F2F4F3", "accent": "#4ADE80", "muted": "#7C8794" },
-      "bed": { "url": "sounds/bbmw0-rain-distant.mp3", "volume": 0.32 },
+      "bed": { "url": "sounds/norm/bbmw0-rain-distant.mp3", "volume": 1 },
       "beats": [
         { "kind": "statement", "lead": "The word is older than the machine", "text": "One day the bug was literal.", "note": "Engineers had called faults bugs since Edison. On this one afternoon, someone opened a relay and found an actual insect." },
         { "kind": "credit", "year": "1947", "name": "Harvard Mark II", "role": "9 September. An operator traced a fault to a moth caught in a relay, removed it, and taped it into the log book instead of throwing it away." },
@@ -90,12 +99,13 @@
         "https://www.fastcompany.com/90466328/a-tribute-to-larry-tesler-the-father-of-user-friendly-design — the NO MODES number plate, and the framing of modelessness as his life's argument.",
         "https://www.tiny.cloud/blog/copy-paste-inventor/ — Gypsy dated to 1974-75 and the mechanics of the modeless selection it introduced."
       ],
-      "verifiedNote": "Checked 11 Aug 2026. Tim Mott is credited alongside Tesler in every source, so the credit beat names both — 'invented by Larry Tesler' alone is the popular shorthand and it is not quite right. No figure beat: there is no real number here, and a usage statistic would have had to be invented, which is the exact thing this file exists to prevent. The NO MODES plate is real and does the work a number would have.",
+      "verifiedNote": "Checked 11 Aug 2026. Tim Mott is credited alongside Tesler in every source, so the credit beat names both — 'invented by Larry Tesler' alone is the popular shorthand and it is not quite right. No figure beat: there is no real number here, and a usage statistic would have had to be invented, which is the exact thing this file exists to prevent. The NO MODES plate is real and does the work a number would have. The Businessweek beat was added after seeing the first render: at four beats this ran 19s, and because credit and kicker both paint the dark background, the middle sat on two identical frames back to back. The fix for a thin video is another true thing to say, not a longer hold — and the June 1975 feature is sourced. Note the wording is deliberately 'turned up in': the article was titled The Office of the Future and mentioned Gypsy, it was not a piece about Gypsy, and 'Businessweek wrote it up' would have overstated that.",
       "palette": { "bg": "#12100E", "ink": "#F5F0E8", "accent": "#F59E0B", "muted": "#8B8178" },
-      "bed": { "url": "sounds/bbmw0-stream.mp3", "volume": 0.3 },
+      "bed": { "url": "sounds/norm/bbmw0-stream.mp3", "volume": 1 },
       "beats": [
         { "kind": "statement", "lead": "You did it today without thinking", "text": "Someone had to invent cut and paste.", "note": "Before it existed, moving text meant retyping it — or literally cutting the paper and pasting it down. The names are not a metaphor." },
         { "kind": "credit", "year": "1975", "name": "Tesler and Mott", "role": "At Xerox PARC they built a text editor called Gypsy, where selecting text and moving it worked the same way every time, with no hidden mode to remember first." },
+        { "kind": "statement", "lead": "It was news at the time", "text": "In 1975 it turned up in Businessweek.", "note": "In a feature called The Office of the Future. The idea was worth reporting before it was furniture." },
         { "kind": "kicker", "text": "His number plate read NO MODES." },
         { "kind": "sign", "line": "The best tools disappear.", "handle": "@bbmw.0" }
       ]
