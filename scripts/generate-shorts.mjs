@@ -168,8 +168,33 @@ try {
   richChosen = [];
 }
 
-// The padded path only needs to cover what rich could not.
-COUNT = Math.max(0, COUNT - richChosen.length);
+// --reels-only: publish a researched reel or publish nothing.
+//
+// The automatic schedule passes this. It replaces the hardcoded AUTO_HOLD list
+// with a rule that manages itself: a channel publishes when it has something
+// real to say and is skipped when it does not, so nothing templated ever
+// reaches a channel unattended. yt-bbm0902 is not "on hold" any more — it is
+// simply skipped until topics-rich.json covers animals, space, biology, food
+// or weather, and it resumes on its own the week that changes.
+//
+// Exit 78 is the skip code the workflow already understands: a neutral result,
+// not a failure. A quiet week is the correct outcome of having nothing
+// researched, and it must not page anyone.
+const REELS_ONLY = A["reels-only"] === true || A["reels-only"] === "true";
+if (REELS_ONLY) {
+  COUNT = 0;
+  if (!richChosen.length) {
+    console.log(
+      `No unused verified rich topic for ${CHANNEL.id} (${CHANNEL.handle}). ` +
+      `Skipping rather than falling back to a templated Short.\n` +
+      `Add researched topics for its niches (${(CHANNEL.niches || []).join(", ") || "any"}) ` +
+      `in scripts/data/topics-rich.json. See scripts/data/WRITING-TOPICS.md.`);
+    process.exit(78);
+  }
+} else {
+  // Manual runs keep the old behaviour: the padded path covers the remainder.
+  COUNT = Math.max(0, COUNT - richChosen.length);
+}
 
 // Excluding richChosen ids matters: props and meta are written as
 // <id>.props.json, so if both paths picked the same subject on the same day
@@ -509,7 +534,18 @@ for (const g of generated) {
 }
 console.log(`\nProps + meta files:  daily/${DATE}/`);
 console.log(`Render with:        npm run render:daily -- ${DATE}`);
-console.log(`Or one at a time:   npx remotion render src/compositions/registry.tsx Daily ${chosen[0].id ? `out/daily-${DATE}-${chosen[0].id}.mp4 --props=daily/${DATE}/${chosen[0].id}.props.json` : ""}`);
+// Guarded. In --reels-only mode the padded path is switched off entirely, so
+// `chosen` is empty and chosen[0].id threw — the second time a cosmetic
+// summary line has crashed this script AFTER props, meta and the ledger were
+// all written correctly. A run that did its job must not exit non-zero
+// because of a hint at the end of the log.
+//
+// Prefer a real example from whatever was actually generated.
+const example = generated[0];
+if (example) {
+  const comp = example.composition === "Reel" ? "Reel" : "Daily";
+  console.log(`Or one at a time:   npx remotion render src/compositions/registry.tsx ${comp} out/daily-${DATE}-${example.slug}.mp4 --props=daily/${DATE}/${example.slug}.props.json`);
+}
 
 // ============== helpers ==============
 

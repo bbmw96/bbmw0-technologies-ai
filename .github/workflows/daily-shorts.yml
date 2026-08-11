@@ -89,27 +89,21 @@ jobs:
           # dispatch that names one still publishes it, so this is a hold and
           # not a disable.
           #
-          # ig-aigameodyssey is held because the account has no posts at all
-          # yet, and its first ever Reel should not be one of the current
-          # filler-heavy videos. Remove it from this list once the content
-          # model is fixed.
-          #
           # This lives here rather than in channels.json because this step runs
-          # BEFORE checkout, so channels.json is not on disk yet. Keeping one
-          # copy in the place that actually enforces it beats a second copy in
-          # a file that cannot be read at this point.
-          # Emptied on request: all three channels now publish on the schedule.
-          # Put a channel id back here to hold it from the cron while still
-          # allowing a manual dispatch.
-          # Held back from the AUTOMATIC schedule. A manual dispatch naming a
-          # channel still publishes it.
+          # BEFORE checkout, so channels.json is not on disk yet.
           #
-          # yt-bbm0902 covers animals, space, biology, food and weather, and
-          # topics-rich.json has nothing in those niches — so every scheduled
-          # run would fall through to the padded ThemedShort path and publish
-          # exactly the templated filler the cadence change exists to stop.
-          # It comes off hold as soon as it has researched topics of its own.
-          AUTO_HOLD="yt-bbm0902"
+          # Empty on purpose. All three channels run automatically.
+          #
+          # Quality is no longer defended by a hand-maintained hold list, which
+          # needed editing every time the topic library changed and was one
+          # forgotten commit away from publishing filler. The scheduled run
+          # passes --reels-only instead, so a channel publishes a researched
+          # reel or is skipped. yt-bbm0902 skips itself until it has topics in
+          # animals, space, biology, food or weather, and resumes on its own.
+          #
+          # Keep this list for genuine emergencies — a channel under review, a
+          # credential problem — not for quality. Quality is handled upstream.
+          AUTO_HOLD=""
 
           if [ -n "$WANTED" ] && [ "$WANTED" != "$THIS" ]; then
             echo "run=false" >> $GITHUB_OUTPUT
@@ -267,6 +261,7 @@ jobs:
         continue-on-error: true
 
       - name: Generate today's Shorts
+        id: generate
         if: steps.gate.outputs.run == 'true'
         run: |
           DATE=$(date -u +%F)
@@ -282,14 +277,30 @@ jobs:
           # asking for one video a run means the reel path covers it as soon as
           # topics-rich.json has an unused topic for that channel's niches.
           if [ -z "${{ inputs.count }}" ]; then COUNT=1; fi
+          # On the automatic schedule, a researched reel or nothing. A manual
+          # dispatch keeps the padded fallback, so you can still force a run.
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            ARGS_REELS_ONLY="--reels-only"
+          fi
           ARGS="--count=$COUNT --date=$DATE"
           [ "$SPECIAL" = "true" ] && ARGS="$ARGS --special"
           [ -n "$NICHE" ]   && ARGS="$ARGS --niche=$NICHE"
           [ -n "$CHANNEL" ] && ARGS="$ARGS --channel=$CHANNEL"
-          node scripts/generate-shorts.mjs $ARGS
+          # Exit 78 means "nothing researched for this channel this week" —
+          # a deliberate skip, not a failure. Anything else is a real error.
+          set +e
+          node scripts/generate-shorts.mjs $ARGS $ARGS_REELS_ONLY
+          RC=$?
+          set -e
+          if [ "$RC" = "78" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::Nothing researched for ${{ matrix.channel }}. Skipped."
+            exit 0
+          fi
+          [ "$RC" = "0" ] || exit "$RC"
 
       - name: Compliance gate
-        if: steps.gate.outputs.run == 'true'
+        if: steps.gate.outputs.run == 'true' && steps.generate.outputs.skip != 'true'
         env:
           AI_ENDPOINT: ${{ secrets.AI_ENDPOINT }}
         run: |
@@ -311,7 +322,7 @@ jobs:
           fi
 
       - name: Host media for Instagram (public URLs)
-        if: steps.gate.outputs.run == 'true'
+        if: steps.gate.outputs.run == 'true' && steps.generate.outputs.skip != 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -319,7 +330,7 @@ jobs:
           node scripts/publish-media.mjs --date="$DATE" || echo "::warning title=Media hosting::No Instagram videos to host, or hosting failed. YouTube uploads are unaffected."
 
       - name: Render and upload (public)
-        if: steps.gate.outputs.run == 'true'
+        if: steps.gate.outputs.run == 'true' && steps.generate.outputs.skip != 'true'
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
@@ -345,8 +356,12 @@ jobs:
         # MUST include always(). When the upload step exits non-zero this step
         # was skipped, so the record of what DID publish was thrown away.
         # The gate clause keeps it off matrix legs this run did not target.
-        # These MUST be one expression: two `if:` keys on one step is a
+        # These MUST be one expression: two if keys on one step is a
         # duplicate mapping key, which GitHub rejects as an invalid workflow.
+        #
+        # No skip guard here on purpose. If the generator skipped, there is
+        # nothing new to commit and the script is a no-op; but if an earlier
+        # channel in the matrix DID publish, its history must still be written.
         if: always() && steps.gate.outputs.run == 'true'
         run: |
           git config user.name "bbmw0-bot"
@@ -371,7 +386,7 @@ jobs:
         # not on disk and the log it writes never exists. `cat` on a missing
         # file exits 1 and would fail the step, marking the whole run red even
         # though nothing was wrong.
-        if: always() && steps.gate.outputs.run == 'true'
+        if: always() && steps.gate.outputs.run == 'true' && steps.generate.outputs.skip != 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -385,7 +400,7 @@ jobs:
           echo '```' >> $GITHUB_STEP_SUMMARY
 
       - name: Upload artefacts (videos + meta)
-        if: always() && steps.gate.outputs.run == 'true'
+        if: always() && steps.gate.outputs.run == 'true' && steps.generate.outputs.skip != 'true'
         uses: actions/upload-artifact@v4
         with:
           # MUST include the channel. upload-artifact@v4 errors on a duplicate
