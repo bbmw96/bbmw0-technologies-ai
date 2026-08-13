@@ -49,7 +49,8 @@
     "reel:konami-code",
     "reel:first-bug-real",
     "reel:copy-paste-inventor",
-    "qwerty-not-speed"
+    "qwerty-not-speed",
+    "consensus-mode"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -768,6 +769,19 @@
       "title": "QWERTY was not designed for typing speed. #Shorts",
       "description": "Pure kinetic typography. No faces, no chatter.\n\nQWERTY was not designed for typing speed. It was built for telegraph operators.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts",
       "niche": "tech",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "consensus-mode",
+      "date": "2026-08-13",
+      "themeId": "lavender",
+      "fontFamilyId": "sans",
+      "audioUrl": "sounds/norm/bbmw0-rain-heavy.mp3",
+      "title": "Five AIs answer one prompt. #Shorts",
+      "description": "Pure kinetic typography. No faces, no chatter.\n\nFive AIs answer one prompt. Then we pick the best.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts",
+      "niche": "app",
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"

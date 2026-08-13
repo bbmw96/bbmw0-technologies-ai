@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-13",
+  "generatedAt": "2026-08-13T16:40:39.959Z",
+  "policyVersion": "1.0.0",
+  "strictMode": false,
+  "allowed": [
+    "consensus-mode"
+  ],
+  "blocked": [],
+  "results": [
+    {
+      "slug": "consensus-mode",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Five AIs answer one prompt. #Shorts",
+      "niche": "app",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.143,
+        "worstTitleAgainst": "konami-code",
+        "worstDescriptionSimilarity": 0.542,
+        "combo": "lavender|sans|sounds/norm/bbmw0-rain-heavy.mp3",
+        "themeGap": 5,
+        "audioGap": null
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    }
+  ]
+}
