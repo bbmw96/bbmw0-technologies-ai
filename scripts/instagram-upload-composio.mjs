@@ -215,13 +215,74 @@ async function execTool(slug, argumentsObj) {
   return json.data ?? json;
 }
 
+/** Return the Instagram tool slugs this key can actually execute. */
+async function instagramTools() {
+  const out = [];
+  let page = 1, pages = 1;
+  while (page <= pages && page <= 40) {
+    let r;
+    try {
+      const res = await fetch(`${BASE}/tools?limit=100&page=${page}`, { headers: { "x-api-key": KEY } });
+      r = await res.json();
+    } catch { break; }
+    const items = r?.items || r?.data || [];
+    if (!Array.isArray(items) || !items.length) break;
+    pages = r?.total_pages || pages;
+    for (const t of items) {
+      if ((t.toolkit?.slug || "").toLowerCase() === "instagram" && t.slug) out.push(t.slug);
+    }
+    page++;
+  }
+  return out;
+}
+
+/** Pick the first candidate that this key can actually see. */
+function choose(available, candidates, role) {
+  const hit = candidates.find((c) => available.includes(c));
+  if (hit) return hit;
+  throw new Error(
+    `No usable ${role} tool. Tried ${candidates.join(", ")}. ` +
+    `This key's Instagram tools: ${available.length ? available.join(", ") : "(none)"}`,
+  );
+}
+
 try {
   console.log(`Publishing Reel to Instagram via Composio`);
   console.log(`  Account:  ${ACCOUNT}`);
   console.log(`  IG user:  ${IG_USER_ID}`);
   console.log(`  Video:    ${A["video-url"]}`);
 
-  const container = await execTool("INSTAGRAM_POST_IG_USER_MEDIA", {
+  // Resolve the tool slugs at runtime instead of hardcoding them.
+  //
+  // INSTAGRAM_POST_IG_USER_MEDIA was hardcoded and returned 404
+  // Tool_ToolNotFound on every attempt since May. The slug is real — it is in
+  // Composio's published Instagram toolkit — but whether a given API key can
+  // execute it depends on that key's project, and Composio has renamed and
+  // deprecated tools in this toolkit before (CREATE_MEDIA_CONTAINER and
+  // CREATE_POST are both marked deprecated in the current docs).
+  //
+  // Hardcoding a slug means the script breaks silently whenever the catalogue
+  // moves. Asking the key what it can run costs one request and cannot go
+  // stale. If nothing matches, the error names every Instagram tool the key
+  // DOES have, so the next fix is a substitution rather than another
+  // investigation.
+  const available = await instagramTools();
+  console.log(`  Tools:    ${available.length} instagram tool(s) available to this key`);
+
+  const CONTAINER_TOOLS = [
+    "INSTAGRAM_POST_IG_USER_MEDIA",
+    "INSTAGRAM_CREATE_MEDIA_CONTAINER",
+    "INSTAGRAM_CREATE_CAROUSEL_CONTAINER",
+  ];
+  const PUBLISH_TOOLS = [
+    "INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH",
+    "INSTAGRAM_CREATE_POST",
+  ];
+  const containerTool = choose(available, CONTAINER_TOOLS, "container");
+  const publishTool = choose(available, PUBLISH_TOOLS, "publish");
+  console.log(`  Using:    ${containerTool} -> ${publishTool}`);
+
+  const container = await execTool(containerTool, {
     ig_user_id: IG_USER_ID,
     video_url: A["video-url"],
     caption,
@@ -237,7 +298,7 @@ try {
   console.log(`  Container: ${creationId}`);
 
   // Composio polls for FINISHED itself. Reels typically need 30-120s.
-  const published = await execTool("INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH", {
+  const published = await execTool(publishTool, {
     ig_user_id: IG_USER_ID,
     creation_id: String(creationId),
     max_wait_seconds: 180,
