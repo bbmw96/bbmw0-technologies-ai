@@ -132,44 +132,12 @@ async function diagnose(label) {
   }
   console.log(`  (this script was passed ACCOUNT="${ACCOUNT}" — it must match an id above, not a nickname)`);
 
-  // Page through and filter CLIENT-SIDE on toolkit.slug.
-  //
-  // ?toolkit_slugs=instagram was silently ignored: the response came back with
-  // 50 items whose first entry was 0CODEKIT_CALCULATE_BMI — the whole catalogue
-  // in alphabetical order. That "50 found" was then read as "50 Instagram
-  // tools", which was wrong and was reported as fact.
-  //
-  // The raw payload shows each tool carries toolkit.slug, so filtering here
-  // needs no guess about query-parameter names and cannot be silently ignored.
-  // Slower, and correct.
-  const igTools = [];
-  let page = 1, pages = 1, scanned = 0, lastStatus = 0;
-  while (page <= pages && page <= 40) {
-    const r = await get(`/tools?limit=100&page=${page}`);
-    lastStatus = r.status;
-    const items = r.json?.items || r.json?.data || [];
-    if (!Array.isArray(items) || !items.length) break;
-    scanned += items.length;
-    pages = r.json?.total_pages || pages;
-    for (const t of items) {
-      if ((t.toolkit?.slug || "").toLowerCase() === "instagram") igTools.push(t.slug || t.name);
-    }
-    page++;
-  }
-  const tools = { status: lastStatus, json: { items: igTools } };
-  const ti = igTools;
-  console.log(`instagram tools visible to this key: HTTP ${lastStatus}, ${igTools.length} found (scanned ${scanned} across ${page - 1} page(s))`);
-
-  // Print the RAW first item before assuming any field name. The previous
-  // version printed `t.slug || t.name` and produced forty lines of "undefined",
-  // because the items are not shaped the way that guessed. Forty undefineds
-  // look like output and carry no information — the same trap as a confident
-  // wrong error message, just quieter.
+  // Same resolver the upload path uses, so the two cannot disagree about
+  // what this key can see.
+  const ti = await instagramTools({ log: (m) => console.log(m) });
+  console.log(`instagram tools visible to this key: ${ti.length} found`);
   for (const name of ti) console.log(`  ${name}`);
 
-  // Does the exact tool this script calls appear anywhere in that payload?
-  // That is the whole question, and a substring check over the raw JSON
-  // answers it regardless of which field holds the identifier.
   const WANT = "INSTAGRAM_POST_IG_USER_MEDIA";
   if (ti.length) {
     const present = ti.includes(WANT);
@@ -179,19 +147,13 @@ async function diagnose(label) {
       console.log(`  Pick a slug from the list above that publishes media, and use it instead.`);
     }
   }
-  // Only conclude anything when the request actually SUCCEEDED. On a network
-  // error, status is undefined and the list is empty for a reason that has
-  // nothing to do with the key — and announcing "no toolkit" there would be
-  // the same confident-wrong-diagnosis this rewrite exists to remove.
-  if (tools.error || tools.status === undefined) {
-    console.log(`  Could not reach the API (${tools.error || "no response"}). No conclusion drawn.`);
-  } else if (tools.status >= 400) {
-    console.log(`  Request rejected with HTTP ${tools.status}. The key is being refused, not empty-handed.`);
-  } else if (Array.isArray(ti) && ti.length === 0) {
-    console.log(`  NONE, and the request succeeded — so the key is genuinely seeing an`);
-    console.log(`  Instagram toolkit with no tools in it. Confirm in the Composio dashboard`);
-    console.log(`  that the API key and the connected account are in the SAME project.`);
-  }
+  // No conclusion is drawn here any more. instagramTools() logs exactly which
+  // query it tried, what came back, and whether it trusted the result — which
+  // is the evidence. The block that used to sit here announced "the key has no
+  // Instagram toolkit" whenever the list was empty, including when the API was
+  // simply unreachable. That is the same confident-wrong-diagnosis this file
+  // was rewritten to remove, and it survived two attempts to remove it.
+
   console.log(`--- end diagnostics ---\n`);
 }
 
@@ -215,24 +177,61 @@ async function execTool(slug, argumentsObj) {
   return json.data ?? json;
 }
 
-/** Return the Instagram tool slugs this key can actually execute. */
-async function instagramTools() {
-  const out = [];
-  let page = 1, pages = 1;
-  while (page <= pages && page <= 40) {
-    let r;
+/** Return the Instagram tool slugs this key can actually execute.
+ *
+ *  Tries several query shapes and VERIFIES each result before trusting it,
+ *  rather than assuming any one parameter name is honoured.
+ *
+ *  History, because both failure modes were mine:
+ *   - ?toolkit_slugs=instagram was silently ignored and returned the whole
+ *     catalogue alphabetically. Reading its length as "50 Instagram tools"
+ *     was wrong.
+ *   - Falling back to an unfiltered paged scan capped at 40 pages, which on a
+ *     catalogue of thousands may never reach the letter I. That reported
+ *     "(none)" — a conclusion drawn from an incomplete scan, which is exactly
+ *     as misleading as the first error.
+ *
+ *  A result is only trusted when every item in it really is an Instagram tool.
+ *  If a filter is ignored, the first item will belong to some other toolkit
+ *  and the result is discarded. */
+async function instagramTools({ log = () => {} } = {}) {
+  const isIg = (t) => (t.toolkit?.slug || "").toLowerCase() === "instagram";
+  const get = async (p) => {
     try {
-      const res = await fetch(`${BASE}/tools?limit=100&page=${page}`, { headers: { "x-api-key": KEY } });
-      r = await res.json();
-    } catch { break; }
-    const items = r?.items || r?.data || [];
+      const r = await fetch(`${BASE}${p}`, { headers: { "x-api-key": KEY } });
+      return { status: r.status, json: await r.json() };
+    } catch (e) { return { error: e.message }; }
+  };
+
+  for (const q of [
+    "/tools?toolkit_slug=instagram&limit=200",
+    "/tools?toolkit_slugs=instagram&limit=200",
+    "/tools?toolkits=instagram&limit=200",
+    "/toolkits/instagram/tools?limit=200",
+  ]) {
+    const r = await get(q);
+    const items = r.json?.items || r.json?.data || [];
+    if (!Array.isArray(items) || !items.length) { log(`  ${q} -> HTTP ${r.status}, 0 items`); continue; }
+    // The filter is only believed if it actually filtered.
+    if (!items.every(isIg)) { log(`  ${q} -> HTTP ${r.status}, ${items.length} items but NOT instagram-only (ignored)`); continue; }
+    log(`  ${q} -> HTTP ${r.status}, ${items.length} instagram tool(s) [trusted]`);
+    return items.map((t) => t.slug).filter(Boolean);
+  }
+
+  // Last resort: full paged scan, no page cap beyond what the API reports.
+  log(`  no filter honoured; scanning the full catalogue`);
+  const out = [];
+  let page = 1, pages = 1, scanned = 0;
+  while (page <= pages) {
+    const r = await get(`/tools?limit=100&page=${page}`);
+    const items = r.json?.items || r.json?.data || [];
     if (!Array.isArray(items) || !items.length) break;
-    pages = r?.total_pages || pages;
-    for (const t of items) {
-      if ((t.toolkit?.slug || "").toLowerCase() === "instagram" && t.slug) out.push(t.slug);
-    }
+    scanned += items.length;
+    pages = r.json?.total_pages || pages;
+    for (const t of items) if (isIg(t) && t.slug) out.push(t.slug);
     page++;
   }
+  log(`  scanned ${scanned} tool(s) across ${page - 1} page(s) of ${pages}; found ${out.length} instagram`);
   return out;
 }
 
@@ -266,7 +265,7 @@ try {
   // stale. If nothing matches, the error names every Instagram tool the key
   // DOES have, so the next fix is a substitution rather than another
   // investigation.
-  const available = await instagramTools();
+  const available = await instagramTools({ log: (m) => console.log(m) });
   console.log(`  Tools:    ${available.length} instagram tool(s) available to this key`);
 
   const CONTAINER_TOOLS = [
