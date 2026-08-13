@@ -157,11 +157,48 @@ async function diagnose(label) {
   console.log(`--- end diagnostics ---\n`);
 }
 
+// The entity that owns the connected account.
+//
+// Composio rejects an execute that names a connected account without also
+// naming its user:
+//
+//   HTTP 400 "User ID is required with connected account."
+//   ActionExecute_ConnectedAccountEntityIdRequired
+//
+// Read it off the connection rather than guessing. A wrong entity id would
+// either fail the same way or, worse, resolve to somebody else's connection.
+// Cached because every execute needs it and it cannot change mid-run.
+let _entityId;
+async function entityId() {
+  if (_entityId !== undefined) return _entityId;
+  _entityId = process.env.COMPOSIO_ENTITY_ID || null;
+  if (!_entityId) {
+    try {
+      const r = await fetch(`${BASE}/connected_accounts/${ACCOUNT}`, { headers: { "x-api-key": KEY } });
+      const j = await r.json();
+      _entityId = j?.user_id || j?.entity_id || j?.entityId || j?.data?.user_id || null;
+    } catch { _entityId = null; }
+  }
+  console.log(`  Entity:   ${_entityId || "(none resolved — falling back to default)"}`);
+  if (!_entityId) _entityId = "default";
+  return _entityId;
+}
+
 async function execTool(slug, argumentsObj) {
+  const uid = await entityId();
   const res = await fetch(`${API}/${slug}`, {
     method: "POST",
     headers: { "x-api-key": KEY, "Content-Type": "application/json" },
-    body: JSON.stringify({ connected_account_id: ACCOUNT, arguments: argumentsObj }),
+    // user_id and entity_id both sent: Composio has used each name across API
+    // versions, the error text says "entity_id", and an unrecognised extra
+    // field is ignored. Sending both costs nothing and avoids another round
+    // trip to discover which one this deployment wants.
+    body: JSON.stringify({
+      connected_account_id: ACCOUNT,
+      user_id: uid,
+      entity_id: uid,
+      arguments: argumentsObj,
+    }),
   });
   const text = await res.text();
   let json;
