@@ -235,6 +235,34 @@ async function instagramTools({ log = () => {} } = {}) {
   return out;
 }
 
+/** Fetch a tool's accepted input parameter names.
+ *
+ *  Needed because the tools this key actually has are NOT the ones this script
+ *  was written against. It hardcoded INSTAGRAM_POST_IG_USER_MEDIA; the key has
+ *  INSTAGRAM_CREATE_MEDIA_CONTAINER and INSTAGRAM_CREATE_POST instead — the
+ *  same Meta handshake under different names, with different argument names.
+ *
+ *  Guessing those names is how this file spent three months returning 404. */
+async function toolParams(slug) {
+  try {
+    const r = await fetch(`${BASE}/tools/${slug}`, { headers: { "x-api-key": KEY } });
+    const j = await r.json();
+    const props = j?.input_parameters?.properties || j?.parameters?.properties || j?.inputParameters?.properties;
+    return props ? Object.keys(props) : [];
+  } catch { return []; }
+}
+
+/** Build an argument object using whichever alias the tool actually accepts. */
+function mapArgs(accepted, wanted) {
+  const out = {};
+  for (const [aliases, value] of wanted) {
+    if (value === undefined) continue;
+    const key = aliases.find((a) => accepted.includes(a));
+    if (key) out[key] = value;
+  }
+  return out;
+}
+
 /** Pick the first candidate that this key can actually see. */
 function choose(available, candidates, role) {
   const hit = candidates.find((c) => available.includes(c));
@@ -281,13 +309,20 @@ try {
   const publishTool = choose(available, PUBLISH_TOOLS, "publish");
   console.log(`  Using:    ${containerTool} -> ${publishTool}`);
 
-  const container = await execTool(containerTool, {
-    ig_user_id: IG_USER_ID,
-    video_url: A["video-url"],
-    caption,
-    media_type: "REELS",
-    share_to_feed: true,
-  });
+  const cParams = await toolParams(containerTool);
+  console.log(`  ${containerTool} accepts: ${cParams.join(", ") || "(schema unavailable)"}`);
+  const containerArgs = cParams.length
+    ? mapArgs(cParams, [
+        [["ig_user_id", "ig_id", "instagram_account_id", "user_id"], IG_USER_ID],
+        [["video_url", "media_url", "url"], A["video-url"]],
+        [["caption", "text"], caption],
+        [["media_type", "type"], "REELS"],
+        [["share_to_feed"], true],
+      ])
+    // No schema: fall back to the original shape rather than sending nothing.
+    : { ig_user_id: IG_USER_ID, video_url: A["video-url"], caption, media_type: "REELS", share_to_feed: true };
+
+  const container = await execTool(containerTool, containerArgs);
 
   // Response nesting varies, so probe rather than assume one shape.
   const creationId = container?.id || container?.data?.id || container?.response_data?.id;
@@ -297,11 +332,17 @@ try {
   console.log(`  Container: ${creationId}`);
 
   // Composio polls for FINISHED itself. Reels typically need 30-120s.
-  const published = await execTool(publishTool, {
-    ig_user_id: IG_USER_ID,
-    creation_id: String(creationId),
-    max_wait_seconds: 180,
-  });
+  const pParams = await toolParams(publishTool);
+  console.log(`  ${publishTool} accepts: ${pParams.join(", ") || "(schema unavailable)"}`);
+  const publishArgs = pParams.length
+    ? mapArgs(pParams, [
+        [["ig_user_id", "ig_id", "instagram_account_id", "user_id"], IG_USER_ID],
+        [["creation_id", "container_id", "media_container_id", "id"], String(creationId)],
+        [["max_wait_seconds", "timeout"], 180],
+      ])
+    : { ig_user_id: IG_USER_ID, creation_id: String(creationId), max_wait_seconds: 180 };
+
+  const published = await execTool(publishTool, publishArgs);
 
   const mediaId = published?.id || published?.data?.id || published?.response_data?.id;
   if (!mediaId) throw new Error(`No media id in publish response: ${JSON.stringify(published).slice(0, 300)}`);
