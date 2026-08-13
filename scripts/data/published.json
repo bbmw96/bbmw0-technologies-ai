@@ -50,7 +50,8 @@
     "reel:first-bug-real",
     "reel:copy-paste-inventor",
     "qwerty-not-speed",
-    "consensus-mode"
+    "consensus-mode",
+    "training-vs-inference"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -782,6 +783,19 @@
       "title": "Five AIs answer one prompt. #Shorts",
       "description": "Pure kinetic typography. No faces, no chatter.\n\nFive AIs answer one prompt. Then we pick the best.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts",
       "niche": "app",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "training-vs-inference",
+      "date": "2026-08-13",
+      "themeId": "midnight",
+      "fontFamilyId": "rounded",
+      "audioUrl": "sounds/norm/bbmw0-rain-distant.mp3",
+      "title": "Training a model and using it are different jobs. #Shorts #quickfact",
+      "description": "Here's a one-minute fact you didn't know you needed.\n\nTraining a model and using it are different jobs. One takes months, one takes milliseconds.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #quickfact",
+      "niche": "ai",
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"

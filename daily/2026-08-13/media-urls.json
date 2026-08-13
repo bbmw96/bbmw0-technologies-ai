@@ -4,6 +4,7 @@
   "tag": "media-2026-08-13",
   "base": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-08-13",
   "urls": {
-    "consensus-mode": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-08-13/daily-2026-08-13-consensus-mode.mp4"
+    "consensus-mode": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-08-13/daily-2026-08-13-consensus-mode.mp4",
+    "training-vs-inference": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-08-13/daily-2026-08-13-training-vs-inference.mp4"
   }
 }

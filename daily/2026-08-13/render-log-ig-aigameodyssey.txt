@@ -1,41 +1,79 @@
-Rendering 1 Shorts for 2026-08-13 (concurrency=3, GL=default)
-Compliance: 1 cleared, 0 blocked (policy v1.0.0).
+Rendering 2 Shorts for 2026-08-13 (concurrency=3, GL=default)
+Compliance: 2 cleared, 0 blocked (policy v1.0.0).
 
 --- consensus-mode ---
   theme=lavender font=sans audio=sounds/norm/bbmw0-rain-heavy.mp3 privacy=public
   rendered: out/daily-2026-08-13-consensus-mode.mp4
-  hosting media so Instagram can fetch it...
   ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
   instagram via: Composio
   FAILED upload: Command failed: node scripts/instagram-upload-composio.mjs --video-url="https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-08-13/daily-2026-08-13-consensus-mode.mp4" --caption="Five AIs answer one prompt. #Shorts" --tags="shorts,app,opensource,videoediting,creator,webapp"
-Upload failed: No usable container tool. Tried INSTAGRAM_POST_IG_USER_MEDIA, INSTAGRAM_CREATE_MEDIA_CONTAINER, INSTAGRAM_CREATE_CAROUSEL_CONTAINER. This key's Instagram tools: (none)
+Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: HTTP 400: {"error":{"message":"User ID is required with connected account. Please provide a user ID to identify the connected account.","code":1811,"slug":"ActionExecute_ConnectedAccountEntityIdRequired","status":400,"request_id":"dedce4b4-5448-40fd-b7b2-cf557c767f6a","suggested_fix":"Pass entity_id (your use
 
   --- child stdout ---
-  | Publishing Reel to Instagram via Composio
-  |   Account:  ac_JTNN_GLog20U
-  |   IG user:  26759002047072119
-  |   Video:    https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-08-13/daily-2026-08-13-consensus-mode.mp4
-  |   Tools:    0 instagram tool(s) available to this key
-  | 
-  | --- Composio diagnostics (after failure) ---
-  | instagram connected accounts: HTTP 200, 2 found
-  |   id=ca_vqL3A2_GNglt  status=ACTIVE  name=-
-  |   id=ca_9Kt15qDIIeCr  status=ACTIVE  name=-
-  | projects visible to this key: HTTP 404 "<!DOCTYPE html><html><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\"/><title data-next-head=\"\">404</title><script src=\"https://cdn.tailwindcss.com\" data-next-head=\"\"></script><noscript data-n-css=\"\"></noscript><sc
-  | connected accounts: HTTP 200, 6 found
-  |   id=ca_2TTgKvN9gsTz  toolkit=youtube  name=-  status=ACTIVE
-  |   id=ca_609fIfwbeJNN  toolkit=youtube  name=-  status=ACTIVE
-  |   id=ca_vqL3A2_GNglt  toolkit=instagram  name=-  status=ACTIVE
-  |   id=ca_9Kt15qDIIeCr  toolkit=instagram  name=-  status=ACTIVE
   |   id=ca_9c4hykP4M5OP  toolkit=github  name=-  status=EXPIRED
   |   id=ca_vjf62kxg26zV  toolkit=anthropic_administrator  name=-  status=ACTIVE
   |   (this script was passed ACCOUNT="ac_JTNN_GLog20U" — it must match an id above, not a nickname)
-  | instagram tools visible to this key: HTTP 200, 0 found (scanned 4000 across 40 page(s))
-  |   NONE, and the request succeeded — so the key is genuinely seeing an
-  |   Instagram toolkit with no tools in it. Confirm in the Composio dashboard
-  |   that the API key and the connected account are in the SAME project.
+  |   /tools?toolkit_slug=instagram&limit=200 -> HTTP 200, 16 instagram tool(s) [trusted]
+  | instagram tools visible to this key: 16 found
+  |   INSTAGRAM_CREATE_CAROUSEL_CONTAINER
+  |   INSTAGRAM_CREATE_MEDIA_CONTAINER
+  |   INSTAGRAM_CREATE_POST
+  |   INSTAGRAM_GET_CONVERSATION
+  |   INSTAGRAM_GET_POST_COMMENTS
+  |   INSTAGRAM_GET_POST_INSIGHTS
+  |   INSTAGRAM_GET_POST_STATUS
+  |   INSTAGRAM_GET_USER_INFO
+  |   INSTAGRAM_GET_USER_INSIGHTS
+  |   INSTAGRAM_GET_USER_MEDIA
+  |   INSTAGRAM_LIST_ALL_CONVERSATIONS
+  |   INSTAGRAM_LIST_ALL_MESSAGES
+  |   INSTAGRAM_MARK_SEEN
+  |   INSTAGRAM_REPLY_TO_COMMENT
+  |   INSTAGRAM_SEND_IMAGE
+  |   INSTAGRAM_SEND_TEXT_MESSAGE
+  |   INSTAGRAM_POST_IG_USER_MEDIA present in this key's tool list: NO
+  |   So the 404 is correct: the key can see Instagram tools, but not that one.
+  |   Pick a slug from the list above that publishes media, and use it instead.
   | --- end diagnostics ---
   --- child stderr ---
-  | Upload failed: No usable container tool. Tried INSTAGRAM_POST_IG_USER_MEDIA, INSTAGRAM_CREATE_MEDIA_CONTAINER, INSTAGRAM_CREATE_CAROUSEL_CONTAINER. This key's Instagram tools: (none)
+  | Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: HTTP 400: {"error":{"message":"User ID is required with connected account. Please provide a user ID to identify the connected account.","code":1811,"slug":"ActionExecute_ConnectedAccountEntityIdRequired","status":400,"request_id":"dedce4b4-5448-40fd-b7b2-cf557c767f6a","suggested_fix":"Pass entity_id (your use
 
-=== Done. 1 rendered, 0 uploaded, 0 skipped, 0 blocked by compliance, 1 failed. ===
+--- training-vs-inference ---
+  theme=midnight font=rounded audio=sounds/norm/bbmw0-rain-distant.mp3 privacy=public
+  rendered: out/daily-2026-08-13-training-vs-inference.mp4
+  hosting media so Instagram can fetch it...
+  ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
+  instagram via: Composio
+  FAILED upload: Command failed: node scripts/instagram-upload-composio.mjs --video-url="https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-08-13/daily-2026-08-13-training-vs-inference.mp4" --caption="Training a model and using it are different jobs. #Shorts #quickfact" --tags="shorts,facts,didyouknow,learning,education"
+Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: HTTP 400: {"error":{"message":"User ID is required with connected account. Please provide a user ID to identify the connected account.","code":1811,"slug":"ActionExecute_ConnectedAccountEntityIdRequired","status":400,"request_id":"fcbd4c21-6aff-45c0-8fd3-7c2ec7bcbbbc","suggested_fix":"Pass entity_id (your use
+
+  --- child stdout ---
+  |   id=ca_9c4hykP4M5OP  toolkit=github  name=-  status=EXPIRED
+  |   id=ca_vjf62kxg26zV  toolkit=anthropic_administrator  name=-  status=ACTIVE
+  |   (this script was passed ACCOUNT="ac_JTNN_GLog20U" — it must match an id above, not a nickname)
+  |   /tools?toolkit_slug=instagram&limit=200 -> HTTP 200, 16 instagram tool(s) [trusted]
+  | instagram tools visible to this key: 16 found
+  |   INSTAGRAM_CREATE_CAROUSEL_CONTAINER
+  |   INSTAGRAM_CREATE_MEDIA_CONTAINER
+  |   INSTAGRAM_CREATE_POST
+  |   INSTAGRAM_GET_CONVERSATION
+  |   INSTAGRAM_GET_POST_COMMENTS
+  |   INSTAGRAM_GET_POST_INSIGHTS
+  |   INSTAGRAM_GET_POST_STATUS
+  |   INSTAGRAM_GET_USER_INFO
+  |   INSTAGRAM_GET_USER_INSIGHTS
+  |   INSTAGRAM_GET_USER_MEDIA
+  |   INSTAGRAM_LIST_ALL_CONVERSATIONS
+  |   INSTAGRAM_LIST_ALL_MESSAGES
+  |   INSTAGRAM_MARK_SEEN
+  |   INSTAGRAM_REPLY_TO_COMMENT
+  |   INSTAGRAM_SEND_IMAGE
+  |   INSTAGRAM_SEND_TEXT_MESSAGE
+  |   INSTAGRAM_POST_IG_USER_MEDIA present in this key's tool list: NO
+  |   So the 404 is correct: the key can see Instagram tools, but not that one.
+  |   Pick a slug from the list above that publishes media, and use it instead.
+  | --- end diagnostics ---
+  --- child stderr ---
+  | Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: HTTP 400: {"error":{"message":"User ID is required with connected account. Please provide a user ID to identify the connected account.","code":1811,"slug":"ActionExecute_ConnectedAccountEntityIdRequired","status":400,"request_id":"fcbd4c21-6aff-45c0-8fd3-7c2ec7bcbbbc","suggested_fix":"Pass entity_id (your use
+
+=== Done. 2 rendered, 0 uploaded, 0 skipped, 0 blocked by compliance, 2 failed. ===

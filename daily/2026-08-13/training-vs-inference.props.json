@@ -1,0 +1,51 @@
+{
+  "special": false,
+  "themeId": "midnight",
+  "fontFamilyId": "rounded",
+  "audioUrl": "sounds/norm/bbmw0-rain-distant.mp3",
+  "audioVolume": 0.9,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Did you know.",
+      "text": "Training a model and using it are different jobs.",
+      "sub": "Worth knowing.",
+      "durationInFrames": 195,
+      "variant": 1
+    },
+    {
+      "kind": "bigword",
+      "text": "One takes months, one takes milliseconds.",
+      "durationInFrames": 195,
+      "variant": 3
+    },
+    {
+      "kind": "list",
+      "heading": "Why it matters",
+      "items": [
+        "One",
+        "Two",
+        "Three"
+      ],
+      "durationInFrames": 195,
+      "variant": 1
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Tap.",
+        "Save.",
+        "Reuse."
+      ],
+      "durationInFrames": 189,
+      "variant": 1
+    },
+    {
+      "kind": "cta",
+      "headline": "Pass it on.",
+      "url": "bbmw0-technologies-ai.vercel.app",
+      "durationInFrames": 126,
+      "variant": 3
+    }
+  ]
+}

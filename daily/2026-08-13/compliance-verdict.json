@@ -4,7 +4,8 @@
   "policyVersion": "1.0.0",
   "strictMode": false,
   "allowed": [
-    "consensus-mode"
+    "consensus-mode",
+    "training-vs-inference"
   ],
   "blocked": [],
   "results": [
@@ -38,6 +39,44 @@
         "combo": "lavender|sans|sounds/norm/bbmw0-rain-heavy.mp3",
         "themeGap": 5,
         "audioGap": null
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "training-vs-inference",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Training a model and using it are different jobs. #Shorts #quickfact",
+      "niche": "ai",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.057,
+        "worstTitleAgainst": "speedrun-frame",
+        "worstDescriptionSimilarity": 0.516,
+        "combo": "midnight|rounded|sounds/norm/bbmw0-rain-distant.mp3",
+        "themeGap": 6,
+        "audioGap": 2
       },
       "aiPanel": {
         "available": false,

@@ -1,0 +1,26 @@
+{
+  "slug": "training-vs-inference",
+  "date": "2026-08-13",
+  "title": "Training a model and using it are different jobs. #Shorts #quickfact",
+  "description": "Here's a one-minute fact you didn't know you needed.\n\nTraining a model and using it are different jobs. One takes months, one takes milliseconds.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #quickfact",
+  "tags": [
+    "shorts",
+    "facts",
+    "didyouknow",
+    "learning",
+    "education"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-08-13-training-vs-inference.mp4",
+  "propsFile": "daily/2026-08-13/training-vs-inference.props.json",
+  "durationInFrames": 900,
+  "themeId": "midnight",
+  "fontFamilyId": "rounded",
+  "audioUrl": "sounds/norm/bbmw0-rain-distant.mp3",
+  "niche": "ai"
+}
