@@ -7,7 +7,8 @@
     "atari-landfill",
     "qwerty-not-slow",
     "upscaling-frames",
-    "collision-boxes"
+    "collision-boxes",
+    "paper-folds"
   ],
   "blocked": [],
   "results": [
@@ -167,6 +168,44 @@
         "combo": "forest|sans|sounds/norm/bbmw0-stream.mp3",
         "themeGap": 6,
         "audioGap": 3
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "paper-folds",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Fold paper 42 times and it reaches the Moon. #Shorts #learn",
+      "niche": "science",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.14,
+        "worstTitleAgainst": "paper-samarkand",
+        "worstDescriptionSimilarity": 0.524,
+        "combo": "glacier|display|sounds/norm/bbmw0-ocean-shore.mp3",
+        "themeGap": 9,
+        "audioGap": null
       },
       "aiPanel": {
         "available": false,

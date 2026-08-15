@@ -55,7 +55,8 @@
     "reel:atari-landfill",
     "reel:qwerty-not-slow",
     "upscaling-frames",
-    "collision-boxes"
+    "collision-boxes",
+    "paper-folds"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -870,6 +871,23 @@
       "youtubeId": "18059987954784326",
       "youtubeUrl": "https://youtu.be/18059987954784326",
       "uploadedAt": "2026-08-15T20:05:11.383Z",
+      "privacy": "public"
+    },
+    {
+      "id": "paper-folds",
+      "date": "2026-08-15",
+      "themeId": "glacier",
+      "fontFamilyId": "display",
+      "audioUrl": "sounds/norm/bbmw0-ocean-shore.mp3",
+      "title": "Fold paper 42 times and it reaches the Moon. #Shorts #learn",
+      "description": "Pure kinetic typography. No faces, no chatter.\n\nFold paper 42 times and it reaches the Moon. Doubling grows terrifyingly fast.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #learn",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "X4jhDbjYCfk",
+      "youtubeUrl": "https://youtu.be/X4jhDbjYCfk",
+      "uploadedAt": "2026-08-15T21:16:31.614Z",
       "privacy": "public"
     }
   ]

@@ -1,0 +1,51 @@
+{
+  "special": false,
+  "themeId": "glacier",
+  "fontFamilyId": "display",
+  "audioUrl": "sounds/norm/bbmw0-ocean-shore.mp3",
+  "audioVolume": 0.9,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Listen.",
+      "text": "Fold paper 42 times and it reaches the Moon.",
+      "sub": "Worth knowing.",
+      "durationInFrames": 195,
+      "variant": 1
+    },
+    {
+      "kind": "bigword",
+      "text": "Doubling grows terrifyingly fast.",
+      "durationInFrames": 195,
+      "variant": 2
+    },
+    {
+      "kind": "list",
+      "heading": "Quick context",
+      "items": [
+        "Experiments first",
+        "Then a theory",
+        "Then peer review"
+      ],
+      "durationInFrames": 195,
+      "variant": 1
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "See.",
+        "Hear.",
+        "Know."
+      ],
+      "durationInFrames": 182,
+      "variant": 3
+    },
+    {
+      "kind": "cta",
+      "headline": "Save this one.",
+      "url": "bbmw0-technologies-ai.vercel.app/install",
+      "durationInFrames": 133,
+      "variant": 3
+    }
+  ]
+}
