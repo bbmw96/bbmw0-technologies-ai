@@ -6,7 +6,8 @@
   "allowed": [
     "atari-landfill",
     "qwerty-not-slow",
-    "upscaling-frames"
+    "upscaling-frames",
+    "collision-boxes"
   ],
   "blocked": [],
   "results": [
@@ -128,6 +129,44 @@
         "combo": "sunset|rounded|sounds/norm/bbmw0-rain-heavy.mp3",
         "themeGap": 29,
         "audioGap": 1
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "collision-boxes",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Game characters are mostly invisible boxes. #Shorts #quickfact",
+      "niche": "gaming",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.111,
+        "worstTitleAgainst": "first-video-game",
+        "worstDescriptionSimilarity": 0.556,
+        "combo": "forest|sans|sounds/norm/bbmw0-stream.mp3",
+        "themeGap": 6,
+        "audioGap": 3
       },
       "aiPanel": {
         "available": false,

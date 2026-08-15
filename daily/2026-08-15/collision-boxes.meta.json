@@ -1,0 +1,26 @@
+{
+  "slug": "collision-boxes",
+  "date": "2026-08-15",
+  "title": "Game characters are mostly invisible boxes. #Shorts #quickfact",
+  "description": "Daily Short. Drop a comment if you knew it.\n\nGame characters are mostly invisible boxes. You collide with the box, not the art.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #quickfact",
+  "tags": [
+    "shorts",
+    "facts",
+    "didyouknow",
+    "learning",
+    "trivia"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-08-15-collision-boxes.mp4",
+  "propsFile": "daily/2026-08-15/collision-boxes.props.json",
+  "durationInFrames": 900,
+  "themeId": "forest",
+  "fontFamilyId": "sans",
+  "audioUrl": "sounds/norm/bbmw0-stream.mp3",
+  "niche": "gaming"
+}

@@ -1,0 +1,51 @@
+{
+  "special": false,
+  "themeId": "forest",
+  "fontFamilyId": "sans",
+  "audioUrl": "sounds/norm/bbmw0-stream.mp3",
+  "audioVolume": 0.9,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Listen.",
+      "text": "Game characters are mostly invisible boxes.",
+      "sub": "True, mostly.",
+      "durationInFrames": 195,
+      "variant": 3
+    },
+    {
+      "kind": "bigword",
+      "text": "You collide with the box, not the art.",
+      "durationInFrames": 195,
+      "variant": 3
+    },
+    {
+      "kind": "list",
+      "heading": "What's interesting",
+      "items": [
+        "One",
+        "Two",
+        "Three"
+      ],
+      "durationInFrames": 195,
+      "variant": 1
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Watch.",
+        "Learn.",
+        "Apply."
+      ],
+      "durationInFrames": 179,
+      "variant": 3
+    },
+    {
+      "kind": "cta",
+      "headline": "Tell a friend.",
+      "url": "bbmw0-technologies-ai.vercel.app",
+      "durationInFrames": 136,
+      "variant": 2
+    }
+  ]
+}

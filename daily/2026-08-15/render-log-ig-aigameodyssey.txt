@@ -1,79 +1,28 @@
-Rendering 3 Shorts for 2026-08-15 (concurrency=3, GL=default)
-Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+Rendering 4 Shorts for 2026-08-15 (concurrency=3, GL=default)
+Compliance: 4 cleared, 0 blocked (policy v1.0.0).
 
 --- atari-landfill ---
   composition=Reel audio=sounds/norm/bbmw0-wind-open.mp3 privacy=public
   rendered: out/daily-2026-08-15-atari-landfill.mp4
   ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
   instagram via: Composio
-  FAILED upload: Command failed: node scripts/instagram-upload-composio.mjs --video-url="https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-08-15/daily-2026-08-15-atari-landfill.mp4" --caption="Atari buried its games in the desert." --tags="shorts,gaming,facts,didyouknow,history"
-Upload failed: INSTAGRAM_CREATE_POST: Failed to create post (status 400). Response: {"error":{"message":"Media ID is not available","type":"OAuthException","code":9007,"error_subcode":2207027,"is_transient":false,"error_user_title":"Cannot Publish","error_user_msg":"The media is not ready for publishing, please wait for a moment","fbtrace_id":"Aid0eE9bOQ4Xm5WgWYIAg1a"}}
+  published to Instagram: media 17899959501560838
 
-  --- child stdout ---
-  |   id=ca_9c4hykP4M5OP  toolkit=github  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=EXPIRED
-  |   id=ca_vjf62kxg26zV  toolkit=anthropic_administrator  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=ACTIVE
-  |   (this script was passed ACCOUNT="ac_JTNN_GLog20U" — it must match an id above, not a nickname)
-  |   /tools?toolkit_slug=instagram&limit=200 -> HTTP 200, 16 instagram tool(s) [trusted]
-  | instagram tools visible to this key: 16 found
-  |   INSTAGRAM_CREATE_CAROUSEL_CONTAINER
-  |   INSTAGRAM_CREATE_MEDIA_CONTAINER
-  |   INSTAGRAM_CREATE_POST
-  |   INSTAGRAM_GET_CONVERSATION
-  |   INSTAGRAM_GET_POST_COMMENTS
-  |   INSTAGRAM_GET_POST_INSIGHTS
-  |   INSTAGRAM_GET_POST_STATUS
-  |   INSTAGRAM_GET_USER_INFO
-  |   INSTAGRAM_GET_USER_INSIGHTS
-  |   INSTAGRAM_GET_USER_MEDIA
-  |   INSTAGRAM_LIST_ALL_CONVERSATIONS
-  |   INSTAGRAM_LIST_ALL_MESSAGES
-  |   INSTAGRAM_MARK_SEEN
-  |   INSTAGRAM_REPLY_TO_COMMENT
-  |   INSTAGRAM_SEND_IMAGE
-  |   INSTAGRAM_SEND_TEXT_MESSAGE
-  |   INSTAGRAM_POST_IG_USER_MEDIA present in this key's tool list: NO
-  |   So the 404 is correct: the key can see Instagram tools, but not that one.
-  |   Pick a slug from the list above that publishes media, and use it instead.
-  | --- end diagnostics ---
-  --- child stderr ---
-  | Upload failed: INSTAGRAM_CREATE_POST: Failed to create post (status 400). Response: {"error":{"message":"Media ID is not available","type":"OAuthException","code":9007,"error_subcode":2207027,"is_transient":false,"error_user_title":"Cannot Publish","error_user_msg":"The media is not ready for publishing, please wait for a moment","fbtrace_id":"Aid0eE9bOQ4Xm5WgWYIAg1a"}}
+--- collision-boxes ---
+  theme=forest font=sans audio=sounds/norm/bbmw0-stream.mp3 privacy=public
+  rendered: out/daily-2026-08-15-collision-boxes.mp4
+  hosting media so Instagram can fetch it...
+  ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
+  instagram via: Composio
+  published to Instagram: media 18059987954784326
 
 --- qwerty-not-slow ---
   composition=Reel audio=sounds/norm/bbmw0-rain-light.mp3 privacy=public
   rendered: out/daily-2026-08-15-qwerty-not-slow.mp4
+  hosting media so Instagram can fetch it...
   ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
   instagram via: Composio
-  FAILED upload: Command failed: node scripts/instagram-upload-composio.mjs --video-url="https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-08-15/daily-2026-08-15-qwerty-not-slow.mp4" --caption="You have never once questioned this." --tags="shorts,tech,facts,didyouknow,history"
-Upload failed: INSTAGRAM_CREATE_POST: Failed to create post (status 400). Response: {"error":{"message":"Media ID is not available","type":"OAuthException","code":9007,"error_subcode":2207027,"is_transient":false,"error_user_title":"Cannot Publish","error_user_msg":"The media is not ready for publishing, please wait for a moment","fbtrace_id":"AEziKMBTzIkY85T46iCmFAI"}}
-
-  --- child stdout ---
-  |   id=ca_9c4hykP4M5OP  toolkit=github  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=EXPIRED
-  |   id=ca_vjf62kxg26zV  toolkit=anthropic_administrator  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=ACTIVE
-  |   (this script was passed ACCOUNT="ac_JTNN_GLog20U" — it must match an id above, not a nickname)
-  |   /tools?toolkit_slug=instagram&limit=200 -> HTTP 200, 16 instagram tool(s) [trusted]
-  | instagram tools visible to this key: 16 found
-  |   INSTAGRAM_CREATE_CAROUSEL_CONTAINER
-  |   INSTAGRAM_CREATE_MEDIA_CONTAINER
-  |   INSTAGRAM_CREATE_POST
-  |   INSTAGRAM_GET_CONVERSATION
-  |   INSTAGRAM_GET_POST_COMMENTS
-  |   INSTAGRAM_GET_POST_INSIGHTS
-  |   INSTAGRAM_GET_POST_STATUS
-  |   INSTAGRAM_GET_USER_INFO
-  |   INSTAGRAM_GET_USER_INSIGHTS
-  |   INSTAGRAM_GET_USER_MEDIA
-  |   INSTAGRAM_LIST_ALL_CONVERSATIONS
-  |   INSTAGRAM_LIST_ALL_MESSAGES
-  |   INSTAGRAM_MARK_SEEN
-  |   INSTAGRAM_REPLY_TO_COMMENT
-  |   INSTAGRAM_SEND_IMAGE
-  |   INSTAGRAM_SEND_TEXT_MESSAGE
-  |   INSTAGRAM_POST_IG_USER_MEDIA present in this key's tool list: NO
-  |   So the 404 is correct: the key can see Instagram tools, but not that one.
-  |   Pick a slug from the list above that publishes media, and use it instead.
-  | --- end diagnostics ---
-  --- child stderr ---
-  | Upload failed: INSTAGRAM_CREATE_POST: Failed to create post (status 400). Response: {"error":{"message":"Media ID is not available","type":"OAuthException","code":9007,"error_subcode":2207027,"is_transient":false,"error_user_title":"Cannot Publish","error_user_msg":"The media is not ready for publishing, please wait for a moment","fbtrace_id":"AEziKMBTzIkY85T46iCmFAI"}}
+  published to Instagram: media 17963898897157273
 
 --- upscaling-frames ---
   theme=sunset font=rounded audio=sounds/norm/bbmw0-rain-heavy.mp3 privacy=public
@@ -81,36 +30,6 @@ Upload failed: INSTAGRAM_CREATE_POST: Failed to create post (status 400). Respon
   hosting media so Instagram can fetch it...
   ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
   instagram via: Composio
-  FAILED upload: Command failed: node scripts/instagram-upload-composio.mjs --video-url="https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-08-15/daily-2026-08-15-upscaling-frames.mp4" --caption="AI upscaling invents pixels that were never captured. #Shorts" --tags="shorts,facts,didyouknow,learning,education"
-Upload failed: INSTAGRAM_CREATE_POST: Failed to create post (status 400). Response: {"error":{"message":"Media ID is not available","type":"OAuthException","code":9007,"error_subcode":2207027,"is_transient":false,"error_user_title":"Cannot Publish","error_user_msg":"The media is not ready for publishing, please wait for a moment","fbtrace_id":"AGVbBykJpGpAEGjDKqsWKIY"}}
+  published to Instagram: media 18190437934391409
 
-  --- child stdout ---
-  |   id=ca_9c4hykP4M5OP  toolkit=github  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=EXPIRED
-  |   id=ca_vjf62kxg26zV  toolkit=anthropic_administrator  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=ACTIVE
-  |   (this script was passed ACCOUNT="ac_JTNN_GLog20U" — it must match an id above, not a nickname)
-  |   /tools?toolkit_slug=instagram&limit=200 -> HTTP 200, 16 instagram tool(s) [trusted]
-  | instagram tools visible to this key: 16 found
-  |   INSTAGRAM_CREATE_CAROUSEL_CONTAINER
-  |   INSTAGRAM_CREATE_MEDIA_CONTAINER
-  |   INSTAGRAM_CREATE_POST
-  |   INSTAGRAM_GET_CONVERSATION
-  |   INSTAGRAM_GET_POST_COMMENTS
-  |   INSTAGRAM_GET_POST_INSIGHTS
-  |   INSTAGRAM_GET_POST_STATUS
-  |   INSTAGRAM_GET_USER_INFO
-  |   INSTAGRAM_GET_USER_INSIGHTS
-  |   INSTAGRAM_GET_USER_MEDIA
-  |   INSTAGRAM_LIST_ALL_CONVERSATIONS
-  |   INSTAGRAM_LIST_ALL_MESSAGES
-  |   INSTAGRAM_MARK_SEEN
-  |   INSTAGRAM_REPLY_TO_COMMENT
-  |   INSTAGRAM_SEND_IMAGE
-  |   INSTAGRAM_SEND_TEXT_MESSAGE
-  |   INSTAGRAM_POST_IG_USER_MEDIA present in this key's tool list: NO
-  |   So the 404 is correct: the key can see Instagram tools, but not that one.
-  |   Pick a slug from the list above that publishes media, and use it instead.
-  | --- end diagnostics ---
-  --- child stderr ---
-  | Upload failed: INSTAGRAM_CREATE_POST: Failed to create post (status 400). Response: {"error":{"message":"Media ID is not available","type":"OAuthException","code":9007,"error_subcode":2207027,"is_transient":false,"error_user_title":"Cannot Publish","error_user_msg":"The media is not ready for publishing, please wait for a moment","fbtrace_id":"AGVbBykJpGpAEGjDKqsWKIY"}}
-
-=== Done. 3 rendered, 0 uploaded, 0 skipped, 0 blocked by compliance, 3 failed. ===
+=== Done. 4 rendered, 4 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===
