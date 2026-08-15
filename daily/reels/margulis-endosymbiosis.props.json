@@ -1,0 +1,53 @@
+{
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (margulis-endosymbiosis)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A1410",
+    "ink": "#EAF4EE",
+    "accent": "#5EE6A8",
+    "muted": "#6F8A7C"
+  },
+  "audioUrl": "sounds/norm/bbmw0-ocean-shore.mp3",
+  "audioVolume": 1,
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "There is other DNA inside you",
+      "text": "It is not yours.",
+      "note": "Your mitochondria carry their own genome. It reads as bacterial, and it says they descend from a group called the alpha-proteobacteria.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "credit",
+      "year": "1967",
+      "name": "Lynn Sagan",
+      "role": "She published under her married name, before she was Lynn Margulis. More than a dozen journals turned the paper down before one took it.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "She made three claims",
+      "text": "Two of them are textbooks now.",
+      "note": "Mitochondria were bacteria. So were the chloroplasts in plants. Both were settled by reading the DNA those organelles still carry.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "The third one",
+      "text": "Still has nothing behind it.",
+      "note": "She said the cell's whip-like tail came from a swallowed bacterium too. No genome has ever been found in it. It is the part nobody quotes.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Vindicated is not the same as correct.",
+      "durationInFrames": 64
+    },
+    {
+      "kind": "sign",
+      "line": "The paper a dozen journals refused is now chapter one.",
+      "handle": "@bbm0902",
+      "durationInFrames": 88
+    }
+  ]
+}
