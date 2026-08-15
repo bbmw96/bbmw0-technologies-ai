@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-15",
+  "generatedAt": "2026-08-15T19:25:26.429Z",
+  "policyVersion": "1.0.0",
+  "strictMode": false,
+  "allowed": [
+    "atari-landfill"
+  ],
+  "blocked": [],
+  "results": [
+    {
+      "slug": "atari-landfill",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Atari buried its games in the desert.",
+      "niche": "gaming",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.07,
+        "worstTitleAgainst": "camel-water",
+        "worstDescriptionSimilarity": 0.2,
+        "combo": "undefined|undefined|sounds/norm/bbmw0-wind-open.mp3",
+        "themeGap": 18,
+        "audioGap": 5
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    }
+  ]
+}

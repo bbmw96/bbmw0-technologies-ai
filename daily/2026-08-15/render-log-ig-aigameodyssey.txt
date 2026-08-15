@@ -1,0 +1,42 @@
+Rendering 1 Shorts for 2026-08-15 (concurrency=3, GL=default)
+Compliance: 1 cleared, 0 blocked (policy v1.0.0).
+
+--- atari-landfill ---
+  composition=Reel audio=sounds/norm/bbmw0-wind-open.mp3 privacy=public
+  rendered: out/daily-2026-08-15-atari-landfill.mp4
+  hosting media so Instagram can fetch it...
+  ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
+  instagram via: Composio
+  FAILED upload: Command failed: node scripts/instagram-upload-composio.mjs --video-url="https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-08-15/daily-2026-08-15-atari-landfill.mp4" --caption="Atari buried its games in the desert." --tags="shorts,gaming,facts,didyouknow,history"
+Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: HTTP 404: {"error":{"message":"No connected account found with ID ac_JTNN_GLog20U for user ID default for toolkit instagram","code":1810,"slug":"ActionExecute_ConnectedAccountNotFound","status":404,"request_id":"ccd43397-c49e-4d17-9b75-3b12a483f1ca","suggested_fix":"Connected account 'ac_JTNN_GLog20U' was not
+
+  --- child stdout ---
+  |   id=ca_9c4hykP4M5OP  toolkit=github  name=-  status=EXPIRED
+  |   id=ca_vjf62kxg26zV  toolkit=anthropic_administrator  name=-  status=ACTIVE
+  |   (this script was passed ACCOUNT="ac_JTNN_GLog20U" — it must match an id above, not a nickname)
+  |   /tools?toolkit_slug=instagram&limit=200 -> HTTP 200, 16 instagram tool(s) [trusted]
+  | instagram tools visible to this key: 16 found
+  |   INSTAGRAM_CREATE_CAROUSEL_CONTAINER
+  |   INSTAGRAM_CREATE_MEDIA_CONTAINER
+  |   INSTAGRAM_CREATE_POST
+  |   INSTAGRAM_GET_CONVERSATION
+  |   INSTAGRAM_GET_POST_COMMENTS
+  |   INSTAGRAM_GET_POST_INSIGHTS
+  |   INSTAGRAM_GET_POST_STATUS
+  |   INSTAGRAM_GET_USER_INFO
+  |   INSTAGRAM_GET_USER_INSIGHTS
+  |   INSTAGRAM_GET_USER_MEDIA
+  |   INSTAGRAM_LIST_ALL_CONVERSATIONS
+  |   INSTAGRAM_LIST_ALL_MESSAGES
+  |   INSTAGRAM_MARK_SEEN
+  |   INSTAGRAM_REPLY_TO_COMMENT
+  |   INSTAGRAM_SEND_IMAGE
+  |   INSTAGRAM_SEND_TEXT_MESSAGE
+  |   INSTAGRAM_POST_IG_USER_MEDIA present in this key's tool list: NO
+  |   So the 404 is correct: the key can see Instagram tools, but not that one.
+  |   Pick a slug from the list above that publishes media, and use it instead.
+  | --- end diagnostics ---
+  --- child stderr ---
+  | Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: HTTP 404: {"error":{"message":"No connected account found with ID ac_JTNN_GLog20U for user ID default for toolkit instagram","code":1810,"slug":"ActionExecute_ConnectedAccountNotFound","status":404,"request_id":"ccd43397-c49e-4d17-9b75-3b12a483f1ca","suggested_fix":"Connected account 'ac_JTNN_GLog20U' was not
+
+=== Done. 1 rendered, 0 uploaded, 0 skipped, 0 blocked by compliance, 1 failed. ===

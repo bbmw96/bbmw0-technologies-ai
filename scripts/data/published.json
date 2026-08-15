@@ -51,7 +51,8 @@
     "reel:copy-paste-inventor",
     "qwerty-not-speed",
     "consensus-mode",
-    "training-vs-inference"
+    "training-vs-inference",
+    "reel:atari-landfill"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -796,6 +797,19 @@
       "title": "Training a model and using it are different jobs. #Shorts #quickfact",
       "description": "Here's a one-minute fact you didn't know you needed.\n\nTraining a model and using it are different jobs. One takes months, one takes milliseconds.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #quickfact",
       "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "atari-landfill",
+      "date": "2026-08-15",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "sounds/norm/bbmw0-wind-open.mp3",
+      "title": "Atari buried its games in the desert.",
+      "description": "Atari buried its games in the desert. September 1983: trucks took hundreds of thousands of cartridges out to a landfill in Alamogordo, New Mexico, and buried them.\n\nThe New York Times reported it at the time. Then it slid out of the record and became a story gamers told each other, always about E.T.\n\nAll of it was true. The city, archaeologists and a film crew went ten metres down and pulled up just over 1,300 cartridges. Not only E.T.\n\nThe Smithsonian took some. So did the Henry Ford, the Strong Museum of Play and the video game museum in Rome. A landfill became a catalogued site.\n\nThe urban legend had a manifest.\n\nSources:\n- https://core.tdar.org/project/459204/atari-dump-site-alamogordo-new-mexico-usa\n- https://www.thehenryford.org/collections/explore/artifact/403653\n- https://archaeology.org/issues/july-august-2014/digs-discoveries/new-mexico-atari-dump-site-excavation/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
