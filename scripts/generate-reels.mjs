@@ -78,7 +78,11 @@ function animationCost(b) {
     case "kicker":
       return 2 + words(b.text) * 3 + SETTLE; // kicker staggers at 3, not 2
     case "sign":
-      return Math.max(2 + words(b.line) * STAGGER, 30) + SETTLE;
+      // +26 frames: the CTA is deliberately delayed so it reads as a closing
+      // address rather than competing with the last line. The beat has to
+      // outlast that delay or the ask is cut off mid-reveal, which is worse
+      // than not asking.
+      return Math.max(2 + words(b.line) * STAGGER, 30) + 26 + SETTLE;
     default:
       return 90;
   }
@@ -92,7 +96,9 @@ function readingLoad(b) {
     credit: [b.year, b.name, b.role],
     figure: [b.value, b.unit, b.context],
     kicker: [b.text],
-    sign: [b.line, b.handle],
+    // The CTA is not in the beat data - it comes from the composition - but it
+    // is on screen and has to be read, so it counts toward the beat's length.
+    sign: [b.line, b.handle, "Subscribe for more"],
   }[b.kind] || [];
   return fields.reduce((s, f) => s + words(f), 0);
 }

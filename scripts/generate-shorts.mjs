@@ -467,6 +467,15 @@ for (const topic of richChosen) {
     // render-batch reads this to choose the composition. Absent, it renders
     // Daily, which is what every existing props file wants.
     props._composition = "Reel";
+
+    // Closing call to action, per platform. "Subscribe" is a YouTube verb and
+    // means nothing on Instagram, where the equivalent ask is to follow.
+    // Set here rather than in the topic so it follows the CHANNEL a reel is
+    // published to — the same topic can go to both, and hardcoding one wording
+    // would put the wrong ask on one of them.
+    props.cta = CHANNEL.platform === "instagram"
+      ? "Follow for more."
+      : "Subscribe for more.";
     fs.writeFileSync(propsPath, JSON.stringify(props, null, 2));
 
     const total = props.beats.reduce((s, b) => s + (b.durationInFrames || 0), 0);
