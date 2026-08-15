@@ -57,7 +57,9 @@
     "upscaling-frames",
     "collision-boxes",
     "paper-folds",
-    "shift-select"
+    "shift-select",
+    "vertical-format",
+    "neural-net-layers"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -906,6 +908,40 @@
       "youtubeId": "KiTfNveKCv0",
       "youtubeUrl": "https://youtu.be/KiTfNveKCv0",
       "uploadedAt": "2026-08-15T21:31:28.695Z",
+      "privacy": "public"
+    },
+    {
+      "id": "vertical-format",
+      "date": "2026-08-15",
+      "themeId": "sunset",
+      "fontFamilyId": "display",
+      "audioUrl": "sounds/norm/bbmw0-rain-distant.mp3",
+      "title": "9:16 fills the phone screen. #Shorts #facts",
+      "description": "Pure kinetic typography. No faces, no chatter.\n\n9:16 fills the phone screen. That's why we built around it.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #facts",
+      "niche": "app",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram",
+      "youtubeId": "18071327642706510",
+      "youtubeUrl": "https://youtu.be/18071327642706510",
+      "uploadedAt": "2026-08-15T21:43:36.703Z",
+      "privacy": "public"
+    },
+    {
+      "id": "neural-net-layers",
+      "date": "2026-08-15",
+      "themeId": "lavender",
+      "fontFamilyId": "rounded",
+      "audioUrl": "sounds/norm/bbmw0-ocean-shore.mp3",
+      "title": "A neural network is layers of simple sums. #Shorts #didyouknow",
+      "description": "Take 40 seconds. Learn something tiny.\n\nA neural network is layers of simple sums. Depth is where the power comes from.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #didyouknow",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram",
+      "youtubeId": "18482982004098933",
+      "youtubeUrl": "https://youtu.be/18482982004098933",
+      "uploadedAt": "2026-08-15T21:38:15.362Z",
       "privacy": "public"
     }
   ]

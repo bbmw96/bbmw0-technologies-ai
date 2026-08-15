@@ -1,35 +1,35 @@
-Rendering 4 Shorts for 2026-08-15 (concurrency=3, GL=default)
-Compliance: 4 cleared, 0 blocked (policy v1.0.0).
+Rendering 7 Shorts for 2026-08-15 (concurrency=3, GL=default)
+Compliance: 7 cleared, 0 blocked (policy v1.0.0).
 
 --- atari-landfill ---
-  composition=Reel audio=sounds/norm/bbmw0-wind-open.mp3 privacy=public
-  rendered: out/daily-2026-08-15-atari-landfill.mp4
-  ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
-  instagram via: Composio
-  published to Instagram: media 17899959501560838
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
 
 --- collision-boxes ---
-  theme=forest font=sans audio=sounds/norm/bbmw0-stream.mp3 privacy=public
-  rendered: out/daily-2026-08-15-collision-boxes.mp4
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
+
+--- neural-net-layers ---
+  theme=lavender font=rounded audio=sounds/norm/bbmw0-ocean-shore.mp3 privacy=public
+  rendered: out/daily-2026-08-15-neural-net-layers.mp4
   hosting media so Instagram can fetch it...
   ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
   instagram via: Composio
-  published to Instagram: media 18059987954784326
+  published to Instagram: media 18482982004098933
+
+--- paper-folds ---
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
 
 --- qwerty-not-slow ---
-  composition=Reel audio=sounds/norm/bbmw0-rain-light.mp3 privacy=public
-  rendered: out/daily-2026-08-15-qwerty-not-slow.mp4
-  hosting media so Instagram can fetch it...
-  ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
-  instagram via: Composio
-  published to Instagram: media 17963898897157273
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
 
 --- upscaling-frames ---
-  theme=sunset font=rounded audio=sounds/norm/bbmw0-rain-heavy.mp3 privacy=public
-  rendered: out/daily-2026-08-15-upscaling-frames.mp4
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
+
+--- vertical-format ---
+  theme=sunset font=display audio=sounds/norm/bbmw0-rain-distant.mp3 privacy=public
+  rendered: out/daily-2026-08-15-vertical-format.mp4
   hosting media so Instagram can fetch it...
   ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
   instagram via: Composio
-  published to Instagram: media 18190437934391409
+  published to Instagram: media 18071327642706510
 
-=== Done. 4 rendered, 4 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===
+=== Done. 2 rendered, 2 uploaded, 5 skipped, 0 blocked by compliance, 0 failed. ===

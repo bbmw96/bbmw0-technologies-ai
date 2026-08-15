@@ -1,0 +1,51 @@
+{
+  "special": false,
+  "themeId": "lavender",
+  "fontFamilyId": "rounded",
+  "audioUrl": "sounds/norm/bbmw0-ocean-shore.mp3",
+  "audioVolume": 0.9,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Listen.",
+      "text": "A neural network is layers of simple sums.",
+      "sub": "Here's the thing.",
+      "durationInFrames": 195,
+      "variant": 3
+    },
+    {
+      "kind": "bigword",
+      "text": "Depth is where the power comes from.",
+      "durationInFrames": 195,
+      "variant": 1
+    },
+    {
+      "kind": "list",
+      "heading": "Quick context",
+      "items": [
+        "One",
+        "Two",
+        "Three"
+      ],
+      "durationInFrames": 195,
+      "variant": 2
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "See.",
+        "Hear.",
+        "Know."
+      ],
+      "durationInFrames": 188,
+      "variant": 1
+    },
+    {
+      "kind": "cta",
+      "headline": "File it away.",
+      "url": "bbmw0-technologies-ai.vercel.app",
+      "durationInFrames": 127,
+      "variant": 1
+    }
+  ]
+}

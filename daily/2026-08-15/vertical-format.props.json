@@ -1,0 +1,51 @@
+{
+  "special": false,
+  "themeId": "sunset",
+  "fontFamilyId": "display",
+  "audioUrl": "sounds/norm/bbmw0-rain-distant.mp3",
+  "audioVolume": 0.9,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Listen.",
+      "text": "9:16 fills the phone screen.",
+      "sub": "Worth knowing.",
+      "durationInFrames": 195,
+      "variant": 1
+    },
+    {
+      "kind": "bigword",
+      "text": "That's why we built around it.",
+      "durationInFrames": 195,
+      "variant": 2
+    },
+    {
+      "kind": "list",
+      "heading": "Quick context",
+      "items": [
+        "Phone first design",
+        "Vertical preview",
+        "One-tap export"
+      ],
+      "durationInFrames": 195,
+      "variant": 1
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Pause.",
+        "Think.",
+        "Save."
+      ],
+      "durationInFrames": 194,
+      "variant": 3
+    },
+    {
+      "kind": "cta",
+      "headline": "Save this one.",
+      "url": "bbmw0-technologies-ai.vercel.app/install",
+      "durationInFrames": 121,
+      "variant": 3
+    }
+  ]
+}

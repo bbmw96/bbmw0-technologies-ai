@@ -9,7 +9,9 @@
     "upscaling-frames",
     "collision-boxes",
     "paper-folds",
-    "shift-select"
+    "shift-select",
+    "neural-net-layers",
+    "vertical-format"
   ],
   "blocked": [],
   "results": [
@@ -251,6 +253,94 @@
         "combo": "midnight|mono|sounds/norm/bbmw0-stream.mp3",
         "themeGap": 0,
         "audioGap": 3
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "neural-net-layers",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "A neural network is layers of simple sums. #Shorts #didyouknow",
+      "niche": "ai",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.theme_spacing",
+          "message": "Theme \"lavender\" reused after only 1 video(s). Minimum gap is 3.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.097,
+        "worstTitleAgainst": "trees-communicate",
+        "worstDescriptionSimilarity": 0.465,
+        "combo": "lavender|rounded|sounds/norm/bbmw0-ocean-shore.mp3",
+        "themeGap": 1,
+        "audioGap": null
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "vertical-format",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "9:16 fills the phone screen. #Shorts #facts",
+      "niche": "app",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"sounds/norm/bbmw0-rain-distant.mp3\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.125,
+        "worstTitleAgainst": "semantic-html",
+        "worstDescriptionSimilarity": 0.577,
+        "combo": "sunset|display|sounds/norm/bbmw0-rain-distant.mp3",
+        "themeGap": 29,
+        "audioGap": 0
       },
       "aiPanel": {
         "available": false,
