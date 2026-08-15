@@ -52,6 +52,9 @@ const fail = (m, c = 1) => { console.error(m); process.exit(c); };
 const KEY = process.env.COMPOSIO_API_KEY;
 const ACCOUNT = process.env.COMPOSIO_IG_ACCOUNT_ID || "instagram_sledge-got";
 const IG_USER_ID = process.env.IG_USER_ID;
+// Mutable: entityId() replaces this with a real connection id when the
+// configured COMPOSIO_IG_ACCOUNT_ID matches nothing the API returns.
+let RESOLVED_ACCOUNT = ACCOUNT;
 
 if (!KEY)        fail("Missing COMPOSIO_API_KEY. Add it as a GitHub secret. Never paste it into a chat.");
 
@@ -189,7 +192,34 @@ async function entityId() {
       const r = await fetch(`${BASE}/connected_accounts?limit=100`, { headers: { "x-api-key": KEY } });
       const j = await r.json();
       const items = j?.items || j?.data || [];
-      const mine = items.find((a) => a.id === ACCOUNT);
+      // Fall back to the live Instagram connection when the configured id
+      // does not match one.
+      //
+      // The run still said "for user ID default", which means this lookup found
+      // nothing — so COMPOSIO_IG_ACCOUNT_ID is not one of the ca_ ids the API
+      // returns. The secret is opaque here (GitHub masks it), so it cannot be
+      // checked by eye, and a wrong value looks identical to a right one.
+      //
+      // The API knows which Instagram connections exist and who owns them.
+      // Prefer the configured id when it genuinely matches; otherwise use the
+      // ACTIVE Instagram connection and say so. Being unable to read a secret
+      // is not a reason to fail when the correct value is discoverable.
+      const igOnly = items.filter((a) => (a.toolkit?.slug || "").toLowerCase() === "instagram");
+      let mine = items.find((a) => a.id === ACCOUNT);
+      if (!mine) {
+        const active = igOnly.filter((a) => String(a.status).toUpperCase() === "ACTIVE");
+        mine = active[0] || igOnly[0];
+        if (mine) {
+          console.log(`  Account:  COMPOSIO_IG_ACCOUNT_ID matched no connection; using ${mine.id} (${mine.status})`);
+          if (active.length > 1) {
+            console.log(`            NOTE ${active.length} active Instagram connections exist. Set`);
+            console.log(`            COMPOSIO_IG_ACCOUNT_ID to the right one if this posts to the wrong account.`);
+          }
+          RESOLVED_ACCOUNT = mine.id;
+        } else {
+          console.log(`  Account:  no Instagram connection found at all.`);
+        }
+      }
       if (mine) {
         _entityId = mine.user_id || mine.entity_id || mine.entityId
           || mine.user?.id || mine.entity?.id || null;
@@ -197,9 +227,6 @@ async function entityId() {
           // Do not fail silently into a guess: say what the record contains.
           console.log(`  Entity:   connection found but carries no user id. Fields: ${Object.keys(mine).join(", ")}`);
         }
-      } else {
-        console.log(`  Entity:   no connection matches COMPOSIO_IG_ACCOUNT_ID. Instagram ids available: ${
-          items.filter((a) => (a.toolkit?.slug || "") === "instagram").map((a) => a.id).join(", ") || "(none)"}`);
       }
     } catch (e) { console.log(`  Entity:   lookup failed (${e.message})`); }
   }
@@ -226,7 +253,7 @@ async function execTool(slug, argumentsObj) {
     // field is ignored. Sending both costs nothing and avoids another round
     // trip to discover which one this deployment wants.
     body: JSON.stringify({
-      connected_account_id: ACCOUNT,
+      connected_account_id: RESOLVED_ACCOUNT,
       user_id: uid,
       entity_id: uid,
       arguments: argumentsObj,
