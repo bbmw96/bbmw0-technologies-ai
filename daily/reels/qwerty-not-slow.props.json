@@ -7,8 +7,6 @@
     "accent": "#C9A227",
     "muted": "#83848A"
   },
-  "audioUrl": "sounds/norm/bbmw0-rain-light.mp3",
-  "audioVolume": 1,
   "beats": [
     {
       "kind": "code",

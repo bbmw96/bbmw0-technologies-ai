@@ -10,8 +10,6 @@
   "voiceUrl": "sounds/konami-keen.mp3",
   "voiceVolume": 1,
   "voiceDelayInFrames": 37,
-  "audioUrl": "sounds/norm/bbmw0-wind-open.mp3",
-  "audioVolume": 0.6,
   "beats": [
     {
       "kind": "code",

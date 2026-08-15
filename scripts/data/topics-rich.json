@@ -46,21 +46,22 @@
     "file exists to prevent. Put the whole number in value and the precision in",
     "context — tardigrade-heat shows 37 and says 37.1 underneath.",
     "",
-    "BEDS COME FROM sounds/norm/, NOT sounds/",
-    "The originals in public/sounds/ are unmastered field recordings: around",
-    "-37dB mean and -23dB peak. Played at the old bed volumes they produced a",
-    "reel measuring -43dB mean — silent in practice on a phone. sounds/norm/",
-    "holds loudnorm'd copies at I=-18, TP=-2, which land near -21dB mean and",
-    "-8dB peak. Point beds here. The originals are untouched, because the daily",
-    "Shorts pipeline still references them and changing shared assets under a",
-    "scheduled run is not a thing to do unattended.",
+    "NO AMBIENT BED. THIS IS DELIBERATE.",
+    "The beds in public/sounds/ are synthesised from filtered noise. They were",
+    "normalised to fix a real problem (renders measured -43dB, silent on a phone)",
+    "and that made the wrong thing louder: amplified broad-spectrum noise reads as",
+    "radio static, not atmosphere. Four Reels shipped sounding like a broken radio",
+    "before anyone listened, because the check was a loudness measurement and not",
+    "an ear. Loud is not the same as good.",
+    "Silence is better than hiss. A Reel is watched muted more often than not, and",
+    "a clean silent video beats a noisy one. Narration still plays where a topic",
+    "has it. Do not restore a bed until there is real recorded ambience to use.",
     "",
     "BEAT KINDS available: code, statement, credit, figure, kicker, sign.",
     "Durations are NOT set here. generate-reels.mjs computes them from how long",
     "each beat takes to animate and read, or from voiceCuts when a narration",
     "track has been measured."
   ],
-
   "topics": [
     {
       "id": "konami-code",
@@ -75,19 +76,55 @@
       "verifiedNote": "Checked 11 Aug 2026. The '30 lives' figure was the one worth confirming separately from the origin story — Wikipedia says only 'additional lives', so the number comes from the Contra-specific sources. The beat text is left exactly as rendered because the narration track is cut to it; changing a word would desync voiceCuts.",
       "voice": "sounds/konami-keen.mp3",
       "voiceDelayInFrames": 37,
-      "voiceCuts": [1.784, 3.997, 9.710, 17.669, 22.561, 24.189],
-      "palette": { "bg": "#0B0B0F", "ink": "#F5F5F0", "accent": "#FF3D2E", "muted": "#8A8A93" },
-      "bed": { "url": "sounds/norm/bbmw0-wind-open.mp3", "volume": 0.6 },
+      "voiceCuts": [
+        1.784,
+        3.997,
+        9.71,
+        17.669,
+        22.561,
+        24.189
+      ],
+      "palette": {
+        "bg": "#0B0B0F",
+        "ink": "#F5F5F0",
+        "accent": "#FF3D2E",
+        "muted": "#8A8A93"
+      },
       "beats": [
-        { "kind": "code", "chars": "↑↑↓↓←→←→BA", "caption": "You already know this one." },
-        { "kind": "statement", "lead": "But here is the part nobody says", "text": "It was never meant to ship.", "note": "The Konami Code was debug scaffolding. It was supposed to be deleted before release." },
-        { "kind": "credit", "year": "1986", "name": "Kazuhisa Hashimoto", "role": "Porting Gradius to the NES. He could not get through his own game well enough to test it, so he wrote a shortcut that handed the player every power-up at once." },
-        { "kind": "figure", "value": "30", "unit": "lives", "context": "What the same code granted in Contra, two years later. That is the version most people remember." },
-        { "kind": "kicker", "text": "He forgot to take it out." },
-        { "kind": "sign", "line": "A bug that outlived the console.", "handle": "@ai_game_odyssey" }
+        {
+          "kind": "code",
+          "chars": "↑↑↓↓←→←→BA",
+          "caption": "You already know this one."
+        },
+        {
+          "kind": "statement",
+          "lead": "But here is the part nobody says",
+          "text": "It was never meant to ship.",
+          "note": "The Konami Code was debug scaffolding. It was supposed to be deleted before release."
+        },
+        {
+          "kind": "credit",
+          "year": "1986",
+          "name": "Kazuhisa Hashimoto",
+          "role": "Porting Gradius to the NES. He could not get through his own game well enough to test it, so he wrote a shortcut that handed the player every power-up at once."
+        },
+        {
+          "kind": "figure",
+          "value": "30",
+          "unit": "lives",
+          "context": "What the same code granted in Contra, two years later. That is the version most people remember."
+        },
+        {
+          "kind": "kicker",
+          "text": "He forgot to take it out."
+        },
+        {
+          "kind": "sign",
+          "line": "A bug that outlived the console.",
+          "handle": "@ai_game_odyssey"
+        }
       ]
     },
-
     {
       "id": "first-bug-real",
       "niche": "tech",
@@ -99,17 +136,42 @@
         "https://www.pricefx.com/learning-center/software-engineering-debacles-grace-hopper-and-the-first-reported-bug — the logbook wording: '15:45 Relay #70 Panel F (moth) in relay. First actual case of bug being found.'"
       ],
       "verifiedNote": "Checked 11 Aug 2026. Grace Hopper is deliberately NOT named. Sources agree she was on the Mark II team and popularised the story in later lectures, but the log book was probably not hers and the attribution is contested. The beats credit the machine and an unnamed operator instead, which is what the evidence actually supports. The joke in the note beat — that engineers had used 'bug' for decades before one turned out to be literal — is the JSTOR correction, used as the hook rather than buried. There WAS a figure beat here showing 70, the relay number, and it was cut. The number is true and sourced, but a figure beat renders its value at 300px, and the relay number carries no significance whatsoever — it is an address, not a fact. Setting it that large would have overstated it. Being true is not sufficient; a number given that much emphasis has to deserve it. The detail now sits in a statement beat where it reads as the log entry it actually is.",
-      "palette": { "bg": "#0E1116", "ink": "#F2F4F3", "accent": "#4ADE80", "muted": "#7C8794" },
-      "bed": { "url": "sounds/norm/bbmw0-rain-distant.mp3", "volume": 1 },
+      "palette": {
+        "bg": "#0E1116",
+        "ink": "#F2F4F3",
+        "accent": "#4ADE80",
+        "muted": "#7C8794"
+      },
       "beats": [
-        { "kind": "statement", "lead": "The word is older than the machine", "text": "One day the bug was literal.", "note": "Engineers had called faults bugs since Edison. On this one afternoon, someone opened a relay and found an actual insect." },
-        { "kind": "credit", "year": "1947", "name": "Harvard Mark II", "role": "9 September. An operator traced a fault to a moth caught in a relay, removed it, and taped it into the log book instead of throwing it away." },
-        { "kind": "statement", "lead": "What they wrote in the log", "text": "First actual case of bug being found.", "note": "Relay #70, Panel F. 15:45. The wording gives it away — they knew the joke they were making." },
-        { "kind": "kicker", "text": "They kept the moth." },
-        { "kind": "sign", "line": "It is still taped to the page, in the Smithsonian.", "handle": "@bbmw.0" }
+        {
+          "kind": "statement",
+          "lead": "The word is older than the machine",
+          "text": "One day the bug was literal.",
+          "note": "Engineers had called faults bugs since Edison. On this one afternoon, someone opened a relay and found an actual insect."
+        },
+        {
+          "kind": "credit",
+          "year": "1947",
+          "name": "Harvard Mark II",
+          "role": "9 September. An operator traced a fault to a moth caught in a relay, removed it, and taped it into the log book instead of throwing it away."
+        },
+        {
+          "kind": "statement",
+          "lead": "What they wrote in the log",
+          "text": "First actual case of bug being found.",
+          "note": "Relay #70, Panel F. 15:45. The wording gives it away — they knew the joke they were making."
+        },
+        {
+          "kind": "kicker",
+          "text": "They kept the moth."
+        },
+        {
+          "kind": "sign",
+          "line": "It is still taped to the page, in the Smithsonian.",
+          "handle": "@bbmw.0"
+        }
       ]
     },
-
     {
       "id": "copy-paste-inventor",
       "niche": "tech",
@@ -121,17 +183,42 @@
         "https://www.tiny.cloud/blog/copy-paste-inventor/ — Gypsy dated to 1974-75 and the mechanics of the modeless selection it introduced."
       ],
       "verifiedNote": "Checked 11 Aug 2026. Tim Mott is credited alongside Tesler in every source, so the credit beat names both — 'invented by Larry Tesler' alone is the popular shorthand and it is not quite right. No figure beat: there is no real number here, and a usage statistic would have had to be invented, which is the exact thing this file exists to prevent. The NO MODES plate is real and does the work a number would have. The Businessweek beat was added after seeing the first render: at four beats this ran 19s, and because credit and kicker both paint the dark background, the middle sat on two identical frames back to back. The fix for a thin video is another true thing to say, not a longer hold — and the June 1975 feature is sourced. Note the wording is deliberately 'turned up in': the article was titled The Office of the Future and mentioned Gypsy, it was not a piece about Gypsy, and 'Businessweek wrote it up' would have overstated that.",
-      "palette": { "bg": "#12100E", "ink": "#F5F0E8", "accent": "#F59E0B", "muted": "#8B8178" },
-      "bed": { "url": "sounds/norm/bbmw0-stream.mp3", "volume": 1 },
+      "palette": {
+        "bg": "#12100E",
+        "ink": "#F5F0E8",
+        "accent": "#F59E0B",
+        "muted": "#8B8178"
+      },
       "beats": [
-        { "kind": "statement", "lead": "You did it today without thinking", "text": "Someone had to invent cut and paste.", "note": "Before it existed, moving text meant retyping it — or literally cutting the paper and pasting it down. The names are not a metaphor." },
-        { "kind": "credit", "year": "1975", "name": "Tesler and Mott", "role": "At Xerox PARC they built a text editor called Gypsy, where selecting text and moving it worked the same way every time, with no hidden mode to remember first." },
-        { "kind": "statement", "lead": "It was news at the time", "text": "In 1975 it turned up in Businessweek.", "note": "In a feature called The Office of the Future. The idea was worth reporting before it was furniture." },
-        { "kind": "kicker", "text": "His number plate read NO MODES." },
-        { "kind": "sign", "line": "The best tools disappear.", "handle": "@bbmw.0" }
+        {
+          "kind": "statement",
+          "lead": "You did it today without thinking",
+          "text": "Someone had to invent cut and paste.",
+          "note": "Before it existed, moving text meant retyping it — or literally cutting the paper and pasting it down. The names are not a metaphor."
+        },
+        {
+          "kind": "credit",
+          "year": "1975",
+          "name": "Tesler and Mott",
+          "role": "At Xerox PARC they built a text editor called Gypsy, where selecting text and moving it worked the same way every time, with no hidden mode to remember first."
+        },
+        {
+          "kind": "statement",
+          "lead": "It was news at the time",
+          "text": "In 1975 it turned up in Businessweek.",
+          "note": "In a feature called The Office of the Future. The idea was worth reporting before it was furniture."
+        },
+        {
+          "kind": "kicker",
+          "text": "His number plate read NO MODES."
+        },
+        {
+          "kind": "sign",
+          "line": "The best tools disappear.",
+          "handle": "@bbmw.0"
+        }
       ]
     },
-
     {
       "id": "mantis-shrimp-colour",
       "niche": "animals",
@@ -142,18 +229,48 @@
         "https://www.calacademy.org/explore-science/mantis-shrimp-vision — California Academy of Sciences, checked as a third institutional statement of the same finding."
       ],
       "verifiedNote": "Checked 15 Aug 2026. The figure beat is 12 and it earns the 300px: the entire popular myth is built on that number, so the video's turn only works if the number is the biggest thing on screen first. Note that this batch also contains vanilla-albius, whose emotional core is a twelve-year-old — that topic was deliberately given NO figure beat rather than a second giant '12' on the same channel. Do not 'improve' it by adding one back. Deliberately not said: any claim about how many colours the animal sees. Sources agree on receptor count, not on any colour count, and '100,000 colours' style figures are invented. The 8-visible/4-UV split comes from Yong; the abstract only gives the 300-720nm range, so the split is stated as description rather than as the headline number. The unit reads 'receptors' and not 'photoreceptors' for a layout reason, not a factual one: the first render clipped 'photoreceptors' off the right edge of the frame, because FigureBeat puts the unit on one unwrapped line beside a 300px number. Do not lengthen it back. 'You manage five' is the human 5nm discrimination threshold from Yong, rounded as he gives it. The mechanism beat says 'may not compare colours at all' rather than asserting it — the paper itself says 'suggest', and Marshall's own quoted answer to what they do instead was 'Dunno'.",
-      "palette": { "bg": "#071A1C", "ink": "#EAF6F4", "accent": "#FF5C8A", "muted": "#6E8B8C" },
-      "bed": { "url": "sounds/norm/bbmw0-ocean-swell.mp3", "volume": 1 },
+      "palette": {
+        "bg": "#071A1C",
+        "ink": "#EAF6F4",
+        "accent": "#FF5C8A",
+        "muted": "#6E8B8C"
+      },
       "beats": [
-        { "kind": "statement", "lead": "The internet's favourite animal fact", "text": "It is not what you were told.", "note": "The mantis shrimp is famous for seeing colours you cannot imagine. In 2014 someone tested what it can actually tell apart." },
-        { "kind": "figure", "value": "12", "unit": "receptors", "context": "Eight across the range you can see, four more in the ultraviolet. You have three. Four is already enough for fine colour discrimination." },
-        { "kind": "statement", "lead": "Then they ran the test", "text": "It is worse at this than you are.", "note": "It could only separate wavelengths fifteen to twenty-five nanometres apart. You manage five. So do honeybees." },
-        { "kind": "credit", "year": "2014", "name": "Hanne Thoen", "role": "Working in Justin Marshall's lab in Queensland, she found the eye may not compare colours at all. It scans, and matches the reading against something like a lookup table." },
-        { "kind": "kicker", "text": "It is not seeing more. It is seeing faster." },
-        { "kind": "sign", "line": "The best-known fact about this animal is the wrong one.", "handle": "@bbm0902" }
+        {
+          "kind": "statement",
+          "lead": "The internet's favourite animal fact",
+          "text": "It is not what you were told.",
+          "note": "The mantis shrimp is famous for seeing colours you cannot imagine. In 2014 someone tested what it can actually tell apart."
+        },
+        {
+          "kind": "figure",
+          "value": "12",
+          "unit": "receptors",
+          "context": "Eight across the range you can see, four more in the ultraviolet. You have three. Four is already enough for fine colour discrimination."
+        },
+        {
+          "kind": "statement",
+          "lead": "Then they ran the test",
+          "text": "It is worse at this than you are.",
+          "note": "It could only separate wavelengths fifteen to twenty-five nanometres apart. You manage five. So do honeybees."
+        },
+        {
+          "kind": "credit",
+          "year": "2014",
+          "name": "Hanne Thoen",
+          "role": "Working in Justin Marshall's lab in Queensland, she found the eye may not compare colours at all. It scans, and matches the reading against something like a lookup table."
+        },
+        {
+          "kind": "kicker",
+          "text": "It is not seeing more. It is seeing faster."
+        },
+        {
+          "kind": "sign",
+          "line": "The best-known fact about this animal is the wrong one.",
+          "handle": "@bbm0902"
+        }
       ]
     },
-
     {
       "id": "betelgeuse-dimming",
       "niche": "space",
@@ -166,17 +283,42 @@
         "https://www.nature.com/articles/s41467-021-25018-3 — 'Spectroscopic evidence for a large spot on the dimming Betelgeuse', the competing large-cool-spot emphasis."
       ],
       "verifiedNote": "Checked 15 Aug 2026. NO figure beat, on purpose. The candidates were the V-band magnitude at minimum (1.6, jargon that means nothing at 300px), the fraction of light lost (given variously as 'more than two-thirds', '70%' and '1.2 magnitudes' — approximate, and stated differently by each source), and 200,000 mph for the ejected material (single-sourced to Dupree). None of them is both crisp and load-bearing, so the topic runs on the correction instead. The dust explanation is stated as the answer astronomers arrived at, which is what ESO, CfA and NASA all say — but the exact mechanism is genuinely still argued, with at least one paper titled 'No New Dust Required' and another pushing a large cool spot. The beat wording follows CfA's version (gas ejected, surface patch cools, silicon condenses) because that account is compatible with the cool-spot camp rather than opposed to it. Do not upgrade 'the answer came' to 'proven'. Also deliberately not said: the distance to Betelgeuse, and any timescale for the supernova. Both are quoted with enormous error bars and neither survives being set in type.",
-      "palette": { "bg": "#0A0710", "ink": "#F3EFE9", "accent": "#FF8A3D", "muted": "#7B7285" },
-      "bed": { "url": "sounds/norm/bbmw0-wind-open.mp3", "volume": 0.7 },
+      "palette": {
+        "bg": "#0A0710",
+        "ink": "#F3EFE9",
+        "accent": "#FF8A3D",
+        "muted": "#7B7285"
+      },
       "beats": [
-        { "kind": "statement", "lead": "Late in 2019 a star started going out", "text": "The headlines said supernova.", "note": "Betelgeuse, the orange shoulder of Orion, lost more than two thirds of its light by February 2020. Then it came back." },
-        { "kind": "credit", "year": "2020", "name": "Betelgeuse", "role": "A red supergiant close enough that a telescope can resolve its actual surface. Between January and March, astronomers watched the southern half of it darken, week by week." },
-        { "kind": "statement", "lead": "The answer, June 2021", "text": "It was dust.", "note": "The star threw off a bubble of gas. A patch of surface behind it cooled, silicon condensed, and it hid behind its own soot." },
-        { "kind": "kicker", "text": "It will explode. That was not it." },
-        { "kind": "sign", "line": "Still there. Still the shoulder of Orion.", "handle": "@bbm0902" }
+        {
+          "kind": "statement",
+          "lead": "Late in 2019 a star started going out",
+          "text": "The headlines said supernova.",
+          "note": "Betelgeuse, the orange shoulder of Orion, lost more than two thirds of its light by February 2020. Then it came back."
+        },
+        {
+          "kind": "credit",
+          "year": "2020",
+          "name": "Betelgeuse",
+          "role": "A red supergiant close enough that a telescope can resolve its actual surface. Between January and March, astronomers watched the southern half of it darken, week by week."
+        },
+        {
+          "kind": "statement",
+          "lead": "The answer, June 2021",
+          "text": "It was dust.",
+          "note": "The star threw off a bubble of gas. A patch of surface behind it cooled, silicon condensed, and it hid behind its own soot."
+        },
+        {
+          "kind": "kicker",
+          "text": "It will explode. That was not it."
+        },
+        {
+          "kind": "sign",
+          "line": "Still there. Still the shoulder of Orion.",
+          "handle": "@bbm0902"
+        }
       ]
     },
-
     {
       "id": "vanilla-albius",
       "niche": "food",
@@ -187,18 +329,48 @@
         "https://en.wikipedia.org/wiki/Edmond_Albius — checked only to confirm the age at discovery agrees with the two above."
       ],
       "verifiedNote": "Checked 15 Aug 2026. NO figure beat, and the reason is editorial rather than factual: his age is well sourced and would have made a strong 300px '12', but mantis-shrimp-colour in this same batch already puts a giant 12 on the same channel, and two videos opening on the same numeral would read as a template. The age is carried in the credit beat instead. If mantis-shrimp-colour is ever retired, this is the topic that should get the figure beat back. Deliberately left out: all tonnage figures. The Linnean Society gives Réunion exports as 2 tonnes in 1858, 20 in 1867, 200 in 1898; Europeana gives about 1 tonne a year in the 1850s, 15 in the following decade, 60 by the early 1880s. Those do not reconcile, so no export number appears anywhere. Also left out: what crop gave him the idea. Bellier-Beaumont's own letter says watermelon, Europeana says pumpkin, and rather than pick one the beat now just says he worked it out himself. Deliberately included, because it is the actual correction: Albius was not the first to hand-pollinate vanilla — Charles Morren published the technique in 1837, four years earlier — but Morren's method suited a greenhouse and not a plantation. The beats therefore never say he was first, only that the method that scaled was his. Do not add 'invented'.",
-      "palette": { "bg": "#14100B", "ink": "#F6EFE2", "accent": "#E8C35A", "muted": "#8C8171" },
-      "bed": { "url": "sounds/norm/bbmw0-forest-wind.mp3", "volume": 1 },
+      "palette": {
+        "bg": "#14100B",
+        "ink": "#F6EFE2",
+        "accent": "#E8C35A",
+        "muted": "#8C8171"
+      },
       "beats": [
-        { "kind": "statement", "lead": "Almost every vanilla pod you have eaten", "text": "Was pollinated by hand.", "note": "The orchid has its own bee only in Mexico. Everywhere else someone opens each flower and does it themselves, one at a time." },
-        { "kind": "credit", "year": "1841", "name": "Edmond Albius", "role": "Twelve, born into slavery on Réunion and taught horticulture by the man who owned him. He saw the flower's two halves were separated by a flap you could lift." },
-        { "kind": "statement", "lead": "His owner did not believe it", "text": "Then more pods appeared.", "note": "Bellier-Beaumont had kept one barren vine alive twenty years. In 1861 he wrote that the boy worked it out himself." },
-        { "kind": "statement", "lead": "Others claimed it", "text": "He said he taught the boy.", "note": "Bellier-Beaumont checked the dates: by that account Edmond was eight. Archivists went back over it in 2009 and agreed it was his." },
-        { "kind": "kicker", "text": "He died in a public hospital with nothing." },
-        { "kind": "sign", "line": "The method has not changed since.", "handle": "@bbm0902" }
+        {
+          "kind": "statement",
+          "lead": "Almost every vanilla pod you have eaten",
+          "text": "Was pollinated by hand.",
+          "note": "The orchid has its own bee only in Mexico. Everywhere else someone opens each flower and does it themselves, one at a time."
+        },
+        {
+          "kind": "credit",
+          "year": "1841",
+          "name": "Edmond Albius",
+          "role": "Twelve, born into slavery on Réunion and taught horticulture by the man who owned him. He saw the flower's two halves were separated by a flap you could lift."
+        },
+        {
+          "kind": "statement",
+          "lead": "His owner did not believe it",
+          "text": "Then more pods appeared.",
+          "note": "Bellier-Beaumont had kept one barren vine alive twenty years. In 1861 he wrote that the boy worked it out himself."
+        },
+        {
+          "kind": "statement",
+          "lead": "Others claimed it",
+          "text": "He said he taught the boy.",
+          "note": "Bellier-Beaumont checked the dates: by that account Edmond was eight. Archivists went back over it in 2009 and agreed it was his."
+        },
+        {
+          "kind": "kicker",
+          "text": "He died in a public hospital with nothing."
+        },
+        {
+          "kind": "sign",
+          "line": "The method has not changed since.",
+          "handle": "@bbm0902"
+        }
       ]
     },
-
     {
       "id": "year-without-summer",
       "niche": "weather",
@@ -210,18 +382,48 @@
         "https://en.wikipedia.org/wiki/Year_Without_a_Summer — checked for the global temperature anomaly, which is why no temperature figure appears here."
       ],
       "verifiedNote": "Checked 15 Aug 2026. NO figure beat, and no temperature anywhere. The NPS says the cloud 'changed the global climate by 2-7 degrees Fahrenheit'; Wikipedia gives the global average anomaly as 0.4-0.7°C, which is about 0.7-1.3°F. Those are different claims — one is almost certainly regional and the other a global mean — and putting either at 300px would be asserting a precision the sources do not share. The causal chain is deliberately only half-drawn. Tambora causing the cold is stated, because NPS states it directly. Tambora causing Frankenstein is NOT stated: the beats put the party indoors in the rain and quote Mary Shelley's own account of why, and stop there. 'A volcano wrote Frankenstein' was drafted as the kicker and cut, because it is the sort of tidy line that is repeated until it becomes a fact. The kicker used instead — that nobody in the room knew why it was raining — is the true and better point. Also note 1816 was already sitting on a cold decade and there was an earlier unidentified eruption around 1808-09, so Tambora is the trigger rather than the whole explanation; the credit beat says it 'put enough into the stratosphere to shade the planet', which is what the source supports, and not 'caused'.",
-      "palette": { "bg": "#0C1014", "ink": "#EDF1F4", "accent": "#8FB8D8", "muted": "#75808A" },
-      "bed": { "url": "sounds/norm/bbmw0-rain-heavy.mp3", "volume": 0.8 },
+      "palette": {
+        "bg": "#0C1014",
+        "ink": "#EDF1F4",
+        "accent": "#8FB8D8",
+        "muted": "#75808A"
+      },
       "beats": [
-        { "kind": "statement", "lead": "In 1816 the summer did not arrive", "text": "It snowed in June.", "note": "May frost killed the crops across New England. June snow fell on Albany. In July there was still ice on Pennsylvania rivers." },
-        { "kind": "credit", "year": "1815", "name": "Mount Tambora", "role": "An Indonesian volcano had erupted the year before and put enough into the stratosphere to shade the planet. Nobody in New England made the connection." },
-        { "kind": "statement", "lead": "That June on Lake Geneva", "text": "It rained for days.", "note": "Byron, the Shelleys and Polidori were shut inside a rented villa. To fill the evenings they each agreed to write a ghost story." },
-        { "kind": "statement", "lead": "Mary Shelley, writing in 1831", "text": "A wet, ungenial summer.", "note": "Her words: incessant rain often confined us for days to the house. She was eighteen. What she started that week was Frankenstein." },
-        { "kind": "kicker", "text": "Nobody in that room knew why." },
-        { "kind": "sign", "line": "They called it eighteen hundred and froze to death.", "handle": "@bbm0902" }
+        {
+          "kind": "statement",
+          "lead": "In 1816 the summer did not arrive",
+          "text": "It snowed in June.",
+          "note": "May frost killed the crops across New England. June snow fell on Albany. In July there was still ice on Pennsylvania rivers."
+        },
+        {
+          "kind": "credit",
+          "year": "1815",
+          "name": "Mount Tambora",
+          "role": "An Indonesian volcano had erupted the year before and put enough into the stratosphere to shade the planet. Nobody in New England made the connection."
+        },
+        {
+          "kind": "statement",
+          "lead": "That June on Lake Geneva",
+          "text": "It rained for days.",
+          "note": "Byron, the Shelleys and Polidori were shut inside a rented villa. To fill the evenings they each agreed to write a ghost story."
+        },
+        {
+          "kind": "statement",
+          "lead": "Mary Shelley, writing in 1831",
+          "text": "A wet, ungenial summer.",
+          "note": "Her words: incessant rain often confined us for days to the house. She was eighteen. What she started that week was Frankenstein."
+        },
+        {
+          "kind": "kicker",
+          "text": "Nobody in that room knew why."
+        },
+        {
+          "kind": "sign",
+          "line": "They called it eighteen hundred and froze to death.",
+          "handle": "@bbm0902"
+        }
       ]
     },
-
     {
       "id": "atari-landfill",
       "niche": "gaming",
@@ -232,18 +434,48 @@
         "https://archaeology.org/issues/july-august-2014/digs-discoveries/new-mexico-atari-dump-site-excavation/ — Archaeology Magazine's contemporaneous write-up of the dig."
       ],
       "verifiedNote": "Checked 15 Aug 2026. NO figure beat, and the count of buried cartridges is deliberately absent from every beat. tDAR says 'ca. 800,000'; the Henry Ford says 700,000. Both are credible primary-adjacent institutions and they do not agree, so the beats say 'hundreds of thousands' and nothing more precise. The recovered count is given as 'just over 1,300' — tDAR's own wording — rather than the 1,382 that circulates in press coverage, because tDAR is the excavation's own record and the press figure could not be traced to it. A figure beat was drafted twice and cut twice: first with the buried count (contested, see above), then with 31, the years between burial and dig. 31 is true and arithmetic from two solid dates, but it is a duration, and a duration at 300px implies a significance it does not have. The story is the myth turning out to be documented, not any one number. Also not said: that concrete was poured over the cell. It is repeated everywhere and appears in none of the three sources read here.",
-      "palette": { "bg": "#100B08", "ink": "#F2E9DC", "accent": "#E4572E", "muted": "#8A7A6B" },
-      "bed": { "url": "sounds/norm/bbmw0-wind-open.mp3", "volume": 0.7 },
+      "palette": {
+        "bg": "#100B08",
+        "ink": "#F2E9DC",
+        "accent": "#E4572E",
+        "muted": "#8A7A6B"
+      },
       "beats": [
-        { "kind": "statement", "lead": "For thirty years this was a rumour", "text": "Atari buried its games in the desert.", "note": "September 1983: trucks took hundreds of thousands of cartridges out to a landfill in Alamogordo, New Mexico, and buried them." },
-        { "kind": "credit", "year": "1983", "name": "Alamogordo, New Mexico", "role": "The New York Times reported it at the time. Then it slid out of the record and became a story gamers told each other, always about E.T." },
-        { "kind": "statement", "lead": "On 26 April 2014 they dug", "text": "All of it was true.", "note": "The city, archaeologists and a film crew went ten metres down and pulled up just over 1,300 cartridges. Not only E.T." },
-        { "kind": "statement", "lead": "Where the finds went", "text": "The Smithsonian took some.", "note": "So did the Henry Ford, the Strong Museum of Play and the video game museum in Rome. A landfill became a catalogued site." },
-        { "kind": "kicker", "text": "The urban legend had a manifest." },
-        { "kind": "sign", "line": "Some myths are only undocumented.", "handle": "@ai_game_odyssey" }
+        {
+          "kind": "statement",
+          "lead": "For thirty years this was a rumour",
+          "text": "Atari buried its games in the desert.",
+          "note": "September 1983: trucks took hundreds of thousands of cartridges out to a landfill in Alamogordo, New Mexico, and buried them."
+        },
+        {
+          "kind": "credit",
+          "year": "1983",
+          "name": "Alamogordo, New Mexico",
+          "role": "The New York Times reported it at the time. Then it slid out of the record and became a story gamers told each other, always about E.T."
+        },
+        {
+          "kind": "statement",
+          "lead": "On 26 April 2014 they dug",
+          "text": "All of it was true.",
+          "note": "The city, archaeologists and a film crew went ten metres down and pulled up just over 1,300 cartridges. Not only E.T."
+        },
+        {
+          "kind": "statement",
+          "lead": "Where the finds went",
+          "text": "The Smithsonian took some.",
+          "note": "So did the Henry Ford, the Strong Museum of Play and the video game museum in Rome. A landfill became a catalogued site."
+        },
+        {
+          "kind": "kicker",
+          "text": "The urban legend had a manifest."
+        },
+        {
+          "kind": "sign",
+          "line": "Some myths are only undocumented.",
+          "handle": "@ai_game_odyssey"
+        }
       ]
     },
-
     {
       "id": "qwerty-not-slow",
       "niche": "tech",
@@ -255,18 +487,47 @@
         "https://www.britannica.com/biography/Christopher-Latham-Sholes — checked for Sholes' dates (1819-1890)."
       ],
       "verifiedNote": "Checked 15 Aug 2026. NO figure beat: the available numbers are the 1874 price of $125, and Remington's 1891 claim of 100,000 machines in use. Both are true and both are beside the point, which is that the reason everyone gives for the layout is wrong. The Morse Z/SE claim is the Yasuokas' argument, not an independently established fact, and the beat is worded to attribute it — 'their evidence' — rather than to state it as settled. It is worth knowing that the jamming account is not universally abandoned; Smithsonian describes it as contentious rather than dead, so the beats say the researchers who traced the history called it nonsense, which is precisely what happened, instead of saying it has been disproved. The code beat carries QWERTYUIOP rather than QWERTY because the ten-glyph top row is what a viewer recognises on sight and it gives the CodeBeat stagger enough to work with. The kicker is the real find: the man who gave us the layout filed a patent for a different one in September 1889 and was dead by the following February, so he spent his last months trying to replace it.",
-      "palette": { "bg": "#111214", "ink": "#F0EDE6", "accent": "#C9A227", "muted": "#83848A" },
-      "bed": { "url": "sounds/norm/bbmw0-rain-light.mp3", "volume": 1 },
+      "palette": {
+        "bg": "#111214",
+        "ink": "#F0EDE6",
+        "accent": "#C9A227",
+        "muted": "#83848A"
+      },
       "beats": [
-        { "kind": "code", "chars": "QWERTYUIOP", "caption": "You have never once questioned this." },
-        { "kind": "statement", "lead": "What everyone says", "text": "It was built to slow you down.", "note": "So the typebars would not jam. It is in textbooks. The researchers who traced the layout's real history called that, in print, nonsense." },
-        { "kind": "credit", "year": "2011", "name": "Koichi and Motoko Yasuoka", "role": "At Kyoto University they followed the keyboard back past the typewriter to the telegraph. Its first heavy users were Morse operators taking down code live." },
-        { "kind": "statement", "lead": "Their evidence", "text": "American Morse writes Z almost like S-E.", "note": "An operator could not tell them apart until the following letters arrived. So S ended up next to both Z and E." },
-        { "kind": "kicker", "text": "Sholes spent his last year trying to replace it." },
-        { "kind": "sign", "line": "You are typing on his rough draft.", "handle": "@bbmw.0" }
+        {
+          "kind": "code",
+          "chars": "QWERTYUIOP",
+          "caption": "You have never once questioned this."
+        },
+        {
+          "kind": "statement",
+          "lead": "What everyone says",
+          "text": "It was built to slow you down.",
+          "note": "So the typebars would not jam. It is in textbooks. The researchers who traced the layout's real history called that, in print, nonsense."
+        },
+        {
+          "kind": "credit",
+          "year": "2011",
+          "name": "Koichi and Motoko Yasuoka",
+          "role": "At Kyoto University they followed the keyboard back past the typewriter to the telegraph. Its first heavy users were Morse operators taking down code live."
+        },
+        {
+          "kind": "statement",
+          "lead": "Their evidence",
+          "text": "American Morse writes Z almost like S-E.",
+          "note": "An operator could not tell them apart until the following letters arrived. So S ended up next to both Z and E."
+        },
+        {
+          "kind": "kicker",
+          "text": "Sholes spent his last year trying to replace it."
+        },
+        {
+          "kind": "sign",
+          "line": "You are typing on his rough draft.",
+          "handle": "@bbmw.0"
+        }
       ]
     },
-
     {
       "id": "margulis-endosymbiosis",
       "niche": "biology",
@@ -276,18 +537,48 @@
         "https://embryo.asu.edu/pages/origin-mitosing-cells-1967-lynn-sagan — Embryo Project Encyclopedia (Arizona State University), independent second source. Confirms the paper appeared in the Journal of Theoretical Biology in 1967 under the name Lynn Sagan — she had divorced Carl Sagan and kept the name, remarrying later to become Lynn Margulis — gives the citation as J. Theor. Biol. 14 (1967): 225-274, and describes the (9+2) basal bodies as sitting at the base of whip-like structures such as the sperm flagellum."
       ],
       "verifiedNote": "Checked 15 Aug 2026. NO figure beat, and the rejection count is deliberately vague on screen. Gray says 'reportedly... more than a dozen'; the Embryo Project says 'at least fifteen'. Those do not agree, and Gray flags his own figure as hearsay, so the beats say 'more than a dozen' and no number is set at 300px. Also not stated: the month of publication. The Embryo Project contradicts itself inside one page, saying both 'the March 1967 edition' and 'published in June 1967', so the beats say only 1967. The actual correction, and the reason this topic is worth making: the popular version is 'rejected fifteen times, then totally vindicated'. She made three claims and two of them are now textbook. The third — that the eukaryotic flagellum came from a swallowed spirochaete — has had no evidence in nearly sixty years. Do not smooth that into a triumph story. She is credited as Lynn Sagan because that is the name on the 1967 paper; the kicker does the work of connecting it.",
-      "palette": { "bg": "#0A1410", "ink": "#EAF4EE", "accent": "#5EE6A8", "muted": "#6F8A7C" },
-      "bed": { "url": "sounds/norm/bbmw0-ocean-shore.mp3", "volume": 1 },
+      "palette": {
+        "bg": "#0A1410",
+        "ink": "#EAF4EE",
+        "accent": "#5EE6A8",
+        "muted": "#6F8A7C"
+      },
       "beats": [
-        { "kind": "statement", "lead": "There is other DNA inside you", "text": "It is not yours.", "note": "Your mitochondria carry their own genome. It reads as bacterial, and it says they descend from a group called the alpha-proteobacteria." },
-        { "kind": "credit", "year": "1967", "name": "Lynn Sagan", "role": "She published under her married name, before she was Lynn Margulis. More than a dozen journals turned the paper down before one took it." },
-        { "kind": "statement", "lead": "She made three claims", "text": "Two of them are textbooks now.", "note": "Mitochondria were bacteria. So were the chloroplasts in plants. Both were settled by reading the DNA those organelles still carry." },
-        { "kind": "statement", "lead": "The third one", "text": "Still has nothing behind it.", "note": "She said the cell's whip-like tail came from a swallowed bacterium too. No genome has ever been found in it. It is the part nobody quotes." },
-        { "kind": "kicker", "text": "Vindicated is not the same as correct." },
-        { "kind": "sign", "line": "The paper a dozen journals refused is now chapter one.", "handle": "@bbm0902" }
+        {
+          "kind": "statement",
+          "lead": "There is other DNA inside you",
+          "text": "It is not yours.",
+          "note": "Your mitochondria carry their own genome. It reads as bacterial, and it says they descend from a group called the alpha-proteobacteria."
+        },
+        {
+          "kind": "credit",
+          "year": "1967",
+          "name": "Lynn Sagan",
+          "role": "She published under her married name, before she was Lynn Margulis. More than a dozen journals turned the paper down before one took it."
+        },
+        {
+          "kind": "statement",
+          "lead": "She made three claims",
+          "text": "Two of them are textbooks now.",
+          "note": "Mitochondria were bacteria. So were the chloroplasts in plants. Both were settled by reading the DNA those organelles still carry."
+        },
+        {
+          "kind": "statement",
+          "lead": "The third one",
+          "text": "Still has nothing behind it.",
+          "note": "She said the cell's whip-like tail came from a swallowed bacterium too. No genome has ever been found in it. It is the part nobody quotes."
+        },
+        {
+          "kind": "kicker",
+          "text": "Vindicated is not the same as correct."
+        },
+        {
+          "kind": "sign",
+          "line": "The paper a dozen journals refused is now chapter one.",
+          "handle": "@bbm0902"
+        }
       ]
     },
-
     {
       "id": "tardigrade-heat",
       "niche": "biology",
@@ -298,15 +589,46 @@
         "https://doi.org/10.1016/j.cub.2008.06.048 — Jönsson, Rabbow, Schill, Harms-Ringdahl & Rettberg, 'Tardigrades survive exposure to space in low Earth orbit', Current Biology 18(17):R729-R731 (2008), PMID 18786368, located via PubMed. The FOTON-M3 result behind the 'survives space' claim: they survived the vacuum, and adding solar UV and cosmic radiation significantly reduced survival."
       ],
       "verifiedNote": "Checked 15 Aug 2026. This topic was nearly written wrong and the near-miss is worth recording. The draft correction was 'tardigrades are only tough when dried out' — which is false. Kaczmarek et al. state plainly that active tardigrades resist radiation almost as well as anhydrobiotic ones. Heat is the specific exception, not toughness in general, and the fourth beat now says so rather than letting the viewer over-generalise. The figure beat is 37 and it earns the 300px: the whole video is that an animal which survives vacuum and near absolute zero dies at roughly human body temperature. It is written as the integer 37 with the precise 37.1 in the context line, and that is NOT a rounding preference — FigureBeat computes its count-up with parseInt(String(value).replace(/[^0-9]/g,'')), so a value of '37.1' silently renders as a giant 371 and '1,300' as 1300. Integers only. Note 37.1 is an LT50 for one species, Ramazzottius varieornatus, so the beats say 'half a test population' and never 'they die at 37'.",
-      "palette": { "bg": "#160C0C", "ink": "#F7EEEA", "accent": "#FF6B4A", "muted": "#8E7A74" },
-      "bed": { "url": "sounds/norm/bbmw0-stream.mp3", "volume": 1 },
+      "palette": {
+        "bg": "#160C0C",
+        "ink": "#F7EEEA",
+        "accent": "#FF6B4A",
+        "muted": "#8E7A74"
+      },
       "beats": [
-        { "kind": "statement", "lead": "The animal famous for surviving space", "text": "Dies in a warm bath.", "note": "Dried out, it handles vacuum, huge radiation doses and temperatures near absolute zero. Awake and hydrated it is a different animal." },
-        { "kind": "figure", "value": "37", "unit": "°C", "context": "Where half a test population of active tardigrades died. The measured figure was 37.1. Your own body runs at 37.0." },
-        { "kind": "credit", "year": "2020", "name": "Neves and Møbjerg", "role": "In Copenhagen they heated the same species in both states. Dried, half survived an hour at 82 degrees. Awake, half were dead before 38." },
-        { "kind": "statement", "lead": "The toughness is real", "text": "Radiation barely notices whether they are awake.", "note": "Active ones resist it almost as well as dried ones. Heat is the exception, and the one the myth leaves out." },
-        { "kind": "kicker", "text": "It is not indestructible. It is dehydrated." },
-        { "kind": "sign", "line": "The trick is knowing when to dry out.", "handle": "@bbm0902" }
+        {
+          "kind": "statement",
+          "lead": "The animal famous for surviving space",
+          "text": "Dies in a warm bath.",
+          "note": "Dried out, it handles vacuum, huge radiation doses and temperatures near absolute zero. Awake and hydrated it is a different animal."
+        },
+        {
+          "kind": "figure",
+          "value": "37",
+          "unit": "°C",
+          "context": "Where half a test population of active tardigrades died. The measured figure was 37.1. Your own body runs at 37.0."
+        },
+        {
+          "kind": "credit",
+          "year": "2020",
+          "name": "Neves and Møbjerg",
+          "role": "In Copenhagen they heated the same species in both states. Dried, half survived an hour at 82 degrees. Awake, half were dead before 38."
+        },
+        {
+          "kind": "statement",
+          "lead": "The toughness is real",
+          "text": "Radiation barely notices whether they are awake.",
+          "note": "Active ones resist it almost as well as dried ones. Heat is the exception, and the one the myth leaves out."
+        },
+        {
+          "kind": "kicker",
+          "text": "It is not indestructible. It is dehydrated."
+        },
+        {
+          "kind": "sign",
+          "line": "The trick is knowing when to dry out.",
+          "handle": "@bbm0902"
+        }
       ]
     }
   ]

@@ -7,8 +7,6 @@
     "accent": "#E4572E",
     "muted": "#8A7A6B"
   },
-  "audioUrl": "sounds/norm/bbmw0-wind-open.mp3",
-  "audioVolume": 0.7,
   "beats": [
     {
       "kind": "statement",
