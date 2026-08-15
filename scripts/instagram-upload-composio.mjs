@@ -128,7 +128,7 @@ async function diagnose(label) {
   const list = accts.json?.items || accts.json?.data || [];
   console.log(`connected accounts: HTTP ${accts.status}, ${Array.isArray(list) ? list.length : "?"} found`);
   for (const a of (Array.isArray(list) ? list : []).slice(0, 10)) {
-    console.log(`  id=${a.id}  toolkit=${a.toolkit?.slug || a.appName || "?"}  name=${a.name || a.nickname || "-"}  status=${a.status}`);
+    console.log(`  id=${a.id}  toolkit=${a.toolkit?.slug || a.appName || "?"}  user=${a.user_id || a.entity_id || a.user?.id || "?"}  status=${a.status}`);
   }
   console.log(`  (this script was passed ACCOUNT="${ACCOUNT}" — it must match an id above, not a nickname)`);
 
@@ -172,15 +172,47 @@ let _entityId;
 async function entityId() {
   if (_entityId !== undefined) return _entityId;
   _entityId = process.env.COMPOSIO_ENTITY_ID || null;
+
+  // Resolve from the LIST, not from /connected_accounts/<id>.
+  //
+  // The single-account fetch returned nothing usable, so this fell back to
+  // "default" and Composio answered:
+  //
+  //   No connected account found with ID <id> for user ID default
+  //   ActionExecute_ConnectedAccountNotFound
+  //
+  // The account exists — it just does not belong to "default". The list
+  // endpoint demonstrably works (it returns all six connections), so read the
+  // owner off the matching entry there. Guessing "default" was the mistake.
   if (!_entityId) {
     try {
-      const r = await fetch(`${BASE}/connected_accounts/${ACCOUNT}`, { headers: { "x-api-key": KEY } });
+      const r = await fetch(`${BASE}/connected_accounts?limit=100`, { headers: { "x-api-key": KEY } });
       const j = await r.json();
-      _entityId = j?.user_id || j?.entity_id || j?.entityId || j?.data?.user_id || null;
-    } catch { _entityId = null; }
+      const items = j?.items || j?.data || [];
+      const mine = items.find((a) => a.id === ACCOUNT);
+      if (mine) {
+        _entityId = mine.user_id || mine.entity_id || mine.entityId
+          || mine.user?.id || mine.entity?.id || null;
+        if (!_entityId) {
+          // Do not fail silently into a guess: say what the record contains.
+          console.log(`  Entity:   connection found but carries no user id. Fields: ${Object.keys(mine).join(", ")}`);
+        }
+      } else {
+        console.log(`  Entity:   no connection matches COMPOSIO_IG_ACCOUNT_ID. Instagram ids available: ${
+          items.filter((a) => (a.toolkit?.slug || "") === "instagram").map((a) => a.id).join(", ") || "(none)"}`);
+      }
+    } catch (e) { console.log(`  Entity:   lookup failed (${e.message})`); }
   }
-  console.log(`  Entity:   ${_entityId || "(none resolved — falling back to default)"}`);
-  if (!_entityId) _entityId = "default";
+
+  if (_entityId) {
+    console.log(`  Entity:   ${_entityId}`);
+  } else {
+    // "default" is a guess, and it has already been wrong once. Say so plainly
+    // rather than letting the next 404 look like a different problem.
+    console.log(`  Entity:   unresolved. Falling back to "default", which Composio has already rejected once.`);
+    console.log(`            Set COMPOSIO_ENTITY_ID to the user id that owns the connection to fix this properly.`);
+    _entityId = "default";
+  }
   return _entityId;
 }
 
