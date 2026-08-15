@@ -1,0 +1,51 @@
+{
+  "special": false,
+  "themeId": "sunset",
+  "fontFamilyId": "rounded",
+  "audioUrl": "sounds/norm/bbmw0-rain-heavy.mp3",
+  "audioVolume": 0.9,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Listen.",
+      "text": "AI upscaling invents pixels that were never captured.",
+      "sub": "Look closer.",
+      "durationInFrames": 195,
+      "variant": 3
+    },
+    {
+      "kind": "bigword",
+      "text": "Games render lower, display higher.",
+      "durationInFrames": 195,
+      "variant": 2
+    },
+    {
+      "kind": "list",
+      "heading": "Why it matters",
+      "items": [
+        "One",
+        "Two",
+        "Three"
+      ],
+      "durationInFrames": 195,
+      "variant": 3
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Read.",
+        "Note.",
+        "Share."
+      ],
+      "durationInFrames": 173,
+      "variant": 1
+    },
+    {
+      "kind": "cta",
+      "headline": "Worth knowing.",
+      "url": "github.com/bbmw96/bbmw0-technologies-ai",
+      "durationInFrames": 142,
+      "variant": 3
+    }
+  ]
+}

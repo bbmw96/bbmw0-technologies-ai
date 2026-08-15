@@ -5,7 +5,8 @@
   "strictMode": false,
   "allowed": [
     "atari-landfill",
-    "qwerty-not-slow"
+    "qwerty-not-slow",
+    "upscaling-frames"
   ],
   "blocked": [],
   "results": [
@@ -83,6 +84,50 @@
         "combo": "undefined|undefined|sounds/norm/bbmw0-rain-light.mp3",
         "themeGap": 18,
         "audioGap": null
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "upscaling-frames",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "AI upscaling invents pixels that were never captured. #Shorts",
+      "niche": "ai",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"sounds/norm/bbmw0-rain-heavy.mp3\" reused after only 1 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.143,
+        "worstTitleAgainst": "qwerty-not-slow (same batch)",
+        "worstDescriptionSimilarity": 0.5,
+        "combo": "sunset|rounded|sounds/norm/bbmw0-rain-heavy.mp3",
+        "themeGap": 29,
+        "audioGap": 1
       },
       "aiPanel": {
         "available": false,
