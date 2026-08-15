@@ -136,10 +136,29 @@ const Words: React.FC<{
   const { fps } = useVideoConfig();
   const words = String(text).split(/\s+/).filter(Boolean);
   const slack = Math.ceil(size * 0.18);
+  // Mask the display type, fade the body copy.
+  //
+  // Masking every word turned out to be wrong for notes. A note is 40px and
+  // wraps across three or four lines, so a word caught mid-slide sits below
+  // its own baseline as a clipped sliver while its neighbours are already
+  // set — frames 40 and 60 of the mantis reel showed "cannot" and "tell"
+  // hanging under the line like a layout bug. Motion design masks headlines,
+  // not paragraphs, and this is why. Display type is one short line where
+  // the slide reads as intent; body copy just needs to arrive.
+  const mask = size >= 70;
   return (
     <div style={{ display: "flex", flexWrap: "wrap", gap: `0 ${size * 0.22}px`, lineHeight }}>
       {words.map((w, i) => {
         const a = spring({ frame: frame - delay - i * stagger, fps, config: { damping: 15, stiffness: 240, mass: 0.5 } });
+        if (!mask) {
+          return (
+            <span key={i} style={{
+              fontFamily: font, fontSize: size, fontWeight: weight, color: colour,
+              letterSpacing: `${tracking}em`, display: "inline-block",
+              opacity: a, transform: `translateY(${(1 - a) * size * 0.3}px)`,
+            }}>{w}</span>
+          );
+        }
         return (
           <span key={i} style={{
             display: "inline-block", overflow: "hidden",
