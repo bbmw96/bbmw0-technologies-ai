@@ -1,0 +1,27 @@
+{
+  "slug": "shift-select",
+  "date": "2026-08-15",
+  "title": "Shift-click selects a range. #Shorts #didyouknow",
+  "description": "Made on a phone. For a phone.\n\nShift-click selects a range. Works in every list, every app.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #didyouknow",
+  "tags": [
+    "shorts",
+    "productivity",
+    "tips",
+    "lifehacks",
+    "workflow",
+    "keyboardshortcuts"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-08-15-shift-select.mp4",
+  "propsFile": "daily/2026-08-15/shift-select.props.json",
+  "durationInFrames": 900,
+  "themeId": "midnight",
+  "fontFamilyId": "mono",
+  "audioUrl": "sounds/norm/bbmw0-stream.mp3",
+  "niche": "productivity"
+}

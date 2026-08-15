@@ -1,5 +1,5 @@
-Rendering 5 Shorts for 2026-08-15 (concurrency=3, GL=default)
-Compliance: 5 cleared, 0 blocked (policy v1.0.0).
+Rendering 6 Shorts for 2026-08-15 (concurrency=3, GL=default)
+Compliance: 6 cleared, 0 blocked (policy v1.0.0).
 
 --- atari-landfill ---
   SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
@@ -8,14 +8,17 @@ Compliance: 5 cleared, 0 blocked (policy v1.0.0).
   SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
 
 --- paper-folds ---
-  theme=glacier font=display audio=sounds/norm/bbmw0-ocean-shore.mp3 privacy=public
-  rendered: out/daily-2026-08-15-paper-folds.mp4
-  uploaded public: https://youtu.be/X4jhDbjYCfk
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
 
 --- qwerty-not-slow ---
   SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
 
+--- shift-select ---
+  theme=midnight font=mono audio=sounds/norm/bbmw0-stream.mp3 privacy=public
+  rendered: out/daily-2026-08-15-shift-select.mp4
+  uploaded public: https://youtu.be/KiTfNveKCv0
+
 --- upscaling-frames ---
   SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
 
-=== Done. 1 rendered, 1 uploaded, 4 skipped, 0 blocked by compliance, 0 failed. ===
+=== Done. 1 rendered, 1 uploaded, 5 skipped, 0 blocked by compliance, 0 failed. ===

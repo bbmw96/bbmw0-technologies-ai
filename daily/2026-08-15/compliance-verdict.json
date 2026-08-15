@@ -8,7 +8,8 @@
     "qwerty-not-slow",
     "upscaling-frames",
     "collision-boxes",
-    "paper-folds"
+    "paper-folds",
+    "shift-select"
   ],
   "blocked": [],
   "results": [
@@ -206,6 +207,50 @@
         "combo": "glacier|display|sounds/norm/bbmw0-ocean-shore.mp3",
         "themeGap": 9,
         "audioGap": null
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "shift-select",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Shift-click selects a range. #Shorts #didyouknow",
+      "niche": "productivity",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.theme_spacing",
+          "message": "Theme \"midnight\" reused after only 0 video(s). Minimum gap is 3.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.111,
+        "worstTitleAgainst": "caps-lock-fix",
+        "worstDescriptionSimilarity": 0.423,
+        "combo": "midnight|mono|sounds/norm/bbmw0-stream.mp3",
+        "themeGap": 0,
+        "audioGap": 3
       },
       "aiPanel": {
         "available": false,

@@ -1,0 +1,51 @@
+{
+  "special": false,
+  "themeId": "midnight",
+  "fontFamilyId": "mono",
+  "audioUrl": "sounds/norm/bbmw0-stream.mp3",
+  "audioVolume": 0.9,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Heads up.",
+      "text": "Shift-click selects a range.",
+      "sub": "Here's the thing.",
+      "durationInFrames": 195,
+      "variant": 3
+    },
+    {
+      "kind": "bigword",
+      "text": "Works in every list, every app.",
+      "durationInFrames": 195,
+      "variant": 1
+    },
+    {
+      "kind": "list",
+      "heading": "Three things to know",
+      "items": [
+        "Less mouse, more keys",
+        "Fewer apps, more focus",
+        "Smaller batches, faster wins"
+      ],
+      "durationInFrames": 195,
+      "variant": 1
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Read.",
+        "Note.",
+        "Share."
+      ],
+      "durationInFrames": 168,
+      "variant": 2
+    },
+    {
+      "kind": "cta",
+      "headline": "File it away.",
+      "url": "bbmw0-technologies-ai.vercel.app",
+      "durationInFrames": 147,
+      "variant": 1
+    }
+  ]
+}

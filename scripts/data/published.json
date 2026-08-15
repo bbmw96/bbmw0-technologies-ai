@@ -56,7 +56,8 @@
     "reel:qwerty-not-slow",
     "upscaling-frames",
     "collision-boxes",
-    "paper-folds"
+    "paper-folds",
+    "shift-select"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -888,6 +889,23 @@
       "youtubeId": "X4jhDbjYCfk",
       "youtubeUrl": "https://youtu.be/X4jhDbjYCfk",
       "uploadedAt": "2026-08-15T21:16:31.614Z",
+      "privacy": "public"
+    },
+    {
+      "id": "shift-select",
+      "date": "2026-08-15",
+      "themeId": "midnight",
+      "fontFamilyId": "mono",
+      "audioUrl": "sounds/norm/bbmw0-stream.mp3",
+      "title": "Shift-click selects a range. #Shorts #didyouknow",
+      "description": "Made on a phone. For a phone.\n\nShift-click selects a range. Works in every list, every app.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #didyouknow",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "KiTfNveKCv0",
+      "youtubeUrl": "https://youtu.be/KiTfNveKCv0",
+      "uploadedAt": "2026-08-15T21:31:28.695Z",
       "privacy": "public"
     }
   ]
