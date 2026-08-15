@@ -20,10 +20,14 @@
     "",
     "ON NUMBERS SPECIFICALLY",
     "A figure beat renders a value at 300px. That is an enormous claim to make.",
-    "Only add one where the number is real, specific and sourced. Two of the",
-    "three topics below have no figure beat, because forcing one would mean",
-    "inventing it, and a four-beat video is the correct answer to not having a",
-    "fifth true thing to say.",
+    "Only add one where the number is real, specific and sourced. Most topics",
+    "below have no figure beat, because forcing one would mean inventing it, and",
+    "a four-beat video is the correct answer to not having a fifth true thing to",
+    "say. Being true is not enough either: a number that only two credible",
+    "sources disagree about, or that is an address, a duration or a count that",
+    "happens to exist, does not deserve to be the biggest thing on screen. Every",
+    "topic here that has no figure beat says in its verifiedNote which number was",
+    "considered and why it was cut. Read that before adding one back.",
     "",
     "BEDS COME FROM sounds/norm/, NOT sounds/",
     "The originals in public/sounds/ are unmastered field recordings: around",
@@ -108,6 +112,141 @@
         { "kind": "statement", "lead": "It was news at the time", "text": "In 1975 it turned up in Businessweek.", "note": "In a feature called The Office of the Future. The idea was worth reporting before it was furniture." },
         { "kind": "kicker", "text": "His number plate read NO MODES." },
         { "kind": "sign", "line": "The best tools disappear.", "handle": "@bbmw.0" }
+      ]
+    },
+
+    {
+      "id": "mantis-shrimp-colour",
+      "niche": "animals",
+      "verified": true,
+      "sources": [
+        "https://research-information.bris.ac.uk/en/publications/a-different-form-of-color-vision-in-mantis-shrimp/ — the institutional record of the paper, carrying the full Science abstract: Thoen, How, Chiou & Marshall, 'A different form of color vision in mantis shrimp', Science 343(6169):411-413, 24 Jan 2014, PMID 24458639. Establishes the 12 photoreceptor types sampling 300-720nm, that three or four are sufficient for fine colour discrimination, the 'surprisingly poor' behavioural wavelength discrimination, and the temporal-scanning recognition hypothesis.",
+        "https://www.nationalgeographic.com/science/article/the-mantis-shrimp-sees-like-a-satellite — Ed Yong's report from the week of publication. Source for the discrimination numbers actually put on screen: humans separate wavelengths about 5nm apart, the shrimp only 15-25nm. Also the species tested (Haptosquilla trispinosa), the training method, and Justin Marshall's own framing — 'Actually, they're much worse!' and the satellite lookup-table comparison.",
+        "https://www.calacademy.org/explore-science/mantis-shrimp-vision — California Academy of Sciences, checked as a third institutional statement of the same finding."
+      ],
+      "verifiedNote": "Checked 15 Aug 2026. The figure beat is 12 and it earns the 300px: the entire popular myth is built on that number, so the video's turn only works if the number is the biggest thing on screen first. Note that this batch also contains vanilla-albius, whose emotional core is a twelve-year-old — that topic was deliberately given NO figure beat rather than a second giant '12' on the same channel. Do not 'improve' it by adding one back. Deliberately not said: any claim about how many colours the animal sees. Sources agree on receptor count, not on any colour count, and '100,000 colours' style figures are invented. The 8-visible/4-UV split comes from Yong; the abstract only gives the 300-720nm range, so the split is stated as description rather than as the headline number. 'You manage five' is the human 5nm discrimination threshold from Yong, rounded as he gives it. The mechanism beat says 'may not compare colours at all' rather than asserting it — the paper itself says 'suggest', and Marshall's own quoted answer to what they do instead was 'Dunno'.",
+      "palette": { "bg": "#071A1C", "ink": "#EAF6F4", "accent": "#FF5C8A", "muted": "#6E8B8C" },
+      "bed": { "url": "sounds/norm/bbmw0-ocean-swell.mp3", "volume": 1 },
+      "beats": [
+        { "kind": "statement", "lead": "The internet's favourite animal fact", "text": "It is not what you were told.", "note": "The mantis shrimp is famous for seeing colours you cannot imagine. In 2014 someone tested what it can actually tell apart." },
+        { "kind": "figure", "value": "12", "unit": "photoreceptors", "context": "Eight across the range you can see, four more in the ultraviolet. You have three. Four is already enough for fine colour discrimination." },
+        { "kind": "statement", "lead": "Then they ran the test", "text": "It is worse at this than you are.", "note": "It could only separate wavelengths fifteen to twenty-five nanometres apart. You manage five. So do honeybees." },
+        { "kind": "credit", "year": "2014", "name": "Hanne Thoen", "role": "Working in Justin Marshall's lab in Queensland, she found the eye may not compare colours at all. It scans, and matches the reading against something like a lookup table." },
+        { "kind": "kicker", "text": "It is not seeing more. It is seeing faster." },
+        { "kind": "sign", "line": "The best-known fact about this animal is the wrong one.", "handle": "@bbm0902" }
+      ]
+    },
+
+    {
+      "id": "betelgeuse-dimming",
+      "niche": "space",
+      "verified": true,
+      "sources": [
+        "https://www.eso.org/public/news/eso2109/ — ESO's release on Montargès et al., Nature, 16 June 2021. Establishes the dimming through late 2019 and early 2020, the VLT images, and that the star was partially concealed by a cloud of dust.",
+        "https://www.cfa.harvard.edu/news/mystery-solved-dust-cloud-led-betelgeuses-great-dimming — Harvard & Smithsonian CfA, same date, independent institution. Source for 'lost more than two-thirds of its brightness', the January and March 2020 images, the mechanism (ejected gas bubble, a patch of surface cooled, heavier elements such as silicon condensed into dust), the return to normal brightness by April 2020, and Montargès' line about watching a star's appearance change in real time on a scale of weeks.",
+        "https://science.nasa.gov/missions/hubble/hubble-finds-that-betelgeuses-mysterious-dimming-is-due-to-a-traumatic-outburst/ — Dupree's earlier Hubble work, reaching the dust conclusion by a different route and independently.",
+        "https://arxiv.org/pdf/2011.05982 — the dissent, read and deliberately accounted for: 'The Photospheric Temperatures of Betelgeuse during the Great Dimming of 2019/2020: No New Dust Required'.",
+        "https://www.nature.com/articles/s41467-021-25018-3 — 'Spectroscopic evidence for a large spot on the dimming Betelgeuse', the competing large-cool-spot emphasis."
+      ],
+      "verifiedNote": "Checked 15 Aug 2026. NO figure beat, on purpose. The candidates were the V-band magnitude at minimum (1.6, jargon that means nothing at 300px), the fraction of light lost (given variously as 'more than two-thirds', '70%' and '1.2 magnitudes' — approximate, and stated differently by each source), and 200,000 mph for the ejected material (single-sourced to Dupree). None of them is both crisp and load-bearing, so the topic runs on the correction instead. The dust explanation is stated as the answer astronomers arrived at, which is what ESO, CfA and NASA all say — but the exact mechanism is genuinely still argued, with at least one paper titled 'No New Dust Required' and another pushing a large cool spot. The beat wording follows CfA's version (gas ejected, surface patch cools, silicon condenses) because that account is compatible with the cool-spot camp rather than opposed to it. Do not upgrade 'the answer came' to 'proven'. Also deliberately not said: the distance to Betelgeuse, and any timescale for the supernova. Both are quoted with enormous error bars and neither survives being set in type.",
+      "palette": { "bg": "#0A0710", "ink": "#F3EFE9", "accent": "#FF8A3D", "muted": "#7B7285" },
+      "bed": { "url": "sounds/norm/bbmw0-wind-open.mp3", "volume": 0.7 },
+      "beats": [
+        { "kind": "statement", "lead": "Late in 2019 a star started going out", "text": "The headlines said supernova.", "note": "Betelgeuse, the orange shoulder of Orion, lost more than two thirds of its light by February 2020. Then it came back." },
+        { "kind": "credit", "year": "2020", "name": "Betelgeuse", "role": "A red supergiant close enough that a telescope can resolve its actual surface. Between January and March, astronomers watched the southern half of it darken, week by week." },
+        { "kind": "statement", "lead": "The answer, June 2021", "text": "It was dust.", "note": "The star threw off a bubble of gas. A patch of surface behind it cooled, silicon condensed, and it hid behind its own soot." },
+        { "kind": "kicker", "text": "It will explode. That was not it." },
+        { "kind": "sign", "line": "Still there. Still the shoulder of Orion.", "handle": "@bbm0902" }
+      ]
+    },
+
+    {
+      "id": "vanilla-albius",
+      "niche": "food",
+      "verified": true,
+      "sources": [
+        "https://www.linnean.org/news/2019/10/16/edmond-albius — the Linnean Society's account, which quotes Ferréol Bellier-Beaumont's own 1861 letter to the Justice of the Peace at Sainte-Suzanne ('I taught the little black boy, Edmond, how to marry the male and female parts together... This clever boy had realized that the vanilla flower also had male and female elements'), his rebuttal of Jean Michel Claude Richard's counter-claim ('How could Mr. Richard have taught the young boy this technique in 1838 — when he was only eight years old?'), the 20-year-old barren vine, the 1880 Moniteur death notice, and Arditti et al. 2009's conclusion that the discovery was Albius's own.",
+        "https://www.europeana.eu/en/stories/edmond-albius — Europeana, story contributed by the Fondation pour la Mémoire de l'Esclavage. Independently gives birth at Sainte-Suzanne on 9 August 1829, the 1841 discovery at twelve, freedom in 1848, death in poverty in 1880, and that the hand-pollination method is still used worldwide.",
+        "https://en.wikipedia.org/wiki/Edmond_Albius — checked only to confirm the age at discovery agrees with the two above."
+      ],
+      "verifiedNote": "Checked 15 Aug 2026. NO figure beat, and the reason is editorial rather than factual: his age is well sourced and would have made a strong 300px '12', but mantis-shrimp-colour in this same batch already puts a giant 12 on the same channel, and two videos opening on the same numeral would read as a template. The age is carried in the credit beat instead. If mantis-shrimp-colour is ever retired, this is the topic that should get the figure beat back. Deliberately left out: all tonnage figures. The Linnean Society gives Réunion exports as 2 tonnes in 1858, 20 in 1867, 200 in 1898; Europeana gives about 1 tonne a year in the 1850s, 15 in the following decade, 60 by the early 1880s. Those do not reconcile, so no export number appears anywhere. Also left out: what crop gave him the idea. Bellier-Beaumont's own letter says watermelon, Europeana says pumpkin, and rather than pick one the beat now just says he worked it out himself. Deliberately included, because it is the actual correction: Albius was not the first to hand-pollinate vanilla — Charles Morren published the technique in 1837, four years earlier — but Morren's method suited a greenhouse and not a plantation. The beats therefore never say he was first, only that the method that scaled was his. Do not add 'invented'.",
+      "palette": { "bg": "#14100B", "ink": "#F6EFE2", "accent": "#E8C35A", "muted": "#8C8171" },
+      "bed": { "url": "sounds/norm/bbmw0-forest-wind.mp3", "volume": 1 },
+      "beats": [
+        { "kind": "statement", "lead": "Almost every vanilla pod you have eaten", "text": "Was pollinated by hand.", "note": "The orchid has its own bee only in Mexico. Everywhere else someone opens each flower and does it themselves, one at a time." },
+        { "kind": "credit", "year": "1841", "name": "Edmond Albius", "role": "Twelve, born into slavery on Réunion and taught horticulture by the man who owned him. He saw the flower's two halves were separated by a flap you could lift." },
+        { "kind": "statement", "lead": "His owner did not believe it", "text": "Then more pods appeared.", "note": "Bellier-Beaumont had kept one barren vine alive twenty years. In 1861 he wrote that the boy worked it out himself." },
+        { "kind": "statement", "lead": "Others claimed it", "text": "He said he taught the boy.", "note": "Bellier-Beaumont checked the dates: by that account Edmond was eight. Archivists went back over it in 2009 and agreed it was his." },
+        { "kind": "kicker", "text": "He died in a public hospital with nothing." },
+        { "kind": "sign", "line": "The method has not changed since.", "handle": "@bbm0902" }
+      ]
+    },
+
+    {
+      "id": "year-without-summer",
+      "niche": "weather",
+      "verified": true,
+      "sources": [
+        "https://www.nps.gov/articles/000/1816-the-year-without-summer.htm — US National Park Service. Source for the Tambora attribution, the nicknames ('Eighteen Hundred and Froze to Death'), and every weather detail on screen: May frost killing crops in New York, Massachusetts, New Hampshire and Vermont; June snow at Albany, New York and Dennysville, Maine; lakes and rivers still frozen in July as far south as north-western Pennsylvania.",
+        "https://www.gutenberg.org/files/42324/42324-h/42324-h.htm — Project Gutenberg's text of the 1831 Frankenstein, where Mary Shelley's own author's introduction gives the quoted words: 'it proved a wet, ungenial summer, and incessant rain often confined us for days to the house.'",
+        "https://www.britannica.com/event/Haunted-Summer-of-1816 — Britannica on the Villa Diodati party (Byron, Percy and Mary, Claire Clairmont, Polidori) and the ghost-story agreement.",
+        "https://en.wikipedia.org/wiki/Year_Without_a_Summer — checked for the global temperature anomaly, which is why no temperature figure appears here."
+      ],
+      "verifiedNote": "Checked 15 Aug 2026. NO figure beat, and no temperature anywhere. The NPS says the cloud 'changed the global climate by 2-7 degrees Fahrenheit'; Wikipedia gives the global average anomaly as 0.4-0.7°C, which is about 0.7-1.3°F. Those are different claims — one is almost certainly regional and the other a global mean — and putting either at 300px would be asserting a precision the sources do not share. The causal chain is deliberately only half-drawn. Tambora causing the cold is stated, because NPS states it directly. Tambora causing Frankenstein is NOT stated: the beats put the party indoors in the rain and quote Mary Shelley's own account of why, and stop there. 'A volcano wrote Frankenstein' was drafted as the kicker and cut, because it is the sort of tidy line that is repeated until it becomes a fact. The kicker used instead — that nobody in the room knew why it was raining — is the true and better point. Also note 1816 was already sitting on a cold decade and there was an earlier unidentified eruption around 1808-09, so Tambora is the trigger rather than the whole explanation; the credit beat says it 'put enough into the stratosphere to shade the planet', which is what the source supports, and not 'caused'.",
+      "palette": { "bg": "#0C1014", "ink": "#EDF1F4", "accent": "#8FB8D8", "muted": "#75808A" },
+      "bed": { "url": "sounds/norm/bbmw0-rain-heavy.mp3", "volume": 0.8 },
+      "beats": [
+        { "kind": "statement", "lead": "In 1816 the summer did not arrive", "text": "It snowed in June.", "note": "May frost killed the crops across New England. June snow fell on Albany. In July there was still ice on Pennsylvania rivers." },
+        { "kind": "credit", "year": "1815", "name": "Mount Tambora", "role": "An Indonesian volcano had erupted the year before and put enough into the stratosphere to shade the planet. Nobody in New England made the connection." },
+        { "kind": "statement", "lead": "That June on Lake Geneva", "text": "It rained for days.", "note": "Byron, the Shelleys and Polidori were shut inside a rented villa. To fill the evenings they each agreed to write a ghost story." },
+        { "kind": "statement", "lead": "Mary Shelley, writing in 1831", "text": "A wet, ungenial summer.", "note": "Her words: incessant rain often confined us for days to the house. She was eighteen. What she started that week was Frankenstein." },
+        { "kind": "kicker", "text": "Nobody in that room knew why." },
+        { "kind": "sign", "line": "They called it eighteen hundred and froze to death.", "handle": "@bbm0902" }
+      ]
+    },
+
+    {
+      "id": "atari-landfill",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://core.tdar.org/project/459204/atari-dump-site-alamogordo-new-mexico-usa — the Digital Archaeological Record's project entry, the primary archaeological record (project director Andrew Reinhard, field director Richard Rothaus, PI Joe Lewandowski; doi:10.48512/XCV8459204). Establishes the September 1983 deposit, that it was reported at the time in the New York Times and the Alamogordo Daily News before becoming an urban legend, the 26 April 2014 excavation by the City of Alamogordo with archaeologists and a film crew, 'recovered just over 1,300 games', the 10-metre depth, the manifest as the most important result, and the receiving institutions: the Smithsonian, the Tularosa Basin Historical Museum, The Strong National Museum of Play, the Henry Ford, and VIGAMUS in Rome.",
+        "https://www.thehenryford.org/collections/explore/artifact/403653 — the Henry Ford's own catalogue entry for an excavated E.T. cartridge (object ID 2015.13.15, gift of the City of Alamogordo), independently confirming the 26 April 2014 date and that the material is now museum-accessioned.",
+        "https://archaeology.org/issues/july-august-2014/digs-discoveries/new-mexico-atari-dump-site-excavation/ — Archaeology Magazine's contemporaneous write-up of the dig."
+      ],
+      "verifiedNote": "Checked 15 Aug 2026. NO figure beat, and the count of buried cartridges is deliberately absent from every beat. tDAR says 'ca. 800,000'; the Henry Ford says 700,000. Both are credible primary-adjacent institutions and they do not agree, so the beats say 'hundreds of thousands' and nothing more precise. The recovered count is given as 'just over 1,300' — tDAR's own wording — rather than the 1,382 that circulates in press coverage, because tDAR is the excavation's own record and the press figure could not be traced to it. A figure beat was drafted twice and cut twice: first with the buried count (contested, see above), then with 31, the years between burial and dig. 31 is true and arithmetic from two solid dates, but it is a duration, and a duration at 300px implies a significance it does not have. The story is the myth turning out to be documented, not any one number. Also not said: that concrete was poured over the cell. It is repeated everywhere and appears in none of the three sources read here.",
+      "palette": { "bg": "#100B08", "ink": "#F2E9DC", "accent": "#E4572E", "muted": "#8A7A6B" },
+      "bed": { "url": "sounds/norm/bbmw0-wind-open.mp3", "volume": 0.7 },
+      "beats": [
+        { "kind": "statement", "lead": "For thirty years this was a rumour", "text": "Atari buried its games in the desert.", "note": "September 1983: trucks took hundreds of thousands of cartridges out to a landfill in Alamogordo, New Mexico, and buried them." },
+        { "kind": "credit", "year": "1983", "name": "Alamogordo, New Mexico", "role": "The New York Times reported it at the time. Then it slid out of the record and became a story gamers told each other, always about E.T." },
+        { "kind": "statement", "lead": "On 26 April 2014 they dug", "text": "All of it was true.", "note": "The city, archaeologists and a film crew went ten metres down and pulled up just over 1,300 cartridges. Not only E.T." },
+        { "kind": "statement", "lead": "Where the finds went", "text": "The Smithsonian took some.", "note": "So did the Henry Ford, the Strong Museum of Play and the video game museum in Rome. A landfill became a catalogued site." },
+        { "kind": "kicker", "text": "The urban legend had a manifest." },
+        { "kind": "sign", "line": "Some myths are only undocumented.", "handle": "@ai_game_odyssey" }
+      ]
+    },
+
+    {
+      "id": "qwerty-not-slow",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "http://kanji.zinbun.kyoto-u.ac.jp/~yasuoka/publications/PreQWERTY.html — Koichi Yasuoka and Motoko Yasuoka, 'On the Prehistory of QWERTY', ZINBUN No.42 (March 2011), pp.161-174, with the authors' own abstract. The 'to slow down the operator' answer is quoted there and called, in their word, nonsense. Also the derivation from the Hughes-Phelps printing telegraph, the development for Morse receivers, and that the arrangement changed repeatedly and 'accidentally grew into QWERTY'.",
+        "https://www.smithsonianmag.com/history/the-qwerty-keyboard-will-never-die-where-did-the-150-year-old-design-come-from-49863249/ — Smithsonian Magazine, quoting the paper directly for the Morse detail used on screen: American Morse renders Z as '... .', easily confused with the digram SE, so S needed to sit near both Z and E. Also Sholes' 1868 typewriter patent, and his 1889 application for an XPMCH layout filed a year before his death.",
+        "https://oztypewriter.blogspot.com/2012/10/on-this-day-in-typewriter-history-from.html — independent confirmation of the two dates put on screen: Sholes applied for design 568,630 in September 1889 and died at Milwaukee on 17 February 1890, the patent being assigned after his death.",
+        "https://www.britannica.com/biography/Christopher-Latham-Sholes — checked for Sholes' dates (1819-1890)."
+      ],
+      "verifiedNote": "Checked 15 Aug 2026. NO figure beat: the available numbers are the 1874 price of $125, and Remington's 1891 claim of 100,000 machines in use. Both are true and both are beside the point, which is that the reason everyone gives for the layout is wrong. The Morse Z/SE claim is the Yasuokas' argument, not an independently established fact, and the beat is worded to attribute it — 'their evidence' — rather than to state it as settled. It is worth knowing that the jamming account is not universally abandoned; Smithsonian describes it as contentious rather than dead, so the beats say the researchers who traced the history called it nonsense, which is precisely what happened, instead of saying it has been disproved. The code beat carries QWERTYUIOP rather than QWERTY because the ten-glyph top row is what a viewer recognises on sight and it gives the CodeBeat stagger enough to work with. The kicker is the real find: the man who gave us the layout filed a patent for a different one in September 1889 and was dead by the following February, so he spent his last months trying to replace it.",
+      "palette": { "bg": "#111214", "ink": "#F0EDE6", "accent": "#C9A227", "muted": "#83848A" },
+      "bed": { "url": "sounds/norm/bbmw0-rain-light.mp3", "volume": 1 },
+      "beats": [
+        { "kind": "code", "chars": "QWERTYUIOP", "caption": "You have never once questioned this." },
+        { "kind": "statement", "lead": "What everyone says", "text": "It was built to slow you down.", "note": "So the typebars would not jam. It is in textbooks. The researchers who traced the layout's real history called that, in print, nonsense." },
+        { "kind": "credit", "year": "2011", "name": "Koichi and Motoko Yasuoka", "role": "At Kyoto University they followed the keyboard back past the typewriter to the telegraph. Its first heavy users were Morse operators taking down code live." },
+        { "kind": "statement", "lead": "Their evidence", "text": "American Morse writes Z almost like S-E.", "note": "An operator could not tell them apart until the following letters arrived. So S ended up next to both Z and E." },
+        { "kind": "kicker", "text": "Sholes spent his last year trying to replace it." },
+        { "kind": "sign", "line": "You are typing on his rough draft.", "handle": "@bbmw.0" }
       ]
     }
   ]

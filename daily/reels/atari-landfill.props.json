@@ -1,0 +1,53 @@
+{
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (atari-landfill)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#100B08",
+    "ink": "#F2E9DC",
+    "accent": "#E4572E",
+    "muted": "#8A7A6B"
+  },
+  "audioUrl": "sounds/norm/bbmw0-wind-open.mp3",
+  "audioVolume": 0.7,
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "For thirty years this was a rumour",
+      "text": "Atari buried its games in the desert.",
+      "note": "September 1983: trucks took hundreds of thousands of cartridges out to a landfill in Alamogordo, New Mexico, and buried them.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1983",
+      "name": "Alamogordo, New Mexico",
+      "role": "The New York Times reported it at the time. Then it slid out of the record and became a story gamers told each other, always about E.T.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "lead": "On 26 April 2014 they dug",
+      "text": "All of it was true.",
+      "note": "The city, archaeologists and a film crew went ten metres down and pulled up just over 1,300 cartridges. Not only E.T.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "Where the finds went",
+      "text": "The Smithsonian took some.",
+      "note": "So did the Henry Ford, the Strong Museum of Play and the video game museum in Rome. A landfill became a catalogued site.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "kicker",
+      "text": "The urban legend had a manifest.",
+      "durationInFrames": 60
+    },
+    {
+      "kind": "sign",
+      "line": "Some myths are only undocumented.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 70
+    }
+  ]
+}

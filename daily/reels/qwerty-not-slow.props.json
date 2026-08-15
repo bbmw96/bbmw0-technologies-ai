@@ -1,0 +1,52 @@
+{
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (qwerty-not-slow)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#111214",
+    "ink": "#F0EDE6",
+    "accent": "#C9A227",
+    "muted": "#83848A"
+  },
+  "audioUrl": "sounds/norm/bbmw0-rain-light.mp3",
+  "audioVolume": 1,
+  "beats": [
+    {
+      "kind": "code",
+      "chars": "QWERTYUIOP",
+      "caption": "You have never once questioned this.",
+      "durationInFrames": 102
+    },
+    {
+      "kind": "statement",
+      "lead": "What everyone says",
+      "text": "It was built to slow you down.",
+      "note": "So the typebars would not jam. It is in textbooks. The researchers who traced the layout's real history called that, in print, nonsense.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2011",
+      "name": "Koichi and Motoko Yasuoka",
+      "role": "At Kyoto University they followed the keyboard back past the typewriter to the telegraph. Its first heavy users were Morse operators taking down code live.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "Their evidence",
+      "text": "American Morse writes Z almost like S-E.",
+      "note": "An operator could not tell them apart until the following letters arrived. So S ended up next to both Z and E.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "kicker",
+      "text": "Sholes spent his last year trying to replace it.",
+      "durationInFrames": 76
+    },
+    {
+      "kind": "sign",
+      "line": "You are typing on his rough draft.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 70
+    }
+  ]
+}

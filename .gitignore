@@ -48,3 +48,6 @@ scripts/*.secret
 # dated folder next to the props they describe, so without this every render
 # leaves an untracked file behind and real changes get lost in the noise.
 daily/*/render-log.txt
+
+# Scratch space for research runs. Not source.
+tmp/

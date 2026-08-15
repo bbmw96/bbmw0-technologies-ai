@@ -86,8 +86,10 @@ accident.
 
 `yt-bbmw0` — tech, app, productivity, science, history
 `ig-aigameodyssey` — gaming, ai, tech, app
-`yt-bbm0902` — animals, space, biology, food, weather — **on hold, no rich
-topics in these niches yet.** It comes off hold when it has some.
+`yt-bbm0902` — animals, space, biology, food, weather — **off hold since
+15 Aug 2026**, when the first four topics in its niches landed (animals, space,
+food, weather). `biology` still has none. It is the channel that starves
+first, so weight new research here until it has a backlog.
 
 A topic only reaches a channel whose niches include it, so check the niche
 before writing, or you will research something with nowhere to go.

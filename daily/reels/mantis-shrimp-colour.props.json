@@ -1,0 +1,53 @@
+{
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (mantis-shrimp-colour)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#071A1C",
+    "ink": "#EAF6F4",
+    "accent": "#FF5C8A",
+    "muted": "#6E8B8C"
+  },
+  "audioUrl": "sounds/norm/bbmw0-ocean-swell.mp3",
+  "audioVolume": 1,
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The internet's favourite animal fact",
+      "text": "It is not what you were told.",
+      "note": "The mantis shrimp is famous for seeing colours you cannot imagine. In 2014 someone tested what it can actually tell apart.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "12",
+      "unit": "photoreceptors",
+      "context": "Eight across the range you can see, four more in the ultraviolet. You have three. Four is already enough for fine colour discrimination.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "statement",
+      "lead": "Then they ran the test",
+      "text": "It is worse at this than you are.",
+      "note": "It could only separate wavelengths fifteen to twenty-five nanometres apart. You manage five. So do honeybees.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "credit",
+      "year": "2014",
+      "name": "Hanne Thoen",
+      "role": "Working in Justin Marshall's lab in Queensland, she found the eye may not compare colours at all. It scans, and matches the reading against something like a lookup table.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "kicker",
+      "text": "It is not seeing more. It is seeing faster.",
+      "durationInFrames": 76
+    },
+    {
+      "kind": "sign",
+      "line": "The best-known fact about this animal is the wrong one.",
+      "handle": "@bbm0902",
+      "durationInFrames": 88
+    }
+  ]
+}
