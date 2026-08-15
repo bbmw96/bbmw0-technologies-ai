@@ -8,10 +8,19 @@
 // connection to @ai_game_odyssey and handles the token lifecycle itself, so
 // this path skips all of that setup and all of that maintenance.
 //
-// Composio wraps the same two-step Meta handshake:
-//   INSTAGRAM_POST_IG_USER_MEDIA          -> create the Reel container
-//   INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH  -> publish it (polls for FINISHED
-//                                            internally via max_wait_seconds)
+// Composio wraps Meta's three-step handshake. The tool SLUGS ARE RESOLVED AT
+// RUNTIME, because which ones a key can execute varies by project and Composio
+// renames and deprecates them. This key has:
+//
+//   INSTAGRAM_CREATE_MEDIA_CONTAINER -> create the Reel container
+//   INSTAGRAM_GET_POST_STATUS        -> poll until Meta reports FINISHED
+//   INSTAGRAM_CREATE_POST            -> publish it
+//
+// The middle step is not optional. INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH used
+// to block internally via max_wait_seconds, so an earlier version of this file
+// had no wait of its own. This key does not have that tool, and CREATE_POST
+// publishes immediately — so without the poll Meta answers "Media ID is not
+// available / please wait for a moment" (9007 / 2207027) every time.
 //
 // It still cURLs the video from a public URL, so publish-media.mjs is still
 // required. That constraint is Meta's, not Composio's.
@@ -34,6 +43,13 @@ const API = "https://backend.composio.dev/api/v3/tools/execute";
 // further down would still be in its temporal dead zone at that point and
 // throw a ReferenceError instead of running.
 const BASE = "https://backend.composio.dev/api/v3";
+
+// Transcoding wait. Meta rejects a publish until the container reports
+// FINISHED; a Reel typically needs 30-120s. 240s of headroom, checked every
+// 5s, so a slow encode succeeds rather than being abandoned one poll early.
+const POLL_EVERY_MS = 5000;
+const POLL_MAX_MS = 240000;
+const BLIND_WAIT_MS = 90000;
 
 function args(argv) {
   const o = {};
@@ -427,7 +443,58 @@ try {
   }
   console.log(`  Container: ${creationId}`);
 
-  // Composio polls for FINISHED itself. Reels typically need 30-120s.
+  // Wait for Meta to finish transcoding before publishing.
+  //
+  // The comment that used to sit here said "Composio polls for FINISHED
+  // itself". That was true of INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH, which
+  // takes max_wait_seconds and blocks. This key does not have that tool — it
+  // has INSTAGRAM_CREATE_POST, which publishes immediately and does not wait.
+  // Swapping the tools silently removed the wait, and Meta answered:
+  //
+  //   "Media ID is not available" / "The media is not ready for publishing,
+  //    please wait for a moment"   (code 9007, subcode 2207027)
+  //
+  // Which is Meta being polite about being asked too early. A Reel needs
+  // roughly 30-120s to transcode.
+  if (available.includes("INSTAGRAM_GET_POST_STATUS")) {
+    const sParams = await toolParams("INSTAGRAM_GET_POST_STATUS");
+    const deadline = Date.now() + POLL_MAX_MS;
+    let last = "";
+    while (Date.now() < deadline) {
+      await new Promise((r) => setTimeout(r, POLL_EVERY_MS));
+      let st;
+      try {
+        st = await execTool("INSTAGRAM_GET_POST_STATUS", sParams.length
+          ? mapArgs(sParams, [
+              [["ig_container_id", "container_id", "creation_id", "media_container_id", "id"], String(creationId)],
+              [["fields"], "status_code,status"],
+            ])
+          : { creation_id: String(creationId), fields: "status_code,status" });
+      } catch (e) {
+        // A transient status read must not abort a container that is fine.
+        console.log(`  status check failed (${String(e.message).slice(0, 120)}) — retrying`);
+        continue;
+      }
+      const code = String(
+        st?.status_code || st?.data?.status_code || st?.status || st?.data?.status || "",
+      ).toUpperCase();
+      if (code !== last) { console.log(`  Status:   ${code || "(none)"}`); last = code; }
+      if (code.includes("FINISHED")) break;
+      if (code.includes("ERROR") || code.includes("EXPIRED")) {
+        throw new Error(`Meta rejected the media while processing: ${JSON.stringify(st).slice(0, 300)}`);
+      }
+    }
+    if (!last.includes("FINISHED")) {
+      // Publishing anyway would reproduce the exact 9007 this loop exists to
+      // prevent, so stop and say what state it reached.
+      throw new Error(`Container ${creationId} never reached FINISHED within ${POLL_MAX_MS / 1000}s (last status: ${last || "unknown"}).`);
+    }
+  } else {
+    // No status tool: fall back to a flat wait rather than publishing instantly.
+    console.log(`  No INSTAGRAM_GET_POST_STATUS available; waiting ${BLIND_WAIT_MS / 1000}s before publishing.`);
+    await new Promise((r) => setTimeout(r, BLIND_WAIT_MS));
+  }
+
   const pParams = await toolParams(publishTool);
   console.log(`  ${publishTool} accepts: ${pParams.join(", ") || "(schema unavailable)"}`);
   const publishArgs = pParams.length
