@@ -4,7 +4,8 @@
   "policyVersion": "1.0.0",
   "strictMode": false,
   "allowed": [
-    "atari-landfill"
+    "atari-landfill",
+    "qwerty-not-slow"
   ],
   "blocked": [],
   "results": [
@@ -38,6 +39,50 @@
         "combo": "undefined|undefined|sounds/norm/bbmw0-wind-open.mp3",
         "themeGap": 18,
         "audioGap": 5
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "qwerty-not-slow",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "You have never once questioned this.",
+      "niche": "tech",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.093,
+        "worstTitleAgainst": "konami-code",
+        "worstDescriptionSimilarity": 0.272,
+        "combo": "undefined|undefined|sounds/norm/bbmw0-rain-light.mp3",
+        "themeGap": 18,
+        "audioGap": null
       },
       "aiPanel": {
         "available": false,

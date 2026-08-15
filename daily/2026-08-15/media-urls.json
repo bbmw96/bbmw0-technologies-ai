@@ -4,6 +4,7 @@
   "tag": "media-2026-08-15",
   "base": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-08-15",
   "urls": {
-    "atari-landfill": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-08-15/daily-2026-08-15-atari-landfill.mp4"
+    "atari-landfill": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-08-15/daily-2026-08-15-atari-landfill.mp4",
+    "qwerty-not-slow": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-08-15/daily-2026-08-15-qwerty-not-slow.mp4"
   }
 }
