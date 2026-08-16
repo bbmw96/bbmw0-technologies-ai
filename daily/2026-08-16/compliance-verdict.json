@@ -4,7 +4,8 @@
   "policyVersion": "1.0.0",
   "strictMode": false,
   "allowed": [
-    "spacebar-most-pressed"
+    "spacebar-most-pressed",
+    "first-website-online"
   ],
   "blocked": [],
   "results": [
@@ -38,6 +39,50 @@
         "combo": "ocean|rounded|sounds/norm/bbmw0-ocean-swell.mp3",
         "themeGap": 47,
         "audioGap": 10
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "first-website-online",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "The very first website is still online today. #Shorts",
+      "niche": "tech",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"sounds/norm/bbmw0-rain-distant.mp3\" reused after only 1 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.1,
+        "worstTitleAgainst": "first-bug-real",
+        "worstDescriptionSimilarity": 0.5,
+        "combo": "ember|serif|sounds/norm/bbmw0-rain-distant.mp3",
+        "themeGap": 10,
+        "audioGap": 1
       },
       "aiPanel": {
         "available": false,

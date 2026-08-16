@@ -1,0 +1,51 @@
+{
+  "special": false,
+  "themeId": "ember",
+  "fontFamilyId": "serif",
+  "audioUrl": "sounds/norm/bbmw0-rain-distant.mp3",
+  "audioVolume": 0.9,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "True story.",
+      "text": "The very first website is still online today.",
+      "sub": "Useful, actually.",
+      "durationInFrames": 195,
+      "variant": 3
+    },
+    {
+      "kind": "bigword",
+      "text": "info.cern.ch, since 1991.",
+      "durationInFrames": 195,
+      "variant": 1
+    },
+    {
+      "kind": "list",
+      "heading": "Why it matters",
+      "items": [
+        "The model is simple",
+        "The result is fast",
+        "The reason is design"
+      ],
+      "durationInFrames": 195,
+      "variant": 1
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "See.",
+        "Hear.",
+        "Know."
+      ],
+      "durationInFrames": 195,
+      "variant": 2
+    },
+    {
+      "kind": "cta",
+      "headline": "Pass it on.",
+      "url": "bbmw0-technologies-ai.vercel.app/install",
+      "durationInFrames": 120,
+      "variant": 2
+    }
+  ]
+}

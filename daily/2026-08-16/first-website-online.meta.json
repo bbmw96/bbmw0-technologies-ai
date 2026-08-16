@@ -1,0 +1,27 @@
+{
+  "slug": "first-website-online",
+  "date": "2026-08-16",
+  "title": "The very first website is still online today. #Shorts",
+  "description": "Here's a one-minute fact you didn't know you needed.\n\nThe very first website is still online today. info.cern.ch, since 1991.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts",
+  "tags": [
+    "shorts",
+    "tech",
+    "coding",
+    "developer",
+    "techfacts",
+    "software"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-08-16-first-website-online.mp4",
+  "propsFile": "daily/2026-08-16/first-website-online.props.json",
+  "durationInFrames": 900,
+  "themeId": "ember",
+  "fontFamilyId": "serif",
+  "audioUrl": "sounds/norm/bbmw0-rain-distant.mp3",
+  "niche": "tech"
+}

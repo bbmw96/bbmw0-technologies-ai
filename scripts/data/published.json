@@ -60,7 +60,8 @@
     "shift-select",
     "vertical-format",
     "neural-net-layers",
-    "spacebar-most-pressed"
+    "spacebar-most-pressed",
+    "first-website-online"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -957,6 +958,23 @@
       "channelId": "yt-bbmw0",
       "special": false,
       "platform": "youtube"
+    },
+    {
+      "id": "first-website-online",
+      "date": "2026-08-16",
+      "themeId": "ember",
+      "fontFamilyId": "serif",
+      "audioUrl": "sounds/norm/bbmw0-rain-distant.mp3",
+      "title": "The very first website is still online today. #Shorts",
+      "description": "Here's a one-minute fact you didn't know you needed.\n\nThe very first website is still online today. info.cern.ch, since 1991.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts",
+      "niche": "tech",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram",
+      "youtubeId": "17908688289459595",
+      "youtubeUrl": "https://youtu.be/17908688289459595",
+      "uploadedAt": "2026-08-16T20:51:52.210Z",
+      "privacy": "public"
     }
   ]
 }
