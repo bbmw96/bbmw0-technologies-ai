@@ -212,6 +212,18 @@ const props = {
             "claims in these beats have not been checked against a source. Do " +
             "not publish this. See reviewNote in scripts/data/topics-rich.json.",
   }),
+  // WITHOUT THIS LINE THE VIDEO IS RENDERED BY THE WRONG COMPOSITION.
+  //
+  // render-batch.mjs reads _composition and falls back to "Daily" — ThemedShort
+  // — when the field is absent. ThemedShort ignores `beats` entirely and draws
+  // its own blurred pastel gradient. So a reel generated here, rendered through
+  // that path, came out looking exactly like the old padded Shorts: same wash,
+  // same template, none of the editorial layout. The palettes were never the
+  // problem; they are near-black and were being thrown away.
+  //
+  // That is precisely what shipped to Instagram and YouTube, and why the new
+  // format was indistinguishable from the format it replaced.
+  _composition: "Reel",
   _generatedBy: `scripts/generate-reels.mjs from topics-rich.json (${topic.id})`,
   _timing: topic.voiceCuts
     ? `Cuts land on pauses measured in ${topic.voice} with ffmpeg silencedetect, ` +
