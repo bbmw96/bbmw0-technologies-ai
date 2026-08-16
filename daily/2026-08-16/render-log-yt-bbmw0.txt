@@ -1,5 +1,17 @@
-Rendering 1 Shorts for 2026-08-16 (concurrency=3, GL=default)
-Compliance: 1 cleared, 0 blocked (policy v1.0.0).
+Rendering 3 Shorts for 2026-08-16 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- algebra-origin ---
+  theme=neon font=sans audio=sounds/norm/bbmw0-wind-open.mp3 privacy=public
+  rendered: out/daily-2026-08-16-algebra-origin.mp4
+  uploaded public: https://youtu.be/hHSVNrx77nY
+
+--- first-website-online ---
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
 
 --- spacebar-most-pressed ---
   theme=ocean font=rounded audio=sounds/norm/bbmw0-ocean-swell.mp3 privacy=public
+  rendered: out/daily-2026-08-16-spacebar-most-pressed.mp4
+  uploaded public: https://youtu.be/ZO2XmDZJtHM
+
+=== Done. 2 rendered, 2 uploaded, 1 skipped, 0 blocked by compliance, 0 failed. ===

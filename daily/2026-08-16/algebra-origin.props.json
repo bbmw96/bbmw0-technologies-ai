@@ -1,0 +1,51 @@
+{
+  "special": false,
+  "themeId": "neon",
+  "fontFamilyId": "sans",
+  "audioUrl": "sounds/norm/bbmw0-wind-open.mp3",
+  "audioVolume": 0.9,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "Wait, what?",
+      "text": "Algebra is named after an Arabic word.",
+      "sub": "Useful, actually.",
+      "durationInFrames": 195,
+      "variant": 2
+    },
+    {
+      "kind": "bigword",
+      "text": "Al-jabr, meaning restoration.",
+      "durationInFrames": 195,
+      "variant": 2
+    },
+    {
+      "kind": "list",
+      "heading": "What's interesting",
+      "items": [
+        "Read more",
+        "Cross-check",
+        "Stay curious"
+      ],
+      "durationInFrames": 195,
+      "variant": 3
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Pause.",
+        "Think.",
+        "Save."
+      ],
+      "durationInFrames": 169,
+      "variant": 3
+    },
+    {
+      "kind": "cta",
+      "headline": "Tell a friend.",
+      "url": "bbmw0-technologies-ai.vercel.app/install",
+      "durationInFrames": 146,
+      "variant": 2
+    }
+  ]
+}

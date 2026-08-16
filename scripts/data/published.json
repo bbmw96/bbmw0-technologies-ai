@@ -61,7 +61,8 @@
     "vertical-format",
     "neural-net-layers",
     "spacebar-most-pressed",
-    "first-website-online"
+    "first-website-online",
+    "algebra-origin"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -957,7 +958,11 @@
       "niche": "productivity",
       "channelId": "yt-bbmw0",
       "special": false,
-      "platform": "youtube"
+      "platform": "youtube",
+      "youtubeId": "ZO2XmDZJtHM",
+      "youtubeUrl": "https://youtu.be/ZO2XmDZJtHM",
+      "uploadedAt": "2026-08-16T21:03:17.846Z",
+      "privacy": "public"
     },
     {
       "id": "first-website-online",
@@ -974,6 +979,23 @@
       "youtubeId": "17908688289459595",
       "youtubeUrl": "https://youtu.be/17908688289459595",
       "uploadedAt": "2026-08-16T20:51:52.210Z",
+      "privacy": "public"
+    },
+    {
+      "id": "algebra-origin",
+      "date": "2026-08-16",
+      "themeId": "neon",
+      "fontFamilyId": "sans",
+      "audioUrl": "sounds/norm/bbmw0-wind-open.mp3",
+      "title": "Algebra is named after an Arabic word. #Shorts",
+      "description": "Pure kinetic typography. No faces, no chatter.\n\nAlgebra is named after an Arabic word. Al-jabr, meaning restoration.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "hHSVNrx77nY",
+      "youtubeUrl": "https://youtu.be/hHSVNrx77nY",
+      "uploadedAt": "2026-08-16T20:58:39.498Z",
       "privacy": "public"
     }
   ]
