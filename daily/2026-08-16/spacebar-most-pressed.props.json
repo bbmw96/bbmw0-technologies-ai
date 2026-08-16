@@ -1,0 +1,51 @@
+{
+  "special": false,
+  "themeId": "ocean",
+  "fontFamilyId": "rounded",
+  "audioUrl": "sounds/norm/bbmw0-ocean-swell.mp3",
+  "audioVolume": 0.9,
+  "beats": [
+    {
+      "kind": "title",
+      "eyebrow": "One minute fact.",
+      "text": "The spacebar is the most-pressed key on any keyboard.",
+      "sub": "Stay with us.",
+      "durationInFrames": 195,
+      "variant": 2
+    },
+    {
+      "kind": "bigword",
+      "text": "Used more than all letters combined.",
+      "durationInFrames": 195,
+      "variant": 2
+    },
+    {
+      "kind": "list",
+      "heading": "How it works",
+      "items": [
+        "Notice",
+        "Reduce",
+        "Repeat"
+      ],
+      "durationInFrames": 195,
+      "variant": 2
+    },
+    {
+      "kind": "trio",
+      "words": [
+        "Read.",
+        "Note.",
+        "Share."
+      ],
+      "durationInFrames": 174,
+      "variant": 1
+    },
+    {
+      "kind": "cta",
+      "headline": "File it away.",
+      "url": "bbmw0-technologies-ai.vercel.app",
+      "durationInFrames": 141,
+      "variant": 2
+    }
+  ]
+}

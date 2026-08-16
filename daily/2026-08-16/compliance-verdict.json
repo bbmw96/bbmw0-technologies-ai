@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-16",
+  "generatedAt": "2026-08-16T20:44:19.817Z",
+  "policyVersion": "1.0.0",
+  "strictMode": false,
+  "allowed": [
+    "spacebar-most-pressed"
+  ],
+  "blocked": [],
+  "results": [
+    {
+      "slug": "spacebar-most-pressed",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "The spacebar is the most-pressed key on any keyboard. #Shorts #facts",
+      "niche": "productivity",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.111,
+        "worstTitleAgainst": "browser-find",
+        "worstDescriptionSimilarity": 0.472,
+        "combo": "ocean|rounded|sounds/norm/bbmw0-ocean-swell.mp3",
+        "themeGap": 47,
+        "audioGap": 10
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    }
+  ]
+}

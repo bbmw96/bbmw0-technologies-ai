@@ -59,7 +59,8 @@
     "paper-folds",
     "shift-select",
     "vertical-format",
-    "neural-net-layers"
+    "neural-net-layers",
+    "spacebar-most-pressed"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -943,6 +944,19 @@
       "youtubeUrl": "https://youtu.be/18482982004098933",
       "uploadedAt": "2026-08-15T21:38:15.362Z",
       "privacy": "public"
+    },
+    {
+      "id": "spacebar-most-pressed",
+      "date": "2026-08-16",
+      "themeId": "ocean",
+      "fontFamilyId": "rounded",
+      "audioUrl": "sounds/norm/bbmw0-ocean-swell.mp3",
+      "title": "The spacebar is the most-pressed key on any keyboard. #Shorts #facts",
+      "description": "Daily Short. Drop a comment if you knew it.\n\nThe spacebar is the most-pressed key on any keyboard. Used more than all letters combined.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app\n\n#Shorts #facts",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
     }
   ]
 }
