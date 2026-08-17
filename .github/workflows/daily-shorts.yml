@@ -284,11 +284,17 @@ jobs:
           # asking for one video a run means the reel path covers it as soon as
           # topics-rich.json has an unused topic for that channel's niches.
           if [ -z "${{ inputs.count }}" ]; then COUNT=1; fi
-          # On the automatic schedule, a researched reel or nothing. A manual
-          # dispatch keeps the padded fallback, so you can still force a run.
-          if [ "${{ github.event_name }}" = "schedule" ]; then
-            ARGS_REELS_ONLY="--reels-only"
-          fi
+          # A researched reel or NOTHING — on every trigger, manual included.
+          #
+          # This used to apply only to the schedule, with manual dispatches
+          # keeping the padded ThemedShort fallback "so you can still force a
+          # run". On 16 Aug 2026 that path shipped the rejected pastel format
+          # to both channels three times in one night: each manual dispatch
+          # found its channel's rich topics used up, fell back, and published
+          # the exact look the composition fix existed to remove. A forced run
+          # of filler is worse than no run. If a dispatch publishes nothing,
+          # the answer is to research topics, not to lower the bar.
+          ARGS_REELS_ONLY="--reels-only"
           ARGS="--count=$COUNT --date=$DATE"
           [ "$SPECIAL" = "true" ] && ARGS="$ARGS --special"
           [ -n "$NICHE" ]   && ARGS="$ARGS --niche=$NICHE"
