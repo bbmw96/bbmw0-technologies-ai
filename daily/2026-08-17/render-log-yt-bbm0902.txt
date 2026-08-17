@@ -1,0 +1,9 @@
+Rendering 1 Shorts for 2026-08-17 (concurrency=3, GL=default)
+Compliance: 1 cleared, 0 blocked (policy v1.0.0).
+
+--- vanilla-albius ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-08-17-vanilla-albius.mp4
+  uploaded public: https://youtu.be/AC9ngHP0Kyw
+
+=== Done. 1 rendered, 1 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (vanilla-albius)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#14100B",
+    "ink": "#F6EFE2",
+    "accent": "#E8C35A",
+    "muted": "#8C8171"
+  },
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Almost every vanilla pod you have eaten",
+      "text": "Was pollinated by hand.",
+      "note": "The orchid has its own bee only in Mexico. Everywhere else someone opens each flower and does it themselves, one at a time.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1841",
+      "name": "Edmond Albius",
+      "role": "Twelve, born into slavery on Réunion and taught horticulture by the man who owned him. He saw the flower's two halves were separated by a flap you could lift.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "His owner did not believe it",
+      "text": "Then more pods appeared.",
+      "note": "Bellier-Beaumont had kept one barren vine alive twenty years. In 1861 he wrote that the boy worked it out himself.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "Others claimed it",
+      "text": "He said he taught the boy.",
+      "note": "Bellier-Beaumont checked the dates: by that account Edmond was eight. Archivists went back over it in 2009 and agreed it was his.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "kicker",
+      "text": "He died in a public hospital with nothing.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "The method has not changed since.",
+      "handle": "@bbm0902",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

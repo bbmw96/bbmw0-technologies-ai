@@ -62,7 +62,8 @@
     "neural-net-layers",
     "spacebar-most-pressed",
     "first-website-online",
-    "algebra-origin"
+    "algebra-origin",
+    "reel:vanilla-albius"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -996,6 +997,23 @@
       "youtubeId": "hHSVNrx77nY",
       "youtubeUrl": "https://youtu.be/hHSVNrx77nY",
       "uploadedAt": "2026-08-16T20:58:39.498Z",
+      "privacy": "public"
+    },
+    {
+      "id": "vanilla-albius",
+      "date": "2026-08-17",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Was pollinated by hand.",
+      "description": "Was pollinated by hand. The orchid has its own bee only in Mexico. Everywhere else someone opens each flower and does it themselves, one at a time.\n\nTwelve, born into slavery on Réunion and taught horticulture by the man who owned him. He saw the flower's two halves were separated by a flap you could lift.\n\nThen more pods appeared. Bellier-Beaumont had kept one barren vine alive twenty years. In 1861 he wrote that the boy worked it out himself.\n\nHe said he taught the boy. Bellier-Beaumont checked the dates: by that account Edmond was eight. Archivists went back over it in 2009 and agreed it was his.\n\nHe died in a public hospital with nothing.\n\nSources:\n- https://www.linnean.org/news/2019/10/16/edmond-albius\n- https://www.europeana.eu/en/stories/edmond-albius\n- https://en.wikipedia.org/wiki/Edmond_Albius\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "food",
+      "channelId": "yt-bbm0902",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "AC9ngHP0Kyw",
+      "youtubeUrl": "https://youtu.be/AC9ngHP0Kyw",
+      "uploadedAt": "2026-08-17T09:40:43.738Z",
       "privacy": "public"
     }
   ]
