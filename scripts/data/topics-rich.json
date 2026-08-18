@@ -630,6 +630,313 @@
           "handle": "@bbm0902"
         }
       ]
+    },
+    {
+      "id": "tetris-gameboy-deal",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://www.nintendolife.com/news/2018/11/henk_rogers_on_his_first_impressions_of_tetris_and_persuading_nintendo_to_bundle_it_with_the_game_boy — Rogers' own account of the Arakawa conversation, given to IGN Japan and quoted in translation: 'If you want little boys to buy your Game Boy, pack in Mario. But if you want everyone to buy your Game Boy, pack in Tetris... And then you can still sell Mario afterwards and make more money!'",
+        "https://en.wikipedia.org/wiki/List_of_best-selling_Game_Boy_video_games — Tetris released in Japan 14 June 1989, frequently bundled with the Game Boy, over 35 million copies shipped worldwide (citing the Telegraph, 2009); Super Mario Land over 18 million sold.",
+        "https://www.historyvshollywood.com/reelfaces/tetris-movie/ — the February 1989 Moscow negotiation with Nikolai Belikov at Elorg for the handheld rights; Rogers there on a tourist visa, quoting his own 2014 Guardian piece ('I was breaking a cardinal rule — trying to do business on a tourist visa'); the USSR, not Pajitnov, owned the rights."
+      ],
+      "verifiedNote": "Checked 17 Aug 2026. The Arakawa exchange is Rogers' own retelling, given in Japanese to IGN Japan and quoted in translation by Nintendo Life — the beat says 'as he tells it' because no second party to the conversation has ever corroborated the wording. 35 million is 'shipped', per Wikipedia's best-selling list citing the Telegraph; looser 'sold' claims circulate and are avoided. The kicker's eighteen million is Super Mario Land's own tally from the same list — it is what makes 'you can still sell Mario afterwards' a pitch that was right twice, and it is why the kicker earns its place. Deliberately not said: that Tetris 'saved' the Game Boy, any figure for what the rights cost, and anything about Pajitnov's royalties — he got nothing until 1996, which is a different video.",
+      "palette": {
+        "bg": "#0F1208",
+        "ink": "#EFF4E4",
+        "accent": "#9BBC0F",
+        "muted": "#7E8873"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The 1989 launch bundle was almost Mario",
+          "text": "Tetris got the box instead.",
+          "note": "Nintendo of America's president saw no reason to pack in anything but his own plumber. A rival publisher talked him out of it."
+        },
+        {
+          "kind": "credit",
+          "year": "1989",
+          "name": "Henk Rogers",
+          "role": "That February he had flown to Moscow on a tourist visa and negotiated the handheld rights out of Elorg, the Soviet agency that owned Tetris. Then he went to see Arakawa about the box."
+        },
+        {
+          "kind": "statement",
+          "lead": "His pitch, as he tells it",
+          "text": "Mario is for little boys.",
+          "note": "'If you want everyone to buy your Game Boy, pack in Tetris — young, old, male, female. And then you can still sell Mario afterwards.'"
+        },
+        {
+          "kind": "figure",
+          "value": "35",
+          "unit": "million",
+          "context": "Copies of Game Boy Tetris shipped worldwide, most of them riding in the box with the console itself."
+        },
+        {
+          "kind": "kicker",
+          "text": "Mario still sold eighteen million. Afterwards."
+        },
+        {
+          "kind": "sign",
+          "line": "The right pack-in sells the machine.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "invaders-coin-myth",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "http://allincolorforaquarter.blogspot.com/2013/11/video-game-myth-busters-space-invaders.html — the Golden Age Arcade Historian's investigation: the shortage story traced back through UPI and the New York Times (November 1980, 'triple its production') to a September 1980 Sydney Morning Herald piece, with no earlier print source found; Paradis of the Bank of Canada's Currency Museum contacted the Bank of Japan (no evidence of a shortage found) and the Japan Mint (production increase 'had nothing to do with Space Invaders'), and cites Nishikado calling the story a wild rumour.",
+        "https://www.academia.edu/2568838/Space_Invaders_targets_coins — Mark Fox, World Coin News, February 2012, the origin of the production table (from the 1995 Krause guide): 440 million 100-yen coins struck in 1977, 292 million in 1978, 382 million in 1979, 588 million in 1980. Figures read as reproduced in full in the blog post above.",
+        "https://en.wikipedia.org/wiki/Space_Invaders — Japan release July 1978, Tomohiro Nishikado sole designer, who also engineered its custom hardware; the speed-up: the processor rendered frames faster as aliens were destroyed, so the survivors accelerated, and Nishikado kept the undocumented behaviour as the game's difficulty mechanism."
+      ],
+      "verifiedNote": "Checked 17 Aug 2026. NO figure beat: the mint numbers only mean anything as a pair — 440 million falling to 292 million — and a lone giant number would assert nothing. Release month is deliberately absent: Wikipedia says July 1978, the numismatic sources say June, so the beats say only the year. Cabinet sales are absent for the same reason (55,000-65,000 US and 200,000-400,000 worldwide ranges do not reconcile). The beats never affirm 'the mint tripled production' even to deny it precisely; what the record supports is that production FELL in the release year, no shortage was ever documented by the Bank of Japan, and the story cannot be traced earlier than September 1980 — more than two years after release. The speed-up accident is the well-documented counterweight: the famous thing about the game that IS true. Nishikado's 'wild rumour' line is secondhand (the Mint's PR office citing an interview, via Paradis, via the blog), so the kicker says 'calls it a rumour' and no more.",
+      "palette": {
+        "bg": "#050807",
+        "ink": "#E8F5EC",
+        "accent": "#35E86B",
+        "muted": "#6E7F74"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Every gaming history repeats it",
+          "text": "Japan never ran out of coins.",
+          "note": "Space Invaders was said to have drained the nation's 100-yen supply until the mint tripled production. The claim has been in print since 1980. Nobody checked it for thirty years."
+        },
+        {
+          "kind": "credit",
+          "year": "1978",
+          "name": "Tomohiro Nishikado",
+          "role": "He designed Space Invaders at Taito and engineered its hardware himself. The craze was real — the coin story grew on top of it, surfacing in foreign papers two years later."
+        },
+        {
+          "kind": "statement",
+          "lead": "Then numismatists checked the mint",
+          "text": "Production fell the year it launched.",
+          "note": "Japan struck 440 million 100-yen coins in 1977 and 292 million in 1978. The Bank of Japan, asked directly, could find no record of a shortage at all."
+        },
+        {
+          "kind": "statement",
+          "lead": "The true accident is better",
+          "text": "The speed-up was a bug.",
+          "note": "Fewer aliens meant the processor drew frames faster, so the survivors accelerated. Nishikado kept it — and the arcade difficulty curve was born as a hardware limit."
+        },
+        {
+          "kind": "kicker",
+          "text": "Even Nishikado calls the coin story a rumour."
+        },
+        {
+          "kind": "sign",
+          "line": "Some legends are only unaudited.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "ai-winter-1973",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lighthill_report — commissioned by the Science Research Council in 1972, published 1973 in 'Artificial Intelligence: a paper symposium'; the verdict quoted verbatim: 'In no part of the field have the discoveries made so far produced the major impact that was then promised'; it 'formed the basis for the decision by the British government to end support for AI research in most British universities' (Russell & Norvig); the 9 May 1973 Royal Institution debate against Michie, McCarthy and Gregory; the combinatorial-explosion argument.",
+        "https://en.wikipedia.org/wiki/AI_winter — the debate was broadcast in the BBC 'Controversy' series under the title 'The general purpose robot is a mirage'; UK AI research continued at only Edinburgh, Essex and Sussex; large-scale funding returned only with Alvey's £350 million in 1983; the term 'AI winter' first appeared at the 1984 AAAI meeting, where Schank and Minsky — by analogy with nuclear winter — warned the business community the 1980s boom would collapse, and 'three years later the billion-dollar AI industry began to collapse.'"
+      ],
+      "verifiedNote": "Checked 17 Aug 2026. NO figure beat. Candidates were 25 (the report's own forecast horizon — a prediction, not a fact), £350 million (Alvey's 1983 war chest — carried in the sign, where it reads as a bill rather than a headline), and 1984 (a date). None deserves 300px. The two Wikipedia pages disagree on who asked for the report — the AI-winter page says the UK Parliament, the Lighthill-report page says the Science Research Council commissioned it in 1972 — and the beats follow the SRC version, which matches the report's own publication. Deliberately not said: that Lighthill caused the American winter (DARPA's 1973-74 cuts had their own politics), any claim about who won the televised debate (no source scores it), and 'ended ALL British AI research' — Edinburgh, Essex and Sussex kept going, and the credit beat says so.",
+      "palette": {
+        "bg": "#0A0E14",
+        "ink": "#EEF3F8",
+        "accent": "#6FB7FF",
+        "muted": "#75828F"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "AI's first collapse had an author",
+          "text": "One report froze the field.",
+          "note": "In 1972 Britain's Science Research Council asked an outsider to survey artificial intelligence. He was a fluid dynamicist, not a computer scientist."
+        },
+        {
+          "kind": "credit",
+          "year": "1973",
+          "name": "James Lighthill",
+          "role": "His survey concluded that in no part of the field had the discoveries produced 'the major impact that was then promised.' British funding collapsed; the work survived at just Edinburgh, Essex and Sussex."
+        },
+        {
+          "kind": "statement",
+          "lead": "The rebuttal was televised",
+          "text": "The general purpose robot is a mirage.",
+          "note": "The BBC staged the debate under that title in its Controversy series: Lighthill versus McCarthy, Michie and Gregory at the Royal Institution, May 1973. The recording still circulates."
+        },
+        {
+          "kind": "statement",
+          "lead": "The name arrived a decade late",
+          "text": "AI winter, after nuclear winter.",
+          "note": "Coined at a 1984 AAAI debate, where Schank and Minsky warned the new boom would collapse the same way. Three years later the billion-dollar AI industry did."
+        },
+        {
+          "kind": "kicker",
+          "text": "The second winter arrived on schedule."
+        },
+        {
+          "kind": "sign",
+          "line": "Britain paid £350 million to restart what one report stopped.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "mouse-demo-1968",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://invention.si.edu/invention-stories/mother-all-demos — Smithsonian Lemelson Center, deeply footnoted: the 9 December 1968 90-minute plenary at the ACM/IEEE Fall Joint Computer Conference, San Francisco; the NLS 30 miles away in Menlo Park, reached over a homemade 2,400-baud modem on a leased phone line with video returned by microwave link; the first mouse invented by Engelbart and BUILT by Bill English in 1964 — wooden shell, two perpendicular wheels, one button; 'no one could remember exactly who first coined the term... it just looked like a mouse with a tail'; Engelbart's recollection of the audience 'standing, cheering like crazy'; the phrase 'mother of all demos' first used by Steven Levy in Insanely Great (1994), p. 42.",
+        "https://cybercultural.com/p/1968-the-mother-of-all-demos/ — Richard MacManus's account, corroborating the date, the ~30-mile Menlo Park link, the wooden mouse with the cord 'like a tail on a mouse', the chord keyset, the on-screen collaboration with Bill Paxton, and Engelbart's own on-stage words: 'I don't know why we call it a mouse... it started that way and we never did change it.'"
+      ],
+      "verifiedNote": "Checked 17 Aug 2026. The figure beat is 30 and it earns the 300px: the demo's whole trick was that the machine was not in the room — live interactive computing carried thirty miles in 1968 — and both sources give the distance. Candidates cut: 90 (minutes — a duration), 2400 (baud — jargon at that size; it lives in the context line), and the audience count (Smithsonian implies the 2,000-seat Brooks Hall, cybercultural says 'hundreds'; they do not agree, so no number appears). The ovation is Engelbart's own recollection from a Wired interview, and the kicker words it as his memory. Deliberately not said: 'Engelbart invented the mouse' unqualified — English built it, and the credit is shared in the beat; also the entire patent-and-royalties saga (the $40,000 Apple licence figure is single-sourced folklore) and any straight line from the demo to the Macintosh.",
+      "palette": {
+        "bg": "#101014",
+        "ink": "#F4F2ED",
+        "accent": "#D9A441",
+        "muted": "#85817A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Your whole desktop, one afternoon",
+          "text": "It was all demoed at once.",
+          "note": "The mouse, windows, hypertext, video calls, live shared editing — shown working together in San Francisco in 1968, before any of it was a product."
+        },
+        {
+          "kind": "credit",
+          "year": "1968",
+          "name": "Douglas Engelbart",
+          "role": "9 December, a 90-minute session at the Fall Joint Computer Conference. He sat alone on stage under the lights, driving a computer the audience could not see."
+        },
+        {
+          "kind": "figure",
+          "value": "30",
+          "unit": "miles",
+          "context": "The computer was in Menlo Park, that far away. A homemade 2,400-baud modem carried his keystrokes; microwave dishes beamed the video back."
+        },
+        {
+          "kind": "statement",
+          "lead": "The pointer already had its name",
+          "text": "The cord looked like a tail.",
+          "note": "Bill English built the first mouse in 1964 from Engelbart's sketches: a wooden shell, two metal wheels, one button. On stage, Engelbart admitted nobody remembered who named it."
+        },
+        {
+          "kind": "kicker",
+          "text": "He remembered the crowd standing, cheering like crazy."
+        },
+        {
+          "kind": "sign",
+          "line": "Steven Levy later gave it a title: the mother of all demos.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "ctrl-alt-del",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://www.mentalfloss.com/article/51674/history-ctrl-alt-delete — the full Bradley account: spring 1981, Boca Raton, the rushed one-year Acorn project; reboots triggering slow memory tests ('Some days, you'd be rebooting every five minutes'); 'it was five minutes, 10 minutes of activity, and then I moved on'; keys chosen by position so all three could not be pressed accidentally; never intended for customers; the 2001 20th-anniversary panel; and the 2013 framing that Gates admitted the login use was a mistake and blamed IBM.",
+        "https://en.wikipedia.org/wiki/David_Bradley_(engineer) — one of the twelve engineers on the original IBM PC, author of its ROM BIOS; the combination meant for developers and technical writers, not end users; keys chosen (with Mel Hallerman) as practically impossible to press by accident; revealed to the public through IBM's own technical reference documentation; the verbatim quote at The Tech Museum, 8 August 2001, on a panel with Gates: 'I have to share the credit. I may have invented it, but I think Bill made it famous.'"
+      ],
+      "verifiedNote": "Checked 17 Aug 2026. NO figure beat. Candidates: 12 (his place on the team — an ordinal), 5 (minutes — a duration, the same trap the standard records for the moth relay), and 500 million (PCs sold by 2001 — true but belongs to a different story). Wikipedia names Mel Hallerman as co-chooser of the keys, so the beat says the keys 'were chosen' rather than crediting Bradley alone. The kicker drops the quote's lead-in ('I have to share the credit') for length — the same edit every press account makes, flagged here so nobody restores it into a beat that cannot hold it. Multiple-key reboots predate IBM (Exidy Sorcerer, 1978), so the beats never say Bradley invented the concept — 'invented' appears only inside his own quoted joke. The Gates 'mistake' line is asserted by Mental Floss directly; the Verge piece it cites was not reachable from here, so the sign claims no more than Mental Floss itself does.",
+      "palette": {
+        "bg": "#0B0F1A",
+        "ink": "#F0F3F7",
+        "accent": "#4D7CFE",
+        "muted": "#7A8394"
+      },
+      "beats": [
+        {
+          "kind": "code",
+          "chars": "Ctrl+Alt+Del",
+          "caption": "The three-finger salute."
+        },
+        {
+          "kind": "statement",
+          "lead": "It was never meant for you",
+          "text": "It was a private developer tool.",
+          "note": "Rebooting IBM's prototype PC meant sitting through memory tests on every restart. The team hunting bugs rebooted every five minutes. One of them got tired of waiting."
+        },
+        {
+          "kind": "credit",
+          "year": "1981",
+          "name": "David Bradley",
+          "role": "The 12th of 12 engineers on the secret PC project in Boca Raton. His instant-reboot shortcut took five or ten minutes, one item on a list of a hundred tasks."
+        },
+        {
+          "kind": "statement",
+          "lead": "Why those three keys",
+          "text": "One hand cannot press them.",
+          "note": "Del sat across the keyboard from Ctrl and Alt, so no accident could trigger it. The public only found out because IBM printed it in the technical manual."
+        },
+        {
+          "kind": "kicker",
+          "text": "I may have invented it, but Bill made it famous."
+        },
+        {
+          "kind": "sign",
+          "line": "In 2013, Gates agreed it was a mistake.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "trojan-room-coffee",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Trojan_Room_coffee_pot — the 1991 setup by Quentin Stafford-Fraser (client, XCoffee) and Paul Jardetzky (server) at Cambridge's Computer Laboratory; 128×128 greyscale camera on an Acorn Archimedes capture card; the purpose (sparing researchers the trip to an empty pot); November 1993, Daniel Gordon and Martyn Johnson put the feed on the web once browsers could show images; switched off 09:54 UTC, 22 August 2001, with front-page coverage in The Times and The Washington Post; the final Krups auctioned on eBay for £3,350 to Der Spiegel, later refurbished pro bono by Krups.",
+        "https://quentinsf.com/coffeepot/ — Stafford-Fraser's own page: he disclaims sole invention ('I certainly didn't do it single-handed'); first press was Bob Metcalfe's 1992 Communications Week column, when it was a networked camera but not yet a webcam; since 2016 the pot sits in the Heinz Nixdorf MuseumsForum in Paderborn with, in his words, a webcam pointing at it."
+      ],
+      "verifiedNote": "Checked 17 Aug 2026. NO figure beat, and £3,350 deliberately stays at note size: FigureBeat leaves roughly 550px of unit space beside a TWO-digit value, so a four-digit 3350 would squeeze 'pounds' into the same clipped-edge failure the _README records for 'photoreceptors'. Other candidates cut: 128 (pixels — a spec, not a fact that carries the story) and 10 (years — a duration). No frame rate is claimed anywhere because neither source commits to one. The often-quoted 2.4 million visitors appears in neither source read here and is left out. The credit beat names both builders because Stafford-Fraser himself corrects the 'lone inventor' framing. The kicker — a webcam now pointed at the retired pot in the Paderborn museum — is from his page, where the live image is embedded.",
+      "palette": {
+        "bg": "#120E0A",
+        "ink": "#F5EFE6",
+        "accent": "#C77B3F",
+        "muted": "#8A7D6E"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The first webcam had one job",
+          "text": "Is there coffee, or not.",
+          "note": "Cambridge's Computer Laboratory had seven floors and one filter machine. In 1991, researchers pointed a camera at it so nobody climbed the stairs to an empty pot."
+        },
+        {
+          "kind": "credit",
+          "year": "1991",
+          "name": "Stafford-Fraser and Jardetzky",
+          "role": "One wrote the client — XCoffee — and the other the server, feeding a 128-by-128 greyscale image of the pot to every desk on the lab network."
+        },
+        {
+          "kind": "statement",
+          "lead": "November 1993",
+          "text": "The pot joined the web.",
+          "note": "Browsers had just learned to display images. Daniel Gordon and Martyn Johnson put the feed on a page, and the lab's coffee became visible worldwide."
+        },
+        {
+          "kind": "statement",
+          "lead": "22 August 2001, 09:54",
+          "text": "They switched it off.",
+          "note": "The shutdown made the front pages of The Times and The Washington Post. The last pot went to eBay, where Der Spiegel paid £3,350 for it."
+        },
+        {
+          "kind": "kicker",
+          "text": "A webcam now points at it, in a museum."
+        },
+        {
+          "kind": "sign",
+          "line": "Ten years pointed at a coffee pot.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }

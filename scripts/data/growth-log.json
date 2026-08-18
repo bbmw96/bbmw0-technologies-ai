@@ -1,0 +1,39 @@
+{
+  "_comment": "Weekly subscriber and view snapshot per channel. Trend matters more than level: the numbers here are small enough that any single figure is noise, so the point of this file is the shape over weeks. Monetisation for new creators needs 1,000 subscribers and 20,000,000 Shorts views in 90 days (~220k views/day), which no amount of extra thin uploads reaches — the file exists to show whether quality-led publishing moves it at all. publicVideos falls as the cleanup retires the back catalogue; that is intended and is not a loss of reach. Instagram is not covered: the Composio Instagram connection publishes but the account is not exposed for insights reads here.",
+  "target": {
+    "subscribers": 1000000,
+    "monetisationGate": "1,000 subs + 20M Shorts views / 90 days"
+  },
+  "snapshots": [
+    {
+      "date": "2026-08-18",
+      "week": "2026-W34",
+      "source": "Composio YOUTUBE_GET_CHANNEL_STATISTICS",
+      "channels": {
+        "yt-bbmw0": {
+          "handle": "@bbmw.0",
+          "channelId": "UCSRkqZ0PckW8ae-cnZcN1hw",
+          "subscribers": 0,
+          "views": 664,
+          "publicVideos": 72,
+          "reelsLive": 0
+        },
+        "yt-bbm0902": {
+          "handle": "@bbm0902",
+          "channelId": "UC5O9s1vte7UiLICKP1pHiIQ",
+          "subscribers": 1,
+          "views": 161,
+          "publicVideos": 15,
+          "reelsLive": 1
+        }
+      },
+      "totals": {
+        "subscribers": 1,
+        "views": 825,
+        "publicVideos": 87,
+        "reelsLive": 1
+      },
+      "note": "First snapshot — no trend yet. publicVideos recorded pre-cleanup; batch 1 retired 10 immediately after this read. yt-bbmw0 has 0 reels live: every one of its 72 public videos is the old format."
+    }
+  ]
+}
