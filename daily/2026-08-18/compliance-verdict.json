@@ -9,7 +9,8 @@
     "mouse-demo-1968",
     "trojan-room-coffee",
     "ten-thousand-hours",
-    "year-without-summer"
+    "year-without-summer",
+    "ai-winter-1973"
   ],
   "results": [
     {
@@ -293,6 +294,59 @@
         "worstTitleSimilarity": 0.091,
         "worstTitleAgainst": "git-snapshot",
         "worstDescriptionSimilarity": 0.22,
+        "combo": "undefined|undefined|",
+        "themeGap": 30,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "ai-winter-1973",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "BLOCK",
+      "title": "One report froze the field.",
+      "niche": "ai",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "repetition.combo_batch",
+          "message": "Same theme/font/audio as \"ctrl-alt-del\" in this batch.",
+          "detail": {
+            "combo": "undefined|undefined|"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.167,
+        "worstTitleAgainst": "konami-code",
+        "worstDescriptionSimilarity": 0.222,
         "combo": "undefined|undefined|",
         "themeGap": 30,
         "audioGap": 0

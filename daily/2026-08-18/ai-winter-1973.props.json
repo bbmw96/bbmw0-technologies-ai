@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (ai-winter-1973)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0E14",
+    "ink": "#EEF3F8",
+    "accent": "#6FB7FF",
+    "muted": "#75828F"
+  },
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "AI's first collapse had an author",
+      "text": "One report froze the field.",
+      "note": "In 1972 Britain's Science Research Council asked an outsider to survey artificial intelligence. He was a fluid dynamicist, not a computer scientist.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1973",
+      "name": "James Lighthill",
+      "role": "His survey concluded that in no part of the field had the discoveries produced 'the major impact that was then promised.' British funding collapsed; the work survived at just Edinburgh, Essex and Sussex.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The rebuttal was televised",
+      "text": "The general purpose robot is a mirage.",
+      "note": "The BBC staged the debate under that title in its Controversy series: Lighthill versus McCarthy, Michie and Gregory at the Royal Institution, May 1973. The recording still circulates.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The name arrived a decade late",
+      "text": "AI winter, after nuclear winter.",
+      "note": "Coined at a 1984 AAAI debate, where Schank and Minsky warned the new boom would collapse the same way. Three years later the billion-dollar AI industry did.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The second winter arrived on schedule.",
+      "durationInFrames": 60
+    },
+    {
+      "kind": "sign",
+      "line": "Britain paid £350 million to restart what one report stopped.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 106
+    }
+  ],
+  "cta": "Follow for more."
+}
