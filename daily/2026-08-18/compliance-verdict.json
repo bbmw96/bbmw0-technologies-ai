@@ -1,0 +1,179 @@
+{
+  "date": "2026-08-18",
+  "generatedAt": "2026-08-18T16:57:52.266Z",
+  "policyVersion": "1.0.0",
+  "strictMode": false,
+  "allowed": [],
+  "blocked": [
+    "ctrl-alt-del",
+    "mouse-demo-1968",
+    "trojan-room-coffee"
+  ],
+  "results": [
+    {
+      "slug": "ctrl-alt-del",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "The three-finger salute.",
+      "niche": "tech",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "repetition.combo_batch",
+          "message": "Same theme/font/audio as \"mouse-demo-1968\" in this batch.",
+          "detail": {
+            "combo": "undefined|undefined|"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.071,
+        "worstTitleAgainst": "parrot-age",
+        "worstDescriptionSimilarity": 0.217,
+        "combo": "undefined|undefined|",
+        "themeGap": 30,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "mouse-demo-1968",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "It was all demoed at once.",
+      "niche": "history",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "repetition.combo_batch",
+          "message": "Same theme/font/audio as \"ctrl-alt-del\" in this batch.",
+          "detail": {
+            "combo": "undefined|undefined|"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.2,
+        "worstTitleAgainst": "qwerty-not-slow",
+        "worstDescriptionSimilarity": 0.224,
+        "combo": "undefined|undefined|",
+        "themeGap": 30,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "trojan-room-coffee",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "Is there coffee, or not.",
+      "niche": "tech",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "repetition.combo_batch",
+          "message": "Same theme/font/audio as \"ctrl-alt-del\" in this batch.",
+          "detail": {
+            "combo": "undefined|undefined|"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.059,
+        "worstTitleAgainst": "vertical-format",
+        "worstDescriptionSimilarity": 0.23,
+        "combo": "undefined|undefined|",
+        "themeGap": 30,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    }
+  ]
+}

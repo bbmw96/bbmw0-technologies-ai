@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (mouse-demo-1968)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#101014",
+    "ink": "#F4F2ED",
+    "accent": "#D9A441",
+    "muted": "#85817A"
+  },
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Your whole desktop, one afternoon",
+      "text": "It was all demoed at once.",
+      "note": "The mouse, windows, hypertext, video calls, live shared editing — shown working together in San Francisco in 1968, before any of it was a product.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1968",
+      "name": "Douglas Engelbart",
+      "role": "9 December, a 90-minute session at the Fall Joint Computer Conference. He sat alone on stage under the lights, driving a computer the audience could not see.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "figure",
+      "value": "30",
+      "unit": "miles",
+      "context": "The computer was in Menlo Park, that far away. A homemade 2,400-baud modem carried his keystrokes; microwave dishes beamed the video back.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "statement",
+      "lead": "The pointer already had its name",
+      "text": "The cord looked like a tail.",
+      "note": "Bill English built the first mouse in 1964 from Engelbart's sketches: a wooden shell, two metal wheels, one button. On stage, Engelbart admitted nobody remembered who named it.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "He remembered the crowd standing, cheering like crazy.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Steven Levy later gave it a title: the mother of all demos.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 118
+    }
+  ],
+  "cta": "Subscribe for more."
+}

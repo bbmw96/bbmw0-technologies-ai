@@ -1,0 +1,25 @@
+{
+  "slug": "mouse-demo-1968",
+  "date": "2026-08-18",
+  "title": "It was all demoed at once.",
+  "description": "It was all demoed at once. The mouse, windows, hypertext, video calls, live shared editing, shown working together in San Francisco in 1968, before any of it was a product.\n\n9 December, a 90-minute session at the Fall Joint Computer Conference. He sat alone on stage under the lights, driving a computer the audience could not see.\n\nThe computer was in Menlo Park, that far away. A homemade 2,400-baud modem carried his keystrokes; microwave dishes beamed the video back.\n\nThe cord looked like a tail. Bill English built the first mouse in 1964 from Engelbart's sketches: a wooden shell, two metal wheels, one button. On stage, Engelbart admitted nobody remembered who named it.\n\nHe remembered the crowd standing, cheering like crazy.\n\nSources:\n- https://invention.si.edu/invention-stories/mother-all-demos\n- https://cybercultural.com/p/1968-the-mother-of-all-demos/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "history",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-08-18-mouse-demo-1968.mp4",
+  "propsFile": "daily/2026-08-18/mouse-demo-1968.props.json",
+  "durationInFrames": 996,
+  "audioUrl": "",
+  "niche": "history",
+  "composition": "Reel"
+}

@@ -63,7 +63,10 @@
     "spacebar-most-pressed",
     "first-website-online",
     "algebra-origin",
-    "reel:vanilla-albius"
+    "reel:vanilla-albius",
+    "reel:ctrl-alt-del",
+    "reel:trojan-room-coffee",
+    "reel:mouse-demo-1968"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -1015,6 +1018,45 @@
       "youtubeUrl": "https://youtu.be/AC9ngHP0Kyw",
       "uploadedAt": "2026-08-17T09:40:43.738Z",
       "privacy": "public"
+    },
+    {
+      "id": "ctrl-alt-del",
+      "date": "2026-08-18",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The three-finger salute.",
+      "description": "The three-finger salute.\n\nIt was a private developer tool. Rebooting IBM's prototype PC meant sitting through memory tests on every restart. The team hunting bugs rebooted every five minutes. One of them got tired of waiting.\n\nThe 12th of 12 engineers on the secret PC project in Boca Raton. His instant-reboot shortcut took five or ten minutes, one item on a list of a hundred tasks.\n\nOne hand cannot press them. Del sat across the keyboard from Ctrl and Alt, so no accident could trigger it. The public only found out because IBM printed it in the technical manual.\n\nI may have invented it, but Bill made it famous.\n\nSources:\n- https://www.mentalfloss.com/article/51674/history-ctrl-alt-delete\n- https://en.wikipedia.org/wiki/David_Bradley_(engineer)\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "trojan-room-coffee",
+      "date": "2026-08-18",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Is there coffee, or not.",
+      "description": "Is there coffee, or not. Cambridge's Computer Laboratory had seven floors and one filter machine. In 1991, researchers pointed a camera at it so nobody climbed the stairs to an empty pot.\n\nOne wrote the client, XCoffee, and the other the server, feeding a 128-by-128 greyscale image of the pot to every desk on the lab network.\n\nThe pot joined the web. Browsers had just learned to display images. Daniel Gordon and Martyn Johnson put the feed on a page, and the lab's coffee became visible worldwide.\n\nThey switched it off. The shutdown made the front pages of The Times and The Washington Post. The last pot went to eBay, where Der Spiegel paid £3,350 for it.\n\nA webcam now points at it, in a museum.\n\nSources:\n- https://en.wikipedia.org/wiki/Trojan_Room_coffee_pot\n- https://quentinsf.com/coffeepot/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "mouse-demo-1968",
+      "date": "2026-08-18",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It was all demoed at once.",
+      "description": "It was all demoed at once. The mouse, windows, hypertext, video calls, live shared editing, shown working together in San Francisco in 1968, before any of it was a product.\n\n9 December, a 90-minute session at the Fall Joint Computer Conference. He sat alone on stage under the lights, driving a computer the audience could not see.\n\nThe computer was in Menlo Park, that far away. A homemade 2,400-baud modem carried his keystrokes; microwave dishes beamed the video back.\n\nThe cord looked like a tail. Bill English built the first mouse in 1964 from Engelbart's sketches: a wooden shell, two metal wheels, one button. On stage, Engelbart admitted nobody remembered who named it.\n\nHe remembered the crowd standing, cheering like crazy.\n\nSources:\n- https://invention.si.edu/invention-stories/mother-all-demos\n- https://cybercultural.com/p/1968-the-mother-of-all-demos/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
     }
   ]
 }

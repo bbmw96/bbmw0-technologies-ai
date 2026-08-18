@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (trojan-room-coffee)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#120E0A",
+    "ink": "#F5EFE6",
+    "accent": "#C77B3F",
+    "muted": "#8A7D6E"
+  },
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The first webcam had one job",
+      "text": "Is there coffee, or not.",
+      "note": "Cambridge's Computer Laboratory had seven floors and one filter machine. In 1991, researchers pointed a camera at it so nobody climbed the stairs to an empty pot.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1991",
+      "name": "Stafford-Fraser and Jardetzky",
+      "role": "One wrote the client — XCoffee — and the other the server, feeding a 128-by-128 greyscale image of the pot to every desk on the lab network.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "lead": "November 1993",
+      "text": "The pot joined the web.",
+      "note": "Browsers had just learned to display images. Daniel Gordon and Martyn Johnson put the feed on a page, and the lab's coffee became visible worldwide.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "22 August 2001, 09:54",
+      "text": "They switched it off.",
+      "note": "The shutdown made the front pages of The Times and The Washington Post. The last pot went to eBay, where Der Spiegel paid £3,350 for it.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "A webcam now points at it, in a museum.",
+      "durationInFrames": 76
+    },
+    {
+      "kind": "sign",
+      "line": "Ten years pointed at a coffee pot.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

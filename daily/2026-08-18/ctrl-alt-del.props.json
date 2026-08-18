@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (ctrl-alt-del)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0F1A",
+    "ink": "#F0F3F7",
+    "accent": "#4D7CFE",
+    "muted": "#7A8394"
+  },
+  "beats": [
+    {
+      "kind": "code",
+      "chars": "Ctrl+Alt+Del",
+      "caption": "The three-finger salute.",
+      "durationInFrames": 104
+    },
+    {
+      "kind": "statement",
+      "lead": "It was never meant for you",
+      "text": "It was a private developer tool.",
+      "note": "Rebooting IBM's prototype PC meant sitting through memory tests on every restart. The team hunting bugs rebooted every five minutes. One of them got tired of waiting.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1981",
+      "name": "David Bradley",
+      "role": "The 12th of 12 engineers on the secret PC project in Boca Raton. His instant-reboot shortcut took five or ten minutes, one item on a list of a hundred tasks.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Why those three keys",
+      "text": "One hand cannot press them.",
+      "note": "Del sat across the keyboard from Ctrl and Alt, so no accident could trigger it. The public only found out because IBM printed it in the technical manual.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "I may have invented it, but Bill made it famous.",
+      "durationInFrames": 82
+    },
+    {
+      "kind": "sign",
+      "line": "In 2013, Gates agreed it was a mistake.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
