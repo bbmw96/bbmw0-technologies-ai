@@ -13,6 +13,13 @@
     "remaining": 4,
     "note": "Pastel format, no invented figure. Queued behind Class A."
   },
+  "classC": {
+    "total": 53,
+    "retired": 9,
+    "remaining": 44,
+    "note": "Duplicate re-uploads of the same fact (a distinct mass-production axis from A/B: the same claim posted 2-5 times). 53 duplicate extra copies detected across yt-bbmw0; the oldest instance of each fact is kept, newer copies retired. Includes the 'Flexbox replaced 90% of CSS layout hacks' group, which is ALSO an invented figure (the 90% is fabricated) and would qualify as Class A on the false-statistic test — retired first within this class for that reason."
+  },
+  "_runCaveat": "Batch 2 (2026-08-18T17:10Z) was a SAME-DAY SECOND director pass — cleanup-log.json is OneDrive cloud-only and was invisible to the Linux sandbox at the start of this run, so the earlier 16:45Z pass was not seen until git HEAD was read on the Windows side. Batch 2's 10 unlist calls were already issued (all reversible) before that reconciliation; they targeted the duplicate/fabricated-% class C, not the enumerated Class A set, so no A/B counts are affected. One video (rqyKMfB2BBM) overlapped batch 1 and was already unlisted — a harmless no-op, not re-listed here. Next scheduled pass should resume Class A (17 remaining) at the ~10/week cadence and NOT run a second batch the same day.",
   "batches": [
     {
       "ranAt": "2026-08-18T16:45:00Z",
@@ -27,6 +34,20 @@
       "failed": 0,
       "verifiedBy": "YOUTUBE_GET_VIDEO_DETAILS_BATCH re-read: all 10 report privacyStatus=unlisted",
       "note": "Channel videoCount statistic lagged (72->71, 15->14) at read time; YouTube caches that counter. Per-video status is authoritative and was confirmed for all ten."
+    },
+    {
+      "ranAt": "2026-08-18T17:10:00Z",
+      "week": "2026-W34",
+      "channelsTouched": [
+        "yt-bbmw0"
+      ],
+      "defectClass": "C",
+      "attempted": 10,
+      "succeeded": 10,
+      "failed": 0,
+      "newlyRetired": 9,
+      "verifiedBy": "YOUTUBE_UPDATE_VIDEO responses: all 10 report privacyStatus=unlisted",
+      "note": "Same-day second pass (see _runCaveat). Targeted duplicate re-uploads keeping the oldest canonical copy of each fact, plus all 4 copies of the fabricated 'Flexbox 90%' claim. 10 calls issued; rqyKMfB2BBM was already unlisted in batch 1 (no-op), so 9 videos newly retired."
     }
   ],
   "unlisted": [
@@ -129,6 +150,96 @@
       "defectClass": "A",
       "unlistedAt": "2026-08-18T16:45:00Z",
       "url": "https://youtu.be/rnyQzW5FI34"
+    },
+    {
+      "id": "WB8x3_4KOJk",
+      "channel": "yt-bbmw0",
+      "title": "Flexbox replaced 90% of CSS layout hacks. #Shorts #learn",
+      "publishedAt": "2026-08-10",
+      "defectClass": "C",
+      "reason": "fabricated figure (90%) + duplicate (4 copies of this claim)",
+      "unlistedAt": "2026-08-18T17:10:00Z",
+      "url": "https://youtu.be/WB8x3_4KOJk"
+    },
+    {
+      "id": "PddnptLJbsw",
+      "channel": "yt-bbmw0",
+      "title": "Flexbox replaced 90% of CSS layout hacks. #Shorts #didyouknow",
+      "publishedAt": "2026-07-28",
+      "defectClass": "C",
+      "reason": "fabricated figure (90%) + duplicate",
+      "unlistedAt": "2026-08-18T17:10:00Z",
+      "url": "https://youtu.be/PddnptLJbsw"
+    },
+    {
+      "id": "isIfx8ieLVk",
+      "channel": "yt-bbmw0",
+      "title": "Flexbox replaced 90% of CSS layout hacks. #Shorts #facts",
+      "publishedAt": "2026-05-04",
+      "defectClass": "C",
+      "reason": "fabricated figure (90%) + duplicate",
+      "unlistedAt": "2026-08-18T17:10:00Z",
+      "url": "https://youtu.be/isIfx8ieLVk"
+    },
+    {
+      "id": "OjlcVNMTQHI",
+      "channel": "yt-bbmw0",
+      "title": "Flexbox replaced 90% of CSS layout hacks. #Shorts #facts",
+      "publishedAt": "2026-05-03",
+      "defectClass": "C",
+      "reason": "fabricated figure (90%) + duplicate",
+      "unlistedAt": "2026-08-18T17:10:00Z",
+      "url": "https://youtu.be/OjlcVNMTQHI"
+    },
+    {
+      "id": "KiTfNveKCv0",
+      "channel": "yt-bbmw0",
+      "title": "Shift-click selects a range. #Shorts #didyouknow",
+      "publishedAt": "2026-08-15",
+      "defectClass": "C",
+      "reason": "duplicate (5 copies; kept oldest JFtlzf9-_dU)",
+      "unlistedAt": "2026-08-18T17:10:00Z",
+      "url": "https://youtu.be/KiTfNveKCv0"
+    },
+    {
+      "id": "zybhrX_LHYc",
+      "channel": "yt-bbmw0",
+      "title": "Shift-click selects a range. #Shorts",
+      "publishedAt": "2026-08-01",
+      "defectClass": "C",
+      "reason": "duplicate (5 copies; kept oldest JFtlzf9-_dU)",
+      "unlistedAt": "2026-08-18T17:10:00Z",
+      "url": "https://youtu.be/zybhrX_LHYc"
+    },
+    {
+      "id": "IQIY1dgnhpQ",
+      "channel": "yt-bbmw0",
+      "title": "Some years have a leap second. #Shorts #quickfact",
+      "publishedAt": "2026-08-01",
+      "defectClass": "C",
+      "reason": "duplicate (5 copies; kept oldest YRPsP_rAaaQ; rqyKMfB2BBM retired in batch 1)",
+      "unlistedAt": "2026-08-18T17:10:00Z",
+      "url": "https://youtu.be/IQIY1dgnhpQ"
+    },
+    {
+      "id": "zHINM67VIbU",
+      "channel": "yt-bbmw0",
+      "title": "Every tongue print is unique. #Shorts #quickfact",
+      "publishedAt": "2026-05-08",
+      "defectClass": "C",
+      "reason": "duplicate (4 copies; kept oldest O69yAiO7HZA)",
+      "unlistedAt": "2026-08-18T17:10:00Z",
+      "url": "https://youtu.be/zHINM67VIbU"
+    },
+    {
+      "id": "OfV4ZrJvCGU",
+      "channel": "yt-bbmw0",
+      "title": "Every tongue print is unique. #Shorts #quickfact",
+      "publishedAt": "2026-05-06",
+      "defectClass": "C",
+      "reason": "duplicate (4 copies; kept oldest O69yAiO7HZA)",
+      "unlistedAt": "2026-08-18T17:10:00Z",
+      "url": "https://youtu.be/OfV4ZrJvCGU"
     }
   ]
 }

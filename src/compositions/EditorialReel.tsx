@@ -444,6 +444,7 @@ export const EditorialReel: React.FC<ReelProps> = ({
   cta = "Subscribe for more.",
 }) => {
   const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
   const bedVolume = voiceUrl ? audioVolume * BED_DUCK : audioVolume;
   // Start frame of each beat, computed once so the pips and the sequences
   // agree. Deriving them twice is how a progress indicator drifts out of
@@ -451,6 +452,26 @@ export const EditorialReel: React.FC<ReelProps> = ({
   const starts: number[] = [];
   beats.reduce((acc, b) => { starts.push(acc); return acc + b.durationInFrames; }, 0);
   let cursor = 0;
+
+  // Opening pattern interrupt (added 18 Aug 2026, per VISUAL-DIRECTION-BRIEF).
+  //
+  // The research is blunt about this: 50-60% of drop-off happens in the first
+  // three seconds, and a pattern interrupt inside the first 5s adds ~23%
+  // retention over a static-ish open. Beat 1 already had the shell's own
+  // 7-frame bg wipe, but that is the SAME move every beat makes, so the video
+  // opens on nothing the eye reads as an event.
+  //
+  // This is a full-frame ACCENT flash that snaps away: the whole screen is the
+  // reel's accent for ~2 frames, then scales up and wipes off the top over the
+  // next handful, revealing beat 1 underneath. A colour flip plus a scale snap,
+  // which is exactly the two mechanisms the brief names. Bounded hard to the
+  // first ~9 frames — by openDone it is a no-op, so nothing past frame 9 in any
+  // reel changes. Rendered and checked at frames 0/3/6/12 before commit; a
+  // still is enough here because this is a colour/scale state, not a loop seam.
+  const openSpring = spring({ frame, fps, config: { damping: 16, stiffness: 240, mass: 0.5 } });
+  const openFade = interpolate(frame, [0, 2, 8], [1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const openLift = interpolate(openSpring, [0, 1], [0, -104], { extrapolateRight: "clamp" });
+  const openScale = interpolate(openSpring, [0, 1], [1.12, 1], { extrapolateRight: "clamp" });
   return (
     <AbsoluteFill style={{ background: palette.bg }}>
       {audioUrl ? <Audio src={staticFile(audioUrl)} volume={bedVolume} /> : null}
@@ -487,6 +508,23 @@ export const EditorialReel: React.FC<ReelProps> = ({
           );
         })}
       </div>
+
+      {/* Opening flash-snap. Sits topmost so it covers beat 1 for the first
+          couple of frames, then scales up and lifts off the top edge, gone by
+          frame ~8. openFade drops it to fully transparent regardless, so it can
+          never linger. pointerEvents none — it is pure surface. */}
+      {openFade > 0 ? (
+        <AbsoluteFill
+          aria-hidden
+          style={{
+            background: palette.accent,
+            opacity: openFade,
+            transform: `translateY(${openLift}%) scale(${openScale})`,
+            transformOrigin: "50% 50%",
+            pointerEvents: "none",
+          }}
+        />
+      ) : null}
     </AbsoluteFill>
   );
 };
