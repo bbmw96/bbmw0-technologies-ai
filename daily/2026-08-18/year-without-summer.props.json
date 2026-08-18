@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (year-without-summer)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0C1014",
+    "ink": "#EDF1F4",
+    "accent": "#8FB8D8",
+    "muted": "#75808A"
+  },
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "In 1816 the summer did not arrive",
+      "text": "It snowed in June.",
+      "note": "May frost killed the crops across New England. June snow fell on Albany. In July there was still ice on Pennsylvania rivers.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1815",
+      "name": "Mount Tambora",
+      "role": "An Indonesian volcano had erupted the year before and put enough into the stratosphere to shade the planet. Nobody in New England made the connection.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "statement",
+      "lead": "That June on Lake Geneva",
+      "text": "It rained for days.",
+      "note": "Byron, the Shelleys and Polidori were shut inside a rented villa. To fill the evenings they each agreed to write a ghost story.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "Mary Shelley, writing in 1831",
+      "text": "A wet, ungenial summer.",
+      "note": "Her words: incessant rain often confined us for days to the house. She was eighteen. What she started that week was Frankenstein.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "kicker",
+      "text": "Nobody in that room knew why.",
+      "durationInFrames": 60
+    },
+    {
+      "kind": "sign",
+      "line": "They called it eighteen hundred and froze to death.",
+      "handle": "@bbm0902",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}

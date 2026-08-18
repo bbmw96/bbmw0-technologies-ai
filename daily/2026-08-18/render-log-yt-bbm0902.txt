@@ -1,0 +1,25 @@
+Rendering 4 Shorts for 2026-08-18 (concurrency=3, GL=default)
+Compliance: 0 cleared, 4 blocked (policy v1.0.0).
+Blocked by compliance: ctrl-alt-del, mouse-demo-1968, trojan-room-coffee, year-without-summer
+
+--- ctrl-alt-del ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-08-18-ctrl-alt-del.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-08-18/compliance-verdict.json.
+
+--- mouse-demo-1968 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-08-18-mouse-demo-1968.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-08-18/compliance-verdict.json.
+
+--- trojan-room-coffee ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-08-18-trojan-room-coffee.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-08-18/compliance-verdict.json.
+
+--- year-without-summer ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-08-18-year-without-summer.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-08-18/compliance-verdict.json.
+
+=== Done. 4 rendered, 0 uploaded, 0 skipped, 4 blocked by compliance, 0 failed. ===

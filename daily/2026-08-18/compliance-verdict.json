@@ -8,7 +8,8 @@
     "ctrl-alt-del",
     "mouse-demo-1968",
     "trojan-room-coffee",
-    "ten-thousand-hours"
+    "ten-thousand-hours",
+    "year-without-summer"
   ],
   "results": [
     {
@@ -228,6 +229,70 @@
         "worstTitleSimilarity": 0.167,
         "worstTitleAgainst": "konami-code",
         "worstDescriptionSimilarity": 0.213,
+        "combo": "undefined|undefined|",
+        "themeGap": 30,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "year-without-summer",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "It snowed in June.",
+      "niche": "weather",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "repetition.combo_batch",
+          "message": "Same theme/font/audio as \"ctrl-alt-del\" in this batch.",
+          "detail": {
+            "combo": "undefined|undefined|"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "safety.context_review",
+          "message": "Context-sensitive term(s) present: killed, death. Legitimate in educational science and history, referred to the AI safety reviewer.",
+          "detail": {
+            "terms": [
+              "killed",
+              "death"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.091,
+        "worstTitleAgainst": "git-snapshot",
+        "worstDescriptionSimilarity": 0.22,
         "combo": "undefined|undefined|",
         "themeGap": 30,
         "audioGap": 0
