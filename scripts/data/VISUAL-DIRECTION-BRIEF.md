@@ -1,34 +1,45 @@
-# NEXT SESSION — DO THIS FIRST, BEFORE ANYTHING ELSE
+# NEXT SESSION — START HERE
 
-Not "attempt". Do it, finish it, and look at the result. The user has asked
-for this across several sessions and it has been deferred every time. Deferring
-again is the wrong answer.
+## RESOLVED 18 Aug 2026 — the "palette override bug" does not exist
 
-**THE BUG (found 15 Aug, not yet fixed):** the palettes in topics-rich.json are
-already near-black and high-contrast — `bg: #0B0B0F`, `ink: #F5F5F0`,
-`accent: #FF3D2E`. But published videos render as pale pink and lilac blur.
-**Something in the composition's background layer stack is overriding a palette
-that was correct all along.** Suspect the grain (feTurbulence) and the 3-plane
-Drift added in commit 5c00a1a — likely an opacity, a blend mode, or a gradient
-fill using the wrong colour token.
+It was chased across several sessions on the strength of contact sheets. This
+session did the thing every prior one skipped: **rendered the reel and looked
+at the frames.**
 
-This is a BUG, not a taste problem. Do not redesign anything until it is found.
+- `npx remotion still src/compositions/registry.tsx Reel --props=daily/reels/atari-landfill.props.json --frame=40` → **saturated orange field, black type, filling the frame.** Correct: that beat is a `statement`, whose field is `p.accent` (#E4572E) by design.
+- Same reel, `--frame=320` (a `credit` beat, field `p.bg` #100B08) → **near-black field, cream type, orange accent rule.** Exactly the palette.
 
-### The sequence — all four steps, no stopping early
+No pale pink. No lilac. No blur anywhere. `palette.bg` reaches the screen
+unaltered on both the accent-field beats and the near-black-field beats. The
+Grain and Drift layers from 5c00a1a are doing their job and overriding nothing.
 
-1. **Read the whole of `src/compositions/EditorialReel.tsx`.** All of it. It is
-   large; budget for that. The cause is in there.
-2. **Fix the override.** The rendered background must actually be `p.bg`.
-3. **RENDER IT:**
-   `npx remotion render src/compositions/registry.tsx Reel --props=daily/reels/<id>.props.json out/test.mp4`
-4. **WATCH IT.** Extract frames and Read them, or use the `/watch` skill on the
-   local file. Do not judge it from code. Do not report it fixed without
-   having looked at the output.
+**Where the pink/lilac actually came from:** the *legacy ThemedShort*
+composition — the old radial-glow format with pastel `themeId`s (lavender,
+glacier, sunset). That is a different component, and the pipeline no longer
+emits it: every trigger passes `--reels-only` (commit 5ef7867, 16 Aug), so a
+channel ships a researched reel or nothing. The phantom is closed at the
+source. **Do not reopen EditorialReel.tsx looking for a colour bug — there
+isn't one. Rendered proof is in `out/reel-check-f40.png` and `f320.png`.**
 
-Every failure in this project came from skipping step 4. The audio was
-"mastered" without listening — it was static. Runs were reported "success"
-while the videos looked identical to the ones the user had rejected. A green
-workflow is not a good video.
+The render pipeline works from Desktop Commander on Windows (the Linux sandbox
+can't — its node_modules carry Windows-only native binaries via OneDrive). Use
+that path to WATCH every future change. That instinct — render, look, then
+believe — is the one worth keeping.
+
+## THE REAL NEXT ITEM — the loop + the first-5s pattern interrupt
+
+Now that the format is confirmed sound, this is the highest-value visual work,
+and both halves are free (no credits, no assets). Full spec is under
+"The highest-value change, and it is free" below. In short:
+
+1. **Make the reel loop.** Resolve the `sign` beat back into the opening beat —
+   same palette, same composition — so the replay is invisible and counts as
+   watch time. Faceless video has no scene-change cue, so the seam hides.
+2. **Give beat 1 a harder pattern interrupt in the first 5s** — a colour flip
+   or scale snap, not just the 7-frame entry wipe it has now.
+
+Both are motion changes. **Render and WATCH before committing** — a still
+cannot tell you whether a loop seam is invisible. That is not optional here.
 
 ### Only then
 
@@ -235,8 +246,11 @@ loop. That is where the retention wins listed above live anyway.
 This is a *quality* project. It is not the binding constraint. Those are, in
 order:
 
-1. ~82 published videos still assert randomly-generated statistics. Unlist them.
-2. The topic library — 9 verified topics against 6 videos a week.
+1. Pre-reel videos that assert randomly-generated statistics. Being unlisted
+   progressively: as of 18 Aug, 10 of 27 Class-A (invented-number) videos are
+   unlisted, 17 to go, plus 4 Class-B (pastel, no false number). Tracked in
+   `scripts/data/cleanup-log.json`; ~10/week via `scripts/youtube-cleanup.mjs`.
+2. The topic library — verified rich topics against ~6 videos a week.
 3. This.
 
 A beautiful format with nothing true to say, or with false numbers still live
