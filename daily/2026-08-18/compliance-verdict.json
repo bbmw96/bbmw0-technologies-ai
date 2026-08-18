@@ -7,7 +7,8 @@
   "blocked": [
     "ctrl-alt-del",
     "mouse-demo-1968",
-    "trojan-room-coffee"
+    "trojan-room-coffee",
+    "ten-thousand-hours"
   ],
   "results": [
     {
@@ -164,6 +165,69 @@
         "worstTitleSimilarity": 0.059,
         "worstTitleAgainst": "vertical-format",
         "worstDescriptionSimilarity": 0.23,
+        "combo": "undefined|undefined|",
+        "themeGap": 30,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "ten-thousand-hours",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "It was an average, at one music school.",
+      "niche": "productivity",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "repetition.combo_batch",
+          "message": "Same theme/font/audio as \"ctrl-alt-del\" in this batch.",
+          "detail": {
+            "combo": "undefined|undefined|"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "halal.context_review",
+          "message": "Term(s) needing context: music. Referred to the AI reviewer.",
+          "detail": {
+            "terms": [
+              "music"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.167,
+        "worstTitleAgainst": "konami-code",
+        "worstDescriptionSimilarity": 0.213,
         "combo": "undefined|undefined|",
         "themeGap": 30,
         "audioGap": 0

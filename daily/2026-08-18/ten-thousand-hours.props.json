@@ -1,0 +1,55 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (ten-thousand-hours)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#131211",
+    "ink": "#F3F0EA",
+    "accent": "#D97757",
+    "muted": "#89827A"
+  },
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Nobody ever found a ten-thousand-hour threshold",
+      "text": "It was an average, at one music school.",
+      "note": "Violinists in Berlin, sorted by how good their teachers thought they were. By age twenty the best group averaged over 10,000 hours, the good group about 7,800, the least accomplished about 4,600. A gradient, not a gate.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2008",
+      "name": "Malcolm Gladwell",
+      "role": "Outliers turned that gradient into the ten-thousand-hour rule — the idea that ten thousand hours of practice makes an expert. The 1993 paper it came from does not say so anywhere.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "And the hours were never counted",
+      "text": "They were remembered.",
+      "note": "Each musician was asked to estimate how much they had practised per week, for every year of their life, looking backwards. Every hour in the study is a recollection of an hour.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "5",
+      "unit": "percent",
+      "context": "In a 2014 meta-analysis, that is all the variance in performance deliberate practice explained — once you restrict it to the studies that logged practice as it happened instead of asking people to recall it.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Pooled across every field they could find",
+      "text": "The number moves with the room.",
+      "note": "Practice explained 26 percent of the variance in games, 21 in music, 18 in sports, 4 in education, and under 1 percent in the professions. Their own summary: important, but not as important as has been argued.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "The rule is somebody else's average, rounded.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
