@@ -937,6 +937,211 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "eliza-doctor",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://sites.google.com/view/elizagen-org/blog/eliza-reanimated — the restoration team's own account (Rupert Lane, Anthony Hay, Arthur Schwarz, Jeff Shrager): ELIZA created by Weizenbaum at MIT 1964-6; ELIZA uses a script to determine its personality; David Berry suggested the code might be in Weizenbaum's papers, and in 2021 Shrager worked with MIT archivist Myles Crowley to find, in a folder dated 1965, a printout of the source alongside two early drafts of the DOCTOR script; the code is 53 pages, around 2,600 lines, mostly uncommented; it did not OCR well so Hay and Schwarz hand-transcribed it; three functions were missing and replacements were written, leaving 96% of the source from the original files; run on Dave Pitts's IBM 7094 emulator with CTSS; it nearly exactly recreated the 'Men are all alike' conversation from the 1966 CACM paper.",
+        "https://en.wikipedia.org/wiki/ELIZA — ELIZA written in MAD-SLIP for CTSS on an IBM 7094; SLIP is Weizenbaum's own Symmetric LIst Processor; DOCTOR was the most famous script and the only one published; named after Eliza Doolittle in Shaw's Pygmalion because the program could be incrementally improved; Weizenbaum's secretary asked him to leave the room so she and ELIZA could talk, and he wrote in Computer Power and Human Reason (1976, p. 7) that he 'had not realized ... that extremely short exposures to a relatively simple computer program could induce powerful delusional thinking in quite normal people'; the source was missing from the 1960s until the 2021 MIT archive find; December 2024 for the reanimation."
+      ],
+      "verifiedNote": "Checked 18 Aug 2026. The figure beat is 96 and it earns the 300px: the whole claim of the restoration is that this is Weizenbaum's code running, not a reimplementation of it, and the percentage is the restorers' own accounting. Candidates cut: 2,600 (lines) and 53 (pages) are specs, not facts that carry the story, and both live in the figure's context instead; 56 (years lost) is a duration. Deliberately not said: that ELIZA 'passed the Turing test' — it did not, and Weizenbaum said in Plug & Pray that only people who misunderstood it called it a sensation. The 2023 preprint in which ELIZA outscored GPT-3.5 in a Turing-test study is left out because it is a single unrefereed result and would imply the opposite of the point. The secretary is not named because neither source names her. 1966 is used in the credit beat as the publication year of the CACM paper; the program itself was built across 1964-66 and the recovered printout is dated 1965, which is why the beats say built and published rather than giving one date for both.",
+      "palette": {
+        "bg": "#0C0A14",
+        "ink": "#F1EEF7",
+        "accent": "#B38BFA",
+        "muted": "#7C7690"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The first chatbot was not a therapist",
+          "text": "The therapist was a script.",
+          "note": "ELIZA was the program: find a keyword, take the sentence apart, put it back together as a question. DOCTOR was one script it could load. Load a different script and the psychotherapist is simply gone."
+        },
+        {
+          "kind": "credit",
+          "year": "1966",
+          "name": "Joseph Weizenbaum",
+          "role": "Built at MIT in MAD-SLIP, a list-processing language he had written himself, on an IBM 7094 shared with around thirty other users. He named it after Eliza Doolittle, who could be taught to speak."
+        },
+        {
+          "kind": "statement",
+          "lead": "His own secretary had watched him build it",
+          "text": "She asked him to leave the room.",
+          "note": "She wanted to talk to it alone. He wrote afterwards that he had not realised extremely short exposures to a relatively simple program could induce powerful delusional thinking in quite normal people."
+        },
+        {
+          "kind": "statement",
+          "lead": "Then the code was gone",
+          "text": "Nobody published source in 1966.",
+          "note": "It stayed missing for decades. In 2021 Jeff Shrager and the MIT archivist Myles Crowley opened a folder in Weizenbaum's papers marked Computer Conversations and found the printout, with two draft DOCTOR scripts beside it."
+        },
+        {
+          "kind": "figure",
+          "value": "96",
+          "unit": "percent",
+          "context": "That much of what runs today is Weizenbaum's own code. Fifty-three pages would not scan, so it was retyped by hand; three missing functions were rewritten; the rest compiled on an emulated 7094."
+        },
+        {
+          "kind": "sign",
+          "line": "In 2024 it answered again, and said what it said in 1966.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "mario-pixel-budget",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://www.nintendo.com/en-gb/Iwata-Asks/Iwata-Asks-New-Super-Mario-Bros-Wii/Volume-1/2-The-Reason-Mario-Wears-Overalls/2-The-Reason-Mario-Wears-Overalls-210759.html — Iwata Asks, Miyamoto in his own words: the original Mario was a 16x16 pixellated image; overseas games drew human figures six or eight heads tall, which at that size left only a couple of pixels for the face; he drew the character himself because he was convinced those figures had been drawn by programmers who could not draw; 'if you draw a nose then a moustache, you don't really know if it's a mouth or a moustache, and it saves pixels'; 'you don't have to draw a mouth, which makes a big difference'; one pixel for the chin, two vertical pixels for eyes; 'because you can't fully draw hair, by making him wear a hat, you can reduce the hair to only a couple of pixels', and hair 'presents problems to animate'; only three frames were available for the run, so to make the arm movement easier to see the arms and body needed different colours, which is why he wears overalls; white gloves were added to make his movements easier to spot when he jumped; the game was set on a construction site so they made him a carpenter; Miyamoto called him 'Mr. Video' and someone at Nintendo of America came up with the name Mario."
+      ],
+      "verifiedNote": "Checked 18 Aug 2026. The figure beat is 3 and it earns the 300px because it is causal rather than decorative: three run frames is the constraint that produced the overalls, which is the one design decision here that outlived the hardware by forty years. Candidates cut: 16 (the sprite was 16x16, so a lone 16 at that size would be a confidently wrong number of exactly the kind the _README warns about) and 8 (the 8x8 pixel budget for the face, which is a spec). This is Donkey Kong's Mario, not Super Mario Bros. — the interview's construction site, carpenter and Jumpman all place it there, and the beats never say Super Mario Bros. The year 1981 in the credit beat is Donkey Kong's release, which the source implies but does not state; nothing else in the entry depends on it. Deliberately not said: 'Mario is an Italian plumber' — Miyamoto says carpenter and a construction site, the plumbing came later, and the naming is credited to Nintendo of America, not to him. The clouds-and-bushes palette swap is a real and separate Super Mario Bros. fact from a different interview and is left for its own topic rather than blended in here.",
+      "palette": {
+        "bg": "#0B0D1A",
+        "ink": "#FBF3E3",
+        "accent": "#E03C31",
+        "muted": "#7A809A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The moustache is not characterisation",
+          "text": "It is there so they could skip the mouth.",
+          "note": "Miyamoto's reasoning: draw a nose and then a moustache, and nobody can tell whether the thing underneath is a mouth or a moustache. So you never draw one. At sixteen pixels across, that saving was worth having."
+        },
+        {
+          "kind": "credit",
+          "year": "1981",
+          "name": "Shigeru Miyamoto",
+          "role": "He drew the character himself. Imported games rendered people six or eight heads tall, which left two pixels for a face, and he was convinced those figures had been drawn by programmers rather than by anyone who could draw."
+        },
+        {
+          "kind": "statement",
+          "lead": "The cap solves two problems at once",
+          "text": "Hair will not fit, and will not move.",
+          "note": "There were not enough pixels for hair, and animating it was worse. A hat cut hair down to a couple of pixels and let him set the eyes directly underneath, which finished the face."
+        },
+        {
+          "kind": "figure",
+          "value": "3",
+          "unit": "frames",
+          "context": "That is everything he had for a run. To make the arm swing readable at that speed, the arms had to be a different colour from the body — so Mario got overalls. The white gloves came next, to find his hands mid-jump."
+        },
+        {
+          "kind": "kicker",
+          "text": "Miyamoto wanted to call him Mr. Video."
+        },
+        {
+          "kind": "sign",
+          "line": "Someone at Nintendo of America named him Mario.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "ten-thousand-hours",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://scottbarrykaufman.com/wp-content/uploads/2014/07/Macnamara-et-al.-2014.pdf — Macnamara, Hambrick & Oswald, 'Deliberate Practice and Performance in Music, Games, Sports, Education, and Professions: A Meta-Analysis', Psychological Science 25, 1608-1618. Read directly. Describes Ericsson, Krampe & Tesch-Romer (1993) as recruiting musicians of differing accomplishment and asking them to ESTIMATE their deliberate practice per week for each year of their lives; states that at age 20 the average for the 'best' violinists was more than 10,000 hr, about 7,800 hr for the 'good' violinists and about 4,600 hr for the least-accomplished group; names Gladwell's Outliers (2008) as the inspiration for the '10,000-hour rule — the idea that it takes 10,000 hr of practice to become an expert'; reports deliberate practice explaining 26% of the variance for games, 21% for music, 18% for sports, 4% for education and less than 1% for professions; and, in the moderator analysis, that for studies using the log method — 'which presumably yields more valid estimates than retrospective methods do' — deliberate practice accounted for only 5% of the variance in performance. Concludes 'deliberate practice is important, but not as important as has been argued.'"
+      ],
+      "verifiedNote": "Checked 18 Aug 2026. The figure beat is 5 and it earns the 300px because it is the finding that actually moves the argument: the effect size depends on whether the practice was logged or remembered, and the rule descends entirely from remembered hours. Candidates cut: 10,000 (it is the popular claim being corrected, and setting it enormous would restate the myth), 26 (the largest domain figure, but quoting the best number as the headline is the same selective reading the entry criticises) and 1993 (a date). All hour figures are the age-20 averages as reported in Macnamara et al.; other by-age-18 figures for the same study circulate widely (7,410 / 5,301 / 3,420) and are NOT used here, because they were not read in a source and mixing the two ages is how the numbers get garbled. Deliberately not said: that half the best violinists fell below 10,000 hours — it follows only if the distribution is symmetric, which no source read here reports. Also not said: that practice does not matter, or anything about innate talent; the paper's own conclusion is that deliberate practice is important but not as important as argued, and the entry stops there. Ericsson's personal objections to Gladwell are real and widely quoted, but no source stating them was read in full, so no beat attributes a view to him.",
+      "palette": {
+        "bg": "#131211",
+        "ink": "#F3F0EA",
+        "accent": "#D97757",
+        "muted": "#89827A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Nobody ever found a ten-thousand-hour threshold",
+          "text": "It was an average, at one music school.",
+          "note": "Violinists in Berlin, sorted by how good their teachers thought they were. By age twenty the best group averaged over 10,000 hours, the good group about 7,800, the least accomplished about 4,600. A gradient, not a gate."
+        },
+        {
+          "kind": "credit",
+          "year": "2008",
+          "name": "Malcolm Gladwell",
+          "role": "Outliers turned that gradient into the ten-thousand-hour rule — the idea that ten thousand hours of practice makes an expert. The 1993 paper it came from does not say so anywhere."
+        },
+        {
+          "kind": "statement",
+          "lead": "And the hours were never counted",
+          "text": "They were remembered.",
+          "note": "Each musician was asked to estimate how much they had practised per week, for every year of their life, looking backwards. Every hour in the study is a recollection of an hour."
+        },
+        {
+          "kind": "figure",
+          "value": "5",
+          "unit": "percent",
+          "context": "In a 2014 meta-analysis, that is all the variance in performance deliberate practice explained — once you restrict it to the studies that logged practice as it happened instead of asking people to recall it."
+        },
+        {
+          "kind": "statement",
+          "lead": "Pooled across every field they could find",
+          "text": "The number moves with the room.",
+          "note": "Practice explained 26 percent of the variance in games, 21 in music, 18 in sports, 4 in education, and under 1 percent in the professions. Their own summary: important, but not as important as has been argued."
+        },
+        {
+          "kind": "sign",
+          "line": "The rule is somebody else's average, rounded.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "tongue-map",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://www.smithsonianmag.com/science-nature/neat-and-tidy-map-tastes-tongue-you-learned-school-all-wrong-180963407/ — Steven D. Munger (Director, University of Florida Center for Smell and Taste) with Drew Wilson, republished from The Conversation. Establishes: the map's root is D. P. Hanig's 1901 'Zur Psychophysik des Geschmackssinnes'; Hanig measured thresholds around the edges of the tongue — what he called the taste belt — by dripping salty, sweet, sour and bitter stimuli at intervals; he found real but minute variation, and his hypothesis generally holds up; 'The problem isn't with Hanig's findings. It's how he decided to present that information' — his line graph plots the relative change in sensitivity for each taste from one point to the next, NOT against other tastes; Edwin G. Boring, a Harvard psychology professor, reimagined that graph in the 1940s in Sensation and Perception in the History of Experimental Psychology, again with no meaningful scale, sectioning off each taste's most sensitive area into the familiar map; Hanig never tested umami; in 1965 the surgeon T. R. Bull found subjects whose chorda tympani had been cut in medical procedures reported no loss of taste; in 1993 Linda Bartoshuk found that anaesthetising the chorda tympani left subjects still perceiving sweet, and perceiving it more intensely; and modern receptor work finds each receptor type across all taste areas in the mouth, rather than sweet at the front and bitter at the back."
+      ],
+      "verifiedNote": "Checked 18 Aug 2026. NO figure beat. Candidates considered and cut: 1901, 1942 and 1965 are dates, and 4 (the number of tastes on the map) is a count that happens to exist. The opening beat deliberately corrects the DEBUNKING rather than the myth: the widely repeated version of the correction is that Boring mistranslated Hanig's German, and Munger's account puts the failure somewhere more specific and more interesting — the measurements were sound, and what broke was an unscaled graph, first Hanig's own and then Boring's redrawing of it. Boring's date is given as the 1940s, not 1942, because the source says 'in the 1940s'; 1942 is the commonly cited publication year but was not read here. Deliberately not said: that Hanig was wrong — he was not, and the beats credit his measurements. Also not said: any claim that the tongue is uniformly sensitive, which overcorrects; the real finding is that the differences are minute and every receptor type appears everywhere there are taste buds. Virginia Collings's 1974 replication is real and often cited but appears in no source read here, so it gets no beat.",
+      "palette": {
+        "bg": "#150A12",
+        "ink": "#F8EDF3",
+        "accent": "#E85D9B",
+        "muted": "#8C7480"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The tongue map was not a mistranslation",
+          "text": "It was a graph with no scale.",
+          "note": "That is the correction to the correction. The 1901 measurements were sound. What failed was the drawing: each taste's sensitivity plotted against itself, point to point along the tongue, and never against the other tastes."
+        },
+        {
+          "kind": "credit",
+          "year": "1901",
+          "name": "David Hanig",
+          "role": "He dripped salt, sweet, sour and bitter around the rim of the tongue — the taste belt, he called it — and measured how much of each it took before you noticed. He found real differences. They were minute."
+        },
+        {
+          "kind": "statement",
+          "lead": "Forty years later, at Harvard",
+          "text": "Edwin Boring redrew the curves.",
+          "note": "In Sensation and Perception in the History of Experimental Psychology, again with no meaningful scale. Each taste's most sensitive spot became a territory with a border. That is the diagram that reached the textbooks."
+        },
+        {
+          "kind": "statement",
+          "lead": "The nerve settles it",
+          "text": "Cut it, and the sweet stays.",
+          "note": "In 1965 the surgeon T. R. Bull found patients whose chorda tympani had been severed reported no loss of taste. In 1993 Linda Bartoshuk anaesthetised the same nerve and subjects tasted sweet more intensely, not less."
+        },
+        {
+          "kind": "kicker",
+          "text": "Hanig never tested umami. Nobody had named it yet."
+        },
+        {
+          "kind": "sign",
+          "line": "Every receptor type turns up wherever there are taste buds.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
