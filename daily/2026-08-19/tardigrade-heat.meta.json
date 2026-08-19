@@ -1,0 +1,25 @@
+{
+  "slug": "tardigrade-heat",
+  "date": "2026-08-19",
+  "title": "Dies in a warm bath.",
+  "description": "Dies in a warm bath. Dried out, it handles vacuum, huge radiation doses and temperatures near absolute zero. Awake and hydrated it is a different animal.\n\nWhere half a test population of active tardigrades died. The measured figure was 37.1. Your own body runs at 37.0.\n\nIn Copenhagen they heated the same species in both states. Dried, half survived an hour at 82 degrees. Awake, half were dead before 38.\n\nRadiation barely notices whether they are awake. Active ones resist it almost as well as dried ones. Heat is the exception, and the one the myth leaves out.\n\nIt is not indestructible. It is dehydrated.\n\nSources:\n- https://doi.org/10.1038/s41598-019-56965-z\n- https://doi.org/10.1007/s11084-016-9522-1\n- https://doi.org/10.1016/j.cub.2008.06.048\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "biology",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "yt-bbm0902",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbm0902",
+  "file": "out/daily-2026-08-19-tardigrade-heat.mp4",
+  "propsFile": "daily/2026-08-19/tardigrade-heat.props.json",
+  "durationInFrames": 932,
+  "audioUrl": "",
+  "niche": "biology",
+  "composition": "Reel"
+}

@@ -1,0 +1,20 @@
+Rendering 3 Shorts for 2026-08-19 (concurrency=3, GL=default)
+Compliance: 0 cleared, 3 blocked (policy v1.0.0).
+Blocked by compliance: mantis-shrimp-colour, margulis-endosymbiosis, tardigrade-heat
+
+--- mantis-shrimp-colour ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-08-19-mantis-shrimp-colour.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-08-19/compliance-verdict.json.
+
+--- margulis-endosymbiosis ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-08-19-margulis-endosymbiosis.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-08-19/compliance-verdict.json.
+
+--- tardigrade-heat ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-08-19-tardigrade-heat.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-08-19/compliance-verdict.json.
+
+=== Done. 3 rendered, 0 uploaded, 0 skipped, 3 blocked by compliance, 0 failed. ===

@@ -70,7 +70,10 @@
     "reel:ten-thousand-hours",
     "reel:year-without-summer",
     "reel:ai-winter-1973",
-    "reel:tongue-map"
+    "reel:tongue-map",
+    "reel:margulis-endosymbiosis",
+    "reel:tardigrade-heat",
+    "reel:mantis-shrimp-colour"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -1117,6 +1120,45 @@
       "youtubeUrl": "https://youtu.be/7PGHL5Ntwps",
       "uploadedAt": "2026-08-19T09:29:21.132Z",
       "privacy": "public"
+    },
+    {
+      "id": "margulis-endosymbiosis",
+      "date": "2026-08-19",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It is not yours.",
+      "description": "It is not yours. Your mitochondria carry their own genome. It reads as bacterial, and it says they descend from a group called the alpha-proteobacteria.\n\nShe published under her married name, before she was Lynn Margulis. More than a dozen journals turned the paper down before one took it.\n\nTwo of them are textbooks now. Mitochondria were bacteria. So were the chloroplasts in plants. Both were settled by reading the DNA those organelles still carry.\n\nStill has nothing behind it. She said the cell's whip-like tail came from a swallowed bacterium too. No genome has ever been found in it. It is the part nobody quotes.\n\nVindicated is not the same as correct.\n\nSources:\n- https://doi.org/10.1091/mbc.E16-07-0509\n- https://embryo.asu.edu/pages/origin-mitosing-cells-1967-lynn-sagan\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "biology",
+      "channelId": "yt-bbm0902",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "tardigrade-heat",
+      "date": "2026-08-19",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Dies in a warm bath.",
+      "description": "Dies in a warm bath. Dried out, it handles vacuum, huge radiation doses and temperatures near absolute zero. Awake and hydrated it is a different animal.\n\nWhere half a test population of active tardigrades died. The measured figure was 37.1. Your own body runs at 37.0.\n\nIn Copenhagen they heated the same species in both states. Dried, half survived an hour at 82 degrees. Awake, half were dead before 38.\n\nRadiation barely notices whether they are awake. Active ones resist it almost as well as dried ones. Heat is the exception, and the one the myth leaves out.\n\nIt is not indestructible. It is dehydrated.\n\nSources:\n- https://doi.org/10.1038/s41598-019-56965-z\n- https://doi.org/10.1007/s11084-016-9522-1\n- https://doi.org/10.1016/j.cub.2008.06.048\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "biology",
+      "channelId": "yt-bbm0902",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "mantis-shrimp-colour",
+      "date": "2026-08-19",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It is not what you were told.",
+      "description": "It is not what you were told. The mantis shrimp is famous for seeing colours you cannot imagine. In 2014 someone tested what it can actually tell apart.\n\nEight across the range you can see, four more in the ultraviolet. You have three. Four is already enough for fine colour discrimination.\n\nIt is worse at this than you are. It could only separate wavelengths fifteen to twenty-five nanometres apart. You manage five. So do honeybees.\n\nWorking in Justin Marshall's lab in Queensland, she found the eye may not compare colours at all. It scans, and matches the reading against something like a lookup table.\n\nIt is not seeing more. It is seeing faster.\n\nSources:\n- https://research-information.bris.ac.uk/en/publications/a-different-form-of-color-vision-in-mantis-shrimp/\n- https://www.nationalgeographic.com/science/article/the-mantis-shrimp-sees-like-a-satellite\n- https://www.calacademy.org/explore-science/mantis-shrimp-vision\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "animals",
+      "channelId": "yt-bbm0902",
+      "special": false,
+      "platform": "youtube"
     }
   ]
 }
