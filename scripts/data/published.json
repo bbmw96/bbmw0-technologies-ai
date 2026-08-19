@@ -69,7 +69,8 @@
     "reel:mouse-demo-1968",
     "reel:ten-thousand-hours",
     "reel:year-without-summer",
-    "reel:ai-winter-1973"
+    "reel:ai-winter-1973",
+    "reel:tongue-map"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -1099,6 +1100,23 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "tongue-map",
+      "date": "2026-08-19",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It was a graph with no scale.",
+      "description": "It was a graph with no scale. That is the correction to the correction. The 1901 measurements were sound. What failed was the drawing: each taste's sensitivity plotted against itself, point to point along the tongue, and never against the other tastes.\n\nHe dripped salt, sweet, sour and bitter around the rim of the tongue, the taste belt, he called it, and measured how much of each it took before you noticed. He found real differences. They were minute.\n\nEdwin Boring redrew the curves. In Sensation and Perception in the History of Experimental Psychology, again with no meaningful scale. Each taste's most sensitive spot became a territory with a border. That is the diagram that reached the textbooks.\n\nCut it, and the sweet stays. In 1965 the surgeon T. R. Bull found patients whose chorda tympani had been severed reported no loss of taste. In 1993 Linda Bartoshuk anaesthetised the same nerve and subjects tasted sweet more intensely, not less.\n\nHanig never tested umami. Nobody had named it yet.\n\nSources:\n- https://www.smithsonianmag.com/science-nature/neat-and-tidy-map-tastes-tongue-you-learned-school-all-wrong-180963407/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "7PGHL5Ntwps",
+      "youtubeUrl": "https://youtu.be/7PGHL5Ntwps",
+      "uploadedAt": "2026-08-19T09:29:21.132Z",
+      "privacy": "public"
     }
   ]
 }

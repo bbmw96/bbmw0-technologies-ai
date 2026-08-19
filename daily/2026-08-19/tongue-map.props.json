@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (tongue-map)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#150A12",
+    "ink": "#F8EDF3",
+    "accent": "#E85D9B",
+    "muted": "#8C7480"
+  },
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The tongue map was not a mistranslation",
+      "text": "It was a graph with no scale.",
+      "note": "That is the correction to the correction. The 1901 measurements were sound. What failed was the drawing: each taste's sensitivity plotted against itself, point to point along the tongue, and never against the other tastes.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1901",
+      "name": "David Hanig",
+      "role": "He dripped salt, sweet, sour and bitter around the rim of the tongue — the taste belt, he called it — and measured how much of each it took before you noticed. He found real differences. They were minute.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Forty years later, at Harvard",
+      "text": "Edwin Boring redrew the curves.",
+      "note": "In Sensation and Perception in the History of Experimental Psychology, again with no meaningful scale. Each taste's most sensitive spot became a territory with a border. That is the diagram that reached the textbooks.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The nerve settles it",
+      "text": "Cut it, and the sweet stays.",
+      "note": "In 1965 the surgeon T. R. Bull found patients whose chorda tympani had been severed reported no loss of taste. In 1993 Linda Bartoshuk anaesthetised the same nerve and subjects tasted sweet more intensely, not less.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Hanig never tested umami. Nobody had named it yet.",
+      "durationInFrames": 76
+    },
+    {
+      "kind": "sign",
+      "line": "Every receptor type turns up wherever there are taste buds.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 106
+    }
+  ],
+  "cta": "Subscribe for more."
+}
