@@ -1,0 +1,25 @@
+{
+  "slug": "mario-pixel-budget",
+  "date": "2026-08-19",
+  "title": "It is there so they could skip the mouth.",
+  "description": "It is there so they could skip the mouth. Miyamoto's reasoning: draw a nose and then a moustache, and nobody can tell whether the thing underneath is a mouth or a moustache. So you never draw one. At sixteen pixels across, that saving was worth having.\n\nHe drew the character himself. Imported games rendered people six or eight heads tall, which left two pixels for a face, and he was convinced those figures had been drawn by programmers rather than by anyone who could draw.\n\nHair will not fit, and will not move. There were not enough pixels for hair, and animating it was worse. A hat cut hair down to a couple of pixels and let him set the eyes directly underneath, which finished the face.\n\nThat is everything he had for a run. To make the arm swing readable at that speed, the arms had to be a different colour from the body, so Mario got overalls. The white gloves came next, to find his hands mid-jump.\n\nMiyamoto wanted to call him Mr. Video.\n\nSources:\n- https://www.nintendo.com/en-gb/Iwata-Asks/Iwata-Asks-New-Super-Mario-Bros-Wii/Volume-1/2-The-Reason-Mario-Wears-Overalls/2-The-Reason-Mario-Wears-Overalls-210759.html\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "gaming",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-08-19-mario-pixel-budget.mp4",
+  "propsFile": "daily/2026-08-19/mario-pixel-budget.props.json",
+  "durationInFrames": 1040,
+  "audioUrl": "",
+  "niche": "gaming",
+  "composition": "Reel"
+}

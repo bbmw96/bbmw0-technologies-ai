@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (invaders-coin-myth)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#050807",
+    "ink": "#E8F5EC",
+    "accent": "#35E86B",
+    "muted": "#6E7F74"
+  },
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Every gaming history repeats it",
+      "text": "Japan never ran out of coins.",
+      "note": "Space Invaders was said to have drained the nation's 100-yen supply until the mint tripled production. The claim has been in print since 1980. Nobody checked it for thirty years.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1978",
+      "name": "Tomohiro Nishikado",
+      "role": "He designed Space Invaders at Taito and engineered its hardware himself. The craze was real — the coin story grew on top of it, surfacing in foreign papers two years later.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Then numismatists checked the mint",
+      "text": "Production fell the year it launched.",
+      "note": "Japan struck 440 million 100-yen coins in 1977 and 292 million in 1978. The Bank of Japan, asked directly, could find no record of a shortage at all.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The true accident is better",
+      "text": "The speed-up was a bug.",
+      "note": "Fewer aliens meant the processor drew frames faster, so the survivors accelerated. Nishikado kept it — and the arcade difficulty curve was born as a hardware limit.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Even Nishikado calls the coin story a rumour.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Some legends are only unaudited.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Follow for more."
+}

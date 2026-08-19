@@ -1,0 +1,25 @@
+{
+  "slug": "invaders-coin-myth",
+  "date": "2026-08-19",
+  "title": "Japan never ran out of coins.",
+  "description": "Japan never ran out of coins. Space Invaders was said to have drained the nation's 100-yen supply until the mint tripled production. The claim has been in print since 1980. Nobody checked it for thirty years.\n\nHe designed Space Invaders at Taito and engineered its hardware himself. The craze was real, the coin story grew on top of it, surfacing in foreign papers two years later.\n\nProduction fell the year it launched. Japan struck 440 million 100-yen coins in 1977 and 292 million in 1978. The Bank of Japan, asked directly, could find no record of a shortage at all.\n\nThe speed-up was a bug. Fewer aliens meant the processor drew frames faster, so the survivors accelerated. Nishikado kept it, and the arcade difficulty curve was born as a hardware limit.\n\nEven Nishikado calls the coin story a rumour.\n\nSources:\n- http://allincolorforaquarter.blogspot.com/2013/11/video-game-myth-busters-space-invaders.html\n- https://www.academia.edu/2568838/Space_Invaders_targets_coins\n- https://en.wikipedia.org/wiki/Space_Invaders\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "gaming",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-08-19-invaders-coin-myth.mp4",
+  "propsFile": "daily/2026-08-19/invaders-coin-myth.props.json",
+  "durationInFrames": 1046,
+  "audioUrl": "",
+  "niche": "gaming",
+  "composition": "Reel"
+}

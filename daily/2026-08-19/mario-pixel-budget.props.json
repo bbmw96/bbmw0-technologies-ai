@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (mario-pixel-budget)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0D1A",
+    "ink": "#FBF3E3",
+    "accent": "#E03C31",
+    "muted": "#7A809A"
+  },
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The moustache is not characterisation",
+      "text": "It is there so they could skip the mouth.",
+      "note": "Miyamoto's reasoning: draw a nose and then a moustache, and nobody can tell whether the thing underneath is a mouth or a moustache. So you never draw one. At sixteen pixels across, that saving was worth having.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1981",
+      "name": "Shigeru Miyamoto",
+      "role": "He drew the character himself. Imported games rendered people six or eight heads tall, which left two pixels for a face, and he was convinced those figures had been drawn by programmers rather than by anyone who could draw.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The cap solves two problems at once",
+      "text": "Hair will not fit, and will not move.",
+      "note": "There were not enough pixels for hair, and animating it was worse. A hat cut hair down to a couple of pixels and let him set the eyes directly underneath, which finished the face.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "3",
+      "unit": "frames",
+      "context": "That is everything he had for a run. To make the arm swing readable at that speed, the arms had to be a different colour from the body — so Mario got overalls. The white gloves came next, to find his hands mid-jump.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Miyamoto wanted to call him Mr. Video.",
+      "durationInFrames": 64
+    },
+    {
+      "kind": "sign",
+      "line": "Someone at Nintendo of America named him Mario.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Follow for more."
+}

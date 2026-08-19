@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (tetris-gameboy-deal)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0F1208",
+    "ink": "#EFF4E4",
+    "accent": "#9BBC0F",
+    "muted": "#7E8873"
+  },
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The 1989 launch bundle was almost Mario",
+      "text": "Tetris got the box instead.",
+      "note": "Nintendo of America's president saw no reason to pack in anything but his own plumber. A rival publisher talked him out of it.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1989",
+      "name": "Henk Rogers",
+      "role": "That February he had flown to Moscow on a tourist visa and negotiated the handheld rights out of Elorg, the Soviet agency that owned Tetris. Then he went to see Arakawa about the box.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "His pitch, as he tells it",
+      "text": "Mario is for little boys.",
+      "note": "'If you want everyone to buy your Game Boy, pack in Tetris — young, old, male, female. And then you can still sell Mario afterwards.'",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "35",
+      "unit": "million",
+      "context": "Copies of Game Boy Tetris shipped worldwide, most of them riding in the box with the console itself.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "kicker",
+      "text": "Mario still sold eighteen million. Afterwards.",
+      "durationInFrames": 60
+    },
+    {
+      "kind": "sign",
+      "line": "The right pack-in sells the machine.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Follow for more."
+}
