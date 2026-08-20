@@ -1,0 +1,25 @@
+{
+  "slug": "eliza-doctor",
+  "date": "2026-08-20",
+  "title": "The therapist was a script.",
+  "description": "The therapist was a script. ELIZA was the program: find a keyword, take the sentence apart, put it back together as a question. DOCTOR was one script it could load. Load a different script and the psychotherapist is simply gone.\n\nBuilt at MIT in MAD-SLIP, a list-processing language he had written himself, on an IBM 7094 shared with around thirty other users. He named it after Eliza Doolittle, who could be taught to speak.\n\nShe asked him to leave the room. She wanted to talk to it alone. He wrote afterwards that he had not realised extremely short exposures to a relatively simple program could induce powerful delusional thinking in quite normal people.\n\nNobody published source in 1966. It stayed missing for decades. In 2021 Jeff Shrager and the MIT archivist Myles Crowley opened a folder in Weizenbaum's papers marked Computer Conversations and found the printout, with two draft DOCTOR scripts beside it.\n\nThat much of what runs today is Weizenbaum's own code. Fifty-three pages would not scan, so it was retyped by hand; three missing functions were rewritten; the rest compiled on an emulated 7094.\n\nSources:\n- https://sites.google.com/view/elizagen-org/blog/eliza-reanimated\n- https://en.wikipedia.org/wiki/ELIZA\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-08-20-eliza-doctor.mp4",
+  "propsFile": "daily/2026-08-20/eliza-doctor.props.json",
+  "durationInFrames": 1218,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}

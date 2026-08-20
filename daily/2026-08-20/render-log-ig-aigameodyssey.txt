@@ -1,0 +1,12 @@
+Rendering 1 Shorts for 2026-08-20 (concurrency=3, GL=default)
+Compliance: 1 cleared, 0 blocked (policy v1.0.0).
+
+--- eliza-doctor ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-08-20-eliza-doctor.mp4
+  hosting media so Instagram can fetch it...
+  ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
+  instagram via: Composio
+  published to Instagram: media 18130583935646794
+
+=== Done. 1 rendered, 1 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

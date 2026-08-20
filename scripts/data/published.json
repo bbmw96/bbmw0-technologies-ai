@@ -77,7 +77,8 @@
     "reel:mario-pixel-budget",
     "reel:tetris-gameboy-deal",
     "reel:invaders-coin-myth",
-    "reel:betelgeuse-dimming"
+    "reel:betelgeuse-dimming",
+    "reel:eliza-doctor"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -1218,6 +1219,23 @@
       "youtubeId": "ttsotqGpZsU",
       "youtubeUrl": "https://youtu.be/ttsotqGpZsU",
       "uploadedAt": "2026-08-20T09:26:39.092Z",
+      "privacy": "public"
+    },
+    {
+      "id": "eliza-doctor",
+      "date": "2026-08-20",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The therapist was a script.",
+      "description": "The therapist was a script. ELIZA was the program: find a keyword, take the sentence apart, put it back together as a question. DOCTOR was one script it could load. Load a different script and the psychotherapist is simply gone.\n\nBuilt at MIT in MAD-SLIP, a list-processing language he had written himself, on an IBM 7094 shared with around thirty other users. He named it after Eliza Doolittle, who could be taught to speak.\n\nShe asked him to leave the room. She wanted to talk to it alone. He wrote afterwards that he had not realised extremely short exposures to a relatively simple program could induce powerful delusional thinking in quite normal people.\n\nNobody published source in 1966. It stayed missing for decades. In 2021 Jeff Shrager and the MIT archivist Myles Crowley opened a folder in Weizenbaum's papers marked Computer Conversations and found the printout, with two draft DOCTOR scripts beside it.\n\nThat much of what runs today is Weizenbaum's own code. Fifty-three pages would not scan, so it was retyped by hand; three missing functions were rewritten; the rest compiled on an emulated 7094.\n\nSources:\n- https://sites.google.com/view/elizagen-org/blog/eliza-reanimated\n- https://en.wikipedia.org/wiki/ELIZA\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram",
+      "youtubeId": "18130583935646794",
+      "youtubeUrl": "https://youtu.be/18130583935646794",
+      "uploadedAt": "2026-08-20T09:30:32.505Z",
       "privacy": "public"
     }
   ]
