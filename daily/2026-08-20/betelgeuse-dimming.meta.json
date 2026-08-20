@@ -1,0 +1,25 @@
+{
+  "slug": "betelgeuse-dimming",
+  "date": "2026-08-20",
+  "title": "The headlines said supernova.",
+  "description": "The headlines said supernova. Betelgeuse, the orange shoulder of Orion, lost more than two thirds of its light by February 2020. Then it came back.\n\nA red supergiant close enough that a telescope can resolve its actual surface. Between January and March, astronomers watched the southern half of it darken, week by week.\n\nIt was dust. The star threw off a bubble of gas. A patch of surface behind it cooled, silicon condensed, and it hid behind its own soot.\n\nIt will explode. That was not it.\n\nSources:\n- https://www.eso.org/public/news/eso2109/\n- https://www.cfa.harvard.edu/news/mystery-solved-dust-cloud-led-betelgeuses-great-dimming\n- https://science.nasa.gov/missions/hubble/hubble-finds-that-betelgeuses-mysterious-dimming-is-due-to-a-traumatic-outburst/\n- https://arxiv.org/pdf/2011.05982\n- https://www.nature.com/articles/s41467-021-25018-3\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "space",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "yt-bbm0902",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbm0902",
+  "file": "out/daily-2026-08-20-betelgeuse-dimming.mp4",
+  "propsFile": "daily/2026-08-20/betelgeuse-dimming.props.json",
+  "durationInFrames": 790,
+  "audioUrl": "",
+  "niche": "space",
+  "composition": "Reel"
+}

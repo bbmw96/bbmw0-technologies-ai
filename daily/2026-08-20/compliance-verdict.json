@@ -1,0 +1,62 @@
+{
+  "date": "2026-08-20",
+  "generatedAt": "2026-08-20T09:25:02.901Z",
+  "policyVersion": "1.0.0",
+  "strictMode": false,
+  "allowed": [
+    "betelgeuse-dimming"
+  ],
+  "blocked": [],
+  "results": [
+    {
+      "slug": "betelgeuse-dimming",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "The headlines said supernova.",
+      "niche": "space",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.06,
+        "worstTitleAgainst": "first-sms-1992",
+        "worstDescriptionSimilarity": 0.211,
+        "combo": "undefined|undefined|",
+        "themeGap": 43,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    }
+  ]
+}

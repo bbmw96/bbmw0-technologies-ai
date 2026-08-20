@@ -1,0 +1,46 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (betelgeuse-dimming)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0710",
+    "ink": "#F3EFE9",
+    "accent": "#FF8A3D",
+    "muted": "#7B7285"
+  },
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Late in 2019 a star started going out",
+      "text": "The headlines said supernova.",
+      "note": "Betelgeuse, the orange shoulder of Orion, lost more than two thirds of its light by February 2020. Then it came back.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2020",
+      "name": "Betelgeuse",
+      "role": "A red supergiant close enough that a telescope can resolve its actual surface. Between January and March, astronomers watched the southern half of it darken, week by week.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "The answer, June 2021",
+      "text": "It was dust.",
+      "note": "The star threw off a bubble of gas. A patch of surface behind it cooled, silicon condensed, and it hid behind its own soot.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "kicker",
+      "text": "It will explode. That was not it.",
+      "durationInFrames": 64
+    },
+    {
+      "kind": "sign",
+      "line": "Still there. Still the shoulder of Orion.",
+      "handle": "@bbm0902",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
