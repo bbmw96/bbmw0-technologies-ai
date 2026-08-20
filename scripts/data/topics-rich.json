@@ -1142,6 +1142,262 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "wifi-not-fidelity",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://boingboing.net/2005/11/08/wifi-isnt-short-for.html — Cory Doctorow (Boing Boing, 8 Nov 2005) publishing the full statement of Phil Belanger, a founding member of the Wi-Fi Alliance who presided over the name selection: \"Wi-Fi doesn't stand for anything. It is not an acronym. There is no meaning.\" Establishes that Interbrand created the name and the yin-yang logo; that the alliance (originally the Wireless Ethernet Compatibility Alliance) hired Interbrand because it needed something catchier than \"IEEE 802.11b Direct Sequence\"; that Wi-Fi was chosen from a list of ten names Interbrand proposed; and that \"The Standard for Wireless Fidelity\" was a tag line invented AFTER the name by the six-member board, ran about a year (circa 2000), then was dropped — Belanger calls it a \"mistake\" that \"diluted the brand.\"",
+        "https://www.mentalfloss.com/technology/what-does-wi-fi-stand-for — Mental Floss (7 May 2024), read directly. Quotes the Oxford English Dictionary: \"Subsequent rationalization of this word as a shortening of wireless fidelity is spurious.\" Corroborates the Belanger account and the WECA/Interbrand/hi-fi-pun history, and gives the standardisation backdrop (FCC opened spectrum 1985; IEEE ratified 802.11 in 1997).",
+        "https://en.wikipedia.org/wiki/Wi-Fi_Alliance — read for the dates used: \"In 1999, pioneers ... formed the Wireless Ethernet Compatibility Alliance (WECA) and branded the new technology Wi-Fi\" (cited to Littman, Building Broadband Networks, CRC Press 2002); and \"WECA renamed itself the Wi-Fi Alliance in 2002\" (cited to InternetNews, 2 Oct 2002)."
+      ],
+      "verifiedNote": "Checked 20 Aug 2026. No figure beat: the available numbers are 10 (names Interbrand proposed) and 6 (board members who wrote the tag line); both are true and both are addresses, not facts, so neither earns 300px — the same discipline as the QWERTY entry. The OED line is quoted as read in Mental Floss, which cites the OED entry; I did not open the paywalled OED entry myself, so the beat says \"the dictionary calls it spurious\" rather than quoting a page I read. Deliberately not said: that Interbrand intended Wi to mean wireless — Mental Floss says it is only \"generally believed\" the pun drew on hi-fi, and Belanger's whole point is that the name is a coined brand with no literal decomposition, so the entry does not invent a hidden meaning to then debunk. The 1999 credit is the year WECA branded the technology Wi-Fi; some secondary sources say August 1999 specifically, not used here because no primary for the month was read.",
+      "palette": {
+        "bg": "#0E1013",
+        "ink": "#ECEAE3",
+        "accent": "#3E8FB0",
+        "muted": "#7C818A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The expansion in every router manual",
+          "text": "Wi-Fi is short for Wireless Fidelity.",
+          "note": "The dictionary calls that reading spurious. Phil Belanger, who ran the naming, is blunter: it is not an acronym, and there is no meaning."
+        },
+        {
+          "kind": "credit",
+          "year": "1999",
+          "name": "Interbrand",
+          "role": "The alliance behind the new 802.11b radio could not market \"IEEE 802.11b Direct Sequence,\" so it hired the agency that had named Prozac and Compaq. What came back was Wi-Fi — a pun on hi-fi, chosen from a list of ten."
+        },
+        {
+          "kind": "statement",
+          "lead": "Wireless Fidelity came afterwards",
+          "text": "The name was chosen first. The meaning was bolted on.",
+          "note": "Some board members could not stomach a name that explained nothing, so they added the tag line \"The Standard for Wireless Fidelity.\" It ran about a year, then was quietly retired."
+        },
+        {
+          "kind": "statement",
+          "lead": "And it falls apart on contact",
+          "text": "The group never wrote a standard.",
+          "note": "It certifies that devices interoperate; the standard is IEEE's. So the phrase is wrong on both words — Belanger's own verdict is that it only diluted the brand."
+        },
+        {
+          "kind": "kicker",
+          "text": "The man who picked the name spent years asking people to forget the tag line."
+        },
+        {
+          "kind": "sign",
+          "line": "You connect to a pun, not an acronym.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "bluetooth-harald",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://www.bluetooth.com/about-us/bluetooth-origin/ — the Bluetooth SIG's official \"Origin of the name\" page, read directly. Establishes: the name \"is not an acronym and doesn't stand for anything\"; it is King Harald \"Bluetooth\" Gormsson, known for uniting Denmark and Norway in 958 and for a dead, dark blue/grey tooth that earned the nickname; that in 1996 Intel, Ericsson and Nokia met to standardise a short-range radio and Jim Kardach of Intel proposed \"Bluetooth\" as a temporary code name (quoted: \"King Harald Bluetooth...was famous for uniting Scandinavia just as we intended to unite the PC and cellular industries with a short-range wireless link\"); that the intended \"serious\" names were RadioWire or PAN, that PAN led but returned tens of thousands of search hits, that RadioWire's trademark search could not finish before launch, so the placeholder shipped and spread; and that the logo is a bind rune merging the Younger Futhark runes Hagall (ᚼ) and Bjarkan (ᛒ), Harald's initials."
+      ],
+      "verifiedNote": "Checked 20 Aug 2026. Sourced entirely to the Bluetooth SIG's own origin page (primary). No figure beat: the only number is 958 (the year Harald united Denmark and Norway), and a date does not earn 300px — it belongs in the credit beat, where it sits. Deliberately not said: the book Kardach was reportedly reading (widely said to be a Viking historical novel); the SIG page does not name it and no primary naming it was read, so no beat claims it. Also not asserted as settled: WHY Harald was called Blatand — the SIG says a dead blue/grey tooth, but the epithet's origin is debated, so the beat reports the SIG's account rather than stating it as fact. The runes ᚼ and ᛒ are included as glyphs; if the render font lacks Younger Futhark they show as tofu, so the sentence also names them \"his H and his B\" and survives without the glyphs — worth a font check before publishing.",
+      "palette": {
+        "bg": "#0B0E14",
+        "ink": "#EAECF2",
+        "accent": "#4C7EF3",
+        "muted": "#79808F"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The icon in your status bar",
+          "text": "It is a dead king's initials.",
+          "note": "Not a waveform, not an acronym. Two Younger Futhark runes — ᚼ and ᛒ, his H and his B — pressed into one mark."
+        },
+        {
+          "kind": "credit",
+          "year": "958",
+          "name": "Harald Gormsson",
+          "role": "King of Denmark, called Blatand — Bluetooth — for a dead, blue-grey tooth. He pulled the Danish tribes together and brought in Norway. That uniting is the entire reason the name was chosen."
+        },
+        {
+          "kind": "credit",
+          "year": "1996",
+          "name": "Jim Kardach, Intel",
+          "role": "In a meeting to make Intel, Ericsson and Nokia's radios talk to each other, he offered \"Bluetooth\" as a throwaway codename — a king who united Scandinavia, for a link meant to unite the PC and the phone."
+        },
+        {
+          "kind": "statement",
+          "lead": "It was never supposed to ship",
+          "text": "The real names were RadioWire and PAN.",
+          "note": "PAN led until a search returned tens of thousands of hits. RadioWire's trademark check could not clear in time for launch. So the placeholder went out, and spread before anyone could replace it."
+        },
+        {
+          "kind": "kicker",
+          "text": "Marketing's \"really cool\" name never arrived. The codename ate it."
+        },
+        {
+          "kind": "sign",
+          "line": "You pair with a tenth-century king every day.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "hamburger-menu-xerox",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://medium.com/readme-mic/a-conversation-with-norm-cox-creator-of-the-hamburger-menu-c913daea5f9e — Tri Vo's 2015 interview with Norm Cox, read directly. In his own words: the \"hamburger\" widget was designed \"out of pure necessity\" for the Xerox Star, constrained by the display of the day (black and white, 72 dpi); the Star's window header could not fit all the command buttons, especially when resizing, and could not grow vertically, so he needed a button to hold the extra/related commands — \"this resulted in the hamburger widget with the three lines that represented a drop-down menu\"; and that he did not know it had \"blew up,\" or was even called a \"hamburger,\" until a journalist called to interview him about two years earlier (~2013), guessing a later UI designer re-drew three lines and \"wasn't even aware of its prior existence on the Xerox Star.\"",
+        "https://en.wikipedia.org/wiki/Hamburger_button — read for dates and the Unicode detail. Norm Cox designed the icon for the Xerox Star, introduced 1981; Cox quote that it was rendered in about 16x16 pixels (\"or possibly 13x13\") and meant to \"mimic the look of the resulting displayed menu list\"; it appeared in Windows 1.0 (1985), vanished by Windows 2.0, and did not return to Windows until the Windows 10 Anniversary Update (2016); its mobile resurgence began around 2009; and it is not a text character in Unicode, so designers substitute look-alikes such as U+2261 ≡ (IDENTICAL TO) or U+2630 ☰ (TRIGRAM FOR HEAVEN)."
+      ],
+      "verifiedNote": "Checked 20 Aug 2026. No figure beat: the tempting number is the icon's pixel size, but Cox himself hedges it (\"16x16 ... or possibly 13x13\"), so stamping a hard 16 at 300px would claim a precision the source disclaims — the pixel constraint is carried in a note instead. 1981 is the Xerox Star's introduction year (Wikipedia); Cox says \"1980-ish\" in the interview, so the entry ties the date to the machine's release rather than to the drawing. Deliberately not said: that today's mobile designers copied the Star — Cox's own guess is the opposite, that someone re-invented three lines without knowing the Star had them, so the entry frames it as re-discovery, not lineage. The glyphs ≡ and ☰ are included; ≡ (U+2261) is near-universal but ☰ (U+2630) may tofu, so the sentence names it \"the I Ching's trigram for heaven\" and survives without the glyph — font check before publishing.",
+      "palette": {
+        "bg": "#121110",
+        "ink": "#F0ECE3",
+        "accent": "#D9932B",
+        "muted": "#857F75"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The three lines you tap to open a menu",
+          "text": "They were drawn in 1981.",
+          "note": "Not for a phone — for the Xerox Star, a black-and-white office workstation. Norm Cox needed somewhere to park the buttons that would not fit across a window's title bar."
+        },
+        {
+          "kind": "credit",
+          "year": "1981",
+          "name": "Norm Cox",
+          "role": "He drew the Star's icons, including the dog-eared page still used for \"document.\" The menu mark had to read at about sixteen pixels square: three bars, a shrunk picture of the list that would drop down."
+        },
+        {
+          "kind": "statement",
+          "lead": "Then it kept disappearing",
+          "text": "Windows had it in 1985, then threw it away.",
+          "note": "It shipped in Windows 1.0, vanished by Windows 2.0, and did not return to Windows until 2016. Phones revived it around 2009, when screens got small again."
+        },
+        {
+          "kind": "statement",
+          "lead": "It has no letter of its own",
+          "text": "There is no hamburger in Unicode.",
+          "note": "So designers fake it — usually with the maths sign for \"identical to,\" ≡, or the I Ching's trigram for heaven, ☰. The icon a billion people tap is borrowed punctuation."
+        },
+        {
+          "kind": "kicker",
+          "text": "Cox learned it was everywhere — and called a hamburger — from a reporter's phone call, thirty years on."
+        },
+        {
+          "kind": "sign",
+          "line": "The newest button on your phone turns forty-five this year.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "inbox-zero-mann",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Merlin_Mann — read for dates: Mann founded 43 Folders in September 2004; he \"coined and popularized the concept of Inbox Zero, writing a series of articles in 2006 on 43 Folders,\" originally proposing an \"Inbox DMZ\" (Fresh Start: The Email DMZ, 4 Jan 2006); and \"In 2020 Mann stated he doesn't keep his inbox empty, and that the term has been misunderstood\" (cited to Wired UK, 2 Jan 2020).",
+        "https://www.43folders.com/43-folders-series-inbox-zero — Merlin Mann's own site, read directly. The site describes itself as \"about finding the time and attention to do your best creative work\"; the Inbox Zero series frames the goal as processing messages \"into appropriate actions as quickly as possible\" and repeatedly warns \"don't live in your Inbox\"; and it records that the definitive Inbox Zero talk was \"delivered on July 23, 2007 at a Google Tech Talk in Mountain View,\" a 58-minute video.",
+        "https://www.inc.com/betsy-mikel/the-guy-who-invented-inbox-zero-says-were-all-doing-it-wrong.html — Inc., 8 Jan 2020, read directly. Confirms Mann launched 43folders.com in 2004; that his own inbox \"is full of clutter\" and he says the popular practice is wrong; and that the app Mailbox built its entire product around hitting inbox zero (a gamified \"You're all done\" screen), which Dropbox acquired and shut down in 2016."
+      ],
+      "verifiedNote": "Checked 20 Aug 2026. No figure beat: every candidate (2004, 2006, 2007, 2016) is a date, and \"0\" itself is the popular misreading, so enlarging it would restate the myth — the same reason the ten-thousand-hours entry refused to enlarge 10,000. Deliberately not quoted: the widely-circulated line that the zero means \"the amount of time your brain is in your inbox.\" It is attributed to Mann all over the web, but I did not read it at a primary source, so the entry states the substance — the zero is about attention, not message count — which the sources I did read support (the site's own \"time and attention\" framing; his 2020 statement that the empty-inbox reading misses the point) without putting quotation marks around a line I did not verify.",
+      "palette": {
+        "bg": "#101312",
+        "ink": "#EDEFEA",
+        "accent": "#3FA694",
+        "muted": "#7C837D"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The goal everyone chases",
+          "text": "Inbox Zero means an empty inbox.",
+          "note": "The man who named it does not keep his empty, and says that reading misses the whole point. The zero was never the message count."
+        },
+        {
+          "kind": "credit",
+          "year": "2006",
+          "name": "Merlin Mann",
+          "role": "On his site 43 Folders — \"finding the time and attention to do your best creative work\" — he coined Inbox Zero. The zero he meant was the attention you cede to email, not the number of messages in the box."
+        },
+        {
+          "kind": "statement",
+          "lead": "It was about not living in there",
+          "text": "Turn each message into an action, fast, then leave.",
+          "note": "That is the series' actual advice: convert mail to a next step as quickly as you can, and stop refreshing. Zero minutes with your brain stuck in the inbox — not zero emails."
+        },
+        {
+          "kind": "statement",
+          "lead": "Then an app hard-coded the wrong reading",
+          "text": "Mailbox gamified hitting zero.",
+          "note": "A cheerful \"You're all done\" over a changing photo, every time you emptied the box. Dropbox bought Mailbox and shut it down in 2016. The number won; the point was lost."
+        },
+        {
+          "kind": "kicker",
+          "text": "In 2020 the inventor admitted his own inbox is full."
+        },
+        {
+          "kind": "sign",
+          "line": "Chase the attention, not the count.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "pacman-256",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "http://donhodges.com/how_high_can_you_get2.htm — Don Hodges, \"Pac-Man's Split Screen Level Analyzed and Fixed\" (2007), read directly, working from the disassembled arcade Z80 code. Establishes: Pac-Man stores the level in a single byte and counts the first board as level 0, so board 256 is internally 255 (#FF); the fruit-drawing routine loads the level and increments it with no carry-flag check, so at 256 the count wraps to 0 and the draw-loop counter rolls to 255 — running 256 times and stamping up to 512 bytes (#200) of memory from past the fruit table onto the right of the screen; that the game does NOT crash (Pac-Man and ghosts keep working, the left maze is intact); that a few of the garbled bytes happen to be edible-dot codes; that the board therefore cannot be cleared; and that Hodges fixed it by changing nine bytes of code (plus two checksum bytes) so board 256 draws seven keys and can be finished.",
+        "https://pacman.fandom.com/wiki/Map_256_Glitch — Pac-Man Wiki, read directly (cites Hodges). Establishes the on-screen dot arithmetic: clearing a board requires eating 244 Pac-Dots; the corrupted board holds 122 dots on the intact left half and 9 on the garbled right, 131 in all — far short of 244, so the level is unwinnable; and that the theoretical maximum score on the original is 3,333,360."
+      ],
+      "verifiedNote": "Checked 20 Aug 2026. Figure beat is 131 (dots), not 256: 256 is the headline everyone already knows and enlarging it just restates the topic; 131 is the finding that makes \"unwinnable\" concrete — the board simply does not contain the 244 dots the game demands. Numbers deliberately NOT enlarged: 256 (the topic), 255 (the true byte ceiling, but an awkward unit) and 3,333,360 (the max score — real but trivia, and a seven-digit value would swamp the card). Honesty on 131: the Pac-Man Wiki notes the 9 right-side dots regenerate after a lost life, so a player can eat at most ~176 across deaths — still short of 244; the figure's context says the board \"holds\" 131 dots (true of a single pass) and that 244 can never be reached (true regardless), and this nuance is recorded here rather than on screen. Not claimed: any first-perfect-game record (the well-known 3,333,360 claim is entangled in a disputed-score controversy), so no player is named. Not called a \"crash,\" because the disassembly shows the game keeps running — only the fruit routine misdraws.",
+      "palette": {
+        "bg": "#0B0B0E",
+        "ink": "#F4F1E6",
+        "accent": "#F2C744",
+        "muted": "#7E7F86"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Pac-Man has no final level",
+          "text": "The ending is a byte running out of room.",
+          "note": "No one designed a board 256. The game keeps the level in a single byte, which cannot count past 255 — and 256 is what spills out when it tries."
+        },
+        {
+          "kind": "figure",
+          "value": "131",
+          "unit": "dots",
+          "context": "Every dot the broken board contains — 122 on the intact left, 9 in the garbled right. Clearing a board takes 244. The count can never be reached, so the level cannot end."
+        },
+        {
+          "kind": "credit",
+          "year": "2007",
+          "name": "Don Hodges",
+          "role": "He disassembled the arcade code and found it: at board 256 the level counter wraps to zero, and the routine that paints the fruit is told to draw 256 of them — smearing 512 bytes of unrelated program across the right of the screen."
+        },
+        {
+          "kind": "statement",
+          "lead": "It is not a crash",
+          "text": "The game runs fine. It draws the wrong memory.",
+          "note": "Pac-Man still moves, the ghosts still hunt, the left maze is perfect. A few of the garbled bytes even happen to be edible dots. Only the fruit routine has lost the plot."
+        },
+        {
+          "kind": "kicker",
+          "text": "Hodges fixed it in nine bytes. The famous wall was one missing check the whole time."
+        },
+        {
+          "kind": "sign",
+          "line": "Pac-Man ends where a byte does.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
