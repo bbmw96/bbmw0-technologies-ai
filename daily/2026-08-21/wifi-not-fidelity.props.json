@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (wifi-not-fidelity)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0E1013",
+    "ink": "#ECEAE3",
+    "accent": "#3E8FB0",
+    "muted": "#7C818A"
+  },
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The expansion in every router manual",
+      "text": "Wi-Fi is short for Wireless Fidelity.",
+      "note": "The dictionary calls that reading spurious. Phil Belanger, who ran the naming, is blunter: it is not an acronym, and there is no meaning.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1999",
+      "name": "Interbrand",
+      "role": "The alliance behind the new 802.11b radio could not market \"IEEE 802.11b Direct Sequence,\" so it hired the agency that had named Prozac and Compaq. What came back was Wi-Fi — a pun on hi-fi, chosen from a list of ten.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Wireless Fidelity came afterwards",
+      "text": "The name was chosen first. The meaning was bolted on.",
+      "note": "Some board members could not stomach a name that explained nothing, so they added the tag line \"The Standard for Wireless Fidelity.\" It ran about a year, then was quietly retired.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "And it falls apart on contact",
+      "text": "The group never wrote a standard.",
+      "note": "It certifies that devices interoperate; the standard is IEEE's. So the phrase is wrong on both words — Belanger's own verdict is that it only diluted the brand.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The man who picked the name spent years asking people to forget the tag line.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "sign",
+      "line": "You connect to a pun, not an acronym.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

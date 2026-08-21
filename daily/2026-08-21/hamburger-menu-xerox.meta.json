@@ -1,0 +1,25 @@
+{
+  "slug": "hamburger-menu-xerox",
+  "date": "2026-08-21",
+  "title": "They were drawn in 1981.",
+  "description": "They were drawn in 1981. Not for a phone, for the Xerox Star, a black-and-white office workstation. Norm Cox needed somewhere to park the buttons that would not fit across a window's title bar.\n\nHe drew the Star's icons, including the dog-eared page still used for \"document.\" The menu mark had to read at about sixteen pixels square: three bars, a shrunk picture of the list that would drop down.\n\nWindows had it in 1985, then threw it away. It shipped in Windows 1.0, vanished by Windows 2.0, and did not return to Windows until 2016. Phones revived it around 2009, when screens got small again.\n\nThere is no hamburger in Unicode. So designers fake it, usually with the maths sign for \"identical to,\" ≡, or the I Ching's trigram for heaven, ☰. The icon a billion people tap is borrowed punctuation.\n\nCox learned it was everywhere, and called a hamburger, from a reporter's phone call, thirty years on.\n\nSources:\n- https://medium.com/readme-mic/a-conversation-with-norm-cox-creator-of-the-hamburger-menu-c913daea5f9e\n- https://en.wikipedia.org/wiki/Hamburger_button\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "app",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-08-21-hamburger-menu-xerox.mp4",
+  "propsFile": "daily/2026-08-21/hamburger-menu-xerox.props.json",
+  "durationInFrames": 1122,
+  "audioUrl": "",
+  "niche": "app",
+  "composition": "Reel"
+}

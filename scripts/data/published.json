@@ -78,7 +78,10 @@
     "reel:tetris-gameboy-deal",
     "reel:invaders-coin-myth",
     "reel:betelgeuse-dimming",
-    "reel:eliza-doctor"
+    "reel:eliza-doctor",
+    "reel:hamburger-menu-xerox",
+    "reel:wifi-not-fidelity",
+    "reel:inbox-zero-mann"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -1237,6 +1240,45 @@
       "youtubeUrl": "https://youtu.be/18130583935646794",
       "uploadedAt": "2026-08-20T09:30:32.505Z",
       "privacy": "public"
+    },
+    {
+      "id": "hamburger-menu-xerox",
+      "date": "2026-08-21",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "They were drawn in 1981.",
+      "description": "They were drawn in 1981. Not for a phone, for the Xerox Star, a black-and-white office workstation. Norm Cox needed somewhere to park the buttons that would not fit across a window's title bar.\n\nHe drew the Star's icons, including the dog-eared page still used for \"document.\" The menu mark had to read at about sixteen pixels square: three bars, a shrunk picture of the list that would drop down.\n\nWindows had it in 1985, then threw it away. It shipped in Windows 1.0, vanished by Windows 2.0, and did not return to Windows until 2016. Phones revived it around 2009, when screens got small again.\n\nThere is no hamburger in Unicode. So designers fake it, usually with the maths sign for \"identical to,\" ≡, or the I Ching's trigram for heaven, ☰. The icon a billion people tap is borrowed punctuation.\n\nCox learned it was everywhere, and called a hamburger, from a reporter's phone call, thirty years on.\n\nSources:\n- https://medium.com/readme-mic/a-conversation-with-norm-cox-creator-of-the-hamburger-menu-c913daea5f9e\n- https://en.wikipedia.org/wiki/Hamburger_button\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "wifi-not-fidelity",
+      "date": "2026-08-21",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Wi-Fi is short for Wireless Fidelity.",
+      "description": "Wi-Fi is short for Wireless Fidelity. The dictionary calls that reading spurious. Phil Belanger, who ran the naming, is blunter: it is not an acronym, and there is no meaning.\n\nThe alliance behind the new 802.11b radio could not market \"IEEE 802.11b Direct Sequence,\" so it hired the agency that had named Prozac and Compaq. What came back was Wi-Fi, a pun on hi-fi, chosen from a list of ten.\n\nThe name was chosen first. The meaning was bolted on. Some board members could not stomach a name that explained nothing, so they added the tag line \"The Standard for Wireless Fidelity.\" It ran about a year, then was quietly retired.\n\nThe group never wrote a standard. It certifies that devices interoperate; the standard is IEEE's. So the phrase is wrong on both words, Belanger's own verdict is that it only diluted the brand.\n\nThe man who picked the name spent years asking people to forget the tag line.\n\nSources:\n- https://boingboing.net/2005/11/08/wifi-isnt-short-for.html\n- https://www.mentalfloss.com/technology/what-does-wi-fi-stand-for\n- https://en.wikipedia.org/wiki/Wi-Fi_Alliance\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "inbox-zero-mann",
+      "date": "2026-08-21",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Inbox Zero means an empty inbox.",
+      "description": "Inbox Zero means an empty inbox. The man who named it does not keep his empty, and says that reading misses the whole point. The zero was never the message count.\n\nOn his site 43 Folders, \"finding the time and attention to do your best creative work\", he coined Inbox Zero. The zero he meant was the attention you cede to email, not the number of messages in the box.\n\nTurn each message into an action, fast, then leave. That is the series' actual advice: convert mail to a next step as quickly as you can, and stop refreshing. Zero minutes with your brain stuck in the inbox, not zero emails.\n\nMailbox gamified hitting zero. A cheerful \"You're all done\" over a changing photo, every time you emptied the box. Dropbox bought Mailbox and shut it down in 2016. The number won; the point was lost.\n\nIn 2020 the inventor admitted his own inbox is full.\n\nSources:\n- https://en.wikipedia.org/wiki/Merlin_Mann\n- https://www.43folders.com/43-folders-series-inbox-zero\n- https://www.inc.com/betsy-mikel/the-guy-who-invented-inbox-zero-says-were-all-doing-it-wrong.html\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
     }
   ]
 }

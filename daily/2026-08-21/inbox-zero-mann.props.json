@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (inbox-zero-mann)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#101312",
+    "ink": "#EDEFEA",
+    "accent": "#3FA694",
+    "muted": "#7C837D"
+  },
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The goal everyone chases",
+      "text": "Inbox Zero means an empty inbox.",
+      "note": "The man who named it does not keep his empty, and says that reading misses the whole point. The zero was never the message count.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2006",
+      "name": "Merlin Mann",
+      "role": "On his site 43 Folders — \"finding the time and attention to do your best creative work\" — he coined Inbox Zero. The zero he meant was the attention you cede to email, not the number of messages in the box.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "It was about not living in there",
+      "text": "Turn each message into an action, fast, then leave.",
+      "note": "That is the series' actual advice: convert mail to a next step as quickly as you can, and stop refreshing. Zero minutes with your brain stuck in the inbox — not zero emails.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Then an app hard-coded the wrong reading",
+      "text": "Mailbox gamified hitting zero.",
+      "note": "A cheerful \"You're all done\" over a changing photo, every time you emptied the box. Dropbox bought Mailbox and shut it down in 2016. The number won; the point was lost.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "In 2020 the inventor admitted his own inbox is full.",
+      "durationInFrames": 82
+    },
+    {
+      "kind": "sign",
+      "line": "Chase the attention, not the count.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

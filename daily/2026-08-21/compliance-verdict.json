@@ -1,0 +1,185 @@
+{
+  "date": "2026-08-21",
+  "generatedAt": "2026-08-21T09:26:31.670Z",
+  "policyVersion": "1.0.0",
+  "strictMode": false,
+  "allowed": [],
+  "blocked": [
+    "hamburger-menu-xerox",
+    "inbox-zero-mann",
+    "wifi-not-fidelity"
+  ],
+  "results": [
+    {
+      "slug": "hamburger-menu-xerox",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "They were drawn in 1981.",
+      "niche": "app",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "style.emoji",
+          "message": "Emoji found in title or description.",
+          "detail": null
+        },
+        {
+          "severity": "BLOCK",
+          "rule": "repetition.combo_batch",
+          "message": "Same theme/font/audio as \"inbox-zero-mann\" in this batch.",
+          "detail": {
+            "combo": "undefined|undefined|"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.143,
+        "worstTitleAgainst": "mario-pixel-budget",
+        "worstDescriptionSimilarity": 0.23,
+        "combo": "undefined|undefined|",
+        "themeGap": 45,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "inbox-zero-mann",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "Inbox Zero means an empty inbox.",
+      "niche": "productivity",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "repetition.combo_batch",
+          "message": "Same theme/font/audio as \"hamburger-menu-xerox\" in this batch.",
+          "detail": {
+            "combo": "undefined|undefined|"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.139,
+        "worstTitleAgainst": "consensus-mode",
+        "worstDescriptionSimilarity": 0.232,
+        "combo": "undefined|undefined|",
+        "themeGap": 45,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "wifi-not-fidelity",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "Wi-Fi is short for Wireless Fidelity.",
+      "niche": "tech",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "repetition.combo_batch",
+          "message": "Same theme/font/audio as \"hamburger-menu-xerox\" in this batch.",
+          "detail": {
+            "combo": "undefined|undefined|"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.217,
+        "worstTitleAgainst": "pixel-origin",
+        "worstDescriptionSimilarity": 0.244,
+        "combo": "undefined|undefined|",
+        "themeGap": 45,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    }
+  ]
+}
