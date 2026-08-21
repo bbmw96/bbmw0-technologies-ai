@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (pacman-256)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0B0E",
+    "ink": "#F4F1E6",
+    "accent": "#F2C744",
+    "muted": "#7E7F86"
+  },
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Pac-Man has no final level",
+      "text": "The ending is a byte running out of room.",
+      "note": "No one designed a board 256. The game keeps the level in a single byte, which cannot count past 255 — and 256 is what spills out when it tries.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "131",
+      "unit": "dots",
+      "context": "Every dot the broken board contains — 122 on the intact left, 9 in the garbled right. Clearing a board takes 244. The count can never be reached, so the level cannot end.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2007",
+      "name": "Don Hodges",
+      "role": "He disassembled the arcade code and found it: at board 256 the level counter wraps to zero, and the routine that paints the fruit is told to draw 256 of them — smearing 512 bytes of unrelated program across the right of the screen.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "It is not a crash",
+      "text": "The game runs fine. It draws the wrong memory.",
+      "note": "Pac-Man still moves, the ghosts still hunt, the left maze is perfect. A few of the garbled bytes even happen to be edible dots. Only the fruit routine has lost the plot.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Hodges fixed it in nine bytes. The famous wall was one missing check the whole time.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "sign",
+      "line": "Pac-Man ends where a byte does.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Follow for more."
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "pacman-256",
+  "date": "2026-08-21",
+  "title": "The ending is a byte running out of room.",
+  "description": "The ending is a byte running out of room. No one designed a board 256. The game keeps the level in a single byte, which cannot count past 255, and 256 is what spills out when it tries.\n\nEvery dot the broken board contains, 122 on the intact left, 9 in the garbled right. Clearing a board takes 244. The count can never be reached, so the level cannot end.\n\nHe disassembled the arcade code and found it: at board 256 the level counter wraps to zero, and the routine that paints the fruit is told to draw 256 of them, smearing 512 bytes of unrelated program across the right of the screen.\n\nThe game runs fine. It draws the wrong memory. Pac-Man still moves, the ghosts still hunt, the left maze is perfect. A few of the garbled bytes even happen to be edible dots. Only the fruit routine has lost the plot.\n\nHodges fixed it in nine bytes. The famous wall was one missing check the whole time.\n\nSources:\n- http://donhodges.com/how_high_can_you_get2.htm\n- https://pacman.fandom.com/wiki/Map_256_Glitch\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "gaming",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-08-21-pacman-256.mp4",
+  "propsFile": "daily/2026-08-21/pacman-256.props.json",
+  "durationInFrames": 1094,
+  "audioUrl": "",
+  "niche": "gaming",
+  "composition": "Reel"
+}

@@ -81,7 +81,8 @@
     "reel:eliza-doctor",
     "reel:hamburger-menu-xerox",
     "reel:wifi-not-fidelity",
-    "reel:inbox-zero-mann"
+    "reel:inbox-zero-mann",
+    "reel:pacman-256"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -1279,6 +1280,45 @@
       "channelId": "yt-bbmw0",
       "special": false,
       "platform": "youtube"
+    },
+    {
+      "id": "hamburger-menu-xerox",
+      "date": "2026-08-21",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "They were drawn in 1981.",
+      "description": "They were drawn in 1981. Not for a phone, for the Xerox Star, a black-and-white office workstation. Norm Cox needed somewhere to park the buttons that would not fit across a window's title bar.\n\nHe drew the Star's icons, including the dog-eared page still used for \"document.\" The menu mark had to read at about sixteen pixels square: three bars, a shrunk picture of the list that would drop down.\n\nWindows had it in 1985, then threw it away. It shipped in Windows 1.0, vanished by Windows 2.0, and did not return to Windows until 2016. Phones revived it around 2009, when screens got small again.\n\nThere is no hamburger in Unicode. So designers fake it, usually with the maths sign for \"identical to,\" ≡, or the I Ching's trigram for heaven, ☰. The icon a billion people tap is borrowed punctuation.\n\nCox learned it was everywhere, and called a hamburger, from a reporter's phone call, thirty years on.\n\nSources:\n- https://medium.com/readme-mic/a-conversation-with-norm-cox-creator-of-the-hamburger-menu-c913daea5f9e\n- https://en.wikipedia.org/wiki/Hamburger_button\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "wifi-not-fidelity",
+      "date": "2026-08-21",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Wi-Fi is short for Wireless Fidelity.",
+      "description": "Wi-Fi is short for Wireless Fidelity. The dictionary calls that reading spurious. Phil Belanger, who ran the naming, is blunter: it is not an acronym, and there is no meaning.\n\nThe alliance behind the new 802.11b radio could not market \"IEEE 802.11b Direct Sequence,\" so it hired the agency that had named Prozac and Compaq. What came back was Wi-Fi, a pun on hi-fi, chosen from a list of ten.\n\nThe name was chosen first. The meaning was bolted on. Some board members could not stomach a name that explained nothing, so they added the tag line \"The Standard for Wireless Fidelity.\" It ran about a year, then was quietly retired.\n\nThe group never wrote a standard. It certifies that devices interoperate; the standard is IEEE's. So the phrase is wrong on both words, Belanger's own verdict is that it only diluted the brand.\n\nThe man who picked the name spent years asking people to forget the tag line.\n\nSources:\n- https://boingboing.net/2005/11/08/wifi-isnt-short-for.html\n- https://www.mentalfloss.com/technology/what-does-wi-fi-stand-for\n- https://en.wikipedia.org/wiki/Wi-Fi_Alliance\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "pacman-256",
+      "date": "2026-08-21",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The ending is a byte running out of room.",
+      "description": "The ending is a byte running out of room. No one designed a board 256. The game keeps the level in a single byte, which cannot count past 255, and 256 is what spills out when it tries.\n\nEvery dot the broken board contains, 122 on the intact left, 9 in the garbled right. Clearing a board takes 244. The count can never be reached, so the level cannot end.\n\nHe disassembled the arcade code and found it: at board 256 the level counter wraps to zero, and the routine that paints the fruit is told to draw 256 of them, smearing 512 bytes of unrelated program across the right of the screen.\n\nThe game runs fine. It draws the wrong memory. Pac-Man still moves, the ghosts still hunt, the left maze is perfect. A few of the garbled bytes even happen to be edible dots. Only the fruit routine has lost the plot.\n\nHodges fixed it in nine bytes. The famous wall was one missing check the whole time.\n\nSources:\n- http://donhodges.com/how_high_can_you_get2.htm\n- https://pacman.fandom.com/wiki/Map_256_Glitch\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }
