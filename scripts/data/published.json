@@ -82,7 +82,8 @@
     "reel:hamburger-menu-xerox",
     "reel:wifi-not-fidelity",
     "reel:inbox-zero-mann",
-    "reel:pacman-256"
+    "reel:pacman-256",
+    "reel:bluetooth-harald"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -1319,6 +1320,23 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "bluetooth-harald",
+      "date": "2026-08-22",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It is a dead king's initials.",
+      "description": "It is a dead king's initials. Not a waveform, not an acronym. Two Younger Futhark runes, ᚼ and ᛒ, his H and his B, pressed into one mark.\n\nKing of Denmark, called Blatand, Bluetooth, for a dead, blue-grey tooth. He pulled the Danish tribes together and brought in Norway. That uniting is the entire reason the name was chosen.\n\nIn a meeting to make Intel, Ericsson and Nokia's radios talk to each other, he offered \"Bluetooth\" as a throwaway codename, a king who united Scandinavia, for a link meant to unite the PC and the phone.\n\nThe real names were RadioWire and PAN. PAN led until a search returned tens of thousands of hits. RadioWire's trademark check could not clear in time for launch. So the placeholder went out, and spread before anyone could replace it.\n\nMarketing's \"really cool\" name never arrived. The codename ate it.\n\nSources:\n- https://www.bluetooth.com/about-us/bluetooth-origin/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "xZNCzrqpoR0",
+      "youtubeUrl": "https://youtu.be/xZNCzrqpoR0",
+      "uploadedAt": "2026-08-22T09:19:31.488Z",
+      "privacy": "public"
     }
   ]
 }
