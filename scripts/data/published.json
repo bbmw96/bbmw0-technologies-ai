@@ -86,7 +86,9 @@
     "reel:bluetooth-harald",
     "reel:eiffel-temporary-radio",
     "reel:http-404-not-a-room",
-    "reel:google-googol-misspelling"
+    "reel:google-googol-misspelling",
+    "reel:perceptron-nyt-1958",
+    "reel:donkey-kong-universal"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -1396,6 +1398,45 @@
       "channelId": "yt-bbmw0",
       "special": false,
       "platform": "youtube"
+    },
+    {
+      "id": "perceptron-nyt-1958",
+      "date": "2026-08-27",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The press says the human brain finally has a rival.",
+      "description": "The press says the human brain finally has a rival. The New Yorker called the Perceptron 'the first serious rival to the human brain ever devised'. The New York Times ran the headline 'New Navy Device Learns By Doing'.\n\nA Cornell psychologist. His Perceptron ran on a five-ton IBM 704, and after 50 trials it taught itself to tell a card marked on the left from one marked on the right. He called it 'the first machine capable of having an original idea'.\n\nIt could not tell whether two inputs disagreed. In 1969 Marvin Minsky and Seymour Papert proved a single-layer perceptron cannot compute XOR, one of the simplest logic functions there is. Rosenblatt's machine had one layer. Today's networks have millions.\n\nAn AI winter set in. Funding for neural networks dried up, and the field turned elsewhere for years. Rosenblatt did not see the thaw: he drowned in 1971, sailing, on his forty-third birthday.\n\nThe machine that would rival the brain had been on the right track all along, about sixty years too soon.\n\nSources:\n- https://news.cornell.edu/stories/2019/09/professors-perceptron-paved-way-ai-60-years-too-soon (Cornell Chronicle, Melanie Lefkowitz, 25 September 2019; read in full 27 August 2026): established that in July 1958 the US Office of Naval Research demonstrated Frank Rosenblatt's Perceptron on a five-ton, room-sized IBM 704, which after 50 trials taught itself to tell cards marked on the left from cards marked on the right; that Rosenblatt, a research psychologist at the Cornell Aeronautical Laboratory, called it 'the first machine which is capable of having an original idea'; that the New York Times headline read 'NEW NAVY DEVICE LEARNS BY DOING: Psychologist Shows Embryo of Computer Designed to Read and Grow Wiser' and the New Yorker called it 'the first serious rival to the human brain ever devised'; that the perceptron had a single layer while modern networks have millions; that its rise and fall helped usher in the 'AI winter'; that Rosenblatt drowned in 1971 on his 43rd birthday; and that his Mark I perceptron now sits in the Smithsonian.\n- https://en.wikipedia.org/wiki/Perceptrons_(book) (Wikipedia, 'Perceptrons (book)'; read in full 27 August 2026): established that Marvin Minsky and Seymour Papert published Perceptrons in 1969; that its proofs showed a single-layer perceptron cannot compute certain simple predicates including the XOR function; that the book is commonly credited with helping shift AI funding toward symbolic systems and contributing to the AI winter; and, as a complicating point, that this causal story is contested, with Minsky and Papert themselves later saying research waned for other reasons and critics such as Bernard Widrow calling the proofs largely irrelevant.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "donkey-kong-universal",
+      "date": "2026-08-27",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "'Monkey Kong', garbled into 'Donkey'.",
+      "description": "'Monkey Kong', garbled into 'Donkey'. The legend says a blurred fax, or a bad phone line, turned 'Monkey' into 'Donkey' before anyone caught it. It is retold everywhere. There is no evidence for any version of it.\n\nAsked to rescue a failed arcade game, he built Donkey Kong instead. He has said he chose 'donkey' from a dictionary to mean stubborn, and 'Kong' for a gorilla. At trial he added that in Japan 'King Kong' just meant any big, scary ape.\n\nNintendo has stolen King Kong, they say. Universal claimed Donkey Kong infringed its King Kong trademark. Awkwardly, seven years earlier Universal had gone to court to argue the opposite: that the King Kong story belonged to no one, and was in the public domain.\n\nThe two apes were not alike enough to confuse anyone. The court ruled for Nintendo in 1984 on a plain ground: no one would mistake a barrel-throwing cartoon for King Kong. Donkey Kong was, it wrote, 'at best... a parody'. Nintendo's lawyer was John Kirby.\n\nThe studio that owned King Kong had already told a court that King Kong belonged to everyone. It lost to the cartoon ape anyway.\n\nSources:\n- https://www.snopes.com/fact-check/donkey-kong-mistranslation/ (Snopes, David Mikkelson, published 24 February 2001; read in full 27 August 2026): established that the popular legend that 'Donkey Kong' was a mistranslated, mistyped or misheard 'Monkey Kong' has no supporting evidence; that Shigeru Miyamoto, who built the 1981 game after being asked to salvage the failed arcade title 'Radarscope', has repeatedly said he used 'donkey' to convey stubbornness and 'Kong' to invoke a gorilla; that Miyamoto stated at the later Universal trial that 'King Kong' was treated in Japan as a generic term for a large, scary ape; and that Donkey Kong earned Nintendo of America about 100 million dollars in its first year.\n- https://law.justia.com/cases/federal/appellate-courts/F2/746/112/30961/ (US Court of Appeals for the Second Circuit, Universal City Studios, Inc. v. Nintendo Co., 746 F.2d 112, decided 4 October 1984; read in full 27 August 2026): established that Universal sued Nintendo in 1982 claiming Donkey Kong infringed and diluted its King Kong trademark; that Nintendo's counsel was John J. Kirby, Jr.; that the district court under Judge Sweet granted Nintendo summary judgment and the appeals court affirmed on the ground that there was no likelihood of consumer confusion, calling Donkey Kong 'at best... a parody of King Kong'; and, in footnote 1, that in a 1975 California case Universal had itself sought a declaration that it could remake King Kong because the story was in the public domain.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "http-404-not-a-room",
+      "date": "2026-08-27",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The story says it is named after a room at CERN.",
+      "description": "The story says it is named after a room at CERN. The legend: room 404 held the web's first server, or Tim Berners-Lee's office, and anything the server could not locate was 'not found in room 404'. It is told constantly. It is also wrong.\n\nThe 4 means you erred. The rest just means 'not found'. In HTTP every reply carries a status code. Codes starting with 4 mean the client made the mistake, a bad or missing request. 404 sits with 400 Bad Request, 401 Unauthorized and 403 Forbidden. Nothing more.\n\nWrote the codes into the young web's specification at CERN. The definition has read the same ever since: 'The server has not found anything matching the URI given.' A slot in a table, not a door.\n\nThere was never a room 404 at CERN. There is only the list, and the fourth kind of error on it.\n\nSources:\n- https://www.w3.org/Protocols/HTTP/HTRESP.html (W3C, 'Status codes in HTTP', a historic CERN and W3C document dated 1992; read in full 27 August 2026): established that HTTP groups its status codes by leading digit, that the '4xx codes are intended for cases in which the client seems to have erred' while 5xx codes are for server errors, and that 404 is defined as 'Not found: The server has not found anything matching the URI given', listed alongside 400 Bad request, 401 Unauthorized and 403 Forbidden.\n- https://queenofsubtle.com/404/?page_id=1921 (404 Research Lab, 'a brief history of 404'; read in full 27 August 2026): established that the HTTP status codes were defined by Tim Berners-Lee as part of the early HTTP specification and were modelled on the older FTP reply codes; that in 404 the leading 4 marks a client error; and, quoting a visitor to CERN, that there is no room 404 at CERN, the offices on that floor starting at 410, so the 'named after a room' story is a myth.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }

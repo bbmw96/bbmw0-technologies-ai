@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (donkey-kong-universal)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#120A0A",
+    "ink": "#F3E9DF",
+    "accent": "#E4572E",
+    "muted": "#8A7F79"
+  },
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The name is supposed to be a mistake",
+      "text": "'Monkey Kong', garbled into 'Donkey'.",
+      "note": "The legend says a blurred fax, or a bad phone line, turned 'Monkey' into 'Donkey' before anyone caught it. It is retold everywhere. There is no evidence for any version of it.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1981",
+      "name": "Shigeru Miyamoto",
+      "role": "Asked to rescue a failed arcade game, he built Donkey Kong instead. He has said he chose 'donkey' from a dictionary to mean stubborn, and 'Kong' for a gorilla. At trial he added that in Japan 'King Kong' just meant any big, scary ape.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "1982, Universal City Studios sues",
+      "text": "Nintendo has stolen King Kong, they say.",
+      "note": "Universal claimed Donkey Kong infringed its King Kong trademark. Awkwardly, seven years earlier Universal had gone to court to argue the opposite: that the King Kong story belonged to no one, and was in the public domain.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Nintendo won",
+      "text": "The two apes were not alike enough to confuse anyone.",
+      "note": "The court ruled for Nintendo in 1984 on a plain ground: no one would mistake a barrel-throwing cartoon for King Kong. Donkey Kong was, it wrote, 'at best... a parody'. Nintendo's lawyer was John Kirby.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The studio that owned King Kong had already told a court that King Kong belonged to everyone. It lost to the cartoon ape anyway.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "sign",
+      "line": "A dictionary, a gorilla, and a lawsuit the giant lost.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 106
+    }
+  ],
+  "cta": "Follow for more."
+}

@@ -7,7 +7,9 @@
   "blocked": [
     "eiffel-temporary-radio",
     "google-googol-misspelling",
-    "http-404-not-a-room"
+    "http-404-not-a-room",
+    "donkey-kong-universal",
+    "perceptron-nyt-1958"
   ],
   "results": [
     {
@@ -194,6 +196,146 @@
         "worstTitleSimilarity": 0.222,
         "worstTitleAgainst": "algebra-origin",
         "worstDescriptionSimilarity": 0.242,
+        "combo": "undefined|undefined|",
+        "themeGap": 53,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "donkey-kong-universal",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "BLOCK",
+      "title": "'Monkey Kong', garbled into 'Donkey'.",
+      "niche": "gaming",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "instagram.caption_too_long",
+          "message": "Caption is 2774 chars, Instagram limit is 2200.",
+          "detail": null
+        },
+        {
+          "severity": "BLOCK",
+          "rule": "repetition.combo_batch",
+          "message": "Same theme/font/audio as \"http-404-not-a-room\" in this batch.",
+          "detail": {
+            "combo": "undefined|undefined|"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.125,
+        "worstTitleAgainst": "embeddings-meaning",
+        "worstDescriptionSimilarity": 0.246,
+        "combo": "undefined|undefined|",
+        "themeGap": 53,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "perceptron-nyt-1958",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "BLOCK",
+      "title": "The press says the human brain finally has a rival.",
+      "niche": "ai",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "instagram.caption_too_long",
+          "message": "Caption is 2906 chars, Instagram limit is 2200.",
+          "detail": null
+        },
+        {
+          "severity": "BLOCK",
+          "rule": "repetition.combo_batch",
+          "message": "Same theme/font/audio as \"donkey-kong-universal\" in this batch.",
+          "detail": {
+            "combo": "undefined|undefined|"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "halal.context_review",
+          "message": "Term(s) needing context: birthday. Referred to the AI reviewer.",
+          "detail": {
+            "terms": [
+              "birthday"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.091,
+        "worstTitleAgainst": "http-404-not-a-room (same batch)",
+        "worstDescriptionSimilarity": 0.246,
         "combo": "undefined|undefined|",
         "themeGap": 53,
         "audioGap": 0

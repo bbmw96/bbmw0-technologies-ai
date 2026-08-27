@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (perceptron-nyt-1958)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0C10",
+    "ink": "#EAEAF0",
+    "accent": "#5B8CD6",
+    "muted": "#7A828F"
+  },
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "1958. The US Navy shows off a machine that learns.",
+      "text": "The press says the human brain finally has a rival.",
+      "note": "The New Yorker called the Perceptron 'the first serious rival to the human brain ever devised'. The New York Times ran the headline 'New Navy Device Learns By Doing'.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1958",
+      "name": "Frank Rosenblatt",
+      "role": "A Cornell psychologist. His Perceptron ran on a five-ton IBM 704, and after 50 trials it taught itself to tell a card marked on the left from one marked on the right. He called it 'the first machine capable of having an original idea'.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Then the maths caught up",
+      "text": "It could not tell whether two inputs disagreed.",
+      "note": "In 1969 Marvin Minsky and Seymour Papert proved a single-layer perceptron cannot compute XOR, one of the simplest logic functions there is. Rosenblatt's machine had one layer. Today's networks have millions.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The money went cold",
+      "text": "An AI winter set in.",
+      "note": "Funding for neural networks dried up, and the field turned elsewhere for years. Rosenblatt did not see the thaw: he drowned in 1971, sailing, on his forty-third birthday.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The machine that would rival the brain had been on the right track all along, about sixty years too soon.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "sign",
+      "line": "His Mark I perceptron now sits in the Smithsonian.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Follow for more."
+}
