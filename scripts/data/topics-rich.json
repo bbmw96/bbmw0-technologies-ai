@@ -1398,6 +1398,249 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "donkey-kong-universal",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://www.snopes.com/fact-check/donkey-kong-mistranslation/ (Snopes, David Mikkelson, published 24 February 2001; read in full 27 August 2026): established that the popular legend that 'Donkey Kong' was a mistranslated, mistyped or misheard 'Monkey Kong' has no supporting evidence; that Shigeru Miyamoto, who built the 1981 game after being asked to salvage the failed arcade title 'Radarscope', has repeatedly said he used 'donkey' to convey stubbornness and 'Kong' to invoke a gorilla; that Miyamoto stated at the later Universal trial that 'King Kong' was treated in Japan as a generic term for a large, scary ape; and that Donkey Kong earned Nintendo of America about 100 million dollars in its first year.",
+        "https://law.justia.com/cases/federal/appellate-courts/F2/746/112/30961/ (US Court of Appeals for the Second Circuit, Universal City Studios, Inc. v. Nintendo Co., 746 F.2d 112, decided 4 October 1984; read in full 27 August 2026): established that Universal sued Nintendo in 1982 claiming Donkey Kong infringed and diluted its King Kong trademark; that Nintendo's counsel was John J. Kirby, Jr.; that the district court under Judge Sweet granted Nintendo summary judgment and the appeals court affirmed on the ground that there was no likelihood of consumer confusion, calling Donkey Kong 'at best... a parody of King Kong'; and, in footnote 1, that in a 1975 California case Universal had itself sought a declaration that it could remake King Kong because the story was in the public domain."
+      ],
+      "verifiedNote": "Checked 27 August 2026 against Snopes and the Second Circuit opinion, both read in full. The correction is twofold: the 'Monkey Kong mistranslation' is an unevidenced legend, and Nintendo's win did not turn on the public-domain point that the popular retelling stresses. The appeals court affirmed only on no likelihood of confusion and expressly declined to decide the public-domain and estoppel questions in footnote 3, so the entry states that Universal had argued King Kong was public domain in 1975 as fact and as part of Nintendo's defence, without claiming it was the stated ground of the ruling. No figure beat: the money figures, about 100 million dollars in the first year and over 180 million dollars from roughly 60,000 machines by the time of the suit, are real but incidental to a story about a name and a lawsuit, so none is enlarged. Deliberately not said: the widely repeated claim that Nintendo's Kirby character was named after lawyer John Kirby, which Nintendo has never confirmed; and the fax and phone-line versions of the legend, whose mutual inconsistency is itself the tell.",
+      "palette": {
+        "bg": "#120A0A",
+        "ink": "#F3E9DF",
+        "accent": "#E4572E",
+        "muted": "#8A7F79"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The name is supposed to be a mistake",
+          "text": "'Monkey Kong', garbled into 'Donkey'.",
+          "note": "The legend says a blurred fax, or a bad phone line, turned 'Monkey' into 'Donkey' before anyone caught it. It is retold everywhere. There is no evidence for any version of it."
+        },
+        {
+          "kind": "credit",
+          "year": "1981",
+          "name": "Shigeru Miyamoto",
+          "role": "Asked to rescue a failed arcade game, he built Donkey Kong instead. He has said he chose 'donkey' from a dictionary to mean stubborn, and 'Kong' for a gorilla. At trial he added that in Japan 'King Kong' just meant any big, scary ape."
+        },
+        {
+          "kind": "statement",
+          "lead": "1982, Universal City Studios sues",
+          "text": "Nintendo has stolen King Kong, they say.",
+          "note": "Universal claimed Donkey Kong infringed its King Kong trademark. Awkwardly, seven years earlier Universal had gone to court to argue the opposite: that the King Kong story belonged to no one, and was in the public domain."
+        },
+        {
+          "kind": "statement",
+          "lead": "Nintendo won",
+          "text": "The two apes were not alike enough to confuse anyone.",
+          "note": "The court ruled for Nintendo in 1984 on a plain ground: no one would mistake a barrel-throwing cartoon for King Kong. Donkey Kong was, it wrote, 'at best... a parody'. Nintendo's lawyer was John Kirby."
+        },
+        {
+          "kind": "kicker",
+          "text": "The studio that owned King Kong had already told a court that King Kong belonged to everyone. It lost to the cartoon ape anyway."
+        },
+        {
+          "kind": "sign",
+          "line": "A dictionary, a gorilla, and a lawsuit the giant lost.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "perceptron-nyt-1958",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://news.cornell.edu/stories/2019/09/professors-perceptron-paved-way-ai-60-years-too-soon (Cornell Chronicle, Melanie Lefkowitz, 25 September 2019; read in full 27 August 2026): established that in July 1958 the US Office of Naval Research demonstrated Frank Rosenblatt's Perceptron on a five-ton, room-sized IBM 704, which after 50 trials taught itself to tell cards marked on the left from cards marked on the right; that Rosenblatt, a research psychologist at the Cornell Aeronautical Laboratory, called it 'the first machine which is capable of having an original idea'; that the New York Times headline read 'NEW NAVY DEVICE LEARNS BY DOING: Psychologist Shows Embryo of Computer Designed to Read and Grow Wiser' and the New Yorker called it 'the first serious rival to the human brain ever devised'; that the perceptron had a single layer while modern networks have millions; that its rise and fall helped usher in the 'AI winter'; that Rosenblatt drowned in 1971 on his 43rd birthday; and that his Mark I perceptron now sits in the Smithsonian.",
+        "https://en.wikipedia.org/wiki/Perceptrons_(book) (Wikipedia, 'Perceptrons (book)'; read in full 27 August 2026): established that Marvin Minsky and Seymour Papert published Perceptrons in 1969; that its proofs showed a single-layer perceptron cannot compute certain simple predicates including the XOR function; that the book is commonly credited with helping shift AI funding toward symbolic systems and contributing to the AI winter; and, as a complicating point, that this causal story is contested, with Minsky and Papert themselves later saying research waned for other reasons and critics such as Bernard Widrow calling the proofs largely irrelevant."
+      ],
+      "verifiedNote": "Checked 27 August 2026 against the Cornell Chronicle and the Wikipedia article on the Minsky and Papert book, both read in full. The reel's point is that the AI hype cycle is old: in 1958 the press said the brain had a rival, and eleven years later a single-layer perceptron was shown unable to compute XOR. No figure beat: the supporting numbers, five tons, IBM 704, 50 trials, 1958, 1969 and age 43, are scene-setting rather than the claim, so none is enlarged. Deliberately not said: the much-quoted line that the 1958 New York Times report predicted a machine that would 'walk, talk, see, write, reproduce itself and be conscious of its existence', because the original NYT article was not read in full here; only the headline and the New Yorker line, both quoted verbatim by Cornell, are used. The claim that the Minsky and Papert book 'killed' neural networks is softened to 'helped usher in' the AI winter, because that causation is disputed in the sources. This is a distinct episode from the existing ai-winter-1973 topic, which concerns the later Lighthill report in Britain.",
+      "palette": {
+        "bg": "#0A0C10",
+        "ink": "#EAEAF0",
+        "accent": "#5B8CD6",
+        "muted": "#7A828F"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "1958. The US Navy shows off a machine that learns.",
+          "text": "The press says the human brain finally has a rival.",
+          "note": "The New Yorker called the Perceptron 'the first serious rival to the human brain ever devised'. The New York Times ran the headline 'New Navy Device Learns By Doing'."
+        },
+        {
+          "kind": "credit",
+          "year": "1958",
+          "name": "Frank Rosenblatt",
+          "role": "A Cornell psychologist. His Perceptron ran on a five-ton IBM 704, and after 50 trials it taught itself to tell a card marked on the left from one marked on the right. He called it 'the first machine capable of having an original idea'."
+        },
+        {
+          "kind": "statement",
+          "lead": "Then the maths caught up",
+          "text": "It could not tell whether two inputs disagreed.",
+          "note": "In 1969 Marvin Minsky and Seymour Papert proved a single-layer perceptron cannot compute XOR, one of the simplest logic functions there is. Rosenblatt's machine had one layer. Today's networks have millions."
+        },
+        {
+          "kind": "statement",
+          "lead": "The money went cold",
+          "text": "An AI winter set in.",
+          "note": "Funding for neural networks dried up, and the field turned elsewhere for years. Rosenblatt did not see the thaw: he drowned in 1971, sailing, on his forty-third birthday."
+        },
+        {
+          "kind": "kicker",
+          "text": "The machine that would rival the brain had been on the right track all along, about sixty years too soon."
+        },
+        {
+          "kind": "sign",
+          "line": "His Mark I perceptron now sits in the Smithsonian.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "http-404-not-a-room",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://www.w3.org/Protocols/HTTP/HTRESP.html (W3C, 'Status codes in HTTP', a historic CERN and W3C document dated 1992; read in full 27 August 2026): established that HTTP groups its status codes by leading digit, that the '4xx codes are intended for cases in which the client seems to have erred' while 5xx codes are for server errors, and that 404 is defined as 'Not found: The server has not found anything matching the URI given', listed alongside 400 Bad request, 401 Unauthorized and 403 Forbidden.",
+        "https://queenofsubtle.com/404/?page_id=1921 (404 Research Lab, 'a brief history of 404'; read in full 27 August 2026): established that the HTTP status codes were defined by Tim Berners-Lee as part of the early HTTP specification and were modelled on the older FTP reply codes; that in 404 the leading 4 marks a client error; and, quoting a visitor to CERN, that there is no room 404 at CERN, the offices on that floor starting at 410, so the 'named after a room' story is a myth."
+      ],
+      "verifiedNote": "Checked 27 August 2026 against the W3C historic status-code document, read in full, and the 404 Research Lab history, read in full. The load-bearing correction rests on the primary W3C page: 404 is simply the 'Not found' entry in HTTP's numbered scheme, 4xx meaning the client erred. No figure beat: 404 is a code, an address in a list, not a quantity, so it is never enlarged, the same discipline the moth topic used for its relay number. The 'no room 404 at CERN' detail and the FTP lineage come from the 404 Research Lab, the former from an anecdotal visitor account rather than an official CERN statement, so the reel treats the systematic scheme as the answer and the absent room as corroboration. Deliberately not said as fact: the specific 'offices start at 410' room number; the beats claim only that no room 404 existed. The variant legends, that it was Berners-Lee's office or the first server's room, are named as the myth, not endorsed.",
+      "palette": {
+        "bg": "#0B0E0D",
+        "ink": "#E9ECEA",
+        "accent": "#41B29A",
+        "muted": "#79817D"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "You hit a dead link. 404. Not found.",
+          "text": "The story says it is named after a room at CERN.",
+          "note": "The legend: room 404 held the web's first server, or Tim Berners-Lee's office, and anything the server could not locate was 'not found in room 404'. It is told constantly. It is also wrong."
+        },
+        {
+          "kind": "statement",
+          "lead": "404 is not a place. It is a position in a list.",
+          "text": "The 4 means you erred. The rest just means 'not found'.",
+          "note": "In HTTP every reply carries a status code. Codes starting with 4 mean the client made the mistake, a bad or missing request. 404 sits with 400 Bad Request, 401 Unauthorized and 403 Forbidden. Nothing more."
+        },
+        {
+          "kind": "credit",
+          "year": "1992",
+          "name": "Tim Berners-Lee",
+          "role": "Wrote the codes into the young web's specification at CERN. The definition has read the same ever since: 'The server has not found anything matching the URI given.' A slot in a table, not a door."
+        },
+        {
+          "kind": "kicker",
+          "text": "There was never a room 404 at CERN. There is only the list, and the fourth kind of error on it."
+        },
+        {
+          "kind": "sign",
+          "line": "The web's most famous dead end is a filing decision, not a place.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "google-googol-misspelling",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://graphics.stanford.edu/~dk/google_name_origin.html (Stanford University, David Koller, January 2004; read in full 27 August 2026): established, from Koller's Stanford colleagues in the office where Google was born, that in 1996 Larry Page and Sergey Brin called their search engine 'BackRub'; that in September 1997, brainstorming a new name, Sean Anderson suggested 'googolplex' and Page shortened it to 'googol'; that Anderson, checking whether the domain was free, mistakenly searched for 'google.com', which was available; and that Page registered google.com that day, the registration record dating from 15 September 1997.",
+        "https://mathshistory.st-andrews.ac.uk/SH/kasner_sh.pdf (MacTutor History of Mathematics, University of St Andrews, 'Edward Kasner and how Google got its Name'; read in full 27 August 2026): established, quoting Kasner and Newman's 1940 book Mathematics and the Imagination, that 'googol' was coined in 1920 by Kasner's nine-year-old nephew Milton Sirotta as a name for 1 followed by a hundred zeros, and that a googolplex is a still larger number, 1 followed by zeros 'until you get tired'."
+      ],
+      "verifiedNote": "Checked 27 August 2026 against David Koller's Stanford account, read in full, and the St Andrews MacTutor page, read in full. The correction is that Google is not a tidy homage to the number googol but a misspelling of it, kept only because the misspelt domain happened to be free. Figure beat: '100 zeros' is enlarged because the hundredness is the definition of googol and the reason the founders reached for the word; it is a whole number with a short unit, and it is the fact, not an address, unlike Page's office room number 360, which is left out. The naming account is Sean Anderson's recollection as recorded by Koller around 2004, several years after 1997, and is presented as such rather than as a contemporaneous record. Deliberately not said: the popular line that a googol exceeds the number of atoms in the observable universe, broadly true but whose specific figure was not read in a source here; and any claim that Sergey Brin was in the room, since Koller places only Anderson and Page at the whiteboard.",
+      "palette": {
+        "bg": "#0C0D10",
+        "ink": "#ECEAE3",
+        "accent": "#E1A73E",
+        "muted": "#7E8188"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Google is named after googol, the number.",
+          "text": "Except nobody meant to spell it that way.",
+          "note": "The founders were reaching for 'googol', a mathematician's word for an enormous number. The company carries a typo of it, kept because the misspelling was the domain that happened to be free."
+        },
+        {
+          "kind": "figure",
+          "value": "100",
+          "unit": "zeros",
+          "context": "A googol is 1 followed by a hundred zeros. A nine-year-old, Milton Sirotta, coined the word in 1920; his uncle, the mathematician Edward Kasner, wrote it into a book. Google's founders were aiming for it."
+        },
+        {
+          "kind": "credit",
+          "year": "1997",
+          "name": "Sean Anderson",
+          "role": "A Stanford graduate student sharing Larry Page's office. Brainstorming names, he went to check whether 'googol' was a free domain, but typed 'google.com' by mistake. It was available. Page registered it the same day, 15 September 1997."
+        },
+        {
+          "kind": "kicker",
+          "text": "The number was named by a child. The company was named by a typo. Neither was the plan."
+        },
+        {
+          "kind": "sign",
+          "line": "A misspelt search for a schoolboy's number, registered in an afternoon.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "eiffel-temporary-radio",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://www.toureiffel.paris/en/the-monument/eiffel-tower-and-science (Official Eiffel Tower website, Societe d'Exploitation de la Tour Eiffel, 'The Eiffel Tower and science'; read in full 27 August 2026): established that the tower was to be destroyed 20 years after construction; that Gustave Eiffel promoted scientific uses to save it; that on 5 November 1898 Eugene Ducretet made the first wireless telegraphy contact between the tower and the Pantheon; that from 1903 Eiffel funded Captain Gustave Ferrie's military wireless experiments from the tower, whose concession was due to end in 1909; that in 1909 an underground military radiotelegraphy station was set up and the City of Paris renewed the concession on 1 January 1910; and that in the First World War the tower's station intercepted German communications before the Battle of the Marne.",
+        "https://www.toureiffel.paris/en/the-monument/history (Official Eiffel Tower website, 'Origins and Construction of the Eiffel Tower'; read in full 27 August 2026): established that the tower was built for the 1889 Exposition Universelle marking the centenary of the French Revolution, stood 300 metres tall, and was completed on 31 March 1889; and that in 1887 a 'Protest against the Tower of Monsieur Eiffel', signed by figures including Guy de Maupassant, Charles Gounod, Alexandre Dumas junior and Charles Garnier, condemned the 'useless and monstrous' tower as a 'hateful column of bolted sheet metal'."
+      ],
+      "verifiedNote": "Checked 27 August 2026 against two pages of the official Eiffel Tower website, both read in full. The correction is that the tower everyone treats as the permanent symbol of Paris was a temporary exhibit, licensed for 20 years and due for demolition in 1909, and that it was saved not by affection but by its usefulness as a radio aerial. Figure beat: '20 years' is enlarged because the length of the concession is the crux the whole story turns on, a whole number with a short unit; the height, 300 metres, and the wartime ranges, up to 6,000 km, are left in prose because they are scenery to this particular story, not its point. Deliberately not foregrounded: the official site's line that the tower's station helped expose the spy Mata Hari, which is popular but historically embellished, so it is omitted rather than leaned on; and the tower's later growth to 324 metres with television aerials, which belongs to a different chapter.",
+      "palette": {
+        "bg": "#0B0C0E",
+        "ink": "#EDE7DC",
+        "accent": "#C08A3E",
+        "muted": "#82817C"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The symbol of Paris was built to be scrapped.",
+          "text": "The Eiffel Tower was only ever meant to be temporary.",
+          "note": "Raised for the 1889 World's Fair, 300 metres of iron marking a century since the Revolution, it was an exhibit, not a monument. The city fully intended to take it down again."
+        },
+        {
+          "kind": "figure",
+          "value": "20",
+          "unit": "years",
+          "context": "That was the length of Gustave Eiffel's permit. When it ran out, the tower was to be dismantled and sold for scrap. The date set for its demolition was 1909."
+        },
+        {
+          "kind": "statement",
+          "lead": "Paris did not even like it",
+          "text": "Its own artists signed a protest to stop it.",
+          "note": "In 1887 Maupassant, Dumas, Gounod and others petitioned against the 'useless and monstrous' tower, a 'hateful column of bolted sheet metal' over the city. The most famous shape in Paris began as an eyesore."
+        },
+        {
+          "kind": "credit",
+          "year": "1909",
+          "name": "Gustave Eiffel",
+          "role": "To save his tower, he made it useful. He funded army wireless experiments from the top, and by 1909 a military radio station beneath it made it indispensable. Paris renewed the lease, and the demolition never came."
+        },
+        {
+          "kind": "kicker",
+          "text": "In the First World War, the aerial that had saved it intercepted German signals before the Battle of the Marne."
+        },
+        {
+          "kind": "sign",
+          "line": "The icon of Paris survived because it made a very good antenna.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
