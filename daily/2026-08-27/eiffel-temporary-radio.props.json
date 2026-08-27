@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (eiffel-temporary-radio)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0C0E",
+    "ink": "#EDE7DC",
+    "accent": "#C08A3E",
+    "muted": "#82817C"
+  },
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The symbol of Paris was built to be scrapped.",
+      "text": "The Eiffel Tower was only ever meant to be temporary.",
+      "note": "Raised for the 1889 World's Fair, 300 metres of iron marking a century since the Revolution, it was an exhibit, not a monument. The city fully intended to take it down again.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "20",
+      "unit": "years",
+      "context": "That was the length of Gustave Eiffel's permit. When it ran out, the tower was to be dismantled and sold for scrap. The date set for its demolition was 1909.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "Paris did not even like it",
+      "text": "Its own artists signed a protest to stop it.",
+      "note": "In 1887 Maupassant, Dumas, Gounod and others petitioned against the 'useless and monstrous' tower, a 'hateful column of bolted sheet metal' over the city. The most famous shape in Paris began as an eyesore.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1909",
+      "name": "Gustave Eiffel",
+      "role": "To save his tower, he made it useful. He funded army wireless experiments from the top, and by 1909 a military radio station beneath it made it indispensable. Paris renewed the lease, and the demolition never came.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "In the First World War, the aerial that had saved it intercepted German signals before the Battle of the Marne.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "sign",
+      "line": "The icon of Paris survived because it made a very good antenna.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 118
+    }
+  ],
+  "cta": "Subscribe for more."
+}

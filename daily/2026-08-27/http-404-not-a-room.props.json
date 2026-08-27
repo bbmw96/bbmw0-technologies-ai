@@ -1,0 +1,46 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (http-404-not-a-room)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0E0D",
+    "ink": "#E9ECEA",
+    "accent": "#41B29A",
+    "muted": "#79817D"
+  },
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "You hit a dead link. 404. Not found.",
+      "text": "The story says it is named after a room at CERN.",
+      "note": "The legend: room 404 held the web's first server, or Tim Berners-Lee's office, and anything the server could not locate was 'not found in room 404'. It is told constantly. It is also wrong.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "404 is not a place. It is a position in a list.",
+      "text": "The 4 means you erred. The rest just means 'not found'.",
+      "note": "In HTTP every reply carries a status code. Codes starting with 4 mean the client made the mistake, a bad or missing request. 404 sits with 400 Bad Request, 401 Unauthorized and 403 Forbidden. Nothing more.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1992",
+      "name": "Tim Berners-Lee",
+      "role": "Wrote the codes into the young web's specification at CERN. The definition has read the same ever since: 'The server has not found anything matching the URI given.' A slot in a table, not a door.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "There was never a room 404 at CERN. There is only the list, and the fourth kind of error on it.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "sign",
+      "line": "The web's most famous dead end is a filing decision, not a place.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 124
+    }
+  ],
+  "cta": "Subscribe for more."
+}

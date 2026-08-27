@@ -83,7 +83,10 @@
     "reel:wifi-not-fidelity",
     "reel:inbox-zero-mann",
     "reel:pacman-256",
-    "reel:bluetooth-harald"
+    "reel:bluetooth-harald",
+    "reel:eiffel-temporary-radio",
+    "reel:http-404-not-a-room",
+    "reel:google-googol-misspelling"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -1354,6 +1357,45 @@
       "youtubeUrl": "https://youtu.be/17902952880334546",
       "uploadedAt": "2026-08-22T09:23:40.667Z",
       "privacy": "public"
+    },
+    {
+      "id": "eiffel-temporary-radio",
+      "date": "2026-08-27",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The Eiffel Tower was only ever meant to be temporary.",
+      "description": "The Eiffel Tower was only ever meant to be temporary. Raised for the 1889 World's Fair, 300 metres of iron marking a century since the Revolution, it was an exhibit, not a monument. The city fully intended to take it down again.\n\nThat was the length of Gustave Eiffel's permit. When it ran out, the tower was to be dismantled and sold for scrap. The date set for its demolition was 1909.\n\nIts own artists signed a protest to stop it. In 1887 Maupassant, Dumas, Gounod and others petitioned against the 'useless and monstrous' tower, a 'hateful column of bolted sheet metal' over the city. The most famous shape in Paris began as an eyesore.\n\nTo save his tower, he made it useful. He funded army wireless experiments from the top, and by 1909 a military radio station beneath it made it indispensable. Paris renewed the lease, and the demolition never came.\n\nIn the First World War, the aerial that had saved it intercepted German signals before the Battle of the Marne.\n\nSources:\n- https://www.toureiffel.paris/en/the-monument/eiffel-tower-and-science (Official Eiffel Tower website, Societe d'Exploitation de la Tour Eiffel, 'The Eiffel Tower and science'; read in full 27 August 2026): established that the tower was to be destroyed 20 years after construction; that Gustave Eiffel promoted scientific uses to save it; that on 5 November 1898 Eugene Ducretet made the first wireless telegraphy contact between the tower and the Pantheon; that from 1903 Eiffel funded Captain Gustave Ferrie's military wireless experiments from the tower, whose concession was due to end in 1909; that in 1909 an underground military radiotelegraphy station was set up and the City of Paris renewed the concession on 1 January 1910; and that in the First World War the tower's station intercepted German communications before the Battle of the Marne.\n- https://www.toureiffel.paris/en/the-monument/history (Official Eiffel Tower website, 'Origins and Construction of the Eiffel Tower'; read in full 27 August 2026): established that the tower was built for the 1889 Exposition Universelle marking the centenary of the French Revolution, stood 300 metres tall, and was completed on 31 March 1889; and that in 1887 a 'Protest against the Tower of Monsieur Eiffel', signed by figures including Guy de Maupassant, Charles Gounod, Alexandre Dumas junior and Charles Garnier, condemned the 'useless and monstrous' tower as a 'hateful column of bolted sheet metal'.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "http-404-not-a-room",
+      "date": "2026-08-27",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The story says it is named after a room at CERN.",
+      "description": "The story says it is named after a room at CERN. The legend: room 404 held the web's first server, or Tim Berners-Lee's office, and anything the server could not locate was 'not found in room 404'. It is told constantly. It is also wrong.\n\nThe 4 means you erred. The rest just means 'not found'. In HTTP every reply carries a status code. Codes starting with 4 mean the client made the mistake, a bad or missing request. 404 sits with 400 Bad Request, 401 Unauthorized and 403 Forbidden. Nothing more.\n\nWrote the codes into the young web's specification at CERN. The definition has read the same ever since: 'The server has not found anything matching the URI given.' A slot in a table, not a door.\n\nThere was never a room 404 at CERN. There is only the list, and the fourth kind of error on it.\n\nSources:\n- https://www.w3.org/Protocols/HTTP/HTRESP.html (W3C, 'Status codes in HTTP', a historic CERN and W3C document dated 1992; read in full 27 August 2026): established that HTTP groups its status codes by leading digit, that the '4xx codes are intended for cases in which the client seems to have erred' while 5xx codes are for server errors, and that 404 is defined as 'Not found: The server has not found anything matching the URI given', listed alongside 400 Bad request, 401 Unauthorized and 403 Forbidden.\n- https://queenofsubtle.com/404/?page_id=1921 (404 Research Lab, 'a brief history of 404'; read in full 27 August 2026): established that the HTTP status codes were defined by Tim Berners-Lee as part of the early HTTP specification and were modelled on the older FTP reply codes; that in 404 the leading 4 marks a client error; and, quoting a visitor to CERN, that there is no room 404 at CERN, the offices on that floor starting at 410, so the 'named after a room' story is a myth.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "google-googol-misspelling",
+      "date": "2026-08-27",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Except nobody meant to spell it that way.",
+      "description": "Except nobody meant to spell it that way. The founders were reaching for 'googol', a mathematician's word for an enormous number. The company carries a typo of it, kept because the misspelling was the domain that happened to be free.\n\nA googol is 1 followed by a hundred zeros. A nine-year-old, Milton Sirotta, coined the word in 1920; his uncle, the mathematician Edward Kasner, wrote it into a book. Google's founders were aiming for it.\n\nA Stanford graduate student sharing Larry Page's office. Brainstorming names, he went to check whether 'googol' was a free domain, but typed 'google.com' by mistake. It was available. Page registered it the same day, 15 September 1997.\n\nThe number was named by a child. The company was named by a typo. Neither was the plan.\n\nSources:\n- https://graphics.stanford.edu/~dk/google_name_origin.html (Stanford University, David Koller, January 2004; read in full 27 August 2026): established, from Koller's Stanford colleagues in the office where Google was born, that in 1996 Larry Page and Sergey Brin called their search engine 'BackRub'; that in September 1997, brainstorming a new name, Sean Anderson suggested 'googolplex' and Page shortened it to 'googol'; that Anderson, checking whether the domain was free, mistakenly searched for 'google.com', which was available; and that Page registered google.com that day, the registration record dating from 15 September 1997.\n- https://mathshistory.st-andrews.ac.uk/SH/kasner_sh.pdf (MacTutor History of Mathematics, University of St Andrews, 'Edward Kasner and how Google got its Name'; read in full 27 August 2026): established, quoting Kasner and Newman's 1940 book Mathematics and the Imagination, that 'googol' was coined in 1920 by Kasner's nine-year-old nephew Milton Sirotta as a name for 1 followed by a hundred zeros, and that a googolplex is a still larger number, 1 followed by zeros 'until you get tired'.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
     }
   ]
 }

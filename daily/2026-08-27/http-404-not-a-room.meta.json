@@ -1,0 +1,25 @@
+{
+  "slug": "http-404-not-a-room",
+  "date": "2026-08-27",
+  "title": "The story says it is named after a room at CERN.",
+  "description": "The story says it is named after a room at CERN. The legend: room 404 held the web's first server, or Tim Berners-Lee's office, and anything the server could not locate was 'not found in room 404'. It is told constantly. It is also wrong.\n\nThe 4 means you erred. The rest just means 'not found'. In HTTP every reply carries a status code. Codes starting with 4 mean the client made the mistake, a bad or missing request. 404 sits with 400 Bad Request, 401 Unauthorized and 403 Forbidden. Nothing more.\n\nWrote the codes into the young web's specification at CERN. The definition has read the same ever since: 'The server has not found anything matching the URI given.' A slot in a table, not a door.\n\nThere was never a room 404 at CERN. There is only the list, and the fourth kind of error on it.\n\nSources:\n- https://www.w3.org/Protocols/HTTP/HTRESP.html (W3C, 'Status codes in HTTP', a historic CERN and W3C document dated 1992; read in full 27 August 2026): established that HTTP groups its status codes by leading digit, that the '4xx codes are intended for cases in which the client seems to have erred' while 5xx codes are for server errors, and that 404 is defined as 'Not found: The server has not found anything matching the URI given', listed alongside 400 Bad request, 401 Unauthorized and 403 Forbidden.\n- https://queenofsubtle.com/404/?page_id=1921 (404 Research Lab, 'a brief history of 404'; read in full 27 August 2026): established that the HTTP status codes were defined by Tim Berners-Lee as part of the early HTTP specification and were modelled on the older FTP reply codes; that in 404 the leading 4 marks a client error; and, quoting a visitor to CERN, that there is no room 404 at CERN, the offices on that floor starting at 410, so the 'named after a room' story is a myth.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-08-27-http-404-not-a-room.mp4",
+  "propsFile": "daily/2026-08-27/http-404-not-a-room.props.json",
+  "durationInFrames": 932,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}
