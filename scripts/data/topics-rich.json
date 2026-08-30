@@ -1641,6 +1641,1606 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "tennis-for-two",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://www.bnl.gov/about/history/firstvideo.php: Brookhaven National Laboratory's own history page, read in full. Establishes: Tennis for Two was first shown on 18 October 1958 at the Lab's annual visitors' day; creator William Higinbotham was a nuclear physicist and the first chair of the Federation of American Scientists; it ran on a small analog computer and displayed on a five-inch oscilloscope (a cathode-ray tube); the ball's motion came from the analog computer's instruction-book example of a bouncing ball subject to gravity and wind resistance; it used germanium transistors switching at 36 Hz; Higinbotham did not patent it (it seemed no more novel than the manual's bouncing-ball circuit, and any patent would have belonged to the federal government); it was preceded by the 1948 Cathode-Ray Tube Amusement Device patent of Thomas T. Goldsmith Jr. and Estle R. Mann, which required players to overlay paper targets on the glass; in the mid-1970s the game was pulled into the legal fight over Magnavox's video-game patent; and Higinbotham died in 1994 wishing to be remembered for radar work and nuclear-arms control.",
+        "https://www.aps.org/apsnews/2008/09/first-video-game: American Physical Society, This Month in Physics History (22 Sept 2008), read in full. Corroborates the October 1958 debut and the Pong comparison; adds that Higinbotham had already patented 20 inventions; that technician Robert Dvorak built the device in about two weeks; that the 1959 version could simulate moon, Earth and Jupiter gravity; that Sanders Associates received the first video-game patent in 1964 (later bought by Magnavox) and Higinbotham was called to testify when competitors tried to break it, the case settling out of court; and that he became widely known as the inventor only after a 1982 Creative Computing article."
+      ],
+      "verifiedNote": "Checked 23 Aug 2026 against two independently read sources (Brookhaven's own history page and APS News). No figure beat: the tempting numbers are 1958, 36 Hz and the ~14-year gap to Pong, but each is a date or an address, not a fact that earns 300px: the same discipline as the QWERTY and Wi-Fi entries; the gap is carried in prose. Deliberately not said: that Tennis for Two was flatly 'the first video game': Brookhaven itself lists earlier devices (the 1948 Goldsmith-Mann tube, 1951 Nimrod, 1952 OXO) and notes an oscilloscope draws no raster 'video' signal, so the entry frames it as the first built purely to be played and names the 1948 patent as the earlier predecessor. Co-builder Robert Dvorak is in the sources but cut from the beats for length. Date used is the 18 October 1958 visitors'-day debut.",
+      "palette": {
+        "bg": "#0B0E0C",
+        "ink": "#E8EAE3",
+        "accent": "#5FC86A",
+        "muted": "#7C837A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Ask when video games began",
+          "text": "Most answers land on Pong, 1972.",
+          "note": "A playable video game had already drawn crowds about fourteen years earlier, at a nuclear lab's open house, on an oscilloscope the size of a saucer."
+        },
+        {
+          "kind": "credit",
+          "year": "1958",
+          "name": "William Higinbotham",
+          "role": "A physicist who built radar displays at MIT and timing circuits for the first atomic bomb. To liven up Brookhaven Lab's dull visitors' day he wired a tennis game onto an analog computer, taking the ball's arc straight from a bouncing-ball example in the machine's manual."
+        },
+        {
+          "kind": "statement",
+          "lead": "Then he gave it away",
+          "text": "He never filed a patent.",
+          "note": "He already held twenty; this one seemed no more novel than the manual's circuit. And at a government lab, any patent would have belonged to Washington, not to him."
+        },
+        {
+          "kind": "statement",
+          "lead": "It was not even the first",
+          "text": "A cathode-ray amusement device was patented in 1948.",
+          "note": "Goldsmith and Mann's tube let you fire at targets, but you taped paper planes over the glass, because it could not draw them. Higinbotham's court, net and ball were all on the screen."
+        },
+        {
+          "kind": "kicker",
+          "text": "He wanted to be remembered for fighting the nuclear arms race. He got famous for tennis."
+        },
+        {
+          "kind": "sign",
+          "line": "The first video game ran on a machine built to plot missiles.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "first-website-cern",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/: CERN's official short history of the Web, read in full. Establishes: Berners-Lee had the first web server and browser running at CERN by the end of 1990 on a NeXT computer kept in his office; the machine carried a hand-written label in red ink reading 'This machine is a server. DO NOT POWER IT DOWN!!'; info.cern.ch was the address of the world's first website and server; the first web page was http://info.cern.ch/hypertext/WWW/TheProject.html, describing the WWW project, hypertext and how to run a server; the software was announced on Internet newsgroups in August 1991; and on 30 April 1993 CERN placed the WorldWideWeb source code in the public domain, royalty-free.",
+        "https://en.wikipedia.org/wiki/WorldWideWeb: read in full. Confirms Berners-Lee wrote the WorldWideWeb browser/editor on a NeXT Computer during the second half of 1990, completed 'some time before' 25 December 1990 after about two months' work, released to the public in August 1991; that it was both the first web browser and the first WYSIWYG HTML editor; and that CERN released the source into the public domain on 30 April 1993.",
+        "https://boingboing.net/2008/07/09/firstever-web-server.html: Cory Doctorow (Boing Boing), read in full, quoting the Wikipedia image caption for the NeXTcube: it was Berners-Lee's first Web server, is kept in the Microcosm museum at CERN's Meyrin site, the document on its keyboard is his 'Information Management: A Proposal', and the label reads 'This machine is a server. DO NOT POWER IT DOWN!!', used to corroborate the sticker wording and the machine's preservation."
+      ],
+      "verifiedNote": "Checked 23 Aug 2026 against CERN's official history, the WorldWideWeb Wikipedia article, and Boing Boing (all read in full). No figure beat: the numbers here (1989 concept, 1990 first server, 1991 public, 1993 public domain) are all dates, so none is set at 300px. The sticker is quoted as CERN prints it, in red ink. Deliberately not said: the widely repeated claim that one button press could take the whole web offline. That specific detail was not in the sources I read, so the entry says only that in the beginning the entire web ran on that one cube (CERN: server up by end of 1990, kept in his office; the first US server followed at SLAC in December 1991). '1989' is CERN's framing for the proposal; the working server dates to end of 1990. Niche tech; also serves ig-aigameodyssey and yt-bbmw0.",
+      "palette": {
+        "bg": "#0C0D10",
+        "ink": "#ECECEC",
+        "accent": "#C0473A",
+        "muted": "#80838A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The web's very first page",
+          "text": "It is still online, at its original address.",
+          "note": "info.cern.ch: a page about a project called WorldWideWeb, written by Tim Berners-Lee. It had to explain what hypertext was, because almost nobody had seen a link."
+        },
+        {
+          "kind": "credit",
+          "year": "1990",
+          "name": "One NeXT cube",
+          "role": "Berners-Lee wrote the first browser and ran the first server on a single black computer built by Steve Jobs's other company. In the beginning the entire web lived on that one machine, in one office."
+        },
+        {
+          "kind": "statement",
+          "lead": "And it was fragile",
+          "text": "Switch off that one cube and the web went dark.",
+          "note": "So it wore a warning in red ink: This machine is a server. DO NOT POWER IT DOWN. The cube sits in a CERN museum now, label and all."
+        },
+        {
+          "kind": "statement",
+          "lead": "It came from a physics lab",
+          "text": "The web was a side project at a particle collider.",
+          "note": "CERN builds machines to smash atoms; the web was built so its scientists could share papers. HTML, HTTP and the URL all came out of it, and in 1993 CERN gave them away, free, into the public domain."
+        },
+        {
+          "kind": "kicker",
+          "text": "The first web page had exactly one job: to explain what a web page was."
+        },
+        {
+          "kind": "sign",
+          "line": "The web began as one file, on one cube, told not to sleep.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "tetris-effect-dreams",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/11030656/: PubMed record for Stickgold, Malia, Maguire, Roddenberry & O'Connor, 'Replaying the game: hypnagogic images in normals and amnesics,' Science 2000 Oct 13;290(5490):350-353, read directly. Establishes: participants playing Tetris reported intrusive, stereotypical visual images of the game at sleep onset; three amnesic patients with extensive bilateral medial temporal lobe damage produced similar hypnagogic reports despite being unable to recall playing, suggesting the imagery can arise without the declarative memory system; and control participants reported images from previously played versions, showing remote memories can shape the imagery. Lead-author affiliation: Harvard Medical School.",
+        "https://www.scientificamerican.com/article/tetris-dreams/: Scientific American (Kristin Leutwyler, 16 Oct 2000), read in full. Gives the participant breakdown: 27 subjects total (12 novices; 10 experts with 50-500 prior hours; 5 amnesiacs), trained over three days; 17 of the 27 reported the sleep-onset images; three of the five amnesiacs did, most of whom did not remember the game day to day; co-author David Roddenberry observed one amnesiac place her fingers on the correct keys without knowing why; all reports were of falling/rotating pieces, none of the score, board or keyboard; and the novices initially worst at the game reported the images most."
+      ],
+      "verifiedNote": "Checked 23 Aug 2026 against the PubMed record of the Science paper (abstract read) and the Scientific American write-up (read in full). No figure beat: 17-of-27 and 3-of-5 are small counts that read better in prose than stamped at 300px. The counts (27 total, 17 reporting images, 5 amnesiacs of whom 3 reported them) come from Scientific American, which states them explicitly; the abstract itself gives no N, so the numbers are cited to SciAm, not the abstract. Deliberately not said: that Tetris uniquely causes this ('the Tetris effect'): the paper's point is broader (sleep-onset imagery and which memory system feeds it), and controls also saw images from older versions, so the entry keeps to what was measured. The finger-on-keys detail is attributed in SciAm to co-author David Roddenberry's observation of one amnesic patient.",
+      "palette": {
+        "bg": "#0C0E14",
+        "ink": "#EAEAF0",
+        "accent": "#4C7CF0",
+        "muted": "#7A7F8C"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Play Tetris for hours",
+          "text": "You start seeing the blocks with your eyes shut.",
+          "note": "Falling, turning, slotting into gaps, right at the edge of sleep. Harvard researchers put numbers on it in 2000: 17 of 27 players reported the same images."
+        },
+        {
+          "kind": "credit",
+          "year": "2000",
+          "name": "Robert Stickgold",
+          "role": "His team trained volunteers on Tetris for three days and woke them at sleep onset. The reports were eerily alike: everyone saw pieces falling, nobody saw the score, the board, or the keyboard."
+        },
+        {
+          "kind": "statement",
+          "lead": "Then the strange part",
+          "text": "Amnesiacs saw the blocks too, with no memory of the game.",
+          "note": "Five patients with hippocampal damage could not recall playing. Three still saw falling pieces as they dozed. One sat down and set her fingers on the right keys, not knowing why."
+        },
+        {
+          "kind": "statement",
+          "lead": "So the images are not memories of playing",
+          "text": "The dream came without the memory that should carry it.",
+          "note": "The pictures surfaced even when the conscious record of the day was gone: evidence that sleep-onset imagery runs on a different memory system than the one that recalls events."
+        },
+        {
+          "kind": "kicker",
+          "text": "The players who needed to learn the most were the ones who dreamed of it most."
+        },
+        {
+          "kind": "sign",
+          "line": "The game followed them past the edge of sleep.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "nintendo-playing-cards",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://www.britannica.com/money/Nintendo-Company-Ltd: Encyclopaedia Britannica, read in full (fact-checked). Establishes: Nintendo was founded in 1889 by Yamauchi Fusajiro as Nintendo Koppai, making handmade hanafuda playing cards, and has been headquartered in Kyoto since; in the early 1900s it became the first Japanese company to make Western-style cards (crafted from mulberry bark); it was the largest playing-card maker in Japan by 1929; a 1959 Disney licensing deal sold a record 600,000 decks; after going public in the early 1960s it funded failed ventures (individually packaged instant rice, a 'love hotel' with hourly room rentals, and the Daiya taxi company) before establishing a games department in 1969; Gunpei Yokoi's Ultra Hand (about 1970) sold over a million units; and the Game Boy launched in 1989.",
+        "https://www.cbr.com/nintendo-different-company-video-games/: CBR (Zack Millsap, 24 Nov 2020), read in full. Corroborates the 1889 hanafuda origin under Fusajiro Yamauchi, the 1959 Disney deal, and the 1960s diversification under Hiroshi Yamauchi into instant rice, love hotels, and the Daiya taxi service, followed by the pivot to toys (Gunpei Yokoi) and the 1977 Color TV-Game consoles."
+      ],
+      "verifiedNote": "Checked 23 Aug 2026 against Britannica (fact-checked, read in full) and CBR (read in full). Figure beat is 100 years (1889 founding to the 1989 Game Boy, exactly a century) and it earns 300px because the whole point is how old the company is; a clean whole number, short unit. The kicker's 'first eighty years with no video game' is 1889 to 1969 (the year Britannica dates the games department); Nintendo's first electronic games came in the mid-1970s, so 'eighty years' is a safe round floor, not the exact gap. Britannica calls the 1960s venture a 'love hotel with hourly room rentals'; the beat says 'an hourly-rental hotel' to stay factual and channel-appropriate. Deliberately not said: the meaning of the name 'Nintendo' (often rendered 'leave luck to heaven'), because that translation is disputed and no source I read settled it; and the disputed 1892 alternative founding date, since both sources use 1889.",
+      "palette": {
+        "bg": "#12100E",
+        "ink": "#F1EADD",
+        "accent": "#C0392B",
+        "muted": "#867E72"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Nintendo feels like a modern company",
+          "text": "It was founded in 1889, making playing cards.",
+          "note": "Hand-painted hanafuda (Japanese flower cards) crafted from mulberry bark in a Kyoto workshop. It is still headquartered in Kyoto today."
+        },
+        {
+          "kind": "credit",
+          "year": "1889",
+          "name": "Fusajiro Yamauchi",
+          "role": "He opened the shop as Nintendo Koppai. By 1929 it was the largest card maker in Japan, and in 1959 a deal with Disney put Mickey Mouse on the decks: a record 600,000 sold that year."
+        },
+        {
+          "kind": "figure",
+          "value": "100",
+          "unit": "years",
+          "context": "From that first deck of flower cards to the Game Boy of 1989, a full century before Nintendo's most famous handheld."
+        },
+        {
+          "kind": "statement",
+          "lead": "In between, it tried almost anything",
+          "text": "In the 1960s it ran a taxi firm and sold instant rice.",
+          "note": "Flush from going public, Nintendo sold packets of instant rice (a flop), ran the Daiya taxi company, and even opened an hourly-rental hotel, before deciding toys and games were its future."
+        },
+        {
+          "kind": "kicker",
+          "text": "For its first eighty years, the maker of Mario never sold a single video game."
+        },
+        {
+          "kind": "sign",
+          "line": "It dealt flower cards for a century before pixels.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "prng-not-random",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Middle-square_method: read in full. Establishes: the middle-square method (square an n-digit number, take the middle n digits, repeat) was invented by John von Neumann and described at a 1949 conference (papers reprinted 1951 as 'Various techniques used in connection with random digits,' Monte Carlo Method, NBS Applied Mathematics Series vol. 12); von Neumann's quip 'Anyone who considers arithmetical methods of producing random digits is, of course, in a state of sin,' meaning no strict arithmetic procedure is truly random; that he used them anyway because they were hundreds of times faster than reading random numbers off punch cards, important for his ENIAC work; and that the method degenerates: if the middle digits become all zeroes it outputs zeroes forever, and it can fall into short cycles.",
+        "https://courses.physics.illinois.edu/phys466/sp2013/lnotes/random_numbers.html: University of Illinois PHYS 466 course notes (Ceperley/Johnson), read in full. Corroborates the von Neumann 1951 quote; distinguishes truly random (e.g. Geiger counts of radioactive decay) from pseudo-random (deterministic, with a repeating period) and quasi-random; states plainly that 'computers as they are now constructed are deterministic' and that everyone uses PRNGs, a mapping s(n+1)=f(s(n)) seeded from something like the clock; and notes true hardware randomness is avoided as too slow and expensive."
+      ],
+      "verifiedNote": "Checked 23 Aug 2026 against the Middle-square Wikipedia article and University of Illinois PHYS 466 course notes (both read in full). Niche is ai: the subject is pseudo-randomness in computing and the kicker ties it to model sampling, filling ig-aigameodyssey's empty ai slot; the AI link is kept honest (a model's 'randomness' is a pseudo-random draw) without overclaiming. No figure beat: the numbers (1946/1949, the 8n period bound, Metropolis's 750,000 digits) are technical addresses, not 300px facts. The von Neumann line is quoted verbatim as both sources print it. Credit year is 1949 (the talk Wikipedia documents); I did not assert the 1946 'first suggested' date because I only read the 1949 attribution. Deliberately not said: that fixing a seed makes a language model reproduce its output exactly (real GPU arithmetic can be non-deterministic), so the kicker stays at 'a formula picking the next number' rather than promising bit-for-bit reproducibility.",
+      "palette": {
+        "bg": "#0A0C0B",
+        "ink": "#E7EAE6",
+        "accent": "#B98A2E",
+        "muted": "#7C817B"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Ask a computer for a random number",
+          "text": "It runs a formula and reads you the next line of a script.",
+          "note": "Same starting seed, same sequence, every time. Nothing is chosen; it is all pre-computed. That is why they are called pseudo-random."
+        },
+        {
+          "kind": "credit",
+          "year": "1949",
+          "name": "John von Neumann",
+          "role": "He built the first computer method for it (square a number, keep the middle digits, repeat) for Monte Carlo runs on ENIAC. He also warned exactly what it was."
+        },
+        {
+          "kind": "statement",
+          "lead": "In his own words",
+          "text": "Anyone who considers arithmetical methods of producing random digits is, of course, in a state of sin.",
+          "note": "His point: no formula is truly random. He used them anyway (hundreds of times faster than reading random numbers off punch cards), knowing precisely what they were."
+        },
+        {
+          "kind": "statement",
+          "lead": "And his method could trap itself",
+          "text": "Hit the wrong number and it spits zeros forever.",
+          "note": "The middle-square method can collapse to zero, or fall into a short loop, and never recover. Von Neumann counted that a virtue: a failure you can at least catch."
+        },
+        {
+          "kind": "kicker",
+          "text": "Even an AI's flashes of randomness are a formula quietly choosing the next number."
+        },
+        {
+          "kind": "sign",
+          "line": "A computer can fake chance. It cannot roll a die.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "at-symbol-arroba",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://www.guinnessworldrecords.com/world-records/104059-first-instance-of-at-sign: Guinness World Records, read in full. Establishes: per history professor Giorgio Stabile (La Sapienza, Rome), the first documented, credible appearance of @ dates to 4 May 1536, when Italian merchant Francesco Lapi used it to stand for an amphora (a unit of measurement) in a letter about treasure shipped by the conquistadors from Peru; earlier medieval-scribe uses arguably exist, but Lapi's is the first known use of @ as a character with a distinct meaning; an amphora was a wine vessel that became a unit of volume; @ evolved into shorthand for 'at' and appeared on typewriter keyboards in the 1880s; and the first use of @ in email dates to 1971.",
+        "https://gulfnews.com/world/americas/ray-tomlinson-inventor-of-email-and--symbol-dies-1.1685430: Associated Press obituary of Ray Tomlinson (via Gulf News), read in full. Establishes: Tomlinson invented the first network person-to-person email in 1971 on ARPANET; it was not an assignment ('he was just fooling around'), the first messages went between two machines side by side and were 'entirely forgettable'; he chose the @ symbol to connect the username with the destination address; and in 2010 MoMA's Department of Architecture and Design added the @ symbol to its collection, crediting Tomlinson.",
+        "https://www.britannica.com/topic/at-sign: Encyclopaedia Britannica, read (summary/lead). Corroborates that before the late 20th century the @ sign's primary use was commercial, signifying 'at the rate of,' and that it traces to the amphora/arroba unit of measure."
+      ],
+      "verifiedNote": "Checked 23 Aug 2026 against Guinness World Records and an AP obituary (both read in full), with Britannica corroborating the commercial 'at the rate of' origin. No figure beat: the numbers (1536, 1880s, 1971) are dates/addresses, not 300px facts. The sign's 'four centuries' is 1536 to 1971 (~435 years), rounded and kept in prose, not stamped as a figure. Deliberately not said: that Lapi's is unquestionably the very first @ ever. Guinness notes arguable earlier scribal uses, so the entry says 'earliest known' use as a character with a distinct meaning. The '@ meant at the rate of' framing is Britannica's; the amphora-to-arroba lineage is Guinness/Britannica. Niche tech; also serves ig-aigameodyssey and yt-bbmw0.",
+      "palette": {
+        "bg": "#12100D",
+        "ink": "#EFE7D6",
+        "accent": "#CB7B3A",
+        "muted": "#8A7F6E"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The @ in every email address",
+          "text": "It was a merchant's mark, centuries before email.",
+          "note": "It meant 'at the rate of': three crates @ two shillings. A trader's shorthand for a price, not a piece of computer punctuation."
+        },
+        {
+          "kind": "credit",
+          "year": "1536",
+          "name": "Francesco Lapi",
+          "role": "A Florentine merchant wrote the earliest known @ (standing in for an amphora, a unit of wine) in a letter about treasure the conquistadors shipped from Peru. In Spanish and Portuguese the sign is still 'arroba,' a unit of weight."
+        },
+        {
+          "kind": "statement",
+          "lead": "By the time computers arrived",
+          "text": "@ had sat on typewriter keyboards since the 1880s.",
+          "note": "Little used, always there. Which is exactly why it was free for the taking when networks needed a character that would never turn up inside someone's name."
+        },
+        {
+          "kind": "statement",
+          "lead": "1971, a programmer just tinkering",
+          "text": "Ray Tomlinson grabbed @ to split the name from the machine.",
+          "note": "It was not an assignment: he was fooling around with ARPANET. He needed one symbol to mean this user at this computer, and @ already meant at. The address bar has looked that way ever since."
+        },
+        {
+          "kind": "kicker",
+          "text": "A mark for pricing wine now sits in New York's Museum of Modern Art, credited to Tomlinson."
+        },
+        {
+          "kind": "sign",
+          "line": "@ meant 'at this price' for four centuries before 'at this computer.'",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "first-sms-merry-christmas",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://www.history.com/this-day-in-history/december-3/first-sms-text-message-sent: HISTORY (This Day in History), read in full. Establishes: on 3 December 1992 Neil Papworth, a 22-year-old engineer at Sema Group Telecoms, used a personal computer to send the first SMS, 'Merry Christmas', over the Vodafone network to Richard Jarvis, a Vodafone director, at a holiday party; Sema had hoped to use short messages as a paging service; Papworth got a phone call back saying it worked because cellphones could not yet send messages in reply; one year later Nokia released the first phone with an SMS feature; messages were limited to 160 characters due to bandwidth constraints; and cross-network texting was only possible from 1999.",
+        "https://www.vodafone.com/news/newsroom/technology/25-anniversary-text-message: Vodafone (25th-anniversary article), read in full. Corroborates: Neil Papworth, 22, sent the first ever text from a computer to colleague Richard Jarvis on 3 December 1992, reading 'Merry Christmas,' while building an SMS for Vodafone; the 160-character limit; Nokia's 1993 SMS 'beep'; that texts could only be exchanged across networks from 1999; plus Papworth's own reflection that he had no idea texting would become so popular."
+      ],
+      "verifiedNote": "Checked 23 Aug 2026 against HISTORY and Vodafone (both read in full). No figure beat: the standout number is the 160-character cap, but its unit ('characters') is long and it is a spec rather than a 300px fact, so it is carried in a note. Deliberately not said: any global daily-text count: the kicker avoids a number I could not verify across the two sources. 'Pager' framing follows HISTORY (Sema hoped to use short messages as a paging service). Neil Papworth's employer was Sema Group Telecoms; the message went over Vodafone's UK network. Niche history (yt-bbmw0).",
+      "palette": {
+        "bg": "#0C0F12",
+        "ink": "#EAECEF",
+        "accent": "#4FA36B",
+        "muted": "#7C838C"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The first text message",
+          "text": "Nobody typed it on a phone.",
+          "note": "It was sent from a computer. On 3 December 1992 an engineer at a desktop pushed two words onto the Vodafone network: Merry Christmas."
+        },
+        {
+          "kind": "credit",
+          "year": "1992",
+          "name": "Neil Papworth",
+          "role": "A 22-year-old test engineer, sending it to Vodafone director Richard Jarvis at the company Christmas party. His team had spent a year building the Short Message Service, meant not for chatting, but as a kind of pager."
+        },
+        {
+          "kind": "statement",
+          "lead": "Jarvis could read it",
+          "text": "He had no way to text back.",
+          "note": "Phones then could receive a message but not compose one. The reply came as a phone call, from the party, to say it had worked."
+        },
+        {
+          "kind": "statement",
+          "lead": "And it stayed clumsy for years",
+          "text": "You could not text someone on a rival network until 1999.",
+          "note": "Handsets only gained a way to send texts in 1993, and every message was capped at 160 characters by the network's bandwidth: the pinch that bred txt spk like LOL."
+        },
+        {
+          "kind": "kicker",
+          "text": "The text that started it all got no text in reply: the phone could not send one."
+        },
+        {
+          "kind": "sign",
+          "line": "The first text said 'Merry Christmas', computer to a phone that could not answer.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "elite-galaxy",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://blog.sciencemuseumgroup.org.uk/revolutionary-british-video-game-elite-turns-40/: Science Museum Group (curator Matthew Horsfall), read directly: Elite released 1984 by David Braben and Ian Bell on the BBC Micro; an early open-world game with eight galaxies of 256 planets each, every planet with its own economy and government; the whole game was squeezed 'to a smaller size than a modern Word document' by using procedural generation instead of storing the planets.",
+        "https://www.vice.com/en/article/remembering-elite-the-most-important-game-of-the-early-80s/: Vice, read directly: Elite (1984, BBC Micro / Acorn Electron, Ian Bell & David Braben), eight galaxies with 256 single-planetary systems each; using a Fibonacci-inspired scheme, a star system's characteristics were fixed by six hexadecimal numbers, so one system's data took just six bytes and the seed 'could be used to form almost an infinite number of different planets'; published by Acornsoft."
+      ],
+      "verifiedNote": "Checked 25 Aug 2026 against two directly-read sources. Figure beat is '6 bytes', from Vice's 'six hexadecimal numbers... six bytes': the number that earns 300px is how absurdly little was stored, not a large count. DELIBERATELY NOT claimed: the often-repeated '282 trillion galaxies, cut down to eight' figure: neither source I read states it, so the beats say only that the seed could generate almost endless worlds and the developers shipped eight galaxies. Also not asserted: that Braben and Bell were Cambridge undergraduates (widely said, not in the sources read). Battlezone (1980) predated Elite's wireframe 3D, so no beat calls Elite the first 3D game.",
+      "palette": {
+        "bg": "#06080D",
+        "ink": "#E8ECF5",
+        "accent": "#46E0B0",
+        "muted": "#737C8C"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The game that invented the open world",
+          "text": "It had no world to store.",
+          "note": "Elite (1984) let you roam eight galaxies of 256 planets each, every one with its own economy and government. None of them were saved anywhere on the disk."
+        },
+        {
+          "kind": "credit",
+          "year": "1984",
+          "name": "David Braben & Ian Bell",
+          "role": "Two British programmers writing a space sim for the BBC Micro. Its memory was so small the finished game is lighter than a modern text document, so they never stored the universe at all."
+        },
+        {
+          "kind": "figure",
+          "value": "6",
+          "unit": "bytes",
+          "context": "All it took to fix a star system's place, economy, government and name. A single seed and a Fibonacci-style sequence rebuilt every world the moment you flew to it."
+        },
+        {
+          "kind": "statement",
+          "lead": "That seed could spin out worlds almost without end",
+          "text": "They shipped just eight galaxies.",
+          "note": "The maths could keep generating forever. A curated set of 256 systems per galaxy felt infinite without turning into a mess."
+        },
+        {
+          "kind": "kicker",
+          "text": "There was no universe. There was a formula that drew one."
+        },
+        {
+          "kind": "sign",
+          "line": "A galaxy that fit in six bytes.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "space-invaders-speedup",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://www.tomshardware.com/video-games/retro-gaming/space-invaders-arcade-game-ran-faster-as-enemies-died-due-to-intel-8080-bottleneck-expert-coder-asserts-hardware-accident-to-blame: Tom's Hardware (26 Oct 2025), read directly: Space Invaders was launched by Taito in Japan in June 1978 on an Intel 8080 (launched 1974, ~2 MHz); a code analysis of the original ROM shows there is NO instruction that adjusts game speed as aliens die; the acceleration is a hardware side-effect: with 55 aliens to reposition, redraw and collision-check the 8080 runs slowly, and each alien destroyed frees the processor so the survivors move faster."
+      ],
+      "verifiedNote": "Checked 25 Aug 2026. Core claim (no speed code; the acceleration is the 8080 having less to compute as sprites vanish; 55 aliens; Taito, June 1978; Intel 8080) is from Tom's Hardware, read in full, reporting a coder's ROM analysis. Tomohiro Nishikado's authorship is the standard, well-documented credit for Space Invaders (he designed, programmed and drew it at Taito) and is stated as such; the mechanism, not the credit, is the contradictable claim. Figure beat is '55 aliens': the count IS the throttle, so it earns the screen. Deliberately not claimed: anything about Nishikado's intent (e.g. that he 'wanted them faster'); not in the source read.",
+      "palette": {
+        "bg": "#0A0A0A",
+        "ink": "#F2F2EC",
+        "accent": "#38FF6A",
+        "muted": "#7C8A7C"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Everyone thinks a designer tuned it",
+          "text": "The speed-up is an accident.",
+          "note": "In Space Invaders the aliens surge faster as you shoot them down. Nothing in the game's code speeds them up. Open the original ROM and that instruction simply isn't there."
+        },
+        {
+          "kind": "credit",
+          "year": "1978",
+          "name": "Tomohiro Nishikado",
+          "role": "Built the whole game almost single-handed for Taito, running on an Intel 8080. With 55 aliens to move, redraw and test for hits, the chip could barely keep pace."
+        },
+        {
+          "kind": "figure",
+          "value": "55",
+          "unit": "aliens",
+          "context": "Every one is a sprite the processor must shift, draw and check each frame. At the start of a wave, all that work drags the whole screen slow."
+        },
+        {
+          "kind": "statement",
+          "lead": "Shoot one and the workload drops",
+          "text": "Fewer aliens, faster frame.",
+          "note": "Each kill leaves the 8080 less to compute, so the survivors accelerate. The famous rising panic is the hardware exhaling, not a difficulty curve someone drew."
+        },
+        {
+          "kind": "kicker",
+          "text": "The best mechanic in the game is a bug nobody wrote."
+        },
+        {
+          "kind": "sign",
+          "line": "The dread was just a chip catching its breath.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "a-star-shakey",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://cacm.acm.org/opinion/a-search/: Communications of the ACM viewpoint, read directly: A* was published in 1968 by Hart, Nilsson and Raphael; the authors themselves recount that Nilsson devised it to plan Shakey the Robot's route through a room of obstacles and first called it 'Algorithm A'; Raphael improved it and Hart proved it optimal given an admissible heuristic, so they named it A* 'to distinguish it from any simpler algorithm A'; Hart says the star denotes an optimal value (from statistics) and 'has nothing whatsoever to do with Kleene star syntax', while co-author Nilsson initially guessed the Kleene interpretation; the meaning had gone undocumented until this piece.",
+        "https://en.wikipedia.org/wiki/Shakey_the_robot: Wikipedia, read directly: Shakey was developed ~1966-1972 at the AI Center of Stanford Research Institute (SRI); A* was one of its notable results; the name came from its tall build and 'tendency to shake', quoted: 'it shakes like hell and moves around, let's just call it Shakey.'"
+      ],
+      "verifiedNote": "Checked 25 Aug 2026 against two directly-read sources, one of which (CACM) quotes all three original authors. No figure beat: the only number is the year 1968, a date, which does not earn 300px. The 'Kleene star vs statistician's star' point is stated as Hart's account, noting co-author Nilsson first thought it was Kleene, matching the source. Admissibility is phrased as 'an honest guess of the distance left' (never overestimating), which is the condition that guarantees optimality.",
+      "palette": {
+        "bg": "#0B0E14",
+        "ink": "#EAEEF6",
+        "accent": "#FF9F1C",
+        "muted": "#7A8290"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Every game character that finds its own way",
+          "text": "runs on an algorithm built for a robot.",
+          "note": "A* is the standard for pathfinding in games and maps. It was written in 1968 to help one machine cross a cluttered room without walking into things."
+        },
+        {
+          "kind": "credit",
+          "year": "1968",
+          "name": "Hart, Nilsson & Raphael",
+          "role": "At Stanford Research Institute, plotting routes for Shakey, a robot so unsteady that the team named it for the way it rattled and shook whenever it moved."
+        },
+        {
+          "kind": "statement",
+          "lead": "Nilsson's first version was just 'Algorithm A'",
+          "text": "The star arrived with a proof.",
+          "note": "Raphael refined it; Hart showed that, given an honest guess of the distance left, it always finds the shortest path. A* meant: we can prove this one is optimal."
+        },
+        {
+          "kind": "statement",
+          "lead": "Most people assume the star is the regex one",
+          "text": "It isn't.",
+          "note": "Even a co-author first guessed it came from Kleene-star syntax. Hart says no: it's the statistician's star for an optimal value. The real meaning went unrecorded for fifty years."
+        },
+        {
+          "kind": "kicker",
+          "text": "Gaming's smartest navigator is named after a robot that couldn't hold still."
+        },
+        {
+          "kind": "sign",
+          "line": "Built to move one robot. Now it moves everyone.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "anglo-zanzibar-war",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://www.historic-uk.com/HistoryUK/HistoryofBritain/The-Shortest-War-in-History/: Historic UK (Ben Johnson), read directly: the Anglo-Zanzibar War of 27 August 1896 is generally considered the shortest in history at 38 minutes; Khalid bin Barghash seized the throne after Sultan Hamad bin Thuwaini died on 25 Aug 1896; Britain's ultimatum expired at 9am on 27 Aug; the bombardment began at 9am, by 09:02 most of Khalid's artillery was destroyed and he had fled, by 09:40 the flag was down; ~3,000 defenders; over 500 of Khalid's men killed or wounded; one British petty officer severely injured but he recovered.",
+        "https://www.britannica.com/event/Anglo-Zanzibar-War: Encyclopaedia Britannica, read directly (summary and Quick Facts): dates the war to 27 August 1896 and states it 'lasted no longer than 40 minutes, making it the shortest war in recorded history'; British cruisers fired on Khalid ibn Barghash's position."
+      ],
+      "verifiedNote": "Checked 25 Aug 2026. Figure beat is '38 minutes' (the duration is the entire hook, so it earns the screen), but the sources disagree slightly (Historic UK: 38 min; Britannica: 'no longer than 40 minutes'), and the figure's context beat says so out loud rather than feigning a precision the record doesn't have. The casualty asymmetry (~500 hit vs one wounded, who survived) and the 09:00-09:40 timeline are from Historic UK. Deliberately not stated: the cause of Sultan Hamad's death (Historic UK calls poisoning only 'widely believed'), so no beat asserts it.",
+      "palette": {
+        "bg": "#0B0D12",
+        "ink": "#EDEBE4",
+        "accent": "#C8452F",
+        "muted": "#857F73"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The shortest war ever fought",
+          "text": "Start to surrender in about 38 minutes.",
+          "note": "27 August 1896, between the British Empire and the island sultanate of Zanzibar. The whole conflict was over before an hour had passed."
+        },
+        {
+          "kind": "credit",
+          "year": "1896",
+          "name": "Khalid bin Barghash",
+          "role": "He seized the throne when the pro-British sultan died suddenly. Britain ordered him out by 9am on 27 August. He refused, and barricaded the palace with some 3,000 men."
+        },
+        {
+          "kind": "statement",
+          "lead": "At 9am the warships opened fire",
+          "text": "By 09:40 the flag was down.",
+          "note": "Within two minutes most of Khalid's guns were wrecked and he had slipped out a back door. The shelling did the rest."
+        },
+        {
+          "kind": "figure",
+          "value": "38",
+          "unit": "minutes",
+          "context": "The length of the war by the usual count; a few sources say closer to 40. Either way, long enough to leave the palace in rubble."
+        },
+        {
+          "kind": "statement",
+          "lead": "The cost was wildly one-sided",
+          "text": "About 500 hit on one side. One on the other.",
+          "note": "Over 500 of Khalid's men were killed or wounded. The only British casualty was a single petty officer: injured, and he recovered."
+        },
+        {
+          "kind": "sign",
+          "line": "The shortest war in history, and it wasn't close.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "robot-word-rur",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://www.britannica.com/topic/RUR: Encyclopaedia Britannica, read directly: R.U.R. (Rossum's Universal Robots), a three-act play by Karel Capek, published 1920 and performed 1921; 'Capek invented the word robot (derived from the Czech word for forced labour)'; a scientist Rossum creates humanlike beings who are mass-produced and eventually come to dominate humanity.",
+        "https://thereader.mitpress.mit.edu/origin-word-robot-rur/: MIT Press Reader (John M. Jordan, adapted from his book 'Robots'), read directly: R.U.R. premiered in Prague in 1921; the word derives from Czech 'robota' (forced labour as done by serfs), Slavic root 'rab' meaning slave; the original robots 'more accurately define androids... neither metallic nor mechanical'; in the play the robots revolt and mankind 'is no more'; the play was translated into 30+ languages soon after."
+      ],
+      "verifiedNote": "Checked 25 Aug 2026 against two directly-read sources. No figure beat: the only numbers are years. DELIBERATELY NOT CLAIMED: the widely-repeated story that Karel's brother Josef Capek actually coined 'roboti' (from Karel's 1933 Lidove noviny essay). Neither source I read supports it: Britannica flatly credits Karel ('Capek invented the word') and the MIT piece only credits Josef with designing the first-edition cover, so no beat mentions Josef, to avoid asserting something I did not verify. The 'artificial people, not metal' beat follows the MIT piece ('neither metallic nor mechanical'); Britannica loosely calls them 'machines', a simplification I did not adopt.",
+      "palette": {
+        "bg": "#0A0B0E",
+        "ink": "#EDECE6",
+        "accent": "#38B2A6",
+        "muted": "#7C8079"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The word 'robot' has a birthday",
+          "text": "1920, in a Czech play.",
+          "note": "It appears for the first time in Karel Capek's R.U.R. (Rossum's Universal Robots), published in 1920 and staged in Prague in 1921. Before that, the word did not exist."
+        },
+        {
+          "kind": "statement",
+          "lead": "It was never a word for 'machine'",
+          "text": "It means forced labour.",
+          "note": "From the Czech 'robota': the unpaid drudgery a serf owed his lord. The deeper Slavic root, 'rab', means slave. The name was built to mean bondage."
+        },
+        {
+          "kind": "statement",
+          "lead": "And the first robots weren't metal",
+          "text": "They were artificial people.",
+          "note": "Rossum's robots are not clanking machines but mass-produced living workers, grown rather than built, far closer to lab-made humans than to anything with gears."
+        },
+        {
+          "kind": "statement",
+          "lead": "The story you already expect",
+          "text": "The robots rise and end humanity.",
+          "note": "The very first tale to use the word is also the first robot uprising. By the final act, mankind is gone. The trope arrived fully formed, a century ago."
+        },
+        {
+          "kind": "kicker",
+          "text": "Our word for machines was coined for slaves made of flesh."
+        },
+        {
+          "kind": "sign",
+          "line": "A hundred years on, we still borrow their name.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "comic-sans-rover",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://qz.com/944927/comic-sans-history-type-designer-vincent-connare-explains-that-the-goofy-microsoft-font-was-originally-designed-for-a-dog: Quartz (Anne Quito), read directly: Comic Sans was designed by Microsoft's Vincent Connare for Microsoft Bob after he saw its cartoon dog Rover speaking through a Times New Roman speech bubble ('Dogs don't talk in Times New Roman!'); he based it on speech-bubble lettering in graphic novels and comic books; he missed the deadline for Bob's August 1995 release, so it shipped as a default typeface with Windows 95 instead; it later appeared on menus, CERN's Higgs boson announcement and FBI files."
+      ],
+      "verifiedNote": "Checked 25 Aug 2026. No figure beat; the only number is a year. The credit beat dates the design to 1994 (when Connare made it); the note explains it shipped with Windows 95 (1995) after missing Bob's deadline. Quartz phrases it 'Introduced as a default typeface in Windows 95 in 1994', so the two years are kept distinct rather than collapsed. Deliberately NOT named: the specific comic titles Connare drew from (commonly cited as Watchmen and The Dark Knight Returns); the source I read says only 'graphic novels and comic books', so the beat says that. 'Dogs don't talk in Times New Roman' is quoted as Connare gave it to the Guardian, via Quartz.",
+      "palette": {
+        "bg": "#0C0B10",
+        "ink": "#F3F1EA",
+        "accent": "#FF5FA2",
+        "muted": "#837C8C"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The most mocked font on earth",
+          "text": "was drawn for a cartoon dog.",
+          "note": "Comic Sans exists because of Rover, the animated dog in Microsoft Bob, a mid-90s program meant to make the PC friendly for beginners."
+        },
+        {
+          "kind": "credit",
+          "year": "1994",
+          "name": "Vincent Connare",
+          "role": "A Microsoft designer. He opened a beta of Bob and found the dog speaking through a Times New Roman speech bubble. 'Dogs don't talk in Times New Roman,' he said, and started drawing."
+        },
+        {
+          "kind": "statement",
+          "lead": "He copied comic-book lettering",
+          "text": "not any real handwriting.",
+          "note": "Connare modelled the letters on the hand-lettering in graphic novels sitting on his desk, a casual voice for a cartoon, never meant for résumés or wedding invitations."
+        },
+        {
+          "kind": "statement",
+          "lead": "The twist",
+          "text": "It missed Bob's own deadline.",
+          "note": "Comic Sans wasn't finished in time to ship inside Microsoft Bob. It went out later with Windows 95 instead, and from there leaked onto every desktop on the planet."
+        },
+        {
+          "kind": "kicker",
+          "text": "The font built for the dog never made it into the dog's program."
+        },
+        {
+          "kind": "sign",
+          "line": "From a cartoon dog to CERN's Higgs boson slide.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "everest-not-tallest",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://oceanservice.noaa.gov/facts/highestpoint.html (NOAA National Ocean Service, National Geodetic Survey; read in full 26 Aug 2026): establishes that Mount Everest is the highest point above global mean sea level at 8,848 metres; that Mauna Kea in Hawaii is the tallest mountain from base to peak, rising more than 10,210 metres from the Pacific floor to its summit with only about 4,205 metres of it above the water; and that because Earth bulges at the equator from its rotation, the summit of Ecuador's Chimborazo, one degree south of the equator, sits over 2,072 metres farther from Earth's centre than Everest's summit even though Chimborazo is only 6,268 metres above sea level, which NOAA calls the closest point on Earth to the stars."
+      ],
+      "verifiedNote": "Checked 26 Aug 2026 against NOAA's page, read in full. The figure beat is 10,210 metres, Mauna Kea base to peak: it is the number that unseats 'tallest', it is a whole number, and its unit is short. Candidates cut: 8,848 (the measure Everest actually wins, so enlarging it would restate the claim being corrected, the same discipline as the ten-thousand-hours entry), and 2,072 (strong, but it belongs to Chimborazo's separate point about distance from the centre and reads better in prose). Everest's height is given as NOAA's 8,848 metres; the 2020 China and Nepal joint survey put it at 8,848.86 metres, not used here because that survey was not read directly. Deliberately not said: exact base-to-peak totals for Mauna Kea vary by a few metres between sources, so only NOAA's 'more than 10,210' is claimed.",
+      "palette": {
+        "bg": "#0C0F12",
+        "ink": "#ECEAE3",
+        "accent": "#4FA3C7",
+        "muted": "#7C818A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The tallest mountain on Earth",
+          "text": "Everest only wins on one ruler.",
+          "note": "It is the highest point above sea level, 8,848 metres. But height above the sea is one measurement of several, and it is the only one Everest tops."
+        },
+        {
+          "kind": "figure",
+          "value": "10,210",
+          "unit": "metres",
+          "context": "Mauna Kea in Hawaii, measured from its base on the Pacific floor to its summit. That makes the Hawaiian volcano the tallest mountain on Earth, over a kilometre taller than Everest. Only about 4,205 metres of it stand above the water."
+        },
+        {
+          "kind": "statement",
+          "lead": "Now measure from the centre of the Earth",
+          "text": "A third mountain wins, and it is the shortest.",
+          "note": "Earth bulges at the equator, so Ecuador's Chimborazo, sitting almost on it, pushes its peak 2,072 metres farther from the planet's core than Everest's while standing lower above the sea. NOAA calls it the closest point on Earth to the stars."
+        },
+        {
+          "kind": "kicker",
+          "text": "Highest, tallest, farthest out. Three mountains, three different rulers."
+        },
+        {
+          "kind": "sign",
+          "line": "Everest wins one race and gets the credit for all three.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "glass-not-liquid",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://www.doitpoms.ac.uk/tlplib/glass-transition/myth.php (University of Cambridge DoITPoMS, 'Do Cathedral Glasses Flow?'; read in full 26 Aug 2026): establishes the myth that over centuries cathedral window glass flows downward under gravity, leaving panes thicker at the bottom; that Zanotto and Gupta calculated the room-temperature relaxation time for such flow at about ten to the power of 23 years, far beyond the age of the Universe at about ten to the power of 10 years; and the real cause, that medieval glass was blown into large cylinders which were split and flattened by hand so it was never of even thickness, with fitters instinctively placing the thicker edge at the bottom. Cites E.D. Zanotto, 'Do cathedral glasses flow?', American Journal of Physics 66, 392-395 (1998).",
+        "https://www.livescience.com/chemistry/is-glass-a-liquid-or-a-solid (Live Science, Victoria Atkinson, 24 Sep 2023; read in full 26 Aug 2026): materials scientist John Mauro of Penn State says glass is neither a true liquid nor a true solid but its own distinct, nonequilibrium, noncrystalline state that appears solid on short timescales and relaxes towards a liquid only over billions of years; John Parker of the Sheffield Centre for Glass Research says that in a practical sense glass is a rigid solid on any sensible timescale, and that the old panes are thicker at the bottom because a thousand years ago makers could not produce glass of uniform thickness."
+      ],
+      "verifiedNote": "Checked 26 Aug 2026 against both sources, read in full. No figure beat: the flow time of about ten to the power of 23 years is the load-bearing fact, but an exponent cannot count up on the number spring and would read as jargon at 300px, so it is carried in prose as a plain comparison to the age of the Universe, the same discipline as the Betelgeuse entry. Deliberately not said: that glass is flatly a solid. Mauro calls it its own nonequilibrium, noncrystalline state and Parker calls it a rigid solid on any sensible timescale, and the entry keeps that nuance rather than picking a side. The manufacturing beat says 'blown and flattened by hand', which covers both the cylinder method DoITPoMS names and the crown or spun method used elsewhere in the same period, without claiming a single technique. The figure is Zanotto and Gupta's relaxation-time estimate, not a measurement.",
+      "palette": {
+        "bg": "#0B0E0E",
+        "ink": "#EDEFEE",
+        "accent": "#6FB7A6",
+        "muted": "#7E837F"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The proof that glass is a slow liquid",
+          "text": "Old church windows are thicker at the bottom.",
+          "note": "The story goes that over 800 years the glass crept downward under its own weight. It is the most repeated fact about glass, and it is false."
+        },
+        {
+          "kind": "statement",
+          "lead": "For a pane to sag at room temperature",
+          "text": "You would wait out the universe, and then some.",
+          "note": "Physicists estimate the flow would take around a hundred thousand billion billion years. The universe is under fourteen billion years old. Medieval glass has not had a rounding error of the time it would need."
+        },
+        {
+          "kind": "statement",
+          "lead": "So why are the old panes heavier at the foot",
+          "text": "They were made that way, then stood that way up.",
+          "note": "Medieval glass was blown into cylinders, split and flattened by hand, so no sheet came out even. Glaziers simply set the thick edge at the bottom. The 'flow' is a fitter's choice, held for 800 years."
+        },
+        {
+          "kind": "kicker",
+          "text": "Glass is not quite a solid either. It is its own state, on a clock nobody will ever read out."
+        },
+        {
+          "kind": "sign",
+          "line": "The window never moved. The glazier did.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "pomodoro-cirillo",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://www.pomodorotechnique.com/francesco-cirillo/ (Francesco Cirillo's official site; read in full 26 Aug 2026): in his own words, 'I created the Pomodoro Technique in the 1980s with a tomato-shaped kitchen timer and a problem: I couldn't focus on my university studies', and the first experiment was 'Can I study for just two minutes without interruption?'. Under 'Distortion' he writes that newspapers, bloggers and apps 'reduced the entire technique to a single instruction: Work for 25 minutes, then take a break', and that 'The iconic 25-minute timer sessions aren't the technique, they're just one expression of this broader mindset'. On goals he writes, 'Even one Pomodoro, or none, is fine. Your goal isn't to complete Pomodoros. Your goal is to become aware of what happens in your mind'. Pomodoro is Italian for tomato."
+      ],
+      "verifiedNote": "Checked 26 Aug 2026 against Cirillo's own site, read in full. All quotations are his. The dating is his own, 'the 1980s'; secondary sources place the first version around 1987 and a formal write-up in 1992 with a free PDF later, none of which is used as a beat because it was not confirmed from a primary source here. No figure beat: 25 is the myth's own number and enlarging it would restate the distortion the entry corrects, so it is left in prose; the original two-minute challenge is kept in-line rather than blown up. Trademark deliberately not claimed as a beat: the site asserts a registered trademark, but public trademark databases have been reported as showing no active registration, so the entry does not state it as fact. Deliberately not said: any claim that 25 minutes is an optimal focus interval; Cirillo's point is the opposite, that the interval is not the method.",
+      "palette": {
+        "bg": "#121011",
+        "ink": "#F3EFEA",
+        "accent": "#E5533D",
+        "muted": "#8A817B"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Everyone knows the Pomodoro Technique",
+          "text": "Work 25 minutes. Break. Repeat.",
+          "note": "The man who invented it calls that a distortion. 'The iconic 25-minute sessions,' Francesco Cirillo writes, 'aren't the technique. They're just one expression of it.'"
+        },
+        {
+          "kind": "credit",
+          "year": "1980s",
+          "name": "Francesco Cirillo",
+          "role": "A university student who could not concentrate, timing himself with the first thing to hand on the kitchen counter: a wind-up timer shaped like a tomato. Pomodoro is simply Italian for tomato."
+        },
+        {
+          "kind": "statement",
+          "lead": "The first challenge he set himself",
+          "text": "Not 25 minutes. Two.",
+          "note": "'Can I study for just two minutes without interruption?' The famous 25 came later, and even that, he says, is one expression of the method, not the point of it."
+        },
+        {
+          "kind": "statement",
+          "lead": "Ask him how many pomodoros to aim for",
+          "text": "His answer: even none is fine.",
+          "note": "'Your goal isn't to complete Pomodoros,' he says, 'it's to become aware of what happens in your mind.' A focus method whose own author does not care how much you get done."
+        },
+        {
+          "kind": "sign",
+          "line": "The tomato is a timer, not a target.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "pull-to-refresh-brichter",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pull-to-refresh (read in full 26 Aug 2026): the pull-to-refresh gesture was developed by Loren Brichter and first appeared in Tweetie, an iOS Twitter app he built as a personal project in 2008 after leaving Apple in 2007; Tweetie 1.0 placed a refresh button at the top of the list, which he wanted to replace to reclaim the screen space; the two iterations of the gesture were, in Wikipedia's words, 'created in a single afternoon with no user testing'; it shipped in Tweetie 2.0; it was later added to Chrome (optional 2015, mandatory since 2019) and Firefox (2020 to 2021); and it has been criticised for resembling a lever on a gambling machine and so feeding social-media addiction.",
+        "https://en.wikipedia.org/wiki/Loren_Brichter (read in full 26 Aug 2026): Brichter, born 1984, worked at Apple from 2006 to 2007 on a five-person team making the first iPhone's graphics hardware and software communicate; founded atebits in 2007; released Tweetie in 2008; won an Apple Design Award in 2009; and atebits with Tweetie were bought by Twitter in 2010, after which Tweetie became the official Twitter for iPhone.",
+        "https://venturebeat.com/business/twitter-granted-pull-to-refresh-patent-that-everyone-already-uses-and-sort-of-gives-it-away (VentureBeat, John Koetsier, 21 May 2013; read in full 26 Aug 2026): Twitter was granted U.S. Patent 8,448,084 for pull-to-refresh on 21 May 2013; Brichter, who created the gesture and whose company Twitter bought in 2010, was so concerned about how Twitter would use the patent that he asked Twitter to agree, as part of the terms of the sale, that it would never use the patent offensively, which Twitter's Innovator's Patent Agreement enshrines as defensive use only."
+      ],
+      "verifiedNote": "Checked 26 Aug 2026 against three sources, read in full. No figure beat: the patent number 8,448,084 is an address, not a fact, and would imply a significance it does not carry at 300px, the moth-relay discipline; the punch, 'a single afternoon', is carried in prose. Deliberately not said: that Brichter patented it himself. He is the named inventor, but the patent was granted to Twitter as assignee after it bought atebits in 2010, and the entry keeps that distinction. The slot-machine-lever comparison is a criticism reported on Wikipedia, attributed to critics, and is not a claim that Brichter designed it to be addictive. 'Single afternoon' and 'no user testing' are quoted from Wikipedia's Brichter email-interview citation.",
+      "palette": {
+        "bg": "#0C0F14",
+        "ink": "#ECEEF2",
+        "accent": "#4A9EEB",
+        "muted": "#79808A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The gesture in almost every app you own",
+          "text": "Pull a list down, let go, it refreshes.",
+          "note": "Nobody built it into the phone. One developer invented it for a Twitter app, and it spread into everything: Mail, Chrome, Instagram, Facebook."
+        },
+        {
+          "kind": "credit",
+          "year": "2008",
+          "name": "Loren Brichter",
+          "role": "Ex-Apple, one of five people on the first iPhone. He wrote the Twitter app Tweetie alone. Version 1.0 hid a refresh button in a corner, and he wanted the corner back, so he turned refreshing into a pull."
+        },
+        {
+          "kind": "statement",
+          "lead": "The version the whole industry copied",
+          "text": "He built it in a single afternoon.",
+          "note": "Two iterations, no user testing, shipped in Tweetie 2.0 in 2009. He tuned the pull distance by hand until it felt right, then moved on."
+        },
+        {
+          "kind": "statement",
+          "lead": "Twitter bought Tweetie in 2010, gesture included",
+          "text": "By 2013 it held a patent on the pull.",
+          "note": "Brichter was uneasy about that, so he made Twitter agree, as a condition of the sale, that it would never use the patent to attack anyone. It is allowed to defend, and nothing more."
+        },
+        {
+          "kind": "kicker",
+          "text": "The same downward pull is now studied as a slot-machine lever, for the refresh you cannot stop reaching for."
+        },
+        {
+          "kind": "sign",
+          "line": "You pull it fifty times a day. One person made it in an afternoon.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "alphago-move-37",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://gomagic.org/alphago-and-lee-sedol/ (Go Magic, Aleksandar Saranovic, 2024; read in full 26 Aug 2026): AlphaGo, a DeepMind program, learned from over 100,000 human games then played itself millions of times; it beat European champion Fan Hui 5-0 in October 2015; in Seoul in March 2016 it beat Lee Sedol, a 9 dan, four games to one; in game 2 it played move 37, a shoulder hit on the fifth line, while Lee was on a break, which commentators and audience first thought a mistake because it broke conventional wisdom, and Lee took more than 12 minutes to respond; after the game Lee said, 'This move made me think about Go in a new light. What does creativity mean in Go?'; in game 4 Lee's move 78, a wedge in the centre later dubbed the 'God's touch', was one AlphaGo itself calculated at a 1-in-10,000 chance a human would find, after which AlphaGo unravelled and resigned after move 180; and, in Go Magic's words, 'to date, this is the only recorded game where AlphaGo lost against a human'.",
+        "https://www.npr.org/sections/thetwo-way/2016/03/13/470284113/after-three-losses-master-go-player-scores-a-win-against-computer (NPR, Camila Domonoske, 13 Mar 2016; read in full 26 Aug 2026): corroborates that AlphaGo had already won the first three games and the match, that Lee won game 4 on move 78, and that per Demis Hassabis the program's own estimate of its winning chances was about 70 per cent at move 79 then collapsed by move 87, after which AlphaGo resigned.",
+        "https://news.cgtn.com/news/2019-11-20/Go-master-Lee-Sedol-announces-retirement-after-24-year-career-LLKPajVx3q/index.html (CGTN, 20 Nov 2019; read in full 26 Aug 2026): Lee Sedol, described as the only human to score a win against Google's AI Go player AlphaGo, announced his retirement in November 2019; he lost the 2016 match 4-1 but remains the first and only Go player to beat Google's algorithm."
+      ],
+      "verifiedNote": "Checked 26 Aug 2026 against three sources, read in full. The 1-in-10,000 figure here is AlphaGo's own estimate for LEE'S move 78 in game 4, as stated by Go Magic. It is deliberately not attached to AlphaGo's own move 37: a separate and widely cited DeepMind figure holds that move 37 had about a 1-in-10,000 human probability, but that was not read in a full source here because the Wired article was inaccessible, so the entry describes move 37 only as the move the commentators called a mistake, which Go Magic states. No figure beat: the move numbers 37 and 78 are addresses, not facts, so neither is enlarged, and the 1-in-10,000 is carried in prose. Deliberately not said: the widely reported 'there is an entity that cannot be defeated' retirement quote, which was not in the sources read here, so the kicker states the fact of the retirement from CGTN, not the quote. 'God's touch' and the Monte Carlo tree search explanation are Go Magic's.",
+      "palette": {
+        "bg": "#0A0D0F",
+        "ink": "#ECEAE3",
+        "accent": "#4FB0A0",
+        "muted": "#7B8079"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Game two, Seoul, 2016, move 37",
+          "text": "The commentators called it a mistake.",
+          "note": "AlphaGo put a stone on the fifth line, where centuries of Go wisdom said it did not belong. Lee Sedol was away on a break. He came back, stared, and needed twelve minutes to reply."
+        },
+        {
+          "kind": "credit",
+          "year": "2016",
+          "name": "AlphaGo",
+          "role": "A DeepMind program that learned Go from over 100,000 human games, then played itself millions of times. It had already beaten Europe's champion 5-0. Against Lee Sedol, one of the greatest ever, it won the match four games to one."
+        },
+        {
+          "kind": "statement",
+          "lead": "It was not a mistake",
+          "text": "It was a move no human would make.",
+          "note": "The stone quietly reshaped the whole board. Afterwards Lee said it changed how he saw the game: 'What does creativity mean in Go?' The blunder that was not a blunder had beaten him."
+        },
+        {
+          "kind": "statement",
+          "lead": "Then, in game four, Lee replied in kind",
+          "text": "Move 78. One in ten thousand.",
+          "note": "His wedge in the centre was a move AlphaGo itself rated at a 1-in-10,000 chance a human would find. The machine unravelled and resigned. It is still the only game a human has ever won against it."
+        },
+        {
+          "kind": "kicker",
+          "text": "Three years on, Lee Sedol retired, the only person alive who had beaten it."
+        },
+        {
+          "kind": "sign",
+          "line": "The machine's strangest move, and the human's answer.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "venus-day-year",
+      "niche": "space",
+      "verified": true,
+      "sources": [
+        "https://science.nasa.gov/venus/venus-facts/ (NASA Science, Venus Facts, page updated 23 Jun 2026; read in full 26 Aug 2026): states that a day on Venus would be 243 Earth days long, longer even than a Venus year of about 225 Earth days; that because of the planet's extremely slow rotation, sunrise to sunset would take 117 Earth days; that the Sun would rise in the west and set in the east because Venus spins backward compared with Earth; and that Venus's axial tilt is only about three degrees, too little for seasons.",
+        "https://www.aeronomie.be/en/encyclopedia/venus-backwards-rotation-and-orbital-period (Royal Belgian Institute for Space Aeronomy, BIRA-IASB; read in full 26 Aug 2026): gives the precise figures of a sidereal rotation of 243.0185 Earth days and an orbital period of 224.70096 Earth days, so the year is shorter than the sidereal day; states that the rotation is retrograde and was first measured by radar in 1962; that the cloud tops circle the planet in about four days; and that the solar day is 116 and three-quarter Earth days."
+      ],
+      "verifiedNote": "Checked 26 Aug 2026 against NASA and BIRA-IASB, both read in full. The figure beat is 243 (days), the rotation period, because it is the number that makes 'a day longer than a year' true; it is whole and its unit is short. 225 and 243 are NASA's rounded values; the precise figures from BIRA-IASB are a 224.70-day orbit and a 243.02-day sidereal rotation. The solar day, sunrise to sunrise, at about 117 days, is a third figure and is kept in prose rather than enlarged. Deliberately not said: the cause of the retrograde spin, which is genuinely unsettled between a giant impact and atmospheric tides; and the roughly four-day rotation is stated as the motion of the cloud tops, not of the planet, the exact distinction BIRA-IASB draws.",
+      "palette": {
+        "bg": "#0A0710",
+        "ink": "#F3EFE9",
+        "accent": "#E8B04B",
+        "muted": "#7B7285"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "A day longer than a year",
+          "text": "On Venus it is literally true.",
+          "note": "Venus takes 243 Earth days to turn once on its axis, and only 225 to circle the Sun. Complete a single rotation and you have already outlived a Venus year, with eighteen days to spare."
+        },
+        {
+          "kind": "figure",
+          "value": "243",
+          "unit": "days",
+          "context": "One rotation of Venus, in Earth days, the slowest spin of any planet in the Solar System. Its whole year is shorter, at 225."
+        },
+        {
+          "kind": "statement",
+          "lead": "And it turns the wrong way",
+          "text": "On Venus the Sun rises in the west.",
+          "note": "Venus spins backwards compared with Earth and nearly every other planet. Sunrise to sunset, if you could see the Sun through the acid cloud, takes about 117 Earth days."
+        },
+        {
+          "kind": "credit",
+          "year": "1962",
+          "name": "Radar",
+          "role": "Venus's clouds hid its spin for centuries. Astronomers could time only the cloud tops, which race round in about four days. When radar first reached the surface in 1962, it revealed that the planet beneath barely turns at all."
+        },
+        {
+          "kind": "sign",
+          "line": "One Venus day, and it still outlasts the year.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "sf2-combos-accident",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://www.gamedeveloper.com/business/-i-street-fighter-ii-i-designer-opens-up-about-the-cancelling-bug- - Game Developer, read in full, reporting lead designer Akira Nishitani's own account (translated from his posts by Nick Des Barres). Established that Street Fighter II's move-cancelling came from a system built to make specials easier to execute (\"If players press the button too fast, the move won't activate\"), that the discovered side effect was executing specials after landing normals, his quote \"It didn't seem to cause any bugs, so we decided it could be a feature to expand the gameplay\", and his refusal to call it a bug: \"since we decided to incorporate it into the game during development, I wouldn't call it a bug\".",
+        "https://en.wikipedia.org/wiki/Super_Street_Fighter_II - Via search summary of this page and the Capcom database. Supports only two dates: Street Fighter II reached arcades in 1991, and Super Street Fighter II (1993) added the series' first on-screen combo counter, well after the cancelling mechanic itself shipped."
+      ],
+      "verifiedNote": "Checked 28 Aug 2026. The core claim is anchored to lead designer Akira Nishitani's own account, read in full at Game Developer: the cancelling that produces combos was an unplanned side effect of an input-leniency system, and he explicitly declines to call it a bug because the team chose to keep it. Deliberately not asserted: the widely repeated story that producer Noritaka Funamizu discovered it while debugging the car-smashing bonus stage. That version comes from secondary retellings, not from the primary account read here, so it is left out rather than stated as fact. The 1991 release and the \"first combo counter in Super Street Fighter II (1993)\" are well-established dates taken via a search summary of the Street Fighter wiki and Wikipedia, and support only the \"the name came later\" beat. No figure beat: 1991 and 1993 are dates, not numbers that earn 300px. No em dashes, UK English, per run instruction.",
+      "palette": {
+        "bg": "#0B0B0F",
+        "ink": "#F5F1EA",
+        "accent": "#FF4531",
+        "muted": "#8A8A93"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Every fighting-game combo",
+          "text": "It started as a side effect.",
+          "note": "Street Fighter II, 1991. The chained hits that built the whole genre were never designed. They fell out of a system built to do something else."
+        },
+        {
+          "kind": "statement",
+          "lead": "The system was mercy",
+          "text": "Press a special too fast and it still came out.",
+          "note": "Input leniency, added so a rushed motion would not swallow your fireball. The side effect: you could cancel a normal attack straight into a special."
+        },
+        {
+          "kind": "credit",
+          "year": "1991",
+          "name": "Akira Nishitani",
+          "role": "Lead designer. On the cancel: \"It didn't seem to cause any bugs, so we decided it could be a feature to expand the gameplay.\" They left it in, sure most players would never land it."
+        },
+        {
+          "kind": "kicker",
+          "text": "\"Since we decided to incorporate it, I wouldn't call it a bug.\""
+        },
+        {
+          "kind": "statement",
+          "lead": "The name came after the thing",
+          "text": "\"Combo\" arrived two years late.",
+          "note": "Super Street Fighter II, in 1993, added the on-screen combo counter. The mechanic itself shipped in 1991 with no name, no counter and no plan for it."
+        },
+        {
+          "kind": "sign",
+          "line": "The rule the whole genre runs on was an accident, kept on purpose.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "mechanical-turk-hoax",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://www.britannica.com/story/the-mechanical-turk-ai-marvel-or-parlor-trick - Encyclopaedia Britannica, read in full. Established that Wolfgang von Kempelen built the automaton in 1770 for the court of Empress Maria Theresa, the performance format (open the cabinet, show the clockwork, wind the key), that it won most of its games, that Benjamin Franklin played it, that most observers rightly concluded a human operator sat inside working levers, and that Charles Babbage watched it in 1819.",
+        "https://www.history.com/articles/how-a-phony-18th-century-chess-robot-fooled-the-world - History.com (Evan Andrews), read in full. Established that the cabinet's gears were non-functioning decoys hiding a chess master on a sliding seat who followed the game via magnets and worked the arm with levers; that it beat Franklin in Paris and beat Napoleon in Vienna in 1809 (Napoleon tried illegal moves and lost); that Edgar Allan Poe saw it in Richmond and argued a human mind ran it; that Kempelen died in 1804 and Johann Maelzel took it over; and that it burned on 5 July 1854 at Philadelphia's Chinese Museum.",
+        "https://en.wikipedia.org/wiki/Amazon_Mechanical_Turk - Via search summary. Established that Amazon launched the Mechanical Turk crowd-work marketplace in 2005, named after the 18th-century chess automaton, and that Jeff Bezos described it as \"artificial artificial intelligence\" for work done by hidden humans inside software. Corroborated by the paper \"The mechanical Turk: a short history of 'artificial artificial intelligence'\" (Cultural Studies, 2023)."
+      ],
+      "verifiedNote": "Checked 28 Aug 2026. Built from two sources read in full (Britannica and History.com) plus a search summary for Amazon's reuse of the name. Deliberately kept the run-length in prose rather than as a 300px figure: sources disagree by a year on the span (Wikipedia's \"84 years\" counts from the 1770 debut, History.com's \"85-year-old\" counts from the 1769 first appearance), so it is given as \"over eighty years\" rather than a precise number. Did not name the rotating cast of hidden operators (William Schlumberger and others), which changed across the machine's life. The Napoleon match is often embellished; only the details History.com states are used (illegal moves, the head-shake, the loss). No em dashes, UK English, per run instruction.",
+      "palette": {
+        "bg": "#0A0D14",
+        "ink": "#ECEBF2",
+        "accent": "#C9A227",
+        "muted": "#7C8190"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "In 1770 a machine played chess",
+          "text": "The machine was a man in a box.",
+          "note": "Kempelen would open the cabinet, show the clockwork, wind the key. The clockwork was a decoy. A chess master sat behind it on a sliding seat, working the arm with levers."
+        },
+        {
+          "kind": "credit",
+          "year": "1770",
+          "name": "Wolfgang von Kempelen",
+          "role": "Built the Turk for the court of Empress Maria Theresa. It beat almost everyone who sat down to play it, and nobody who suspected a hidden operator could prove how it was done."
+        },
+        {
+          "kind": "statement",
+          "lead": "Its opponents were not nobodies",
+          "text": "It beat Franklin. It beat Napoleon.",
+          "note": "Benjamin Franklin in Paris. Napoleon in Vienna, 1809, who tried illegal moves; the Turk shook its head and put the piece back, then won the game."
+        },
+        {
+          "kind": "statement",
+          "lead": "The con outlived its maker",
+          "text": "It ran for over eighty years.",
+          "note": "Kempelen died in 1804 and new owners kept it touring. Edgar Allan Poe watched it and wrote that a mind, not a mechanism, was moving the pieces. Fire took it in 1854."
+        },
+        {
+          "kind": "kicker",
+          "text": "In 2005 Amazon revived the name for humans hidden inside software: \"artificial artificial intelligence.\""
+        },
+        {
+          "kind": "sign",
+          "line": "The oldest trick in artificial intelligence is a person behind the curtain.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "computer-meant-a-person",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://www.computinghistory.org.uk/det/5829/Richard-Braithwaite-coined-the-phrase-computer/ - The Centre for Computing History, read in full. Established that the first recorded English use of the word \"computer\" is in Richard Braithwaite's 1613 book The Yong Mans Gleanings, describing a person as \"the truest computer ... the best arithmetician that ever breathed\", that \"computer\" meant a person who calculated by hand until the 1950s, and that NASA employed human computers such as Katherine Johnson.",
+        "https://education.nationalgeographic.org/resource/nasas-west-area-computers/ - Via search summary. Established that NASA's West Area Computers at Langley were Black women who did the calculations by hand, that Katherine Johnson joined NACA's West Area Computing pool in 1953, and that she did the trajectory work for Alan Shepard's 1961 flight and John Glenn's 1962 orbit."
+      ],
+      "verifiedNote": "Checked 28 Aug 2026. Braithwaite's 1613 first use and the quoted phrase are from the Centre for Computing History (read in full); the NASA human-computer details are from a search summary of National Geographic Education and related NASA pages. Deliberately left vague: the exact date the machine sense overtook the human one (sources put the shift around the mid-twentieth century, so the beat says \"when the machines came\" without pinning a year). The often-told anecdote that John Glenn insisted Katherine Johnson personally re-check the electronic computer's numbers before his orbit is real but was not re-read from a primary source this pass, so it is not made into a beat. No figure beat: 1613 is a date, not a 300px number. No em dashes, UK English, per run instruction.",
+      "palette": {
+        "bg": "#0C1014",
+        "ink": "#EDF1F4",
+        "accent": "#6FA8DC",
+        "muted": "#79808F"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "For three centuries",
+          "text": "A computer was a person.",
+          "note": "Someone whose whole job was arithmetic, done by hand. When the machines came, they took the name from the people who did the work, not the other way round."
+        },
+        {
+          "kind": "credit",
+          "year": "1613",
+          "name": "Richard Braithwaite",
+          "role": "First to put the word \"computer\" into English, in a book of advice. He praised a man as \"the truest computer ... the best arithmetician that ever breathed.\" A line about a person, not a machine."
+        },
+        {
+          "kind": "statement",
+          "lead": "The job outlasted the machine's arrival",
+          "text": "NASA still hired human computers in the 1960s.",
+          "note": "Katherine Johnson joined NACA's West Area Computing pool, Black women doing the maths by hand, in 1953. She worked out the flight paths for Alan Shepard in 1961 and John Glenn in 1962."
+        },
+        {
+          "kind": "kicker",
+          "text": "The machine did not coin the word. It inherited it from the people doing the sums."
+        },
+        {
+          "kind": "sign",
+          "line": "Before it sat on your desk, a computer was someone at a desk.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "emoji-not-emotion",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://www.etymonline.com/word/emoji - Online Etymology Dictionary, via search summary. Established that \"emoji\" is from Japanese e (picture) plus moji (character), meaning \"pictograph\", and that the resemblance to English \"emoticon\" and \"emotion\" is coincidental, the words being unrelated in origin.",
+        "https://www.moma.org/collection/works/196070 - The Museum of Modern Art, via search summary. Established that Shigetaka Kurita designed a set of 176 emoji in 1998 to 1999 for NTT DoCoMo's i-mode on a grid of twelve by twelve pixels, and that MoMA holds the set in its collection.",
+        "https://blog.emojipedia.org/correcting-the-record-on-the-first-emoji-set/ - Emojipedia, via search summary. Established that SoftBank (then J-Phone) released a set of 90 emoji in 1997, two years before DoCoMo's 176, and that Kurita himself has said DoCoMo was not the first, correcting the common \"first emoji\" claim."
+      ],
+      "verifiedNote": "Checked 28 Aug 2026. Etymology, the 176-emoji DoCoMo set, and the earlier 1997 SoftBank set are each confirmed across the sources listed, read via search summaries of Etymonline, MoMA and Emojipedia. The figure beat is 176: a clean, uncontested count of a specific historic set, a whole number, unit under nine characters, and genuinely the defining number of the object MoMA collected. Deliberately not claimed: that Kurita \"invented emoji\" (the popular line), since the credit is contested and the third beat says so. The MoMA acquisition year (2016) is kept off screen to avoid over-precision. The twelve-by-twelve grid is written out rather than using a times sign. No em dashes, UK English, per run instruction.",
+      "palette": {
+        "bg": "#0E0B12",
+        "ink": "#F3EFEA",
+        "accent": "#FFB020",
+        "muted": "#837A88"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Emoji has nothing to do with emotion",
+          "text": "It means 'picture character'.",
+          "note": "From Japanese: e, picture, plus moji, character. That it sounds like 'emoticon' is an accident of English. The two words share no root at all."
+        },
+        {
+          "kind": "figure",
+          "value": "176",
+          "unit": "emoji",
+          "context": "Shigetaka Kurita's 1999 set for DoCoMo, drawn on a grid of twelve pixels by twelve. The originals are now held by the Museum of Modern Art."
+        },
+        {
+          "kind": "statement",
+          "lead": "And 'the first emoji' is wrong too",
+          "text": "A rival set beat it by two years.",
+          "note": "SoftBank, then called J-Phone, shipped 90 emoji on a 1997 handset, before DoCoMo's 176. Kurita himself has said DoCoMo was not first."
+        },
+        {
+          "kind": "kicker",
+          "text": "A word that is not about feelings, pinned to a set that was not first."
+        },
+        {
+          "kind": "sign",
+          "line": "The little pictures are older, and stranger, than the story about them.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "cleopatra-closer-to-moon",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://www.worldatlas.com/articles/so-cleopatra-lived-closer-in-time-to-the-first-lunar-landing-than-the-great-pyramids.html - WorldAtlas, read in full. Established that the Great Pyramid of Giza was completed around 2560 BC for the pharaoh Khufu, that Cleopatra lived in 30 BC, that Apollo 11 landed on 20 July 1969, that she was born roughly 2,500 years after the pyramid and roughly 2,000 years before the Moon landing, and that Cleopatra was a Greek Macedonian descended from Ptolemy, one of Alexander the Great's generals, whose line ruled Egypt for three centuries.",
+        "https://study.com/academy/lesson/what-was-cleopatra-history-biography-facts.html - Via search summary. Established that the Ptolemaic rulers used only Greek while Cleopatra learned and spoke Egyptian, which is why she is commonly described as the first of her dynasty to do so."
+      ],
+      "verifiedNote": "Checked 28 Aug 2026. Timeline and Greek ancestry are from WorldAtlas (read in full); the Egyptian-language point is from a search summary noting the Ptolemies used only Greek. Deliberately not used: WorldAtlas's line that the Great Pyramid stayed the tallest structure on Earth until the Eiffel Tower, which is contested (Lincoln Cathedral's spire is usually credited with surpassing it around 1311), so no such claim appears. The pyramid completion is given as about 2560 BC (some sources say about 2550 BC), and the gaps are stated as \"about 2,500\" and \"about 2,000\" years to stay inside that margin. \"First of her line to learn Egyptian\" is hedged as \"said to be\", following Plutarch's often-repeated account rather than asserting it as settled. No figure beat: the gaps are approximate spans, and an approximate number does not earn 300px. No em dashes, UK English, per run instruction.",
+      "palette": {
+        "bg": "#120F0A",
+        "ink": "#F4EEE0",
+        "accent": "#E0B24A",
+        "muted": "#8B8171"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Cleopatra and the pyramids",
+          "text": "She lived nearer to the Moon landing.",
+          "note": "The Great Pyramid was already about 2,500 years old when she was born. Apollo 11 was only about 2,000 years ahead of her. To Cleopatra, the pyramids were ancient history."
+        },
+        {
+          "kind": "credit",
+          "year": "2560 BC",
+          "name": "The Great Pyramid of Giza",
+          "role": "Finished for the pharaoh Khufu. By the time Cleopatra ruled Egypt it had already stood for roughly 2,500 years: older to her than she is to us."
+        },
+        {
+          "kind": "statement",
+          "lead": "She was not Egyptian either",
+          "text": "Cleopatra was Greek.",
+          "note": "Her family, the Ptolemies, descended from a Macedonian general of Alexander the Great, and ruled Egypt for three centuries while speaking only Greek."
+        },
+        {
+          "kind": "kicker",
+          "text": "She was said to be the first of her line to bother learning Egyptian."
+        },
+        {
+          "kind": "sign",
+          "line": "The pyramids were ancient long before Cleopatra was born.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "sharks-older-than-trees",
+      "niche": "biology",
+      "verified": true,
+      "sources": [
+        "https://www.nhm.ac.uk/discover/shark-evolution-a-450-million-year-timeline.html - The Natural History Museum, London, read in full. Established that the earliest fossil evidence for sharks or their ancestors is scales about 450 million years old (Late Ordovician), that land plants only invaded the land around 420 million years ago, and that sharks have survived all five mass extinctions, including the End-Cretaceous asteroid that ended the non-avian dinosaurs; it also notes scientists still debate whether the 450-million-year-old scales are from true sharks.",
+        "https://www.discoverwildlife.com/prehistoric-life/are-sharks-older-than-trees - Via search summary. Established that the first trees appeared around 385 million years ago, so sharks predate trees by roughly 65 million years, and that when the first sharks appeared land plants were still low mats no taller than a few centimetres."
+      ],
+      "verifiedNote": "Checked 28 Aug 2026. Surplus topic for yt-bbm0902 (biology niche, which had no backlog). Shark dates and the five-extinction survival are from the Natural History Museum (read in full); the 385-million-year first-tree date and the roughly 65-million-year gap are from a search summary of Discover Wildlife. Deliberately hedged: the NHM notes the 450-million-year-old evidence is scales that may be shark-like rather than definitively sharks, so the beat says \"the earliest shark fossils are scales\" rather than claiming fully modern sharks. Not used: the headline claim that sharks are older than the Atlantic Ocean and the North Star, since that page was not read in full. No figure beat: 450 million years is approximate and debated, so it stays in prose rather than at 300px. No em dashes, UK English, per run instruction.",
+      "palette": {
+        "bg": "#071316",
+        "ink": "#E8F3F1",
+        "accent": "#34C7B5",
+        "muted": "#6E8B8C"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Sharks are older than trees",
+          "text": "By about sixty-five million years.",
+          "note": "The earliest shark fossils are scales roughly 450 million years old. The first trees do not appear until around 385 million years ago. Sharks got there first."
+        },
+        {
+          "kind": "statement",
+          "lead": "There was barely a plant on land",
+          "text": "When sharks arrived, the continents were nearly bare.",
+          "note": "Land plants only crept ashore around 420 million years ago. The first sharks swam a world of bare rock and low moss, with no forest anywhere to grow."
+        },
+        {
+          "kind": "statement",
+          "lead": "Then they refused to end",
+          "text": "Sharks have survived all five mass extinctions.",
+          "note": "Including the asteroid that finished the dinosaurs. It culled the largest sharks; the smaller, deeper feeders swam on, as they had through the four before it."
+        },
+        {
+          "kind": "kicker",
+          "text": "Four hundred and fifty million years, and the shark still owns the ocean."
+        },
+        {
+          "kind": "sign",
+          "line": "The shark is older than the forest.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "pacman-ghost-ai",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://www.gamedeveloper.com/design/the-pac-man-dossier: Jamey Pittman, \"The Pac-Man Dossier\" (originally Gamasutra, 2009-10), read in full. Establishes: Toru Iwatani joined Namco in 1977 aged 22 with no formal background in computers, visual arts or graphic design, and was paired with a programmer to write the actual code; the team assigned to Puck-Man/Pac-Man included programmer Shigeo Funaki and music composer Toshio Kai (Kai wrote the sound, not the code, a distinction some secondary write-ups blur); development got underway in early 1979; each ghost's Japanese personality name (Blinky=oikake, \"to pursue\"; Pinky=machibuse, \"to ambush\"; Inky=kimagure, \"fickle\"; Clyde=otoboke, \"feigning ignorance\", nicknamed Guzuta); Blinky targets Pac-Man's exact tile; Pinky targets four tiles ahead of Pac-Man's facing direction, with a coded overflow bug that makes the up-facing case offset four tiles up and four left instead of just up; Inky's target is a vector from Blinky's tile through a point two tiles ahead of Pac-Man, doubled in length; Clyde targets Pac-Man directly beyond eight tiles away and flees to his scatter corner within eight tiles; and the observation that Iwatani's team created the illusion of complex pathfinding using very simple logic and very little code.",
+        "https://en.wikipedia.org/wiki/Pac-Man: via search summary, corroborating: Namco released the arcade game in Japan on 22 May 1980 (a nine-person team led by Iwatani, development begun early 1979) and Bally Midway released it in the US on 26 October 1980."
+      ],
+      "verifiedNote": "Checked 30 Aug 2026. First search pass wrongly called Toshio Kai the ghost-AI \"programmer\"; reading the Dossier directly corrected this: Kai composed the music, Shigeo Funaki was the programmer, which is the credit beat now used. Credit year is 1979 (when Funaki and Iwatani actually built it) rather than 1980 (when it shipped); the shipped-with-the-bug detail in beat 3 uses 1980 deliberately, since that is when the bug reached players. Figure beat is 8 (Clyde's flee threshold in tiles), not 4 (Pinky's ambush offset), because 4 is already repeated in the beat text and reads closer to an address than a standalone fact, whereas 8 is Clyde's entire personality reduced to one rule. Not claimed: Inky's targeting (real and sourced, but the most complex of the four and cut for space) and the origin of the \"Cruise Elroy\" speed-up nickname, which the Dossier itself says nobody can trace.",
+      "palette": {
+        "bg": "#0B0B12",
+        "ink": "#F4F1E8",
+        "accent": "#FFCC33",
+        "muted": "#8A8A93"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "You've dodged them a thousand times.",
+          "text": "They were never chasing you at random.",
+          "note": "Each of the four ghosts runs its own fixed formula for picking a target tile, results Namco's own team called their \"personalities\"."
+        },
+        {
+          "kind": "statement",
+          "lead": "Take the pink one.",
+          "text": "Pinky isn't chasing you. He's ambushing you.",
+          "note": "His target sits four tiles ahead of wherever you're currently facing, so he tries to cut off your path instead of following it."
+        },
+        {
+          "kind": "statement",
+          "text": "Face upward, and the maths breaks.",
+          "note": "A logic error in the original code adds a phantom four-tile offset to the left as well, so \"four tiles up\" becomes four up and four left. It shipped in 1980 and stayed."
+        },
+        {
+          "kind": "credit",
+          "year": "1979",
+          "name": "Shigeo Funaki",
+          "role": "The programmer Namco paired with designer Toru Iwatani, who had no formal coding background himself. Between them they built four different hunting formulas, not four costumes on one script."
+        },
+        {
+          "kind": "figure",
+          "value": "8",
+          "unit": "tiles",
+          "context": "Clyde's actual personal-space rule. Closer than this and he panics back to his corner; farther and he hunts you exactly like the red ghost."
+        },
+        {
+          "kind": "sign",
+          "line": "Four formulas. It only ever looked like a mind.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "atari-adventure-easter-egg",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://atari.com/blogs/atari/so-let-s-talk-about-that-easter-egg: Atari's own company blog (\"Game History\", 5 Jul 2022), read in full. Establishes: Atari's policy at the time was not to publicly credit individual developers; Warren Robinett, designing Adventure for the Atari 2600 (development underway through 1979), hid a secret room displaying his own signature; in his own words, \"I was pissed\"; the term \"Easter Egg\" did not exist yet; fifteen-year-old Adam Clayton discovered the room and told Atari in a handwritten letter; an Atari employee, Steve Wright, is believed to have coined \"Easter Egg\" afterward, framing hidden surprises as good, \"like Easter eggs for players to find\"; the practice spread across the industry from there.",
+        "https://en.wikipedia.org/wiki/Adventure_(1980_video_game): via search summary, corroborating: Robinett designed and coded Adventure alone for the Atari 2600, and it is credited as the first widely publicised Easter egg in a console video game."
+      ],
+      "verifiedNote": "Checked 30 Aug 2026 against Atari's own blog post, read in full. Release-year note: several retro-gaming sources (one, Hardcore Gaming 101, explicitly mocks Wikipedia's own inconsistency on this exact game) disagree on 1979 versus 1980 for Adventure's ship date, so no beat states a release year as settled fact; the one year used, 1980, is attached to Adam Clayton's letter, which multiple sources place after the game reached players. Not claimed: the exact on-screen wording of the secret room or the precise mechanics of the near-invisible object used to reach it, beyond what the source describes in general terms.",
+      "palette": {
+        "bg": "#0A0E0A",
+        "ink": "#EDEFE9",
+        "accent": "#3DDC6E",
+        "muted": "#7C8778"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "1979. Atari had a policy: no game credited the person who actually built it.",
+          "text": "So one programmer hid his name inside the game itself.",
+          "note": "Warren Robinett built Adventure for the Atari 2600, and slipped in a secret room Atari never approved."
+        },
+        {
+          "kind": "statement",
+          "lead": "He didn't make it easy.",
+          "text": "You had to carry an almost-invisible object across the map to unlock it.",
+          "note": "Asked why, in his own words: \"I was pissed.\""
+        },
+        {
+          "kind": "credit",
+          "year": "1980",
+          "name": "Adam Clayton",
+          "role": "A fifteen-year-old player who found the hidden room and mailed Atari a handwritten letter describing it, the first record of anyone outside Atari finding Robinett's secret."
+        },
+        {
+          "kind": "statement",
+          "lead": "Atari didn't have a word for what he'd done, so it made one up.",
+          "text": "An employee named Steve Wright coined the term \"Easter egg\".",
+          "note": "His reasoning: hiding things in games was a good thing, \"like Easter eggs for players to find\". The name stuck across the whole industry."
+        },
+        {
+          "kind": "kicker",
+          "text": "The first hidden secret in console gaming was a protest note."
+        },
+        {
+          "kind": "sign",
+          "line": "He signed his own work because no one else would.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "clever-hans-effect",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Clever_Hans: read in full. Establishes: Hans, a horse owned by Wilhelm von Osten in Berlin, appeared to add, subtract, multiply, divide, tell time and spell by tapping his hoof; a thirteen-person commission convened by philosopher Carl Stumpf concluded in September 1904 that no tricks were involved; psychologist Oskar Pfungst re-investigated and in 1907 found Hans answered correctly 89% of the time (50 of 56) when he could see a questioner who knew the answer, but only 6% (2 of 35) when he could not see the questioner; Pfungst traced this to involuntary postural and facial cues the questioner gave off approaching the correct tap count; \"Clever Hans effect\" is now used in machine learning for a model whose apparent competence comes from a spurious signal rather than the intended task, for example an image classifier that reads text in a photo instead of analysing the image.",
+        "https://www.britannica.com/topic/Clever-Hans: via search summary, corroborating the commission's 1904 finding and Pfungst's 1907 cue-based explanation."
+      ],
+      "verifiedNote": "Checked 30 Aug 2026 against the Wikipedia article read in full, which itself footnotes Pfungst's original 1911 English translation of his 1907 findings. Figure beat uses 89 (percent), the stronger and cleaner of the two paired statistics, with the 6% contrast placed in the context line rather than rendered giant. Not claimed: the horse's eventual fate (some sources report he was later drafted as a WWI military horse and killed or eaten amid wartime food shortages); the Wikipedia citation for that detail is itself uncertain (\"or was consumed by hungry soldiers\"), so it is left out rather than repeated as fact. The AI-relevance closing beat is limited to the well-documented image-classifier example rather than naming a specific model or paper.",
+      "palette": {
+        "bg": "#0D0B10",
+        "ink": "#F1EEF5",
+        "accent": "#C98B4A",
+        "muted": "#8A8390"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Berlin, early 1900s.",
+          "text": "A horse could allegedly do arithmetic.",
+          "note": "Hans tapped out answers to maths, calendar and spelling questions with his hoof. A formal commission of thirteen experts examined him in 1904 and found no trick at all."
+        },
+        {
+          "kind": "statement",
+          "lead": "Then a psychologist checked again.",
+          "text": "In 1907, Oskar Pfungst found the trick anyway.",
+          "note": "Hans wasn't calculating. He was reading his questioner's posture and expression, and stopping the instant they subtly relaxed."
+        },
+        {
+          "kind": "figure",
+          "value": "89",
+          "unit": "percent",
+          "context": "Correct, when Hans could see a questioner who already knew the answer. Hide that questioner from view and he collapsed to 6 percent."
+        },
+        {
+          "kind": "credit",
+          "year": "1907",
+          "name": "Oskar Pfungst",
+          "role": "The psychologist assigned to re-test Hans. He proved his theory by becoming the horse himself: tapping out numbers by hand, he produced the same involuntary tell in the people standing beside him."
+        },
+        {
+          "kind": "statement",
+          "text": "The pattern outlived the horse.",
+          "note": "\"Clever Hans effect\" is now the term for an AI model that looks intelligent while actually keying off a spurious signal, an image classifier reading text in a photo instead of the picture itself."
+        },
+        {
+          "kind": "sign",
+          "line": "The trick a horse pulled in 1904 is still fooling machines.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "cache-invalidation",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://www.karlton.org/2017/12/naming-things-hard/: David Karlton (Phil Karlton's son), read in full. Establishes: the line \"There are only two hard things in Computer Science: cache invalidation and naming things\" is credited to Phil Karlton, who said it while at Netscape; the 2017 post is the son's own attempt to collect every citation of the quote online, and it does not produce a written original, only a list of other people's blog references; a 2021 comment from Tom Bajzek recalls hearing Karlton say the line at Carnegie Mellon \"sometime around 1970\", decades before Netscape existed; a 2024 comment jokes about tacking on a third hard thing, \"off-by-one errors\".",
+        "http://karlton.hamilton.com/mercury.html: San Jose Mercury News (Mack Lundstrom, 27 June 1997, page 1B), read in full. Establishes: Phil Karlton, 50, and his wife Jan, 58, were killed on 20 June 1997 when a truck struck their car near Canelli in Italy's Asti Province; Jan died instantly, Phil died seven hours later at a hospital in Alessandria; Karlton studied at UC Santa Barbara and Carnegie Mellon University, then worked at Xerox PARC, Digital Equipment Corp's Western Research Lab, Silicon Graphics and Netscape, contributing to X Windows and to an internet security protocol; his son David was a Java programmer at Netscape."
+      ],
+      "verifiedNote": "Checked 30 Aug 2026 against both sources read in full. The Mercury News obituary independently confirms Karlton really did study at Carnegie Mellon, which is what makes the circa-1970 blog-comment memory plausible rather than a simple misremembering, but it remains one uncorroborated comment, not a document, so no beat claims it as the confirmed origin. Death year is 1997 per the contemporaneous newspaper report; a Brendan Eich tweet found in initial research said 1996, which the Mercury News piece (published days after the crash) overrides. Not claimed: that Karlton personally coined the \"naming things\" half as opposed to the \"cache invalidation\" half, or any precise first date or venue for the quote; no source supplies one, which is the entire point of the topic.",
+      "palette": {
+        "bg": "#0A0D12",
+        "ink": "#ECF0F5",
+        "accent": "#57C7FF",
+        "muted": "#7C8794"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "You've seen this quoted a thousand times.",
+          "text": "\"There are only two hard things in Computer Science: cache invalidation and naming things.\"",
+          "note": "It's credited to one man, Phil Karlton, and nobody has ever produced anything he wrote it in."
+        },
+        {
+          "kind": "statement",
+          "lead": "His own son went looking for the source.",
+          "text": "He couldn't find one either.",
+          "note": "In a 2017 post, David Karlton collected every citation of the quote he could find online and admitted none of them traced back further than secondhand memory."
+        },
+        {
+          "kind": "credit",
+          "year": "1997",
+          "name": "Phil Karlton",
+          "role": "Engineer at Xerox PARC, DEC, Silicon Graphics and Netscape, where he helped build X Windows and an internet security protocol. Killed in a car accident near Canelli, Italy, that June, at 50, taking the actual origin of his own line with him."
+        },
+        {
+          "kind": "statement",
+          "lead": "One colleague's memory reaches further back than the Netscape story most people repeat.",
+          "text": "He recalls hearing it at Carnegie Mellon, around 1970.",
+          "note": "Karlton really did study there, years before his Xerox and Netscape career, but the memory is one blog comment, not a document, so the earliest confirmed instance of his own line is still unknown."
+        },
+        {
+          "kind": "kicker",
+          "text": "The internet gave it a third hard thing anyway: off-by-one errors."
+        },
+        {
+          "kind": "sign",
+          "line": "A quote everyone can cite and nobody can source.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "vinland-1021",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://www.nature.com/articles/s41586-021-03972-8: Kuitems, M., Wallace, B.L., Lindsay, C. et al., \"Evidence for European presence in the Americas in AD 1021,\" Nature (2021), read via abstract and multiple direct quotations in secondary science reporting (below). Establishes the AD 1021 date for Norse-cut wood at L'Anse aux Meadows.",
+        "https://www.smithsonianmag.com/science-nature/new-dating-method-shows-vikings-occupied-newfoundland-in-1021-ce-180978903/: Smithsonian Magazine, read directly. Establishes the method: a cosmic-ray-driven radiocarbon spike from a known solar storm in AD 993 is preserved in tree rings worldwide; researchers counted growth rings out from that marker ring to the bark edge on wood cut with metal blades, tools the region's Indigenous population did not have, landing on AD 1021.",
+        "https://www.sciencenews.org/article/vikings-north-america-date-newfoundland: Science News, read directly. Establishes the numbers: 127 radiocarbon measurements across 83 tree rings from four wooden objects, three of which retained their outermost growth ring; calls it the oldest precise date for Europeans in the Americas and the only one predating Columbus's 1492 voyage.",
+        "https://parks.canada.ca/lhn-nhs/nl/meadows/culture: Parks Canada, via search summary. Establishes site history: Norwegian explorer Helge Ingstad found the site in 1960; archaeologist Anne Stine Ingstad led excavations from 1961 to 1968 and identified it as Norse by comparison with Greenland and Iceland sites, dating it only broadly to around AD 1000; designated a National Historic Site of Canada in 1968 and a UNESCO World Heritage Site in 1978."
+      ],
+      "verifiedNote": "Checked 30 Aug 2026. The Nature paper itself was read at abstract level plus direct quotation via two science-press outlets that quote its methods and numbers consistently with each other, which is why it is listed alongside them rather than alone. Figure beat is 1021 (the finding itself, not a derived count), which is why it earns 300px where a computed figure like \"471 years before Columbus\" would not; that arithmetic (1492 minus 1021) appears only in beat text, not enlarged. Site-discovery history (1960 Ingstad, 1968/1978 designations) is via a single official-source search summary, not a full read, since it is context for the story rather than its central claim.",
+      "palette": {
+        "bg": "#090C10",
+        "ink": "#EEF2F5",
+        "accent": "#7FD6E8",
+        "muted": "#75828C"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "You know the year Columbus crossed the Atlantic.",
+          "text": "Vikings beat him there by 471 years.",
+          "note": "Not legend, a dated find: European wood, cut with metal tools nobody in the area had, at the northern tip of Newfoundland."
+        },
+        {
+          "kind": "statement",
+          "lead": "The site was found in 1960.",
+          "text": "Nobody could say exactly when it was occupied for another 61 years.",
+          "note": "Archaeologist Anne Stine Ingstad excavated it through the 1960s and dated it to \"around 1000 AD\" by comparing it with sites in Greenland and Iceland, a good estimate, not a year."
+        },
+        {
+          "kind": "statement",
+          "lead": "In 2021, a solar storm did what shovels couldn't.",
+          "text": "A cosmic-ray spike from the year 993 is baked into tree rings everywhere on Earth.",
+          "note": "Researchers counted growth rings outward from that marked ring, on wood the Norse had felled and shaped, straight to the year they cut it."
+        },
+        {
+          "kind": "figure",
+          "value": "1021",
+          "unit": "AD",
+          "context": "The exact year, from 127 radiocarbon measurements across four wooden objects. Not \"around 1000\". Not a century. One year."
+        },
+        {
+          "kind": "credit",
+          "year": "2021",
+          "name": "Margot Kuitems",
+          "role": "Led the University of Groningen team that published the date in Nature, using the 993 solar storm as a fixed marker buried in the rings of every sample tested."
+        },
+        {
+          "kind": "sign",
+          "line": "Tree rings and a solar storm pinned it to the year.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "parkinsons-law",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "http://doc.cat-v.org/economics/parkinsons-law/: the original essay text, read in full. Establishes: byline credits \"Northcote Parkinson, Raffles Professor of History at the University of Singapore\"; first appeared in The Economist in November 1955; opens with the (explicitly illustrative) story of an elderly lady spending a whole day mailing a postcard, an hour finding it, another finding her spectacles, half an hour finding the address, an hour and a quarter composing it, twenty minutes deciding about an umbrella, against a busy person's three minutes; states \"Factor I: An official wants to multiply subordinates, not rivals\" and \"Factor II: Officials make work for each other.\"",
+        "https://www.usni.org/magazines/naval-history-magazine/1994/december-1/challenging-parkinsons-law: Jon Sumida (associate professor of history, University of Maryland), \"Challenging Parkinson's Law,\" Naval History Magazine, December 1994, read in full. Establishes Parkinson's actual career (PhD in history, King's College London; Master of the Royal Naval College Dartmouth; Lecturer in History, Liverpool; Raffles Professor of History at the University of Malaya; died 9 March 1993 aged 83; wrote over 60 books, mostly serious naval history); that the postcard story was \"obviously fictitious\" by Parkinson's own framing; that the collected book sold nearly a quarter of a million copies in two years; Parkinson's published Admiralty table (1914: 2,000 officials to 1928: 3,569, a 78.45% rise, against a 67.74% fall in capital ships and a 31.5% fall in personnel); that Parkinson never disclosed the source of these statistics; that an independent check against the actual Navy Lists found the true 1914 figure was about a quarter lower than Parkinson's, which raises the honest percentage increase to roughly 120%; and that this growth tracks almost exactly with World War One's demands, wartime equipment failures, a hiring surge to match the Ministry of Munitions' paperwork, and the mass hiring of lower-paid women clerical staff, none of which Parkinson's essay mentions."
+      ],
+      "verifiedNote": "Checked 30 Aug 2026 against both sources read in full. Figure beat uses Sumida's corrected 120%, not Parkinson's own 78%, because the corrected figure is the one that actually survived an audit of the real Navy Lists. Deliberately not framed as \"Parkinson lied\": Sumida's actual point is subtler, the true growth was bigger than Parkinson claimed, but it lines up with an omitted war, not a universal law. Also not claimed: Sumida's aside that Walt Disney reportedly considered a film adaptation, since Sumida himself hedges that detail as \"reputedly\". One date conflict handled here: Sumida's article states the Economist piece appeared in 1958, but the essay's own byline and multiple independent sources date it to November 1955 (1958 is when the collected book followed); 1955 is used, since it is the date on the primary text itself.",
+      "palette": {
+        "bg": "#0C0B0E",
+        "ink": "#F3F0EC",
+        "accent": "#E4572E",
+        "muted": "#8B8680"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The essay opens with a woman spending all day mailing a postcard.",
+          "text": "Parkinson admitted upfront that story was made up.",
+          "note": "The real piece was a satirical nine-page article for The Economist in November 1955, and it's still quoted today as if it were a study."
+        },
+        {
+          "kind": "statement",
+          "lead": "His actual evidence was British Admiralty staffing, 1914 to 1928.",
+          "text": "Officials up 78 percent, while the fleet shrank by two-thirds.",
+          "note": "It reads like scientific proof. Parkinson never disclosed where the numbers came from."
+        },
+        {
+          "kind": "statement",
+          "lead": "In 1994, a naval historian checked the real Navy Lists.",
+          "text": "The true growth was even bigger than Parkinson said, and so was the reason he left out.",
+          "note": "The honest 1914 baseline was lower, pushing the real increase closer to 120 percent. That surge tracks almost exactly with the paperwork of the First World War, which Parkinson's essay never mentions once."
+        },
+        {
+          "kind": "credit",
+          "year": "1955",
+          "name": "C. Northcote Parkinson",
+          "role": "A serious naval historian, Raffles Professor of History at the University of Malaya, in Singapore, whose nine-page joke in The Economist was collected into a book that sold nearly a quarter of a million copies in two years."
+        },
+        {
+          "kind": "figure",
+          "value": "120",
+          "unit": "percent",
+          "context": "Historian Jon Sumida's corrected 1914-to-1928 growth rate, using the actual Navy Lists rather than Parkinson's undisclosed source."
+        },
+        {
+          "kind": "sign",
+          "line": "A historian's joke about a war, mistaken for a law about offices.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "mpemba-effect",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mpemba_effect: read in full. Establishes: Erasto Mpemba, a Tanzanian student, noticed in 1963 in Form 3 at Magamba Secondary School (Tanganyika) that a hot ice-cream mixture froze before a cold one in cookery class, and his teacher dismissed it; he later raised it with visiting physicist Denis Osborne at Mkwawa Secondary School; Osborne tested it with water at his own workplace and confirmed it; they co-published \"Cool?\" in Physics Education 4(3):172-175 in 1969, while Mpemba was studying at the College of African Wildlife Management; Aristotle wrote centuries earlier, \"Hence many people, when they want to cool water quickly, begin by putting it in the sun\"; Francis Bacon separately noted \"slightly tepid water freezes more easily than that which is utterly cold\"; Rene Descartes described the same pattern in his Discourse on the Method; in 2016, Henry Burridge and Paul Linden tested the time water takes to reach 0°C under tightly controlled conditions and concluded, in their own words, \"We conclude, somewhat sadly, that there is no evidence to support meaningful observations of the Mpemba effect\"; the article states physicists remain divided on the effect's reproducibility, precise definition and underlying mechanism.",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5121640: Burridge, H.C. & Linden, P.F., \"Questioning the Mpemba effect: hot water does not cool more quickly than cold,\" Scientific Reports 6:37665 (2016), cited via the Wikipedia article's direct quotation of the paper's conclusion; title, authors, journal and year corroborated independently."
+      ],
+      "verifiedNote": "Checked 30 Aug 2026 against the Wikipedia article read in full, itself quoting both the 1969 and 2016 papers directly. Beats deliberately do not declare the effect either real or fake; the source is explicit that physicists remain split, and some later work on supercooling behaviour offers a narrower mechanism that could explain occasional genuine observations. No figure beat: the only numbers available are years and a temperature threshold (0°C), none of which is a count worth enlarging to 300px. Not claimed: any specific modern theoretical explanation for why the effect might sometimes appear, since the sources treat that as unsettled.",
+      "palette": {
+        "bg": "#090D12",
+        "ink": "#EDF1F4",
+        "accent": "#FF7043",
+        "muted": "#7A8791"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Tanganyika, 1963.",
+          "text": "A schoolboy watched his hot ice-cream mix freeze before the cold batch.",
+          "note": "Erasto Mpemba was in Form 3 at Magamba Secondary School. His teacher told him that was simply not possible."
+        },
+        {
+          "kind": "statement",
+          "lead": "Aristotle had already written the same thing, over two thousand years earlier.",
+          "text": "\"Hence many people, when they want to cool water quickly, begin by putting it in the sun.\"",
+          "note": "Francis Bacon and Rene Descartes both noted it too, centuries before Mpemba was born. None of that stopped it from being named after him."
+        },
+        {
+          "kind": "credit",
+          "year": "1969",
+          "name": "Denis Osborne",
+          "role": "A physicist who met Mpemba at his next school, tested the claim with water back in his own lab, and confirmed it. They published together in Physics Education under the title \"Cool?\", while Mpemba was training at the College of African Wildlife Management, not a physics department."
+        },
+        {
+          "kind": "statement",
+          "lead": "The dramatic original numbers were never reliably repeated.",
+          "text": "In 2016, two researchers finally tested it under tightly controlled conditions.",
+          "note": "Henry Burridge and Paul Linden's own conclusion: \"We conclude, somewhat sadly, that there is no evidence to support meaningful observations of the Mpemba effect.\""
+        },
+        {
+          "kind": "kicker",
+          "text": "It's still taught as settled science in classrooms that have never settled it."
+        },
+        {
+          "kind": "sign",
+          "line": "Older than Aristotle. Still not proven.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
