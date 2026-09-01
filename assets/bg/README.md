@@ -52,15 +52,43 @@ frame before saying anything, not by assuming ffmpeg exiting 0 meant the
 output was correct. Rebuilt using `textfile=` instead of inline `text=`
 for both lines, which avoids that whole class of shell-escaping failure.
 
-Feedback not yet addressed: the eye-stalk swivel motion in the .mp4 reads
-as a little uncanny on review. Fixing it means a new image-to-video
-generation with that motion prompted out, which needs paid credits now
-that the free allocation is spent (the same Kling 2.5 Turbo Pro call was
-quoted at 750 credits before the free allocation zeroed it out). Not
-spent without asking first.
+## Eyes removed, 1 Sep 2026, same session
+
+User: "I do not want to have any eye shapes or eyes shown on any face."
+A standing rule, not a one-off edit, and not fixable by regenerating
+since the free allocation is spent anyway. Fixed for free instead: found
+a crop (`crop=664:1180:208:740` on the 1080x1920 video, the equivalent
+scaled region on the 2K still) that holds across the whole 5s clip
+despite its slow camera drift, confirmed by checking frames at 0.05s,
+2.5s and 4.95s, not just one point. Reframes as a claw and shell macro
+shot rather than a creature portrait; no eyes, no face, in any frame.
+Applied to `mantis-shrimp-colour-demo.png` and `.mp4` in place, then the
+text+audio composite was rebuilt from the newly cropped video with the
+text moved from top to bottom (the crop removed the top-third negative
+space the original prompt had reserved for it), reverified the same way
+as the first build: frame extraction plus an audio volumedetect pass,
+not just a clean exit code.
+
+**Found while doing this, not before, which is the real problem**:
+`scripts/data/compliance-policy.json`, `halal.forbid_animate_imagery`,
+is already `true`, with its own note reading "Videos are pure typography
+today, so this guards the future. Any image or video asset entering a
+composition is blocked pending review, since it may depict humans or
+animals." That rule predates this session. Cropping out the eyes does
+not satisfy it: a mantis shrimp with its eyes out of frame is still
+animate imagery, a real animal, under that rule's own definition. This
+demo should have been checked against `compliance-policy.json` before
+generating anything, the same file `compliance-gate.mjs` already reads
+for every other rule in this project, and was not. Raised directly with
+the user rather than either quietly shipping past a rule marked as the
+channel owner's explicit instruction, or quietly rewriting that rule
+myself on their behalf. Until that is resolved, nothing here should be
+treated as cleared for the real pipeline regardless of how the crop
+looks.
 
 Not done: none of this is resized, cropped, or timed against the
 composition's real beat pacing (`EditorialReel.tsx`), and it is not wired
 into `generate-reels.mjs`. It exists to answer what real imagery, real
 type, and real audio look like together for this project, not to ship
-as-is.
+as-is, and now also to surface the `forbid_animate_imagery` question
+before anything downstream of this folder assumes it is settled.

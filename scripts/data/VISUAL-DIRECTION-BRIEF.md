@@ -1,5 +1,27 @@
 # NEXT SESSION — START HERE
 
+## OPEN QUESTION, 1 Sep 2026 — forbid_animate_imagery vs. real imagery
+
+Do not generate or use any image or video depicting an animal or person
+in this project until this is resolved. `scripts/data/compliance-policy.json`,
+`halal.forbid_animate_imagery`, has been `true` since before this session,
+with its own note: "Videos are pure typography today, so this guards the
+future. Any image or video asset entering a composition is blocked
+pending review, since it may depict humans or animals." That review never
+happened before this session generated a real photo and video of a mantis
+shrimp (`assets/bg/mantis-shrimp-colour-demo.*`, see that folder's
+README). The user separately asked, in the same session, for eyes and
+faces never to appear in generated media, which narrows the question but
+does not answer it: does real animate imagery become allowed at all now,
+with eyes and faces as the specific carve-out, or does the original
+blanket rule stay and today's demo stays a one-off test that never enters
+`generate-reels.mjs`? Asked directly rather than assumed either way.
+Whatever the answer, `compliance-policy.json` should read it back: either
+`forbid_animate_imagery` gets replaced with a narrower rule and a comment
+explaining the change and who approved it, or it stays exactly as it is
+and this note can be deleted once a future session confirms the rule was
+actually checked before any generation call, not after.
+
 ## ADDED 1 Sep 2026 — per-niche background motifs, direct response to user feedback
 
 The user looked at the channel and said, plainly, that the templates and
