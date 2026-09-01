@@ -1,0 +1,65 @@
+{
+  "date": "2026-09-01",
+  "generatedAt": "2026-09-01T19:05:22.009Z",
+  "policyVersion": "1.0.0",
+  "strictMode": false,
+  "allowed": [
+    "mantis-shrimp-colour"
+  ],
+  "blocked": [],
+  "results": [
+    {
+      "slug": "mantis-shrimp-colour",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "It is not what you were told.",
+      "niche": "animals",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [
+        {
+          "severity": "INFO",
+          "rule": "halal.animate_imagery_cleared",
+          "message": "\"bg/mantis-shrimp-colour-demo.mp4\" is a reviewed, cleared animate-imagery asset (animal, no eyes or face visible). Reviewed 2026-09-01.",
+          "detail": {
+            "asset": "bg/mantis-shrimp-colour-demo.mp4"
+          }
+        }
+      ],
+      "similarity": {
+        "worstTitleSimilarity": 0.304,
+        "worstTitleAgainst": "margulis-endosymbiosis",
+        "worstDescriptionSimilarity": 0.233,
+        "combo": "reel:#071A1C:#FF5C8A:#EAF6F4",
+        "themeGap": 58,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    }
+  ]
+}

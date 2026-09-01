@@ -63,6 +63,7 @@
 import React from "react";
 import {
   AbsoluteFill, Sequence, useCurrentFrame, useVideoConfig, interpolate, spring, Audio, staticFile,
+  OffthreadVideo, Img,
 } from "remotion";
 import { Motif, resolveNiche, secondaryNiche } from "./motifs";
 
@@ -79,7 +80,16 @@ export type ReelBeat =
   | { kind: "credit"; name: string; role: string; year: string; durationInFrames: number }
   | { kind: "figure"; value: string; unit?: string; context: string; durationInFrames: number }
   | { kind: "kicker"; text: string; durationInFrames: number }
-  | { kind: "sign"; handle: string; line: string; durationInFrames: number };
+  | { kind: "sign"; handle: string; line: string; durationInFrames: number }
+  // Real photo or video footage, full-bleed. Added 1 Sep 2026, opt-in only: a
+  // topic gets one of these ONLY when scripts/data/animate-imagery-review.json
+  // has a matching, cleared entry for `src` — see that file and the halal
+  // section of compliance-policy.json. durationInFrames is NOT computed by
+  // generate-reels.mjs the way every other beat's is; it is set to the real
+  // asset's own length, because the picture, not the caption, sets the pace
+  // here. Every other beat kind, every other topic, is completely unaffected
+  // by this addition: it is purely additive to the ReelBeat union.
+  | { kind: "media"; assetType: "image" | "video"; src: string; caption?: string; durationInFrames: number };
 
 export type ReelProps = {
   palette: { bg: string; ink: string; accent: string; muted: string };
@@ -405,6 +415,53 @@ const FigureBeat: React.FC<{ b: Extract<ReelBeat, { kind: "figure" }>; p: ReelPr
   );
 };
 
+// Real footage, full-bleed, with a bottom scrim so a short caption stays
+// legible over whatever is actually in the frame. Deliberately its own beat
+// rather than a low-opacity texture behind text like Drift: the whole point
+// of this beat existing is that the picture is the content, not decoration
+// behind it. A slow push from 1.04 to 1.10 (tighter than BeatShell's 3.5%,
+// because five real seconds of footage can carry more motion than a static
+// SVG motif before it reads as excessive) keeps it from sitting dead still.
+// No grain here on top of real footage grain/compression of its own — the
+// feTurbulence overlay was built to give life to a flat colour fill, and on
+// top of real video it just looks like a dirty lens.
+const MediaBeat: React.FC<{ b: Extract<ReelBeat, { kind: "media" }>; p: ReelProps["palette"] }> = ({ b, p }) => {
+  const frame = useCurrentFrame();
+  const push = interpolate(frame, [0, Math.max(1, b.durationInFrames)], [1.04, 1.10], { extrapolateRight: "clamp" });
+  return (
+    <AbsoluteFill style={{ background: p.bg, overflow: "hidden" }}>
+      <AbsoluteFill style={{ transform: `scale(${push})`, transformOrigin: "50% 50%" }}>
+        {b.assetType === "video" ? (
+          <OffthreadVideo
+            src={staticFile(b.src)}
+            muted
+            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+          />
+        ) : (
+          <Img
+            src={staticFile(b.src)}
+            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+          />
+        )}
+      </AbsoluteFill>
+      {/* Bottom scrim, fading to p.bg, so caption text (set in p.ink, which
+          is what every other beat already uses for text on a p.bg field)
+          stays readable regardless of what colour or brightness the footage
+          itself is at that point in the clip. */}
+      <div style={{
+        position: "absolute", left: 0, right: 0, bottom: 0, height: "46%",
+        background: `linear-gradient(to bottom, transparent, ${p.bg} 88%)`,
+        pointerEvents: "none",
+      }} />
+      {b.caption ? (
+        <div style={{ position: "absolute", left: PAD, right: PAD, bottom: 130 }}>
+          <Words text={b.caption} size={58} colour={p.ink} weight={800} delay={6} />
+        </div>
+      ) : null}
+    </AbsoluteFill>
+  );
+};
+
 const KickerBeat: React.FC<{ b: Extract<ReelBeat, { kind: "kicker" }>; p: ReelProps["palette"] }> = ({ b, p }) => (
   <BeatShell bg={p.bg} ink={p.ink} accent={p.accent} dur={b.durationInFrames}>
     <div style={{ position: "absolute", inset: `${PAD}px ${PAD}px`, display: "flex", alignItems: "center" }}>
@@ -468,6 +525,7 @@ const renderBeat = (b: ReelBeat, p: ReelProps["palette"], cta: string) => {
     case "figure":    return <FigureBeat b={b} p={p} />;
     case "kicker":    return <KickerBeat b={b} p={p} />;
     case "sign":      return <SignBeat b={b} p={p} cta={cta} />;
+    case "media":     return <MediaBeat b={b} p={p} />;
     default:          return null;
   }
 };

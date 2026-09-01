@@ -4,6 +4,18 @@
   "updated": "2026-09-01",
   "assets": [
     {
+      "file": "bg/mantis-shrimp-colour-demo.mp4",
+      "depicts": "animal",
+      "species": "mantis shrimp",
+      "eyesOrFaceVisible": false,
+      "cleared": true,
+      "review_method": "Byte-identical copy of assets/bg/mantis-shrimp-colour-demo.mp4 (same sha, same 7495299 bytes), placed under public/bg/ solely so Remotion's staticFile() can serve it into the actual composition; Remotion's public dir is public/, not assets/, so the file has to live here to be rendered at all. No new review performed on this copy: it is pixel-identical to the entry below, which was reviewed by extracting and viewing frames at 0.05s, 2.5s and 4.95s across the source clip.",
+      "reviewed_by": "BBMW0 Technologies",
+      "reviewed_on": "2026-09-01",
+      "derived_from": "assets/bg/mantis-shrimp-colour-demo.mp4",
+      "notes": "This is the path that actually appears in rendered props (scripts/data/topics-rich.json, mantis-shrimp-colour topic, the opening media beat), and therefore the path scripts/compliance/halal.mjs will look up. Keep this entry and the assets/bg/ entry in sync: if the source crop is ever redone, redo this copy and re-verify both."
+    },
+    {
       "file": "assets/bg/mantis-shrimp-colour-demo.png",
       "depicts": "animal",
       "species": "mantis shrimp",

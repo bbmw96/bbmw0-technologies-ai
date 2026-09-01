@@ -1173,7 +1173,11 @@
       "niche": "animals",
       "channelId": "yt-bbm0902",
       "special": false,
-      "platform": "youtube"
+      "platform": "youtube",
+      "youtubeId": "hOIUxY4I3hY",
+      "youtubeUrl": "https://youtu.be/hOIUxY4I3hY",
+      "uploadedAt": "2026-09-01T19:06:31.447Z",
+      "privacy": "public"
     },
     {
       "id": "mario-pixel-budget",

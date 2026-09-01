@@ -1526,6 +1526,36 @@
           "aiPassRatio": null
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-01T19:05:22.008Z",
+      "date": "2026-09-01",
+      "policyVersion": "1.0.0",
+      "strictMode": false,
+      "reviewed": 1,
+      "passed": 1,
+      "blocked": 0,
+      "results": [
+        {
+          "slug": "mantis-shrimp-colour",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.304,
+            "worstTitleAgainst": "margulis-endosymbiosis",
+            "worstDescriptionSimilarity": 0.233,
+            "combo": "reel:#071A1C:#FF5C8A:#EAF6F4",
+            "themeGap": 58,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        }
+      ]
     }
   ]
 }

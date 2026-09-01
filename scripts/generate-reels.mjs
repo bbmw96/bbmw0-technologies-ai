@@ -83,6 +83,11 @@ function animationCost(b) {
       // outlast that delay or the ask is cut off mid-reveal, which is worse
       // than not asking.
       return Math.max(2 + words(b.line) * STAGGER, 30) + 26 + SETTLE;
+    case "media":
+      // A media beat has no text stagger to finish: its pacing comes from
+      // the real asset, handled separately in computeDurations below. Zero
+      // here just means the tooShort diagnostic never flags it.
+      return 0;
     default:
       return 90;
   }
@@ -99,6 +104,7 @@ function readingLoad(b) {
     // The CTA is not in the beat data - it comes from the composition - but it
     // is on screen and has to be read, so it counts toward the beat's length.
     sign: [b.line, b.handle, "Subscribe for more"],
+    media: [b.caption],
   }[b.kind] || [];
   return fields.reduce((s, f) => s + words(f), 0);
 }
@@ -107,9 +113,19 @@ const clamp = (n) => Math.max(MIN_BEAT, Math.min(MAX_BEAT, Math.round(n)));
 
 /** Mode 2: each beat gets what it needs, independently. */
 function computeDurations(beats) {
-  return beats.map((b) =>
-    clamp(Math.max(animationCost(b) + HOLD, (readingLoad(b) / READ_WPS) * FPS + HOLD)),
-  );
+  return beats.map((b) => {
+    // A media beat is paced by the real asset behind it, not by its short
+    // caption. Running it through the same text-driven clamp as every other
+    // kind would size a five-second clip off a four-word caption instead of
+    // the clip's own length, cutting it early or freezing on its last frame
+    // for the remainder. The topic supplies durationInFrames directly for
+    // these, matching the reviewed asset's actual length in
+    // animate-imagery-review.json.
+    if (b.kind === "media" && Number.isFinite(b.durationInFrames)) {
+      return Math.round(b.durationInFrames);
+    }
+    return clamp(Math.max(animationCost(b) + HOLD, (readingLoad(b) / READ_WPS) * FPS + HOLD));
+  });
 }
 
 /** Mode 1: cuts land on measured pauses in the narration. */
