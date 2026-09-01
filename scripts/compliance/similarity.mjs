@@ -62,6 +62,37 @@ function finding(severity, rule, message, detail) {
 }
 
 /**
+ * Presentation fingerprint — the thing the combo rules compare to catch "the
+ * same look shipped twice".
+ *
+ * For a ThemedShort the look is theme + font + audio: its three knobs. A reel
+ * has none of those — themeId and fontFamilyId are ThemedShort fields and are
+ * undefined on every reel — so every reel produced the combo
+ * "undefined|undefined|<bed>". Different beds kept them distinct until the beds
+ * were dropped (09a9bd3, "silence beats hiss"), after which the audio field is
+ * "" too and EVERY reel collapses to "undefined|undefined|". The combo_batch
+ * rule then reads each reel as a duplicate of the last and blocks the entire
+ * batch — the gate cleared 0 of 4 for yt-bbmw0 on 2026-08-18 and the pipeline
+ * published nothing on any channel, every run, for this reason alone.
+ *
+ * A reel's look is its palette. Fall back to it when theme and font are both
+ * absent. Palettes are hand-chosen per topic and distinct, so genuinely
+ * different reels no longer collide, while two reels that truly shared a
+ * palette still would — which is the nudge to differentiate, exactly as the
+ * rule intends. Republishing the SAME reel is still caught by the id-based
+ * cross_channel rule, so nothing is weakened. ThemedShorts are untouched:
+ * with a themeId present they take the original theme|font|audio path.
+ */
+function presentationCombo(v) {
+  if (v.themeId == null && v.fontFamilyId == null) {
+    const p = v.palette || (v.props && v.props.palette) || {};
+    if (p.bg || p.accent) return `reel:${p.bg || ""}:${p.accent || ""}:${p.ink || ""}`;
+    return `reel:${v.id}`; // last resort: unique per topic, never a false batch clash
+  }
+  return `${v.themeId}|${v.fontFamilyId}|${v.audioUrl}`;
+}
+
+/**
  * @param candidate  { id, title, description, hook, themeId, fontFamilyId, audioUrl, niche }
  * @param history    published.videos, oldest first
  * @param batch      other candidates being published in the same run
@@ -109,15 +140,18 @@ export function checkRepetition(candidate, history, batch, policy) {
   }
 
   // ---- 2. Presentation reuse ---------------------------------------------
-  const combo = `${candidate.themeId}|${candidate.fontFamilyId}|${candidate.audioUrl}`;
+  // combo is a presentation fingerprint, not literally theme|font|audio — see
+  // presentationCombo. A reel keys on its palette so distinct reels no longer
+  // read as one repeated template now that they share an empty audio field.
+  const combo = presentationCombo(candidate);
   if (R.forbid_exact_combo_reuse) {
-    const clash = recent.find((p) => p && `${p.themeId}|${p.fontFamilyId}|${p.audioUrl}` === combo);
+    const clash = recent.find((p) => p && presentationCombo(p) === combo);
     if (clash) {
       out.push(finding(SEVERITY.BLOCK, "repetition.combo",
         `Theme/font/audio combination already used by "${clash.id}".`, { combo }));
     }
     const batchClash = batch.find((o) =>
-      o.id !== candidate.id && `${o.themeId}|${o.fontFamilyId}|${o.audioUrl}` === combo);
+      o.id !== candidate.id && presentationCombo(o) === combo);
     if (batchClash) {
       out.push(finding(SEVERITY.BLOCK, "repetition.combo_batch",
         `Same theme/font/audio as "${batchClash.id}" in this batch.`, { combo }));

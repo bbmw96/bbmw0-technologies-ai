@@ -113,6 +113,11 @@ for (const item of batch) {
     { id: slug, title: meta.title, description: meta.description,
       themeId: meta.themeId, fontFamilyId: meta.fontFamilyId,
       audioUrl: meta.audioUrl, niche: meta.niche,
+      // palette is the reel's presentation fingerprint. Without it here the
+      // candidate falls back to reel:<id> — still correct, but two views of
+      // the same batch would disagree on the key. Pass it so candidate and
+      // batch element compare identically. See presentationCombo in similarity.
+      palette: props.palette,
       channelId: meta.channelId || null },
     history, batch, policy
   );

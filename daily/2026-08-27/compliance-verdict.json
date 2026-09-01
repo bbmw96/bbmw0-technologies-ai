@@ -1,17 +1,75 @@
 {
   "date": "2026-08-27",
-  "generatedAt": "2026-08-27T19:20:43.987Z",
+  "generatedAt": "2026-09-01T08:18:20.357Z",
   "policyVersion": "1.0.0",
   "strictMode": false,
-  "allowed": [],
+  "allowed": [
+    "google-googol-misspelling"
+  ],
   "blocked": [
-    "eiffel-temporary-radio",
-    "google-googol-misspelling",
-    "http-404-not-a-room",
     "donkey-kong-universal",
+    "eiffel-temporary-radio",
+    "http-404-not-a-room",
     "perceptron-nyt-1958"
   ],
   "results": [
+    {
+      "slug": "donkey-kong-universal",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "BLOCK",
+      "title": "'Monkey Kong', garbled into 'Donkey'.",
+      "niche": "gaming",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "instagram.caption_too_long",
+          "message": "Caption is 2774 chars, Instagram limit is 2200.",
+          "detail": null
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.125,
+        "worstTitleAgainst": "embeddings-meaning",
+        "worstDescriptionSimilarity": 0.27,
+        "combo": "reel:#120A0A:#E4572E:#F3E9DF",
+        "themeGap": 54,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
     {
       "slug": "eiffel-temporary-radio",
       "channelId": "yt-bbmw0",
@@ -27,14 +85,6 @@
           "detail": {
             "score": 0.574468085106383,
             "against": "eiffel-temp"
-          }
-        },
-        {
-          "severity": "BLOCK",
-          "rule": "repetition.combo_batch",
-          "message": "Same theme/font/audio as \"google-googol-misspelling\" in this batch.",
-          "detail": {
-            "combo": "undefined|undefined|"
           }
         }
       ],
@@ -73,9 +123,9 @@
       "similarity": {
         "worstTitleSimilarity": 0.574,
         "worstTitleAgainst": "eiffel-temp",
-        "worstDescriptionSimilarity": 0.258,
-        "combo": "undefined|undefined|",
-        "themeGap": 53,
+        "worstDescriptionSimilarity": 0.273,
+        "combo": "reel:#0B0C0E:#C08A3E:#EDE7DC",
+        "themeGap": 54,
         "audioGap": 0
       },
       "aiPanel": {
@@ -89,19 +139,10 @@
       "slug": "google-googol-misspelling",
       "channelId": "yt-bbmw0",
       "platform": "youtube",
-      "verdict": "BLOCK",
+      "verdict": "PASS_WITH_WARNINGS",
       "title": "Except nobody meant to spell it that way.",
       "niche": "tech",
-      "blocks": [
-        {
-          "severity": "BLOCK",
-          "rule": "repetition.combo_batch",
-          "message": "Same theme/font/audio as \"eiffel-temporary-radio\" in this batch.",
-          "detail": {
-            "combo": "undefined|undefined|"
-          }
-        }
-      ],
+      "blocks": [],
       "warnings": [
         {
           "severity": "WARN",
@@ -117,6 +158,12 @@
         },
         {
           "severity": "WARN",
+          "rule": "repetition.niche_window",
+          "message": "5 of the last 10 videos are \"tech\".",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
           "rule": "ai_panel.unavailable",
           "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
           "detail": null
@@ -127,8 +174,8 @@
         "worstTitleSimilarity": 0.1,
         "worstTitleAgainst": "eiffel-temporary-radio (same batch)",
         "worstDescriptionSimilarity": 0.258,
-        "combo": "undefined|undefined|",
-        "themeGap": 53,
+        "combo": "reel:#0C0D10:#E1A73E:#ECEAE3",
+        "themeGap": 54,
         "audioGap": 0
       },
       "aiPanel": {
@@ -148,10 +195,20 @@
       "blocks": [
         {
           "severity": "BLOCK",
-          "rule": "repetition.combo_batch",
-          "message": "Same theme/font/audio as \"eiffel-temporary-radio\" in this batch.",
+          "rule": "repetition.cross_channel",
+          "message": "Topic \"http-404-not-a-room\" was already published on channel \"ig-aigameodyssey\". Publishing it again on \"yt-bbmw0\" duplicates content across owned channels.",
           "detail": {
-            "combo": "undefined|undefined|"
+            "otherChannel": "ig-aigameodyssey"
+          }
+        },
+        {
+          "severity": "BLOCK",
+          "rule": "repetition.cross_channel_similar",
+          "message": "Title is 100% similar to \"http-404-not-a-room\" on channel \"ig-aigameodyssey\" (limit 45%).",
+          "detail": {
+            "score": 1,
+            "against": "http-404-not-a-room",
+            "channel": "ig-aigameodyssey"
           }
         }
       ],
@@ -186,6 +243,12 @@
         },
         {
           "severity": "WARN",
+          "rule": "repetition.niche_window",
+          "message": "5 of the last 10 videos are \"tech\".",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
           "rule": "ai_panel.unavailable",
           "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
           "detail": null
@@ -196,73 +259,8 @@
         "worstTitleSimilarity": 0.222,
         "worstTitleAgainst": "algebra-origin",
         "worstDescriptionSimilarity": 0.242,
-        "combo": "undefined|undefined|",
-        "themeGap": 53,
-        "audioGap": 0
-      },
-      "aiPanel": {
-        "available": false,
-        "passRatio": null,
-        "skipped": "AI_ENDPOINT not set",
-        "reviews": []
-      }
-    },
-    {
-      "slug": "donkey-kong-universal",
-      "channelId": "ig-aigameodyssey",
-      "platform": "instagram",
-      "verdict": "BLOCK",
-      "title": "'Monkey Kong', garbled into 'Donkey'.",
-      "niche": "gaming",
-      "blocks": [
-        {
-          "severity": "BLOCK",
-          "rule": "instagram.caption_too_long",
-          "message": "Caption is 2774 chars, Instagram limit is 2200.",
-          "detail": null
-        },
-        {
-          "severity": "BLOCK",
-          "rule": "repetition.combo_batch",
-          "message": "Same theme/font/audio as \"http-404-not-a-room\" in this batch.",
-          "detail": {
-            "combo": "undefined|undefined|"
-          }
-        }
-      ],
-      "warnings": [
-        {
-          "severity": "WARN",
-          "rule": "legal.attributed_quote",
-          "message": "Text may attribute a statement to a named person. Verify before publishing.",
-          "detail": null
-        },
-        {
-          "severity": "WARN",
-          "rule": "coppa.undeclared",
-          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
-          "detail": null
-        },
-        {
-          "severity": "WARN",
-          "rule": "repetition.audio_spacing",
-          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
-          "detail": null
-        },
-        {
-          "severity": "WARN",
-          "rule": "ai_panel.unavailable",
-          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
-          "detail": null
-        }
-      ],
-      "info": [],
-      "similarity": {
-        "worstTitleSimilarity": 0.125,
-        "worstTitleAgainst": "embeddings-meaning",
-        "worstDescriptionSimilarity": 0.246,
-        "combo": "undefined|undefined|",
-        "themeGap": 53,
+        "combo": "reel:#0B0E0D:#41B29A:#E9ECEA",
+        "themeGap": 54,
         "audioGap": 0
       },
       "aiPanel": {
@@ -285,14 +283,6 @@
           "rule": "instagram.caption_too_long",
           "message": "Caption is 2906 chars, Instagram limit is 2200.",
           "detail": null
-        },
-        {
-          "severity": "BLOCK",
-          "rule": "repetition.combo_batch",
-          "message": "Same theme/font/audio as \"donkey-kong-universal\" in this batch.",
-          "detail": {
-            "combo": "undefined|undefined|"
-          }
         }
       ],
       "warnings": [
@@ -334,10 +324,10 @@
       "info": [],
       "similarity": {
         "worstTitleSimilarity": 0.091,
-        "worstTitleAgainst": "http-404-not-a-room (same batch)",
-        "worstDescriptionSimilarity": 0.246,
-        "combo": "undefined|undefined|",
-        "themeGap": 53,
+        "worstTitleAgainst": "http-404-not-a-room",
+        "worstDescriptionSimilarity": 0.273,
+        "combo": "reel:#0A0C10:#5B8CD6:#EAEAF0",
+        "themeGap": 54,
         "audioGap": 0
       },
       "aiPanel": {

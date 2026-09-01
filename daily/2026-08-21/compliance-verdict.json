@@ -1,14 +1,15 @@
 {
   "date": "2026-08-21",
-  "generatedAt": "2026-08-21T09:26:31.670Z",
+  "generatedAt": "2026-09-01T08:18:49.043Z",
   "policyVersion": "1.0.0",
   "strictMode": false,
-  "allowed": [],
+  "allowed": [
+    "inbox-zero-mann",
+    "pacman-256"
+  ],
   "blocked": [
     "hamburger-menu-xerox",
-    "inbox-zero-mann",
-    "wifi-not-fidelity",
-    "pacman-256"
+    "wifi-not-fidelity"
   ],
   "results": [
     {
@@ -27,10 +28,20 @@
         },
         {
           "severity": "BLOCK",
-          "rule": "repetition.combo_batch",
-          "message": "Same theme/font/audio as \"inbox-zero-mann\" in this batch.",
+          "rule": "repetition.cross_channel",
+          "message": "Topic \"hamburger-menu-xerox\" was already published on channel \"ig-aigameodyssey\". Publishing it again on \"yt-bbmw0\" duplicates content across owned channels.",
           "detail": {
-            "combo": "undefined|undefined|"
+            "otherChannel": "ig-aigameodyssey"
+          }
+        },
+        {
+          "severity": "BLOCK",
+          "rule": "repetition.cross_channel_similar",
+          "message": "Title is 100% similar to \"hamburger-menu-xerox\" on channel \"ig-aigameodyssey\" (limit 45%).",
+          "detail": {
+            "score": 1,
+            "against": "hamburger-menu-xerox",
+            "channel": "ig-aigameodyssey"
           }
         }
       ],
@@ -59,8 +70,8 @@
         "worstTitleSimilarity": 0.143,
         "worstTitleAgainst": "mario-pixel-budget",
         "worstDescriptionSimilarity": 0.23,
-        "combo": "undefined|undefined|",
-        "themeGap": 45,
+        "combo": "reel:#121110:#D9932B:#F0ECE3",
+        "themeGap": 55,
         "audioGap": 0
       },
       "aiPanel": {
@@ -74,19 +85,10 @@
       "slug": "inbox-zero-mann",
       "channelId": "yt-bbmw0",
       "platform": "youtube",
-      "verdict": "BLOCK",
+      "verdict": "PASS_WITH_WARNINGS",
       "title": "Inbox Zero means an empty inbox.",
       "niche": "productivity",
-      "blocks": [
-        {
-          "severity": "BLOCK",
-          "rule": "repetition.combo_batch",
-          "message": "Same theme/font/audio as \"hamburger-menu-xerox\" in this batch.",
-          "detail": {
-            "combo": "undefined|undefined|"
-          }
-        }
-      ],
+      "blocks": [],
       "warnings": [
         {
           "severity": "WARN",
@@ -118,61 +120,8 @@
         "worstTitleSimilarity": 0.139,
         "worstTitleAgainst": "consensus-mode",
         "worstDescriptionSimilarity": 0.232,
-        "combo": "undefined|undefined|",
-        "themeGap": 45,
-        "audioGap": 0
-      },
-      "aiPanel": {
-        "available": false,
-        "passRatio": null,
-        "skipped": "AI_ENDPOINT not set",
-        "reviews": []
-      }
-    },
-    {
-      "slug": "wifi-not-fidelity",
-      "channelId": "yt-bbmw0",
-      "platform": "youtube",
-      "verdict": "BLOCK",
-      "title": "Wi-Fi is short for Wireless Fidelity.",
-      "niche": "tech",
-      "blocks": [
-        {
-          "severity": "BLOCK",
-          "rule": "repetition.combo_batch",
-          "message": "Same theme/font/audio as \"hamburger-menu-xerox\" in this batch.",
-          "detail": {
-            "combo": "undefined|undefined|"
-          }
-        }
-      ],
-      "warnings": [
-        {
-          "severity": "WARN",
-          "rule": "coppa.undeclared",
-          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
-          "detail": null
-        },
-        {
-          "severity": "WARN",
-          "rule": "repetition.audio_spacing",
-          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
-          "detail": null
-        },
-        {
-          "severity": "WARN",
-          "rule": "ai_panel.unavailable",
-          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
-          "detail": null
-        }
-      ],
-      "info": [],
-      "similarity": {
-        "worstTitleSimilarity": 0.217,
-        "worstTitleAgainst": "pixel-origin",
-        "worstDescriptionSimilarity": 0.244,
-        "combo": "undefined|undefined|",
-        "themeGap": 45,
+        "combo": "reel:#101312:#3FA694:#EDEFEA",
+        "themeGap": 55,
         "audioGap": 0
       },
       "aiPanel": {
@@ -186,19 +135,10 @@
       "slug": "pacman-256",
       "channelId": "ig-aigameodyssey",
       "platform": "instagram",
-      "verdict": "BLOCK",
+      "verdict": "PASS_WITH_WARNINGS",
       "title": "The ending is a byte running out of room.",
       "niche": "gaming",
-      "blocks": [
-        {
-          "severity": "BLOCK",
-          "rule": "repetition.combo_batch",
-          "message": "Same theme/font/audio as \"hamburger-menu-xerox\" in this batch.",
-          "detail": {
-            "combo": "undefined|undefined|"
-          }
-        }
-      ],
+      "blocks": [],
       "warnings": [
         {
           "severity": "WARN",
@@ -223,9 +163,78 @@
       "similarity": {
         "worstTitleSimilarity": 0.125,
         "worstTitleAgainst": "lightning-hotter-sun",
-        "worstDescriptionSimilarity": 0.216,
-        "combo": "undefined|undefined|",
-        "themeGap": 45,
+        "worstDescriptionSimilarity": 0.221,
+        "combo": "reel:#0B0B0E:#F2C744:#F4F1E6",
+        "themeGap": 55,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "wifi-not-fidelity",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "Wi-Fi is short for Wireless Fidelity.",
+      "niche": "tech",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "repetition.cross_channel",
+          "message": "Topic \"wifi-not-fidelity\" was already published on channel \"ig-aigameodyssey\". Publishing it again on \"yt-bbmw0\" duplicates content across owned channels.",
+          "detail": {
+            "otherChannel": "ig-aigameodyssey"
+          }
+        },
+        {
+          "severity": "BLOCK",
+          "rule": "repetition.cross_channel_similar",
+          "message": "Title is 100% similar to \"wifi-not-fidelity\" on channel \"ig-aigameodyssey\" (limit 45%).",
+          "detail": {
+            "score": 1,
+            "against": "wifi-not-fidelity",
+            "channel": "ig-aigameodyssey"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.niche_window",
+          "message": "6 of the last 10 videos are \"tech\".",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.217,
+        "worstTitleAgainst": "pixel-origin",
+        "worstDescriptionSimilarity": 0.244,
+        "combo": "reel:#0E1013:#3E8FB0:#ECEAE3",
+        "themeGap": 55,
         "audioGap": 0
       },
       "aiPanel": {

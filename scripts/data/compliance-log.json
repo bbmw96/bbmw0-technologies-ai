@@ -788,6 +788,744 @@
           "aiPassRatio": null
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-18T19:05:57.478Z",
+      "date": "2026-08-18",
+      "policyVersion": "1.0.0",
+      "strictMode": false,
+      "reviewed": 3,
+      "passed": 3,
+      "blocked": 0,
+      "results": [
+        {
+          "slug": "ctrl-alt-del",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.071,
+            "worstTitleAgainst": "parrot-age",
+            "worstDescriptionSimilarity": 0.217,
+            "combo": "reel:#0B0F1A:#4D7CFE:#F0F3F7",
+            "themeGap": 30,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "mouse-demo-1968",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "legal.attributed_quote",
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.2,
+            "worstTitleAgainst": "qwerty-not-slow",
+            "worstDescriptionSimilarity": 0.224,
+            "combo": "reel:#101014:#D9A441:#F4F2ED",
+            "themeGap": 30,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "trojan-room-coffee",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.059,
+            "worstTitleAgainst": "vertical-format",
+            "worstDescriptionSimilarity": 0.23,
+            "combo": "reel:#120E0A:#C77B3F:#F5EFE6",
+            "themeGap": 30,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-24T13:40:18.906Z",
+      "date": "_verify0821",
+      "policyVersion": "1.0.0",
+      "strictMode": false,
+      "reviewed": 4,
+      "passed": 3,
+      "blocked": 1,
+      "results": [
+        {
+          "slug": "hamburger-menu-xerox",
+          "verdict": "BLOCK",
+          "blocks": [
+            "style.emoji"
+          ],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.143,
+            "worstTitleAgainst": "mario-pixel-budget",
+            "worstDescriptionSimilarity": 0.23,
+            "combo": "reel:#121110:#D9932B:#F0ECE3",
+            "themeGap": 45,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "inbox-zero-mann",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "legal.attributed_quote",
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.139,
+            "worstTitleAgainst": "consensus-mode",
+            "worstDescriptionSimilarity": 0.232,
+            "combo": "reel:#101312:#3FA694:#EDEFEA",
+            "themeGap": 45,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "pacman-256",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.125,
+            "worstTitleAgainst": "lightning-hotter-sun",
+            "worstDescriptionSimilarity": 0.221,
+            "combo": "reel:#0B0B0E:#F2C744:#F4F1E6",
+            "themeGap": 45,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "wifi-not-fidelity",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.217,
+            "worstTitleAgainst": "pixel-origin",
+            "worstDescriptionSimilarity": 0.244,
+            "combo": "reel:#0E1013:#3E8FB0:#ECEAE3",
+            "themeGap": 45,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-24T13:40:19.618Z",
+      "date": "_verify0821",
+      "policyVersion": "1.0.0",
+      "strictMode": false,
+      "reviewed": 4,
+      "passed": 3,
+      "blocked": 1,
+      "results": [
+        {
+          "slug": "hamburger-menu-xerox",
+          "verdict": "BLOCK",
+          "blocks": [
+            "style.emoji"
+          ],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.143,
+            "worstTitleAgainst": "mario-pixel-budget",
+            "worstDescriptionSimilarity": 0.23,
+            "combo": "reel:#121110:#D9932B:#F0ECE3",
+            "themeGap": 45,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "inbox-zero-mann",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "legal.attributed_quote",
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.139,
+            "worstTitleAgainst": "consensus-mode",
+            "worstDescriptionSimilarity": 0.232,
+            "combo": "reel:#101312:#3FA694:#EDEFEA",
+            "themeGap": 45,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "pacman-256",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.125,
+            "worstTitleAgainst": "lightning-hotter-sun",
+            "worstDescriptionSimilarity": 0.221,
+            "combo": "reel:#0B0B0E:#F2C744:#F4F1E6",
+            "themeGap": 45,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "wifi-not-fidelity",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.217,
+            "worstTitleAgainst": "pixel-origin",
+            "worstDescriptionSimilarity": 0.244,
+            "combo": "reel:#0E1013:#3E8FB0:#ECEAE3",
+            "themeGap": 45,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-24T13:40:32.395Z",
+      "date": "_verify0821",
+      "policyVersion": "1.0.0",
+      "strictMode": false,
+      "reviewed": 4,
+      "passed": 3,
+      "blocked": 1,
+      "results": [
+        {
+          "slug": "hamburger-menu-xerox",
+          "verdict": "BLOCK",
+          "blocks": [
+            "style.emoji"
+          ],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.143,
+            "worstTitleAgainst": "mario-pixel-budget",
+            "worstDescriptionSimilarity": 0.23,
+            "combo": "reel:#121110:#D9932B:#F0ECE3",
+            "themeGap": 45,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "inbox-zero-mann",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "legal.attributed_quote",
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.139,
+            "worstTitleAgainst": "consensus-mode",
+            "worstDescriptionSimilarity": 0.232,
+            "combo": "reel:#101312:#3FA694:#EDEFEA",
+            "themeGap": 45,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "pacman-256",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.125,
+            "worstTitleAgainst": "lightning-hotter-sun",
+            "worstDescriptionSimilarity": 0.221,
+            "combo": "reel:#0B0B0E:#F2C744:#F4F1E6",
+            "themeGap": 45,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "wifi-not-fidelity",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.217,
+            "worstTitleAgainst": "pixel-origin",
+            "worstDescriptionSimilarity": 0.244,
+            "combo": "reel:#0E1013:#3E8FB0:#ECEAE3",
+            "themeGap": 45,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-24T13:40:33.001Z",
+      "date": "_verify0821",
+      "policyVersion": "1.0.0",
+      "strictMode": false,
+      "reviewed": 4,
+      "passed": 3,
+      "blocked": 1,
+      "results": [
+        {
+          "slug": "hamburger-menu-xerox",
+          "verdict": "BLOCK",
+          "blocks": [
+            "style.emoji"
+          ],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.143,
+            "worstTitleAgainst": "mario-pixel-budget",
+            "worstDescriptionSimilarity": 0.23,
+            "combo": "reel:#121110:#D9932B:#F0ECE3",
+            "themeGap": 45,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "inbox-zero-mann",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "legal.attributed_quote",
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.139,
+            "worstTitleAgainst": "consensus-mode",
+            "worstDescriptionSimilarity": 0.232,
+            "combo": "reel:#101312:#3FA694:#EDEFEA",
+            "themeGap": 45,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "pacman-256",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.125,
+            "worstTitleAgainst": "lightning-hotter-sun",
+            "worstDescriptionSimilarity": 0.221,
+            "combo": "reel:#0B0B0E:#F2C744:#F4F1E6",
+            "themeGap": 45,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "wifi-not-fidelity",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.217,
+            "worstTitleAgainst": "pixel-origin",
+            "worstDescriptionSimilarity": 0.244,
+            "combo": "reel:#0E1013:#3E8FB0:#ECEAE3",
+            "themeGap": 45,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-24T13:40:33.718Z",
+      "date": "_verify0821",
+      "policyVersion": "1.0.0",
+      "strictMode": false,
+      "reviewed": 4,
+      "passed": 3,
+      "blocked": 1,
+      "results": [
+        {
+          "slug": "hamburger-menu-xerox",
+          "verdict": "BLOCK",
+          "blocks": [
+            "style.emoji"
+          ],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.143,
+            "worstTitleAgainst": "mario-pixel-budget",
+            "worstDescriptionSimilarity": 0.23,
+            "combo": "reel:#121110:#D9932B:#F0ECE3",
+            "themeGap": 45,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "inbox-zero-mann",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "legal.attributed_quote",
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.139,
+            "worstTitleAgainst": "consensus-mode",
+            "worstDescriptionSimilarity": 0.232,
+            "combo": "reel:#101312:#3FA694:#EDEFEA",
+            "themeGap": 45,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "pacman-256",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.125,
+            "worstTitleAgainst": "lightning-hotter-sun",
+            "worstDescriptionSimilarity": 0.221,
+            "combo": "reel:#0B0B0E:#F2C744:#F4F1E6",
+            "themeGap": 45,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "wifi-not-fidelity",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.217,
+            "worstTitleAgainst": "pixel-origin",
+            "worstDescriptionSimilarity": 0.244,
+            "combo": "reel:#0E1013:#3E8FB0:#ECEAE3",
+            "themeGap": 45,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-01T08:18:20.323Z",
+      "date": "2026-08-27",
+      "policyVersion": "1.0.0",
+      "strictMode": false,
+      "reviewed": 5,
+      "passed": 1,
+      "blocked": 4,
+      "results": [
+        {
+          "slug": "donkey-kong-universal",
+          "verdict": "BLOCK",
+          "blocks": [
+            "instagram.caption_too_long"
+          ],
+          "warnings": [
+            "legal.attributed_quote",
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.125,
+            "worstTitleAgainst": "embeddings-meaning",
+            "worstDescriptionSimilarity": 0.27,
+            "combo": "reel:#120A0A:#E4572E:#F3E9DF",
+            "themeGap": 54,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "eiffel-temporary-radio",
+          "verdict": "BLOCK",
+          "blocks": [
+            "repetition.title"
+          ],
+          "warnings": [
+            "safety.context_review",
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.574,
+            "worstTitleAgainst": "eiffel-temp",
+            "worstDescriptionSimilarity": 0.273,
+            "combo": "reel:#0B0C0E:#C08A3E:#EDE7DC",
+            "themeGap": 54,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "google-googol-misspelling",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "repetition.niche_window",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.1,
+            "worstTitleAgainst": "eiffel-temporary-radio (same batch)",
+            "worstDescriptionSimilarity": 0.258,
+            "combo": "reel:#0C0D10:#E1A73E:#ECEAE3",
+            "themeGap": 54,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "http-404-not-a-room",
+          "verdict": "BLOCK",
+          "blocks": [
+            "repetition.cross_channel",
+            "repetition.cross_channel_similar"
+          ],
+          "warnings": [
+            "safety.context_review",
+            "legal.attributed_quote",
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "repetition.niche_window",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.222,
+            "worstTitleAgainst": "algebra-origin",
+            "worstDescriptionSimilarity": 0.242,
+            "combo": "reel:#0B0E0D:#41B29A:#E9ECEA",
+            "themeGap": 54,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "perceptron-nyt-1958",
+          "verdict": "BLOCK",
+          "blocks": [
+            "instagram.caption_too_long"
+          ],
+          "warnings": [
+            "legal.attributed_quote",
+            "coppa.undeclared",
+            "halal.context_review",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.091,
+            "worstTitleAgainst": "http-404-not-a-room",
+            "worstDescriptionSimilarity": 0.273,
+            "combo": "reel:#0A0C10:#5B8CD6:#EAEAF0",
+            "themeGap": 54,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-01T08:18:49.019Z",
+      "date": "2026-08-21",
+      "policyVersion": "1.0.0",
+      "strictMode": false,
+      "reviewed": 4,
+      "passed": 2,
+      "blocked": 2,
+      "results": [
+        {
+          "slug": "hamburger-menu-xerox",
+          "verdict": "BLOCK",
+          "blocks": [
+            "style.emoji",
+            "repetition.cross_channel",
+            "repetition.cross_channel_similar"
+          ],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.143,
+            "worstTitleAgainst": "mario-pixel-budget",
+            "worstDescriptionSimilarity": 0.23,
+            "combo": "reel:#121110:#D9932B:#F0ECE3",
+            "themeGap": 55,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "inbox-zero-mann",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "legal.attributed_quote",
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.139,
+            "worstTitleAgainst": "consensus-mode",
+            "worstDescriptionSimilarity": 0.232,
+            "combo": "reel:#101312:#3FA694:#EDEFEA",
+            "themeGap": 55,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "pacman-256",
+          "verdict": "PASS_WITH_WARNINGS",
+          "blocks": [],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.125,
+            "worstTitleAgainst": "lightning-hotter-sun",
+            "worstDescriptionSimilarity": 0.221,
+            "combo": "reel:#0B0B0E:#F2C744:#F4F1E6",
+            "themeGap": 55,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        },
+        {
+          "slug": "wifi-not-fidelity",
+          "verdict": "BLOCK",
+          "blocks": [
+            "repetition.cross_channel",
+            "repetition.cross_channel_similar"
+          ],
+          "warnings": [
+            "coppa.undeclared",
+            "repetition.audio_spacing",
+            "repetition.niche_window",
+            "ai_panel.unavailable"
+          ],
+          "similarity": {
+            "worstTitleSimilarity": 0.217,
+            "worstTitleAgainst": "pixel-origin",
+            "worstDescriptionSimilarity": 0.244,
+            "combo": "reel:#0E1013:#3E8FB0:#ECEAE3",
+            "themeGap": 55,
+            "audioGap": 0
+          },
+          "aiPassRatio": null
+        }
+      ]
     }
   ]
 }

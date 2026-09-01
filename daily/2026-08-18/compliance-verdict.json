@@ -1,10 +1,9 @@
 {
   "date": "2026-08-18",
-  "generatedAt": "2026-08-18T16:57:52.266Z",
+  "generatedAt": "2026-08-18T19:05:57.479Z",
   "policyVersion": "1.0.0",
   "strictMode": false,
-  "allowed": [],
-  "blocked": [
+  "allowed": [
     "ctrl-alt-del",
     "mouse-demo-1968",
     "trojan-room-coffee",
@@ -12,24 +11,16 @@
     "year-without-summer",
     "ai-winter-1973"
   ],
+  "blocked": [],
   "results": [
     {
       "slug": "ctrl-alt-del",
       "channelId": "yt-bbmw0",
       "platform": "youtube",
-      "verdict": "BLOCK",
+      "verdict": "PASS_WITH_WARNINGS",
       "title": "The three-finger salute.",
       "niche": "tech",
-      "blocks": [
-        {
-          "severity": "BLOCK",
-          "rule": "repetition.combo_batch",
-          "message": "Same theme/font/audio as \"mouse-demo-1968\" in this batch.",
-          "detail": {
-            "combo": "undefined|undefined|"
-          }
-        }
-      ],
+      "blocks": [],
       "warnings": [
         {
           "severity": "WARN",
@@ -55,7 +46,7 @@
         "worstTitleSimilarity": 0.071,
         "worstTitleAgainst": "parrot-age",
         "worstDescriptionSimilarity": 0.217,
-        "combo": "undefined|undefined|",
+        "combo": "reel:#0B0F1A:#4D7CFE:#F0F3F7",
         "themeGap": 30,
         "audioGap": 0
       },
@@ -70,19 +61,10 @@
       "slug": "mouse-demo-1968",
       "channelId": "yt-bbmw0",
       "platform": "youtube",
-      "verdict": "BLOCK",
+      "verdict": "PASS_WITH_WARNINGS",
       "title": "It was all demoed at once.",
       "niche": "history",
-      "blocks": [
-        {
-          "severity": "BLOCK",
-          "rule": "repetition.combo_batch",
-          "message": "Same theme/font/audio as \"ctrl-alt-del\" in this batch.",
-          "detail": {
-            "combo": "undefined|undefined|"
-          }
-        }
-      ],
+      "blocks": [],
       "warnings": [
         {
           "severity": "WARN",
@@ -114,7 +96,7 @@
         "worstTitleSimilarity": 0.2,
         "worstTitleAgainst": "qwerty-not-slow",
         "worstDescriptionSimilarity": 0.224,
-        "combo": "undefined|undefined|",
+        "combo": "reel:#101014:#D9A441:#F4F2ED",
         "themeGap": 30,
         "audioGap": 0
       },
@@ -129,19 +111,10 @@
       "slug": "trojan-room-coffee",
       "channelId": "yt-bbmw0",
       "platform": "youtube",
-      "verdict": "BLOCK",
+      "verdict": "PASS_WITH_WARNINGS",
       "title": "Is there coffee, or not.",
       "niche": "tech",
-      "blocks": [
-        {
-          "severity": "BLOCK",
-          "rule": "repetition.combo_batch",
-          "message": "Same theme/font/audio as \"ctrl-alt-del\" in this batch.",
-          "detail": {
-            "combo": "undefined|undefined|"
-          }
-        }
-      ],
+      "blocks": [],
       "warnings": [
         {
           "severity": "WARN",
@@ -167,7 +140,7 @@
         "worstTitleSimilarity": 0.059,
         "worstTitleAgainst": "vertical-format",
         "worstDescriptionSimilarity": 0.23,
-        "combo": "undefined|undefined|",
+        "combo": "reel:#120E0A:#C77B3F:#F5EFE6",
         "themeGap": 30,
         "audioGap": 0
       },
