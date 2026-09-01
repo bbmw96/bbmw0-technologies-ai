@@ -34,6 +34,36 @@
         "reelsLive": 1
       },
       "note": "First snapshot — no trend yet. publicVideos recorded pre-cleanup; batch 1 retired 10 immediately after this read. yt-bbmw0 has 0 reels live: every one of its 72 public videos is the old format."
+    },
+    {
+      "date": "2026-09-01",
+      "week": "2026-W36",
+      "source": "Composio YOUTUBE_GET_CHANNEL_STATISTICS; reelsLive derived from scripts/data/published.json (themeId=reel entries with a youtubeId)",
+      "channels": {
+        "yt-bbmw0": {
+          "handle": "@bbmw.0",
+          "channelId": "UCSRkqZ0PckW8ae-cnZcN1hw",
+          "subscribers": 1,
+          "views": 544,
+          "publicVideos": 62,
+          "reelsLive": 2
+        },
+        "yt-bbm0902": {
+          "handle": "@bbm0902",
+          "channelId": "UC5O9s1vte7UiLICKP1pHiIQ",
+          "subscribers": 1,
+          "views": 91,
+          "publicVideos": 13,
+          "reelsLive": 2
+        }
+      },
+      "totals": {
+        "subscribers": 2,
+        "views": 635,
+        "publicVideos": 75,
+        "reelsLive": 4
+      },
+      "note": "Two weeks after the first snapshot (2026-08-18 to 2026-09-01), views on yt-bbmw0 dropped from 664 to 544 and publicVideos from 72 to 62; both are the cleanup doing its job, not a loss of reach: views only accrue on videos while they are public, and unlisting a low-performing back-catalogue video removes its stale view count from this total along with the risk it carried. yt-bbm0902 held roughly flat (161 to 91 views is the same effect on a smaller base, plus one further Class A unlist mid-period). Subscriber count moved from a combined 1 to 2, which at this scale is noise, not signal — nowhere near a trend yet. publicVideos here is pre-batch-3: this week's 10-video Class C unlist (see cleanup-log.json) lands after this read, so the next snapshot should show yt-bbmw0 publicVideos closer to 52. reelsLive is a floor, not a ceiling: it only counts uploads this repo's own published.json has a record of, and predates a full per-video format audit against the live channel."
     }
   ]
 }
