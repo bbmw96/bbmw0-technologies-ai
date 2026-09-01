@@ -3241,6 +3241,260 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "goldfish-memory-myth",
+      "niche": "animals",
+      "verified": true,
+      "sources": [
+        "https://blogs.iu.edu/sciu/2020/09/05/goldfish-myths/ - ScIU, the Indiana University Bloomington science-communication blog, read in full. Established that goldfish have a brain region roughly analogous to the human hippocampus, the part used for spatial memory; described an American Museum of Natural History Young Naturalist Award study in which a goldfish trained to find food in a maze still found it, adjusting its route, after the maze was rotated 180 degrees; and summarised Bitterman (1964), a University of Hawaii classical-conditioning study pairing a light with a mild shock in goldfish, published in the Journal of Comparative and Physiological Psychology, plus Salas et al (2006), a review in the journal Zebrafish on learning and memory in fish. Concludes the '3-second' (sometimes '7-second') memory claim is a myth with no scientific source.",
+        "https://www.amnh.org/learn-teach/curriculum-collections/young-naturalist-awards/goldfish-as-a-model-for-understanding-learning-and-memory-more-complex-than-you-think - American Museum of Natural History. Attempted to fetch directly; the page was too large to retrieve, so it is not used as a read-in-full source here. Its maze study is relayed only via ScIU's account above, not read first-hand."
+      ],
+      "verifiedNote": "Checked 1 September 2026. Read in full: the ScIU (Indiana University Bloomington) blog post, which itself describes the AMNH maze study and summarises Bitterman (1964) and Salas et al (2006). A direct fetch of the AMNH page failed on size, so the maze-rotation study is relayed via ScIU's account rather than read first-hand from AMNH; the beat is written to match ScIU's description exactly rather than adding detail AMNH itself might state. The 'three-second' figure has no traceable scientific source per ScIU; some tellings say seven seconds instead, which is itself a sign the number was never measured, so the entry notes the myth's inconsistency rather than picking one wrong number to correct. Not used: a single figure for how long goldfish memory actually lasts, since the sources give examples (conditioning that holds across sessions, a maze re-learned after rotation) rather than one settled duration, and stating one would overclaim precision the sources do not offer. No figure beat: no whole number in the sources earns 300px. No em dashes, UK English, per run instruction.",
+      "palette": {
+        "bg": "#081018",
+        "ink": "#F0EDE4",
+        "accent": "#FF8C42",
+        "muted": "#5C7A8A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The three-second goldfish",
+          "text": "No study ever found that number.",
+          "note": "The claim that goldfish forget everything after three seconds, sometimes told as seven, has no traceable scientific source. It just got repeated until it sounded like one."
+        },
+        {
+          "kind": "statement",
+          "lead": "Their brains disagree",
+          "text": "Goldfish have a region built for spatial memory.",
+          "note": "It sits in roughly the same place the hippocampus does in a human brain, the part used for remembering routes and layouts, not for forgetting them in seconds."
+        },
+        {
+          "kind": "credit",
+          "year": "1964",
+          "name": "Morton Bitterman",
+          "role": "At the University of Hawaii, paired a light with a mild shock in goldfish and varied the gap between them. The fear response behaved exactly as Pavlov's conditioning model predicted, evidence of a learned association, not just a reflex."
+        },
+        {
+          "kind": "statement",
+          "lead": "Turn the maze around",
+          "text": "The goldfish still finds the food.",
+          "note": "In a maze-training study recognised by the American Museum of Natural History, a goldfish that learned a route to a food reward reached it again, adjusting its path, after the maze was rotated 180 degrees."
+        },
+        {
+          "kind": "kicker",
+          "text": "The fish everyone mocks for forgetting has been quietly passing memory tests since the 1960s."
+        },
+        {
+          "kind": "sign",
+          "line": "Its memory outlasts the joke about it.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "honey-never-spoils",
+      "niche": "food",
+      "verified": true,
+      "sources": [
+        "https://www.smithsonianmag.com/science-nature/the-science-behind-honeys-eternal-shelf-life-1218690/ - Smithsonian Magazine (Natasha Geiling, 22 August 2013), read in full, quoting Amina Harris, executive director of the Honey and Pollination Center at the Robert Mondavi Institute, UC Davis, throughout. Established that archaeologists have repeatedly found pots of honey in ancient Egyptian tombs, thousands of years old and still preserved; that honey is hygroscopic and bees actively dry the nectar, which starts at 60 to 80 per cent water, by flapping their wings, leaving too little moisture for microbes to survive; that honey's pH sits at roughly 3 to 4.5, acidic enough to kill off almost anything trying to grow in it; that bees carry an enzyme, glucose oxidase, which mixes with the nectar during regurgitation into the comb and produces gluconic acid and hydrogen peroxide, adding further antimicrobial power; that the earliest recorded medicinal use of honey is on Sumerian clay tablets, where it appears in roughly 30 per cent of prescriptions, and that ancient Egyptian physicians used honey ointments on skin and eye conditions because nothing could grow on an open wound covered in it; and that the preservation holds only while the jar stays sealed, since added water or an open lid can let it spoil after all."
+      ],
+      "verifiedNote": "Checked 1 September 2026 against Smithsonian Magazine (Natasha Geiling, 22 Aug 2013), read in full. Deliberately hedged: the article gives nectar's starting moisture (60 to 80 per cent) but no exact final percentage for finished honey, so no figure beat is used for moisture rather than reaching for a number from elsewhere that was not read first-hand here. The kicker exists because the headline claim is easy to overstate: honey resists spoiling only while sealed; adding water or leaving it open lets it spoil, per Harris directly in the source. Not used: the specific claim that Tutankhamun's tomb (1922, Howard Carter) contained honey residue, since that detail was seen only in search summaries of other pages, not in the source read in full here. No figure beat: no single whole number in the source earns 300px on its own. No em dashes, UK English, per run instruction.",
+      "palette": {
+        "bg": "#140F08",
+        "ink": "#FBF3E3",
+        "accent": "#E8A93A",
+        "muted": "#8A7860"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Archaeologists keep finding it",
+          "text": "Pots of honey, still good, sealed in tombs thousands of years old.",
+          "note": "Ancient Egyptian tombs in particular have turned up jars of honey that are millennia old and, once opened, still edible."
+        },
+        {
+          "kind": "statement",
+          "lead": "Bees dry it out first",
+          "text": "Raw nectar is mostly water. Finished honey barely is.",
+          "note": "Bees fan the nectar with their wings until most of the moisture is gone, leaving too little water for bacteria to get a foothold."
+        },
+        {
+          "kind": "statement",
+          "lead": "And it isn't just dry",
+          "text": "Honey is acidic, and it makes its own disinfectant.",
+          "note": "A pH of roughly 3 to 4.5 already kills off most microbes. An enzyme from the bees' own stomachs adds hydrogen peroxide on top, the same compound used to clean wounds."
+        },
+        {
+          "kind": "statement",
+          "lead": "This is not a new discovery",
+          "text": "Honey has been medicine for thousands of years.",
+          "note": "The earliest written use is on Sumerian clay tablets, where honey appears in roughly three in ten prescriptions. Egyptian physicians used it as a wound and eye ointment, because nothing could grow on it long enough to cause an infection."
+        },
+        {
+          "kind": "kicker",
+          "text": "It only works sealed. Crack the jar and let the damp in, and even honey can finally spoil."
+        },
+        {
+          "kind": "sign",
+          "line": "The only food built to outlive the jar it's in.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "hurricane-women-only-names",
+      "niche": "weather",
+      "verified": true,
+      "sources": [
+        "https://www.nhc.noaa.gov/aboutnames_history.shtml - National Hurricane Center (NOAA), official naming-history page, read in full. Established that West Indies hurricanes were long named after the saint's day they struck, that Australian meteorologist Clement Wragge began giving storms women's names before the end of the 19th century, that the 1941 novel 'Storm' by George R. Stewart popularised a woman's name for a storm and the habit spread among US Army and Navy meteorologists in the Second World War, that in 1953 the United States dropped a two-year-old phonetic-alphabet naming scheme and began using women's names exclusively, that the practice of naming hurricanes only after women ended in 1978 when the Eastern North Pacific lists added men's names, followed by the Atlantic and Gulf lists in 1979, and that the World Meteorological Organization now runs rotating name lists, retiring a name only when a storm carrying it was especially deadly or costly.",
+        "https://www.history.com/articles/why-hurricanes-and-tropical-storms-were-only-named-after-women - HISTORY (Becky Little, 1 August 2017, updated 27 May 2025), read in full. Established that from roughly 1953 to 1979 US hurricanes and tropical storms were named only after women, that forecasters described storms in sexist terms such as 'temperamental' or 'flirting' with the coast, that Roxcy Bolton, a Florida feminist credited with founding the United States' first rape treatment centre, was a leading campaigner who helped persuade forecasters to end female-only naming, arguing per her New York Times obituary that women 'deeply resent being arbitrarily associated with disaster', that campaigns by Bolton and others led to men's names returning from 1979, that some critics at the time argued male-named storms would not be taken seriously, and that a 2016 study (cited by History.com, not independently read here) found the opposite: female-named hurricanes are perceived as less dangerous and have historically caused more deaths as a result."
+      ],
+      "verifiedNote": "Checked 1 September 2026 against two sources read in full: NOAA's own National Hurricane Center history page and HISTORY (Becky Little). Both agree on the core dates: female-only naming from 1953, men's names added to the Eastern Pacific in 1978 and the Atlantic in 1979. The Roxcy Bolton material and the 2016 perception study both come from the HISTORY article; the 2016 study itself was not fetched or read independently, so it is attributed to HISTORY's account of it rather than claimed as first-hand. Not used: the exact wording of the 1986 Washington Post editorial HISTORY mentions, since one paraphrase is enough to make the point without over-quoting a source not read in full. No figure beat: the strongest number available, 'twenty-six years' (1953 to 1979), works better as scene-setting prose than as an isolated 300px claim. No em dashes, UK English, per run instruction.",
+      "palette": {
+        "bg": "#0A1420",
+        "ink": "#EAF1F5",
+        "accent": "#E8543D",
+        "muted": "#6E8494"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "For twenty-six years",
+          "text": "Every named US hurricane was a woman.",
+          "note": "From 1953, when the US dropped a phonetic-alphabet naming scheme for storms, until 1979, hurricanes and tropical storms got female names only. No exceptions."
+        },
+        {
+          "kind": "statement",
+          "lead": "Weathermen ran with it",
+          "text": "Storms got described the way lazy jokes describe women.",
+          "note": "Forecasters called them 'temperamental', said they were 'flirting' with the coast. It was treated as charming. Female meteorologists were not charmed."
+        },
+        {
+          "kind": "credit",
+          "year": "1970s",
+          "name": "Roxcy Bolton",
+          "role": "Florida feminist who founded the United States' first rape treatment centre and led the campaign to end female-only hurricane names, arguing that women 'deeply resent being arbitrarily associated with disaster'."
+        },
+        {
+          "kind": "statement",
+          "lead": "It worked, eventually",
+          "text": "Men's names arrived in 1978, then 1979.",
+          "note": "The Eastern Pacific added male names first; the Atlantic and Gulf followed the next year. Some forecasters warned male-named storms would not be taken seriously."
+        },
+        {
+          "kind": "kicker",
+          "text": "A later study found the opposite: people underestimate female-named hurricanes, and it has cost lives."
+        },
+        {
+          "kind": "sign",
+          "line": "The storm never cared what it was called. People did.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "napoleon-not-short",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://www.history.com/articles/napoleon-complex-short - HISTORY (Una McIlvenna, 13 November 2019, updated 10 July 2025), read in full. Established that three French sources, Napoleon's valet Constant, General Gourgaud and his physician Francesco Antommarchi, recorded his height as '5 pieds 2 pouces'; that the French pouce measured 2.7cm against the imperial inch's 2.54cm, so the true figure converts to roughly 1.67 metres, just under 5'6\", a little above the average French man of the early 1800s; that the 'short Napoleon' image is largely the work of British cartoonist James Gillray (1756-1815); that Gillray's earliest Napoleon cartoons (1798) showed him boastful but not small; that the diminutive 'Little Boney' image began with Gillray's 1803 cartoon 'Maniac-Ravings, or Little Boney in a Strong Fit', satirising a real outburst by Napoleon against the British ambassador, Lord Whitworth, at the Tuileries on 14 March 1803; that Gillray's 1805 cartoon 'The Plumb-pudding in Danger', described as probably the most famous political cartoon of all time, shows Napoleon at half the size of British Prime Minister William Pitt the Younger; and that Napoleon reportedly said Gillray 'did more than all the armies of Europe to bring me down'.",
+        "https://publicdomainreview.org/essay/little-boney/ - The Public Domain Review (Peter W. Walker, Assistant Professor of History, University of Wyoming, 21 March 2024), read in full. Established that Gillray produced around forty of the more than two thousand British satirical prints of Napoleon and that his were the most influential; that Gillray's 1798 cartoon still drew Napoleon as 'average-sized'; that the caricature shrank progressively through 1803 as invasion fears grew, becoming an animal in 'Death of the Corsican Fox', a baby in 'The Genius of France', and a six-inch Lilliputian dwarfed by an English giant in 'The King of Brobdingnag and Gulliver' (1804); that other cartoonists copied the trope; and that the term 'Napoleon Complex' derives directly from this caricature legacy and is described as being of questionable scientific validity."
+      ],
+      "verifiedNote": "Checked 1 September 2026 against two sources read in full: HISTORY (Una McIlvenna) and The Public Domain Review (Peter W. Walker). Both agree on the core facts: three witnesses recorded 5 pieds 2 pouces, and the French pouce (2.7cm) versus English inch (2.54cm) explains the conversion to roughly 5'6\". Deliberately not dated: exactly when Antommarchi recorded the measurement, since neither source states this, only that he was one of three witnesses; the credit beat instead uses Gillray's 1803 cartoon, which both sources date precisely. Not used: the sexual and Corsican-origin dimensions of Gillray's satire documented by the Public Domain Review, since they explain why the caricature worked rather than adding facts about Napoleon's actual height, and a short reel has no room to handle them responsibly. The 'Napoleon Complex' is explicitly not claimed as real psychology; the Public Domain Review calls its validity questionable, so the entry treats it only as the name the caricature left behind. No figure beat: the height converts to an approximation, 'roughly' and 'just under', not a single precise whole number that earns 300px. No em dashes, UK English, per run instruction.",
+      "palette": {
+        "bg": "#0D0F1A",
+        "ink": "#F0EAD8",
+        "accent": "#C9A24B",
+        "muted": "#7A7E8C"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Everyone knows Napoleon was short",
+          "text": "The men who measured him used a different ruler than you're picturing.",
+          "note": "His valet, a general and his own physician all recorded the same figure: five pieds, two pouces. That is French feet and inches, not English ones."
+        },
+        {
+          "kind": "statement",
+          "lead": "Convert it properly",
+          "text": "He comes out at roughly five foot six.",
+          "note": "A French pouce measured 2.7 centimetres against the English inch's 2.54. Do the sum and Napoleon lands just under 5'6\", a little above the average French man of his time."
+        },
+        {
+          "kind": "credit",
+          "year": "1803",
+          "name": "James Gillray",
+          "role": "British cartoonist who invented 'Little Boney', a diminutive, raving caricature of Napoleon, in response to a real outburst the emperor made at the British ambassador on 14 March 1803. Gillray kept shrinking him for years afterwards."
+        },
+        {
+          "kind": "statement",
+          "lead": "The image only got smaller",
+          "text": "By 1804 he was drawn six inches tall.",
+          "note": "Gillray's cartoons showed Napoleon as an animal, then a baby, then a Lilliputian dwarfed by an English giant in 'The King of Brobdingnag and Gulliver'. The caricature, not the ruler, is what stuck."
+        },
+        {
+          "kind": "kicker",
+          "text": "Napoleon himself said Gillray 'did more than all the armies of Europe to bring me down'."
+        },
+        {
+          "kind": "sign",
+          "line": "The cartoon won. The measurement lost.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "captcha-already-existed",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/CAPTCHA - Wikipedia, read in full. Established that the term 'CAPTCHA' was coined in 2003 by Luis von Ahn, Manuel Blum, Nicholas J. Hopper and John Langford as a contrived acronym for 'Completely Automated Public Turing test to tell Computers and Humans Apart'; that a historically common type of CAPTCHA, the distorted-letter image, was 'first invented in 1997 by two groups working in parallel', before the name existed; that idrive.com began protecting its signup page with such a test in 2000 and prepared to file a patent (the Gausebeck-Levchin test); that PayPal used a similar test from 2001 as part of a fraud-prevention strategy, commercialised with help from co-founder Max Levchin; that reCAPTCHA was acquired by Google in 2009 and was then used, alongside CAPTCHA technology generally, to help digitise the archives of The New York Times and Google Books in 2011; and that a 2018 ACM CCS conference paper (Ye et al.) presented a deep-learning attack able to consistently solve all 11 text-CAPTCHA schemes used by the top 50 websites that year, trainable on as few as 500 real CAPTCHAs.",
+        "https://www.cs.cmu.edu/news/2009/google-inc-acquires-carnegie-mellon-spin-recaptcha-inc - Carnegie Mellon University's own news release (Byron Spice, 16 September 2009), read in full. Established that reCAPTCHA began as a research project of Luis von Ahn, assistant professor of computer science at Carnegie Mellon; that reCAPTCHAs, distorted words drawn from real printed text that optical-character-recognition software could not read, were introduced in 2007; that the company ReCAPTCHA Inc. was founded by von Ahn in 2008 and its acquisition by Google was announced on 16 September 2009; and that von Ahn remained on the CMU faculty while also working at Google's Pittsburgh office."
+      ],
+      "verifiedNote": "Checked 1 September 2026 against Wikipedia's CAPTCHA article and Carnegie Mellon's own 2009 news release, both read in full. Deliberate correction: the common shorthand 'Luis von Ahn invented CAPTCHA' overstates his role. He and three co-authors coined the term and formalised the theory in a 2003 academic paper, but Wikipedia states a comparable test was 'first invented in 1997 by two groups working in parallel', with idrive.com (2000) and PayPal (2001) both using similar tests before the name existed. Von Ahn's clear, undisputed invention is reCAPTCHA in 2007, which is what the credit beat names instead. Not used: the popular claim that image-based reCAPTCHA challenges (traffic lights, crosswalks) train self-driving car AI; this appears often in general writing about reCAPTCHA but neither source read here states it, so it is left out rather than assumed. The '500 real CAPTCHAs' figure is Wikipedia's own citation of the 2018 Ye et al. paper, not independently read. No figure beat: 500 stays inside the kicker's sentence rather than being enlarged to 300px, since it belongs to a single claim about one study, not a standalone number the reel is built around. No em dashes, UK English, per run instruction.",
+      "palette": {
+        "bg": "#0A0D0F",
+        "ink": "#E8ECEA",
+        "accent": "#3ECF8E",
+        "muted": "#6B7280"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The name is newer than the trick",
+          "text": "\"CAPTCHA\" was coined in 2003. The test already existed.",
+          "note": "Distorted-letter tests to block bots were already live in 2000, when idrive.com started using one, and PayPal adopted the same idea in 2001, years before anyone called it a CAPTCHA."
+        },
+        {
+          "kind": "statement",
+          "lead": "The name itself is a stretch",
+          "text": "It stands for something nobody would say out loud.",
+          "note": "Completely Automated Public Turing test to tell Computers and Humans Apart. Von Ahn, Blum, Hopper and Langford built the acronym to fit the word, not the other way round."
+        },
+        {
+          "kind": "credit",
+          "year": "2007",
+          "name": "Luis von Ahn",
+          "role": "Carnegie Mellon researcher who turned the same idea into reCAPTCHA: instead of random letters, it showed real words that book-scanning software could not read, so solving the puzzle also helped digitise old text."
+        },
+        {
+          "kind": "statement",
+          "lead": "It worked well enough to sell",
+          "text": "Google bought it in 2009.",
+          "note": "The Carnegie Mellon spin-off was acquired within a year of being founded, and reCAPTCHA went on to help digitise The New York Times' archive and Google Books."
+        },
+        {
+          "kind": "kicker",
+          "text": "A test built to prove you're not a computer. A 2018 study trained one to pass it using 500 examples."
+        },
+        {
+          "kind": "sign",
+          "line": "The gate built to keep machines out taught them to get through.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
     }
   ]
 }
