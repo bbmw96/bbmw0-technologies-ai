@@ -1,5 +1,58 @@
 # NEXT SESSION — START HERE
 
+## ADDED 1 Sep 2026 — per-niche background motifs, direct response to user feedback
+
+The user looked at the channel and said, plainly, that the templates and
+graphics do not compete with real Shorts or Reels content, and asked for
+actual animation, not just words. That is a fair read of what this file's
+own comparison table already said back in August: imagery carries the
+reference video, typography carries ours. This entry is what changed as a
+result, and what still has not.
+
+**What shipped**: `src/compositions/motifs.tsx`, a set of 12 real,
+purpose-drawn line-art motifs, one per topic niche (tech, app,
+productivity, science, history, animals, space, biology, food, weather,
+gaming, ai — the full set from `channels.json`). `Drift` in
+`EditorialReel.tsx` now renders the two largest background planes as a
+niche-matched motif pair instead of a plain circle and a plain square; the
+two small accent shapes are unchanged. `niche` reaches `Drift` via React
+context from a new `ReelProps.niche` field, threaded from
+`generate-reels.mjs` off `topic.niche`. This is free and unlimited: no
+generation cost, no credit spend, runs at full six-video cadence exactly
+like the rest of the composition.
+
+**What this is not**: a fix for the actual gap the user is pointing at.
+Line-art silhouettes are still not photographic or illustrated imagery, and
+were never going to close that distance on their own — they raise the
+floor on every video at zero cost, they do not reach the reference video's
+level. Real imagery needs real generation budget, and that budget does not
+currently exist: as of this session, Artlist has 2 free image generations
+and 1 free video generation left, one-time, never renewing; the other
+connected generation tool is on a free plan with 0 credits. Three
+non-renewing generations cannot seed the "reusable background library"
+this file has recommended since 15 August, let alone run per-video. This
+was surfaced to the user rather than either quietly shipping something
+undersized or spending the last of a non-renewing resource on a single
+illustrative demo; the decision on whether to fund a subscription is
+theirs to make, not a default to assume.
+
+**What has not been verified**: Desktop Commander was unavailable this
+session (connection timed out, same as it was on 18 August and 27 August),
+so nothing here has been rendered and watched. What has been checked
+instead: the full project type-checks clean under strict mode
+(`npx tsc --noEmit -p tsconfig.json`, zero errors, including
+`noUnusedLocals`/`noUnusedParameters`), and every SVG path's coordinate
+count was hand-verified against its command letters. That rules out syntax
+and type errors. It does not confirm the motifs look right at the sizes
+and opacities chosen, that they stay legible under every beat's text, or
+that a 340px motif at 0.10 opacity reads as intended rather than as
+visual noise — only a render, watched on a phone-sized frame, confirms
+that. Do not treat this as finished until that pass happens. If the next
+session has Desktop Commander: render a handful of reels across different
+niches at a few frames each (a `figure` beat and a `sign` beat per niche
+covers the two most different fields, `p.ink` and `p.accent`), and check
+specifically that no motif line sits under body text.
+
 ## RESOLVED 18 Aug 2026 — the "palette override bug" does not exist
 
 It was chased across several sessions on the strength of contact sheets. This

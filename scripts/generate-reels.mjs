@@ -234,6 +234,12 @@ const props = {
       `is a floor, not considered pacing — measure a real read and switch this ` +
       `topic to voiceCuts.`,
   palette: topic.palette,
+  // Threads the topic's niche through to EditorialReel so the Drift
+  // background layer can pick a real per-niche motif pair from motifs.tsx
+  // instead of two generic shapes (added 1 Sep 2026). Optional on both
+  // ends: an older topic with no niche field, or a niche the motif set does
+  // not recognise, falls back to the "tech" motif pair rather than failing.
+  niche: topic.niche,
   ...(topic.voice ? { voiceUrl: topic.voice, voiceVolume: topic.voiceVolume ?? 1, voiceDelayInFrames: delayFrames } : {}),
   ...(topic.bed ? { audioUrl: topic.bed.url, audioVolume: topic.bed.volume ?? 0.34 } : {}),
   beats: beats.map((b, i) => ({ ...b, durationInFrames: durations[i] })),

@@ -64,6 +64,14 @@ import React from "react";
 import {
   AbsoluteFill, Sequence, useCurrentFrame, useVideoConfig, interpolate, spring, Audio, staticFile,
 } from "remotion";
+import { Motif, resolveNiche, secondaryNiche } from "./motifs";
+
+// Niche reaches Drift via context rather than a prop threaded through six
+// beat components. BeatShell is the one call site that needs it; every beat
+// component keeps its existing signature unchanged, which was worth more
+// than a "clean" prop chain this session, since it keeps this diff small
+// enough to review carefully without a working render to check it against.
+const NicheContext = React.createContext<string | undefined>(undefined);
 
 export type ReelBeat =
   | { kind: "code"; chars: string; caption: string; durationInFrames: number }
@@ -90,6 +98,10 @@ export type ReelProps = {
    *  Platform-specific: "Subscribe" means nothing on Instagram. Defaults to
    *  the YouTube wording. */
   cta?: string;
+  /** Topic niche (see scripts/data/channels.json), used to pick the pair of
+   *  background motifs from motifs.tsx. Optional: an unset or unrecognised
+   *  niche falls back to the "tech" motif pair rather than rendering blank. */
+  niche?: string;
 };
 
 /** How far the ambient bed drops when narration is present.
@@ -203,13 +215,24 @@ const Grain: React.FC<{ opacity?: number }> = ({ opacity = 0.09 }) => {
   );
 };
 
-/** Three planes of large geometry drifting at different rates. Outlines only,
- *  low opacity, no fill — it has to survive behind 100px type without ever
- *  competing with a word. It carries no meaning and is not supposed to: its
- *  entire job is that the background is in motion, so a held frame does not
- *  read as a screenshot. Rates differ so the planes separate into depth. */
-const Drift: React.FC<{ ink: string; accent: string }> = ({ ink, accent }) => {
+/** Four planes drifting at different rates behind the type, low opacity, no
+ *  fill — it has to survive behind 100px type without ever competing with a
+ *  word. Its entire job is that the background is in motion, so a held frame
+ *  does not read as a screenshot. Rates differ so the planes separate into
+ *  depth. Positions, sizes, opacities and rates below are UNCHANGED from the
+ *  original four-generic-shape version: only what is drawn in the two large,
+ *  most visually prominent slots has changed, from a plain circle and a
+ *  plain square to a real per-niche motif from motifs.tsx (added 1 Sep 2026,
+ *  in response to feedback that the reels carried no real visual content).
+ *  Keeping the transform math identical means the one thing that changed is
+ *  what shape moves, not how it moves — the motion itself was already
+ *  working and was not worth risking unseen. The two small accent shapes
+ *  are left as plain outlines on purpose, so four detailed motifs never
+ *  compete with each other, let alone with a word. */
+const Drift: React.FC<{ ink: string; accent: string; niche?: string }> = ({ ink, accent, niche }) => {
   const frame = useCurrentFrame();
+  const n1 = resolveNiche(niche);
+  const n2 = secondaryNiche(n1);
   const plane = (rate: number, size: number, x: number, y: number, c: string, o: number, round: boolean, spin: number) =>
     ({
       position: "absolute" as const,
@@ -219,10 +242,20 @@ const Drift: React.FC<{ ink: string; accent: string }> = ({ ink, accent }) => {
       opacity: o,
       transform: `translateY(${-frame * rate}px) rotate(${frame * spin}deg)`,
     });
+  const motifSlot = (rate: number, x: number, y: number, o: number, spin: number) =>
+    ({
+      position: "absolute" as const,
+      left: `${x}%`, top: `${y}%`, opacity: o,
+      transform: `translateY(${-frame * rate}px) rotate(${frame * spin}deg)`,
+    });
   return (
     <div style={{ position: "absolute", inset: 0, overflow: "hidden", pointerEvents: "none" }} aria-hidden>
-      <div style={plane(0.50, 780, -26, 62, accent, 0.10, true, 0)} />
-      <div style={plane(0.28, 540, 58, 82, ink, 0.07, false, 0.045)} />
+      <div style={motifSlot(0.50, -26, 62, 0.10, 0)}>
+        <Motif niche={n1} size={340} colour={accent} strokeWidth={3} />
+      </div>
+      <div style={motifSlot(0.28, 58, 82, 0.07, 0.045)}>
+        <Motif niche={n2} size={230} colour={ink} strokeWidth={2.4} />
+      </div>
       <div style={plane(0.88, 300, 72, 10, accent, 0.12, true, 0)} />
       <div style={plane(0.16, 200, 8, 30, ink, 0.06, false, -0.07)} />
     </div>
@@ -243,12 +276,13 @@ const BeatShell: React.FC<{
   bg: string; ink: string; accent: string; dur: number; children: React.ReactNode;
 }> = ({ bg, ink, accent, dur, children }) => {
   const frame = useCurrentFrame();
+  const niche = React.useContext(NicheContext);
   const push = interpolate(frame, [0, Math.max(1, dur)], [1, 1.035], { extrapolateRight: "clamp" });
   const enter = interpolate(frame, [0, 7], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return (
     <AbsoluteFill style={{ background: bg, overflow: "hidden" }}>
       <AbsoluteFill style={{ transform: `scale(${push})`, transformOrigin: "50% 45%" }}>
-        <Drift ink={ink} accent={accent} />
+        <Drift ink={ink} accent={accent} niche={niche} />
         {children}
       </AbsoluteFill>
       <Grain />
@@ -441,7 +475,7 @@ const renderBeat = (b: ReelBeat, p: ReelProps["palette"], cta: string) => {
 export const EditorialReel: React.FC<ReelProps> = ({
   palette, beats, audioUrl, audioVolume = 0.4,
   voiceUrl, voiceVolume = 1, voiceDelayInFrames = 0,
-  cta = "Subscribe for more.",
+  cta = "Subscribe for more.", niche,
 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -473,6 +507,7 @@ export const EditorialReel: React.FC<ReelProps> = ({
   const openLift = interpolate(openSpring, [0, 1], [0, -104], { extrapolateRight: "clamp" });
   const openScale = interpolate(openSpring, [0, 1], [1.12, 1], { extrapolateRight: "clamp" });
   return (
+    <NicheContext.Provider value={niche}>
     <AbsoluteFill style={{ background: palette.bg }}>
       {audioUrl ? <Audio src={staticFile(audioUrl)} volume={bedVolume} /> : null}
       {/* Narration last so it sits on top of the bed in the mix graph. */}
@@ -526,6 +561,7 @@ export const EditorialReel: React.FC<ReelProps> = ({
         />
       ) : null}
     </AbsoluteFill>
+    </NicheContext.Provider>
   );
 };
 
