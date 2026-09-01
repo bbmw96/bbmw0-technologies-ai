@@ -26,7 +26,41 @@ free video, both now used, does not renew). Exact prompts are in the
 generate_image / generate_video calls in the session that made these; not
 duplicated here to avoid drift if this file is copied elsewhere.
 
-Not done: this is not composited into a reel, not resized or cropped to
-sit behind the actual beat text, and not checked for legibility with type
-over it. It exists to answer one question, what does real imagery look
-like for this project, not to ship as-is.
+## mantis-shrimp-colour-demo-preview-with-text-and-sound.*
+
+Added 1 Sep 2026, same session, after feedback on the first cut: check
+legibility with real beat text over it, and that a silent clip is not a
+finished asset. Composited with ffmpeg, no further AI generation spent.
+
+- Video: `mantis-shrimp-colour-demo.mp4` with the topic's actual first
+  beat drawn over it (lead "The internet's favourite animal fact", text
+  "It is not what you were told.", DejaVu Sans Bold standing in for the
+  real reel typeface, positioned in the top third left clear in the
+  original image prompt for exactly this) and
+  `public/sounds/bbmw0-ocean-swell.mp3` mixed in under it, looped to the
+  clip's 5s. That track is in `scripts/data/audio-licences.json` as Owned
+  Original, ffmpeg-synthesised noise, no Content ID exposure, so this
+  used no generation budget and no new licensing question.
+- `mantis-shrimp-colour-demo-preview-with-text-and-sound-frame.png`: a
+  frame pulled at 1.5s for the same no-video-player reason as above.
+
+Worth recording since it very nearly shipped wrong: the first attempt at
+this composite had a broken drawtext filter, an unescaped apostrophe
+leaked raw filter syntax onto the frame, and an unescaped `\n` glued two
+words into "whatnyou". Caught by extracting and actually looking at a
+frame before saying anything, not by assuming ffmpeg exiting 0 meant the
+output was correct. Rebuilt using `textfile=` instead of inline `text=`
+for both lines, which avoids that whole class of shell-escaping failure.
+
+Feedback not yet addressed: the eye-stalk swivel motion in the .mp4 reads
+as a little uncanny on review. Fixing it means a new image-to-video
+generation with that motion prompted out, which needs paid credits now
+that the free allocation is spent (the same Kling 2.5 Turbo Pro call was
+quoted at 750 credits before the free allocation zeroed it out). Not
+spent without asking first.
+
+Not done: none of this is resized, cropped, or timed against the
+composition's real beat pacing (`EditorialReel.tsx`), and it is not wired
+into `generate-reels.mjs`. It exists to answer what real imagery, real
+type, and real audio look like together for this project, not to ship
+as-is.
