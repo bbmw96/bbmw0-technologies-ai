@@ -1,0 +1,120 @@
+{
+  "_comment": "Registry of every real image or video asset depicting an animal or person, reviewed against scripts/data/compliance-policy.json halal.animate_imagery. The compliance gate (scripts/compliance/halal.mjs) reads this file for every media asset it finds in a composition: no entry means blocked, exactly like an unrecorded audio track is already blocked under legal.require_audio_licence_record in audio-licences.json. Nothing here is inferred from a filename by the gate; every entry is a human judgement call recorded once and reused.",
+  "_policy": "Narrowed 1 Sep 2026, approved by the channel owner in chat: real imagery of animals is permitted, real imagery of people is not, and every asset must be confirmed free of eyes and faces in every frame before it can be marked cleared. See scripts/data/compliance-policy.json halal.animate_imagery and scripts/data/VISUAL-DIRECTION-BRIEF.md for the full history.",
+  "updated": "2026-09-01",
+  "assets": [
+    {
+      "file": "assets/bg/mantis-shrimp-colour-demo.png",
+      "depicts": "animal",
+      "species": "mantis shrimp",
+      "eyesOrFaceVisible": false,
+      "cleared": true,
+      "review_method": "Cropped from the original Flux 2.0 Pro generation to exclude the eye-stalks entirely (equivalent to crop=708:1258:222:789 on the source, scaled back to 1152x2048), then checked by viewing the resulting still directly, not by trusting the crop math alone.",
+      "reviewed_by": "BBMW0 Technologies",
+      "reviewed_on": "2026-09-01",
+      "notes": "Test/reference asset in assets/bg, not wired into generate-reels.mjs yet. The original eyed generation is kept on disk as mantis-shrimp-colour-demo.png.old-with-eyes for provenance, is not git-tracked, and is recorded separately below as not cleared."
+    },
+    {
+      "file": "assets/bg/mantis-shrimp-colour-demo.mp4",
+      "depicts": "animal",
+      "species": "mantis shrimp",
+      "eyesOrFaceVisible": false,
+      "cleared": true,
+      "review_method": "Cropped from the original Kling 2.5 Turbo Pro image-to-video generation with crop=664:1180:208:740 (source 1080x1920, scaled back to 1080x1920), then checked at three timestamps across the 5s clip (0.05s, 2.5s, 4.95s) by extracting and viewing each frame, since the clip has a slow camera drift that a single-frame check could miss.",
+      "reviewed_by": "BBMW0 Technologies",
+      "reviewed_on": "2026-09-01",
+      "notes": "Test/reference asset in assets/bg, not wired into generate-reels.mjs yet. The original eyed generation is kept on disk as mantis-shrimp-colour-demo.mp4.old-with-eyes for provenance, is not git-tracked, and is recorded separately below as not cleared."
+    },
+    {
+      "file": "assets/bg/mantis-shrimp-colour-demo-preview-frame.png",
+      "depicts": "animal",
+      "species": "mantis shrimp",
+      "eyesOrFaceVisible": false,
+      "cleared": true,
+      "review_method": "A still frame extracted at 2.5s from the already-cropped, already-cleared mantis-shrimp-colour-demo.mp4. No additional imagery, so the parent entry's review covers it; re-verified visually on extraction.",
+      "reviewed_by": "BBMW0 Technologies",
+      "reviewed_on": "2026-09-01",
+      "derived_from": "assets/bg/mantis-shrimp-colour-demo.mp4",
+      "notes": "Kept so the crop result can be checked without opening a video player."
+    },
+    {
+      "file": "assets/bg/mantis-shrimp-colour-demo-preview-with-text-and-sound.mp4",
+      "depicts": "animal",
+      "species": "mantis shrimp",
+      "eyesOrFaceVisible": false,
+      "cleared": true,
+      "review_method": "ffmpeg composite of the already-cropped, already-cleared mantis-shrimp-colour-demo.mp4 with beat text (textfile= drawtext, repositioned to the bottom third after the crop removed the top-third negative space) and public/sounds/bbmw0-ocean-swell.mp3. No new imagery introduced by compositing text or audio, so the parent video's eyes/face review still applies; re-verified by extracting and viewing a frame plus a volumedetect pass on the audio.",
+      "reviewed_by": "BBMW0 Technologies",
+      "reviewed_on": "2026-09-01",
+      "derived_from": "assets/bg/mantis-shrimp-colour-demo.mp4",
+      "notes": "Test/reference asset, not wired into generate-reels.mjs yet. Demonstrates real imagery, real beat text and real licensed audio together for this project's actual visual direction."
+    },
+    {
+      "file": "assets/bg/mantis-shrimp-colour-demo-preview-with-text-and-sound-frame.png",
+      "depicts": "animal",
+      "species": "mantis shrimp",
+      "eyesOrFaceVisible": false,
+      "cleared": true,
+      "review_method": "A still frame extracted at 1.5s from the already-cropped, already-cleared composite above. Re-verified visually on extraction.",
+      "reviewed_by": "BBMW0 Technologies",
+      "reviewed_on": "2026-09-01",
+      "derived_from": "assets/bg/mantis-shrimp-colour-demo-preview-with-text-and-sound.mp4",
+      "notes": "Kept so the composite result can be checked without opening a video player."
+    },
+    {
+      "file": "assets/bg/mantis-shrimp-colour-demo.png.old-with-eyes",
+      "depicts": "animal",
+      "species": "mantis shrimp",
+      "eyesOrFaceVisible": true,
+      "cleared": false,
+      "review_method": "Original, uncropped Flux 2.0 Pro generation. Eye-stalks fully visible.",
+      "reviewed_by": "BBMW0 Technologies",
+      "reviewed_on": "2026-09-01",
+      "notes": "Superseded by the cropped mantis-shrimp-colour-demo.png entry above. Kept on disk only for provenance, not git-tracked, must never be used in a composition."
+    },
+    {
+      "file": "assets/bg/mantis-shrimp-colour-demo.mp4.old-with-eyes",
+      "depicts": "animal",
+      "species": "mantis shrimp",
+      "eyesOrFaceVisible": true,
+      "cleared": false,
+      "review_method": "Original, uncropped Kling 2.5 Turbo Pro generation. Eye movement is part of the animated motion.",
+      "reviewed_by": "BBMW0 Technologies",
+      "reviewed_on": "2026-09-01",
+      "notes": "Superseded by the cropped mantis-shrimp-colour-demo.mp4 entry above. Kept on disk only for provenance, not git-tracked, must never be used in a composition."
+    },
+    {
+      "file": "assets/bg/mantis-shrimp-colour-demo-preview-frame.png.old-with-eyes",
+      "depicts": "animal",
+      "species": "mantis shrimp",
+      "eyesOrFaceVisible": true,
+      "cleared": false,
+      "review_method": "Frame extracted from the original, uncropped video.",
+      "reviewed_by": "BBMW0 Technologies",
+      "reviewed_on": "2026-09-01",
+      "notes": "Superseded. Kept on disk only for provenance, not git-tracked, must never be used in a composition."
+    },
+    {
+      "file": "assets/bg/mantis-shrimp-colour-demo-preview-with-text-and-sound.mp4.old-with-eyes",
+      "depicts": "animal",
+      "species": "mantis shrimp",
+      "eyesOrFaceVisible": true,
+      "cleared": false,
+      "review_method": "Composite built from the original, uncropped video, from before the eyes-removed rebuild.",
+      "reviewed_by": "BBMW0 Technologies",
+      "reviewed_on": "2026-09-01",
+      "notes": "Superseded. Kept on disk only for provenance, not git-tracked, must never be used in a composition."
+    },
+    {
+      "file": "assets/bg/mantis-shrimp-colour-demo-preview-with-text-and-sound-frame.png.old-with-eyes",
+      "depicts": "animal",
+      "species": "mantis shrimp",
+      "eyesOrFaceVisible": true,
+      "cleared": false,
+      "review_method": "Frame extracted from the original, uncropped composite.",
+      "reviewed_by": "BBMW0 Technologies",
+      "reviewed_on": "2026-09-01",
+      "notes": "Superseded. Kept on disk only for provenance, not git-tracked, must never be used in a composition."
+    }
+  ]
+}

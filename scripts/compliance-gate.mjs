@@ -60,6 +60,7 @@ const JSON_OUT = !!A.json;
 const policy = readJSON(path.join(DATA, "compliance-policy.json"));
 if (A.strict) policy.enforcement.strict_mode = true;
 const audioLicences = readJSON(path.join(DATA, "audio-licences.json"), { tracks: [] });
+const imageryReview = readJSON(path.join(DATA, "animate-imagery-review.json"), { assets: [] });
 const published = readJSON(path.join(DATA, "published.json"), { videos: [] });
 const allHistory = published.videos || [];
 
@@ -106,7 +107,7 @@ for (const item of batch) {
 
   // Layer 1
   findings.push(...runRules(meta, props, policy, audioLicences));
-  findings.push(...runHalalRules(meta, props, policy));
+  findings.push(...runHalalRules(meta, props, policy, imageryReview));
 
   // Layer 2
   const rep = checkRepetition(

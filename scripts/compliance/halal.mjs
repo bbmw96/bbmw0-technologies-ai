@@ -20,7 +20,7 @@ function finding(severity, rule, message, detail) {
   return { severity, rule, message, detail: detail ?? null };
 }
 
-export function runHalalRules(meta, props, policy) {
+export function runHalalRules(meta, props, policy, imageryReview) {
   const H = policy.halal;
   if (!H || !H.enabled) return [];
 
@@ -59,14 +59,58 @@ export function runHalalRules(meta, props, policy) {
   }
 
   // ---- Depiction of animate beings ---------------------------------------
-  // Videos are pure typography today. This guards the future: the moment an
-  // image or video asset enters a composition, it must be reviewed.
-  if (H.forbid_animate_imagery) {
+  // Narrowed 1 Sep 2026, approved by the channel owner in chat: real imagery
+  // of animals is allowed, real imagery of people is not, and every asset
+  // must be reviewed, confirmed free of eyes and faces in every frame, and
+  // recorded in animate_imagery.registry_file before it can be used. This
+  // mirrors legal.require_audio_licence_record: an asset with no matching,
+  // cleared entry is blocked, full stop, no inference from filename alone.
+  const AI = H.animate_imagery;
+  if (AI && AI.enabled) {
     const assets = findMediaAssets(props);
-    if (assets.length) {
-      out.push(finding(SEVERITY.BLOCK, "halal.animate_imagery",
-        `Video contains ${assets.length} image or video asset(s). Only typography is permitted, so any depiction of humans or animals must be reviewed before use.`,
-        { assets: assets.slice(0, 5) }));
+    const registry = (imageryReview && imageryReview.assets) || [];
+    for (const hit of assets) {
+      const val = hit.includes(": ") ? hit.slice(hit.indexOf(": ") + 2) : hit;
+      // Exact match only. A substring match here is a real hazard: e.g.
+      // "mantis-shrimp-colour-demo.png" is a substring of the rejected
+      // "mantis-shrimp-colour-demo.png.old-with-eyes", so a fuzzy match
+      // let a rejected asset resolve to its cleared sibling's entry. Fail
+      // closed instead: an unrecognised path is unreviewed, not guessed at.
+      const rec = registry.find((r) => r.file === val);
+
+      if (!rec) {
+        out.push(finding(SEVERITY.BLOCK, "halal.animate_imagery_unreviewed",
+          `"${val}" has no entry in ${AI.registry_file || "animate-imagery-review.json"}. Every image or video asset must be reviewed and recorded before use.`,
+          { asset: val }));
+        continue;
+      }
+      if (!rec.cleared) {
+        out.push(finding(SEVERITY.BLOCK, "halal.animate_imagery_rejected",
+          `"${val}" is recorded as not cleared: ${rec.notes || "no reason given"}.`,
+          { asset: val }));
+        continue;
+      }
+      if (rec.depicts === "person" && !AI.people_allowed) {
+        out.push(finding(SEVERITY.BLOCK, "halal.animate_imagery_person",
+          `"${val}" depicts a person. Real imagery of people is not approved.`,
+          { asset: val }));
+        continue;
+      }
+      if (rec.depicts === "animal" && !AI.animals_allowed) {
+        out.push(finding(SEVERITY.BLOCK, "halal.animate_imagery_animal",
+          `"${val}" depicts an animal, which is not currently approved.`,
+          { asset: val }));
+        continue;
+      }
+      if (AI.require_no_eyes_or_face && rec.eyesOrFaceVisible) {
+        out.push(finding(SEVERITY.BLOCK, "halal.animate_imagery_eyes_visible",
+          `"${val}" is recorded as showing eyes or a face, which the standing content rule forbids regardless of species.`,
+          { asset: val }));
+        continue;
+      }
+      out.push(finding(SEVERITY.INFO, "halal.animate_imagery_cleared",
+        `"${val}" is a reviewed, cleared animate-imagery asset (${rec.depicts}, no eyes or face visible). Reviewed ${rec.reviewed_on || "date unrecorded"}.`,
+        { asset: val }));
     }
   }
 

@@ -397,8 +397,15 @@
       "\\bmillion years (?:ago|before|older)\\b"
     ],
     "_origins_note": "Blocks contested origins and deep-time claims stated as settled fact. The patterns require an explicit origins or deep-time marker, so ordinary uses of 'ancient' or 'old' in a dated historical fact are unaffected. This deliberately excludes several existing science topics: see the audit in scripts/data/halal-topic-audit.json.",
-    "forbid_animate_imagery": true,
-    "_imagery_note": "Videos are pure typography today, so this guards the future. Any image or video asset entering a composition is blocked pending review, since it may depict humans or animals.",
+    "animate_imagery": {
+      "enabled": true,
+      "animals_allowed": true,
+      "people_allowed": false,
+      "require_no_eyes_or_face": true,
+      "require_registry_entry": true,
+      "registry_file": "scripts/data/animate-imagery-review.json"
+    },
+    "_imagery_note": "Narrowed 1 Sep 2026 from a blanket forbid_animate_imagery: true, approved by the channel owner in chat after review of the mantis-shrimp-colour-demo test asset. Real imagery of animals is now permitted, but only when every asset is reviewed, confirmed free of eyes and faces in every frame, and recorded in animate_imagery.registry_file. Real imagery of people stays blocked; that was a separate question this approval did not cover. The gate (scripts/compliance/halal.mjs) blocks any media asset with no registry entry, any entry marked not cleared, any person, and any entry recorded as showing eyes or a face, exactly as strictly as an unrecorded audio track is already blocked under legal.require_audio_licence_record. See scripts/data/VISUAL-DIRECTION-BRIEF.md for the history of this decision.",
     "context_review": [
       "music",
       "song",

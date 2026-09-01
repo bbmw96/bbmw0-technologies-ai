@@ -71,10 +71,10 @@ not just a clean exit code.
 
 **Found while doing this, not before, which is the real problem**:
 `scripts/data/compliance-policy.json`, `halal.forbid_animate_imagery`,
-is already `true`, with its own note reading "Videos are pure typography
+was already `true`, with its own note reading "Videos are pure typography
 today, so this guards the future. Any image or video asset entering a
 composition is blocked pending review, since it may depict humans or
-animals." That rule predates this session. Cropping out the eyes does
+animals." That rule predated this session. Cropping out the eyes did
 not satisfy it: a mantis shrimp with its eyes out of frame is still
 animate imagery, a real animal, under that rule's own definition. This
 demo should have been checked against `compliance-policy.json` before
@@ -82,13 +82,35 @@ generating anything, the same file `compliance-gate.mjs` already reads
 for every other rule in this project, and was not. Raised directly with
 the user rather than either quietly shipping past a rule marked as the
 channel owner's explicit instruction, or quietly rewriting that rule
-myself on their behalf. Until that is resolved, nothing here should be
-treated as cleared for the real pipeline regardless of how the crop
-looks.
+myself on their behalf.
+
+## Resolved, 1 Sep 2026, same session
+
+The channel owner's answer: real imagery of animals is allowed,
+specifically when eyes and faces are excluded from every frame; real
+imagery of people was not part of that approval and stays blocked.
+`compliance-policy.json`'s `halal.forbid_animate_imagery` is now the
+structured `halal.animate_imagery`, and it is enforced, not just
+documented: every asset in this folder now has an entry in
+`scripts/data/animate-imagery-review.json`, and `compliance-gate.mjs`
+blocks anything not recorded there as cleared. See that registry file
+and the "RESOLVED" entry at the top of `VISUAL-DIRECTION-BRIEF.md` for
+the full mechanism, including a matching bug the verification test
+caught and fixed before this shipped: a loose substring match nearly let
+the rejected eyed original resolve to its cleared cropped sibling's
+record.
+
+Both `mantis-shrimp-colour-demo.png`/`.mp4` and every file derived from
+them (the two preview frames and the text-and-sound composite) are
+recorded cleared in the registry. The original eyed generations, kept on
+disk only as `*.old-with-eyes` for provenance and not git-tracked, are
+recorded there too, explicitly not cleared, so they cannot be mistaken
+for usable assets later.
 
 Not done: none of this is resized, cropped, or timed against the
 composition's real beat pacing (`EditorialReel.tsx`), and it is not wired
 into `generate-reels.mjs`. It exists to answer what real imagery, real
 type, and real audio look like together for this project, not to ship
-as-is, and now also to surface the `forbid_animate_imagery` question
-before anything downstream of this folder assumes it is settled.
+as-is. The `forbid_animate_imagery` question above is resolved as of 1
+Sep 2026; what is still open is actually integrating real imagery into
+`generate-reels.mjs`, which has not been attempted.

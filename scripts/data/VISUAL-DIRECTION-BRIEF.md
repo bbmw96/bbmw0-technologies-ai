@@ -1,26 +1,43 @@
 # NEXT SESSION — START HERE
 
-## OPEN QUESTION, 1 Sep 2026 — forbid_animate_imagery vs. real imagery
+## RESOLVED 1 Sep 2026 — forbid_animate_imagery vs. real imagery
 
-Do not generate or use any image or video depicting an animal or person
-in this project until this is resolved. `scripts/data/compliance-policy.json`,
-`halal.forbid_animate_imagery`, has been `true` since before this session,
-with its own note: "Videos are pure typography today, so this guards the
-future. Any image or video asset entering a composition is blocked
-pending review, since it may depict humans or animals." That review never
-happened before this session generated a real photo and video of a mantis
-shrimp (`assets/bg/mantis-shrimp-colour-demo.*`, see that folder's
-README). The user separately asked, in the same session, for eyes and
-faces never to appear in generated media, which narrows the question but
-does not answer it: does real animate imagery become allowed at all now,
-with eyes and faces as the specific carve-out, or does the original
-blanket rule stay and today's demo stays a one-off test that never enters
-`generate-reels.mjs`? Asked directly rather than assumed either way.
-Whatever the answer, `compliance-policy.json` should read it back: either
-`forbid_animate_imagery` gets replaced with a narrower rule and a comment
-explaining the change and who approved it, or it stays exactly as it is
-and this note can be deleted once a future session confirms the rule was
-actually checked before any generation call, not after.
+Asked directly rather than assumed. The channel owner chose: real imagery
+of animals is now allowed, specifically when eyes and faces are excluded
+from every frame; real imagery of people was not part of that approval
+and stays blocked pending a separate decision.
+
+`scripts/data/compliance-policy.json`'s `halal.forbid_animate_imagery: true`
+is now `halal.animate_imagery`, an object with `animals_allowed: true`,
+`people_allowed: false`, `require_no_eyes_or_face: true`, and
+`require_registry_entry: true`. That policy is now actually enforced, not
+just documented: `scripts/compliance/halal.mjs` reads
+`scripts/data/animate-imagery-review.json`, a per-asset review registry
+mirroring how `audio-licences.json` already gates audio, and blocks any
+media asset with no matching entry, any entry marked not cleared, any
+entry that depicts a person, or any entry recorded as still showing eyes
+or a face. `scripts/compliance-gate.mjs` loads the registry and passes it
+through. Verified with a throwaway functional test against
+`runHalalRules` covering all of: a cleared cropped asset (passes as
+INFO), the original eyed version of the same asset recorded as rejected
+(blocks), a completely unrecorded asset (blocks), and a hypothetical
+cleared person asset (still blocks, since `people_allowed` is false
+regardless of the `cleared` flag). That test also caught a real bug in
+the first version of the matching logic: a substring match let the
+rejected `...png.old-with-eyes` file resolve to its cleared
+`...png` sibling's registry entry, because the cleared file's name is a
+literal prefix of the rejected one. Fixed to exact-match only, so an
+unrecognised path fails closed as unreviewed rather than silently
+matching the wrong record.
+
+`assets/bg/mantis-shrimp-colour-demo.*` and its derived preview/composite
+files are the first entries in the registry, all recorded cleared (see
+that folder's README for the crop and verification detail). It is still
+a test/reference asset only, not wired into `generate-reels.mjs`. Before
+any real generation pipeline uses animal imagery going forward, the same
+discipline applies: review the asset for eyes/face visibility across
+every frame, not just one, and record it in
+`animate-imagery-review.json` before it can pass the gate at all.
 
 ## ADDED 1 Sep 2026 — per-niche background motifs, direct response to user feedback
 
