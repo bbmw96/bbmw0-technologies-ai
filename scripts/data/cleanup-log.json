@@ -15,11 +15,12 @@
   },
   "classC": {
     "total": 53,
-    "retired": 9,
-    "remaining": 44,
+    "retired": 19,
+    "remaining": 34,
     "note": "Duplicate re-uploads of the same fact (a distinct mass-production axis from A/B: the same claim posted 2-5 times). 53 duplicate extra copies detected across yt-bbmw0; the oldest instance of each fact is kept, newer copies retired. Includes the 'Flexbox replaced 90% of CSS layout hacks' group, which is ALSO an invented figure (the 90% is fabricated) and would qualify as Class A on the false-statistic test — retired first within this class for that reason."
   },
   "_runCaveat": "Batch 2 (2026-08-18T17:10Z) was a SAME-DAY SECOND director pass — cleanup-log.json is OneDrive cloud-only and was invisible to the Linux sandbox at the start of this run, so the earlier 16:45Z pass was not seen until git HEAD was read on the Windows side. Batch 2's 10 unlist calls were already issued (all reversible) before that reconciliation; they targeted the duplicate/fabricated-% class C, not the enumerated Class A set, so no A/B counts are affected. One video (rqyKMfB2BBM) overlapped batch 1 and was already unlisted — a harmless no-op, not re-listed here. Next scheduled pass should resume Class A (17 remaining) at the ~10/week cadence and NOT run a second batch the same day.",
+  "_privacyAnomalyFound2026-09-01": "Before batch 3, a live YOUTUBE_GET_VIDEO_DETAILS_BATCH check across all remaining candidate ids (88 on yt-bbmw0, 9 on yt-bbm0902) found 40 videos on yt-bbmw0 already sitting at privacyStatus=private, none of them present in this file's unlisted[] array and none explained by scripts/prune-batch.mjs (checked and ruled out; it only prunes local daily/ files, never calls the YouTube API). This file only tracks unlisted actions taken through this pipeline, so these 40 went private by some other, unlogged route (manual change in YouTube Studio, an earlier untracked script, or a platform-side restriction are all possible; not established which). Two of them, sG5pGIBHi3Q ('Hot water can freeze faster than cold') and 87zZPoT_yMg ('Salt water is denser than fresh'), are the CANONICAL OLDEST copy on record for their fact group — the one this cleanup pipeline has been deliberately keeping public while retiring newer duplicates. With those two private and their duplicate copies now also unlisted by batch 3, those two facts currently have zero public instances on yt-bbmw0, which was not the intent of the Class C logic (keep exactly one). Not reversed here since the cause of the private status is unknown and reversing it without knowing why could be wrong (e.g. if it was a copyright claim or platform action rather than an accident). Flagged for a human decision: check YouTube Studio directly for a restriction reason on these two ids, and on the other 38, before deciding whether to restore any to public.",
   "batches": [
     {
       "ranAt": "2026-08-18T16:45:00Z",
@@ -48,6 +49,20 @@
       "newlyRetired": 9,
       "verifiedBy": "YOUTUBE_UPDATE_VIDEO responses: all 10 report privacyStatus=unlisted",
       "note": "Same-day second pass (see _runCaveat). Targeted duplicate re-uploads keeping the oldest canonical copy of each fact, plus all 4 copies of the fabricated 'Flexbox 90%' claim. 10 calls issued; rqyKMfB2BBM was already unlisted in batch 1 (no-op), so 9 videos newly retired."
+    },
+    {
+      "ranAt": "2026-09-01T08:36:49Z",
+      "week": "2026-W36",
+      "channelsTouched": [
+        "yt-bbmw0"
+      ],
+      "defectClass": "C",
+      "attempted": 10,
+      "succeeded": 10,
+      "failed": 0,
+      "newlyRetired": 10,
+      "verifiedBy": "YOUTUBE_UPDATE_VIDEO responses: all 10 report privacyStatus=unlisted",
+      "note": "Resumed Class C (duplicate re-uploads) rather than Class A this pass. Reason: before acting, a live privacy-status check across the full remaining candidate pool (88 ids on yt-bbmw0, 9 on yt-bbm0902) found only 48 of the 88 yt-bbmw0 candidates and all 9 yt-bbm0902 candidates still genuinely public (see _privacyAnomalyFound2026-09-01 for the other 40). Class A membership cannot be safely determined from title/date alone without watching each video for the invented-stat beat, which was not attempted this session, so this pass stayed within the safely-verifiable Class C subset: duplicate titles grouped and cross-checked against live status, oldest instance per fact kept, only genuinely-public newer copies retired. Class A (17 remaining) is unchanged and should be the focus of a session with time to review individual videos, not just titles."
     }
   ],
   "unlisted": [
@@ -240,6 +255,106 @@
       "reason": "duplicate (4 copies; kept oldest O69yAiO7HZA)",
       "unlistedAt": "2026-08-18T17:10:00Z",
       "url": "https://youtu.be/OfV4ZrJvCGU"
+    },
+    {
+      "id": "AjpUY6xlLv8",
+      "channel": "yt-bbmw0",
+      "title": "Hot water can freeze faster than cold. #Shorts #learn",
+      "publishedAt": "2026-07-29T11:15:20Z",
+      "defectClass": "C",
+      "reason": "duplicate (4 copies; oldest on record is sG5pGIBHi3Q, which is currently private via an untracked mechanism, see _privacyAnomalyFound2026-09-01)",
+      "unlistedAt": "2026-09-01T08:36:49Z",
+      "url": "https://youtu.be/AjpUY6xlLv8"
+    },
+    {
+      "id": "31uQWUZvOk4",
+      "channel": "yt-bbmw0",
+      "title": "Hot water can freeze faster than cold. #Shorts #facts",
+      "publishedAt": "2026-08-01T10:27:04Z",
+      "defectClass": "C",
+      "reason": "duplicate (4 copies; oldest on record is sG5pGIBHi3Q, which is currently private via an untracked mechanism, see _privacyAnomalyFound2026-09-01)",
+      "unlistedAt": "2026-09-01T08:36:49Z",
+      "url": "https://youtu.be/31uQWUZvOk4"
+    },
+    {
+      "id": "9Z2Z38Gblfg",
+      "channel": "yt-bbmw0",
+      "title": "Nintendo was founded in 1889. #Shorts #didyouknow",
+      "publishedAt": "2026-07-29T11:16:57Z",
+      "defectClass": "C",
+      "reason": "duplicate (3 copies; kept oldest RS9G5stmNbY)",
+      "unlistedAt": "2026-09-01T08:36:49Z",
+      "url": "https://youtu.be/9Z2Z38Gblfg"
+    },
+    {
+      "id": "kPCR6ElEOQY",
+      "channel": "yt-bbmw0",
+      "title": "Screen readers rely on correct HTML headings. #Shorts",
+      "publishedAt": "2026-07-29T11:17:33Z",
+      "defectClass": "C",
+      "reason": "duplicate (3 copies; kept oldest eoMA3P5mqC8)",
+      "unlistedAt": "2026-09-01T08:36:49Z",
+      "url": "https://youtu.be/kPCR6ElEOQY"
+    },
+    {
+      "id": "F6yl4qlEhWs",
+      "channel": "yt-bbmw0",
+      "title": "Salt water is denser than fresh. #Shorts",
+      "publishedAt": "2026-07-30T10:58:40Z",
+      "defectClass": "C",
+      "reason": "duplicate (4 copies; oldest on record is 87zZPoT_yMg, which is currently private via an untracked mechanism, see _privacyAnomalyFound2026-09-01)",
+      "unlistedAt": "2026-09-01T08:36:49Z",
+      "url": "https://youtu.be/F6yl4qlEhWs"
+    },
+    {
+      "id": "dNc_AWwOr4Y",
+      "channel": "yt-bbmw0",
+      "title": "Shift-click selects a range. #Shorts #facts",
+      "publishedAt": "2026-07-30T10:59:40Z",
+      "defectClass": "C",
+      "reason": "duplicate (5 copies; kept oldest JFtlzf9-_dU; 2 of 5 already retired in batch 2)",
+      "unlistedAt": "2026-09-01T08:36:49Z",
+      "url": "https://youtu.be/dNc_AWwOr4Y"
+    },
+    {
+      "id": "p2bbV6QqVHA",
+      "channel": "yt-bbmw0",
+      "title": "Shift-click selects a range. #Shorts",
+      "publishedAt": "2026-07-31T11:19:37Z",
+      "defectClass": "C",
+      "reason": "duplicate (5 copies; kept oldest JFtlzf9-_dU; 2 of 5 already retired in batch 2)",
+      "unlistedAt": "2026-09-01T08:36:49Z",
+      "url": "https://youtu.be/p2bbV6QqVHA"
+    },
+    {
+      "id": "6KaumaA6u70",
+      "channel": "yt-bbmw0",
+      "title": "Naming things and cache invalidation are the two hard problems. #Shorts #learn",
+      "publishedAt": "2026-07-31T11:16:00Z",
+      "defectClass": "C",
+      "reason": "duplicate (3 copies; kept oldest 7xTdas-AUvw)",
+      "unlistedAt": "2026-09-01T08:36:49Z",
+      "url": "https://youtu.be/6KaumaA6u70"
+    },
+    {
+      "id": "pF1dMchsS6s",
+      "channel": "yt-bbmw0",
+      "title": "The spacebar is the most-pressed key on any keyboard. #Shorts",
+      "publishedAt": "2026-07-31T11:21:18Z",
+      "defectClass": "C",
+      "reason": "duplicate (3 copies; kept oldest v_gKTz1I8O0)",
+      "unlistedAt": "2026-09-01T08:36:49Z",
+      "url": "https://youtu.be/pF1dMchsS6s"
+    },
+    {
+      "id": "DBqhjwNyKDA",
+      "channel": "yt-bbmw0",
+      "title": "Copy and paste was invented by Larry Tesler in 1974. #Shorts #quickfact",
+      "publishedAt": "2026-08-01T10:26:11Z",
+      "defectClass": "C",
+      "reason": "duplicate (3 copies; kept oldest tJOLa7_Y210)",
+      "unlistedAt": "2026-09-01T08:36:49Z",
+      "url": "https://youtu.be/DBqhjwNyKDA"
     }
   ]
 }
