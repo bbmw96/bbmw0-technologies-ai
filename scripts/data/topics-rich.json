@@ -3495,6 +3495,268 @@
           "handle": "@ai_game_odyssey"
         }
       ]
+    },
+    {
+      "id": "infinite-scroll-not-raskin",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Infinite_scrolling - read in full 1 Sep 2026: infinite scroll was filed as a patent application on 14 February 2006 by Microsoft's Windows Live (MSN) Search image team; the feature shipped in the team's image search on 8 March 2006, the first product to ship with it; Microsoft engineering lead Hugh Williams has stated that he, Julie Farago and Nick Craswell were the inventors; Aza Raskin separately claimed credit for inventing infinite scroll in 2019.",
+        "https://hughewilliams.com/2012/03/06/ideas-and-invention-and-the-story-of-bings-image-search/ - read in full 1 Sep 2026, first-person account by named co-inventor Hugh Williams: he, Nick Craswell and Julie Farago built the feature into MSN Search's image results in 2005 after session data showed that while about 75% of web-search queries stayed on page one, only about 43% of image-search queries did, with some users paging into the twenties before clicking a result (his own example: a user who clicked a photo of a chocolate cake on roughly page twenty-something); the internal build was capped at 1,000 images, so it was never actually infinite.",
+        "https://en.wikipedia.org/wiki/Aza_Raskin - read in full 1 Sep 2026: confirms Raskin's career timeline (born 1984; founded Humanized in 2005 after his father Jef Raskin's death); the article documents Raskin's other credited work, such as the tabnabbing phishing technique, but does not itself credit him with infinite scroll, consistent with the Infinite Scrolling article crediting Microsoft's team instead."
+      ],
+      "verifiedNote": "Checked 1 Sep 2026 against three sources read in full. The Infinite Scrolling Wikipedia article carries an uncited claim that 'there is no evidence' for Raskin's 2019 claim; that line is not repeated here since it is itself flagged citation needed on the page. What is used instead is the checkable part: a patent application filed 14 February 2006, and a first-person account from one of its named contributors, Hugh Williams, describing a shipped feature from March 2006, a year before Raskin is generally credited with building his own version at Humanized. This entry does not call Raskin's claim false: both teams may have built something similar within a year of each other, and Raskin's version is simply the one that is popularly credited. The specific, checkable fact used on screen is only that the patent and the primary account both predate the popular attribution. Not claimed: a first-person, dated account from Raskin's side, since one was not found in this pass. The figure beat uses the 1,000 image cap because it directly undercuts the word 'infinite' in the feature's own name.",
+      "palette": {
+        "bg": "#0A0E11",
+        "ink": "#EEF2F1",
+        "accent": "#2FB8AC",
+        "muted": "#77857F"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "You've scrolled past this credit a thousand times.",
+          "text": "The person usually credited with it isn't who built it first.",
+          "note": "Infinite scroll is one of the most copied interface patterns in software history, and the popular story about its origin is a year off, and about the wrong team."
+        },
+        {
+          "kind": "credit",
+          "year": "2005",
+          "name": "Hugh Williams",
+          "role": "A Microsoft search engineering lead. He and two colleagues, Julie Farago and Nick Craswell, built the feature into MSN's image search after data showed testers paging through dozens of results rather than stop, one went to around page twenty before clicking a photo of a chocolate cake."
+        },
+        {
+          "kind": "statement",
+          "lead": "It wasn't just an idea, it was filed.",
+          "text": "Microsoft's patent for it predates the famous version by a year.",
+          "note": "Filed 14 February 2006, naming Farago, Williams and a colleague as inventors. The programmer usually credited with inventing infinite scroll built his own version at a different company in 2006, after this one had already shipped."
+        },
+        {
+          "kind": "figure",
+          "value": "1,000",
+          "unit": "images",
+          "context": "The hard limit Microsoft actually built into its 'infinite' scroll. It was never truly infinite, just longer than anyone expected to reach."
+        },
+        {
+          "kind": "kicker",
+          "text": "The feature everyone recognises. The credit almost nobody has right."
+        },
+        {
+          "kind": "sign",
+          "line": "Not the founder you've heard of. Three researchers with a data set.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "pareto-principle-juran",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pareto_principle - read in full 1 Sep 2026: Vilfredo Pareto observed in his book Cours d'economie politique that roughly 80% of land in the Kingdom of Italy was owned by about 20% of the population; the article's own citation dates that book to 1896 to 1897, though its prose separately says he 'wrote in 1906'; in 1941, management consultant Joseph M. Juran, having read Pareto's work, generalised the observation and later named it 'the vital few and the useful many'; cites Juran's New York Times obituary (Bunkley, 3 March 2008) for his death at age 103.",
+        "https://www.juran.com/blog/a-guide-to-the-pareto-principle-80-20-rule-pareto-analysis/ - read in full 1 Sep 2026, published by the Juran Institute, the company Joseph Juran founded: dates Pareto's original observation to 1895; states Juran 'was the first to point out' that Pareto's finding was a universal principle rather than only an economic one, and separately dates Juran's naming of the phenomenon to 'the early 1950s' rather than 1941; also uses the phrases 'useful many' and 'trivial many' within the same paragraph, rather than treating the kinder phrase as Juran's sole preference."
+      ],
+      "verifiedNote": "Checked 1 Sep 2026 against two sources read in full: Wikipedia and the company Juran himself founded. Two conflicts are handled here rather than smoothed over. First, when Pareto made the observation: Wikipedia's own prose says he 'wrote in 1906,' but Wikipedia's own citation dates the source text to 1896 to 1897, and the Juran Institute's site independently gives 1895. 1896 is used in the credit beat as the better source-confirmed date; 1906 looks like it may conflate this with Pareto's separate, later 1906 work. Second, when Juran applied it: Wikipedia, citing Juran's 2008 obituary, says 1941; the Juran Institute's own site instead says the early 1950s. The obituary date is used here as the more specific, dated claim, and this note records the discrepancy rather than hiding it. Also not smoothed over: the Juran Institute's own page uses 'useful many' and 'trivial many' interchangeably, a looser claim than the tidy 'Juran preferred the kinder phrase' framing, so the beats below only use the phrase both sources agree he used, 'vital few.' The figure beat uses Juran's age at death, which does not depend on resolving either date conflict.",
+      "palette": {
+        "bg": "#100E0C",
+        "ink": "#F2EEE7",
+        "accent": "#D4A017",
+        "muted": "#8C8275"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "You've heard the 80/20 rule treated like a law of nature.",
+          "text": "It started as one economist's footnote about dirt.",
+          "note": "In 1896, Vilfredo Pareto noticed that roughly 80 percent of the land in Italy belonged to about 20 percent of the population. That's the whole original observation."
+        },
+        {
+          "kind": "statement",
+          "lead": "Pareto never called it a rule, a principle, or a law.",
+          "text": "A different man did that, four decades later.",
+          "note": "In 1941, engineer Joseph Juran read Pareto's land-ownership statistic and did something Pareto never did: he claimed it was universal, true of defects, sales and complaints, almost anything you can count."
+        },
+        {
+          "kind": "credit",
+          "year": "1941",
+          "name": "Joseph M. Juran",
+          "role": "An engineer working in quality control. He renamed Pareto's one-off Italian statistic 'the vital few and the useful many,' and spent the following six decades teaching that it applied to almost everything."
+        },
+        {
+          "kind": "figure",
+          "value": "103",
+          "unit": "years",
+          "context": "Juran's age when he died in 2008, having outlived the man he named the principle after by more than eighty years, and taught the idea the whole time."
+        },
+        {
+          "kind": "kicker",
+          "text": "Pareto counted Italian land. Juran turned it into a rule for everything."
+        },
+        {
+          "kind": "sign",
+          "line": "The 80/20 rule has two authors, and only one gets credited.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "missile-command-nightmares",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Missile_Command - read in full 1 Sep 2026: Atari coin-op president Gene Lipkin saw a radar-screen image in a magazine and told department head Steve Calfee to make a game like it; the loosely defined brief, USSR missiles versus a US defence, went to junior programmer Dave Theurer, fresh off Atari Soccer; the six cities in early versions were named as real California cities, Eureka, San Francisco, San Luis Obispo, Santa Barbara, Los Angeles and San Diego; Theurer set two conditions on his own design, that neither attacking nor defending nation be named, and that the player have no way to retaliate, which he considered a scenario of mutual destruction, quoting him: 'I did not want to put the player in a position of being a genocidal maniac. Only a crazy person would sling nuclear weapons without context, right?'; during and after the project Theurer suffered nightmares of nuclear destruction, continuing after release with decreasing regularity (citing Alex Rubens' 2019 book '8-Bit Apocalypse'); the game cannot be won and ends on a screen reading 'THE END' rather than 'Game Over.'",
+        "https://barnmegaparsec.blogspot.com/2016/10/dave-theurers-nightmares.html - read in full 1 Sep 2026, secondary corroboration only: independently confirms the six defended cities as real towns on the California coastline, and that the game is structurally unwinnable, quoting the site's own framing: 'You can't win nuclear war.'"
+      ],
+      "verifiedNote": "Checked 1 Sep 2026 against the Missile Command Wikipedia article, read in full, which sources Theurer's design choices and nightmares to Alex Rubens' 2019 book '8-Bit Apocalypse: The Untold Story of Atari's Missile Command,' and a 2016 hobbyist blog post read only as secondary corroboration for the city names. Deliberately left out: a widely circulated quote from Theurer about waking in a cold sweat for six months after the project, attributed in several secondary write-ups to a 2013 Polygon feature by the same Alex Rubens. That Polygon page could not be fetched directly in this pass, it returned a blocked-URL error, so the quote and the specific six-month duration are left out rather than repeated from search summaries alone. The safer, source-confirmed claim used instead is Wikipedia's own: the nightmares happened during crunch and continued afterward with decreasing regularity. No figure beat: the strongest available numbers, close to 20,000 cabinets sold, six defended cities, are commercial or mechanical counts rather than the fact the story turns on, so none is enlarged to 300px.",
+      "palette": {
+        "bg": "#0A0B0E",
+        "ink": "#F0F1F5",
+        "accent": "#C1443C",
+        "muted": "#7D828C"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "It looks like Cold War propaganda.",
+          "text": "The designer built it to refuse to be that.",
+          "note": "Atari's coin-op boss saw a radar-screen photo in a magazine and told his team to make a game like it. The junior programmer he handed it to had other ideas."
+        },
+        {
+          "kind": "credit",
+          "year": "1980",
+          "name": "Dave Theurer",
+          "role": "A junior programmer, fresh off his first game, Atari Soccer. Given a one-line brief about Soviet missiles and an American defence, he attached two conditions of his own before writing a line of code."
+        },
+        {
+          "kind": "statement",
+          "lead": "Condition one: no country would ever be named.",
+          "text": "Condition two: you could never fire back.",
+          "note": "Theurer refused to give the player a retaliation button. In his own words: 'I did not want to put the player in a position of being a genocidal maniac.' Mutual destruction wasn't a game mechanic to him."
+        },
+        {
+          "kind": "statement",
+          "lead": "The six cities you're defending were real, at first.",
+          "text": "Eureka, San Francisco, San Luis Obispo, Santa Barbara, Los Angeles, San Diego.",
+          "note": "The whole California coast, named outright in early versions. Theurer stripped the names before release, leaving the geography to the player's imagination."
+        },
+        {
+          "kind": "statement",
+          "lead": "As the deadline closed in, the nightmares started.",
+          "text": "Theurer dreamed about the nuclear blast he was coding.",
+          "note": "They didn't stop when the game shipped in June 1980, they just came less often. The ending reflects it: the screen doesn't say 'Game Over.' It says 'THE END.' There is no way to win."
+        },
+        {
+          "kind": "sign",
+          "line": "A missile game with no retaliation button, built by a man who couldn't stop dreaming about it.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "deep-blue-kasparov",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov - read in full 1 Sep 2026: Kasparov won the 1996 Philadelphia match 4-2; Deep Blue won the 1997 New York rematch 3.5-2.5, the first defeat of a reigning world chess champion by a computer under standard tournament conditions; Game 1's move 44 was allegedly the result of a bug, in which Deep Blue, unable to settle on a move, resorted to a fail-safe; after losing Game 2 in a position later shown to be drawable, Kasparov accused IBM of cheating, alleging a grandmaster had made moves for the machine, specifically 36.axb5 and 37.Be4; the article's own lead states that although it was reported IBM had dismantled Deep Blue afterward, it in fact remained in operation for several years.",
+        "https://theconversation.com/twenty-years-on-from-deep-blue-vs-kasparov-how-a-chess-match-started-the-big-data-revolution-76882 - read in full 1 Sep 2026: academic retrospective corroborating the cheating accusation and IBM's denial (stating the only human intervention was fixing bugs between games); adds that Kasparov's suspicion echoed 18th and 19th century chess-automaton hoaxes; grandmaster John Nunn called one Deep Blue move 'stunning' and 'exceptional'; one of Deep Blue's own designers has said a glitch made the machine pick a move at random rather than its calculated best, which Kasparov read as deeper strategy; the final configuration of the machine controlled 480 custom integrated circuits designed specifically to play chess; IBM refused Kasparov's request for a rematch."
+      ],
+      "verifiedNote": "Checked 1 Sep 2026 against two sources read in full: Wikipedia's 'Deep Blue versus Garry Kasparov' and The Conversation's twenty-years-on retrospective. Both agree on the core shape: Kasparov lost the 1997 rematch, accused IBM of secret human intervention, and IBM denied it. Two points are handled rather than smoothed over. First, which game held the fail-safe bug: Wikipedia specifically places it in Game 1, move 44, a game Deep Blue lost. The Conversation's account of a glitch causing a random move is worded more loosely, and its surrounding context reads as though it may describe Game 2 instead. Rather than assign a game number only one source clearly supports, the bug beat here states only what both sources agree on in substance, a bug produced an unplanned move Kasparov misread as strategic depth, without naming a game. Second, Deep Blue's fate after the match: Wikipedia's lead explicitly corrects a popular report that IBM dismantled the machine, saying it remained in operation for several years; The Conversation instead refers in passing to 'the subsequent dismantling of Deep Blue' as settled fact. Given that direct contradiction, neither version is asserted on screen; the entry uses only what both sources support without conflict, that no rematch ever took place. No figure beat drawn from the match score or the disputed move numbers, both address-style numbers per the style guide; 480, the number of custom chess chips in the machine, is used instead because it is a whole, source-confirmed number that explains the mechanism of the win rather than just labelling it.",
+      "palette": {
+        "bg": "#0C0D10",
+        "ink": "#EDEEF2",
+        "accent": "#4C6EF5",
+        "muted": "#7E838F"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Kasparov lost, and said it wasn't fair.",
+          "text": "He accused IBM of secretly using a human grandmaster.",
+          "note": "After Deep Blue beat the reigning world chess champion in 1997, Garry Kasparov refused to believe a machine had done it. It echoed 18th and 19th century chess-automaton hoaxes, in which a hidden person, not the machine, did the actual playing."
+        },
+        {
+          "kind": "statement",
+          "lead": "His evidence was two suspiciously good moves.",
+          "text": "Moves 36 and 37 in one game looked too human to be brute force.",
+          "note": "Kasparov and grandmaster observers felt the moves were too sophisticated for a machine playing by raw calculation. IBM denied any human intervention beyond fixing bugs between games."
+        },
+        {
+          "kind": "statement",
+          "lead": "One of those bugs is real, and documented.",
+          "text": "A glitch made Deep Blue pick a move at random rather than its best-calculated one.",
+          "note": "One of the machine's own designers has said a fail-safe kicked in when the computer couldn't settle on a move, and Kasparov read the random result as a sign of deeper strategy than was actually there."
+        },
+        {
+          "kind": "figure",
+          "value": "480",
+          "unit": "chips",
+          "context": "Custom chess-only processors built into the machine, working in parallel. Not learning, not intuition, just purpose-built calculation at scale."
+        },
+        {
+          "kind": "statement",
+          "lead": "Kasparov spent years demanding a rematch.",
+          "text": "IBM never gave him one.",
+          "note": "Deep Blue's exact fate after 1997 is described differently by different accounts, but every account agrees on this: the third match Kasparov wanted never happened."
+        },
+        {
+          "kind": "sign",
+          "line": "A grudge that has outlasted the hardware it was about.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "great-wall-not-visible",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://www.scientificamerican.com/article/great-wall-of-china-from-space/ - read in full 1 Sep 2026 (Mara Hvistendahl, 21 Feb 2008): the myth that the Great Wall is visible from space predates spaceflight, tracing to a 1932 Ripley's Believe It or Not cartoon, three decades before Yuri Gagarin's first orbital flight; Apollo astronauts including Neil Armstrong stated no human structures are visible from the Moon; NASA oral histories quote Shuttle astronaut Jeffrey Hoffman saying he never saw the Great Wall from orbit; NASA's own published assessment is that the wall is barely visible even from 180 miles up and is comparable in width to a highway.",
+        "https://www.aljazeera.com/news/2003/10/17/chinas-spaceman-shatters-a-myth - read in full 1 Sep 2026: contemporaneous report on Yang Liwei, China's first astronaut, completing 14 orbits aboard Shenzhou 5 in October 2003 and telling reporters on his return that the scenery was beautiful but he didn't see the Great Wall, directly puncturing the myth for a domestic Chinese audience; reports that China's Ministry of Education subsequently corrected an elementary-school textbook that had stated the wall was visible from space."
+      ],
+      "verifiedNote": "Checked 1 Sep 2026 against two sources read in full, a Scientific American explainer citing NASA astronauts directly, and an Al Jazeera news report on Yang Liwei's 2003 flight. Both independently support the structure used here: the myth predates spaceflight itself, since the 1932 Ripley's cartoon came decades before anyone had actually been to orbit, and it has since been directly denied by astronauts from both the American and Chinese space programmes. The wall's width, roughly six metres, narrower than most two-lane roads, is used as the figure beat because it is the specific physical reason a many-thousand-kilometre structure still isn't visible to the naked eye: width, not length, is what naked-eye resolution from orbit depends on. Not claimed: a single precise average width figure beyond 'roughly six metres,' since the wall's width varies considerably along its length and by the dynasty that built each section, and neither source gives one exact average.",
+      "palette": {
+        "bg": "#0B0F0C",
+        "ink": "#EEF2ED",
+        "accent": "#5B9279",
+        "muted": "#798579"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "It's the one 'fact' every schoolkid knows.",
+          "text": "The Great Wall of China is visible from space.",
+          "note": "It's repeated so often it feels like common knowledge. It has never been true, and how the claim got started is stranger than the myth itself."
+        },
+        {
+          "kind": "statement",
+          "lead": "The claim predates the Space Age by nearly thirty years.",
+          "text": "It comes from a 1932 Ripley's Believe It or Not cartoon.",
+          "note": "Nobody had been to space yet. The claim wasn't a report of what someone saw, it was a guess, printed as fact, decades before Yuri Gagarin's first orbital flight in 1961."
+        },
+        {
+          "kind": "credit",
+          "year": "2003",
+          "name": "Yang Liwei",
+          "role": "China's first astronaut. After 14 orbits aboard Shenzhou 5, he came back down and told reporters the scenery was beautiful, but he hadn't seen the Great Wall. China's own education ministry then corrected a textbook that had taught the myth as fact."
+        },
+        {
+          "kind": "statement",
+          "lead": "American astronauts had already said the same thing.",
+          "text": "Apollo's Neil Armstrong said no human structures are visible from the Moon.",
+          "note": "Shuttle astronaut Jeffrey Hoffman put it plainly: he never saw the Great Wall. From low orbit, under near-perfect light, the wall is sometimes barely visible, and easily mistaken for an ordinary road."
+        },
+        {
+          "kind": "figure",
+          "value": "6",
+          "unit": "metres",
+          "context": "Roughly how wide the wall is. A structure can stretch for thousands of kilometres and still be invisible from orbit if it's no wider than a road, length was never the problem."
+        },
+        {
+          "kind": "sign",
+          "line": "Wrong since before anyone could check, and repeated ever since.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
