@@ -5,10 +5,13 @@
   "strictMode": false,
   "allowed": [
     "emoji-not-emotion",
-    "infinite-scroll-not-raskin"
+    "infinite-scroll-not-raskin",
+    "venus-day-year"
   ],
   "blocked": [
-    "nintendo-playing-cards"
+    "nintendo-playing-cards",
+    "honey-never-spoils",
+    "hurricane-women-only-names"
   ],
   "results": [
     {
@@ -162,6 +165,195 @@
         "worstTitleAgainst": "nintendo-1889",
         "worstDescriptionSimilarity": 0.248,
         "combo": "reel:#12100E:#C0392B:#F1EADD",
+        "themeGap": 59,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "honey-never-spoils",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "Pots of honey, still good, sealed in tombs thousands of years old.",
+      "niche": "food",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "style.us_spelling",
+          "message": "US spelling \"center\" found. Use \"centre\".",
+          "detail": null
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "safety.context_review",
+          "message": "Context-sensitive term(s) present: kill. Legitimate in educational science and history, referred to the AI safety reviewer.",
+          "detail": {
+            "terms": [
+              "kill"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.094,
+        "worstTitleAgainst": "binary-search-half",
+        "worstDescriptionSimilarity": 0.28,
+        "combo": "reel:#140F08:#E8A93A:#FBF3E3",
+        "themeGap": 59,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "hurricane-women-only-names",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "Every named US hurricane was a woman.",
+      "niche": "weather",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "style.us_spelling",
+          "message": "US spelling \"center\" found. Use \"centre\".",
+          "detail": null
+        },
+        {
+          "severity": "BLOCK",
+          "rule": "safety.hard_banned",
+          "message": "Prohibited term \"rape\" appears in the video text or metadata.",
+          "detail": {
+            "term": "rape"
+          }
+        },
+        {
+          "severity": "BLOCK",
+          "rule": "halal.immodesty",
+          "message": "Prohibited under immodesty: \"flirting\".",
+          "detail": {
+            "term": "flirting",
+            "category": "immodesty"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "safety.context_review",
+          "message": "Context-sensitive term(s) present: war. Legitimate in educational science and history, referred to the AI safety reviewer.",
+          "detail": {
+            "terms": [
+              "war"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.125,
+        "worstTitleAgainst": "algebra-origin",
+        "worstDescriptionSimilarity": 0.292,
+        "combo": "reel:#0A1420:#E8543D:#EAF1F5",
+        "themeGap": 59,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "venus-day-year",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "On Venus it is literally true.",
+      "niche": "space",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.167,
+        "worstTitleAgainst": "first-bug-real",
+        "worstDescriptionSimilarity": 0.26,
+        "combo": "reel:#0A0710:#E8B04B:#F3EFE9",
         "themeGap": 59,
         "audioGap": 0
       },

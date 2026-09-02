@@ -1,0 +1,49 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (venus-day-year)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0710",
+    "ink": "#F3EFE9",
+    "accent": "#E8B04B",
+    "muted": "#7B7285"
+  },
+  "niche": "space",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "A day longer than a year",
+      "text": "On Venus it is literally true.",
+      "note": "Venus takes 243 Earth days to turn once on its axis, and only 225 to circle the Sun. Complete a single rotation and you have already outlived a Venus year, with eighteen days to spare.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "243",
+      "unit": "days",
+      "context": "One rotation of Venus, in Earth days, the slowest spin of any planet in the Solar System. Its whole year is shorter, at 225.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "And it turns the wrong way",
+      "text": "On Venus the Sun rises in the west.",
+      "note": "Venus spins backwards compared with Earth and nearly every other planet. Sunrise to sunset, if you could see the Sun through the acid cloud, takes about 117 Earth days.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1962",
+      "name": "Radar",
+      "role": "Venus's clouds hid its spin for centuries. Astronomers could time only the cloud tops, which race round in about four days. When radar first reached the surface in 1962, it revealed that the planet beneath barely turns at all.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "One Venus day, and it still outlasts the year.",
+      "handle": "@bbm0902",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}

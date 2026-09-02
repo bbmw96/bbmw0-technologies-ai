@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (hurricane-women-only-names)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A1420",
+    "ink": "#EAF1F5",
+    "accent": "#E8543D",
+    "muted": "#6E8494"
+  },
+  "niche": "weather",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "For twenty-six years",
+      "text": "Every named US hurricane was a woman.",
+      "note": "From 1953, when the US dropped a phonetic-alphabet naming scheme for storms, until 1979, hurricanes and tropical storms got female names only. No exceptions.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Weathermen ran with it",
+      "text": "Storms got described the way lazy jokes describe women.",
+      "note": "Forecasters called them 'temperamental', said they were 'flirting' with the coast. It was treated as charming. Female meteorologists were not charmed.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1970s",
+      "name": "Roxcy Bolton",
+      "role": "Florida feminist who founded the United States' first rape treatment centre and led the campaign to end female-only hurricane names, arguing that women 'deeply resent being arbitrarily associated with disaster'.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "It worked, eventually",
+      "text": "Men's names arrived in 1978, then 1979.",
+      "note": "The Eastern Pacific added male names first; the Atlantic and Gulf followed the next year. Some forecasters warned male-named storms would not be taken seriously.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "A later study found the opposite: people underestimate female-named hurricanes, and it has cost lives.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "sign",
+      "line": "The storm never cared what it was called. People did.",
+      "handle": "@bbm0902",
+      "durationInFrames": 106
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -91,7 +91,10 @@
     "reel:donkey-kong-universal",
     "reel:nintendo-playing-cards",
     "reel:infinite-scroll-not-raskin",
-    "reel:emoji-not-emotion"
+    "reel:emoji-not-emotion",
+    "reel:venus-day-year",
+    "reel:hurricane-women-only-names",
+    "reel:honey-never-spoils"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -1491,6 +1494,49 @@
       "youtubeUrl": "https://youtu.be/rxsbkH4dpAk",
       "uploadedAt": "2026-09-02T13:06:28.670Z",
       "privacy": "public"
+    },
+    {
+      "id": "venus-day-year",
+      "date": "2026-09-02",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "On Venus it is literally true.",
+      "description": "On Venus it is literally true. Venus takes 243 Earth days to turn once on its axis, and only 225 to circle the Sun. Complete a single rotation and you have already outlived a Venus year, with eighteen days to spare.\n\nOne rotation of Venus, in Earth days, the slowest spin of any planet in the Solar System. Its whole year is shorter, at 225.\n\nOn Venus the Sun rises in the west. Venus spins backwards compared with Earth and nearly every other planet. Sunrise to sunset, if you could see the Sun through the acid cloud, takes about 117 Earth days.\n\nVenus's clouds hid its spin for centuries. Astronomers could time only the cloud tops, which race round in about four days. When radar first reached the surface in 1962, it revealed that the planet beneath barely turns at all.\n\nSources:\n- https://science.nasa.gov/venus/venus-facts/ (NASA Science, Venus Facts, page updated 23 Jun 2026; read in full 26 Aug 2026): states that a day on Venus would be 243 Earth days long, longer even than a Venus year of about 225 Earth days; that because of the planet's extremely slow rotation, sunrise to sunset would take 117 Earth days; that the Sun would rise in the west and set in the east because Venus spins backward compared with Earth; and that Venus's axial tilt is only about three degrees, too little for seasons.\n- https://www.aeronomie.be/en/encyclopedia/venus-backwards-rotation-and-orbital-period (Royal Belgian Institute for Space Aeronomy, BIRA-IASB; read in full 26 Aug 2026): gives the precise figures of a sidereal rotation of 243.0185 Earth days and an orbital period of 224.70096 Earth days, so the year is shorter than the sidereal day; states that the rotation is retrograde and was first measured by radar in 1962; that the cloud tops circle the planet in about four days; and that the solar day is 116 and three-quarter Earth days.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "space",
+      "channelId": "yt-bbm0902",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "UH2yPXKVnMA",
+      "youtubeUrl": "https://youtu.be/UH2yPXKVnMA",
+      "uploadedAt": "2026-09-02T13:13:28.953Z",
+      "privacy": "public"
+    },
+    {
+      "id": "hurricane-women-only-names",
+      "date": "2026-09-02",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Every named US hurricane was a woman.",
+      "description": "Every named US hurricane was a woman. From 1953, when the US dropped a phonetic-alphabet naming scheme for storms, until 1979, hurricanes and tropical storms got female names only. No exceptions.\n\nStorms got described the way lazy jokes describe women. Forecasters called them 'temperamental', said they were 'flirting' with the coast. It was treated as charming. Female meteorologists were not charmed.\n\nFlorida feminist who founded the United States' first rape treatment centre and led the campaign to end female-only hurricane names, arguing that women 'deeply resent being arbitrarily associated with disaster'.\n\nMen's names arrived in 1978, then 1979. The Eastern Pacific added male names first; the Atlantic and Gulf followed the next year. Some forecasters warned male-named storms would not be taken seriously.\n\nA later study found the opposite: people underestimate female-named hurricanes, and it has cost lives.\n\nSources:\n- https://www.nhc.noaa.gov/aboutnames_history.shtml - National Hurricane Center (NOAA), official naming-history page, read in full. Established that West Indies hurricanes were long named after the saint's day they struck, that Australian meteorologist Clement Wragge began giving storms women's names before the end of the 19th century, that the 1941 novel 'Storm' by George R. Stewart popularised a woman's name for a storm and the habit spread among US Army and Navy meteorologists in the Second World War, that in 1953 the United States dropped a two-year-old phonetic-alphabet naming scheme and began using women's names exclusively, that the practice of naming hurricanes only after women ended in 1978 when the Eastern North Pacific lists added men's names, followed by the Atlantic and Gulf lists in 1979, and that the World Meteorological Organization now runs rotating name lists, retiring a name only when a storm carrying it was especially deadly or costly.\n- https://www.history.com/articles/why-hurricanes-and-tropical-storms-were-only-named-after-women - HISTORY (Becky Little, 1 August 2017, updated 27 May 2025), read in full. Established that from roughly 1953 to 1979 US hurricanes and tropical storms were named only after women, that forecasters described storms in sexist terms such as 'temperamental' or 'flirting' with the coast, that Roxcy Bolton, a Florida feminist credited with founding the United States' first rape treatment centre, was a leading campaigner who helped persuade forecasters to end female-only naming, arguing per her New York Times obituary that women 'deeply resent being arbitrarily associated with disaster', that campaigns by Bolton and others led to men's names returning from 1979, that some critics at the time argued male-named storms would not be taken seriously, and that a 2016 study (cited by History.com, not independently read here) found the opposite: female-named hurricanes are perceived as less dangerous and have historically caused more deaths as a result.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "weather",
+      "channelId": "yt-bbm0902",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "honey-never-spoils",
+      "date": "2026-09-02",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Pots of honey, still good, sealed in tombs thousands of years old.",
+      "description": "Pots of honey, still good, sealed in tombs thousands of years old. Ancient Egyptian tombs in particular have turned up jars of honey that are millennia old and, once opened, still edible.\n\nRaw nectar is mostly water. Finished honey barely is. Bees fan the nectar with their wings until most of the moisture is gone, leaving too little water for bacteria to get a foothold.\n\nHoney is acidic, and it makes its own disinfectant. A pH of roughly 3 to 4.5 already kills off most microbes. An enzyme from the bees' own stomachs adds hydrogen peroxide on top, the same compound used to clean wounds.\n\nHoney has been medicine for thousands of years. The earliest written use is on Sumerian clay tablets, where honey appears in roughly three in ten prescriptions. Egyptian physicians used it as a wound and eye ointment, because nothing could grow on it long enough to cause an infection.\n\nIt only works sealed. Crack the jar and let the damp in, and even honey can finally spoil.\n\nSources:\n- https://www.smithsonianmag.com/science-nature/the-science-behind-honeys-eternal-shelf-life-1218690/ - Smithsonian Magazine (Natasha Geiling, 22 August 2013), read in full, quoting Amina Harris, executive director of the Honey and Pollination Center at the Robert Mondavi Institute, UC Davis, throughout. Established that archaeologists have repeatedly found pots of honey in ancient Egyptian tombs, thousands of years old and still preserved; that honey is hygroscopic and bees actively dry the nectar, which starts at 60 to 80 per cent water, by flapping their wings, leaving too little moisture for microbes to survive; that honey's pH sits at roughly 3 to 4.5, acidic enough to kill off almost anything trying to grow in it; that bees carry an enzyme, glucose oxidase, which mixes with the nectar during regurgitation into the comb and produces gluconic acid and hydrogen peroxide, adding further antimicrobial power; that the earliest recorded medicinal use of honey is on Sumerian clay tablets, where it appears in roughly 30 per cent of prescriptions, and that ancient Egyptian physicians used honey ointments on skin and eye conditions because nothing could grow on an open wound covered in it; and that the preservation holds only while the jar stays sealed, since added water or an open lid can let it spoil after all.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "food",
+      "channelId": "yt-bbm0902",
+      "special": false,
+      "platform": "youtube"
     }
   ]
 }

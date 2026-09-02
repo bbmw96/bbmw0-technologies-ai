@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (honey-never-spoils)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#140F08",
+    "ink": "#FBF3E3",
+    "accent": "#E8A93A",
+    "muted": "#8A7860"
+  },
+  "niche": "food",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Archaeologists keep finding it",
+      "text": "Pots of honey, still good, sealed in tombs thousands of years old.",
+      "note": "Ancient Egyptian tombs in particular have turned up jars of honey that are millennia old and, once opened, still edible.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Bees dry it out first",
+      "text": "Raw nectar is mostly water. Finished honey barely is.",
+      "note": "Bees fan the nectar with their wings until most of the moisture is gone, leaving too little water for bacteria to get a foothold.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "And it isn't just dry",
+      "text": "Honey is acidic, and it makes its own disinfectant.",
+      "note": "A pH of roughly 3 to 4.5 already kills off most microbes. An enzyme from the bees' own stomachs adds hydrogen peroxide on top, the same compound used to clean wounds.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "This is not a new discovery",
+      "text": "Honey has been medicine for thousands of years.",
+      "note": "The earliest written use is on Sumerian clay tablets, where honey appears in roughly three in ten prescriptions. Egyptian physicians used it as a wound and eye ointment, because nothing could grow on it long enough to cause an infection.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "It only works sealed. Crack the jar and let the damp in, and even honey can finally spoil.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "sign",
+      "line": "The only food built to outlive the jar it's in.",
+      "handle": "@bbm0902",
+      "durationInFrames": 106
+    }
+  ],
+  "cta": "Subscribe for more."
+}
