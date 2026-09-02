@@ -1,0 +1,47 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (emoji-not-emotion)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0E0B12",
+    "ink": "#F3EFEA",
+    "accent": "#FFB020",
+    "muted": "#837A88"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Emoji has nothing to do with emotion",
+      "text": "It means 'picture character'.",
+      "note": "From Japanese: e, picture, plus moji, character. That it sounds like 'emoticon' is an accident of English. The two words share no root at all.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "176",
+      "unit": "emoji",
+      "context": "Shigetaka Kurita's 1999 set for DoCoMo, drawn on a grid of twelve pixels by twelve. The originals are now held by the Museum of Modern Art.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "statement",
+      "lead": "And 'the first emoji' is wrong too",
+      "text": "A rival set beat it by two years.",
+      "note": "SoftBank, then called J-Phone, shipped 90 emoji on a 1997 handset, before DoCoMo's 176. Kurita himself has said DoCoMo was not first.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "A word that is not about feelings, pinned to a set that was not first.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "sign",
+      "line": "The little pictures are older, and stranger, than the story about them.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 118
+    }
+  ],
+  "cta": "Subscribe for more."
+}

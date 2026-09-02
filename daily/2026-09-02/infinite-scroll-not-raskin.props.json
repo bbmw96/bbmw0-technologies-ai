@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (infinite-scroll-not-raskin)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0E11",
+    "ink": "#EEF2F1",
+    "accent": "#2FB8AC",
+    "muted": "#77857F"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "You've scrolled past this credit a thousand times.",
+      "text": "The person usually credited with it isn't who built it first.",
+      "note": "Infinite scroll is one of the most copied interface patterns in software history, and the popular story about its origin is a year off, and about the wrong team.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2005",
+      "name": "Hugh Williams",
+      "role": "A Microsoft search engineering lead. He and two colleagues, Julie Farago and Nick Craswell, built the feature into MSN's image search after data showed testers paging through dozens of results rather than stop, one went to around page twenty before clicking a photo of a chocolate cake.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "It wasn't just an idea, it was filed.",
+      "text": "Microsoft's patent for it predates the famous version by a year.",
+      "note": "Filed 14 February 2006, naming Farago, Williams and a colleague as inventors. The programmer usually credited with inventing infinite scroll built his own version at a different company in 2006, after this one had already shipped.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "1,000",
+      "unit": "images",
+      "context": "The hard limit Microsoft actually built into its 'infinite' scroll. It was never truly infinite, just longer than anyone expected to reach.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "kicker",
+      "text": "The feature everyone recognises. The credit almost nobody has right.",
+      "durationInFrames": 82
+    },
+    {
+      "kind": "sign",
+      "line": "Not the founder you've heard of. Three researchers with a data set.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 118
+    }
+  ],
+  "cta": "Subscribe for more."
+}

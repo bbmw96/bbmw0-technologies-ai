@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (nintendo-playing-cards)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#12100E",
+    "ink": "#F1EADD",
+    "accent": "#C0392B",
+    "muted": "#867E72"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Nintendo feels like a modern company",
+      "text": "It was founded in 1889, making playing cards.",
+      "note": "Hand-painted hanafuda (Japanese flower cards) crafted from mulberry bark in a Kyoto workshop. It is still headquartered in Kyoto today.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1889",
+      "name": "Fusajiro Yamauchi",
+      "role": "He opened the shop as Nintendo Koppai. By 1929 it was the largest card maker in Japan, and in 1959 a deal with Disney put Mickey Mouse on the decks: a record 600,000 sold that year.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "100",
+      "unit": "years",
+      "context": "From that first deck of flower cards to the Game Boy of 1989, a full century before Nintendo's most famous handheld.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "In between, it tried almost anything",
+      "text": "In the 1960s it ran a taxi firm and sold instant rice.",
+      "note": "Flush from going public, Nintendo sold packets of instant rice (a flop), ran the Daiya taxi company, and even opened an hourly-rental hotel, before deciding toys and games were its future.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "For its first eighty years, the maker of Mario never sold a single video game.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "sign",
+      "line": "It dealt flower cards for a century before pixels.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}
