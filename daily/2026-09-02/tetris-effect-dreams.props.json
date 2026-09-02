@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (tetris-effect-dreams)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0C0E14",
+    "ink": "#EAEAF0",
+    "accent": "#4C7CF0",
+    "muted": "#7A7F8C"
+  },
+  "niche": "gaming",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Play Tetris for hours",
+      "text": "You start seeing the blocks with your eyes shut.",
+      "note": "Falling, turning, slotting into gaps, right at the edge of sleep. Harvard researchers put numbers on it in 2000: 17 of 27 players reported the same images.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2000",
+      "name": "Robert Stickgold",
+      "role": "His team trained volunteers on Tetris for three days and woke them at sleep onset. The reports were eerily alike: everyone saw pieces falling, nobody saw the score, the board, or the keyboard.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Then the strange part",
+      "text": "Amnesiacs saw the blocks too, with no memory of the game.",
+      "note": "Five patients with hippocampal damage could not recall playing. Three still saw falling pieces as they dozed. One sat down and set her fingers on the right keys, not knowing why.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "So the images are not memories of playing",
+      "text": "The dream came without the memory that should carry it.",
+      "note": "The pictures surfaced even when the conscious record of the day was gone: evidence that sleep-onset imagery runs on a different memory system than the one that recalls events.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The players who needed to learn the most were the ones who dreamed of it most.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "sign",
+      "line": "The game followed them past the edge of sleep.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Follow for more."
+}

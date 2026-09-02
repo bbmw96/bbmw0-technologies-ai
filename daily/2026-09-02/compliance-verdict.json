@@ -11,7 +11,8 @@
   "blocked": [
     "nintendo-playing-cards",
     "honey-never-spoils",
-    "hurricane-women-only-names"
+    "hurricane-women-only-names",
+    "tetris-effect-dreams"
   ],
   "results": [
     {
@@ -354,6 +355,57 @@
         "worstTitleAgainst": "first-bug-real",
         "worstDescriptionSimilarity": 0.26,
         "combo": "reel:#0A0710:#E8B04B:#F3EFE9",
+        "themeGap": 59,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "tetris-effect-dreams",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "BLOCK",
+      "title": "You start seeing the blocks with your eyes shut.",
+      "niche": "gaming",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "instagram.caption_too_long",
+          "message": "Caption is 2527 chars, Instagram limit is 2200.",
+          "detail": null
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.066,
+        "worstTitleAgainst": "great-wall-myth",
+        "worstDescriptionSimilarity": 0.24,
+        "combo": "reel:#0C0E14:#4C7CF0:#EAEAF0",
         "themeGap": 59,
         "audioGap": 0
       },

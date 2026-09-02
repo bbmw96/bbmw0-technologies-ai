@@ -94,7 +94,8 @@
     "reel:emoji-not-emotion",
     "reel:venus-day-year",
     "reel:hurricane-women-only-names",
-    "reel:honey-never-spoils"
+    "reel:honey-never-spoils",
+    "reel:tetris-effect-dreams"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -1537,6 +1538,49 @@
       "channelId": "yt-bbm0902",
       "special": false,
       "platform": "youtube"
+    },
+    {
+      "id": "infinite-scroll-not-raskin",
+      "date": "2026-09-02",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The person usually credited with it isn't who built it first.",
+      "description": "The person usually credited with it isn't who built it first. Infinite scroll is one of the most copied interface patterns in software history, and the popular story about its origin is a year off, and about the wrong team.\n\nA Microsoft search engineering lead. He and two colleagues, Julie Farago and Nick Craswell, built the feature into MSN's image search after data showed testers paging through dozens of results rather than stop, one went to around page twenty before clicking a photo of a chocolate cake.\n\nMicrosoft's patent for it predates the famous version by a year. Filed 14 February 2006, naming Farago, Williams and a colleague as inventors. The programmer usually credited with inventing infinite scroll built his own version at a different company in 2006, after this one had already shipped.\n\nThe hard limit Microsoft actually built into its 'infinite' scroll. It was never truly infinite, just longer than anyone expected to reach.\n\nThe feature everyone recognises. The credit almost nobody has right.\n\nSources:\n- https://en.wikipedia.org/wiki/Infinite_scrolling - read in full 1 Sep 2026: infinite scroll was filed as a patent application on 14 February 2006 by Microsoft's Windows Live (MSN) Search image team; the feature shipped in the team's image search on 8 March 2006, the first product to ship with it; Microsoft engineering lead Hugh Williams has stated that he, Julie Farago and Nick Craswell were the inventors; Aza Raskin separately claimed credit for inventing infinite scroll in 2019.\n- https://hughewilliams.com/2012/03/06/ideas-and-invention-and-the-story-of-bings-image-search/ - read in full 1 Sep 2026, first-person account by named co-inventor Hugh Williams: he, Nick Craswell and Julie Farago built the feature into MSN Search's image results in 2005 after session data showed that while about 75% of web-search queries stayed on page one, only about 43% of image-search queries did, with some users paging into the twenties before clicking a result (his own example: a user who clicked a photo of a chocolate cake on roughly page twenty-something); the internal build was capped at 1,000 images, so it was never actually infinite.\n- https://en.wikipedia.org/wiki/Aza_Raskin - read in full 1 Sep 2026: confirms Raskin's career timeline (born 1984; founded Humanized in 2005 after his father Jef Raskin's death); the article documents Raskin's other credited work, such as the tabnabbing phishing technique, but does not itself credit him with infinite scroll, consistent with the Infinite Scrolling article crediting Microsoft's team instead.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "tetris-effect-dreams",
+      "date": "2026-09-02",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "You start seeing the blocks with your eyes shut.",
+      "description": "You start seeing the blocks with your eyes shut. Falling, turning, slotting into gaps, right at the edge of sleep. Harvard researchers put numbers on it in 2000: 17 of 27 players reported the same images.\n\nHis team trained volunteers on Tetris for three days and woke them at sleep onset. The reports were eerily alike: everyone saw pieces falling, nobody saw the score, the board, or the keyboard.\n\nAmnesiacs saw the blocks too, with no memory of the game. Five patients with hippocampal damage could not recall playing. Three still saw falling pieces as they dozed. One sat down and set her fingers on the right keys, not knowing why.\n\nThe dream came without the memory that should carry it. The pictures surfaced even when the conscious record of the day was gone: evidence that sleep-onset imagery runs on a different memory system than the one that recalls events.\n\nThe players who needed to learn the most were the ones who dreamed of it most.\n\nSources:\n- https://pubmed.ncbi.nlm.nih.gov/11030656/: PubMed record for Stickgold, Malia, Maguire, Roddenberry & O'Connor, 'Replaying the game: hypnagogic images in normals and amnesics,' Science 2000 Oct 13;290(5490):350-353, read directly. Establishes: participants playing Tetris reported intrusive, stereotypical visual images of the game at sleep onset; three amnesic patients with extensive bilateral medial temporal lobe damage produced similar hypnagogic reports despite being unable to recall playing, suggesting the imagery can arise without the declarative memory system; and control participants reported images from previously played versions, showing remote memories can shape the imagery. Lead-author affiliation: Harvard Medical School.\n- https://www.scientificamerican.com/article/tetris-dreams/: Scientific American (Kristin Leutwyler, 16 Oct 2000), read in full. Gives the participant breakdown: 27 subjects total (12 novices; 10 experts with 50-500 prior hours; 5 amnesiacs), trained over three days; 17 of the 27 reported the sleep-onset images; three of the five amnesiacs did, most of whom did not remember the game day to day; co-author David Roddenberry observed one amnesiac place her fingers on the correct keys without knowing why; all reports were of falling/rotating pieces, none of the score, board or keyboard; and the novices initially worst at the game reported the images most.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "emoji-not-emotion",
+      "date": "2026-09-02",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It means 'picture character'.",
+      "description": "It means 'picture character'. From Japanese: e, picture, plus moji, character. That it sounds like 'emoticon' is an accident of English. The two words share no root at all.\n\nShigetaka Kurita's 1999 set for DoCoMo, drawn on a grid of twelve pixels by twelve. The originals are now held by the Museum of Modern Art.\n\nA rival set beat it by two years. SoftBank, then called J-Phone, shipped 90 emoji on a 1997 handset, before DoCoMo's 176. Kurita himself has said DoCoMo was not first.\n\nA word that is not about feelings, pinned to a set that was not first.\n\nSources:\n- https://www.etymonline.com/word/emoji - Online Etymology Dictionary, via search summary. Established that \"emoji\" is from Japanese e (picture) plus moji (character), meaning \"pictograph\", and that the resemblance to English \"emoticon\" and \"emotion\" is coincidental, the words being unrelated in origin.\n- https://www.moma.org/collection/works/196070 - The Museum of Modern Art, via search summary. Established that Shigetaka Kurita designed a set of 176 emoji in 1998 to 1999 for NTT DoCoMo's i-mode on a grid of twelve by twelve pixels, and that MoMA holds the set in its collection.\n- https://blog.emojipedia.org/correcting-the-record-on-the-first-emoji-set/ - Emojipedia, via search summary. Established that SoftBank (then J-Phone) released a set of 90 emoji in 1997, two years before DoCoMo's 176, and that Kurita himself has said DoCoMo was not the first, correcting the common \"first emoji\" claim.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram",
+      "youtubeId": "18113616259987107",
+      "youtubeUrl": "https://youtu.be/18113616259987107",
+      "uploadedAt": "2026-09-02T13:17:23.339Z",
+      "privacy": "public"
     }
   ]
 }
