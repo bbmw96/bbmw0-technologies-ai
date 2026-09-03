@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (space-invaders-speedup)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0A0A",
+    "ink": "#F2F2EC",
+    "accent": "#38FF6A",
+    "muted": "#7C8A7C"
+  },
+  "niche": "gaming",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Everyone thinks a designer tuned it",
+      "text": "The speed-up is an accident.",
+      "note": "In Space Invaders the aliens surge faster as you shoot them down. Nothing in the game's code speeds them up. Open the original ROM and that instruction simply isn't there.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1978",
+      "name": "Tomohiro Nishikado",
+      "role": "Built the whole game almost single-handed for Taito, running on an Intel 8080. With 55 aliens to move, redraw and test for hits, the chip could barely keep pace.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "figure",
+      "value": "55",
+      "unit": "aliens",
+      "context": "Every one is a sprite the processor must shift, draw and check each frame. At the start of a wave, all that work drags the whole screen slow.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "Shoot one and the workload drops",
+      "text": "Fewer aliens, faster frame.",
+      "note": "Each kill leaves the 8080 less to compute, so the survivors accelerate. The famous rising panic is the hardware exhaling, not a difficulty curve someone drew.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The best mechanic in the game is a bug nobody wrote.",
+      "durationInFrames": 88
+    },
+    {
+      "kind": "sign",
+      "line": "The dread was just a chip catching its breath.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Follow for more."
+}

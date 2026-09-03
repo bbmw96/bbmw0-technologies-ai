@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (sf2-combos-accident)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0B0F",
+    "ink": "#F5F1EA",
+    "accent": "#FF4531",
+    "muted": "#8A8A93"
+  },
+  "niche": "gaming",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Every fighting-game combo",
+      "text": "It started as a side effect.",
+      "note": "Street Fighter II, 1991. The chained hits that built the whole genre were never designed. They fell out of a system built to do something else.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The system was mercy",
+      "text": "Press a special too fast and it still came out.",
+      "note": "Input leniency, added so a rushed motion would not swallow your fireball. The side effect: you could cancel a normal attack straight into a special.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1991",
+      "name": "Akira Nishitani",
+      "role": "Lead designer. On the cancel: \"It didn't seem to cause any bugs, so we decided it could be a feature to expand the gameplay.\" They left it in, sure most players would never land it.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "\"Since we decided to incorporate it, I wouldn't call it a bug.\"",
+      "durationInFrames": 94
+    },
+    {
+      "kind": "statement",
+      "lead": "The name came after the thing",
+      "text": "\"Combo\" arrived two years late.",
+      "note": "Super Street Fighter II, in 1993, added the on-screen combo counter. The mechanic itself shipped in 1991 with no name, no counter and no plan for it.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "The rule the whole genre runs on was an accident, kept on purpose.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 124
+    }
+  ],
+  "cta": "Follow for more."
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "space-invaders-speedup",
+  "date": "2026-09-03",
+  "title": "The speed-up is an accident.",
+  "description": "The speed-up is an accident. In Space Invaders the aliens surge faster as you shoot them down. Nothing in the game's code speeds them up. Open the original ROM and that instruction simply isn't there.\n\nBuilt the whole game almost single-handed for Taito, running on an Intel 8080. With 55 aliens to move, redraw and test for hits, the chip could barely keep pace.\n\nEvery one is a sprite the processor must shift, draw and check each frame. At the start of a wave, all that work drags the whole screen slow.\n\nFewer aliens, faster frame. Each kill leaves the 8080 less to compute, so the survivors accelerate. The famous rising panic is the hardware exhaling, not a difficulty curve someone drew.\n\nThe best mechanic in the game is a bug nobody wrote.\n\nSources:\n- https://www.tomshardware.com/video-games/retro-gaming/space-invaders-arcade-game-ran-faster-as-enemies-died-due-to-intel-8080-bottleneck-expert-coder-asserts-hardware-accident-to-blame: Tom's Hardware (26 Oct 2025), read directly: Space Invaders was launched by Taito in Japan in June 1978 on an Intel 8080 (launched 1974, ~2 MHz); a code analysis of the original ROM shows there is NO instruction that adjusts game speed as aliens die; the acceleration is a hardware side-effect: with 55 aliens to reposition, redraw and collision-check the 8080 runs slowly, and each alien destroyed frees the processor so the survivors move faster.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "gaming",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-03-space-invaders-speedup.mp4",
+  "propsFile": "daily/2026-09-03/space-invaders-speedup.props.json",
+  "durationInFrames": 1044,
+  "audioUrl": "",
+  "niche": "gaming",
+  "composition": "Reel"
+}

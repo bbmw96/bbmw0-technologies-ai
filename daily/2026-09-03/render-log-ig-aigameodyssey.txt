@@ -1,0 +1,26 @@
+Rendering 3 Shorts for 2026-09-03 (concurrency=3, GL=default)
+Compliance: 2 cleared, 1 blocked (policy v1.0.0).
+Blocked by compliance: pacman-ghost-ai
+
+--- pacman-ghost-ai ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-03-pacman-ghost-ai.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-03/compliance-verdict.json.
+
+--- sf2-combos-accident ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-03-sf2-combos-accident.mp4
+  hosting media so Instagram can fetch it...
+  ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
+  instagram via: Composio
+  published to Instagram: media 18169614076444891
+
+--- space-invaders-speedup ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-03-space-invaders-speedup.mp4
+  hosting media so Instagram can fetch it...
+  ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
+  instagram via: Composio
+  published to Instagram: media 18113834350990946
+
+=== Done. 3 rendered, 2 uploaded, 0 skipped, 1 blocked by compliance, 0 failed. ===

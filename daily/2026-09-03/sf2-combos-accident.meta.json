@@ -1,0 +1,25 @@
+{
+  "slug": "sf2-combos-accident",
+  "date": "2026-09-03",
+  "title": "It started as a side effect.",
+  "description": "It started as a side effect. Street Fighter II, 1991. The chained hits that built the whole genre were never designed. They fell out of a system built to do something else.\n\nPress a special too fast and it still came out. Input leniency, added so a rushed motion would not swallow your fireball. The side effect: you could cancel a normal attack straight into a special.\n\nLead designer. On the cancel: \"It didn't seem to cause any bugs, so we decided it could be a feature to expand the gameplay.\" They left it in, sure most players would never land it.\n\n\"Since we decided to incorporate it, I wouldn't call it a bug.\"\n\n\"Combo\" arrived two years late. Super Street Fighter II, in 1993, added the on-screen combo counter. The mechanic itself shipped in 1991 with no name, no counter and no plan for it.\n\nSources:\n- https://www.gamedeveloper.com/business/-i-street-fighter-ii-i-designer-opens-up-about-the-cancelling-bug- - Game Developer, read in full, reporting lead designer Akira Nishitani's own account (translated from his posts by Nick Des Barres). Established that Street Fighter II's move-cancelling came from a system built to make specials easier to execute (\"If players press the button too fast, the move won't activate\"), that the discovered side effect was executing specials after landing normals, his quote \"It didn't seem to cause any bugs, so we decided it could be a feature to expand the gameplay\", and his refusal to call it a bug: \"since we decided to incorporate it into the game during development, I wouldn't call it a bug\".\n- https://en.wikipedia.org/wiki/Super_Street_Fighter_II - Via search summary of this page and the Capcom database. Supports only two dates: Street Fighter II reached arcades in 1991, and Super Street Fighter II (1993) added the series' first on-screen combo counter, well after the cancelling mechanic itself shipped.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "gaming",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-03-sf2-combos-accident.mp4",
+  "propsFile": "daily/2026-09-03/sf2-combos-accident.props.json",
+  "durationInFrames": 1098,
+  "audioUrl": "",
+  "niche": "gaming",
+  "composition": "Reel"
+}

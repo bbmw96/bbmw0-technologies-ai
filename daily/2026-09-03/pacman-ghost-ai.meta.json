@@ -1,0 +1,25 @@
+{
+  "slug": "pacman-ghost-ai",
+  "date": "2026-09-03",
+  "title": "They were never chasing you at random.",
+  "description": "They were never chasing you at random. Each of the four ghosts runs its own fixed formula for picking a target tile, results Namco's own team called their \"personalities\".\n\nPinky isn't chasing you. He's ambushing you. His target sits four tiles ahead of wherever you're currently facing, so he tries to cut off your path instead of following it.\n\nFace upward, and the maths breaks. A logic error in the original code adds a phantom four-tile offset to the left as well, so \"four tiles up\" becomes four up and four left. It shipped in 1980 and stayed.\n\nThe programmer Namco paired with designer Toru Iwatani, who had no formal coding background himself. Between them they built four different hunting formulas, not four costumes on one script.\n\nClyde's actual personal-space rule. Closer than this and he panics back to his corner; farther and he hunts you exactly like the red ghost.\n\nSources:\n- https://www.gamedeveloper.com/design/the-pac-man-dossier: Jamey Pittman, \"The Pac-Man Dossier\" (originally Gamasutra, 2009-10), read in full. Establishes: Toru Iwatani joined Namco in 1977 aged 22 with no formal background in computers, visual arts or graphic design, and was paired with a programmer to write the actual code; the team assigned to Puck-Man/Pac-Man included programmer Shigeo Funaki and music composer Toshio Kai (Kai wrote the sound, not the code, a distinction some secondary write-ups blur); development got underway in early 1979; each ghost's Japanese personality name (Blinky=oikake, \"to pursue\"; Pinky=machibuse, \"to ambush\"; Inky=kimagure, \"fickle\"; Clyde=otoboke, \"feigning ignorance\", nicknamed Guzuta); Blinky targets Pac-Man's exact tile; Pinky targets four tiles ahead of Pac-Man's facing direction, with a coded overflow bug that makes the up-facing case offset four tiles up and four left instead of just up; Inky's target is a vector from Blinky's tile through a point two tiles ahead of Pac-Man, doubled in length; Clyde targets Pac-Man directly beyond eight tiles away and flees to his scatter corner within eight tiles; and the observation that Iwatani's team created the illusion of complex pathfinding using very simple logic and very little code.\n- https://en.wikipedia.org/wiki/Pac-Man: via search summary, corroborating: Namco released the arcade game in Japan on 22 May 1980 (a nine-person team led by Iwatani, development begun early 1979) and Bally Midway released it in the US on 26 October 1980.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "gaming",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-03-pacman-ghost-ai.mp4",
+  "propsFile": "daily/2026-09-03/pacman-ghost-ai.props.json",
+  "durationInFrames": 1152,
+  "audioUrl": "",
+  "niche": "gaming",
+  "composition": "Reel"
+}

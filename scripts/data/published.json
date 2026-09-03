@@ -100,7 +100,10 @@
     "reel:parkinsons-law",
     "reel:mpemba-effect",
     "reel:goldfish-memory-myth",
-    "reel:sharks-older-than-trees"
+    "reel:sharks-older-than-trees",
+    "reel:space-invaders-speedup",
+    "reel:sf2-combos-accident",
+    "reel:pacman-ghost-ai"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -1663,6 +1666,53 @@
       "channelId": "yt-bbm0902",
       "special": false,
       "platform": "youtube"
+    },
+    {
+      "id": "space-invaders-speedup",
+      "date": "2026-09-03",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The speed-up is an accident.",
+      "description": "The speed-up is an accident. In Space Invaders the aliens surge faster as you shoot them down. Nothing in the game's code speeds them up. Open the original ROM and that instruction simply isn't there.\n\nBuilt the whole game almost single-handed for Taito, running on an Intel 8080. With 55 aliens to move, redraw and test for hits, the chip could barely keep pace.\n\nEvery one is a sprite the processor must shift, draw and check each frame. At the start of a wave, all that work drags the whole screen slow.\n\nFewer aliens, faster frame. Each kill leaves the 8080 less to compute, so the survivors accelerate. The famous rising panic is the hardware exhaling, not a difficulty curve someone drew.\n\nThe best mechanic in the game is a bug nobody wrote.\n\nSources:\n- https://www.tomshardware.com/video-games/retro-gaming/space-invaders-arcade-game-ran-faster-as-enemies-died-due-to-intel-8080-bottleneck-expert-coder-asserts-hardware-accident-to-blame: Tom's Hardware (26 Oct 2025), read directly: Space Invaders was launched by Taito in Japan in June 1978 on an Intel 8080 (launched 1974, ~2 MHz); a code analysis of the original ROM shows there is NO instruction that adjusts game speed as aliens die; the acceleration is a hardware side-effect: with 55 aliens to reposition, redraw and collision-check the 8080 runs slowly, and each alien destroyed frees the processor so the survivors move faster.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram",
+      "youtubeId": "18113834350990946",
+      "youtubeUrl": "https://youtu.be/18113834350990946",
+      "uploadedAt": "2026-09-03T13:24:20.891Z",
+      "privacy": "public"
+    },
+    {
+      "id": "sf2-combos-accident",
+      "date": "2026-09-03",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It started as a side effect.",
+      "description": "It started as a side effect. Street Fighter II, 1991. The chained hits that built the whole genre were never designed. They fell out of a system built to do something else.\n\nPress a special too fast and it still came out. Input leniency, added so a rushed motion would not swallow your fireball. The side effect: you could cancel a normal attack straight into a special.\n\nLead designer. On the cancel: \"It didn't seem to cause any bugs, so we decided it could be a feature to expand the gameplay.\" They left it in, sure most players would never land it.\n\n\"Since we decided to incorporate it, I wouldn't call it a bug.\"\n\n\"Combo\" arrived two years late. Super Street Fighter II, in 1993, added the on-screen combo counter. The mechanic itself shipped in 1991 with no name, no counter and no plan for it.\n\nSources:\n- https://www.gamedeveloper.com/business/-i-street-fighter-ii-i-designer-opens-up-about-the-cancelling-bug- - Game Developer, read in full, reporting lead designer Akira Nishitani's own account (translated from his posts by Nick Des Barres). Established that Street Fighter II's move-cancelling came from a system built to make specials easier to execute (\"If players press the button too fast, the move won't activate\"), that the discovered side effect was executing specials after landing normals, his quote \"It didn't seem to cause any bugs, so we decided it could be a feature to expand the gameplay\", and his refusal to call it a bug: \"since we decided to incorporate it into the game during development, I wouldn't call it a bug\".\n- https://en.wikipedia.org/wiki/Super_Street_Fighter_II - Via search summary of this page and the Capcom database. Supports only two dates: Street Fighter II reached arcades in 1991, and Super Street Fighter II (1993) added the series' first on-screen combo counter, well after the cancelling mechanic itself shipped.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram",
+      "youtubeId": "18169614076444891",
+      "youtubeUrl": "https://youtu.be/18169614076444891",
+      "uploadedAt": "2026-09-03T13:22:08.380Z",
+      "privacy": "public"
+    },
+    {
+      "id": "pacman-ghost-ai",
+      "date": "2026-09-03",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "They were never chasing you at random.",
+      "description": "They were never chasing you at random. Each of the four ghosts runs its own fixed formula for picking a target tile, results Namco's own team called their \"personalities\".\n\nPinky isn't chasing you. He's ambushing you. His target sits four tiles ahead of wherever you're currently facing, so he tries to cut off your path instead of following it.\n\nFace upward, and the maths breaks. A logic error in the original code adds a phantom four-tile offset to the left as well, so \"four tiles up\" becomes four up and four left. It shipped in 1980 and stayed.\n\nThe programmer Namco paired with designer Toru Iwatani, who had no formal coding background himself. Between them they built four different hunting formulas, not four costumes on one script.\n\nClyde's actual personal-space rule. Closer than this and he panics back to his corner; farther and he hunts you exactly like the red ghost.\n\nSources:\n- https://www.gamedeveloper.com/design/the-pac-man-dossier: Jamey Pittman, \"The Pac-Man Dossier\" (originally Gamasutra, 2009-10), read in full. Establishes: Toru Iwatani joined Namco in 1977 aged 22 with no formal background in computers, visual arts or graphic design, and was paired with a programmer to write the actual code; the team assigned to Puck-Man/Pac-Man included programmer Shigeo Funaki and music composer Toshio Kai (Kai wrote the sound, not the code, a distinction some secondary write-ups blur); development got underway in early 1979; each ghost's Japanese personality name (Blinky=oikake, \"to pursue\"; Pinky=machibuse, \"to ambush\"; Inky=kimagure, \"fickle\"; Clyde=otoboke, \"feigning ignorance\", nicknamed Guzuta); Blinky targets Pac-Man's exact tile; Pinky targets four tiles ahead of Pac-Man's facing direction, with a coded overflow bug that makes the up-facing case offset four tiles up and four left instead of just up; Inky's target is a vector from Blinky's tile through a point two tiles ahead of Pac-Man, doubled in length; Clyde targets Pac-Man directly beyond eight tiles away and flees to his scatter corner within eight tiles; and the observation that Iwatani's team created the illusion of complex pathfinding using very simple logic and very little code.\n- https://en.wikipedia.org/wiki/Pac-Man: via search summary, corroborating: Namco released the arcade game in Japan on 22 May 1980 (a nine-person team led by Iwatani, development begun early 1979) and Bally Midway released it in the US on 26 October 1980.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }
