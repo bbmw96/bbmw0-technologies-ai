@@ -1,0 +1,15 @@
+Rendering 2 Shorts for 2026-09-03 (concurrency=3, GL=default)
+Compliance: 1 cleared, 1 blocked (policy v1.0.0).
+Blocked by compliance: sharks-older-than-trees
+
+--- goldfish-memory-myth ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-03-goldfish-memory-myth.mp4
+  uploaded public: https://youtu.be/ej0SKkoIHTE
+
+--- sharks-older-than-trees ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-03-sharks-older-than-trees.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-03/compliance-verdict.json.
+
+=== Done. 2 rendered, 1 uploaded, 0 skipped, 1 blocked by compliance, 0 failed. ===

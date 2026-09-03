@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (goldfish-memory-myth)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#081018",
+    "ink": "#F0EDE4",
+    "accent": "#FF8C42",
+    "muted": "#5C7A8A"
+  },
+  "niche": "animals",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The three-second goldfish",
+      "text": "No study ever found that number.",
+      "note": "The claim that goldfish forget everything after three seconds, sometimes told as seven, has no traceable scientific source. It just got repeated until it sounded like one.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Their brains disagree",
+      "text": "Goldfish have a region built for spatial memory.",
+      "note": "It sits in roughly the same place the hippocampus does in a human brain, the part used for remembering routes and layouts, not for forgetting them in seconds.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1964",
+      "name": "Morton Bitterman",
+      "role": "At the University of Hawaii, paired a light with a mild shock in goldfish and varied the gap between them. The fear response behaved exactly as Pavlov's conditioning model predicted, evidence of a learned association, not just a reflex.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Turn the maze around",
+      "text": "The goldfish still finds the food.",
+      "note": "In a maze-training study recognised by the American Museum of Natural History, a goldfish that learned a route to a food reward reached it again, adjusting its path, after the maze was rotated 180 degrees.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The fish everyone mocks for forgetting has been quietly passing memory tests since the 1960s.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "sign",
+      "line": "Its memory outlasts the joke about it.",
+      "handle": "@bbm0902",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

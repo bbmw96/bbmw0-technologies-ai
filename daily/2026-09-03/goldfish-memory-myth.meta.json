@@ -1,0 +1,25 @@
+{
+  "slug": "goldfish-memory-myth",
+  "date": "2026-09-03",
+  "title": "No study ever found that number.",
+  "description": "No study ever found that number. The claim that goldfish forget everything after three seconds, sometimes told as seven, has no traceable scientific source. It just got repeated until it sounded like one.\n\nGoldfish have a region built for spatial memory. It sits in roughly the same place the hippocampus does in a human brain, the part used for remembering routes and layouts, not for forgetting them in seconds.\n\nAt the University of Hawaii, paired a light with a mild shock in goldfish and varied the gap between them. The fear response behaved exactly as Pavlov's conditioning model predicted, evidence of a learned association, not just a reflex.\n\nThe goldfish still finds the food. In a maze-training study recognised by the American Museum of Natural History, a goldfish that learned a route to a food reward reached it again, adjusting its path, after the maze was rotated 180 degrees.\n\nThe fish everyone mocks for forgetting has been quietly passing memory tests since the 1960s.\n\nSources:\n- https://blogs.iu.edu/sciu/2020/09/05/goldfish-myths/ - ScIU, the Indiana University Bloomington science-communication blog, read in full. Established that goldfish have a brain region roughly analogous to the human hippocampus, the part used for spatial memory; described an American Museum of Natural History Young Naturalist Award study in which a goldfish trained to find food in a maze still found it, adjusting its route, after the maze was rotated 180 degrees; and summarised Bitterman (1964), a University of Hawaii classical-conditioning study pairing a light with a mild shock in goldfish, published in the Journal of Comparative and Physiological Psychology, plus Salas et al (2006), a review in the journal Zebrafish on learning and memory in fish. Concludes the '3-second' (sometimes '7-second') memory claim is a myth with no scientific source.\n- https://www.amnh.org/learn-teach/curriculum-collections/young-naturalist-awards/goldfish-as-a-model-for-understanding-learning-and-memory-more-complex-than-you-think - American Museum of Natural History. Attempted to fetch directly; the page was too large to retrieve, so it is not used as a read-in-full source here. Its maze study is relayed only via ScIU's account above, not read first-hand.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "animals",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "yt-bbm0902",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbm0902",
+  "file": "out/daily-2026-09-03-goldfish-memory-myth.mp4",
+  "propsFile": "daily/2026-09-03/goldfish-memory-myth.props.json",
+  "durationInFrames": 1088,
+  "audioUrl": "",
+  "niche": "animals",
+  "composition": "Reel"
+}

@@ -1,0 +1,47 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (sharks-older-than-trees)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#071316",
+    "ink": "#E8F3F1",
+    "accent": "#34C7B5",
+    "muted": "#6E8B8C"
+  },
+  "niche": "biology",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Sharks are older than trees",
+      "text": "By about sixty-five million years.",
+      "note": "The earliest shark fossils are scales roughly 450 million years old. The first trees do not appear until around 385 million years ago. Sharks got there first.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "There was barely a plant on land",
+      "text": "When sharks arrived, the continents were nearly bare.",
+      "note": "Land plants only crept ashore around 420 million years ago. The first sharks swam a world of bare rock and low moss, with no forest anywhere to grow.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Then they refused to end",
+      "text": "Sharks have survived all five mass extinctions.",
+      "note": "Including the asteroid that finished the dinosaurs. It culled the largest sharks; the smaller, deeper feeders swam on, as they had through the four before it.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Four hundred and fifty million years, and the shark still owns the ocean.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "sign",
+      "line": "The shark is older than the forest.",
+      "handle": "@bbm0902",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

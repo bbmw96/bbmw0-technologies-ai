@@ -5,10 +5,12 @@
   "strictMode": false,
   "allowed": [
     "pareto-principle-juran",
-    "parkinsons-law"
+    "parkinsons-law",
+    "goldfish-memory-myth"
   ],
   "blocked": [
-    "mpemba-effect"
+    "mpemba-effect",
+    "sharks-older-than-trees"
   ],
   "results": [
     {
@@ -183,6 +185,119 @@
         "worstTitleAgainst": "http-404-not-a-room",
         "worstDescriptionSimilarity": 0.286,
         "combo": "reel:#0C0B0E:#E4572E:#F3F0EC",
+        "themeGap": 68,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "goldfish-memory-myth",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "No study ever found that number.",
+      "niche": "animals",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.111,
+        "worstTitleAgainst": "eiffel-temporary-radio",
+        "worstDescriptionSimilarity": 0.267,
+        "combo": "reel:#081018:#FF8C42:#F0EDE4",
+        "themeGap": 68,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "sharks-older-than-trees",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "By about sixty-five million years.",
+      "niche": "biology",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "halal.origins_claim",
+          "message": "States a contested origins or deep-time claim as settled fact (matched: \\bevolution(?:ary)?\\b).",
+          "detail": {
+            "pattern": "\\bevolution(?:ary)?\\b"
+          }
+        },
+        {
+          "severity": "BLOCK",
+          "rule": "halal.origins_claim",
+          "message": "States a contested origins or deep-time claim as settled fact (matched: \\bpredates? (?:trees|life|humans)\\b).",
+          "detail": {
+            "pattern": "\\bpredates? (?:trees|life|humans)\\b"
+          }
+        },
+        {
+          "severity": "BLOCK",
+          "rule": "halal.origins_claim",
+          "message": "States a contested origins or deep-time claim as settled fact (matched: \\bmillion years (?:ago|before|older)\\b).",
+          "detail": {
+            "pattern": "\\bmillion years (?:ago|before|older)\\b"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.125,
+        "worstTitleAgainst": "leap-second",
+        "worstDescriptionSimilarity": 0.24,
+        "combo": "reel:#071316:#34C7B5:#E8F3F1",
         "themeGap": 68,
         "audioGap": 0
       },
