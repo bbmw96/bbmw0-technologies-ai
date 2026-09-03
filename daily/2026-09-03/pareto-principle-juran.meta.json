@@ -1,0 +1,25 @@
+{
+  "slug": "pareto-principle-juran",
+  "date": "2026-09-03",
+  "title": "It started as one economist's footnote about dirt.",
+  "description": "It started as one economist's footnote about dirt. In 1896, Vilfredo Pareto noticed that roughly 80 percent of the land in Italy belonged to about 20 percent of the population. That's the whole original observation.\n\nA different man did that, four decades later. In 1941, engineer Joseph Juran read Pareto's land-ownership statistic and did something Pareto never did: he claimed it was universal, true of defects, sales and complaints, almost anything you can count.\n\nAn engineer working in quality control. He renamed Pareto's one-off Italian statistic 'the vital few and the useful many,' and spent the following six decades teaching that it applied to almost everything.\n\nJuran's age when he died in 2008, having outlived the man he named the principle after by more than eighty years, and taught the idea the whole time.\n\nPareto counted Italian land. Juran turned it into a rule for everything.\n\nSources:\n- https://en.wikipedia.org/wiki/Pareto_principle - read in full 1 Sep 2026: Vilfredo Pareto observed in his book Cours d'economie politique that roughly 80% of land in the Kingdom of Italy was owned by about 20% of the population; the article's own citation dates that book to 1896 to 1897, though its prose separately says he 'wrote in 1906'; in 1941, management consultant Joseph M. Juran, having read Pareto's work, generalised the observation and later named it 'the vital few and the useful many'; cites Juran's New York Times obituary (Bunkley, 3 March 2008) for his death at age 103.\n- https://www.juran.com/blog/a-guide-to-the-pareto-principle-80-20-rule-pareto-analysis/ - read in full 1 Sep 2026, published by the Juran Institute, the company Joseph Juran founded: dates Pareto's original observation to 1895; states Juran 'was the first to point out' that Pareto's finding was a universal principle rather than only an economic one, and separately dates Juran's naming of the phenomenon to 'the early 1950s' rather than 1941; also uses the phrases 'useful many' and 'trivial many' within the same paragraph, rather than treating the kinder phrase as Juran's sole preference.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "productivity",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-03-pareto-principle-juran.mp4",
+  "propsFile": "daily/2026-09-03/pareto-principle-juran.props.json",
+  "durationInFrames": 1068,
+  "audioUrl": "",
+  "niche": "productivity",
+  "composition": "Reel"
+}

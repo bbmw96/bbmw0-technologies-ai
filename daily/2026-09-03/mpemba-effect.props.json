@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (mpemba-effect)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#090D12",
+    "ink": "#EDF1F4",
+    "accent": "#FF7043",
+    "muted": "#7A8791"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Tanganyika, 1963.",
+      "text": "A schoolboy watched his hot ice-cream mix freeze before the cold batch.",
+      "note": "Erasto Mpemba was in Form 3 at Magamba Secondary School. His teacher told him that was simply not possible.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Aristotle had already written the same thing, over two thousand years earlier.",
+      "text": "\"Hence many people, when they want to cool water quickly, begin by putting it in the sun.\"",
+      "note": "Francis Bacon and Rene Descartes both noted it too, centuries before Mpemba was born. None of that stopped it from being named after him.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1969",
+      "name": "Denis Osborne",
+      "role": "A physicist who met Mpemba at his next school, tested the claim with water back in his own lab, and confirmed it. They published together in Physics Education under the title \"Cool?\", while Mpemba was training at the College of African Wildlife Management, not a physics department.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The dramatic original numbers were never reliably repeated.",
+      "text": "In 2016, two researchers finally tested it under tightly controlled conditions.",
+      "note": "Henry Burridge and Paul Linden's own conclusion: \"We conclude, somewhat sadly, that there is no evidence to support meaningful observations of the Mpemba effect.\"",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "It's still taught as settled science in classrooms that have never settled it.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "sign",
+      "line": "Older than Aristotle. Still not proven.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

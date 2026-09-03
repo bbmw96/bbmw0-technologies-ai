@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (pareto-principle-juran)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#100E0C",
+    "ink": "#F2EEE7",
+    "accent": "#D4A017",
+    "muted": "#8C8275"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "You've heard the 80/20 rule treated like a law of nature.",
+      "text": "It started as one economist's footnote about dirt.",
+      "note": "In 1896, Vilfredo Pareto noticed that roughly 80 percent of the land in Italy belonged to about 20 percent of the population. That's the whole original observation.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Pareto never called it a rule, a principle, or a law.",
+      "text": "A different man did that, four decades later.",
+      "note": "In 1941, engineer Joseph Juran read Pareto's land-ownership statistic and did something Pareto never did: he claimed it was universal, true of defects, sales and complaints, almost anything you can count.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1941",
+      "name": "Joseph M. Juran",
+      "role": "An engineer working in quality control. He renamed Pareto's one-off Italian statistic 'the vital few and the useful many,' and spent the following six decades teaching that it applied to almost everything.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "103",
+      "unit": "years",
+      "context": "Juran's age when he died in 2008, having outlived the man he named the principle after by more than eighty years, and taught the idea the whole time.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "kicker",
+      "text": "Pareto counted Italian land. Juran turned it into a rule for everything.",
+      "durationInFrames": 94
+    },
+    {
+      "kind": "sign",
+      "line": "The 80/20 rule has two authors, and only one gets credited.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 112
+    }
+  ],
+  "cta": "Subscribe for more."
+}

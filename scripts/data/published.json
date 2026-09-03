@@ -95,7 +95,10 @@
     "reel:venus-day-year",
     "reel:hurricane-women-only-names",
     "reel:honey-never-spoils",
-    "reel:tetris-effect-dreams"
+    "reel:tetris-effect-dreams",
+    "reel:pareto-principle-juran",
+    "reel:parkinsons-law",
+    "reel:mpemba-effect"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -1581,6 +1584,53 @@
       "youtubeUrl": "https://youtu.be/18113616259987107",
       "uploadedAt": "2026-09-02T13:17:23.339Z",
       "privacy": "public"
+    },
+    {
+      "id": "pareto-principle-juran",
+      "date": "2026-09-03",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It started as one economist's footnote about dirt.",
+      "description": "It started as one economist's footnote about dirt. In 1896, Vilfredo Pareto noticed that roughly 80 percent of the land in Italy belonged to about 20 percent of the population. That's the whole original observation.\n\nA different man did that, four decades later. In 1941, engineer Joseph Juran read Pareto's land-ownership statistic and did something Pareto never did: he claimed it was universal, true of defects, sales and complaints, almost anything you can count.\n\nAn engineer working in quality control. He renamed Pareto's one-off Italian statistic 'the vital few and the useful many,' and spent the following six decades teaching that it applied to almost everything.\n\nJuran's age when he died in 2008, having outlived the man he named the principle after by more than eighty years, and taught the idea the whole time.\n\nPareto counted Italian land. Juran turned it into a rule for everything.\n\nSources:\n- https://en.wikipedia.org/wiki/Pareto_principle - read in full 1 Sep 2026: Vilfredo Pareto observed in his book Cours d'economie politique that roughly 80% of land in the Kingdom of Italy was owned by about 20% of the population; the article's own citation dates that book to 1896 to 1897, though its prose separately says he 'wrote in 1906'; in 1941, management consultant Joseph M. Juran, having read Pareto's work, generalised the observation and later named it 'the vital few and the useful many'; cites Juran's New York Times obituary (Bunkley, 3 March 2008) for his death at age 103.\n- https://www.juran.com/blog/a-guide-to-the-pareto-principle-80-20-rule-pareto-analysis/ - read in full 1 Sep 2026, published by the Juran Institute, the company Joseph Juran founded: dates Pareto's original observation to 1895; states Juran 'was the first to point out' that Pareto's finding was a universal principle rather than only an economic one, and separately dates Juran's naming of the phenomenon to 'the early 1950s' rather than 1941; also uses the phrases 'useful many' and 'trivial many' within the same paragraph, rather than treating the kinder phrase as Juran's sole preference.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "xdog0vwiToU",
+      "youtubeUrl": "https://youtu.be/xdog0vwiToU",
+      "uploadedAt": "2026-09-03T13:11:29.753Z",
+      "privacy": "public"
+    },
+    {
+      "id": "parkinsons-law",
+      "date": "2026-09-03",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Parkinson admitted upfront that story was made up.",
+      "description": "Parkinson admitted upfront that story was made up. The real piece was a satirical nine-page article for The Economist in November 1955, and it's still quoted today as if it were a study.\n\nOfficials up 78 percent, while the fleet shrank by two-thirds. It reads like scientific proof. Parkinson never disclosed where the numbers came from.\n\nThe true growth was even bigger than Parkinson said, and so was the reason he left out. The honest 1914 baseline was lower, pushing the real increase closer to 120 percent. That surge tracks almost exactly with the paperwork of the First World War, which Parkinson's essay never mentions once.\n\nA serious naval historian, Raffles Professor of History at the University of Malaya, in Singapore, whose nine-page joke in The Economist was collected into a book that sold nearly a quarter of a million copies in two years.\n\nHistorian Jon Sumida's corrected 1914-to-1928 growth rate, using the actual Navy Lists rather than Parkinson's undisclosed source.\n\nSources:\n- http://doc.cat-v.org/economics/parkinsons-law/: the original essay text, read in full. Establishes: byline credits \"Northcote Parkinson, Raffles Professor of History at the University of Singapore\"; first appeared in The Economist in November 1955; opens with the (explicitly illustrative) story of an elderly lady spending a whole day mailing a postcard, an hour finding it, another finding her spectacles, half an hour finding the address, an hour and a quarter composing it, twenty minutes deciding about an umbrella, against a busy person's three minutes; states \"Factor I: An official wants to multiply subordinates, not rivals\" and \"Factor II: Officials make work for each other.\"\n- https://www.usni.org/magazines/naval-history-magazine/1994/december-1/challenging-parkinsons-law: Jon Sumida (associate professor of history, University of Maryland), \"Challenging Parkinson's Law,\" Naval History Magazine, December 1994, read in full. Establishes Parkinson's actual career (PhD in history, King's College London; Master of the Royal Naval College Dartmouth; Lecturer in History, Liverpool; Raffles Professor of History at the University of Malaya; died 9 March 1993 aged 83; wrote over 60 books, mostly serious naval history); that the postcard story was \"obviously fictitious\" by Parkinson's own framing; that the collected book sold nearly a quarter of a million copies in two years; Parkinson's published Admiralty table (1914: 2,000 officials to 1928: 3,569, a 78.45% rise, against a 67.74% fall in capital ships and a 31.5% fall in personnel); that Parkinson never disclosed the source of these statistics; that an independent check against the actual Navy Lists found the true 1914 figure was about a quarter lower than Parkinson's, which raises the honest percentage increase to roughly 120%; and that this growth tracks almost exactly with World War One's demands, wartime equipment failures, a hiring surge to match the Ministry of Munitions' paperwork, and the mass hiring of lower-paid women clerical staff, none of which Parkinson's essay mentions.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "eYTNIy-T9dU",
+      "youtubeUrl": "https://youtu.be/eYTNIy-T9dU",
+      "uploadedAt": "2026-09-03T13:13:31.863Z",
+      "privacy": "public"
+    },
+    {
+      "id": "mpemba-effect",
+      "date": "2026-09-03",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "A schoolboy watched his hot ice-cream mix freeze before the cold batch.",
+      "description": "A schoolboy watched his hot ice-cream mix freeze before the cold batch. Erasto Mpemba was in Form 3 at Magamba Secondary School. His teacher told him that was simply not possible.\n\n\"Hence many people, when they want to cool water quickly, begin by putting it in the sun.\" Francis Bacon and Rene Descartes both noted it too, centuries before Mpemba was born. None of that stopped it from being named after him.\n\nA physicist who met Mpemba at his next school, tested the claim with water back in his own lab, and confirmed it. They published together in Physics Education under the title \"Cool?\", while Mpemba was training at the College of African Wildlife Management, not a physics department.\n\nIn 2016, two researchers finally tested it under tightly controlled conditions. Henry Burridge and Paul Linden's own conclusion: \"We conclude, somewhat sadly, that there is no evidence to support meaningful observations of the Mpemba effect.\"\n\nIt's still taught as settled science in classrooms that have never settled it.\n\nSources:\n- https://en.wikipedia.org/wiki/Mpemba_effect: read in full. Establishes: Erasto Mpemba, a Tanzanian student, noticed in 1963 in Form 3 at Magamba Secondary School (Tanganyika) that a hot ice-cream mixture froze before a cold one in cookery class, and his teacher dismissed it; he later raised it with visiting physicist Denis Osborne at Mkwawa Secondary School; Osborne tested it with water at his own workplace and confirmed it; they co-published \"Cool?\" in Physics Education 4(3):172-175 in 1969, while Mpemba was studying at the College of African Wildlife Management; Aristotle wrote centuries earlier, \"Hence many people, when they want to cool water quickly, begin by putting it in the sun\"; Francis Bacon separately noted \"slightly tepid water freezes more easily than that which is utterly cold\"; Rene Descartes described the same pattern in his Discourse on the Method; in 2016, Henry Burridge and Paul Linden tested the time water takes to reach 0°C under tightly controlled conditions and concluded, in their own words, \"We conclude, somewhat sadly, that there is no evidence to support meaningful observations of the Mpemba effect\"; the article states physicists remain divided on the effect's reproducibility, precise definition and underlying mechanism.\n- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5121640: Burridge, H.C. & Linden, P.F., \"Questioning the Mpemba effect: hot water does not cool more quickly than cold,\" Scientific Reports 6:37665 (2016), cited via the Wikipedia article's direct quotation of the paper's conclusion; title, authors, journal and year corroborated independently.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
     }
   ]
 }
