@@ -3764,6 +3764,264 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "dartmouth-ai-1956",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dartmouth_workshop: read in full. Established the 1955 proposal text quoted directly (a '2 month, 10 man study'), that John McCarthy coined the term 'artificial intelligence' in that document and chose it partly to avoid 'cybernetics' and Norbert Wiener, that the workshop ran roughly eight weeks (about 18 June to 17 August 1956) by Ray Solomonoff's own contemporaneous notes though it is usually said to be six weeks, that only McCarthy, Marvin Minsky and Solomonoff stayed the full time, and that daily attendance ranged from about three to eight people.",
+        "https://spectrum.ieee.org/dartmouth-ai-workshop: Grace Solomonoff, IEEE Spectrum, read in full. Confirmed the exact dates (18 June to 17 August 1956), established that Herbert Simon and Allen Newell presented the Logic Theory Machine that summer and later won the 1975 Turing Award for the ideas behind it, and that in 2006 Trenchard More located the same dictionary the group had used to look up 'heuristic', still in the room where the workshop was held."
+      ],
+      "verifiedNote": "Checked 3 Sep 2026. No figure beat used for a funding amount: neither source gave a confirmed Rockefeller Foundation grant figure, so none is claimed. Not stated as fact that this was the first ever meeting on the subject: the Dartmouth Wikipedia page itself notes it followed the 1951 Paris cybernetics conference and the Macy conferences, so the sign line is about the name the field got here, not about a first gathering. The three to eight person attendance range is Wikipedia's own citation to Nilsson's history of AI, read as presented in the Wikipedia text rather than in the book itself.",
+      "palette": {
+        "bg": "#0A0C10",
+        "ink": "#EDEFF5",
+        "accent": "#7C8CFF",
+        "muted": "#7A8090"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "AI is always said to have begun with a landmark meeting of minds",
+          "text": "Most days, three to eight people actually showed up.",
+          "note": "The 1955 proposal asked the Rockefeller Foundation to fund '10 men' for '2 months'. Only three of them, John McCarthy, Marvin Minsky and Ray Solomonoff, stayed for the entire eight weeks."
+        },
+        {
+          "kind": "credit",
+          "year": "1955",
+          "name": "John McCarthy",
+          "role": "Wrote the funding proposal with Minsky, Rochester and Shannon, and coined the field's name inside it. He wanted a neutral term, anything but 'cybernetics', which would have meant working under the combative Norbert Wiener."
+        },
+        {
+          "kind": "statement",
+          "lead": "One talk that summer outlasted the rest",
+          "text": "Newell and Simon showed a program that already reasoned.",
+          "note": "Their Logic Theory Machine used symbolic logic to prove mathematical theorems. In 1975 they won computing's highest honour, the Turing Award, for the work it began."
+        },
+        {
+          "kind": "figure",
+          "value": "8",
+          "unit": "weeks",
+          "context": "How long the workshop actually ran, from 18 June to 17 August 1956, by the attendees' own notes. It is usually remembered as six."
+        },
+        {
+          "kind": "kicker",
+          "text": "The dictionary they used to look up 'heuristic' is still in that room."
+        },
+        {
+          "kind": "sign",
+          "line": "Three people. Eight weeks. One new field.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "corrupted-blood-2005",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Corrupted_Blood_incident: read in full. Established the dates (13 September to 8 October 2005), the mechanism (a debuff called Corrupted Blood, meant to stay inside the Zul'Gurub raid, spread by animal companions that kept the debuff after being deactivated and reactivated in cities), the damage figures (263 to 337 points every two seconds, enough to kill a top level character in 30 seconds or less), the eventual hard reset and later patch, that the Centers for Disease Control and Prevention contacted Blizzard afterwards believing it was a deliberate simulation and was told it was an unintentional bug with no usable data, and the 2007 Lancet Infectious Diseases paper by Eric Lofgren and Nina Fefferman proposing the incident as a model for real world epidemics.",
+        "https://www.pcgamer.com/how-blizzard-coped-with-world-of-warcrafts-blood-plague-and-other-early-disasters/: Steven Messner, PC Gamer, read in full. Established direct quotes from Blizzard's World of Warcraft team, lead engineer John Cash and lead software engineer Collin Murray, describing how the bug actually worked (no check for whether a resummoned pet was still inside the raid) and how uncertain that first week was for the developers themselves."
+      ],
+      "verifiedNote": "Checked 3 Sep 2026. No figure beat used for the damage range itself (263 to 337), since a range is not a single defensible number; the 30 second kill time is the clean figure both sources state directly. Not claimed: a specific patient zero. Wikipedia states no index case was ever identified, and PC Gamer only narrows it to the Archimonde server without naming an individual, so no beat claims to know who started the spread. Subscriber and revenue figures for World of Warcraft at the time were read but left out, since they describe the game's popularity generally rather than this incident.",
+      "palette": {
+        "bg": "#0D0808",
+        "ink": "#F2EAE8",
+        "accent": "#C41E3A",
+        "muted": "#8A7472"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "It is often remembered as one of Blizzard's cleverest ideas",
+          "text": "It was actually one missing line of code.",
+          "note": "A raid boss called Hakkar cast a debuff meant to stay inside a single zone. Developers forgot to clear it from players' pets when a fight ended, so infected pets carried it straight into crowded cities."
+        },
+        {
+          "kind": "statement",
+          "lead": "Blizzard's own engineers did not understand it either, at first",
+          "text": "'It was really scary when we didn't know why it was happening.'",
+          "note": "Lead engineer John Cash, describing the week it took just to diagnose the bug. The eventual fix reset every server back to before the outbreak began."
+        },
+        {
+          "kind": "figure",
+          "value": "30",
+          "unit": "seconds",
+          "context": "How fast the debuff alone could kill the game's highest level characters. There was no cure inside the game, only distance."
+        },
+        {
+          "kind": "credit",
+          "year": "2007",
+          "name": "Lofgren and Fefferman",
+          "role": "Epidemiologists who published the outbreak in The Lancet Infectious Diseases, arguing that a buggy video game had modelled real human panic, self quarantine and reckless spreading better than any deliberate simulation could."
+        },
+        {
+          "kind": "kicker",
+          "text": "The CDC called. Blizzard told them it was just a bug."
+        },
+        {
+          "kind": "sign",
+          "line": "Real players. Fake blood. Real epidemiology.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "great-emu-war",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Emu_War: read in full. Established the operational chronology (2 November 1932 first engagement, 4 November dam ambush where a Lewis gun jammed after 12 confirmed kills, 8 November withdrawal after 2,500 rounds fired, resumption on 13 November, recall on 10 December), Major G.P.W. Meredith's command of two Lewis guns and 10,000 rounds, his report claiming 986 confirmed kills from 9,860 rounds fired (a rate of exactly 10 rounds per kill, which historian Greg Beyer calls likely inflated), the roughly 20,000 emus that had moved onto Wheatbelt farmland, and the 1923 bounty scheme under which 57,034 bounties were claimed in six months of 1934, far exceeding the military operation's result."
+      ],
+      "verifiedNote": "Checked 3 Sep 2026. Single source, but the Wikipedia article is itself built largely from directly quoted 1932 newspaper reporting (The Argus, the Canberra Times, the Coolgardie Miner) and a peer reviewed history (Johnson, 2006, Journal of Australian Studies), all read within the article text. Attempts to reach a second outlet directly (Smithsonian Magazine, the Australian War Memorial, Trove's own newspaper archive) either redirected to an unrelated article or blocked automated access, so this entry stands on one thoroughly cited source rather than two independently read ones, flagged here rather than hidden. The figure beat uses the bounty count rather than Meredith's own kill claim, since the bounty number is not disputed by historians the way his report's total is. Not claimed: any single 'total emus killed' figure for the military operation, since the sources give a range for the first phase alone and Meredith's later total is explicitly called inflated.",
+      "palette": {
+        "bg": "#0C0E0A",
+        "ink": "#EDEEE5",
+        "accent": "#C98A2B",
+        "muted": "#837E6E"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version says Australia lost a war to emus",
+          "text": "It was not a war. It was pest control that went badly.",
+          "note": "In November 1932 farmers in Western Australia's Wheatbelt asked for army machine guns against emus ruining their wheat. What followed looked far less organised than the name suggests."
+        },
+        {
+          "kind": "credit",
+          "year": "1932",
+          "name": "Major G.P.W. Meredith",
+          "role": "Royal Australian Artillery. Commanded two Lewis guns and 10,000 rounds of ammunition against roughly 20,000 emus that had moved onto farmland, a target that would not hold still to be shot at."
+        },
+        {
+          "kind": "statement",
+          "lead": "The clearest ambush of the campaign still went wrong",
+          "text": "Over 1,000 emus approached. The gun jammed after 12 were hit.",
+          "note": "Near a dam on 4 November, Meredith's men waited for the flock to come close before opening fire. One Lewis gun seized almost at once and the rest of the birds scattered."
+        },
+        {
+          "kind": "figure",
+          "value": "57,034",
+          "unit": "emus",
+          "context": "Claimed by ordinary bounty hunters in just six months of 1934, under a scheme that had existed since 1923, far more than Meredith's whole campaign managed with soldiers and machine guns."
+        },
+        {
+          "kind": "kicker",
+          "text": "Paperwork did what the machine guns could not."
+        },
+        {
+          "kind": "sign",
+          "line": "Not really a war. Just extremely persistent birds.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "hawthorne-effect-myth",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hawthorne_effect: read in full. Established the illumination study (1924 to 1927, productivity rose in both the lit experimental room and the unchanged control room), that John R. P. French coined the term 'Hawthorne effect' in 1953, that economists Steven Levitt and John List located the original illumination data on microfilm at the University of Wisconsin in Milwaukee in 2011 and published a reanalysis finding only slight, not drastic, evidence for the effect, that this matched an earlier 1992 reanalysis by S. R. G. Jones, and Richard Nisbett's quoted description of the effect as 'a glorified anecdote'.",
+        "https://www.library.hbs.edu/hc/hawthorne/intro.html: Harvard Business School Baker Library Historical Collections, read in full. Established that Elton Mayo and Fritz Roethlisberger led the study, that it ran nine years (1924 to 1933) at the Hawthorne Works, the manufacturing plant of Western Electric outside Chicago, from the institution's own archival record of the experiments."
+      ],
+      "verifiedNote": "Checked 3 Sep 2026. Deliberately not claimed: that the Hawthorne effect is false or fully debunked. Levitt and List reported 'slight evidence, in no way as drastic as suggested initially', not zero evidence, and List is quoted saying he still believes the effect is genuine, so the beats say the evidence is weak and disputed rather than disproven. Not used as a figure: the nine year span of the full study, since 87 is the more specific, better sourced number and a second figure beat would be excessive. Landsberger's 1958 book, which popularised the 'attention causes productivity' reading, is mentioned in the sources but left out of the beats to keep the credit slot on French, who named the effect first.",
+      "palette": {
+        "bg": "#0B0D10",
+        "ink": "#ECEDEE",
+        "accent": "#4FA6A6",
+        "muted": "#7B8385"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Every management course teaches the Hawthorne effect",
+          "text": "People supposedly work harder simply because they know they are being watched.",
+          "note": "That lesson comes from a 1920s factory study. There is a problem: the economists who finally found the original data were not convinced it happened as taught."
+        },
+        {
+          "kind": "credit",
+          "year": "1953",
+          "name": "John R. P. French",
+          "role": "Coined the term 'Hawthorne effect', nearly three decades after the studies it describes had ended. The name was applied retrospectively to results nobody had cleanly explained at the time."
+        },
+        {
+          "kind": "statement",
+          "lead": "The original lighting study gave itself away",
+          "text": "Output rose in the room where nothing changed too.",
+          "note": "Researchers dimmed and brightened the lights in one room while leaving a second, unlit control room alone. Productivity climbed in both, which meant the lighting was never the real variable."
+        },
+        {
+          "kind": "figure",
+          "value": "87",
+          "unit": "years",
+          "context": "How long the original 1924 lighting data sat unexamined, until economists Steven Levitt and John List found it on microfilm in 2011 and reported only weak support for the effect nearly everyone had been taught."
+        },
+        {
+          "kind": "statement",
+          "lead": "One psychologist put it more bluntly",
+          "text": "'A glorified anecdote.'",
+          "note": "Richard Nisbett's verdict on the whole idea: 'Once you have got the anecdote, you can throw away the data.'"
+        },
+        {
+          "kind": "sign",
+          "line": "The most cited finding in management may itself be a myth.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "henrietta-lacks-hela",
+      "niche": "biology",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/HeLa: read in full. Established that cells were taken from Henrietta Lacks on 8 February 1951 without her knowledge during treatment for cervical cancer at Johns Hopkins Hospital, that she died on 4 October 1951 aged 31, that cell biologist George Otto Gey found the cells doubled every 20 to 24 hours where every previous sample had died within days, that by 2009 more than 60,000 scientific papers had used HeLa cells and the count was rising by over 300 a month, that Harald zur Hausen found HPV18 in the original sample in the 1980s and later won a Nobel Prize for linking HPV to cervical cancer, and the 2021 lawsuit against Thermo Fisher Scientific, its August 2023 settlement, and the 2026 Novartis settlement.",
+        "https://www.hopkinsmedicine.org/henriettalacks: Johns Hopkins Medicine, read in full. Established the institution's own account: gynaecologist Dr Howard Jones found the tumour, a sample went to Gey's lab, Lacks died on 4 October 1951, and Johns Hopkins's own statement that it has never sold or profited from the HeLa cell line but 'could have, and should have, done more' to inform and work with the Lacks family."
+      ],
+      "verifiedNote": "Checked 3 Sep 2026. Deliberately not stated as settled: the exact terms of the Thermo Fisher or Novartis settlements, since both are reported as undisclosed. Deliberately not stated: that the Ultragenyx or Viatris lawsuits have concluded, since the source marks them as still pending as of March 2026. Not used as a figure: a monetary value for HeLa's commercial impact, since no source read here gave one that was not itself disputed. The phrase used throughout is 'without her knowledge' rather than any stronger claim, matching what both sources establish; Johns Hopkins's own page notes the practice was standard in the 1950s even though it would not be acceptable today.",
+      "palette": {
+        "bg": "#0A0D0C",
+        "ink": "#EAF0EC",
+        "accent": "#3FA66B",
+        "muted": "#758079"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The Henrietta Lacks story usually ends on an injustice with no resolution",
+          "text": "It is now also a story about lawsuits actually being won.",
+          "note": "In 2021 her estate sued the companies that had profited for decades from her cells. Thermo Fisher Scientific settled in 2023. Novartis followed in 2026."
+        },
+        {
+          "kind": "credit",
+          "year": "1951",
+          "name": "Henrietta Lacks",
+          "role": "A 31 year old mother of five, treated for cervical cancer at Johns Hopkins Hospital. Doctors took a tissue sample during her biopsy without telling her. She died the same year."
+        },
+        {
+          "kind": "statement",
+          "lead": "Every sample taken before hers had died within days",
+          "text": "Hers doubled every 20 to 24 hours, and simply did not stop.",
+          "note": "Cell biologist George Gey's lab had collected samples from cancer patients for years. Lacks's were the first that would not die in a dish, the first human cell line to survive indefinitely outside a body."
+        },
+        {
+          "kind": "figure",
+          "value": "60,000",
+          "unit": "papers",
+          "context": "The count of scientific papers built on HeLa cells by 2009 alone, and still climbing then by more than 300 a month."
+        },
+        {
+          "kind": "statement",
+          "lead": "Those cells eventually solved their own origin story",
+          "text": "In the 1980s, a scientist found the virus that had caused her cancer, still living in her cells.",
+          "note": "Harald zur Hausen identified HPV18 in the original HeLa sample, the same virus that had caused Lacks's cervical cancer. The discovery won him a Nobel Prize and led directly to the HPV vaccine."
+        },
+        {
+          "kind": "sign",
+          "line": "Her cells have outlived her by three quarters of a century, and are still dividing.",
+          "handle": "@bbm0902"
+        }
+      ]
     }
   ]
 }
