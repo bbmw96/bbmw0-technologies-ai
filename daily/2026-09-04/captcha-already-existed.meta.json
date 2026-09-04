@@ -1,0 +1,25 @@
+{
+  "slug": "captcha-already-existed",
+  "date": "2026-09-04",
+  "title": "\"CAPTCHA\" was coined in 2003. The test already existed.",
+  "description": "\"CAPTCHA\" was coined in 2003. The test already existed. Distorted-letter tests to block bots were already live in 2000, when idrive.com started using one, and PayPal adopted the same idea in 2001, years before anyone called it a CAPTCHA.\n\nIt stands for something nobody would say out loud. Completely Automated Public Turing test to tell Computers and Humans Apart. Von Ahn, Blum, Hopper and Langford built the acronym to fit the word, not the other way round.\n\nCarnegie Mellon researcher who turned the same idea into reCAPTCHA: instead of random letters, it showed real words that book-scanning software could not read, so solving the puzzle also helped digitise old text.\n\nGoogle bought it in 2009. The Carnegie Mellon spin-off was acquired within a year of being founded, and reCAPTCHA went on to help digitise The New York Times' archive and Google Books.\n\nA test built to prove you're not a computer. A 2018 study trained one to pass it using 500 examples.\n\nSources:\n- https://en.wikipedia.org/wiki/CAPTCHA - Wikipedia, read in full. Established that the term 'CAPTCHA' was coined in 2003 by Luis von Ahn, Manuel Blum, Nicholas J. Hopper and John Langford as a contrived acronym for 'Completely Automated Public Turing test to tell Computers and Humans Apart'; that a historically common type of CAPTCHA, the distorted-letter image, was 'first invented in 1997 by two groups working in parallel', before the name existed; that idrive.com began protecting its signup page with such a test in 2000 and prepared to file a patent (the Gausebeck-Levchin test); that PayPal used a similar test from 2001 as part of a fraud-prevention strategy, commercialised with help from co-founder Max Levchin; that reCAPTCHA was acquired by Google in 2009 and was then used, alongside CAPTCHA technology generally, to help digitise the archives of The New York Times and Google Books in 2011; and that a 2018 ACM CCS conference paper (Ye et al.) presented a deep-learning attack able to consistently solve all 11 text-CAPTCHA schemes used by the top 50 websites that year, trainable on as few as 500 real CAPTCHAs.\n- https://www.cs.cmu.edu/news/2009/google-inc-acquires-carnegie-mellon-spin-recaptcha-inc - Carnegie Mellon University's own news release (Byron Spice, 16 September 2009), read in full. Established that reCAPTCHA began as a research project of Luis von Ahn, assistant professor of computer science at Carnegie Mellon; that reCAPTCHAs, distorted words drawn from real printed text that optical-character-recognition software could not read, were introduced in 2007; that the company ReCAPTCHA Inc. was founded by von Ahn in 2008 and its acquisition by Google was announced on 16 September 2009; and that von Ahn remained on the CMU faculty while also working at Google's Pittsburgh office.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-04-captcha-already-existed.mp4",
+  "propsFile": "daily/2026-09-04/captcha-already-existed.props.json",
+  "durationInFrames": 1140,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}

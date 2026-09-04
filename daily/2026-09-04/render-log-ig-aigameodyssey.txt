@@ -1,0 +1,20 @@
+Rendering 3 Shorts for 2026-09-04 (concurrency=3, GL=default)
+Compliance: 0 cleared, 3 blocked (policy v1.0.0).
+Blocked by compliance: captcha-already-existed, mechanical-turk-hoax, tennis-for-two
+
+--- captcha-already-existed ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-04-captcha-already-existed.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-04/compliance-verdict.json.
+
+--- mechanical-turk-hoax ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-04-mechanical-turk-hoax.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-04/compliance-verdict.json.
+
+--- tennis-for-two ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-04-tennis-for-two.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-04/compliance-verdict.json.
+
+=== Done. 3 rendered, 0 uploaded, 0 skipped, 3 blocked by compliance, 0 failed. ===

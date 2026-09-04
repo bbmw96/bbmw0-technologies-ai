@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (tennis-for-two)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0E0C",
+    "ink": "#E8EAE3",
+    "accent": "#5FC86A",
+    "muted": "#7C837A"
+  },
+  "niche": "gaming",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Ask when video games began",
+      "text": "Most answers land on Pong, 1972.",
+      "note": "A playable video game had already drawn crowds about fourteen years earlier, at a nuclear lab's open house, on an oscilloscope the size of a saucer.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1958",
+      "name": "William Higinbotham",
+      "role": "A physicist who built radar displays at MIT and timing circuits for the first atomic bomb. To liven up Brookhaven Lab's dull visitors' day he wired a tennis game onto an analog computer, taking the ball's arc straight from a bouncing-ball example in the machine's manual.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Then he gave it away",
+      "text": "He never filed a patent.",
+      "note": "He already held twenty; this one seemed no more novel than the manual's circuit. And at a government lab, any patent would have belonged to Washington, not to him.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "It was not even the first",
+      "text": "A cathode-ray amusement device was patented in 1948.",
+      "note": "Goldsmith and Mann's tube let you fire at targets, but you taped paper planes over the glass, because it could not draw them. Higinbotham's court, net and ball were all on the screen.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "He wanted to be remembered for fighting the nuclear arms race. He got famous for tennis.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "sign",
+      "line": "The first video game ran on a machine built to plot missiles.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 118
+    }
+  ],
+  "cta": "Follow for more."
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "tennis-for-two",
+  "date": "2026-09-04",
+  "title": "Most answers land on Pong, 1972.",
+  "description": "Most answers land on Pong, 1972. A playable video game had already drawn crowds about fourteen years earlier, at a nuclear lab's open house, on an oscilloscope the size of a saucer.\n\nA physicist who built radar displays at MIT and timing circuits for the first atomic bomb. To liven up Brookhaven Lab's dull visitors' day he wired a tennis game onto an analog computer, taking the ball's arc straight from a bouncing-ball example in the machine's manual.\n\nHe never filed a patent. He already held twenty; this one seemed no more novel than the manual's circuit. And at a government lab, any patent would have belonged to Washington, not to him.\n\nA cathode-ray amusement device was patented in 1948. Goldsmith and Mann's tube let you fire at targets, but you taped paper planes over the glass, because it could not draw them. Higinbotham's court, net and ball were all on the screen.\n\nHe wanted to be remembered for fighting the nuclear arms race. He got famous for tennis.\n\nSources:\n- https://www.bnl.gov/about/history/firstvideo.php: Brookhaven National Laboratory's own history page, read in full. Establishes: Tennis for Two was first shown on 18 October 1958 at the Lab's annual visitors' day; creator William Higinbotham was a nuclear physicist and the first chair of the Federation of American Scientists; it ran on a small analog computer and displayed on a five-inch oscilloscope (a cathode-ray tube); the ball's motion came from the analog computer's instruction-book example of a bouncing ball subject to gravity and wind resistance; it used germanium transistors switching at 36 Hz; Higinbotham did not patent it (it seemed no more novel than the manual's bouncing-ball circuit, and any patent would have belonged to the federal government); it was preceded by the 1948 Cathode-Ray Tube Amusement Device patent of Thomas T. Goldsmith Jr. and Estle R. Mann, which required players to overlay paper targets on the glass; in the mid-1970s the game was pulled into the legal fight over Magnavox's video-game patent; and Higinbotham died in 1994 wishing to be remembered for radar work and nuclear-arms control.\n- https://www.aps.org/apsnews/2008/09/first-video-game: American Physical Society, This Month in Physics History (22 Sept 2008), read in full. Corroborates the October 1958 debut and the Pong comparison; adds that Higinbotham had already patented 20 inventions; that technician Robert Dvorak built the device in about two weeks; that the 1959 version could simulate moon, Earth and Jupiter gravity; that Sanders Associates received the first video-game patent in 1964 (later bought by Magnavox) and Higinbotham was called to testify when competitors tried to break it, the case settling out of court; and that he became widely known as the inventor only after a 1982 Creative Computing article.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "gaming",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-04-tennis-for-two.mp4",
+  "propsFile": "daily/2026-09-04/tennis-for-two.props.json",
+  "durationInFrames": 1116,
+  "audioUrl": "",
+  "niche": "gaming",
+  "composition": "Reel"
+}

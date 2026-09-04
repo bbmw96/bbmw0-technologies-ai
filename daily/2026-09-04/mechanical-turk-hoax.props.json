@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (mechanical-turk-hoax)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0D14",
+    "ink": "#ECEBF2",
+    "accent": "#C9A227",
+    "muted": "#7C8190"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "In 1770 a machine played chess",
+      "text": "The machine was a man in a box.",
+      "note": "Kempelen would open the cabinet, show the clockwork, wind the key. The clockwork was a decoy. A chess master sat behind it on a sliding seat, working the arm with levers.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1770",
+      "name": "Wolfgang von Kempelen",
+      "role": "Built the Turk for the court of Empress Maria Theresa. It beat almost everyone who sat down to play it, and nobody who suspected a hidden operator could prove how it was done.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Its opponents were not nobodies",
+      "text": "It beat Franklin. It beat Napoleon.",
+      "note": "Benjamin Franklin in Paris. Napoleon in Vienna, 1809, who tried illegal moves; the Turk shook its head and put the piece back, then won the game.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The con outlived its maker",
+      "text": "It ran for over eighty years.",
+      "note": "Kempelen died in 1804 and new owners kept it touring. Edgar Allan Poe watched it and wrote that a mind, not a mechanism, was moving the pieces. Fire took it in 1854.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "In 2005 Amazon revived the name for humans hidden inside software: \"artificial artificial intelligence.\"",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "sign",
+      "line": "The oldest trick in artificial intelligence is a person behind the curtain.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 118
+    }
+  ],
+  "cta": "Follow for more."
+}

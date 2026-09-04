@@ -106,7 +106,10 @@
     "reel:pacman-ghost-ai",
     "reel:cleopatra-closer-to-moon",
     "reel:glass-not-liquid",
-    "reel:cache-invalidation"
+    "reel:cache-invalidation",
+    "reel:captcha-already-existed",
+    "reel:tennis-for-two",
+    "reel:mechanical-turk-hoax"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -1767,6 +1770,45 @@
       "youtubeUrl": "https://youtu.be/LKgy-K53zSI",
       "uploadedAt": "2026-09-04T13:03:35.542Z",
       "privacy": "public"
+    },
+    {
+      "id": "captcha-already-existed",
+      "date": "2026-09-04",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "\"CAPTCHA\" was coined in 2003. The test already existed.",
+      "description": "\"CAPTCHA\" was coined in 2003. The test already existed. Distorted-letter tests to block bots were already live in 2000, when idrive.com started using one, and PayPal adopted the same idea in 2001, years before anyone called it a CAPTCHA.\n\nIt stands for something nobody would say out loud. Completely Automated Public Turing test to tell Computers and Humans Apart. Von Ahn, Blum, Hopper and Langford built the acronym to fit the word, not the other way round.\n\nCarnegie Mellon researcher who turned the same idea into reCAPTCHA: instead of random letters, it showed real words that book-scanning software could not read, so solving the puzzle also helped digitise old text.\n\nGoogle bought it in 2009. The Carnegie Mellon spin-off was acquired within a year of being founded, and reCAPTCHA went on to help digitise The New York Times' archive and Google Books.\n\nA test built to prove you're not a computer. A 2018 study trained one to pass it using 500 examples.\n\nSources:\n- https://en.wikipedia.org/wiki/CAPTCHA - Wikipedia, read in full. Established that the term 'CAPTCHA' was coined in 2003 by Luis von Ahn, Manuel Blum, Nicholas J. Hopper and John Langford as a contrived acronym for 'Completely Automated Public Turing test to tell Computers and Humans Apart'; that a historically common type of CAPTCHA, the distorted-letter image, was 'first invented in 1997 by two groups working in parallel', before the name existed; that idrive.com began protecting its signup page with such a test in 2000 and prepared to file a patent (the Gausebeck-Levchin test); that PayPal used a similar test from 2001 as part of a fraud-prevention strategy, commercialised with help from co-founder Max Levchin; that reCAPTCHA was acquired by Google in 2009 and was then used, alongside CAPTCHA technology generally, to help digitise the archives of The New York Times and Google Books in 2011; and that a 2018 ACM CCS conference paper (Ye et al.) presented a deep-learning attack able to consistently solve all 11 text-CAPTCHA schemes used by the top 50 websites that year, trainable on as few as 500 real CAPTCHAs.\n- https://www.cs.cmu.edu/news/2009/google-inc-acquires-carnegie-mellon-spin-recaptcha-inc - Carnegie Mellon University's own news release (Byron Spice, 16 September 2009), read in full. Established that reCAPTCHA began as a research project of Luis von Ahn, assistant professor of computer science at Carnegie Mellon; that reCAPTCHAs, distorted words drawn from real printed text that optical-character-recognition software could not read, were introduced in 2007; that the company ReCAPTCHA Inc. was founded by von Ahn in 2008 and its acquisition by Google was announced on 16 September 2009; and that von Ahn remained on the CMU faculty while also working at Google's Pittsburgh office.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "tennis-for-two",
+      "date": "2026-09-04",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Most answers land on Pong, 1972.",
+      "description": "Most answers land on Pong, 1972. A playable video game had already drawn crowds about fourteen years earlier, at a nuclear lab's open house, on an oscilloscope the size of a saucer.\n\nA physicist who built radar displays at MIT and timing circuits for the first atomic bomb. To liven up Brookhaven Lab's dull visitors' day he wired a tennis game onto an analog computer, taking the ball's arc straight from a bouncing-ball example in the machine's manual.\n\nHe never filed a patent. He already held twenty; this one seemed no more novel than the manual's circuit. And at a government lab, any patent would have belonged to Washington, not to him.\n\nA cathode-ray amusement device was patented in 1948. Goldsmith and Mann's tube let you fire at targets, but you taped paper planes over the glass, because it could not draw them. Higinbotham's court, net and ball were all on the screen.\n\nHe wanted to be remembered for fighting the nuclear arms race. He got famous for tennis.\n\nSources:\n- https://www.bnl.gov/about/history/firstvideo.php: Brookhaven National Laboratory's own history page, read in full. Establishes: Tennis for Two was first shown on 18 October 1958 at the Lab's annual visitors' day; creator William Higinbotham was a nuclear physicist and the first chair of the Federation of American Scientists; it ran on a small analog computer and displayed on a five-inch oscilloscope (a cathode-ray tube); the ball's motion came from the analog computer's instruction-book example of a bouncing ball subject to gravity and wind resistance; it used germanium transistors switching at 36 Hz; Higinbotham did not patent it (it seemed no more novel than the manual's bouncing-ball circuit, and any patent would have belonged to the federal government); it was preceded by the 1948 Cathode-Ray Tube Amusement Device patent of Thomas T. Goldsmith Jr. and Estle R. Mann, which required players to overlay paper targets on the glass; in the mid-1970s the game was pulled into the legal fight over Magnavox's video-game patent; and Higinbotham died in 1994 wishing to be remembered for radar work and nuclear-arms control.\n- https://www.aps.org/apsnews/2008/09/first-video-game: American Physical Society, This Month in Physics History (22 Sept 2008), read in full. Corroborates the October 1958 debut and the Pong comparison; adds that Higinbotham had already patented 20 inventions; that technician Robert Dvorak built the device in about two weeks; that the 1959 version could simulate moon, Earth and Jupiter gravity; that Sanders Associates received the first video-game patent in 1964 (later bought by Magnavox) and Higinbotham was called to testify when competitors tried to break it, the case settling out of court; and that he became widely known as the inventor only after a 1982 Creative Computing article.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "mechanical-turk-hoax",
+      "date": "2026-09-04",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The machine was a man in a box.",
+      "description": "The machine was a man in a box. Kempelen would open the cabinet, show the clockwork, wind the key. The clockwork was a decoy. A chess master sat behind it on a sliding seat, working the arm with levers.\n\nBuilt the Turk for the court of Empress Maria Theresa. It beat almost everyone who sat down to play it, and nobody who suspected a hidden operator could prove how it was done.\n\nIt beat Franklin. It beat Napoleon. Benjamin Franklin in Paris. Napoleon in Vienna, 1809, who tried illegal moves; the Turk shook its head and put the piece back, then won the game.\n\nIt ran for over eighty years. Kempelen died in 1804 and new owners kept it touring. Edgar Allan Poe watched it and wrote that a mind, not a mechanism, was moving the pieces. Fire took it in 1854.\n\nIn 2005 Amazon revived the name for humans hidden inside software: \"artificial artificial intelligence.\"\n\nSources:\n- https://www.britannica.com/story/the-mechanical-turk-ai-marvel-or-parlor-trick - Encyclopaedia Britannica, read in full. Established that Wolfgang von Kempelen built the automaton in 1770 for the court of Empress Maria Theresa, the performance format (open the cabinet, show the clockwork, wind the key), that it won most of its games, that Benjamin Franklin played it, that most observers rightly concluded a human operator sat inside working levers, and that Charles Babbage watched it in 1819.\n- https://www.history.com/articles/how-a-phony-18th-century-chess-robot-fooled-the-world - History.com (Evan Andrews), read in full. Established that the cabinet's gears were non-functioning decoys hiding a chess master on a sliding seat who followed the game via magnets and worked the arm with levers; that it beat Franklin in Paris and beat Napoleon in Vienna in 1809 (Napoleon tried illegal moves and lost); that Edgar Allan Poe saw it in Richmond and argued a human mind ran it; that Kempelen died in 1804 and Johann Maelzel took it over; and that it burned on 5 July 1854 at Philadelphia's Chinese Museum.\n- https://en.wikipedia.org/wiki/Amazon_Mechanical_Turk - Via search summary. Established that Amazon launched the Mechanical Turk crowd-work marketplace in 2005, named after the 18th-century chess automaton, and that Jeff Bezos described it as \"artificial artificial intelligence\" for work done by hidden humans inside software. Corroborated by the paper \"The mechanical Turk: a short history of 'artificial artificial intelligence'\" (Cultural Studies, 2023).\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }
