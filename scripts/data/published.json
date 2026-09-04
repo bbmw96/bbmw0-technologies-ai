@@ -103,7 +103,10 @@
     "reel:sharks-older-than-trees",
     "reel:space-invaders-speedup",
     "reel:sf2-combos-accident",
-    "reel:pacman-ghost-ai"
+    "reel:pacman-ghost-ai",
+    "reel:cleopatra-closer-to-moon",
+    "reel:glass-not-liquid",
+    "reel:cache-invalidation"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -1713,6 +1716,57 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "cleopatra-closer-to-moon",
+      "date": "2026-09-04",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "She lived nearer to the Moon landing.",
+      "description": "She lived nearer to the Moon landing. The Great Pyramid was already about 2,500 years old when she was born. Apollo 11 was only about 2,000 years ahead of her. To Cleopatra, the pyramids were ancient history.\n\nFinished for the pharaoh Khufu. By the time Cleopatra ruled Egypt it had already stood for roughly 2,500 years: older to her than she is to us.\n\nCleopatra was Greek. Her family, the Ptolemies, descended from a Macedonian general of Alexander the Great, and ruled Egypt for three centuries while speaking only Greek.\n\nShe was said to be the first of her line to bother learning Egyptian.\n\nSources:\n- https://www.worldatlas.com/articles/so-cleopatra-lived-closer-in-time-to-the-first-lunar-landing-than-the-great-pyramids.html - WorldAtlas, read in full. Established that the Great Pyramid of Giza was completed around 2560 BC for the pharaoh Khufu, that Cleopatra lived in 30 BC, that Apollo 11 landed on 20 July 1969, that she was born roughly 2,500 years after the pyramid and roughly 2,000 years before the Moon landing, and that Cleopatra was a Greek Macedonian descended from Ptolemy, one of Alexander the Great's generals, whose line ruled Egypt for three centuries.\n- https://study.com/academy/lesson/what-was-cleopatra-history-biography-facts.html - Via search summary. Established that the Ptolemaic rulers used only Greek while Cleopatra learned and spoke Egyptian, which is why she is commonly described as the first of her dynasty to do so.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "lpgvdkNq2jo",
+      "youtubeUrl": "https://youtu.be/lpgvdkNq2jo",
+      "uploadedAt": "2026-09-04T13:05:04.857Z",
+      "privacy": "public"
+    },
+    {
+      "id": "glass-not-liquid",
+      "date": "2026-09-04",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Old church windows are thicker at the bottom.",
+      "description": "Old church windows are thicker at the bottom. The story goes that over 800 years the glass crept downward under its own weight. It is the most repeated fact about glass, and it is false.\n\nYou would wait out the universe, and then some. Physicists estimate the flow would take around a hundred thousand billion billion years. The universe is under fourteen billion years old. Medieval glass has not had a rounding error of the time it would need.\n\nThey were made that way, then stood that way up. Medieval glass was blown into cylinders, split and flattened by hand, so no sheet came out even. Glaziers simply set the thick edge at the bottom. The 'flow' is a fitter's choice, held for 800 years.\n\nGlass is not quite a solid either. It is its own state, on a clock nobody will ever read out.\n\nSources:\n- https://www.doitpoms.ac.uk/tlplib/glass-transition/myth.php (University of Cambridge DoITPoMS, 'Do Cathedral Glasses Flow?'; read in full 26 Aug 2026): establishes the myth that over centuries cathedral window glass flows downward under gravity, leaving panes thicker at the bottom; that Zanotto and Gupta calculated the room-temperature relaxation time for such flow at about ten to the power of 23 years, far beyond the age of the Universe at about ten to the power of 10 years; and the real cause, that medieval glass was blown into large cylinders which were split and flattened by hand so it was never of even thickness, with fitters instinctively placing the thicker edge at the bottom. Cites E.D. Zanotto, 'Do cathedral glasses flow?', American Journal of Physics 66, 392-395 (1998).\n- https://www.livescience.com/chemistry/is-glass-a-liquid-or-a-solid (Live Science, Victoria Atkinson, 24 Sep 2023; read in full 26 Aug 2026): materials scientist John Mauro of Penn State says glass is neither a true liquid nor a true solid but its own distinct, nonequilibrium, noncrystalline state that appears solid on short timescales and relaxes towards a liquid only over billions of years; John Parker of the Sheffield Centre for Glass Research says that in a practical sense glass is a rigid solid on any sensible timescale, and that the old panes are thicker at the bottom because a thousand years ago makers could not produce glass of uniform thickness.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "pbf-8x7FwMA",
+      "youtubeUrl": "https://youtu.be/pbf-8x7FwMA",
+      "uploadedAt": "2026-09-04T13:06:49.063Z",
+      "privacy": "public"
+    },
+    {
+      "id": "cache-invalidation",
+      "date": "2026-09-04",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "\"There are only two hard things in Computer Science: cache invalidation and naming things.\"",
+      "description": "\"There are only two hard things in Computer Science: cache invalidation and naming things.\" It's credited to one man, Phil Karlton, and nobody has ever produced anything he wrote it in.\n\nHe couldn't find one either. In a 2017 post, David Karlton collected every citation of the quote he could find online and admitted none of them traced back further than secondhand memory.\n\nEngineer at Xerox PARC, DEC, Silicon Graphics and Netscape, where he helped build X Windows and an internet security protocol. Killed in a car accident near Canelli, Italy, that June, at 50, taking the actual origin of his own line with him.\n\nHe recalls hearing it at Carnegie Mellon, around 1970. Karlton really did study there, years before his Xerox and Netscape career, but the memory is one blog comment, not a document, so the earliest confirmed instance of his own line is still unknown.\n\nThe internet gave it a third hard thing anyway: off-by-one errors.\n\nSources:\n- https://www.karlton.org/2017/12/naming-things-hard/: David Karlton (Phil Karlton's son), read in full. Establishes: the line \"There are only two hard things in Computer Science: cache invalidation and naming things\" is credited to Phil Karlton, who said it while at Netscape; the 2017 post is the son's own attempt to collect every citation of the quote online, and it does not produce a written original, only a list of other people's blog references; a 2021 comment from Tom Bajzek recalls hearing Karlton say the line at Carnegie Mellon \"sometime around 1970\", decades before Netscape existed; a 2024 comment jokes about tacking on a third hard thing, \"off-by-one errors\".\n- http://karlton.hamilton.com/mercury.html: San Jose Mercury News (Mack Lundstrom, 27 June 1997, page 1B), read in full. Establishes: Phil Karlton, 50, and his wife Jan, 58, were killed on 20 June 1997 when a truck struck their car near Canelli in Italy's Asti Province; Jan died instantly, Phil died seven hours later at a hospital in Alessandria; Karlton studied at UC Santa Barbara and Carnegie Mellon University, then worked at Xerox PARC, Digital Equipment Corp's Western Research Lab, Silicon Graphics and Netscape, contributing to X Windows and to an internet security protocol; his son David was a Java programmer at Netscape.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "LKgy-K53zSI",
+      "youtubeUrl": "https://youtu.be/LKgy-K53zSI",
+      "uploadedAt": "2026-09-04T13:03:35.542Z",
+      "privacy": "public"
     }
   ]
 }

@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-09-04 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- cache-invalidation ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-04-cache-invalidation.mp4
+  uploaded public: https://youtu.be/LKgy-K53zSI
+
+--- cleopatra-closer-to-moon ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-04-cleopatra-closer-to-moon.mp4
+  uploaded public: https://youtu.be/lpgvdkNq2jo
+
+--- glass-not-liquid ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-04-glass-not-liquid.mp4
+  uploaded public: https://youtu.be/pbf-8x7FwMA
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

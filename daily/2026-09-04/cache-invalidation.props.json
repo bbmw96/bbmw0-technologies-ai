@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (cache-invalidation)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0D12",
+    "ink": "#ECF0F5",
+    "accent": "#57C7FF",
+    "muted": "#7C8794"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "You've seen this quoted a thousand times.",
+      "text": "\"There are only two hard things in Computer Science: cache invalidation and naming things.\"",
+      "note": "It's credited to one man, Phil Karlton, and nobody has ever produced anything he wrote it in.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "His own son went looking for the source.",
+      "text": "He couldn't find one either.",
+      "note": "In a 2017 post, David Karlton collected every citation of the quote he could find online and admitted none of them traced back further than secondhand memory.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1997",
+      "name": "Phil Karlton",
+      "role": "Engineer at Xerox PARC, DEC, Silicon Graphics and Netscape, where he helped build X Windows and an internet security protocol. Killed in a car accident near Canelli, Italy, that June, at 50, taking the actual origin of his own line with him.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "One colleague's memory reaches further back than the Netscape story most people repeat.",
+      "text": "He recalls hearing it at Carnegie Mellon, around 1970.",
+      "note": "Karlton really did study there, years before his Xerox and Netscape career, but the memory is one blog comment, not a document, so the earliest confirmed instance of his own line is still unknown.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The internet gave it a third hard thing anyway: off-by-one errors.",
+      "durationInFrames": 88
+    },
+    {
+      "kind": "sign",
+      "line": "A quote everyone can cite and nobody can source.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}

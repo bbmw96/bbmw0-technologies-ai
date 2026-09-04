@@ -1,0 +1,47 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (glass-not-liquid)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0E0E",
+    "ink": "#EDEFEE",
+    "accent": "#6FB7A6",
+    "muted": "#7E837F"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The proof that glass is a slow liquid",
+      "text": "Old church windows are thicker at the bottom.",
+      "note": "The story goes that over 800 years the glass crept downward under its own weight. It is the most repeated fact about glass, and it is false.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "For a pane to sag at room temperature",
+      "text": "You would wait out the universe, and then some.",
+      "note": "Physicists estimate the flow would take around a hundred thousand billion billion years. The universe is under fourteen billion years old. Medieval glass has not had a rounding error of the time it would need.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "So why are the old panes heavier at the foot",
+      "text": "They were made that way, then stood that way up.",
+      "note": "Medieval glass was blown into cylinders, split and flattened by hand, so no sheet came out even. Glaziers simply set the thick edge at the bottom. The 'flow' is a fitter's choice, held for 800 years.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Glass is not quite a solid either. It is its own state, on a clock nobody will ever read out.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "sign",
+      "line": "The window never moved. The glazier did.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

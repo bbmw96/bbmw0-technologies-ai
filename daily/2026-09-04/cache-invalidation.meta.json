@@ -1,0 +1,25 @@
+{
+  "slug": "cache-invalidation",
+  "date": "2026-09-04",
+  "title": "\"There are only two hard things in Computer Science: cache invalidation and naming things.\"",
+  "description": "\"There are only two hard things in Computer Science: cache invalidation and naming things.\" It's credited to one man, Phil Karlton, and nobody has ever produced anything he wrote it in.\n\nHe couldn't find one either. In a 2017 post, David Karlton collected every citation of the quote he could find online and admitted none of them traced back further than secondhand memory.\n\nEngineer at Xerox PARC, DEC, Silicon Graphics and Netscape, where he helped build X Windows and an internet security protocol. Killed in a car accident near Canelli, Italy, that June, at 50, taking the actual origin of his own line with him.\n\nHe recalls hearing it at Carnegie Mellon, around 1970. Karlton really did study there, years before his Xerox and Netscape career, but the memory is one blog comment, not a document, so the earliest confirmed instance of his own line is still unknown.\n\nThe internet gave it a third hard thing anyway: off-by-one errors.\n\nSources:\n- https://www.karlton.org/2017/12/naming-things-hard/: David Karlton (Phil Karlton's son), read in full. Establishes: the line \"There are only two hard things in Computer Science: cache invalidation and naming things\" is credited to Phil Karlton, who said it while at Netscape; the 2017 post is the son's own attempt to collect every citation of the quote online, and it does not produce a written original, only a list of other people's blog references; a 2021 comment from Tom Bajzek recalls hearing Karlton say the line at Carnegie Mellon \"sometime around 1970\", decades before Netscape existed; a 2024 comment jokes about tacking on a third hard thing, \"off-by-one errors\".\n- http://karlton.hamilton.com/mercury.html: San Jose Mercury News (Mack Lundstrom, 27 June 1997, page 1B), read in full. Establishes: Phil Karlton, 50, and his wife Jan, 58, were killed on 20 June 1997 when a truck struck their car near Canelli in Italy's Asti Province; Jan died instantly, Phil died seven hours later at a hospital in Alessandria; Karlton studied at UC Santa Barbara and Carnegie Mellon University, then worked at Xerox PARC, Digital Equipment Corp's Western Research Lab, Silicon Graphics and Netscape, contributing to X Windows and to an internet security protocol; his son David was a Java programmer at Netscape.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-04-cache-invalidation.mp4",
+  "propsFile": "daily/2026-09-04/cache-invalidation.props.json",
+  "durationInFrames": 1068,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

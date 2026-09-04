@@ -1,0 +1,47 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (cleopatra-closer-to-moon)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#120F0A",
+    "ink": "#F4EEE0",
+    "accent": "#E0B24A",
+    "muted": "#8B8171"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Cleopatra and the pyramids",
+      "text": "She lived nearer to the Moon landing.",
+      "note": "The Great Pyramid was already about 2,500 years old when she was born. Apollo 11 was only about 2,000 years ahead of her. To Cleopatra, the pyramids were ancient history.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2560 BC",
+      "name": "The Great Pyramid of Giza",
+      "role": "Finished for the pharaoh Khufu. By the time Cleopatra ruled Egypt it had already stood for roughly 2,500 years: older to her than she is to us.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "She was not Egyptian either",
+      "text": "Cleopatra was Greek.",
+      "note": "Her family, the Ptolemies, descended from a Macedonian general of Alexander the Great, and ruled Egypt for three centuries while speaking only Greek.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "kicker",
+      "text": "She was said to be the first of her line to bother learning Egyptian.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "sign",
+      "line": "The pyramids were ancient long before Cleopatra was born.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}
