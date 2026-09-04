@@ -4022,6 +4022,245 @@
           "handle": "@bbm0902"
         }
       ]
+    },
+    {
+      "id": "y2k-actually-fixed",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://www.govexec.com/federal-news/1999/06/omb-says-y2k-cost-estimate-now-tops-8-billion/3527/ — OMB's own estimate: US federal government Y2K remediation would cost $8.05 billion across fiscal 1996-2000, with $3.5 billion already spent by 1998 and $4.5 billion projected for 1999-2000.",
+        "https://www.nextgov.com/people/2012/06/john-koskinen-y2k-revisited/249435/ — confirms John Koskinen was appointed in February 1998 to chair the President's Council on Year 2000 Conversion, reporting directly to President Clinton and coordinating the federal remediation effort.",
+        "https://en.wikipedia.org/wiki/John_Koskinen — corroborates the Council chairmanship and dates; notes Koskinen's later, unrelated role as IRS Commissioner (2013-2017), not used in the beats.",
+        "https://www.cbsnews.com/news/pentagon-spends-3b-on-y2k-bug/ — the Pentagon alone spent close to $3 billion of the federal total fixing Defense Department systems."
+      ],
+      "verifiedNote": "Checked 4 Sep 2026. The figure beat uses the whole number 8 (billion dollars), not 8.05: generate-reels.mjs derives a figure's target by stripping every non-digit character from value, so 8.05 would render as 805. The precise $8.05bn (OMB, via GovExec, 1999) is spelled out in the context field instead, matching the tardigrade-heat pattern. Global estimates for total worldwide Y2K spending ranged from roughly $100bn to $600bn depending on source and methodology in the same search, too wide and too disputed to put at 300px, so it stays as a range in a statement note rather than becoming the figure. Not claimed: an exact global total or an exact count of systems fixed, since no two sources agreed on one number for either.",
+      "palette": {
+        "bg": "#0A0D0C",
+        "ink": "#EAF2EE",
+        "accent": "#2FD675",
+        "muted": "#7B8B84"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Every New Year's, someone points out that Y2K was nothing",
+          "text": "It was nothing because thousands of programmers spent years making sure of it",
+          "note": "Two-digit year fields, standard practice in software written from the 1960s onward to save expensive memory, would have read '00' as 1900 once 1999 ticked over, breaking date maths across banking, aviation and power systems worldwide."
+        },
+        {
+          "kind": "credit",
+          "year": "1998",
+          "name": "John Koskinen",
+          "role": "Appointed by President Clinton to chair the President's Council on Year 2000 Conversion, reporting directly to the White House and coordinating the fix across every federal agency."
+        },
+        {
+          "kind": "figure",
+          "value": "8",
+          "unit": "billion $",
+          "context": "Precisely $8.05bn: what the US federal government alone spent finding and rewriting two-digit dates before the deadline. The Pentagon's own systems accounted for close to $3 billion of that."
+        },
+        {
+          "kind": "statement",
+          "lead": "Estimates for the full worldwide repair bill vary wildly",
+          "text": "They still run from about $100 billion to $600 billion",
+          "note": "No single audited figure exists for global spending: it depends on which industries and which countries get counted. Every serious estimate still lands in eleven figures."
+        },
+        {
+          "kind": "kicker",
+          "text": "Nothing breaking was the point. It was never proof there was nothing to fix."
+        },
+        {
+          "kind": "sign",
+          "line": "It wasn't a hoax. It was a deadline that got met.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "imitation-game-not-turing-test",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://courses.cs.umbc.edu/471/papers/turing.pdf — Turing's original 1950 paper, Mind 49: 433-460, read in full. Confirms he called it 'the imitation game', not the Turing test; the original three-player setup is a man (A), a woman (B) and an interrogator (C) of either sex, communicating by written notes, with the interrogator required to identify which is which; Turing's own example question to the players is about hair length. Section 2 introduces replacing the man with a machine and asks whether the interrogator would be fooled as often.",
+        "https://www.popsci.com/blog-network/zero-moment/lie-lady-profoundly-weird-gender-specific-roots-turing-test/ — Erik Sofge, 2014, quoting Karl MacDorman (Indiana University, human-computer interaction): Turing 'proposed an imitation game in which a man and a computer compete in pretending to be a woman.' Confirms Turing never revised this into a gender-neutral version before his death in 1954, and that 'the Turing Test' as a name was applied to the concept afterwards, calling it 'an act of collective academic kindness, conferred on its namesake posthumously.'"
+      ],
+      "verifiedNote": "Checked 4 Sep 2026. No figure beat: nothing in the paper or its history offered a number worth putting at 300px. 1950 is a date, already carried by the credit beat, and a duration (years between the paper and Turing's death, or between the paper and the name catching on) is not a claim that carries the story on its own, the same reasoning great-emu-war used to cut a duration figure. Dropped entirely: a claim that Weizenbaum's 1966 CACM paper on ELIZA used the phrase 'Turing's test'. It shows up in secondary summaries but I could not find the actual sentence in a source I read directly, so it is left unclaimed rather than asserted on a paraphrase of a paraphrase. Not claimed: who specifically coined the phrase 'the Turing test' or exactly when; the sources describe the renaming as posthumous and gradual, not a single event, so the beats say only that Turing himself never used the phrase and that it came later.",
+      "palette": {
+        "bg": "#0D0B12",
+        "ink": "#F0EDF5",
+        "accent": "#FF6FB5",
+        "muted": "#8A8394"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The Turing Test sounds like a machine trying to pass for a person",
+          "text": "Turing never called it that, and it didn't start with a machine at all",
+          "note": "His 1950 paper names it 'the imitation game': a man and a woman try to convince an interrogator, using written notes alone, which of them is which."
+        },
+        {
+          "kind": "statement",
+          "lead": "The man's task in that first version was oddly specific",
+          "text": "Convince the interrogator that he was the woman",
+          "note": "Turing's own sample question to the players was about hair length. Only after laying out that contest does he ask what happens if a machine takes the man's place, and whether it fools people just as often."
+        },
+        {
+          "kind": "credit",
+          "year": "1950",
+          "name": "Alan Turing",
+          "role": "Published 'Computing Machinery and Intelligence' in the journal Mind, opening not with a definition of thinking but with a parlour game about gender and deception."
+        },
+        {
+          "kind": "kicker",
+          "text": "He died in 1954. The name arrived afterwards, and without him."
+        },
+        {
+          "kind": "sign",
+          "line": "The game on paper and the test everyone quotes are not quite the same game.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "watson-jeopardy-toronto",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://www.ibm.com/history/watson-jeopardy — IBM's own official history page. Confirms the February 2011 match against Ken Jennings and Brad Rutter; the Final Jeopardy! miss in the category 'US Cities' ('Its largest airport was named for a World War II hero; its second largest, for a World War II battle'), Watson's answer 'What is Toronto?????', and the correct answer 'What is Chicago?'; that an IBM engineer wore a Toronto Blue Jays jacket to the recording of the second match; Watson's final winnings of $77,147 versus Jennings' $24,000 and Rutter's $21,600, all donated to charity; David Ferrucci as principal investigator leading a team of more than two dozen over five years.",
+        "https://techland.time.com/2011/02/16/why-did-watson-think-toronto-is-a-u-s-city-on-jeopardy/ — TIME, confirms Watson's specific confidence scores on the clue (14% for Toronto, 11% for Chicago), and IBM's David Ferrucci's explanation that Watson likely under-weighted 'US' against the category, compounded by a small Toronto, Illinois and the Toronto Blue Jays playing in the American League."
+      ],
+      "verifiedNote": "Checked 4 Sep 2026. The figure beat is $77,147, Watson's actual winnings, not the confidence percentages: those (14% and 11%) are real and sourced to TIME, but too close to each other and too low in isolation to put at 300px without overstating a single data point. The 'more than triple' comparison against both opponents checks out arithmetically: 24,000 x 3 = 72,000 and 21,600 x 3 = 64,800, both under 77,147. Not claimed: that Watson 'thought' anything in a humanlike sense, in line with IBM's own description of it as a system that scored hypotheses rather than understood them.",
+      "palette": {
+        "bg": "#0B0D10",
+        "ink": "#EDF1F5",
+        "accent": "#3DA9FC",
+        "muted": "#7E8A94"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "IBM's Watson had just spent five years learning to answer like a person",
+          "text": "Its most famous answer on air was five question marks of doubt",
+          "note": "Final Jeopardy!, category US Cities: its largest airport named for a World War II hero, its second largest for a World War II battle. The answer was Chicago. Watson buzzed in with 'What is Toronto?????'"
+        },
+        {
+          "kind": "statement",
+          "lead": "Toronto was not a wild guess",
+          "text": "Watson rated it 14% likely, Chicago only 11%",
+          "note": "Its confidence in either answer was too low to trust, and Toronto had two things working for it: a small Illinois town with the same name, and a Canadian baseball team playing in the American League."
+        },
+        {
+          "kind": "credit",
+          "year": "2011",
+          "name": "David Ferrucci",
+          "role": "Led the IBM research team that spent five years building Watson's DeepQA system, kept offline throughout, to compete on the hardest quiz show on television."
+        },
+        {
+          "kind": "figure",
+          "value": "77,147",
+          "unit": "$ won",
+          "context": "More than triple what either human champion won on their own. IBM donated the entire amount to charity."
+        },
+        {
+          "kind": "kicker",
+          "text": "An IBM engineer wore a Toronto Blue Jays jacket to the next day's taping."
+        },
+        {
+          "kind": "sign",
+          "line": "The machine that won still hedged out loud when it wasn't sure.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "spacewar-1972-olympics",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://www.pcgamer.com/the-story-of-the-first-esports-champion-undefeated-since-1972/ — Luke Winkie, 2019, read in full. Confirms the 'Intergalactic Spacewar Olympics', organised by Rolling Stone writer and Stanford graduate Stewart Brand, held the evening of 19 October 1972 at Stanford's Artificial Intelligence Laboratory; roughly twenty competitors across a five-player free-for-all, a singles bracket and a doubles bracket; Bruce Baumgart, a Stanford graduate student, won the free-for-all; first prize was a year's Rolling Stone subscription and, per attendee Lester Earnest, some beer; Annie Leibovitz, then early in her career, photographed the event and her shot of Baumgart's win ran as the magazine's featured image, with the piece noting she later became one of the last people to professionally photograph John Lennon and photographed subjects up to Queen Elizabeth. The piece itself calls this 'the first video game tournament on public record', explicitly not a certain claim to being the first ever.",
+        "https://www.rollingstone.com/culture/culture-news/stewart-brand-recalls-first-spacewar-video-game-tournament-187669/ — Rolling Stone's own later coverage, corroborating Brand's authorship and the tournament's basic facts."
+      ],
+      "verifiedNote": "Checked 4 Sep 2026. Not claimed as a certain 'first': the PC Gamer piece itself hedges this as the first tournament 'on public record', so the beats follow that same caution rather than an unqualified 'the first ever'. Dropped a planned kicker comparing this event's date to the first public Pong cabinet: sources disagree on when that was, with candidates from August, September and 29 November 1972 all turning up in the same search, so a clean 'weeks before Pong' claim could not be verified and is left out entirely. No figure beat: attendee counts vary between sources ('about 20' and 'two dozen' in the same article), not solid enough for 300px, so it stays as an approximate note instead.",
+      "palette": {
+        "bg": "#0E0B0F",
+        "ink": "#F2EDF0",
+        "accent": "#FF4D6D",
+        "muted": "#8C818A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Esports is usually dated to the 2000s, LAN parties and stadiums",
+          "text": "The earliest tournament on record ran in a Stanford computer lab in 1972",
+          "note": "The Intergalactic Spacewar Olympics, organised by Rolling Stone writer Stewart Brand, took place on the evening of 19 October 1972 at Stanford's Artificial Intelligence Laboratory, with roughly twenty competitors."
+        },
+        {
+          "kind": "credit",
+          "year": "1972",
+          "name": "Bruce Baumgart",
+          "role": "A Stanford graduate student who won the five-player free-for-all, practising left-handed and two-fisted play against beginners just to keep his own games interesting."
+        },
+        {
+          "kind": "statement",
+          "lead": "First prize was not exactly a career-changer",
+          "text": "A year of Rolling Stone magazine, and by one attendee's account, some beer",
+          "note": "Stewart Brand organised the tournament and covered it himself for a Rolling Stone feature, 'Fanatic Life and Symbolic Death Among the Computer Bums', published 7 December 1972."
+        },
+        {
+          "kind": "kicker",
+          "text": "The photographer covering it that night, Annie Leibovitz, would go on to take John Lennon's last professional photograph and portrait Queen Elizabeth II."
+        },
+        {
+          "kind": "sign",
+          "line": "The tournament came before almost anyone had heard the word esports.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "esrb-mortal-kombat-hearing",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://kevinimpellizeri.wordpress.com/2013/12/09/the-december-9-1993-video-game-hearing-a-look-back/ — Dr Kevin Impellizeri (PhD, video game history, University of Delaware), read in full. Confirms Senator Joseph Lieberman's 1 December 1993 press conference denouncing 'violent video games', flanked by the National PTA and former Captain Kangaroo star Bob Keeshan; the 9 December 1993 hearing, joined by Senators Herbert Kohl and Byron Dorgan, that singled out Mortal Kombat and Night Trap; Lieberman's description of Night Trap as designed to 'ensnare women', with women 'strung up on meat hooks' and their blood 'decanted into wine bottles', which the piece states explicitly were not features in the actual game; Nintendo's Howard Lincoln and Sega's Bill White using the hearing to blame each other; Lieberman's February 1994 Video Game Rating Act; and the industry's response, forming the Interactive Digital Software Association (IDSA) and the Entertainment Software Ratings Board.",
+        "https://www.congress.gov/bill/103rd-congress/senate-bill/1823/text — Congress.gov's own record of S.1823, the Video Game Rating Act of 1994, confirming what it was introduced to do (an appointed rating commission) and that it did not proceed to become law."
+      ],
+      "verifiedNote": "Checked 4 Sep 2026. Two independently read sources agree on the core chronology and on the Lieberman misdescription of Night Trap; the 'never became law' claim is corroborated by the bill's own Congress.gov status rather than resting on the historian's blog alone. No figure beat: nothing in the hearing has a number that carries the story the way the misdescription itself does, so the entry runs on statements, a credit and a kicker instead. Not claimed: that the ESRB is a legal requirement; as of these sources it remains a voluntary industry system, which the kicker states directly.",
+      "palette": {
+        "bg": "#0D0A08",
+        "ink": "#F2ECE6",
+        "accent": "#E0562B",
+        "muted": "#8C8079"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The senator who forced the games industry to rate itself was working from a description, not the game",
+          "text": "He said women were hung on meat hooks and drained into wine bottles. Neither was in it.",
+          "note": "On 9 December 1993, Senator Joseph Lieberman, joined by Herbert Kohl and Byron Dorgan, held hearings condemning the Sega CD game Night Trap using details that were not actually part of its plot."
+        },
+        {
+          "kind": "credit",
+          "year": "1993",
+          "name": "Joseph Lieberman",
+          "role": "Senator for Connecticut. Opened a press conference on 1 December 1993 denouncing 'violent video games', flanked by the National PTA and former Captain Kangaroo star Bob Keeshan, then led the December hearings naming Mortal Kombat and Night Trap directly."
+        },
+        {
+          "kind": "statement",
+          "lead": "The industry's own witnesses did not present a united front",
+          "text": "Nintendo and Sega mostly used the hearing to blame each other",
+          "note": "Nintendo's Howard Lincoln, a former trial lawyer, and Sega's Bill White turned their testimony into their console war, each pointing at the other's catalogue rather than defending the industry."
+        },
+        {
+          "kind": "kicker",
+          "text": "Congress never passed Lieberman's ratings bill. The industry built its own system first, and still runs it today."
+        },
+        {
+          "kind": "sign",
+          "line": "One misdescribed game is why every game box has a rating on it.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
