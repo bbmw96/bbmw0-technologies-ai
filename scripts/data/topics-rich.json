@@ -4261,6 +4261,416 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "jellyfish-not-truly-immortal",
+      "niche": "animals",
+      "verified": true,
+      "sources": [
+        "https://deepseanews.com/2013/07/are-jellyfish-immortal/ — RR Helm, a jellyfish biologist, read in full. Cites and summarises Piraino, Boero, Aeschbach and Schmid (1996), 'Reversing the Life Cycle: Medusae Transforming into Polyps and Cell Transdifferentiation in Turritopsis nutricula (Cnidaria, Hydrozoa)', Biological Bulletin 190(3):302-312, the paper documenting the species (now Turritopsis dohrnii) reverting from an injured or ageing medusa back into the earlier polyp stage via transdifferentiation. Also reports first-hand aquarist observations from the Monterey Bay Aquarium and New England Aquarium: polyp clone colonies kept for about six years become more fragile, produce fewer healthy jellies, and stop responding to environmental cues."
+      ],
+      "verifiedNote": "Checked 5 Sep 2026. The nickname is real and the mechanism behind it is real and published, but the word immortal is doing more work than the science supports, and the article's own author, a working jellyfish biologist, says so directly: I'm not convinced. What is documented is transdifferentiation, a stressed or damaged medusa reverting to the polyp stage instead of dying, not a demonstrated absence of ageing. The aquarist testimony is the actual evidence used here: colonies maintained for roughly six years get measurably worse, which reads like senescence at the colony level even if a single polyp's fate is harder to track. No figure beat: the six year figure is anecdotal aquarist experience, not a measured study result, so it is used as spoken texture rather than a rendered statistic. Deliberately not claimed: that any individual has been shown to cycle indefinitely, or a count of how often reversal happens in the wild. The phenomenon is documented in the lab and by aquarists, not tracked across a wild population.",
+      "palette": {
+        "bg": "#061A1F",
+        "ink": "#E9F5F2",
+        "accent": "#3FD6C4",
+        "muted": "#6E8E8C"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The internet's favourite immortality story",
+          "text": "It cheats death. It does not skip ageing.",
+          "note": "Turritopsis dohrnii can revert from an adult jellyfish back into its earlier polyp stage when it is stressed, injured, or ageing. That part is real and published."
+        },
+        {
+          "kind": "credit",
+          "year": "1996",
+          "name": "Stefano Piraino and team",
+          "role": "Described the reversal in the Biological Bulletin, using the phrase escaping death and achieving potential immortality, a title that outran the caveats inside its own paper."
+        },
+        {
+          "kind": "statement",
+          "lead": "Ask the people who actually keep them",
+          "text": "Their colonies still get old.",
+          "note": "Aquarists who maintain polyp stock for years report it turning fragile after about six years: fewer healthy jellies, weaker responses. Reversing a life stage is not the same as not ageing."
+        },
+        {
+          "kind": "kicker",
+          "text": "Even the biologist who wrote it up says: I'm not convinced."
+        },
+        {
+          "kind": "sign",
+          "line": "A trick for surviving one bad day. Not a loophole in death.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "gut-second-brain",
+      "niche": "biology",
+      "verified": true,
+      "sources": [
+        "https://neuroscience.stanford.edu/news/your-gut-second-brain — Stanford's Wu Tsai Neurosciences Institute, read in full, article plus full podcast transcript with Dr Julia Kaltschmidt. Establishes 100 to 600 million neurons in the human gut's enteric nervous system, run in two neural sheets from the oesophagus to the rectum; that this is more neurons than the spinal cord contains; that it uses more than 30 different neurotransmitters, the same signalling chemicals as the brain; that it can function with no connection to the brain at all, since an isolated mouse gut in a dish still shows coordinated activity; that it does not generate conscious thought; and that the term second brain was coined in 1996 by Columbia gastroenterologist Michael Gershon, author of the book of the same name."
+      ],
+      "verifiedNote": "Checked 5 Sep 2026. The comparison on screen is Stanford's own: 100 to 600 million neurons is about as many as you'd find in the brain of a fruit bat, an ostrich, or a Yorkshire Terrier. No figure beat: Stanford states the count as a range, not a settled number, and rendering one end of a 100 to 600 million range as a giant precise digit would claim more certainty than the source does, so the range is spoken instead. What the beats do not claim: that the gut thinks, decides, or feels in the way the phrase second brain implies day to day. Kaltschmidt is explicit that it does not generate conscious thought. The correction this video makes is that second brain is a real, technical claim about an autonomous, neuron-dense nervous system, not a poetic one about a second mind.",
+      "palette": {
+        "bg": "#160B18",
+        "ink": "#F3E9F0",
+        "accent": "#C2599B",
+        "muted": "#8A7787"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "You have heard your gut called a second brain",
+          "text": "That is not a figure of speech.",
+          "note": "The lining of your gut holds a real, dense network of neurons, running from your oesophagus to your rectum, with its own name: the enteric nervous system."
+        },
+        {
+          "kind": "credit",
+          "year": "1996",
+          "name": "Michael Gershon",
+          "role": "Columbia gastroenterologist who coined the term second brain and wrote the book on it, arguing the gut's nervous system deserved to be studied as more than plumbing."
+        },
+        {
+          "kind": "statement",
+          "lead": "What makes it earn the name",
+          "text": "It can run with the brain disconnected.",
+          "note": "It has more neurons than your spinal cord, uses over thirty of the same signalling chemicals as your brain, and keeps working in a gut removed entirely from the body."
+        },
+        {
+          "kind": "kicker",
+          "text": "It cannot think for you. It can absolutely talk to you."
+        },
+        {
+          "kind": "sign",
+          "line": "Gut instinct has more nerve behind it than the phrase lets on.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "saturn-would-float",
+      "niche": "space",
+      "verified": true,
+      "sources": [
+        "https://www.skyatnightmagazine.com/space-science/saturn-could-float-on-water — BBC Sky at Night Magazine, read in full. States Saturn's average density as 0.687 g/cm3 against water's 1 g/cm3, roughly 30 per cent less dense than water and the only planet in the Solar System with a lower than water average density; attributes this to its hydrogen and helium composition and its diameter of about 116,460 km, roughly nine times Earth's; gives Saturn's mass as 95 Earth masses and its surface gravity as about 1.08 times Earth's; and notes NASA's own framing of the fact."
+      ],
+      "verifiedNote": "Checked 5 Sep 2026. Figure beat is 95, Earths, because that is the actual surprise: something 95 times heavier than Earth is still, on average, lighter than water, which only works because it is puffed up with the two lightest elements there are. Deliberately hedged: the article itself flags that float in a bathtub is a density comparison, not a literal claim, since a body of water big enough to hold Saturn would generate pressures no liquid water could survive at the bottom. The kicker is written as a density statement, not as a scene that could actually happen.",
+      "palette": {
+        "bg": "#0B0F1A",
+        "ink": "#EDEFF6",
+        "accent": "#E8B65A",
+        "muted": "#7B8296"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "One planet breaks the pattern",
+          "text": "Saturn is lighter than water.",
+          "note": "Not lighter in total. Lighter on average, per cubic centimetre, than the water in your kitchen tap. It is the only planet in the Solar System where that is true."
+        },
+        {
+          "kind": "figure",
+          "value": "95",
+          "unit": "Earths",
+          "context": "Saturn's mass compared with Earth's. Almost entirely hydrogen and helium, the two lightest elements there are, stretched across a planet nine times Earth's width."
+        },
+        {
+          "kind": "statement",
+          "lead": "So does that mean it floats",
+          "text": "Only as a density comparison.",
+          "note": "There is no ocean anywhere near big enough, and if there were, the pressure at the bottom would stop the water from staying liquid. The density is real. The bathtub is not."
+        },
+        {
+          "kind": "kicker",
+          "text": "Ninety-five Earths' worth of mass, and still less dense than your bathwater."
+        },
+        {
+          "kind": "sign",
+          "line": "Big is not the same as heavy.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "empire-state-lightning-goes-up",
+      "niche": "weather",
+      "verified": true,
+      "sources": [
+        "https://www.nycmicroseasons.com/summer-lightning-strikes-the-empire-state-building/ — Allison C. Meier, NYC Microseasons, read in full. States the Empire State Building, 1,454 feet to its antenna, is struck by lightning about 25 times a year per the building's own published facts and figures; that in the mid-1930s General Electric mounted cameras and oscilloscopic recording equipment on the building specifically to study the strikes, and found that sufficiently tall buildings can send lightning bolts upward, from ground to cloud, rather than only receiving them from cloud to ground; and cites the National Weather Service for the air in a lightning bolt's wake reaching about 50,000 degrees Fahrenheit, roughly five times the surface temperature of the Sun.",
+        "https://www.weather.gov/safety/lightning-temperature — the National Weather Service page on lightning temperature, cited within the article above as the source for the 50,000 degree figure. Referenced rather than independently re-read in full; noted here for transparency about the citation chain."
+      ],
+      "verifiedNote": "Checked 5 Sep 2026. Led with the upward lightning finding rather than the annual strike count, because it is the part that actually contradicts the default assumption that lightning only ever comes down. The about 25 times a year figure is the Empire State Building's own stated number, used as supporting texture rather than the figure beat, since a rounder and stranger number, the 50,000 degree wake temperature, does more work on screen. Deliberately not used: a claim seen in some secondary write-ups about one storm producing a specific number of strikes in a short span. It is not present in the primary article read here, so it is left out rather than repeated on trust.",
+      "palette": {
+        "bg": "#0E1420",
+        "ink": "#EDF1FA",
+        "accent": "#6BA5FF",
+        "muted": "#7C8699"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "You assume lightning only ever comes down",
+          "text": "This building sends some of it back up.",
+          "note": "In the mid-1930s, General Electric wired cameras and recording equipment to the Empire State Building to study its lightning. They found tall enough buildings can throw bolts upward, from the ground into the cloud."
+        },
+        {
+          "kind": "statement",
+          "lead": "It happens often enough to expect it",
+          "text": "About 25 times a year.",
+          "note": "That is the building's own count of strikes annually, carried safely to the ground by a copper rod and grounding system since the building opened in 1931."
+        },
+        {
+          "kind": "figure",
+          "value": "50000",
+          "unit": "deg F",
+          "context": "The temperature of the air in a bolt's wake, per the National Weather Service. About five times hotter than the surface of the Sun."
+        },
+        {
+          "kind": "kicker",
+          "text": "The bolt does not always know which way is down."
+        },
+        {
+          "kind": "sign",
+          "line": "Ninety-five years of storms, and it is still standing because of a copper wire.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "wasabi-almost-never-real",
+      "niche": "food",
+      "verified": true,
+      "sources": [
+        "https://www.kinjirushiusa.com/wasabi-vs-horseradish-wait-what/ — Kinjirushi Wasabi International, a working wasabi producer, read in full. States that the green paste served with sushi is typically horseradish and mustard with green colouring rather than Wasabia japonica; that real wasabi requires a narrow, constant temperature band, roughly 46 to 60 degrees Fahrenheit and ideally about 54, plus constant clean flowing water, and is grown in Japanese mountain regions such as Nagano and Shizuoka; that fresh real wasabi can cost around $250 per kilogram, citing Business Insider; and that horseradish is about 1.5 times more pungent than real wasabi, which has a milder, slightly sweet aftertaste that horseradish lacks."
+      ],
+      "verifiedNote": "Checked 5 Sep 2026. Figure beat is 250, per kg, because it is the concrete number that explains why the substitution happens at all. It is not deception for its own sake, it is a plant that is genuinely difficult to farm at any price most restaurants can pass on to a diner. Deliberately not used: specific percentages seen in other coverage, such as claims that 99 per cent of North American sushi restaurants, or 95 per cent of servings even within Japan, use the substitute. This piece read Kinjirushi's own account directly, and it says most and almost all rather than giving a number, so no percentage is put on screen. Kinjirushi sells wasabi and has a commercial interest in the distinction, which is exactly why the piece sticks to their verifiable facts, cultivation conditions, price, relative pungency, rather than their framing.",
+      "palette": {
+        "bg": "#0D1810",
+        "ink": "#EEF5EC",
+        "accent": "#7BC142",
+        "muted": "#7C8B78"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The green paste next to your sushi",
+          "text": "It is almost never wasabi.",
+          "note": "Most of what is served worldwide, and even much of what is served in Japan, is horseradish and mustard with green colouring standing in for the real plant."
+        },
+        {
+          "kind": "statement",
+          "lead": "The reason is not deception. It is the plant",
+          "text": "Real wasabi barely tolerates being farmed.",
+          "note": "It needs a narrow band of cool temperature and constantly flowing clean water, which is why it is grown almost exclusively in specific Japanese mountain regions."
+        },
+        {
+          "kind": "figure",
+          "value": "250",
+          "unit": "per kg",
+          "context": "Roughly what a kilogram of real, fresh wasabi can cost, in US dollars. Horseradish grows almost anywhere and costs a fraction of that."
+        },
+        {
+          "kind": "kicker",
+          "text": "The substitute is also spicier than the real thing."
+        },
+        {
+          "kind": "sign",
+          "line": "You have probably never actually tasted wasabi.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "space-invaders-aliens-not-tanks",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://shmuplations.com/nishikado/ — a translated interview with Tomohiro Nishikado, creator of Space Invaders (1978), read in full. Nishikado states he originally wanted the enemies to be tanks, but rejected the idea because a tank's cannon has to face forward to look right, which stopped working once the enemies needed to move sideways across the screen; he then considered airplanes, but the animation technology of the time could not render believable flight; he settled on aliens partly because their movement could look jerky and mechanical without seeming wrong, which suited the hardware. He explicitly states that, despite the frequent claim, Space Invaders was not meaningfully influenced by Star Wars. The interview also describes the game's title changing during development and, separately, a targeting quirk players discovered that let a skilled player rack up an enormous score by exploiting how the bottom row's shots behaved, which Nishikado says he only learned about from watching a player in an arcade."
+      ],
+      "verifiedNote": "Checked 5 Sep 2026, from a single but detailed primary source interview with the creator himself. Deliberately not repeated: the widely circulated version of this story where Nishikado supposedly avoided depicting soldiers because shooting people felt wrong. That framing does not appear in this interview, which gives technical and visual reasons at every step, tank cornering angles, animation limits, jerky motion suiting an alien, rather than a moral one. Rather than blend in a stronger version from a source not read here, the beats stick to what this interview actually says. The exact score reached in the scoring exploit is left unspecified rather than quoted from memory, since the figure was not confidently legible on re-check. The anecdote is used for the fact of the exploit, not for a specific score.",
+      "palette": {
+        "bg": "#0A0F0C",
+        "ink": "#E9F5E4",
+        "accent": "#4CFF6E",
+        "muted": "#758A78"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Everyone repeats the same origin story for this game",
+          "text": "The aliens were the third choice, not the first.",
+          "note": "Tomohiro Nishikado wanted tanks first. He wanted them to face forward to look right, and that stopped working the moment the enemies had to move sideways."
+        },
+        {
+          "kind": "credit",
+          "year": "1978",
+          "name": "Tomohiro Nishikado",
+          "role": "Designer at Taito. After tanks, he tried planes, but the hardware of the time could not animate believable flight. Aliens worked because jerky, mechanical movement did not look like a mistake on them."
+        },
+        {
+          "kind": "statement",
+          "lead": "The part people add for free",
+          "text": "He says it was not about Star Wars.",
+          "note": "Space Invaders shipped a year after Star Wars and people have assumed a connection ever since. Nishikado's own account credits animation limits and a tank that looked wrong, not the movie."
+        },
+        {
+          "kind": "kicker",
+          "text": "A cornering problem invented the alien shooter."
+        },
+        {
+          "kind": "sign",
+          "line": "The design that defined a genre was a workaround.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "zelda-battery-not-first",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://www.guinnessworldrecords.com/world-records/88157-first-videogame-with-a-battery-powered-save-feature — Guinness World Records' own record page, crediting The Legend of Zelda (1986) as the first game to have a battery as part of the game cartridge itself.",
+        "https://tedium.co/2019/02/21/video-game-save-state-history/ — Mark Christian, Tedium, read in full. States that The Legend of Zelda was not the first battery-backed cartridge, since Nintendo had already used the concept for a Japan-only Family BASIC programming environment in 1984, and not even the first game with a battery backup, since that was a 1985 game called Pop and Chips on the obscure Super Cassette Vision console. Zelda's actual distinction was hiding a small button-cell battery inside an otherwise ordinary cartridge, saving up to three sessions, where earlier battery-backed carts required players to insert their own bulky AA batteries. Also states Zelda's cartridge release helped make Nintendo's Japan-only Famicom Disk System obsolete, since battery saves on cartridge replicated the one advantage disks had offered."
+      ],
+      "verifiedNote": "Checked 5 Sep 2026. This is a direct contradiction between two sources naming the same game a record holder for two different, narrower things, and the resolution is to state both claims exactly as scoped rather than pick a winner. Guinness's own record is precisely worded: first game with a battery as part of the cartridge. Tedium's independent history confirms Guinness's narrow wording is doing real work. Nintendo's own 1984 Family BASIC and a 1985 game called Pop and Chips both used battery backup earlier, so first game to save your progress with a battery would be false. What Zelda actually did first was make that battery invisible, built into a cartridge that looked like any other, instead of needing the player to load their own AA batteries. Do not simplify this back to Zelda invented battery saves in any future edit.",
+      "palette": {
+        "bg": "#120A18",
+        "ink": "#F1E9F5",
+        "accent": "#B98CFF",
+        "muted": "#8A7C94"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Guinness World Records credits this game with a very specific first",
+          "text": "It was not the first battery-saved game.",
+          "note": "The Legend of Zelda, 1986, is officially the first game with a battery as part of the cartridge. That wording is precise because it has to be."
+        },
+        {
+          "kind": "credit",
+          "year": "1985",
+          "name": "Pop and Chips",
+          "role": "An obscure Super Cassette Vision game that used a battery backup a year before Zelda. Nintendo itself had used the concept even earlier, in a 1984 programming add-on."
+        },
+        {
+          "kind": "statement",
+          "lead": "So what did Zelda actually do first",
+          "text": "It made the battery disappear.",
+          "note": "Earlier battery-backed cartridges needed players to load their own bulky AA batteries. Zelda hid a slim button cell inside a cartridge that looked completely ordinary, saving up to three files."
+        },
+        {
+          "kind": "kicker",
+          "text": "That one hidden battery helped kill Nintendo's own disk drive."
+        },
+        {
+          "kind": "sign",
+          "line": "Not the first save. The first save you couldn't see.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "creeper-first-computer-virus",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Creeper_and_Reaper — read in full, well cited to contemporary and retrospective sources. States Creeper was written by Bob Thomas at BBN in 1971 for the PDP-10/TENEX operating system on ARPANET; it displayed the message I'M THE CREEPER: CATCH ME IF YOU CAN; it was not malicious and did not damage or steal data; because it only ran on TENEX machines, of which there were no more than 28 on ARPANET at the time, that was the hard ceiling on how far it could ever spread; and that Ray Tomlinson, separately known for developing networked email, wrote a self-replicating version of Creeper and then wrote a program called Reaper specifically to find and delete it, in 1972, commonly cited as the first antivirus program."
+      ],
+      "verifiedNote": "Checked 5 Sep 2026. Figure beat is 28, machines, because it is the actual scale check on the word virus here: the entire installed base Creeper could possibly reach was smaller than a school classroom, a useful contrast for a modern viewer used to malware measured in millions of infections. Ray Tomlinson's email work is mentioned only as his other, better known credit. It is well established and not the subject of this topic, so it is kept to a single line rather than expanded into a claim this entry does not need to make.",
+      "palette": {
+        "bg": "#0A0C10",
+        "ink": "#E7ECEE",
+        "accent": "#5CC8FF",
+        "muted": "#77828C"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The first computer virus was not built to harm anything",
+          "text": "It was built to say hello.",
+          "note": "In 1971, a program called Creeper moved between machines on ARPANET, the internet's ancestor, and printed a message rather than deleting or stealing anything."
+        },
+        {
+          "kind": "credit",
+          "year": "1971",
+          "name": "Bob Thomas",
+          "role": "At BBN, wrote Creeper for the PDP-10 operating system TENEX. It displayed: I'M THE CREEPER, CATCH ME IF YOU CAN."
+        },
+        {
+          "kind": "figure",
+          "value": "28",
+          "unit": "machines",
+          "context": "The absolute most computers Creeper could ever infect, because that was the entire population of TENEX machines then on ARPANET."
+        },
+        {
+          "kind": "statement",
+          "lead": "It also caused the second thing it's famous for",
+          "text": "It got hunted down on purpose.",
+          "note": "Ray Tomlinson, who separately built the first networked email, wrote a program called Reaper in 1972 whose only job was to find Creeper and delete it. The first virus. The first antivirus."
+        },
+        {
+          "kind": "kicker",
+          "text": "The internet's first infection topped out at 28 machines."
+        },
+        {
+          "kind": "sign",
+          "line": "It just wanted to say it had been there.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "alphafold-protein-nobel",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://www.nobelprize.org/prizes/chemistry/2024/popular-information/ — the Royal Swedish Academy of Sciences' own popular-science explanation of the 2024 Nobel Prize in Chemistry, read in full. States the prize was split: one half to David Baker for computational protein design, the other half jointly to Demis Hassabis and John Jumper for protein structure prediction, two distinct achievements recognised together. Establishes that predicting a protein's 3D shape from its amino acid sequence was an unsolved problem for over 50 years, traced to Christian Anfinsen's 1961 finding and Cyrus Levinthal's 1969 paradox; that decades of X-ray crystallography had solved roughly 200,000 protein structures; that Hassabis's AI model AlphaFold first competed at the CASP13 competition in 2018, reaching about 60 per cent accuracy against a roughly 90 per cent accuracy target; that after John Jumper joined and the model was rebuilt as AlphaFold2 using transformer neural networks, it reached near-90 per cent accuracy at CASP14 in 2020, judged by the competition's own founder to have solved the problem; that AlphaFold2 has since predicted the structure of virtually all 200 million known proteins and, by October 2024, had been used by more than two million people in 190 countries; and that Baker's separately awarded work involves designing proteins with structures that do not exist anywhere in nature, starting with a protein called Top7 in 2003."
+      ],
+      "verifiedNote": "Checked 5 Sep 2026, directly from the Nobel committee's own explanatory document rather than news summaries. Figure beat is 200, million, set against the roughly 200,000 structures decades of X-ray crystallography had managed, a thousand-fold jump that is the actual size of the achievement and a cleaner shock than the accuracy percentages. The correction this entry leads with: coverage often flattens the 2024 Chemistry Nobel into AI won a Nobel Prize, but the prize itself is explicit that it recognises two different things, predicting the shape of proteins that already exist, and designing entirely new ones that don't, awarded as two separate halves, not one shared idea. Deliberately not claimed: that Baker's half was itself pure deep learning from the outset. The source describes his software Rosetta as originating in the late 1990s from physical and chemical modelling, with AI methods folded in later, so the two halves are kept distinct rather than collapsed into a single AI story.",
+      "palette": {
+        "bg": "#0B0E14",
+        "ink": "#EAF0F5",
+        "accent": "#5B8CFF",
+        "muted": "#78829A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The headlines all said the same thing",
+          "text": "It was not one prize for one idea.",
+          "note": "The 2024 Nobel Prize in Chemistry was split in half: one half for predicting the shape of proteins that already exist, the other for designing entirely new ones that don't."
+        },
+        {
+          "kind": "credit",
+          "year": "2020",
+          "name": "Demis Hassabis and John Jumper",
+          "role": "Their AI model AlphaFold2 solved a problem chemists had chased for over fifty years: working out a protein's 3D shape from its amino acid sequence alone."
+        },
+        {
+          "kind": "figure",
+          "value": "200",
+          "unit": "million",
+          "context": "Roughly how many protein structures AlphaFold2 has predicted, against about 200,000 solved across sixty years of X-ray crystallography before it."
+        },
+        {
+          "kind": "statement",
+          "lead": "The other half of the same prize",
+          "text": "David Baker builds proteins that never existed.",
+          "note": "Starting with a protein called Top7 in 2003, his lab designs entirely new structures from scratch, not variations on ones nature already made."
+        },
+        {
+          "kind": "kicker",
+          "text": "One half reads life's code. The other half writes new lines in it."
+        },
+        {
+          "kind": "sign",
+          "line": "Two different breakthroughs. One shared afternoon in Stockholm.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
     }
   ]
 }
