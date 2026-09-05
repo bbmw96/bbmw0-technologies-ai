@@ -1,0 +1,47 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (spacewar-1972-olympics)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0E0B0F",
+    "ink": "#F2EDF0",
+    "accent": "#FF4D6D",
+    "muted": "#8C818A"
+  },
+  "niche": "gaming",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Esports is usually dated to the 2000s, LAN parties and stadiums",
+      "text": "The earliest tournament on record ran in a Stanford computer lab in 1972",
+      "note": "The Intergalactic Spacewar Olympics, organised by Rolling Stone writer Stewart Brand, took place on the evening of 19 October 1972 at Stanford's Artificial Intelligence Laboratory, with roughly twenty competitors.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1972",
+      "name": "Bruce Baumgart",
+      "role": "A Stanford graduate student who won the five-player free-for-all, practising left-handed and two-fisted play against beginners just to keep his own games interesting.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "First prize was not exactly a career-changer",
+      "text": "A year of Rolling Stone magazine, and by one attendee's account, some beer",
+      "note": "Stewart Brand organised the tournament and covered it himself for a Rolling Stone feature, 'Fanatic Life and Symbolic Death Among the Computer Bums', published 7 December 1972.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The photographer covering it that night, Annie Leibovitz, would go on to take John Lennon's last professional photograph and portrait Queen Elizabeth II.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "sign",
+      "line": "The tournament came before almost anyone had heard the word esports.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 112
+    }
+  ],
+  "cta": "Follow for more."
+}

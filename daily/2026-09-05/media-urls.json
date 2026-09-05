@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-05",
+  "repo": "bbmw96/bbmw0-technologies-ai",
+  "tag": "media-2026-09-05",
+  "base": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-05",
+  "urls": {
+    "at-symbol-arroba": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-05/daily-2026-09-05-at-symbol-arroba.mp4",
+    "comic-sans-rover": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-05/daily-2026-09-05-comic-sans-rover.mp4"
+  }
+}
