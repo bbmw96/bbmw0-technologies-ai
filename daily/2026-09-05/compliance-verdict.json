@@ -1,0 +1,191 @@
+{
+  "date": "2026-09-05",
+  "generatedAt": "2026-09-05T12:13:39.758Z",
+  "policyVersion": "1.0.0",
+  "strictMode": false,
+  "allowed": [
+    "comic-sans-rover",
+    "hawthorne-effect-myth"
+  ],
+  "blocked": [
+    "at-symbol-arroba"
+  ],
+  "results": [
+    {
+      "slug": "at-symbol-arroba",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "It was a merchant's mark, centuries before email.",
+      "niche": "tech",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "halal.intoxicants",
+          "message": "Prohibited under intoxicants: \"wine\".",
+          "detail": {
+            "term": "wine",
+            "category": "intoxicants"
+          }
+        },
+        {
+          "severity": "BLOCK",
+          "rule": "halal.origins_claim",
+          "message": "States a contested origins or deep-time claim as settled fact (matched: \\bevolv(?:ed|ing|es|e)\\b).",
+          "detail": {
+            "pattern": "\\bevolv(?:ed|ing|es|e)\\b"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "safety.context_review",
+          "message": "Context-sensitive term(s) present: wine. Legitimate in educational science and history, referred to the AI safety reviewer.",
+          "detail": {
+            "terms": [
+              "wine"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.222,
+        "worstTitleAgainst": "at-symbol-accounting",
+        "worstDescriptionSimilarity": 0.291,
+        "combo": "reel:#12100D:#CB7B3A:#EFE7D6",
+        "themeGap": 82,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "comic-sans-rover",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "was drawn for a cartoon dog.",
+      "niche": "tech",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "halal.context_review",
+          "message": "Term(s) needing context: wedding. Referred to the AI reviewer.",
+          "detail": {
+            "terms": [
+              "wedding"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.2,
+        "worstTitleAgainst": "hamburger-menu-xerox",
+        "worstDescriptionSimilarity": 0.251,
+        "combo": "reel:#0C0B10:#FF5FA2:#F3F1EA",
+        "themeGap": 82,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "hawthorne-effect-myth",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "People supposedly work harder simply because they know they are being watched.",
+      "niche": "productivity",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.106,
+        "worstTitleAgainst": "neural-net-layers",
+        "worstDescriptionSimilarity": 0.295,
+        "combo": "reel:#0B0D10:#4FA6A6:#ECEDEE",
+        "themeGap": 82,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    }
+  ]
+}

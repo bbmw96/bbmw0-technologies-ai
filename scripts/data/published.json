@@ -109,7 +109,10 @@
     "reel:cache-invalidation",
     "reel:captcha-already-existed",
     "reel:tennis-for-two",
-    "reel:mechanical-turk-hoax"
+    "reel:mechanical-turk-hoax",
+    "reel:hawthorne-effect-myth",
+    "reel:comic-sans-rover",
+    "reel:at-symbol-arroba"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -1809,6 +1812,53 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "hawthorne-effect-myth",
+      "date": "2026-09-05",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "People supposedly work harder simply because they know they are being watched.",
+      "description": "People supposedly work harder simply because they know they are being watched. That lesson comes from a 1920s factory study. There is a problem: the economists who finally found the original data were not convinced it happened as taught.\n\nCoined the term 'Hawthorne effect', nearly three decades after the studies it describes had ended. The name was applied retrospectively to results nobody had cleanly explained at the time.\n\nOutput rose in the room where nothing changed too. Researchers dimmed and brightened the lights in one room while leaving a second, unlit control room alone. Productivity climbed in both, which meant the lighting was never the real variable.\n\nHow long the original 1924 lighting data sat unexamined, until economists Steven Levitt and John List found it on microfilm in 2011 and reported only weak support for the effect nearly everyone had been taught.\n\n'A glorified anecdote.' Richard Nisbett's verdict on the whole idea: 'Once you have got the anecdote, you can throw away the data.'\n\nSources:\n- https://en.wikipedia.org/wiki/Hawthorne_effect: read in full. Established the illumination study (1924 to 1927, productivity rose in both the lit experimental room and the unchanged control room), that John R. P. French coined the term 'Hawthorne effect' in 1953, that economists Steven Levitt and John List located the original illumination data on microfilm at the University of Wisconsin in Milwaukee in 2011 and published a reanalysis finding only slight, not drastic, evidence for the effect, that this matched an earlier 1992 reanalysis by S. R. G. Jones, and Richard Nisbett's quoted description of the effect as 'a glorified anecdote'.\n- https://www.library.hbs.edu/hc/hawthorne/intro.html: Harvard Business School Baker Library Historical Collections, read in full. Established that Elton Mayo and Fritz Roethlisberger led the study, that it ran nine years (1924 to 1933) at the Hawthorne Works, the manufacturing plant of Western Electric outside Chicago, from the institution's own archival record of the experiments.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "_pSqMYpXNeA",
+      "youtubeUrl": "https://youtu.be/_pSqMYpXNeA",
+      "uploadedAt": "2026-09-05T12:19:50.852Z",
+      "privacy": "public"
+    },
+    {
+      "id": "comic-sans-rover",
+      "date": "2026-09-05",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "was drawn for a cartoon dog.",
+      "description": "was drawn for a cartoon dog. Comic Sans exists because of Rover, the animated dog in Microsoft Bob, a mid-90s program meant to make the PC friendly for beginners.\n\nA Microsoft designer. He opened a beta of Bob and found the dog speaking through a Times New Roman speech bubble. 'Dogs don't talk in Times New Roman,' he said, and started drawing.\n\nnot any real handwriting. Connare modelled the letters on the hand-lettering in graphic novels sitting on his desk, a casual voice for a cartoon, never meant for résumés or wedding invitations.\n\nIt missed Bob's own deadline. Comic Sans wasn't finished in time to ship inside Microsoft Bob. It went out later with Windows 95 instead, and from there leaked onto every desktop on the planet.\n\nThe font built for the dog never made it into the dog's program.\n\nSources:\n- https://qz.com/944927/comic-sans-history-type-designer-vincent-connare-explains-that-the-goofy-microsoft-font-was-originally-designed-for-a-dog: Quartz (Anne Quito), read directly: Comic Sans was designed by Microsoft's Vincent Connare for Microsoft Bob after he saw its cartoon dog Rover speaking through a Times New Roman speech bubble ('Dogs don't talk in Times New Roman!'); he based it on speech-bubble lettering in graphic novels and comic books; he missed the deadline for Bob's August 1995 release, so it shipped as a default typeface with Windows 95 instead; it later appeared on menus, CERN's Higgs boson announcement and FBI files.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "VLIPA9gb0fA",
+      "youtubeUrl": "https://youtu.be/VLIPA9gb0fA",
+      "uploadedAt": "2026-09-05T12:17:39.540Z",
+      "privacy": "public"
+    },
+    {
+      "id": "at-symbol-arroba",
+      "date": "2026-09-05",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It was a merchant's mark, centuries before email.",
+      "description": "It was a merchant's mark, centuries before email. It meant 'at the rate of': three crates @ two shillings. A trader's shorthand for a price, not a piece of computer punctuation.\n\nA Florentine merchant wrote the earliest known @ (standing in for an amphora, a unit of wine) in a letter about treasure the conquistadors shipped from Peru. In Spanish and Portuguese the sign is still 'arroba,' a unit of weight.\n\n@ had sat on typewriter keyboards since the 1880s. Little used, always there. Which is exactly why it was free for the taking when networks needed a character that would never turn up inside someone's name.\n\nRay Tomlinson grabbed @ to split the name from the machine. It was not an assignment: he was fooling around with ARPANET. He needed one symbol to mean this user at this computer, and @ already meant at. The address bar has looked that way ever since.\n\nA mark for pricing wine now sits in New York's Museum of Modern Art, credited to Tomlinson.\n\nSources:\n- https://www.guinnessworldrecords.com/world-records/104059-first-instance-of-at-sign: Guinness World Records, read in full. Establishes: per history professor Giorgio Stabile (La Sapienza, Rome), the first documented, credible appearance of @ dates to 4 May 1536, when Italian merchant Francesco Lapi used it to stand for an amphora (a unit of measurement) in a letter about treasure shipped by the conquistadors from Peru; earlier medieval-scribe uses arguably exist, but Lapi's is the first known use of @ as a character with a distinct meaning; an amphora was a wine vessel that became a unit of volume; @ evolved into shorthand for 'at' and appeared on typewriter keyboards in the 1880s; and the first use of @ in email dates to 1971.\n- https://gulfnews.com/world/americas/ray-tomlinson-inventor-of-email-and--symbol-dies-1.1685430: Associated Press obituary of Ray Tomlinson (via Gulf News), read in full. Establishes: Tomlinson invented the first network person-to-person email in 1971 on ARPANET; it was not an assignment ('he was just fooling around'), the first messages went between two machines side by side and were 'entirely forgettable'; he chose the @ symbol to connect the username with the destination address; and in 2010 MoMA's Department of Architecture and Design added the @ symbol to its collection, crediting Tomlinson.\n- https://www.britannica.com/topic/at-sign: Encyclopaedia Britannica, read (summary/lead). Corroborates that before the late 20th century the @ sign's primary use was commercial, signifying 'at the rate of,' and that it traces to the amphora/arroba unit of measure.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
     }
   ]
 }

@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (comic-sans-rover)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0C0B10",
+    "ink": "#F3F1EA",
+    "accent": "#FF5FA2",
+    "muted": "#837C8C"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The most mocked font on earth",
+      "text": "was drawn for a cartoon dog.",
+      "note": "Comic Sans exists because of Rover, the animated dog in Microsoft Bob, a mid-90s program meant to make the PC friendly for beginners.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1994",
+      "name": "Vincent Connare",
+      "role": "A Microsoft designer. He opened a beta of Bob and found the dog speaking through a Times New Roman speech bubble. 'Dogs don't talk in Times New Roman,' he said, and started drawing.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "He copied comic-book lettering",
+      "text": "not any real handwriting.",
+      "note": "Connare modelled the letters on the hand-lettering in graphic novels sitting on his desk, a casual voice for a cartoon, never meant for résumés or wedding invitations.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The twist",
+      "text": "It missed Bob's own deadline.",
+      "note": "Comic Sans wasn't finished in time to ship inside Microsoft Bob. It went out later with Windows 95 instead, and from there leaked onto every desktop on the planet.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The font built for the dog never made it into the dog's program.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "sign",
+      "line": "From a cartoon dog to CERN's Higgs boson slide.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}

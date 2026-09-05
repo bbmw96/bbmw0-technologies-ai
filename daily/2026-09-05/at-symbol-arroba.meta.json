@@ -1,0 +1,25 @@
+{
+  "slug": "at-symbol-arroba",
+  "date": "2026-09-05",
+  "title": "It was a merchant's mark, centuries before email.",
+  "description": "It was a merchant's mark, centuries before email. It meant 'at the rate of': three crates @ two shillings. A trader's shorthand for a price, not a piece of computer punctuation.\n\nA Florentine merchant wrote the earliest known @ (standing in for an amphora, a unit of wine) in a letter about treasure the conquistadors shipped from Peru. In Spanish and Portuguese the sign is still 'arroba,' a unit of weight.\n\n@ had sat on typewriter keyboards since the 1880s. Little used, always there. Which is exactly why it was free for the taking when networks needed a character that would never turn up inside someone's name.\n\nRay Tomlinson grabbed @ to split the name from the machine. It was not an assignment: he was fooling around with ARPANET. He needed one symbol to mean this user at this computer, and @ already meant at. The address bar has looked that way ever since.\n\nA mark for pricing wine now sits in New York's Museum of Modern Art, credited to Tomlinson.\n\nSources:\n- https://www.guinnessworldrecords.com/world-records/104059-first-instance-of-at-sign: Guinness World Records, read in full. Establishes: per history professor Giorgio Stabile (La Sapienza, Rome), the first documented, credible appearance of @ dates to 4 May 1536, when Italian merchant Francesco Lapi used it to stand for an amphora (a unit of measurement) in a letter about treasure shipped by the conquistadors from Peru; earlier medieval-scribe uses arguably exist, but Lapi's is the first known use of @ as a character with a distinct meaning; an amphora was a wine vessel that became a unit of volume; @ evolved into shorthand for 'at' and appeared on typewriter keyboards in the 1880s; and the first use of @ in email dates to 1971.\n- https://gulfnews.com/world/americas/ray-tomlinson-inventor-of-email-and--symbol-dies-1.1685430: Associated Press obituary of Ray Tomlinson (via Gulf News), read in full. Establishes: Tomlinson invented the first network person-to-person email in 1971 on ARPANET; it was not an assignment ('he was just fooling around'), the first messages went between two machines side by side and were 'entirely forgettable'; he chose the @ symbol to connect the username with the destination address; and in 2010 MoMA's Department of Architecture and Design added the @ symbol to its collection, crediting Tomlinson.\n- https://www.britannica.com/topic/at-sign: Encyclopaedia Britannica, read (summary/lead). Corroborates that before the late 20th century the @ sign's primary use was commercial, signifying 'at the rate of,' and that it traces to the amphora/arroba unit of measure.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-05-at-symbol-arroba.mp4",
+  "propsFile": "daily/2026-09-05/at-symbol-arroba.props.json",
+  "durationInFrames": 1122,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

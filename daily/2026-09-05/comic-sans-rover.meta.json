@@ -1,0 +1,25 @@
+{
+  "slug": "comic-sans-rover",
+  "date": "2026-09-05",
+  "title": "was drawn for a cartoon dog.",
+  "description": "was drawn for a cartoon dog. Comic Sans exists because of Rover, the animated dog in Microsoft Bob, a mid-90s program meant to make the PC friendly for beginners.\n\nA Microsoft designer. He opened a beta of Bob and found the dog speaking through a Times New Roman speech bubble. 'Dogs don't talk in Times New Roman,' he said, and started drawing.\n\nnot any real handwriting. Connare modelled the letters on the hand-lettering in graphic novels sitting on his desk, a casual voice for a cartoon, never meant for résumés or wedding invitations.\n\nIt missed Bob's own deadline. Comic Sans wasn't finished in time to ship inside Microsoft Bob. It went out later with Windows 95 instead, and from there leaked onto every desktop on the planet.\n\nThe font built for the dog never made it into the dog's program.\n\nSources:\n- https://qz.com/944927/comic-sans-history-type-designer-vincent-connare-explains-that-the-goofy-microsoft-font-was-originally-designed-for-a-dog: Quartz (Anne Quito), read directly: Comic Sans was designed by Microsoft's Vincent Connare for Microsoft Bob after he saw its cartoon dog Rover speaking through a Times New Roman speech bubble ('Dogs don't talk in Times New Roman!'); he based it on speech-bubble lettering in graphic novels and comic books; he missed the deadline for Bob's August 1995 release, so it shipped as a default typeface with Windows 95 instead; it later appeared on menus, CERN's Higgs boson announcement and FBI files.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-05-comic-sans-rover.mp4",
+  "propsFile": "daily/2026-09-05/comic-sans-rover.props.json",
+  "durationInFrames": 1080,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

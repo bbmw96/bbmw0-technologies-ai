@@ -1,0 +1,56 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (hawthorne-effect-myth)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0D10",
+    "ink": "#ECEDEE",
+    "accent": "#4FA6A6",
+    "muted": "#7B8385"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Every management course teaches the Hawthorne effect",
+      "text": "People supposedly work harder simply because they know they are being watched.",
+      "note": "That lesson comes from a 1920s factory study. There is a problem: the economists who finally found the original data were not convinced it happened as taught.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1953",
+      "name": "John R. P. French",
+      "role": "Coined the term 'Hawthorne effect', nearly three decades after the studies it describes had ended. The name was applied retrospectively to results nobody had cleanly explained at the time.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The original lighting study gave itself away",
+      "text": "Output rose in the room where nothing changed too.",
+      "note": "Researchers dimmed and brightened the lights in one room while leaving a second, unlit control room alone. Productivity climbed in both, which meant the lighting was never the real variable.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "87",
+      "unit": "years",
+      "context": "How long the original 1924 lighting data sat unexamined, until economists Steven Levitt and John List found it on microfilm in 2011 and reported only weak support for the effect nearly everyone had been taught.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "One psychologist put it more bluntly",
+      "text": "'A glorified anecdote.'",
+      "note": "Richard Nisbett's verdict on the whole idea: 'Once you have got the anecdote, you can throw away the data.'",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "sign",
+      "line": "The most cited finding in management may itself be a myth.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 112
+    }
+  ],
+  "cta": "Subscribe for more."
+}

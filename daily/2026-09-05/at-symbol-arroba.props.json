@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (at-symbol-arroba)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#12100D",
+    "ink": "#EFE7D6",
+    "accent": "#CB7B3A",
+    "muted": "#8A7F6E"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The @ in every email address",
+      "text": "It was a merchant's mark, centuries before email.",
+      "note": "It meant 'at the rate of': three crates @ two shillings. A trader's shorthand for a price, not a piece of computer punctuation.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1536",
+      "name": "Francesco Lapi",
+      "role": "A Florentine merchant wrote the earliest known @ (standing in for an amphora, a unit of wine) in a letter about treasure the conquistadors shipped from Peru. In Spanish and Portuguese the sign is still 'arroba,' a unit of weight.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "By the time computers arrived",
+      "text": "@ had sat on typewriter keyboards since the 1880s.",
+      "note": "Little used, always there. Which is exactly why it was free for the taking when networks needed a character that would never turn up inside someone's name.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "1971, a programmer just tinkering",
+      "text": "Ray Tomlinson grabbed @ to split the name from the machine.",
+      "note": "It was not an assignment: he was fooling around with ARPANET. He needed one symbol to mean this user at this computer, and @ already meant at. The address bar has looked that way ever since.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "A mark for pricing wine now sits in New York's Museum of Modern Art, credited to Tomlinson.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "sign",
+      "line": "@ meant 'at this price' for four centuries before 'at this computer.'",
+      "handle": "@bbmw.0",
+      "durationInFrames": 118
+    }
+  ],
+  "cta": "Subscribe for more."
+}
