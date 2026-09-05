@@ -1,0 +1,47 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (wasabi-almost-never-real)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0D1810",
+    "ink": "#EEF5EC",
+    "accent": "#7BC142",
+    "muted": "#7C8B78"
+  },
+  "niche": "food",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The green paste next to your sushi",
+      "text": "It is almost never wasabi.",
+      "note": "Most of what is served worldwide, and even much of what is served in Japan, is horseradish and mustard with green colouring standing in for the real plant.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The reason is not deception. It is the plant",
+      "text": "Real wasabi barely tolerates being farmed.",
+      "note": "It needs a narrow band of cool temperature and constantly flowing clean water, which is why it is grown almost exclusively in specific Japanese mountain regions.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "250",
+      "unit": "per kg",
+      "context": "Roughly what a kilogram of real, fresh wasabi can cost, in US dollars. Horseradish grows almost anywhere and costs a fraction of that.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "kicker",
+      "text": "The substitute is also spicier than the real thing.",
+      "durationInFrames": 76
+    },
+    {
+      "kind": "sign",
+      "line": "You have probably never actually tasted wasabi.",
+      "handle": "@bbm0902",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-09-05 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- jellyfish-not-truly-immortal ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-05-jellyfish-not-truly-immortal.mp4
+  uploaded public: https://youtu.be/i8HXN1fa9pc
+
+--- saturn-would-float ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-05-saturn-would-float.mp4
+  uploaded public: https://youtu.be/XRuOcp9MxUY
+
+--- wasabi-almost-never-real ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-05-wasabi-almost-never-real.mp4
+  uploaded public: https://youtu.be/vNmEFYwsdcg
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

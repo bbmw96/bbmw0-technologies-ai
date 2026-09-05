@@ -112,7 +112,10 @@
     "reel:mechanical-turk-hoax",
     "reel:hawthorne-effect-myth",
     "reel:comic-sans-rover",
-    "reel:at-symbol-arroba"
+    "reel:at-symbol-arroba",
+    "reel:saturn-would-float",
+    "reel:jellyfish-not-truly-immortal",
+    "reel:wasabi-almost-never-real"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -1859,6 +1862,57 @@
       "channelId": "yt-bbmw0",
       "special": false,
       "platform": "youtube"
+    },
+    {
+      "id": "saturn-would-float",
+      "date": "2026-09-05",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Saturn is lighter than water.",
+      "description": "Saturn is lighter than water. Not lighter in total. Lighter on average, per cubic centimetre, than the water in your kitchen tap. It is the only planet in the Solar System where that is true.\n\nSaturn's mass compared with Earth's. Almost entirely hydrogen and helium, the two lightest elements there are, stretched across a planet nine times Earth's width.\n\nOnly as a density comparison. There is no ocean anywhere near big enough, and if there were, the pressure at the bottom would stop the water from staying liquid. The density is real. The bathtub is not.\n\nNinety-five Earths' worth of mass, and still less dense than your bathwater.\n\nSources:\n- https://www.skyatnightmagazine.com/space-science/saturn-could-float-on-water\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "space",
+      "channelId": "yt-bbm0902",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "XRuOcp9MxUY",
+      "youtubeUrl": "https://youtu.be/XRuOcp9MxUY",
+      "uploadedAt": "2026-09-05T12:23:47.506Z",
+      "privacy": "public"
+    },
+    {
+      "id": "jellyfish-not-truly-immortal",
+      "date": "2026-09-05",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It cheats death. It does not skip ageing.",
+      "description": "It cheats death. It does not skip ageing. Turritopsis dohrnii can revert from an adult jellyfish back into its earlier polyp stage when it is stressed, injured, or ageing. That part is real and published.\n\nDescribed the reversal in the Biological Bulletin, using the phrase escaping death and achieving potential immortality, a title that outran the caveats inside its own paper.\n\nTheir colonies still get old. Aquarists who maintain polyp stock for years report it turning fragile after about six years: fewer healthy jellies, weaker responses. Reversing a life stage is not the same as not ageing.\n\nEven the biologist who wrote it up says: I'm not convinced.\n\nSources:\n- https://deepseanews.com/2013/07/are-jellyfish-immortal/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "animals",
+      "channelId": "yt-bbm0902",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "i8HXN1fa9pc",
+      "youtubeUrl": "https://youtu.be/i8HXN1fa9pc",
+      "uploadedAt": "2026-09-05T12:22:24.482Z",
+      "privacy": "public"
+    },
+    {
+      "id": "wasabi-almost-never-real",
+      "date": "2026-09-05",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It is almost never wasabi.",
+      "description": "It is almost never wasabi. Most of what is served worldwide, and even much of what is served in Japan, is horseradish and mustard with green colouring standing in for the real plant.\n\nReal wasabi barely tolerates being farmed. It needs a narrow band of cool temperature and constantly flowing clean water, which is why it is grown almost exclusively in specific Japanese mountain regions.\n\nRoughly what a kilogram of real, fresh wasabi can cost, in US dollars. Horseradish grows almost anywhere and costs a fraction of that.\n\nThe substitute is also spicier than the real thing.\n\nSources:\n- https://www.kinjirushiusa.com/wasabi-vs-horseradish-wait-what/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "food",
+      "channelId": "yt-bbm0902",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "vNmEFYwsdcg",
+      "youtubeUrl": "https://youtu.be/vNmEFYwsdcg",
+      "uploadedAt": "2026-09-05T12:25:08.922Z",
+      "privacy": "public"
     }
   ]
 }

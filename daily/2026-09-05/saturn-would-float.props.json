@@ -1,0 +1,47 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (saturn-would-float)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0F1A",
+    "ink": "#EDEFF6",
+    "accent": "#E8B65A",
+    "muted": "#7B8296"
+  },
+  "niche": "space",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "One planet breaks the pattern",
+      "text": "Saturn is lighter than water.",
+      "note": "Not lighter in total. Lighter on average, per cubic centimetre, than the water in your kitchen tap. It is the only planet in the Solar System where that is true.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "95",
+      "unit": "Earths",
+      "context": "Saturn's mass compared with Earth's. Almost entirely hydrogen and helium, the two lightest elements there are, stretched across a planet nine times Earth's width.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "So does that mean it floats",
+      "text": "Only as a density comparison.",
+      "note": "There is no ocean anywhere near big enough, and if there were, the pressure at the bottom would stop the water from staying liquid. The density is real. The bathtub is not.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Ninety-five Earths' worth of mass, and still less dense than your bathwater.",
+      "durationInFrames": 94
+    },
+    {
+      "kind": "sign",
+      "line": "Big is not the same as heavy.",
+      "handle": "@bbm0902",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
