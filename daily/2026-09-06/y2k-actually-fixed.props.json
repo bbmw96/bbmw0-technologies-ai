@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (y2k-actually-fixed)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0D0C",
+    "ink": "#EAF2EE",
+    "accent": "#2FD675",
+    "muted": "#7B8B84"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Every New Year's, someone points out that Y2K was nothing",
+      "text": "It was nothing because thousands of programmers spent years making sure of it",
+      "note": "Two-digit year fields, standard practice in software written from the 1960s onward to save expensive memory, would have read '00' as 1900 once 1999 ticked over, breaking date maths across banking, aviation and power systems worldwide.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1998",
+      "name": "John Koskinen",
+      "role": "Appointed by President Clinton to chair the President's Council on Year 2000 Conversion, reporting directly to the White House and coordinating the fix across every federal agency.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "figure",
+      "value": "8",
+      "unit": "billion $",
+      "context": "Precisely $8.05bn: what the US federal government alone spent finding and rewriting two-digit dates before the deadline. The Pentagon's own systems accounted for close to $3 billion of that.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "Estimates for the full worldwide repair bill vary wildly",
+      "text": "They still run from about $100 billion to $600 billion",
+      "note": "No single audited figure exists for global spending: it depends on which industries and which countries get counted. Every serious estimate still lands in eleven figures.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Nothing breaking was the point. It was never proof there was nothing to fix.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "sign",
+      "line": "It wasn't a hoax. It was a deadline that got met.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 112
+    }
+  ],
+  "cta": "Subscribe for more."
+}

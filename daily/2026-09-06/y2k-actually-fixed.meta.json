@@ -1,0 +1,25 @@
+{
+  "slug": "y2k-actually-fixed",
+  "date": "2026-09-06",
+  "title": "It was nothing because thousands of programmers spent years making sure of it",
+  "description": "It was nothing because thousands of programmers spent years making sure of it Two-digit year fields, standard practice in software written from the 1960s onward to save expensive memory, would have read '00' as 1900 once 1999 ticked over, breaking date maths across banking, aviation and power systems worldwide.\n\nAppointed by President Clinton to chair the President's Council on Year 2000 Conversion, reporting directly to the White House and coordinating the fix across every federal agency.\n\nPrecisely $8.05bn: what the US federal government alone spent finding and rewriting two-digit dates before the deadline. The Pentagon's own systems accounted for close to $3 billion of that.\n\nThey still run from about $100 billion to $600 billion No single audited figure exists for global spending: it depends on which industries and which countries get counted. Every serious estimate still lands in eleven figures.\n\nNothing breaking was the point. It was never proof there was nothing to fix.\n\nSources:\n- https://www.govexec.com/federal-news/1999/06/omb-says-y2k-cost-estimate-now-tops-8-billion/3527/\n- https://www.nextgov.com/people/2012/06/john-koskinen-y2k-revisited/249435/\n- https://en.wikipedia.org/wiki/John_Koskinen\n- https://www.cbsnews.com/news/pentagon-spends-3b-on-y2k-bug/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-06-y2k-actually-fixed.mp4",
+  "propsFile": "daily/2026-09-06/y2k-actually-fixed.props.json",
+  "durationInFrames": 1074,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

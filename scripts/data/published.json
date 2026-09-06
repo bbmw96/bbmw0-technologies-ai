@@ -116,7 +116,10 @@
     "reel:saturn-would-float",
     "reel:jellyfish-not-truly-immortal",
     "reel:wasabi-almost-never-real",
-    "reel:spacewar-1972-olympics"
+    "reel:spacewar-1972-olympics",
+    "reel:y2k-actually-fixed",
+    "reel:first-sms-merry-christmas",
+    "reel:vinland-1021"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -1957,6 +1960,53 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "y2k-actually-fixed",
+      "date": "2026-09-06",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It was nothing because thousands of programmers spent years making sure of it",
+      "description": "It was nothing because thousands of programmers spent years making sure of it Two-digit year fields, standard practice in software written from the 1960s onward to save expensive memory, would have read '00' as 1900 once 1999 ticked over, breaking date maths across banking, aviation and power systems worldwide.\n\nAppointed by President Clinton to chair the President's Council on Year 2000 Conversion, reporting directly to the White House and coordinating the fix across every federal agency.\n\nPrecisely $8.05bn: what the US federal government alone spent finding and rewriting two-digit dates before the deadline. The Pentagon's own systems accounted for close to $3 billion of that.\n\nThey still run from about $100 billion to $600 billion No single audited figure exists for global spending: it depends on which industries and which countries get counted. Every serious estimate still lands in eleven figures.\n\nNothing breaking was the point. It was never proof there was nothing to fix.\n\nSources:\n- https://www.govexec.com/federal-news/1999/06/omb-says-y2k-cost-estimate-now-tops-8-billion/3527/\n- https://www.nextgov.com/people/2012/06/john-koskinen-y2k-revisited/249435/\n- https://en.wikipedia.org/wiki/John_Koskinen\n- https://www.cbsnews.com/news/pentagon-spends-3b-on-y2k-bug/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "first-sms-merry-christmas",
+      "date": "2026-09-06",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Nobody typed it on a phone.",
+      "description": "Nobody typed it on a phone. It was sent from a computer. On 3 December 1992 an engineer at a desktop pushed two words onto the Vodafone network: Merry Christmas.\n\nA 22-year-old test engineer, sending it to Vodafone director Richard Jarvis at the company Christmas party. His team had spent a year building the Short Message Service, meant not for chatting, but as a kind of pager.\n\nHe had no way to text back. Phones then could receive a message but not compose one. The reply came as a phone call, from the party, to say it had worked.\n\nYou could not text someone on a rival network until 1999. Handsets only gained a way to send texts in 1993, and every message was capped at 160 characters by the network's bandwidth: the pinch that bred txt spk like LOL.\n\nThe text that started it all got no text in reply: the phone could not send one.\n\nSources:\n- https://www.history.com/this-day-in-history/december-3/first-sms-text-message-sent: HISTORY (This Day in History), read in full. Establishes: on 3 December 1992 Neil Papworth, a 22-year-old engineer at Sema Group Telecoms, used a personal computer to send the first SMS, 'Merry Christmas', over the Vodafone network to Richard Jarvis, a Vodafone director, at a holiday party; Sema had hoped to use short messages as a paging service; Papworth got a phone call back saying it worked because cellphones could not yet send messages in reply; one year later Nokia released the first phone with an SMS feature; messages were limited to 160 characters due to bandwidth constraints; and cross-network texting was only possible from 1999.\n- https://www.vodafone.com/news/newsroom/technology/25-anniversary-text-message: Vodafone (25th-anniversary article), read in full. Corroborates: Neil Papworth, 22, sent the first ever text from a computer to colleague Richard Jarvis on 3 December 1992, reading 'Merry Christmas,' while building an SMS for Vodafone; the 160-character limit; Nokia's 1993 SMS 'beep'; that texts could only be exchanged across networks from 1999; plus Papworth's own reflection that he had no idea texting would become so popular.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "lWFMCtZuy7o",
+      "youtubeUrl": "https://youtu.be/lWFMCtZuy7o",
+      "uploadedAt": "2026-09-06T12:30:45.175Z",
+      "privacy": "public"
+    },
+    {
+      "id": "vinland-1021",
+      "date": "2026-09-06",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Vikings beat him there by 471 years.",
+      "description": "Vikings beat him there by 471 years. Not legend, a dated find: European wood, cut with metal tools nobody in the area had, at the northern tip of Newfoundland.\n\nNobody could say exactly when it was occupied for another 61 years. Archaeologist Anne Stine Ingstad excavated it through the 1960s and dated it to \"around 1000 AD\" by comparing it with sites in Greenland and Iceland, a good estimate, not a year.\n\nA cosmic-ray spike from the year 993 is baked into tree rings everywhere on Earth. Researchers counted growth rings outward from that marked ring, on wood the Norse had felled and shaped, straight to the year they cut it.\n\nThe exact year, from 127 radiocarbon measurements across four wooden objects. Not \"around 1000\". Not a century. One year.\n\nLed the University of Groningen team that published the date in Nature, using the 993 solar storm as a fixed marker buried in the rings of every sample tested.\n\nSources:\n- https://www.nature.com/articles/s41586-021-03972-8: Kuitems, M., Wallace, B.L., Lindsay, C. et al., \"Evidence for European presence in the Americas in AD 1021,\" Nature (2021), read via abstract and multiple direct quotations in secondary science reporting (below). Establishes the AD 1021 date for Norse-cut wood at L'Anse aux Meadows.\n- https://www.smithsonianmag.com/science-nature/new-dating-method-shows-vikings-occupied-newfoundland-in-1021-ce-180978903/: Smithsonian Magazine, read directly. Establishes the method: a cosmic-ray-driven radiocarbon spike from a known solar storm in AD 993 is preserved in tree rings worldwide; researchers counted growth rings out from that marker ring to the bark edge on wood cut with metal blades, tools the region's Indigenous population did not have, landing on AD 1021.\n- https://www.sciencenews.org/article/vikings-north-america-date-newfoundland: Science News, read directly. Establishes the numbers: 127 radiocarbon measurements across 83 tree rings from four wooden objects, three of which retained their outermost growth ring; calls it the oldest precise date for Europeans in the Americas and the only one predating Columbus's 1492 voyage.\n- https://parks.canada.ca/lhn-nhs/nl/meadows/culture: Parks Canada, via search summary. Establishes site history: Norwegian explorer Helge Ingstad found the site in 1960; archaeologist Anne Stine Ingstad led excavations from 1961 to 1968 and identified it as Norse by comparison with Greenland and Iceland sites, dating it only broadly to around AD 1000; designated a National Historic Site of Canada in 1968 and a UNESCO World Heritage Site in 1978.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "VTrEbG_DASw",
+      "youtubeUrl": "https://youtu.be/VTrEbG_DASw",
+      "uploadedAt": "2026-09-06T12:32:51.285Z",
+      "privacy": "public"
     }
   ]
 }

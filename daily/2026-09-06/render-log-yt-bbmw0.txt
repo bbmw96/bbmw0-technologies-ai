@@ -1,0 +1,20 @@
+Rendering 3 Shorts for 2026-09-06 (concurrency=3, GL=default)
+Compliance: 2 cleared, 1 blocked (policy v1.0.0).
+Blocked by compliance: y2k-actually-fixed
+
+--- first-sms-merry-christmas ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-06-first-sms-merry-christmas.mp4
+  uploaded public: https://youtu.be/lWFMCtZuy7o
+
+--- vinland-1021 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-06-vinland-1021.mp4
+  uploaded public: https://youtu.be/VTrEbG_DASw
+
+--- y2k-actually-fixed ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-06-y2k-actually-fixed.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-06/compliance-verdict.json.
+
+=== Done. 3 rendered, 2 uploaded, 0 skipped, 1 blocked by compliance, 0 failed. ===

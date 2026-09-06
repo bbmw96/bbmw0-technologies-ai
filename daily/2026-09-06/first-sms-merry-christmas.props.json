@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (first-sms-merry-christmas)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0C0F12",
+    "ink": "#EAECEF",
+    "accent": "#4FA36B",
+    "muted": "#7C838C"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The first text message",
+      "text": "Nobody typed it on a phone.",
+      "note": "It was sent from a computer. On 3 December 1992 an engineer at a desktop pushed two words onto the Vodafone network: Merry Christmas.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1992",
+      "name": "Neil Papworth",
+      "role": "A 22-year-old test engineer, sending it to Vodafone director Richard Jarvis at the company Christmas party. His team had spent a year building the Short Message Service, meant not for chatting, but as a kind of pager.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Jarvis could read it",
+      "text": "He had no way to text back.",
+      "note": "Phones then could receive a message but not compose one. The reply came as a phone call, from the party, to say it had worked.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "And it stayed clumsy for years",
+      "text": "You could not text someone on a rival network until 1999.",
+      "note": "Handsets only gained a way to send texts in 1993, and every message was capped at 160 characters by the network's bandwidth: the pinch that bred txt spk like LOL.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The text that started it all got no text in reply: the phone could not send one.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "sign",
+      "line": "The first text said 'Merry Christmas', computer to a phone that could not answer.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 130
+    }
+  ],
+  "cta": "Subscribe for more."
+}

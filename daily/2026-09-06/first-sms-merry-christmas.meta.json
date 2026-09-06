@@ -1,0 +1,25 @@
+{
+  "slug": "first-sms-merry-christmas",
+  "date": "2026-09-06",
+  "title": "Nobody typed it on a phone.",
+  "description": "Nobody typed it on a phone. It was sent from a computer. On 3 December 1992 an engineer at a desktop pushed two words onto the Vodafone network: Merry Christmas.\n\nA 22-year-old test engineer, sending it to Vodafone director Richard Jarvis at the company Christmas party. His team had spent a year building the Short Message Service, meant not for chatting, but as a kind of pager.\n\nHe had no way to text back. Phones then could receive a message but not compose one. The reply came as a phone call, from the party, to say it had worked.\n\nYou could not text someone on a rival network until 1999. Handsets only gained a way to send texts in 1993, and every message was capped at 160 characters by the network's bandwidth: the pinch that bred txt spk like LOL.\n\nThe text that started it all got no text in reply: the phone could not send one.\n\nSources:\n- https://www.history.com/this-day-in-history/december-3/first-sms-text-message-sent: HISTORY (This Day in History), read in full. Establishes: on 3 December 1992 Neil Papworth, a 22-year-old engineer at Sema Group Telecoms, used a personal computer to send the first SMS, 'Merry Christmas', over the Vodafone network to Richard Jarvis, a Vodafone director, at a holiday party; Sema had hoped to use short messages as a paging service; Papworth got a phone call back saying it worked because cellphones could not yet send messages in reply; one year later Nokia released the first phone with an SMS feature; messages were limited to 160 characters due to bandwidth constraints; and cross-network texting was only possible from 1999.\n- https://www.vodafone.com/news/newsroom/technology/25-anniversary-text-message: Vodafone (25th-anniversary article), read in full. Corroborates: Neil Papworth, 22, sent the first ever text from a computer to colleague Richard Jarvis on 3 December 1992, reading 'Merry Christmas,' while building an SMS for Vodafone; the 160-character limit; Nokia's 1993 SMS 'beep'; that texts could only be exchanged across networks from 1999; plus Papworth's own reflection that he had no idea texting would become so popular.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "history",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-06-first-sms-merry-christmas.mp4",
+  "propsFile": "daily/2026-09-06/first-sms-merry-christmas.props.json",
+  "durationInFrames": 1134,
+  "audioUrl": "",
+  "niche": "history",
+  "composition": "Reel"
+}
