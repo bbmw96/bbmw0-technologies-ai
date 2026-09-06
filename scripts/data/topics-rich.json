@@ -4671,6 +4671,360 @@
           "handle": "@ai_game_odyssey"
         }
       ]
+    },
+    {
+      "id": "open-source-mit",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://web.mit.edu/Saltzer/www/publications/MITLicense.pdf: Jerome Saltzer's own 2020 account in IEEE Annals of the History of Computing, read in full. Establishes that there is no single canonical 'MIT License' text, only a family of related licences; that the first version was drafted by Saltzer and Larry Allen with MIT-affiliated attorneys Bob Sullivan and Sib Reppert for PC/IP (a TCP/IP stack for the IBM PC), first used in the distribution of 1 February 1984; the four guiding principles (permission for any purpose, no signed agreement or fee, three restrictions covering credit and promotional use, provided as-is); and that the X Window System version, drafted separately for Jim Gettys and Bob Scheifler, was first applied to X Version 10 Release 3 on 22 February 1986, two years after the PC/IP original.",
+        "https://opensource.com/article/19/4/history-mit-license: Gordon Haff, Opensource.com, 2019, read in full. Assembles first-hand accounts from Keith Packard and Jim Gettys; establishes that the licence text approved by the Open Source Initiative in 1999, still published today, is textually different from the 1986 X Consortium licence, and instead traces to the Expat XML library's licence from around 1998; notes the Free Software Foundation avoids the term 'MIT License' for this reason.",
+        "https://opensource.org/license/mit: the Open Source Initiative's current published text of 'The MIT License', used to confirm it omits the advertising-restriction clause present in the 1986 X11 text."
+      ],
+      "verifiedNote": "Checked 6 Sep 2026. I have not asserted a single birth date for 'the MIT License' because the sources genuinely disagree on what that phrase refers to: Saltzer dates the first version, for PC/IP, to 1 February 1984; Haff argues the X11 variant most people mean crystallised around 1987; and the text now published as the official MIT License traces to the separate Expat licence of about 1998. All three dates are given, attached to what they actually date. Not claimed: why the 1999 OSI text ended up matching Expat rather than the X11 wording. Haff's own sources call this unclear, possibly accidental, so that gap has not been filled with a guess.",
+      "palette": {
+        "bg": "#0F0E0C",
+        "ink": "#F2EEE4",
+        "accent": "#C9A227",
+        "muted": "#857F72"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Every open-source project seems to use it",
+          "text": "There is no official 'MIT License'.",
+          "note": "By Jerome Saltzer's own account, the words cover a family of related licences with different wording, not one document MIT ever finalised."
+        },
+        {
+          "kind": "credit",
+          "year": "1984",
+          "name": "Jerome Saltzer and Larry Allen",
+          "role": "MIT, working with attorneys Bob Sullivan and Sib Reppert. Not for the famous X Window System; the first version was drafted for PC/IP, an obscure TCP/IP stack for the IBM PC."
+        },
+        {
+          "kind": "statement",
+          "lead": "The X Window System version came later",
+          "text": "That one arrived on 22 February 1986.",
+          "note": "A separate set of attorneys reused Saltzer's four principles for Jim Gettys and Bob Scheifler, two years after the licence type it made famous already existed."
+        },
+        {
+          "kind": "statement",
+          "lead": "Even today's version does not match",
+          "text": "The text OSI approved in 1999 is not the X11 wording.",
+          "note": "It descends from the Expat XML parser's licence instead, and drops the X11 clause restricting use of the copyright holder's name in advertising."
+        },
+        {
+          "kind": "kicker",
+          "text": "The most copied licence on the internet was never actually finalised once."
+        },
+        {
+          "kind": "sign",
+          "line": "Free to reuse. Never one document.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "paper-folds",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://www.guinnessworldrecords.com/world-records/494571-most-times-to-fold-a-piece-of-paper: the official record entry, read in full. Establishes that Britney Gallivan, of Pomona, California, folded a single piece of paper in half twelve times on 27 January 2002, the first person to reach nine, ten, eleven and twelve folds; that the tissue paper used was 4,000 feet (1,219 metres) long; and that she derived her own equations for the minimum length needed for a given number of folds, published in her book 'How to Fold Paper in Half Twelve Times'.",
+        "https://www.sciencenews.org/article/folding-paper-half-twelve-times: Ivars Peterson, Science News, 22 January 2004, read in full. Explains the folk belief that paper cannot be folded more than seven or eight times; that Gallivan was a high-school student solving the problem for extra credit and proved it first on a folded strip of gold before doing it with paper; and computes from her published equation that the twelfth fold consumes 2,798,250 times as much paper as the first."
+      ],
+      "verifiedNote": "Checked 6 Sep 2026. The figure 2,798,250 is Ivars Peterson's own computation from applying Gallivan's published formula, not a number she states as a headline result herself; the arithmetic is consistent with the equation as printed, though it was not independently rebuilt from scratch. Not claimed: that folding more than seven or eight times is a mathematical impossibility. It never was; it only felt that way for an ordinary sheet, which is exactly what Gallivan's result overturned.",
+      "palette": {
+        "bg": "#0B0C0E",
+        "ink": "#F4F1E9",
+        "accent": "#3FA7A1",
+        "muted": "#7D8482"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "You have probably heard this rule",
+          "text": "You cannot fold paper more than seven or eight times.",
+          "note": "True for an ordinary sheet. It was never a law of mathematics, only a limit nobody had bothered to break."
+        },
+        {
+          "kind": "credit",
+          "year": "2002",
+          "name": "Britney Gallivan",
+          "role": "A California high-school student solving a fold-count challenge for extra credit. She proved it first on a folded strip of gold, then set out to do it with paper."
+        },
+        {
+          "kind": "statement",
+          "lead": "On 27 January 2002",
+          "text": "She folded a single sheet twelve times.",
+          "note": "The sheet was a strip of tissue paper about 1,219 metres long, three quarters of a mile, because length is what a fold count actually costs."
+        },
+        {
+          "kind": "figure",
+          "value": "2,798,250",
+          "unit": "times",
+          "context": "How much more paper the twelfth fold consumes than the first, by Gallivan's own equation. Not a guess; exponential growth, counted."
+        },
+        {
+          "kind": "kicker",
+          "text": "She did not break the rule. She worked out why it existed."
+        },
+        {
+          "kind": "sign",
+          "line": "The limit was never eight folds. It was arithmetic.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "desert-glass",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://theconversation.com/how-we-solved-the-mystery-of-libyan-desert-glass-117253: written by the Curtin University research team who published the study in the journal Geology, read in full. Establishes that Libyan desert glass formed about 29 million years ago from silica melted above 1,600 degrees Celsius; that the leading rival explanation was a 100-megaton airburst, 200 times the 2013 Chelyabinsk event; and that the discovery of former reidite, a high-pressure mineral, in around 10 per cent of zircon grains across all seven samples studied, is possible only from the shock wave of a genuine meteorite impact, not an airburst, because a 100-megaton airburst of that scale should recur roughly every 10,000 years and the geological record does not support that frequency.",
+        "https://www.ancient-origins.net/artifacts-other-artifacts/tutankhamun-s-scarab-brooch-was-born-28-million-year-old-comet-strike-021509: read in full. Confirms the scarab at the centre of Tutankhamun's brooch is carved from this natural desert glass, and covers a separate 2013 finding by Professor Jan Kramers of the University of Johannesburg: a diamond-bearing pebble found in the same desert, nicknamed 'Hypatia', whose diamonds needed extreme shock pressure to form, proposed as possibly the first known fragment of a comet nucleus found on Earth.",
+        "https://www.britannica.com/biography/Tutankhamun: read in full. Confirms Tutankhamun's reign as king of Egypt from about 1333 BC to 1323 BC, and that his tomb was discovered in the Valley of the Kings in 1922."
+      ],
+      "verifiedNote": "Checked 6 Sep 2026. The two research threads, the reidite impact evidence and the separate Hypatia comet-pebble claim, come from different teams and different papers; they are kept here as two distinct findings from the same desert rather than merged into one discovery, since the sources do not present them as the same result. No crater from the impact that made the glass has ever been found, which the Curtin team states outright as an open question, so the location is not implied to be settled. The scarab's exact carving date is not claimed, only that Tutankhamun's reign and his tomb's 1922 discovery are independently dated.",
+      "palette": {
+        "bg": "#120E08",
+        "ink": "#F3ECDC",
+        "accent": "#E0A63E",
+        "muted": "#8C7F63"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "In Tutankhamun's tomb",
+          "text": "One brooch is carved from a meteorite strike.",
+          "note": "The scarab at its centre is cut from natural yellow-green glass scattered across the Sahara. Ancient Egyptian jewellers were carving genuine impact glass, not shaping paint or dye."
+        },
+        {
+          "kind": "figure",
+          "value": "29",
+          "unit": "million years",
+          "context": "How long before Tutankhamun's reign a rock-shattering impact melted Saharan sand into the glass his jeweller later carved."
+        },
+        {
+          "kind": "statement",
+          "lead": "For decades, nobody could prove how",
+          "text": "It might have been an explosion in the air, not on the ground.",
+          "note": "A 100-megaton airburst, 200 times the 2013 Chelyabinsk event, could melt sand without leaving a crater. The debate ran for years."
+        },
+        {
+          "kind": "statement",
+          "lead": "The proof turned up inside the glass itself",
+          "text": "A mineral that only forms from a real ground impact.",
+          "note": "Reidite, found in roughly one in ten zircon grains across every sample tested, needs shock pressure an airburst cannot produce."
+        },
+        {
+          "kind": "kicker",
+          "text": "No crater has been found. The glass proves the strike happened anyway."
+        },
+        {
+          "kind": "sign",
+          "line": "A pharaoh wore evidence of an impact, three thousand years before anyone could read it.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "pixel-origin",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Frederic_C._Billingsley: read in full. Establishes that Frederic Crockett Billingsley (1921 to 2002), an engineer at NASA's Jet Propulsion Laboratory, published two papers in 1965 using the word 'pixel' to describe the picture elements of digitised images returned by space probes to the Moon and Mars, and may have been the first to publish that word; cites Richard F. Lyon's 2006 paper 'A Brief History of Pixel' as the source for this claim.",
+        "https://www.jonpeddie.com/news/tribute-the-father-of-the-pixel/: a tribute piece drawing on the same Lyon paper, read in full. Establishes that Billingsley did not coin the word himself: he learned it from Keith E. McFarland at the Link Division of General Precision in Palo Alto, who said only that it was 'in use at the time', around 1963, and did not know where it came from either."
+      ],
+      "verifiedNote": "Checked 6 Sep 2026. This is written as 'first published use', matching Wikipedia's own careful wording, 'may have been the first to publish', rather than claiming Billingsley invented the word. Both sources agree he learned it second-hand from McFarland, whose own account traces no further back than 'in use at the time'. No definitive coiner is named, because neither source supplies one.",
+      "palette": {
+        "bg": "#0A0C08",
+        "ink": "#EAF2E0",
+        "accent": "#8FD14F",
+        "muted": "#7C8873"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "You would guess it came from a screen",
+          "text": "The word 'pixel' was first published for a space probe, not a display.",
+          "note": "Frederic Billingsley used it in two 1965 papers describing digitised images sent back from the Moon and Mars."
+        },
+        {
+          "kind": "credit",
+          "year": "1965",
+          "name": "Frederic Billingsley",
+          "role": "An engineer at NASA's Jet Propulsion Laboratory. His papers on processing planetary probe images may be the first place 'pixel' ever appeared in print."
+        },
+        {
+          "kind": "statement",
+          "lead": "He did not coin it himself",
+          "text": "He picked it up from someone else at a different company.",
+          "note": "Keith McFarland, at Link Division in Palo Alto, told him it was already 'in use' around 1963. McFarland did not know where it came from either."
+        },
+        {
+          "kind": "kicker",
+          "text": "The word for the smallest piece of a picture arrived with no clean origin at all."
+        },
+        {
+          "kind": "sign",
+          "line": "Every screen you own is made of a word nobody can fully trace.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "procedural-worlds",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://www.rollingstone.com/culture/culture-news/no-mans-sky-how-games-are-building-themselves-104779/: read in full. Establishes that No Man's Sky, released by the 13-person UK studio Hello Games, contains 18 quintillion planets; that every player's copy is generated from the same shared starting seed rather than a unique one each; quotes Hello Games art director Grant Duncan describing the generation process as running seed values through 'boxes of math'; and that base creature templates vary size, colouring and features so that even a lifetime of play would not repeat a species.",
+        "https://dev.to/dubeykartikay/how-no-mans-sky-creates-18-quintillion-planets-with-just-math-3fgf: read in full. Explains that the game's seed is a 64-bit number, and that 2 to the power of 64 possible values is the source of the 18-quintillion figure."
+      ],
+      "verifiedNote": "Checked 6 Sep 2026. The dev.to piece is a technical explainer rather than a primary studio statement, so it is used only for the arithmetic (2 to the power of 64 equals roughly 18 quintillion), which is independently checkable; the studio-specific claims (team size, the shared seed, Duncan's quote) are drawn from the Rolling Stone piece, which interviewed the people involved. Not claimed: that any player has explored a meaningful fraction of the universe. Rolling Stone reports it would take billions of years, left out of the beats since it is someone else's estimate rather than a figure either source states as its own measured claim.",
+      "palette": {
+        "bg": "#08090F",
+        "ink": "#EDEFF7",
+        "accent": "#7C5CFF",
+        "muted": "#7A7C93"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "It sounds like a boast",
+          "text": "No Man's Sky contains 18 quintillion planets.",
+          "note": "A quintillion is a billion billion. The number is not an exaggeration; it is arithmetic."
+        },
+        {
+          "kind": "figure",
+          "value": "18",
+          "unit": "quintillion",
+          "context": "2 to the power of 64, the exact count of values a 64-bit seed number can take. Every planet in the game traces back to one number in that range."
+        },
+        {
+          "kind": "statement",
+          "lead": "Here is the part people get backwards",
+          "text": "Every player explores the same universe.",
+          "note": "Not a private, randomly generated world each time; one shared seed, unpacked locally, so two players who visit the same coordinates find the same planet."
+        },
+        {
+          "kind": "credit",
+          "year": "2016",
+          "name": "Hello Games",
+          "role": "A 13-person studio in the UK. Art director Grant Duncan described the process as running seed values through what he called 'boxes of math'."
+        },
+        {
+          "kind": "kicker",
+          "text": "The universe was not built by hand. It was built by one number, run through the right equations."
+        },
+        {
+          "kind": "sign",
+          "line": "Infinite was never the hard part. Consistent was.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "undo-not-tesler",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Undo: read in full. Establishes that undo was invented independently multiple times: the File Retrieval and Editing System (FRESS) at Brown University, begun in 1968, is reported as the first computer-based system with an undo feature; Warren Teitelman's Programmer's Assistant in BBN-LISP had an undo function by 1971; a 1971 PhD thesis by Marvin Zelkowitz proposed the related concept of reversible execution; and the Xerox PARC Bravo text editor had an undo command in 1974. Also establishes that Larry Tesler joined Apple in 1980 and, with Bill Atkinson, argued for undo's inclusion as a standard feature on the Apple Lisa; he did not invent the mechanism there.",
+        "https://en.wikipedia.org/wiki/File_Retrieval_and_Editing_System: read in full. Confirms FRESS was built starting in 1968 by Andries van Dam and his students, including Bob Wallace, at Brown University, running on an IBM 360 mainframe, and describes it as 'possibly the first computer-based system to have had an undo feature'.",
+        "https://en.wikipedia.org/wiki/Larry_Tesler: read in full. Confirms Tesler is credited specifically for cut, copy and paste and for the concept of modeless software; joined Xerox PARC in 1973; the article makes no claim that he invented undo."
+      ],
+      "verifiedNote": "Checked 6 Sep 2026. Several sites online casually credit the first undo command, dated 1968, to Larry Tesler. That pairing does not hold up: Tesler did not join Xerox PARC until 1973, five years after FRESS, and Wikipedia's own account of his career credits him with cut, copy and paste, not undo. 'Possibly the first' is used throughout rather than a hard claim, since Wikipedia's Undo article treats FRESS, Teitelman's 1971 work and the 1974 Bravo editor as parallel, independent inventions rather than a single clean lineage. A widely circulated quotation attributed to Andries van Dam about the 'world's first undo' has been deliberately left out, because it could not be traced to a source read directly this session.",
+      "palette": {
+        "bg": "#0D0F12",
+        "ink": "#EFEFEC",
+        "accent": "#5B8DEF",
+        "muted": "#7D828C"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Ask around",
+          "text": "Larry Tesler invented Ctrl+Z.",
+          "note": "It shows up on lists of things Tesler is credited for, next to the cut, copy and paste he actually did design."
+        },
+        {
+          "kind": "credit",
+          "year": "1968",
+          "name": "Andries van Dam",
+          "role": "Brown University. His FRESS system is the earliest computer program on record with an undo command, built while Tesler was still an undergraduate, five years before Tesler joined Xerox PARC."
+        },
+        {
+          "kind": "statement",
+          "lead": "Undo was not one invention",
+          "text": "It was built at least four times, separately.",
+          "note": "FRESS in 1968, Warren Teitelman's Programmer's Assistant by 1971, a 1971 doctoral thesis on reversible execution, and Xerox PARC's Bravo editor in 1974, all before Tesler enters the story."
+        },
+        {
+          "kind": "statement",
+          "lead": "What Tesler actually did",
+          "text": "In 1980, he fought to keep it.",
+          "note": "At Apple, he and Bill Atkinson argued to make undo a standard feature of the Lisa. Real influence, just not the invention."
+        },
+        {
+          "kind": "kicker",
+          "text": "Credit followed the more famous name, not the earlier date."
+        },
+        {
+          "kind": "sign",
+          "line": "Undo has a longer memory than the people who get credit for it.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "eye-single-photon",
+      "niche": "biology",
+      "verified": true,
+      "sources": [
+        "https://vaziri.rockefeller.edu/direct-detection-of-a-single-photon-by-humans/: the Vaziri Lab's own description of their study, read in full. Establishes the method (a quantum light source built from spontaneous parametric down-conversion, guaranteeing true single-photon events through post-selection), the trial design (a two-alternative forced-choice test run more than 30,000 times), the headline result (correct detection at a rate of 0.516, barely above the 0.5 random-chance baseline, rising to 0.60 for high-confidence responses only), and an unexpected secondary finding that an earlier photon, detected within about five seconds and peaking near 3.5 seconds, made a later single photon easier to detect, longer than the visual system's known response window.",
+        "https://www.nature.com/articles/535469b: Nature's own research highlight on the study, published 27 July 2016, read in full. Independently confirms three volunteers, the more than 30,000 trials, and that participants identified single photons more often than random guessing would predict; cites the study as Tinsley, Molodtsov, Prevedel, Wartmann, Espigule-Pons, Lauwers and Vaziri, Nature Communications 7, 12172 (2016)."
+      ],
+      "verifiedNote": "Checked 6 Sep 2026. The headline detection rate, 0.516, is barely above chance and only becomes strongly significant once the analysis is restricted to trials where subjects reported high confidence, 0.60; the more meaningful 30,000-trials figure is used for the figure beat rather than either probability, since a bare percentage that close to chance risked reading as a stronger result than the study itself claims. The priming effect, an earlier photon making a later one easier to detect, is described in the lab's own write-up as still physiologically unexplained, so the beat says exactly that rather than proposing a mechanism.",
+      "palette": {
+        "bg": "#05060A",
+        "ink": "#EDEFFA",
+        "accent": "#7FD1FF",
+        "muted": "#6E7484"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "In a dark lab in New York",
+          "text": "Three people caught single photons with their bare eyes.",
+          "note": "Not a faint flash; one indivisible particle of light, produced by a quantum source built specifically to guarantee it was really only one."
+        },
+        {
+          "kind": "credit",
+          "year": "2016",
+          "name": "Alipasha Vaziri",
+          "role": "Rockefeller University. His team ran the test more than 30,000 times, because a signal this faint needed that many trials to prove it was not noise."
+        },
+        {
+          "kind": "figure",
+          "value": "30,000",
+          "unit": "trials",
+          "context": "How many times the experiment repeated before the result cleared random chance. That is the cost of proving something this faint is real."
+        },
+        {
+          "kind": "statement",
+          "lead": "The stranger finding came second",
+          "text": "One photon primes the eye for the next.",
+          "note": "Detecting a photon made a second, unrelated photon easier to spot for several seconds afterwards, far longer than the retina's known response window, and still unexplained."
+        },
+        {
+          "kind": "kicker",
+          "text": "The eye's near-total blindness to light this faint was known since the 1940s. Proving it could see the absolute floor took until 2016."
+        },
+        {
+          "kind": "sign",
+          "line": "The dimmest possible flash. Confirmed, not assumed.",
+          "handle": "@bbm0902"
+        }
+      ]
     }
   ]
 }
