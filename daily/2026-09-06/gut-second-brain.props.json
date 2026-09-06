@@ -1,0 +1,47 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (gut-second-brain)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#160B18",
+    "ink": "#F3E9F0",
+    "accent": "#C2599B",
+    "muted": "#8A7787"
+  },
+  "niche": "biology",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "You have heard your gut called a second brain",
+      "text": "That is not a figure of speech.",
+      "note": "The lining of your gut holds a real, dense network of neurons, running from your oesophagus to your rectum, with its own name: the enteric nervous system.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1996",
+      "name": "Michael Gershon",
+      "role": "Columbia gastroenterologist who coined the term second brain and wrote the book on it, arguing the gut's nervous system deserved to be studied as more than plumbing.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "What makes it earn the name",
+      "text": "It can run with the brain disconnected.",
+      "note": "It has more neurons than your spinal cord, uses over thirty of the same signalling chemicals as your brain, and keeps working in a gut removed entirely from the body.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "It cannot think for you. It can absolutely talk to you.",
+      "durationInFrames": 88
+    },
+    {
+      "kind": "sign",
+      "line": "Gut instinct has more nerve behind it than the phrase lets on.",
+      "handle": "@bbm0902",
+      "durationInFrames": 118
+    }
+  ],
+  "cta": "Subscribe for more."
+}

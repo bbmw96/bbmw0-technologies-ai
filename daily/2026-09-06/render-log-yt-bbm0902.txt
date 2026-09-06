@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-09-06 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- empire-state-lightning-goes-up ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-06-empire-state-lightning-goes-up.mp4
+  uploaded public: https://youtu.be/eA_KTa9szLw
+
+--- gut-second-brain ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-06-gut-second-brain.mp4
+  uploaded public: https://youtu.be/Dmj063CqjdE
+
+--- henrietta-lacks-hela ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-06-henrietta-lacks-hela.mp4
+  uploaded public: https://youtu.be/tw5E47jD390
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

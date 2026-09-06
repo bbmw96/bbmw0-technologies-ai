@@ -1,0 +1,47 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (empire-state-lightning-goes-up)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0E1420",
+    "ink": "#EDF1FA",
+    "accent": "#6BA5FF",
+    "muted": "#7C8699"
+  },
+  "niche": "weather",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "You assume lightning only ever comes down",
+      "text": "This building sends some of it back up.",
+      "note": "In the mid-1930s, General Electric wired cameras and recording equipment to the Empire State Building to study its lightning. They found tall enough buildings can throw bolts upward, from the ground into the cloud.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "It happens often enough to expect it",
+      "text": "About 25 times a year.",
+      "note": "That is the building's own count of strikes annually, carried safely to the ground by a copper rod and grounding system since the building opened in 1931.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "50000",
+      "unit": "deg F",
+      "context": "The temperature of the air in a bolt's wake, per the National Weather Service. About five times hotter than the surface of the Sun.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "kicker",
+      "text": "The bolt does not always know which way is down.",
+      "durationInFrames": 82
+    },
+    {
+      "kind": "sign",
+      "line": "Ninety-five years of storms, and it is still standing because of a copper wire.",
+      "handle": "@bbm0902",
+      "durationInFrames": 130
+    }
+  ],
+  "cta": "Subscribe for more."
+}

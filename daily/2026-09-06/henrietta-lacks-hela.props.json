@@ -1,0 +1,56 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (henrietta-lacks-hela)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0D0C",
+    "ink": "#EAF0EC",
+    "accent": "#3FA66B",
+    "muted": "#758079"
+  },
+  "niche": "biology",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The Henrietta Lacks story usually ends on an injustice with no resolution",
+      "text": "It is now also a story about lawsuits actually being won.",
+      "note": "In 2021 her estate sued the companies that had profited for decades from her cells. Thermo Fisher Scientific settled in 2023. Novartis followed in 2026.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1951",
+      "name": "Henrietta Lacks",
+      "role": "A 31 year old mother of five, treated for cervical cancer at Johns Hopkins Hospital. Doctors took a tissue sample during her biopsy without telling her. She died the same year.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Every sample taken before hers had died within days",
+      "text": "Hers doubled every 20 to 24 hours, and simply did not stop.",
+      "note": "Cell biologist George Gey's lab had collected samples from cancer patients for years. Lacks's were the first that would not die in a dish, the first human cell line to survive indefinitely outside a body.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "60,000",
+      "unit": "papers",
+      "context": "The count of scientific papers built on HeLa cells by 2009 alone, and still climbing then by more than 300 a month.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "statement",
+      "lead": "Those cells eventually solved their own origin story",
+      "text": "In the 1980s, a scientist found the virus that had caused her cancer, still living in her cells.",
+      "note": "Harald zur Hausen identified HPV18 in the original HeLa sample, the same virus that had caused Lacks's cervical cancer. The discovery won him a Nobel Prize and led directly to the HPV vaccine.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "Her cells have outlived her by three quarters of a century, and are still dividing.",
+      "handle": "@bbm0902",
+      "durationInFrames": 136
+    }
+  ],
+  "cta": "Subscribe for more."
+}
