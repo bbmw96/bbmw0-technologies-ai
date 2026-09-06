@@ -8,10 +8,12 @@
     "vinland-1021",
     "empire-state-lightning-goes-up",
     "gut-second-brain",
-    "henrietta-lacks-hela"
+    "henrietta-lacks-hela",
+    "zelda-battery-not-first"
   ],
   "blocked": [
-    "y2k-actually-fixed"
+    "y2k-actually-fixed",
+    "prng-not-random"
   ],
   "results": [
     {
@@ -312,6 +314,111 @@
         "worstTitleAgainst": "parkinsons-law",
         "worstDescriptionSimilarity": 0.268,
         "combo": "reel:#0A0D0C:#3FA66B:#EAF0EC",
+        "themeGap": 91,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "prng-not-random",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "BLOCK",
+      "title": "It runs a formula and reads you the next line of a script.",
+      "niche": "ai",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "instagram.caption_too_long",
+          "message": "Caption is 2532 chars, Instagram limit is 2200.",
+          "detail": null
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.143,
+        "worstTitleAgainst": "eliza-doctor",
+        "worstDescriptionSimilarity": 0.282,
+        "combo": "reel:#0A0C0B:#B98A2E:#E7EAE6",
+        "themeGap": 91,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "zelda-battery-not-first",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "It was not the first battery-saved game.",
+      "niche": "gaming",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "safety.context_review",
+          "message": "Context-sensitive term(s) present: kill. Legitimate in educational science and history, referred to the AI safety reviewer.",
+          "detail": {
+            "terms": [
+              "kill"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.286,
+        "worstTitleAgainst": "first-video-game",
+        "worstDescriptionSimilarity": 0.224,
+        "combo": "reel:#120A18:#B98CFF:#F1E9F5",
         "themeGap": 91,
         "audioGap": 0
       },

@@ -1,0 +1,25 @@
+{
+  "slug": "prng-not-random",
+  "date": "2026-09-06",
+  "title": "It runs a formula and reads you the next line of a script.",
+  "description": "It runs a formula and reads you the next line of a script. Same starting seed, same sequence, every time. Nothing is chosen; it is all pre-computed. That is why they are called pseudo-random.\n\nHe built the first computer method for it (square a number, keep the middle digits, repeat) for Monte Carlo runs on ENIAC. He also warned exactly what it was.\n\nAnyone who considers arithmetical methods of producing random digits is, of course, in a state of sin. His point: no formula is truly random. He used them anyway (hundreds of times faster than reading random numbers off punch cards), knowing precisely what they were.\n\nHit the wrong number and it spits zeros forever. The middle-square method can collapse to zero, or fall into a short loop, and never recover. Von Neumann counted that a virtue: a failure you can at least catch.\n\nEven an AI's flashes of randomness are a formula quietly choosing the next number.\n\nSources:\n- https://en.wikipedia.org/wiki/Middle-square_method: read in full. Establishes: the middle-square method (square an n-digit number, take the middle n digits, repeat) was invented by John von Neumann and described at a 1949 conference (papers reprinted 1951 as 'Various techniques used in connection with random digits,' Monte Carlo Method, NBS Applied Mathematics Series vol. 12); von Neumann's quip 'Anyone who considers arithmetical methods of producing random digits is, of course, in a state of sin,' meaning no strict arithmetic procedure is truly random; that he used them anyway because they were hundreds of times faster than reading random numbers off punch cards, important for his ENIAC work; and that the method degenerates: if the middle digits become all zeroes it outputs zeroes forever, and it can fall into short cycles.\n- https://courses.physics.illinois.edu/phys466/sp2013/lnotes/random_numbers.html: University of Illinois PHYS 466 course notes (Ceperley/Johnson), read in full. Corroborates the von Neumann 1951 quote; distinguishes truly random (e.g. Geiger counts of radioactive decay) from pseudo-random (deterministic, with a repeating period) and quasi-random; states plainly that 'computers as they are now constructed are deterministic' and that everyone uses PRNGs, a mapping s(n+1)=f(s(n)) seeded from something like the clock; and notes true hardware randomness is avoided as too slow and expensive.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-06-prng-not-random.mp4",
+  "propsFile": "daily/2026-09-06/prng-not-random.props.json",
+  "durationInFrames": 1092,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}

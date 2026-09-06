@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-06",
+  "repo": "bbmw96/bbmw0-technologies-ai",
+  "tag": "media-2026-09-06",
+  "base": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-06",
+  "urls": {
+    "prng-not-random": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-06/daily-2026-09-06-prng-not-random.mp4",
+    "y2k-actually-fixed": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-06/daily-2026-09-06-y2k-actually-fixed.mp4",
+    "zelda-battery-not-first": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-06/daily-2026-09-06-zelda-battery-not-first.mp4"
+  }
+}

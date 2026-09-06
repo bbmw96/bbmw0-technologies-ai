@@ -122,7 +122,9 @@
     "reel:vinland-1021",
     "reel:henrietta-lacks-hela",
     "reel:empire-state-lightning-goes-up",
-    "reel:gut-second-brain"
+    "reel:gut-second-brain",
+    "reel:prng-not-random",
+    "reel:zelda-battery-not-first"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -2061,6 +2063,49 @@
       "youtubeUrl": "https://youtu.be/Dmj063CqjdE",
       "uploadedAt": "2026-09-06T12:38:53.352Z",
       "privacy": "public"
+    },
+    {
+      "id": "prng-not-random",
+      "date": "2026-09-06",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It runs a formula and reads you the next line of a script.",
+      "description": "It runs a formula and reads you the next line of a script. Same starting seed, same sequence, every time. Nothing is chosen; it is all pre-computed. That is why they are called pseudo-random.\n\nHe built the first computer method for it (square a number, keep the middle digits, repeat) for Monte Carlo runs on ENIAC. He also warned exactly what it was.\n\nAnyone who considers arithmetical methods of producing random digits is, of course, in a state of sin. His point: no formula is truly random. He used them anyway (hundreds of times faster than reading random numbers off punch cards), knowing precisely what they were.\n\nHit the wrong number and it spits zeros forever. The middle-square method can collapse to zero, or fall into a short loop, and never recover. Von Neumann counted that a virtue: a failure you can at least catch.\n\nEven an AI's flashes of randomness are a formula quietly choosing the next number.\n\nSources:\n- https://en.wikipedia.org/wiki/Middle-square_method: read in full. Establishes: the middle-square method (square an n-digit number, take the middle n digits, repeat) was invented by John von Neumann and described at a 1949 conference (papers reprinted 1951 as 'Various techniques used in connection with random digits,' Monte Carlo Method, NBS Applied Mathematics Series vol. 12); von Neumann's quip 'Anyone who considers arithmetical methods of producing random digits is, of course, in a state of sin,' meaning no strict arithmetic procedure is truly random; that he used them anyway because they were hundreds of times faster than reading random numbers off punch cards, important for his ENIAC work; and that the method degenerates: if the middle digits become all zeroes it outputs zeroes forever, and it can fall into short cycles.\n- https://courses.physics.illinois.edu/phys466/sp2013/lnotes/random_numbers.html: University of Illinois PHYS 466 course notes (Ceperley/Johnson), read in full. Corroborates the von Neumann 1951 quote; distinguishes truly random (e.g. Geiger counts of radioactive decay) from pseudo-random (deterministic, with a repeating period) and quasi-random; states plainly that 'computers as they are now constructed are deterministic' and that everyone uses PRNGs, a mapping s(n+1)=f(s(n)) seeded from something like the clock; and notes true hardware randomness is avoided as too slow and expensive.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "zelda-battery-not-first",
+      "date": "2026-09-06",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It was not the first battery-saved game.",
+      "description": "It was not the first battery-saved game. The Legend of Zelda, 1986, is officially the first game with a battery as part of the cartridge. That wording is precise because it has to be.\n\nAn obscure Super Cassette Vision game that used a battery backup a year before Zelda. Nintendo itself had used the concept even earlier, in a 1984 programming add-on.\n\nIt made the battery disappear. Earlier battery-backed cartridges needed players to load their own bulky AA batteries. Zelda hid a slim button cell inside a cartridge that looked completely ordinary, saving up to three files.\n\nThat one hidden battery helped kill Nintendo's own disk drive.\n\nSources:\n- https://www.guinnessworldrecords.com/world-records/88157-first-videogame-with-a-battery-powered-save-feature\n- https://tedium.co/2019/02/21/video-game-save-state-history/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram",
+      "youtubeId": "18406851688090797",
+      "youtubeUrl": "https://youtu.be/18406851688090797",
+      "uploadedAt": "2026-09-06T12:47:53.369Z",
+      "privacy": "public"
+    },
+    {
+      "id": "y2k-actually-fixed",
+      "date": "2026-09-06",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It was nothing because thousands of programmers spent years making sure of it",
+      "description": "It was nothing because thousands of programmers spent years making sure of it Two-digit year fields, standard practice in software written from the 1960s onward to save expensive memory, would have read '00' as 1900 once 1999 ticked over, breaking date maths across banking, aviation and power systems worldwide.\n\nAppointed by President Clinton to chair the President's Council on Year 2000 Conversion, reporting directly to the White House and coordinating the fix across every federal agency.\n\nPrecisely $8.05bn: what the US federal government alone spent finding and rewriting two-digit dates before the deadline. The Pentagon's own systems accounted for close to $3 billion of that.\n\nThey still run from about $100 billion to $600 billion No single audited figure exists for global spending: it depends on which industries and which countries get counted. Every serious estimate still lands in eleven figures.\n\nNothing breaking was the point. It was never proof there was nothing to fix.\n\nSources:\n- https://www.govexec.com/federal-news/1999/06/omb-says-y2k-cost-estimate-now-tops-8-billion/3527/\n- https://www.nextgov.com/people/2012/06/john-koskinen-y2k-revisited/249435/\n- https://en.wikipedia.org/wiki/John_Koskinen\n- https://www.cbsnews.com/news/pentagon-spends-3b-on-y2k-bug/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }
