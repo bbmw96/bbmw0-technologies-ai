@@ -1,0 +1,23 @@
+Rendering 3 Shorts for 2026-09-07 (concurrency=3, GL=default)
+Compliance: 1 cleared, 2 blocked (policy v1.0.0).
+Blocked by compliance: deep-blue-kasparov, first-website-cern
+
+--- dartmouth-ai-1956 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-07-dartmouth-ai-1956.mp4
+  hosting media so Instagram can fetch it...
+  ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
+  instagram via: Composio
+  published to Instagram: media 17960026818205664
+
+--- deep-blue-kasparov ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-07-deep-blue-kasparov.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-07/compliance-verdict.json.
+
+--- first-website-cern ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-07-first-website-cern.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-07/compliance-verdict.json.
+
+=== Done. 3 rendered, 1 uploaded, 0 skipped, 2 blocked by compliance, 0 failed. ===

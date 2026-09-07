@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (dartmouth-ai-1956)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0C10",
+    "ink": "#EDEFF5",
+    "accent": "#7C8CFF",
+    "muted": "#7A8090"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "AI is always said to have begun with a landmark meeting of minds",
+      "text": "Most days, three to eight people actually showed up.",
+      "note": "The 1955 proposal asked the Rockefeller Foundation to fund '10 men' for '2 months'. Only three of them, John McCarthy, Marvin Minsky and Ray Solomonoff, stayed for the entire eight weeks.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1955",
+      "name": "John McCarthy",
+      "role": "Wrote the funding proposal with Minsky, Rochester and Shannon, and coined the field's name inside it. He wanted a neutral term, anything but 'cybernetics', which would have meant working under the combative Norbert Wiener.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "One talk that summer outlasted the rest",
+      "text": "Newell and Simon showed a program that already reasoned.",
+      "note": "Their Logic Theory Machine used symbolic logic to prove mathematical theorems. In 1975 they won computing's highest honour, the Turing Award, for the work it began.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "8",
+      "unit": "weeks",
+      "context": "How long the workshop actually ran, from 18 June to 17 August 1956, by the attendees' own notes. It is usually remembered as six.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "kicker",
+      "text": "The dictionary they used to look up 'heuristic' is still in that room.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "sign",
+      "line": "Three people. Eight weeks. One new field.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Follow for more."
+}

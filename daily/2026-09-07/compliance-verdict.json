@@ -4,11 +4,13 @@
   "policyVersion": "1.0.0",
   "strictMode": false,
   "allowed": [
-    "first-website-cern"
+    "first-website-cern",
+    "dartmouth-ai-1956"
   ],
   "blocked": [
     "esrb-mortal-kombat-hearing",
-    "napoleon-not-short"
+    "napoleon-not-short",
+    "deep-blue-kasparov"
   ],
   "results": [
     {
@@ -201,6 +203,113 @@
         "worstTitleAgainst": "training-vs-inference",
         "worstDescriptionSimilarity": 0.28,
         "combo": "reel:#0D0F1A:#C9A24B:#F0EAD8",
+        "themeGap": 100,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "dartmouth-ai-1956",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Most days, three to eight people actually showed up.",
+      "niche": "ai",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.111,
+        "worstTitleAgainst": "ctrl-alt-del",
+        "worstDescriptionSimilarity": 0.279,
+        "combo": "reel:#0A0C10:#7C8CFF:#EDEFF5",
+        "themeGap": 100,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "deep-blue-kasparov",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "BLOCK",
+      "title": "He accused IBM of secretly using a human grandmaster.",
+      "niche": "ai",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "instagram.caption_too_long",
+          "message": "Caption is 2886 chars, Instagram limit is 2200.",
+          "detail": null
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.1,
+        "worstTitleAgainst": "training-vs-inference",
+        "worstDescriptionSimilarity": 0.271,
+        "combo": "reel:#0C0D10:#4C6EF5:#EDEEF2",
         "themeGap": 100,
         "audioGap": 0
       },

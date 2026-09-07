@@ -1,0 +1,25 @@
+{
+  "slug": "deep-blue-kasparov",
+  "date": "2026-09-07",
+  "title": "He accused IBM of secretly using a human grandmaster.",
+  "description": "He accused IBM of secretly using a human grandmaster. After Deep Blue beat the reigning world chess champion in 1997, Garry Kasparov refused to believe a machine had done it. It echoed 18th and 19th century chess-automaton hoaxes, in which a hidden person, not the machine, did the actual playing.\n\nMoves 36 and 37 in one game looked too human to be brute force. Kasparov and grandmaster observers felt the moves were too sophisticated for a machine playing by raw calculation. IBM denied any human intervention beyond fixing bugs between games.\n\nA glitch made Deep Blue pick a move at random rather than its best-calculated one. One of the machine's own designers has said a fail-safe kicked in when the computer couldn't settle on a move, and Kasparov read the random result as a sign of deeper strategy than was actually there.\n\nCustom chess-only processors built into the machine, working in parallel. Not learning, not intuition, just purpose-built calculation at scale.\n\nIBM never gave him one. Deep Blue's exact fate after 1997 is described differently by different accounts, but every account agrees on this: the third match Kasparov wanted never happened.\n\nSources:\n- https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov - read in full 1 Sep 2026: Kasparov won the 1996 Philadelphia match 4-2; Deep Blue won the 1997 New York rematch 3.5-2.5, the first defeat of a reigning world chess champion by a computer under standard tournament conditions; Game 1's move 44 was allegedly the result of a bug, in which Deep Blue, unable to settle on a move, resorted to a fail-safe; after losing Game 2 in a position later shown to be drawable, Kasparov accused IBM of cheating, alleging a grandmaster had made moves for the machine, specifically 36.axb5 and 37.Be4; the article's own lead states that although it was reported IBM had dismantled Deep Blue afterward, it in fact remained in operation for several years.\n- https://theconversation.com/twenty-years-on-from-deep-blue-vs-kasparov-how-a-chess-match-started-the-big-data-revolution-76882 - read in full 1 Sep 2026: academic retrospective corroborating the cheating accusation and IBM's denial (stating the only human intervention was fixing bugs between games); adds that Kasparov's suspicion echoed 18th and 19th century chess-automaton hoaxes; grandmaster John Nunn called one Deep Blue move 'stunning' and 'exceptional'; one of Deep Blue's own designers has said a glitch made the machine pick a move at random rather than its calculated best, which Kasparov read as deeper strategy; the final configuration of the machine controlled 480 custom integrated circuits designed specifically to play chess; IBM refused Kasparov's request for a rematch.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-07-deep-blue-kasparov.mp4",
+  "propsFile": "daily/2026-09-07/deep-blue-kasparov.props.json",
+  "durationInFrames": 1134,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}

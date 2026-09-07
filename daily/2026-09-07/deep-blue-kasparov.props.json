@@ -1,0 +1,56 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (deep-blue-kasparov)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0C0D10",
+    "ink": "#EDEEF2",
+    "accent": "#4C6EF5",
+    "muted": "#7E838F"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Kasparov lost, and said it wasn't fair.",
+      "text": "He accused IBM of secretly using a human grandmaster.",
+      "note": "After Deep Blue beat the reigning world chess champion in 1997, Garry Kasparov refused to believe a machine had done it. It echoed 18th and 19th century chess-automaton hoaxes, in which a hidden person, not the machine, did the actual playing.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "His evidence was two suspiciously good moves.",
+      "text": "Moves 36 and 37 in one game looked too human to be brute force.",
+      "note": "Kasparov and grandmaster observers felt the moves were too sophisticated for a machine playing by raw calculation. IBM denied any human intervention beyond fixing bugs between games.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "One of those bugs is real, and documented.",
+      "text": "A glitch made Deep Blue pick a move at random rather than its best-calculated one.",
+      "note": "One of the machine's own designers has said a fail-safe kicked in when the computer couldn't settle on a move, and Kasparov read the random result as a sign of deeper strategy than was actually there.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "480",
+      "unit": "chips",
+      "context": "Custom chess-only processors built into the machine, working in parallel. Not learning, not intuition, just purpose-built calculation at scale.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "lead": "Kasparov spent years demanding a rematch.",
+      "text": "IBM never gave him one.",
+      "note": "Deep Blue's exact fate after 1997 is described differently by different accounts, but every account agrees on this: the third match Kasparov wanted never happened.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "A grudge that has outlasted the hardware it was about.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 106
+    }
+  ],
+  "cta": "Follow for more."
+}

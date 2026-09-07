@@ -127,7 +127,9 @@
     "reel:zelda-battery-not-first",
     "reel:first-website-cern",
     "reel:napoleon-not-short",
-    "reel:esrb-mortal-kombat-hearing"
+    "reel:esrb-mortal-kombat-hearing",
+    "reel:dartmouth-ai-1956",
+    "reel:deep-blue-kasparov"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -2152,6 +2154,49 @@
       "channelId": "yt-bbmw0",
       "special": false,
       "platform": "youtube"
+    },
+    {
+      "id": "first-website-cern",
+      "date": "2026-09-07",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It is still online, at its original address.",
+      "description": "It is still online, at its original address. info.cern.ch: a page about a project called WorldWideWeb, written by Tim Berners-Lee. It had to explain what hypertext was, because almost nobody had seen a link.\n\nBerners-Lee wrote the first browser and ran the first server on a single black computer built by Steve Jobs's other company. In the beginning the entire web lived on that one machine, in one office.\n\nSwitch off that one cube and the web went dark. So it wore a warning in red ink: This machine is a server. DO NOT POWER IT DOWN. The cube sits in a CERN museum now, label and all.\n\nThe web was a side project at a particle collider. CERN builds machines to smash atoms; the web was built so its scientists could share papers. HTML, HTTP and the URL all came out of it, and in 1993 CERN gave them away, free, into the public domain.\n\nThe first web page had exactly one job: to explain what a web page was.\n\nSources:\n- https://home.cern/science/computing/the-birth-of-the-web/short-history-web/: CERN's official short history of the Web, read in full. Establishes: Berners-Lee had the first web server and browser running at CERN by the end of 1990 on a NeXT computer kept in his office; the machine carried a hand-written label in red ink reading 'This machine is a server. DO NOT POWER IT DOWN!!'; info.cern.ch was the address of the world's first website and server; the first web page was http://info.cern.ch/hypertext/WWW/TheProject.html, describing the WWW project, hypertext and how to run a server; the software was announced on Internet newsgroups in August 1991; and on 30 April 1993 CERN placed the WorldWideWeb source code in the public domain, royalty-free.\n- https://en.wikipedia.org/wiki/WorldWideWeb: read in full. Confirms Berners-Lee wrote the WorldWideWeb browser/editor on a NeXT Computer during the second half of 1990, completed 'some time before' 25 December 1990 after about two months' work, released to the public in August 1991; that it was both the first web browser and the first WYSIWYG HTML editor; and that CERN released the source into the public domain on 30 April 1993.\n- https://boingboing.net/2008/07/09/firstever-web-server.html: Cory Doctorow (Boing Boing), read in full, quoting the Wikipedia image caption for the NeXTcube: it was Berners-Lee's first Web server, is kept in the Microcosm museum at CERN's Meyrin site, the document on its keyboard is his 'Information Management: A Proposal', and the label reads 'This machine is a server. DO NOT POWER IT DOWN!!', used to corroborate the sticker wording and the machine's preservation.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "dartmouth-ai-1956",
+      "date": "2026-09-07",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Most days, three to eight people actually showed up.",
+      "description": "Most days, three to eight people actually showed up. The 1955 proposal asked the Rockefeller Foundation to fund '10 men' for '2 months'. Only three of them, John McCarthy, Marvin Minsky and Ray Solomonoff, stayed for the entire eight weeks.\n\nWrote the funding proposal with Minsky, Rochester and Shannon, and coined the field's name inside it. He wanted a neutral term, anything but 'cybernetics', which would have meant working under the combative Norbert Wiener.\n\nNewell and Simon showed a program that already reasoned. Their Logic Theory Machine used symbolic logic to prove mathematical theorems. In 1975 they won computing's highest honour, the Turing Award, for the work it began.\n\nHow long the workshop actually ran, from 18 June to 17 August 1956, by the attendees' own notes. It is usually remembered as six.\n\nThe dictionary they used to look up 'heuristic' is still in that room.\n\nSources:\n- https://en.wikipedia.org/wiki/Dartmouth_workshop: read in full. Established the 1955 proposal text quoted directly (a '2 month, 10 man study'), that John McCarthy coined the term 'artificial intelligence' in that document and chose it partly to avoid 'cybernetics' and Norbert Wiener, that the workshop ran roughly eight weeks (about 18 June to 17 August 1956) by Ray Solomonoff's own contemporaneous notes though it is usually said to be six weeks, that only McCarthy, Marvin Minsky and Solomonoff stayed the full time, and that daily attendance ranged from about three to eight people.\n- https://spectrum.ieee.org/dartmouth-ai-workshop: Grace Solomonoff, IEEE Spectrum, read in full. Confirmed the exact dates (18 June to 17 August 1956), established that Herbert Simon and Allen Newell presented the Logic Theory Machine that summer and later won the 1975 Turing Award for the ideas behind it, and that in 2006 Trenchard More located the same dictionary the group had used to look up 'heuristic', still in the room where the workshop was held.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram",
+      "youtubeId": "17960026818205664",
+      "youtubeUrl": "https://youtu.be/17960026818205664",
+      "uploadedAt": "2026-09-07T14:45:58.891Z",
+      "privacy": "public"
+    },
+    {
+      "id": "deep-blue-kasparov",
+      "date": "2026-09-07",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "He accused IBM of secretly using a human grandmaster.",
+      "description": "He accused IBM of secretly using a human grandmaster. After Deep Blue beat the reigning world chess champion in 1997, Garry Kasparov refused to believe a machine had done it. It echoed 18th and 19th century chess-automaton hoaxes, in which a hidden person, not the machine, did the actual playing.\n\nMoves 36 and 37 in one game looked too human to be brute force. Kasparov and grandmaster observers felt the moves were too sophisticated for a machine playing by raw calculation. IBM denied any human intervention beyond fixing bugs between games.\n\nA glitch made Deep Blue pick a move at random rather than its best-calculated one. One of the machine's own designers has said a fail-safe kicked in when the computer couldn't settle on a move, and Kasparov read the random result as a sign of deeper strategy than was actually there.\n\nCustom chess-only processors built into the machine, working in parallel. Not learning, not intuition, just purpose-built calculation at scale.\n\nIBM never gave him one. Deep Blue's exact fate after 1997 is described differently by different accounts, but every account agrees on this: the third match Kasparov wanted never happened.\n\nSources:\n- https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov - read in full 1 Sep 2026: Kasparov won the 1996 Philadelphia match 4-2; Deep Blue won the 1997 New York rematch 3.5-2.5, the first defeat of a reigning world chess champion by a computer under standard tournament conditions; Game 1's move 44 was allegedly the result of a bug, in which Deep Blue, unable to settle on a move, resorted to a fail-safe; after losing Game 2 in a position later shown to be drawable, Kasparov accused IBM of cheating, alleging a grandmaster had made moves for the machine, specifically 36.axb5 and 37.Be4; the article's own lead states that although it was reported IBM had dismantled Deep Blue afterward, it in fact remained in operation for several years.\n- https://theconversation.com/twenty-years-on-from-deep-blue-vs-kasparov-how-a-chess-match-started-the-big-data-revolution-76882 - read in full 1 Sep 2026: academic retrospective corroborating the cheating accusation and IBM's denial (stating the only human intervention was fixing bugs between games); adds that Kasparov's suspicion echoed 18th and 19th century chess-automaton hoaxes; grandmaster John Nunn called one Deep Blue move 'stunning' and 'exceptional'; one of Deep Blue's own designers has said a glitch made the machine pick a move at random rather than its calculated best, which Kasparov read as deeper strategy; the final configuration of the machine controlled 480 custom integrated circuits designed specifically to play chess; IBM refused Kasparov's request for a rematch.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }

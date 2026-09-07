@@ -1,0 +1,25 @@
+{
+  "slug": "dartmouth-ai-1956",
+  "date": "2026-09-07",
+  "title": "Most days, three to eight people actually showed up.",
+  "description": "Most days, three to eight people actually showed up. The 1955 proposal asked the Rockefeller Foundation to fund '10 men' for '2 months'. Only three of them, John McCarthy, Marvin Minsky and Ray Solomonoff, stayed for the entire eight weeks.\n\nWrote the funding proposal with Minsky, Rochester and Shannon, and coined the field's name inside it. He wanted a neutral term, anything but 'cybernetics', which would have meant working under the combative Norbert Wiener.\n\nNewell and Simon showed a program that already reasoned. Their Logic Theory Machine used symbolic logic to prove mathematical theorems. In 1975 they won computing's highest honour, the Turing Award, for the work it began.\n\nHow long the workshop actually ran, from 18 June to 17 August 1956, by the attendees' own notes. It is usually remembered as six.\n\nThe dictionary they used to look up 'heuristic' is still in that room.\n\nSources:\n- https://en.wikipedia.org/wiki/Dartmouth_workshop: read in full. Established the 1955 proposal text quoted directly (a '2 month, 10 man study'), that John McCarthy coined the term 'artificial intelligence' in that document and chose it partly to avoid 'cybernetics' and Norbert Wiener, that the workshop ran roughly eight weeks (about 18 June to 17 August 1956) by Ray Solomonoff's own contemporaneous notes though it is usually said to be six weeks, that only McCarthy, Marvin Minsky and Solomonoff stayed the full time, and that daily attendance ranged from about three to eight people.\n- https://spectrum.ieee.org/dartmouth-ai-workshop: Grace Solomonoff, IEEE Spectrum, read in full. Confirmed the exact dates (18 June to 17 August 1956), established that Herbert Simon and Allen Newell presented the Logic Theory Machine that summer and later won the 1975 Turing Award for the ideas behind it, and that in 2006 Trenchard More located the same dictionary the group had used to look up 'heuristic', still in the room where the workshop was held.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-07-dartmouth-ai-1956.mp4",
+  "propsFile": "daily/2026-09-07/dartmouth-ai-1956.props.json",
+  "durationInFrames": 1034,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}
