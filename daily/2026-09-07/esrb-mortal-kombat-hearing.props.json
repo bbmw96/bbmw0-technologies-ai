@@ -1,0 +1,47 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (esrb-mortal-kombat-hearing)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0D0A08",
+    "ink": "#F2ECE6",
+    "accent": "#E0562B",
+    "muted": "#8C8079"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The senator who forced the games industry to rate itself was working from a description, not the game",
+      "text": "He said women were hung on meat hooks and drained into wine bottles. Neither was in it.",
+      "note": "On 9 December 1993, Senator Joseph Lieberman, joined by Herbert Kohl and Byron Dorgan, held hearings condemning the Sega CD game Night Trap using details that were not actually part of its plot.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1993",
+      "name": "Joseph Lieberman",
+      "role": "Senator for Connecticut. Opened a press conference on 1 December 1993 denouncing 'violent video games', flanked by the National PTA and former Captain Kangaroo star Bob Keeshan, then led the December hearings naming Mortal Kombat and Night Trap directly.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The industry's own witnesses did not present a united front",
+      "text": "Nintendo and Sega mostly used the hearing to blame each other",
+      "note": "Nintendo's Howard Lincoln, a former trial lawyer, and Sega's Bill White turned their testimony into their console war, each pointing at the other's catalogue rather than defending the industry.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Congress never passed Lieberman's ratings bill. The industry built its own system first, and still runs it today.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "sign",
+      "line": "One misdescribed game is why every game box has a rating on it.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 124
+    }
+  ],
+  "cta": "Subscribe for more."
+}

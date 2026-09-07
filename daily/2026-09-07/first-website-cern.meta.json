@@ -1,0 +1,25 @@
+{
+  "slug": "first-website-cern",
+  "date": "2026-09-07",
+  "title": "It is still online, at its original address.",
+  "description": "It is still online, at its original address. info.cern.ch: a page about a project called WorldWideWeb, written by Tim Berners-Lee. It had to explain what hypertext was, because almost nobody had seen a link.\n\nBerners-Lee wrote the first browser and ran the first server on a single black computer built by Steve Jobs's other company. In the beginning the entire web lived on that one machine, in one office.\n\nSwitch off that one cube and the web went dark. So it wore a warning in red ink: This machine is a server. DO NOT POWER IT DOWN. The cube sits in a CERN museum now, label and all.\n\nThe web was a side project at a particle collider. CERN builds machines to smash atoms; the web was built so its scientists could share papers. HTML, HTTP and the URL all came out of it, and in 1993 CERN gave them away, free, into the public domain.\n\nThe first web page had exactly one job: to explain what a web page was.\n\nSources:\n- https://home.cern/science/computing/the-birth-of-the-web/short-history-web/: CERN's official short history of the Web, read in full. Establishes: Berners-Lee had the first web server and browser running at CERN by the end of 1990 on a NeXT computer kept in his office; the machine carried a hand-written label in red ink reading 'This machine is a server. DO NOT POWER IT DOWN!!'; info.cern.ch was the address of the world's first website and server; the first web page was http://info.cern.ch/hypertext/WWW/TheProject.html, describing the WWW project, hypertext and how to run a server; the software was announced on Internet newsgroups in August 1991; and on 30 April 1993 CERN placed the WorldWideWeb source code in the public domain, royalty-free.\n- https://en.wikipedia.org/wiki/WorldWideWeb: read in full. Confirms Berners-Lee wrote the WorldWideWeb browser/editor on a NeXT Computer during the second half of 1990, completed 'some time before' 25 December 1990 after about two months' work, released to the public in August 1991; that it was both the first web browser and the first WYSIWYG HTML editor; and that CERN released the source into the public domain on 30 April 1993.\n- https://boingboing.net/2008/07/09/firstever-web-server.html: Cory Doctorow (Boing Boing), read in full, quoting the Wikipedia image caption for the NeXTcube: it was Berners-Lee's first Web server, is kept in the Microcosm museum at CERN's Meyrin site, the document on its keyboard is his 'Information Management: A Proposal', and the label reads 'This machine is a server. DO NOT POWER IT DOWN!!', used to corroborate the sticker wording and the machine's preservation.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-07-first-website-cern.mp4",
+  "propsFile": "daily/2026-09-07/first-website-cern.props.json",
+  "durationInFrames": 1116,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

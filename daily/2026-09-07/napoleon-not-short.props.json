@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (napoleon-not-short)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0D0F1A",
+    "ink": "#F0EAD8",
+    "accent": "#C9A24B",
+    "muted": "#7A7E8C"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Everyone knows Napoleon was short",
+      "text": "The men who measured him used a different ruler than you're picturing.",
+      "note": "His valet, a general and his own physician all recorded the same figure: five pieds, two pouces. That is French feet and inches, not English ones.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Convert it properly",
+      "text": "He comes out at roughly five foot six.",
+      "note": "A French pouce measured 2.7 centimetres against the English inch's 2.54. Do the sum and Napoleon lands just under 5'6\", a little above the average French man of his time.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1803",
+      "name": "James Gillray",
+      "role": "British cartoonist who invented 'Little Boney', a diminutive, raving caricature of Napoleon, in response to a real outburst the emperor made at the British ambassador on 14 March 1803. Gillray kept shrinking him for years afterwards.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The image only got smaller",
+      "text": "By 1804 he was drawn six inches tall.",
+      "note": "Gillray's cartoons showed Napoleon as an animal, then a baby, then a Lilliputian dwarfed by an English giant in 'The King of Brobdingnag and Gulliver'. The caricature, not the ruler, is what stuck.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Napoleon himself said Gillray 'did more than all the armies of Europe to bring me down'.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "sign",
+      "line": "The cartoon won. The measurement lost.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
