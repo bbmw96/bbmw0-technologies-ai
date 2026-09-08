@@ -132,7 +132,9 @@
     "reel:deep-blue-kasparov",
     "reel:robot-word-rur",
     "reel:pull-to-refresh-brichter",
-    "reel:pomodoro-cirillo"
+    "reel:pomodoro-cirillo",
+    "reel:a-star-shakey",
+    "reel:space-invaders-aliens-not-tanks"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -2247,6 +2249,49 @@
       "youtubeUrl": "https://youtu.be/T7THAcxPkOU",
       "uploadedAt": "2026-09-08T13:12:36.982Z",
       "privacy": "public"
+    },
+    {
+      "id": "a-star-shakey",
+      "date": "2026-09-08",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "runs on an algorithm built for a robot.",
+      "description": "runs on an algorithm built for a robot. A* is the standard for pathfinding in games and maps. It was written in 1968 to help one machine cross a cluttered room without walking into things.\n\nAt Stanford Research Institute, plotting routes for Shakey, a robot so unsteady that the team named it for the way it rattled and shook whenever it moved.\n\nThe star arrived with a proof. Raphael refined it; Hart showed that, given an honest guess of the distance left, it always finds the shortest path. A* meant: we can prove this one is optimal.\n\nIt isn't. Even a co-author first guessed it came from Kleene-star syntax. Hart says no: it's the statistician's star for an optimal value. The real meaning went unrecorded for fifty years.\n\nGaming's smartest navigator is named after a robot that couldn't hold still.\n\nSources:\n- https://cacm.acm.org/opinion/a-search/: Communications of the ACM viewpoint, read directly: A* was published in 1968 by Hart, Nilsson and Raphael; the authors themselves recount that Nilsson devised it to plan Shakey the Robot's route through a room of obstacles and first called it 'Algorithm A'; Raphael improved it and Hart proved it optimal given an admissible heuristic, so they named it A* 'to distinguish it from any simpler algorithm A'; Hart says the star denotes an optimal value (from statistics) and 'has nothing whatsoever to do with Kleene star syntax', while co-author Nilsson initially guessed the Kleene interpretation; the meaning had gone undocumented until this piece.\n- https://en.wikipedia.org/wiki/Shakey_the_robot: Wikipedia, read directly: Shakey was developed ~1966-1972 at the AI Center of Stanford Research Institute (SRI); A* was one of its notable results; the name came from its tall build and 'tendency to shake', quoted: 'it shakes like hell and moves around, let's just call it Shakey.'\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "space-invaders-aliens-not-tanks",
+      "date": "2026-09-08",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The aliens were the third choice, not the first.",
+      "description": "The aliens were the third choice, not the first. Tomohiro Nishikado wanted tanks first. He wanted them to face forward to look right, and that stopped working the moment the enemies had to move sideways.\n\nDesigner at Taito. After tanks, he tried planes, but the hardware of the time could not animate believable flight. Aliens worked because jerky, mechanical movement did not look like a mistake on them.\n\nHe says it was not about Star Wars. Space Invaders shipped a year after Star Wars and people have assumed a connection ever since. Nishikado's own account credits animation limits and a tank that looked wrong, not the movie.\n\nA cornering problem invented the alien shooter.\n\nSources:\n- https://shmuplations.com/nishikado/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram",
+      "youtubeId": "17929845477402552",
+      "youtubeUrl": "https://youtu.be/17929845477402552",
+      "uploadedAt": "2026-09-08T13:25:47.404Z",
+      "privacy": "public"
+    },
+    {
+      "id": "pull-to-refresh-brichter",
+      "date": "2026-09-08",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Pull a list down, let go, it refreshes.",
+      "description": "Pull a list down, let go, it refreshes. Nobody built it into the phone. One developer invented it for a Twitter app, and it spread into everything: Mail, Chrome, Instagram, Facebook.\n\nEx-Apple, one of five people on the first iPhone. He wrote the Twitter app Tweetie alone. Version 1.0 hid a refresh button in a corner, and he wanted the corner back, so he turned refreshing into a pull.\n\nHe built it in a single afternoon. Two iterations, no user testing, shipped in Tweetie 2.0 in 2009. He tuned the pull distance by hand until it felt right, then moved on.\n\nBy 2013 it held a patent on the pull. Brichter was uneasy about that, so he made Twitter agree, as a condition of the sale, that it would never use the patent to attack anyone. It is allowed to defend, and nothing more.\n\nThe same downward pull is now studied as a slot-machine lever, for the refresh you cannot stop reaching for.\n\nSources:\n- https://en.wikipedia.org/wiki/Pull-to-refresh (read in full 26 Aug 2026): the pull-to-refresh gesture was developed by Loren Brichter and first appeared in Tweetie, an iOS Twitter app he built as a personal project in 2008 after leaving Apple in 2007; Tweetie 1.0 placed a refresh button at the top of the list, which he wanted to replace to reclaim the screen space; the two iterations of the gesture were, in Wikipedia's words, 'created in a single afternoon with no user testing'; it shipped in Tweetie 2.0; it was later added to Chrome (optional 2015, mandatory since 2019) and Firefox (2020 to 2021); and it has been criticised for resembling a lever on a gambling machine and so feeding social-media addiction.\n- https://en.wikipedia.org/wiki/Loren_Brichter (read in full 26 Aug 2026): Brichter, born 1984, worked at Apple from 2006 to 2007 on a five-person team making the first iPhone's graphics hardware and software communicate; founded atebits in 2007; released Tweetie in 2008; won an Apple Design Award in 2009; and atebits with Tweetie were bought by Twitter in 2010, after which Tweetie became the official Twitter for iPhone.\n- https://venturebeat.com/business/twitter-granted-pull-to-refresh-patent-that-everyone-already-uses-and-sort-of-gives-it-away (VentureBeat, John Koetsier, 21 May 2013; read in full 26 Aug 2026): Twitter was granted U.S. Patent 8,448,084 for pull-to-refresh on 21 May 2013; Brichter, who created the gesture and whose company Twitter bought in 2010, was so concerned about how Twitter would use the patent that he asked Twitter to agree, as part of the terms of the sale, that it would never use the patent offensively, which Twitter's Innovator's Patent Agreement enshrines as defensive use only.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }

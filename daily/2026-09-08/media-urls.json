@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-08",
+  "repo": "bbmw96/bbmw0-technologies-ai",
+  "tag": "media-2026-09-08",
+  "base": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-08",
+  "urls": {
+    "a-star-shakey": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-08/daily-2026-09-08-a-star-shakey.mp4",
+    "pull-to-refresh-brichter": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-08/daily-2026-09-08-pull-to-refresh-brichter.mp4",
+    "space-invaders-aliens-not-tanks": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-08/daily-2026-09-08-space-invaders-aliens-not-tanks.mp4"
+  }
+}

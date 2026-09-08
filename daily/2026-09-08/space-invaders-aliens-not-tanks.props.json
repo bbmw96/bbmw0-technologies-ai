@@ -1,0 +1,47 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (space-invaders-aliens-not-tanks)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0F0C",
+    "ink": "#E9F5E4",
+    "accent": "#4CFF6E",
+    "muted": "#758A78"
+  },
+  "niche": "gaming",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Everyone repeats the same origin story for this game",
+      "text": "The aliens were the third choice, not the first.",
+      "note": "Tomohiro Nishikado wanted tanks first. He wanted them to face forward to look right, and that stopped working the moment the enemies had to move sideways.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1978",
+      "name": "Tomohiro Nishikado",
+      "role": "Designer at Taito. After tanks, he tried planes, but the hardware of the time could not animate believable flight. Aliens worked because jerky, mechanical movement did not look like a mistake on them.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The part people add for free",
+      "text": "He says it was not about Star Wars.",
+      "note": "Space Invaders shipped a year after Star Wars and people have assumed a connection ever since. Nishikado's own account credits animation limits and a tank that looked wrong, not the movie.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "A cornering problem invented the alien shooter.",
+      "durationInFrames": 64
+    },
+    {
+      "kind": "sign",
+      "line": "The design that defined a genre was a workaround.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Follow for more."
+}
