@@ -129,7 +129,10 @@
     "reel:napoleon-not-short",
     "reel:esrb-mortal-kombat-hearing",
     "reel:dartmouth-ai-1956",
-    "reel:deep-blue-kasparov"
+    "reel:deep-blue-kasparov",
+    "reel:robot-word-rur",
+    "reel:pull-to-refresh-brichter",
+    "reel:pomodoro-cirillo"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -2197,6 +2200,53 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "robot-word-rur",
+      "date": "2026-09-08",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "1920, in a Czech play.",
+      "description": "1920, in a Czech play. It appears for the first time in Karel Capek's R.U.R. (Rossum's Universal Robots), published in 1920 and staged in Prague in 1921. Before that, the word did not exist.\n\nIt means forced labour. From the Czech 'robota': the unpaid drudgery a serf owed his lord. The deeper Slavic root, 'rab', means slave. The name was built to mean bondage.\n\nThey were artificial people. Rossum's robots are not clanking machines but mass-produced living workers, grown rather than built, far closer to lab-made humans than to anything with gears.\n\nThe robots rise and end humanity. The very first tale to use the word is also the first robot uprising. By the final act, mankind is gone. The trope arrived fully formed, a century ago.\n\nOur word for machines was coined for slaves made of flesh.\n\nSources:\n- https://www.britannica.com/topic/RUR: Encyclopaedia Britannica, read directly: R.U.R. (Rossum's Universal Robots), a three-act play by Karel Capek, published 1920 and performed 1921; 'Capek invented the word robot (derived from the Czech word for forced labour)'; a scientist Rossum creates humanlike beings who are mass-produced and eventually come to dominate humanity.\n- https://thereader.mitpress.mit.edu/origin-word-robot-rur/: MIT Press Reader (John M. Jordan, adapted from his book 'Robots'), read directly: R.U.R. premiered in Prague in 1921; the word derives from Czech 'robota' (forced labour as done by serfs), Slavic root 'rab' meaning slave; the original robots 'more accurately define androids... neither metallic nor mechanical'; in the play the robots revolt and mankind 'is no more'; the play was translated into 30+ languages soon after.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "q5S-QcfELYA",
+      "youtubeUrl": "https://youtu.be/q5S-QcfELYA",
+      "uploadedAt": "2026-09-08T13:16:34.592Z",
+      "privacy": "public"
+    },
+    {
+      "id": "pull-to-refresh-brichter",
+      "date": "2026-09-08",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Pull a list down, let go, it refreshes.",
+      "description": "Pull a list down, let go, it refreshes. Nobody built it into the phone. One developer invented it for a Twitter app, and it spread into everything: Mail, Chrome, Instagram, Facebook.\n\nEx-Apple, one of five people on the first iPhone. He wrote the Twitter app Tweetie alone. Version 1.0 hid a refresh button in a corner, and he wanted the corner back, so he turned refreshing into a pull.\n\nHe built it in a single afternoon. Two iterations, no user testing, shipped in Tweetie 2.0 in 2009. He tuned the pull distance by hand until it felt right, then moved on.\n\nBy 2013 it held a patent on the pull. Brichter was uneasy about that, so he made Twitter agree, as a condition of the sale, that it would never use the patent to attack anyone. It is allowed to defend, and nothing more.\n\nThe same downward pull is now studied as a slot-machine lever, for the refresh you cannot stop reaching for.\n\nSources:\n- https://en.wikipedia.org/wiki/Pull-to-refresh (read in full 26 Aug 2026): the pull-to-refresh gesture was developed by Loren Brichter and first appeared in Tweetie, an iOS Twitter app he built as a personal project in 2008 after leaving Apple in 2007; Tweetie 1.0 placed a refresh button at the top of the list, which he wanted to replace to reclaim the screen space; the two iterations of the gesture were, in Wikipedia's words, 'created in a single afternoon with no user testing'; it shipped in Tweetie 2.0; it was later added to Chrome (optional 2015, mandatory since 2019) and Firefox (2020 to 2021); and it has been criticised for resembling a lever on a gambling machine and so feeding social-media addiction.\n- https://en.wikipedia.org/wiki/Loren_Brichter (read in full 26 Aug 2026): Brichter, born 1984, worked at Apple from 2006 to 2007 on a five-person team making the first iPhone's graphics hardware and software communicate; founded atebits in 2007; released Tweetie in 2008; won an Apple Design Award in 2009; and atebits with Tweetie were bought by Twitter in 2010, after which Tweetie became the official Twitter for iPhone.\n- https://venturebeat.com/business/twitter-granted-pull-to-refresh-patent-that-everyone-already-uses-and-sort-of-gives-it-away (VentureBeat, John Koetsier, 21 May 2013; read in full 26 Aug 2026): Twitter was granted U.S. Patent 8,448,084 for pull-to-refresh on 21 May 2013; Brichter, who created the gesture and whose company Twitter bought in 2010, was so concerned about how Twitter would use the patent that he asked Twitter to agree, as part of the terms of the sale, that it would never use the patent offensively, which Twitter's Innovator's Patent Agreement enshrines as defensive use only.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "pomodoro-cirillo",
+      "date": "2026-09-08",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Work 25 minutes. Break. Repeat.",
+      "description": "Work 25 minutes. Break. Repeat. The man who invented it calls that a distortion. 'The iconic 25-minute sessions,' Francesco Cirillo writes, 'aren't the technique. They're just one expression of it.'\n\nA university student who could not concentrate, timing himself with the first thing to hand on the kitchen counter: a wind-up timer shaped like a tomato. Pomodoro is simply Italian for tomato.\n\nNot 25 minutes. Two. 'Can I study for just two minutes without interruption?' The famous 25 came later, and even that, he says, is one expression of the method, not the point of it.\n\nHis answer: even none is fine. 'Your goal isn't to complete Pomodoros,' he says, 'it's to become aware of what happens in your mind.' A focus method whose own author does not care how much you get done.\n\nSources:\n- https://www.pomodorotechnique.com/francesco-cirillo/ (Francesco Cirillo's official site; read in full 26 Aug 2026): in his own words, 'I created the Pomodoro Technique in the 1980s with a tomato-shaped kitchen timer and a problem: I couldn't focus on my university studies', and the first experiment was 'Can I study for just two minutes without interruption?'. Under 'Distortion' he writes that newspapers, bloggers and apps 'reduced the entire technique to a single instruction: Work for 25 minutes, then take a break', and that 'The iconic 25-minute timer sessions aren't the technique, they're just one expression of this broader mindset'. On goals he writes, 'Even one Pomodoro, or none, is fine. Your goal isn't to complete Pomodoros. Your goal is to become aware of what happens in your mind'. Pomodoro is Italian for tomato.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "T7THAcxPkOU",
+      "youtubeUrl": "https://youtu.be/T7THAcxPkOU",
+      "uploadedAt": "2026-09-08T13:12:36.982Z",
+      "privacy": "public"
     }
   ]
 }

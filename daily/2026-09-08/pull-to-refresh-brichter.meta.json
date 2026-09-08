@@ -1,0 +1,25 @@
+{
+  "slug": "pull-to-refresh-brichter",
+  "date": "2026-09-08",
+  "title": "Pull a list down, let go, it refreshes.",
+  "description": "Pull a list down, let go, it refreshes. Nobody built it into the phone. One developer invented it for a Twitter app, and it spread into everything: Mail, Chrome, Instagram, Facebook.\n\nEx-Apple, one of five people on the first iPhone. He wrote the Twitter app Tweetie alone. Version 1.0 hid a refresh button in a corner, and he wanted the corner back, so he turned refreshing into a pull.\n\nHe built it in a single afternoon. Two iterations, no user testing, shipped in Tweetie 2.0 in 2009. He tuned the pull distance by hand until it felt right, then moved on.\n\nBy 2013 it held a patent on the pull. Brichter was uneasy about that, so he made Twitter agree, as a condition of the sale, that it would never use the patent to attack anyone. It is allowed to defend, and nothing more.\n\nThe same downward pull is now studied as a slot-machine lever, for the refresh you cannot stop reaching for.\n\nSources:\n- https://en.wikipedia.org/wiki/Pull-to-refresh (read in full 26 Aug 2026): the pull-to-refresh gesture was developed by Loren Brichter and first appeared in Tweetie, an iOS Twitter app he built as a personal project in 2008 after leaving Apple in 2007; Tweetie 1.0 placed a refresh button at the top of the list, which he wanted to replace to reclaim the screen space; the two iterations of the gesture were, in Wikipedia's words, 'created in a single afternoon with no user testing'; it shipped in Tweetie 2.0; it was later added to Chrome (optional 2015, mandatory since 2019) and Firefox (2020 to 2021); and it has been criticised for resembling a lever on a gambling machine and so feeding social-media addiction.\n- https://en.wikipedia.org/wiki/Loren_Brichter (read in full 26 Aug 2026): Brichter, born 1984, worked at Apple from 2006 to 2007 on a five-person team making the first iPhone's graphics hardware and software communicate; founded atebits in 2007; released Tweetie in 2008; won an Apple Design Award in 2009; and atebits with Tweetie were bought by Twitter in 2010, after which Tweetie became the official Twitter for iPhone.\n- https://venturebeat.com/business/twitter-granted-pull-to-refresh-patent-that-everyone-already-uses-and-sort-of-gives-it-away (VentureBeat, John Koetsier, 21 May 2013; read in full 26 Aug 2026): Twitter was granted U.S. Patent 8,448,084 for pull-to-refresh on 21 May 2013; Brichter, who created the gesture and whose company Twitter bought in 2010, was so concerned about how Twitter would use the patent that he asked Twitter to agree, as part of the terms of the sale, that it would never use the patent offensively, which Twitter's Innovator's Patent Agreement enshrines as defensive use only.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "app",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-08-pull-to-refresh-brichter.mp4",
+  "propsFile": "daily/2026-09-08/pull-to-refresh-brichter.props.json",
+  "durationInFrames": 1146,
+  "audioUrl": "",
+  "niche": "app",
+  "composition": "Reel"
+}

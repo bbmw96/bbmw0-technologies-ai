@@ -1,0 +1,49 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (pomodoro-cirillo)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#121011",
+    "ink": "#F3EFEA",
+    "accent": "#E5533D",
+    "muted": "#8A817B"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Everyone knows the Pomodoro Technique",
+      "text": "Work 25 minutes. Break. Repeat.",
+      "note": "The man who invented it calls that a distortion. 'The iconic 25-minute sessions,' Francesco Cirillo writes, 'aren't the technique. They're just one expression of it.'",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1980s",
+      "name": "Francesco Cirillo",
+      "role": "A university student who could not concentrate, timing himself with the first thing to hand on the kitchen counter: a wind-up timer shaped like a tomato. Pomodoro is simply Italian for tomato.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The first challenge he set himself",
+      "text": "Not 25 minutes. Two.",
+      "note": "'Can I study for just two minutes without interruption?' The famous 25 came later, and even that, he says, is one expression of the method, not the point of it.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Ask him how many pomodoros to aim for",
+      "text": "His answer: even none is fine.",
+      "note": "'Your goal isn't to complete Pomodoros,' he says, 'it's to become aware of what happens in your mind.' A focus method whose own author does not care how much you get done.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "The tomato is a timer, not a target.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

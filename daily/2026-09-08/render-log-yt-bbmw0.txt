@@ -1,0 +1,20 @@
+Rendering 3 Shorts for 2026-09-08 (concurrency=3, GL=default)
+Compliance: 2 cleared, 1 blocked (policy v1.0.0).
+Blocked by compliance: pull-to-refresh-brichter
+
+--- pomodoro-cirillo ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-08-pomodoro-cirillo.mp4
+  uploaded public: https://youtu.be/T7THAcxPkOU
+
+--- pull-to-refresh-brichter ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-08-pull-to-refresh-brichter.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-08/compliance-verdict.json.
+
+--- robot-word-rur ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-08-robot-word-rur.mp4
+  uploaded public: https://youtu.be/q5S-QcfELYA
+
+=== Done. 3 rendered, 2 uploaded, 0 skipped, 1 blocked by compliance, 0 failed. ===

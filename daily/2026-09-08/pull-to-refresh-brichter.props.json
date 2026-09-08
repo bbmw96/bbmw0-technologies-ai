@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (pull-to-refresh-brichter)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0C0F14",
+    "ink": "#ECEEF2",
+    "accent": "#4A9EEB",
+    "muted": "#79808A"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The gesture in almost every app you own",
+      "text": "Pull a list down, let go, it refreshes.",
+      "note": "Nobody built it into the phone. One developer invented it for a Twitter app, and it spread into everything: Mail, Chrome, Instagram, Facebook.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2008",
+      "name": "Loren Brichter",
+      "role": "Ex-Apple, one of five people on the first iPhone. He wrote the Twitter app Tweetie alone. Version 1.0 hid a refresh button in a corner, and he wanted the corner back, so he turned refreshing into a pull.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The version the whole industry copied",
+      "text": "He built it in a single afternoon.",
+      "note": "Two iterations, no user testing, shipped in Tweetie 2.0 in 2009. He tuned the pull distance by hand until it felt right, then moved on.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Twitter bought Tweetie in 2010, gesture included",
+      "text": "By 2013 it held a patent on the pull.",
+      "note": "Brichter was uneasy about that, so he made Twitter agree, as a condition of the sale, that it would never use the patent to attack anyone. It is allowed to defend, and nothing more.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The same downward pull is now studied as a slot-machine lever, for the refresh you cannot stop reaching for.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "sign",
+      "line": "You pull it fifty times a day. One person made it in an afternoon.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 130
+    }
+  ],
+  "cta": "Subscribe for more."
+}
