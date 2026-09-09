@@ -134,7 +134,10 @@
     "reel:pull-to-refresh-brichter",
     "reel:pomodoro-cirillo",
     "reel:a-star-shakey",
-    "reel:space-invaders-aliens-not-tanks"
+    "reel:space-invaders-aliens-not-tanks",
+    "reel:computer-meant-a-person",
+    "reel:creeper-first-computer-virus",
+    "reel:everest-not-tallest"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -2292,6 +2295,57 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "computer-meant-a-person",
+      "date": "2026-09-09",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "A computer was a person.",
+      "description": "A computer was a person. Someone whose whole job was arithmetic, done by hand. When the machines came, they took the name from the people who did the work, not the other way round.\n\nFirst to put the word \"computer\" into English, in a book of advice. He praised a man as \"the truest computer ... the best arithmetician that ever breathed.\" A line about a person, not a machine.\n\nNASA still hired human computers in the 1960s. Katherine Johnson joined NACA's West Area Computing pool, Black women doing the maths by hand, in 1953. She worked out the flight paths for Alan Shepard in 1961 and John Glenn in 1962.\n\nThe machine did not coin the word. It inherited it from the people doing the sums.\n\nSources:\n- https://www.computinghistory.org.uk/det/5829/Richard-Braithwaite-coined-the-phrase-computer/ - The Centre for Computing History, read in full. Established that the first recorded English use of the word \"computer\" is in Richard Braithwaite's 1613 book The Yong Mans Gleanings, describing a person as \"the truest computer ... the best arithmetician that ever breathed\", that \"computer\" meant a person who calculated by hand until the 1950s, and that NASA employed human computers such as Katherine Johnson.\n- https://education.nationalgeographic.org/resource/nasas-west-area-computers/ - Via search summary. Established that NASA's West Area Computers at Langley were Black women who did the calculations by hand, that Katherine Johnson joined NACA's West Area Computing pool in 1953, and that she did the trajectory work for Alan Shepard's 1961 flight and John Glenn's 1962 orbit.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "VHl0BTNVNds",
+      "youtubeUrl": "https://youtu.be/VHl0BTNVNds",
+      "uploadedAt": "2026-09-09T13:16:53.201Z",
+      "privacy": "public"
+    },
+    {
+      "id": "creeper-first-computer-virus",
+      "date": "2026-09-09",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It was built to say hello.",
+      "description": "It was built to say hello. In 1971, a program called Creeper moved between machines on ARPANET, the internet's ancestor, and printed a message rather than deleting or stealing anything.\n\nAt BBN, wrote Creeper for the PDP-10 operating system TENEX. It displayed: I'M THE CREEPER, CATCH ME IF YOU CAN.\n\nThe absolute most computers Creeper could ever infect, because that was the entire population of TENEX machines then on ARPANET.\n\nIt got hunted down on purpose. Ray Tomlinson, who separately built the first networked email, wrote a program called Reaper in 1972 whose only job was to find Creeper and delete it. The first virus. The first antivirus.\n\nThe internet's first infection topped out at 28 machines.\n\nSources:\n- https://en.wikipedia.org/wiki/Creeper_and_Reaper\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "faJ-tWA9hXY",
+      "youtubeUrl": "https://youtu.be/faJ-tWA9hXY",
+      "uploadedAt": "2026-09-09T13:18:02.213Z",
+      "privacy": "public"
+    },
+    {
+      "id": "everest-not-tallest",
+      "date": "2026-09-09",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Everest only wins on one ruler.",
+      "description": "Everest only wins on one ruler. It is the highest point above sea level, 8,848 metres. But height above the sea is one measurement of several, and it is the only one Everest tops.\n\nMauna Kea in Hawaii, measured from its base on the Pacific floor to its summit. That makes the Hawaiian volcano the tallest mountain on Earth, over a kilometre taller than Everest. Only about 4,205 metres of it stand above the water.\n\nA third mountain wins, and it is the shortest. Earth bulges at the equator, so Ecuador's Chimborazo, sitting almost on it, pushes its peak 2,072 metres farther from the planet's core than Everest's while standing lower above the sea. NOAA calls it the closest point on Earth to the stars.\n\nHighest, tallest, farthest out. Three mountains, three different rulers.\n\nSources:\n- https://oceanservice.noaa.gov/facts/highestpoint.html (NOAA National Ocean Service, National Geodetic Survey; read in full 26 Aug 2026): establishes that Mount Everest is the highest point above global mean sea level at 8,848 metres; that Mauna Kea in Hawaii is the tallest mountain from base to peak, rising more than 10,210 metres from the Pacific floor to its summit with only about 4,205 metres of it above the water; and that because Earth bulges at the equator from its rotation, the summit of Ecuador's Chimborazo, one degree south of the equator, sits over 2,072 metres farther from Earth's centre than Everest's summit even though Chimborazo is only 6,268 metres above sea level, which NOAA calls the closest point on Earth to the stars.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "LnMkGSEYzxY",
+      "youtubeUrl": "https://youtu.be/LnMkGSEYzxY",
+      "uploadedAt": "2026-09-09T13:19:08.005Z",
+      "privacy": "public"
     }
   ]
 }

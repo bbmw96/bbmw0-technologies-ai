@@ -1,0 +1,25 @@
+{
+  "slug": "computer-meant-a-person",
+  "date": "2026-09-09",
+  "title": "A computer was a person.",
+  "description": "A computer was a person. Someone whose whole job was arithmetic, done by hand. When the machines came, they took the name from the people who did the work, not the other way round.\n\nFirst to put the word \"computer\" into English, in a book of advice. He praised a man as \"the truest computer ... the best arithmetician that ever breathed.\" A line about a person, not a machine.\n\nNASA still hired human computers in the 1960s. Katherine Johnson joined NACA's West Area Computing pool, Black women doing the maths by hand, in 1953. She worked out the flight paths for Alan Shepard in 1961 and John Glenn in 1962.\n\nThe machine did not coin the word. It inherited it from the people doing the sums.\n\nSources:\n- https://www.computinghistory.org.uk/det/5829/Richard-Braithwaite-coined-the-phrase-computer/ - The Centre for Computing History, read in full. Established that the first recorded English use of the word \"computer\" is in Richard Braithwaite's 1613 book The Yong Mans Gleanings, describing a person as \"the truest computer ... the best arithmetician that ever breathed\", that \"computer\" meant a person who calculated by hand until the 1950s, and that NASA employed human computers such as Katherine Johnson.\n- https://education.nationalgeographic.org/resource/nasas-west-area-computers/ - Via search summary. Established that NASA's West Area Computers at Langley were Black women who did the calculations by hand, that Katherine Johnson joined NACA's West Area Computing pool in 1953, and that she did the trajectory work for Alan Shepard's 1961 flight and John Glenn's 1962 orbit.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-09-computer-meant-a-person.mp4",
+  "propsFile": "daily/2026-09-09/computer-meant-a-person.props.json",
+  "durationInFrames": 902,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

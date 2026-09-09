@@ -1,0 +1,47 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (everest-not-tallest)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0C0F12",
+    "ink": "#ECEAE3",
+    "accent": "#4FA3C7",
+    "muted": "#7C818A"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The tallest mountain on Earth",
+      "text": "Everest only wins on one ruler.",
+      "note": "It is the highest point above sea level, 8,848 metres. But height above the sea is one measurement of several, and it is the only one Everest tops.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "10,210",
+      "unit": "metres",
+      "context": "Mauna Kea in Hawaii, measured from its base on the Pacific floor to its summit. That makes the Hawaiian volcano the tallest mountain on Earth, over a kilometre taller than Everest. Only about 4,205 metres of it stand above the water.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Now measure from the centre of the Earth",
+      "text": "A third mountain wins, and it is the shortest.",
+      "note": "Earth bulges at the equator, so Ecuador's Chimborazo, sitting almost on it, pushes its peak 2,072 metres farther from the planet's core than Everest's while standing lower above the sea. NOAA calls it the closest point on Earth to the stars.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Highest, tallest, farthest out. Three mountains, three different rulers.",
+      "durationInFrames": 76
+    },
+    {
+      "kind": "sign",
+      "line": "Everest wins one race and gets the credit for all three.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 112
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (creeper-first-computer-virus)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0C10",
+    "ink": "#E7ECEE",
+    "accent": "#5CC8FF",
+    "muted": "#77828C"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The first computer virus was not built to harm anything",
+      "text": "It was built to say hello.",
+      "note": "In 1971, a program called Creeper moved between machines on ARPANET, the internet's ancestor, and printed a message rather than deleting or stealing anything.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1971",
+      "name": "Bob Thomas",
+      "role": "At BBN, wrote Creeper for the PDP-10 operating system TENEX. It displayed: I'M THE CREEPER, CATCH ME IF YOU CAN.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "figure",
+      "value": "28",
+      "unit": "machines",
+      "context": "The absolute most computers Creeper could ever infect, because that was the entire population of TENEX machines then on ARPANET.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "statement",
+      "lead": "It also caused the second thing it's famous for",
+      "text": "It got hunted down on purpose.",
+      "note": "Ray Tomlinson, who separately built the first networked email, wrote a program called Reaper in 1972 whose only job was to find Creeper and delete it. The first virus. The first antivirus.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The internet's first infection topped out at 28 machines.",
+      "durationInFrames": 76
+    },
+    {
+      "kind": "sign",
+      "line": "It just wanted to say it had been there.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}

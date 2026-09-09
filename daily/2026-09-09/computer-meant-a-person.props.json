@@ -1,0 +1,47 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (computer-meant-a-person)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0C1014",
+    "ink": "#EDF1F4",
+    "accent": "#6FA8DC",
+    "muted": "#79808F"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "For three centuries",
+      "text": "A computer was a person.",
+      "note": "Someone whose whole job was arithmetic, done by hand. When the machines came, they took the name from the people who did the work, not the other way round.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1613",
+      "name": "Richard Braithwaite",
+      "role": "First to put the word \"computer\" into English, in a book of advice. He praised a man as \"the truest computer ... the best arithmetician that ever breathed.\" A line about a person, not a machine.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The job outlasted the machine's arrival",
+      "text": "NASA still hired human computers in the 1960s.",
+      "note": "Katherine Johnson joined NACA's West Area Computing pool, Black women doing the maths by hand, in 1953. She worked out the flight paths for Alan Shepard in 1961 and John Glenn in 1962.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The machine did not coin the word. It inherited it from the people doing the sums.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "sign",
+      "line": "Before it sat on your desk, a computer was someone at a desk.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 124
+    }
+  ],
+  "cta": "Subscribe for more."
+}

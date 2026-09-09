@@ -1,0 +1,25 @@
+{
+  "slug": "creeper-first-computer-virus",
+  "date": "2026-09-09",
+  "title": "It was built to say hello.",
+  "description": "It was built to say hello. In 1971, a program called Creeper moved between machines on ARPANET, the internet's ancestor, and printed a message rather than deleting or stealing anything.\n\nAt BBN, wrote Creeper for the PDP-10 operating system TENEX. It displayed: I'M THE CREEPER, CATCH ME IF YOU CAN.\n\nThe absolute most computers Creeper could ever infect, because that was the entire population of TENEX machines then on ARPANET.\n\nIt got hunted down on purpose. Ray Tomlinson, who separately built the first networked email, wrote a program called Reaper in 1972 whose only job was to find Creeper and delete it. The first virus. The first antivirus.\n\nThe internet's first infection topped out at 28 machines.\n\nSources:\n- https://en.wikipedia.org/wiki/Creeper_and_Reaper\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-09-creeper-first-computer-virus.mp4",
+  "propsFile": "daily/2026-09-09/creeper-first-computer-virus.props.json",
+  "durationInFrames": 930,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

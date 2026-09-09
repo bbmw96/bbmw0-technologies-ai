@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-09-09 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- computer-meant-a-person ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-09-computer-meant-a-person.mp4
+  uploaded public: https://youtu.be/VHl0BTNVNds
+
+--- creeper-first-computer-virus ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-09-creeper-first-computer-virus.mp4
+  uploaded public: https://youtu.be/faJ-tWA9hXY
+
+--- everest-not-tallest ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-09-everest-not-tallest.mp4
+  uploaded public: https://youtu.be/LnMkGSEYzxY
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===
