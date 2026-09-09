@@ -8,7 +8,9 @@
     "creeper-first-computer-virus",
     "everest-not-tallest"
   ],
-  "blocked": [],
+  "blocked": [
+    "missile-command-nightmares"
+  ],
   "results": [
     {
       "slug": "computer-meant-a-person",
@@ -142,6 +144,81 @@
         "worstTitleAgainst": "konami-code",
         "worstDescriptionSimilarity": 0.261,
         "combo": "reel:#0C0F12:#4FA3C7:#ECEAE3",
+        "themeGap": 112,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "missile-command-nightmares",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "BLOCK",
+      "title": "The designer built it to refuse to be that.",
+      "niche": "gaming",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "instagram.caption_too_long",
+          "message": "Caption is 2748 chars, Instagram limit is 2200.",
+          "detail": null
+        },
+        {
+          "severity": "BLOCK",
+          "rule": "safety.hard_banned",
+          "message": "Prohibited term \"president\" appears in the video text or metadata.",
+          "detail": {
+            "term": "president"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "safety.context_review",
+          "message": "Context-sensitive term(s) present: war. Legitimate in educational science and history, referred to the AI safety reviewer.",
+          "detail": {
+            "terms": [
+              "war"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.2,
+        "worstTitleAgainst": "creeper-first-computer-virus (same batch)",
+        "worstDescriptionSimilarity": 0.293,
+        "combo": "reel:#0A0B0E:#C1443C:#F0F1F5",
         "themeGap": 112,
         "audioGap": 0
       },

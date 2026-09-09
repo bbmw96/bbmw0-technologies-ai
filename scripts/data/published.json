@@ -137,7 +137,8 @@
     "reel:space-invaders-aliens-not-tanks",
     "reel:computer-meant-a-person",
     "reel:creeper-first-computer-virus",
-    "reel:everest-not-tallest"
+    "reel:everest-not-tallest",
+    "reel:missile-command-nightmares"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -2346,6 +2347,45 @@
       "youtubeUrl": "https://youtu.be/LnMkGSEYzxY",
       "uploadedAt": "2026-09-09T13:19:08.005Z",
       "privacy": "public"
+    },
+    {
+      "id": "computer-meant-a-person",
+      "date": "2026-09-09",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "A computer was a person.",
+      "description": "A computer was a person. Someone whose whole job was arithmetic, done by hand. When the machines came, they took the name from the people who did the work, not the other way round.\n\nFirst to put the word \"computer\" into English, in a book of advice. He praised a man as \"the truest computer ... the best arithmetician that ever breathed.\" A line about a person, not a machine.\n\nNASA still hired human computers in the 1960s. Katherine Johnson joined NACA's West Area Computing pool, Black women doing the maths by hand, in 1953. She worked out the flight paths for Alan Shepard in 1961 and John Glenn in 1962.\n\nThe machine did not coin the word. It inherited it from the people doing the sums.\n\nSources:\n- https://www.computinghistory.org.uk/det/5829/Richard-Braithwaite-coined-the-phrase-computer/ - The Centre for Computing History, read in full. Established that the first recorded English use of the word \"computer\" is in Richard Braithwaite's 1613 book The Yong Mans Gleanings, describing a person as \"the truest computer ... the best arithmetician that ever breathed\", that \"computer\" meant a person who calculated by hand until the 1950s, and that NASA employed human computers such as Katherine Johnson.\n- https://education.nationalgeographic.org/resource/nasas-west-area-computers/ - Via search summary. Established that NASA's West Area Computers at Langley were Black women who did the calculations by hand, that Katherine Johnson joined NACA's West Area Computing pool in 1953, and that she did the trajectory work for Alan Shepard's 1961 flight and John Glenn's 1962 orbit.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "missile-command-nightmares",
+      "date": "2026-09-09",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The designer built it to refuse to be that.",
+      "description": "The designer built it to refuse to be that. Atari's coin-op boss saw a radar-screen photo in a magazine and told his team to make a game like it. The junior programmer he handed it to had other ideas.\n\nA junior programmer, fresh off his first game, Atari Soccer. Given a one-line brief about Soviet missiles and an American defence, he attached two conditions of his own before writing a line of code.\n\nCondition two: you could never fire back. Theurer refused to give the player a retaliation button. In his own words: 'I did not want to put the player in a position of being a genocidal maniac.' Mutual destruction wasn't a game mechanic to him.\n\nEureka, San Francisco, San Luis Obispo, Santa Barbara, Los Angeles, San Diego. The whole California coast, named outright in early versions. Theurer stripped the names before release, leaving the geography to the player's imagination.\n\nTheurer dreamed about the nuclear blast he was coding. They didn't stop when the game shipped in June 1980, they just came less often. The ending reflects it: the screen doesn't say 'Game Over.' It says 'THE END.' There is no way to win.\n\nSources:\n- https://en.wikipedia.org/wiki/Missile_Command - read in full 1 Sep 2026: Atari coin-op president Gene Lipkin saw a radar-screen image in a magazine and told department head Steve Calfee to make a game like it; the loosely defined brief, USSR missiles versus a US defence, went to junior programmer Dave Theurer, fresh off Atari Soccer; the six cities in early versions were named as real California cities, Eureka, San Francisco, San Luis Obispo, Santa Barbara, Los Angeles and San Diego; Theurer set two conditions on his own design, that neither attacking nor defending nation be named, and that the player have no way to retaliate, which he considered a scenario of mutual destruction, quoting him: 'I did not want to put the player in a position of being a genocidal maniac. Only a crazy person would sling nuclear weapons without context, right?'; during and after the project Theurer suffered nightmares of nuclear destruction, continuing after release with decreasing regularity (citing Alex Rubens' 2019 book '8-Bit Apocalypse'); the game cannot be won and ends on a screen reading 'THE END' rather than 'Game Over.'\n- https://barnmegaparsec.blogspot.com/2016/10/dave-theurers-nightmares.html - read in full 1 Sep 2026, secondary corroboration only: independently confirms the six defended cities as real towns on the California coastline, and that the game is structurally unwinnable, quoting the site's own framing: 'You can't win nuclear war.'\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "creeper-first-computer-virus",
+      "date": "2026-09-09",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It was built to say hello.",
+      "description": "It was built to say hello. In 1971, a program called Creeper moved between machines on ARPANET, the internet's ancestor, and printed a message rather than deleting or stealing anything.\n\nAt BBN, wrote Creeper for the PDP-10 operating system TENEX. It displayed: I'M THE CREEPER, CATCH ME IF YOU CAN.\n\nThe absolute most computers Creeper could ever infect, because that was the entire population of TENEX machines then on ARPANET.\n\nIt got hunted down on purpose. Ray Tomlinson, who separately built the first networked email, wrote a program called Reaper in 1972 whose only job was to find Creeper and delete it. The first virus. The first antivirus.\n\nThe internet's first infection topped out at 28 machines.\n\nSources:\n- https://en.wikipedia.org/wiki/Creeper_and_Reaper\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }

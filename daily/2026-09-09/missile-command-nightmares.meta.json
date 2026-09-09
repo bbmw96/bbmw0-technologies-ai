@@ -1,0 +1,25 @@
+{
+  "slug": "missile-command-nightmares",
+  "date": "2026-09-09",
+  "title": "The designer built it to refuse to be that.",
+  "description": "The designer built it to refuse to be that. Atari's coin-op boss saw a radar-screen photo in a magazine and told his team to make a game like it. The junior programmer he handed it to had other ideas.\n\nA junior programmer, fresh off his first game, Atari Soccer. Given a one-line brief about Soviet missiles and an American defence, he attached two conditions of his own before writing a line of code.\n\nCondition two: you could never fire back. Theurer refused to give the player a retaliation button. In his own words: 'I did not want to put the player in a position of being a genocidal maniac.' Mutual destruction wasn't a game mechanic to him.\n\nEureka, San Francisco, San Luis Obispo, Santa Barbara, Los Angeles, San Diego. The whole California coast, named outright in early versions. Theurer stripped the names before release, leaving the geography to the player's imagination.\n\nTheurer dreamed about the nuclear blast he was coding. They didn't stop when the game shipped in June 1980, they just came less often. The ending reflects it: the screen doesn't say 'Game Over.' It says 'THE END.' There is no way to win.\n\nSources:\n- https://en.wikipedia.org/wiki/Missile_Command - read in full 1 Sep 2026: Atari coin-op president Gene Lipkin saw a radar-screen image in a magazine and told department head Steve Calfee to make a game like it; the loosely defined brief, USSR missiles versus a US defence, went to junior programmer Dave Theurer, fresh off Atari Soccer; the six cities in early versions were named as real California cities, Eureka, San Francisco, San Luis Obispo, Santa Barbara, Los Angeles and San Diego; Theurer set two conditions on his own design, that neither attacking nor defending nation be named, and that the player have no way to retaliate, which he considered a scenario of mutual destruction, quoting him: 'I did not want to put the player in a position of being a genocidal maniac. Only a crazy person would sling nuclear weapons without context, right?'; during and after the project Theurer suffered nightmares of nuclear destruction, continuing after release with decreasing regularity (citing Alex Rubens' 2019 book '8-Bit Apocalypse'); the game cannot be won and ends on a screen reading 'THE END' rather than 'Game Over.'\n- https://barnmegaparsec.blogspot.com/2016/10/dave-theurers-nightmares.html - read in full 1 Sep 2026, secondary corroboration only: independently confirms the six defended cities as real towns on the California coastline, and that the game is structurally unwinnable, quoting the site's own framing: 'You can't win nuclear war.'\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "gaming",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-09-missile-command-nightmares.mp4",
+  "propsFile": "daily/2026-09-09/missile-command-nightmares.props.json",
+  "durationInFrames": 1248,
+  "audioUrl": "",
+  "niche": "gaming",
+  "composition": "Reel"
+}
