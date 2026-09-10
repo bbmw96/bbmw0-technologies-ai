@@ -276,6 +276,23 @@
       "notes": "Original synthesised work. Reproducible via scripts/audio/generate-beds.sh. No Content ID exposure.",
       "derived_from": "sounds/bbmw0-wind-open.mp3",
       "derivation": "ffmpeg loudnorm I=-18 TP=-2 LRA=11, resampled to 48kHz, 192kbps. Gain and limiting only."
+    },
+    {
+      "file": "sounds/bbmw0-type-click.wav",
+      "sha256": "8f88ab335c2f4a95b0011538e266a2aaadf99e6977d1fc4208de7646a64c003f",
+      "bytes": 8018,
+      "licence": "Owned Original",
+      "source_url": "scripts/audio/generate-beds.sh",
+      "downloaded_from": "Not downloaded. Synthesised from filtered noise with ffmpeg.",
+      "attribution_required": false,
+      "commercial_use": true,
+      "halal_reviewed": false,
+      "halal_note": "PENDING OWNER SIGN-OFF, not a full clearance like every other entry in this file. The SOURCE material clears the same bar as the ambient beds (band-limited white noise, no sine/square/triangle/sawtooth, no instrument, no melody) so on that axis alone it would pass. What is NOT yet settled: this asset is built to play once per revealed letter on an opt-in CodeBeat (see EditorialReel.tsx), i.e. a steady clicking cadence, and this file's own header names a directly analogous case already removed for being 'effectively a drum': a 72bpm low pulse. A one-shot file cannot be a beat by itself; a beat is a property of how it gets used. Whether a per-letter typing cadence crosses that line is the channel owner's call, not this session's, exactly as the animate-imagery halal question was resolved by asking rather than assuming (see check-halal-policy-before-generating-imagery in project memory). Do not flip halal_reviewed to true without that explicit answer. See VISUAL-DIRECTION-BRIEF.md, 'Typing sound for CodeBeat (per-letter)', 10 Sep 2026.",
+      "verified_by": "Not yet verified by a human listener. No session has ears; astats confirmed the file is audible (peak -8.2dB, RMS -17.4dB, no clipping) and correctly shaped (45ms, hard-edged like a real key click), which is signal analysis, not the listening pass the project's own rule requires (\"Silence over hiss... do not reintroduce audio without listening to it\", VISUAL-DIRECTION-BRIEF.md).",
+      "verified_on": null,
+      "synthesis_recipe": "white noise 0.9 -> highpass 1800Hz -> lowpass 9500Hz -> volume -4dB -> hard trim to 45ms, WAV (not MP3: MP3 encoder priming padding on a clip this short pushed the audible click ~25ms late; WAV has no such delay)",
+      "notes": "Original synthesised work. Reproducible via scripts/audio/generate-beds.sh (genClick). No Content ID exposure. NOT wired into any live topic or the unattended daily-shorts.yml pipeline as of 10 Sep 2026 — code path exists and is opt-in per beat, defaulting off, pending the halal cadence sign-off above.",
+      "known_ffmpeg_issue": "afade (any direction, any curve) on this anoisesrc-at-45ms buffer produced total silence on ffmpeg 7.1.1-essentials_build-www.gyan.dev, verified with astats (peak/RMS both -inf dB). Worked around with volume-only shaping plus a hard -t trim, which measured correctly. If re-touching this asset, re-run astats before trusting any afade-based envelope on a short lavfi buffer again."
     }
   ]
 }

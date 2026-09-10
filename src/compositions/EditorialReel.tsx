@@ -75,7 +75,20 @@ import { Motif, resolveNiche, secondaryNiche } from "./motifs";
 const NicheContext = React.createContext<string | undefined>(undefined);
 
 export type ReelBeat =
-  | { kind: "code"; chars: string; caption: string; durationInFrames: number }
+  // typingSound is opt-in and OFF unless a topic sets it explicitly true.
+  // Added 10 Sep 2026 at the channel owner's request ("typing sound for
+  // each letter, carefully, on some of the videos"). Plays
+  // sounds/bbmw0-type-click.wav once per glyph, at that glyph's own reveal
+  // frame (see CodeBeat below) — same stagger CODE_CHAR_STAGGER already
+  // uses in generate-reels.mjs, so sound and glyph pop-in never drift apart.
+  // NOT enabled on any topic yet and NOT safe to enable on one without
+  // reading scripts/data/audio-licences.json's entry for that file first:
+  // the source noise clears the halal bar on its own, but a steady
+  // per-letter cadence is the same shape as the 72bpm pulse this project
+  // already removed for reading as a beat, and that specific question is
+  // still open, owner sign-off only. See VISUAL-DIRECTION-BRIEF.md,
+  // "Typing sound for CodeBeat (per-letter)".
+  | { kind: "code"; chars: string; caption: string; durationInFrames: number; typingSound?: boolean }
   | { kind: "statement"; lead?: string; text: string; note?: string; durationInFrames: number }
   | { kind: "credit"; name: string; role: string; year: string; durationInFrames: number }
   | { kind: "figure"; value: string; unit?: string; context: string; durationInFrames: number }
@@ -308,6 +321,14 @@ const BeatShell: React.FC<{
 
 const PAD = 72;
 
+// Glyph reveal onset, kept as one constant so the spring's start frame (used
+// for the visual pop-in) and the typing-click Sequence's start frame (added
+// below) can never drift apart from each other or from generate-reels.mjs's
+// own CODE_CHAR_STAGGER=4, which is what actually spaces `chars` out over
+// durationInFrames when a topic's beat is authored.
+const CODE_GLYPH_ONSET = 6;
+const CODE_GLYPH_STAGGER = 4;
+
 const CodeBeat: React.FC<{ b: Extract<ReelBeat, { kind: "code" }>; p: ReelProps["palette"] }> = ({ b, p }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -321,7 +342,7 @@ const CodeBeat: React.FC<{ b: Extract<ReelBeat, { kind: "code" }>; p: ReelProps[
       }}>
         <div style={{ display: "flex", flexWrap: "wrap", gap: 18 }}>
           {chars.map((c, i) => {
-            const a = spring({ frame: frame - 6 - i * 4, fps, config: { damping: 12, stiffness: 260, mass: 0.5 } });
+            const a = spring({ frame: frame - CODE_GLYPH_ONSET - i * CODE_GLYPH_STAGGER, fps, config: { damping: 12, stiffness: 260, mass: 0.5 } });
             return (
               <span key={i} style={{
                 fontFamily: MONO, fontSize: 132, fontWeight: 700, color: p.ink,
@@ -335,6 +356,18 @@ const CodeBeat: React.FC<{ b: Extract<ReelBeat, { kind: "code" }>; p: ReelProps[
           <Words text={b.caption} size={46} colour={p.muted} weight={600} delay={chars.length * 4 + 10} />
         </div>
       </div>
+      {/* One click per glyph, same onset frame as that glyph's own spring
+          pop-in above, so the ear and the eye agree on when each letter
+          "arrives". A 4-frame Sequence per glyph exactly fills the gap to
+          the next glyph at any fps (CODE_GLYPH_STAGGER is in frames, so the
+          gap is fps-invariant) — no overlap between consecutive clicks. See
+          the ReelBeat.code.typingSound comment above: OFF unless a topic
+          sets it, and not yet cleared to enable on a real topic. */}
+      {b.typingSound ? chars.map((_, i) => (
+        <Sequence key={`click-${i}`} from={CODE_GLYPH_ONSET + i * CODE_GLYPH_STAGGER} durationInFrames={CODE_GLYPH_STAGGER}>
+          <Audio src={staticFile("sounds/bbmw0-type-click.wav")} volume={0.6} />
+        </Sequence>
+      )) : null}
     </BeatShell>
   );
 };

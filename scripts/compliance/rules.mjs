@@ -222,6 +222,35 @@ function checkLegal(meta, props, policy, audioLicences) {
     }
   }
 
+  // ---- Typing-sound click, added 10 Sep 2026 ----------------------------
+  // Mirrors the audioUrl check above, plus one extra gate that check does
+  // not have: halal_reviewed. audioUrl only checks that a licence is
+  // recorded and on the approved list; it never asks whether the halal
+  // review itself is still pending, because every existing bed already has
+  // halal_reviewed: true. The typing click does not — see its entry in
+  // audio-licences.json — so this beat kind needs the extra check the
+  // ambient-bed path has never needed before. A code beat with
+  // typingSound: true on any topic blocks here until the entry's
+  // halal_reviewed flips to true, which is an explicit owner decision, not
+  // something this gate can infer from the source material passing its own
+  // "no tone/instrument" bar.
+  const codeBeatsWithTyping = (props.beats || []).filter((b) => b && b.kind === "code" && b.typingSound);
+  if (codeBeatsWithTyping.length) {
+    const clickFile = "sounds/bbmw0-type-click.wav";
+    const rec = (audioLicences.tracks || []).find((t) => t.file === clickFile);
+    if (!rec) {
+      out.push(finding(SEVERITY.BLOCK, "legal.typing_sound_unrecorded",
+        `typingSound is set on a code beat but "${clickFile}" has no entry in audio-licences.json.`));
+    } else if (!rec.halal_reviewed) {
+      out.push(finding(SEVERITY.BLOCK, "halal.typing_sound_cadence_unreviewed",
+        `"${clickFile}" is recorded but halal_reviewed is not true: ${rec.halal_note || "pending owner review of the per-letter cadence."}`,
+        { file: clickFile }));
+    } else if (!rec.licence || !G.acceptable_audio_licences.includes(rec.licence)) {
+      out.push(finding(SEVERITY.BLOCK, "legal.typing_sound_licence_unacceptable",
+        `"${clickFile}" licence "${rec.licence || "UNKNOWN"}" is not on the approved list.`));
+    }
+  }
+
   for (const brand of G.trademark_care_terms) {
     const re = new RegExp(`${brand}\\s+(official|partner|sponsored|endorsed|approved)`, "i");
     if (re.test(text)) {

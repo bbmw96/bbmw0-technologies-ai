@@ -76,3 +76,53 @@ gen "bbmw0-wind-open.mp3" \
   "anoisesrc=d=${DUR}:c=pink:r=${SR}:a=0.38,highpass=f=350,lowpass=f=3600,tremolo=f=0.18:d=0.40"
 
 echo "Done. Eight natural-ambience beds. No instruments, tones, melody or beat."
+
+# --- One-shot UI/beat SFX ----------------------------------------------
+# Short single sounds, not ambient beds. Same copyright constraint applies
+# (synthesised from filtered noise only, no sample, no third-party material,
+# so this script remains the provenance record) and the same halal source
+# rule applies (band-limited noise only, no sine/square/triangle/sawtooth,
+# so the FILE itself is not a tone, melody or instrument).
+#
+# What this does NOT settle on its own: playing one of these repeatedly at a
+# steady interval (e.g. once per revealed letter) is a compositional/usage
+# decision made by the calling code, not by this file, and a steady cadence
+# is structurally close to the "72bpm low pulse, effectively a drum" bed that
+# was removed for exactly this reason (see the file header above). Added
+# 10 Sep 2026 for an opt-in per-letter typing sound on CodeBeat
+# (src/compositions/EditorialReel.tsx) — see VISUAL-DIRECTION-BRIEF.md,
+# "Typing sound for CodeBeat (per-letter)" for the open halal-cadence
+# question raised to the channel owner. Registered in audio-licences.json
+# with halal_reviewed left false/pending until that is answered; do not flip
+# it to true without the owner's explicit sign-off on the cadence question,
+# not just the source material.
+genClick() {
+  local name="$1"; shift
+  local filter="$1"; shift
+  local dur="$1"; shift
+  # NOTE: afade (in or out, any curve) on this anoisesrc-at-45ms buffer
+  # produced total silence (-inf dB, verified with astats) on this ffmpeg
+  # build (7.1.1-essentials_build-www.gyan.dev) — a real bug hit and measured
+  # 10 Sep 2026, not a style choice. volume-only with a hard `-t` trim is
+  # what actually measured audible (verified below); do not add afade back
+  # without re-measuring with astats first. WAV, not MP3: MP3's encoder
+  # priming padding (~25ms on a clip this short — over half of it) pushed
+  # the audible click late; WAV has no such delay and the trimmed duration
+  # matches the requested one exactly.
+  ffmpeg -hide_banner -loglevel error -y \
+    -f lavfi -i "$filter" \
+    -af "volume=-4dB" \
+    -ac 2 -ar 44100 -t "$dur" \
+    "$OUT/$name"
+  printf "  %-28s %s\n" "$name" "$(du -h "$OUT/$name" | cut -f1)"
+}
+
+# Typing/key click: one short burst of band-limited white noise. 45ms total,
+# comfortably shorter than the 133ms (4-frame @ 30fps) gap CodeBeat leaves
+# between glyphs, so clicks from consecutive letters do not smear together.
+# Peak -8.2dB / RMS -17.4dB measured on the reference render, no clipping.
+genClick "bbmw0-type-click.wav" \
+  "anoisesrc=d=0.05:c=white:r=44100:a=0.9,highpass=f=1800,lowpass=f=9500" \
+  0.045
+
+echo "Done. One typing-click SFX. Source material clears the halal bar (filtered noise, no tone/instrument); usage cadence still needs owner sign-off — see VISUAL-DIRECTION-BRIEF.md."

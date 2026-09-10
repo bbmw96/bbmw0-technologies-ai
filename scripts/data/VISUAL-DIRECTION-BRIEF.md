@@ -1,5 +1,62 @@
 # NEXT SESSION — START HERE
 
+## ADDED 10 Sep 2026 — typing sound for CodeBeat (per-letter), pending owner sign-off
+
+The user asked, in scheduled-task chat, for some videos to play a typing/
+keyboard-click sound synced to each letter's reveal in `CodeBeat`
+(`src/compositions/EditorialReel.tsx`), and for that requirement to be
+written down here so every other session working on this repo knows about
+it. This entry is that write-down, plus a status report on what already
+exists — a prior session built the full feature before this note was
+written, so there is nothing left to implement, only a decision left for
+the channel owner to make.
+
+**What shipped, already, opt-in and off by default**: the `code` beat's
+type gained an optional `typingSound?: boolean` field. When true, `CodeBeat`
+plays `public/sounds/bbmw0-type-click.wav` once per glyph, in a `<Sequence>`
+starting at that exact glyph's own reveal frame
+(`CODE_GLYPH_ONSET + i * CODE_GLYPH_STAGGER`, i.e. `6 + i * 4`) — the same
+onset and stagger `generate-reels.mjs` already uses to time the glyph pop-in
+itself, so the click cannot drift out of sync with the letter it belongs to.
+No topic currently sets `typingSound: true`; the field exists but is inert
+everywhere in `topics-rich.json` today.
+
+The click itself is `sounds/bbmw0-type-click.wav`, registered in
+`scripts/data/audio-licences.json`: synthesised from scratch with ffmpeg
+(white noise, band-limited 1800Hz to 9500Hz, hard-trimmed to 45ms, WAV
+rather than MP3 specifically to avoid encoder priming delay pushing the
+click late), reproducible via `generate-beds.sh`'s `genClick`, licence
+"Owned Original" — nothing downloaded, nothing AI-generated, matching every
+other audio asset this project uses.
+
+**What is gating it, and why that is not a bug**: `audio-licences.json`
+marks this asset `"halal_reviewed": false`, and `scripts/compliance/rules.mjs`
+hard-BLOCKs any topic that sets `typingSound: true` until that flips to
+true. The band-limited-noise source clears the same bar the ambient beds
+already clear. What is not yet settled is the cadence: a click on every
+revealed letter is a steady, repeating pulse, and this same audio-licences
+file's own header names a directly analogous case already rejected for
+being "effectively a drum" — a steady 72bpm low pulse, removed earlier in
+this project's life. Whether a per-letter typing cadence crosses that same
+line is not this session's call, exactly as real animal and person imagery
+was not this session's call in the entry below: the channel owner needs to
+say yes or no before `halal_reviewed` gets flipped to true on this asset,
+and before any topic is allowed to set `typingSound: true`. Until that
+answer arrives, the compliance gate keeps doing its job and no video will
+actually play this sound, no matter what `topics-rich.json` says.
+
+One more open item, smaller: `audio-licences.json` also records
+`"verified_by": "Not yet verified by a human listener"` — even after the
+cadence question is answered, someone should actually listen to the 45ms
+click before it goes live, the same render-look-then-believe discipline
+this file keeps repeating for visuals, applied here to audio instead.
+
+**Not done, and not this session's to decide**: which specific topics
+should get `typingSound: true`. The user asked for "some of the videos",
+not all — the field being opt-in already satisfies that structurally, but
+nobody has picked which ones yet. That is a natural follow-up once the
+halal cadence question above is answered, not before.
+
 ## RESOLVED 1 Sep 2026 — forbid_animate_imagery vs. real imagery
 
 Asked directly rather than assumed. The channel owner chose: real imagery
