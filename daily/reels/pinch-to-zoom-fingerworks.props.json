@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (pinch-to-zoom-fingerworks)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0A0C",
+    "ink": "#F5F5F0",
+    "accent": "#0A84FF",
+    "muted": "#8A8A93"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Apple's pinch-to-zoom did not start at Apple.",
+      "text": "It started with a graduate student who hurt his wrists typing his own dissertation.",
+      "note": "Wayne Westerman was finishing a PhD on multi-touch surfaces at the University of Delaware when repetitive strain problems pushed him toward low-impact ways of typing.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1998",
+      "name": "Wayne Westerman and John Elias",
+      "role": "founded FingerWorks at the University of Delaware to build multi-touch keyboards and pads aimed at people with RSI.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "statement",
+      "lead": "Westerman later explained the real motivation.",
+      "text": "He wanted computers to feel as expressive as playing the piano.",
+      "note": "His own words: he had an ergonomic problem and paired it with a motivation, wanting to pull some of a piano's grace into the computer experience.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "Apple bought FingerWorks in early 2005, taking the patents, the products and both founders.",
+      "note": "FingerWorks stopped shipping and closed that June. Outside customers only learned a big company had bought them; nobody said which one, or why, for two more years.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The iPhone did not arrive until 2007. Its touchscreen came from a keyboard built for sore wrists.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "sign",
+      "line": "Built for pain relief, shipped as magic.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 96
+    }
+  ]
+}

@@ -15,12 +15,14 @@
   },
   "classC": {
     "total": 53,
-    "retired": 19,
-    "remaining": 34,
-    "note": "Duplicate re-uploads of the same fact (a distinct mass-production axis from A/B: the same claim posted 2-5 times). 53 duplicate extra copies detected across yt-bbmw0; the oldest instance of each fact is kept, newer copies retired. Includes the 'Flexbox replaced 90% of CSS layout hacks' group, which is ALSO an invented figure (the 90% is fabricated) and would qualify as Class A on the false-statistic test — retired first within this class for that reason."
+    "retired": 32,
+    "remaining": "UNKNOWN — see _classCRecountedProperlyOn2026-09-10",
+    "note": "Duplicate re-uploads of the same fact (a distinct mass-production axis from A/B: the same claim posted 2-5 times). Historical total/remaining figures (53/34) are SUPERSEDED as of 2026-09-10 — do not trust them, see _classCRecountedProperlyOn2026-09-10 for the corrected methodology and why the true remaining count is currently unknown rather than 34. Includes the 'Flexbox replaced 90% of CSS layout hacks' group, which is ALSO an invented figure (the 90% is fabricated) and would qualify as Class A on the false-statistic test — retired first within this class for that reason."
   },
   "_runCaveat": "Batch 2 (2026-08-18T17:10Z) was a SAME-DAY SECOND director pass — cleanup-log.json is OneDrive cloud-only and was invisible to the Linux sandbox at the start of this run, so the earlier 16:45Z pass was not seen until git HEAD was read on the Windows side. Batch 2's 10 unlist calls were already issued (all reversible) before that reconciliation; they targeted the duplicate/fabricated-% class C, not the enumerated Class A set, so no A/B counts are affected. One video (rqyKMfB2BBM) overlapped batch 1 and was already unlisted — a harmless no-op, not re-listed here. Next scheduled pass should resume Class A (17 remaining) at the ~10/week cadence and NOT run a second batch the same day.",
   "_privacyAnomalyFound2026-09-01": "Before batch 3, a live YOUTUBE_GET_VIDEO_DETAILS_BATCH check across all remaining candidate ids (88 on yt-bbmw0, 9 on yt-bbm0902) found 40 videos on yt-bbmw0 already sitting at privacyStatus=private, none of them present in this file's unlisted[] array and none explained by scripts/prune-batch.mjs (checked and ruled out; it only prunes local daily/ files, never calls the YouTube API). This file only tracks unlisted actions taken through this pipeline, so these 40 went private by some other, unlogged route (manual change in YouTube Studio, an earlier untracked script, or a platform-side restriction are all possible; not established which). Two of them, sG5pGIBHi3Q ('Hot water can freeze faster than cold') and 87zZPoT_yMg ('Salt water is denser than fresh'), are the CANONICAL OLDEST copy on record for their fact group — the one this cleanup pipeline has been deliberately keeping public while retiring newer duplicates. With those two private and their duplicate copies now also unlisted by batch 3, those two facts currently have zero public instances on yt-bbmw0, which was not the intent of the Class C logic (keep exactly one). Not reversed here since the cause of the private status is unknown and reversing it without knowing why could be wrong (e.g. if it was a copyright claim or platform action rather than an accident). Flagged for a human decision: check YouTube Studio directly for a restriction reason on these two ids, and on the other 38, before deciding whether to restore any to public.",
+  "_classCCountLikelyOverstatedFoundOn2026-09-10": "Attempted to assemble batch 4 (Class C) this session by grepping published.json for repeated 'title' strings, the same method prior batches describe using. That surfaced roughly 14 apparent duplicate-title pairs (e.g. 'Binary search finds one item in a million in twenty steps.', 'It is a dead king's initials.', 'A computer was a person.'), but pulling the full record for each pair showed every single one is NOT a same-channel duplicate: it is one topic (same 'id' slug, same 'date') published once to yt-bbmw0 (platform=youtube, a real 11-character youtubeId like xZNCzrqpoR0) and once to ig-aigameodyssey (platform=instagram, no youtubeId field, or in a few records a long numeric value under the 'youtubeId' key that is actually an Instagram media id, e.g. '17902952880334546' — a sloppy but harmless field-naming reuse, not a second YouTube upload). This is the intended one-topic-many-platforms publishing behaviour, not the Class C defect (the same fact re-rendered and re-uploaded MULTIPLE TIMES TO THE SAME CHANNEL, which is what the five-copy 'Shift-click selects a range' example actually was). No unlist actions were taken on any of these 14 pairs; unlisting the yt-bbmw0 copy of any of them would have deleted the ONLY YouTube copy of that topic, the opposite of Class C cleanup's intent. This makes the classC.remaining figure above (34) suspect: it is unclear whether the original count that produced 53 total / 34 remaining already excluded cross-platform siblings the way this check just did, or whether it was produced the same title-only way this session's first attempt was, in which case the true remaining count could be much smaller, or even zero, once cross-platform siblings are filtered out. Not corrected here since re-deriving the true count needs grouping by (title, channelId) together rather than title alone, across the full published.json, which was not completed this session. Batch 4 did not run as a result: better to skip a batch than unlist the wrong videos. Next session: re-run the duplicate check grouped by (title, channelId), confirm which survivors are true same-channel repeats, live-verify their privacy status per the 2026-09-01 lesson above, then unlist.",
+  "_classCRecountedProperlyOn2026-09-10": "Superseded the stale title-only-within-yt-bbmw0 estimate (53 total / 34 remaining) with a fully live-verified recount. Method: (1) pulled ALL 141 items in yt-bbmw0's live uploads playlist via YOUTUBE_LIST_CHANNEL_VIDEOS (3 pages), not published.json — published.json itself is missing a large fraction of real uploads (e.g. videoIds --hT2RHXjKA, Viki9XnYuNo, 5pFrcs-BSoE, RS9G5stmNbY and many others published 2026-05-01 through 2026-08-01 have no published.json record at all for yt-bbmw0), so any duplicate check built on published.json alone will systematically undercount, which is why the (title, channelId) grouping run earlier this same session against published.json found zero groups — that result was correct given its input but the input was incomplete, not evidence Class C is resolved. (2) grouped the 141 by title with trailing hashtag tokens stripped (regex, case-insensitive) rather than exact title string, since the same fact was frequently re-uploaded with a DIFFERENT hashtag suffix each time (e.g. 'Nintendo was founded in 1889. #Shorts #didyouknow' appears 3 times with identical hashtags, but 'The spacebar is the most-pressed key...' appears as both '#Shorts' and '#Shorts #facts') — exact-title matching alone found only 16 duplicate groups; hashtag-normalized matching found 28. (3) live-checked privacyStatus via YOUTUBE_GET_VIDEO_DETAILS_BATCH for all 82 members across the 28 groups (not trusted from this file or from published.json) — most groups had 0 or 1 currently-PUBLIC member (already fully resolved by batches 1-3 or by the unexplained 2026-09-01 mass-private event, see _privacyAnomalyFound2026-09-01) and needed no action. Exactly 13 groups had 2+ still-public members. Batch 4 (below) unlisted the newer public copy in each of those 13, keeping the oldest public instance per fact. Genuinely unresolved after this: (a) yt-bbm0902 has never been checked for its own Class C duplicates by ANY batch — all four historical batches only ever touched yt-bbmw0; (b) the hashtag-stripping regex only handles trailing '#word' tokens and could still miss fact-groups with other title variation (punctuation, wording); (c) therefore 'remaining' is honestly unknown rather than a stale 34 — the next session should not assume Class C is finished just because this batch found a clean stopping point.",
   "batches": [
     {
       "ranAt": "2026-08-18T16:45:00Z",
@@ -63,6 +65,20 @@
       "newlyRetired": 10,
       "verifiedBy": "YOUTUBE_UPDATE_VIDEO responses: all 10 report privacyStatus=unlisted",
       "note": "Resumed Class C (duplicate re-uploads) rather than Class A this pass. Reason: before acting, a live privacy-status check across the full remaining candidate pool (88 ids on yt-bbmw0, 9 on yt-bbm0902) found only 48 of the 88 yt-bbmw0 candidates and all 9 yt-bbm0902 candidates still genuinely public (see _privacyAnomalyFound2026-09-01 for the other 40). Class A membership cannot be safely determined from title/date alone without watching each video for the invented-stat beat, which was not attempted this session, so this pass stayed within the safely-verifiable Class C subset: duplicate titles grouped and cross-checked against live status, oldest instance per fact kept, only genuinely-public newer copies retired. Class A (17 remaining) is unchanged and should be the focus of a session with time to review individual videos, not just titles."
+    },
+    {
+      "ranAt": "2026-09-10T20:35:00Z",
+      "week": "2026-W37",
+      "channelsTouched": [
+        "yt-bbmw0"
+      ],
+      "defectClass": "C",
+      "attempted": 13,
+      "succeeded": 13,
+      "failed": 0,
+      "newlyRetired": 13,
+      "verifiedBy": "YOUTUBE_UPDATE_VIDEO responses: all 13 report privacyStatus=unlisted",
+      "note": "See _classCRecountedProperlyOn2026-09-10 for full methodology. First batch to use the live channel listing (not published.json) plus hashtag-normalized title grouping plus a live privacyStatus check on every candidate before touching anything. The 13: spacebar (ZO2XmDZJtHM), algebra (hHSVNrx77nY), nintendo-1889 (fKxeSmJxZTA), binary-search (VZ3Gzy7GxB8), first-sms-1992 (k7SOVwKNd0s), cleopatra-moon (tFD2RuVXKSw), ctrl-shift-t (xO212265odY), screen-readers-html (t__22G95Iew), at-symbol-accounting (Z355cH9OydU), copy-paste-tesler (K87dzPJYcKY), naming-cache-invalidation (296cXkb52ig), astrolabe-latitude (ziSfbDxnpgE), vikings-north-america (nTVFyOahbO4). In every case the OLDER public copy (all published 2026-07-27 to 2026-07-30, none of them previously recorded in published.json) was kept and the newer one retired."
     }
   ],
   "unlisted": [
@@ -355,6 +371,136 @@
       "reason": "duplicate (3 copies; kept oldest tJOLa7_Y210)",
       "unlistedAt": "2026-09-01T08:36:49Z",
       "url": "https://youtu.be/DBqhjwNyKDA"
+    },
+    {
+      "id": "ZO2XmDZJtHM",
+      "channel": "yt-bbmw0",
+      "title": "The spacebar is the most-pressed key on any keyboard. #Shorts #facts",
+      "publishedAt": "2026-08-16T21:03:39Z",
+      "defectClass": "C",
+      "reason": "duplicate (hashtag-variant match; kept oldest v_gKTz1I8O0)",
+      "unlistedAt": "2026-09-10T20:35:00Z",
+      "url": "https://youtu.be/ZO2XmDZJtHM"
+    },
+    {
+      "id": "hHSVNrx77nY",
+      "channel": "yt-bbmw0",
+      "title": "Algebra is named after an Arabic word. #Shorts",
+      "publishedAt": "2026-08-16T20:59:09Z",
+      "defectClass": "C",
+      "reason": "duplicate (hashtag-variant match; kept oldest _gRuEmXgIKE)",
+      "unlistedAt": "2026-09-10T20:35:00Z",
+      "url": "https://youtu.be/hHSVNrx77nY"
+    },
+    {
+      "id": "fKxeSmJxZTA",
+      "channel": "yt-bbmw0",
+      "title": "Nintendo was founded in 1889. #Shorts #didyouknow",
+      "publishedAt": "2026-08-11T10:17:40Z",
+      "defectClass": "C",
+      "reason": "duplicate (3 copies; kept oldest RS9G5stmNbY)",
+      "unlistedAt": "2026-09-10T20:35:00Z",
+      "url": "https://youtu.be/fKxeSmJxZTA"
+    },
+    {
+      "id": "VZ3Gzy7GxB8",
+      "channel": "yt-bbmw0",
+      "title": "Binary search finds one item in a million in twenty steps. #Shorts",
+      "publishedAt": "2026-08-11T10:02:14Z",
+      "defectClass": "C",
+      "reason": "duplicate (hashtag-variant match; kept oldest --hT2RHXjKA)",
+      "unlistedAt": "2026-09-10T20:35:00Z",
+      "url": "https://youtu.be/VZ3Gzy7GxB8"
+    },
+    {
+      "id": "k7SOVwKNd0s",
+      "channel": "yt-bbmw0",
+      "title": "The first text message was sent in 1992. #Shorts",
+      "publishedAt": "2026-08-10T10:34:57Z",
+      "defectClass": "C",
+      "reason": "duplicate (exact-title match; kept oldest Viki9XnYuNo, which had no published.json record)",
+      "unlistedAt": "2026-09-10T20:35:00Z",
+      "url": "https://youtu.be/k7SOVwKNd0s"
+    },
+    {
+      "id": "tFD2RuVXKSw",
+      "channel": "yt-bbmw0",
+      "title": "Cleopatra lived closer to the Moon landing than to the pyramids. #Shorts #facts",
+      "publishedAt": "2026-08-10T10:19:46Z",
+      "defectClass": "C",
+      "reason": "duplicate (hashtag-variant match; kept oldest tFY0cSB3jf8)",
+      "unlistedAt": "2026-09-10T20:35:00Z",
+      "url": "https://youtu.be/tFD2RuVXKSw"
+    },
+    {
+      "id": "xO212265odY",
+      "channel": "yt-bbmw0",
+      "title": "Ctrl+Shift+T reopens the tab you just closed. #Shorts #facts",
+      "publishedAt": "2026-08-09T09:34:49Z",
+      "defectClass": "C",
+      "reason": "duplicate (hashtag-variant match; kept oldest 8jdnxwp1gV0)",
+      "unlistedAt": "2026-09-10T20:35:00Z",
+      "url": "https://youtu.be/xO212265odY"
+    },
+    {
+      "id": "t__22G95Iew",
+      "channel": "yt-bbmw0",
+      "title": "Screen readers rely on correct HTML headings. #Shorts",
+      "publishedAt": "2026-08-09T09:32:51Z",
+      "defectClass": "C",
+      "reason": "duplicate (3 copies; kept oldest eoMA3P5mqC8)",
+      "unlistedAt": "2026-09-10T20:35:00Z",
+      "url": "https://youtu.be/t__22G95Iew"
+    },
+    {
+      "id": "Z355cH9OydU",
+      "channel": "yt-bbmw0",
+      "title": "The @ symbol was used in accounting before email existed. #Shorts #learn",
+      "publishedAt": "2026-08-02T10:25:44Z",
+      "defectClass": "C",
+      "reason": "duplicate (3 copies; kept oldest 6AKRk8d-NrM)",
+      "unlistedAt": "2026-09-10T20:35:00Z",
+      "url": "https://youtu.be/Z355cH9OydU"
+    },
+    {
+      "id": "K87dzPJYcKY",
+      "channel": "yt-bbmw0",
+      "title": "Copy and paste was invented by Larry Tesler in 1974. #Shorts #facts",
+      "publishedAt": "2026-08-02T10:29:12Z",
+      "defectClass": "C",
+      "reason": "duplicate (3 copies; kept oldest tJOLa7_Y210; batch 3 on 2026-09-01 already retired the other duplicate DBqhjwNyKDA in this same group but missed this one under the hashtag-variant method)",
+      "unlistedAt": "2026-09-10T20:35:00Z",
+      "url": "https://youtu.be/K87dzPJYcKY"
+    },
+    {
+      "id": "296cXkb52ig",
+      "channel": "yt-bbmw0",
+      "title": "Naming things and cache invalidation are the two hard problems. #Shorts #learn",
+      "publishedAt": "2026-08-02T10:27:58Z",
+      "defectClass": "C",
+      "reason": "duplicate (3 copies; kept oldest 7xTdas-AUvw)",
+      "unlistedAt": "2026-09-10T20:35:00Z",
+      "url": "https://youtu.be/296cXkb52ig"
+    },
+    {
+      "id": "ziSfbDxnpgE",
+      "channel": "yt-bbmw0",
+      "title": "The astrolabe could find your latitude from a star. #Shorts #quickfact",
+      "publishedAt": "2026-08-02T10:24:40Z",
+      "defectClass": "C",
+      "reason": "duplicate (hashtag-variant match; kept oldest eMg1RsiW9Gk)",
+      "unlistedAt": "2026-09-10T20:35:00Z",
+      "url": "https://youtu.be/ziSfbDxnpgE"
+    },
+    {
+      "id": "nTVFyOahbO4",
+      "channel": "yt-bbmw0",
+      "title": "Vikings reached North America 500 years before Columbus. #Shorts",
+      "publishedAt": "2026-08-01T10:29:54Z",
+      "defectClass": "C",
+      "reason": "duplicate (exact-title match; kept oldest 5pFrcs-BSoE; topic never had a published.json record for either copy)",
+      "unlistedAt": "2026-09-10T20:35:00Z",
+      "url": "https://youtu.be/nTVFyOahbO4"
     }
   ]
 }

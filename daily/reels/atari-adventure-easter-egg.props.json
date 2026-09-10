@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (atari-adventure-easter-egg)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0E0A",
+    "ink": "#EDEFE9",
+    "accent": "#3DDC6E",
+    "muted": "#7C8778"
+  },
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "1979. Atari had a policy: no game credited the person who actually built it.",
+      "text": "So one programmer hid his name inside the game itself.",
+      "note": "Warren Robinett built Adventure for the Atari 2600, and slipped in a secret room Atari never approved.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "He didn't make it easy.",
+      "text": "You had to carry an almost-invisible object across the map to unlock it.",
+      "note": "Asked why, in his own words: \"I was pissed.\"",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "credit",
+      "year": "1980",
+      "name": "Adam Clayton",
+      "role": "A fifteen-year-old player who found the hidden room and mailed Atari a handwritten letter describing it, the first record of anyone outside Atari finding Robinett's secret.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "statement",
+      "lead": "Atari didn't have a word for what he'd done, so it made one up.",
+      "text": "An employee named Steve Wright coined the term \"Easter egg\".",
+      "note": "His reasoning: hiding things in games was a good thing, \"like Easter eggs for players to find\". The name stuck across the whole industry.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The first hidden secret in console gaming was a protest note.",
+      "durationInFrames": 88
+    },
+    {
+      "kind": "sign",
+      "line": "He signed his own work because no one else would.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 106
+    }
+  ]
+}

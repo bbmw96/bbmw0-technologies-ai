@@ -1,0 +1,41 @@
+{
+  "slug": "bukhari-1-1",
+  "date": "2026-09-10",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "On sincerity of intention: actions are judged by what you intended.\n\nSahih al-Bukhari, Book 1, Hadith 1. Swipe through for the Arabic, then English, Mandarin, Korean and Japanese renderings.\n\nSources on the final slide.",
+  "tags": [
+    "Hadith",
+    "SahihBukhari",
+    "IslamicReminder",
+    "Sunnah",
+    "Deen",
+    "IslamicGuidance",
+    "MuslimReminder",
+    "Niyyah",
+    "IslamicQuotes",
+    "ProphetMuhammad"
+  ],
+  "theme": "midnight-silver",
+  "slides": [
+    "bukhari-1-1.slide-01.json",
+    "bukhari-1-1.slide-02.json",
+    "bukhari-1-1.slide-03.json",
+    "bukhari-1-1.slide-04.json",
+    "bukhari-1-1.slide-05.json",
+    "bukhari-1-1.slide-06.json",
+    "bukhari-1-1.slide-07.json"
+  ],
+  "sourcing": {
+    "primary_text": "Sahih al-Bukhari, Book 1 (Revelation), Hadith 1, narrated by 'Umar ibn al-Khattab",
+    "arabic": "Matn only (isnad omitted for slide length), edition ara-bukhari, cdn.jsdelivr.net/gh/fawazahmed0/hadith-api",
+    "english": "Muhsin Khan translation, edition eng-bukhari, cdn.jsdelivr.net/gh/fawazahmed0/hadith-api. Quoted verbatim including its own 'So whoever' phrasing, since editing a named translator's quoted words would itself be a misattribution risk.",
+    "chinese_korean_japanese": "No Chinese, Korean, or Japanese edition exists in the fawazahmed0/hadith-api catalogue (confirmed by reading its full editions.json: only Arabic, Bengali, English, French, Indonesian, Russian, Tamil, Turkish and Urdu are covered, across all ten collections). A web search for an alternative reputable source turned up nothing citable either. These three renderings are therefore my own careful translation from the verified Arabic and English above, not a named external source, and are labelled as translations on-slide and in the caption rather than attributed to a scholar who did not produce them.",
+    "verification_note": "Arabic and English are primary-sourced and citable; Chinese, Korean and Japanese are transparently labelled translations. See channels.json's ig-blankdiscussions._niche_note for why honest sourcing is a hard requirement for this channel."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-10/bukhari-1-1-slide-NN.png --props=daily/2026-09-10/blankdiscussions/bukhari-1-1.slide-NN.json  (run once per slide, NN = 01 through 07; note the entry point is src/compositions/registry.tsx, NOT src/index.ts which does not exist in this repo)",
+  "status": "rendered-pending-owner-review",
+  "_blocker_note": "Rendered 2026-09-10 (all 7 PNGs, out/blankdiscussions/2026-09-10/bukhari-1-1-slide-01.png through -07.png) once Desktop Commander came back up this session. All 7 visually inspected: Arabic matn renders correctly, CJK/Korean glyphs render correctly, dark theme reads clean. Re-verified the Arabic and English matn this same session against cdn.jsdelivr.net/gh/fawazahmed0/hadith-api's ara-bukhari/1.json and eng-bukhari/1.json directly — both match on-slide text exactly (isnad correctly trimmed, matn kept verbatim). The Chinese/Korean/Japanese slides are confirmed-correctly labelled as this project's own translation (no CJK edition exists in that API, per the sourcing block above), not misattributed. Still NOT published: needs (1) the owner's visual sign-off, (2) public HTTPS URLs for the 7 PNGs before instagram-upload-carousel-composio.mjs can run. Do NOT publish without explicit owner go-ahead: brand-new account's first-ever post, religious content."
+}

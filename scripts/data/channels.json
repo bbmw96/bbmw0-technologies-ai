@@ -77,6 +77,27 @@
       "publishVia": "composio",
       "weekendCount": 2,
       "_niche_note": "Matched to the account's stated brand (weekly AI-video saga, gaming). Publishing animal and space facts to a gaming account is off-brand, and Instagram reads topical consistency hard on a small account: it would suppress reach on both these posts and any gaming content later."
+    },
+    {
+      "id": "ig-blankdiscussions",
+      "enabled": true,
+      "platform": "instagram",
+      "handle": "@blankdiscussions",
+      "composioConnection": "instagram_demob-runite",
+      "secretPrefix": "IGBD",
+      "mediaFormat": "carousel",
+      "dailyCount": null,
+      "privacy": "public",
+      "niches": [
+        "islamic-guidance"
+      ],
+      "notes": "Added 10 Sep 2026 at the channel owner's request: Quran and Hadith content, five languages per post (English UK, Arabic, Mandarin Chinese, Korean, Japanese), posted as Instagram carousels rather than video Reels. Publishes via Composio (scripts/instagram-upload-carousel-composio.mjs), a NEW script written for this channel - the existing instagram-upload-composio.mjs only drives the single-media Reels path and does not build carousel container arguments correctly. Live-verified 10 Sep 2026 via INSTAGRAM_GET_USER_INFO: account_type=MEDIA_CREATOR (publishing-eligible; personal accounts are rejected by Meta's API), 0 followers/0 media (brand new), publish quota 100 posts/24h with 0 used (INSTAGRAM_GET_IG_USER_CONTENT_PUBLISHING_LIMIT). Composio's own connection listing labels this account_type 'PRIVATE', which is a Composio-internal label, not Meta's - confirmed by the identical label appearing on ig-aigameodyssey's connection despite that channel publishing successfully every day; the real Meta account_type is the MEDIA_CREATOR value above, read live from the Graph API.",
+      "igUserId": "28477523595198052",
+      "publishVia": "composio-carousel",
+      "weekendCount": null,
+      "_niche_note": "Religious source content (Quran, Hadith). Verse/hadith text and every language rendering must trace to a named, citable source (surah:ayah + translator; collection/book/number/grade) rather than being generated freehand - misquoting scripture is a materially different risk than getting a trivia fact wrong. See VISUAL-DIRECTION-BRIEF.md for the sourcing approach.",
+      "_cadence_note": "Owner wants a variable number of carousels per day (not a fixed dailyCount/weekendCount like the other channels), spaced 20 to 60 minutes apart, sized to however much verified content is ready that day. dailyCount/weekendCount are left null here deliberately rather than guessed at; see the scheduling note in VISUAL-DIRECTION-BRIEF.md for how posts are actually paced.",
+      "_routing_note": "render-batch.mjs's Instagram branch previously read COMPOSIO_IG_ACCOUNT_ID/IG_USER_ID from a single pair of global env vars with no per-channel selection - correct for exactly one Instagram channel, silently wrong for two. Fixed 10 Sep 2026 to resolve composioConnection/igUserId from this channel object instead. Neither value is secret (they are identifiers, not credentials); only COMPOSIO_API_KEY needs to stay a GitHub secret, and it is already shared correctly across both Instagram channels."
     }
   ],
   "instagram_limits": {
@@ -88,6 +109,6 @@
     "daily_publish_limit": 100,
     "_source": "Meta Instagram Platform, Content Publishing. 100 API-published posts per rolling 24h."
   },
-  "_enabled_note": "All three channels are enabled. A channel without its credentials is SKIPPED with a clear message rather than failing the run, so enabling early is safe. Check `npm run channels` for live readiness.",
-  "_cadence": "4 clips per weekday per channel, plus 2 extra at the weekend flagged as special. Weekend specials get the premium visual treatment (see specialTreatment in the generator)."
+  "_enabled_note": "All four channels are enabled. A channel without its credentials is SKIPPED with a clear message rather than failing the run, so enabling early is safe. Check `npm run channels` for live readiness.",
+  "_cadence": "4 clips per weekday per channel, plus 2 extra at the weekend flagged as special, for the three video channels. Weekend specials get the premium visual treatment (see specialTreatment in the generator). ig-blankdiscussions is the exception: a variable number of carousels per day, spaced through the day rather than rendered in one batch - see its own _cadence_note."
 }

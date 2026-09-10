@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (pacman-ghost-ai)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0B12",
+    "ink": "#F4F1E8",
+    "accent": "#FFCC33",
+    "muted": "#8A8A93"
+  },
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "You've dodged them a thousand times.",
+      "text": "They were never chasing you at random.",
+      "note": "Each of the four ghosts runs its own fixed formula for picking a target tile, results Namco's own team called their \"personalities\".",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Take the pink one.",
+      "text": "Pinky isn't chasing you. He's ambushing you.",
+      "note": "His target sits four tiles ahead of wherever you're currently facing, so he tries to cut off your path instead of following it.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "Face upward, and the maths breaks.",
+      "note": "A logic error in the original code adds a phantom four-tile offset to the left as well, so \"four tiles up\" becomes four up and four left. It shipped in 1980 and stayed.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1979",
+      "name": "Shigeo Funaki",
+      "role": "The programmer Namco paired with designer Toru Iwatani, who had no formal coding background himself. Between them they built four different hunting formulas, not four costumes on one script.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "figure",
+      "value": "8",
+      "unit": "tiles",
+      "context": "Clyde's actual personal-space rule. Closer than this and he panics back to his corner; farther and he hunts you exactly like the red ghost.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "sign",
+      "line": "Four formulas. It only ever looked like a mind.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 100
+    }
+  ]
+}

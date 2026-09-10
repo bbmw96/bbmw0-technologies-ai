@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (vinland-1021)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#090C10",
+    "ink": "#EEF2F5",
+    "accent": "#7FD6E8",
+    "muted": "#75828C"
+  },
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "You know the year Columbus crossed the Atlantic.",
+      "text": "Vikings beat him there by 471 years.",
+      "note": "Not legend, a dated find: European wood, cut with metal tools nobody in the area had, at the northern tip of Newfoundland.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The site was found in 1960.",
+      "text": "Nobody could say exactly when it was occupied for another 61 years.",
+      "note": "Archaeologist Anne Stine Ingstad excavated it through the 1960s and dated it to \"around 1000 AD\" by comparing it with sites in Greenland and Iceland, a good estimate, not a year.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "In 2021, a solar storm did what shovels couldn't.",
+      "text": "A cosmic-ray spike from the year 993 is baked into tree rings everywhere on Earth.",
+      "note": "Researchers counted growth rings outward from that marked ring, on wood the Norse had felled and shaped, straight to the year they cut it.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "1021",
+      "unit": "AD",
+      "context": "The exact year, from 127 radiocarbon measurements across four wooden objects. Not \"around 1000\". Not a century. One year.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "credit",
+      "year": "2021",
+      "name": "Margot Kuitems",
+      "role": "Led the University of Groningen team that published the date in Nature, using the 993 solar storm as a fixed marker buried in the rings of every sample tested.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "sign",
+      "line": "Tree rings and a solar storm pinned it to the year.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 112
+    }
+  ]
+}

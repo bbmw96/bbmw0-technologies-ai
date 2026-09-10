@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (prng-not-random)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0C0B",
+    "ink": "#E7EAE6",
+    "accent": "#B98A2E",
+    "muted": "#7C817B"
+  },
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Ask a computer for a random number",
+      "text": "It runs a formula and reads you the next line of a script.",
+      "note": "Same starting seed, same sequence, every time. Nothing is chosen; it is all pre-computed. That is why they are called pseudo-random.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1949",
+      "name": "John von Neumann",
+      "role": "He built the first computer method for it (square a number, keep the middle digits, repeat) for Monte Carlo runs on ENIAC. He also warned exactly what it was.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "In his own words",
+      "text": "Anyone who considers arithmetical methods of producing random digits is, of course, in a state of sin.",
+      "note": "His point: no formula is truly random. He used them anyway (hundreds of times faster than reading random numbers off punch cards), knowing precisely what they were.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "And his method could trap itself",
+      "text": "Hit the wrong number and it spits zeros forever.",
+      "note": "The middle-square method can collapse to zero, or fall into a short loop, and never recover. Von Neumann counted that a virtue: a failure you can at least catch.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Even an AI's flashes of randomness are a formula quietly choosing the next number.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "sign",
+      "line": "A computer can fake chance. It cannot roll a die.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 106
+    }
+  ]
+}

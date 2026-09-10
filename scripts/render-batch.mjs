@@ -224,6 +224,22 @@ for (const propsFile of propsFiles) {
       // upload, so it needs the file hosted first. Skip rather than fail the
       // batch if no public base URL is configured.
       if (meta.platform === "instagram") {
+        // Carousel channels (ig-blankdiscussions) are a different shape of job
+        // entirely: a variable number of still-image posts sourced live and
+        // spaced through the day, not a daily batch of pre-generated videos.
+        // Nothing in this pipeline currently writes daily/<date>/*.props.json
+        // for a carousel channel, so this branch should never fire for one in
+        // practice - but if it ever does (a manual mistake, a future
+        // generator change), fail loudly with a pointer to the real script
+        // rather than attempting a single-video Reels upload against a
+        // channel that was never meant to go through this path. Added
+        // 10 Sep 2026 alongside ig-blankdiscussions.
+        if (channel && channel.mediaFormat === "carousel") {
+          append(`  SKIPPED: ${channel.id} is mediaFormat=carousel. Use scripts/instagram-upload-carousel-composio.mjs, not render-batch.mjs.`);
+          skipCount++;
+          continue;
+        }
+
         // Instagram cURLs the video from a public URL. Resolve it in priority
         // order: an explicit override, then the media-urls.json written by
         // publish-media.mjs, then host it now.
@@ -300,6 +316,21 @@ for (const propsFile of propsFiles) {
           ? "scripts/instagram-upload-composio.mjs"
           : "scripts/instagram-upload.mjs";
 
+        // COMPOSIO_IG_ACCOUNT_ID and IG_USER_ID used to reach the child
+        // process as a single global pair inherited straight from
+        // process.env, correct only as long as exactly one Instagram channel
+        // existed. With a second one (ig-blankdiscussions) that would either
+        // fail outright or, worse, silently publish this channel's video to
+        // the OTHER channel's account. Neither value is secret - they are
+        // identifiers, not credentials - so channels.json is the right place
+        // for them, the same way YouTube's credentialsFile already is.
+        // Falls back to the bare env vars when a channel has neither field
+        // set, so ig-aigameodyssey's existing GitHub secret keeps working
+        // unchanged. Added 10 Sep 2026.
+        const igEnv = { ...process.env };
+        if (channel && channel.composioConnection) igEnv.COMPOSIO_IG_ACCOUNT_ID = channel.composioConnection;
+        if (channel && channel.igUserId) igEnv.IG_USER_ID = channel.igUserId;
+
         // Fail with a message that names the actual problem, rather than
         // letting the upload script fail on a missing token further down.
         if (!useComposio && !process.env.IG_ACCESS_TOKEN) {
@@ -330,6 +361,7 @@ for (const propsFile of propsFiles) {
           cwd: ROOT,
           encoding: "utf8",
           stdio: ["inherit", "pipe", "pipe"],
+          env: igEnv,
         });
         process.stdout.write(igOut);
         const im = igOut.match(/Media ID:\s*(\d+)/);

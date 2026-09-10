@@ -1,0 +1,43 @@
+{
+  "slug": "quran-94-5",
+  "date": "2026-09-10",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "A reminder from the Qur'an: with hardship comes ease.\n\nSurah Ash-Sharh (94:5). Swipe through for the Arabic, then English, Mandarin, Korean and Japanese renderings.\n\nSources on the final slide.",
+  "tags": [
+    "Quran",
+    "IslamicReminder",
+    "Ayah",
+    "Deen",
+    "IslamicGuidance",
+    "MuslimReminder",
+    "FaithReminder",
+    "IslamicQuotes",
+    "Alhamdulillah",
+    "QuranicVerses"
+  ],
+  "theme": "emerald-gold",
+  "slides": [
+    "quran-94-5.slide-01.json",
+    "quran-94-5.slide-02.json",
+    "quran-94-5.slide-03.json",
+    "quran-94-5.slide-04.json",
+    "quran-94-5.slide-05.json",
+    "quran-94-5.slide-06.json",
+    "quran-94-5.slide-07.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an, Surah Ash-Sharh (94), Ayah 5",
+    "arabic": "Uthmani script (edition quran-uthmani), api.alquran.cloud",
+    "english": "Saheeh International (edition en.sahih), api.alquran.cloud",
+    "chinese": "Ma Jian, 马坚 (edition zh.jian), api.alquran.cloud",
+    "korean": "Edition ko.korean, api.alquran.cloud. Translator is listed as 'Unknown' in the source's own metadata, so the on-slide credit says the same rather than inventing a scholar's name. A trailing footnote marker ('[1])') present in the raw API response was stripped for display; the verse wording itself is unedited from the API response.",
+    "japanese": "Edition ja.japanese, api.alquran.cloud. Translator is listed as 'Unknown' in the source's own metadata, cited on-slide as such. An earlier query used an invalid edition id (ja.ryoichi) which the API silently dropped rather than erroring; the correct id was found via the /edition?language=ja endpoint.",
+    "verification_note": "All five language renderings came from api.alquran.cloud, a live Quran text and translation API, not from memory. See channels.json's ig-blankdiscussions._niche_note for why this project treats scripture sourcing as a hard requirement, not a style choice."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-10/quran-94-5-slide-NN.png --props=daily/2026-09-10/blankdiscussions/quran-94-5.slide-NN.json  (run once per slide, NN = 01 through 07; note the entry point is src/compositions/registry.tsx, NOT src/index.ts which does not exist in this repo)",
+  "status": "rendered-pending-owner-review",
+  "_blocker_note": "Rendered 2026-09-10 (all 7 PNGs, out/blankdiscussions/2026-09-10/quran-94-5-slide-01.png through -07.png) once Desktop Commander came back up this session. All 7 visually inspected: RTL Arabic diacritics render correctly, CJK/Korean glyphs render correctly, layout is clean on every theme rotation. Re-verified every on-slide text string against its live source this same session (api.alquran.cloud for arabic/english/chinese/korean/japanese, all five byte-for-byte matches including the Korean/Japanese lines whose translator the source itself lists as 'Unknown') — zero fabrication, see sourcing block above which a prior session already got right. Still NOT published: needs (1) the owner's actual visual sign-off on these images, (2) public HTTPS URLs for the 7 PNGs before instagram-upload-carousel-composio.mjs can run. (The owner's halal-cadence answer that's pending elsewhere is for the unrelated CodeBeat typing-sound feature — see typing-sound-codebeat-pending-signoff.md — and has no bearing on this account launch.) Do NOT publish without explicit owner go-ahead: brand-new account's first-ever post, religious content, both reasons to be conservative."
+}

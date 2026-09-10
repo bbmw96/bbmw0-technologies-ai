@@ -1,0 +1,43 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <!--
+    @blankdiscussions profile picture.
+    A plain 8-pointed geometric star (khatam), the classic non-figurative
+    motif used across Islamic geometric art - deliberately not a crescent
+    moon, which is the generic default every other "Islamic content" account
+    uses and the channel owner asked for a distinct look, not a template.
+    No figurative imagery, consistent with the channel's content.
+
+    Uses the channel's "emerald-gold" theme (see IslamicCarouselSlide.tsx)
+    as the account's fixed identity mark, distinct from the per-post
+    rotating themes used on carousel slides themselves - the profile photo
+    should stay constant even as post colours vary.
+
+    THIS IS AN SVG, NOT A PNG/JPG. Instagram profile photos must be a
+    raster image, so this needs converting before upload: open this file
+    in any browser (double-click it) or image editor, then export/save as
+    a 1080x1080 PNG. No paid image generation was used for this, matching
+    the project's standing "no paid generation without asking first" policy.
+  -->
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="42%" r="70%">
+      <stop offset="0%" stop-color="#123D36" />
+      <stop offset="100%" stop-color="#0B2B26" />
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1080" height="1080" fill="url(#bgGlow)" />
+
+  <!-- Outer ring, thin, so the mark still reads at small feed/profile sizes -->
+  <circle cx="540" cy="540" r="460" fill="none" stroke="#C9A227" stroke-width="4" opacity="0.5" />
+
+  <!-- The 8-pointed star -->
+  <polygon
+    points="540.0,200.0 592.1,414.4 780.4,299.6 665.7,488.0 880.0,540.0 665.7,592.1 780.4,780.4 592.1,665.7 540.0,880.0 488.0,665.7 299.6,780.4 414.4,592.1 200.0,540.0 414.4,488.0 299.6,299.6 488.0,414.4"
+    fill="#C9A227"
+  />
+
+  <!-- Small centre disc, background colour, so the star reads as an open
+       frame rather than a solid blob at very small sizes -->
+  <circle cx="540" cy="540" r="118" fill="#0B2B26" />
+  <circle cx="540" cy="540" r="118" fill="none" stroke="#C9A227" stroke-width="3" opacity="0.7" />
+</svg>

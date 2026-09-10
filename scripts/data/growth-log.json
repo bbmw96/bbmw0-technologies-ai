@@ -64,6 +64,37 @@
         "reelsLive": 4
       },
       "note": "Two weeks after the first snapshot (2026-08-18 to 2026-09-01), views on yt-bbmw0 dropped from 664 to 544 and publicVideos from 72 to 62; both are the cleanup doing its job, not a loss of reach: views only accrue on videos while they are public, and unlisting a low-performing back-catalogue video removes its stale view count from this total along with the risk it carried. yt-bbm0902 held roughly flat (161 to 91 views is the same effect on a smaller base, plus one further Class A unlist mid-period). Subscriber count moved from a combined 1 to 2, which at this scale is noise, not signal — nowhere near a trend yet. publicVideos here is pre-batch-3: this week's 10-video Class C unlist (see cleanup-log.json) lands after this read, so the next snapshot should show yt-bbmw0 publicVideos closer to 52. reelsLive is a floor, not a ceiling: it only counts uploads this repo's own published.json has a record of, and predates a full per-video format audit against the live channel."
+    },
+    {
+      "date": "2026-09-10",
+      "week": "2026-W37",
+      "source": "Composio YOUTUBE_GET_CHANNEL_STATISTICS (mine=true, both accounts) and YOUTUBE_LIST_CHANNEL_VIDEOS for recent-upload dates",
+      "channels": {
+        "yt-bbmw0": {
+          "handle": "@bbmw.0",
+          "channelId": "UCSRkqZ0PckW8ae-cnZcN1hw",
+          "subscribers": 2,
+          "views": 1279,
+          "publicVideos": 73,
+          "reelsLive": null,
+          "mostRecentUpload": "2026-09-10T13:20:03Z"
+        },
+        "yt-bbm0902": {
+          "handle": "@bbm0902",
+          "channelId": "UC5O9s1vte7UiLICKP1pHiIQ",
+          "subscribers": 2,
+          "views": 589,
+          "publicVideos": 13,
+          "reelsLive": null,
+          "mostRecentUpload": "2026-09-06T12:41:13Z"
+        }
+      },
+      "totals": {
+        "subscribers": 4,
+        "views": 1868,
+        "publicVideos": 86
+      },
+      "note": "reelsLive not recomputed against published.json this snapshot (left null rather than carried-forward or guessed); every recent title on both channels reads as Reel-format (statement-style hooks), consistent with --reels-only being unconditional since 16 Aug, so the prior snapshots' reelsLive undercounts are likely stale rather than this being a regression. Subscribers moved from a combined 2 to 4 and views from 635 to 1868; still far too small a base for a trend, but the direction is up on both channels, not flat. yt-bbmw0 publicVideos rose 62 to 73 (11 net new public videos in 9 days, after cleanup unlisting is netted out) and is actively publishing today. yt-bbm0902 publicVideos is UNCHANGED at 13 (matched exactly against the 2026-09-01 snapshot) and its most recent upload was 2026-09-06, four days before this read: this is the topic-stock exhaustion already flagged in the daily-shorts-real-cadence memory (yt-bbm0902 down to 1 unused topic total across all 5 niches as of today, 4 of 5 niches at literal zero), not a publishing or auth failure — confirmed independently here by the flat videoCount and stale upload date lining up exactly with that diagnosis. This is the single highest-priority item for the next research pass on this project, ahead of any other channel. NOTE: this exact entry was written once already earlier in this session and then found reverted back to the two-snapshot state on a subsequent read, with no edit conflict reported (the file read back as byte-identical to the pre-edit version, not a different edit layered on top) — almost certainly the same OneDrive cloud-sync visibility lag already documented in cleanup-log.json's 2026-08-18 _runCaveat, applied here to a different file. If this entry goes missing a second time, that pattern is worth raising with the user directly rather than silently re-applying a third time."
     }
   ]
 }

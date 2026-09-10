@@ -25,6 +25,7 @@ import {
 } from "./themedShorts";
 import { ThemedShort } from "./ThemedShort";
 import type { Beat } from "./themes";
+import { IslamicCarouselSlide, carouselSlideDefaults, CAROUSEL_W, CAROUSEL_H } from "./IslamicCarouselSlide";
 
 export const SCENE_FPS = 30;
 export const SCENE_W = 1080;
@@ -135,6 +136,24 @@ const Root: React.FC = () => {
 
       {/* 30-minute long-form (1920x1080) */}
       <Composition id="LongForm" component={LongForm} durationInFrames={30 * 60 * SCENE_FPS} fps={SCENE_FPS} width={1920} height={1080} defaultProps={longFormDefaults} />
+
+      {/* Instagram carousel slide, ig-blankdiscussions. A STILL, not a video:
+          4:5 (1080x1350), one frame. One post = N renders of this same
+          composition with different --props, one per slide, then
+          instagram-upload-carousel-composio.mjs assembles them into a
+          carousel. Render with:
+            npx remotion still src/index.ts IslamicSlide out/slide-01.png --props=daily/<date>/<slug>.slide-01.json
+          See src/compositions/IslamicCarouselSlide.tsx for the prop shape
+          (cover / text / citation) and the theme rotation. */}
+      <Composition
+        id="IslamicSlide"
+        component={IslamicCarouselSlide as React.FC<any>}
+        durationInFrames={1}
+        fps={SCENE_FPS}
+        width={CAROUSEL_W}
+        height={CAROUSEL_H}
+        defaultProps={carouselSlideDefaults as any}
+      />
     </>
   );
 };

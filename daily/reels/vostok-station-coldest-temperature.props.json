@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (vostok-station-coldest-temperature)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A1420",
+    "ink": "#F2FAFF",
+    "accent": "#5FC9F0",
+    "muted": "#7E97A8"
+  },
+  "niche": "weather",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The coldest temperature ever reliably measured on Earth was not in the Arctic.",
+      "text": "Russia's Vostok Station, deep inland on the Antarctic ice sheet, recorded -89.2 degrees Celsius on 21 July 1983, the lowest natural temperature ever confirmed on Earth's surface.",
+      "note": "This is the coldest figure measured directly. Satellite readings have since detected colder spots elsewhere on the ice sheet.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "-89.2",
+      "unit": "°C",
+      "context": "the coldest temperature ever reliably measured on Earth's surface, recorded at Vostok Station on 21 July 1983.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "statement",
+      "text": "Even Vostok's warmest moment on record was brutally cold: -14 degrees Celsius, once, in the middle of the Southern Hemisphere summer.",
+      "note": "That single reading, on 5 January 1974, is still the warmest this station has ever recorded.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Despite the cold and months of total darkness, Vostok is also one of the sunniest places on Earth.",
+      "text": "In December it receives an average of about 709 hours of sunshine, nearly 23 hours a day, more than the sunniest spots near the Sahara.",
+      "note": "It gets zero sunshine at all for roughly four months of the year, May to August, so the sunniest claim is about total hours across the year, not constant daylight.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Beneath all that ice sits Lake Vostok, a liquid freshwater lake sealed under about four kilometres of ice for millions of years. Scientists did not physically reach its surface with a drill until 5 February 2012.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "Earth's cold pole is also, somehow, one of its sunniest places.",
+      "handle": "@bbm0902",
+      "durationInFrames": 112
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (parkinsons-law)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0C0B0E",
+    "ink": "#F3F0EC",
+    "accent": "#E4572E",
+    "muted": "#8B8680"
+  },
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The essay opens with a woman spending all day mailing a postcard.",
+      "text": "Parkinson admitted upfront that story was made up.",
+      "note": "The real piece was a satirical nine-page article for The Economist in November 1955, and it's still quoted today as if it were a study.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "His actual evidence was British Admiralty staffing, 1914 to 1928.",
+      "text": "Officials up 78 percent, while the fleet shrank by two-thirds.",
+      "note": "It reads like scientific proof. Parkinson never disclosed where the numbers came from.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "In 1994, a naval historian checked the real Navy Lists.",
+      "text": "The true growth was even bigger than Parkinson said, and so was the reason he left out.",
+      "note": "The honest 1914 baseline was lower, pushing the real increase closer to 120 percent. That surge tracks almost exactly with the paperwork of the First World War, which Parkinson's essay never mentions once.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1955",
+      "name": "C. Northcote Parkinson",
+      "role": "A serious naval historian, Raffles Professor of History at the University of Malaya, in Singapore, whose nine-page joke in The Economist was collected into a book that sold nearly a quarter of a million copies in two years.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "120",
+      "unit": "percent",
+      "context": "Historian Jon Sumida's corrected 1914-to-1928 growth rate, using the actual Navy Lists rather than Parkinson's undisclosed source.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "sign",
+      "line": "A historian's joke about a war, mistaken for a law about offices.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 118
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (robot-word-rur)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0B0E",
+    "ink": "#EDECE6",
+    "accent": "#38B2A6",
+    "muted": "#7C8079"
+  },
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The word 'robot' has a birthday",
+      "text": "1920, in a Czech play.",
+      "note": "It appears for the first time in Karel Capek's R.U.R. (Rossum's Universal Robots), published in 1920 and staged in Prague in 1921. Before that, the word did not exist.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "It was never a word for 'machine'",
+      "text": "It means forced labour.",
+      "note": "From the Czech 'robota': the unpaid drudgery a serf owed his lord. The deeper Slavic root, 'rab', means slave. The name was built to mean bondage.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "And the first robots weren't metal",
+      "text": "They were artificial people.",
+      "note": "Rossum's robots are not clanking machines but mass-produced living workers, grown rather than built, far closer to lab-made humans than to anything with gears.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The story you already expect",
+      "text": "The robots rise and end humanity.",
+      "note": "The very first tale to use the word is also the first robot uprising. By the final act, mankind is gone. The trope arrived fully formed, a century ago.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Our word for machines was coined for slaves made of flesh.",
+      "durationInFrames": 88
+    },
+    {
+      "kind": "sign",
+      "line": "A hundred years on, we still borrow their name.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ]
+}
