@@ -5025,6 +5025,280 @@
           "handle": "@bbm0902"
         }
       ]
+    },
+    {
+      "id": "qr-code-not-for-phones",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://www.qrcode.com/en/history/ - read in full 7 Sep 2026: Denso Wave's own history page. States that engineer Masahiro Hara led a two-person development team from 1992 to 1994; that the barcodes used at the time could hold only about 20 characters and needed multiple scans to cover one item, while the team's new two-dimensional code could hold around 7,000 numerals; that the distinctive corner finder pattern, a 1 to 1 to 3 to 1 to 1 ratio of black and white, was chosen after Hara's team studied the ratio of black to white areas across printed matter such as newspapers and magazines, to find a pattern least likely to occur by accident; and that Denso Wave held the patent but chose not to exercise it, making the QR Code format free to use from its release in 1994."
+      ],
+      "verifiedNote": "Checked 7 Sep 2026 against Denso Wave's own history page, read in full, the company that invented and still holds the patent on the QR Code. Deliberately not claimed: an exact headcount for Hara's development team beyond the two-person figure the source itself gives, since some secondary write-ups describe a larger surrounding project without specifying roles. Also not claimed: that QR codes were designed with phones in mind. The source is explicit that the format was built to solve a 1990s factory-floor problem, scanning car parts on production lines faster than a barcode allowed, and that industrial and logistics adoption came first; consumer camera-phone scanning in Japan followed roughly eight years later, in 2002, well after the format was already established in manufacturing and, later, food and pharmaceutical traceability.",
+      "palette": {
+        "bg": "#0E1116",
+        "ink": "#F2F4F3",
+        "accent": "#4ADE80",
+        "muted": "#7C8794"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The QR code on every menu and parcel today",
+          "text": "was built to scan car parts faster.",
+          "note": "In 1994, a Japanese auto-parts supplier needed a code a worker could scan once instead of several times over."
+        },
+        {
+          "kind": "credit",
+          "year": "1994",
+          "name": "Masahiro Hara",
+          "role": "Led a two-person team at Denso Wave, a Toyota-group parts supplier, spending two years designing a code that could hold vastly more data than the barcodes then used on factory floors."
+        },
+        {
+          "kind": "figure",
+          "value": "7,000",
+          "unit": "numerals",
+          "context": "How much a single QR code could store, versus roughly 20 characters for the barcodes it replaced on the production line."
+        },
+        {
+          "kind": "statement",
+          "lead": "The corner squares aren't decoration.",
+          "text": "Hara's team copied the ratio from magazines and newspapers.",
+          "note": "They needed a shape unlikely to appear by accident in ordinary printed text, so they measured the ratio of black to white across everyday pages and built the finder pattern from what they found."
+        },
+        {
+          "kind": "statement",
+          "lead": "Denso Wave could have charged for every scan.",
+          "text": "It chose not to, from day one.",
+          "note": "The company patented the format but never enforced the patent, which is a large part of why QR codes spread into shipping, food safety and eventually restaurant menus, long before phones could read them."
+        },
+        {
+          "kind": "kicker",
+          "text": "Phones didn't make the QR code useful. A car parts factory did, eight years earlier."
+        },
+        {
+          "kind": "sign",
+          "line": "The code in your camera app was solving a very different problem in 1994.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "slide-to-unlock-neonode",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://www.cultofmac.com/apple-history/slide-to-unlock-patent - read in full 7 Sep 2026: Cult of Mac (Luke Dormehl). Establishes that Apple filed a patent application for slide to unlock on 23 December 2005; that designer Bas Ording has described the team trying a two-finger slide, pressing two points at once, and a twisting door-handle gesture before settling on a single horizontal swipe, modelled on dragging a bolt across a door; that the gesture drew audible gasps at the 2007 iPhone unveiling; and that Apple retired it as the default lock screen with iOS 10 in 2016, after Touch ID arrived on the iPhone 5s in 2013 and before Face ID arrived in 2017.",
+        "https://www.engadget.com/2013-04-05-german-court-finds-apples-slide-to-unlock-patent-invalid.html - read in full 7 Sep 2026: Engadget (Yoni Heisler, 5 April 2013). Establishes that Germany's Federal Patent Court invalidated every claim of Apple's European patent EP1964022 for slide to unlock, rejected all 14 amendments Apple proposed to save it, and that the ruling turned on a Swedish touchscreen phone, the Neonode N1m, which demonstrated its own slide-to-unlock gesture before Apple's patent application; also notes a Dutch court invalidated the same patent on the same grounds."
+      ],
+      "verifiedNote": "Checked 7 Sep 2026 against Cult of Mac, read in full, for the design story and dates, and Engadget's report on the German ruling, read in full, for the legal outcome. The exact year the Neonode N1m itself first shipped is not pinned down here: available retailer and enthusiast sources variously date Neonode's early touchscreen phones anywhere from 2002 to 2005, so this entry does not repeat a specific year for that phone. What is well corroborated, and is the actual verified claim, is the courts' own finding that the Neonode phone existed and demonstrated the gesture before Apple's patent application of 23 December 2005. Deliberately not claimed: that Apple copied Neonode. The courts ruled the patent invalid for obviousness given prior art, a finding about patentability, not a finding of copying. Also not claimed: the outcome of Apple's separate United States litigation, since both sources here concern the European patent, EP1964022, specifically.",
+      "palette": {
+        "bg": "#121110",
+        "ink": "#F0ECE3",
+        "accent": "#D9932B",
+        "muted": "#857F75"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The most famous gesture on the first iPhone",
+          "text": "was ruled invalid by two European courts.",
+          "note": "Apple patented sliding a finger across the screen to unlock the phone. Courts in Germany and the Netherlands later found that patent should never have been granted."
+        },
+        {
+          "kind": "credit",
+          "year": "2005",
+          "name": "Bas Ording",
+          "role": "An Apple interface designer working on how to unlock the iPhone without a keypad. His team tried a two-finger slide and a twisting door-handle gesture, both rejected for needing two hands, before settling on one long horizontal swipe."
+        },
+        {
+          "kind": "statement",
+          "lead": "Apple filed that patent on 23 December 2005.",
+          "text": "A small Swedish phone maker had already shipped the same idea.",
+          "note": "Neonode had already released a touchscreen phone with its own slide-to-unlock gesture. Germany's Federal Patent Court named that phone directly in 2013 when it threw out every one of Apple's claims, and rejected all 14 changes Apple proposed to save the patent."
+        },
+        {
+          "kind": "statement",
+          "lead": "The gesture was designed to feel physical,",
+          "text": "like dragging a bolt across a door.",
+          "note": "That is the exact comparison Apple's own team used. The swipe ran horizontally rather than vertically, partly so the phone could be unlocked with one finger, and partly so it would not unlock itself while sitting in a pocket."
+        },
+        {
+          "kind": "kicker",
+          "text": "The gesture that made the crowd gasp in 2007 was ruled unpatentable by 2013, and gone from iPhones by 2016."
+        },
+        {
+          "kind": "sign",
+          "line": "Apple's most copied gesture was never legally Apple's alone.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "eisenhower-matrix-covey",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://www.presidency.ucsb.edu/documents/address-the-second-assembly-the-world-council-churches-evanston-illinois - read in full 7 Sep 2026: The American Presidency Project, full transcript of Dwight Eisenhower's address at Northwestern University, 19 August 1954. Establishes the exact wording, that Eisenhower said he had two kinds of problems, the urgent and the important, that the urgent are not important and the important are never urgent, and that he introduced the line explicitly as the statement of a former college president, rather than claiming it as his own words, while Northwestern's actual president, Dr J. Roscoe Miller, was seated in the audience and praised separately in the same passage.",
+        "https://quoteinvestigator.com/2014/05/09/urgent/ - read in full 7 Sep 2026: Quote Investigator. Confirms the 1954 Eisenhower speech is the earliest known instance of the saying, that Eisenhower attributed it to an unnamed former college president rather than to himself or to Miller, and traces later published versions from 1954 onward that add the word seldom and increasingly credit the line to Eisenhower directly rather than to his unnamed source.",
+        "https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People - read in full 7 Sep 2026: Wikipedia. Confirms the book was first published in 1989 by Stephen R. Covey, that Habit 3 lays out four quadrants sorted by urgent versus important with the advice to prioritise quadrant two, not urgent but important, and that the book had sold more than 20 million copies by the time Covey died in 2012."
+      ],
+      "verifiedNote": "Checked 7 Sep 2026 against the verbatim 1954 speech transcript hosted by the American Presidency Project, read in full, Quote Investigator's independent tracing of the same quote, read in full, and Wikipedia's entry on Covey's book, read in full. Deliberately not claimed: that Eisenhower coined the urgent-versus-important line himself. He explicitly credited it, in his own words at the time, to an unnamed former college president, not to Northwestern's actual president Dr J. Roscoe Miller, who was praised separately in the same speech and is sometimes wrongly named online as the source. Also not claimed: that Covey drew a literal grid in 1989. The Wikipedia summary of Habit 3 describes four numbered quadrants in prose rather than confirming an original diagram, so this entry credits Covey with popularising the two-by-two framing through the 1989 book without asserting he was first to draw it as a grid.",
+      "palette": {
+        "bg": "#131211",
+        "ink": "#F3F0EA",
+        "accent": "#D97757",
+        "muted": "#89827A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "One of the most quoted productivity lines around",
+          "text": "was never written down by the man it's named after.",
+          "note": "Dwight Eisenhower said it out loud in a single 1954 speech. He never called it a method, a matrix, or a rule."
+        },
+        {
+          "kind": "credit",
+          "year": "1954",
+          "name": "Dwight D. Eisenhower",
+          "role": "Told an audience at Northwestern University that he had two kinds of problems, the urgent and the important, and that the urgent are never important while the important are never urgent."
+        },
+        {
+          "kind": "statement",
+          "lead": "Eisenhower didn't take credit for the line.",
+          "text": "He said he was quoting a former college president.",
+          "note": "The actual transcript names no one. Northwestern's real president was sitting in the same room and was praised separately in the same speech, which is likely why his name gets wrongly attached to the quote online."
+        },
+        {
+          "kind": "credit",
+          "year": "1989",
+          "name": "Stephen Covey",
+          "role": "Turned Eisenhower's spoken line into a drawn two-by-two grid in his book The 7 Habits of Highly Effective People, sorting tasks into urgent, important, both or neither, and telling readers to live in the important-but-not-urgent quadrant."
+        },
+        {
+          "kind": "figure",
+          "value": "20",
+          "unit": "million",
+          "context": "Copies of Covey's book sold by the time he died in 2012, the book that turned a single unattributed line from a 1954 speech into a permanent planning grid."
+        },
+        {
+          "kind": "kicker",
+          "text": "The Eisenhower Matrix is named after a man who borrowed the words, popularised by a man who drew the grid thirty-five years later."
+        },
+        {
+          "kind": "sign",
+          "line": "The most famous quote in productivity has an asterisk its own speaker put there.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "clippy-once-smart",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "http://erichorvitz.com/lumiere.htm - read in full 7 Sep 2026: Eric Horvitz's own academic page for the Lumiere Project. States that Lumiere, developed at Microsoft Research from 1993 to 1998, used Bayesian models to infer a user's goals and needs from their actions and questions, and explicitly states that Lumiere prototypes served as the basis for components of the Office Assistant in the Microsoft Office 97 suite.",
+        "https://www.seattlemet.com/news-and-city-life/2022/08/origin-story-of-clippy-the-microsoft-office-assistant - read in full 7 Sep 2026: Seattle Met (Benjamin Cassidy, August 2022). Establishes that the character's official name was Clippit; that more than 260 candidate characters were tested in focus groups before the field narrowed to around ten finalists, including a robot, a cat, a dog and a globe; that character designer Kevan Atteberry drew the original paperclip on paper before digitising it; that Bill Gates repeatedly criticised the character in internal meetings, comparing it to a clown; that it shipped switched off by default in Windows XP in 2001 alongside a retirement campaign voiced by Gilbert Gottfried; that it was fully removed from Office in the 2007 version; and that it was revived as an emoji in 2021 after a tweet promising the emoji at 20,000 likes passed roughly 170,000.",
+        "https://thejaymo.net/2025/08/12/clippy-a-history/ - read in full 7 Sep 2026: a well-cited history blog. Corroborates the line from Microsoft Bob and CASA social-interface research through the Lumiere project to the Office Assistant, and states that the sophisticated Bayesian reasoning behind the research prototype was substantially simplified before the character shipped inside Office 97."
+      ],
+      "verifiedNote": "Checked 7 Sep 2026 against Eric Horvitz's own project page, read in full, Seattle Met's named-source reporting, read in full, and a well-cited history blog, read in full. Deliberately not claimed: a single, confident reason why the shipped Clippy behaved so much more crudely than the Bayesian research it was based on. Horvitz's own page confirms Lumiere fed into the Office 97 Assistant but does not explain what was cut or why, and secondary accounts elsewhere give differing explanations without strong sourcing, so this entry states plainly that the shipped version was simpler than the research prototype without asserting a specific cause for that gap.",
+      "palette": {
+        "bg": "#0A0E14",
+        "ink": "#EEF3F8",
+        "accent": "#6FB7FF",
+        "muted": "#75828F"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Clippy wasn't built to be annoying.",
+          "text": "It was built on genuine artificial intelligence research.",
+          "note": "Before it became a punchline, the character was based on a real Microsoft Research project studying how software could infer what a person actually needs."
+        },
+        {
+          "kind": "credit",
+          "year": "1993",
+          "name": "Eric Horvitz",
+          "role": "Led Microsoft's Lumiere Project, which used Bayesian statistical models to work out a user's goals from their actions and questions. Parts of that research became the basis for the Office Assistant."
+        },
+        {
+          "kind": "statement",
+          "lead": "The character that shipped in 1997",
+          "text": "was a much simpler version of that research.",
+          "note": "The reasoning behind the finished Office Assistant was far cruder than the Lumiere prototypes it drew on. Exactly why so much of that intelligence was cut before release isn't settled by the available sources, but the gap between the research and the shipped product is well documented."
+        },
+        {
+          "kind": "figure",
+          "value": "260",
+          "unit": "characters",
+          "context": "Roughly how many candidate characters Microsoft tested in user focus groups before narrowing the field to around ten finalists, among them a robot, a cat, a dog and a globe."
+        },
+        {
+          "kind": "statement",
+          "lead": "Bill Gates never liked the winner.",
+          "text": "He compared it to a clown in internal meetings.",
+          "note": "The paperclip design, drawn on paper by illustrator Kevan Atteberry before being digitised, beat the other finalists in testing even though Microsoft's own co-founder was openly unconvinced."
+        },
+        {
+          "kind": "kicker",
+          "text": "Turned off by default in Windows XP, retired from Office by 2007, and brought back as an emoji in 2021 after a tweet passed 170,000 likes."
+        },
+        {
+          "kind": "sign",
+          "line": "The most mocked assistant in software history started as a genuine attempt at reading your mind.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "strawberry-not-berry",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://www.britannica.com/science/berry-plant-reproductive-body - read in full 7 Sep 2026: Encyclopaedia Britannica, last updated 1 September 2026. Defines a true berry as a fleshy fruit produced from a single ovary, with the entire fruit wall present as edible flesh, and lists bananas, grapes, melons, oranges, tomatoes, cranberries and blueberries as true berries, while explicitly excluding raspberries, blackberries and strawberries from that category as they are not simple fruits from a single ovary; also covers the citrus hesperidium and the melon and cucumber pepo as further berry subtypes.",
+        "https://sciencenotes.org/is-a-strawberry-a-berry-why-the-answer-is-surprisingly-no/ - read in full 7 Sep 2026: Science Notes (Anne Helmenstine, published 27 June 2026). Explains that a strawberry is an aggregate accessory fruit, meaning it develops from a flower with many separate ovaries rather than one, and that its edible red flesh is swollen flower receptacle tissue rather than tissue from any ovary wall; also explains that the surface dots are not seeds but individual dry fruits called achenes, each containing one true seed inside; and separately confirms the avocado is a true single-seeded berry by the botanical definition."
+      ],
+      "verifiedNote": "Checked 7 Sep 2026 against Encyclopaedia Britannica's definition, read in full, and Science Notes' explanation of aggregate accessory fruits, read in full, which itself cites academic botanical references. Deliberately not claimed: that strawberries are not fruits at all, or that the popular use of the word berry in everyday speech is wrong, only that they fail the specific botanical definition of a true berry, which both sources apply consistently to explain why culinarily similar fruits fall on different sides of that line. Also not claimed beyond what these two sources state: further detail on other aggregate fruits such as raspberries and blackberries, which Britannica mentions only in passing as fellow exclusions and which are not explored in depth here.",
+      "palette": {
+        "bg": "#150A12",
+        "ink": "#F8EDF3",
+        "accent": "#E85D9B",
+        "muted": "#8C7480"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "A strawberry has hundreds of seeds on the outside.",
+          "text": "None of them are actually seeds, and the fruit isn't a berry.",
+          "note": "Botanically, a strawberry fails the definition of a berry on every count that matters."
+        },
+        {
+          "kind": "statement",
+          "lead": "A true berry has to grow from a single ovary.",
+          "text": "A strawberry's flower has dozens of separate ones.",
+          "note": "That single-ovary rule is why bananas, grapes, tomatoes and even cucumbers count as true berries, while strawberries, raspberries and blackberries don't."
+        },
+        {
+          "kind": "statement",
+          "lead": "The red part you eat isn't fruit tissue at all.",
+          "text": "It's the swollen base of the flower.",
+          "note": "What botanists call the receptacle grows large and fleshy around the true fruits, rather than the flesh coming from any ovary wall, which is how a true berry is built."
+        },
+        {
+          "kind": "statement",
+          "lead": "Those yellow dots on the surface",
+          "text": "are the actual fruits, not seeds.",
+          "note": "Each dot is a separate dry fruit called an achene, and each one holds a single true seed sealed inside it."
+        },
+        {
+          "kind": "kicker",
+          "text": "The avocado, with its single huge seed, meets the botanical definition of a berry. The strawberry, with hundreds of visible seeds, doesn't."
+        },
+        {
+          "kind": "sign",
+          "line": "Every strawberry is a lie told by hundreds of tiny fruits at once.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
