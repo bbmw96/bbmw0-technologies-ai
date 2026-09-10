@@ -1,0 +1,56 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (anglo-zanzibar-war)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0D12",
+    "ink": "#EDEBE4",
+    "accent": "#C8452F",
+    "muted": "#857F73"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The shortest war ever fought",
+      "text": "Start to surrender in about 38 minutes.",
+      "note": "27 August 1896, between the British Empire and the island sultanate of Zanzibar. The whole conflict was over before an hour had passed.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1896",
+      "name": "Khalid bin Barghash",
+      "role": "He seized the throne when the pro-British sultan died suddenly. Britain ordered him out by 9am on 27 August. He refused, and barricaded the palace with some 3,000 men.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "At 9am the warships opened fire",
+      "text": "By 09:40 the flag was down.",
+      "note": "Within two minutes most of Khalid's guns were wrecked and he had slipped out a back door. The shelling did the rest.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "38",
+      "unit": "minutes",
+      "context": "The length of the war by the usual count; a few sources say closer to 40. Either way, long enough to leave the palace in rubble.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "statement",
+      "lead": "The cost was wildly one-sided",
+      "text": "About 500 hit on one side. One on the other.",
+      "note": "Over 500 of Khalid's men were killed or wounded. The only British casualty was a single petty officer: injured, and he recovered.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "The shortest war in history, and it wasn't close.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}

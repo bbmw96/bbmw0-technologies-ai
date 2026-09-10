@@ -1,0 +1,56 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (great-wall-not-visible)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0F0C",
+    "ink": "#EEF2ED",
+    "accent": "#5B9279",
+    "muted": "#798579"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "It's the one 'fact' every schoolkid knows.",
+      "text": "The Great Wall of China is visible from space.",
+      "note": "It's repeated so often it feels like common knowledge. It has never been true, and how the claim got started is stranger than the myth itself.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The claim predates the Space Age by nearly thirty years.",
+      "text": "It comes from a 1932 Ripley's Believe It or Not cartoon.",
+      "note": "Nobody had been to space yet. The claim wasn't a report of what someone saw, it was a guess, printed as fact, decades before Yuri Gagarin's first orbital flight in 1961.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2003",
+      "name": "Yang Liwei",
+      "role": "China's first astronaut. After 14 orbits aboard Shenzhou 5, he came back down and told reporters the scenery was beautiful, but he hadn't seen the Great Wall. China's own education ministry then corrected a textbook that had taught the myth as fact.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "American astronauts had already said the same thing.",
+      "text": "Apollo's Neil Armstrong said no human structures are visible from the Moon.",
+      "note": "Shuttle astronaut Jeffrey Hoffman put it plainly: he never saw the Great Wall. From low orbit, under near-perfect light, the wall is sometimes barely visible, and easily mistaken for an ordinary road.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "6",
+      "unit": "metres",
+      "context": "Roughly how wide the wall is. A structure can stretch for thousands of kilometres and still be invisible from orbit if it's no wider than a road, length was never the problem.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "Wrong since before anyone could check, and repeated ever since.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 106
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-09-10 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- anglo-zanzibar-war ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-10-anglo-zanzibar-war.mp4
+  uploaded public: https://youtu.be/rJqPpO95w5Q
+
+--- great-emu-war ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-10-great-emu-war.mp4
+  uploaded public: https://youtu.be/k3oQ74310Bw
+
+--- great-wall-not-visible ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-10-great-wall-not-visible.mp4
+  uploaded public: https://youtu.be/fxf2ijuo2rg
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

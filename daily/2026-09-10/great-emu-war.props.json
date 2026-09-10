@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (great-emu-war)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0C0E0A",
+    "ink": "#EDEEE5",
+    "accent": "#C98A2B",
+    "muted": "#837E6E"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version says Australia lost a war to emus",
+      "text": "It was not a war. It was pest control that went badly.",
+      "note": "In November 1932 farmers in Western Australia's Wheatbelt asked for army machine guns against emus ruining their wheat. What followed looked far less organised than the name suggests.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1932",
+      "name": "Major G.P.W. Meredith",
+      "role": "Royal Australian Artillery. Commanded two Lewis guns and 10,000 rounds of ammunition against roughly 20,000 emus that had moved onto farmland, a target that would not hold still to be shot at.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The clearest ambush of the campaign still went wrong",
+      "text": "Over 1,000 emus approached. The gun jammed after 12 were hit.",
+      "note": "Near a dam on 4 November, Meredith's men waited for the flock to come close before opening fire. One Lewis gun seized almost at once and the rest of the birds scattered.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "57,034",
+      "unit": "emus",
+      "context": "Claimed by ordinary bounty hunters in just six months of 1934, under a scheme that had existed since 1923, far more than Meredith's whole campaign managed with soldiers and machine guns.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Paperwork did what the machine guns could not.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Not really a war. Just extremely persistent birds.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

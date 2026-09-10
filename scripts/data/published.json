@@ -138,7 +138,10 @@
     "reel:computer-meant-a-person",
     "reel:creeper-first-computer-virus",
     "reel:everest-not-tallest",
-    "reel:missile-command-nightmares"
+    "reel:missile-command-nightmares",
+    "reel:great-emu-war",
+    "reel:great-wall-not-visible",
+    "reel:anglo-zanzibar-war"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -2386,6 +2389,57 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "great-emu-war",
+      "date": "2026-09-10",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It was not a war. It was pest control that went badly.",
+      "description": "It was not a war. It was pest control that went badly. In November 1932 farmers in Western Australia's Wheatbelt asked for army machine guns against emus ruining their wheat. What followed looked far less organised than the name suggests.\n\nRoyal Australian Artillery. Commanded two Lewis guns and 10,000 rounds of ammunition against roughly 20,000 emus that had moved onto farmland, a target that would not hold still to be shot at.\n\nOver 1,000 emus approached. The gun jammed after 12 were hit. Near a dam on 4 November, Meredith's men waited for the flock to come close before opening fire. One Lewis gun seized almost at once and the rest of the birds scattered.\n\nClaimed by ordinary bounty hunters in just six months of 1934, under a scheme that had existed since 1923, far more than Meredith's whole campaign managed with soldiers and machine guns.\n\nPaperwork did what the machine guns could not.\n\nSources:\n- https://en.wikipedia.org/wiki/Emu_War: read in full. Established the operational chronology (2 November 1932 first engagement, 4 November dam ambush where a Lewis gun jammed after 12 confirmed kills, 8 November withdrawal after 2,500 rounds fired, resumption on 13 November, recall on 10 December), Major G.P.W. Meredith's command of two Lewis guns and 10,000 rounds, his report claiming 986 confirmed kills from 9,860 rounds fired (a rate of exactly 10 rounds per kill, which historian Greg Beyer calls likely inflated), the roughly 20,000 emus that had moved onto Wheatbelt farmland, and the 1923 bounty scheme under which 57,034 bounties were claimed in six months of 1934, far exceeding the military operation's result.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "k3oQ74310Bw",
+      "youtubeUrl": "https://youtu.be/k3oQ74310Bw",
+      "uploadedAt": "2026-09-10T13:17:32.736Z",
+      "privacy": "public"
+    },
+    {
+      "id": "great-wall-not-visible",
+      "date": "2026-09-10",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The Great Wall of China is visible from space.",
+      "description": "The Great Wall of China is visible from space. It's repeated so often it feels like common knowledge. It has never been true, and how the claim got started is stranger than the myth itself.\n\nIt comes from a 1932 Ripley's Believe It or Not cartoon. Nobody had been to space yet. The claim wasn't a report of what someone saw, it was a guess, printed as fact, decades before Yuri Gagarin's first orbital flight in 1961.\n\nChina's first astronaut. After 14 orbits aboard Shenzhou 5, he came back down and told reporters the scenery was beautiful, but he hadn't seen the Great Wall. China's own education ministry then corrected a textbook that had taught the myth as fact.\n\nApollo's Neil Armstrong said no human structures are visible from the Moon. Shuttle astronaut Jeffrey Hoffman put it plainly: he never saw the Great Wall. From low orbit, under near-perfect light, the wall is sometimes barely visible, and easily mistaken for an ordinary road.\n\nRoughly how wide the wall is. A structure can stretch for thousands of kilometres and still be invisible from orbit if it's no wider than a road, length was never the problem.\n\nSources:\n- https://www.scientificamerican.com/article/great-wall-of-china-from-space/ - read in full 1 Sep 2026 (Mara Hvistendahl, 21 Feb 2008): the myth that the Great Wall is visible from space predates spaceflight, tracing to a 1932 Ripley's Believe It or Not cartoon, three decades before Yuri Gagarin's first orbital flight; Apollo astronauts including Neil Armstrong stated no human structures are visible from the Moon; NASA oral histories quote Shuttle astronaut Jeffrey Hoffman saying he never saw the Great Wall from orbit; NASA's own published assessment is that the wall is barely visible even from 180 miles up and is comparable in width to a highway.\n- https://www.aljazeera.com/news/2003/10/17/chinas-spaceman-shatters-a-myth - read in full 1 Sep 2026: contemporaneous report on Yang Liwei, China's first astronaut, completing 14 orbits aboard Shenzhou 5 in October 2003 and telling reporters on his return that the scenery was beautiful but he didn't see the Great Wall, directly puncturing the myth for a domestic Chinese audience; reports that China's Ministry of Education subsequently corrected an elementary-school textbook that had stated the wall was visible from space.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "fxf2ijuo2rg",
+      "youtubeUrl": "https://youtu.be/fxf2ijuo2rg",
+      "uploadedAt": "2026-09-10T13:19:44.041Z",
+      "privacy": "public"
+    },
+    {
+      "id": "anglo-zanzibar-war",
+      "date": "2026-09-10",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Start to surrender in about 38 minutes.",
+      "description": "Start to surrender in about 38 minutes. 27 August 1896, between the British Empire and the island sultanate of Zanzibar. The whole conflict was over before an hour had passed.\n\nHe seized the throne when the pro-British sultan died suddenly. Britain ordered him out by 9am on 27 August. He refused, and barricaded the palace with some 3,000 men.\n\nBy 09:40 the flag was down. Within two minutes most of Khalid's guns were wrecked and he had slipped out a back door. The shelling did the rest.\n\nThe length of the war by the usual count; a few sources say closer to 40. Either way, long enough to leave the palace in rubble.\n\nAbout 500 hit on one side. One on the other. Over 500 of Khalid's men were killed or wounded. The only British casualty was a single petty officer: injured, and he recovered.\n\nSources:\n- https://www.historic-uk.com/HistoryUK/HistoryofBritain/The-Shortest-War-in-History/: Historic UK (Ben Johnson), read directly: the Anglo-Zanzibar War of 27 August 1896 is generally considered the shortest in history at 38 minutes; Khalid bin Barghash seized the throne after Sultan Hamad bin Thuwaini died on 25 Aug 1896; Britain's ultimatum expired at 9am on 27 Aug; the bombardment began at 9am, by 09:02 most of Khalid's artillery was destroyed and he had fled, by 09:40 the flag was down; ~3,000 defenders; over 500 of Khalid's men killed or wounded; one British petty officer severely injured but he recovered.\n- https://www.britannica.com/event/Anglo-Zanzibar-War: Encyclopaedia Britannica, read directly (summary and Quick Facts): dates the war to 27 August 1896 and states it 'lasted no longer than 40 minutes, making it the shortest war in recorded history'; British cruisers fired on Khalid ibn Barghash's position.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "rJqPpO95w5Q",
+      "youtubeUrl": "https://youtu.be/rJqPpO95w5Q",
+      "uploadedAt": "2026-09-10T13:15:40.016Z",
+      "privacy": "public"
     }
   ]
 }
