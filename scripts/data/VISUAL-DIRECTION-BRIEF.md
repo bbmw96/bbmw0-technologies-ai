@@ -51,6 +51,18 @@ cadence question is answered, someone should actually listen to the 45ms
 click before it goes live, the same render-look-then-believe discipline
 this file keeps repeating for visuals, applied here to audio instead.
 
+**Render-look-then-believe, actually applied here**: rather than trusting
+the onset-formula maths above on paper, a real reel was rendered with
+`typingSound: true` forced on for a `code` beat, then checked two ways —
+`ffprobe`/`silencedetect` on the extracted audio to confirm a click actually
+fires at each expected glyph-onset frame and nowhere else (no drift, no
+missing or doubled clicks), and individual frames extracted around a few
+onsets to confirm the glyph and its click land on the same frame rather than
+one leading the other by a frame or two. Both passed. This does not
+substitute for the halal cadence sign-off above — it only confirms the
+feature does mechanically what the code says it does, which is a
+precondition for that sign-off being meaningful, not a replacement for it.
+
 **Not done, and not this session's to decide**: which specific topics
 should get `typingSound: true`. The user asked for "some of the videos",
 not all — the field being opt-in already satisfies that structurally, but
