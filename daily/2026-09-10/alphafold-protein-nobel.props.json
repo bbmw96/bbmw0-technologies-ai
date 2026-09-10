@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (alphafold-protein-nobel)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0E14",
+    "ink": "#EAF0F5",
+    "accent": "#5B8CFF",
+    "muted": "#78829A"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The headlines all said the same thing",
+      "text": "It was not one prize for one idea.",
+      "note": "The 2024 Nobel Prize in Chemistry was split in half: one half for predicting the shape of proteins that already exist, the other for designing entirely new ones that don't.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2020",
+      "name": "Demis Hassabis and John Jumper",
+      "role": "Their AI model AlphaFold2 solved a problem chemists had chased for over fifty years: working out a protein's 3D shape from its amino acid sequence alone.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "figure",
+      "value": "200",
+      "unit": "million",
+      "context": "Roughly how many protein structures AlphaFold2 has predicted, against about 200,000 solved across sixty years of X-ray crystallography before it.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "statement",
+      "lead": "The other half of the same prize",
+      "text": "David Baker builds proteins that never existed.",
+      "note": "Starting with a protein called Top7 in 2003, his lab designs entirely new structures from scratch, not variations on ones nature already made.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "One half reads life's code. The other half writes new lines in it.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "sign",
+      "line": "Two different breakthroughs. One shared afternoon in Stockholm.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Follow for more."
+}

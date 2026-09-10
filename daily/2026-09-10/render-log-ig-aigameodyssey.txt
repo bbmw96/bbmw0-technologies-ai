@@ -1,0 +1,28 @@
+Rendering 3 Shorts for 2026-09-10 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- alphafold-protein-nobel ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-10-alphafold-protein-nobel.mp4
+  hosting media so Instagram can fetch it...
+  ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
+  instagram via: Composio
+  published to Instagram: media 17965134861173913
+
+--- clever-hans-effect ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-10-clever-hans-effect.mp4
+  hosting media so Instagram can fetch it...
+  ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
+  instagram via: Composio
+  published to Instagram: media 18628415014005835
+
+--- watson-jeopardy-toronto ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-10-watson-jeopardy-toronto.mp4
+  hosting media so Instagram can fetch it...
+  ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
+  instagram via: Composio
+  published to Instagram: media 18109307105589728
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

@@ -1,0 +1,25 @@
+{
+  "slug": "clever-hans-effect",
+  "date": "2026-09-10",
+  "title": "A horse could allegedly do arithmetic.",
+  "description": "A horse could allegedly do arithmetic. Hans tapped out answers to maths, calendar and spelling questions with his hoof. A formal commission of thirteen experts examined him in 1904 and found no trick at all.\n\nIn 1907, Oskar Pfungst found the trick anyway. Hans wasn't calculating. He was reading his questioner's posture and expression, and stopping the instant they subtly relaxed.\n\nCorrect, when Hans could see a questioner who already knew the answer. Hide that questioner from view and he collapsed to 6 percent.\n\nThe psychologist assigned to re-test Hans. He proved his theory by becoming the horse himself: tapping out numbers by hand, he produced the same involuntary tell in the people standing beside him.\n\nThe pattern outlived the horse. \"Clever Hans effect\" is now the term for an AI model that looks intelligent while actually keying off a spurious signal, an image classifier reading text in a photo instead of the picture itself.\n\nSources:\n- https://en.wikipedia.org/wiki/Clever_Hans: read in full. Establishes: Hans, a horse owned by Wilhelm von Osten in Berlin, appeared to add, subtract, multiply, divide, tell time and spell by tapping his hoof; a thirteen-person commission convened by philosopher Carl Stumpf concluded in September 1904 that no tricks were involved; psychologist Oskar Pfungst re-investigated and in 1907 found Hans answered correctly 89% of the time (50 of 56) when he could see a questioner who knew the answer, but only 6% (2 of 35) when he could not see the questioner; Pfungst traced this to involuntary postural and facial cues the questioner gave off approaching the correct tap count; \"Clever Hans effect\" is now used in machine learning for a model whose apparent competence comes from a spurious signal rather than the intended task, for example an image classifier that reads text in a photo instead of analysing the image.\n- https://www.britannica.com/topic/Clever-Hans: via search summary, corroborating the commission's 1904 finding and Pfungst's 1907 cue-based explanation.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-10-clever-hans-effect.mp4",
+  "propsFile": "daily/2026-09-10/clever-hans-effect.props.json",
+  "durationInFrames": 1152,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}

@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (watson-jeopardy-toronto)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0D10",
+    "ink": "#EDF1F5",
+    "accent": "#3DA9FC",
+    "muted": "#7E8A94"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "IBM's Watson had just spent five years learning to answer like a person",
+      "text": "Its most famous answer on air was five question marks of doubt",
+      "note": "Final Jeopardy!, category US Cities: its largest airport named for a World War II hero, its second largest for a World War II battle. The answer was Chicago. Watson buzzed in with 'What is Toronto?????'",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Toronto was not a wild guess",
+      "text": "Watson rated it 14% likely, Chicago only 11%",
+      "note": "Its confidence in either answer was too low to trust, and Toronto had two things working for it: a small Illinois town with the same name, and a Canadian baseball team playing in the American League.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2011",
+      "name": "David Ferrucci",
+      "role": "Led the IBM research team that spent five years building Watson's DeepQA system, kept offline throughout, to compete on the hardest quiz show on television.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "figure",
+      "value": "77,147",
+      "unit": "$ won",
+      "context": "More than triple what either human champion won on their own. IBM donated the entire amount to charity.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "kicker",
+      "text": "An IBM engineer wore a Toronto Blue Jays jacket to the next day's taping.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "sign",
+      "line": "The machine that won still hedged out loud when it wasn't sure.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 118
+    }
+  ],
+  "cta": "Follow for more."
+}

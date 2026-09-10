@@ -1,0 +1,25 @@
+{
+  "slug": "alphafold-protein-nobel",
+  "date": "2026-09-10",
+  "title": "It was not one prize for one idea.",
+  "description": "It was not one prize for one idea. The 2024 Nobel Prize in Chemistry was split in half: one half for predicting the shape of proteins that already exist, the other for designing entirely new ones that don't.\n\nTheir AI model AlphaFold2 solved a problem chemists had chased for over fifty years: working out a protein's 3D shape from its amino acid sequence alone.\n\nRoughly how many protein structures AlphaFold2 has predicted, against about 200,000 solved across sixty years of X-ray crystallography before it.\n\nDavid Baker builds proteins that never existed. Starting with a protein called Top7 in 2003, his lab designs entirely new structures from scratch, not variations on ones nature already made.\n\nOne half reads life's code. The other half writes new lines in it.\n\nSources:\n- https://www.nobelprize.org/prizes/chemistry/2024/popular-information/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-10-alphafold-protein-nobel.mp4",
+  "propsFile": "daily/2026-09-10/alphafold-protein-nobel.props.json",
+  "durationInFrames": 1004,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}

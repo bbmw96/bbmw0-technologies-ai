@@ -1,0 +1,25 @@
+{
+  "slug": "watson-jeopardy-toronto",
+  "date": "2026-09-10",
+  "title": "Its most famous answer on air was five question marks of doubt",
+  "description": "Its most famous answer on air was five question marks of doubt Final Jeopardy!, category US Cities: its largest airport named for a World War II hero, its second largest for a World War II battle. The answer was Chicago. Watson buzzed in with 'What is Toronto?????'\n\nWatson rated it 14% likely, Chicago only 11% Its confidence in either answer was too low to trust, and Toronto had two things working for it: a small Illinois town with the same name, and a Canadian baseball team playing in the American League.\n\nLed the IBM research team that spent five years building Watson's DeepQA system, kept offline throughout, to compete on the hardest quiz show on television.\n\nMore than triple what either human champion won on their own. IBM donated the entire amount to charity.\n\nAn IBM engineer wore a Toronto Blue Jays jacket to the next day's taping.\n\nSources:\n- https://www.ibm.com/history/watson-jeopardy\n- https://techland.time.com/2011/02/16/why-did-watson-think-toronto-is-a-u-s-city-on-jeopardy/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-10-watson-jeopardy-toronto.mp4",
+  "propsFile": "daily/2026-09-10/watson-jeopardy-toronto.props.json",
+  "durationInFrames": 1002,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}

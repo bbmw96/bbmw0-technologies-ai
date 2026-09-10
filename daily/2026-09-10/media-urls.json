@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-10",
+  "repo": "bbmw96/bbmw0-technologies-ai",
+  "tag": "media-2026-09-10",
+  "base": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-10",
+  "urls": {
+    "alphafold-protein-nobel": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-10/daily-2026-09-10-alphafold-protein-nobel.mp4",
+    "clever-hans-effect": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-10/daily-2026-09-10-clever-hans-effect.mp4",
+    "watson-jeopardy-toronto": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-10/daily-2026-09-10-watson-jeopardy-toronto.mp4"
+  }
+}

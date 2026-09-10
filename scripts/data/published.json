@@ -141,7 +141,10 @@
     "reel:missile-command-nightmares",
     "reel:great-emu-war",
     "reel:great-wall-not-visible",
-    "reel:anglo-zanzibar-war"
+    "reel:anglo-zanzibar-war",
+    "reel:clever-hans-effect",
+    "reel:watson-jeopardy-toronto",
+    "reel:alphafold-protein-nobel"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -2439,6 +2442,57 @@
       "youtubeId": "rJqPpO95w5Q",
       "youtubeUrl": "https://youtu.be/rJqPpO95w5Q",
       "uploadedAt": "2026-09-10T13:15:40.016Z",
+      "privacy": "public"
+    },
+    {
+      "id": "clever-hans-effect",
+      "date": "2026-09-10",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "A horse could allegedly do arithmetic.",
+      "description": "A horse could allegedly do arithmetic. Hans tapped out answers to maths, calendar and spelling questions with his hoof. A formal commission of thirteen experts examined him in 1904 and found no trick at all.\n\nIn 1907, Oskar Pfungst found the trick anyway. Hans wasn't calculating. He was reading his questioner's posture and expression, and stopping the instant they subtly relaxed.\n\nCorrect, when Hans could see a questioner who already knew the answer. Hide that questioner from view and he collapsed to 6 percent.\n\nThe psychologist assigned to re-test Hans. He proved his theory by becoming the horse himself: tapping out numbers by hand, he produced the same involuntary tell in the people standing beside him.\n\nThe pattern outlived the horse. \"Clever Hans effect\" is now the term for an AI model that looks intelligent while actually keying off a spurious signal, an image classifier reading text in a photo instead of the picture itself.\n\nSources:\n- https://en.wikipedia.org/wiki/Clever_Hans: read in full. Establishes: Hans, a horse owned by Wilhelm von Osten in Berlin, appeared to add, subtract, multiply, divide, tell time and spell by tapping his hoof; a thirteen-person commission convened by philosopher Carl Stumpf concluded in September 1904 that no tricks were involved; psychologist Oskar Pfungst re-investigated and in 1907 found Hans answered correctly 89% of the time (50 of 56) when he could see a questioner who knew the answer, but only 6% (2 of 35) when he could not see the questioner; Pfungst traced this to involuntary postural and facial cues the questioner gave off approaching the correct tap count; \"Clever Hans effect\" is now used in machine learning for a model whose apparent competence comes from a spurious signal rather than the intended task, for example an image classifier that reads text in a photo instead of analysing the image.\n- https://www.britannica.com/topic/Clever-Hans: via search summary, corroborating the commission's 1904 finding and Pfungst's 1907 cue-based explanation.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram",
+      "youtubeId": "18628415014005835",
+      "youtubeUrl": "https://youtu.be/18628415014005835",
+      "uploadedAt": "2026-09-10T13:26:36.016Z",
+      "privacy": "public"
+    },
+    {
+      "id": "watson-jeopardy-toronto",
+      "date": "2026-09-10",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Its most famous answer on air was five question marks of doubt",
+      "description": "Its most famous answer on air was five question marks of doubt Final Jeopardy!, category US Cities: its largest airport named for a World War II hero, its second largest for a World War II battle. The answer was Chicago. Watson buzzed in with 'What is Toronto?????'\n\nWatson rated it 14% likely, Chicago only 11% Its confidence in either answer was too low to trust, and Toronto had two things working for it: a small Illinois town with the same name, and a Canadian baseball team playing in the American League.\n\nLed the IBM research team that spent five years building Watson's DeepQA system, kept offline throughout, to compete on the hardest quiz show on television.\n\nMore than triple what either human champion won on their own. IBM donated the entire amount to charity.\n\nAn IBM engineer wore a Toronto Blue Jays jacket to the next day's taping.\n\nSources:\n- https://www.ibm.com/history/watson-jeopardy\n- https://techland.time.com/2011/02/16/why-did-watson-think-toronto-is-a-u-s-city-on-jeopardy/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram",
+      "youtubeId": "18109307105589728",
+      "youtubeUrl": "https://youtu.be/18109307105589728",
+      "uploadedAt": "2026-09-10T13:29:02.992Z",
+      "privacy": "public"
+    },
+    {
+      "id": "alphafold-protein-nobel",
+      "date": "2026-09-10",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It was not one prize for one idea.",
+      "description": "It was not one prize for one idea. The 2024 Nobel Prize in Chemistry was split in half: one half for predicting the shape of proteins that already exist, the other for designing entirely new ones that don't.\n\nTheir AI model AlphaFold2 solved a problem chemists had chased for over fifty years: working out a protein's 3D shape from its amino acid sequence alone.\n\nRoughly how many protein structures AlphaFold2 has predicted, against about 200,000 solved across sixty years of X-ray crystallography before it.\n\nDavid Baker builds proteins that never existed. Starting with a protein called Top7 in 2003, his lab designs entirely new structures from scratch, not variations on ones nature already made.\n\nOne half reads life's code. The other half writes new lines in it.\n\nSources:\n- https://www.nobelprize.org/prizes/chemistry/2024/popular-information/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram",
+      "youtubeId": "17965134861173913",
+      "youtubeUrl": "https://youtu.be/17965134861173913",
+      "uploadedAt": "2026-09-10T13:23:58.474Z",
       "privacy": "public"
     }
   ]

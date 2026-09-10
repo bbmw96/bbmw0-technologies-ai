@@ -1,0 +1,55 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (clever-hans-effect)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0D0B10",
+    "ink": "#F1EEF5",
+    "accent": "#C98B4A",
+    "muted": "#8A8390"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Berlin, early 1900s.",
+      "text": "A horse could allegedly do arithmetic.",
+      "note": "Hans tapped out answers to maths, calendar and spelling questions with his hoof. A formal commission of thirteen experts examined him in 1904 and found no trick at all.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Then a psychologist checked again.",
+      "text": "In 1907, Oskar Pfungst found the trick anyway.",
+      "note": "Hans wasn't calculating. He was reading his questioner's posture and expression, and stopping the instant they subtly relaxed.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "figure",
+      "value": "89",
+      "unit": "percent",
+      "context": "Correct, when Hans could see a questioner who already knew the answer. Hide that questioner from view and he collapsed to 6 percent.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "credit",
+      "year": "1907",
+      "name": "Oskar Pfungst",
+      "role": "The psychologist assigned to re-test Hans. He proved his theory by becoming the horse himself: tapping out numbers by hand, he produced the same involuntary tell in the people standing beside him.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "The pattern outlived the horse.",
+      "note": "\"Clever Hans effect\" is now the term for an AI model that looks intelligent while actually keying off a spurious signal, an image classifier reading text in a photo instead of the picture itself.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "The trick a horse pulled in 1904 is still fooling machines.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 112
+    }
+  ],
+  "cta": "Follow for more."
+}
