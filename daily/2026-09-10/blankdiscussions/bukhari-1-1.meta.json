@@ -36,6 +36,21 @@
     "verification_note": "Arabic and English are primary-sourced and citable; Chinese, Korean and Japanese are transparently labelled translations. See channels.json's ig-blankdiscussions._niche_note for why honest sourcing is a hard requirement for this channel."
   },
   "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-10/bukhari-1-1-slide-NN.png --props=daily/2026-09-10/blankdiscussions/bukhari-1-1.slide-NN.json  (run once per slide, NN = 01 through 07; note the entry point is src/compositions/registry.tsx, NOT src/index.ts which does not exist in this repo)",
-  "status": "rendered-pending-owner-review",
-  "_blocker_note": "Rendered 2026-09-10 (all 7 PNGs, out/blankdiscussions/2026-09-10/bukhari-1-1-slide-01.png through -07.png) once Desktop Commander came back up this session. All 7 visually inspected: Arabic matn renders correctly, CJK/Korean glyphs render correctly, dark theme reads clean. Re-verified the Arabic and English matn this same session against cdn.jsdelivr.net/gh/fawazahmed0/hadith-api's ara-bukhari/1.json and eng-bukhari/1.json directly — both match on-slide text exactly (isnad correctly trimmed, matn kept verbatim). The Chinese/Korean/Japanese slides are confirmed-correctly labelled as this project's own translation (no CJK edition exists in that API, per the sourcing block above), not misattributed. Still NOT published: needs (1) the owner's visual sign-off, (2) public HTTPS URLs for the 7 PNGs before instagram-upload-carousel-composio.mjs can run. Do NOT publish without explicit owner go-ahead: brand-new account's first-ever post, religious content."
+  "status": "published",
+  "published": {
+    "mediaId": "18002979683791980",
+    "permalink": "https://www.instagram.com/p/DdIptgDldy2/",
+    "publishedAt": "2026-09-11T05:23:45+0000",
+    "hostingUrls": [
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-10/blankdiscussions/renders/bukhari-1-1-slide-01.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-10/blankdiscussions/renders/bukhari-1-1-slide-02.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-10/blankdiscussions/renders/bukhari-1-1-slide-03.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-10/blankdiscussions/renders/bukhari-1-1-slide-04.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-10/blankdiscussions/renders/bukhari-1-1-slide-05.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-10/blankdiscussions/renders/bukhari-1-1-slide-06.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-10/blankdiscussions/renders/bukhari-1-1-slide-07.png"
+    ],
+    "publishedVia": "Composio INSTAGRAM_CREATE_CAROUSEL_CONTAINER (child_image_urls) + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH, called directly rather than via scripts/instagram-upload-carousel-composio.mjs because COMPOSIO_API_KEY is a GitHub Actions secret not present in this local session's environment; same three underlying Instagram Graph API calls the script wraps."
+  },
+  "_blocker_note": "RESOLVED 2026-09-11. Owner reviewed and gave general go-ahead for autonomous daily posting on 2026-09-10. See quran-94-5.meta.json's _blocker_note for the GitHub-release-redirect hosting pitfall discovered and worked around this session."
 }
