@@ -1,6 +1,8 @@
 # @blankdiscussions posting schedule: proposal, not yet live
 
-Written 10 Sep 2026. This is a proposal for how to actually run the "post several carousels a day, spaced out, quantity depends on how much good content is ready" instruction. Nothing here is switched on. Autopilot for this channel needs an explicit yes from the channel owner before it runs unattended, for two independent reasons: it is a brand-new account's first-ever posts, and it is religious content, so a bad automated post is worse than usual on both counts.
+**UPDATE 11 Sep 2026: this proposal is resolved and Option B is now live.** The owner gave a general go-ahead for autonomous daily posting on 10 Sep 2026 after reviewing `quran-94-5` and `bukhari-1-1`; both published that day (permalinks in their own `.meta.json` files). A third post, `quran-2-152`, sourced and rendered on 11 Sep, was independently re-verified against the live api.alquran.cloud endpoint and published the same day (see `daily/2026-09-11/blankdiscussions/quran-2-152.meta.json`). The scheduled task named in this proposal (`blankdiscussions-daily-posting`) is the mechanism actually running now. The rest of this file is kept as the original planning record, not as current status.
+
+Written 10 Sep 2026. This is a proposal for how to actually run the "post several carousels a day, spaced out, quantity depends on how much good content is ready" instruction. Autopilot for this channel needs an explicit yes from the channel owner before it runs unattended, for two independent reasons: it is a brand-new account's first-ever posts, and it is religious content, so a bad automated post is worse than usual on both counts. (That yes has since been given — see the update above.)
 
 ## The two mechanisms available, and which fits better
 
