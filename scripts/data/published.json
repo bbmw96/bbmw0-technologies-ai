@@ -144,7 +144,10 @@
     "reel:anglo-zanzibar-war",
     "reel:clever-hans-effect",
     "reel:watson-jeopardy-toronto",
-    "reel:alphafold-protein-nobel"
+    "reel:alphafold-protein-nobel",
+    "reel:undo-not-tesler",
+    "reel:eisenhower-matrix-covey",
+    "reel:blackberry-850"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -2494,6 +2497,45 @@
       "youtubeUrl": "https://youtu.be/17965134861173913",
       "uploadedAt": "2026-09-10T13:23:58.474Z",
       "privacy": "public"
+    },
+    {
+      "id": "undo-not-tesler",
+      "date": "2026-09-11",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Larry Tesler invented Ctrl+Z.",
+      "description": "Larry Tesler invented Ctrl+Z. It shows up on lists of things Tesler is credited for, next to the cut, copy and paste he actually did design.\n\nBrown University. His FRESS system is the earliest computer program on record with an undo command, built while Tesler was still an undergraduate, five years before Tesler joined Xerox PARC.\n\nIt was built at least four times, separately. FRESS in 1968, Warren Teitelman's Programmer's Assistant by 1971, a 1971 doctoral thesis on reversible execution, and Xerox PARC's Bravo editor in 1974, all before Tesler enters the story.\n\nIn 1980, he fought to keep it. At Apple, he and Bill Atkinson argued to make undo a standard feature of the Lisa. Real influence, just not the invention.\n\nCredit followed the more famous name, not the earlier date.\n\nSources:\n- https://en.wikipedia.org/wiki/Undo: read in full. Establishes that undo was invented independently multiple times: the File Retrieval and Editing System (FRESS) at Brown University, begun in 1968, is reported as the first computer-based system with an undo feature; Warren Teitelman's Programmer's Assistant in BBN-LISP had an undo function by 1971; a 1971 PhD thesis by Marvin Zelkowitz proposed the related concept of reversible execution; and the Xerox PARC Bravo text editor had an undo command in 1974. Also establishes that Larry Tesler joined Apple in 1980 and, with Bill Atkinson, argued for undo's inclusion as a standard feature on the Apple Lisa; he did not invent the mechanism there.\n- https://en.wikipedia.org/wiki/File_Retrieval_and_Editing_System: read in full. Confirms FRESS was built starting in 1968 by Andries van Dam and his students, including Bob Wallace, at Brown University, running on an IBM 360 mainframe, and describes it as 'possibly the first computer-based system to have had an undo feature'.\n- https://en.wikipedia.org/wiki/Larry_Tesler: read in full. Confirms Tesler is credited specifically for cut, copy and paste and for the concept of modeless software; joined Xerox PARC in 1973; the article makes no claim that he invented undo.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "eisenhower-matrix-covey",
+      "date": "2026-09-11",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "was never written down by the man it's named after.",
+      "description": "was never written down by the man it's named after. Dwight Eisenhower said it out loud in a single 1954 speech. He never called it a method, a matrix, or a rule.\n\nTold an audience at Northwestern University that he had two kinds of problems, the urgent and the important, and that the urgent are never important while the important are never urgent.\n\nHe said he was quoting a former college president. The actual transcript names no one. Northwestern's real president was sitting in the same room and was praised separately in the same speech, which is likely why his name gets wrongly attached to the quote online.\n\nTurned Eisenhower's spoken line into a drawn two-by-two grid in his book The 7 Habits of Highly Effective People, sorting tasks into urgent, important, both or neither, and telling readers to live in the important-but-not-urgent quadrant.\n\nCopies of Covey's book sold by the time he died in 2012, the book that turned a single unattributed line from a 1954 speech into a permanent planning grid.\n\nThe Eisenhower Matrix is named after a man who borrowed the words, popularised by a man who drew the grid thirty-five years later.\n\nSources:\n- https://www.presidency.ucsb.edu/documents/address-the-second-assembly-the-world-council-churches-evanston-illinois - read in full 7 Sep 2026: The American Presidency Project, full transcript of Dwight Eisenhower's address at Northwestern University, 19 August 1954. Establishes the exact wording, that Eisenhower said he had two kinds of problems, the urgent and the important, that the urgent are not important and the important are never urgent, and that he introduced the line explicitly as the statement of a former college president, rather than claiming it as his own words, while Northwestern's actual president, Dr J. Roscoe Miller, was seated in the audience and praised separately in the same passage.\n- https://quoteinvestigator.com/2014/05/09/urgent/ - read in full 7 Sep 2026: Quote Investigator. Confirms the 1954 Eisenhower speech is the earliest known instance of the saying, that Eisenhower attributed it to an unnamed former college president rather than to himself or to Miller, and traces later published versions from 1954 onward that add the word seldom and increasingly credit the line to Eisenhower directly rather than to his unnamed source.\n- https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People - read in full 7 Sep 2026: Wikipedia. Confirms the book was first published in 1989 by Stephen R. Covey, that Habit 3 lays out four quadrants sorted by urgent versus important with the advice to prioritise quadrant two, not urgent but important, and that the book had sold more than 20 million copies by the time Covey died in 2012.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "blackberry-850",
+      "date": "2026-09-11",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "RIM introduced the 850 as a two-way pager in Munich, Germany, on 19 January 1999.",
+      "description": "RIM introduced the 850 as a two-way pager in Munich, Germany, on 19 January 1999. It was not a phone. It sent and received email and paging messages, nothing else.\n\nThe keyboard's small, round keys reminded the design team of the fruit. That is the entire origin of the name.\n\nhow much RIM's revenue jumped, to 85 million dollars, in the year after the 850 shipped.\n\nWhat made people keep using it was not the pager, it was how mail arrived. New messages were relayed through RIM's own network straight to the device the instant they landed, rather than waiting for the user to check by hand. People came to call this push email.\n\nBarack Obama refused to give up his BlackBerry when he became president in 2008. He predicted his staff would have to \"pry it out of my hands.\"\n\nSources:\n- https://www.history.com/this-day-in-history/january-19/first-blackberry-device-850-released: dates the BlackBerry 850's release to 19 January 1999, describes it as a two-way pager rather than a phone, explains the keyboard-inspired name, and gives RIM's revenue rising to 85 million dollars, an 80 percent increase, in the year after launch.\n- https://en.wikipedia.org/wiki/BlackBerry: confirms the 850 was introduced in 1999 in Munich, Germany, and explains BlackBerry's push email mechanism, where new messages were relayed through RIM's own network straight to the device rather than waiting for the user to check by hand or the device to poll a server at intervals.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
     }
   ]
 }

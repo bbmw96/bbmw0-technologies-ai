@@ -1,0 +1,189 @@
+{
+  "date": "2026-09-11",
+  "generatedAt": "2026-09-11T13:06:51.185Z",
+  "policyVersion": "1.0.0",
+  "strictMode": false,
+  "allowed": [],
+  "blocked": [
+    "blackberry-850",
+    "eisenhower-matrix-covey",
+    "undo-not-tesler"
+  ],
+  "results": [
+    {
+      "slug": "blackberry-850",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "RIM introduced the 850 as a two-way pager in Munich, Germany, on 19 January 1999.",
+      "niche": "app",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "safety.hard_banned",
+          "message": "Prohibited term \"president\" appears in the video text or metadata.",
+          "detail": {
+            "term": "president"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.071,
+        "worstTitleAgainst": "google-googol-misspelling",
+        "worstDescriptionSimilarity": 0.241,
+        "combo": "reel:#0A0A0A:#9B1B30:#F5F5F0",
+        "themeGap": 124,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "eisenhower-matrix-covey",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "was never written down by the man it's named after.",
+      "niche": "productivity",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "safety.hard_banned",
+          "message": "Prohibited term \"president\" appears in the video text or metadata.",
+          "detail": {
+            "term": "president"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "safety.context_review",
+          "message": "Context-sensitive term(s) present: died. Legitimate in educational science and history, referred to the AI safety reviewer.",
+          "detail": {
+            "terms": [
+              "died"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.222,
+        "worstTitleAgainst": "algebra-origin",
+        "worstDescriptionSimilarity": 0.303,
+        "combo": "reel:#131211:#D97757:#F3F0EA",
+        "themeGap": 124,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "undo-not-tesler",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "Larry Tesler invented Ctrl+Z.",
+      "niche": "productivity",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "safety.hard_banned",
+          "message": "Prohibited term \"execution\" appears in the video text or metadata.",
+          "detail": {
+            "term": "execution"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.429,
+        "worstTitleAgainst": "copy-paste-inventor",
+        "worstDescriptionSimilarity": 0.273,
+        "combo": "reel:#0D0F12:#5B8DEF:#EFEFEC",
+        "themeGap": 124,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (undo-not-tesler)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0D0F12",
+    "ink": "#EFEFEC",
+    "accent": "#5B8DEF",
+    "muted": "#7D828C"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Ask around",
+      "text": "Larry Tesler invented Ctrl+Z.",
+      "note": "It shows up on lists of things Tesler is credited for, next to the cut, copy and paste he actually did design.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "credit",
+      "year": "1968",
+      "name": "Andries van Dam",
+      "role": "Brown University. His FRESS system is the earliest computer program on record with an undo command, built while Tesler was still an undergraduate, five years before Tesler joined Xerox PARC.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Undo was not one invention",
+      "text": "It was built at least four times, separately.",
+      "note": "FRESS in 1968, Warren Teitelman's Programmer's Assistant by 1971, a 1971 doctoral thesis on reversible execution, and Xerox PARC's Bravo editor in 1974, all before Tesler enters the story.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "What Tesler actually did",
+      "text": "In 1980, he fought to keep it.",
+      "note": "At Apple, he and Bill Atkinson argued to make undo a standard feature of the Lisa. Real influence, just not the invention.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Credit followed the more famous name, not the earlier date.",
+      "durationInFrames": 82
+    },
+    {
+      "kind": "sign",
+      "line": "Undo has a longer memory than the people who get credit for it.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 124
+    }
+  ],
+  "cta": "Subscribe for more."
+}

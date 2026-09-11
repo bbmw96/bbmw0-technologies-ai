@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (blackberry-850)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0A0A",
+    "ink": "#F5F5F0",
+    "accent": "#9B1B30",
+    "muted": "#8A8A93"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The first BlackBerry was not launched in North America.",
+      "text": "RIM introduced the 850 as a two-way pager in Munich, Germany, on 19 January 1999.",
+      "note": "It was not a phone. It sent and received email and paging messages, nothing else.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "It is called BlackBerry for an odd reason.",
+      "text": "The keyboard's small, round keys reminded the design team of the fruit.",
+      "note": "That is the entire origin of the name.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "figure",
+      "value": "80",
+      "unit": "%",
+      "context": "how much RIM's revenue jumped, to 85 million dollars, in the year after the 850 shipped.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "statement",
+      "text": "What made people keep using it was not the pager, it was how mail arrived.",
+      "note": "New messages were relayed through RIM's own network straight to the device the instant they landed, rather than waiting for the user to check by hand. People came to call this push email.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Barack Obama refused to give up his BlackBerry when he became president in 2008. He predicted his staff would have to \"pry it out of my hands.\"",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "sign",
+      "line": "A pager that taught the world to expect email on its hip.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 118
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "undo-not-tesler",
+  "date": "2026-09-11",
+  "title": "Larry Tesler invented Ctrl+Z.",
+  "description": "Larry Tesler invented Ctrl+Z. It shows up on lists of things Tesler is credited for, next to the cut, copy and paste he actually did design.\n\nBrown University. His FRESS system is the earliest computer program on record with an undo command, built while Tesler was still an undergraduate, five years before Tesler joined Xerox PARC.\n\nIt was built at least four times, separately. FRESS in 1968, Warren Teitelman's Programmer's Assistant by 1971, a 1971 doctoral thesis on reversible execution, and Xerox PARC's Bravo editor in 1974, all before Tesler enters the story.\n\nIn 1980, he fought to keep it. At Apple, he and Bill Atkinson argued to make undo a standard feature of the Lisa. Real influence, just not the invention.\n\nCredit followed the more famous name, not the earlier date.\n\nSources:\n- https://en.wikipedia.org/wiki/Undo: read in full. Establishes that undo was invented independently multiple times: the File Retrieval and Editing System (FRESS) at Brown University, begun in 1968, is reported as the first computer-based system with an undo feature; Warren Teitelman's Programmer's Assistant in BBN-LISP had an undo function by 1971; a 1971 PhD thesis by Marvin Zelkowitz proposed the related concept of reversible execution; and the Xerox PARC Bravo text editor had an undo command in 1974. Also establishes that Larry Tesler joined Apple in 1980 and, with Bill Atkinson, argued for undo's inclusion as a standard feature on the Apple Lisa; he did not invent the mechanism there.\n- https://en.wikipedia.org/wiki/File_Retrieval_and_Editing_System: read in full. Confirms FRESS was built starting in 1968 by Andries van Dam and his students, including Bob Wallace, at Brown University, running on an IBM 360 mainframe, and describes it as 'possibly the first computer-based system to have had an undo feature'.\n- https://en.wikipedia.org/wiki/Larry_Tesler: read in full. Confirms Tesler is credited specifically for cut, copy and paste and for the concept of modeless software; joined Xerox PARC in 1973; the article makes no claim that he invented undo.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "productivity",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-11-undo-not-tesler.mp4",
+  "propsFile": "daily/2026-09-11/undo-not-tesler.props.json",
+  "durationInFrames": 1056,
+  "audioUrl": "",
+  "niche": "productivity",
+  "composition": "Reel"
+}

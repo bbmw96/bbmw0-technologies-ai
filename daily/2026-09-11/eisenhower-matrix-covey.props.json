@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (eisenhower-matrix-covey)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#131211",
+    "ink": "#F3F0EA",
+    "accent": "#D97757",
+    "muted": "#89827A"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "One of the most quoted productivity lines around",
+      "text": "was never written down by the man it's named after.",
+      "note": "Dwight Eisenhower said it out loud in a single 1954 speech. He never called it a method, a matrix, or a rule.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1954",
+      "name": "Dwight D. Eisenhower",
+      "role": "Told an audience at Northwestern University that he had two kinds of problems, the urgent and the important, and that the urgent are never important while the important are never urgent.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Eisenhower didn't take credit for the line.",
+      "text": "He said he was quoting a former college president.",
+      "note": "The actual transcript names no one. Northwestern's real president was sitting in the same room and was praised separately in the same speech, which is likely why his name gets wrongly attached to the quote online.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1989",
+      "name": "Stephen Covey",
+      "role": "Turned Eisenhower's spoken line into a drawn two-by-two grid in his book The 7 Habits of Highly Effective People, sorting tasks into urgent, important, both or neither, and telling readers to live in the important-but-not-urgent quadrant.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "20",
+      "unit": "million",
+      "context": "Copies of Covey's book sold by the time he died in 2012, the book that turned a single unattributed line from a 1954 speech into a permanent planning grid.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "kicker",
+      "text": "The Eisenhower Matrix is named after a man who borrowed the words, popularised by a man who drew the grid thirty-five years later.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "sign",
+      "line": "The most famous quote in productivity has an asterisk its own speaker put there.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 130
+    }
+  ],
+  "cta": "Subscribe for more."
+}
