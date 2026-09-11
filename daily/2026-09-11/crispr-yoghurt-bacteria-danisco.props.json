@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (crispr-yoghurt-bacteria-danisco)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A1410",
+    "ink": "#EFFBF3",
+    "accent": "#4CD97B",
+    "muted": "#7FA38C"
+  },
+  "niche": "biology",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "A tool now used to edit human genes was first found by cheese and yoghurt scientists.",
+      "text": "In 2005, researchers at the food company Danisco were trying to work out why some batches of their bacterial starter cultures kept surviving virus attacks that should have wiped them out.",
+      "note": "The bacterium was Streptococcus thermophilus, used to make yoghurt and cheese.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2005",
+      "name": "Rodolphe Barrangou and Philippe Horvath",
+      "role": "at Danisco, found that the surviving bacteria had copied new DNA sequences from the attacking viruses into a repeating region of their genome called CRISPR, making them immune to that exact virus next time.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "It took two more years to prove what this actually was: an adaptive immune system, one that lets bacteria remember viruses they have already survived.",
+      "note": "The proof was published in Science in March 2007, the first experimental evidence that CRISPR worked this way.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "The dairy industry's problem became biotechnology's tool five years later, when Jennifer Doudna and Emmanuelle Charpentier worked out how to combine CRISPR's two separate guide molecules into one.",
+      "note": "That single change, in 2012, turned a bacterial defence system into something that could be aimed at almost any piece of DNA.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Charpentier and Doudna won the 2020 Nobel Prize in Chemistry for it. The bacteria that made it possible were just trying to survive being attacked by viruses in a yoghurt vat.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "sign",
+      "line": "Gene editing's origin story starts in a dairy factory.",
+      "handle": "@bbm0902",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "venus-day-longer-than-year",
+  "date": "2026-09-11",
+  "title": "Venus takes 243 Earth days to complete a single rotation, but only 224.7 Earth days to complete one ",
+  "description": "Venus takes 243 Earth days to complete a single rotation, but only 224.7 Earth days to complete one full orbit of the Sun. Both figures are measured against the fixed stars: the sidereal rotation period and the sidereal year.\n\nhow long a single spin of Venus takes, measured against the stars. Its year takes only 224.7.\n\nVenus also spins backwards. Almost every planet rotates the same direction it orbits the Sun; Venus turns the opposite way, a quirk called retrograde rotation. Venus is the only planet in the Solar System whose day, measured this way, is longer than its year.\n\nCombine the backwards spin with the orbit and the result is stranger still: measured sunrise to sunrise, a Venusian day lasts about 117 Earth days, roughly half a Venusian year. This sunrise-to-sunrise figure, the solar day, is a different measurement from the 243-day sidereal day above, and the two should not be mixed up.\n\nIf you could stand on the surface and see through Venus's clouds, which you cannot, the Sun would rise in the west and set in the east, the reverse of Earth.\n\nSources:\n- https://en.wikipedia.org/wiki/Venus: gives Venus's sidereal rotation period (243.0226 Earth days, retrograde) against its orbital or sidereal year (224.701 Earth days), explains the retrograde rotation, and gives the resulting solar day of about 117 Earth days, roughly 1.92 Venusian solar days per Venusian year.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "space",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "yt-bbm0902",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbm0902",
+  "file": "out/daily-2026-09-11-venus-day-longer-than-year.mp4",
+  "propsFile": "daily/2026-09-11/venus-day-longer-than-year.props.json",
+  "durationInFrames": 1116,
+  "audioUrl": "",
+  "niche": "space",
+  "composition": "Reel"
+}

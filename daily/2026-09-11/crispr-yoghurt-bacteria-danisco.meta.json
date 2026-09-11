@@ -1,0 +1,25 @@
+{
+  "slug": "crispr-yoghurt-bacteria-danisco",
+  "date": "2026-09-11",
+  "title": "In 2005, researchers at the food company Danisco were trying to work out why some batches of their b",
+  "description": "In 2005, researchers at the food company Danisco were trying to work out why some batches of their bacterial starter cultures kept surviving virus attacks that should have wiped them out. The bacterium was Streptococcus thermophilus, used to make yoghurt and cheese.\n\nat Danisco, found that the surviving bacteria had copied new DNA sequences from the attacking viruses into a repeating region of their genome called CRISPR, making them immune to that exact virus next time.\n\nIt took two more years to prove what this actually was: an adaptive immune system, one that lets bacteria remember viruses they have already survived. The proof was published in Science in March 2007, the first experimental evidence that CRISPR worked this way.\n\nThe dairy industry's problem became biotechnology's tool five years later, when Jennifer Doudna and Emmanuelle Charpentier worked out how to combine CRISPR's two separate guide molecules into one. That single change, in 2012, turned a bacterial defence system into something that could be aimed at almost any piece of DNA.\n\nCharpentier and Doudna won the 2020 Nobel Prize in Chemistry for it. The bacteria that made it possible were just trying to survive being attacked by viruses in a yoghurt vat.\n\nSources:\n- https://en.wikipedia.org/wiki/CRISPR: covers Rodolphe Barrangou's 2005 discovery at Danisco that Streptococcus thermophilus, a bacterium used to make yoghurt and cheese, gains phage resistance by adding new CRISPR spacer sequences copied from attacking viruses, the first experimental proof of CRISPR as an adaptive immune system published in 2007, Doudna and Charpentier fusing crRNA and tracrRNA into a single guide RNA in 2012, and the 2020 Nobel Prize in Chemistry awarded to them for it.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "biology",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "yt-bbm0902",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbm0902",
+  "file": "out/daily-2026-09-11-crispr-yoghurt-bacteria-danisco.mp4",
+  "propsFile": "daily/2026-09-11/crispr-yoghurt-bacteria-danisco.props.json",
+  "durationInFrames": 1188,
+  "audioUrl": "",
+  "niche": "biology",
+  "composition": "Reel"
+}

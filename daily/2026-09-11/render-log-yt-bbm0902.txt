@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-09-11 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- crispr-yoghurt-bacteria-danisco ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-11-crispr-yoghurt-bacteria-danisco.mp4
+  uploaded public: https://youtu.be/0oZnrxgjKN8
+
+--- honey-real-oldest-not-egypt ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-11-honey-real-oldest-not-egypt.mp4
+  uploaded public: https://youtu.be/IFvxQnoxjFg
+
+--- venus-day-longer-than-year ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-11-venus-day-longer-than-year.mp4
+  uploaded public: https://youtu.be/idQmJEPblC4
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

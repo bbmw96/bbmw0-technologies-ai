@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (venus-day-longer-than-year)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#160E05",
+    "ink": "#FCEBD5",
+    "accent": "#F2A93B",
+    "muted": "#8F7856"
+  },
+  "niche": "space",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "One planet spins so slowly that its day outlasts its year.",
+      "text": "Venus takes 243 Earth days to complete a single rotation, but only 224.7 Earth days to complete one full orbit of the Sun.",
+      "note": "Both figures are measured against the fixed stars: the sidereal rotation period and the sidereal year.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "243",
+      "unit": "days",
+      "context": "how long a single spin of Venus takes, measured against the stars. Its year takes only 224.7.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "statement",
+      "text": "Venus also spins backwards. Almost every planet rotates the same direction it orbits the Sun; Venus turns the opposite way, a quirk called retrograde rotation.",
+      "note": "Venus is the only planet in the Solar System whose day, measured this way, is longer than its year.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "Combine the backwards spin with the orbit and the result is stranger still: measured sunrise to sunrise, a Venusian day lasts about 117 Earth days, roughly half a Venusian year.",
+      "note": "This sunrise-to-sunrise figure, the solar day, is a different measurement from the 243-day sidereal day above, and the two should not be mixed up.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "If you could stand on the surface and see through Venus's clouds, which you cannot, the Sun would rise in the west and set in the east, the reverse of Earth.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "sign",
+      "line": "A planet where sunrise to sunrise nearly takes half its year.",
+      "handle": "@bbm0902",
+      "durationInFrames": 112
+    }
+  ],
+  "cta": "Subscribe for more."
+}

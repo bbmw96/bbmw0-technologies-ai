@@ -147,7 +147,10 @@
     "reel:alphafold-protein-nobel",
     "reel:undo-not-tesler",
     "reel:eisenhower-matrix-covey",
-    "reel:blackberry-850"
+    "reel:blackberry-850",
+    "reel:crispr-yoghurt-bacteria-danisco",
+    "reel:venus-day-longer-than-year",
+    "reel:honey-real-oldest-not-egypt"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -2536,6 +2539,57 @@
       "channelId": "yt-bbmw0",
       "special": false,
       "platform": "youtube"
+    },
+    {
+      "id": "crispr-yoghurt-bacteria-danisco",
+      "date": "2026-09-11",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "In 2005, researchers at the food company Danisco were trying to work out why some batches of their b",
+      "description": "In 2005, researchers at the food company Danisco were trying to work out why some batches of their bacterial starter cultures kept surviving virus attacks that should have wiped them out. The bacterium was Streptococcus thermophilus, used to make yoghurt and cheese.\n\nat Danisco, found that the surviving bacteria had copied new DNA sequences from the attacking viruses into a repeating region of their genome called CRISPR, making them immune to that exact virus next time.\n\nIt took two more years to prove what this actually was: an adaptive immune system, one that lets bacteria remember viruses they have already survived. The proof was published in Science in March 2007, the first experimental evidence that CRISPR worked this way.\n\nThe dairy industry's problem became biotechnology's tool five years later, when Jennifer Doudna and Emmanuelle Charpentier worked out how to combine CRISPR's two separate guide molecules into one. That single change, in 2012, turned a bacterial defence system into something that could be aimed at almost any piece of DNA.\n\nCharpentier and Doudna won the 2020 Nobel Prize in Chemistry for it. The bacteria that made it possible were just trying to survive being attacked by viruses in a yoghurt vat.\n\nSources:\n- https://en.wikipedia.org/wiki/CRISPR: covers Rodolphe Barrangou's 2005 discovery at Danisco that Streptococcus thermophilus, a bacterium used to make yoghurt and cheese, gains phage resistance by adding new CRISPR spacer sequences copied from attacking viruses, the first experimental proof of CRISPR as an adaptive immune system published in 2007, Doudna and Charpentier fusing crRNA and tracrRNA into a single guide RNA in 2012, and the 2020 Nobel Prize in Chemistry awarded to them for it.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "biology",
+      "channelId": "yt-bbm0902",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "0oZnrxgjKN8",
+      "youtubeUrl": "https://youtu.be/0oZnrxgjKN8",
+      "uploadedAt": "2026-09-11T13:14:02.791Z",
+      "privacy": "public"
+    },
+    {
+      "id": "venus-day-longer-than-year",
+      "date": "2026-09-11",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Venus takes 243 Earth days to complete a single rotation, but only 224.7 Earth days to complete one ",
+      "description": "Venus takes 243 Earth days to complete a single rotation, but only 224.7 Earth days to complete one full orbit of the Sun. Both figures are measured against the fixed stars: the sidereal rotation period and the sidereal year.\n\nhow long a single spin of Venus takes, measured against the stars. Its year takes only 224.7.\n\nVenus also spins backwards. Almost every planet rotates the same direction it orbits the Sun; Venus turns the opposite way, a quirk called retrograde rotation. Venus is the only planet in the Solar System whose day, measured this way, is longer than its year.\n\nCombine the backwards spin with the orbit and the result is stranger still: measured sunrise to sunrise, a Venusian day lasts about 117 Earth days, roughly half a Venusian year. This sunrise-to-sunrise figure, the solar day, is a different measurement from the 243-day sidereal day above, and the two should not be mixed up.\n\nIf you could stand on the surface and see through Venus's clouds, which you cannot, the Sun would rise in the west and set in the east, the reverse of Earth.\n\nSources:\n- https://en.wikipedia.org/wiki/Venus: gives Venus's sidereal rotation period (243.0226 Earth days, retrograde) against its orbital or sidereal year (224.701 Earth days), explains the retrograde rotation, and gives the resulting solar day of about 117 Earth days, roughly 1.92 Venusian solar days per Venusian year.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "space",
+      "channelId": "yt-bbm0902",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "idQmJEPblC4",
+      "youtubeUrl": "https://youtu.be/idQmJEPblC4",
+      "uploadedAt": "2026-09-11T13:18:15.484Z",
+      "privacy": "public"
+    },
+    {
+      "id": "honey-real-oldest-not-egypt",
+      "date": "2026-09-11",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "No sample of honey recovered from an Egyptian tomb has ever been proven genuine and edible; every cl",
+      "description": "No sample of honey recovered from an Egyptian tomb has ever been proven genuine and edible; every claimed case has turned out to be a different substance, or only a trace residue. This comes from honey's own reference literature, which flags the claim as a persistent myth.\n\nThe real record is older than the myth anyway, and it was not found in Egypt. Real, confirmed honey residue has been recovered elsewhere, and it predates the Tutankhamun story by thousands of years.\n\nthe age of the oldest confirmed honey remains ever found: residue on the inside of clay jars, in a tomb in the country of Georgia.\n\nHoney really does resist spoiling, just not by magic. Bees mix an enzyme into the nectar they carry that produces gluconic acid and hydrogen peroxide, both of which stop bacteria growing, and its low moisture content does the rest. It only stays stable sealed and dry. Exposed to damp air, it will eventually ferment like anything else.\n\nAncient Georgians took the idea further than anyone: several types of honey, linden, berry, and meadow-flower, were buried alongside the dead as provisions for the journey to the afterlife.\n\nSources:\n- https://en.wikipedia.org/wiki/Honey: states plainly that no edible honey has been found in Egyptian tombs, that all such claimed cases have proven to be other substances or only chemical traces, explains honey's real preservation chemistry (bee-derived glucose oxidase producing gluconic acid and hydrogen peroxide, plus low moisture content), and gives the oldest confirmed honey remains as residue on clay vessels in a tomb in Georgia, dated between 4,700 and 5,500 years, alongside the ancient Georgian custom of burying different honey types with the dead.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "food",
+      "channelId": "yt-bbm0902",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "IFvxQnoxjFg",
+      "youtubeUrl": "https://youtu.be/IFvxQnoxjFg",
+      "uploadedAt": "2026-09-11T13:16:13.659Z",
+      "privacy": "public"
     }
   ]
 }

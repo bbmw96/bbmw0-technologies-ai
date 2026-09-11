@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (honey-real-oldest-not-egypt)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#170F05",
+    "ink": "#FBF3DC",
+    "accent": "#F0B429",
+    "muted": "#977C4E"
+  },
+  "niche": "food",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The story about 3,000-year-old honey found still edible in Egyptian tombs is not true.",
+      "text": "No sample of honey recovered from an Egyptian tomb has ever been proven genuine and edible; every claimed case has turned out to be a different substance, or only a trace residue.",
+      "note": "This comes from honey's own reference literature, which flags the claim as a persistent myth.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "The real record is older than the myth anyway, and it was not found in Egypt.",
+      "note": "Real, confirmed honey residue has been recovered elsewhere, and it predates the Tutankhamun story by thousands of years.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "5,500",
+      "unit": "years",
+      "context": "the age of the oldest confirmed honey remains ever found: residue on the inside of clay jars, in a tomb in the country of Georgia.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "text": "Honey really does resist spoiling, just not by magic. Bees mix an enzyme into the nectar they carry that produces gluconic acid and hydrogen peroxide, both of which stop bacteria growing, and its low moisture content does the rest.",
+      "note": "It only stays stable sealed and dry. Exposed to damp air, it will eventually ferment like anything else.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Ancient Georgians took the idea further than anyone: several types of honey, linden, berry, and meadow-flower, were buried alongside the dead as provisions for the journey to the afterlife.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "sign",
+      "line": "The real story beats the myth: honey that outlasted civilisations, just not the one everybody names.",
+      "handle": "@bbm0902",
+      "durationInFrames": 142
+    }
+  ],
+  "cta": "Subscribe for more."
+}
