@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-11",
+  "repo": "bbmw96/bbmw0-technologies-ai",
+  "tag": "media-2026-09-11",
+  "base": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-11",
+  "urls": {
+    "alphago-move-37": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-11/daily-2026-09-11-alphago-move-37.mp4",
+    "blackberry-850": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-11/daily-2026-09-11-blackberry-850.mp4",
+    "procedural-worlds": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-11/daily-2026-09-11-procedural-worlds.mp4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "procedural-worlds",
+  "date": "2026-09-11",
+  "title": "No Man's Sky contains 18 quintillion planets.",
+  "description": "No Man's Sky contains 18 quintillion planets. A quintillion is a billion billion. The number is not an exaggeration; it is arithmetic.\n\n2 to the power of 64, the exact count of values a 64-bit seed number can take. Every planet in the game traces back to one number in that range.\n\nEvery player explores the same universe. Not a private, randomly generated world each time; one shared seed, unpacked locally, so two players who visit the same coordinates find the same planet.\n\nA 13-person studio in the UK. Art director Grant Duncan described the process as running seed values through what he called 'boxes of math'.\n\nThe universe was not built by hand. It was built by one number, run through the right equations.\n\nSources:\n- https://www.rollingstone.com/culture/culture-news/no-mans-sky-how-games-are-building-themselves-104779/: read in full. Establishes that No Man's Sky, released by the 13-person UK studio Hello Games, contains 18 quintillion planets; that every player's copy is generated from the same shared starting seed rather than a unique one each; quotes Hello Games art director Grant Duncan describing the generation process as running seed values through 'boxes of math'; and that base creature templates vary size, colouring and features so that even a lifetime of play would not repeat a species.\n- https://dev.to/dubeykartikay/how-no-mans-sky-creates-18-quintillion-planets-with-just-math-3fgf: read in full. Explains that the game's seed is a 64-bit number, and that 2 to the power of 64 possible values is the source of the 18-quintillion figure.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "gaming",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-11-procedural-worlds.mp4",
+  "propsFile": "daily/2026-09-11/procedural-worlds.props.json",
+  "durationInFrames": 1028,
+  "audioUrl": "",
+  "niche": "gaming",
+  "composition": "Reel"
+}

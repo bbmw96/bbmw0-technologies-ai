@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (alphago-move-37)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0D0F",
+    "ink": "#ECEAE3",
+    "accent": "#4FB0A0",
+    "muted": "#7B8079"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Game two, Seoul, 2016, move 37",
+      "text": "The commentators called it a mistake.",
+      "note": "AlphaGo put a stone on the fifth line, where centuries of Go wisdom said it did not belong. Lee Sedol was away on a break. He came back, stared, and needed twelve minutes to reply.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2016",
+      "name": "AlphaGo",
+      "role": "A DeepMind program that learned Go from over 100,000 human games, then played itself millions of times. It had already beaten Europe's champion 5-0. Against Lee Sedol, one of the greatest ever, it won the match four games to one.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "It was not a mistake",
+      "text": "It was a move no human would make.",
+      "note": "The stone quietly reshaped the whole board. Afterwards Lee said it changed how he saw the game: 'What does creativity mean in Go?' The blunder that was not a blunder had beaten him.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Then, in game four, Lee replied in kind",
+      "text": "Move 78. One in ten thousand.",
+      "note": "His wedge in the centre was a move AlphaGo itself rated at a 1-in-10,000 chance a human would find. The machine unravelled and resigned. It is still the only game a human has ever won against it.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Three years on, Lee Sedol retired, the only person alive who had beaten it.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "sign",
+      "line": "The machine's strangest move, and the human's answer.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Follow for more."
+}

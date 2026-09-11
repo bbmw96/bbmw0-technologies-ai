@@ -150,7 +150,9 @@
     "reel:blackberry-850",
     "reel:crispr-yoghurt-bacteria-danisco",
     "reel:venus-day-longer-than-year",
-    "reel:honey-real-oldest-not-egypt"
+    "reel:honey-real-oldest-not-egypt",
+    "reel:alphago-move-37",
+    "reel:procedural-worlds"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -2590,6 +2592,45 @@
       "youtubeUrl": "https://youtu.be/IFvxQnoxjFg",
       "uploadedAt": "2026-09-11T13:16:13.659Z",
       "privacy": "public"
+    },
+    {
+      "id": "alphago-move-37",
+      "date": "2026-09-11",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The commentators called it a mistake.",
+      "description": "The commentators called it a mistake. AlphaGo put a stone on the fifth line, where centuries of Go wisdom said it did not belong. Lee Sedol was away on a break. He came back, stared, and needed twelve minutes to reply.\n\nA DeepMind program that learned Go from over 100,000 human games, then played itself millions of times. It had already beaten Europe's champion 5-0. Against Lee Sedol, one of the greatest ever, it won the match four games to one.\n\nIt was a move no human would make. The stone quietly reshaped the whole board. Afterwards Lee said it changed how he saw the game: 'What does creativity mean in Go?' The blunder that was not a blunder had beaten him.\n\nMove 78. One in ten thousand. His wedge in the centre was a move AlphaGo itself rated at a 1-in-10,000 chance a human would find. The machine unravelled and resigned. It is still the only game a human has ever won against it.\n\nThree years on, Lee Sedol retired, the only person alive who had beaten it.\n\nSources:\n- https://gomagic.org/alphago-and-lee-sedol/ (Go Magic, Aleksandar Saranovic, 2024; read in full 26 Aug 2026): AlphaGo, a DeepMind program, learned from over 100,000 human games then played itself millions of times; it beat European champion Fan Hui 5-0 in October 2015; in Seoul in March 2016 it beat Lee Sedol, a 9 dan, four games to one; in game 2 it played move 37, a shoulder hit on the fifth line, while Lee was on a break, which commentators and audience first thought a mistake because it broke conventional wisdom, and Lee took more than 12 minutes to respond; after the game Lee said, 'This move made me think about Go in a new light. What does creativity mean in Go?'; in game 4 Lee's move 78, a wedge in the centre later dubbed the 'God's touch', was one AlphaGo itself calculated at a 1-in-10,000 chance a human would find, after which AlphaGo unravelled and resigned after move 180; and, in Go Magic's words, 'to date, this is the only recorded game where AlphaGo lost against a human'.\n- https://www.npr.org/sections/thetwo-way/2016/03/13/470284113/after-three-losses-master-go-player-scores-a-win-against-computer (NPR, Camila Domonoske, 13 Mar 2016; read in full 26 Aug 2026): corroborates that AlphaGo had already won the first three games and the match, that Lee won game 4 on move 78, and that per Demis Hassabis the program's own estimate of its winning chances was about 70 per cent at move 79 then collapsed by move 87, after which AlphaGo resigned.\n- https://news.cgtn.com/news/2019-11-20/Go-master-Lee-Sedol-announces-retirement-after-24-year-career-LLKPajVx3q/index.html (CGTN, 20 Nov 2019; read in full 26 Aug 2026): Lee Sedol, described as the only human to score a win against Google's AI Go player AlphaGo, announced his retirement in November 2019; he lost the 2016 match 4-1 but remains the first and only Go player to beat Google's algorithm.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "procedural-worlds",
+      "date": "2026-09-11",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "No Man's Sky contains 18 quintillion planets.",
+      "description": "No Man's Sky contains 18 quintillion planets. A quintillion is a billion billion. The number is not an exaggeration; it is arithmetic.\n\n2 to the power of 64, the exact count of values a 64-bit seed number can take. Every planet in the game traces back to one number in that range.\n\nEvery player explores the same universe. Not a private, randomly generated world each time; one shared seed, unpacked locally, so two players who visit the same coordinates find the same planet.\n\nA 13-person studio in the UK. Art director Grant Duncan described the process as running seed values through what he called 'boxes of math'.\n\nThe universe was not built by hand. It was built by one number, run through the right equations.\n\nSources:\n- https://www.rollingstone.com/culture/culture-news/no-mans-sky-how-games-are-building-themselves-104779/: read in full. Establishes that No Man's Sky, released by the 13-person UK studio Hello Games, contains 18 quintillion planets; that every player's copy is generated from the same shared starting seed rather than a unique one each; quotes Hello Games art director Grant Duncan describing the generation process as running seed values through 'boxes of math'; and that base creature templates vary size, colouring and features so that even a lifetime of play would not repeat a species.\n- https://dev.to/dubeykartikay/how-no-mans-sky-creates-18-quintillion-planets-with-just-math-3fgf: read in full. Explains that the game's seed is a 64-bit number, and that 2 to the power of 64 possible values is the source of the 18-quintillion figure.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "blackberry-850",
+      "date": "2026-09-11",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "RIM introduced the 850 as a two-way pager in Munich, Germany, on 19 January 1999.",
+      "description": "RIM introduced the 850 as a two-way pager in Munich, Germany, on 19 January 1999. It was not a phone. It sent and received email and paging messages, nothing else.\n\nThe keyboard's small, round keys reminded the design team of the fruit. That is the entire origin of the name.\n\nhow much RIM's revenue jumped, to 85 million dollars, in the year after the 850 shipped.\n\nWhat made people keep using it was not the pager, it was how mail arrived. New messages were relayed through RIM's own network straight to the device the instant they landed, rather than waiting for the user to check by hand. People came to call this push email.\n\nBarack Obama refused to give up his BlackBerry when he became president in 2008. He predicted his staff would have to \"pry it out of my hands.\"\n\nSources:\n- https://www.history.com/this-day-in-history/january-19/first-blackberry-device-850-released: dates the BlackBerry 850's release to 19 January 1999, describes it as a two-way pager rather than a phone, explains the keyboard-inspired name, and gives RIM's revenue rising to 85 million dollars, an 80 percent increase, in the year after launch.\n- https://en.wikipedia.org/wiki/BlackBerry: confirms the 850 was introduced in 1999 in Munich, Germany, and explains BlackBerry's push email mechanism, where new messages were relayed through RIM's own network straight to the device rather than waiting for the user to check by hand or the device to poll a server at intervals.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }

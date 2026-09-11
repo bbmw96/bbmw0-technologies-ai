@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (procedural-worlds)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#08090F",
+    "ink": "#EDEFF7",
+    "accent": "#7C5CFF",
+    "muted": "#7A7C93"
+  },
+  "niche": "gaming",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "It sounds like a boast",
+      "text": "No Man's Sky contains 18 quintillion planets.",
+      "note": "A quintillion is a billion billion. The number is not an exaggeration; it is arithmetic.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "figure",
+      "value": "18",
+      "unit": "quintillion",
+      "context": "2 to the power of 64, the exact count of values a 64-bit seed number can take. Every planet in the game traces back to one number in that range.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "Here is the part people get backwards",
+      "text": "Every player explores the same universe.",
+      "note": "Not a private, randomly generated world each time; one shared seed, unpacked locally, so two players who visit the same coordinates find the same planet.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2016",
+      "name": "Hello Games",
+      "role": "A 13-person studio in the UK. Art director Grant Duncan described the process as running seed values through what he called 'boxes of math'.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "kicker",
+      "text": "The universe was not built by hand. It was built by one number, run through the right equations.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "sign",
+      "line": "Infinite was never the hard part. Consistent was.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Follow for more."
+}

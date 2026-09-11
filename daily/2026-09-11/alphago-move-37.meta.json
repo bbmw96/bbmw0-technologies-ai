@@ -1,0 +1,25 @@
+{
+  "slug": "alphago-move-37",
+  "date": "2026-09-11",
+  "title": "The commentators called it a mistake.",
+  "description": "The commentators called it a mistake. AlphaGo put a stone on the fifth line, where centuries of Go wisdom said it did not belong. Lee Sedol was away on a break. He came back, stared, and needed twelve minutes to reply.\n\nA DeepMind program that learned Go from over 100,000 human games, then played itself millions of times. It had already beaten Europe's champion 5-0. Against Lee Sedol, one of the greatest ever, it won the match four games to one.\n\nIt was a move no human would make. The stone quietly reshaped the whole board. Afterwards Lee said it changed how he saw the game: 'What does creativity mean in Go?' The blunder that was not a blunder had beaten him.\n\nMove 78. One in ten thousand. His wedge in the centre was a move AlphaGo itself rated at a 1-in-10,000 chance a human would find. The machine unravelled and resigned. It is still the only game a human has ever won against it.\n\nThree years on, Lee Sedol retired, the only person alive who had beaten it.\n\nSources:\n- https://gomagic.org/alphago-and-lee-sedol/ (Go Magic, Aleksandar Saranovic, 2024; read in full 26 Aug 2026): AlphaGo, a DeepMind program, learned from over 100,000 human games then played itself millions of times; it beat European champion Fan Hui 5-0 in October 2015; in Seoul in March 2016 it beat Lee Sedol, a 9 dan, four games to one; in game 2 it played move 37, a shoulder hit on the fifth line, while Lee was on a break, which commentators and audience first thought a mistake because it broke conventional wisdom, and Lee took more than 12 minutes to respond; after the game Lee said, 'This move made me think about Go in a new light. What does creativity mean in Go?'; in game 4 Lee's move 78, a wedge in the centre later dubbed the 'God's touch', was one AlphaGo itself calculated at a 1-in-10,000 chance a human would find, after which AlphaGo unravelled and resigned after move 180; and, in Go Magic's words, 'to date, this is the only recorded game where AlphaGo lost against a human'.\n- https://www.npr.org/sections/thetwo-way/2016/03/13/470284113/after-three-losses-master-go-player-scores-a-win-against-computer (NPR, Camila Domonoske, 13 Mar 2016; read in full 26 Aug 2026): corroborates that AlphaGo had already won the first three games and the match, that Lee won game 4 on move 78, and that per Demis Hassabis the program's own estimate of its winning chances was about 70 per cent at move 79 then collapsed by move 87, after which AlphaGo resigned.\n- https://news.cgtn.com/news/2019-11-20/Go-master-Lee-Sedol-announces-retirement-after-24-year-career-LLKPajVx3q/index.html (CGTN, 20 Nov 2019; read in full 26 Aug 2026): Lee Sedol, described as the only human to score a win against Google's AI Go player AlphaGo, announced his retirement in November 2019; he lost the 2016 match 4-1 but remains the first and only Go player to beat Google's algorithm.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-11-alphago-move-37.mp4",
+  "propsFile": "daily/2026-09-11/alphago-move-37.props.json",
+  "durationInFrames": 1082,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}
