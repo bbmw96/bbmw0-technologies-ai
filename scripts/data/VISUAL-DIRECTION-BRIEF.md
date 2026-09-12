@@ -39,17 +39,50 @@ limit resets) was attempted via `create_scheduled_task` and auto-declined:
 approval gate then also blocked a Composio `GITHUB_GET_REPOSITORY_CONTENT`
 read call moments later, so one decline appears to disable approval-gated
 Composio actions for the rest of that run, not just the specific request
-that was declined. This note is therefore a local, uncommitted edit — it
-could not be pushed to GitHub this session either.
+that was declined.
 
-**For the next session** (whether that is tomorrow's regular run or a
-manual retry sooner): check tool availability directly rather than
-assuming today's outage persists. A verse considered but not yet verified:
-Qur'an 39:53 (Az-Zumar), "do not despair of the mercy of Allah" —
-thematically fresh against the three live posts (patience, sincerity,
-remembrance) — but pick freely if it does not source cleanly. See
-`channels.json`'s `ig-blankdiscussions._niche_note` and the three published
-posts' own `sourcing` blocks for the verification bar to clear.
+**UPDATE, later the same day (2026-09-12), user said "continue":** every
+tool above recovered independently within the session — WebSearch's rate
+limit reset, Desktop Commander connected (confirmed working: `node`, `git`,
+and `npx remotion still` all ran fine on this Windows machine), and
+`mcp__workspace__web_fetch` succeeded once a qualifying WebSearch result
+existed. Qur'an 39:53 (Az-Zumar) was live-fetched and verified via
+`https://api.alquran.cloud/v1/ayah/39:53/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese`,
+built as `daily/2026-09-12/blankdiscussions/quran-39-53.*`, checked by hand
+against every list in `compliance-policy.json` (clean — a mercy/forgiveness
+verse trips nothing), rendered as all 7 stills with the `plum-rose` theme
+(completing the 4-theme rotation), visually spot-checked (Arabic and Korean
+glyphs both correct, no tofu), and pushed to `main` — all 7
+`raw.githubusercontent.com` URLs confirmed HTTP 200. The Korean edition had
+the same kind of stray mid-word-space artifact as prior posts (`말 라` etc.);
+see that post's own `sourcing.korean` field for exactly what was closed up.
+
+**NEW BLOCKER found at the publish step, not fixable from a session:**
+the very first Composio call, `INSTAGRAM_POST_IG_USER_MEDIA` (child
+container creation), failed for all 7 slides with HTTP 400 "User access is
+restricted - The Instagram account is restricted." This is new since 11
+Sep — the identical call published `quran-2-152` without incident.
+`INSTAGRAM_GET_USER_INFO` still succeeds fine (account_type=MEDIA_CREATOR,
+media_count=3, profile intact), so this is a restriction on the
+content-publishing permission specifically, not a dead or deleted account —
+almost certainly a Meta-side integrity/compliance hold, e.g. an automated
+review of a young API-publishing business account. **The channel owner
+needs to check the Instagram app and business.facebook.com for a
+restriction notice or required action** before any further publish attempt
+will work; retrying the same call blindly is very unlikely to help since a
+400 on "user access restricted" is a deliberate state, not a rate limit.
+`quran-39-53` is fully sourced, rendered and hosted (see its `.meta.json`
+`_blocker_note` and `hostingUrls`) and just needs `INSTAGRAM_CREATE_CAROUSEL_CONTAINER`
++ `INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH` run once the restriction clears —
+no new sourcing or rendering work needed for it.
+
+**For the next session**: check tool availability AND the Instagram account
+restriction directly rather than assuming either state persists or has
+cleared. If the restriction is still in place, do not source a further new
+post on top of `quran-39-53` — publish that one first once unblocked, to
+avoid a backlog of unpublished-but-rendered posts. See `channels.json`'s
+`ig-blankdiscussions._niche_note` and the published posts' own `sourcing`
+blocks for the verification bar new content must clear.
 
 ## ADDED 10 Sep 2026 — typing sound for CodeBeat (per-letter), pending owner sign-off
 
