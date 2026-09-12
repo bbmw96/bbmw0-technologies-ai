@@ -1,5 +1,56 @@
 # NEXT SESSION — START HERE
 
+## ADDED 12 Sep 2026 — blankdiscussions daily post blocked by a full tool outage, not a content problem
+
+Today's `blankdiscussions-daily-posting` scheduled task run confirmed, live via
+`INSTAGRAM_GET_IG_USER_MEDIA`, that all three existing posts (`quran-94-5`,
+`bukhari-1-1`, `quran-2-152`) are published and correctly recorded in their
+own `.meta.json` files and `scripts/data/published.json`. Nothing new
+published today, for reasons entirely outside this channel's content
+pipeline — every external-verification and rendering path failed at once:
+
+- Native WebSearch: session rate limit hit (reset promised for later the
+  same morning, Europe/London).
+- `mcp__workspace__web_fetch`: refused every URL (it only fetches a URL that
+  already appeared in a prior WebSearch/web_fetch/user message this session;
+  none had, since WebSearch itself was rate-limited first).
+- Composio's `composio_search` toolkit (`COMPOSIO_SEARCH_WEB`,
+  `COMPOSIO_SEARCH_FETCH_URL_CONTENT`): every call errored with "Enhanced
+  Controls is not supported for this session... disable enhanced controls
+  to continue" — an account-level Composio dashboard setting, not fixable
+  from inside a session. If this keeps recurring the fix is at
+  https://dashboard.composio.dev/~/org/connect/settings, not in this repo.
+- The built-in browser (`mcp__Claude_Browser__preview_start`): failed 5
+  times in a row with a safety-classifier timeout, unrelated to the
+  destination URL.
+- `mcp__workspace__bash`: the same Plan9/virtiofs mount failure tied to the
+  tracked Windows-update issue from 8 Sep. Irrelevant to rendering anyway,
+  per the 18 Aug entry below: this repo's `node_modules` carries
+  Windows-only native binaries via OneDrive, so the Linux sandbox was never
+  going to render Remotion even with a working mount.
+- Desktop Commander: `CONNECT_TIMEOUT`.
+
+With no way to live-verify a new Quran verse or Hadith against a real
+source this session, and the channel's one hard rule being that scripture
+is never generated from memory, the right move was to source nothing
+rather than guess. A follow-up scheduled task (to retry once the WebSearch
+limit resets) was attempted via `create_scheduled_task` and auto-declined:
+"no one was available to approve it during this scheduled run." The same
+approval gate then also blocked a Composio `GITHUB_GET_REPOSITORY_CONTENT`
+read call moments later, so one decline appears to disable approval-gated
+Composio actions for the rest of that run, not just the specific request
+that was declined. This note is therefore a local, uncommitted edit — it
+could not be pushed to GitHub this session either.
+
+**For the next session** (whether that is tomorrow's regular run or a
+manual retry sooner): check tool availability directly rather than
+assuming today's outage persists. A verse considered but not yet verified:
+Qur'an 39:53 (Az-Zumar), "do not despair of the mercy of Allah" —
+thematically fresh against the three live posts (patience, sincerity,
+remembrance) — but pick freely if it does not source cleanly. See
+`channels.json`'s `ig-blankdiscussions._niche_note` and the three published
+posts' own `sourcing` blocks for the verification bar to clear.
+
 ## ADDED 10 Sep 2026 — typing sound for CodeBeat (per-letter), pending owner sign-off
 
 The user asked, in scheduled-task chat, for some videos to play a typing/
