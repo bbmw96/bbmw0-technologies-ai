@@ -158,7 +158,9 @@
     "reel:open-source-mit",
     "reel:immortal-jellyfish-turritopsis",
     "reel:vostok-station-coldest-temperature",
-    "reel:eye-single-photon"
+    "reel:eye-single-photon",
+    "reel:clippy-once-smart",
+    "reel:pixel-origin"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -2731,6 +2733,32 @@
       "youtubeUrl": "https://youtu.be/obo4SZb1mW4",
       "uploadedAt": "2026-09-12T12:39:52.116Z",
       "privacy": "public"
+    },
+    {
+      "id": "clippy-once-smart",
+      "date": "2026-09-12",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It was built on genuine artificial intelligence research.",
+      "description": "It was built on genuine artificial intelligence research. Before it became a punchline, the character was based on a real Microsoft Research project studying how software could infer what a person actually needs.\n\nLed Microsoft's Lumiere Project, which used Bayesian statistical models to work out a user's goals from their actions and questions. Parts of that research became the basis for the Office Assistant.\n\nwas a much simpler version of that research. The reasoning behind the finished Office Assistant was far cruder than the Lumiere prototypes it drew on. Exactly why so much of that intelligence was cut before release isn't settled by the available sources, but the gap between the research and the shipped product is well documented.\n\nRoughly how many candidate characters Microsoft tested in user focus groups before narrowing the field to around ten finalists, among them a robot, a cat, a dog and a globe.\n\nHe compared it to a clown in internal meetings. The paperclip design, drawn on paper by illustrator Kevan Atteberry before being digitised, beat the other finalists in testing even though Microsoft's own co-founder was openly unconvinced.\n\nTurned off by default in Windows XP, retired from Office by 2007, and brought back as an emoji in 2021 after a tweet passed 170,000 likes.\n\nSources:\n- http://erichorvitz.com/lumiere.htm - read in full 7 Sep 2026: Eric Horvitz's own academic page for the Lumiere Project. States that Lumiere, developed at Microsoft Research from 1993 to 1998, used Bayesian models to infer a user's goals and needs from their actions and questions, and explicitly states that Lumiere prototypes served as the basis for components of the Office Assistant in the Microsoft Office 97 suite.\n- https://www.seattlemet.com/news-and-city-life/2022/08/origin-story-of-clippy-the-microsoft-office-assistant - read in full 7 Sep 2026: Seattle Met (Benjamin Cassidy, August 2022). Establishes that the character's official name was Clippit; that more than 260 candidate characters were tested in focus groups before the field narrowed to around ten finalists, including a robot, a cat, a dog and a globe; that character designer Kevan Atteberry drew the original paperclip on paper before digitising it; that Bill Gates repeatedly criticised the character in internal meetings, comparing it to a clown; that it shipped switched off by default in Windows XP in 2001 alongside a retirement campaign voiced by Gilbert Gottfried; that it was fully removed from Office in the 2007 version; and that it was revived as an emoji in 2021 after a tweet promising the emoji at 20,000 likes passed roughly 170,000.\n- https://thejaymo.net/2025/08/12/clippy-a-history/ - read in full 7 Sep 2026: a well-cited history blog. Corroborates the line from Microsoft Bob and CASA social-interface research through the Lumiere project to the Office Assistant, and states that the sophisticated Bayesian reasoning behind the research prototype was substantially simplified before the character shipped inside Office 97.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "slide-to-unlock-neonode",
+      "date": "2026-09-12",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "was ruled invalid by two European courts.",
+      "description": "was ruled invalid by two European courts. Apple patented sliding a finger across the screen to unlock the phone. Courts in Germany and the Netherlands later found that patent should never have been granted.\n\nAn Apple interface designer working on how to unlock the iPhone without a keypad. His team tried a two-finger slide and a twisting door-handle gesture, both rejected for needing two hands, before settling on one long horizontal swipe.\n\nA small Swedish phone maker had already shipped the same idea. Neonode had already released a touchscreen phone with its own slide-to-unlock gesture. Germany's Federal Patent Court named that phone directly in 2013 when it threw out every one of Apple's claims, and rejected all 14 changes Apple proposed to save the patent.\n\nlike dragging a bolt across a door. That is the exact comparison Apple's own team used. The swipe ran horizontally rather than vertically, partly so the phone could be unlocked with one finger, and partly so it would not unlock itself while sitting in a pocket.\n\nThe gesture that made the crowd gasp in 2007 was ruled unpatentable by 2013, and gone from iPhones by 2016.\n\nSources:\n- https://www.cultofmac.com/apple-history/slide-to-unlock-patent - read in full 7 Sep 2026: Cult of Mac (Luke Dormehl). Establishes that Apple filed a patent application for slide to unlock on 23 December 2005; that designer Bas Ording has described the team trying a two-finger slide, pressing two points at once, and a twisting door-handle gesture before settling on a single horizontal swipe, modelled on dragging a bolt across a door; that the gesture drew audible gasps at the 2007 iPhone unveiling; and that Apple retired it as the default lock screen with iOS 10 in 2016, after Touch ID arrived on the iPhone 5s in 2013 and before Face ID arrived in 2017.\n- https://www.engadget.com/2013-04-05-german-court-finds-apples-slide-to-unlock-patent-invalid.html - read in full 7 Sep 2026: Engadget (Yoni Heisler, 5 April 2013). Establishes that Germany's Federal Patent Court invalidated every claim of Apple's European patent EP1964022 for slide to unlock, rejected all 14 amendments Apple proposed to save it, and that the ruling turned on a Swedish touchscreen phone, the Neonode N1m, which demonstrated its own slide-to-unlock gesture before Apple's patent application; also notes a Dutch court invalidated the same patent on the same grounds.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }

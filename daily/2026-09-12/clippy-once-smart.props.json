@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (clippy-once-smart)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0E14",
+    "ink": "#EEF3F8",
+    "accent": "#6FB7FF",
+    "muted": "#75828F"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Clippy wasn't built to be annoying.",
+      "text": "It was built on genuine artificial intelligence research.",
+      "note": "Before it became a punchline, the character was based on a real Microsoft Research project studying how software could infer what a person actually needs.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1993",
+      "name": "Eric Horvitz",
+      "role": "Led Microsoft's Lumiere Project, which used Bayesian statistical models to work out a user's goals from their actions and questions. Parts of that research became the basis for the Office Assistant.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The character that shipped in 1997",
+      "text": "was a much simpler version of that research.",
+      "note": "The reasoning behind the finished Office Assistant was far cruder than the Lumiere prototypes it drew on. Exactly why so much of that intelligence was cut before release isn't settled by the available sources, but the gap between the research and the shipped product is well documented.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "260",
+      "unit": "characters",
+      "context": "Roughly how many candidate characters Microsoft tested in user focus groups before narrowing the field to around ten finalists, among them a robot, a cat, a dog and a globe.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "Bill Gates never liked the winner.",
+      "text": "He compared it to a clown in internal meetings.",
+      "note": "The paperclip design, drawn on paper by illustrator Kevan Atteberry before being digitised, beat the other finalists in testing even though Microsoft's own co-founder was openly unconvinced.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Turned off by default in Windows XP, retired from Office by 2007, and brought back as an emoji in 2021 after a tweet passed 170,000 likes.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "sign",
+      "line": "The most mocked assistant in software history started as a genuine attempt at reading your mind.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 142
+    }
+  ],
+  "cta": "Follow for more."
+}

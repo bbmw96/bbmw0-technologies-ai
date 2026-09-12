@@ -1,0 +1,25 @@
+{
+  "slug": "pixel-origin",
+  "date": "2026-09-12",
+  "title": "The word 'pixel' was first published for a space probe, not a display.",
+  "description": "The word 'pixel' was first published for a space probe, not a display. Frederic Billingsley used it in two 1965 papers describing digitised images sent back from the Moon and Mars.\n\nAn engineer at NASA's Jet Propulsion Laboratory. His papers on processing planetary probe images may be the first place 'pixel' ever appeared in print.\n\nHe picked it up from someone else at a different company. Keith McFarland, at Link Division in Palo Alto, told him it was already 'in use' around 1963. McFarland did not know where it came from either.\n\nThe word for the smallest piece of a picture arrived with no clean origin at all.\n\nSources:\n- https://en.wikipedia.org/wiki/Frederic_C._Billingsley: read in full. Establishes that Frederic Crockett Billingsley (1921 to 2002), an engineer at NASA's Jet Propulsion Laboratory, published two papers in 1965 using the word 'pixel' to describe the picture elements of digitised images returned by space probes to the Moon and Mars, and may have been the first to publish that word; cites Richard F. Lyon's 2006 paper 'A Brief History of Pixel' as the source for this claim.\n- https://www.jonpeddie.com/news/tribute-the-father-of-the-pixel/: a tribute piece drawing on the same Lyon paper, read in full. Establishes that Billingsley did not coin the word himself: he learned it from Keith E. McFarland at the Link Division of General Precision in Palo Alto, who said only that it was 'in use at the time', around 1963, and did not know where it came from either.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "gaming",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-12-pixel-origin.mp4",
+  "propsFile": "daily/2026-09-12/pixel-origin.props.json",
+  "durationInFrames": 866,
+  "audioUrl": "",
+  "niche": "gaming",
+  "composition": "Reel"
+}

@@ -7,11 +7,13 @@
     "slide-to-unlock-neonode",
     "eye-single-photon",
     "immortal-jellyfish-turritopsis",
-    "vostok-station-coldest-temperature"
+    "vostok-station-coldest-temperature",
+    "pixel-origin"
   ],
   "blocked": [
     "hashtag-chris-messina",
-    "open-source-mit"
+    "open-source-mit",
+    "clippy-once-smart"
   ],
   "results": [
     {
@@ -320,6 +322,107 @@
         "worstDescriptionSimilarity": 0.259,
         "combo": "reel:#0A1420:#5FC9F0:#F2FAFF",
         "themeGap": 133,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "clippy-once-smart",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "BLOCK",
+      "title": "It was built on genuine artificial intelligence research.",
+      "niche": "ai",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "instagram.caption_too_long",
+          "message": "Caption is 3203 chars, Instagram limit is 2200.",
+          "detail": null
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.167,
+        "worstTitleAgainst": "creeper-first-computer-virus",
+        "worstDescriptionSimilarity": 0.296,
+        "combo": "reel:#0A0E14:#6FB7FF:#EEF3F8",
+        "themeGap": 132,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "pixel-origin",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "The word 'pixel' was first published for a space probe, not a display.",
+      "niche": "gaming",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.1,
+        "worstTitleAgainst": "great-wall-myth",
+        "worstDescriptionSimilarity": 0.252,
+        "combo": "reel:#0A0C08:#8FD14F:#EAF2E0",
+        "themeGap": 132,
         "audioGap": 0
       },
       "aiPanel": {

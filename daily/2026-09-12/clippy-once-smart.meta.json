@@ -1,0 +1,25 @@
+{
+  "slug": "clippy-once-smart",
+  "date": "2026-09-12",
+  "title": "It was built on genuine artificial intelligence research.",
+  "description": "It was built on genuine artificial intelligence research. Before it became a punchline, the character was based on a real Microsoft Research project studying how software could infer what a person actually needs.\n\nLed Microsoft's Lumiere Project, which used Bayesian statistical models to work out a user's goals from their actions and questions. Parts of that research became the basis for the Office Assistant.\n\nwas a much simpler version of that research. The reasoning behind the finished Office Assistant was far cruder than the Lumiere prototypes it drew on. Exactly why so much of that intelligence was cut before release isn't settled by the available sources, but the gap between the research and the shipped product is well documented.\n\nRoughly how many candidate characters Microsoft tested in user focus groups before narrowing the field to around ten finalists, among them a robot, a cat, a dog and a globe.\n\nHe compared it to a clown in internal meetings. The paperclip design, drawn on paper by illustrator Kevan Atteberry before being digitised, beat the other finalists in testing even though Microsoft's own co-founder was openly unconvinced.\n\nTurned off by default in Windows XP, retired from Office by 2007, and brought back as an emoji in 2021 after a tweet passed 170,000 likes.\n\nSources:\n- http://erichorvitz.com/lumiere.htm - read in full 7 Sep 2026: Eric Horvitz's own academic page for the Lumiere Project. States that Lumiere, developed at Microsoft Research from 1993 to 1998, used Bayesian models to infer a user's goals and needs from their actions and questions, and explicitly states that Lumiere prototypes served as the basis for components of the Office Assistant in the Microsoft Office 97 suite.\n- https://www.seattlemet.com/news-and-city-life/2022/08/origin-story-of-clippy-the-microsoft-office-assistant - read in full 7 Sep 2026: Seattle Met (Benjamin Cassidy, August 2022). Establishes that the character's official name was Clippit; that more than 260 candidate characters were tested in focus groups before the field narrowed to around ten finalists, including a robot, a cat, a dog and a globe; that character designer Kevan Atteberry drew the original paperclip on paper before digitising it; that Bill Gates repeatedly criticised the character in internal meetings, comparing it to a clown; that it shipped switched off by default in Windows XP in 2001 alongside a retirement campaign voiced by Gilbert Gottfried; that it was fully removed from Office in the 2007 version; and that it was revived as an emoji in 2021 after a tweet promising the emoji at 20,000 likes passed roughly 170,000.\n- https://thejaymo.net/2025/08/12/clippy-a-history/ - read in full 7 Sep 2026: a well-cited history blog. Corroborates the line from Microsoft Bob and CASA social-interface research through the Lumiere project to the Office Assistant, and states that the sophisticated Bayesian reasoning behind the research prototype was substantially simplified before the character shipped inside Office 97.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-12-clippy-once-smart.mp4",
+  "propsFile": "daily/2026-09-12/clippy-once-smart.props.json",
+  "durationInFrames": 1414,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}

@@ -1,0 +1,47 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (pixel-origin)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0C08",
+    "ink": "#EAF2E0",
+    "accent": "#8FD14F",
+    "muted": "#7C8873"
+  },
+  "niche": "gaming",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "You would guess it came from a screen",
+      "text": "The word 'pixel' was first published for a space probe, not a display.",
+      "note": "Frederic Billingsley used it in two 1965 papers describing digitised images sent back from the Moon and Mars.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1965",
+      "name": "Frederic Billingsley",
+      "role": "An engineer at NASA's Jet Propulsion Laboratory. His papers on processing planetary probe images may be the first place 'pixel' ever appeared in print.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "He did not coin it himself",
+      "text": "He picked it up from someone else at a different company.",
+      "note": "Keith McFarland, at Link Division in Palo Alto, told him it was already 'in use' around 1963. McFarland did not know where it came from either.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The word for the smallest piece of a picture arrived with no clean origin at all.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "sign",
+      "line": "Every screen you own is made of a word nobody can fully trace.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 124
+    }
+  ],
+  "cta": "Follow for more."
+}
