@@ -1,0 +1,42 @@
+{
+  "slug": "quran-39-53",
+  "date": "2026-09-12",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "A reminder from the Qur'an: never despair of Allah's mercy, however great the sin.\n\nSurah Az-Zumar (39:53). Swipe through for the Arabic, then English, Mandarin, Korean and Japanese renderings.\n\nSources on the final slide.",
+  "tags": [
+    "Quran",
+    "IslamicReminder",
+    "Ayah",
+    "Deen",
+    "IslamicGuidance",
+    "MuslimReminder",
+    "MercyOfAllah",
+    "IslamicQuotes",
+    "Alhamdulillah",
+    "QuranicVerses"
+  ],
+  "theme": "plum-rose",
+  "slides": [
+    "quran-39-53.slide-01.json",
+    "quran-39-53.slide-02.json",
+    "quran-39-53.slide-03.json",
+    "quran-39-53.slide-04.json",
+    "quran-39-53.slide-05.json",
+    "quran-39-53.slide-06.json",
+    "quran-39-53.slide-07.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an, Surah Az-Zumar (39), Ayah 53",
+    "arabic": "Uthmani script (edition quran-uthmani), api.alquran.cloud. Live-fetched and verified this session (2026-09-12) via GET /v1/ayah/39:53/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese.",
+    "english": "Saheeh International (edition en.sahih), api.alquran.cloud. Same live call as above, including the translator's own bracketed interpolation '[by sinning]' verbatim.",
+    "chinese": "Ma Jian, 马坚 (edition zh.jian), api.alquran.cloud. Same live call as above.",
+    "korean": "Edition ko.korean, api.alquran.cloud. Translator is listed as 'Unknown' in the source's own metadata (englishName field), so the on-slide credit says the same rather than inventing a scholar's name. Same live call as above. The raw API string contained three stray mid-word spaces that were closed up to their correct single words for the slide: '말 라' -> '말라', '사하 여' -> '사하여', '관용 과' -> '관용과'. This is the same kind of source-data formatting artifact already documented for this edition in quran-94-5.meta.json and quran-2-152.meta.json. No wording was changed, only spacing internal to single grammatical words.",
+    "japanese": "Edition ja.japanese, api.alquran.cloud. Translator is listed as 'Unknown' in the source's own metadata, cited on-slide as such. Same live call as above, rendered verbatim with no corrections needed.",
+    "verification_note": "All five language renderings came from a single live api.alquran.cloud request made this session (2026-09-12), not from memory or a prior file: GET https://api.alquran.cloud/v1/ayah/39:53/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese, HTTP 200. See channels.json's ig-blankdiscussions._niche_note for why this project treats scripture sourcing as a hard requirement, not a style choice."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-12/quran-39-53-slide-NN.png --props=daily/2026-09-12/blankdiscussions/quran-39-53.slide-NN.json  (run once per slide, NN = 01 through 07)",
+  "status": "sourced_pending_render"
+}
