@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (open-source-mit)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0F0E0C",
+    "ink": "#F2EEE4",
+    "accent": "#C9A227",
+    "muted": "#857F72"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Every open-source project seems to use it",
+      "text": "There is no official 'MIT License'.",
+      "note": "By Jerome Saltzer's own account, the words cover a family of related licences with different wording, not one document MIT ever finalised.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1984",
+      "name": "Jerome Saltzer and Larry Allen",
+      "role": "MIT, working with attorneys Bob Sullivan and Sib Reppert. Not for the famous X Window System; the first version was drafted for PC/IP, an obscure TCP/IP stack for the IBM PC.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The X Window System version came later",
+      "text": "That one arrived on 22 February 1986.",
+      "note": "A separate set of attorneys reused Saltzer's four principles for Jim Gettys and Bob Scheifler, two years after the licence type it made famous already existed.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Even today's version does not match",
+      "text": "The text OSI approved in 1999 is not the X11 wording.",
+      "note": "It descends from the Expat XML parser's licence instead, and drops the X11 clause restricting use of the copyright holder's name in advertising.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The most copied licence on the internet was never actually finalised once.",
+      "durationInFrames": 94
+    },
+    {
+      "kind": "sign",
+      "line": "Free to reuse. Never one document.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

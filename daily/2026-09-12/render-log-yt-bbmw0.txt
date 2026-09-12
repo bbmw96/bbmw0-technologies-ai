@@ -1,0 +1,20 @@
+Rendering 3 Shorts for 2026-09-12 (concurrency=3, GL=default)
+Compliance: 1 cleared, 2 blocked (policy v1.0.0).
+Blocked by compliance: hashtag-chris-messina, open-source-mit
+
+--- hashtag-chris-messina ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-12-hashtag-chris-messina.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-12/compliance-verdict.json.
+
+--- open-source-mit ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-12-open-source-mit.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-12/compliance-verdict.json.
+
+--- slide-to-unlock-neonode ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-12-slide-to-unlock-neonode.mp4
+  uploaded public: https://youtu.be/k3yESB6jZs4
+
+=== Done. 3 rendered, 1 uploaded, 0 skipped, 2 blocked by compliance, 0 failed. ===

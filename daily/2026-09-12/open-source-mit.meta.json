@@ -1,0 +1,25 @@
+{
+  "slug": "open-source-mit",
+  "date": "2026-09-12",
+  "title": "There is no official 'MIT License'.",
+  "description": "There is no official 'MIT License'. By Jerome Saltzer's own account, the words cover a family of related licences with different wording, not one document MIT ever finalised.\n\nMIT, working with attorneys Bob Sullivan and Sib Reppert. Not for the famous X Window System; the first version was drafted for PC/IP, an obscure TCP/IP stack for the IBM PC.\n\nThat one arrived on 22 February 1986. A separate set of attorneys reused Saltzer's four principles for Jim Gettys and Bob Scheifler, two years after the licence type it made famous already existed.\n\nThe text OSI approved in 1999 is not the X11 wording. It descends from the Expat XML parser's licence instead, and drops the X11 clause restricting use of the copyright holder's name in advertising.\n\nThe most copied licence on the internet was never actually finalised once.\n\nSources:\n- https://web.mit.edu/Saltzer/www/publications/MITLicense.pdf: Jerome Saltzer's own 2020 account in IEEE Annals of the History of Computing, read in full. Establishes that there is no single canonical 'MIT License' text, only a family of related licences; that the first version was drafted by Saltzer and Larry Allen with MIT-affiliated attorneys Bob Sullivan and Sib Reppert for PC/IP (a TCP/IP stack for the IBM PC), first used in the distribution of 1 February 1984; the four guiding principles (permission for any purpose, no signed agreement or fee, three restrictions covering credit and promotional use, provided as-is); and that the X Window System version, drafted separately for Jim Gettys and Bob Scheifler, was first applied to X Version 10 Release 3 on 22 February 1986, two years after the PC/IP original.\n- https://opensource.com/article/19/4/history-mit-license: Gordon Haff, Opensource.com, 2019, read in full. Assembles first-hand accounts from Keith Packard and Jim Gettys; establishes that the licence text approved by the Open Source Initiative in 1999, still published today, is textually different from the 1986 X Consortium licence, and instead traces to the Expat XML library's licence from around 1998; notes the Free Software Foundation avoids the term 'MIT License' for this reason.\n- https://opensource.org/license/mit: the Open Source Initiative's current published text of 'The MIT License', used to confirm it omits the advertising-restriction clause present in the 1986 X11 text.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "app",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-12-open-source-mit.mp4",
+  "propsFile": "daily/2026-09-12/open-source-mit.props.json",
+  "durationInFrames": 1070,
+  "audioUrl": "",
+  "niche": "app",
+  "composition": "Reel"
+}

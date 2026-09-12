@@ -1,0 +1,25 @@
+{
+  "slug": "hashtag-chris-messina",
+  "date": "2026-09-12",
+  "title": "The first hashtag anyone proposed on Twitter.",
+  "description": "The first hashtag anyone proposed on Twitter.\n\na product consultant, posted the idea to Twitter on 23 August, asking how people felt about using the pound sign for groups.\n\nInternet Relay Chat had used the pound sign to label channels since around 1988. Messina adapted an existing convention rather than starting from nothing.\n\nTwitter did not adopt the idea. Its own users did, that October, tagging posts about the San Diego wildfires so people could follow the story. Twitter itself only began turning hashtags into clickable links on 2 July 2009, almost two years after the original tweet.\n\nMessina never tried to patent it. He said hashtags were born of the internet, and owned by no one.\n\nSources:\n- https://en.wikipedia.org/wiki/Hashtag: records Chris Messina's original tweet of 23 August 2007 proposing the pound sign for groups, the Internet Relay Chat precedent for that symbol, adoption during the 2007 San Diego wildfires and the 2009 to 2010 Iranian election protests, Twitter hyperlinking hashtags from 2 July 2009, and hashtag entering the Oxford English Dictionary in June 2014.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-12-hashtag-chris-messina.mp4",
+  "propsFile": "daily/2026-09-12/hashtag-chris-messina.props.json",
+  "durationInFrames": 922,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

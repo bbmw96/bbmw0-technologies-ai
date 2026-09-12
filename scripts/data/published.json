@@ -152,7 +152,10 @@
     "reel:venus-day-longer-than-year",
     "reel:honey-real-oldest-not-egypt",
     "reel:alphago-move-37",
-    "reel:procedural-worlds"
+    "reel:procedural-worlds",
+    "reel:slide-to-unlock-neonode",
+    "reel:hashtag-chris-messina",
+    "reel:open-source-mit"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -2631,6 +2634,49 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "slide-to-unlock-neonode",
+      "date": "2026-09-12",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "was ruled invalid by two European courts.",
+      "description": "was ruled invalid by two European courts. Apple patented sliding a finger across the screen to unlock the phone. Courts in Germany and the Netherlands later found that patent should never have been granted.\n\nAn Apple interface designer working on how to unlock the iPhone without a keypad. His team tried a two-finger slide and a twisting door-handle gesture, both rejected for needing two hands, before settling on one long horizontal swipe.\n\nA small Swedish phone maker had already shipped the same idea. Neonode had already released a touchscreen phone with its own slide-to-unlock gesture. Germany's Federal Patent Court named that phone directly in 2013 when it threw out every one of Apple's claims, and rejected all 14 changes Apple proposed to save the patent.\n\nlike dragging a bolt across a door. That is the exact comparison Apple's own team used. The swipe ran horizontally rather than vertically, partly so the phone could be unlocked with one finger, and partly so it would not unlock itself while sitting in a pocket.\n\nThe gesture that made the crowd gasp in 2007 was ruled unpatentable by 2013, and gone from iPhones by 2016.\n\nSources:\n- https://www.cultofmac.com/apple-history/slide-to-unlock-patent - read in full 7 Sep 2026: Cult of Mac (Luke Dormehl). Establishes that Apple filed a patent application for slide to unlock on 23 December 2005; that designer Bas Ording has described the team trying a two-finger slide, pressing two points at once, and a twisting door-handle gesture before settling on a single horizontal swipe, modelled on dragging a bolt across a door; that the gesture drew audible gasps at the 2007 iPhone unveiling; and that Apple retired it as the default lock screen with iOS 10 in 2016, after Touch ID arrived on the iPhone 5s in 2013 and before Face ID arrived in 2017.\n- https://www.engadget.com/2013-04-05-german-court-finds-apples-slide-to-unlock-patent-invalid.html - read in full 7 Sep 2026: Engadget (Yoni Heisler, 5 April 2013). Establishes that Germany's Federal Patent Court invalidated every claim of Apple's European patent EP1964022 for slide to unlock, rejected all 14 amendments Apple proposed to save it, and that the ruling turned on a Swedish touchscreen phone, the Neonode N1m, which demonstrated its own slide-to-unlock gesture before Apple's patent application; also notes a Dutch court invalidated the same patent on the same grounds.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "k3yESB6jZs4",
+      "youtubeUrl": "https://youtu.be/k3yESB6jZs4",
+      "uploadedAt": "2026-09-12T12:36:59.097Z",
+      "privacy": "public"
+    },
+    {
+      "id": "hashtag-chris-messina",
+      "date": "2026-09-12",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The first hashtag anyone proposed on Twitter.",
+      "description": "The first hashtag anyone proposed on Twitter.\n\na product consultant, posted the idea to Twitter on 23 August, asking how people felt about using the pound sign for groups.\n\nInternet Relay Chat had used the pound sign to label channels since around 1988. Messina adapted an existing convention rather than starting from nothing.\n\nTwitter did not adopt the idea. Its own users did, that October, tagging posts about the San Diego wildfires so people could follow the story. Twitter itself only began turning hashtags into clickable links on 2 July 2009, almost two years after the original tweet.\n\nMessina never tried to patent it. He said hashtags were born of the internet, and owned by no one.\n\nSources:\n- https://en.wikipedia.org/wiki/Hashtag: records Chris Messina's original tweet of 23 August 2007 proposing the pound sign for groups, the Internet Relay Chat precedent for that symbol, adoption during the 2007 San Diego wildfires and the 2009 to 2010 Iranian election protests, Twitter hyperlinking hashtags from 2 July 2009, and hashtag entering the Oxford English Dictionary in June 2014.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "open-source-mit",
+      "date": "2026-09-12",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "There is no official 'MIT License'.",
+      "description": "There is no official 'MIT License'. By Jerome Saltzer's own account, the words cover a family of related licences with different wording, not one document MIT ever finalised.\n\nMIT, working with attorneys Bob Sullivan and Sib Reppert. Not for the famous X Window System; the first version was drafted for PC/IP, an obscure TCP/IP stack for the IBM PC.\n\nThat one arrived on 22 February 1986. A separate set of attorneys reused Saltzer's four principles for Jim Gettys and Bob Scheifler, two years after the licence type it made famous already existed.\n\nThe text OSI approved in 1999 is not the X11 wording. It descends from the Expat XML parser's licence instead, and drops the X11 clause restricting use of the copyright holder's name in advertising.\n\nThe most copied licence on the internet was never actually finalised once.\n\nSources:\n- https://web.mit.edu/Saltzer/www/publications/MITLicense.pdf: Jerome Saltzer's own 2020 account in IEEE Annals of the History of Computing, read in full. Establishes that there is no single canonical 'MIT License' text, only a family of related licences; that the first version was drafted by Saltzer and Larry Allen with MIT-affiliated attorneys Bob Sullivan and Sib Reppert for PC/IP (a TCP/IP stack for the IBM PC), first used in the distribution of 1 February 1984; the four guiding principles (permission for any purpose, no signed agreement or fee, three restrictions covering credit and promotional use, provided as-is); and that the X Window System version, drafted separately for Jim Gettys and Bob Scheifler, was first applied to X Version 10 Release 3 on 22 February 1986, two years after the PC/IP original.\n- https://opensource.com/article/19/4/history-mit-license: Gordon Haff, Opensource.com, 2019, read in full. Assembles first-hand accounts from Keith Packard and Jim Gettys; establishes that the licence text approved by the Open Source Initiative in 1999, still published today, is textually different from the 1986 X Consortium licence, and instead traces to the Expat XML library's licence from around 1998; notes the Free Software Foundation avoids the term 'MIT License' for this reason.\n- https://opensource.org/license/mit: the Open Source Initiative's current published text of 'The MIT License', used to confirm it omits the advertising-restriction clause present in the 1986 X11 text.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
     }
   ]
 }

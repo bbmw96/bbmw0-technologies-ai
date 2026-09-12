@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (slide-to-unlock-neonode)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#121110",
+    "ink": "#F0ECE3",
+    "accent": "#D9932B",
+    "muted": "#857F75"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The most famous gesture on the first iPhone",
+      "text": "was ruled invalid by two European courts.",
+      "note": "Apple patented sliding a finger across the screen to unlock the phone. Courts in Germany and the Netherlands later found that patent should never have been granted.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2005",
+      "name": "Bas Ording",
+      "role": "An Apple interface designer working on how to unlock the iPhone without a keypad. His team tried a two-finger slide and a twisting door-handle gesture, both rejected for needing two hands, before settling on one long horizontal swipe.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Apple filed that patent on 23 December 2005.",
+      "text": "A small Swedish phone maker had already shipped the same idea.",
+      "note": "Neonode had already released a touchscreen phone with its own slide-to-unlock gesture. Germany's Federal Patent Court named that phone directly in 2013 when it threw out every one of Apple's claims, and rejected all 14 changes Apple proposed to save the patent.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The gesture was designed to feel physical,",
+      "text": "like dragging a bolt across a door.",
+      "note": "That is the exact comparison Apple's own team used. The swipe ran horizontally rather than vertically, partly so the phone could be unlocked with one finger, and partly so it would not unlock itself while sitting in a pocket.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The gesture that made the crowd gasp in 2007 was ruled unpatentable by 2013, and gone from iPhones by 2016.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "sign",
+      "line": "Apple's most copied gesture was never legally Apple's alone.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}

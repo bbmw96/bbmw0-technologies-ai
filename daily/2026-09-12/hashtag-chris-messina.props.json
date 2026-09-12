@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (hashtag-chris-messina)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0E14",
+    "ink": "#F5F5F0",
+    "accent": "#1D9BF0",
+    "muted": "#8A8A93"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "code",
+      "chars": "#barcamp",
+      "caption": "The first hashtag anyone proposed on Twitter.",
+      "durationInFrames": 96
+    },
+    {
+      "kind": "credit",
+      "year": "2007",
+      "name": "Chris Messina",
+      "role": "a product consultant, posted the idea to Twitter on 23 August, asking how people felt about using the pound sign for groups.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "statement",
+      "lead": "He was not inventing the symbol.",
+      "text": "Internet Relay Chat had used the pound sign to label channels since around 1988.",
+      "note": "Messina adapted an existing convention rather than starting from nothing.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "text": "Twitter did not adopt the idea. Its own users did, that October, tagging posts about the San Diego wildfires so people could follow the story.",
+      "note": "Twitter itself only began turning hashtags into clickable links on 2 July 2009, almost two years after the original tweet.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Messina never tried to patent it. He said hashtags were born of the internet, and owned by no one.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "sign",
+      "line": "A punctuation mark that took over the internet.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
