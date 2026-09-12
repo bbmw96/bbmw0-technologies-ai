@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-09-12 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- eye-single-photon ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-12-eye-single-photon.mp4
+  uploaded public: https://youtu.be/obo4SZb1mW4
+
+--- immortal-jellyfish-turritopsis ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-12-immortal-jellyfish-turritopsis.mp4
+  uploaded public: https://youtu.be/zOhx4uk8rQQ
+
+--- vostok-station-coldest-temperature ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-12-vostok-station-coldest-temperature.mp4
+  uploaded public: https://youtu.be/Kttqt6BSrcM
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

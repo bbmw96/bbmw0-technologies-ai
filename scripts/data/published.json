@@ -155,7 +155,10 @@
     "reel:procedural-worlds",
     "reel:slide-to-unlock-neonode",
     "reel:hashtag-chris-messina",
-    "reel:open-source-mit"
+    "reel:open-source-mit",
+    "reel:immortal-jellyfish-turritopsis",
+    "reel:vostok-station-coldest-temperature",
+    "reel:eye-single-photon"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -2677,6 +2680,57 @@
       "channelId": "yt-bbmw0",
       "special": false,
       "platform": "youtube"
+    },
+    {
+      "id": "immortal-jellyfish-turritopsis",
+      "date": "2026-09-12",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Turritopsis dohrnii, the immortal jellyfish, can revert from a mature adult back into an immature po",
+      "description": "Turritopsis dohrnii, the immortal jellyfish, can revert from a mature adult back into an immature polyp and start its life cycle over. It does this through transdifferentiation, where mature cells switch into entirely different cell types. Starvation, physical injury, or a sudden change in temperature or salinity can trigger it.\n\na biologist at Kyoto University, kept a colony of the jellyfish alive long enough to watch it rejuvenate itself 11 times over two years, the only person known to have managed it for any length of time.\n\nIn the wild, almost every individual is eaten or falls ill long before it ever needs to rejuvenate. Researchers are careful to call this biological immortality rather than invulnerability. Predation and disease still kill most of them outright.\n\nThe species has also quietly spread to every ocean on Earth, carried in the ballast water of cargo ships. A Smithsonian scientist called it a worldwide silent invasion. At about 4.5 millimetres across, it is easy to overlook.\n\nIn 2022, researchers compared its genome to a jellyfish that ages normally and found real differences in how it repairs DNA and renews stem cells, clues that could one day inform human ageing research.\n\nSources:\n- https://en.wikipedia.org/wiki/Turritopsis_dohrnii: covers the species' transdifferentiation process, reverting from a mature medusa back to the immature polyp stage, what triggers it (starvation, physical damage, sudden temperature or salinity change), Shin Kubota's captive colony at Kyoto University rejuvenating 11 times over two years, its worldwide spread via ballast water described by Smithsonian scientist Maria Miglietta as a silent invasion, and the explicit caveat that most individuals still die to predation or disease before ever needing to revert.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "animals",
+      "channelId": "yt-bbm0902",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "zOhx4uk8rQQ",
+      "youtubeUrl": "https://youtu.be/zOhx4uk8rQQ",
+      "uploadedAt": "2026-09-12T12:42:06.013Z",
+      "privacy": "public"
+    },
+    {
+      "id": "vostok-station-coldest-temperature",
+      "date": "2026-09-12",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Russia's Vostok Station, deep inland on the Antarctic ice sheet, recorded -89.2 degrees Celsius on 2",
+      "description": "Russia's Vostok Station, deep inland on the Antarctic ice sheet, recorded -89.2 degrees Celsius on 21 July 1983, the lowest natural temperature ever confirmed on Earth's surface. This is the coldest figure measured directly. Satellite readings have since detected colder spots elsewhere on the ice sheet.\n\nthe coldest temperature ever reliably measured on Earth's surface, recorded at Vostok Station on 21 July 1983.\n\nEven Vostok's warmest moment on record was brutally cold: -14 degrees Celsius, once, in the middle of the Southern Hemisphere summer. That single reading, on 5 January 1974, is still the warmest this station has ever recorded.\n\nIn December it receives an average of about 709 hours of sunshine, nearly 23 hours a day, more than the sunniest spots near the Sahara. It gets zero sunshine at all for roughly four months of the year, May to August, so the sunniest claim is about total hours across the year, not constant daylight.\n\nBeneath all that ice sits Lake Vostok, a liquid freshwater lake sealed under about four kilometres of ice for millions of years. Scientists did not physically reach its surface with a drill until 5 February 2012.\n\nSources:\n- https://en.wikipedia.org/wiki/Vostok_Station: gives the -89.2 degree Celsius record set 21 July 1983, beating the station's own 1960 record, Vostok's warmest ever recorded temperature of -14.0 degrees Celsius on 5 January 1974, its status as one of the driest and, by total sunshine hours, one of the sunniest places on Earth despite roughly four months of polar night, and the 2012 drilling breakthrough into subglacial Lake Vostok.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "weather",
+      "channelId": "yt-bbm0902",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "Kttqt6BSrcM",
+      "youtubeUrl": "https://youtu.be/Kttqt6BSrcM",
+      "uploadedAt": "2026-09-12T12:44:11.054Z",
+      "privacy": "public"
+    },
+    {
+      "id": "eye-single-photon",
+      "date": "2026-09-12",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Three people caught single photons with their bare eyes.",
+      "description": "Three people caught single photons with their bare eyes. Not a faint flash; one indivisible particle of light, produced by a quantum source built specifically to guarantee it was really only one.\n\nRockefeller University. His team ran the test more than 30,000 times, because a signal this faint needed that many trials to prove it was not noise.\n\nHow many times the experiment repeated before the result cleared random chance. That is the cost of proving something this faint is real.\n\nOne photon primes the eye for the next. Detecting a photon made a second, unrelated photon easier to spot for several seconds afterwards, far longer than the retina's known response window, and still unexplained.\n\nThe eye's near-total blindness to light this faint was known since the 1940s. Proving it could see the absolute floor took until 2016.\n\nSources:\n- https://vaziri.rockefeller.edu/direct-detection-of-a-single-photon-by-humans/: the Vaziri Lab's own description of their study, read in full. Establishes the method (a quantum light source built from spontaneous parametric down-conversion, guaranteeing true single-photon events through post-selection), the trial design (a two-alternative forced-choice test run more than 30,000 times), the headline result (correct detection at a rate of 0.516, barely above the 0.5 random-chance baseline, rising to 0.60 for high-confidence responses only), and an unexpected secondary finding that an earlier photon, detected within about five seconds and peaking near 3.5 seconds, made a later single photon easier to detect, longer than the visual system's known response window.\n- https://www.nature.com/articles/535469b: Nature's own research highlight on the study, published 27 July 2016, read in full. Independently confirms three volunteers, the more than 30,000 trials, and that participants identified single photons more often than random guessing would predict; cites the study as Tinsley, Molodtsov, Prevedel, Wartmann, Espigule-Pons, Lauwers and Vaziri, Nature Communications 7, 12172 (2016).\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "biology",
+      "channelId": "yt-bbm0902",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "obo4SZb1mW4",
+      "youtubeUrl": "https://youtu.be/obo4SZb1mW4",
+      "uploadedAt": "2026-09-12T12:39:52.116Z",
+      "privacy": "public"
     }
   ]
 }

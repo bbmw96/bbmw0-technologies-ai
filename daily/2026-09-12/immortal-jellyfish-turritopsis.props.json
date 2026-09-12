@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (immortal-jellyfish-turritopsis)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#061318",
+    "ink": "#EAF6F6",
+    "accent": "#2FE6C9",
+    "muted": "#7FA8A8"
+  },
+  "niche": "animals",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "One jellyfish species can reverse its own ageing.",
+      "text": "Turritopsis dohrnii, the immortal jellyfish, can revert from a mature adult back into an immature polyp and start its life cycle over.",
+      "note": "It does this through transdifferentiation, where mature cells switch into entirely different cell types. Starvation, physical injury, or a sudden change in temperature or salinity can trigger it.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2011",
+      "name": "Shin Kubota",
+      "role": "a biologist at Kyoto University, kept a colony of the jellyfish alive long enough to watch it rejuvenate itself 11 times over two years, the only person known to have managed it for any length of time.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The claim of immortality has a real catch.",
+      "text": "In the wild, almost every individual is eaten or falls ill long before it ever needs to rejuvenate.",
+      "note": "Researchers are careful to call this biological immortality rather than invulnerability. Predation and disease still kill most of them outright.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "The species has also quietly spread to every ocean on Earth, carried in the ballast water of cargo ships.",
+      "note": "A Smithsonian scientist called it a worldwide silent invasion. At about 4.5 millimetres across, it is easy to overlook.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "In 2022, researchers compared its genome to a jellyfish that ages normally and found real differences in how it repairs DNA and renews stem cells, clues that could one day inform human ageing research.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "The only animal known to hit rewind on its own life cycle.",
+      "handle": "@bbm0902",
+      "durationInFrames": 118
+    }
+  ],
+  "cta": "Subscribe for more."
+}

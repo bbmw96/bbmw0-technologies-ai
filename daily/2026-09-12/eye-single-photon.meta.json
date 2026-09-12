@@ -1,0 +1,25 @@
+{
+  "slug": "eye-single-photon",
+  "date": "2026-09-12",
+  "title": "Three people caught single photons with their bare eyes.",
+  "description": "Three people caught single photons with their bare eyes. Not a faint flash; one indivisible particle of light, produced by a quantum source built specifically to guarantee it was really only one.\n\nRockefeller University. His team ran the test more than 30,000 times, because a signal this faint needed that many trials to prove it was not noise.\n\nHow many times the experiment repeated before the result cleared random chance. That is the cost of proving something this faint is real.\n\nOne photon primes the eye for the next. Detecting a photon made a second, unrelated photon easier to spot for several seconds afterwards, far longer than the retina's known response window, and still unexplained.\n\nThe eye's near-total blindness to light this faint was known since the 1940s. Proving it could see the absolute floor took until 2016.\n\nSources:\n- https://vaziri.rockefeller.edu/direct-detection-of-a-single-photon-by-humans/: the Vaziri Lab's own description of their study, read in full. Establishes the method (a quantum light source built from spontaneous parametric down-conversion, guaranteeing true single-photon events through post-selection), the trial design (a two-alternative forced-choice test run more than 30,000 times), the headline result (correct detection at a rate of 0.516, barely above the 0.5 random-chance baseline, rising to 0.60 for high-confidence responses only), and an unexpected secondary finding that an earlier photon, detected within about five seconds and peaking near 3.5 seconds, made a later single photon easier to detect, longer than the visual system's known response window.\n- https://www.nature.com/articles/535469b: Nature's own research highlight on the study, published 27 July 2016, read in full. Independently confirms three volunteers, the more than 30,000 trials, and that participants identified single photons more often than random guessing would predict; cites the study as Tinsley, Molodtsov, Prevedel, Wartmann, Espigule-Pons, Lauwers and Vaziri, Nature Communications 7, 12172 (2016).\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "biology",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "yt-bbm0902",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbm0902",
+  "file": "out/daily-2026-09-12-eye-single-photon.mp4",
+  "propsFile": "daily/2026-09-12/eye-single-photon.props.json",
+  "durationInFrames": 1064,
+  "audioUrl": "",
+  "niche": "biology",
+  "composition": "Reel"
+}
