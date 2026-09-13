@@ -1,0 +1,25 @@
+{
+  "slug": "atari-adventure-easter-egg",
+  "date": "2026-09-13",
+  "title": "So one programmer hid his name inside the game itself.",
+  "description": "So one programmer hid his name inside the game itself. Warren Robinett built Adventure for the Atari 2600, and slipped in a secret room Atari never approved.\n\nYou had to carry an almost-invisible object across the map to unlock it. Asked why, in his own words: \"I was pissed.\"\n\nA fifteen-year-old player who found the hidden room and mailed Atari a handwritten letter describing it, the first record of anyone outside Atari finding Robinett's secret.\n\nAn employee named Steve Wright coined the term \"Easter egg\". His reasoning: hiding things in games was a good thing, \"like Easter eggs for players to find\". The name stuck across the whole industry.\n\nThe first hidden secret in console gaming was a protest note.\n\nSources:\n- https://atari.com/blogs/atari/so-let-s-talk-about-that-easter-egg: Atari's own company blog (\"Game History\", 5 Jul 2022), read in full. Establishes: Atari's policy at the time was not to publicly credit individual developers; Warren Robinett, designing Adventure for the Atari 2600 (development underway through 1979), hid a secret room displaying his own signature; in his own words, \"I was pissed\"; the term \"Easter Egg\" did not exist yet; fifteen-year-old Adam Clayton discovered the room and told Atari in a handwritten letter; an Atari employee, Steve Wright, is believed to have coined \"Easter Egg\" afterward, framing hidden surprises as good, \"like Easter eggs for players to find\"; the practice spread across the industry from there.\n- https://en.wikipedia.org/wiki/Adventure_(1980_video_game): via search summary, corroborating: Robinett designed and coded Adventure alone for the Atari 2600, and it is credited as the first widely publicised Easter egg in a console video game.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "gaming",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-13-atari-adventure-easter-egg.mp4",
+  "propsFile": "daily/2026-09-13/atari-adventure-easter-egg.props.json",
+  "durationInFrames": 1014,
+  "audioUrl": "",
+  "niche": "gaming",
+  "composition": "Reel"
+}

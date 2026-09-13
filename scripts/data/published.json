@@ -163,7 +163,9 @@
     "reel:pixel-origin",
     "reel:strawberry-not-berry",
     "reel:niepce-first-photograph",
-    "reel:pinch-to-zoom-fingerworks"
+    "reel:pinch-to-zoom-fingerworks",
+    "reel:atari-adventure-easter-egg",
+    "reel:elite-galaxy"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -2813,6 +2815,45 @@
       "youtubeUrl": "https://youtu.be/riPqfKi_Odk",
       "uploadedAt": "2026-09-13T13:35:07.874Z",
       "privacy": "public"
+    },
+    {
+      "id": "atari-adventure-easter-egg",
+      "date": "2026-09-13",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "So one programmer hid his name inside the game itself.",
+      "description": "So one programmer hid his name inside the game itself. Warren Robinett built Adventure for the Atari 2600, and slipped in a secret room Atari never approved.\n\nYou had to carry an almost-invisible object across the map to unlock it. Asked why, in his own words: \"I was pissed.\"\n\nA fifteen-year-old player who found the hidden room and mailed Atari a handwritten letter describing it, the first record of anyone outside Atari finding Robinett's secret.\n\nAn employee named Steve Wright coined the term \"Easter egg\". His reasoning: hiding things in games was a good thing, \"like Easter eggs for players to find\". The name stuck across the whole industry.\n\nThe first hidden secret in console gaming was a protest note.\n\nSources:\n- https://atari.com/blogs/atari/so-let-s-talk-about-that-easter-egg: Atari's own company blog (\"Game History\", 5 Jul 2022), read in full. Establishes: Atari's policy at the time was not to publicly credit individual developers; Warren Robinett, designing Adventure for the Atari 2600 (development underway through 1979), hid a secret room displaying his own signature; in his own words, \"I was pissed\"; the term \"Easter Egg\" did not exist yet; fifteen-year-old Adam Clayton discovered the room and told Atari in a handwritten letter; an Atari employee, Steve Wright, is believed to have coined \"Easter Egg\" afterward, framing hidden surprises as good, \"like Easter eggs for players to find\"; the practice spread across the industry from there.\n- https://en.wikipedia.org/wiki/Adventure_(1980_video_game): via search summary, corroborating: Robinett designed and coded Adventure alone for the Atari 2600, and it is credited as the first widely publicised Easter egg in a console video game.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "elite-galaxy",
+      "date": "2026-09-13",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It had no world to store.",
+      "description": "It had no world to store. Elite (1984) let you roam eight galaxies of 256 planets each, every one with its own economy and government. None of them were saved anywhere on the disk.\n\nTwo British programmers writing a space sim for the BBC Micro. Its memory was so small the finished game is lighter than a modern text document, so they never stored the universe at all.\n\nAll it took to fix a star system's place, economy, government and name. A single seed and a Fibonacci-style sequence rebuilt every world the moment you flew to it.\n\nThey shipped just eight galaxies. The maths could keep generating forever. A curated set of 256 systems per galaxy felt infinite without turning into a mess.\n\nThere was no universe. There was a formula that drew one.\n\nSources:\n- https://blog.sciencemuseumgroup.org.uk/revolutionary-british-video-game-elite-turns-40/: Science Museum Group (curator Matthew Horsfall), read directly: Elite released 1984 by David Braben and Ian Bell on the BBC Micro; an early open-world game with eight galaxies of 256 planets each, every planet with its own economy and government; the whole game was squeezed 'to a smaller size than a modern Word document' by using procedural generation instead of storing the planets.\n- https://www.vice.com/en/article/remembering-elite-the-most-important-game-of-the-early-80s/: Vice, read directly: Elite (1984, BBC Micro / Acorn Electron, Ian Bell & David Braben), eight galaxies with 256 single-planetary systems each; using a Fibonacci-inspired scheme, a star system's characteristics were fixed by six hexadecimal numbers, so one system's data took just six bytes and the seed 'could be used to form almost an infinite number of different planets'; published by Acornsoft.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "pinch-to-zoom-fingerworks",
+      "date": "2026-09-13",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It started with a graduate student who hurt his wrists typing his own dissertation.",
+      "description": "It started with a graduate student who hurt his wrists typing his own dissertation. Wayne Westerman was finishing a PhD on multi-touch surfaces at the University of Delaware when repetitive strain problems pushed him toward low-impact ways of typing.\n\nfounded FingerWorks at the University of Delaware to build multi-touch keyboards and pads aimed at people with RSI.\n\nHe wanted computers to feel as expressive as playing the piano. His own words: he had an ergonomic problem and paired it with a motivation, wanting to pull some of a piano's grace into the computer experience.\n\nApple bought FingerWorks in early 2005, taking the patents, the products and both founders. FingerWorks stopped shipping and closed that June. Outside customers only learned a big company had bought them; nobody said which one, or why, for two more years.\n\nThe iPhone did not arrive until 2007. Its touchscreen came from a keyboard built for sore wrists.\n\nSources:\n- https://en.wikipedia.org/wiki/FingerWorks: FingerWorks was founded in 1998 by Wayne Westerman and John Elias at the University of Delaware; Apple acquired the company's assets, patents and both founders in early 2005, and the technology became the basis for the iPhone's touchscreen, launched in 2007.\n- https://www.macrumors.com/2009/02/18/apples-multi-touch-designer-describes-his-inspiration-more-to-come/: relays a University of Delaware news article in which Westerman describes developing repetitive strain problems while finishing his dissertation, and says he wanted computers to feel as expressive as playing the piano.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }

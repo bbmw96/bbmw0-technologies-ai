@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (elite-galaxy)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#06080D",
+    "ink": "#E8ECF5",
+    "accent": "#46E0B0",
+    "muted": "#737C8C"
+  },
+  "niche": "gaming",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The game that invented the open world",
+      "text": "It had no world to store.",
+      "note": "Elite (1984) let you roam eight galaxies of 256 planets each, every one with its own economy and government. None of them were saved anywhere on the disk.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1984",
+      "name": "David Braben & Ian Bell",
+      "role": "Two British programmers writing a space sim for the BBC Micro. Its memory was so small the finished game is lighter than a modern text document, so they never stored the universe at all.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "6",
+      "unit": "bytes",
+      "context": "All it took to fix a star system's place, economy, government and name. A single seed and a Fibonacci-style sequence rebuilt every world the moment you flew to it.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "lead": "That seed could spin out worlds almost without end",
+      "text": "They shipped just eight galaxies.",
+      "note": "The maths could keep generating forever. A curated set of 256 systems per galaxy felt infinite without turning into a mess.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "There was no universe. There was a formula that drew one.",
+      "durationInFrames": 88
+    },
+    {
+      "kind": "sign",
+      "line": "A galaxy that fit in six bytes.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Follow for more."
+}

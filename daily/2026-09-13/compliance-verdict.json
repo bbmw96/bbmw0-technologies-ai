@@ -6,7 +6,9 @@
   "allowed": [
     "niepce-first-photograph",
     "pinch-to-zoom-fingerworks",
-    "strawberry-not-berry"
+    "strawberry-not-berry",
+    "atari-adventure-easter-egg",
+    "elite-galaxy"
   ],
   "blocked": [],
   "results": [
@@ -154,6 +156,104 @@
         "worstTitleAgainst": "henrietta-lacks-hela",
         "worstDescriptionSimilarity": 0.272,
         "combo": "reel:#150A12:#E85D9B:#F8EDF3",
+        "themeGap": 141,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "atari-adventure-easter-egg",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "So one programmer hid his name inside the game itself.",
+      "niche": "gaming",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "halal.context_review",
+          "message": "Term(s) needing context: easter. Referred to the AI reviewer.",
+          "detail": {
+            "terms": [
+              "easter"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.1,
+        "worstTitleAgainst": "konami-code",
+        "worstDescriptionSimilarity": 0.273,
+        "combo": "reel:#0A0E0A:#3DDC6E:#EDEFE9",
+        "themeGap": 141,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "elite-galaxy",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "It had no world to store.",
+      "niche": "gaming",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.167,
+        "worstTitleAgainst": "house-of-wisdom",
+        "worstDescriptionSimilarity": 0.267,
+        "combo": "reel:#06080D:#46E0B0:#E8ECF5",
         "themeGap": 141,
         "audioGap": 0
       },

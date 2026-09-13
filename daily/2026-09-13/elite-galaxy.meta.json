@@ -1,0 +1,25 @@
+{
+  "slug": "elite-galaxy",
+  "date": "2026-09-13",
+  "title": "It had no world to store.",
+  "description": "It had no world to store. Elite (1984) let you roam eight galaxies of 256 planets each, every one with its own economy and government. None of them were saved anywhere on the disk.\n\nTwo British programmers writing a space sim for the BBC Micro. Its memory was so small the finished game is lighter than a modern text document, so they never stored the universe at all.\n\nAll it took to fix a star system's place, economy, government and name. A single seed and a Fibonacci-style sequence rebuilt every world the moment you flew to it.\n\nThey shipped just eight galaxies. The maths could keep generating forever. A curated set of 256 systems per galaxy felt infinite without turning into a mess.\n\nThere was no universe. There was a formula that drew one.\n\nSources:\n- https://blog.sciencemuseumgroup.org.uk/revolutionary-british-video-game-elite-turns-40/: Science Museum Group (curator Matthew Horsfall), read directly: Elite released 1984 by David Braben and Ian Bell on the BBC Micro; an early open-world game with eight galaxies of 256 planets each, every planet with its own economy and government; the whole game was squeezed 'to a smaller size than a modern Word document' by using procedural generation instead of storing the planets.\n- https://www.vice.com/en/article/remembering-elite-the-most-important-game-of-the-early-80s/: Vice, read directly: Elite (1984, BBC Micro / Acorn Electron, Ian Bell & David Braben), eight galaxies with 256 single-planetary systems each; using a Fibonacci-inspired scheme, a star system's characteristics were fixed by six hexadecimal numbers, so one system's data took just six bytes and the seed 'could be used to form almost an infinite number of different planets'; published by Acornsoft.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "gaming",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-13-elite-galaxy.mp4",
+  "propsFile": "daily/2026-09-13/elite-galaxy.props.json",
+  "durationInFrames": 1052,
+  "audioUrl": "",
+  "niche": "gaming",
+  "composition": "Reel"
+}
