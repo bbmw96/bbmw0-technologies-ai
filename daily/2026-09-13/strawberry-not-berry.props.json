@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (strawberry-not-berry)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#150A12",
+    "ink": "#F8EDF3",
+    "accent": "#E85D9B",
+    "muted": "#8C7480"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "A strawberry has hundreds of seeds on the outside.",
+      "text": "None of them are actually seeds, and the fruit isn't a berry.",
+      "note": "Botanically, a strawberry fails the definition of a berry on every count that matters.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "A true berry has to grow from a single ovary.",
+      "text": "A strawberry's flower has dozens of separate ones.",
+      "note": "That single-ovary rule is why bananas, grapes, tomatoes and even cucumbers count as true berries, while strawberries, raspberries and blackberries don't.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The red part you eat isn't fruit tissue at all.",
+      "text": "It's the swollen base of the flower.",
+      "note": "What botanists call the receptacle grows large and fleshy around the true fruits, rather than the flesh coming from any ovary wall, which is how a true berry is built.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Those yellow dots on the surface",
+      "text": "are the actual fruits, not seeds.",
+      "note": "Each dot is a separate dry fruit called an achene, and each one holds a single true seed sealed inside it.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The avocado, with its single huge seed, meets the botanical definition of a berry. The strawberry, with hundreds of visible seeds, doesn't.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "sign",
+      "line": "Every strawberry is a lie told by hundreds of tiny fruits at once.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 124
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-09-13 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- niepce-first-photograph ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-13-niepce-first-photograph.mp4
+  uploaded public: https://youtu.be/RMaybeaHFNc
+
+--- pinch-to-zoom-fingerworks ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-13-pinch-to-zoom-fingerworks.mp4
+  uploaded public: https://youtu.be/riPqfKi_Odk
+
+--- strawberry-not-berry ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-13-strawberry-not-berry.mp4
+  uploaded public: https://youtu.be/Jd5pN5BOdUg
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

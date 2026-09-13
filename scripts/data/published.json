@@ -160,7 +160,10 @@
     "reel:vostok-station-coldest-temperature",
     "reel:eye-single-photon",
     "reel:clippy-once-smart",
-    "reel:pixel-origin"
+    "reel:pixel-origin",
+    "reel:strawberry-not-berry",
+    "reel:niepce-first-photograph",
+    "reel:pinch-to-zoom-fingerworks"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -2759,6 +2762,57 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "strawberry-not-berry",
+      "date": "2026-09-13",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "None of them are actually seeds, and the fruit isn't a berry.",
+      "description": "None of them are actually seeds, and the fruit isn't a berry. Botanically, a strawberry fails the definition of a berry on every count that matters.\n\nA strawberry's flower has dozens of separate ones. That single-ovary rule is why bananas, grapes, tomatoes and even cucumbers count as true berries, while strawberries, raspberries and blackberries don't.\n\nIt's the swollen base of the flower. What botanists call the receptacle grows large and fleshy around the true fruits, rather than the flesh coming from any ovary wall, which is how a true berry is built.\n\nare the actual fruits, not seeds. Each dot is a separate dry fruit called an achene, and each one holds a single true seed sealed inside it.\n\nThe avocado, with its single huge seed, meets the botanical definition of a berry. The strawberry, with hundreds of visible seeds, doesn't.\n\nSources:\n- https://www.britannica.com/science/berry-plant-reproductive-body - read in full 7 Sep 2026: Encyclopaedia Britannica, last updated 1 September 2026. Defines a true berry as a fleshy fruit produced from a single ovary, with the entire fruit wall present as edible flesh, and lists bananas, grapes, melons, oranges, tomatoes, cranberries and blueberries as true berries, while explicitly excluding raspberries, blackberries and strawberries from that category as they are not simple fruits from a single ovary; also covers the citrus hesperidium and the melon and cucumber pepo as further berry subtypes.\n- https://sciencenotes.org/is-a-strawberry-a-berry-why-the-answer-is-surprisingly-no/ - read in full 7 Sep 2026: Science Notes (Anne Helmenstine, published 27 June 2026). Explains that a strawberry is an aggregate accessory fruit, meaning it develops from a flower with many separate ovaries rather than one, and that its edible red flesh is swollen flower receptacle tissue rather than tissue from any ovary wall; also explains that the surface dots are not seeds but individual dry fruits called achenes, each containing one true seed inside; and separately confirms the avocado is a true single-seeded berry by the botanical definition.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "Jd5pN5BOdUg",
+      "youtubeUrl": "https://youtu.be/Jd5pN5BOdUg",
+      "uploadedAt": "2026-09-13T13:36:23.558Z",
+      "privacy": "public"
+    },
+    {
+      "id": "niepce-first-photograph",
+      "date": "2026-09-13",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Nicéphore Niépce made it sometime between 1822 and 1827, using a process he called heliography, mean",
+      "description": "Nicéphore Niépce made it sometime between 1822 and 1827, using a process he called heliography, meaning sun-drawing. Historians narrowed the window from his letters to his brother; nobody has pinned it closer than that.\n\nThe popular version says the exposure took eight hours. That number is a mid-twentieth-century guess, based only on how sunlight falls on both sides of the buildings in the image. A researcher who rebuilt Niépce's process using historically accurate materials found it actually needed several days of exposure, not hours.\n\nphotography historians who tracked down Niépce's photograph after it had effectively vanished from view earlier in the twentieth century.\n\nNiépce partnered with Louis Daguerre in 1829. After Niépce died in 1833, Daguerre kept working alone and unveiled his own process a decade later, naming it after himself. The French government paid Daguerre 6,000 francs a year for it. Niépce's own estate received only 4,000.\n\nThe man who actually took photography's first surviving picture died broke. His grave was paid for by his town.\n\nSources:\n- https://en.wikipedia.org/wiki/Nic%C3%A9phore_Ni%C3%A9pce: covers Niepce's heliography process, the surviving photograph made between 1822 and 1827, the mid-twentieth-century assumption about its exposure time versus a later replication study, its rediscovery by Helmut and Alison Gernsheim in 1952, the partnership with Louis Daguerre from 1829, and the 1839 French government pension that paid Daguerre 6,000 francs a year against 4,000 for Niepce's estate.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "RMaybeaHFNc",
+      "youtubeUrl": "https://youtu.be/RMaybeaHFNc",
+      "uploadedAt": "2026-09-13T13:33:58.555Z",
+      "privacy": "public"
+    },
+    {
+      "id": "pinch-to-zoom-fingerworks",
+      "date": "2026-09-13",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It started with a graduate student who hurt his wrists typing his own dissertation.",
+      "description": "It started with a graduate student who hurt his wrists typing his own dissertation. Wayne Westerman was finishing a PhD on multi-touch surfaces at the University of Delaware when repetitive strain problems pushed him toward low-impact ways of typing.\n\nfounded FingerWorks at the University of Delaware to build multi-touch keyboards and pads aimed at people with RSI.\n\nHe wanted computers to feel as expressive as playing the piano. His own words: he had an ergonomic problem and paired it with a motivation, wanting to pull some of a piano's grace into the computer experience.\n\nApple bought FingerWorks in early 2005, taking the patents, the products and both founders. FingerWorks stopped shipping and closed that June. Outside customers only learned a big company had bought them; nobody said which one, or why, for two more years.\n\nThe iPhone did not arrive until 2007. Its touchscreen came from a keyboard built for sore wrists.\n\nSources:\n- https://en.wikipedia.org/wiki/FingerWorks: FingerWorks was founded in 1998 by Wayne Westerman and John Elias at the University of Delaware; Apple acquired the company's assets, patents and both founders in early 2005, and the technology became the basis for the iPhone's touchscreen, launched in 2007.\n- https://www.macrumors.com/2009/02/18/apples-multi-touch-designer-describes-his-inspiration-more-to-come/: relays a University of Delaware news article in which Westerman describes developing repetitive strain problems while finishing his dissertation, and says he wanted computers to feel as expressive as playing the piano.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "riPqfKi_Odk",
+      "youtubeUrl": "https://youtu.be/riPqfKi_Odk",
+      "uploadedAt": "2026-09-13T13:35:07.874Z",
+      "privacy": "public"
     }
   ]
 }
