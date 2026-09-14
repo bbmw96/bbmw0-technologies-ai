@@ -1,0 +1,43 @@
+{
+  "slug": "quran-13-28",
+  "date": "2026-09-14",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "A reminder from the Qur'an: true peace of heart comes through remembering Allah.\n\nSurah Ar-Ra'd (13:28). Swipe through for the Arabic, then English, Mandarin, Korean and Japanese renderings.\n\nSources on the final slide.",
+  "tags": [
+    "Quran",
+    "IslamicReminder",
+    "Ayah",
+    "Deen",
+    "IslamicGuidance",
+    "MuslimReminder",
+    "PeaceOfHeart",
+    "IslamicQuotes",
+    "Alhamdulillah",
+    "QuranicVerses"
+  ],
+  "theme": "indigo-saffron",
+  "slides": [
+    "quran-13-28.slide-01.json",
+    "quran-13-28.slide-02.json",
+    "quran-13-28.slide-03.json",
+    "quran-13-28.slide-04.json",
+    "quran-13-28.slide-05.json",
+    "quran-13-28.slide-06.json",
+    "quran-13-28.slide-07.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an, Surah Ar-Ra'd (13), Ayah 28",
+    "arabic": "Uthmani script (edition quran-uthmani), api.alquran.cloud. Live-fetched and verified this session (2026-09-14) via GET /v1/ayah/13:28/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese, HTTP 200.",
+    "english": "Saheeh International (edition en.sahih), api.alquran.cloud. Same live call as above. The raw API string ends with a stray, unmatched closing quotation mark (a carry-over artifact from ayah 27, which opens a quotation that spans into 28) - dropped for the slide since this ayah is shown on its own with no matching opening quote; the verse wording itself is untouched. Full raw string for the audit trail: 'Those who have believed and whose hearts are assured by the remembrance of Allah. Unquestionably, by the remembrance of Allah hearts are assured.\\\"'",
+    "chinese": "Ma Jian, 马坚 (edition zh.jian), api.alquran.cloud. Same live call as above, rendered verbatim with no corrections needed.",
+    "korean": "Edition ko.korean, api.alquran.cloud. Translator is listed as 'Unknown' in the source's own metadata (englishName field), so the on-slide credit says the same rather than inventing a scholar's name. Same live call as above. The raw API string was missing a space between two clauses ('찾느니라실로' -> '찾느니라 실로'); this is the same kind of source-data formatting artifact already documented for this edition in quran-94-5.meta.json, quran-2-152.meta.json and quran-39-53.meta.json (there it was stray extra spaces splitting single words, here it is one missing space between words). No wording was changed, only spacing.",
+    "japanese": "Edition ja.japanese, api.alquran.cloud. Translator is listed as 'Unknown' in the source's own metadata, cited on-slide as such. Same live call as above. The raw API string ends with a stray, unmatched Japanese closing quotation mark 」 (the same ayah-27/28 quotation-boundary artifact as the English edition above) - dropped for the same reason; no wording was changed.",
+    "verification_note": "All five language renderings came from a single live api.alquran.cloud request made this session (2026-09-14), not from memory or a prior file: GET https://api.alquran.cloud/v1/ayah/13:28/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese, HTTP 200. Checked by hand against every prohibited/sensitive list in scripts/data/compliance-policy.json (intoxicants, pork, gambling, riba, immodesty, profanity, superstition, origins-patterns, animate-imagery) - clean, trips nothing; the slides are typography over a CSS geometric border motif only, no generated imagery of any kind, so the animate-imagery rules do not apply. See channels.json's ig-blankdiscussions._niche_note for why this project treats scripture sourcing as a hard requirement, not a style choice."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-14/quran-13-28-slide-NN.png --props=daily/2026-09-14/blankdiscussions/quran-13-28.slide-NN.json  (run once per slide, NN = 01 through 07)",
+  "status": "pending_render",
+  "_theme_note": "This post introduces a 5th theme, 'indigo-saffron' (deep indigo background, saffron/marigold accent), added to src/compositions/IslamicCarouselSlide.tsx's THEMES/THEME_ORDER. The prior 4 themes (emerald-gold, midnight-silver, terracotta-cream, plum-rose) had each been used exactly once, completing one full rotation with quran-39-53. The component's own code comment says to 'keep this list growing over time' rather than repeat, so a new theme was added instead of cycling back to emerald-gold."
+}

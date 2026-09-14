@@ -27,15 +27,16 @@
 // same stack has the same coverage there.
 import React from "react";
 
-export type ThemeKey = "emerald-gold" | "midnight-silver" | "terracotta-cream" | "plum-rose";
+export type ThemeKey = "emerald-gold" | "midnight-silver" | "terracotta-cream" | "plum-rose" | "indigo-saffron";
 
 export const THEMES: Record<ThemeKey, { bg: string; ink: string; accent: string; muted: string; label: string }> = {
   "emerald-gold": { bg: "#0B2B26", ink: "#F5F1E6", accent: "#C9A227", muted: "#8FB6AC", label: "Emerald & Gold" },
   "midnight-silver": { bg: "#0E1116", ink: "#ECEFF4", accent: "#9AA5B1", muted: "#4B5563", label: "Midnight & Silver" },
   "terracotta-cream": { bg: "#F4ECE1", ink: "#3A2A1D", accent: "#B5502F", muted: "#A98F73", label: "Terracotta & Cream" },
   "plum-rose": { bg: "#241221", ink: "#F6E9EE", accent: "#C97B9B", muted: "#8A6A80", label: "Plum & Rose Gold" },
+  "indigo-saffron": { bg: "#1B1F3B", ink: "#F3EFE4", accent: "#E8A23D", muted: "#5C6491", label: "Indigo & Saffron" },
 };
-export const THEME_ORDER: ThemeKey[] = ["emerald-gold", "midnight-silver", "terracotta-cream", "plum-rose"];
+export const THEME_ORDER: ThemeKey[] = ["emerald-gold", "midnight-silver", "terracotta-cream", "plum-rose", "indigo-saffron"];
 
 const SANS = '"Helvetica Neue", Inter, Arial, system-ui, sans-serif';
 // Font stacks, most-specific/best-shaped first, safe generic last.
