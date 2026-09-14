@@ -179,7 +179,10 @@
     "reel:imitation-game-not-turing-test",
     "reel:qr-code-not-for-phones",
     "reel:ivy-lee-task-list-myth",
-    "reel:shazam-2580-before-app-stores"
+    "reel:shazam-2580-before-app-stores",
+    "reel:death-valley-disputed-heat-record",
+    "reel:human-bioluminescence-glow",
+    "reel:octopus-nine-brains-blue-blood"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -3081,6 +3084,49 @@
       "youtubeId": "P_2o3ckEUGU",
       "youtubeUrl": "https://youtu.be/P_2o3ckEUGU",
       "uploadedAt": "2026-09-14T15:37:44.239Z",
+      "privacy": "public"
+    },
+    {
+      "id": "death-valley-disputed-heat-record",
+      "date": "2026-09-14",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "On 10 July 1913, a station at Greenland Ranch in Death Valley reportedly reached 134 degrees Fahrenh",
+      "description": "On 10 July 1913, a station at Greenland Ranch in Death Valley reportedly reached 134 degrees Fahrenheit, and the World Meteorological Organization formally certified it as the world record in 2012, after a rival 1922 reading from Libya was found to be invalid. It remains the officially certified figure today, recorded during a ten day stretch that also produced several days above 129 degrees.\n\nthe certified world record surface air temperature, still officially standing despite a 2025 study arguing the true figure was lower.\n\nThat 2025 study, led by University of Alabama meteorologist Roy Spencer, compared the 1913 reading against a century of July data from nearby stations at similar elevation. The team estimated the real temperature at Greenland Ranch that day was closer to 120 degrees Fahrenheit, some 14 degrees below the certified figure.\n\nTheir leading explanation is not equipment failure but a person: ranch foreman Oscar Denton, who photographic evidence suggests moved the station's thermometer shelter to a hotter, bare ground site without official approval. The study also raises the possibility that he substituted readings from unofficial veranda thermometers, some of which locals reported as showing 135 degrees or hotter that same week.\n\nNo formal World Meteorological Organization review has been opened, so the 134 degree figure keeps its certification for now. One independent climatologist called the newer study convincing precisely because it draws on many surrounding stations rather than a single comparison point.\n\nSources:\n- https://www.ncei.noaa.gov/news/earths-hottest-temperature: NOAA's National Centers for Environmental Information's own account of the 134 degree Fahrenheit reading recorded at Greenland Ranch, Death Valley, on 10 July 1913, its formal certification by the World Meteorological Organization on 12 September 2012 after a rival 1922 Libya reading was found invalid, and Death Valley's basin shape, 282 feet below sea level and ringed by mountains, as the explanation for its extreme heat.\n- https://www.livescience.com/planet-earth/weather/death-valleys-worlds-hottest-temperature-record-may-be-due-to-a-human-error: Live Science's 3 December 2025 report on a study led by University of Alabama in Huntsville meteorologist Roy Spencer, published in the Bulletin of the American Meteorological Society, which compared the July 1913 reading against 1923 to 2024 data from stations within 155 miles adjusted for elevation and concluded the true temperature was closer to 120 degrees Fahrenheit, attributing the gap to ranch foreman Oscar Denton having apparently moved or substituted the station's thermometer without official approval.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "weather",
+      "channelId": "yt-bbm0902",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "human-bioluminescence-glow",
+      "date": "2026-09-14",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Every human body gives off a faint visible light, produced by ordinary cell activity rather than the",
+      "description": "Every human body gives off a faint visible light, produced by ordinary cell activity rather than the bioluminescence seen in jellyfish or fireflies. In 2009, Japanese researchers proved it by sealing volunteers in a completely dark room and photographing them with a camera sensitive enough to detect single photons.\n\nroughly how many times too faint for the naked eye this light is. It is real, measurable light, just far below what human vision can register.\n\nThe glow is not constant. It follows a daily rhythm, dimmest in the morning and brightest in the late afternoon, and the face gives off more of it than other areas measured. Nobody feels any of this happening. It only shows up on camera.\n\nled the Tohoku Institute of Technology team that produced the first clear images of this light, published in the journal PLOS ONE.\n\nThe likely source is free radicals, reactive by-products of normal metabolism, colliding with fats and proteins in skin cells and releasing a tiny burst of light energy each time.\n\nSources:\n- https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0006256: Kobayashi et al.'s 2009 PLOS ONE paper, imaging ultraweak spontaneous photon emission from the human body and confirming that it follows a diurnal rhythm, rising and falling in intensity across the day and peaking in the late afternoon, with the face producing more light than other areas measured.\n- https://www.nationalgeographic.com/science/article/photographing-the-glow-of-the-human-body: reports that the study used an ultra-sensitive camera capable of detecting single photons to photograph volunteers in complete darkness, that the light the human body gives off is roughly 1,000 times too faint for the naked eye to detect, and that researchers link the glow to free radicals produced by ordinary cell metabolism reacting with fats and proteins.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "biology",
+      "channelId": "yt-bbm0902",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "octopus-nine-brains-blue-blood",
+      "date": "2026-09-14",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Each of an octopus's eight arms contains its own cluster of neurons, letting it taste, touch and mov",
+      "description": "Each of an octopus's eight arms contains its own cluster of neurons, letting it taste, touch and move on its own without waiting for an instruction from the centre. The Natural History Museum's Jon Ablett, who cares for the museum's cephalopod collection, says this lets the arms complete tasks faster and more effectively than a single central controller could manage alone.\n\nroughly how many neurons a common octopus has, about as many as a dog, with two thirds of them distributed through its arms rather than its head.\n\nThe arms are not entirely independent, though. A 2011 experiment sent an octopus's arm through a maze it could not feel its way through, forcing it to rely on eyesight instead. Most of the octopuses tested successfully guided the arm to food using only visual information processed by the central, doughnut shaped brain wrapped around the animal's oesophagus, proving the centre can still take top down control when needed.\n\nThe blue in an octopus's blood is not a figure of speech. It runs on a copper based protein called haemocyanin instead of the iron based haemoglobin that makes human blood red. Haemocyanin carries oxygen more efficiently in cold, low oxygen water, which suits ocean life well. Deoxygenated, the blood loses its colour and turns clear.\n\nThree separate hearts keep that blue blood moving: one circulates it around the body, and two exist purely to push it past the gills to pick up oxygen.\n\nSources:\n- https://www.nhm.ac.uk/discover/octopuses-keep-surprising-us-here-are-eight-examples-how.html: Natural History Museum London article by Lisa Hendry, quoting cephalopod curator Jon Ablett, giving the common octopus around 500 million neurons with roughly two thirds in its arms and the rest in a doughnut shaped brain wrapped around the oesophagus, describing a 2011 maze experiment that proved the central brain can override the arms, and explaining the copper based protein haemocyanin that makes octopus blood blue rather than red, plus the three hearts, one for general circulation and two dedicated to pumping blood past the gills.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "biology",
+      "channelId": "yt-bbm0902",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "QmIPEgDSIRs",
+      "youtubeUrl": "https://youtu.be/QmIPEgDSIRs",
+      "uploadedAt": "2026-09-14T15:55:04.802Z",
       "privacy": "public"
     }
   ]

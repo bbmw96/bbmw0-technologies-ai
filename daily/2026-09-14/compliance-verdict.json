@@ -14,12 +14,15 @@
     "tay-chatbot-shutdown",
     "ivy-lee-task-list-myth",
     "qr-code-not-for-phones",
-    "shazam-2580-before-app-stores"
+    "shazam-2580-before-app-stores",
+    "octopus-nine-brains-blue-blood"
   ],
   "blocked": [
     "anastasia-not-anastasia",
     "symbolics-first-dotcom",
-    "maze-war-1973"
+    "maze-war-1973",
+    "death-valley-disputed-heat-record",
+    "human-bioluminescence-glow"
   ],
   "results": [
     {
@@ -742,6 +745,201 @@
         "worstTitleAgainst": "nintendo-playing-cards",
         "worstDescriptionSimilarity": 0.262,
         "combo": "reel:#080D18:#2C9EE8:#EAF1FB",
+        "themeGap": 147,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "death-valley-disputed-heat-record",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "On 10 July 1913, a station at Greenland Ranch in Death Valley reportedly reached 134 degrees Fahrenh",
+      "niche": "weather",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "style.us_spelling",
+          "message": "US spelling \"centers\" found. Use \"centres\".",
+          "detail": null
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "safety.context_review",
+          "message": "Context-sensitive term(s) present: death. Legitimate in educational science and history, referred to the AI safety reviewer.",
+          "detail": {
+            "terms": [
+              "death"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.099,
+        "worstTitleAgainst": "vostok-station-coldest-temperature",
+        "worstDescriptionSimilarity": 0.29,
+        "combo": "reel:#170905:#E84A2A:#FFF2E0",
+        "themeGap": 147,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "human-bioluminescence-glow",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "Every human body gives off a faint visible light, produced by ordinary cell activity rather than the",
+      "niche": "biology",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "safety.hard_banned",
+          "message": "Prohibited term \"naked\" appears in the video text or metadata.",
+          "detail": {
+            "term": "naked"
+          }
+        },
+        {
+          "severity": "BLOCK",
+          "rule": "halal.immodesty",
+          "message": "Prohibited under immodesty: \"naked\".",
+          "detail": {
+            "term": "naked",
+            "category": "immodesty"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.niche_batch",
+          "message": "4 videos in this batch are \"biology\". Maximum is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.105,
+        "worstTitleAgainst": "lightning-hotter-sun",
+        "worstDescriptionSimilarity": 0.28,
+        "combo": "reel:#0D0A1A:#9B6BE0:#F1EDFA",
+        "themeGap": 147,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "octopus-nine-brains-blue-blood",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Each of an octopus's eight arms contains its own cluster of neurons, letting it taste, touch and mov",
+      "niche": "biology",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "safety.context_review",
+          "message": "Context-sensitive term(s) present: blood. Legitimate in educational science and history, referred to the AI safety reviewer.",
+          "detail": {
+            "terms": [
+              "blood"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.niche_batch",
+          "message": "4 videos in this batch are \"biology\". Maximum is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.067,
+        "worstTitleAgainst": "anastasia-not-anastasia (same batch)",
+        "worstDescriptionSimilarity": 0.285,
+        "combo": "reel:#050F14:#3FA9C9:#E8F6FA",
         "themeGap": 147,
         "audioGap": 0
       },

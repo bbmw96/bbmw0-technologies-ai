@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (human-bioluminescence-glow)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0D0A1A",
+    "ink": "#F1EDFA",
+    "accent": "#9B6BE0",
+    "muted": "#7C7599"
+  },
+  "niche": "biology",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Your body is glowing right now, and you cannot see it.",
+      "text": "Every human body gives off a faint visible light, produced by ordinary cell activity rather than the bioluminescence seen in jellyfish or fireflies.",
+      "note": "In 2009, Japanese researchers proved it by sealing volunteers in a completely dark room and photographing them with a camera sensitive enough to detect single photons.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "1000",
+      "unit": "x",
+      "context": "roughly how many times too faint for the naked eye this light is. It is real, measurable light, just far below what human vision can register.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "statement",
+      "text": "The glow is not constant. It follows a daily rhythm, dimmest in the morning and brightest in the late afternoon, and the face gives off more of it than other areas measured.",
+      "note": "Nobody feels any of this happening. It only shows up on camera.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2009",
+      "name": "Masaki Kobayashi",
+      "role": "led the Tohoku Institute of Technology team that produced the first clear images of this light, published in the journal PLOS ONE.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "kicker",
+      "text": "The likely source is free radicals, reactive by-products of normal metabolism, colliding with fats and proteins in skin cells and releasing a tiny burst of light energy each time.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "sign",
+      "line": "You have been glowing your entire life. Nobody could prove it until 2009.",
+      "handle": "@bbm0902",
+      "durationInFrames": 124
+    }
+  ],
+  "cta": "Subscribe for more."
+}

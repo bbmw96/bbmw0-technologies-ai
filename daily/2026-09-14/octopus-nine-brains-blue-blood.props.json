@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (octopus-nine-brains-blue-blood)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#050F14",
+    "ink": "#E8F6FA",
+    "accent": "#3FA9C9",
+    "muted": "#4A6E78"
+  },
+  "niche": "biology",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "An octopus does not have one brain making all the decisions. It effectively has nine, and eight of them are in its arms.",
+      "text": "Each of an octopus's eight arms contains its own cluster of neurons, letting it taste, touch and move on its own without waiting for an instruction from the centre.",
+      "note": "The Natural History Museum's Jon Ablett, who cares for the museum's cephalopod collection, says this lets the arms complete tasks faster and more effectively than a single central controller could manage alone.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "500",
+      "unit": "million",
+      "context": "roughly how many neurons a common octopus has, about as many as a dog, with two thirds of them distributed through its arms rather than its head.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "statement",
+      "text": "The arms are not entirely independent, though. A 2011 experiment sent an octopus's arm through a maze it could not feel its way through, forcing it to rely on eyesight instead.",
+      "note": "Most of the octopuses tested successfully guided the arm to food using only visual information processed by the central, doughnut shaped brain wrapped around the animal's oesophagus, proving the centre can still take top down control when needed.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "The blue in an octopus's blood is not a figure of speech. It runs on a copper based protein called haemocyanin instead of the iron based haemoglobin that makes human blood red.",
+      "note": "Haemocyanin carries oxygen more efficiently in cold, low oxygen water, which suits ocean life well. Deoxygenated, the blood loses its colour and turns clear.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Three separate hearts keep that blue blood moving: one circulates it around the body, and two exist purely to push it past the gills to pick up oxygen.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "sign",
+      "line": "Nine brains, three hearts, blue blood, and still somehow just an octopus.",
+      "handle": "@bbm0902",
+      "durationInFrames": 118
+    }
+  ],
+  "cta": "Subscribe for more."
+}

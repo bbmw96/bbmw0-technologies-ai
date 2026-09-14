@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (death-valley-disputed-heat-record)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#170905",
+    "ink": "#FFF2E0",
+    "accent": "#E84A2A",
+    "muted": "#8C6048"
+  },
+  "niche": "weather",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The hottest temperature ever officially recorded on Earth has been under quiet suspicion for most of its 112 years on the books.",
+      "text": "On 10 July 1913, a station at Greenland Ranch in Death Valley reportedly reached 134 degrees Fahrenheit, and the World Meteorological Organization formally certified it as the world record in 2012, after a rival 1922 reading from Libya was found to be invalid.",
+      "note": "It remains the officially certified figure today, recorded during a ten day stretch that also produced several days above 129 degrees.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "134",
+      "unit": "°F",
+      "context": "the certified world record surface air temperature, still officially standing despite a 2025 study arguing the true figure was lower.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "statement",
+      "text": "That 2025 study, led by University of Alabama meteorologist Roy Spencer, compared the 1913 reading against a century of July data from nearby stations at similar elevation.",
+      "note": "The team estimated the real temperature at Greenland Ranch that day was closer to 120 degrees Fahrenheit, some 14 degrees below the certified figure.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "Their leading explanation is not equipment failure but a person: ranch foreman Oscar Denton, who photographic evidence suggests moved the station's thermometer shelter to a hotter, bare ground site without official approval.",
+      "note": "The study also raises the possibility that he substituted readings from unofficial veranda thermometers, some of which locals reported as showing 135 degrees or hotter that same week.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "No formal World Meteorological Organization review has been opened, so the 134 degree figure keeps its certification for now. One independent climatologist called the newer study convincing precisely because it draws on many surrounding stations rather than a single comparison point.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "The world's hottest official record, and the argument over whether it actually happened is still open.",
+      "handle": "@bbm0902",
+      "durationInFrames": 142
+    }
+  ],
+  "cta": "Subscribe for more."
+}
