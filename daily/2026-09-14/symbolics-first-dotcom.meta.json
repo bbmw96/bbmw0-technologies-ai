@@ -1,0 +1,25 @@
+{
+  "slug": "symbolics-first-dotcom",
+  "date": "2026-09-14",
+  "title": "It was symbolics.com, registered on 15 March 1985 by Symbolics Inc, a Massachusetts company that bui",
+  "description": "It was symbolics.com, registered on 15 March 1985 by Symbolics Inc, a Massachusetts company that built computers designed specifically to run the Lisp programming language. Symbolics was a spin off from the MIT AI Lab and sold its machines as the best available hardware for artificial intelligence research.\n\nHow many companies had bothered to register a dot com address by the end of 1985, the format's entire first year.\n\nThe other five were bbn.com, think.com, mcc.com, dec.com and northrop.com. Symbolics simply moved first. There had been an earlier address, nordu.net, created a few months before, but that identified a network rather than a company registering its own name.\n\nBy the late 1980s, cheaper general purpose workstations and new Lisp software for ordinary hardware had erased its advantage, and Symbolics slid into bankruptcy. A former employee later wrote that Symbolics kept believing its own thinking about its hardware even as the market proved it wrong.\n\nThe record for oldest dot com on the internet is still held by a company most people have never heard of, and it went bankrupt before the web it predates even existed.\n\nSources:\n- https://en.wikipedia.org/wiki/Symbolics: confirms symbolics.com was registered on 15 March 1985, making it the first registered dot com domain, that the domain was sold to a domain investor in August 2009, and gives the company's history as an MIT AI Lab spin off building Lisp machines, its bankruptcy driven by the rise of cheaper general purpose workstations and the AI Winter, and its eventual reduction to a shell company still holding a US Department of Defense maintenance contract as late as 2016.\n- https://techcrunch.com/2009/08/27/25-years-later-first-registered-domain-name-changes-hands/: a 2009 article confirming the exact figure of six companies that registered a dot com domain in 1985, naming the other five as bbn.com, think.com, mcc.com, dec.com and northrop.com, noting nordu.net was created slightly earlier as a network identifier rather than a company registration, and quoting former Symbolics employee Dan Weinreb's own account of the company's decline.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-14-symbolics-first-dotcom.mp4",
+  "propsFile": "daily/2026-09-14/symbolics-first-dotcom.props.json",
+  "durationInFrames": 1182,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

@@ -165,7 +165,11 @@
     "reel:niepce-first-photograph",
     "reel:pinch-to-zoom-fingerworks",
     "reel:atari-adventure-easter-egg",
-    "reel:elite-galaxy"
+    "reel:elite-galaxy",
+    "reel:paper-folds",
+    "reel:anastasia-not-anastasia",
+    "reel:mozart-effect-myth",
+    "reel:symbolics-first-dotcom"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -2854,6 +2858,49 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "anastasia-not-anastasia",
+      "date": "2026-09-14",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Anna Anderson insisted she was Grand Duchess Anastasia Romanov.",
+      "description": "Anna Anderson insisted she was Grand Duchess Anastasia Romanov. She surfaced in Germany in 1920, after a suicide attempt, and never once dropped the story.\n\nHow long Anderson held to the claim, from 1920 until her death in 1984.\n\nDNA from Anderson's own body did not match a single Romanov. Tested from a tissue sample kept after a 1979 operation, and hair found in her late husband's book.\n\nA relative of Franziska Schanzkowska, the Polish factory worker Anderson really was. His DNA matched Anderson's exactly, closing the case.\n\nThe myth had somewhere real to hide. Two Romanov children's remains were not found until 2007.\n\nSources:\n- https://en.wikipedia.org/wiki/Anna_Anderson: confirms Anna Anderson was born Franziska Schanzkowska on 16 December 1896, surfaced in Germany in 1920 claiming to be Grand Duchess Anastasia after being institutionalised following a suicide attempt, died on 12 February 1984 in Charlottesville, Virginia, and records that DNA testing used a tissue sample kept from a 1979 operation plus hair found in a book belonging to her husband Jack Manahan; the mitochondrial DNA from both matched Karl Maucher, a relative of Franziska Schanzkowska, and did not match the Romanov remains found in 1991 or living Romanov relatives.\n- https://pmc.ncbi.nlm.nih.gov/articles/PMC2652717/: a 2009 peer reviewed paper confirming that the remains of the final two Romanov children, Alexei and Maria, were not discovered until the summer of 2007 near Yekaterinburg, decades after the rest of the family's remains were found in 1991, and that DNA analysis was used to identify them.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "mozart-effect-myth",
+      "date": "2026-09-14",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The study behind that claim never tested a single baby.",
+      "description": "The study behind that claim never tested a single baby. In 1993, researchers played Mozart's Sonata for Two Pianos to 36 college students, not infants.\n\nHow long the spatial reasoning boost lasted, by the original researchers' own measurement.\n\nThe study never measured IQ at all. It tested one narrow skill, folding paper and solving mazes. General intelligence was never on the test.\n\nGovernor of Georgia, who proposed $105,000 a year to give every newborn a classical music CD, then played legislators Beethoven, not Mozart, and asked if they felt smarter already.\n\nPeople also did better after listening to a Stephen King story, if they enjoyed it. Researchers call it enjoyment arousal. Any music or story you like seems to work about as well as Mozart.\n\nSources:\n- https://en.wikipedia.org/wiki/Mozart_effect: establishes that the 1993 Nature study by Rauscher, Shaw and Ky tested 36 college students on spatial reasoning after ten minutes of Mozart's Sonata for Two Pianos K.448, found the boost lasted no longer than the fifteen minute testing window, and that the study never measured general IQ at all; also records Georgia governor Zell Miller's 13 January 1998 budget proposal of $105,000 a year for a classical music tape or CD for every newborn, his quote asking legislators if they felt smarter after he played them Beethoven's Ode to Joy, and Christopher Chabris's 1999 Nature meta analysis finding the effect was small and driven by what he called enjoyment arousal, illustrated by a study where a Stephen King story produced the same spatial boost as Mozart for listeners who enjoyed it.\n- https://pubmed.ncbi.nlm.nih.gov/8684937/: an independent experimental test of the Mozart effect that failed to reproduce the original spatial reasoning boost.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "k6y2uBNkscw",
+      "youtubeUrl": "https://youtu.be/k6y2uBNkscw",
+      "uploadedAt": "2026-09-14T10:47:21.644Z",
+      "privacy": "public"
+    },
+    {
+      "id": "symbolics-first-dotcom",
+      "date": "2026-09-14",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It was symbolics.com, registered on 15 March 1985 by Symbolics Inc, a Massachusetts company that bui",
+      "description": "It was symbolics.com, registered on 15 March 1985 by Symbolics Inc, a Massachusetts company that built computers designed specifically to run the Lisp programming language. Symbolics was a spin off from the MIT AI Lab and sold its machines as the best available hardware for artificial intelligence research.\n\nHow many companies had bothered to register a dot com address by the end of 1985, the format's entire first year.\n\nThe other five were bbn.com, think.com, mcc.com, dec.com and northrop.com. Symbolics simply moved first. There had been an earlier address, nordu.net, created a few months before, but that identified a network rather than a company registering its own name.\n\nBy the late 1980s, cheaper general purpose workstations and new Lisp software for ordinary hardware had erased its advantage, and Symbolics slid into bankruptcy. A former employee later wrote that Symbolics kept believing its own thinking about its hardware even as the market proved it wrong.\n\nThe record for oldest dot com on the internet is still held by a company most people have never heard of, and it went bankrupt before the web it predates even existed.\n\nSources:\n- https://en.wikipedia.org/wiki/Symbolics: confirms symbolics.com was registered on 15 March 1985, making it the first registered dot com domain, that the domain was sold to a domain investor in August 2009, and gives the company's history as an MIT AI Lab spin off building Lisp machines, its bankruptcy driven by the rise of cheaper general purpose workstations and the AI Winter, and its eventual reduction to a shell company still holding a US Department of Defense maintenance contract as late as 2016.\n- https://techcrunch.com/2009/08/27/25-years-later-first-registered-domain-name-changes-hands/: a 2009 article confirming the exact figure of six companies that registered a dot com domain in 1985, naming the other five as bbn.com, think.com, mcc.com, dec.com and northrop.com, noting nordu.net was created slightly earlier as a network identifier rather than a company registration, and quoting former Symbolics employee Dan Weinreb's own account of the company's decline.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
     }
   ]
 }

@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (anastasia-not-anastasia)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0D0B14",
+    "ink": "#F5F0E6",
+    "accent": "#D4AF37",
+    "muted": "#8C8398"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The most famous impostor in royal history",
+      "text": "Anna Anderson insisted she was Grand Duchess Anastasia Romanov.",
+      "note": "She surfaced in Germany in 1920, after a suicide attempt, and never once dropped the story.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "figure",
+      "value": "64",
+      "unit": "years",
+      "context": "How long Anderson held to the claim, from 1920 until her death in 1984.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "statement",
+      "lead": "Science finally settled it in the 1990s",
+      "text": "DNA from Anderson's own body did not match a single Romanov.",
+      "note": "Tested from a tissue sample kept after a 1979 operation, and hair found in her late husband's book.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1994",
+      "name": "Karl Maucher",
+      "role": "A relative of Franziska Schanzkowska, the Polish factory worker Anderson really was. His DNA matched Anderson's exactly, closing the case.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "kicker",
+      "text": "The myth had somewhere real to hide. Two Romanov children's remains were not found until 2007.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "sign",
+      "line": "The evidence took decades to catch up with the myth.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 106
+    }
+  ],
+  "cta": "Subscribe for more."
+}

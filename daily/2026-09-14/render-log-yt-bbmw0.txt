@@ -1,0 +1,23 @@
+Rendering 4 Shorts for 2026-09-14 (concurrency=3, GL=default)
+Compliance: 2 cleared, 2 blocked (policy v1.0.0).
+Blocked by compliance: anastasia-not-anastasia, symbolics-first-dotcom
+
+--- anastasia-not-anastasia ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-14-anastasia-not-anastasia.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-14/compliance-verdict.json.
+
+--- mozart-effect-myth ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-14-mozart-effect-myth.mp4
+  uploaded public: https://youtu.be/k6y2uBNkscw
+
+--- paper-folds ---
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
+
+--- symbolics-first-dotcom ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-14-symbolics-first-dotcom.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-14/compliance-verdict.json.
+
+=== Done. 3 rendered, 1 uploaded, 1 skipped, 2 blocked by compliance, 0 failed. ===

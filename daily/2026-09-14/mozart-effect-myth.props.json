@@ -1,0 +1,55 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (mozart-effect-myth)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0F0B1A",
+    "ink": "#F3EFFA",
+    "accent": "#8B6FD1",
+    "muted": "#7A7290"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "You have heard that playing Mozart makes babies smarter",
+      "text": "The study behind that claim never tested a single baby.",
+      "note": "In 1993, researchers played Mozart's Sonata for Two Pianos to 36 college students, not infants.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "15",
+      "unit": "minutes",
+      "context": "How long the spatial reasoning boost lasted, by the original researchers' own measurement.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "statement",
+      "text": "The study never measured IQ at all.",
+      "note": "It tested one narrow skill, folding paper and solving mazes. General intelligence was never on the test.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "credit",
+      "year": "1998",
+      "name": "Zell Miller",
+      "role": "Governor of Georgia, who proposed $105,000 a year to give every newborn a classical music CD, then played legislators Beethoven, not Mozart, and asked if they felt smarter already.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "A 1999 study found the real cause",
+      "text": "People also did better after listening to a Stephen King story, if they enjoyed it.",
+      "note": "Researchers call it enjoyment arousal. Any music or story you like seems to work about as well as Mozart.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "It was never about the composer.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

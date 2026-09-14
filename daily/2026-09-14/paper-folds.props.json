@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (paper-folds)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0C0E",
+    "ink": "#F4F1E9",
+    "accent": "#3FA7A1",
+    "muted": "#7D8482"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "You have probably heard this rule",
+      "text": "You cannot fold paper more than seven or eight times.",
+      "note": "True for an ordinary sheet. It was never a law of mathematics, only a limit nobody had bothered to break.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2002",
+      "name": "Britney Gallivan",
+      "role": "A California high-school student solving a fold-count challenge for extra credit. She proved it first on a folded strip of gold, then set out to do it with paper.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "On 27 January 2002",
+      "text": "She folded a single sheet twelve times.",
+      "note": "The sheet was a strip of tissue paper about 1,219 metres long, three quarters of a mile, because length is what a fold count actually costs.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "2,798,250",
+      "unit": "times",
+      "context": "How much more paper the twelfth fold consumes than the first, by Gallivan's own equation. Not a guess; exponential growth, counted.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "kicker",
+      "text": "She did not break the rule. She worked out why it existed.",
+      "durationInFrames": 94
+    },
+    {
+      "kind": "sign",
+      "line": "The limit was never eight folds. It was arithmetic.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}

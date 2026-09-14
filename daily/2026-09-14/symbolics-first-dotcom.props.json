@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (symbolics-first-dotcom)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#08070F",
+    "ink": "#F1EEFB",
+    "accent": "#7C6BFF",
+    "muted": "#5A5570"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The internet's first ever dot com address did not belong to a tech giant",
+      "text": "It was symbolics.com, registered on 15 March 1985 by Symbolics Inc, a Massachusetts company that built computers designed specifically to run the Lisp programming language.",
+      "note": "Symbolics was a spin off from the MIT AI Lab and sold its machines as the best available hardware for artificial intelligence research.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "6",
+      "unit": "domains",
+      "context": "How many companies had bothered to register a dot com address by the end of 1985, the format's entire first year.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "text": "The other five were bbn.com, think.com, mcc.com, dec.com and northrop.com. Symbolics simply moved first.",
+      "note": "There had been an earlier address, nordu.net, created a few months before, but that identified a network rather than a company registering its own name.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The company that got there first did not last",
+      "text": "By the late 1980s, cheaper general purpose workstations and new Lisp software for ordinary hardware had erased its advantage, and Symbolics slid into bankruptcy.",
+      "note": "A former employee later wrote that Symbolics kept believing its own thinking about its hardware even as the market proved it wrong.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The record for oldest dot com on the internet is still held by a company most people have never heard of, and it went bankrupt before the web it predates even existed.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "sign",
+      "line": "The internet's first address belonged to an AI company that did not survive the first AI winter.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 148
+    }
+  ],
+  "cta": "Subscribe for more."
+}
