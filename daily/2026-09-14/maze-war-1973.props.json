@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (maze-war-1973)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#05100A",
+    "ink": "#EAFBF0",
+    "accent": "#33FF88",
+    "muted": "#4A6B58"
+  },
+  "niche": "gaming",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The first true 3D shooting game was not built to be a game",
+      "text": "In 1973, three NASA work-study students made it while trying to solve a drier problem: how to draw a solid-looking shape on screen.",
+      "note": "Steve Colley had written code to hide a cube's invisible edges. Howard Palmer suggested turning it into a maze you could walk through, and by the next day Colley had one working.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "It moved to MIT in 1974 and grew up fast",
+      "text": "Greg Thompson and Dave Lebling rebuilt it to run eight players at once over a shared mainframe, with text chat and a level editor.",
+      "note": "Players who could not book a terminal would turn up in the small hours of the morning just to get a slot.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "8",
+      "unit": "players",
+      "context": "How many people the 1974 MIT version could put in the same maze at once, years before real time multiplayer was common on any computer.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "text": "It spread across the young ARPANET to other universities, and reportedly got so popular that DARPA banned it at one point for eating half the traffic between MIT and Stanford.",
+      "note": "That claim comes from co-creator Greg Thompson's own 2004 retrospective talk, not an official DARPA record, so it is included here as a reported detail rather than a settled fact.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Three teenagers trying to draw a better cube ended up inventing the first-person shooter.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "sign",
+      "line": "Before Doom, before Wolfenstein, there was a maze from a NASA work placement.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 124
+    }
+  ],
+  "cta": "Follow for more."
+}

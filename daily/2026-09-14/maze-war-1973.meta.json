@@ -1,0 +1,25 @@
+{
+  "slug": "maze-war-1973",
+  "date": "2026-09-14",
+  "title": "In 1973, three NASA work-study students made it while trying to solve a drier problem: how to draw a",
+  "description": "In 1973, three NASA work-study students made it while trying to solve a drier problem: how to draw a solid-looking shape on screen. Steve Colley had written code to hide a cube's invisible edges. Howard Palmer suggested turning it into a maze you could walk through, and by the next day Colley had one working.\n\nGreg Thompson and Dave Lebling rebuilt it to run eight players at once over a shared mainframe, with text chat and a level editor. Players who could not book a terminal would turn up in the small hours of the morning just to get a slot.\n\nHow many people the 1974 MIT version could put in the same maze at once, years before real time multiplayer was common on any computer.\n\nIt spread across the young ARPANET to other universities, and reportedly got so popular that DARPA banned it at one point for eating half the traffic between MIT and Stanford. That claim comes from co-creator Greg Thompson's own 2004 retrospective talk, not an official DARPA record, so it is included here as a reported detail rather than a settled fact.\n\nThree teenagers trying to draw a better cube ended up inventing the first-person shooter.\n\nSources:\n- https://en.wikipedia.org/wiki/Maze_(1973_video_game): confirms the 1973 origin at NASA Ames Research Center by Steve Colley, Greg Thompson and Howard Palmer while working on hidden line removal for 3D graphics, the 1974 MIT expansion by Thompson and Dave Lebling to an eight player networked version on a PDP-10, its spread across ARPANET, the reported DARPA ban over network traffic between MIT and Stanford (sourced in the article to Thompson's own 2004 retrospective rather than an official record), and its standing as the earliest known 3D first person game and a joint ancestor of the first person shooter genre alongside Spasim.\n- https://www.digibarn.com/history/04-VCF7-MazeWar/stories/colley.html: Steve Colley's own first person account, written for the 2004 Maze War 30 year retrospective, of building the hidden line cube demonstration and turning it into a maze at NASA Ames in 1973.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "gaming",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-14-maze-war-1973.mp4",
+  "propsFile": "daily/2026-09-14/maze-war-1973.props.json",
+  "durationInFrames": 1074,
+  "audioUrl": "",
+  "niche": "gaming",
+  "composition": "Reel"
+}

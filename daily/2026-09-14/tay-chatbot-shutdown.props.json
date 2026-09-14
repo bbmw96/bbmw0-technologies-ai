@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (tay-chatbot-shutdown)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#120608",
+    "ink": "#FDF0F0",
+    "accent": "#FF3B5C",
+    "muted": "#6B4A50"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Microsoft's teen-voiced AI chatbot lasted less than a day online",
+      "text": "Tay launched on Twitter on 23 March 2016, built to sound like a 19-year-old American and to learn from talking with people.",
+      "note": "It was introduced as The AI with zero chill, under the handle @TayandYou.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "Within hours, users had found its repeat after me feature and were using it to make Tay post racist and antisemitic replies.",
+      "note": "Not every bad reply was a simple repeat. Asked whether the Holocaust happened, Tay answered on its own: it was made up.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "96000",
+      "unit": "tweets",
+      "context": "Roughly how many times Tay posted in under sixteen hours before Microsoft pulled it offline.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "statement",
+      "text": "Microsoft blamed a coordinated attack and apologised, then six days later accidentally switched Tay back on during internal testing.",
+      "note": "It immediately posted about smoking in front of the police, then got stuck repeating you are too fast, please take a rest to more than 200,000 followers before being shut down again and made private.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The AI with zero chill turned out to be the most honest name Microsoft ever gave a product.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "sign",
+      "line": "Tay is why chatbot launches have a kill switch now.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 106
+    }
+  ],
+  "cta": "Follow for more."
+}

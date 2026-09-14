@@ -9,11 +9,14 @@
     "bacteria-human-cell-ratio-corrected",
     "bombardier-beetle-explosive-defence",
     "ketchup-tomato-pills-medicine",
-    "methuselah-date-palm-masada"
+    "methuselah-date-palm-masada",
+    "imitation-game-not-turing-test",
+    "tay-chatbot-shutdown"
   ],
   "blocked": [
     "anastasia-not-anastasia",
-    "symbolics-first-dotcom"
+    "symbolics-first-dotcom",
+    "maze-war-1973"
   ],
   "results": [
     {
@@ -411,6 +414,182 @@
         "worstTitleAgainst": "crispr-yoghurt-bacteria-danisco",
         "worstDescriptionSimilarity": 0.259,
         "combo": "reel:#150E08:#B97A3D:#F7EDDD",
+        "themeGap": 147,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "imitation-game-not-turing-test",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Turing never called it that, and it didn't start with a machine at all",
+      "niche": "ai",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "safety.context_review",
+          "message": "Context-sensitive term(s) present: died. Legitimate in educational science and history, referred to the AI safety reviewer.",
+          "detail": {
+            "terms": [
+              "died"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.136,
+        "worstTitleAgainst": "upscaling-frames",
+        "worstDescriptionSimilarity": 0.248,
+        "combo": "reel:#0D0B12:#FF6FB5:#F0EDF5",
+        "themeGap": 147,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "maze-war-1973",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "BLOCK",
+      "title": "In 1973, three NASA work-study students made it while trying to solve a drier problem: how to draw a",
+      "niche": "gaming",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "instagram.caption_too_long",
+          "message": "Caption is 2259 chars, Instagram limit is 2200.",
+          "detail": null
+        },
+        {
+          "severity": "BLOCK",
+          "rule": "style.us_spelling",
+          "message": "US spelling \"center\" found. Use \"centre\".",
+          "detail": null
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "safety.context_review",
+          "message": "Context-sensitive term(s) present: war. Legitimate in educational science and history, referred to the AI safety reviewer.",
+          "detail": {
+            "terms": [
+              "war"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.083,
+        "worstTitleAgainst": "crispr-yoghurt-bacteria-danisco",
+        "worstDescriptionSimilarity": 0.29,
+        "combo": "reel:#05100A:#33FF88:#EAFBF0",
+        "themeGap": 147,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "tay-chatbot-shutdown",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Tay launched on Twitter on 23 March 2016, built to sound like a 19-year-old American and to learn fr",
+      "niche": "ai",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "safety.context_review",
+          "message": "Context-sensitive term(s) present: kill, attack. Legitimate in educational science and history, referred to the AI safety reviewer.",
+          "detail": {
+            "terms": [
+              "kill",
+              "attack"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.087,
+        "worstTitleAgainst": "hashtag-chris-messina",
+        "worstDescriptionSimilarity": 0.265,
+        "combo": "reel:#120608:#FF3B5C:#FDF0F0",
         "themeGap": 147,
         "audioGap": 0
       },

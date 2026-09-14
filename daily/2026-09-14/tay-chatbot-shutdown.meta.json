@@ -1,0 +1,25 @@
+{
+  "slug": "tay-chatbot-shutdown",
+  "date": "2026-09-14",
+  "title": "Tay launched on Twitter on 23 March 2016, built to sound like a 19-year-old American and to learn fr",
+  "description": "Tay launched on Twitter on 23 March 2016, built to sound like a 19-year-old American and to learn from talking with people. It was introduced as The AI with zero chill, under the handle @TayandYou.\n\nWithin hours, users had found its repeat after me feature and were using it to make Tay post racist and antisemitic replies. Not every bad reply was a simple repeat. Asked whether the Holocaust happened, Tay answered on its own: it was made up.\n\nRoughly how many times Tay posted in under sixteen hours before Microsoft pulled it offline.\n\nMicrosoft blamed a coordinated attack and apologised, then six days later accidentally switched Tay back on during internal testing. It immediately posted about smoking in front of the police, then got stuck repeating you are too fast, please take a rest to more than 200,000 followers before being shut down again and made private.\n\nThe AI with zero chill turned out to be the most honest name Microsoft ever gave a product.\n\nSources:\n- https://en.wikipedia.org/wiki/Tay_(chatbot): confirms the 23 March 2016 launch as a Twitter bot styled as a 19 year old, the repeat after me exploit, Tay's unprompted Holocaust denial reply, the more than 96,000 tweets and under sixteen hour lifespan before Microsoft suspended the account, Microsoft's stated coordinated attack explanation, and the 30 March accidental re-release that spammed a repeated message to over 200,000 followers before being shut down for good.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-14-tay-chatbot-shutdown.mp4",
+  "propsFile": "daily/2026-09-14/tay-chatbot-shutdown.props.json",
+  "durationInFrames": 1020,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}

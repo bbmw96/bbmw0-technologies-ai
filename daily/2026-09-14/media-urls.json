@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-14",
+  "repo": "bbmw96/bbmw0-technologies-ai",
+  "tag": "media-2026-09-14",
+  "base": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-14",
+  "urls": {
+    "imitation-game-not-turing-test": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-14/daily-2026-09-14-imitation-game-not-turing-test.mp4",
+    "maze-war-1973": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-14/daily-2026-09-14-maze-war-1973.mp4",
+    "symbolics-first-dotcom": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-14/daily-2026-09-14-symbolics-first-dotcom.mp4",
+    "tay-chatbot-shutdown": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-14/daily-2026-09-14-tay-chatbot-shutdown.mp4"
+  }
+}

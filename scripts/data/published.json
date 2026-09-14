@@ -173,7 +173,10 @@
     "reel:ketchup-tomato-pills-medicine",
     "reel:methuselah-date-palm-masada",
     "reel:bacteria-human-cell-ratio-corrected",
-    "reel:bombardier-beetle-explosive-defence"
+    "reel:bombardier-beetle-explosive-defence",
+    "reel:tay-chatbot-shutdown",
+    "reel:maze-war-1973",
+    "reel:imitation-game-not-turing-test"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -2973,6 +2976,58 @@
       "youtubeUrl": "https://youtu.be/NW39cxczkps",
       "uploadedAt": "2026-09-14T10:53:24.617Z",
       "privacy": "public"
+    },
+    {
+      "id": "tay-chatbot-shutdown",
+      "date": "2026-09-14",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Tay launched on Twitter on 23 March 2016, built to sound like a 19-year-old American and to learn fr",
+      "description": "Tay launched on Twitter on 23 March 2016, built to sound like a 19-year-old American and to learn from talking with people. It was introduced as The AI with zero chill, under the handle @TayandYou.\n\nWithin hours, users had found its repeat after me feature and were using it to make Tay post racist and antisemitic replies. Not every bad reply was a simple repeat. Asked whether the Holocaust happened, Tay answered on its own: it was made up.\n\nRoughly how many times Tay posted in under sixteen hours before Microsoft pulled it offline.\n\nMicrosoft blamed a coordinated attack and apologised, then six days later accidentally switched Tay back on during internal testing. It immediately posted about smoking in front of the police, then got stuck repeating you are too fast, please take a rest to more than 200,000 followers before being shut down again and made private.\n\nThe AI with zero chill turned out to be the most honest name Microsoft ever gave a product.\n\nSources:\n- https://en.wikipedia.org/wiki/Tay_(chatbot): confirms the 23 March 2016 launch as a Twitter bot styled as a 19 year old, the repeat after me exploit, Tay's unprompted Holocaust denial reply, the more than 96,000 tweets and under sixteen hour lifespan before Microsoft suspended the account, Microsoft's stated coordinated attack explanation, and the 30 March accidental re-release that spammed a repeated message to over 200,000 followers before being shut down for good.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "maze-war-1973",
+      "date": "2026-09-14",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "In 1973, three NASA work-study students made it while trying to solve a drier problem: how to draw a",
+      "description": "In 1973, three NASA work-study students made it while trying to solve a drier problem: how to draw a solid-looking shape on screen. Steve Colley had written code to hide a cube's invisible edges. Howard Palmer suggested turning it into a maze you could walk through, and by the next day Colley had one working.\n\nGreg Thompson and Dave Lebling rebuilt it to run eight players at once over a shared mainframe, with text chat and a level editor. Players who could not book a terminal would turn up in the small hours of the morning just to get a slot.\n\nHow many people the 1974 MIT version could put in the same maze at once, years before real time multiplayer was common on any computer.\n\nIt spread across the young ARPANET to other universities, and reportedly got so popular that DARPA banned it at one point for eating half the traffic between MIT and Stanford. That claim comes from co-creator Greg Thompson's own 2004 retrospective talk, not an official DARPA record, so it is included here as a reported detail rather than a settled fact.\n\nThree teenagers trying to draw a better cube ended up inventing the first-person shooter.\n\nSources:\n- https://en.wikipedia.org/wiki/Maze_(1973_video_game): confirms the 1973 origin at NASA Ames Research Center by Steve Colley, Greg Thompson and Howard Palmer while working on hidden line removal for 3D graphics, the 1974 MIT expansion by Thompson and Dave Lebling to an eight player networked version on a PDP-10, its spread across ARPANET, the reported DARPA ban over network traffic between MIT and Stanford (sourced in the article to Thompson's own 2004 retrospective rather than an official record), and its standing as the earliest known 3D first person game and a joint ancestor of the first person shooter genre alongside Spasim.\n- https://www.digibarn.com/history/04-VCF7-MazeWar/stories/colley.html: Steve Colley's own first person account, written for the 2004 Maze War 30 year retrospective, of building the hidden line cube demonstration and turning it into a maze at NASA Ames in 1973.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "imitation-game-not-turing-test",
+      "date": "2026-09-14",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Turing never called it that, and it didn't start with a machine at all",
+      "description": "Turing never called it that, and it didn't start with a machine at all His 1950 paper names it 'the imitation game': a man and a woman try to convince an interrogator, using written notes alone, which of them is which.\n\nConvince the interrogator that he was the woman Turing's own sample question to the players was about hair length. Only after laying out that contest does he ask what happens if a machine takes the man's place, and whether it fools people just as often.\n\nPublished 'Computing Machinery and Intelligence' in the journal Mind, opening not with a definition of thinking but with a parlour game about gender and deception.\n\nHe died in 1954. The name arrived afterwards, and without him.\n\nSources:\n- https://courses.cs.umbc.edu/471/papers/turing.pdf\n- https://www.popsci.com/blog-network/zero-moment/lie-lady-profoundly-weird-gender-specific-roots-turing-test/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "symbolics-first-dotcom",
+      "date": "2026-09-14",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It was symbolics.com, registered on 15 March 1985 by Symbolics Inc, a Massachusetts company that bui",
+      "description": "It was symbolics.com, registered on 15 March 1985 by Symbolics Inc, a Massachusetts company that built computers designed specifically to run the Lisp programming language. Symbolics was a spin off from the MIT AI Lab and sold its machines as the best available hardware for artificial intelligence research.\n\nHow many companies had bothered to register a dot com address by the end of 1985, the format's entire first year.\n\nThe other five were bbn.com, think.com, mcc.com, dec.com and northrop.com. Symbolics simply moved first. There had been an earlier address, nordu.net, created a few months before, but that identified a network rather than a company registering its own name.\n\nBy the late 1980s, cheaper general purpose workstations and new Lisp software for ordinary hardware had erased its advantage, and Symbolics slid into bankruptcy. A former employee later wrote that Symbolics kept believing its own thinking about its hardware even as the market proved it wrong.\n\nThe record for oldest dot com on the internet is still held by a company most people have never heard of, and it went bankrupt before the web it predates even existed.\n\nSources:\n- https://en.wikipedia.org/wiki/Symbolics: confirms symbolics.com was registered on 15 March 1985, making it the first registered dot com domain, that the domain was sold to a domain investor in August 2009, and gives the company's history as an MIT AI Lab spin off building Lisp machines, its bankruptcy driven by the rise of cheaper general purpose workstations and the AI Winter, and its eventual reduction to a shell company still holding a US Department of Defense maintenance contract as late as 2016.\n- https://techcrunch.com/2009/08/27/25-years-later-first-registered-domain-name-changes-hands/: a 2009 article confirming the exact figure of six companies that registered a dot com domain in 1985, naming the other five as bbn.com, think.com, mcc.com, dec.com and northrop.com, noting nordu.net was created slightly earlier as a network identifier rather than a company registration, and quoting former Symbolics employee Dan Weinreb's own account of the company's decline.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }

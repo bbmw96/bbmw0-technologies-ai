@@ -1,0 +1,47 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (imitation-game-not-turing-test)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0D0B12",
+    "ink": "#F0EDF5",
+    "accent": "#FF6FB5",
+    "muted": "#8A8394"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The Turing Test sounds like a machine trying to pass for a person",
+      "text": "Turing never called it that, and it didn't start with a machine at all",
+      "note": "His 1950 paper names it 'the imitation game': a man and a woman try to convince an interrogator, using written notes alone, which of them is which.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The man's task in that first version was oddly specific",
+      "text": "Convince the interrogator that he was the woman",
+      "note": "Turing's own sample question to the players was about hair length. Only after laying out that contest does he ask what happens if a machine takes the man's place, and whether it fools people just as often.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1950",
+      "name": "Alan Turing",
+      "role": "Published 'Computing Machinery and Intelligence' in the journal Mind, opening not with a definition of thinking but with a parlour game about gender and deception.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "kicker",
+      "text": "He died in 1954. The name arrived afterwards, and without him.",
+      "durationInFrames": 88
+    },
+    {
+      "kind": "sign",
+      "line": "The game on paper and the test everyone quotes are not quite the same game.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 136
+    }
+  ],
+  "cta": "Follow for more."
+}
