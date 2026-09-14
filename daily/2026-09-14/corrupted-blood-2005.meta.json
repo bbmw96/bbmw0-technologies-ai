@@ -1,0 +1,25 @@
+{
+  "slug": "corrupted-blood-2005",
+  "date": "2026-09-14",
+  "title": "It was actually one missing line of code.",
+  "description": "It was actually one missing line of code. A raid boss called Hakkar cast a debuff meant to stay inside a single zone. Developers forgot to clear it from players' pets when a fight ended, so infected pets carried it straight into crowded cities.\n\n'It was really scary when we didn't know why it was happening.' Lead engineer John Cash, describing the week it took just to diagnose the bug. The eventual fix reset every server back to before the outbreak began.\n\nHow fast the debuff alone could kill the game's highest level characters. There was no cure inside the game, only distance.\n\nEpidemiologists who published the outbreak in The Lancet Infectious Diseases, arguing that a buggy video game had modelled real human panic, self quarantine and reckless spreading better than any deliberate simulation could.\n\nThe CDC called. Blizzard told them it was just a bug.\n\nSources:\n- https://en.wikipedia.org/wiki/Corrupted_Blood_incident: read in full. Established the dates (13 September to 8 October 2005), the mechanism (a debuff called Corrupted Blood, meant to stay inside the Zul'Gurub raid, spread by animal companions that kept the debuff after being deactivated and reactivated in cities), the damage figures (263 to 337 points every two seconds, enough to kill a top level character in 30 seconds or less), the eventual hard reset and later patch, that the Centers for Disease Control and Prevention contacted Blizzard afterwards believing it was a deliberate simulation and was told it was an unintentional bug with no usable data, and the 2007 Lancet Infectious Diseases paper by Eric Lofgren and Nina Fefferman proposing the incident as a model for real world epidemics.\n- https://www.pcgamer.com/how-blizzard-coped-with-world-of-warcrafts-blood-plague-and-other-early-disasters/: Steven Messner, PC Gamer, read in full. Established direct quotes from Blizzard's World of Warcraft team, lead engineer John Cash and lead software engineer Collin Murray, describing how the bug actually worked (no check for whether a resummoned pet was still inside the raid) and how uncertain that first week was for the developers themselves.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "gaming",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-14-corrupted-blood-2005.mp4",
+  "propsFile": "daily/2026-09-14/corrupted-blood-2005.props.json",
+  "durationInFrames": 1004,
+  "audioUrl": "",
+  "niche": "gaming",
+  "composition": "Reel"
+}

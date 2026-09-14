@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (corrupted-blood-2005)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0D0808",
+    "ink": "#F2EAE8",
+    "accent": "#C41E3A",
+    "muted": "#8A7472"
+  },
+  "niche": "gaming",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "It is often remembered as one of Blizzard's cleverest ideas",
+      "text": "It was actually one missing line of code.",
+      "note": "A raid boss called Hakkar cast a debuff meant to stay inside a single zone. Developers forgot to clear it from players' pets when a fight ended, so infected pets carried it straight into crowded cities.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Blizzard's own engineers did not understand it either, at first",
+      "text": "'It was really scary when we didn't know why it was happening.'",
+      "note": "Lead engineer John Cash, describing the week it took just to diagnose the bug. The eventual fix reset every server back to before the outbreak began.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "30",
+      "unit": "seconds",
+      "context": "How fast the debuff alone could kill the game's highest level characters. There was no cure inside the game, only distance.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "credit",
+      "year": "2007",
+      "name": "Lofgren and Fefferman",
+      "role": "Epidemiologists who published the outbreak in The Lancet Infectious Diseases, arguing that a buggy video game had modelled real human panic, self quarantine and reckless spreading better than any deliberate simulation could.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The CDC called. Blizzard told them it was just a bug.",
+      "durationInFrames": 88
+    },
+    {
+      "kind": "sign",
+      "line": "Real players. Fake blood. Real epidemiology.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Follow for more."
+}
