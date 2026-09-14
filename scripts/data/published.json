@@ -176,7 +176,10 @@
     "reel:bombardier-beetle-explosive-defence",
     "reel:tay-chatbot-shutdown",
     "reel:maze-war-1973",
-    "reel:imitation-game-not-turing-test"
+    "reel:imitation-game-not-turing-test",
+    "reel:qr-code-not-for-phones",
+    "reel:ivy-lee-task-list-myth",
+    "reel:shazam-2580-before-app-stores"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -3028,6 +3031,57 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "qr-code-not-for-phones",
+      "date": "2026-09-14",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "was built to scan car parts faster.",
+      "description": "was built to scan car parts faster. In 1994, a Japanese auto-parts supplier needed a code a worker could scan once instead of several times over.\n\nLed a two-person team at Denso Wave, a Toyota-group parts supplier, spending two years designing a code that could hold vastly more data than the barcodes then used on factory floors.\n\nHow much a single QR code could store, versus roughly 20 characters for the barcodes it replaced on the production line.\n\nHara's team copied the ratio from magazines and newspapers. They needed a shape unlikely to appear by accident in ordinary printed text, so they measured the ratio of black to white across everyday pages and built the finder pattern from what they found.\n\nIt chose not to, from day one. The company patented the format but never enforced the patent, which is a large part of why QR codes spread into shipping, food safety and eventually restaurant menus, long before phones could read them.\n\nPhones didn't make the QR code useful. A car parts factory did, eight years earlier.\n\nSources:\n- https://www.qrcode.com/en/history/ - read in full 7 Sep 2026: Denso Wave's own history page. States that engineer Masahiro Hara led a two-person development team from 1992 to 1994; that the barcodes used at the time could hold only about 20 characters and needed multiple scans to cover one item, while the team's new two-dimensional code could hold around 7,000 numerals; that the distinctive corner finder pattern, a 1 to 1 to 3 to 1 to 1 ratio of black and white, was chosen after Hara's team studied the ratio of black to white areas across printed matter such as newspapers and magazines, to find a pattern least likely to occur by accident; and that Denso Wave held the patent but chose not to exercise it, making the QR Code format free to use from its release in 1994.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "Y2EB8DpfzLE",
+      "youtubeUrl": "https://youtu.be/Y2EB8DpfzLE",
+      "uploadedAt": "2026-09-14T15:35:39.625Z",
+      "privacy": "public"
+    },
+    {
+      "id": "ivy-lee-task-list-myth",
+      "date": "2026-09-14",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The tale goes that in 1918, consultant Ivy Lee told steel boss Charles M. Schwab to write down his s",
+      "description": "The tale goes that in 1918, consultant Ivy Lee told steel boss Charles M. Schwab to write down his six most important tasks each night and do them in order the next day. Three months later, Schwab is said to have sent Lee a cheque for 25,000 dollars, calling it the most profitable advice he had ever received.\n\nHe was a genuine pioneer of modern public relations, known for advising the Rockefeller family and for what is often called the first ever press release, in 1906. The specific Schwab anecdote, though, is where the paper trail runs out.\n\nThe gap between the claimed 1918 event and the earliest version of this exact story anyone has been able to find in print or recording.\n\nThat earliest known telling is a 1960 recorded talk by radio broadcaster Earl Nightingale, not a contemporary 1918 record from Schwab or Lee. No document from Bethlehem Steel, Lee's own papers, or 1920s press coverage naming this specific 25,000 dollar exchange has been found.\n\nThe most repeated fact about this story, a precise dollar figure from over a century ago, is the one part nobody has ever managed to source.\n\nSources:\n- https://en.wikipedia.org/wiki/Ivy_Lee: confirms Lee's career as a real public relations pioneer, including his 1906 press release after the Atlantic City train wreck and his work for the Rockefeller family, states the Schwab anecdote and its 25,000 dollar figure, and cites it to three secondary sources rather than a contemporary one: Alec Mackenzie's The Time Trap, Michael LeBoeuf's Working Smart, and a 1960 recorded talk by Earl Nightingale, which the article's own notes describe as the earliest documented appearance of the story.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "03rta7KFItM",
+      "youtubeUrl": "https://youtu.be/03rta7KFItM",
+      "uploadedAt": "2026-09-14T15:31:35.276Z",
+      "privacy": "public"
+    },
+    {
+      "id": "shazam-2580-before-app-stores",
+      "date": "2026-09-14",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "In August 2002, UK mobile users could dial the number 2580, hold their phone up to a song playing ne",
+      "description": "In August 2002, UK mobile users could dial the number 2580, hold their phone up to a song playing nearby, and hang up. About fifteen seconds later, a text message arrived naming the track and artist.\n\nThe number 2580 was not arbitrary. It is the only four-digit sequence that runs in a straight line down a standard phone keypad, easy to dial without looking. There was no icon to tap and no screen to check. The whole interface was a phone call.\n\nroughly the share of UK mobile users who could use the service at launch, on every network except one.\n\nIt was not free. Each successful identification cost 50 pence, charged straight to the caller's phone bill. There was no app to open, because there was no app store yet for one to live in.\n\nThe company survived on this alone for six lean years, until Apple's App Store launched in July 2008 and gave Shazam an actual app to put the same idea inside. Growth took off almost immediately after.\n\nSources:\n- https://en.wikipedia.org/wiki/Shazam_(music_app): confirms Shazam Entertainment was founded in 1999 by Chris Barton, Philip Inghelbrecht, Dhiraj Mukherjee and Avery Wang, and that its original UK-only service, launched in August 2002, let users dial 2580, hold their phone up to a song playing nearby, hang up, and receive a text message naming the track, years before smartphones or app stores existed.\n- https://cdm.link/shazam-is-20-years-old-history-trivia-and-tips/: confirms the service launched in the UK in August 2002, that dialling 2580 and holding the phone to the music returned a text message naming the song about fifteen seconds later, that 2580 was chosen because it is the only four-digit sequence in a straight line on a phone keypad, that the service was available to about 95 percent of UK mobile users at launch, and that each successful identification cost 50 pence on the user's phone bill.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "P_2o3ckEUGU",
+      "youtubeUrl": "https://youtu.be/P_2o3ckEUGU",
+      "uploadedAt": "2026-09-14T15:37:44.239Z",
+      "privacy": "public"
     }
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "slug": "qr-code-not-for-phones",
+  "date": "2026-09-14",
+  "title": "was built to scan car parts faster.",
+  "description": "was built to scan car parts faster. In 1994, a Japanese auto-parts supplier needed a code a worker could scan once instead of several times over.\n\nLed a two-person team at Denso Wave, a Toyota-group parts supplier, spending two years designing a code that could hold vastly more data than the barcodes then used on factory floors.\n\nHow much a single QR code could store, versus roughly 20 characters for the barcodes it replaced on the production line.\n\nHara's team copied the ratio from magazines and newspapers. They needed a shape unlikely to appear by accident in ordinary printed text, so they measured the ratio of black to white across everyday pages and built the finder pattern from what they found.\n\nIt chose not to, from day one. The company patented the format but never enforced the patent, which is a large part of why QR codes spread into shipping, food safety and eventually restaurant menus, long before phones could read them.\n\nPhones didn't make the QR code useful. A car parts factory did, eight years earlier.\n\nSources:\n- https://www.qrcode.com/en/history/ - read in full 7 Sep 2026: Denso Wave's own history page. States that engineer Masahiro Hara led a two-person development team from 1992 to 1994; that the barcodes used at the time could hold only about 20 characters and needed multiple scans to cover one item, while the team's new two-dimensional code could hold around 7,000 numerals; that the distinctive corner finder pattern, a 1 to 1 to 3 to 1 to 1 ratio of black and white, was chosen after Hara's team studied the ratio of black to white areas across printed matter such as newspapers and magazines, to find a pattern least likely to occur by accident; and that Denso Wave held the patent but chose not to exercise it, making the QR Code format free to use from its release in 1994.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-14-qr-code-not-for-phones.mp4",
+  "propsFile": "daily/2026-09-14/qr-code-not-for-phones.props.json",
+  "durationInFrames": 1282,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

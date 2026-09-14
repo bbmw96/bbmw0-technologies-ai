@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (ivy-lee-task-list-myth)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#090B0F",
+    "ink": "#F3F0E6",
+    "accent": "#4F7CAE",
+    "muted": "#5C6270"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "A famous productivity story has a surprisingly short paper trail",
+      "text": "The tale goes that in 1918, consultant Ivy Lee told steel boss Charles M. Schwab to write down his six most important tasks each night and do them in order the next day.",
+      "note": "Three months later, Schwab is said to have sent Lee a cheque for 25,000 dollars, calling it the most profitable advice he had ever received.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Ivy Lee himself was real, and well documented",
+      "text": "He was a genuine pioneer of modern public relations, known for advising the Rockefeller family and for what is often called the first ever press release, in 1906.",
+      "note": "The specific Schwab anecdote, though, is where the paper trail runs out.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "42",
+      "unit": "years",
+      "context": "The gap between the claimed 1918 event and the earliest version of this exact story anyone has been able to find in print or recording.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "text": "That earliest known telling is a 1960 recorded talk by radio broadcaster Earl Nightingale, not a contemporary 1918 record from Schwab or Lee.",
+      "note": "No document from Bethlehem Steel, Lee's own papers, or 1920s press coverage naming this specific 25,000 dollar exchange has been found.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The most repeated fact about this story, a precise dollar figure from over a century ago, is the one part nobody has ever managed to source.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "sign",
+      "line": "Great advice, dubious receipt.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

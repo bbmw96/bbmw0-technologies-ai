@@ -11,7 +11,10 @@
     "ketchup-tomato-pills-medicine",
     "methuselah-date-palm-masada",
     "imitation-game-not-turing-test",
-    "tay-chatbot-shutdown"
+    "tay-chatbot-shutdown",
+    "ivy-lee-task-list-myth",
+    "qr-code-not-for-phones",
+    "shazam-2580-before-app-stores"
   ],
   "blocked": [
     "anastasia-not-anastasia",
@@ -590,6 +593,155 @@
         "worstTitleAgainst": "hashtag-chris-messina",
         "worstDescriptionSimilarity": 0.265,
         "combo": "reel:#120608:#FF3B5C:#FDF0F0",
+        "themeGap": 147,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "ivy-lee-task-list-myth",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "The tale goes that in 1918, consultant Ivy Lee told steel boss Charles M. Schwab to write down his s",
+      "niche": "productivity",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.077,
+        "worstTitleAgainst": "mars-volcano",
+        "worstDescriptionSimilarity": 0.284,
+        "combo": "reel:#090B0F:#4F7CAE:#F3F0E6",
+        "themeGap": 147,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "qr-code-not-for-phones",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "was built to scan car parts faster.",
+      "niche": "tech",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.257,
+        "worstTitleAgainst": "creeper-first-computer-virus",
+        "worstDescriptionSimilarity": 0.281,
+        "combo": "reel:#0E1116:#4ADE80:#F2F4F3",
+        "themeGap": 147,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "shazam-2580-before-app-stores",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "In August 2002, UK mobile users could dial the number 2580, hold their phone up to a song playing ne",
+      "niche": "app",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "halal.context_review",
+          "message": "Term(s) needing context: music, song. Referred to the AI reviewer.",
+          "detail": {
+            "terms": [
+              "music",
+              "song"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.069,
+        "worstTitleAgainst": "nintendo-playing-cards",
+        "worstDescriptionSimilarity": 0.262,
+        "combo": "reel:#080D18:#2C9EE8:#EAF1FB",
         "themeGap": 147,
         "audioGap": 0
       },

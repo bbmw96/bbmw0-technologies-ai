@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (qr-code-not-for-phones)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0E1116",
+    "ink": "#F2F4F3",
+    "accent": "#4ADE80",
+    "muted": "#7C8794"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The QR code on every menu and parcel today",
+      "text": "was built to scan car parts faster.",
+      "note": "In 1994, a Japanese auto-parts supplier needed a code a worker could scan once instead of several times over.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1994",
+      "name": "Masahiro Hara",
+      "role": "Led a two-person team at Denso Wave, a Toyota-group parts supplier, spending two years designing a code that could hold vastly more data than the barcodes then used on factory floors.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "7,000",
+      "unit": "numerals",
+      "context": "How much a single QR code could store, versus roughly 20 characters for the barcodes it replaced on the production line.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "The corner squares aren't decoration.",
+      "text": "Hara's team copied the ratio from magazines and newspapers.",
+      "note": "They needed a shape unlikely to appear by accident in ordinary printed text, so they measured the ratio of black to white across everyday pages and built the finder pattern from what they found.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Denso Wave could have charged for every scan.",
+      "text": "It chose not to, from day one.",
+      "note": "The company patented the format but never enforced the patent, which is a large part of why QR codes spread into shipping, food safety and eventually restaurant menus, long before phones could read them.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Phones didn't make the QR code useful. A car parts factory did, eight years earlier.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "sign",
+      "line": "The code in your camera app was solving a very different problem in 1994.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 130
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (shazam-2580-before-app-stores)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#080D18",
+    "ink": "#EAF1FB",
+    "accent": "#2C9EE8",
+    "muted": "#5E7C97"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Shazam worked years before smartphones existed.",
+      "text": "In August 2002, UK mobile users could dial the number 2580, hold their phone up to a song playing nearby, and hang up.",
+      "note": "About fifteen seconds later, a text message arrived naming the track and artist.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "The number 2580 was not arbitrary. It is the only four-digit sequence that runs in a straight line down a standard phone keypad, easy to dial without looking.",
+      "note": "There was no icon to tap and no screen to check. The whole interface was a phone call.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "95",
+      "unit": "%",
+      "context": "roughly the share of UK mobile users who could use the service at launch, on every network except one.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "text": "It was not free. Each successful identification cost 50 pence, charged straight to the caller's phone bill.",
+      "note": "There was no app to open, because there was no app store yet for one to live in.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The company survived on this alone for six lean years, until Apple's App Store launched in July 2008 and gave Shazam an actual app to put the same idea inside. Growth took off almost immediately after.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "Shazam identified songs by phone call for six years before it ever had an app.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 136
+    }
+  ],
+  "cta": "Subscribe for more."
+}

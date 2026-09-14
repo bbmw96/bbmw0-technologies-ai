@@ -1,23 +1,127 @@
-Rendering 4 Shorts for 2026-09-14 (concurrency=3, GL=default)
-Compliance: 2 cleared, 2 blocked (policy v1.0.0).
-Blocked by compliance: anastasia-not-anastasia, symbolics-first-dotcom
+Rendering 14 Shorts for 2026-09-14 (concurrency=3, GL=default)
+Compliance: 11 cleared, 3 blocked (policy v1.0.0).
+Blocked by compliance: anastasia-not-anastasia, maze-war-1973, symbolics-first-dotcom
 
 --- anastasia-not-anastasia ---
   composition=Reel audio= privacy=public
   rendered: out/daily-2026-09-14-anastasia-not-anastasia.mp4
   BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-14/compliance-verdict.json.
 
---- mozart-effect-myth ---
+--- bacteria-human-cell-ratio-corrected ---
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
+
+--- bombardier-beetle-explosive-defence ---
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
+
+--- imitation-game-not-turing-test ---
   composition=Reel audio= privacy=public
-  rendered: out/daily-2026-09-14-mozart-effect-myth.mp4
-  uploaded public: https://youtu.be/k6y2uBNkscw
+  rendered: out/daily-2026-09-14-imitation-game-not-turing-test.mp4
+  ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
+  instagram via: Composio
+  FAILED upload: Command failed: node scripts/instagram-upload-composio.mjs --video-url="https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-14/daily-2026-09-14-imitation-game-not-turing-test.mp4" --caption="Turing never called it that, and it didn't start with a machine at all" --tags="shorts,ai,facts,didyouknow,history"
+Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"AnhcsSKBU1DdNITgg7LTmxS"}}
+
+  --- child stdout ---
+  |   id=ca_9c4hykP4M5OP  toolkit=github  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=EXPIRED
+  |   id=ca_vjf62kxg26zV  toolkit=anthropic_administrator  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=ACTIVE
+  |   (this script was passed ACCOUNT="instagram_sledge-got" — it must match an id above, not a nickname)
+  |   /tools?toolkit_slug=instagram&limit=200 -> HTTP 200, 16 instagram tool(s) [trusted]
+  | instagram tools visible to this key: 16 found
+  |   INSTAGRAM_CREATE_CAROUSEL_CONTAINER
+  |   INSTAGRAM_CREATE_MEDIA_CONTAINER
+  |   INSTAGRAM_CREATE_POST
+  |   INSTAGRAM_GET_CONVERSATION
+  |   INSTAGRAM_GET_POST_COMMENTS
+  |   INSTAGRAM_GET_POST_INSIGHTS
+  |   INSTAGRAM_GET_POST_STATUS
+  |   INSTAGRAM_GET_USER_INFO
+  |   INSTAGRAM_GET_USER_INSIGHTS
+  |   INSTAGRAM_GET_USER_MEDIA
+  |   INSTAGRAM_LIST_ALL_CONVERSATIONS
+  |   INSTAGRAM_LIST_ALL_MESSAGES
+  |   INSTAGRAM_MARK_SEEN
+  |   INSTAGRAM_REPLY_TO_COMMENT
+  |   INSTAGRAM_SEND_IMAGE
+  |   INSTAGRAM_SEND_TEXT_MESSAGE
+  |   INSTAGRAM_POST_IG_USER_MEDIA present in this key's tool list: NO
+  |   So the 404 is correct: the key can see Instagram tools, but not that one.
+  |   Pick a slug from the list above that publishes media, and use it instead.
+  | --- end diagnostics ---
+  --- child stderr ---
+  | Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"AnhcsSKBU1DdNITgg7LTmxS"}}
+
+--- ivy-lee-task-list-myth ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-14-ivy-lee-task-list-myth.mp4
+  uploaded public: https://youtu.be/03rta7KFItM
+
+--- ketchup-tomato-pills-medicine ---
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
+
+--- maze-war-1973 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-14-maze-war-1973.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-14/compliance-verdict.json.
+
+--- methuselah-date-palm-masada ---
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
+
+--- mozart-effect-myth ---
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
 
 --- paper-folds ---
   SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
+
+--- qr-code-not-for-phones ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-14-qr-code-not-for-phones.mp4
+  uploaded public: https://youtu.be/Y2EB8DpfzLE
+
+--- shazam-2580-before-app-stores ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-14-shazam-2580-before-app-stores.mp4
+  uploaded public: https://youtu.be/P_2o3ckEUGU
 
 --- symbolics-first-dotcom ---
   composition=Reel audio= privacy=public
   rendered: out/daily-2026-09-14-symbolics-first-dotcom.mp4
   BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-14/compliance-verdict.json.
 
-=== Done. 3 rendered, 1 uploaded, 1 skipped, 2 blocked by compliance, 0 failed. ===
+--- tay-chatbot-shutdown ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-14-tay-chatbot-shutdown.mp4
+  ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
+  instagram via: Composio
+  FAILED upload: Command failed: node scripts/instagram-upload-composio.mjs --video-url="https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-14/daily-2026-09-14-tay-chatbot-shutdown.mp4" --caption="Tay launched on Twitter on 23 March 2016, built to sound like a 19-year-old American and to learn fr" --tags="shorts,ai,facts,didyouknow,history"
+Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"AvxM3KbokHtnqHGHfsMvgMG"}}
+
+  --- child stdout ---
+  |   id=ca_9c4hykP4M5OP  toolkit=github  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=EXPIRED
+  |   id=ca_vjf62kxg26zV  toolkit=anthropic_administrator  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=ACTIVE
+  |   (this script was passed ACCOUNT="instagram_sledge-got" — it must match an id above, not a nickname)
+  |   /tools?toolkit_slug=instagram&limit=200 -> HTTP 200, 16 instagram tool(s) [trusted]
+  | instagram tools visible to this key: 16 found
+  |   INSTAGRAM_CREATE_CAROUSEL_CONTAINER
+  |   INSTAGRAM_CREATE_MEDIA_CONTAINER
+  |   INSTAGRAM_CREATE_POST
+  |   INSTAGRAM_GET_CONVERSATION
+  |   INSTAGRAM_GET_POST_COMMENTS
+  |   INSTAGRAM_GET_POST_INSIGHTS
+  |   INSTAGRAM_GET_POST_STATUS
+  |   INSTAGRAM_GET_USER_INFO
+  |   INSTAGRAM_GET_USER_INSIGHTS
+  |   INSTAGRAM_GET_USER_MEDIA
+  |   INSTAGRAM_LIST_ALL_CONVERSATIONS
+  |   INSTAGRAM_LIST_ALL_MESSAGES
+  |   INSTAGRAM_MARK_SEEN
+  |   INSTAGRAM_REPLY_TO_COMMENT
+  |   INSTAGRAM_SEND_IMAGE
+  |   INSTAGRAM_SEND_TEXT_MESSAGE
+  |   INSTAGRAM_POST_IG_USER_MEDIA present in this key's tool list: NO
+  |   So the 404 is correct: the key can see Instagram tools, but not that one.
+  |   Pick a slug from the list above that publishes media, and use it instead.
+  | --- end diagnostics ---
+  --- child stderr ---
+  | Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"AvxM3KbokHtnqHGHfsMvgMG"}}
+
+=== Done. 8 rendered, 3 uploaded, 6 skipped, 3 blocked by compliance, 2 failed. ===
