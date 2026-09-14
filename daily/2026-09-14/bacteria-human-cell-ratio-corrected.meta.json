@@ -1,0 +1,25 @@
+{
+  "slug": "bacteria-human-cell-ratio-corrected",
+  "date": "2026-09-14",
+  "title": "A rigorous 2016 recalculation put the ratio at close to 1:1, overturning a figure that had been repe",
+  "description": "A rigorous 2016 recalculation put the ratio at close to 1:1, overturning a figure that had been repeated in textbooks for decades. The old 10:1 figure traces back to a rough 1972 estimate that was never meant as a precise count.\n\nroughly how many bacterial cells researchers now estimate live in and on a reference adult body, against about 30 trillion human cells of its own.\n\nrecalculated both cell populations from scratch for a modelled 70kg adult and published the revised, far closer ratio in the journal PLOS Biology.\n\nMost of that human cell count is not skin, muscle or brain. Roughly 90 percent of it is blood, specifically red blood cells made by the bone marrow. The haematopoietic, or blood-forming, lineage dominates the human side of the count almost entirely.\n\nThe exact ratio still shifts from person to person depending on body size and gut microbiome, so 1:1 is a far better rule of thumb than 10:1, not a fixed law.\n\nSources:\n- https://journals.plos.org/plosbiology/article?id=10.1371%2Fjournal.pbio.1002533: Sender, Fuchs and Milo's 2016 paper in PLOS Biology, recalculating the number of bacterial and human cells in a reference 70kg adult body, arriving at approximately 3.8x10^13 (38 trillion) bacterial cells against approximately 3.0x10^13 (30 trillion) human cells, a ratio close to 1:1 rather than the widely repeated 10:1, and identifying that roughly 90 percent of human cells are blood cells from the haematopoietic lineage.\n- https://www.acsh.org/news/2016/08/26/commonly-cited-stat-of-10-bacteria-for-every-1-human-cell-is-wrong: explains that the previously standard 10:1 estimate traces back to a rough calculation published by Thomas Luckey in 1972, never intended as a precise count, which was repeated for decades in textbooks and popular science without being re-checked.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "biology",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "yt-bbm0902",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbm0902",
+  "file": "out/daily-2026-09-14-bacteria-human-cell-ratio-corrected.mp4",
+  "propsFile": "daily/2026-09-14/bacteria-human-cell-ratio-corrected.props.json",
+  "durationInFrames": 1146,
+  "audioUrl": "",
+  "niche": "biology",
+  "composition": "Reel"
+}

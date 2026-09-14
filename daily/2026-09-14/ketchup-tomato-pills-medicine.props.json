@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (ketchup-tomato-pills-medicine)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#170505",
+    "ink": "#FBEAE2",
+    "accent": "#C0392B",
+    "muted": "#8C5C52"
+  },
+  "niche": "food",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Ketchup spent part of its history as a prescription rather than a condiment.",
+      "text": "Physician John Cook Bennett spent years publicly promoting tomatoes, raw, cooked or in catsup, as a cure for diarrhoea, indigestion and bilious attacks.",
+      "note": "His claims helped kick off a genuine commercial rivalry between competing tomato pill sellers.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1835",
+      "name": "A.J. Holcombe",
+      "role": "introduced the first tomato pills, in Glassboro, Alabama, kicking off a wave of competitors including Cleveland's Archibald Miles and Yale educated doctor Guy R. Phelps, each selling their own extract as the genuine cure.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "The pills were sold in pharmacies and grocery stores under the jingle tomato pills will cure all your ills.",
+      "note": "Food historian Andrew F. Smith documented the whole episode in a 1991 journal article that borrowed that exact line as its title.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "The medicine did not hold up. At an 1869 American Medical Association debate, investigators found that the popular tomato pills contained no actual tomato at all.",
+      "note": "By around 1865 the medical claims had already started to fade, though tomatoes themselves had by then earned a permanent place in American kitchens regardless.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Ketchup itself barely resembled today's version yet. It began as a tomato free fermented fish sauce in China around 300 BCE, and tomatoes were only added to English and American recipes from the early 1800s onward, around the same years doctors were prescribing the fruit as medicine.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "Long before it sat next to the fries, ketchup sat on a pharmacy shelf.",
+      "handle": "@bbm0902",
+      "durationInFrames": 130
+    }
+  ],
+  "cta": "Subscribe for more."
+}

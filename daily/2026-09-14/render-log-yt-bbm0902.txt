@@ -1,0 +1,24 @@
+Rendering 4 Shorts for 2026-09-14 (concurrency=3, GL=default)
+Compliance: 4 cleared, 0 blocked (policy v1.0.0).
+
+--- bacteria-human-cell-ratio-corrected ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-14-bacteria-human-cell-ratio-corrected.mp4
+  uploaded public: https://youtu.be/4ez9MXVIJyg
+
+--- bombardier-beetle-explosive-defence ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-14-bombardier-beetle-explosive-defence.mp4
+  uploaded public: https://youtu.be/NW39cxczkps
+
+--- ketchup-tomato-pills-medicine ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-14-ketchup-tomato-pills-medicine.mp4
+  uploaded public: https://youtu.be/WPyIKVl7dQQ
+
+--- methuselah-date-palm-masada ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-14-methuselah-date-palm-masada.mp4
+  uploaded public: https://youtu.be/EGcnAAXgOgk
+
+=== Done. 4 rendered, 4 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

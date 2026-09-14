@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (bacteria-human-cell-ratio-corrected)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#081412",
+    "ink": "#EAF7F2",
+    "accent": "#3FCFA8",
+    "muted": "#6E9C8E"
+  },
+  "niche": "biology",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "You have almost exactly as many bacterial cells as human ones, not ten times as many.",
+      "text": "A rigorous 2016 recalculation put the ratio at close to 1:1, overturning a figure that had been repeated in textbooks for decades.",
+      "note": "The old 10:1 figure traces back to a rough 1972 estimate that was never meant as a precise count.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "38",
+      "unit": "trillion",
+      "context": "roughly how many bacterial cells researchers now estimate live in and on a reference adult body, against about 30 trillion human cells of its own.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "credit",
+      "year": "2016",
+      "name": "Ron Sender, Shai Fuchs and Ron Milo",
+      "role": "recalculated both cell populations from scratch for a modelled 70kg adult and published the revised, far closer ratio in the journal PLOS Biology.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "text": "Most of that human cell count is not skin, muscle or brain. Roughly 90 percent of it is blood, specifically red blood cells made by the bone marrow.",
+      "note": "The haematopoietic, or blood-forming, lineage dominates the human side of the count almost entirely.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The exact ratio still shifts from person to person depending on body size and gut microbiome, so 1:1 is a far better rule of thumb than 10:1, not a fixed law.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "sign",
+      "line": "You are roughly as much bacteria as you are you.",
+      "handle": "@bbm0902",
+      "durationInFrames": 106
+    }
+  ],
+  "cta": "Subscribe for more."
+}

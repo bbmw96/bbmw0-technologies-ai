@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (bombardier-beetle-explosive-defence)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#140A05",
+    "ink": "#FFF1E6",
+    "accent": "#E89A3A",
+    "muted": "#8C6642"
+  },
+  "niche": "biology",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Some beetles smell bad to survive. Bombardier beetles decided that was not dramatic enough.",
+      "text": "When threatened, a bombardier beetle mixes two chemicals stored in separate sacs inside its abdomen and fires the reaction straight at whatever is attacking it, with an audible pop.",
+      "note": "Natural History Museum beetle curator Max Barclay explains that a handful of related beetles use milder chemical defences, but bombardier beetles took the idea to an extreme.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "The chemicals are hydrogen peroxide and a hydroquinone, and mixing them is a genuinely violent reaction: the spray comes out scalding hot and under real pressure, fired in rapid pulses rather than one continuous stream.",
+      "note": "A tough chamber at the rear of the abdomen contains the reaction, so even an accidental discharge just fires harmlessly out the back rather than injuring the beetle itself.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "100",
+      "unit": "°C",
+      "context": "roughly how hot the beetle's defensive spray gets, hot enough that one species, the African bombardier beetle, can aim it in almost any direction, including back over its own body.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "Charles Darwin found out about this the hard way, almost two centuries before the chemistry was explained.",
+      "text": "In an 1846 letter, Darwin described grabbing two ground beetles by hand and, rather than let a third species escape, popping one of the beetles into his mouth. It responded by firing its chemical defence down his throat.",
+      "note": "The beetle in that story was a close relative of true bombardier beetles rather than one itself, but a demonstration of the same basic strategy.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The defence still works after a beetle has already been eaten. In one study, Japanese toads that swallowed bombardier beetles vomited 43% of them back up alive, mostly within 12 to 107 minutes, and more than 93% of those survivors were still alive at least two weeks later.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "Getting eaten is not necessarily the end of the story, if you can still detonate from the inside.",
+      "handle": "@bbm0902",
+      "durationInFrames": 154
+    }
+  ],
+  "cta": "Subscribe for more."
+}
