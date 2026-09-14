@@ -5737,6 +5737,1484 @@
           "handle": "@bbm0902"
         }
       ]
+    },
+    {
+      "id": "anastasia-not-anastasia",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Anna_Anderson: confirms Anna Anderson was born Franziska Schanzkowska on 16 December 1896, surfaced in Germany in 1920 claiming to be Grand Duchess Anastasia after being institutionalised following a suicide attempt, died on 12 February 1984 in Charlottesville, Virginia, and records that DNA testing used a tissue sample kept from a 1979 operation plus hair found in a book belonging to her husband Jack Manahan; the mitochondrial DNA from both matched Karl Maucher, a relative of Franziska Schanzkowska, and did not match the Romanov remains found in 1991 or living Romanov relatives.",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2652717/: a 2009 peer reviewed paper confirming that the remains of the final two Romanov children, Alexei and Maria, were not discovered until the summer of 2007 near Yekaterinburg, decades after the rest of the family's remains were found in 1991, and that DNA analysis was used to identify them."
+      ],
+      "verifiedNote": "Checked 11 Sep 2026. Kept to what both sources directly support: what the DNA testing actually proved about Anderson, a match to the Schanzkowska family rather than the Romanovs, and the genuine, decades long gap in the physical evidence created by the two missing children not being found until 2007. The credit beat names Karl Maucher rather than Schanzkowska herself, since it was his living DNA that was tested and matched, not hers. Left out the exact date of Anderson's suicide attempt and any detail of which specific 1991 remains were debated among the daughters, since neither was something I could pin to a source I had actually read.",
+      "palette": {
+        "bg": "#0D0B14",
+        "ink": "#F5F0E6",
+        "accent": "#D4AF37",
+        "muted": "#8C8398"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The most famous impostor in royal history",
+          "text": "Anna Anderson insisted she was Grand Duchess Anastasia Romanov.",
+          "note": "She surfaced in Germany in 1920, after a suicide attempt, and never once dropped the story."
+        },
+        {
+          "kind": "figure",
+          "value": "64",
+          "unit": "years",
+          "context": "How long Anderson held to the claim, from 1920 until her death in 1984."
+        },
+        {
+          "kind": "statement",
+          "lead": "Science finally settled it in the 1990s",
+          "text": "DNA from Anderson's own body did not match a single Romanov.",
+          "note": "Tested from a tissue sample kept after a 1979 operation, and hair found in her late husband's book."
+        },
+        {
+          "kind": "credit",
+          "year": "1994",
+          "name": "Karl Maucher",
+          "role": "A relative of Franziska Schanzkowska, the Polish factory worker Anderson really was. His DNA matched Anderson's exactly, closing the case."
+        },
+        {
+          "kind": "kicker",
+          "text": "The myth had somewhere real to hide. Two Romanov children's remains were not found until 2007."
+        },
+        {
+          "kind": "sign",
+          "line": "The evidence took decades to catch up with the myth.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "mozart-effect-myth",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mozart_effect: establishes that the 1993 Nature study by Rauscher, Shaw and Ky tested 36 college students on spatial reasoning after ten minutes of Mozart's Sonata for Two Pianos K.448, found the boost lasted no longer than the fifteen minute testing window, and that the study never measured general IQ at all; also records Georgia governor Zell Miller's 13 January 1998 budget proposal of $105,000 a year for a classical music tape or CD for every newborn, his quote asking legislators if they felt smarter after he played them Beethoven's Ode to Joy, and Christopher Chabris's 1999 Nature meta analysis finding the effect was small and driven by what he called enjoyment arousal, illustrated by a study where a Stephen King story produced the same spatial boost as Mozart for listeners who enjoyed it.",
+        "https://pubmed.ncbi.nlm.nih.gov/8684937/: an independent experimental test of the Mozart effect that failed to reproduce the original spatial reasoning boost."
+      ],
+      "verifiedNote": "Checked 11 Sep 2026. The original 1993 study is real, published in Nature, and its result on 36 college students was genuine and strictly time limited; the paper never measured IQ. What is false is everything added afterwards: the leap to babies, to permanent intelligence, and to Zell Miller's newborn CD proposal. Left the $105,000 budget figure out of a figure beat, since a budget line is an amount rather than a fact that earns 300 pixels; the fifteen minute limit is the number that actually carries the story, since it is the original researchers' own stated boundary on their result.",
+      "palette": {
+        "bg": "#0F0B1A",
+        "ink": "#F3EFFA",
+        "accent": "#8B6FD1",
+        "muted": "#7A7290"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "You have heard that playing Mozart makes babies smarter",
+          "text": "The study behind that claim never tested a single baby.",
+          "note": "In 1993, researchers played Mozart's Sonata for Two Pianos to 36 college students, not infants."
+        },
+        {
+          "kind": "figure",
+          "value": "15",
+          "unit": "minutes",
+          "context": "How long the spatial reasoning boost lasted, by the original researchers' own measurement."
+        },
+        {
+          "kind": "statement",
+          "text": "The study never measured IQ at all.",
+          "note": "It tested one narrow skill, folding paper and solving mazes. General intelligence was never on the test."
+        },
+        {
+          "kind": "credit",
+          "year": "1998",
+          "name": "Zell Miller",
+          "role": "Governor of Georgia, who proposed $105,000 a year to give every newborn a classical music CD, then played legislators Beethoven, not Mozart, and asked if they felt smarter already."
+        },
+        {
+          "kind": "statement",
+          "lead": "A 1999 study found the real cause",
+          "text": "People also did better after listening to a Stephen King story, if they enjoyed it.",
+          "note": "Researchers call it enjoyment arousal. Any music or story you like seems to work about as well as Mozart."
+        },
+        {
+          "kind": "sign",
+          "line": "It was never about the composer.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "zeigarnik-not-universal",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zeigarnik_effect: establishes that Bluma Zeigarnik, a Lithuanian Soviet psychologist working with Kurt Lewin, published the original finding in 1927 in the journal Psychologische Forschung after Lewin noticed a waiter who remembered every unpaid order in detail but forgot them completely once the bill was settled; also records a 1968 replication attempt by Van Bergen that found no significant difference in recall between finished and unfinished tasks, and summarises a 2025 systematic review and meta analysis that found no memory advantage for unfinished tasks.",
+        "https://www.nature.com/articles/s41599-025-05000-w: Ghibellini and Meier's 2025 meta analysis itself, whose abstract states they found no memory advantage for unfinished tasks but did find a general tendency to resume interrupted tasks, and concludes that this related effect, named after Zeigarnik's colleague Maria Ovsiankina, represents a genuine general tendency while the Zeigarnik effect itself lacks universal validity."
+      ],
+      "verifiedNote": "Checked 11 Sep 2026. The waiter story and the 1927 study are both real and well documented. What is not settled is the claim built on top of them, that unfinished tasks are remembered better, which a 2025 meta analysis found no evidence for. I read the 2025 paper's own abstract directly rather than a summary of it. Left out an exact task count or recall ratio from the original 1927 experiment, since the figures circulating for it online were not something I could confirm against a source I had actually read; the meta analysis conclusion carries the video without needing that number.",
+      "palette": {
+        "bg": "#0A1418",
+        "ink": "#EAF6F6",
+        "accent": "#2DD4BF",
+        "muted": "#5C7A7A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The reason your to do list nags you, according to every productivity blog",
+          "text": "Unfinished tasks are supposed to stick in memory better than finished ones.",
+          "note": "It is named the Zeigarnik effect, after a 1927 study, and shows up in almost every article about why checklists work."
+        },
+        {
+          "kind": "credit",
+          "year": "1927",
+          "name": "Bluma Zeigarnik",
+          "role": "Psychologist working with Kurt Lewin. She turned an odd detail, a waiter who forgot every order the moment the bill was paid, into a real experiment."
+        },
+        {
+          "kind": "statement",
+          "text": "Later attempts to repeat the result kept failing.",
+          "note": "A 1968 study found no real difference in memory between finished and unfinished tasks."
+        },
+        {
+          "kind": "statement",
+          "lead": "In 2025, a full review made it official",
+          "text": "Researchers found no memory advantage for unfinished tasks at all.",
+          "note": "Their own conclusion: the Zeigarnik effect lacks universal validity."
+        },
+        {
+          "kind": "kicker",
+          "text": "A related effect, the urge to go back and finish something, held up fine. That one just never got the famous name."
+        },
+        {
+          "kind": "sign",
+          "line": "The habit survived. The reason you were given for it did not.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "sonic-was-a-rabbit",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://www.vice.com/en/article/sonic-the-hedgehog-was-almost-sonic-the-rabbit/: an excerpt from Sega's own Sonic the Hedgehog 25th Anniversary Art Book, establishing that Sega's 1990 internal mascot contest drew around 200 character designs from staff across Sega Japan and Sega of America, that artist Naoto Ohshima's winning design was originally a rabbit with a bow tie and long ears that picked up and threw objects, that programmer Yuji Naka is quoted saying game speed could not be maintained with that action, that the team then narrowed the choice to an armadillo or a hedgehog and picked the hedgehog because its quills read better as an attack than the armadillo's leathery shell, and that the final design reused an old discarded doodle of Ohshima's called Mr Needlemouse.",
+        "https://www.techradar.com/news/sonic-boom-sega-designer-tells-the-origin-story-of-a-gaming-legend: a 2021 interview with designer Hirokazu Yasuhara confirming the internal contest was launched to replace Sega's previous mascot Alex Kidd, that Ohshima submitted a range of designs including an armadillo, a porcupine, a dog, a rabbit and a moustached man who became Doctor Robotnik, and giving the game's release date of 23 June 1991."
+      ],
+      "verifiedNote": "Checked 11 Sep 2026. The Vice and TechRadar accounts describe the selection process a little differently. Vice, quoting the art book and Naka directly, covers the internal rabbit to armadillo to hedgehog narrowing over gameplay concerns. TechRadar, quoting Yasuhara, adds that Ohshima later polled tourists in New York's Central Park on the finalists. I could not fully reconcile how these two stages fit together from what I read, so the beats stick to the internal design process both sources agree on, and leave the Central Park poll out rather than guess where it belongs.",
+      "palette": {
+        "bg": "#05080F",
+        "ink": "#EFF6FF",
+        "accent": "#2E6BFF",
+        "muted": "#5C6B8A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Sega's answer to Mario did not start as a hedgehog",
+          "text": "Sonic was originally a rabbit.",
+          "note": "Sega's 1990 internal contest to find a new mascot drew around 200 submitted designs."
+        },
+        {
+          "kind": "figure",
+          "value": "200",
+          "unit": "designs",
+          "context": "Roughly how many characters Sega's own staff submitted before anyone had heard of Sonic."
+        },
+        {
+          "kind": "statement",
+          "lead": "The rabbit did not survive contact with the actual game",
+          "text": "It picked up objects with its ears and threw them at enemies, and that slowed everything down.",
+          "note": "Programmer Yuji Naka said plainly that game speed could not be maintained with that action."
+        },
+        {
+          "kind": "statement",
+          "text": "So the choice narrowed to two animals that roll into a ball: an armadillo, or a hedgehog.",
+          "note": "The hedgehog won because its quills looked like an attack. The armadillo's shell just looked like armour."
+        },
+        {
+          "kind": "kicker",
+          "text": "The winning design was not even new. It was an old doodle Ohshima had already thrown away."
+        },
+        {
+          "kind": "sign",
+          "line": "The mascot that beat Mario started out as a rabbit nobody kept.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "deepdream-dumbbell-arm",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://research.google/blog/inceptionism-going-deeper-into-neural-networks/: the original Google Research blog post by Alexander Mordvintsev, Christopher Olah and Mike Tyka, published June 2015, explaining the technique was built to visualise what a trained neural network had actually learned, showing that when the network was asked to generate its own idea of a dumbbell every version came with a muscular arm attached because no training photo had ever shown a dumbbell without one, and describing the dream technique itself as feeding the network a real image and asking it to amplify whatever it half recognised, in the authors' own words, whatever you see there, I want more of it.",
+        "https://en.wikipedia.org/wiki/DeepDream: confirms the network used was codenamed Inception, after the film, built for the 2014 ImageNet visual recognition challenge, that Google's code was released publicly in July 2015, and that the popular name DeepDream came from that July code release rather than the original blog post, which had called the technique Inceptionism."
+      ],
+      "verifiedNote": "Checked 11 Sep 2026. I read the original 2015 blog post directly rather than a summary of it, and the dumbbell example is quoted from that post. I have used June 2015 for the original publication without picking a single day, since Google's own page and Wikipedia's citation of it disagree by one day and I could not resolve which is correct. No figure beat: the one candidate number, the network's ten to thirty layers mentioned in the original post, is a range rather than a single fact, and did not earn a place at 300 pixels on its own.",
+      "palette": {
+        "bg": "#0B0710",
+        "ink": "#F5EFFA",
+        "accent": "#E14FD4",
+        "muted": "#7A6B85"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Google did not build DeepDream to make trippy art",
+          "text": "It was built to catch the network's mistakes.",
+          "note": "In 2015, engineers needed a way to check whether a trained neural network had learned the right thing, not just the popular thing."
+        },
+        {
+          "kind": "statement",
+          "lead": "It found a mistake immediately",
+          "text": "Asked to picture a dumbbell, the network kept adding a muscular arm to lift it.",
+          "note": "Every training photo of a dumbbell happened to include the arm doing the lifting, so the network had never seen one alone."
+        },
+        {
+          "kind": "statement",
+          "text": "So the engineers flipped the idea. Instead of asking what a photo showed, they asked the network to exaggerate whatever it half recognised.",
+          "note": "Their own description: whatever you see there, I want more of it. Show it clouds, and a network trained on animals starts filling the sky with birds."
+        },
+        {
+          "kind": "credit",
+          "year": "2015",
+          "name": "Mordvintsev, Olah and Tyka",
+          "role": "The Google engineers who published the technique, naming it Inceptionism after the neural network it ran on, itself named after the film Inception."
+        },
+        {
+          "kind": "kicker",
+          "text": "The code went public a month later. The name that stuck was DeepDream."
+        },
+        {
+          "kind": "sign",
+          "line": "It started as a bug report and ended as an art movement.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "maze-war-1973",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Maze_(1973_video_game): confirms the 1973 origin at NASA Ames Research Center by Steve Colley, Greg Thompson and Howard Palmer while working on hidden line removal for 3D graphics, the 1974 MIT expansion by Thompson and Dave Lebling to an eight player networked version on a PDP-10, its spread across ARPANET, the reported DARPA ban over network traffic between MIT and Stanford (sourced in the article to Thompson's own 2004 retrospective rather than an official record), and its standing as the earliest known 3D first person game and a joint ancestor of the first person shooter genre alongside Spasim.",
+        "https://www.digibarn.com/history/04-VCF7-MazeWar/stories/colley.html: Steve Colley's own first person account, written for the 2004 Maze War 30 year retrospective, of building the hidden line cube demonstration and turning it into a maze at NASA Ames in 1973."
+      ],
+      "verifiedNote": "Checked 12 Sep 2026. The game's own name is inconsistent even among its creators: Thompson and Colley call it Maze in their own writing, Palmer calls it Maze War, and the original PDS-1 source code titles itself Maze. I have used Maze War only in the id and kept the prose neutral. I did not state the DARPA ban as plain fact, since Wikipedia itself flags it as an unverified report from Thompson's own retrospective rather than a documented DARPA decision, so the beat says reportedly and names the source. No credit beat: there is no single inventor to credit, since Colley, Palmer and Thompson worked the idea out together over roughly a day, and naming just one would misrepresent that.",
+      "palette": {
+        "bg": "#05100A",
+        "ink": "#EAFBF0",
+        "accent": "#33FF88",
+        "muted": "#4A6B58"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The first true 3D shooting game was not built to be a game",
+          "text": "In 1973, three NASA work-study students made it while trying to solve a drier problem: how to draw a solid-looking shape on screen.",
+          "note": "Steve Colley had written code to hide a cube's invisible edges. Howard Palmer suggested turning it into a maze you could walk through, and by the next day Colley had one working."
+        },
+        {
+          "kind": "statement",
+          "lead": "It moved to MIT in 1974 and grew up fast",
+          "text": "Greg Thompson and Dave Lebling rebuilt it to run eight players at once over a shared mainframe, with text chat and a level editor.",
+          "note": "Players who could not book a terminal would turn up in the small hours of the morning just to get a slot."
+        },
+        {
+          "kind": "figure",
+          "value": "8",
+          "unit": "players",
+          "context": "How many people the 1974 MIT version could put in the same maze at once, years before real time multiplayer was common on any computer."
+        },
+        {
+          "kind": "statement",
+          "text": "It spread across the young ARPANET to other universities, and reportedly got so popular that DARPA banned it at one point for eating half the traffic between MIT and Stanford.",
+          "note": "That claim comes from co-creator Greg Thompson's own 2004 retrospective talk, not an official DARPA record, so it is included here as a reported detail rather than a settled fact."
+        },
+        {
+          "kind": "kicker",
+          "text": "Three teenagers trying to draw a better cube ended up inventing the first-person shooter."
+        },
+        {
+          "kind": "sign",
+          "line": "Before Doom, before Wolfenstein, there was a maze from a NASA work placement.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "tay-chatbot-shutdown",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tay_(chatbot): confirms the 23 March 2016 launch as a Twitter bot styled as a 19 year old, the repeat after me exploit, Tay's unprompted Holocaust denial reply, the more than 96,000 tweets and under sixteen hour lifespan before Microsoft suspended the account, Microsoft's stated coordinated attack explanation, and the 30 March accidental re-release that spammed a repeated message to over 200,000 followers before being shut down for good."
+      ],
+      "verifiedNote": "Checked 12 Sep 2026. I wanted Microsoft's own apology blog post as a primary source but the archived copy on web.archive.org is blocked to me, so I have relied on Wikipedia's account instead, which quotes and cites that post alongside contemporaneous BBC, Washington Post, Time and Telegraph coverage. I have deliberately left out the Washington Post and Gizmodo theory that Microsoft staff may have hand edited some of Tay's replies that day, since it is speculative and contested rather than confirmed. The figure beat uses the tweet count rather than the sixteen hour figure, because the count is the number that actually conveys the scale of what went wrong, while the sixteen hours reads more like a timestamp.",
+      "palette": {
+        "bg": "#120608",
+        "ink": "#FDF0F0",
+        "accent": "#FF3B5C",
+        "muted": "#6B4A50"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Microsoft's teen-voiced AI chatbot lasted less than a day online",
+          "text": "Tay launched on Twitter on 23 March 2016, built to sound like a 19-year-old American and to learn from talking with people.",
+          "note": "It was introduced as The AI with zero chill, under the handle @TayandYou."
+        },
+        {
+          "kind": "statement",
+          "text": "Within hours, users had found its repeat after me feature and were using it to make Tay post racist and antisemitic replies.",
+          "note": "Not every bad reply was a simple repeat. Asked whether the Holocaust happened, Tay answered on its own: it was made up."
+        },
+        {
+          "kind": "figure",
+          "value": "96000",
+          "unit": "tweets",
+          "context": "Roughly how many times Tay posted in under sixteen hours before Microsoft pulled it offline."
+        },
+        {
+          "kind": "statement",
+          "text": "Microsoft blamed a coordinated attack and apologised, then six days later accidentally switched Tay back on during internal testing.",
+          "note": "It immediately posted about smoking in front of the police, then got stuck repeating you are too fast, please take a rest to more than 200,000 followers before being shut down again and made private."
+        },
+        {
+          "kind": "kicker",
+          "text": "The AI with zero chill turned out to be the most honest name Microsoft ever gave a product."
+        },
+        {
+          "kind": "sign",
+          "line": "Tay is why chatbot launches have a kill switch now.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "symbolics-first-dotcom",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Symbolics: confirms symbolics.com was registered on 15 March 1985, making it the first registered dot com domain, that the domain was sold to a domain investor in August 2009, and gives the company's history as an MIT AI Lab spin off building Lisp machines, its bankruptcy driven by the rise of cheaper general purpose workstations and the AI Winter, and its eventual reduction to a shell company still holding a US Department of Defense maintenance contract as late as 2016.",
+        "https://techcrunch.com/2009/08/27/25-years-later-first-registered-domain-name-changes-hands/: a 2009 article confirming the exact figure of six companies that registered a dot com domain in 1985, naming the other five as bbn.com, think.com, mcc.com, dec.com and northrop.com, noting nordu.net was created slightly earlier as a network identifier rather than a company registration, and quoting former Symbolics employee Dan Weinreb's own account of the company's decline."
+      ],
+      "verifiedNote": "Checked 12 Sep 2026. TechCrunch calls Symbolics now defunct as of 2009, while Wikipedia records a US Department of Defense maintenance contract running to September 2016 and describes the company continuing in a much reduced form, so I have written this as sliding into bankruptcy and becoming a shell rather than claiming one exact closure date, since the two sources do not agree. I have kept the AI Winter framing because Wikipedia states it explicitly as a cause of the company's collapse. This topic is tagged tech and is eligible for both yt-bbmw0 and ig-aigameodyssey under their shared niches; the handle below reflects an editorial choice, not an exclusivity rule.",
+      "palette": {
+        "bg": "#08070F",
+        "ink": "#F1EEFB",
+        "accent": "#7C6BFF",
+        "muted": "#5A5570"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The internet's first ever dot com address did not belong to a tech giant",
+          "text": "It was symbolics.com, registered on 15 March 1985 by Symbolics Inc, a Massachusetts company that built computers designed specifically to run the Lisp programming language.",
+          "note": "Symbolics was a spin off from the MIT AI Lab and sold its machines as the best available hardware for artificial intelligence research."
+        },
+        {
+          "kind": "figure",
+          "value": "6",
+          "unit": "domains",
+          "context": "How many companies had bothered to register a dot com address by the end of 1985, the format's entire first year."
+        },
+        {
+          "kind": "statement",
+          "text": "The other five were bbn.com, think.com, mcc.com, dec.com and northrop.com. Symbolics simply moved first.",
+          "note": "There had been an earlier address, nordu.net, created a few months before, but that identified a network rather than a company registering its own name."
+        },
+        {
+          "kind": "statement",
+          "lead": "The company that got there first did not last",
+          "text": "By the late 1980s, cheaper general purpose workstations and new Lisp software for ordinary hardware had erased its advantage, and Symbolics slid into bankruptcy.",
+          "note": "A former employee later wrote that Symbolics kept believing its own thinking about its hardware even as the market proved it wrong."
+        },
+        {
+          "kind": "kicker",
+          "text": "The record for oldest dot com on the internet is still held by a company most people have never heard of, and it went bankrupt before the web it predates even existed."
+        },
+        {
+          "kind": "sign",
+          "line": "The internet's first address belonged to an AI company that did not survive the first AI winter.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "antikythera-not-noticed",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Antikythera_mechanism: confirms the 1901 shipwreck recovery off Antikythera, that the mechanism went unnoticed for over a year while museum staff worked on more obvious finds, the 17 May 1902 identification by Valerios Stais of an embedded gear wheel, the 2nd century BC construction date and the 70 to 60 BC dating of the wreck itself, the 2005 Cardiff University X-ray tomography study led by Mike Edmunds, the device's functions predicting eclipses and tracking the Olympic cycle, and the statement that machines of comparable complexity did not reappear for around 1,500 years, until 14th century astronomical clocks."
+      ],
+      "verifiedNote": "Checked 12 Sep 2026. Dating the mechanism's actual construction is genuinely unsettled: sources I read cite 87 BC, 150 to 100 BC, 205 BC and a proposed 178 BC calibration date, so the beats say 2nd century BC, the range the dating theories agree on, rather than picking one contested year. The gear count also varies between sources depending on whether visible or inferred gears are counted, so I left an exact gear number out of the beats and used the 1,500 year gap instead, since it is the number that best explains why the device is considered remarkable, rather than a technical component count of the kind the writing guide warns against.",
+      "palette": {
+        "bg": "#0A0806",
+        "ink": "#F7F1E6",
+        "accent": "#C68A3D",
+        "muted": "#7A6A54"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The Antikythera mechanism was not recognised the moment it was found",
+          "text": "Sponge divers recovered it from a Roman era shipwreck off Greece in 1901, and it sat as an unremarkable lump of corroded bronze for more than a year.",
+          "note": "Museum staff were busy piecing together the wreck's more obvious treasures first: bronze and marble statues."
+        },
+        {
+          "kind": "statement",
+          "text": "It was only on 17 May 1902 that archaeologist Valerios Stais, prompted by his cousin, noticed a gear wheel embedded in one of the fragments.",
+          "note": "Even then, many scholars assumed the gear was too advanced to belong with the rest of the wreck and dismissed it as a later intrusion."
+        },
+        {
+          "kind": "statement",
+          "lead": "It turned out to be a hand cranked calculator",
+          "text": "Made in the 2nd century BC, it used dozens of meshing bronze gears to track the Sun, the Moon's irregular orbit, eclipses years in advance, and even the four year cycle of the ancient Olympic Games.",
+          "note": "A 2005 Cardiff University scan using X-ray tomography read inscriptions hidden under the encrusted surface and mapped gearing nobody could previously see."
+        },
+        {
+          "kind": "figure",
+          "value": "1500",
+          "unit": "years",
+          "context": "Roughly how long it took before another machine of comparable mechanical complexity was built, in 14th century Europe."
+        },
+        {
+          "kind": "kicker",
+          "text": "It was found in the same shipwreck as a set of marble statues, and it took the museum over a year to notice it was the more remarkable find."
+        },
+        {
+          "kind": "sign",
+          "line": "The most advanced machine of the ancient world spent a year mistaken for scrap.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "ivy-lee-task-list-myth",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ivy_Lee: confirms Lee's career as a real public relations pioneer, including his 1906 press release after the Atlantic City train wreck and his work for the Rockefeller family, states the Schwab anecdote and its 25,000 dollar figure, and cites it to three secondary sources rather than a contemporary one: Alec Mackenzie's The Time Trap, Michael LeBoeuf's Working Smart, and a 1960 recorded talk by Earl Nightingale, which the article's own notes describe as the earliest documented appearance of the story."
+      ],
+      "verifiedNote": "Checked 12 Sep 2026. This is the one topic here where the interesting fact is the absence of a source rather than the presence of one. I searched directly for a contemporary 1918 to 1920s account and found none, and Wikipedia's own citation trail for the anecdote bottoms out at Nightingale's 1960 recording, forty two years after the claimed event, with the next-earliest citation from 1972. I have written the beats so the verified claim is specifically that the story is undocumented before 1960, not that the 1918 meeting or the exact sum did or did not happen, since I cannot confirm or deny either. I have also been careful throughout to write Charles M. Schwab of Bethlehem Steel, since he is a different person from the modern Charles R. Schwab of the Charles Schwab Corporation, a mix up that shows up often in retellings of this story.",
+      "palette": {
+        "bg": "#090B0F",
+        "ink": "#F3F0E6",
+        "accent": "#4F7CAE",
+        "muted": "#5C6270"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "A famous productivity story has a surprisingly short paper trail",
+          "text": "The tale goes that in 1918, consultant Ivy Lee told steel boss Charles M. Schwab to write down his six most important tasks each night and do them in order the next day.",
+          "note": "Three months later, Schwab is said to have sent Lee a cheque for 25,000 dollars, calling it the most profitable advice he had ever received."
+        },
+        {
+          "kind": "statement",
+          "lead": "Ivy Lee himself was real, and well documented",
+          "text": "He was a genuine pioneer of modern public relations, known for advising the Rockefeller family and for what is often called the first ever press release, in 1906.",
+          "note": "The specific Schwab anecdote, though, is where the paper trail runs out."
+        },
+        {
+          "kind": "figure",
+          "value": "42",
+          "unit": "years",
+          "context": "The gap between the claimed 1918 event and the earliest version of this exact story anyone has been able to find in print or recording."
+        },
+        {
+          "kind": "statement",
+          "text": "That earliest known telling is a 1960 recorded talk by radio broadcaster Earl Nightingale, not a contemporary 1918 record from Schwab or Lee.",
+          "note": "No document from Bethlehem Steel, Lee's own papers, or 1920s press coverage naming this specific 25,000 dollar exchange has been found."
+        },
+        {
+          "kind": "kicker",
+          "text": "The most repeated fact about this story, a precise dollar figure from over a century ago, is the one part nobody has ever managed to source."
+        },
+        {
+          "kind": "sign",
+          "line": "Great advice, dubious receipt.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "voyager-golden-record",
+      "niche": "space",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Voyager_Golden_Record: confirms both 1977 Voyager probes carry a gold plated copper record with 116 images, spoken greetings in 55 languages, natural sounds and a music selection including Bach, Beethoven, Chuck Berry and Blind Willie Johnson, describes the inscribed playback instructions and the uranium 238 sample used as a radioactive clock for dating the launch, gives Voyager 1's projected approach to within 1.6 light years of the star Gliese 445 in about 40,000 years as its first stellar encounter, and covers the disputed rights clearance story around including the Beatles' Here Comes the Sun."
+      ],
+      "verifiedNote": "Checked 12 Sep 2026. I wanted a direct NASA JPL page as a primary source alongside Wikipedia but the JPL golden record page returned no content when I tried to fetch it, so I have relied on Wikipedia's account, which is heavily cited to NASA, JPL and Smithsonian material throughout. The Beatles story is the one beat I have deliberately softened: a 2015 Ann Druyan interview and a 2017 account from producer Timothy Ferris describe the rights failure slightly differently, so the beat states the agreed outline, that the band wanted it included and a rights holder blocked it, without picking a single detailed version of events.",
+      "palette": {
+        "bg": "#05070F",
+        "ink": "#F4F2E9",
+        "accent": "#E8C468",
+        "muted": "#5A5A6E"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Two records were launched out of the solar system in 1977, and neither one is meant to be played soon",
+          "text": "Each Voyager probe carries a gold plated copper phonograph record holding sounds and images chosen to represent life and culture on Earth.",
+          "note": "The contents include 116 images, greetings in 55 languages, and a music selection running from Bach and Beethoven to Chuck Berry and Blind Willie Johnson."
+        },
+        {
+          "kind": "statement",
+          "text": "The record's cover is inscribed with instructions for playing it, and a sample of pure uranium 238 so that anyone who finds it can date the launch from how much of it has decayed.",
+          "note": "Uranium 238 has a half life of about 4.5 billion years, so the clue is built to still work long after any human record of the mission is gone."
+        },
+        {
+          "kind": "figure",
+          "value": "40000",
+          "unit": "years",
+          "context": "Roughly how long it will take Voyager 1 to pass within a light year and a half of another star, Gliese 445, the record's first close encounter with anything."
+        },
+        {
+          "kind": "statement",
+          "lead": "One track on the record carries its own small myth",
+          "text": "Producers wanted the Beatles' Here Comes the Sun on it, and the band agreed, but the record label that controlled the rights would not clear it in time.",
+          "note": "Accounts of exactly why differ in the details, so this is included as the broad, agreed shape of the story rather than a precise quote."
+        },
+        {
+          "kind": "kicker",
+          "text": "Humanity's message to the universe is more likely to be read by nobody for tens of thousands of years than by anybody at all."
+        },
+        {
+          "kind": "sign",
+          "line": "The furthest object humans have ever built is still carrying a mixtape.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "koala-fingerprints-human",
+      "niche": "animals",
+      "verified": true,
+      "sources": [
+        "https://www.pbs.org/wgbh/nova/article/koala-fingerprints/: reports that koalas are the only non-primate mammal known to have true fingerprints, that University of Adelaide biological anthropologist Maciej Henneberg found koala ridge patterns of loops and whorls so similar to human fingerprints that they can be difficult to distinguish even under microscopic analysis, and that Henneberg's 1996 warning to police was precautionary rather than a report of an actual mix-up.",
+        "https://www.snopes.com/fact-check/koala-fingerprints-crime-scene/: fact-checks the popular claim that koala prints have genuinely confused real crime scene investigators, finding no documented case of a koala print contaminating an investigation, a suspect being wrongly implicated, or a case being reopened because of an animal print, and rating the crime-solving version of the story a myth built on a real, narrower finding."
+      ],
+      "verifiedNote": "Checked 14 Sep 2026. Kept the two claims separate: fingerprint similarity under microscopic study is real and sourced to Henneberg's own findings, whilst the popular add-on that this has actually confused real investigators is not supported by any documented case, per Snopes' fact-check. Left out the lineage-divergence figure sometimes quoted alongside this story, as I have only seen it in secondary blog summaries rather than a primary source I read directly.",
+      "palette": {
+        "bg": "#101A14",
+        "ink": "#F2F5EC",
+        "accent": "#8FBF6B",
+        "muted": "#7C8C79"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Koalas carry a print no other non-primate has.",
+          "text": "They are the only non-primate mammal known to have true fingerprints, complete with the same loops and whorls found on human hands.",
+          "note": "Biological anthropologist Maciej Henneberg noticed it whilst working with koalas at a wildlife park near Adelaide in the mid-1990s."
+        },
+        {
+          "kind": "credit",
+          "year": "1996",
+          "name": "Maciej Henneberg",
+          "role": "a biological anthropologist at the University of Adelaide, examined koala fingertip ridges closely enough to conclude that even careful analysis under a microscope could struggle to tell them apart from a human's."
+        },
+        {
+          "kind": "statement",
+          "lead": "The similarity is close enough that Henneberg raised it with police.",
+          "text": "He told The Independent in 1996 that officers should at least be aware a koala print could resemble a human one.",
+          "note": "He was equally clear that finding one at an actual crime scene would be extremely unlikely."
+        },
+        {
+          "kind": "statement",
+          "text": "The popular version of this story, that koala prints have genuinely confused real detectives, does not check out.",
+          "note": "Fact-checkers have found no documented case of a koala print contaminating an investigation or a suspect being wrongly implicated. The genuine fingerprint similarity got exaggerated into a crime-solving myth."
+        },
+        {
+          "kind": "kicker",
+          "text": "Koalas and humans do not get their nearly identical fingerprints from a shared ancestor who had them. Evolution appears to have built the same solution twice, in two completely unrelated animals reaching for a better grip."
+        },
+        {
+          "kind": "sign",
+          "line": "The only crime a koala print is actually guilty of is causing confusion in a lab.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "owl-silent-flight-engineering",
+      "niche": "animals",
+      "verified": true,
+      "sources": [
+        "https://www.smithsonianmag.com/science-nature/silence-wind-turbines-engineers-are-studying-owl-wings-180974659/: describes British aeronautical engineer and ornithologist Robert Rule Graham's 1934 description of three wing structures behind owl silent flight, the serrated leading-edge comb, the soft trailing fringe, and a velvety surface, and reports that engineers have copied the comb's serrations onto wind turbine blades to cut aerodynamic noise.",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13204868/: a review of owl-inspired serration research confirming the three structures identified by Graham, that the leading-edge comb breaks up airflow into smaller, quieter turbulence, that the velvet-like surface absorbs high-frequency sound, and that the trailing fringe further smooths the air leaving the wing, with modern studies applying comb-style serrations to wind turbine and aircraft blades to reduce noise."
+      ],
+      "verifiedNote": "Checked 14 Sep 2026. Left the wind turbine noise reduction out of the figure beat: sources describe cutting noise by roughly half using comb-style serrations, but the exact percentage varies by blade design and by study, so it is described as a rough outcome in a note rather than a single stamped figure. Have not personally read Graham's original 1934 paper, only later sources that summarise and cite it.",
+      "palette": {
+        "bg": "#0B0E1A",
+        "ink": "#EDEEF7",
+        "accent": "#E8A33D",
+        "muted": "#6E7290"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Owls fly quietly enough to sneak up on prey that can hear a heartbeat.",
+          "text": "In 1934, British engineer Robert Rule Graham identified three separate wing structures that let them do it.",
+          "note": "He called them the comb, the fringe and the velvet, each solving a different part of the noise problem."
+        },
+        {
+          "kind": "statement",
+          "lead": "The comb goes to work first.",
+          "text": "A row of stiff, comb-like serrations along the leading edge of the wing breaks up incoming air into smaller, quieter streams before it can build into noisy turbulence.",
+          "note": "This is the structure most modern engineering copies have focused on."
+        },
+        {
+          "kind": "statement",
+          "lead": "The trailing edge and the surface finish the job.",
+          "text": "A soft, ragged fringe along the back edge of the wing smooths the air as it leaves, while a velvety layer of down across the wing itself soaks up whatever high-frequency sound is left.",
+          "note": "Together the three structures strip out almost all the whooshing sound other birds' wings make."
+        },
+        {
+          "kind": "credit",
+          "year": "1934",
+          "name": "Robert Rule Graham",
+          "role": "a British aeronautical engineer and ornithologist, was the first to describe all three of these structures and connect them to the owl's silence."
+        },
+        {
+          "kind": "kicker",
+          "text": "Engineers have since copied the comb onto wind turbine blades, cutting the aerodynamic noise they produce and showing that an adaptation built for hunting in the dark has something to teach modern turbine and aircraft design."
+        },
+        {
+          "kind": "sign",
+          "line": "The quietest flyer in the sky has been teaching engineers since 1934.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "bacteria-human-cell-ratio-corrected",
+      "niche": "biology",
+      "verified": true,
+      "sources": [
+        "https://journals.plos.org/plosbiology/article?id=10.1371%2Fjournal.pbio.1002533: Sender, Fuchs and Milo's 2016 paper in PLOS Biology, recalculating the number of bacterial and human cells in a reference 70kg adult body, arriving at approximately 3.8x10^13 (38 trillion) bacterial cells against approximately 3.0x10^13 (30 trillion) human cells, a ratio close to 1:1 rather than the widely repeated 10:1, and identifying that roughly 90 percent of human cells are blood cells from the haematopoietic lineage.",
+        "https://www.acsh.org/news/2016/08/26/commonly-cited-stat-of-10-bacteria-for-every-1-human-cell-is-wrong: explains that the previously standard 10:1 estimate traces back to a rough calculation published by Thomas Luckey in 1972, never intended as a precise count, which was repeated for decades in textbooks and popular science without being re-checked."
+      ],
+      "verifiedNote": "Checked 14 Sep 2026. The 38 trillion and 30 trillion figures are for the specific 70kg reference adult Sender, Fuchs and Milo modelled, not a universal constant that applies to everybody exactly; individual ratios vary with body size and gut microbiome composition. Kept Luckey's original 1972 estimate as the source of the 10:1 myth as reported by ACSH's summary; I have not read Luckey's original 1972 paper directly.",
+      "palette": {
+        "bg": "#081412",
+        "ink": "#EAF7F2",
+        "accent": "#3FCFA8",
+        "muted": "#6E9C8E"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "You have almost exactly as many bacterial cells as human ones, not ten times as many.",
+          "text": "A rigorous 2016 recalculation put the ratio at close to 1:1, overturning a figure that had been repeated in textbooks for decades.",
+          "note": "The old 10:1 figure traces back to a rough 1972 estimate that was never meant as a precise count."
+        },
+        {
+          "kind": "figure",
+          "value": "38",
+          "unit": "trillion",
+          "context": "roughly how many bacterial cells researchers now estimate live in and on a reference adult body, against about 30 trillion human cells of its own."
+        },
+        {
+          "kind": "credit",
+          "year": "2016",
+          "name": "Ron Sender, Shai Fuchs and Ron Milo",
+          "role": "recalculated both cell populations from scratch for a modelled 70kg adult and published the revised, far closer ratio in the journal PLOS Biology."
+        },
+        {
+          "kind": "statement",
+          "text": "Most of that human cell count is not skin, muscle or brain. Roughly 90 percent of it is blood, specifically red blood cells made by the bone marrow.",
+          "note": "The haematopoietic, or blood-forming, lineage dominates the human side of the count almost entirely."
+        },
+        {
+          "kind": "kicker",
+          "text": "The exact ratio still shifts from person to person depending on body size and gut microbiome, so 1:1 is a far better rule of thumb than 10:1, not a fixed law."
+        },
+        {
+          "kind": "sign",
+          "line": "You are roughly as much bacteria as you are you.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "human-bioluminescence-glow",
+      "niche": "biology",
+      "verified": true,
+      "sources": [
+        "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0006256: Kobayashi et al.'s 2009 PLOS ONE paper, imaging ultraweak spontaneous photon emission from the human body and confirming that it follows a diurnal rhythm, rising and falling in intensity across the day and peaking in the late afternoon, with the face producing more light than other areas measured.",
+        "https://www.nationalgeographic.com/science/article/photographing-the-glow-of-the-human-body: reports that the study used an ultra-sensitive camera capable of detecting single photons to photograph volunteers in complete darkness, that the light the human body gives off is roughly 1,000 times too faint for the naked eye to detect, and that researchers link the glow to free radicals produced by ordinary cell metabolism reacting with fats and proteins."
+      ],
+      "verifiedNote": "Checked 14 Sep 2026. Left out the specific measurement interval described in some secondary summaries of the study's protocol, as the figures I found for it were inconsistent across sources and I could not confirm the exact schedule against the primary paper's methods. Kept to what both sources agree on: the camera technology, the roughly 1,000-times-too-faint figure, the diurnal pattern and the proposed free-radical mechanism.",
+      "palette": {
+        "bg": "#0D0A1A",
+        "ink": "#F1EDFA",
+        "accent": "#9B6BE0",
+        "muted": "#7C7599"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Your body is glowing right now, and you cannot see it.",
+          "text": "Every human body gives off a faint visible light, produced by ordinary cell activity rather than the bioluminescence seen in jellyfish or fireflies.",
+          "note": "In 2009, Japanese researchers proved it by sealing volunteers in a completely dark room and photographing them with a camera sensitive enough to detect single photons."
+        },
+        {
+          "kind": "figure",
+          "value": "1000",
+          "unit": "x",
+          "context": "roughly how many times too faint for the naked eye this light is. It is real, measurable light, just far below what human vision can register."
+        },
+        {
+          "kind": "statement",
+          "text": "The glow is not constant. It follows a daily rhythm, dimmest in the morning and brightest in the late afternoon, and the face gives off more of it than other areas measured.",
+          "note": "Nobody feels any of this happening. It only shows up on camera."
+        },
+        {
+          "kind": "credit",
+          "year": "2009",
+          "name": "Masaki Kobayashi",
+          "role": "led the Tohoku Institute of Technology team that produced the first clear images of this light, published in the journal PLOS ONE."
+        },
+        {
+          "kind": "kicker",
+          "text": "The likely source is free radicals, reactive by-products of normal metabolism, colliding with fats and proteins in skin cells and releasing a tiny burst of light energy each time."
+        },
+        {
+          "kind": "sign",
+          "line": "You have been glowing your entire life. Nobody could prove it until 2009.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "bread-before-farming-shubayqa",
+      "niche": "food",
+      "verified": true,
+      "sources": [
+        "https://www.pnas.org/doi/10.1073/pnas.1801071115: the 2018 PNAS study identifying charred bread-like remains, roughly 14,400 years old, from fireplaces at the Shubayqa 1 site in north-eastern Jordan, made from wild cereals including einkorn wheat and club-rush tubers, produced by Natufian hunter-gatherers more than 4,000 years before plant domestication is thought to have begun in the region."
+      ],
+      "verifiedNote": "Checked 14 Sep 2026, read the paper's abstract and summary sections directly. Used the more than 4,000 years figure as the gap between this bread and the conventional dating of farming's start in the Fertile Crescent, roughly 10,000 years ago; both dates carry the normal margins of archaeological dating and are not exact to the year.",
+      "palette": {
+        "bg": "#150F07",
+        "ink": "#FBF1DE",
+        "accent": "#D9A441",
+        "muted": "#93815F"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Bread is older than farming.",
+          "text": "Charred crumbs found at a hunter-gatherer site in Jordan date to roughly 14,400 years ago, more than 4,000 years before anyone in the region is thought to have started farming.",
+          "note": "The site is Shubayqa 1, in what is now north-eastern Jordan."
+        },
+        {
+          "kind": "statement",
+          "text": "The bread was found where it was made: in ash from ancient fireplaces, alongside the tools used to prepare it.",
+          "note": "Researchers identified it from its cellular structure under a microscope, the same way bread is identified today."
+        },
+        {
+          "kind": "statement",
+          "text": "It was not made from a planted crop. The flour came from wild cereals, including einkorn wheat, ground down along with club-rush tubers dug from the ground.",
+          "note": "Nobody had domesticated a single grain yet. These were wild plants, gathered rather than grown."
+        },
+        {
+          "kind": "figure",
+          "value": "4000",
+          "unit": "years",
+          "context": "roughly how much earlier this bread was made than farming is thought to have begun in the same region."
+        },
+        {
+          "kind": "kicker",
+          "text": "For decades the assumption ran the other way: that farming came first, and bread followed once there were fields of grain to mill. This find suggests wild bread may have been one of the reasons people started farming grain in the first place, not the other way round."
+        },
+        {
+          "kind": "sign",
+          "line": "Humans were baking bread thousands of years before they planted a single crop.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "methuselah-date-palm-masada",
+      "niche": "food",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Judean_date_palm: covers the approximately 2,000-year-old date palm seeds recovered from archaeological excavations at Masada, Israel, in the 1960s, the germination of one seed in 2005 by Dr Sarah Sallon and Dr Elaine Solowey, its naming as Methuselah, its growth into a male, pollen-producing tree, the later germination of several female seeds from other ancient sites, and successful hand-pollination between Methuselah and a female tree named Hannah leading to the first dates grown from ancient seeds in roughly 2,000 years."
+      ],
+      "verifiedNote": "Checked 14 Sep 2026. Used 'roughly 2,000 years' for both the seed's age and the gap since a Judean date palm of this line last fruited, following the source's own framing rather than picking a single more precise year, since the seed's dating carries a normal radiocarbon margin. The first harvest of actual dates from the cross-pollinated trees is dated to the early 2020s across sources I found; used 'by the early 2020s' rather than a single exact year I could not confirm firsthand.",
+      "palette": {
+        "bg": "#150E08",
+        "ink": "#F7EDDD",
+        "accent": "#B97A3D",
+        "muted": "#8C7458"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "A 2,000-year-old seed grew into a living tree.",
+          "text": "In 2005, scientists germinated a date palm seed recovered decades earlier from the ruins of Masada, Israel, one of the oldest seeds ever known to sprout.",
+          "note": "The seed had been sitting in storage since the original excavation in the 1960s."
+        },
+        {
+          "kind": "credit",
+          "year": "2005",
+          "name": "Dr Sarah Sallon and Dr Elaine Solowey",
+          "role": "planted the ancient seed and coaxed it into germinating, then watched it grow into a healthy young date palm they named Methuselah."
+        },
+        {
+          "kind": "figure",
+          "value": "2000",
+          "unit": "years",
+          "context": "roughly the age of the seed that grew into Methuselah, and roughly how long it had been since a tree from this ancient line last bore fruit."
+        },
+        {
+          "kind": "statement",
+          "text": "Methuselah turned out to be male, so it could produce pollen but never fruit on its own. Researchers later germinated more ancient seeds from other sites, and some grew into female trees.",
+          "note": "Growing a 2,000-year-old seed at all was the hard part. Getting an actual harvest still took another cross of trees."
+        },
+        {
+          "kind": "kicker",
+          "text": "One of those female trees, named Hannah, was hand-pollinated using Methuselah's pollen. By the early 2020s the cross had produced real dates grown from an ancient Judean seed line, something nobody had eaten in two thousand years."
+        },
+        {
+          "kind": "sign",
+          "line": "A seed sat still for 2,000 years, then someone finally planted it.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "catatumbo-lightning-venezuela",
+      "niche": "weather",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Catatumbo_lightning: describes the phenomenon over the mouth of the Catatumbo River at Lake Maracaibo, Venezuela, recorded as having the highest lightning density on Earth at roughly 250 flashes per square kilometre per year, occurring on around 140 to 160 nights annually for hours at a stretch, its historical use by sailors as a navigation aid, and identifies the claim that the lightning helped Spanish defenders repel Francis Drake's 1595 raid on Maracaibo as a misreading of an unrelated literary reference to the glow of burning ships rather than a documented historical event."
+      ],
+      "verifiedNote": "Checked 14 Sep 2026. Deliberately included the Francis Drake claim as a correction rather than a fact, since the source identifies it as a misreading of an unrelated reference rather than something that actually happened; this is exactly the kind of popular but false detail this file is meant to filter out, kept here only to debunk it directly.",
+      "palette": {
+        "bg": "#0A0A18",
+        "ink": "#EDEFFA",
+        "accent": "#7B6EF0",
+        "muted": "#5E5E85"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "One spot on Earth gets struck by lightning more than anywhere else.",
+          "text": "Where the Catatumbo River meets Lake Maracaibo in Venezuela, storms produce roughly 250 lightning flashes per square kilometre every year, the highest density recorded anywhere on the planet.",
+          "note": "It has been described as the world's largest single generator of atmospheric ozone."
+        },
+        {
+          "kind": "figure",
+          "value": "250",
+          "unit": "flashes",
+          "context": "roughly how many lightning flashes strike each square kilometre of this spot every year, more than anywhere else on Earth."
+        },
+        {
+          "kind": "statement",
+          "text": "The storms are also remarkably regular. Lightning lights up the sky here on around 140 to 160 nights a year, often for hours at a time.",
+          "note": "Sailors once used the distant flashes as a natural lighthouse, steering by them long before satellite navigation existed."
+        },
+        {
+          "kind": "statement",
+          "lead": "One popular story about it does not hold up.",
+          "text": "A widely repeated claim says the lightning helped Spanish defenders spot and repel Francis Drake's fleet during an attack on Maracaibo in 1595.",
+          "note": "It traces back to a misread literary reference to ships burning and glowing on the water, not to an actual account of lightning lighting up the battle."
+        },
+        {
+          "kind": "kicker",
+          "text": "The real explanation for the lightning itself is still debated, with theories pointing to methane rising from nearby wetlands and oil deposits, warm Caribbean air meeting cool mountain wind off the Andes, or some combination of both."
+        },
+        {
+          "kind": "sign",
+          "line": "The most electric place on Earth has a myth attached to it that isn't even true.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "great-smog-london-1952",
+      "niche": "weather",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Great_Smog_of_London: dates the smog to 5 to 9 December 1952, attributes it to a windless anticyclone trapping cold, coal-smoke-laden air over London, gives the contemporary official death toll of around 4,000, records later research estimates of 10,000 to 12,000 deaths, and covers the resulting Clean Air Act 1956, which restricted the burning of coal and other smoke-producing fuels in designated urban smoke control areas."
+      ],
+      "verifiedNote": "Checked 14 Sep 2026. Kept both death toll figures rather than picking one: the 4,000 figure was the official contemporary estimate, and the higher 10,000 to 12,000 range comes from later epidemiological research examined years afterwards, so the entry presents the second as a revision of the first rather than a replacement everyone has agreed on.",
+      "palette": {
+        "bg": "#12100C",
+        "ink": "#F0EAE0",
+        "accent": "#C9A876",
+        "muted": "#8A8378"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "For five days in 1952, London's own air killed thousands of people.",
+          "text": "A thick smog settled over the city from 5 to 9 December, trapped in place by windless weather and thickened by smoke from coal fires burning across the capital.",
+          "note": "Visibility dropped so low that buses needed someone walking ahead of them with a torch."
+        },
+        {
+          "kind": "figure",
+          "value": "4000",
+          "unit": "deaths",
+          "context": "the official death toll estimated in the weeks immediately after the smog, based on contemporary medical reports."
+        },
+        {
+          "kind": "statement",
+          "text": "That figure turned out to be a serious undercount. Later research examining the following weeks and months put the true toll at 10,000 to 12,000 deaths, mostly from respiratory and cardiovascular causes.",
+          "note": "Most of the dead were the very young, the elderly, or people who already had lung or heart conditions."
+        },
+        {
+          "kind": "statement",
+          "text": "The smog was not a freak event so much as an especially severe version of London's normal winter air, thick with coal smoke long before 1952.",
+          "note": "What made this one different was the stillness of the weather, trapping the pollution in place for days instead of letting it disperse."
+        },
+        {
+          "kind": "kicker",
+          "text": "The scale of the deaths forced Parliament's hand. The Clean Air Act 1956 restricted coal burning in designated smoke control areas, one of the first pieces of legislation anywhere aimed squarely at air quality."
+        },
+        {
+          "kind": "sign",
+          "line": "It took thousands of deaths in five days to get Britain to clean its air.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "neptune-discovered-by-maths",
+      "niche": "space",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Neptune: covers Neptune's discovery on 23 September 1846, within about one degree of its predicted position, after French mathematician Urbain Le Verrier calculated where an unseen planet must be to account for irregularities in Uranus's orbit, English astronomer John Couch Adams having made a similar unpublished calculation, and German astronomer Johann Galle, assisted by Heinrich Louis d'Arrest, finding the planet that same night at the Berlin Observatory using Le Verrier's coordinates, along with the resulting priority dispute between Britain and France over credit for the discovery."
+      ],
+      "verifiedNote": "Checked 14 Sep 2026. Credited the actual telescopic observation to Galle and d'Arrest on the night Le Verrier's letter arrived in Berlin, and kept Adams's independent, earlier but unpublished calculation as a parallel claim rather than folding the two men's work into a single joint effort, since the priority dispute between them was real and unresolved for some time afterwards.",
+      "palette": {
+        "bg": "#06101E",
+        "ink": "#EAF3FC",
+        "accent": "#3D7FE0",
+        "muted": "#5C7699"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Neptune is the only planet ever found by doing the maths first.",
+          "text": "Every other planet was spotted by someone looking through a telescope. Neptune was found because astronomers calculated exactly where it had to be before anyone pointed a telescope at it.",
+          "note": "It remains the only planet discovered by prediction rather than direct observation."
+        },
+        {
+          "kind": "statement",
+          "text": "The clue was Uranus. Its orbit kept drifting slightly off from where the mathematics of gravity said it should be, as if something unseen was tugging on it.",
+          "note": "French mathematician Urbain Le Verrier worked out the position of a planet that would explain the drift. English astronomer John Couch Adams reached a similar answer independently, but his calculation went unpublished."
+        },
+        {
+          "kind": "figure",
+          "value": "1",
+          "unit": "degree",
+          "context": "roughly how close Le Verrier's predicted position was to where Neptune was actually found, an extraordinary level of accuracy for a planet nobody had ever seen."
+        },
+        {
+          "kind": "credit",
+          "year": "1846",
+          "name": "Johann Galle and Heinrich Louis d'Arrest",
+          "role": "at the Berlin Observatory, pointed a telescope at Le Verrier's predicted coordinates on the night of 23 September and found Neptune within hours."
+        },
+        {
+          "kind": "kicker",
+          "text": "Adams and Le Verrier's competing claims to the discovery turned into a genuine dispute between Britain and France over who deserved the credit, one that took years to settle into the shared recognition both men now receive."
+        },
+        {
+          "kind": "sign",
+          "line": "The last planet found the old way was Uranus. Neptune was found by algebra.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "whatsapp-facebook-rejection-then-19-billion",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Brian_Acton: confirms Brian Acton was rejected for a job at Facebook in 2009, having earlier also been turned down by Twitter, and that he later co-founded WhatsApp with former Yahoo colleague Jan Koum, going on to raise seed funding from other former Yahoo colleagues and receive co-founder status.",
+        "https://en.wikipedia.org/wiki/WhatsApp: confirms Jan Koum incorporated WhatsApp Inc. in California on 24 February 2009, that Brian Acton joined him later that year and helped raise 250,000 dollars in seed funding from five former Yahoo colleagues, and that Facebook announced its acquisition of WhatsApp on 19 February 2014 for a deal valued at approximately 19.3 billion dollars in cash, stock and restricted stock units, which closed on 6 October 2014."
+      ],
+      "verifiedNote": "Checked 14 Sep 2026. Kept Koum's February 2009 incorporation and Acton's later 2009 joining as two separate events rather than a single founding moment, since sources differ slightly on the exact month Acton formally joined, October or November 2009, but agree he was not there from day one and was granted co-founder status once he came aboard and helped raise the seed round. Used the widely reported total acquisition value of approximately 19.3 billion dollars rather than a more precise combined figure, since sources split the cash, stock and RSU components differently without fully agreeing on the exact total.",
+      "palette": {
+        "bg": "#081410",
+        "ink": "#EAF7EE",
+        "accent": "#25D366",
+        "muted": "#6E9885"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The company that turned down his job application ended up paying him billions.",
+          "text": "In 2009, Brian Acton applied for a job at Facebook and was rejected. He had already been turned down by Twitter too.",
+          "note": "He was an experienced engineer, not a novice: both companies passed on him within the same year."
+        },
+        {
+          "kind": "statement",
+          "text": "He tweeted about the Facebook rejection on 3 August 2009: 'Facebook turned me down. It was a great opportunity to connect with some fantastic people. Looking forward to life's next adventure.'",
+          "note": "His next adventure was already underway. Former Yahoo colleague Jan Koum had incorporated WhatsApp Inc. that February, and Acton joined him later that year."
+        },
+        {
+          "kind": "statement",
+          "text": "Acton helped raise 250,000 dollars in seed funding from five former Yahoo colleagues and was granted co-founder status once he came aboard.",
+          "note": "The money came from people who already trusted him from his Yahoo days, not from a venture pitch to strangers."
+        },
+        {
+          "kind": "figure",
+          "value": "19",
+          "unit": "billion",
+          "context": "roughly the value, in dollars, of the deal Facebook announced on 19 February 2014 to acquire WhatsApp, the company built by the man it had rejected for a job."
+        },
+        {
+          "kind": "kicker",
+          "text": "The deal, split between cash, stock and restricted stock units, closed on 6 October 2014, eight months after the announcement."
+        },
+        {
+          "kind": "sign",
+          "line": "Rejected for a job in 2009. Paid billions for his company in 2014.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "shazam-2580-before-app-stores",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Shazam_(music_app): confirms Shazam Entertainment was founded in 1999 by Chris Barton, Philip Inghelbrecht, Dhiraj Mukherjee and Avery Wang, and that its original UK-only service, launched in August 2002, let users dial 2580, hold their phone up to a song playing nearby, hang up, and receive a text message naming the track, years before smartphones or app stores existed.",
+        "https://cdm.link/shazam-is-20-years-old-history-trivia-and-tips/: confirms the service launched in the UK in August 2002, that dialling 2580 and holding the phone to the music returned a text message naming the song about fifteen seconds later, that 2580 was chosen because it is the only four-digit sequence in a straight line on a phone keypad, that the service was available to about 95 percent of UK mobile users at launch, and that each successful identification cost 50 pence on the user's phone bill."
+      ],
+      "verifiedNote": "Checked 14 Sep 2026. Used August 2002 for the launch, with a specific day given in one secondary source I did not independently confirm against a primary Shazam announcement, so the entry states the month only rather than a specific day. Kept the six lean years before the 2008 App Store launch as the general shape reported across sources rather than citing a single detailed account of that period.",
+      "palette": {
+        "bg": "#080D18",
+        "ink": "#EAF1FB",
+        "accent": "#2C9EE8",
+        "muted": "#5E7C97"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Shazam worked years before smartphones existed.",
+          "text": "In August 2002, UK mobile users could dial the number 2580, hold their phone up to a song playing nearby, and hang up.",
+          "note": "About fifteen seconds later, a text message arrived naming the track and artist."
+        },
+        {
+          "kind": "statement",
+          "text": "The number 2580 was not arbitrary. It is the only four-digit sequence that runs in a straight line down a standard phone keypad, easy to dial without looking.",
+          "note": "There was no icon to tap and no screen to check. The whole interface was a phone call."
+        },
+        {
+          "kind": "figure",
+          "value": "95",
+          "unit": "%",
+          "context": "roughly the share of UK mobile users who could use the service at launch, on every network except one."
+        },
+        {
+          "kind": "statement",
+          "text": "It was not free. Each successful identification cost 50 pence, charged straight to the caller's phone bill.",
+          "note": "There was no app to open, because there was no app store yet for one to live in."
+        },
+        {
+          "kind": "kicker",
+          "text": "The company survived on this alone for six lean years, until Apple's App Store launched in July 2008 and gave Shazam an actual app to put the same idea inside. Growth took off almost immediately after."
+        },
+        {
+          "kind": "sign",
+          "line": "Shazam identified songs by phone call for six years before it ever had an app.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "wombat-cube-shaped-poop",
+      "niche": "animals",
+      "verified": true,
+      "sources": [
+        "https://biosciences.gatech.edu/news/studying-wombats-cubic-poop: Georgia Tech's own account of the 2019 Ig Nobel Prize winning research led by mechanical engineer David Hu and University of Tasmania wildlife ecologist Scott Carver, covering the wombat's roughly 33 foot intestine, Carver's discovery that the cubes form inside the intestine itself rather than through any square shaped opening, the alternating stiff and soft zones of the gut wall that the team proposes press the shape into the drying droppings, and then Ph.D. student Patricia Yang's note that the same hardening process is being looked at for early colon cancer screening."
+      ],
+      "verifiedNote": "Checked 14 Sep 2026, reading Georgia Tech's own account directly. The four stiff zones detail is given in the source as the team's working hypothesis, quoted from David Hu, not as a separately confirmed final count, so it is presented below as the proposed mechanism. The source does not give a single confirmed figure for the total number of gut contractions per dropping, so that number has been left out rather than estimated.",
+      "palette": {
+        "bg": "#120F0A",
+        "ink": "#F5F0E6",
+        "accent": "#C97C3D",
+        "muted": "#8C7A63"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Only one animal is known to produce cube shaped droppings, and nothing in its body is shaped like a cube.",
+          "text": "Wombat faeces come out as near perfect cubes, flat sides and corners included, even though the gut they travel through is round from one end to the other.",
+          "note": "Georgia Tech mechanical engineer David Hu and University of Tasmania wildlife ecologist Scott Carver set out to work out how, and the pair won a 2019 Ig Nobel Prize for the answer."
+        },
+        {
+          "kind": "statement",
+          "text": "Carver, who dissects wombats that have been humanely put down for his conservation research, was the one who first noticed where the shape actually forms.",
+          "note": "His team found the cubes take shape inside the intestine itself, which ruled out the obvious guess that they were being squeezed out through some sort of square shaped opening."
+        },
+        {
+          "kind": "figure",
+          "value": "33",
+          "unit": "feet",
+          "context": "roughly how long a wombat's intestine is end to end, ten feet longer than a human's, giving the droppings plenty of time to dry out and firm up before they emerge."
+        },
+        {
+          "kind": "statement",
+          "text": "The gut wall itself turned out to be the answer. Rather than being uniformly stretchy, it alternates between stiffer and softer sections along its length.",
+          "note": "As Hu put it, the stiffer zones resist bending while the softer zones between them let corners form, pressing what should be a tube shaped mass into something closer to a cube."
+        },
+        {
+          "kind": "kicker",
+          "text": "Wombats use the shape to their advantage. Cubes stack neatly on logs and rocks to mark territory without rolling away, and Patricia Yang, who worked on the study, suggested the same hardening process could eventually help with early screening for colon cancer."
+        },
+        {
+          "kind": "sign",
+          "line": "Nature's only cube shaped dropping, solved by a mechanical engineer and a wombat dissector.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "honey-badger-venom-resistance",
+      "niche": "animals",
+      "verified": true,
+      "sources": [
+        "https://slate.com/technology/2015/06/honey-badger-venom-resistance-biologists-discover-the-secret.html: reports University of Minnesota researcher Danielle Drabeck's molecular study with biologist Sharon Jansa and biochemist Antony Dean, using honey badger blood sourced from the San Diego and Fort Wayne zoos, the discovery of mutations in the honey badger's nicotinic acetylcholine receptor that stop cobra neurotoxin from binding, the same tweaks evolving independently in mongooses, hedgehogs and pigs, roughly a quarter of the honey badger's diet being venomous snakes, and Sharon Jansa's description of a tit for tat evolutionary arms race between the badgers and the snakes."
+      ],
+      "verifiedNote": "Checked 14 Sep 2026. Resistance is used deliberately rather than immunity: the source describes a specific molecular defence against one class of toxin, alpha neurotoxins, not blanket protection from every compound in snake venom, which can contain over 100 different proteins and molecules. Kept the roughly 25 percent diet figure and the four convergent species exactly as given rather than rounding or adding detail the article does not state.",
+      "palette": {
+        "bg": "#0D0D08",
+        "ink": "#F2EFE0",
+        "accent": "#D4A72C",
+        "muted": "#6E6A50"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Honey badgers are often described as fearless. What they actually have is a rewritten instruction manual for one specific poison.",
+          "text": "Up to a quarter of a honey badger's diet is venomous snakes, hunted for meat rather than out of desperation.",
+          "note": "A University of Minnesota team led by Danielle Drabeck wanted to know how the animal survives bites that would kill almost anything else."
+        },
+        {
+          "kind": "statement",
+          "text": "Cobra venom contains neurotoxins that normally jam a muscle cell's receptor shut, blocking the signal that keeps the muscle working and eventually stopping the lungs.",
+          "note": "Drabeck's team sequenced the gene for that receptor in honey badger blood sourced from zoos in San Diego and Fort Wayne, since the animal is not found anywhere in the Western Hemisphere."
+        },
+        {
+          "kind": "statement",
+          "text": "They found the receptor itself had mutated, changing shape just enough that the neurotoxin can no longer fit into it and switch it off.",
+          "note": "The same fix evolved independently in three other animals that regularly encounter venomous snakes: mongooses, hedgehogs, and, unexpectedly, wild pigs."
+        },
+        {
+          "kind": "credit",
+          "year": "2015",
+          "name": "Danielle Drabeck, Sharon Jansa and Antony Dean",
+          "role": "published the molecular explanation, with Jansa describing the ongoing back and forth between resistant predators and increasingly toxic snakes as a tit for tat evolutionary arms race."
+        },
+        {
+          "kind": "kicker",
+          "text": "The same receptor tweak may point toward safer antivenoms for the roughly 1.8 million people bitten by venomous snakes each year, since most current treatments still carry a real risk of allergic reaction."
+        },
+        {
+          "kind": "sign",
+          "line": "Not fearless. Just biologically unable to feel the one thing that would normally stop it.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "octopus-nine-brains-blue-blood",
+      "niche": "biology",
+      "verified": true,
+      "sources": [
+        "https://www.nhm.ac.uk/discover/octopuses-keep-surprising-us-here-are-eight-examples-how.html: Natural History Museum London article by Lisa Hendry, quoting cephalopod curator Jon Ablett, giving the common octopus around 500 million neurons with roughly two thirds in its arms and the rest in a doughnut shaped brain wrapped around the oesophagus, describing a 2011 maze experiment that proved the central brain can override the arms, and explaining the copper based protein haemocyanin that makes octopus blood blue rather than red, plus the three hearts, one for general circulation and two dedicated to pumping blood past the gills."
+      ],
+      "verifiedNote": "Checked 14 Sep 2026. The 500 million neuron and two thirds in the arms figures are given specifically for the common octopus, Octopus vulgaris, not octopuses as a whole group, so the beats below keep that species qualifier. The nine brains framing in the source's own headline is the arms' eight local clusters plus the one central brain, the same fact restated rather than a separate one, so it appears only as a closing flourish rather than its own beat.",
+      "palette": {
+        "bg": "#050F14",
+        "ink": "#E8F6FA",
+        "accent": "#3FA9C9",
+        "muted": "#4A6E78"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "An octopus does not have one brain making all the decisions. It effectively has nine, and eight of them are in its arms.",
+          "text": "Each of an octopus's eight arms contains its own cluster of neurons, letting it taste, touch and move on its own without waiting for an instruction from the centre.",
+          "note": "The Natural History Museum's Jon Ablett, who cares for the museum's cephalopod collection, says this lets the arms complete tasks faster and more effectively than a single central controller could manage alone."
+        },
+        {
+          "kind": "figure",
+          "value": "500",
+          "unit": "million",
+          "context": "roughly how many neurons a common octopus has, about as many as a dog, with two thirds of them distributed through its arms rather than its head."
+        },
+        {
+          "kind": "statement",
+          "text": "The arms are not entirely independent, though. A 2011 experiment sent an octopus's arm through a maze it could not feel its way through, forcing it to rely on eyesight instead.",
+          "note": "Most of the octopuses tested successfully guided the arm to food using only visual information processed by the central, doughnut shaped brain wrapped around the animal's oesophagus, proving the centre can still take top down control when needed."
+        },
+        {
+          "kind": "statement",
+          "text": "The blue in an octopus's blood is not a figure of speech. It runs on a copper based protein called haemocyanin instead of the iron based haemoglobin that makes human blood red.",
+          "note": "Haemocyanin carries oxygen more efficiently in cold, low oxygen water, which suits ocean life well. Deoxygenated, the blood loses its colour and turns clear."
+        },
+        {
+          "kind": "kicker",
+          "text": "Three separate hearts keep that blue blood moving: one circulates it around the body, and two exist purely to push it past the gills to pick up oxygen."
+        },
+        {
+          "kind": "sign",
+          "line": "Nine brains, three hearts, blue blood, and still somehow just an octopus.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "bombardier-beetle-explosive-defence",
+      "niche": "biology",
+      "verified": true,
+      "sources": [
+        "https://www.nhm.ac.uk/discover/bombardier-beetles-and-their-caustic-chemical-cannon.html: Natural History Museum London article by Emily Osterloff, quoting beetle curator Max Barclay, on the two chemical reaction, hydrogen peroxide and a hydroquinone, mixed in a rear abdominal chamber to fire a boiling, audible spray at up to 100 degrees Celsius, the African bombardier beetle's ability to aim the spray in almost any direction, Charles Darwin's own 1846 letter describing being sprayed after holding a related ground beetle in his teeth, and a cited Royal Society Open Science study in which 43 percent of bombardier beetles fed to Japanese toads were vomited back up alive, mostly within 12 to 107 minutes, with over 93 percent of those survivors still alive at least two weeks later."
+      ],
+      "verifiedNote": "Checked 14 Sep 2026. The 43 percent survival figure and the 12 to 107 minute window are specific to the cited study's one species pairing, Asian bombardier beetles fed to two species of Japanese toad, not bombardier beetles and toads in general, so the beats keep that framing rather than generalising it. The source itself notes the beetle in Darwin's 1846 letter was a close relative of true bombardier beetles rather than one itself, and the beat below reflects that distinction.",
+      "palette": {
+        "bg": "#140A05",
+        "ink": "#FFF1E6",
+        "accent": "#E89A3A",
+        "muted": "#8C6642"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Some beetles smell bad to survive. Bombardier beetles decided that was not dramatic enough.",
+          "text": "When threatened, a bombardier beetle mixes two chemicals stored in separate sacs inside its abdomen and fires the reaction straight at whatever is attacking it, with an audible pop.",
+          "note": "Natural History Museum beetle curator Max Barclay explains that a handful of related beetles use milder chemical defences, but bombardier beetles took the idea to an extreme."
+        },
+        {
+          "kind": "statement",
+          "text": "The chemicals are hydrogen peroxide and a hydroquinone, and mixing them is a genuinely violent reaction: the spray comes out scalding hot and under real pressure, fired in rapid pulses rather than one continuous stream.",
+          "note": "A tough chamber at the rear of the abdomen contains the reaction, so even an accidental discharge just fires harmlessly out the back rather than injuring the beetle itself."
+        },
+        {
+          "kind": "figure",
+          "value": "100",
+          "unit": "°C",
+          "context": "roughly how hot the beetle's defensive spray gets, hot enough that one species, the African bombardier beetle, can aim it in almost any direction, including back over its own body."
+        },
+        {
+          "kind": "statement",
+          "lead": "Charles Darwin found out about this the hard way, almost two centuries before the chemistry was explained.",
+          "text": "In an 1846 letter, Darwin described grabbing two ground beetles by hand and, rather than let a third species escape, popping one of the beetles into his mouth. It responded by firing its chemical defence down his throat.",
+          "note": "The beetle in that story was a close relative of true bombardier beetles rather than one itself, but a demonstration of the same basic strategy."
+        },
+        {
+          "kind": "kicker",
+          "text": "The defence still works after a beetle has already been eaten. In one study, Japanese toads that swallowed bombardier beetles vomited 43% of them back up alive, mostly within 12 to 107 minutes, and more than 93% of those survivors were still alive at least two weeks later."
+        },
+        {
+          "kind": "sign",
+          "line": "Getting eaten is not necessarily the end of the story, if you can still detonate from the inside.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "ketchup-tomato-pills-medicine",
+      "niche": "food",
+      "verified": true,
+      "sources": [
+        "https://www.popsci.com/science/ketchup-history-medicine/: Popular Science feature by Vittoria Traverso, drawing on food historian Andrew F. Smith's 1991 journal article Tomato Pills Will Cure All Your Ills, covering physician John Cook Bennett's promotion of tomatoes as a cure for diarrhoea, bilious attacks and indigestion, A.J. Holcombe's first tomato pills in 1835, rival tomato pill sellers Archibald Miles of Cleveland and Yale educated doctor Guy R. Phelps, an 1869 American Medical Association debate in which investigators found the pills contained no tomato at all, and the medical claims fading by around 1865 even as tomatoes themselves kept their place in American kitchens."
+      ],
+      "verifiedNote": "Checked 14 Sep 2026. This is a separate, earlier chapter of ketchup's history from the condiment itself: the source traces ketchup to a tomato free fermented fish sauce in China around 300 BCE, with tomatoes only entering English and American recipes from the early 1800s, around the same period this medicinal pill craze was unfolding. Kept the 1869 AMA debate and the 1865 fade as the source's own dates.",
+      "palette": {
+        "bg": "#170505",
+        "ink": "#FBEAE2",
+        "accent": "#C0392B",
+        "muted": "#8C5C52"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Ketchup spent part of its history as a prescription rather than a condiment.",
+          "text": "Physician John Cook Bennett spent years publicly promoting tomatoes, raw, cooked or in catsup, as a cure for diarrhoea, indigestion and bilious attacks.",
+          "note": "His claims helped kick off a genuine commercial rivalry between competing tomato pill sellers."
+        },
+        {
+          "kind": "credit",
+          "year": "1835",
+          "name": "A.J. Holcombe",
+          "role": "introduced the first tomato pills, in Glassboro, Alabama, kicking off a wave of competitors including Cleveland's Archibald Miles and Yale educated doctor Guy R. Phelps, each selling their own extract as the genuine cure."
+        },
+        {
+          "kind": "statement",
+          "text": "The pills were sold in pharmacies and grocery stores under the jingle tomato pills will cure all your ills.",
+          "note": "Food historian Andrew F. Smith documented the whole episode in a 1991 journal article that borrowed that exact line as its title."
+        },
+        {
+          "kind": "statement",
+          "text": "The medicine did not hold up. At an 1869 American Medical Association debate, investigators found that the popular tomato pills contained no actual tomato at all.",
+          "note": "By around 1865 the medical claims had already started to fade, though tomatoes themselves had by then earned a permanent place in American kitchens regardless."
+        },
+        {
+          "kind": "kicker",
+          "text": "Ketchup itself barely resembled today's version yet. It began as a tomato free fermented fish sauce in China around 300 BCE, and tomatoes were only added to English and American recipes from the early 1800s onward, around the same years doctors were prescribing the fruit as medicine."
+        },
+        {
+          "kind": "sign",
+          "line": "Long before it sat next to the fries, ketchup sat on a pharmacy shelf.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "peanuts-underground-geocarpy",
+      "niche": "food",
+      "verified": true,
+      "sources": [
+        "https://plants.ces.ncsu.edu/plants/arachis-hypogaea/: North Carolina State University Extension's plant profile for Arachis hypogaea, confirming peanuts are a legume in the pea and bean family Fabaceae rather than a true nut, native to Central Brazil, describing geocarpy as flowering above ground before a stem called a peg grows down into the soil to develop the pod underground, giving self pollinating yellow flowers appearing roughly 40 days after planting and pods typically ripening 120 to 150 days after planting, and noting the crop's nitrogen fixing root nodules that enrich the soil it grows in."
+      ],
+      "verifiedNote": "Checked 14 Sep 2026, via NC State University's own extension horticulture page. This replaces an earlier, less certain figure for pod development time that could not be traced to a source I had actually read in full: the 40 day flowering figure and the 120 to 150 day ripening window below are both stated directly on this page.",
+      "palette": {
+        "bg": "#0F120A",
+        "ink": "#F3F5E8",
+        "accent": "#9AAA3E",
+        "muted": "#6B7350"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "A peanut is not a nut, and it does not grow the way its name suggests either.",
+          "text": "Peanuts are legumes, in the same plant family as peas, beans and lentils, and after their yellow flowers pollinate themselves above ground, the plant sends the developing pod underground to finish growing.",
+          "note": "Botanists call this geocarpy, from the Greek for earth fruit."
+        },
+        {
+          "kind": "statement",
+          "text": "The mechanism is a structure called a peg. Once a flower is fertilised, it withers and a stem grows downward and away from the plant, burying its tip in the soil, where the pod then forms and swells at the buried end.",
+          "note": "It is a genuinely unusual strategy: almost every other flowering plant develops its fruit in the open air, not underground."
+        },
+        {
+          "kind": "figure",
+          "value": "40",
+          "unit": "days",
+          "context": "roughly how long after planting a peanut plant's self pollinating yellow flowers typically appear."
+        },
+        {
+          "kind": "figure",
+          "value": "150",
+          "unit": "days",
+          "context": "the upper end of how long peanut pods typically take to ripen underground after planting."
+        },
+        {
+          "kind": "kicker",
+          "text": "The plant is quietly useful even before harvest. Like other legumes, its roots host nitrogen fixing bacteria that enrich the soil, which is why growers are told to leave the roots behind to decay rather than pulling the whole plant out."
+        },
+        {
+          "kind": "sign",
+          "line": "A legume that flowers in the sun and finishes the job entirely out of sight.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "death-valley-disputed-heat-record",
+      "niche": "weather",
+      "verified": true,
+      "sources": [
+        "https://www.ncei.noaa.gov/news/earths-hottest-temperature: NOAA's National Centers for Environmental Information's own account of the 134 degree Fahrenheit reading recorded at Greenland Ranch, Death Valley, on 10 July 1913, its formal certification by the World Meteorological Organization on 12 September 2012 after a rival 1922 Libya reading was found invalid, and Death Valley's basin shape, 282 feet below sea level and ringed by mountains, as the explanation for its extreme heat.",
+        "https://www.livescience.com/planet-earth/weather/death-valleys-worlds-hottest-temperature-record-may-be-due-to-a-human-error: Live Science's 3 December 2025 report on a study led by University of Alabama in Huntsville meteorologist Roy Spencer, published in the Bulletin of the American Meteorological Society, which compared the July 1913 reading against 1923 to 2024 data from stations within 155 miles adjusted for elevation and concluded the true temperature was closer to 120 degrees Fahrenheit, attributing the gap to ranch foreman Oscar Denton having apparently moved or substituted the station's thermometer without official approval."
+      ],
+      "verifiedNote": "Checked 14 Sep 2026. NOAA and the World Meteorological Organization still officially list 134 degrees Fahrenheit as the certified record as of this check, so the beats below present Spencer's 2025 study as a live, unresolved challenge to that certification rather than an established correction, since no formal WMO review of the record has been opened.",
+      "palette": {
+        "bg": "#170905",
+        "ink": "#FFF2E0",
+        "accent": "#E84A2A",
+        "muted": "#8C6048"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The hottest temperature ever officially recorded on Earth has been under quiet suspicion for most of its 112 years on the books.",
+          "text": "On 10 July 1913, a station at Greenland Ranch in Death Valley reportedly reached 134 degrees Fahrenheit, and the World Meteorological Organization formally certified it as the world record in 2012, after a rival 1922 reading from Libya was found to be invalid.",
+          "note": "It remains the officially certified figure today, recorded during a ten day stretch that also produced several days above 129 degrees."
+        },
+        {
+          "kind": "figure",
+          "value": "134",
+          "unit": "°F",
+          "context": "the certified world record surface air temperature, still officially standing despite a 2025 study arguing the true figure was lower."
+        },
+        {
+          "kind": "statement",
+          "text": "That 2025 study, led by University of Alabama meteorologist Roy Spencer, compared the 1913 reading against a century of July data from nearby stations at similar elevation.",
+          "note": "The team estimated the real temperature at Greenland Ranch that day was closer to 120 degrees Fahrenheit, some 14 degrees below the certified figure."
+        },
+        {
+          "kind": "statement",
+          "text": "Their leading explanation is not equipment failure but a person: ranch foreman Oscar Denton, who photographic evidence suggests moved the station's thermometer shelter to a hotter, bare ground site without official approval.",
+          "note": "The study also raises the possibility that he substituted readings from unofficial veranda thermometers, some of which locals reported as showing 135 degrees or hotter that same week."
+        },
+        {
+          "kind": "kicker",
+          "text": "No formal World Meteorological Organization review has been opened, so the 134 degree figure keeps its certification for now. One independent climatologist called the newer study convincing precisely because it draws on many surrounding stations rather than a single comparison point."
+        },
+        {
+          "kind": "sign",
+          "line": "The world's hottest official record, and the argument over whether it actually happened is still open.",
+          "handle": "@bbm0902"
+        }
+      ]
+    },
+    {
+      "id": "snowflakes-identical-nancy-knight",
+      "niche": "weather",
+      "verified": true,
+      "sources": [
+        "https://www.abc.net.au/science/articles/2006/11/13/1784760.htm: ABC Science's Dr Karl archive piece tracing the no two snowflakes are alike myth to farmer Wilson A. Bentley, known as the Snowflake Man, who began photographing individual snow crystals around 1884 at age 19 and was made a Fellow of the American Meteorological Society in 1920 for it, and describing National Center for Atmospheric Research scientist Nancy Knight's 1988 discovery of two visually identical hollow hexagonal prism snow crystals, collected by research aircraft over a Wisconsin snowstorm, as the first confirmed exception to Bentley's claim."
+      ],
+      "verifiedNote": "Checked 14 Sep 2026. The source itself flags the obvious caveat, kept below rather than dropped: Knight's two crystals were identical only as far as could be seen under a microscope, not down to the individual molecule, a distinction the article raises rather than one added here.",
+      "palette": {
+        "bg": "#0A0F17",
+        "ink": "#EDF5FC",
+        "accent": "#8FC4EA",
+        "muted": "#6B7E8C"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "No two snowflakes are alike is one of those facts everyone knows, and it traces back to one very patient farmer rather than to any actual proof.",
+          "text": "Wilson A. Bentley, known as the Snowflake Man, spent decades in Jericho, Vermont, photographing individual snow crystals through a microscope rigged to a camera, starting around 1884 when he was 19.",
+          "note": "In 1920, the American Meteorological Society made him a Fellow and gave him their first ever research grant, twenty five dollars, for what they called 40 years of extremely patient work."
+        },
+        {
+          "kind": "figure",
+          "value": "5,381",
+          "unit": "photos",
+          "context": "how many individual snow crystal photomicrographs Bentley had taken by the time he died in 1931, the entire evidence base behind his famous claim that he had never seen two snowflakes alike."
+        },
+        {
+          "kind": "statement",
+          "lead": "Bentley's claim held up as popular wisdom for nearly seventy years, until it was tested almost by accident.",
+          "text": "In 1988, Nancy Knight, an atmospheric scientist at the National Center for Atmospheric Research, was studying high altitude cirrus clouds over Wisconsin, using a research aircraft to collect falling snow crystals on an oil coated glass slide.",
+          "note": "Two of the crystals she caught, hollow hexagonal prisms rather than the classic six pointed star shape, turned out to be identical to each other under the microscope."
+        },
+        {
+          "kind": "statement",
+          "text": "It is worth being precise about what identical means here.",
+          "note": "The two crystals matched under microscope examination, the standard snow researchers actually use. Looked at down to the individual molecule, the source itself points out, it is fair to ask whether anything is ever truly identical."
+        },
+        {
+          "kind": "kicker",
+          "text": "Bentley was not being sloppy. He photographed 5,381 crystals across a lifetime of patient work and simply never happened to catch two that matched. Knight's aircraft found the exception on a single flight through one Wisconsin storm."
+        },
+        {
+          "kind": "sign",
+          "line": "The myth survived seventy years of snowfall before one storm finally broke it.",
+          "handle": "@bbm0902"
+        }
+      ]
     }
   ]
 }
