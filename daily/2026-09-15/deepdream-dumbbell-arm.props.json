@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (deepdream-dumbbell-arm)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0710",
+    "ink": "#F5EFFA",
+    "accent": "#E14FD4",
+    "muted": "#7A6B85"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Google did not build DeepDream to make trippy art",
+      "text": "It was built to catch the network's mistakes.",
+      "note": "In 2015, engineers needed a way to check whether a trained neural network had learned the right thing, not just the popular thing.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "It found a mistake immediately",
+      "text": "Asked to picture a dumbbell, the network kept adding a muscular arm to lift it.",
+      "note": "Every training photo of a dumbbell happened to include the arm doing the lifting, so the network had never seen one alone.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "So the engineers flipped the idea. Instead of asking what a photo showed, they asked the network to exaggerate whatever it half recognised.",
+      "note": "Their own description: whatever you see there, I want more of it. Show it clouds, and a network trained on animals starts filling the sky with birds.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2015",
+      "name": "Mordvintsev, Olah and Tyka",
+      "role": "The Google engineers who published the technique, naming it Inceptionism after the neural network it ran on, itself named after the film Inception.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "kicker",
+      "text": "The code went public a month later. The name that stuck was DeepDream.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "sign",
+      "line": "It started as a bug report and ended as an art movement.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 118
+    }
+  ],
+  "cta": "Follow for more."
+}

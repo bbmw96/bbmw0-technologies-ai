@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (whatsapp-facebook-rejection-then-19-billion)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#081410",
+    "ink": "#EAF7EE",
+    "accent": "#25D366",
+    "muted": "#6E9885"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The company that turned down his job application ended up paying him billions.",
+      "text": "In 2009, Brian Acton applied for a job at Facebook and was rejected. He had already been turned down by Twitter too.",
+      "note": "He was an experienced engineer, not a novice: both companies passed on him within the same year.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "He tweeted about the Facebook rejection on 3 August 2009: 'Facebook turned me down. It was a great opportunity to connect with some fantastic people. Looking forward to life's next adventure.'",
+      "note": "His next adventure was already underway. Former Yahoo colleague Jan Koum had incorporated WhatsApp Inc. that February, and Acton joined him later that year.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "Acton helped raise 250,000 dollars in seed funding from five former Yahoo colleagues and was granted co-founder status once he came aboard.",
+      "note": "The money came from people who already trusted him from his Yahoo days, not from a venture pitch to strangers.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "19",
+      "unit": "billion",
+      "context": "roughly the value, in dollars, of the deal Facebook announced on 19 February 2014 to acquire WhatsApp, the company built by the man it had rejected for a job.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "kicker",
+      "text": "The deal, split between cash, stock and restricted stock units, closed on 6 October 2014, eight months after the announcement.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "sign",
+      "line": "Rejected for a job in 2009. Paid billions for his company in 2014.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 124
+    }
+  ],
+  "cta": "Follow for more."
+}

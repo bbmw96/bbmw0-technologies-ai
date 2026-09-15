@@ -1,0 +1,25 @@
+{
+  "slug": "deepdream-dumbbell-arm",
+  "date": "2026-09-15",
+  "title": "It was built to catch the network's mistakes.",
+  "description": "It was built to catch the network's mistakes. In 2015, engineers needed a way to check whether a trained neural network had learned the right thing, not just the popular thing.\n\nAsked to picture a dumbbell, the network kept adding a muscular arm to lift it. Every training photo of a dumbbell happened to include the arm doing the lifting, so the network had never seen one alone.\n\nSo the engineers flipped the idea. Instead of asking what a photo showed, they asked the network to exaggerate whatever it half recognised. Their own description: whatever you see there, I want more of it. Show it clouds, and a network trained on animals starts filling the sky with birds.\n\nThe Google engineers who published the technique, naming it Inceptionism after the neural network it ran on, itself named after the film Inception.\n\nThe code went public a month later. The name that stuck was DeepDream.\n\nSources:\n- https://research.google/blog/inceptionism-going-deeper-into-neural-networks/: the original Google Research blog post by Alexander Mordvintsev, Christopher Olah and Mike Tyka, published June 2015, explaining the technique was built to visualise what a trained neural network had actually learned, showing that when the network was asked to generate its own idea of a dumbbell every version came with a muscular arm attached because no training photo had ever shown a dumbbell without one, and describing the dream technique itself as feeding the network a real image and asking it to amplify whatever it half recognised, in the authors' own words, whatever you see there, I want more of it.\n- https://en.wikipedia.org/wiki/DeepDream: confirms the network used was codenamed Inception, after the film, built for the 2014 ImageNet visual recognition challenge, that Google's code was released publicly in July 2015, and that the popular name DeepDream came from that July code release rather than the original blog post, which had called the technique Inceptionism.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-15-deepdream-dumbbell-arm.mp4",
+  "propsFile": "daily/2026-09-15/deepdream-dumbbell-arm.props.json",
+  "durationInFrames": 1068,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}

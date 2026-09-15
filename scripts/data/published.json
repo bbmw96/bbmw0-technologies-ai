@@ -189,7 +189,10 @@
     "reel:antikythera-not-noticed",
     "reel:owl-silent-flight-engineering",
     "reel:voyager-golden-record",
-    "reel:snowflakes-identical-nancy-knight"
+    "reel:snowflakes-identical-nancy-knight",
+    "reel:sonic-was-a-rabbit",
+    "reel:whatsapp-facebook-rejection-then-19-billion",
+    "reel:deepdream-dumbbell-arm"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -3268,6 +3271,45 @@
       "channelId": "yt-bbm0902",
       "special": false,
       "platform": "youtube"
+    },
+    {
+      "id": "sonic-was-a-rabbit",
+      "date": "2026-09-15",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Sonic was originally a rabbit.",
+      "description": "Sonic was originally a rabbit. Sega's 1990 internal contest to find a new mascot drew around 200 submitted designs.\n\nRoughly how many characters Sega's own staff submitted before anyone had heard of Sonic.\n\nIt picked up objects with its ears and threw them at enemies, and that slowed everything down. Programmer Yuji Naka said plainly that game speed could not be maintained with that action.\n\nSo the choice narrowed to two animals that roll into a ball: an armadillo, or a hedgehog. The hedgehog won because its quills looked like an attack. The armadillo's shell just looked like armour.\n\nThe winning design was not even new. It was an old doodle Ohshima had already thrown away.\n\nSources:\n- https://www.vice.com/en/article/sonic-the-hedgehog-was-almost-sonic-the-rabbit/: an excerpt from Sega's own Sonic the Hedgehog 25th Anniversary Art Book, establishing that Sega's 1990 internal mascot contest drew around 200 character designs from staff across Sega Japan and Sega of America, that artist Naoto Ohshima's winning design was originally a rabbit with a bow tie and long ears that picked up and threw objects, that programmer Yuji Naka is quoted saying game speed could not be maintained with that action, that the team then narrowed the choice to an armadillo or a hedgehog and picked the hedgehog because its quills read better as an attack than the armadillo's leathery shell, and that the final design reused an old discarded doodle of Ohshima's called Mr Needlemouse.\n- https://www.techradar.com/news/sonic-boom-sega-designer-tells-the-origin-story-of-a-gaming-legend: a 2021 interview with designer Hirokazu Yasuhara confirming the internal contest was launched to replace Sega's previous mascot Alex Kidd, that Ohshima submitted a range of designs including an armadillo, a porcupine, a dog, a rabbit and a moustached man who became Doctor Robotnik, and giving the game's release date of 23 June 1991.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "whatsapp-facebook-rejection-then-19-billion",
+      "date": "2026-09-15",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "In 2009, Brian Acton applied for a job at Facebook and was rejected. He had already been turned down",
+      "description": "In 2009, Brian Acton applied for a job at Facebook and was rejected. He had already been turned down by Twitter too. He was an experienced engineer, not a novice: both companies passed on him within the same year.\n\nHe tweeted about the Facebook rejection on 3 August 2009: 'Facebook turned me down. It was a great opportunity to connect with some fantastic people. Looking forward to life's next adventure.' His next adventure was already underway. Former Yahoo colleague Jan Koum had incorporated WhatsApp Inc. that February, and Acton joined him later that year.\n\nActon helped raise 250,000 dollars in seed funding from five former Yahoo colleagues and was granted co-founder status once he came aboard. The money came from people who already trusted him from his Yahoo days, not from a venture pitch to strangers.\n\nroughly the value, in dollars, of the deal Facebook announced on 19 February 2014 to acquire WhatsApp, the company built by the man it had rejected for a job.\n\nThe deal, split between cash, stock and restricted stock units, closed on 6 October 2014, eight months after the announcement.\n\nSources:\n- https://en.wikipedia.org/wiki/Brian_Acton: confirms Brian Acton was rejected for a job at Facebook in 2009, having earlier also been turned down by Twitter, and that he later co-founded WhatsApp with former Yahoo colleague Jan Koum, going on to raise seed funding from other former Yahoo colleagues and receive co-founder status.\n- https://en.wikipedia.org/wiki/WhatsApp: confirms Jan Koum incorporated WhatsApp Inc. in California on 24 February 2009, that Brian Acton joined him later that year and helped raise 250,000 dollars in seed funding from five former Yahoo colleagues, and that Facebook announced its acquisition of WhatsApp on 19 February 2014 for a deal valued at approximately 19.3 billion dollars in cash, stock and restricted stock units, which closed on 6 October 2014.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "deepdream-dumbbell-arm",
+      "date": "2026-09-15",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It was built to catch the network's mistakes.",
+      "description": "It was built to catch the network's mistakes. In 2015, engineers needed a way to check whether a trained neural network had learned the right thing, not just the popular thing.\n\nAsked to picture a dumbbell, the network kept adding a muscular arm to lift it. Every training photo of a dumbbell happened to include the arm doing the lifting, so the network had never seen one alone.\n\nSo the engineers flipped the idea. Instead of asking what a photo showed, they asked the network to exaggerate whatever it half recognised. Their own description: whatever you see there, I want more of it. Show it clouds, and a network trained on animals starts filling the sky with birds.\n\nThe Google engineers who published the technique, naming it Inceptionism after the neural network it ran on, itself named after the film Inception.\n\nThe code went public a month later. The name that stuck was DeepDream.\n\nSources:\n- https://research.google/blog/inceptionism-going-deeper-into-neural-networks/: the original Google Research blog post by Alexander Mordvintsev, Christopher Olah and Mike Tyka, published June 2015, explaining the technique was built to visualise what a trained neural network had actually learned, showing that when the network was asked to generate its own idea of a dumbbell every version came with a muscular arm attached because no training photo had ever shown a dumbbell without one, and describing the dream technique itself as feeding the network a real image and asking it to amplify whatever it half recognised, in the authors' own words, whatever you see there, I want more of it.\n- https://en.wikipedia.org/wiki/DeepDream: confirms the network used was codenamed Inception, after the film, built for the 2014 ImageNet visual recognition challenge, that Google's code was released publicly in July 2015, and that the popular name DeepDream came from that July code release rather than the original blog post, which had called the technique Inceptionism.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }

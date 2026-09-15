@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (sonic-was-a-rabbit)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#05080F",
+    "ink": "#EFF6FF",
+    "accent": "#2E6BFF",
+    "muted": "#5C6B8A"
+  },
+  "niche": "gaming",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Sega's answer to Mario did not start as a hedgehog",
+      "text": "Sonic was originally a rabbit.",
+      "note": "Sega's 1990 internal contest to find a new mascot drew around 200 submitted designs.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "figure",
+      "value": "200",
+      "unit": "designs",
+      "context": "Roughly how many characters Sega's own staff submitted before anyone had heard of Sonic.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "statement",
+      "lead": "The rabbit did not survive contact with the actual game",
+      "text": "It picked up objects with its ears and threw them at enemies, and that slowed everything down.",
+      "note": "Programmer Yuji Naka said plainly that game speed could not be maintained with that action.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "So the choice narrowed to two animals that roll into a ball: an armadillo, or a hedgehog.",
+      "note": "The hedgehog won because its quills looked like an attack. The armadillo's shell just looked like armour.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The winning design was not even new. It was an old doodle Ohshima had already thrown away.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "sign",
+      "line": "The mascot that beat Mario started out as a rabbit nobody kept.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 118
+    }
+  ],
+  "cta": "Follow for more."
+}
