@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (antikythera-not-noticed)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0806",
+    "ink": "#F7F1E6",
+    "accent": "#C68A3D",
+    "muted": "#7A6A54"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The Antikythera mechanism was not recognised the moment it was found",
+      "text": "Sponge divers recovered it from a Roman era shipwreck off Greece in 1901, and it sat as an unremarkable lump of corroded bronze for more than a year.",
+      "note": "Museum staff were busy piecing together the wreck's more obvious treasures first: bronze and marble statues.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "It was only on 17 May 1902 that archaeologist Valerios Stais, prompted by his cousin, noticed a gear wheel embedded in one of the fragments.",
+      "note": "Even then, many scholars assumed the gear was too advanced to belong with the rest of the wreck and dismissed it as a later intrusion.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "It turned out to be a hand cranked calculator",
+      "text": "Made in the 2nd century BC, it used dozens of meshing bronze gears to track the Sun, the Moon's irregular orbit, eclipses years in advance, and even the four year cycle of the ancient Olympic Games.",
+      "note": "A 2005 Cardiff University scan using X-ray tomography read inscriptions hidden under the encrusted surface and mapped gearing nobody could previously see.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "1500",
+      "unit": "years",
+      "context": "Roughly how long it took before another machine of comparable mechanical complexity was built, in 14th century Europe.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "kicker",
+      "text": "It was found in the same shipwreck as a set of marble statues, and it took the museum over a year to notice it was the more remarkable find.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "sign",
+      "line": "The most advanced machine of the ancient world spent a year mistaken for scrap.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 130
+    }
+  ],
+  "cta": "Subscribe for more."
+}

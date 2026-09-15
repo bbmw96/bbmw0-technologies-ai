@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (zeigarnik-not-universal)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A1418",
+    "ink": "#EAF6F6",
+    "accent": "#2DD4BF",
+    "muted": "#5C7A7A"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The reason your to do list nags you, according to every productivity blog",
+      "text": "Unfinished tasks are supposed to stick in memory better than finished ones.",
+      "note": "It is named the Zeigarnik effect, after a 1927 study, and shows up in almost every article about why checklists work.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1927",
+      "name": "Bluma Zeigarnik",
+      "role": "Psychologist working with Kurt Lewin. She turned an odd detail, a waiter who forgot every order the moment the bill was paid, into a real experiment.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "statement",
+      "text": "Later attempts to repeat the result kept failing.",
+      "note": "A 1968 study found no real difference in memory between finished and unfinished tasks.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "statement",
+      "lead": "In 2025, a full review made it official",
+      "text": "Researchers found no memory advantage for unfinished tasks at all.",
+      "note": "Their own conclusion: the Zeigarnik effect lacks universal validity.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "kicker",
+      "text": "A related effect, the urge to go back and finish something, held up fine. That one just never got the famous name.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "sign",
+      "line": "The habit survived. The reason you were given for it did not.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 118
+    }
+  ],
+  "cta": "Subscribe for more."
+}

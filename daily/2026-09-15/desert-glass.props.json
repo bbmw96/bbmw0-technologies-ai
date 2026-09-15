@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (desert-glass)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#120E08",
+    "ink": "#F3ECDC",
+    "accent": "#E0A63E",
+    "muted": "#8C7F63"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "In Tutankhamun's tomb",
+      "text": "One brooch is carved from a meteorite strike.",
+      "note": "The scarab at its centre is cut from natural yellow-green glass scattered across the Sahara. Ancient Egyptian jewellers were carving genuine impact glass, not shaping paint or dye.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "29",
+      "unit": "million years",
+      "context": "How long before Tutankhamun's reign a rock-shattering impact melted Saharan sand into the glass his jeweller later carved.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "lead": "For decades, nobody could prove how",
+      "text": "It might have been an explosion in the air, not on the ground.",
+      "note": "A 100-megaton airburst, 200 times the 2013 Chelyabinsk event, could melt sand without leaving a crater. The debate ran for years.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The proof turned up inside the glass itself",
+      "text": "A mineral that only forms from a real ground impact.",
+      "note": "Reidite, found in roughly one in ten zircon grains across every sample tested, needs shock pressure an airburst cannot produce.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "No crater has been found. The glass proves the strike happened anyway.",
+      "durationInFrames": 94
+    },
+    {
+      "kind": "sign",
+      "line": "A pharaoh wore evidence of an impact, three thousand years before anyone could read it.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 136
+    }
+  ],
+  "cta": "Subscribe for more."
+}

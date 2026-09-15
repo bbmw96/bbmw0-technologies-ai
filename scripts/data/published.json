@@ -183,7 +183,10 @@
     "reel:death-valley-disputed-heat-record",
     "reel:human-bioluminescence-glow",
     "reel:octopus-nine-brains-blue-blood",
-    "reel:corrupted-blood-2005"
+    "reel:corrupted-blood-2005",
+    "reel:zeigarnik-not-universal",
+    "reel:desert-glass",
+    "reel:antikythera-not-noticed"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -3168,6 +3171,53 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "zeigarnik-not-universal",
+      "date": "2026-09-15",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Unfinished tasks are supposed to stick in memory better than finished ones.",
+      "description": "Unfinished tasks are supposed to stick in memory better than finished ones. It is named the Zeigarnik effect, after a 1927 study, and shows up in almost every article about why checklists work.\n\nPsychologist working with Kurt Lewin. She turned an odd detail, a waiter who forgot every order the moment the bill was paid, into a real experiment.\n\nLater attempts to repeat the result kept failing. A 1968 study found no real difference in memory between finished and unfinished tasks.\n\nResearchers found no memory advantage for unfinished tasks at all. Their own conclusion: the Zeigarnik effect lacks universal validity.\n\nA related effect, the urge to go back and finish something, held up fine. That one just never got the famous name.\n\nSources:\n- https://en.wikipedia.org/wiki/Zeigarnik_effect: establishes that Bluma Zeigarnik, a Lithuanian Soviet psychologist working with Kurt Lewin, published the original finding in 1927 in the journal Psychologische Forschung after Lewin noticed a waiter who remembered every unpaid order in detail but forgot them completely once the bill was settled; also records a 1968 replication attempt by Van Bergen that found no significant difference in recall between finished and unfinished tasks, and summarises a 2025 systematic review and meta analysis that found no memory advantage for unfinished tasks.\n- https://www.nature.com/articles/s41599-025-05000-w: Ghibellini and Meier's 2025 meta analysis itself, whose abstract states they found no memory advantage for unfinished tasks but did find a general tendency to resume interrupted tasks, and concludes that this related effect, named after Zeigarnik's colleague Maria Ovsiankina, represents a genuine general tendency while the Zeigarnik effect itself lacks universal validity.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "jvWi8EWGwZQ",
+      "youtubeUrl": "https://youtu.be/jvWi8EWGwZQ",
+      "uploadedAt": "2026-09-15T14:03:41.938Z",
+      "privacy": "public"
+    },
+    {
+      "id": "desert-glass",
+      "date": "2026-09-15",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "One brooch is carved from a meteorite strike.",
+      "description": "One brooch is carved from a meteorite strike. The scarab at its centre is cut from natural yellow-green glass scattered across the Sahara. Ancient Egyptian jewellers were carving genuine impact glass, not shaping paint or dye.\n\nHow long before Tutankhamun's reign a rock-shattering impact melted Saharan sand into the glass his jeweller later carved.\n\nIt might have been an explosion in the air, not on the ground. A 100-megaton airburst, 200 times the 2013 Chelyabinsk event, could melt sand without leaving a crater. The debate ran for years.\n\nA mineral that only forms from a real ground impact. Reidite, found in roughly one in ten zircon grains across every sample tested, needs shock pressure an airburst cannot produce.\n\nNo crater has been found. The glass proves the strike happened anyway.\n\nSources:\n- https://theconversation.com/how-we-solved-the-mystery-of-libyan-desert-glass-117253: written by the Curtin University research team who published the study in the journal Geology, read in full. Establishes that Libyan desert glass formed about 29 million years ago from silica melted above 1,600 degrees Celsius; that the leading rival explanation was a 100-megaton airburst, 200 times the 2013 Chelyabinsk event; and that the discovery of former reidite, a high-pressure mineral, in around 10 per cent of zircon grains across all seven samples studied, is possible only from the shock wave of a genuine meteorite impact, not an airburst, because a 100-megaton airburst of that scale should recur roughly every 10,000 years and the geological record does not support that frequency.\n- https://www.ancient-origins.net/artifacts-other-artifacts/tutankhamun-s-scarab-brooch-was-born-28-million-year-old-comet-strike-021509: read in full. Confirms the scarab at the centre of Tutankhamun's brooch is carved from this natural desert glass, and covers a separate 2013 finding by Professor Jan Kramers of the University of Johannesburg: a diamond-bearing pebble found in the same desert, nicknamed 'Hypatia', whose diamonds needed extreme shock pressure to form, proposed as possibly the first known fragment of a comet nucleus found on Earth.\n- https://www.britannica.com/biography/Tutankhamun: read in full. Confirms Tutankhamun's reign as king of Egypt from about 1333 BC to 1323 BC, and that his tomb was discovered in the Valley of the Kings in 1922.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "antikythera-not-noticed",
+      "date": "2026-09-15",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Sponge divers recovered it from a Roman era shipwreck off Greece in 1901, and it sat as an unremarka",
+      "description": "Sponge divers recovered it from a Roman era shipwreck off Greece in 1901, and it sat as an unremarkable lump of corroded bronze for more than a year. Museum staff were busy piecing together the wreck's more obvious treasures first: bronze and marble statues.\n\nIt was only on 17 May 1902 that archaeologist Valerios Stais, prompted by his cousin, noticed a gear wheel embedded in one of the fragments. Even then, many scholars assumed the gear was too advanced to belong with the rest of the wreck and dismissed it as a later intrusion.\n\nMade in the 2nd century BC, it used dozens of meshing bronze gears to track the Sun, the Moon's irregular orbit, eclipses years in advance, and even the four year cycle of the ancient Olympic Games. A 2005 Cardiff University scan using X-ray tomography read inscriptions hidden under the encrusted surface and mapped gearing nobody could previously see.\n\nRoughly how long it took before another machine of comparable mechanical complexity was built, in 14th century Europe.\n\nIt was found in the same shipwreck as a set of marble statues, and it took the museum over a year to notice it was the more remarkable find.\n\nSources:\n- https://en.wikipedia.org/wiki/Antikythera_mechanism: confirms the 1901 shipwreck recovery off Antikythera, that the mechanism went unnoticed for over a year while museum staff worked on more obvious finds, the 17 May 1902 identification by Valerios Stais of an embedded gear wheel, the 2nd century BC construction date and the 70 to 60 BC dating of the wreck itself, the 2005 Cardiff University X-ray tomography study led by Mike Edmunds, the device's functions predicting eclipses and tracking the Olympic cycle, and the statement that machines of comparable complexity did not reappear for around 1,500 years, until 14th century astronomical clocks.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "OSchU9cHwtM",
+      "youtubeUrl": "https://youtu.be/OSchU9cHwtM",
+      "uploadedAt": "2026-09-15T14:01:03.258Z",
+      "privacy": "public"
     }
   ]
 }

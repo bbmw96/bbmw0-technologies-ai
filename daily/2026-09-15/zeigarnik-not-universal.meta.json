@@ -1,0 +1,25 @@
+{
+  "slug": "zeigarnik-not-universal",
+  "date": "2026-09-15",
+  "title": "Unfinished tasks are supposed to stick in memory better than finished ones.",
+  "description": "Unfinished tasks are supposed to stick in memory better than finished ones. It is named the Zeigarnik effect, after a 1927 study, and shows up in almost every article about why checklists work.\n\nPsychologist working with Kurt Lewin. She turned an odd detail, a waiter who forgot every order the moment the bill was paid, into a real experiment.\n\nLater attempts to repeat the result kept failing. A 1968 study found no real difference in memory between finished and unfinished tasks.\n\nResearchers found no memory advantage for unfinished tasks at all. Their own conclusion: the Zeigarnik effect lacks universal validity.\n\nA related effect, the urge to go back and finish something, held up fine. That one just never got the famous name.\n\nSources:\n- https://en.wikipedia.org/wiki/Zeigarnik_effect: establishes that Bluma Zeigarnik, a Lithuanian Soviet psychologist working with Kurt Lewin, published the original finding in 1927 in the journal Psychologische Forschung after Lewin noticed a waiter who remembered every unpaid order in detail but forgot them completely once the bill was settled; also records a 1968 replication attempt by Van Bergen that found no significant difference in recall between finished and unfinished tasks, and summarises a 2025 systematic review and meta analysis that found no memory advantage for unfinished tasks.\n- https://www.nature.com/articles/s41599-025-05000-w: Ghibellini and Meier's 2025 meta analysis itself, whose abstract states they found no memory advantage for unfinished tasks but did find a general tendency to resume interrupted tasks, and concludes that this related effect, named after Zeigarnik's colleague Maria Ovsiankina, represents a genuine general tendency while the Zeigarnik effect itself lacks universal validity.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "productivity",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-15-zeigarnik-not-universal.mp4",
+  "propsFile": "daily/2026-09-15/zeigarnik-not-universal.props.json",
+  "durationInFrames": 1026,
+  "audioUrl": "",
+  "niche": "productivity",
+  "composition": "Reel"
+}
