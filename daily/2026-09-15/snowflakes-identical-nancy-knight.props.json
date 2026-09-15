@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (snowflakes-identical-nancy-knight)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0F17",
+    "ink": "#EDF5FC",
+    "accent": "#8FC4EA",
+    "muted": "#6B7E8C"
+  },
+  "niche": "weather",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "No two snowflakes are alike is one of those facts everyone knows, and it traces back to one very patient farmer rather than to any actual proof.",
+      "text": "Wilson A. Bentley, known as the Snowflake Man, spent decades in Jericho, Vermont, photographing individual snow crystals through a microscope rigged to a camera, starting around 1884 when he was 19.",
+      "note": "In 1920, the American Meteorological Society made him a Fellow and gave him their first ever research grant, twenty five dollars, for what they called 40 years of extremely patient work.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "5,381",
+      "unit": "photos",
+      "context": "how many individual snow crystal photomicrographs Bentley had taken by the time he died in 1931, the entire evidence base behind his famous claim that he had never seen two snowflakes alike.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Bentley's claim held up as popular wisdom for nearly seventy years, until it was tested almost by accident.",
+      "text": "In 1988, Nancy Knight, an atmospheric scientist at the National Center for Atmospheric Research, was studying high altitude cirrus clouds over Wisconsin, using a research aircraft to collect falling snow crystals on an oil coated glass slide.",
+      "note": "Two of the crystals she caught, hollow hexagonal prisms rather than the classic six pointed star shape, turned out to be identical to each other under the microscope.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "It is worth being precise about what identical means here.",
+      "note": "The two crystals matched under microscope examination, the standard snow researchers actually use. Looked at down to the individual molecule, the source itself points out, it is fair to ask whether anything is ever truly identical.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Bentley was not being sloppy. He photographed 5,381 crystals across a lifetime of patient work and simply never happened to catch two that matched. Knight's aircraft found the exception on a single flight through one Wisconsin storm.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "The myth survived seventy years of snowfall before one storm finally broke it.",
+      "handle": "@bbm0902",
+      "durationInFrames": 124
+    }
+  ],
+  "cta": "Subscribe for more."
+}

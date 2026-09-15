@@ -186,7 +186,10 @@
     "reel:corrupted-blood-2005",
     "reel:zeigarnik-not-universal",
     "reel:desert-glass",
-    "reel:antikythera-not-noticed"
+    "reel:antikythera-not-noticed",
+    "reel:owl-silent-flight-engineering",
+    "reel:voyager-golden-record",
+    "reel:snowflakes-identical-nancy-knight"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -3218,6 +3221,53 @@
       "youtubeUrl": "https://youtu.be/OSchU9cHwtM",
       "uploadedAt": "2026-09-15T14:01:03.258Z",
       "privacy": "public"
+    },
+    {
+      "id": "owl-silent-flight-engineering",
+      "date": "2026-09-15",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "In 1934, British engineer Robert Rule Graham identified three separate wing structures that let them",
+      "description": "In 1934, British engineer Robert Rule Graham identified three separate wing structures that let them do it. He called them the comb, the fringe and the velvet, each solving a different part of the noise problem.\n\nA row of stiff, comb-like serrations along the leading edge of the wing breaks up incoming air into smaller, quieter streams before it can build into noisy turbulence. This is the structure most modern engineering copies have focused on.\n\nA soft, ragged fringe along the back edge of the wing smooths the air as it leaves, while a velvety layer of down across the wing itself soaks up whatever high-frequency sound is left. Together the three structures strip out almost all the whooshing sound other birds' wings make.\n\na British aeronautical engineer and ornithologist, was the first to describe all three of these structures and connect them to the owl's silence.\n\nEngineers have since copied the comb onto wind turbine blades, cutting the aerodynamic noise they produce and showing that an adaptation built for hunting in the dark has something to teach modern turbine and aircraft design.\n\nSources:\n- https://www.smithsonianmag.com/science-nature/silence-wind-turbines-engineers-are-studying-owl-wings-180974659/: describes British aeronautical engineer and ornithologist Robert Rule Graham's 1934 description of three wing structures behind owl silent flight, the serrated leading-edge comb, the soft trailing fringe, and a velvety surface, and reports that engineers have copied the comb's serrations onto wind turbine blades to cut aerodynamic noise.\n- https://pmc.ncbi.nlm.nih.gov/articles/PMC13204868/: a review of owl-inspired serration research confirming the three structures identified by Graham, that the leading-edge comb breaks up airflow into smaller, quieter turbulence, that the velvet-like surface absorbs high-frequency sound, and that the trailing fringe further smooths the air leaving the wing, with modern studies applying comb-style serrations to wind turbine and aircraft blades to reduce noise.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "animals",
+      "channelId": "yt-bbm0902",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "XqjOK1zHMuw",
+      "youtubeUrl": "https://youtu.be/XqjOK1zHMuw",
+      "uploadedAt": "2026-09-15T14:06:55.734Z",
+      "privacy": "public"
+    },
+    {
+      "id": "voyager-golden-record",
+      "date": "2026-09-15",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Each Voyager probe carries a gold plated copper phonograph record holding sounds and images chosen t",
+      "description": "Each Voyager probe carries a gold plated copper phonograph record holding sounds and images chosen to represent life and culture on Earth. The contents include 116 images, greetings in 55 languages, and a music selection running from Bach and Beethoven to Chuck Berry and Blind Willie Johnson.\n\nThe record's cover is inscribed with instructions for playing it, and a sample of pure uranium 238 so that anyone who finds it can date the launch from how much of it has decayed. Uranium 238 has a half life of about 4.5 billion years, so the clue is built to still work long after any human record of the mission is gone.\n\nRoughly how long it will take Voyager 1 to pass within a light year and a half of another star, Gliese 445, the record's first close encounter with anything.\n\nProducers wanted the Beatles' Here Comes the Sun on it, and the band agreed, but the record label that controlled the rights would not clear it in time. Accounts of exactly why differ in the details, so this is included as the broad, agreed shape of the story rather than a precise quote.\n\nHumanity's message to the universe is more likely to be read by nobody for tens of thousands of years than by anybody at all.\n\nSources:\n- https://en.wikipedia.org/wiki/Voyager_Golden_Record: confirms both 1977 Voyager probes carry a gold plated copper record with 116 images, spoken greetings in 55 languages, natural sounds and a music selection including Bach, Beethoven, Chuck Berry and Blind Willie Johnson, describes the inscribed playback instructions and the uranium 238 sample used as a radioactive clock for dating the launch, gives Voyager 1's projected approach to within 1.6 light years of the star Gliese 445 in about 40,000 years as its first stellar encounter, and covers the disputed rights clearance story around including the Beatles' Here Comes the Sun.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "space",
+      "channelId": "yt-bbm0902",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "6oEk1mQe3go",
+      "youtubeUrl": "https://youtu.be/6oEk1mQe3go",
+      "uploadedAt": "2026-09-15T14:11:20.893Z",
+      "privacy": "public"
+    },
+    {
+      "id": "snowflakes-identical-nancy-knight",
+      "date": "2026-09-15",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Wilson A. Bentley, known as the Snowflake Man, spent decades in Jericho, Vermont, photographing indi",
+      "description": "Wilson A. Bentley, known as the Snowflake Man, spent decades in Jericho, Vermont, photographing individual snow crystals through a microscope rigged to a camera, starting around 1884 when he was 19. In 1920, the American Meteorological Society made him a Fellow and gave him their first ever research grant, twenty five dollars, for what they called 40 years of extremely patient work.\n\nhow many individual snow crystal photomicrographs Bentley had taken by the time he died in 1931, the entire evidence base behind his famous claim that he had never seen two snowflakes alike.\n\nIn 1988, Nancy Knight, an atmospheric scientist at the National Center for Atmospheric Research, was studying high altitude cirrus clouds over Wisconsin, using a research aircraft to collect falling snow crystals on an oil coated glass slide. Two of the crystals she caught, hollow hexagonal prisms rather than the classic six pointed star shape, turned out to be identical to each other under the microscope.\n\nIt is worth being precise about what identical means here. The two crystals matched under microscope examination, the standard snow researchers actually use. Looked at down to the individual molecule, the source itself points out, it is fair to ask whether anything is ever truly identical.\n\nBentley was not being sloppy. He photographed 5,381 crystals across a lifetime of patient work and simply never happened to catch two that matched. Knight's aircraft found the exception on a single flight through one Wisconsin storm.\n\nSources:\n- https://www.abc.net.au/science/articles/2006/11/13/1784760.htm: ABC Science's Dr Karl archive piece tracing the no two snowflakes are alike myth to farmer Wilson A. Bentley, known as the Snowflake Man, who began photographing individual snow crystals around 1884 at age 19 and was made a Fellow of the American Meteorological Society in 1920 for it, and describing National Center for Atmospheric Research scientist Nancy Knight's 1988 discovery of two visually identical hollow hexagonal prism snow crystals, collected by research aircraft over a Wisconsin snowstorm, as the first confirmed exception to Bentley's claim.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "weather",
+      "channelId": "yt-bbm0902",
+      "special": false,
+      "platform": "youtube"
     }
   ]
 }

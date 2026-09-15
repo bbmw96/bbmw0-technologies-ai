@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (voyager-golden-record)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#05070F",
+    "ink": "#F4F2E9",
+    "accent": "#E8C468",
+    "muted": "#5A5A6E"
+  },
+  "niche": "space",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Two records were launched out of the solar system in 1977, and neither one is meant to be played soon",
+      "text": "Each Voyager probe carries a gold plated copper phonograph record holding sounds and images chosen to represent life and culture on Earth.",
+      "note": "The contents include 116 images, greetings in 55 languages, and a music selection running from Bach and Beethoven to Chuck Berry and Blind Willie Johnson.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "The record's cover is inscribed with instructions for playing it, and a sample of pure uranium 238 so that anyone who finds it can date the launch from how much of it has decayed.",
+      "note": "Uranium 238 has a half life of about 4.5 billion years, so the clue is built to still work long after any human record of the mission is gone.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "40000",
+      "unit": "years",
+      "context": "Roughly how long it will take Voyager 1 to pass within a light year and a half of another star, Gliese 445, the record's first close encounter with anything.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "lead": "One track on the record carries its own small myth",
+      "text": "Producers wanted the Beatles' Here Comes the Sun on it, and the band agreed, but the record label that controlled the rights would not clear it in time.",
+      "note": "Accounts of exactly why differ in the details, so this is included as the broad, agreed shape of the story rather than a precise quote.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Humanity's message to the universe is more likely to be read by nobody for tens of thousands of years than by anybody at all.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "sign",
+      "line": "The furthest object humans have ever built is still carrying a mixtape.",
+      "handle": "@bbm0902",
+      "durationInFrames": 118
+    }
+  ],
+  "cta": "Subscribe for more."
+}

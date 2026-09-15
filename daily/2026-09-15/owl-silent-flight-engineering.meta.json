@@ -1,0 +1,25 @@
+{
+  "slug": "owl-silent-flight-engineering",
+  "date": "2026-09-15",
+  "title": "In 1934, British engineer Robert Rule Graham identified three separate wing structures that let them",
+  "description": "In 1934, British engineer Robert Rule Graham identified three separate wing structures that let them do it. He called them the comb, the fringe and the velvet, each solving a different part of the noise problem.\n\nA row of stiff, comb-like serrations along the leading edge of the wing breaks up incoming air into smaller, quieter streams before it can build into noisy turbulence. This is the structure most modern engineering copies have focused on.\n\nA soft, ragged fringe along the back edge of the wing smooths the air as it leaves, while a velvety layer of down across the wing itself soaks up whatever high-frequency sound is left. Together the three structures strip out almost all the whooshing sound other birds' wings make.\n\na British aeronautical engineer and ornithologist, was the first to describe all three of these structures and connect them to the owl's silence.\n\nEngineers have since copied the comb onto wind turbine blades, cutting the aerodynamic noise they produce and showing that an adaptation built for hunting in the dark has something to teach modern turbine and aircraft design.\n\nSources:\n- https://www.smithsonianmag.com/science-nature/silence-wind-turbines-engineers-are-studying-owl-wings-180974659/: describes British aeronautical engineer and ornithologist Robert Rule Graham's 1934 description of three wing structures behind owl silent flight, the serrated leading-edge comb, the soft trailing fringe, and a velvety surface, and reports that engineers have copied the comb's serrations onto wind turbine blades to cut aerodynamic noise.\n- https://pmc.ncbi.nlm.nih.gov/articles/PMC13204868/: a review of owl-inspired serration research confirming the three structures identified by Graham, that the leading-edge comb breaks up airflow into smaller, quieter turbulence, that the velvet-like surface absorbs high-frequency sound, and that the trailing fringe further smooths the air leaving the wing, with modern studies applying comb-style serrations to wind turbine and aircraft blades to reduce noise.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "animals",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "yt-bbm0902",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbm0902",
+  "file": "out/daily-2026-09-15-owl-silent-flight-engineering.mp4",
+  "propsFile": "daily/2026-09-15/owl-silent-flight-engineering.props.json",
+  "durationInFrames": 1182,
+  "audioUrl": "",
+  "niche": "animals",
+  "composition": "Reel"
+}

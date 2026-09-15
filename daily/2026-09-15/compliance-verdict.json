@@ -5,10 +5,13 @@
   "strictMode": false,
   "allowed": [
     "antikythera-not-noticed",
-    "zeigarnik-not-universal"
+    "zeigarnik-not-universal",
+    "owl-silent-flight-engineering",
+    "voyager-golden-record"
   ],
   "blocked": [
-    "desert-glass"
+    "desert-glass",
+    "snowflakes-identical-nancy-knight"
   ],
   "results": [
     {
@@ -142,6 +145,171 @@
         "worstTitleAgainst": "lightning-hotter-sun",
         "worstDescriptionSimilarity": 0.278,
         "combo": "reel:#0A1418:#2DD4BF:#EAF6F6",
+        "themeGap": 167,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "owl-silent-flight-engineering",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "In 1934, British engineer Robert Rule Graham identified three separate wing structures that let them",
+      "niche": "animals",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.097,
+        "worstTitleAgainst": "napoleon-not-short",
+        "worstDescriptionSimilarity": 0.27,
+        "combo": "reel:#0B0E1A:#E8A33D:#EDEEF7",
+        "themeGap": 167,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "snowflakes-identical-nancy-knight",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "Wilson A. Bentley, known as the Snowflake Man, spent decades in Jericho, Vermont, photographing indi",
+      "niche": "weather",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "style.us_spelling",
+          "message": "US spelling \"center\" found. Use \"centre\".",
+          "detail": null
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "safety.context_review",
+          "message": "Context-sensitive term(s) present: died. Legitimate in educational science and history, referred to the AI safety reviewer.",
+          "detail": {
+            "terms": [
+              "died"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.077,
+        "worstTitleAgainst": "mechanical-turk-hoax",
+        "worstDescriptionSimilarity": 0.276,
+        "combo": "reel:#0A0F17:#8FC4EA:#EDF5FC",
+        "themeGap": 167,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "voyager-golden-record",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Each Voyager probe carries a gold plated copper phonograph record holding sounds and images chosen t",
+      "niche": "space",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "halal.context_review",
+          "message": "Term(s) needing context: music. Referred to the AI reviewer.",
+          "detail": {
+            "terms": [
+              "music"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.087,
+        "worstTitleAgainst": "paper-folds",
+        "worstDescriptionSimilarity": 0.284,
+        "combo": "reel:#05070F:#E8C468:#F4F2E9",
         "themeGap": 167,
         "audioGap": 0
       },

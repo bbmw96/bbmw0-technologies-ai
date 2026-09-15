@@ -1,0 +1,20 @@
+Rendering 3 Shorts for 2026-09-15 (concurrency=3, GL=default)
+Compliance: 2 cleared, 1 blocked (policy v1.0.0).
+Blocked by compliance: snowflakes-identical-nancy-knight
+
+--- owl-silent-flight-engineering ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-15-owl-silent-flight-engineering.mp4
+  uploaded public: https://youtu.be/XqjOK1zHMuw
+
+--- snowflakes-identical-nancy-knight ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-15-snowflakes-identical-nancy-knight.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-15/compliance-verdict.json.
+
+--- voyager-golden-record ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-15-voyager-golden-record.mp4
+  uploaded public: https://youtu.be/6oEk1mQe3go
+
+=== Done. 3 rendered, 2 uploaded, 0 skipped, 1 blocked by compliance, 0 failed. ===

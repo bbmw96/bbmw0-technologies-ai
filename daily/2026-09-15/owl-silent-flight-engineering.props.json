@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (owl-silent-flight-engineering)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0E1A",
+    "ink": "#EDEEF7",
+    "accent": "#E8A33D",
+    "muted": "#6E7290"
+  },
+  "niche": "animals",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Owls fly quietly enough to sneak up on prey that can hear a heartbeat.",
+      "text": "In 1934, British engineer Robert Rule Graham identified three separate wing structures that let them do it.",
+      "note": "He called them the comb, the fringe and the velvet, each solving a different part of the noise problem.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The comb goes to work first.",
+      "text": "A row of stiff, comb-like serrations along the leading edge of the wing breaks up incoming air into smaller, quieter streams before it can build into noisy turbulence.",
+      "note": "This is the structure most modern engineering copies have focused on.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The trailing edge and the surface finish the job.",
+      "text": "A soft, ragged fringe along the back edge of the wing smooths the air as it leaves, while a velvety layer of down across the wing itself soaks up whatever high-frequency sound is left.",
+      "note": "Together the three structures strip out almost all the whooshing sound other birds' wings make.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1934",
+      "name": "Robert Rule Graham",
+      "role": "a British aeronautical engineer and ornithologist, was the first to describe all three of these structures and connect them to the owl's silence.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "kicker",
+      "text": "Engineers have since copied the comb onto wind turbine blades, cutting the aerodynamic noise they produce and showing that an adaptation built for hunting in the dark has something to teach modern turbine and aircraft design.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "The quietest flyer in the sky has been teaching engineers since 1934.",
+      "handle": "@bbm0902",
+      "durationInFrames": 118
+    }
+  ],
+  "cta": "Subscribe for more."
+}
