@@ -7215,6 +7215,683 @@
           "handle": "@bbm0902"
         }
       ]
+    },
+    {
+      "id": "minecraft-creeper-origin",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Creeper_(Minecraft): confirms the 20 August 2009 accidental origin while Markus Persson was modelling a pig, the swapped length and height dimensions, his decision to keep the shape and give it a green leaf-texture skin, and the 1 September 2009 pre-alpha release in build 0.24_SURVIVAL_TEST.",
+        "https://archive.org/download/Minecraft_IRC_Logs_2009/DBN-IRC-Logs/#minecraft.20090820.log: the original 20 August 2009 IRC log, quoted directly, timestamped 12:10:38 and 12:17:33.",
+        "https://www.ign.com/articles/minecraft-probably-wouldnt-add-creepers-today-as-theyd-be-too-controversial-but-dont-worry-theyre-not-going-anywhere-now-theyre-so-iconic: October 2025 interview in which lead designer Jens Bergensten says creepers would likely not be added under Minecraft's current design principles, while confirming there are no plans to remove them."
+      ],
+      "verifiedNote": "Checked 15 Sep 2026. The IRC timestamps and wording are quoted straight from the archived log linked in the Wikipedia article, not paraphrased from a retelling. No figure beat: the only numbers here are dates, which are not the kind of standalone fact worth rendering at 300px, so the topic runs five beats rather than six. Bergensten's 2025 comment closes the piece because it is the freshest, most falsifiable detail on record, a named designer's stated current view, rather than another restating of the well-worn origin story.",
+      "palette": {
+        "bg": "#0D1210",
+        "ink": "#EAF5E8",
+        "accent": "#5FD068",
+        "muted": "#6B8577"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Everyone knows the creeper was a coding mistake",
+          "text": "It was supposed to be a pig.",
+          "note": "On 20 August 2009, Markus 'Notch' Persson swapped the length and height while modelling a pig for the new game, and got a tall, narrow shape instead."
+        },
+        {
+          "kind": "credit",
+          "year": "2009",
+          "name": "Markus Persson",
+          "role": "Wrote in an IRC log at 12:10: 'omg I think I failed at making a pig, haha'. Seven minutes later: 'haha, I'll keep it for a creepy creature.'"
+        },
+        {
+          "kind": "statement",
+          "lead": "He gave it a skin torn from the leaf texture",
+          "text": "and taught it to explode.",
+          "note": "The creeper entered the actual game twelve days later, in the pre-alpha build 0.24_SURVIVAL_TEST on 1 September 2009."
+        },
+        {
+          "kind": "kicker",
+          "text": "Minecraft's most famous monster started life as a pig that went wrong."
+        },
+        {
+          "kind": "sign",
+          "line": "Sixteen years on, it's still in the game on purpose.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "flappy-bird-pulled",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://www.forbes.com/sites/lananhnguyen/2014/02/11/exclusive-flappy-bird-creator-dong-nguyen-says-app-gone-forever-because-it-was-an-addictive-product: Forbes' exclusive interview with Dong Nguyen, conducted in a Hanoi hotel on condition his face not be shown, his first since removing the game. Source for the direct quotes, the denial of any Nintendo legal threat, the two other apps he kept live, his stated reason for pulling the game, the 24 May 2013 release date, and the two or three days he says it took him to code it."
+      ],
+      "verifiedNote": "Checked 15 Sep 2026. Only one source was needed because it is a first-person exclusive interview, not a secondary retelling, and it is the primary record of what Nguyen actually said. The widely repeated $50,000-a-day earnings figure is kept out of a figure beat because Nguyen himself declined to confirm it in the interview ('I don't know the exact figure, but I do know it's a lot'), so it is framed as an unconfirmed estimate in a statement's note rather than asserted as fact at 300px. The exact removal date is deliberately left as 'that February' rather than a specific day, since the article itself only says 'this past weekend' without naming a date.",
+      "palette": {
+        "bg": "#0E1A2B",
+        "ink": "#F0F6FF",
+        "accent": "#4FC3F7",
+        "muted": "#7C93A8"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The rumour is that Nintendo made him do it",
+          "text": "Dong Nguyen pulled Flappy Bird himself.",
+          "note": "In his first interview after removing the game, Nguyen told Forbes he had received no legal threat from Nintendo over the pipe graphics, and that any resemblance was 'coincidental'."
+        },
+        {
+          "kind": "statement",
+          "lead": "The game was reportedly earning him about $50,000 a day",
+          "text": "He walked away from it anyway.",
+          "note": "Nguyen would not confirm the exact figure to Forbes, saying only: 'I don't know the exact figure, but I do know it's a lot.'"
+        },
+        {
+          "kind": "credit",
+          "year": "2014",
+          "name": "Dong Nguyen",
+          "role": "Removed his own number one app from every app store that February, saying it had become 'an addictive product' and that he 'couldn't sleep'."
+        },
+        {
+          "kind": "statement",
+          "lead": "He kept two smaller games live",
+          "text": "and called them 'harmless'.",
+          "note": "Nguyen said he would pull Super Ball Juggling and Shuriken Block too, the moment he thought players were getting addicted to those as well."
+        },
+        {
+          "kind": "kicker",
+          "text": "He coded the whole game in two or three days, the year before. Explaining why he killed it took a slow forty-five minute interview, through a haze of cigarette smoke."
+        },
+        {
+          "kind": "sign",
+          "line": "'I don't think it's a mistake. I have thought it through.'",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "alexnet-imagenet-2012",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/AlexNet: confirms the team (Alex Krizhevsky with Ilya Sutskever and Krizhevsky's PhD advisor Geoffrey Hinton, at the University of Toronto), the 30 September 2012 ImageNet win with a 15.3% top-5 error rate more than 10.8 percentage points ahead of the runner-up, training on two Nvidia GTX 580 GPUs with 3GB of VRAM each priced around $500, the network being split across both because it did not fit on one card, the 90-epoch, five-to-six-day training run on 1.2 million images, that the GPUs ran in Krizhevsky's bedroom at his parents' house, and Hinton's own quote about the outcome."
+      ],
+      "verifiedNote": "Checked 15 Sep 2026. Hinton's 2024 Nobel Prize in Physics, shared with John Hopfield for earlier neural-network research, is well documented elsewhere but is used here only through his own quoted joke about it, not asserted as an award AlexNet itself won. The figure beat uses the GPU count (2) rather than the error-rate percentage, because 2 best supports the 'built on consumer gaming hardware' angle the topic opens on, and because a percentage like 15.3 would be corrupted by the generator's digit-stripping parseInt, which turns 15.3 into 153.",
+      "palette": {
+        "bg": "#12101C",
+        "ink": "#F3F0FA",
+        "accent": "#8B5CF6",
+        "muted": "#8A82A0"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The moment that kicked off the modern AI boom",
+          "text": "wasn't built in a lab.",
+          "note": "AlexNet was trained on two Nvidia graphics cards, in Alex Krizhevsky's bedroom at his parents' house."
+        },
+        {
+          "kind": "credit",
+          "year": "2012",
+          "name": "Krizhevsky, Sutskever and Hinton",
+          "role": "Submitted AlexNet to the ImageNet competition on 30 September. It won with a 15.3% error rate, beating the runner-up by more than 10.8 percentage points."
+        },
+        {
+          "kind": "figure",
+          "value": "2",
+          "unit": "GPUs",
+          "context": "Nvidia GTX 580 cards, 3GB of memory each, around $500 apiece. AlexNet's network was split across both because it did not fit on one."
+        },
+        {
+          "kind": "statement",
+          "lead": "Hinton later joked about how it happened",
+          "text": "'Ilya thought we should do it, Alex made it work, and I got the Nobel Prize.'",
+          "note": "Hinton won the 2024 Nobel Prize in Physics for earlier neural network research, unrelated to AlexNet itself."
+        },
+        {
+          "kind": "kicker",
+          "text": "Computer vision researcher Yann LeCun called it 'an unequivocal turning point in the history of computer vision'."
+        },
+        {
+          "kind": "sign",
+          "line": "Two gaming graphics cards changed how machines see.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "eugene-goostman-turing",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Eugene_Goostman: confirms the 2001 creation by Vladimir Veselov, Eugene Demchenko and Sergey Ulasen, the 13-year-old Ukrainian persona from Odesa with a pet guinea pig and a gynaecologist father, the 7 June 2014 Royal Society event organised by Kevin Warwick with 33% of 30 judges convinced, the 2011 Techniche festival result for a modified Cleverbot (59.3% of 1,334 votes), and Murray Shanahan's 'completely misplaced' quote.",
+        "http://www.scottaaronson.com/blog/?p=1858: Scott Aaronson's own blog post transcribing his full conversation with Eugene Goostman, including the ant-leg exchange quoted directly."
+      ],
+      "verifiedNote": "Checked 15 Sep 2026, both sources read in full. No figure beat: the only real numbers in this story are percentages (33% of judges, 59.3% in the 2011 Cleverbot comparison), and the generator's digit-stripping parseInt would mangle the second one, turning 59.3% into 593, so neither is worth the risk when the ant-leg exchange makes a stronger, safer beat anyway. The exchange is quoted directly from Aaronson's own transcript, with the trailing smiley punctuation trimmed for the caption and the wording otherwise untouched, rather than a secondhand retelling, since it is the clearest evidence that the 'pass' did not mean what the headlines implied.",
+      "palette": {
+        "bg": "#0B1516",
+        "ink": "#EAFBFA",
+        "accent": "#2DD4BF",
+        "muted": "#6E8B89"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Headlines said a chatbot passed the Turing test in 2014",
+          "text": "Here's what actually happened when someone asked it a simple question.",
+          "note": "Computer scientist Scott Aaronson asked Eugene Goostman how many legs an ant has."
+        },
+        {
+          "kind": "statement",
+          "lead": "'Something between 2 and 4. Maybe three? Oh, what a fruitful conversation.'",
+          "text": "That was the chatbot's actual answer.",
+          "note": "It never answered a single one of Aaronson's questions directly, deflecting each one with jokes and topic changes instead."
+        },
+        {
+          "kind": "credit",
+          "year": "2001",
+          "name": "Veselov, Demchenko and Ulasen",
+          "role": "Built Goostman as a 13-year-old Ukrainian boy with a pet guinea pig, a gynaecologist father, and a built-in excuse for every grammar mistake it made."
+        },
+        {
+          "kind": "statement",
+          "lead": "At the 2014 event, 33% of judges called it human",
+          "text": "A modified Cleverbot had already beaten that in 2011.",
+          "note": "At the Techniche festival that year, Cleverbot convinced 59.3% of a much larger voting pool, under the same 30% pass threshold Turing had suggested."
+        },
+        {
+          "kind": "kicker",
+          "text": "Imperial College AI professor Murray Shanahan called the 'pass' claim 'completely misplaced', saying it devalues real AI research."
+        },
+        {
+          "kind": "sign",
+          "line": "Passing the test and being intelligent turned out to be two different things.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "first-banner-ad-1994",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://www.fastcompany.com/3037484/the-trailblazing-candy-colored-history-of-the-online-banner-ad: primary 20th-anniversary retrospective interviewing the ad's own creators. Confirms there was no single 'first' banner ad, since 14 advertisers launched with HotWired on 27 October 1994 and somewhere between six and twelve banners appeared simultaneously that day, that AT&T signed on less than a week before launch to compete with rival MCI, paid roughly $20,000 to $30,000 for the placement, that the banner carried no AT&T logo and led to a page of unrelated links, and that the widely cited 44% click-through figure is itself only an approximate, 'by some accounts' recollection.",
+        "https://en.wikipedia.org/wiki/You_Will: confirms AT&T's 'You Will' campaign launched in 1993, directed by David Fincher and narrated by Tom Selleck, and that the HotWired banner running from 27 October 1994 reused its tagline."
+      ],
+      "verifiedNote": "Checked 15 Sep 2026, both read in full. No figure beat: the widely repeated 44% click-through figure is explicitly hedged by the primary source itself as an approximate recollection from decades later, which is exactly the kind of number the figure-beat rule warns against putting at 300px. It is mentioned in a statement's note instead, with the hedge kept intact rather than stated as a flat fact. The real correction here, that there was no single 'first' banner ad and AT&T's is simply the one everyone remembers, is used as the opening beat instead of the number.",
+      "palette": {
+        "bg": "#171308",
+        "ink": "#FBF6E9",
+        "accent": "#FBBF24",
+        "muted": "#8C8267"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The story goes that AT&T ran the world's first banner ad in 1994",
+          "text": "There's no such thing as the first banner ad.",
+          "note": "HotWired launched on 27 October 1994 with 14 advertisers already signed on, and somewhere between six and twelve banner ads went live at the same time that day."
+        },
+        {
+          "kind": "statement",
+          "lead": "AT&T signed on less than a week before launch",
+          "text": "purely to beat a rival to the spot.",
+          "note": "AT&T had heard that competitor MCI had already secured a HotWired placement and did not want to be left out. The media buy cost roughly $20,000 to $30,000."
+        },
+        {
+          "kind": "statement",
+          "lead": "The banner itself didn't even carry the AT&T logo",
+          "text": "Clicking it led to a page of links that had nothing to do with AT&T's products.",
+          "note": "A clickable map of American art museums, a directory of AT&T websites that existed nowhere else, not even on AT&T's own site, and a short survey."
+        },
+        {
+          "kind": "statement",
+          "lead": "Only one number about this ad ever gets repeated",
+          "text": "and even its own retrospective calls it an estimate.",
+          "note": "The oft-cited 44% click-through rate comes from the ad's creators recalling, decades later, that the rate 'settled at around' that figure once the novelty wore off. Roughly 14 million people were online worldwide at the time."
+        },
+        {
+          "kind": "kicker",
+          "text": "Only one advertiser out of a dozen that launched that day is remembered as 'the first'."
+        },
+        {
+          "kind": "sign",
+          "line": "The ad that supposedly started it all wasn't even alone on the page.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "first-spam-email-1978",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_email_spam: confirms the 3 May 1978 DEC advertisement for its DECSYSTEM-20 products, sent by Gary Thuerk with colleague Carl Gartley sending it from Thuerk's own account, to roughly 400 ARPANET users, the reported $13 million in resulting sales, and that the term 'spam' itself was not coined for this kind of message until April 1993 on Usenet, fifteen years later.",
+        "https://www.weforum.org/stories/industries-in-depth/its-40-years-since-the-first-spam-email-was-sent-here-are-6-things-you-didnt: independently corroborates the 1978 date, the roughly 400 recipients and the $13 million sales figure, and carries Thuerk's own quotes, 'complaints started coming in almost immediately' and his account of an ARPANET representative phoning him: 'He made me promise never to do it again.'"
+      ],
+      "verifiedNote": "Checked 15 Sep 2026, both sources read directly. Carl Gartley's role, physically sending the message from Thuerk's account, is folded into the credit beat's framing of Thuerk pitching 'over ARPANET' rather than stating he typed and sent it himself, since the Wikipedia source is specific about that division of labour. The figure beat uses the $13 million sales figure rather than the 400-recipient count, since both sources treat the sales figure as the more remarkable number and 400 would read as an anticlimax placed right after it.",
+      "palette": {
+        "bg": "#141210",
+        "ink": "#F5F1EA",
+        "accent": "#EF4444",
+        "muted": "#8A8178"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The first spam email wasn't called spam",
+          "text": "The word didn't exist yet.",
+          "note": "'Spam' wasn't coined for unwanted online messages until April 1993, on Usenet, fifteen years after this email was sent."
+        },
+        {
+          "kind": "credit",
+          "year": "1978",
+          "name": "Gary Thuerk",
+          "role": "A marketing manager at Digital Equipment Corporation. On 3 May, he pitched a new DEC computer to roughly 400 people over ARPANET, the internet's forerunner."
+        },
+        {
+          "kind": "statement",
+          "lead": "'Complaints started coming in almost immediately,'",
+          "text": "Thuerk himself recalled, decades later.",
+          "note": "A few days after, an ARPANET representative phoned him directly. 'He made me promise never to do it again,' Thuerk said."
+        },
+        {
+          "kind": "figure",
+          "value": "13",
+          "unit": "million",
+          "context": "US dollars in sales DEC reportedly made off that single unsolicited pitch."
+        },
+        {
+          "kind": "kicker",
+          "text": "The complaint that got him in trouble is also why he's remembered today as spam's accidental inventor."
+        },
+        {
+          "kind": "sign",
+          "line": "Before there was a word for it, there was already a market for it.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "ten-percent-brain-myth",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ten_percent_of_the_brain_myth: confirms the Einstein misattribution has no real evidential basis, the 1890s William James and Boris Sidis origin along with James's much vaguer original claim, Lowell Thomas's 1936 foreword to Dale Carnegie's book as the source of the specific '10 percent' figure pinned on James, the brain-damage and brain-scan evidence showing all regions active including during sleep, the brain's roughly 20% share of the body's energy budget against about 2% of its body weight, and the MythBusters episode of 27 October 2010 measuring up to 35% brain activity via MEG and fMRI during a complex task."
+      ],
+      "verifiedNote": "Checked 15 Sep 2026. The figure beat uses 20 (percent of the body's energy the brain burns) rather than 35 (the MythBusters activity peak) or 90 (the mythical 'unused' share), because 20 set against the 2%-of-body-weight comparison carries the actual disproof: a wildly disproportionate energy cost for tissue supposedly 90% idle. The numbers 35 and 90 are left as plain text in the kicker and sign, where they read as commentary rather than a scientific measurement asserted at 300px. Both percentages used in the figure beat (20 and 2) are whole numbers with no decimal point, so they survive the generator's digit-stripping parseInt intact.",
+      "palette": {
+        "bg": "#120E14",
+        "ink": "#F6F0F8",
+        "accent": "#EC4899",
+        "muted": "#8B7E8E"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Everyone's heard that humans only use 10% of their brain",
+          "text": "and everyone's heard it was Einstein who said so.",
+          "note": "There is no real evidence Einstein ever said anything like it. The myth gets pinned on him because his name is shorthand for genius."
+        },
+        {
+          "kind": "credit",
+          "year": "1936",
+          "name": "Lowell Thomas",
+          "role": "A broadcaster who wrote the foreword to Dale Carnegie's 'How to Win Friends and Influence People', attributing a precise '10 percent' figure to psychologist William James, who had only ever made a much vaguer claim decades earlier."
+        },
+        {
+          "kind": "statement",
+          "lead": "Brain scans settle it directly",
+          "text": "there is no dormant 90%.",
+          "note": "PET and fMRI scans show every region of the brain active to some degree at all times, even during sleep. Damage almost anywhere causes a loss of function."
+        },
+        {
+          "kind": "figure",
+          "value": "20",
+          "unit": "%",
+          "context": "Share of the body's total energy the brain burns, despite being only about 2% of its weight. Evolution should have deleted a genuinely unused 90%, not preserved it."
+        },
+        {
+          "kind": "kicker",
+          "text": "In 2010, MythBusters measured brain activity during a hard mental task with real medical scanners. They found up to 35% active at once, comfortably clearing the mythical 10%."
+        },
+        {
+          "kind": "sign",
+          "line": "The 90% you're 'not using' is switched on right now, reading this.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "iphone-no-app-store-2007",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://9to5mac.com/2011/10/21/jobs-original-vision-for-the-iphone-no-third-party-native-apps: quotes Steve Jobs's 2007 WWDC statement in full ('There's no SDK that you need!'), reports the Isaacson biography's account of board member Art Levinson phoning Jobs 'half a dozen times' to lobby for native apps and Jobs initially quashing the idea, and the 17 October 2007 open letter announcing an SDK for March 2008.",
+        "https://appleinsider.com/articles/08/07/10/apples_app_store_launches_with_more_than_500_apps: contemporaneous report, published the day of the launch, confirming the App Store went live on 10 July 2008 with more than 500 native apps, over 125 of them (more than 25%) free, and Jobs's 'biggest launch of my career' quote."
+      ],
+      "verifiedNote": "Checked 15 Sep 2026, both read in full. There is a minor date wrinkle worth flagging: the App Store's public opening is dated 10 July 2008 here, following the AppleInsider piece published that same day describing the store as already live, one day ahead of the iPhone 3G hardware going on sale on 11 July. A different retrospective source states 11 July for the store itself; 10 July is used because it comes from the more contemporaneous, dated report. The SDK ship date of 6 March 2008 is confirmed as on schedule with the October 2007 promise by the 9to5mac piece's own timeline, though only one direct source was read confirming that specific date, so it is treated as reliable rather than independently corroborated twice.",
+      "palette": {
+        "bg": "#0F1113",
+        "ink": "#F2F3F5",
+        "accent": "#38BDF8",
+        "muted": "#7C8389"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The iPhone and the App Store feel inseparable now",
+          "text": "For its first thirteen months, there was no App Store at all.",
+          "note": "Steve Jobs's actual plan was that there never would be. At WWDC in 2007 he told developers to build web apps for Safari instead: 'There's no SDK that you need!'"
+        },
+        {
+          "kind": "credit",
+          "year": "2007",
+          "name": "Art Levinson",
+          "role": "An Apple board member who, according to Walter Isaacson's biography of Jobs, phoned him 'half a dozen times' to lobby for native third-party apps. Jobs kept shutting the conversation down."
+        },
+        {
+          "kind": "statement",
+          "lead": "He changed his mind in an open letter",
+          "text": "on 17 October 2007.",
+          "note": "Jobs announced a real software development kit was coming the following March. It shipped on schedule, on 6 March 2008."
+        },
+        {
+          "kind": "figure",
+          "value": "500",
+          "unit": "apps",
+          "context": "Native apps already live when the App Store opened on 10 July 2008, more than a year after the iPhone itself went on sale. Jobs called it 'the biggest launch of my career.'"
+        },
+        {
+          "kind": "kicker",
+          "text": "It took a board member phoning him again and again to change his mind."
+        },
+        {
+          "kind": "sign",
+          "line": "The thing that made the iPhone the iPhone almost didn't happen at all.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "feynman-technique-not-feynmans",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://www.scotthyoung.com/blog/2011/09/01/learn-faster/ - Read in full. Confirms Scott Young posted the first video of his free 'Learning on Steroids' bootcamp, titled 'The Feynman Technique', on 1 September 2011, describing the method as picking a concept, writing an explanation simple enough to teach to a child, and returning to the source material wherever the explanation breaks down.",
+        "https://www.scotthyoung.com/blog/2024/03/26/5-keys-feynman-technique/ - Read in full. Young's own words, written thirteen years after he coined the name: 'the technique itself is only loosely based on Richard Feynman's practices'.",
+        "https://calnewport.com/the-feynman-notebook-method/ - Read in full. Quotes James Gleick's biography Genius directly: after his second year of graduate school at Princeton, before his oral exams, Feynman opened a notebook titled 'NOTEBOOK OF THINGS I DON'T KNOW ABOUT' and spent weeks disassembling each branch of physics to find the gaps in his own understanding."
+      ],
+      "verifiedNote": "Checked personally against all three pages above. Two separate claims are often merged into one Feynman Technique origin story, and this entry keeps them apart on purpose: the real, documented habit is the Princeton notebook, described in Gleick's biography; the named four-step technique taught today is a 2011 creation by Scott Young, who has since written that it is only loosely based on Feynman's real practices. Not claimed: an exact calendar year for the Princeton notebook, since Newport's page (quoting Gleick) dates it only to after his second year of graduate school, not to a specific year. Also not claimed: a widely repeated line that the notebook was not much use in preparing for the examination, as it turned out. That line traces to a Google Books page that would not load, so it is left out rather than repeated on secondhand authority.",
+      "palette": {
+        "bg": "#0D0F12",
+        "ink": "#F1EFEA",
+        "accent": "#E0A94C",
+        "muted": "#7E8791"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "You've probably been told to learn like Feynman: explain it to a child, then go back and fill the gaps.",
+          "text": "Richard Feynman never named that method, and there is no evidence he used it as a formal system.",
+          "note": "The four step version taught online today (pick a concept, explain it simply, spot where you get stuck, return to the source) was written up by somebody else, decades after he died."
+        },
+        {
+          "kind": "credit",
+          "year": "2011",
+          "name": "Scott Young",
+          "role": "A Canadian writer running a free self study course. On 1 September 2011 he posted a video called 'The Feynman Technique' as the opening lesson of a learning bootcamp, and the name spread from there."
+        },
+        {
+          "kind": "statement",
+          "lead": "Young has said so himself.",
+          "text": "In 2024 he wrote that the technique is 'only loosely based on Richard Feynman's practices'.",
+          "note": "Feynman died in 1988, twenty three years before that video existed. He was never consulted about a method carrying his name."
+        },
+        {
+          "kind": "statement",
+          "lead": "The real Feynman habit was different, and better documented.",
+          "text": "Preparing for his Princeton oral exams, he opened a notebook and wrote on the title page: NOTEBOOK OF THINGS I DON'T KNOW ABOUT.",
+          "note": "Biographer James Gleick describes him spending weeks taking every branch of physics apart, hunting for the gaps and inconsistencies himself, not teaching it to an imaginary student."
+        },
+        {
+          "kind": "figure",
+          "value": "23",
+          "unit": "years",
+          "context": "How long Feynman had been dead before a video first attached his name to a technique he never described."
+        },
+        {
+          "kind": "kicker",
+          "text": "The notebook was real. The technique named after it was invented by somebody else, long after."
+        },
+        {
+          "kind": "sign",
+          "line": "Feynman kept a notebook of what he didn't know. He never wrote a technique.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "great-molasses-flood-1919",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Great_Molasses_Flood - Read in full. Establishes the date and time (15 January 1919, around half past twelve), tank capacity (about 2.3 million US gallons, roughly 13,000 short tons), an estimated wave speed of 35 miles per hour, the toll of 21 dead and about 150 injured, the lawsuit against United States Industrial Alcohol Company that produced a roughly 628,000 dollar damages award after a court appointed auditor's multi year hearing, the enduring local claim that the neighbourhood smelled of molasses for decades afterwards, and the 2016 Harvard University study that modelled the flow and judged the reported speed and the resulting rescue difficulties to be credible."
+      ],
+      "verifiedNote": "Checked personally against the Wikipedia article, which is itself built on named sources including the auditor's finding (Hugh W. Ogden) and Stephen Puleo's 2004 history of the flood, Dark Tide, both cited within the article's own text. Wave height estimates vary across the sources the article cites, from about 15 to 40 feet, so no height figure is used in the beats below; the 35 mph speed is used instead, since it is repeated across independent contemporary and modern accounts and was separately tested by the 2016 Harvard model. Not claimed: a single per victim damages figure, since the source gives only a rough period average rather than a documented amount per person, so the beats use the total settlement instead.",
+      "palette": {
+        "bg": "#120B08",
+        "ink": "#F3E9DC",
+        "accent": "#B5651D",
+        "muted": "#7C6A57"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "It sounds like a joke: a city flooded by molasses.",
+          "text": "On 15 January 1919, a storage tank in Boston's North End collapsed and killed 21 people.",
+          "note": "The tank held roughly 2.3 million US gallons of molasses, around 13,000 tons, and it gave way just after half past twelve in the afternoon."
+        },
+        {
+          "kind": "figure",
+          "value": "35",
+          "unit": "mph",
+          "context": "The speed investigators estimated for the wave of molasses that tore through the neighbourhood, fast enough to lift a train carriage off its tracks."
+        },
+        {
+          "kind": "statement",
+          "lead": "The wave did not behave like water.",
+          "text": "It surged fast while warm, then thickened as it cooled, trapping people who might otherwise have escaped.",
+          "note": "Molasses is roughly 40 percent denser than water. A 2016 Harvard study modelled the flow, judged the reported speed credible, and found that the thickening molasses made rescue far harder."
+        },
+        {
+          "kind": "credit",
+          "year": "1919",
+          "name": "United States Industrial Alcohol Company",
+          "role": "Owner of the tank. A court appointed auditor spent three years hearing evidence before finding the company responsible and ordering close to 628,000 dollars in damages, one of the first class action settlements of its kind in Massachusetts."
+        },
+        {
+          "kind": "kicker",
+          "text": "For decades afterwards, people in the North End said you could still smell molasses there on a hot day."
+        },
+        {
+          "kind": "sign",
+          "line": "Molasses moved through Boston at 35 miles an hour. Twenty one people did not outrun it.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "great-stink-london-1858",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://www.londonmuseum.org.uk/collections/london-stories/great-stink-of-1858/ - Read in full. Confirms London's population had passed 2.5 million by the 1850s, the largest city in the world; describes human and industrial waste, dead animals and manure going straight into the Thames; the prolonged heatwave with temperatures over 30 degrees Celsius; MPs unable to work in Parliament; chloride of lime soaked curtains; cholera and typhoid blamed on 'miasma'; Disraeli's sewer funding bill passing into law within 18 days; and Bazalgette's appointment to build a sewer network completed in 1875.",
+        "https://www.history.co.uk/articles/the-great-stink-londons-unbearable-summer-of-1858 - Read in full. Confirms the specific dates: 35 degrees Celsius reached on 16 June 1858; Disraeli introducing the sewer bill in Parliament on 15 July 1858, becoming law by 2 August; engineer Goldsworthy Gurney telling the Speaker he could no longer be responsible for the health of the House; over 200 tons of lime dumped in the Thames in an attempt to mask the smell; and that Bazalgette's sewer works began in 1859, finished in 1875, built 85 miles of intercepting sewers plus about 1,100 miles of street sewers, and that sewage dumping into the Thames had stopped completely by 1887."
+      ],
+      "verifiedNote": "Checked personally against both sources above, which independently agree on the key figures used here: the 18 day gap between Disraeli's bill and it becoming law, the 1875 completion date, the 85 miles of intercepting sewers, and 1887 as the year river dumping stopped. Not claimed: one exact population figure for 1858 London, since the two sources frame the scale slightly differently (London Museum says the city had passed 2.5 million by the 1850s; a contemporary 1858 newspaper quoted within the History.co.uk piece put the number under threat at three million), so the beats describe the scale in general terms rather than picking a single contested figure. Also not claimed: that miasma theory was correct. It was not; the beats say only that the wrong theory happened to sit over a genuine, separate problem, not that Victorian doctors reasoned their way to the truth.",
+      "palette": {
+        "bg": "#0E120D",
+        "ink": "#EDEEE0",
+        "accent": "#6B7A3D",
+        "muted": "#6E7566"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "London did not fix its sewage problem out of foresight.",
+          "text": "It fixed it because, in the summer of 1858, the smell became unbearable, even to the people who ran the country.",
+          "note": "By the 1850s London held a couple of million people, and roughly half a billion litres of Thames water were drawn back into homes and businesses every day, the very river that carried away the city's sewage."
+        },
+        {
+          "kind": "statement",
+          "lead": "MPs were not spared.",
+          "text": "On 16 June 1858 the temperature in London reached 35 degrees Celsius, the peak of a summer that stayed above 30 degrees for weeks.",
+          "note": "Blinds in the new Palace of Westminster were soaked in chloride of lime so members could bear to sit inside. The engineer responsible for ventilating the building told the Speaker he could no longer be answerable for the health of the House."
+        },
+        {
+          "kind": "statement",
+          "lead": "The smell was blamed for the wrong thing, and acting on it still worked.",
+          "text": "Doctors and MPs believed foul air itself, not water, spread the cholera and typhoid going around that summer.",
+          "note": "That theory, called miasma, was wrong. But the same stench that frightened Parliament also happened to sit directly over the source of the real, waterborne disease, so a false fear still led to a genuine fix."
+        },
+        {
+          "kind": "credit",
+          "year": "1858",
+          "name": "Joseph Bazalgette",
+          "role": "Chief engineer of the Metropolitan Board of Works. Chancellor Benjamin Disraeli introduced his sewer funding bill on 15 July 1858, and it became law just eighteen days later, on 2 August."
+        },
+        {
+          "kind": "figure",
+          "value": "85",
+          "unit": "miles",
+          "context": "Length of the new intercepting sewers Bazalgette's team built alongside the Thames, on top of over a thousand miles of smaller street sewers, work that ran from 1859 to 1875."
+        },
+        {
+          "kind": "kicker",
+          "text": "By 1887, the sewage that had once floated past Parliament had stopped going into the Thames at all."
+        },
+        {
+          "kind": "sign",
+          "line": "The smell did what years of warnings could not: it got London's sewers built.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "coriolis-effect-drain-myth",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Coriolis_force - Read in full. States plainly that bathtubs, toilets and other water receptacles do not drain in opposite directions by hemisphere because the Coriolis force is negligible at that scale, and that drain direction instead comes down to the geometry of the drain and receptacle plus whatever motion the water already had; describes Ascher Shapiro's 1962 MIT experiment using a covered 2 metre tank left to settle for at least 24 hours, a small wooden cross to display rotation, a 20 minute drain time with the cross starting to turn around the 15 minute mark and reaching one rotation every three to four seconds by the end, consistently anticlockwise; and Lloyd Trefethen's five confirming tests in the Southern Hemisphere at the University of Sydney, each settled for 18 hours or more, recording clockwise rotation every time."
+      ],
+      "verifiedNote": "Checked personally against the Wikipedia article. It is single sourced here, but the article itself directly cites and quotes the underlying reporting for each figure used (Ascher Shapiro's own 1962 account and Lloyd Trefethen's published reply), so the figures are independently reported even though they were read assembled on one page. A second attempt to confirm the same claim through Scientific American's own piece on this exact question returned no retrievable content, so that source is not cited here. Not claimed: a specific mechanism such as angled rim jets for why an individual toilet or sink drains the way it does. The source attributes that to the shape of the drain and receptacle plus residual motion in the water, without naming one universal mechanism, so the beats describe it the same way rather than inventing a tidier explanation.",
+      "palette": {
+        "bg": "#090C10",
+        "ink": "#EDF1F5",
+        "accent": "#4C8FE0",
+        "muted": "#71808F"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "You've probably heard that toilets flush the opposite way in Australia because of the Earth's rotation.",
+          "text": "Ordinary sinks, baths and toilets do not drain in different directions depending on hemisphere.",
+          "note": "The force involved is real, but at the size of a household drain it is far too small to matter. What actually decides the direction is the shape of the basin and whatever swirl the water already had before the plug came out."
+        },
+        {
+          "kind": "statement",
+          "lead": "Proving the real effect exists took far more than watching a bathtub.",
+          "text": "In 1962, MIT's Ascher Shapiro built a still, circular tank two metres across, covered it, and left the water to settle for at least 24 hours before pulling the plug.",
+          "note": "Ordinary tap water is never that still. Filling a sink, or even a previous flush, leaves swirl in the water that completely overwhelms the effect he was trying to isolate."
+        },
+        {
+          "kind": "figure",
+          "value": "24",
+          "unit": "hours",
+          "context": "How long Shapiro left his two metre tank undisturbed before draining it, just to remove the residual motion that ruins the effect in an ordinary sink or bath."
+        },
+        {
+          "kind": "statement",
+          "lead": "Even then, the result took its time.",
+          "text": "The tank took 20 minutes to fully drain, and a small wooden cross floating above the plug hole did not begin turning until roughly 15 minutes in.",
+          "note": "By the end it was rotating once every three to four seconds, consistently anticlockwise, matching the direction the effect predicts for the Northern Hemisphere."
+        },
+        {
+          "kind": "credit",
+          "year": "1962",
+          "name": "Ascher Shapiro",
+          "role": "Mechanical engineer at MIT. His basin experiment was later checked in the Southern Hemisphere by mathematician Lloyd Trefethen, who ran five tests at the University of Sydney, each left to settle for 18 hours or more, and recorded rotation in the opposite direction every time."
+        },
+        {
+          "kind": "kicker",
+          "text": "Two research teams, a decade and a hemisphere apart, needed a covered tank and a full day of stillness to see an effect your toilet will never show you."
+        },
+        {
+          "kind": "sign",
+          "line": "The Coriolis effect is real. Your bathroom is just too fast and too small to reveal it.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "facebook-like-button-patent-fight",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Facebook_like_button - Read in full. Confirms the button went live 9 February 2009 with no dislike or emotion options until Reactions launched worldwide on 24 February 2016; that a week after the wider social plugin release, 50,000 websites had installed it, growing to 2 million five months later; that Mark Zuckerberg announced the plugin's expansion at Facebook's F8 conference on 21 April 2010, saying Facebook was building 'a web where the default is social'; and that in February 2013, patent holder Rembrandt Social Media sued Facebook over the like button concept, based on a 1998 patent filed by Dutch programmer Joannes Jozef Everardus van der Meer for his early social network Surfbook, van der Meer having died in 2004."
+      ],
+      "verifiedNote": "Checked personally against the Wikipedia article. It is single sourced here, but the article directly cites contemporary reporting for each figure used (TechCrunch's original 2010 stories on the 50,000 and 2 million website counts, and Ars Technica and BBC News on the 2013 Rembrandt Social Media lawsuit), so the underlying figures are independently reported even though read assembled on one page. Not claimed: any detail about an internal debate over calling the button 'Awesome' instead of 'Like' before launch. That story appears in several retellings of Facebook's early history, but it could not be confirmed this run from a source read in full, so it is left out entirely rather than repeated secondhand. Also not claimed: how the Rembrandt Social Media lawsuit was resolved, since the source used here only establishes that it was filed.",
+      "palette": {
+        "bg": "#0C0E16",
+        "ink": "#EEF0F7",
+        "accent": "#5B6EE8",
+        "muted": "#7B8296"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The Facebook Like button feels like it has always existed.",
+          "text": "It went live on 9 February 2009, as a single button with a single meaning.",
+          "note": "There was no dislike option, no Love or Haha, just one word. Those extra reactions did not arrive for another seven years."
+        },
+        {
+          "kind": "statement",
+          "lead": "Once Facebook let other websites use it, it spread startlingly fast.",
+          "text": "A week after the wider social plugin launch, 50,000 websites had already added the button.",
+          "note": "Five months later that number had grown to 2 million websites, each one sending data back to Facebook whenever the page loaded, whether or not a visitor ever clicked it."
+        },
+        {
+          "kind": "credit",
+          "year": "2010",
+          "name": "Mark Zuckerberg",
+          "role": "Facebook's chief executive. Announcing the button's expansion across the web at the company's F8 conference on 21 April 2010, he said Facebook was building 'a web where the default is social'."
+        },
+        {
+          "kind": "statement",
+          "lead": "The button eventually ended up in court.",
+          "text": "In February 2013, a company called Rembrandt Social Media sued Facebook, claiming a patent on the idea of a like button.",
+          "note": "The patent traced back to 1998 and a little known early social network called Surfbook, built by Dutch programmer Joannes Jozef Everardus van der Meer, who had died in 2004 and never saw the lawsuit filed in his name."
+        },
+        {
+          "kind": "figure",
+          "value": "40",
+          "unit": "x",
+          "context": "How much the button's reach grew in just five months on other websites, from 50,000 sites to 2 million."
+        },
+        {
+          "kind": "kicker",
+          "text": "A single thumbs up button spread across millions of websites before the patent fight over who owned the idea had even begun."
+        },
+        {
+          "kind": "sign",
+          "line": "One button, one meaning, and a decade of consequences nobody clicking it saw coming.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
