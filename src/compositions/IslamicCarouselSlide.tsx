@@ -16,8 +16,9 @@
 // a post - the whole point is coherence within a post, variety across posts.
 //
 // SCRIPT COVERAGE IS A REAL RISK, NOT A STYLING CHOICE
-// Five different writing systems on one pipeline means five different font
-// requirements, and a font stack that quietly falls back to "no glyph" boxes
+// Six languages, five distinct scripts, on one pipeline (Malay added 2026-09-15
+// rides the existing Latin/SANS stack, so it did not add a sixth font
+// requirement) means a font stack that quietly falls back to "no glyph" boxes
 // is worse than no post at all. The stacks below were chosen for what ships
 // with Windows (this renders through a local headless Chromium on the
 // project's own Windows machine) and were verified by actually rendering a
@@ -27,7 +28,7 @@
 // same stack has the same coverage there.
 import React from "react";
 
-export type ThemeKey = "emerald-gold" | "midnight-silver" | "terracotta-cream" | "plum-rose" | "indigo-saffron";
+export type ThemeKey = "emerald-gold" | "midnight-silver" | "terracotta-cream" | "plum-rose" | "indigo-saffron" | "sapphire-pearl" | "garnet-amber";
 
 export const THEMES: Record<ThemeKey, { bg: string; ink: string; accent: string; muted: string; label: string }> = {
   "emerald-gold": { bg: "#0B2B26", ink: "#F5F1E6", accent: "#C9A227", muted: "#8FB6AC", label: "Emerald & Gold" },
@@ -35,8 +36,10 @@ export const THEMES: Record<ThemeKey, { bg: string; ink: string; accent: string;
   "terracotta-cream": { bg: "#F4ECE1", ink: "#3A2A1D", accent: "#B5502F", muted: "#A98F73", label: "Terracotta & Cream" },
   "plum-rose": { bg: "#241221", ink: "#F6E9EE", accent: "#C97B9B", muted: "#8A6A80", label: "Plum & Rose Gold" },
   "indigo-saffron": { bg: "#1B1F3B", ink: "#F3EFE4", accent: "#E8A23D", muted: "#5C6491", label: "Indigo & Saffron" },
+  "sapphire-pearl": { bg: "#0A2540", ink: "#EAF2FA", accent: "#7EC8E3", muted: "#3D5A73", label: "Sapphire & Pearl" },
+  "garnet-amber": { bg: "#2B0F14", ink: "#F5E6DC", accent: "#D98E4A", muted: "#6B3A3F", label: "Garnet & Amber" },
 };
-export const THEME_ORDER: ThemeKey[] = ["emerald-gold", "midnight-silver", "terracotta-cream", "plum-rose", "indigo-saffron"];
+export const THEME_ORDER: ThemeKey[] = ["emerald-gold", "midnight-silver", "terracotta-cream", "plum-rose", "indigo-saffron", "sapphire-pearl", "garnet-amber"];
 
 const SANS = '"Helvetica Neue", Inter, Arial, system-ui, sans-serif';
 // Font stacks, most-specific/best-shaped first, safe generic last.
@@ -45,13 +48,17 @@ const CHINESE = '"Microsoft YaHei", "Microsoft JhengHei", "SimSun", sans-serif';
 const KOREAN = '"Malgun Gothic", "Apple SD Gothic Neo", sans-serif';
 const JAPANESE = '"Yu Gothic", "MS Gothic", "Meiryo", sans-serif';
 
-export type LangCode = "ar" | "en" | "zh" | "ko" | "ja";
+export type LangCode = "ar" | "en" | "zh" | "ko" | "ja" | "ms";
 export const LANG_META: Record<LangCode, { name: string; font: string; dir: "rtl" | "ltr"; sizePx: number; lineHeight: number }> = {
   ar: { name: "العربية", font: ARABIC, dir: "rtl", sizePx: 62, lineHeight: 1.65 },
   en: { name: "English", font: SANS, dir: "ltr", sizePx: 48, lineHeight: 1.4 },
   zh: { name: "中文", font: CHINESE, dir: "ltr", sizePx: 54, lineHeight: 1.75 },
   ko: { name: "한국어", font: KOREAN, dir: "ltr", sizePx: 44, lineHeight: 1.6 },
   ja: { name: "日本語", font: JAPANESE, dir: "ltr", sizePx: 46, lineHeight: 1.7 },
+  // Malay is written in the Latin script (Rumi), so the standard sans stack
+  // covers it fully - no separate font family or glyph-coverage risk like
+  // the CJK/Arabic stacks above needed.
+  ms: { name: "Bahasa Melayu", font: SANS, dir: "ltr", sizePx: 44, lineHeight: 1.5 },
 };
 
 export type CarouselSlideProps =
