@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (bread-before-farming-shubayqa)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#150F07",
+    "ink": "#FBF1DE",
+    "accent": "#D9A441",
+    "muted": "#93815F"
+  },
+  "niche": "food",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Bread is older than farming.",
+      "text": "Charred crumbs found at a hunter-gatherer site in Jordan date to roughly 14,400 years ago, more than 4,000 years before anyone in the region is thought to have started farming.",
+      "note": "The site is Shubayqa 1, in what is now north-eastern Jordan.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "The bread was found where it was made: in ash from ancient fireplaces, alongside the tools used to prepare it.",
+      "note": "Researchers identified it from its cellular structure under a microscope, the same way bread is identified today.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "It was not made from a planted crop. The flour came from wild cereals, including einkorn wheat, ground down along with club-rush tubers dug from the ground.",
+      "note": "Nobody had domesticated a single grain yet. These were wild plants, gathered rather than grown.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "4000",
+      "unit": "years",
+      "context": "roughly how much earlier this bread was made than farming is thought to have begun in the same region.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "kicker",
+      "text": "For decades the assumption ran the other way: that farming came first, and bread followed once there were fields of grain to mill. This find suggests wild bread may have been one of the reasons people started farming grain in the first place, not the other way round.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "Humans were baking bread thousands of years before they planted a single crop.",
+      "handle": "@bbm0902",
+      "durationInFrames": 124
+    }
+  ],
+  "cta": "Subscribe for more."
+}

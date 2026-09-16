@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (catatumbo-lightning-venezuela)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0A18",
+    "ink": "#EDEFFA",
+    "accent": "#7B6EF0",
+    "muted": "#5E5E85"
+  },
+  "niche": "weather",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "One spot on Earth gets struck by lightning more than anywhere else.",
+      "text": "Where the Catatumbo River meets Lake Maracaibo in Venezuela, storms produce roughly 250 lightning flashes per square kilometre every year, the highest density recorded anywhere on the planet.",
+      "note": "It has been described as the world's largest single generator of atmospheric ozone.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "250",
+      "unit": "flashes",
+      "context": "roughly how many lightning flashes strike each square kilometre of this spot every year, more than anywhere else on Earth.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "statement",
+      "text": "The storms are also remarkably regular. Lightning lights up the sky here on around 140 to 160 nights a year, often for hours at a time.",
+      "note": "Sailors once used the distant flashes as a natural lighthouse, steering by them long before satellite navigation existed.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "One popular story about it does not hold up.",
+      "text": "A widely repeated claim says the lightning helped Spanish defenders spot and repel Francis Drake's fleet during an attack on Maracaibo in 1595.",
+      "note": "It traces back to a misread literary reference to ships burning and glowing on the water, not to an actual account of lightning lighting up the battle.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The real explanation for the lightning itself is still debated, with theories pointing to methane rising from nearby wetlands and oil deposits, warm Caribbean air meeting cool mountain wind off the Andes, or some combination of both.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "The most electric place on Earth has a myth attached to it that isn't even true.",
+      "handle": "@bbm0902",
+      "durationInFrames": 142
+    }
+  ],
+  "cta": "Subscribe for more."
+}

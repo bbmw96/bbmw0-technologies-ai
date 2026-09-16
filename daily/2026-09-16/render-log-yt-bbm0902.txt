@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-09-16 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- bread-before-farming-shubayqa ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-16-bread-before-farming-shubayqa.mp4
+  uploaded public: https://youtu.be/qCv1oNG7YL8
+
+--- catatumbo-lightning-venezuela ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-16-catatumbo-lightning-venezuela.mp4
+  uploaded public: https://youtu.be/dPhLL3wD_4Y
+
+--- neptune-discovered-by-maths ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-16-neptune-discovered-by-maths.mp4
+  uploaded public: https://youtu.be/P4iumkvZDIc
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

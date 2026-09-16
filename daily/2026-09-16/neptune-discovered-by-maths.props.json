@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (neptune-discovered-by-maths)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#06101E",
+    "ink": "#EAF3FC",
+    "accent": "#3D7FE0",
+    "muted": "#5C7699"
+  },
+  "niche": "space",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Neptune is the only planet ever found by doing the maths first.",
+      "text": "Every other planet was spotted by someone looking through a telescope. Neptune was found because astronomers calculated exactly where it had to be before anyone pointed a telescope at it.",
+      "note": "It remains the only planet discovered by prediction rather than direct observation.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "The clue was Uranus. Its orbit kept drifting slightly off from where the mathematics of gravity said it should be, as if something unseen was tugging on it.",
+      "note": "French mathematician Urbain Le Verrier worked out the position of a planet that would explain the drift. English astronomer John Couch Adams reached a similar answer independently, but his calculation went unpublished.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "1",
+      "unit": "degree",
+      "context": "roughly how close Le Verrier's predicted position was to where Neptune was actually found, an extraordinary level of accuracy for a planet nobody had ever seen.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "credit",
+      "year": "1846",
+      "name": "Johann Galle and Heinrich Louis d'Arrest",
+      "role": "at the Berlin Observatory, pointed a telescope at Le Verrier's predicted coordinates on the night of 23 September and found Neptune within hours.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "kicker",
+      "text": "Adams and Le Verrier's competing claims to the discovery turned into a genuine dispute between Britain and France over who deserved the credit, one that took years to settle into the shared recognition both men now receive.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "The last planet found the old way was Uranus. Neptune was found by algebra.",
+      "handle": "@bbm0902",
+      "durationInFrames": 130
+    }
+  ],
+  "cta": "Subscribe for more."
+}
