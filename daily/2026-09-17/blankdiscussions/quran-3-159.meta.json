@@ -43,5 +43,21 @@
     "theme_note": "This post introduces an 8th theme, 'obsidian-jade' (near-black background with a jade-green accent), added to src/compositions/IslamicCarouselSlide.tsx's THEMES/THEME_ORDER, since the prior 7 themes had each been used exactly once as of 2026-09-15 (sapphire-pearl and garnet-amber completing that rotation). Per the component's own code comment, a new theme was added rather than repeating one."
   },
   "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-17/quran-3-159-slide-NN.png --props=daily/2026-09-17/blankdiscussions/quran-3-159.slide-NN.json  (run once per slide, NN = 01 through 08)",
-  "status": "sourced_and_built"
+  "status": "published",
+  "published": {
+    "mediaId": "17948886576336445",
+    "permalink": "https://www.instagram.com/p/DdZi7iond17/",
+    "publishedAt": "2026-09-17T18:51:31Z",
+    "hostingUrls": [
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-17/blankdiscussions/renders/quran-3-159-slide-01.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-17/blankdiscussions/renders/quran-3-159-slide-02.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-17/blankdiscussions/renders/quran-3-159-slide-03.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-17/blankdiscussions/renders/quran-3-159-slide-04.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-17/blankdiscussions/renders/quran-3-159-slide-05.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-17/blankdiscussions/renders/quran-3-159-slide-06.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-17/blankdiscussions/renders/quran-3-159-slide-07.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-17/blankdiscussions/renders/quran-3-159-slide-08.png"
+    ],
+    "publishedVia": "Composio INSTAGRAM_CREATE_CAROUSEL_CONTAINER + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH"
+  }
 }
