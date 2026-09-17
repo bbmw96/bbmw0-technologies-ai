@@ -137,16 +137,8 @@ const channelNiches = new Set(CHANNEL.niches || []);
 let richChosen = [];
 try {
   const RICH_FILE = path.join(DATA, "topics-rich.json");
-  // topics-rich-extra.json holds freshly researched, verified topics staged
-  // for merge into topics-rich.json. Loading it here lets a topic ship the
-  // same day it is researched, without requiring a full-file rewrite of the
-  // (large) primary topics-rich.json before it can be used. A future research
-  // pass folds its contents into topics-rich.json proper and clears it.
-  const RICH_EXTRA_FILE = path.join(DATA, "topics-rich-extra.json");
-  let richPool = [];
-  if (fs.existsSync(RICH_FILE)) richPool = richPool.concat(readJSON(RICH_FILE).topics || []);
-  if (fs.existsSync(RICH_EXTRA_FILE)) richPool = richPool.concat(readJSON(RICH_EXTRA_FILE).topics || []);
-  if (richPool.length) {
+  if (fs.existsSync(RICH_FILE)) {
+    const rich = readJSON(RICH_FILE);
     // Usage is tracked as "reel:<id>", not "<id>".
     //
     // A rich topic deliberately shares its id with the thin topics.json entry
@@ -161,7 +153,7 @@ try {
     // compliance gate's similarity rules already compare each candidate's
     // title and description against recent videos, so genuine repetition gets
     // flagged there rather than being silently prevented here.
-    richChosen = richPool
+    richChosen = (rich.topics || [])
       .filter((t) => t && t.verified === true)          // unverified never ships
       .filter((t) => !usedTopics.has(`reel:${t.id}`))
       .filter((t) => Array.isArray(t.beats) && t.beats.length)
