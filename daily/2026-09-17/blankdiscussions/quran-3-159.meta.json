@@ -1,0 +1,47 @@
+{
+  "slug": "quran-3-159",
+  "date": "2026-09-17",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "Pardon them, seek forgiveness for them, and consult them in the matter, then rely upon Allah.\n\nSurah Aal-i-Imraan (3:159). Swipe through for the Arabic, then English, Mandarin, Korean, Japanese and Malay renderings.\n\nSources on the final slide.",
+  "tags": [
+    "Quran",
+    "IslamicReminder",
+    "Ayah",
+    "Deen",
+    "IslamicGuidance",
+    "MuslimReminder",
+    "Shura",
+    "IslamicQuotes",
+    "Tawakkul",
+    "QuranicVerses"
+  ],
+  "theme": "obsidian-jade",
+  "slides": [
+    "quran-3-159.slide-01.json",
+    "quran-3-159.slide-02.json",
+    "quran-3-159.slide-03.json",
+    "quran-3-159.slide-04.json",
+    "quran-3-159.slide-05.json",
+    "quran-3-159.slide-06.json",
+    "quran-3-159.slide-07.json",
+    "quran-3-159.slide-08.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an, Surah Aal-i-Imraan (3), Ayah 159",
+    "arabic": "Uthmani script (edition quran-uthmani), api.alquran.cloud. Live-fetched and verified this session (2026-09-17) via GET /v1/ayah/3:159/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese,ms.basmeih, HTTP 200.",
+    "english": "Saheeh International (edition en.sahih), api.alquran.cloud. Same live call as above, quoted verbatim including the translator's own bracketed interpolations '[O Muhammad]' and '[upon Him]'.",
+    "chinese": "Ma Jian, 马坚 (edition zh.jian), api.alquran.cloud. Same live call as above, rendered verbatim.",
+    "malay": "Abdullah Muhammad Basmeih (edition ms.basmeih), api.alquran.cloud. Same live call as above, rendered verbatim.",
+    "korean": "Edition ko.korean, api.alquran.cloud. Translator is listed as 'Unknown' in the source's own metadata (englishName field), so the on-slide credit says 'translator not specified by source' rather than inventing a scholar's name. The raw API string contained eight stray mid-word/mid-phrase spaces that were closed up for the slide, none changing wording: dae-ha-yeot do-da -> one word, ga-hok han -> one word, geu-dae ro-bu-teo -> one word, geu-deul eul -> one word (object particle rejoined), be-pul myeo -> one word, ui-gyeon eul -> one word (object particle rejoined), haess-eul-ttae neun -> corrected to the standard two-word spacing haess-eul ttae-neun, ba-deun no-ra -> one word. This is the same kind of source-data formatting artifact already documented for this edition in quran-94-5.meta.json, quran-2-152.meta.json, quran-39-53.meta.json and quran-65-3.meta.json; the exact Hangul before/after pairs are preserved verbatim in the rendered slide-05.json text and are visually spot-checked at render time.",
+    "japanese": "Edition ja.japanese, api.alquran.cloud. Translator is listed as 'Unknown' in the source's own metadata, cited on-slide as 'translator not specified by source'. Same live call as above, rendered verbatim with no corrections needed.",
+    "candidate_selection_note": "Ayah 3:159 was live-fetched and verified this session (2026-09-17); all six language editions came back complete on the first request, so no alternative candidates were needed.",
+    "verification_note": "All six language renderings came from a single live api.alquran.cloud request made this session (2026-09-17), not from memory or a prior file: GET https://api.alquran.cloud/v1/ayah/3:159/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese,ms.basmeih, HTTP 200. See channels.json's ig-blankdiscussions._niche_note for why this project treats scripture sourcing as a hard requirement, not a style choice.",
+    "compliance_check": "Manually checked against scripts/data/compliance-policy.json's halal keyword-blocklists (intoxicants, pork, gambling, riba, immodesty, profanity, superstition, origins_patterns, animate_imagery, context_review) since compliance-gate.mjs does not cover this channel's schema. No blocklisted terms present in any of the six language texts; no imagery generated at all (pure typography slides). Content is a straightforward statement on mercy, forgiveness, consultation and reliance on Allah - no context_review flags apply. Clean.",
+    "theme_note": "This post introduces an 8th theme, 'obsidian-jade' (near-black background with a jade-green accent), added to src/compositions/IslamicCarouselSlide.tsx's THEMES/THEME_ORDER, since the prior 7 themes had each been used exactly once as of 2026-09-15 (sapphire-pearl and garnet-amber completing that rotation). Per the component's own code comment, a new theme was added rather than repeating one."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-17/quran-3-159-slide-NN.png --props=daily/2026-09-17/blankdiscussions/quran-3-159.slide-NN.json  (run once per slide, NN = 01 through 08)",
+  "status": "sourced_and_built"
+}
