@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (great-smog-london-1952)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#12100C",
+    "ink": "#F0EAE0",
+    "accent": "#C9A876",
+    "muted": "#8A8378"
+  },
+  "niche": "weather",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "For five days in 1952, London's own air killed thousands of people.",
+      "text": "A thick smog settled over the city from 5 to 9 December, trapped in place by windless weather and thickened by smoke from coal fires burning across the capital.",
+      "note": "Visibility dropped so low that buses needed someone walking ahead of them with a torch.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "4000",
+      "unit": "deaths",
+      "context": "the official death toll estimated in the weeks immediately after the smog, based on contemporary medical reports.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "statement",
+      "text": "That figure turned out to be a serious undercount. Later research examining the following weeks and months put the true toll at 10,000 to 12,000 deaths, mostly from respiratory and cardiovascular causes.",
+      "note": "Most of the dead were the very young, the elderly, or people who already had lung or heart conditions.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "The smog was not a freak event so much as an especially severe version of London's normal winter air, thick with coal smoke long before 1952.",
+      "note": "What made this one different was the stillness of the weather, trapping the pollution in place for days instead of letting it disperse.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The scale of the deaths forced Parliament's hand. The Clean Air Act 1956 restricted coal burning in designated smoke control areas, one of the first pieces of legislation anywhere aimed squarely at air quality.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "It took thousands of deaths in five days to get Britain to clean its air.",
+      "handle": "@bbm0902",
+      "durationInFrames": 136
+    }
+  ],
+  "cta": "Subscribe for more."
+}

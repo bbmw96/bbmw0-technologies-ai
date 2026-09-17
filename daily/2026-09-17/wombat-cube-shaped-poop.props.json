@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (wombat-cube-shaped-poop)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#120F0A",
+    "ink": "#F5F0E6",
+    "accent": "#C97C3D",
+    "muted": "#8C7A63"
+  },
+  "niche": "animals",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Only one animal is known to produce cube shaped droppings, and nothing in its body is shaped like a cube.",
+      "text": "Wombat faeces come out as near perfect cubes, flat sides and corners included, even though the gut they travel through is round from one end to the other.",
+      "note": "Georgia Tech mechanical engineer David Hu and University of Tasmania wildlife ecologist Scott Carver set out to work out how, and the pair won a 2019 Ig Nobel Prize for the answer.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "Carver, who dissects wombats that have been humanely put down for his conservation research, was the one who first noticed where the shape actually forms.",
+      "note": "His team found the cubes take shape inside the intestine itself, which ruled out the obvious guess that they were being squeezed out through some sort of square shaped opening.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "33",
+      "unit": "feet",
+      "context": "roughly how long a wombat's intestine is end to end, ten feet longer than a human's, giving the droppings plenty of time to dry out and firm up before they emerge.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "The gut wall itself turned out to be the answer. Rather than being uniformly stretchy, it alternates between stiffer and softer sections along its length.",
+      "note": "As Hu put it, the stiffer zones resist bending while the softer zones between them let corners form, pressing what should be a tube shaped mass into something closer to a cube.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Wombats use the shape to their advantage. Cubes stack neatly on logs and rocks to mark territory without rolling away, and Patricia Yang, who worked on the study, suggested the same hardening process could eventually help with early screening for colon cancer.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "Nature's only cube shaped dropping, solved by a mechanical engineer and a wombat dissector.",
+      "handle": "@bbm0902",
+      "durationInFrames": 130
+    }
+  ],
+  "cta": "Subscribe for more."
+}

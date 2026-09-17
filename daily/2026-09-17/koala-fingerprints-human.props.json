@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (koala-fingerprints-human)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#101A14",
+    "ink": "#F2F5EC",
+    "accent": "#8FBF6B",
+    "muted": "#7C8C79"
+  },
+  "niche": "animals",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Koalas carry a print no other non-primate has.",
+      "text": "They are the only non-primate mammal known to have true fingerprints, complete with the same loops and whorls found on human hands.",
+      "note": "Biological anthropologist Maciej Henneberg noticed it whilst working with koalas at a wildlife park near Adelaide in the mid-1990s.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1996",
+      "name": "Maciej Henneberg",
+      "role": "a biological anthropologist at the University of Adelaide, examined koala fingertip ridges closely enough to conclude that even careful analysis under a microscope could struggle to tell them apart from a human's.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The similarity is close enough that Henneberg raised it with police.",
+      "text": "He told The Independent in 1996 that officers should at least be aware a koala print could resemble a human one.",
+      "note": "He was equally clear that finding one at an actual crime scene would be extremely unlikely.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "The popular version of this story, that koala prints have genuinely confused real detectives, does not check out.",
+      "note": "Fact-checkers have found no documented case of a koala print contaminating an investigation or a suspect being wrongly implicated. The genuine fingerprint similarity got exaggerated into a crime-solving myth.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Koalas and humans do not get their nearly identical fingerprints from a shared ancestor who had them. Evolution appears to have built the same solution twice, in two completely unrelated animals reaching for a better grip.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "The only crime a koala print is actually guilty of is causing confusion in a lab.",
+      "handle": "@bbm0902",
+      "durationInFrames": 142
+    }
+  ],
+  "cta": "Subscribe for more."
+}
