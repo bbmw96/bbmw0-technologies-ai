@@ -35,6 +35,22 @@
     "chinese_korean_japanese_malay": "hadith-api (cdn.jsdelivr.net/gh/fawazahmed0/hadith-api) has NO Chinese, Korean, Japanese, or Malay editions for any hadith collection, confirmed via its editions.json this session. Per the channel's established convention for this gap (already used for nawawi-13, nawawi-15, bukhari-1-1), these four language slides are Claude's own careful translation, produced directly from the verified Arabic and English sunnah.com text above, and labelled on-slide as such rather than credited to a named translator or scholar who did not produce them.",
     "compliance_check": "Manually checked against scripts/data/compliance-policy.json's halal keyword-blocklists (intoxicants, pork, gambling, riba, immodesty, profanity, superstition, origins_patterns, animate_imagery, context_review). No blocklisted terms present; no imagery generated. Clean."
   },
-  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-18/bukhari-3331-slide-NN.png --props=daily/2026-09-18/blankdiscussions/bukhari-3331.slide-NN.json  (run once per slide, NN = 01 through 08)",
-  "status": "sourced"
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide daily/2026-09-18/blankdiscussions/renders/bukhari-3331-slide-NN.png --props=daily/2026-09-18/blankdiscussions/bukhari-3331.slide-NN.json  (run once per slide, NN = 01 through 08)",
+  "status": "published",
+  "published": {
+    "mediaId": "18089202836397418",
+    "permalink": "https://www.instagram.com/p/DdbSNnHm9r1/",
+    "publishedAt": "2026-09-18T11:04:00Z",
+    "hostingUrls": [
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-18/blankdiscussions/renders/bukhari-3331-slide-01.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-18/blankdiscussions/renders/bukhari-3331-slide-02.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-18/blankdiscussions/renders/bukhari-3331-slide-03.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-18/blankdiscussions/renders/bukhari-3331-slide-04.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-18/blankdiscussions/renders/bukhari-3331-slide-05.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-18/blankdiscussions/renders/bukhari-3331-slide-06.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-18/blankdiscussions/renders/bukhari-3331-slide-07.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-18/blankdiscussions/renders/bukhari-3331-slide-08.png"
+    ],
+    "publishedVia": "Composio MCP (INSTAGRAM_POST_IG_USER_MEDIA x8 + INSTAGRAM_CREATE_CAROUSEL_CONTAINER + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH)"
+  }
 }
