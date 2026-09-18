@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (ten-percent-brain-myth)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#120E14",
+    "ink": "#F6F0F8",
+    "accent": "#EC4899",
+    "muted": "#8B7E8E"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Everyone's heard that humans only use 10% of their brain",
+      "text": "and everyone's heard it was Einstein who said so.",
+      "note": "There is no real evidence Einstein ever said anything like it. The myth gets pinned on him because his name is shorthand for genius.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1936",
+      "name": "Lowell Thomas",
+      "role": "A broadcaster who wrote the foreword to Dale Carnegie's 'How to Win Friends and Influence People', attributing a precise '10 percent' figure to psychologist William James, who had only ever made a much vaguer claim decades earlier.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Brain scans settle it directly",
+      "text": "there is no dormant 90%.",
+      "note": "PET and fMRI scans show every region of the brain active to some degree at all times, even during sleep. Damage almost anywhere causes a loss of function.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "20",
+      "unit": "%",
+      "context": "Share of the body's total energy the brain burns, despite being only about 2% of its weight. Evolution should have deleted a genuinely unused 90%, not preserved it.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "kicker",
+      "text": "In 2010, MythBusters measured brain activity during a hard mental task with real medical scanners. They found up to 35% active at once, comfortably clearing the mythical 10%.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "sign",
+      "line": "The 90% you're 'not using' is switched on right now, reading this.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 118
+    }
+  ],
+  "cta": "Subscribe for more."
+}

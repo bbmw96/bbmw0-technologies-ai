@@ -1,0 +1,25 @@
+{
+  "slug": "coriolis-effect-drain-myth",
+  "date": "2026-09-18",
+  "title": "Ordinary sinks, baths and toilets do not drain in different directions depending on hemisphere.",
+  "description": "Ordinary sinks, baths and toilets do not drain in different directions depending on hemisphere. The force involved is real, but at the size of a household drain it is far too small to matter. What actually decides the direction is the shape of the basin and whatever swirl the water already had before the plug came out.\n\nIn 1962, MIT's Ascher Shapiro built a still, circular tank two metres across, covered it, and left the water to settle for at least 24 hours before pulling the plug. Ordinary tap water is never that still. Filling a sink, or even a previous flush, leaves swirl in the water that completely overwhelms the effect he was trying to isolate.\n\nHow long Shapiro left his two metre tank undisturbed before draining it, just to remove the residual motion that ruins the effect in an ordinary sink or bath.\n\nThe tank took 20 minutes to fully drain, and a small wooden cross floating above the plug hole did not begin turning until roughly 15 minutes in. By the end it was rotating once every three to four seconds, consistently anticlockwise, matching the direction the effect predicts for the Northern Hemisphere.\n\nMechanical engineer at MIT. His basin experiment was later checked in the Southern Hemisphere by mathematician Lloyd Trefethen, who ran five tests at the University of Sydney, each left to settle for 18 hours or more, and recorded rotation in the opposite direction every time.\n\nTwo research teams, a decade and a hemisphere apart, needed a covered tank and a full day of stillness to see an effect your toilet will never show you.\n\nSources:\n- https://en.wikipedia.org/wiki/Coriolis_force - Read in full. States plainly that bathtubs, toilets and other water receptacles do not drain in opposite directions by hemisphere because the Coriolis force is negligible at that scale, and that drain direction instead comes down to the geometry of the drain and receptacle plus whatever motion the water already had; describes Ascher Shapiro's 1962 MIT experiment using a covered 2 metre tank left to settle for at least 24 hours, a small wooden cross to display rotation, a 20 minute drain time with the cross starting to turn around the 15 minute mark and reaching one rotation every three to four seconds by the end, consistently anticlockwise; and Lloyd Trefethen's five confirming tests in the Southern Hemisphere at the University of Sydney, each settled for 18 hours or more, recording clockwise rotation every time.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "science",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-18-coriolis-effect-drain-myth.mp4",
+  "propsFile": "daily/2026-09-18/coriolis-effect-drain-myth.props.json",
+  "durationInFrames": 1426,
+  "audioUrl": "",
+  "niche": "science",
+  "composition": "Reel"
+}

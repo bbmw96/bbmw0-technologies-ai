@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (coriolis-effect-drain-myth)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#090C10",
+    "ink": "#EDF1F5",
+    "accent": "#4C8FE0",
+    "muted": "#71808F"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "You've probably heard that toilets flush the opposite way in Australia because of the Earth's rotation.",
+      "text": "Ordinary sinks, baths and toilets do not drain in different directions depending on hemisphere.",
+      "note": "The force involved is real, but at the size of a household drain it is far too small to matter. What actually decides the direction is the shape of the basin and whatever swirl the water already had before the plug came out.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Proving the real effect exists took far more than watching a bathtub.",
+      "text": "In 1962, MIT's Ascher Shapiro built a still, circular tank two metres across, covered it, and left the water to settle for at least 24 hours before pulling the plug.",
+      "note": "Ordinary tap water is never that still. Filling a sink, or even a previous flush, leaves swirl in the water that completely overwhelms the effect he was trying to isolate.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "24",
+      "unit": "hours",
+      "context": "How long Shapiro left his two metre tank undisturbed before draining it, just to remove the residual motion that ruins the effect in an ordinary sink or bath.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "Even then, the result took its time.",
+      "text": "The tank took 20 minutes to fully drain, and a small wooden cross floating above the plug hole did not begin turning until roughly 15 minutes in.",
+      "note": "By the end it was rotating once every three to four seconds, consistently anticlockwise, matching the direction the effect predicts for the Northern Hemisphere.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1962",
+      "name": "Ascher Shapiro",
+      "role": "Mechanical engineer at MIT. His basin experiment was later checked in the Southern Hemisphere by mathematician Lloyd Trefethen, who ran five tests at the University of Sydney, each left to settle for 18 hours or more, and recorded rotation in the opposite direction every time.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Two research teams, a decade and a hemisphere apart, needed a covered tank and a full day of stillness to see an effect your toilet will never show you.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "sign",
+      "line": "The Coriolis effect is real. Your bathroom is just too fast and too small to reveal it.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 148
+    }
+  ],
+  "cta": "Subscribe for more."
+}

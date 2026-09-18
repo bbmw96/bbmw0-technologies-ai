@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (feynman-technique-not-feynmans)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0D0F12",
+    "ink": "#F1EFEA",
+    "accent": "#E0A94C",
+    "muted": "#7E8791"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "You've probably been told to learn like Feynman: explain it to a child, then go back and fill the gaps.",
+      "text": "Richard Feynman never named that method, and there is no evidence he used it as a formal system.",
+      "note": "The four step version taught online today (pick a concept, explain it simply, spot where you get stuck, return to the source) was written up by somebody else, decades after he died.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2011",
+      "name": "Scott Young",
+      "role": "A Canadian writer running a free self study course. On 1 September 2011 he posted a video called 'The Feynman Technique' as the opening lesson of a learning bootcamp, and the name spread from there.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Young has said so himself.",
+      "text": "In 2024 he wrote that the technique is 'only loosely based on Richard Feynman's practices'.",
+      "note": "Feynman died in 1988, twenty three years before that video existed. He was never consulted about a method carrying his name.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The real Feynman habit was different, and better documented.",
+      "text": "Preparing for his Princeton oral exams, he opened a notebook and wrote on the title page: NOTEBOOK OF THINGS I DON'T KNOW ABOUT.",
+      "note": "Biographer James Gleick describes him spending weeks taking every branch of physics apart, hunting for the gaps and inconsistencies himself, not teaching it to an imaginary student.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "23",
+      "unit": "years",
+      "context": "How long Feynman had been dead before a video first attached his name to a technique he never described.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "kicker",
+      "text": "The notebook was real. The technique named after it was invented by somebody else, long after.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "sign",
+      "line": "Feynman kept a notebook of what he didn't know. He never wrote a technique.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 130
+    }
+  ],
+  "cta": "Subscribe for more."
+}

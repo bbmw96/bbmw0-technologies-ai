@@ -1,0 +1,25 @@
+Rendering 4 Shorts for 2026-09-18 (concurrency=3, GL=default)
+Compliance: 2 cleared, 2 blocked (policy v1.0.0).
+Blocked by compliance: great-molasses-flood-1919, ten-percent-brain-myth
+
+--- coriolis-effect-drain-myth ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-18-coriolis-effect-drain-myth.mp4
+  uploaded public: https://youtu.be/fr8sWCVjEe4
+
+--- feynman-technique-not-feynmans ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-18-feynman-technique-not-feynmans.mp4
+  uploaded public: https://youtu.be/Hgqs_Z7Rm8M
+
+--- great-molasses-flood-1919 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-18-great-molasses-flood-1919.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-18/compliance-verdict.json.
+
+--- ten-percent-brain-myth ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-18-ten-percent-brain-myth.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-18/compliance-verdict.json.
+
+=== Done. 4 rendered, 2 uploaded, 0 skipped, 2 blocked by compliance, 0 failed. ===

@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (great-molasses-flood-1919)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#120B08",
+    "ink": "#F3E9DC",
+    "accent": "#B5651D",
+    "muted": "#7C6A57"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "It sounds like a joke: a city flooded by molasses.",
+      "text": "On 15 January 1919, a storage tank in Boston's North End collapsed and killed 21 people.",
+      "note": "The tank held roughly 2.3 million US gallons of molasses, around 13,000 tons, and it gave way just after half past twelve in the afternoon.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "35",
+      "unit": "mph",
+      "context": "The speed investigators estimated for the wave of molasses that tore through the neighbourhood, fast enough to lift a train carriage off its tracks.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "The wave did not behave like water.",
+      "text": "It surged fast while warm, then thickened as it cooled, trapping people who might otherwise have escaped.",
+      "note": "Molasses is roughly 40 percent denser than water. A 2016 Harvard study modelled the flow, judged the reported speed credible, and found that the thickening molasses made rescue far harder.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1919",
+      "name": "United States Industrial Alcohol Company",
+      "role": "Owner of the tank. A court appointed auditor spent three years hearing evidence before finding the company responsible and ordering close to 628,000 dollars in damages, one of the first class action settlements of its kind in Massachusetts.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "For decades afterwards, people in the North End said you could still smell molasses there on a hot day.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "sign",
+      "line": "Molasses moved through Boston at 35 miles an hour. Twenty one people did not outrun it.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 142
+    }
+  ],
+  "cta": "Subscribe for more."
+}

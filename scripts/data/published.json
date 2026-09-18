@@ -202,7 +202,11 @@
     "reel:minecraft-creeper-origin",
     "reel:eugene-goostman-turing",
     "reel:flappy-bird-pulled",
-    "reel:first-banner-ad-1994"
+    "reel:first-banner-ad-1994",
+    "reel:feynman-technique-not-feynmans",
+    "reel:great-molasses-flood-1919",
+    "reel:coriolis-effect-drain-myth",
+    "reel:ten-percent-brain-myth"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -3466,6 +3470,66 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "feynman-technique-not-feynmans",
+      "date": "2026-09-18",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Richard Feynman never named that method, and there is no evidence he used it as a formal system.",
+      "description": "Richard Feynman never named that method, and there is no evidence he used it as a formal system. The four step version taught online today (pick a concept, explain it simply, spot where you get stuck, return to the source) was written up by somebody else, decades after he died.\n\nA Canadian writer running a free self study course. On 1 September 2011 he posted a video called 'The Feynman Technique' as the opening lesson of a learning bootcamp, and the name spread from there.\n\nIn 2024 he wrote that the technique is 'only loosely based on Richard Feynman's practices'. Feynman died in 1988, twenty three years before that video existed. He was never consulted about a method carrying his name.\n\nPreparing for his Princeton oral exams, he opened a notebook and wrote on the title page: NOTEBOOK OF THINGS I DON'T KNOW ABOUT. Biographer James Gleick describes him spending weeks taking every branch of physics apart, hunting for the gaps and inconsistencies himself, not teaching it to an imaginary student.\n\nHow long Feynman had been dead before a video first attached his name to a technique he never described.\n\nThe notebook was real. The technique named after it was invented by somebody else, long after.\n\nSources:\n- https://www.scotthyoung.com/blog/2011/09/01/learn-faster/ - Read in full. Confirms Scott Young posted the first video of his free 'Learning on Steroids' bootcamp, titled 'The Feynman Technique', on 1 September 2011, describing the method as picking a concept, writing an explanation simple enough to teach to a child, and returning to the source material wherever the explanation breaks down.\n- https://www.scotthyoung.com/blog/2024/03/26/5-keys-feynman-technique/ - Read in full. Young's own words, written thirteen years after he coined the name: 'the technique itself is only loosely based on Richard Feynman's practices'.\n- https://calnewport.com/the-feynman-notebook-method/ - Read in full. Quotes James Gleick's biography Genius directly: after his second year of graduate school at Princeton, before his oral exams, Feynman opened a notebook titled 'NOTEBOOK OF THINGS I DON'T KNOW ABOUT' and spent weeks disassembling each branch of physics to find the gaps in his own understanding.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "Hgqs_Z7Rm8M",
+      "youtubeUrl": "https://youtu.be/Hgqs_Z7Rm8M",
+      "uploadedAt": "2026-09-18T09:32:07.249Z",
+      "privacy": "public"
+    },
+    {
+      "id": "great-molasses-flood-1919",
+      "date": "2026-09-18",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "On 15 January 1919, a storage tank in Boston's North End collapsed and killed 21 people.",
+      "description": "On 15 January 1919, a storage tank in Boston's North End collapsed and killed 21 people. The tank held roughly 2.3 million US gallons of molasses, around 13,000 tons, and it gave way just after half past twelve in the afternoon.\n\nThe speed investigators estimated for the wave of molasses that tore through the neighbourhood, fast enough to lift a train carriage off its tracks.\n\nIt surged fast while warm, then thickened as it cooled, trapping people who might otherwise have escaped. Molasses is roughly 40 percent denser than water. A 2016 Harvard study modelled the flow, judged the reported speed credible, and found that the thickening molasses made rescue far harder.\n\nOwner of the tank. A court appointed auditor spent three years hearing evidence before finding the company responsible and ordering close to 628,000 dollars in damages, one of the first class action settlements of its kind in Massachusetts.\n\nFor decades afterwards, people in the North End said you could still smell molasses there on a hot day.\n\nSources:\n- https://en.wikipedia.org/wiki/Great_Molasses_Flood - Read in full. Establishes the date and time (15 January 1919, around half past twelve), tank capacity (about 2.3 million US gallons, roughly 13,000 short tons), an estimated wave speed of 35 miles per hour, the toll of 21 dead and about 150 injured, the lawsuit against United States Industrial Alcohol Company that produced a roughly 628,000 dollar damages award after a court appointed auditor's multi year hearing, the enduring local claim that the neighbourhood smelled of molasses for decades afterwards, and the 2016 Harvard University study that modelled the flow and judged the reported speed and the resulting rescue difficulties to be credible.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "coriolis-effect-drain-myth",
+      "date": "2026-09-18",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Ordinary sinks, baths and toilets do not drain in different directions depending on hemisphere.",
+      "description": "Ordinary sinks, baths and toilets do not drain in different directions depending on hemisphere. The force involved is real, but at the size of a household drain it is far too small to matter. What actually decides the direction is the shape of the basin and whatever swirl the water already had before the plug came out.\n\nIn 1962, MIT's Ascher Shapiro built a still, circular tank two metres across, covered it, and left the water to settle for at least 24 hours before pulling the plug. Ordinary tap water is never that still. Filling a sink, or even a previous flush, leaves swirl in the water that completely overwhelms the effect he was trying to isolate.\n\nHow long Shapiro left his two metre tank undisturbed before draining it, just to remove the residual motion that ruins the effect in an ordinary sink or bath.\n\nThe tank took 20 minutes to fully drain, and a small wooden cross floating above the plug hole did not begin turning until roughly 15 minutes in. By the end it was rotating once every three to four seconds, consistently anticlockwise, matching the direction the effect predicts for the Northern Hemisphere.\n\nMechanical engineer at MIT. His basin experiment was later checked in the Southern Hemisphere by mathematician Lloyd Trefethen, who ran five tests at the University of Sydney, each left to settle for 18 hours or more, and recorded rotation in the opposite direction every time.\n\nTwo research teams, a decade and a hemisphere apart, needed a covered tank and a full day of stillness to see an effect your toilet will never show you.\n\nSources:\n- https://en.wikipedia.org/wiki/Coriolis_force - Read in full. States plainly that bathtubs, toilets and other water receptacles do not drain in opposite directions by hemisphere because the Coriolis force is negligible at that scale, and that drain direction instead comes down to the geometry of the drain and receptacle plus whatever motion the water already had; describes Ascher Shapiro's 1962 MIT experiment using a covered 2 metre tank left to settle for at least 24 hours, a small wooden cross to display rotation, a 20 minute drain time with the cross starting to turn around the 15 minute mark and reaching one rotation every three to four seconds by the end, consistently anticlockwise; and Lloyd Trefethen's five confirming tests in the Southern Hemisphere at the University of Sydney, each settled for 18 hours or more, recording clockwise rotation every time.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "fr8sWCVjEe4",
+      "youtubeUrl": "https://youtu.be/fr8sWCVjEe4",
+      "uploadedAt": "2026-09-18T09:29:43.944Z",
+      "privacy": "public"
+    },
+    {
+      "id": "ten-percent-brain-myth",
+      "date": "2026-09-18",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "and everyone's heard it was Einstein who said so.",
+      "description": "and everyone's heard it was Einstein who said so. There is no real evidence Einstein ever said anything like it. The myth gets pinned on him because his name is shorthand for genius.\n\nA broadcaster who wrote the foreword to Dale Carnegie's 'How to Win Friends and Influence People', attributing a precise '10 percent' figure to psychologist William James, who had only ever made a much vaguer claim decades earlier.\n\nthere is no dormant 90%. PET and fMRI scans show every region of the brain active to some degree at all times, even during sleep. Damage almost anywhere causes a loss of function.\n\nShare of the body's total energy the brain burns, despite being only about 2% of its weight. Evolution should have deleted a genuinely unused 90%, not preserved it.\n\nIn 2010, MythBusters measured brain activity during a hard mental task with real medical scanners. They found up to 35% active at once, comfortably clearing the mythical 10%.\n\nSources:\n- https://en.wikipedia.org/wiki/Ten_percent_of_the_brain_myth: confirms the Einstein misattribution has no real evidential basis, the 1890s William James and Boris Sidis origin along with James's much vaguer original claim, Lowell Thomas's 1936 foreword to Dale Carnegie's book as the source of the specific '10 percent' figure pinned on James, the brain-damage and brain-scan evidence showing all regions active including during sleep, the brain's roughly 20% share of the body's energy budget against about 2% of its body weight, and the MythBusters episode of 27 October 2010 measuring up to 35% brain activity via MEG and fMRI during a complex task.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
     }
   ]
 }
