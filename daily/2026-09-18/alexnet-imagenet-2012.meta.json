@@ -1,0 +1,25 @@
+{
+  "slug": "alexnet-imagenet-2012",
+  "date": "2026-09-18",
+  "title": "wasn't built in a lab.",
+  "description": "wasn't built in a lab. AlexNet was trained on two Nvidia graphics cards, in Alex Krizhevsky's bedroom at his parents' house.\n\nSubmitted AlexNet to the ImageNet competition on 30 September. It won with a 15.3% error rate, beating the runner-up by more than 10.8 percentage points.\n\nNvidia GTX 580 cards, 3GB of memory each, around $500 apiece. AlexNet's network was split across both because it did not fit on one.\n\n'Ilya thought we should do it, Alex made it work, and I got the Nobel Prize.' Hinton won the 2024 Nobel Prize in Physics for earlier neural network research, unrelated to AlexNet itself.\n\nComputer vision researcher Yann LeCun called it 'an unequivocal turning point in the history of computer vision'.\n\nSources:\n- https://en.wikipedia.org/wiki/AlexNet: confirms the team (Alex Krizhevsky with Ilya Sutskever and Krizhevsky's PhD advisor Geoffrey Hinton, at the University of Toronto), the 30 September 2012 ImageNet win with a 15.3% top-5 error rate more than 10.8 percentage points ahead of the runner-up, training on two Nvidia GTX 580 GPUs with 3GB of VRAM each priced around $500, the network being split across both because it did not fit on one card, the 90-epoch, five-to-six-day training run on 1.2 million images, that the GPUs ran in Krizhevsky's bedroom at his parents' house, and Hinton's own quote about the outcome.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-18-alexnet-imagenet-2012.mp4",
+  "propsFile": "daily/2026-09-18/alexnet-imagenet-2012.props.json",
+  "durationInFrames": 1022,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}

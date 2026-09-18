@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (alexnet-imagenet-2012)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#12101C",
+    "ink": "#F3F0FA",
+    "accent": "#8B5CF6",
+    "muted": "#8A82A0"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The moment that kicked off the modern AI boom",
+      "text": "wasn't built in a lab.",
+      "note": "AlexNet was trained on two Nvidia graphics cards, in Alex Krizhevsky's bedroom at his parents' house.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "credit",
+      "year": "2012",
+      "name": "Krizhevsky, Sutskever and Hinton",
+      "role": "Submitted AlexNet to the ImageNet competition on 30 September. It won with a 15.3% error rate, beating the runner-up by more than 10.8 percentage points.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "figure",
+      "value": "2",
+      "unit": "GPUs",
+      "context": "Nvidia GTX 580 cards, 3GB of memory each, around $500 apiece. AlexNet's network was split across both because it did not fit on one.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "Hinton later joked about how it happened",
+      "text": "'Ilya thought we should do it, Alex made it work, and I got the Nobel Prize.'",
+      "note": "Hinton won the 2024 Nobel Prize in Physics for earlier neural network research, unrelated to AlexNet itself.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Computer vision researcher Yann LeCun called it 'an unequivocal turning point in the history of computer vision'.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "sign",
+      "line": "Two gaming graphics cards changed how machines see.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Follow for more."
+}

@@ -11,7 +11,8 @@
     "feynman-technique-not-feynmans",
     "first-spam-email-1978",
     "iphone-no-app-store-2007",
-    "peanuts-underground-geocarpy"
+    "peanuts-underground-geocarpy",
+    "alexnet-imagenet-2012"
   ],
   "blocked": [
     "flappy-bird-pulled",
@@ -747,6 +748,50 @@
         "worstTitleAgainst": "atari-landfill",
         "worstDescriptionSimilarity": 0.268,
         "combo": "reel:#0F120A:#9AAA3E:#F3F5E8",
+        "themeGap": 182,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "alexnet-imagenet-2012",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "wasn't built in a lab.",
+      "niche": "ai",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.2,
+        "worstTitleAgainst": "creeper-first-computer-virus",
+        "worstDescriptionSimilarity": 0.234,
+        "combo": "reel:#12101C:#8B5CF6:#F3F0FA",
         "themeGap": 182,
         "audioGap": 0
       },
