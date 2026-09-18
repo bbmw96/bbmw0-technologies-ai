@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (iphone-no-app-store-2007)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0F1113",
+    "ink": "#F2F3F5",
+    "accent": "#38BDF8",
+    "muted": "#7C8389"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The iPhone and the App Store feel inseparable now",
+      "text": "For its first thirteen months, there was no App Store at all.",
+      "note": "Steve Jobs's actual plan was that there never would be. At WWDC in 2007 he told developers to build web apps for Safari instead: 'There's no SDK that you need!'",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2007",
+      "name": "Art Levinson",
+      "role": "An Apple board member who, according to Walter Isaacson's biography of Jobs, phoned him 'half a dozen times' to lobby for native third-party apps. Jobs kept shutting the conversation down.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "He changed his mind in an open letter",
+      "text": "on 17 October 2007.",
+      "note": "Jobs announced a real software development kit was coming the following March. It shipped on schedule, on 6 March 2008.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "figure",
+      "value": "500",
+      "unit": "apps",
+      "context": "Native apps already live when the App Store opened on 10 July 2008, more than a year after the iPhone itself went on sale. Jobs called it 'the biggest launch of my career.'",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "It took a board member phoning him again and again to change his mind.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "sign",
+      "line": "The thing that made the iPhone the iPhone almost didn't happen at all.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 124
+    }
+  ],
+  "cta": "Subscribe for more."
+}

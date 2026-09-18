@@ -206,7 +206,10 @@
     "reel:feynman-technique-not-feynmans",
     "reel:great-molasses-flood-1919",
     "reel:coriolis-effect-drain-myth",
-    "reel:ten-percent-brain-myth"
+    "reel:ten-percent-brain-myth",
+    "reel:great-stink-london-1858",
+    "reel:first-spam-email-1978",
+    "reel:iphone-no-app-store-2007"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -3530,6 +3533,53 @@
       "channelId": "yt-bbmw0",
       "special": false,
       "platform": "youtube"
+    },
+    {
+      "id": "great-stink-london-1858",
+      "date": "2026-09-18",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It fixed it because, in the summer of 1858, the smell became unbearable, even to the people who ran ",
+      "description": "It fixed it because, in the summer of 1858, the smell became unbearable, even to the people who ran the country. By the 1850s London held a couple of million people, and roughly half a billion litres of Thames water were drawn back into homes and businesses every day, the very river that carried away the city's sewage.\n\nOn 16 June 1858 the temperature in London reached 35 degrees Celsius, the peak of a summer that stayed above 30 degrees for weeks. Blinds in the new Palace of Westminster were soaked in chloride of lime so members could bear to sit inside. The engineer responsible for ventilating the building told the Speaker he could no longer be answerable for the health of the House.\n\nDoctors and MPs believed foul air itself, not water, spread the cholera and typhoid going around that summer. That theory, called miasma, was wrong. But the same stench that frightened Parliament also happened to sit directly over the source of the real, waterborne disease, so a false fear still led to a genuine fix.\n\nChief engineer of the Metropolitan Board of Works. Chancellor Benjamin Disraeli introduced his sewer funding bill on 15 July 1858, and it became law just eighteen days later, on 2 August.\n\nLength of the new intercepting sewers Bazalgette's team built alongside the Thames, on top of over a thousand miles of smaller street sewers, work that ran from 1859 to 1875.\n\nBy 1887, the sewage that had once floated past Parliament had stopped going into the Thames at all.\n\nSources:\n- https://www.londonmuseum.org.uk/collections/london-stories/great-stink-of-1858/ - Read in full. Confirms London's population had passed 2.5 million by the 1850s, the largest city in the world; describes human and industrial waste, dead animals and manure going straight into the Thames; the prolonged heatwave with temperatures over 30 degrees Celsius; MPs unable to work in Parliament; chloride of lime soaked curtains; cholera and typhoid blamed on 'miasma'; Disraeli's sewer funding bill passing into law within 18 days; and Bazalgette's appointment to build a sewer network completed in 1875.\n- https://www.history.co.uk/articles/the-great-stink-londons-unbearable-summer-of-1858 - Read in full. Confirms the specific dates: 35 degrees Celsius reached on 16 June 1858; Disraeli introducing the sewer bill in Parliament on 15 July 1858, becoming law by 2 August; engineer Goldsworthy Gurney telling the Speaker he could no longer be responsible for the health of the House; over 200 tons of lime dumped in the Thames in an attempt to mask the smell; and that Bazalgette's sewer works began in 1859, finished in 1875, built 85 miles of intercepting sewers plus about 1,100 miles of street sewers, and that sewage dumping into the Thames had stopped completely by 1887.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "first-spam-email-1978",
+      "date": "2026-09-18",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The word didn't exist yet.",
+      "description": "The word didn't exist yet. 'Spam' wasn't coined for unwanted online messages until April 1993, on Usenet, fifteen years after this email was sent.\n\nA marketing manager at Digital Equipment Corporation. On 3 May, he pitched a new DEC computer to roughly 400 people over ARPANET, the internet's forerunner.\n\nThuerk himself recalled, decades later. A few days after, an ARPANET representative phoned him directly. 'He made me promise never to do it again,' Thuerk said.\n\nUS dollars in sales DEC reportedly made off that single unsolicited pitch.\n\nThe complaint that got him in trouble is also why he's remembered today as spam's accidental inventor.\n\nSources:\n- https://en.wikipedia.org/wiki/History_of_email_spam: confirms the 3 May 1978 DEC advertisement for its DECSYSTEM-20 products, sent by Gary Thuerk with colleague Carl Gartley sending it from Thuerk's own account, to roughly 400 ARPANET users, the reported $13 million in resulting sales, and that the term 'spam' itself was not coined for this kind of message until April 1993 on Usenet, fifteen years later.\n- https://www.weforum.org/stories/industries-in-depth/its-40-years-since-the-first-spam-email-was-sent-here-are-6-things-you-didnt: independently corroborates the 1978 date, the roughly 400 recipients and the $13 million sales figure, and carries Thuerk's own quotes, 'complaints started coming in almost immediately' and his account of an ARPANET representative phoning him: 'He made me promise never to do it again.'\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "oJqaaM3eFbY",
+      "youtubeUrl": "https://youtu.be/oJqaaM3eFbY",
+      "uploadedAt": "2026-09-18T13:19:37.387Z",
+      "privacy": "public"
+    },
+    {
+      "id": "iphone-no-app-store-2007",
+      "date": "2026-09-18",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "For its first thirteen months, there was no App Store at all.",
+      "description": "For its first thirteen months, there was no App Store at all. Steve Jobs's actual plan was that there never would be. At WWDC in 2007 he told developers to build web apps for Safari instead: 'There's no SDK that you need!'\n\nAn Apple board member who, according to Walter Isaacson's biography of Jobs, phoned him 'half a dozen times' to lobby for native third-party apps. Jobs kept shutting the conversation down.\n\non 17 October 2007. Jobs announced a real software development kit was coming the following March. It shipped on schedule, on 6 March 2008.\n\nNative apps already live when the App Store opened on 10 July 2008, more than a year after the iPhone itself went on sale. Jobs called it 'the biggest launch of my career.'\n\nIt took a board member phoning him again and again to change his mind.\n\nSources:\n- https://9to5mac.com/2011/10/21/jobs-original-vision-for-the-iphone-no-third-party-native-apps: quotes Steve Jobs's 2007 WWDC statement in full ('There's no SDK that you need!'), reports the Isaacson biography's account of board member Art Levinson phoning Jobs 'half a dozen times' to lobby for native apps and Jobs initially quashing the idea, and the 17 October 2007 open letter announcing an SDK for March 2008.\n- https://appleinsider.com/articles/08/07/10/apples_app_store_launches_with_more_than_500_apps: contemporaneous report, published the day of the launch, confirming the App Store went live on 10 July 2008 with more than 500 native apps, over 125 of them (more than 25%) free, and Jobs's 'biggest launch of my career' quote.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "LoUZm071r7Q",
+      "youtubeUrl": "https://youtu.be/LoUZm071r7Q",
+      "uploadedAt": "2026-09-18T13:24:46.160Z",
+      "privacy": "public"
     }
   ]
 }
