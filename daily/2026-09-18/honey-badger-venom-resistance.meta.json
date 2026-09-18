@@ -1,0 +1,25 @@
+{
+  "slug": "honey-badger-venom-resistance",
+  "date": "2026-09-18",
+  "title": "Up to a quarter of a honey badger's diet is venomous snakes, hunted for meat rather than out of desp",
+  "description": "Up to a quarter of a honey badger's diet is venomous snakes, hunted for meat rather than out of desperation. A University of Minnesota team led by Danielle Drabeck wanted to know how the animal survives bites that would kill almost anything else.\n\nCobra venom contains neurotoxins that normally jam a muscle cell's receptor shut, blocking the signal that keeps the muscle working and eventually stopping the lungs. Drabeck's team sequenced the gene for that receptor in honey badger blood sourced from zoos in San Diego and Fort Wayne, since the animal is not found anywhere in the Western Hemisphere.\n\nThey found the receptor itself had mutated, changing shape just enough that the neurotoxin can no longer fit into it and switch it off. The same fix evolved independently in three other animals that regularly encounter venomous snakes: mongooses, hedgehogs, and, unexpectedly, wild pigs.\n\npublished the molecular explanation, with Jansa describing the ongoing back and forth between resistant predators and increasingly toxic snakes as a tit for tat evolutionary arms race.\n\nThe same receptor tweak may point toward safer antivenoms for the roughly 1.8 million people bitten by venomous snakes each year, since most current treatments still carry a real risk of allergic reaction.\n\nSources:\n- https://slate.com/technology/2015/06/honey-badger-venom-resistance-biologists-discover-the-secret.html: reports University of Minnesota researcher Danielle Drabeck's molecular study with biologist Sharon Jansa and biochemist Antony Dean, using honey badger blood sourced from the San Diego and Fort Wayne zoos, the discovery of mutations in the honey badger's nicotinic acetylcholine receptor that stop cobra neurotoxin from binding, the same tweaks evolving independently in mongooses, hedgehogs and pigs, roughly a quarter of the honey badger's diet being venomous snakes, and Sharon Jansa's description of a tit for tat evolutionary arms race between the badgers and the snakes.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "animals",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "yt-bbm0902",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbm0902",
+  "file": "out/daily-2026-09-18-honey-badger-venom-resistance.mp4",
+  "propsFile": "daily/2026-09-18/honey-badger-venom-resistance.props.json",
+  "durationInFrames": 1236,
+  "audioUrl": "",
+  "niche": "animals",
+  "composition": "Reel"
+}

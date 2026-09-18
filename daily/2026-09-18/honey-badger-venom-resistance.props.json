@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (honey-badger-venom-resistance)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0D0D08",
+    "ink": "#F2EFE0",
+    "accent": "#D4A72C",
+    "muted": "#6E6A50"
+  },
+  "niche": "animals",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Honey badgers are often described as fearless. What they actually have is a rewritten instruction manual for one specific poison.",
+      "text": "Up to a quarter of a honey badger's diet is venomous snakes, hunted for meat rather than out of desperation.",
+      "note": "A University of Minnesota team led by Danielle Drabeck wanted to know how the animal survives bites that would kill almost anything else.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "Cobra venom contains neurotoxins that normally jam a muscle cell's receptor shut, blocking the signal that keeps the muscle working and eventually stopping the lungs.",
+      "note": "Drabeck's team sequenced the gene for that receptor in honey badger blood sourced from zoos in San Diego and Fort Wayne, since the animal is not found anywhere in the Western Hemisphere.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "They found the receptor itself had mutated, changing shape just enough that the neurotoxin can no longer fit into it and switch it off.",
+      "note": "The same fix evolved independently in three other animals that regularly encounter venomous snakes: mongooses, hedgehogs, and, unexpectedly, wild pigs.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2015",
+      "name": "Danielle Drabeck, Sharon Jansa and Antony Dean",
+      "role": "published the molecular explanation, with Jansa describing the ongoing back and forth between resistant predators and increasingly toxic snakes as a tit for tat evolutionary arms race.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The same receptor tweak may point toward safer antivenoms for the roughly 1.8 million people bitten by venomous snakes each year, since most current treatments still carry a real risk of allergic reaction.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "Not fearless. Just biologically unable to feel the one thing that would normally stop it.",
+      "handle": "@bbm0902",
+      "durationInFrames": 136
+    }
+  ],
+  "cta": "Subscribe for more."
+}

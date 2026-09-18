@@ -209,7 +209,9 @@
     "reel:ten-percent-brain-myth",
     "reel:great-stink-london-1858",
     "reel:first-spam-email-1978",
-    "reel:iphone-no-app-store-2007"
+    "reel:iphone-no-app-store-2007",
+    "reel:honey-badger-venom-resistance",
+    "reel:peanuts-underground-geocarpy"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -3579,6 +3581,36 @@
       "youtubeId": "LoUZm071r7Q",
       "youtubeUrl": "https://youtu.be/LoUZm071r7Q",
       "uploadedAt": "2026-09-18T13:24:46.160Z",
+      "privacy": "public"
+    },
+    {
+      "id": "honey-badger-venom-resistance",
+      "date": "2026-09-18",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Up to a quarter of a honey badger's diet is venomous snakes, hunted for meat rather than out of desp",
+      "description": "Up to a quarter of a honey badger's diet is venomous snakes, hunted for meat rather than out of desperation. A University of Minnesota team led by Danielle Drabeck wanted to know how the animal survives bites that would kill almost anything else.\n\nCobra venom contains neurotoxins that normally jam a muscle cell's receptor shut, blocking the signal that keeps the muscle working and eventually stopping the lungs. Drabeck's team sequenced the gene for that receptor in honey badger blood sourced from zoos in San Diego and Fort Wayne, since the animal is not found anywhere in the Western Hemisphere.\n\nThey found the receptor itself had mutated, changing shape just enough that the neurotoxin can no longer fit into it and switch it off. The same fix evolved independently in three other animals that regularly encounter venomous snakes: mongooses, hedgehogs, and, unexpectedly, wild pigs.\n\npublished the molecular explanation, with Jansa describing the ongoing back and forth between resistant predators and increasingly toxic snakes as a tit for tat evolutionary arms race.\n\nThe same receptor tweak may point toward safer antivenoms for the roughly 1.8 million people bitten by venomous snakes each year, since most current treatments still carry a real risk of allergic reaction.\n\nSources:\n- https://slate.com/technology/2015/06/honey-badger-venom-resistance-biologists-discover-the-secret.html: reports University of Minnesota researcher Danielle Drabeck's molecular study with biologist Sharon Jansa and biochemist Antony Dean, using honey badger blood sourced from the San Diego and Fort Wayne zoos, the discovery of mutations in the honey badger's nicotinic acetylcholine receptor that stop cobra neurotoxin from binding, the same tweaks evolving independently in mongooses, hedgehogs and pigs, roughly a quarter of the honey badger's diet being venomous snakes, and Sharon Jansa's description of a tit for tat evolutionary arms race between the badgers and the snakes.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "animals",
+      "channelId": "yt-bbm0902",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "peanuts-underground-geocarpy",
+      "date": "2026-09-18",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Peanuts are legumes, in the same plant family as peas, beans and lentils, and after their yellow flo",
+      "description": "Peanuts are legumes, in the same plant family as peas, beans and lentils, and after their yellow flowers pollinate themselves above ground, the plant sends the developing pod underground to finish growing. Botanists call this geocarpy, from the Greek for earth fruit.\n\nThe mechanism is a structure called a peg. Once a flower is fertilised, it withers and a stem grows downward and away from the plant, burying its tip in the soil, where the pod then forms and swells at the buried end. It is a genuinely unusual strategy: almost every other flowering plant develops its fruit in the open air, not underground.\n\nroughly how long after planting a peanut plant's self pollinating yellow flowers typically appear.\n\nthe upper end of how long peanut pods typically take to ripen underground after planting.\n\nThe plant is quietly useful even before harvest. Like other legumes, its roots host nitrogen fixing bacteria that enrich the soil, which is why growers are told to leave the roots behind to decay rather than pulling the whole plant out.\n\nSources:\n- https://plants.ces.ncsu.edu/plants/arachis-hypogaea/: North Carolina State University Extension's plant profile for Arachis hypogaea, confirming peanuts are a legume in the pea and bean family Fabaceae rather than a true nut, native to Central Brazil, describing geocarpy as flowering above ground before a stem called a peg grows down into the soil to develop the pod underground, giving self pollinating yellow flowers appearing roughly 40 days after planting and pods typically ripening 120 to 150 days after planting, and noting the crop's nitrogen fixing root nodules that enrich the soil it grows in.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "food",
+      "channelId": "yt-bbm0902",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "IIaYlmXdEAQ",
+      "youtubeUrl": "https://youtu.be/IIaYlmXdEAQ",
+      "uploadedAt": "2026-09-18T13:38:02.607Z",
       "privacy": "public"
     }
   ]
