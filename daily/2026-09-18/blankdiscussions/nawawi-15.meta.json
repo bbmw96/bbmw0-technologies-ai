@@ -1,0 +1,43 @@
+{
+  "slug": "nawawi-15",
+  "date": "2026-09-18",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "Let him who believes in Allah and the Last Day speak good, or keep silent; and be generous to his neighbour and his guest.\n\nForty Hadith of an-Nawawi, Hadith 15 (also in Bukhari and Muslim). Swipe through for the Arabic, then English, Mandarin, Korean, Japanese and Malay renderings.\n\nSources on the final slide.",
+  "tags": [
+    "Hadith",
+    "IslamicReminder",
+    "Sunnah",
+    "Deen",
+    "IslamicGuidance",
+    "MuslimReminder",
+    "GoodNeighbour",
+    "IslamicQuotes",
+    "ProphetMuhammad",
+    "FortyHadith"
+  ],
+  "theme": "charcoal-copper",
+  "slides": [
+    "nawawi-15.slide-01.json",
+    "nawawi-15.slide-02.json",
+    "nawawi-15.slide-03.json",
+    "nawawi-15.slide-04.json",
+    "nawawi-15.slide-05.json",
+    "nawawi-15.slide-06.json",
+    "nawawi-15.slide-07.json",
+    "nawawi-15.slide-08.json"
+  ],
+  "sourcing": {
+    "primary_text": "Forty Hadith of an-Nawawi, Hadith 15, narrated by Abu Hurayrah (may Allah be pleased with him); also recorded in Sahih al-Bukhari and Sahih Muslim",
+    "arabic": "Matn only (isnad and citation tail omitted for slide length, following the same precedent as bukhari-1-1.meta.json and nawawi-13.meta.json), edition ara-nawawi, cdn.jsdelivr.net/gh/fawazahmed0/hadith-api. Live-fetched and verified this session (2026-09-18) via GET /editions/ara-nawawi/15.json. The raw field also contained a stray HTML '<br>' tag, a stray space before the closing full stop, and a bracketed attribution tail ('[Al-Bukhari] [Muslim]') after the matn, all dropped for the slide (matn preserved verbatim, character-for-character): full raw string for the audit trail is 'عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه و سلم قَالَ: مَنْ كَانَ يُؤْمِنُ بِاَللَّهِ وَالْيَوْمِ الْآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ، وَمَنْ كَانَ يُؤْمِنُ بِاَللَّهِ وَالْيَوْمِ الْآخِرِ فَلْيُكْرِمْ جَارَهُ، وَمَنْ كَانَ يُؤْمِنُ بِاَللَّهِ وَالْيَوْمِ الْآخِرِ فَلْيُكْرِمْ ضَيْفَهُ .<br>[رَوَاهُ الْبُخَارِيُّ] ، [وَمُسْلِمٌ]'.",
+    "english": "Edition eng-nawawi, cdn.jsdelivr.net/gh/fawazahmed0/hadith-api. Live-fetched this session via GET /editions/eng-nawawi/15.json. Matn quoted verbatim; the isnad intro ('On the authority of Abu Hurayrah...said:') and the bracketed citation tail ('[Al-Bukhari] [Muslim]') were dropped for the slide, matching the Arabic treatment above and the same precedent as nawawi-13.meta.json. Checked editions.json for a named translator: the 'author' field for this edition is 'Imam Nawawi' (the compiler of the original collection, not a translator), and no separate translator name is given anywhere in the API's metadata - so the on-slide and citation-slide credit says 'translator not specified by source' rather than asserting an unverified name.",
+    "chinese_korean_japanese_malay": "No Chinese, Korean, Japanese, or Malay edition exists in the fawazahmed0/hadith-api catalogue for any collection, including nawawi (confirmed this session by re-fetching the full editions.json: the nawawi collection lists only Arabic (two variants), Bengali, English, French and Turkish). These four renderings are therefore my own careful translation from the verified Arabic and English matn above, not a named external source, and are labelled as translations on-slide and in the caption rather than attributed to a scholar who did not produce them.",
+    "verification_note": "Arabic and English matn are primary-sourced and citable, live-fetched this session (2026-09-18) via cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/{ara-nawawi,eng-nawawi}/15.json, both HTTP 200, re-fetched fresh rather than trusted from any prior session's memory, per the channel's hard sourcing requirement. Chinese, Korean, Japanese and Malay are transparently labelled translations. See channels.json's ig-blankdiscussions._niche_note for why honest sourcing is a hard requirement for this channel.",
+    "compliance_check": "Manually checked against scripts/data/compliance-policy.json's halal keyword-blocklists (intoxicants, pork, gambling, riba, immodesty, profanity, superstition, origins_patterns, animate_imagery, context_review) since compliance-gate.mjs does not cover this channel's schema. No blocklisted terms present in any of the six language texts; no imagery generated at all (pure typography slides). Content is a core ethical teaching on guarding one's speech, hospitality and good neighbourliness with no sensitive subject matter - no context_review flags apply. Clean.",
+    "theme_note": "This post introduces a 10th theme, 'charcoal-copper' (near-black background with a warm copper accent), added to src/compositions/IslamicCarouselSlide.tsx's THEMES/THEME_ORDER alongside 'ivory-cobalt' introduced the same session by quran-2-255. All 8 prior themes had each been used exactly once as of 2026-09-17. Per the component's own code comment, new themes were added rather than repeating any."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-18/nawawi-15-slide-NN.png --props=daily/2026-09-18/blankdiscussions/nawawi-15.slide-NN.json  (run once per slide, NN = 01 through 08)",
+  "status": "sourced"
+}

@@ -28,7 +28,7 @@
 // same stack has the same coverage there.
 import React from "react";
 
-export type ThemeKey = "emerald-gold" | "midnight-silver" | "terracotta-cream" | "plum-rose" | "indigo-saffron" | "sapphire-pearl" | "garnet-amber" | "obsidian-jade";
+export type ThemeKey = "emerald-gold" | "midnight-silver" | "terracotta-cream" | "plum-rose" | "indigo-saffron" | "sapphire-pearl" | "garnet-amber" | "obsidian-jade" | "ivory-cobalt" | "charcoal-copper";
 
 export const THEMES: Record<ThemeKey, { bg: string; ink: string; accent: string; muted: string; label: string }> = {
   "emerald-gold": { bg: "#0B2B26", ink: "#F5F1E6", accent: "#C9A227", muted: "#8FB6AC", label: "Emerald & Gold" },
@@ -39,8 +39,10 @@ export const THEMES: Record<ThemeKey, { bg: string; ink: string; accent: string;
   "sapphire-pearl": { bg: "#0A2540", ink: "#EAF2FA", accent: "#7EC8E3", muted: "#3D5A73", label: "Sapphire & Pearl" },
   "garnet-amber": { bg: "#2B0F14", ink: "#F5E6DC", accent: "#D98E4A", muted: "#6B3A3F", label: "Garnet & Amber" },
   "obsidian-jade": { bg: "#0E1512", ink: "#EDF3EF", accent: "#3FA796", muted: "#4C5C56", label: "Obsidian & Jade" },
+  "ivory-cobalt": { bg: "#F0EBDD", ink: "#1F2A44", accent: "#2F6FB0", muted: "#8A93A6", label: "Ivory & Cobalt" },
+  "charcoal-copper": { bg: "#1A1A1A", ink: "#F2EAE0", accent: "#C1712F", muted: "#6B6560", label: "Charcoal & Copper" },
 };
-export const THEME_ORDER: ThemeKey[] = ["emerald-gold", "midnight-silver", "terracotta-cream", "plum-rose", "indigo-saffron", "sapphire-pearl", "garnet-amber", "obsidian-jade"];
+export const THEME_ORDER: ThemeKey[] = ["emerald-gold", "midnight-silver", "terracotta-cream", "plum-rose", "indigo-saffron", "sapphire-pearl", "garnet-amber", "obsidian-jade", "ivory-cobalt", "charcoal-copper"];
 
 const SANS = '"Helvetica Neue", Inter, Arial, system-ui, sans-serif';
 // Font stacks, most-specific/best-shaped first, safe generic last.

@@ -1,0 +1,47 @@
+{
+  "slug": "quran-2-255",
+  "date": "2026-09-18",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "Ayat al-Kursi, the Verse of the Throne: Allah, there is no deity except Him, the Ever-Living, the Sustainer of all existence.\n\nSurah Al-Baqarah (2:255). Swipe through for the Arabic, then English, Mandarin, Korean, Japanese and Malay renderings.\n\nSources on the final slide.",
+  "tags": [
+    "Quran",
+    "AyatAlKursi",
+    "IslamicReminder",
+    "Ayah",
+    "Deen",
+    "IslamicGuidance",
+    "MuslimReminder",
+    "IslamicQuotes",
+    "Tawheed",
+    "QuranicVerses"
+  ],
+  "theme": "ivory-cobalt",
+  "slides": [
+    "quran-2-255.slide-01.json",
+    "quran-2-255.slide-02.json",
+    "quran-2-255.slide-03.json",
+    "quran-2-255.slide-04.json",
+    "quran-2-255.slide-05.json",
+    "quran-2-255.slide-06.json",
+    "quran-2-255.slide-07.json",
+    "quran-2-255.slide-08.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an, Surah Al-Baqarah (2), Ayah 255 (Ayat al-Kursi, the Verse of the Throne)",
+    "arabic": "Uthmani script (edition quran-uthmani), api.alquran.cloud. Live-fetched and verified this session (2026-09-18) via GET /v1/ayah/2:255/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese,ms.basmeih, HTTP 200.",
+    "english": "Saheeh International (edition en.sahih), api.alquran.cloud. Same live call as above, quoted verbatim including the translator's own bracketed interpolations '[all]' and '[presently]'.",
+    "chinese": "Ma Jian, 马坚 (edition zh.jian), api.alquran.cloud. Same live call as above, rendered verbatim with no corrections needed.",
+    "malay": "Abdullah Muhammad Basmeih (edition ms.basmeih), api.alquran.cloud. Same live call as above, rendered verbatim. Note for the audit trail only (no text altered): the raw string has a lower-case 'yang' opening the sentence that follows '...usahkan tidur.', which is the source's own styling, not a transcription artifact introduced here.",
+    "korean": "Edition ko.korean, api.alquran.cloud. Translator is listed as 'Unknown' in the source's own metadata (englishName field), so the on-slide credit says 'translator not specified by source' rather than inventing a scholar's name. The raw API string contained eleven stray mid-word/missing-word spacing artifacts, all closed up or inserted for the slide with no wording changed, consistent with the same edition's documented behaviour in quran-94-5.meta.json, quran-2-152.meta.json, quran-39-53.meta.json, quran-65-3.meta.json and quran-3-159.meta.json. Before -> after, verbatim: '없나니그분은' -> '없나니 그분은' (missing space inserted); '모 든' -> '모든'; '주관 하시도다' -> '주관하시도다'; '잠 도' -> '잠도'; '천 지의' -> '천지의'; '그 분의' -> '그분의' (both of its two occurrences); '것 을' -> '것을'; '대 하여' -> '대하여'; '그 것을' -> '그것을'; '아니하 시니' -> '아니하시니'; '장 엄하시노라' -> '장엄하시노라'. One further point left untouched on purpose: the raw text reads '권자가' where '권좌가' (throne) would be the expected word; since this is a wording difference rather than a spacing artifact, it was not changed and is rendered exactly as the API returned it.",
+    "japanese": "Edition ja.japanese, api.alquran.cloud. Translator is listed as 'Unknown' in the source's own metadata, cited on-slide as 'translator not specified by source'. Same live call as above, rendered verbatim with no corrections needed.",
+    "candidate_selection_note": "Ayah 2:255 (Ayat al-Kursi) was chosen as one of the most widely known and recited verses in the Qur'an, not yet covered by this channel (prior posts: 94:5, 2:152, 39:53, 13:28, 65:3, 3:159). Live-fetched and verified this session (2026-09-18); all six language editions came back complete on the first request, so no alternative candidates were needed.",
+    "verification_note": "All six language renderings came from a single live api.alquran.cloud request made this session (2026-09-18), not from memory or a prior file: GET https://api.alquran.cloud/v1/ayah/2:255/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese,ms.basmeih, HTTP 200. See channels.json's ig-blankdiscussions._niche_note for why this project treats scripture sourcing as a hard requirement, not a style choice.",
+    "compliance_check": "Manually checked against scripts/data/compliance-policy.json's halal keyword-blocklists (intoxicants, pork, gambling, riba, immodesty, profanity, superstition, origins_patterns, animate_imagery, context_review) since compliance-gate.mjs does not cover this channel's schema. No blocklisted terms present in any of the six language texts; no imagery generated at all (pure typography slides). Content is a foundational statement on Allah's oneness and attributes (tawheed) - no context_review flags apply. Clean.",
+    "theme_note": "This post introduces a 9th theme, 'ivory-cobalt' (warm ivory background with a cobalt-blue accent), added to src/compositions/IslamicCarouselSlide.tsx's THEMES/THEME_ORDER, since all 8 prior themes had each been used exactly once as of 2026-09-17 (obsidian-jade being the most recent). Per the component's own code comment, a new theme was added rather than repeating one."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-18/quran-2-255-slide-NN.png --props=daily/2026-09-18/blankdiscussions/quran-2-255.slide-NN.json  (run once per slide, NN = 01 through 08)",
+  "status": "sourced"
+}
