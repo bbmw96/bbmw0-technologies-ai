@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (first-banner-ad-1994)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#171308",
+    "ink": "#FBF6E9",
+    "accent": "#FBBF24",
+    "muted": "#8C8267"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The story goes that AT&T ran the world's first banner ad in 1994",
+      "text": "There's no such thing as the first banner ad.",
+      "note": "HotWired launched on 27 October 1994 with 14 advertisers already signed on, and somewhere between six and twelve banner ads went live at the same time that day.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "AT&T signed on less than a week before launch",
+      "text": "purely to beat a rival to the spot.",
+      "note": "AT&T had heard that competitor MCI had already secured a HotWired placement and did not want to be left out. The media buy cost roughly $20,000 to $30,000.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The banner itself didn't even carry the AT&T logo",
+      "text": "Clicking it led to a page of links that had nothing to do with AT&T's products.",
+      "note": "A clickable map of American art museums, a directory of AT&T websites that existed nowhere else, not even on AT&T's own site, and a short survey.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Only one number about this ad ever gets repeated",
+      "text": "and even its own retrospective calls it an estimate.",
+      "note": "The oft-cited 44% click-through rate comes from the ad's creators recalling, decades later, that the rate 'settled at around' that figure once the novelty wore off. Roughly 14 million people were online worldwide at the time.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Only one advertiser out of a dozen that launched that day is remembered as 'the first'.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "sign",
+      "line": "The ad that supposedly started it all wasn't even alone on the page.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 124
+    }
+  ],
+  "cta": "Follow for more."
+}

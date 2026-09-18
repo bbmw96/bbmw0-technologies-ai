@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (flappy-bird-pulled)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0E1A2B",
+    "ink": "#F0F6FF",
+    "accent": "#4FC3F7",
+    "muted": "#7C93A8"
+  },
+  "niche": "gaming",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The rumour is that Nintendo made him do it",
+      "text": "Dong Nguyen pulled Flappy Bird himself.",
+      "note": "In his first interview after removing the game, Nguyen told Forbes he had received no legal threat from Nintendo over the pipe graphics, and that any resemblance was 'coincidental'.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The game was reportedly earning him about $50,000 a day",
+      "text": "He walked away from it anyway.",
+      "note": "Nguyen would not confirm the exact figure to Forbes, saying only: 'I don't know the exact figure, but I do know it's a lot.'",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2014",
+      "name": "Dong Nguyen",
+      "role": "Removed his own number one app from every app store that February, saying it had become 'an addictive product' and that he 'couldn't sleep'.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "He kept two smaller games live",
+      "text": "and called them 'harmless'.",
+      "note": "Nguyen said he would pull Super Ball Juggling and Shuriken Block too, the moment he thought players were getting addicted to those as well.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "He coded the whole game in two or three days, the year before. Explaining why he killed it took a slow forty-five minute interview, through a haze of cigarette smoke.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "sign",
+      "line": "'I don't think it's a mistake. I have thought it through.'",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 112
+    }
+  ],
+  "cta": "Follow for more."
+}

@@ -1,0 +1,47 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (minecraft-creeper-origin)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0D1210",
+    "ink": "#EAF5E8",
+    "accent": "#5FD068",
+    "muted": "#6B8577"
+  },
+  "niche": "gaming",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Everyone knows the creeper was a coding mistake",
+      "text": "It was supposed to be a pig.",
+      "note": "On 20 August 2009, Markus 'Notch' Persson swapped the length and height while modelling a pig for the new game, and got a tall, narrow shape instead.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2009",
+      "name": "Markus Persson",
+      "role": "Wrote in an IRC log at 12:10: 'omg I think I failed at making a pig, haha'. Seven minutes later: 'haha, I'll keep it for a creepy creature.'",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "lead": "He gave it a skin torn from the leaf texture",
+      "text": "and taught it to explode.",
+      "note": "The creeper entered the actual game twelve days later, in the pre-alpha build 0.24_SURVIVAL_TEST on 1 September 2009.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Minecraft's most famous monster started life as a pig that went wrong.",
+      "durationInFrames": 94
+    },
+    {
+      "kind": "sign",
+      "line": "Sixteen years on, it's still in the game on purpose.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 106
+    }
+  ],
+  "cta": "Follow for more."
+}

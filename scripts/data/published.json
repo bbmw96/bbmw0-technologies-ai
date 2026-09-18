@@ -198,7 +198,11 @@
     "reel:catatumbo-lightning-venezuela",
     "reel:great-smog-london-1952",
     "reel:koala-fingerprints-human",
-    "reel:wombat-cube-shaped-poop"
+    "reel:wombat-cube-shaped-poop",
+    "reel:minecraft-creeper-origin",
+    "reel:eugene-goostman-turing",
+    "reel:flappy-bird-pulled",
+    "reel:first-banner-ad-1994"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -3410,6 +3414,58 @@
       "youtubeUrl": "https://youtu.be/HJgIJRTSFeo",
       "uploadedAt": "2026-09-17T14:04:47.356Z",
       "privacy": "public"
+    },
+    {
+      "id": "minecraft-creeper-origin",
+      "date": "2026-09-18",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It was supposed to be a pig.",
+      "description": "It was supposed to be a pig. On 20 August 2009, Markus 'Notch' Persson swapped the length and height while modelling a pig for the new game, and got a tall, narrow shape instead.\n\nWrote in an IRC log at 12:10: 'omg I think I failed at making a pig, haha'. Seven minutes later: 'haha, I'll keep it for a creepy creature.'\n\nand taught it to explode. The creeper entered the actual game twelve days later, in the pre-alpha build 0.24_SURVIVAL_TEST on 1 September 2009.\n\nMinecraft's most famous monster started life as a pig that went wrong.\n\nSources:\n- https://en.wikipedia.org/wiki/Creeper_(Minecraft): confirms the 20 August 2009 accidental origin while Markus Persson was modelling a pig, the swapped length and height dimensions, his decision to keep the shape and give it a green leaf-texture skin, and the 1 September 2009 pre-alpha release in build 0.24_SURVIVAL_TEST.\n- https://archive.org/download/Minecraft_IRC_Logs_2009/DBN-IRC-Logs/#minecraft.20090820.log: the original 20 August 2009 IRC log, quoted directly, timestamped 12:10:38 and 12:17:33.\n- https://www.ign.com/articles/minecraft-probably-wouldnt-add-creepers-today-as-theyd-be-too-controversial-but-dont-worry-theyre-not-going-anywhere-now-theyre-so-iconic: October 2025 interview in which lead designer Jens Bergensten says creepers would likely not be added under Minecraft's current design principles, while confirming there are no plans to remove them.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "eugene-goostman-turing",
+      "date": "2026-09-18",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Here's what actually happened when someone asked it a simple question.",
+      "description": "Here's what actually happened when someone asked it a simple question. Computer scientist Scott Aaronson asked Eugene Goostman how many legs an ant has.\n\nThat was the chatbot's actual answer. It never answered a single one of Aaronson's questions directly, deflecting each one with jokes and topic changes instead.\n\nBuilt Goostman as a 13-year-old Ukrainian boy with a pet guinea pig, a gynaecologist father, and a built-in excuse for every grammar mistake it made.\n\nA modified Cleverbot had already beaten that in 2011. At the Techniche festival that year, Cleverbot convinced 59.3% of a much larger voting pool, under the same 30% pass threshold Turing had suggested.\n\nImperial College AI professor Murray Shanahan called the 'pass' claim 'completely misplaced', saying it devalues real AI research.\n\nSources:\n- https://en.wikipedia.org/wiki/Eugene_Goostman: confirms the 2001 creation by Vladimir Veselov, Eugene Demchenko and Sergey Ulasen, the 13-year-old Ukrainian persona from Odesa with a pet guinea pig and a gynaecologist father, the 7 June 2014 Royal Society event organised by Kevin Warwick with 33% of 30 judges convinced, the 2011 Techniche festival result for a modified Cleverbot (59.3% of 1,334 votes), and Murray Shanahan's 'completely misplaced' quote.\n- http://www.scottaaronson.com/blog/?p=1858: Scott Aaronson's own blog post transcribing his full conversation with Eugene Goostman, including the ant-leg exchange quoted directly.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "flappy-bird-pulled",
+      "date": "2026-09-18",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Dong Nguyen pulled Flappy Bird himself.",
+      "description": "Dong Nguyen pulled Flappy Bird himself. In his first interview after removing the game, Nguyen told Forbes he had received no legal threat from Nintendo over the pipe graphics, and that any resemblance was 'coincidental'.\n\nHe walked away from it anyway. Nguyen would not confirm the exact figure to Forbes, saying only: 'I don't know the exact figure, but I do know it's a lot.'\n\nRemoved his own number one app from every app store that February, saying it had become 'an addictive product' and that he 'couldn't sleep'.\n\nand called them 'harmless'. Nguyen said he would pull Super Ball Juggling and Shuriken Block too, the moment he thought players were getting addicted to those as well.\n\nHe coded the whole game in two or three days, the year before. Explaining why he killed it took a slow forty-five minute interview, through a haze of cigarette smoke.\n\nSources:\n- https://www.forbes.com/sites/lananhnguyen/2014/02/11/exclusive-flappy-bird-creator-dong-nguyen-says-app-gone-forever-because-it-was-an-addictive-product: Forbes' exclusive interview with Dong Nguyen, conducted in a Hanoi hotel on condition his face not be shown, his first since removing the game. Source for the direct quotes, the denial of any Nintendo legal threat, the two other apps he kept live, his stated reason for pulling the game, the 24 May 2013 release date, and the two or three days he says it took him to code it.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "first-banner-ad-1994",
+      "date": "2026-09-18",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "There's no such thing as the first banner ad.",
+      "description": "There's no such thing as the first banner ad. HotWired launched on 27 October 1994 with 14 advertisers already signed on, and somewhere between six and twelve banner ads went live at the same time that day.\n\npurely to beat a rival to the spot. AT&T had heard that competitor MCI had already secured a HotWired placement and did not want to be left out. The media buy cost roughly $20,000 to $30,000.\n\nClicking it led to a page of links that had nothing to do with AT&T's products. A clickable map of American art museums, a directory of AT&T websites that existed nowhere else, not even on AT&T's own site, and a short survey.\n\nand even its own retrospective calls it an estimate. The oft-cited 44% click-through rate comes from the ad's creators recalling, decades later, that the rate 'settled at around' that figure once the novelty wore off. Roughly 14 million people were online worldwide at the time.\n\nOnly one advertiser out of a dozen that launched that day is remembered as 'the first'.\n\nSources:\n- https://www.fastcompany.com/3037484/the-trailblazing-candy-colored-history-of-the-online-banner-ad: primary 20th-anniversary retrospective interviewing the ad's own creators. Confirms there was no single 'first' banner ad, since 14 advertisers launched with HotWired on 27 October 1994 and somewhere between six and twelve banners appeared simultaneously that day, that AT&T signed on less than a week before launch to compete with rival MCI, paid roughly $20,000 to $30,000 for the placement, that the banner carried no AT&T logo and led to a page of unrelated links, and that the widely cited 44% click-through figure is itself only an approximate, 'by some accounts' recollection.\n- https://en.wikipedia.org/wiki/You_Will: confirms AT&T's 'You Will' campaign launched in 1993, directed by David Fincher and narrated by Tom Selleck, and that the HotWired banner running from 27 October 1994 reused its tagline.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }

@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (eugene-goostman-turing)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B1516",
+    "ink": "#EAFBFA",
+    "accent": "#2DD4BF",
+    "muted": "#6E8B89"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Headlines said a chatbot passed the Turing test in 2014",
+      "text": "Here's what actually happened when someone asked it a simple question.",
+      "note": "Computer scientist Scott Aaronson asked Eugene Goostman how many legs an ant has.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "'Something between 2 and 4. Maybe three? Oh, what a fruitful conversation.'",
+      "text": "That was the chatbot's actual answer.",
+      "note": "It never answered a single one of Aaronson's questions directly, deflecting each one with jokes and topic changes instead.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2001",
+      "name": "Veselov, Demchenko and Ulasen",
+      "role": "Built Goostman as a 13-year-old Ukrainian boy with a pet guinea pig, a gynaecologist father, and a built-in excuse for every grammar mistake it made.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "At the 2014 event, 33% of judges called it human",
+      "text": "A modified Cleverbot had already beaten that in 2011.",
+      "note": "At the Techniche festival that year, Cleverbot convinced 59.3% of a much larger voting pool, under the same 30% pass threshold Turing had suggested.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Imperial College AI professor Murray Shanahan called the 'pass' claim 'completely misplaced', saying it devalues real AI research.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "sign",
+      "line": "Passing the test and being intelligent turned out to be two different things.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 124
+    }
+  ],
+  "cta": "Follow for more."
+}

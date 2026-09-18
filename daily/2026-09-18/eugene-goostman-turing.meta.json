@@ -1,0 +1,25 @@
+{
+  "slug": "eugene-goostman-turing",
+  "date": "2026-09-18",
+  "title": "Here's what actually happened when someone asked it a simple question.",
+  "description": "Here's what actually happened when someone asked it a simple question. Computer scientist Scott Aaronson asked Eugene Goostman how many legs an ant has.\n\nThat was the chatbot's actual answer. It never answered a single one of Aaronson's questions directly, deflecting each one with jokes and topic changes instead.\n\nBuilt Goostman as a 13-year-old Ukrainian boy with a pet guinea pig, a gynaecologist father, and a built-in excuse for every grammar mistake it made.\n\nA modified Cleverbot had already beaten that in 2011. At the Techniche festival that year, Cleverbot convinced 59.3% of a much larger voting pool, under the same 30% pass threshold Turing had suggested.\n\nImperial College AI professor Murray Shanahan called the 'pass' claim 'completely misplaced', saying it devalues real AI research.\n\nSources:\n- https://en.wikipedia.org/wiki/Eugene_Goostman: confirms the 2001 creation by Vladimir Veselov, Eugene Demchenko and Sergey Ulasen, the 13-year-old Ukrainian persona from Odesa with a pet guinea pig and a gynaecologist father, the 7 June 2014 Royal Society event organised by Kevin Warwick with 33% of 30 judges convinced, the 2011 Techniche festival result for a modified Cleverbot (59.3% of 1,334 votes), and Murray Shanahan's 'completely misplaced' quote.\n- http://www.scottaaronson.com/blog/?p=1858: Scott Aaronson's own blog post transcribing his full conversation with Eugene Goostman, including the ant-leg exchange quoted directly.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-18-eugene-goostman-turing.mp4",
+  "propsFile": "daily/2026-09-18/eugene-goostman-turing.props.json",
+  "durationInFrames": 1116,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}
