@@ -1,0 +1,40 @@
+{
+  "slug": "nasai-5126",
+  "date": "2026-09-18",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "\"Any woman who puts on perfume then passes by people so that they can smell her fragrance - then she is an adulteress.\"\n\nSunan an-Nasa'i 5126, graded Hasan (Darussalam). The primary text speaks specifically to scent carrying to strangers in public - the caption keeps to exactly that scope. Swipe for Arabic, English, Mandarin, Korean, Japanese and Malay.\n\nSources on the final slide.",
+  "tags": [
+    "Hadith",
+    "Nasai",
+    "Modesty",
+    "Perfume",
+    "IslamicReminder",
+    "Deen",
+    "MuslimReminder",
+    "IslamicQuotes",
+    "ProphetMuhammad"
+  ],
+  "theme": "clay-frost",
+  "slides": [
+    "nasai-5126.slide-01.json",
+    "nasai-5126.slide-02.json",
+    "nasai-5126.slide-03.json",
+    "nasai-5126.slide-04.json",
+    "nasai-5126.slide-05.json",
+    "nasai-5126.slide-06.json",
+    "nasai-5126.slide-07.json",
+    "nasai-5126.slide-08.json"
+  ],
+  "sourcing": {
+    "primary_text": "Sunan an-Nasa'i 5126, narrated by Al-Ash'ari - built for the requested topic 'what does the Quran and ahadeeth say about a woman wearing lipstick and foundation... etc, deep this question and think of all the other things.' This is the primary hadith found addressing a woman's public self-presentation drawing others' attention via scent, the closest primary-text parallel found to the requested theme of cosmetics/scent drawing outside attention. IMPORTANT SCOPE NOTE, disclosed rather than stretched: this hadith's own wording addresses perfume/fragrance specifically, in the specific context of passing by people so they notice the scent - it does not itself name lipstick, foundation, or makeup. No equivalent primary Quranic ayah or hadith naming cosmetics/makeup by name for the purpose of 'correcting spots' was located as a distinct primary text in this session's research; rather than manufacture a primary-text quote about cosmetics that does not exist, this post is scoped honestly to what the located hadith actually says (perfume/scent in public), with that scope stated plainly in the caption.",
+    "arabic_and_english": "Live-fetched and independently verified this session (2026-09-18) via mcp__workspace__web_fetch of https://sunnah.com/nasai:5126 (HTTP 200), The Book of Adornment, Chapter: 'Kinds of Perfume that are Disliked (Makruh) for Women', In-book reference: Book 48, Hadith 87, English translation reference: Vol. 6, Book 48, Hadith 5129. Arabic and English quoted verbatim from that page.",
+    "grade": "Hasan (Darussalam), as explicitly graded on the sunnah.com page - shown on-slide for transparency.",
+    "chinese_korean_japanese_malay": "hadith-api (cdn.jsdelivr.net/gh/fawazahmed0/hadith-api) has NO Chinese, Korean, Japanese, or Malay editions for any hadith collection, confirmed via its editions.json this session. Per the channel's established convention for this gap, these four language slides are Claude's own careful translation, produced directly from the verified Arabic and English sunnah.com text above, and labelled on-slide as such.",
+    "compliance_check": "Manually checked against scripts/data/compliance-policy.json's halal keyword-blocklists (intoxicants, pork, gambling, riba, immodesty, profanity, superstition, origins_patterns, animate_imagery, context_review). context_review flag applies given the scope gap between the requested cosmetics topic and the located primary text (perfume) - handled by disclosing the scope honestly in the caption and sourcing rather than presenting the hadith as directly about cosmetics. No blocklisted terms present; no imagery generated."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-18/nasai-5126-slide-NN.png --props=daily/2026-09-18/blankdiscussions/nasai-5126.slide-NN.json  (run once per slide, NN = 01 through 08)",
+  "status": "sourced"
+}

@@ -28,7 +28,7 @@
 // same stack has the same coverage there.
 import React from "react";
 
-export type ThemeKey = "emerald-gold" | "midnight-silver" | "terracotta-cream" | "plum-rose" | "indigo-saffron" | "sapphire-pearl" | "garnet-amber" | "obsidian-jade" | "ivory-cobalt" | "charcoal-copper";
+export type ThemeKey = "emerald-gold" | "midnight-silver" | "terracotta-cream" | "plum-rose" | "indigo-saffron" | "sapphire-pearl" | "garnet-amber" | "obsidian-jade" | "ivory-cobalt" | "charcoal-copper" | "amber-slate" | "rosewood-mint" | "azure-sand" | "crimson-pewter" | "olive-gold" | "violet-ash" | "teal-bronze" | "maroon-linen" | "cobalt-ember" | "forest-blush" | "onyx-turquoise" | "clay-frost";
 
 export const THEMES: Record<ThemeKey, { bg: string; ink: string; accent: string; muted: string; label: string }> = {
   "emerald-gold": { bg: "#0B2B26", ink: "#F5F1E6", accent: "#C9A227", muted: "#8FB6AC", label: "Emerald & Gold" },
@@ -41,8 +41,20 @@ export const THEMES: Record<ThemeKey, { bg: string; ink: string; accent: string;
   "obsidian-jade": { bg: "#0E1512", ink: "#EDF3EF", accent: "#3FA796", muted: "#4C5C56", label: "Obsidian & Jade" },
   "ivory-cobalt": { bg: "#F0EBDD", ink: "#1F2A44", accent: "#2F6FB0", muted: "#8A93A6", label: "Ivory & Cobalt" },
   "charcoal-copper": { bg: "#1A1A1A", ink: "#F2EAE0", accent: "#C1712F", muted: "#6B6560", label: "Charcoal & Copper" },
+  "amber-slate": { bg: "#1E2530", ink: "#F4EFE3", accent: "#E0A458", muted: "#5B6879", label: "Amber & Slate" },
+  "rosewood-mint": { bg: "#3A1620", ink: "#F3E9E4", accent: "#6FBFA0", muted: "#8A5A63", label: "Rosewood & Mint" },
+  "azure-sand": { bg: "#EDE3D0", ink: "#1E3A4C", accent: "#3E7C97", muted: "#A79A7C", label: "Azure & Sand" },
+  "crimson-pewter": { bg: "#241017", ink: "#F1E7E6", accent: "#B23A48", muted: "#6E5C5F", label: "Crimson & Pewter" },
+  "olive-gold": { bg: "#20240F", ink: "#F2EFDE", accent: "#C7A03D", muted: "#5E6448", label: "Olive & Gold" },
+  "violet-ash": { bg: "#1C1830", ink: "#EDE9F6", accent: "#8E7BC2", muted: "#544F70", label: "Violet & Ash" },
+  "teal-bronze": { bg: "#0D2B2B", ink: "#EAF3F1", accent: "#B8843F", muted: "#3F6664", label: "Teal & Bronze" },
+  "maroon-linen": { bg: "#F1E9DD", ink: "#3B1A1A", accent: "#8C2F2F", muted: "#A08D75", label: "Maroon & Linen" },
+  "cobalt-ember": { bg: "#101B33", ink: "#EDF1FA", accent: "#D9713C", muted: "#3E4E70", label: "Cobalt & Ember" },
+  "forest-blush": { bg: "#122419", ink: "#F1EDE6", accent: "#D98CA0", muted: "#42624F", label: "Forest & Blush" },
+  "onyx-turquoise": { bg: "#141414", ink: "#EDEDED", accent: "#3FBFAE", muted: "#5C5C5C", label: "Onyx & Turquoise" },
+  "clay-frost": { bg: "#E7E2DA", ink: "#2C2A26", accent: "#8CA3AE", muted: "#9C9184", label: "Clay & Frost" },
 };
-export const THEME_ORDER: ThemeKey[] = ["emerald-gold", "midnight-silver", "terracotta-cream", "plum-rose", "indigo-saffron", "sapphire-pearl", "garnet-amber", "obsidian-jade", "ivory-cobalt", "charcoal-copper"];
+export const THEME_ORDER: ThemeKey[] = ["emerald-gold", "midnight-silver", "terracotta-cream", "plum-rose", "indigo-saffron", "sapphire-pearl", "garnet-amber", "obsidian-jade", "ivory-cobalt", "charcoal-copper", "amber-slate", "rosewood-mint", "azure-sand", "crimson-pewter", "olive-gold", "violet-ash", "teal-bronze", "maroon-linen", "cobalt-ember", "forest-blush", "onyx-turquoise", "clay-frost"];
 
 const SANS = '"Helvetica Neue", Inter, Arial, system-ui, sans-serif';
 // Font stacks, most-specific/best-shaped first, safe generic last.
@@ -82,6 +94,13 @@ export type CarouselSlideProps =
       note?: string; // e.g. "Saheeh International" translator credit
       slideNumber: number;
       slideTotal: number;
+      // Optional per-slide shrink for unusually long ayat (e.g. Ayat al-Kursi,
+      // the last three ayat of Al-Baqarah) so the text fits the fixed 1080x1350
+      // canvas instead of being cropped by the Frame's overflow:hidden. 1 =
+      // the language's normal LANG_META size (default when omitted). Applies
+      // to both fontSize and lineHeight so long text doesn't just get smaller
+      // letters crammed at the same spacing.
+      fontScale?: number;
     }
   | {
       kind: "citation";
@@ -173,6 +192,7 @@ export const IslamicCarouselSlide: React.FC<CarouselSlideProps> = (props) => {
 
   if (props.kind === "text") {
     const m = LANG_META[props.lang];
+    const scale = props.fontScale ?? 1;
     return (
       <Frame theme={props.theme}>
         <div style={{ flex: 1, display: "flex", flexDirection: "column", justifyContent: "center", padding: "0 76px" }}>
@@ -183,8 +203,11 @@ export const IslamicCarouselSlide: React.FC<CarouselSlideProps> = (props) => {
             dir={m.dir}
             style={{
               fontFamily: m.font,
-              fontSize: m.sizePx,
-              lineHeight: m.lineHeight,
+              fontSize: m.sizePx * scale,
+              // Shrink line-height a bit more than font size at smaller scales -
+              // otherwise a long ayah's extra line count still overflows even
+              // once the glyphs themselves fit.
+              lineHeight: scale < 1 ? m.lineHeight * (0.85 + 0.15 * scale) : m.lineHeight,
               fontWeight: props.lang === "en" ? 600 : 500,
               textAlign: m.dir === "rtl" ? "right" : "left",
             }}

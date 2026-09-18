@@ -1,0 +1,40 @@
+{
+  "slug": "bukhari-5865",
+  "date": "2026-09-18",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "\"...he threw away that golden ring and then wore a silver ring.\"\n\nSahih al-Bukhari 5865 - the Prophet ﷺ himself discarded gold once he saw it being copied, and wore silver instead. Read alongside Sunan an-Nasa'i 5144 (gold and silk forbidden to men), this is the primary-text basis for silver being the one metal a man is free to wear. Swipe for Arabic, English, Mandarin, Korean, Japanese and Malay.\n\nSources on the final slide.",
+  "tags": [
+    "Hadith",
+    "SahihBukhari",
+    "MenJewelry",
+    "SilverRing",
+    "IslamicReminder",
+    "Deen",
+    "MuslimReminder",
+    "IslamicQuotes",
+    "ProphetMuhammad"
+  ],
+  "theme": "forest-blush",
+  "slides": [
+    "bukhari-5865.slide-01.json",
+    "bukhari-5865.slide-02.json",
+    "bukhari-5865.slide-03.json",
+    "bukhari-5865.slide-04.json",
+    "bukhari-5865.slide-05.json",
+    "bukhari-5865.slide-06.json",
+    "bukhari-5865.slide-07.json",
+    "bukhari-5865.slide-08.json"
+  ],
+  "sourcing": {
+    "primary_text": "Sahih al-Bukhari 5865, narrated by 'Abdullah (ibn 'Umar) - built for the requested topic 'what does it say about men wearing necklaces and bracelets and earrings, and what is the only thing we can wear, and why.' Chapter: 'Gold rings' (بَابُ خَوَاتِيمِ الذَّهَبِ). Paired with nasai-5144 (gold and silk forbidden to men) in this same batch: together they are the primary-text basis for silver, not gold, being the metal the Prophet ﷺ himself chose to wear after discarding gold.",
+    "arabic_and_english": "Live-fetched and independently verified this session (2026-09-18) via mcp__workspace__web_fetch of https://sunnah.com/bukhari:5865 (HTTP 200), Dress chapter, In-book reference: Book 77, Hadith 82, USC-MSA reference: Vol. 7, Book 72, Hadith 755. Arabic quoted verbatim from that page. NOTE ON THE ENGLISH TRANSLATION: the raw text returned by the page rendering contained a stray formatting artifact ('wore a gold or silver .. ring') that does not match the Arabic (which names only 'خَاتَمًا مِنْ ذَهَبٍ' - a ring of gold - at that point in the sentence; the word for silver, 'وَرِقٍ أَوْ فِضَّةٍ', appears only at the very end, describing the replacement ring). The stray insertion has been removed on-slide as a scraping/rendering artifact, not a wording change - the sentence otherwise matches the fetched page verbatim, and the correction is consistent with the Arabic.",
+    "grade": "No separate Grade box is shown on sunnah.com for Sahih al-Bukhari hadith (Bukhari's collection carries inherent authenticity status by scholarly consensus, unlike the Sunan collections which sunnah.com grades individually).",
+    "chinese_korean_japanese_malay": "hadith-api (cdn.jsdelivr.net/gh/fawazahmed0/hadith-api) has NO Chinese, Korean, Japanese, or Malay editions for any hadith collection, confirmed via its editions.json this session. Per the channel's established convention for this gap, these four language slides are Claude's own careful translation, produced directly from the verified Arabic and corrected English text above, and labelled on-slide as such.",
+    "compliance_check": "Manually checked against scripts/data/compliance-policy.json's halal keyword-blocklists (intoxicants, pork, gambling, riba, immodesty, profanity, superstition, origins_patterns, animate_imagery, context_review). No blocklisted terms present; no imagery generated. Clean."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-18/bukhari-5865-slide-NN.png --props=daily/2026-09-18/blankdiscussions/bukhari-5865.slide-NN.json  (run once per slide, NN = 01 through 08)",
+  "status": "sourced"
+}

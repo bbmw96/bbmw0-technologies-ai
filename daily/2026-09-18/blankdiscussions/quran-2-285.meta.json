@@ -1,0 +1,45 @@
+{
+  "slug": "quran-2-285",
+  "date": "2026-09-18",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "The Messenger has believed in what was revealed to him from his Lord, and so have the believers. \"We hear and we obey. Your forgiveness, our Lord, and to You is the final destination.\"\n\nSurah Al-Baqarah (2:285), the second of the last three ayat of the surah. Swipe through for the Arabic, then English, Mandarin, Korean, Japanese and Malay renderings.\n\nSources on the final slide.",
+  "tags": [
+    "Quran",
+    "SurahBaqarah",
+    "LastThreeAyat",
+    "IslamicReminder",
+    "Ayah",
+    "Deen",
+    "IslamicGuidance",
+    "MuslimReminder",
+    "IslamicQuotes",
+    "QuranicVerses"
+  ],
+  "theme": "rosewood-mint",
+  "slides": [
+    "quran-2-285.slide-01.json",
+    "quran-2-285.slide-02.json",
+    "quran-2-285.slide-03.json",
+    "quran-2-285.slide-04.json",
+    "quran-2-285.slide-05.json",
+    "quran-2-285.slide-06.json",
+    "quran-2-285.slide-07.json",
+    "quran-2-285.slide-08.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an, Surah Al-Baqarah (2), Ayah 285 - the second of 'the last three ayat of Al-Baqarah' (2:284-286), posted as its own ayah per the channel's one-post-per-distinct-verse rule.",
+    "arabic": "Uthmani script (edition quran-uthmani), api.alquran.cloud. Live-fetched and verified this session (2026-09-18) via GET /v1/ayah/2:285/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese,ms.basmeih, HTTP 200.",
+    "english": "Saheeh International (edition en.sahih), api.alquran.cloud. Same live call as above, quoted verbatim including the translator's own bracketed interpolations '[so have]' and '[final]'.",
+    "chinese": "Ma Jian, 马坚 (edition zh.jian), api.alquran.cloud. Same live call as above, rendered verbatim with no corrections needed.",
+    "malay": "Abdullah Muhammad Basmeih (edition ms.basmeih), api.alquran.cloud. Same live call as above, rendered verbatim including the translator's own parenthetical interpolations.",
+    "korean": "Edition ko.korean, api.alquran.cloud. Translator is listed as 'Unknown' in the source's own metadata, so the on-slide credit says 'translator not specified by source'. Same live call as above; the raw string came back complete and needed no spacing correction for this particular ayah.",
+    "japanese": "Edition ja.japanese, api.alquran.cloud. Translator is listed as 'Unknown' in the source's own metadata, cited on-slide as 'translator not specified by source'. Same live call as above, rendered verbatim with no corrections needed.",
+    "verification_note": "All six language renderings came from a single live api.alquran.cloud request made this session (2026-09-18): GET https://api.alquran.cloud/v1/ayah/2:285/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese,ms.basmeih, HTTP 200. See channels.json's ig-blankdiscussions._niche_note for why this project treats scripture sourcing as a hard requirement.",
+    "compliance_check": "Manually checked against scripts/data/compliance-policy.json's halal keyword-blocklists (intoxicants, pork, gambling, riba, immodesty, profanity, superstition, origins_patterns, animate_imagery, context_review). No blocklisted terms present in any of the six language texts; no imagery generated at all. Content is a foundational statement of faith (iman) in Allah, the angels, the scriptures and the messengers - no context_review flags apply. Clean."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-18/quran-2-285-slide-NN.png --props=daily/2026-09-18/blankdiscussions/quran-2-285.slide-NN.json  (run once per slide, NN = 01 through 08)",
+  "status": "sourced"
+}

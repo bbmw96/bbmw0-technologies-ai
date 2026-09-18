@@ -1,0 +1,10 @@
+{
+  "kind": "text",
+  "theme": "forest-blush",
+  "lang": "ko",
+  "text": "알라의 사도께서는 금 반지를 착용하시고 그 보석 부분을 손바닥 쪽으로 향하게 하셨다. 사람들도 그와 같은 금 반지를 착용하기 시작하였다. 그러나 예언자께서 사람들이 그런 반지를 착용하는 것을 보시자, 그 금 반지를 버리시고 은 반지를 착용하셨다.",
+  "note": "Claude's own translation (hadith-api has no Korean edition)",
+  "fontScale": 0.82,
+  "slideNumber": 5,
+  "slideTotal": 8
+}

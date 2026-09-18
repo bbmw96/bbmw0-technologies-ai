@@ -1,0 +1,10 @@
+{
+  "kind": "text",
+  "theme": "crimson-pewter",
+  "lang": "zh",
+  "text": "你们要善待妇女，因为女人是从肋骨造成的，肋骨中最弯曲的部分是它的上部；如果你想把它弄直，就会把它弄断；如果你顺其自然，它就会一直保持弯曲。所以你们要善待妇女。",
+  "note": "Claude's own translation (hadith-api has no Chinese edition)",
+  "fontScale": 0.9,
+  "slideNumber": 4,
+  "slideTotal": 8
+}

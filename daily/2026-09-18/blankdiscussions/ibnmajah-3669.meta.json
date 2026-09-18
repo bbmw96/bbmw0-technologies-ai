@@ -1,0 +1,41 @@
+{
+  "slug": "ibnmajah-3669",
+  "date": "2026-09-18",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "\"Whoever has three daughters and is patient towards them... they will be a shield for him from the Fire on the Day of Resurrection.\"\n\nSunan Ibn Majah 3669, graded Sahih (Darussalam). Part of the Prophet's ﷺ guidance on how a man should be with his children. Swipe for Arabic, English, Mandarin, Korean, Japanese and Malay.\n\nSources on the final slide.",
+  "tags": [
+    "Hadith",
+    "IbnMajah",
+    "Daughters",
+    "Parenting",
+    "IslamicReminder",
+    "Deen",
+    "MuslimReminder",
+    "IslamicQuotes",
+    "ProphetMuhammad",
+    "Family"
+  ],
+  "theme": "violet-ash",
+  "slides": [
+    "ibnmajah-3669.slide-01.json",
+    "ibnmajah-3669.slide-02.json",
+    "ibnmajah-3669.slide-03.json",
+    "ibnmajah-3669.slide-04.json",
+    "ibnmajah-3669.slide-05.json",
+    "ibnmajah-3669.slide-06.json",
+    "ibnmajah-3669.slide-07.json",
+    "ibnmajah-3669.slide-08.json"
+  ],
+  "sourcing": {
+    "primary_text": "Sunan Ibn Majah 3669, narrated by Uqbah bin Amir - built for the requested topic 'how exactly should a man be with his new family, i.e. wife, children,' specifically his daughters. Chapter: 'Honoring one's father and being kind to daughters' (باب بِرِّ الْوَالِدِ وَالإِحْسَانِ إِلَى الْبَنَاتِ).",
+    "arabic_and_english": "Live-fetched and independently verified this session (2026-09-18) via mcp__workspace__web_fetch of https://sunnah.com/ibnmajah:3669 (HTTP 200), In-book reference: Book 33, Hadith 13, English translation reference: Vol. 5, Book 33, Hadith 3669. Arabic and English quoted verbatim from that page.",
+    "grade": "Sahih (Darussalam), as explicitly graded on the sunnah.com page - shown on-slide for transparency.",
+    "chinese_korean_japanese_malay": "hadith-api (cdn.jsdelivr.net/gh/fawazahmed0/hadith-api) has NO Chinese, Korean, Japanese, or Malay editions for any hadith collection, confirmed via its editions.json this session. Per the channel's established convention for this gap, these four language slides are Claude's own careful translation, produced directly from the verified Arabic and English sunnah.com text above, and labelled on-slide as such.",
+    "compliance_check": "Manually checked against scripts/data/compliance-policy.json's halal keyword-blocklists (intoxicants, pork, gambling, riba, immodesty, profanity, superstition, origins_patterns, animate_imagery, context_review). No blocklisted terms present; no imagery generated. Clean."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-18/ibnmajah-3669-slide-NN.png --props=daily/2026-09-18/blankdiscussions/ibnmajah-3669.slide-NN.json  (run once per slide, NN = 01 through 08)",
+  "status": "sourced"
+}

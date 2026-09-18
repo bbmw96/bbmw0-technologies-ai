@@ -1,0 +1,41 @@
+{
+  "slug": "nasai-5144",
+  "date": "2026-09-18",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "\"These two are forbidden for the males of my Ummah.\"\n\nSunan an-Nasa'i 5144, graded Sahih (Darussalam) - the Prophet ﷺ held silk in one hand and gold in the other and forbade both to men. Swipe for Arabic, English, Mandarin, Korean, Japanese and Malay.\n\nSources on the final slide.",
+  "tags": [
+    "Hadith",
+    "Nasai",
+    "MenJewelry",
+    "Gold",
+    "Silk",
+    "IslamicReminder",
+    "Deen",
+    "MuslimReminder",
+    "IslamicQuotes",
+    "ProphetMuhammad"
+  ],
+  "theme": "cobalt-ember",
+  "slides": [
+    "nasai-5144.slide-01.json",
+    "nasai-5144.slide-02.json",
+    "nasai-5144.slide-03.json",
+    "nasai-5144.slide-04.json",
+    "nasai-5144.slide-05.json",
+    "nasai-5144.slide-06.json",
+    "nasai-5144.slide-07.json",
+    "nasai-5144.slide-08.json"
+  ],
+  "sourcing": {
+    "primary_text": "Sunan an-Nasa'i 5144, narrated by 'Ali bin Abi Talib - built for the requested topic 'what does it say about men wearing necklaces and bracelets and earrings, and what is the only thing we can wear, and why.' Chapter: 'Prohibition of Gold for Men' (بَابُ تَحْرِيمِ الذَّهَبِ عَلَى الرِّجَالِ). The primary text names gold and silk specifically as forbidden to men; it does not itself enumerate necklaces/bracelets/earrings by name, so the caption frames the ayah's actual wording (gold and silk) rather than listing jewelry types the hadith does not itself name. Paired with bukhari-5865 in this same batch, which shows the Prophet ﷺ discarding a gold ring and wearing a silver one instead - together these two hadith are the primary-text basis for 'the only thing we can wear' being silver rather than gold.",
+    "arabic_and_english": "Live-fetched and independently verified this session (2026-09-18) via mcp__workspace__web_fetch of https://sunnah.com/nasai:5144 (HTTP 200), The Book of Adornment, In-book reference: Book 48, Hadith 105, English translation reference: Vol. 6, Book 48, Hadith 5147. Arabic and English quoted verbatim from that page.",
+    "grade": "Sahih (Darussalam), as explicitly graded on the sunnah.com page - shown on-slide for transparency.",
+    "chinese_korean_japanese_malay": "hadith-api (cdn.jsdelivr.net/gh/fawazahmed0/hadith-api) has NO Chinese, Korean, Japanese, or Malay editions for any hadith collection, confirmed via its editions.json this session. Per the channel's established convention for this gap, these four language slides are Claude's own careful translation, produced directly from the verified Arabic and English sunnah.com text above, and labelled on-slide as such.",
+    "compliance_check": "Manually checked against scripts/data/compliance-policy.json's halal keyword-blocklists (intoxicants, pork, gambling, riba, immodesty, profanity, superstition, origins_patterns, animate_imagery, context_review). No blocklisted terms present; no imagery generated. Clean."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-18/nasai-5144-slide-NN.png --props=daily/2026-09-18/blankdiscussions/nasai-5144.slide-NN.json  (run once per slide, NN = 01 through 08)",
+  "status": "sourced"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "bukhari-3331",
+  "date": "2026-09-18",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "\"Treat women nicely, for a woman is created from a rib, and the most curved portion of the rib is its upper portion...\"\n\nSahih al-Bukhari 3331 - part of the Prophet's ﷺ own guidance on how a man should be with his wife. Swipe for Arabic, English, Mandarin, Korean, Japanese and Malay.\n\nSources on the final slide.",
+  "tags": [
+    "Hadith",
+    "SahihBukhari",
+    "Marriage",
+    "IslamicReminder",
+    "Deen",
+    "MuslimReminder",
+    "IslamicQuotes",
+    "ProphetMuhammad",
+    "Family"
+  ],
+  "theme": "crimson-pewter",
+  "slides": [
+    "bukhari-3331.slide-01.json",
+    "bukhari-3331.slide-02.json",
+    "bukhari-3331.slide-03.json",
+    "bukhari-3331.slide-04.json",
+    "bukhari-3331.slide-05.json",
+    "bukhari-3331.slide-06.json",
+    "bukhari-3331.slide-07.json",
+    "bukhari-3331.slide-08.json"
+  ],
+  "sourcing": {
+    "primary_text": "Sahih al-Bukhari 3331, narrated by Abu Huraira - built for the requested topic 'how exactly should a man be with his new family, i.e. wife, children.' The Prophet's ﷺ own instruction ('Treat women nicely... So treat women nicely') is the primary teaching, framed with the rib metaphor as an illustration of patience with a spouse's nature rather than trying to forcibly change her.",
+    "arabic_and_english": "Live-fetched and independently verified this session (2026-09-18) via mcp__workspace__web_fetch of https://sunnah.com/bukhari:3331 (HTTP 200), Prophets chapter, In-book reference: Book 60, Hadith 6, USC-MSA reference: Vol. 4, Book 55, Hadith 548. Arabic and English quoted verbatim from that page. Per this channel's methodology, the WebSearch AI-summary that first surfaced this reference was NOT trusted on its own - the actual sunnah.com page was fetched directly to confirm the exact wording before use.",
+    "grade": "No separate Grade box is shown on sunnah.com for Sahih al-Bukhari hadith (Bukhari's collection carries inherent authenticity status by scholarly consensus, unlike the Sunan collections which sunnah.com grades individually, e.g. Darussalam/Al-Albani gradings).",
+    "chinese_korean_japanese_malay": "hadith-api (cdn.jsdelivr.net/gh/fawazahmed0/hadith-api) has NO Chinese, Korean, Japanese, or Malay editions for any hadith collection, confirmed via its editions.json this session. Per the channel's established convention for this gap (already used for nawawi-13, nawawi-15, bukhari-1-1), these four language slides are Claude's own careful translation, produced directly from the verified Arabic and English sunnah.com text above, and labelled on-slide as such rather than credited to a named translator or scholar who did not produce them.",
+    "compliance_check": "Manually checked against scripts/data/compliance-policy.json's halal keyword-blocklists (intoxicants, pork, gambling, riba, immodesty, profanity, superstition, origins_patterns, animate_imagery, context_review). No blocklisted terms present; no imagery generated. Clean."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-18/bukhari-3331-slide-NN.png --props=daily/2026-09-18/blankdiscussions/bukhari-3331.slide-NN.json  (run once per slide, NN = 01 through 08)",
+  "status": "sourced"
+}

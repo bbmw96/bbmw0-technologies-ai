@@ -1,0 +1,9 @@
+{
+  "kind": "text",
+  "theme": "cobalt-ember",
+  "lang": "zh",
+  "text": "真主的使者用右手拿起一些丝绸，用左手拿起一些黄金，然后说：\"这两样东西对我教众中的男性是被禁止的。\"",
+  "note": "Claude's own translation (hadith-api has no Chinese edition)",
+  "slideNumber": 4,
+  "slideTotal": 8
+}

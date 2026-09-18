@@ -1,0 +1,10 @@
+{
+  "kind": "text",
+  "theme": "crimson-pewter",
+  "lang": "ja",
+  "text": "女性たちを優しく扱いなさい。女性は肋骨から創られ、肋骨の中で最も曲がっている部分はその上部である。それを真っ直ぐにしようとすれば折れてしまうが、そのままにしておけば曲がったままである。それゆえ、女性たちを優しく扱いなさい。",
+  "note": "Claude's own translation (hadith-api has no Japanese edition)",
+  "fontScale": 0.85,
+  "slideNumber": 6,
+  "slideTotal": 8
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "abudawud-4104",
+  "date": "2026-09-18",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "\"...it does not suit her that she displays her parts of body except this and this,\" and he pointed to his face and hands.\n\nSunan Abi Dawud 4104. IMPORTANT: this specific chain is graded Sahih by Al-Albani, but Abu Dawud himself flagged it as mursal (a narrator link is missing) - both are shown honestly on the citation slide, not just the favorable grading. Swipe for Arabic, English, Mandarin, Korean, Japanese and Malay.\n\nSources on the final slide.",
+  "tags": [
+    "Hadith",
+    "AbuDawud",
+    "Hijab",
+    "IslamicReminder",
+    "Deen",
+    "MuslimReminder",
+    "IslamicQuotes",
+    "ProphetMuhammad",
+    "Modesty"
+  ],
+  "theme": "maroon-linen",
+  "slides": [
+    "abudawud-4104.slide-01.json",
+    "abudawud-4104.slide-02.json",
+    "abudawud-4104.slide-03.json",
+    "abudawud-4104.slide-04.json",
+    "abudawud-4104.slide-05.json",
+    "abudawud-4104.slide-06.json",
+    "abudawud-4104.slide-07.json",
+    "abudawud-4104.slide-08.json"
+  ],
+  "sourcing": {
+    "primary_text": "Sunan Abi Dawud 4104, narrated by Aisha (reporting on Asma bint Abi Bakr) - built for the requested topic 'showing neck/earring when wearing the hijab,' as the primary hadith most directly addressing exactly which parts of the body a woman may leave visible (face and hands only, per this narration).",
+    "arabic_and_english": "Live-fetched and independently verified this session (2026-09-18) via mcp__workspace__web_fetch of https://sunnah.com/abudawud:4104 (HTTP 200), Clothing (Kitab Al-Libas) chapter, 'What A Woman May Show Of Her Beauty' (فِيمَا تُبْدِي الْمَرْأَةُ مِنْ زِينَتِهَا), In-book reference: Book 34, Hadith 85, English translation reference: Book 33, Hadith 4092. Arabic and English quoted verbatim from that page.",
+    "grade_and_caveat_disclosed_transparently": "The sunnah.com page grades this hadith Sahih (Al-Albani). Immediately following the hadith text, the collector Abu Dawud himself states: 'This is a mursal tradition (i.e. the narrator who transmitted it from 'Aishah is missing) - Khalid b. Duraik did not see 'Aishah.' Per this channel's rule of never presenting a disputed chain as uncontroversial, BOTH the Sahih grading and Abu Dawud's own mursal caveat are shown on the citation slide, rather than showing only the favorable grade.",
+    "chinese_korean_japanese_malay": "hadith-api (cdn.jsdelivr.net/gh/fawazahmed0/hadith-api) has NO Chinese, Korean, Japanese, or Malay editions for any hadith collection, confirmed via its editions.json this session. Per the channel's established convention for this gap, these four language slides are Claude's own careful translation, produced directly from the verified Arabic and English sunnah.com text above, and labelled on-slide as such.",
+    "compliance_check": "Manually checked against scripts/data/compliance-policy.json's halal keyword-blocklists (intoxicants, pork, gambling, riba, immodesty, profanity, superstition, origins_patterns, animate_imagery, context_review). context_review flag applies given the mursal-chain nuance - handled by disclosing both grading and caveat. No blocklisted terms present; no imagery generated."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-18/abudawud-4104-slide-NN.png --props=daily/2026-09-18/blankdiscussions/abudawud-4104.slide-NN.json  (run once per slide, NN = 01 through 08)",
+  "status": "sourced"
+}

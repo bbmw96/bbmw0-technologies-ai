@@ -1,0 +1,9 @@
+{
+  "kind": "text",
+  "theme": "cobalt-ember",
+  "lang": "ko",
+  "text": "알라의 사도께서 오른손에 비단을 쥐시고 왼손에 금을 쥐신 뒤 말씀하셨다: \"이 두 가지는 나의 공동체의 남성들에게 금지된 것이니라.\"",
+  "note": "Claude's own translation (hadith-api has no Korean edition)",
+  "slideNumber": 5,
+  "slideTotal": 8
+}
