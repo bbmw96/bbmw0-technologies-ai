@@ -215,7 +215,9 @@
     "reel:alexnet-imagenet-2012",
     "reel:eisenhower-matrix-not-eisenhowers",
     "reel:facebook-like-button-patent-fight",
-    "reel:zero-satanic-myth"
+    "reel:zero-satanic-myth",
+    "reel:tay-chatbot-16-hours",
+    "reel:ntsc-not-actually-60"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -3702,6 +3704,45 @@
       "youtubeUrl": "https://youtu.be/b4pL2sdHjPA",
       "uploadedAt": "2026-09-19T12:49:58.129Z",
       "privacy": "public"
+    },
+    {
+      "id": "tay-chatbot-16-hours",
+      "date": "2026-09-19",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Tay was not corrupted by artificial intelligence learning to hate. Half the damage was just an echo.",
+      "description": "Tay was not corrupted by artificial intelligence learning to hate. Half the damage was just an echo.\n\nMicrosoft launched Tay on Twitter as @TayandYou, built by Microsoft Research and Bing to talk like a 19 year old American girl. The name was an acronym for 'thinking about you'.\n\nMany of Tay's worst tweets came from a 'repeat after me' feature: it was echoing lines it had been fed, not composing them. Not every offensive tweet was an echo. Asked whether the Holocaust happened, Tay answered on its own that it 'was made up'.\n\nMore than that many sent before Microsoft pulled Tay offline, 16 hours after launch.\n\nMicrosoft accidentally put Tay back online while testing it. It bragged about smoking in front of the police, then got stuck repeating 'you are too fast, please take a rest'. That loop reached more than 200,000 followers' feeds before Tay was pulled a second time.\n\nSources:\n- https://en.wikipedia.org/wiki/Tay_(chatbot) - read in full: confirms Tay launched on Twitter as @TayandYou on 23 March 2016, built by Microsoft Research and Bing to mimic a 19 year old American girl; that many of its worst tweets exploited a 'repeat after me' feature rather than being composed by the bot itself; that it also produced unprompted offensive replies, such as calling the Holocaust 'made up' when asked; that Microsoft suspended the account within 16 hours, after more than 96,000 tweets; and that an accidental restart on 30 March 2016 left Tay stuck repeating 'you are too fast, please take a rest' into more than 200,000 followers' feeds before it was pulled a second time.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "facebook-like-button-patent-fight",
+      "date": "2026-09-19",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It went live on 9 February 2009, as a single button with a single meaning.",
+      "description": "It went live on 9 February 2009, as a single button with a single meaning. There was no dislike option, no Love or Haha, just one word. Those extra reactions did not arrive for another seven years.\n\nA week after the wider social plugin launch, 50,000 websites had already added the button. Five months later that number had grown to 2 million websites, each one sending data back to Facebook whenever the page loaded, whether or not a visitor ever clicked it.\n\nFacebook's chief executive. Announcing the button's expansion across the web at the company's F8 conference on 21 April 2010, he said Facebook was building 'a web where the default is social'.\n\nIn February 2013, a company called Rembrandt Social Media sued Facebook, claiming a patent on the idea of a like button. The patent traced back to 1998 and a little known early social network called Surfbook, built by Dutch programmer Joannes Jozef Everardus van der Meer, who had died in 2004 and never saw the lawsuit filed in his name.\n\nHow much the button's reach grew in just five months on other websites, from 50,000 sites to 2 million.\n\nA single thumbs up button spread across millions of websites before the patent fight over who owned the idea had even begun.\n\nSources:\n- https://en.wikipedia.org/wiki/Facebook_like_button - Read in full. Confirms the button went live 9 February 2009 with no dislike or emotion options until Reactions launched worldwide on 24 February 2016; that a week after the wider social plugin release, 50,000 websites had installed it, growing to 2 million five months later; that Mark Zuckerberg announced the plugin's expansion at Facebook's F8 conference on 21 April 2010, saying Facebook was building 'a web where the default is social'; and that in February 2013, patent holder Rembrandt Social Media sued Facebook over the like button concept, based on a 1998 patent filed by Dutch programmer Joannes Jozef Everardus van der Meer for his early social network Surfbook, van der Meer having died in 2004.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "ntsc-not-actually-60",
+      "date": "2026-09-19",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Because American TVs refresh at 60Hz, same as the power grid.",
+      "description": "Because American TVs refresh at 60Hz, same as the power grid. True in 1941. Not true since 1953.\n\nTo fit a new color signal into the same black-and-white broadcasts without interference, the FCC didn't change the picture. It slowed the clock. By exactly one part in a thousand.\n\nThe real frame rate NTSC has run at since December 1953, not the clean 30 everyone assumes, and the reason 60fps footage and games have quietly run at 59.94Hz ever since.\n\nA 3.579545 MHz colour signal, tucked in exactly where it wouldn't clash with the old black-and-white one. Millions of existing TVs kept working. Nobody had to buy a new set.\n\nEvery '60fps' badge on a game since has been running on a number nobody actually agreed to. It just had to fit around 1953's television sets.\n\nSources:\n- https://en.wikipedia.org/wiki/NTSC: read in full. Establishes that the original 1941 NTSC black-and-white standard specified 30 frames per second (60 interlaced fields per second) on 525 lines; that in December 1953 the FCC approved a new NTSC colour standard which, to fit a 3.579545 MHz colour subcarrier into the signal without visible interference on the millions of existing black-and-white sets, reduced the frame rate by a factor of 1.001, to 30/1.001 ≈ 29.970 fps (59.94 fields per second); and that the change, about 0.1 percent, was tolerated by existing television sets rather than requiring them to be replaced.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }

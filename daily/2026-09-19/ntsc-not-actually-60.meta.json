@@ -1,0 +1,25 @@
+{
+  "slug": "ntsc-not-actually-60",
+  "date": "2026-09-19",
+  "title": "Because American TVs refresh at 60Hz, same as the power grid.",
+  "description": "Because American TVs refresh at 60Hz, same as the power grid. True in 1941. Not true since 1953.\n\nTo fit a new color signal into the same black-and-white broadcasts without interference, the FCC didn't change the picture. It slowed the clock. By exactly one part in a thousand.\n\nThe real frame rate NTSC has run at since December 1953, not the clean 30 everyone assumes, and the reason 60fps footage and games have quietly run at 59.94Hz ever since.\n\nA 3.579545 MHz colour signal, tucked in exactly where it wouldn't clash with the old black-and-white one. Millions of existing TVs kept working. Nobody had to buy a new set.\n\nEvery '60fps' badge on a game since has been running on a number nobody actually agreed to. It just had to fit around 1953's television sets.\n\nSources:\n- https://en.wikipedia.org/wiki/NTSC: read in full. Establishes that the original 1941 NTSC black-and-white standard specified 30 frames per second (60 interlaced fields per second) on 525 lines; that in December 1953 the FCC approved a new NTSC colour standard which, to fit a 3.579545 MHz colour subcarrier into the signal without visible interference on the millions of existing black-and-white sets, reduced the frame rate by a factor of 1.001, to 30/1.001 ≈ 29.970 fps (59.94 fields per second); and that the change, about 0.1 percent, was tolerated by existing television sets rather than requiring them to be replaced.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "gaming",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-19-ntsc-not-actually-60.mp4",
+  "propsFile": "daily/2026-09-19/ntsc-not-actually-60.props.json",
+  "durationInFrames": 1136,
+  "audioUrl": "",
+  "niche": "gaming",
+  "composition": "Reel"
+}

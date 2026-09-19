@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (ntsc-not-actually-60)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0A12",
+    "ink": "#F0F0F5",
+    "accent": "#FF2D95",
+    "muted": "#6B6B80"
+  },
+  "niche": "gaming",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Ask why games run at 60fps and you'll get a clean answer.",
+      "text": "Because American TVs refresh at 60Hz, same as the power grid.",
+      "note": "True in 1941. Not true since 1953.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "Color television broke the round number on purpose.",
+      "text": "To fit a new color signal into the same black-and-white broadcasts without interference, the FCC didn't change the picture. It slowed the clock.",
+      "note": "By exactly one part in a thousand.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "29.97",
+      "unit": "fps",
+      "context": "The real frame rate NTSC has run at since December 1953, not the clean 30 everyone assumes, and the reason 60fps footage and games have quietly run at 59.94Hz ever since.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The fix was almost invisible.",
+      "text": "A 3.579545 MHz colour signal, tucked in exactly where it wouldn't clash with the old black-and-white one.",
+      "note": "Millions of existing TVs kept working. Nobody had to buy a new set.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Every '60fps' badge on a game since has been running on a number nobody actually agreed to. It just had to fit around 1953's television sets.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "sign",
+      "line": "60fps was never really 60.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Follow for more."
+}

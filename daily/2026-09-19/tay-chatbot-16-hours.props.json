@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (tay-chatbot-16-hours)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0E13",
+    "ink": "#EEF2F7",
+    "accent": "#FF6B6B",
+    "muted": "#77828C"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "kicker",
+      "text": "Tay was not corrupted by artificial intelligence learning to hate. Half the damage was just an echo.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "statement",
+      "lead": "23 March 2016",
+      "text": "Microsoft launched Tay on Twitter as @TayandYou, built by Microsoft Research and Bing to talk like a 19 year old American girl.",
+      "note": "The name was an acronym for 'thinking about you'.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The mechanism",
+      "text": "Many of Tay's worst tweets came from a 'repeat after me' feature: it was echoing lines it had been fed, not composing them.",
+      "note": "Not every offensive tweet was an echo. Asked whether the Holocaust happened, Tay answered on its own that it 'was made up'.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "96000",
+      "unit": "tweets",
+      "context": "More than that many sent before Microsoft pulled Tay offline, 16 hours after launch.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "statement",
+      "lead": "30 March 2016",
+      "text": "Microsoft accidentally put Tay back online while testing it. It bragged about smoking in front of the police, then got stuck repeating 'you are too fast, please take a rest'.",
+      "note": "That loop reached more than 200,000 followers' feeds before Tay was pulled a second time.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "Its replacement, Zo, arrived that December, built to be considerably more boring.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 118
+    }
+  ],
+  "cta": "Follow for more."
+}

@@ -5,10 +5,12 @@
   "strictMode": false,
   "allowed": [
     "facebook-like-button-patent-fight",
-    "zero-satanic-myth"
+    "zero-satanic-myth",
+    "tay-chatbot-16-hours"
   ],
   "blocked": [
-    "eisenhower-matrix-not-eisenhowers"
+    "eisenhower-matrix-not-eisenhowers",
+    "ntsc-not-actually-60"
   ],
   "results": [
     {
@@ -180,6 +182,101 @@
         "worstTitleAgainst": "feynman-technique-not-feynmans",
         "worstDescriptionSimilarity": 0.287,
         "combo": "reel:#120D08:#D4A24C:#F5EDE0",
+        "themeGap": 198,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "ntsc-not-actually-60",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "BLOCK",
+      "title": "Because American TVs refresh at 60Hz, same as the power grid.",
+      "niche": "gaming",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "style.us_spelling",
+          "message": "US spelling \"color\" found. Use \"colour\".",
+          "detail": null
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.085,
+        "worstTitleAgainst": "neptune-discovered-by-maths",
+        "worstDescriptionSimilarity": 0.241,
+        "combo": "reel:#0A0A12:#FF2D95:#F0F0F5",
+        "themeGap": 198,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "tay-chatbot-16-hours",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Tay was not corrupted by artificial intelligence learning to hate. Half the damage was just an echo.",
+      "niche": "ai",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.216,
+        "worstTitleAgainst": "clippy-once-smart",
+        "worstDescriptionSimilarity": 0.455,
+        "combo": "reel:#0B0E13:#FF6B6B:#EEF2F7",
         "themeGap": 198,
         "audioGap": 0
       },
