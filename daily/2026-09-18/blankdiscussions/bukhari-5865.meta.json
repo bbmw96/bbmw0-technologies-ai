@@ -36,5 +36,21 @@
     "compliance_check": "Manually checked against scripts/data/compliance-policy.json's halal keyword-blocklists (intoxicants, pork, gambling, riba, immodesty, profanity, superstition, origins_patterns, animate_imagery, context_review). No blocklisted terms present; no imagery generated. Clean."
   },
   "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-18/bukhari-5865-slide-NN.png --props=daily/2026-09-18/blankdiscussions/bukhari-5865.slide-NN.json  (run once per slide, NN = 01 through 08)",
-  "status": "sourced"
+  "status": "published",
+  "published": {
+    "mediaId": "17963091488981376",
+    "permalink": "https://www.instagram.com/p/DddyfX8lQqY/",
+    "publishedAt": "2026-09-19T11:24:00Z",
+    "hostingUrls": [
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-18/blankdiscussions/renders/bukhari-5865-slide-01.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-18/blankdiscussions/renders/bukhari-5865-slide-02.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-18/blankdiscussions/renders/bukhari-5865-slide-03.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-18/blankdiscussions/renders/bukhari-5865-slide-04.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-18/blankdiscussions/renders/bukhari-5865-slide-05.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-18/blankdiscussions/renders/bukhari-5865-slide-06.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-18/blankdiscussions/renders/bukhari-5865-slide-07.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-18/blankdiscussions/renders/bukhari-5865-slide-08.png"
+    ],
+    "publishedVia": "Composio MCP (INSTAGRAM_CREATE_CAROUSEL_CONTAINER with child_image_urls + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH), published 2026-09-19 as part of clearing the 2026-09-18 sourced-but-unpublished backlog per explicit user instruction to publish the full remaining backlog. First publish attempt (container 18106629902021458) failed with an Instagram-side 'processing failed with ERROR status' on the media fetch; all 8 slide PNGs were independently re-verified afterward (valid 1080x1350 RGB PNGs, HTTP 200 on all hosting URLs), so this was treated as a transient fetch/processing glitch rather than a real media defect, and a fresh container was created and published successfully on retry. Sourcing was independently re-verified live against sunnah.com this session (2026-09-19) before publishing, per the channel's hard sourcing rule, and matched the committed slide text exactly (including the documented stray-artifact correction to the English translation)."
+  }
 }
