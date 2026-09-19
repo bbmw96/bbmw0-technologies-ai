@@ -7892,6 +7892,574 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "git-bitkeeper-breakup",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/BitKeeper - read in full: confirms the Linux kernel adopted BitKeeper in 2002 over objections from Richard Stallman and a refusal to use it from veteran developer Alan Cox; that the free licence for open source developers forbade them from working on any rival tool, including CVS, GNU arch, Subversion or ClearCase, for as long as they used it; that BitMover revoked the free version in April 2005, blaming the efforts of Andrew Tridgell, an OSDL developer working on an unrelated project, to view revision metadata the free licence withheld; that BitMover then refused to give or sell a licence to anyone employed by OSDL, including Linus Torvalds and Andrew Morton; that free use officially ended on 1 July 2005; and that in October 2005 BitMover's founder Larry McVoy pressured a paying commercial customer's employee, Bryan O'Sullivan, into agreeing to stop contributing to the rival tool Mercurial.",
+        "https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git - Git's own official history page, read in full: confirms the Linux kernel used BitKeeper from 2002, that its free of charge status was revoked in 2005, and that this prompted Torvalds and the kernel community to build their own replacement that same year."
+      ],
+      "verifiedNote": "Checked 18 Sep 2026. The popular shorthand is that Torvalds got fed up with BitKeeper's terms and wrote Git out of irritation. What the sources actually show is narrower and stranger: the free version was pulled because of Andrew Tridgell, who was not even working on kernel code, and BitMover's response punished every OSDL employee collectively, catching Torvalds in a ban he had no part in causing. No figure beat: there is no real number in this story that earns 300px, a founding year is not a figure, and I was not going to invent a lines of code or day count statistic to fill the slot. That omission follows the same precedent as qwerty-not-slow elsewhere in this file.",
+      "palette": {
+        "bg": "#0D1117",
+        "ink": "#E6EDF3",
+        "accent": "#F0883E",
+        "muted": "#7D8590"
+      },
+      "beats": [
+        {
+          "kind": "kicker",
+          "text": "Torvalds did not walk away from BitKeeper. BitKeeper's maker banned him."
+        },
+        {
+          "kind": "statement",
+          "lead": "2002",
+          "text": "The Linux kernel began using BitKeeper, a proprietary version control tool, over objections from Richard Stallman and a refusal from veteran developer Alan Cox.",
+          "note": "BitKeeper's free licence for open source developers forbade them from working on any rival tool, including CVS or Subversion, for as long as they used it."
+        },
+        {
+          "kind": "credit",
+          "year": "2005",
+          "name": "Andrew Tridgell",
+          "role": "An OSDL developer working on an unrelated project. His attempt to view BitKeeper's revision history without paying for a licence gave BitMover its reason to end free use."
+        },
+        {
+          "kind": "statement",
+          "lead": "April 2005",
+          "text": "BitMover did not just shut Tridgell out. It refused to give or sell a licence to anyone employed by OSDL, including Linus Torvalds, who had no part in Tridgell's work.",
+          "note": "Free use officially ended on 1 July 2005. The Git project began that same year, built to replace BitKeeper for the kernel."
+        },
+        {
+          "kind": "credit",
+          "year": "2005",
+          "name": "Bryan O'Sullivan",
+          "role": "An employee at a company paying for a commercial BitKeeper licence. In October 2005 he agreed to stop contributing to the rival tool Mercurial after BitMover's founder complained."
+        },
+        {
+          "kind": "sign",
+          "line": "A dispute mostly about one outside developer ended up creating the tool that now runs almost all of software.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "metroid-reveal-missed",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Metroid_(video_game) - read in full: confirms director Satoru Okada, producer Gunpei Yokoi, and artists including Hiroji Kiyotake, Hirofumi Matsuoka and Yoshio Sakamoto; release dates of 6 August 1986 for the Japanese Famicom Disk System version and August 1987 for the North American NES version; and that the game shows one of five endings based on completion time, with only the third, fourth and fifth endings showing Samus Aran without her suit.",
+        "https://waltoriouswritesaboutgames.com/2021/10/20/history-lessons-metroid/ - a full playthrough account, read in full: confirms the instruction manual calls Samus 'he' throughout while admitting little is known about 'him'; that a realistic first playthrough of five to ten hours, mapped out by hand, produces an ending where Samus does not remove her helmet at all; and that clearing the game in under an hour, which the author cross checked against a Metroid wiki endings list, gives an ending where Samus wears a bikini instead of her armour."
+      ],
+      "verifiedNote": "Checked 18 Sep 2026. The myth this corrects is not that the reveal is fake, it is that most players in 1986 and 1987 actually witnessed it themselves. A first playthrough drawn out on paper by hand, the only option at the time, realistically took five to ten hours, and that ending does not show Samus without her suit at all. Most players learned about the reveal from magazines such as Nintendo Power or from friends, not from their own save file. The under an hour bikini ending is used as the figure beat because it is the specific, sourced and startling threshold, not because it is the point of the topic. Skipped a code beat for the NARPAS SWORD cheat, real and sourced but a distraction from the reveal and completion time story this topic is actually about.",
+      "palette": {
+        "bg": "#0C0F1A",
+        "ink": "#EAF0FF",
+        "accent": "#4FD1C5",
+        "muted": "#6C7A8C"
+      },
+      "beats": [
+        {
+          "kind": "kicker",
+          "text": "Most people who played Metroid in 1986 never actually saw its most famous moment."
+        },
+        {
+          "kind": "statement",
+          "lead": "The manual gave it away, on purpose",
+          "text": "Samus Aran is called 'he' throughout Metroid's instruction manual, which also admits that little is known about 'him'.",
+          "note": "That was not a translation error. Nintendo built the disguise into the game's own paperwork."
+        },
+        {
+          "kind": "statement",
+          "lead": "The reveal was a stopwatch",
+          "text": "Metroid's ending depends on how long it takes to finish. Only the fastest clears show Samus without her suit at all.",
+          "note": "A first playthrough drawn out on paper by hand, the only option in 1986, realistically took five to ten hours. That ending does not remove her helmet."
+        },
+        {
+          "kind": "figure",
+          "value": "60",
+          "unit": "minutes",
+          "context": "Clear the game inside that and the ending swaps Samus's armour for a bikini instead."
+        },
+        {
+          "kind": "credit",
+          "year": "1986",
+          "name": "Gunpei Yokoi",
+          "role": "Producer, working with director Satoru Okada, on a game that helped invent the exploration genre later named after it: the metroidvania."
+        },
+        {
+          "kind": "sign",
+          "line": "The ending you actually got depended entirely on how good you were at drawing your own map.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "tay-chatbot-16-hours",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tay_(chatbot) - read in full: confirms Tay launched on Twitter as @TayandYou on 23 March 2016, built by Microsoft Research and Bing to mimic a 19 year old American girl; that many of its worst tweets exploited a 'repeat after me' feature rather than being composed by the bot itself; that it also produced unprompted offensive replies, such as calling the Holocaust 'made up' when asked; that Microsoft suspended the account within 16 hours, after more than 96,000 tweets; and that an accidental restart on 30 March 2016 left Tay stuck repeating 'you are too fast, please take a rest' into more than 200,000 followers' feeds before it was pulled a second time."
+      ],
+      "verifiedNote": "Checked 18 Sep 2026. The popular version of this story is that an AI learned to hate from talking to people, which flattens a more specific mechanism: much of the worst material was Tay literally repeating back whatever it was told through a built in echo feature, not generating new opinions, though not every bad tweet fits that pattern, since the Holocaust denial line was not an echo. Sourced to one page rather than several because Wikipedia's own citation trail here, to the BBC, The Guardian, The Verge, Time and Microsoft's official blog, already reads like a contemporaneous news record, and I read the full article directly rather than a summary of it. No credit beat: no single named individual is central to this angle, since the story is about a mechanism and a corporate decision rather than a person.",
+      "palette": {
+        "bg": "#0B0E13",
+        "ink": "#EEF2F7",
+        "accent": "#FF6B6B",
+        "muted": "#77828C"
+      },
+      "beats": [
+        {
+          "kind": "kicker",
+          "text": "Tay was not corrupted by artificial intelligence learning to hate. Half the damage was just an echo."
+        },
+        {
+          "kind": "statement",
+          "lead": "23 March 2016",
+          "text": "Microsoft launched Tay on Twitter as @TayandYou, built by Microsoft Research and Bing to talk like a 19 year old American girl.",
+          "note": "The name was an acronym for 'thinking about you'."
+        },
+        {
+          "kind": "statement",
+          "lead": "The mechanism",
+          "text": "Many of Tay's worst tweets came from a 'repeat after me' feature: it was echoing lines it had been fed, not composing them.",
+          "note": "Not every offensive tweet was an echo. Asked whether the Holocaust happened, Tay answered on its own that it 'was made up'."
+        },
+        {
+          "kind": "figure",
+          "value": "96000",
+          "unit": "tweets",
+          "context": "More than that many sent before Microsoft pulled Tay offline, 16 hours after launch."
+        },
+        {
+          "kind": "statement",
+          "lead": "30 March 2016",
+          "text": "Microsoft accidentally put Tay back online while testing it. It bragged about smoking in front of the police, then got stuck repeating 'you are too fast, please take a rest'.",
+          "note": "That loop reached more than 200,000 followers' feeds before Tay was pulled a second time."
+        },
+        {
+          "kind": "sign",
+          "line": "Its replacement, Zo, arrived that December, built to be considerably more boring.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "eisenhower-matrix-not-eisenhowers",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://www.presidency.ucsb.edu/documents/address-the-second-assembly-the-world-council-churches-evanston-illinois - the full primary transcript, read in full: on 19 August 1954 at Northwestern University, Eisenhower says he is quoting the statement of 'a former college president', without naming him, then quotes the line 'I have two kinds of problems, the urgent and the important. The urgent are not important, and the important are never urgent.' The published footnote separately identifies Dr J. Roscoe Miller as the Northwestern president who introduced Eisenhower that day, a different role from the unnamed college president the quote is actually credited to.",
+        "https://www.todoist.com/productivity-methods/eisenhower-matrix - read in full: confirms that more than three decades after the 1954 speech, Stephen Covey's 1989 book The 7 Habits of Highly Effective People repackaged the quote into the four quadrant grid now called the Eisenhower Matrix."
+      ],
+      "verifiedNote": "Checked 18 Sep 2026. Reading the actual transcript changes the story in a specific way. Eisenhower says he is quoting 'a former college president', not Dr Miller, even though Miller, Northwestern's sitting president, is in the room and named earlier in the same speech: the popular retelling collapses these into one person, which the primary source does not actually support. This is not a claim that Miller definitely was or was not Eisenhower's source, only that Eisenhower's own words do not confirm it, unlike a secondary source also read for this topic (mindtools.com), which states the Miller attribution as settled fact. The 35 year figure is the gap between the 1954 speech and Covey's 1989 book, the year the four quadrant grid was actually invented: that gap is the whole point of the correction, so it earns the 300px.",
+      "palette": {
+        "bg": "#10120F",
+        "ink": "#F2EFE6",
+        "accent": "#B8925A",
+        "muted": "#7D8177"
+      },
+      "beats": [
+        {
+          "kind": "kicker",
+          "text": "Eisenhower never drew a box in his life."
+        },
+        {
+          "kind": "statement",
+          "lead": "19 August 1954, Northwestern University",
+          "text": "Eisenhower quoted a line at the World Council of Churches: 'I have two kinds of problems, the urgent and the important. The urgent are not important, and the important are never urgent.'",
+          "note": "He credited it to 'a former college president', not to himself, and not by name."
+        },
+        {
+          "kind": "credit",
+          "year": "1954",
+          "name": "Dr J. Roscoe Miller",
+          "role": "Northwestern's president, who introduced Eisenhower that day and is named earlier in the speech. He is not the 'former college president' Eisenhower actually quotes, though most retellings assume he is."
+        },
+        {
+          "kind": "figure",
+          "value": "35",
+          "unit": "years",
+          "context": "The gap between Eisenhower's speech and the year the four quadrant grid people picture was actually invented."
+        },
+        {
+          "kind": "credit",
+          "year": "1989",
+          "name": "Stephen Covey",
+          "role": "Turned Eisenhower's two sentences into the four quadrant grid in his book The 7 Habits of Highly Effective People, more than three decades after the speech."
+        },
+        {
+          "kind": "sign",
+          "line": "The quote is Eisenhower's. The box belongs to somebody else entirely.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "angry-birds-52nd-game",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://www.rovio.com/rovio-history/ - Rovio's own company history page, read in full: confirms the company started in 2003 as Relude, founded by Niklas Hed, Jarno Vakevainen and Kim Dikert after winning a Finnish demo competition, was renamed Rovio in 2005, and had made 51 games and was near bankruptcy before building its 52nd game, Angry Birds, in eight months, released in 2009.",
+        "https://en.wikipedia.org/wiki/Angry_Birds_(video_game) - read in full: confirms it is commonly believed the pig enemies were inspired by the 2009 swine flu pandemic being in the news during development, but that this has since been disputed by designer Jaakko Iisalo, who says the pigs were based on drawings he had made at around age 10."
+      ],
+      "verifiedNote": "Checked 18 Sep 2026. The 52nd game and eight month figures come directly from Rovio's own company history page, in Rovio's own words, so they are not a rounded up legend. The swine flu origin for the pigs is the part most retellings state as settled, but Wikipedia's own article flags it as disputed rather than confirmed, crediting designer Jaakko Iisalo's account that the pig design traces to childhood drawings, long before 2009. I could not directly read Iisalo's original interview, since it circulates mainly as a later comment from artist Tuomas Erikoinen rather than a single citable article, so the beat is phrased as a disputed claim rather than a settled correction. That is the honest state of the sourcing, not a stronger claim than the evidence supports. No figure beat: the 51 prior games is a real number but is already the point of a statement beat, and turning it into a 300px figure as well would just repeat the same fact twice.",
+      "palette": {
+        "bg": "#12100D",
+        "ink": "#F5EFE6",
+        "accent": "#E0472C",
+        "muted": "#8A8178"
+      },
+      "beats": [
+        {
+          "kind": "kicker",
+          "text": "Angry Birds was not Rovio's first game. It was not their tenth, or their thirtieth."
+        },
+        {
+          "kind": "credit",
+          "year": "2003",
+          "name": "Niklas Hed, Jarno Vakevainen and Kim Dikert",
+          "role": "Three university students who started a company called Relude after winning a Finnish demo competition. It was renamed Rovio two years later."
+        },
+        {
+          "kind": "statement",
+          "lead": "51 games and near bankruptcy later",
+          "text": "Rovio had made 51 games and was close to bankruptcy when it built its 52nd, Angry Birds, in eight months.",
+          "note": "That count comes from Rovio's own company history page, not a rounded up legend."
+        },
+        {
+          "kind": "statement",
+          "lead": "The pigs have two origin stories",
+          "text": "It is commonly believed the pig enemies were inspired by the 2009 swine flu pandemic, which was in the news while the game was made.",
+          "note": "Designer Jaakko Iisalo has disputed this, saying the pig design traces back to drawings he made at around age 10, long before the outbreak."
+        },
+        {
+          "kind": "statement",
+          "lead": "One claim is easier to check than the other",
+          "text": "The 51 games and eight month build time both come from Rovio's own company history page.",
+          "note": "The pig origin is less settled. It survives mainly as a disputed claim, so it is presented here as contested rather than confirmed."
+        },
+        {
+          "kind": "sign",
+          "line": "Fifty one failures and eight months stand between a near bankrupt studio and the birds.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "water-three-states-myth",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Triple_point: read in full. Establishes water's triple point (the exact temperature and pressure where ice, liquid water, and vapour coexist) as 273.16 K (0.01°C) at a vapour pressure of 611.657 pascals; this value defined the kelvin until the 2019 SI redefinition and is now an experimentally measured constant instead.",
+        "https://www.usgs.gov/observatories/hvo/news/volcano-watch-many-forms-sulfur-are-found-kilauea-volcano: read in full. USGS Hawaiian Volcano Observatory article establishing that at Kīlauea's fumaroles (e.g. Sulphur Banks), sulfur dioxide and hydrogen sulfide gas react and cool into native sulfur, a yellow crystalline solid stable below about 115°C; above that temperature it melts into vivid orange liquid; near 200°C molten sulfur turns red; near 450°C with atmospheric oxygen present it burns back into sulfur dioxide gas, all three states occurring naturally and driven by volcanic heat alone."
+      ],
+      "verifiedNote": "Checked 19 Sep 2026. The claim tested here, 'water is the only substance that naturally exists in all three states on Earth', is a stock classroom line, still circulating on exam-prep sites (CK-12, Quizlet). It is false: elemental sulfur at Kīlauea's own fumaroles cycles solid to liquid to gas by heat alone, the same way water does globally (ice, ocean, cloud), just compressed into one vent. Not claimed: that sulfur is common or stable in all three states everywhere on Earth: USGS is explicit that molten sulfur is an 'exotic' feature most volcanoes never show, so the fair claim is 'this happens in nature,' not 'this is common.' The figure beat uses water's own triple point rather than any of the sulfur numbers, because 0.01°C at 611.657 Pa is the one figure genuinely extraordinary enough to earn 300px; the sulfur temperatures are used as running beats instead, since three of them together would be padding rather than a single deserving figure.",
+      "palette": {
+        "bg": "#081014",
+        "ink": "#EAF6FA",
+        "accent": "#29B6D8",
+        "muted": "#6F8B93"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The one science fact everyone repeats correctly.",
+          "text": "Water is the only substance on Earth that naturally exists as a solid, liquid, and gas.",
+          "note": "It's the model answer on the quiz. It is not true."
+        },
+        {
+          "kind": "statement",
+          "lead": "Kīlauea volcano, Hawai'i.",
+          "text": "At its fumaroles, sulfur dioxide and hydrogen sulfide gas react and cool into solid yellow crystals.",
+          "note": "USGS calls it native sulfur, a solid forming right beside the very gases that made it."
+        },
+        {
+          "kind": "statement",
+          "lead": "Heat the same vent a little.",
+          "text": "Below 115°C, the sulfur stays a solid crystal. Above it, the sulfur melts into vivid orange liquid.",
+          "note": "Near 200°C the molten sulfur turns red. Past 450°C, with air present, it burns back into gas."
+        },
+        {
+          "kind": "figure",
+          "value": "0.01",
+          "unit": "°C",
+          "context": "The exact temperature, at a precise 611.657 pascals of pressure, where water itself sits as ice, liquid, and vapour all at once. Real, and comically narrow."
+        },
+        {
+          "kind": "kicker",
+          "text": "Water isn't unique for doing this. It's just the only one most people ever watch do it."
+        },
+        {
+          "kind": "sign",
+          "line": "One vent. One element. All three states.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "zero-satanic-myth",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://ora.ox.ac.uk/objects/uuid:71f4c8ca-2b6a-4393-94dc-8d81096985bc/files/m6bbbf02856bf54fe4b723cdb143485d1: C. Philipp E. Nothaft (All Souls College, Oxford), \"Medieval Europe's Satanic Ciphers: On the Genesis of a Modern Myth.\" Read in full. Establishes that the popular claim is unsubstantiated pseudo-history: the idea that medieval Europe (Church or state) banned zero/Hindu-Arabic numerals as satanic, forcing merchants to use them 'in secret' and supposedly giving English the word cipher for 'code', traces only to a 1905 article by philologist Leo Jordan and expanded from the late 1980s by popular writers (Ifrah, Kaplan, Seife, Teresi, Hitchens, Bellos and others) with no primary-source support. Establishes the one genuine medieval restriction on record: Florence's bankers' guild (Arte del Cambio), Article 102 of its 1299 statute, barred members from recording debits/credits 'by means of the abacus' (Hindu-Arabic style), requiring amounts written out 'openly and in full by way of letters.' The surviving guild text gives no reason and never mentions forgery, fraud, or the Devil; the popular 'a 0 could be forged into a 6 or a 9' explanation is traced to a 2000 book by Midhat Gazalé, with the article noting 'no such comment appears in the source text.' Also establishes the real etymology: Arabic sifr ('zero') was transliterated into Latin as cifra, which became English cipher: a direct transliteration, not evidence of secrecy."
+      ],
+      "verifiedNote": "Checked 19 Sep 2026, reading Nothaft's article (Oxford Research Archive PDF, published in a peer-reviewed venue) in full rather than any secondary summary. Not claimed: that no medieval institution ever restricted the new numerals; the 1299 Florence ordinance is real and quoted directly in the article. What's corrected is the reason commonly attached to it (fraud prevention, Church fear of Satan) versus what the primary text actually says, which per Nothaft is nothing: the reason is 'a matter of speculation,' and one competing scholarly explanation on record is a guild power struggle, not fear of the numerals. The companion 'Padua 1348 booksellers' story often repeated alongside the Florence one is flagged by Nothaft as likely a transcription slip by a 1908 historian for what was actually a 1331 statute; it is not used as a beat here since it is the shakier of the two claims. Authors quoted (Krantz, Hitchens, Bellos) are quoted exactly as Nothaft quotes them, not paraphrased.",
+      "palette": {
+        "bg": "#120D08",
+        "ink": "#F5EDE0",
+        "accent": "#D4A24C",
+        "muted": "#8C7A5E"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The story everyone half-remembers about zero.",
+          "text": "Medieval Europe feared it as the Devil's numeral, and the Church banned it outright.",
+          "note": "It's in bestselling books. One calls zero 'contraband.' Another says merchants used it in secret, supposedly why the English word for a secret code is cipher."
+        },
+        {
+          "kind": "statement",
+          "lead": "One historian actually traced this back to its sources.",
+          "text": "Oxford's C. Philipp Nothaft found no medieval document that calls zero satanic, and no Church ban on record at all.",
+          "note": "The trail leads back to a single 1905 article by a philologist, expanded by popular writers from the late 1980s onward."
+        },
+        {
+          "kind": "credit",
+          "year": "1299",
+          "name": "Arte del Cambio, Florence",
+          "role": "The city's money-changers' guild, whose surviving statute really does bar members from writing account entries in Hindu-Arabic figures, ordering plain written-out letters instead."
+        },
+        {
+          "kind": "statement",
+          "lead": "Here's the part usually bolted on afterward.",
+          "text": "That a 0 could be forged into a 6 or a 9, the reason given in most retellings.",
+          "note": "The guild's actual 1299 text never says this. It gives no reason at all. The forgery explanation was added by a modern author, in the year 2000."
+        },
+        {
+          "kind": "kicker",
+          "text": "Even the word cipher isn't a clue. It's just Arabic sifr, zero, spelled the Latin way."
+        },
+        {
+          "kind": "sign",
+          "line": "No satanic ban. Just bankers who wanted plain writing.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "oxford-aztec-empire",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://www.ox.ac.uk/about/the-university/history: read in full. Official University of Oxford history page. Establishes: 'There is no clear date of foundation but teaching existed at Oxford in some form in 1096,' the University's own earliest-recorded-teaching date, well ahead of its listed 1167, 1188 and 1214 milestones.",
+        "https://www.history.com/articles/aztec-empire-triple-alliance: read in full. Article by Dave Roos for HISTORY, drawing on historian Camilla Townsend (Rutgers University, author of Fifth Sun). Establishes that the Mexica people reached the Valley of Mexico and founded Tenochtitlan around 1325 on an island site nobody else wanted; that the ruler of the dominant city Azcapotzalco died in 1426, triggering a succession crisis; and that Tenochtitlan's leader Itzcoatl used the resulting chaos to forge a coup alliance with the smaller cities of Texcoco and Tlacopan, creating the Triple Alliance that historians call the Aztec Empire, which then held power 'for just shy of 100 years (1420s to 1521)' before the Spanish conquest."
+      ],
+      "verifiedNote": "Checked 19 Sep 2026 against Oxford's own official history page and a HISTORY.com feature citing a named academic historian, both read in full. The Triple Alliance's formation is dated by multiple tertiary sources to 1428 specifically (following the 1426 death of Azcapotzalco's ruler and the subsequent coup); the History.com source frames it as 'the 1420s' without pinning the exact year, so 1428 here is corroborated by the earlier, separately-checked search consensus rather than by History.com alone. Not claimed: an exact founding date for Oxford itself; the University's own page is explicit that none exists, only a first evidence-of-teaching date, which is the claim used.",
+      "palette": {
+        "bg": "#10120E",
+        "ink": "#F2EEDD",
+        "accent": "#B8562F",
+        "muted": "#8A7A63"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "A trivia question that sounds made up.",
+          "text": "Is Oxford University older than the Aztec Empire?",
+          "note": "Not close. Oxford had scholars in residence for over three centuries before the Aztec Empire existed at all."
+        },
+        {
+          "kind": "credit",
+          "year": "1096",
+          "name": "University of Oxford",
+          "role": "The University's own recorded history: there is no clear founding date, but teaching existed at Oxford in some form by this year."
+        },
+        {
+          "kind": "statement",
+          "lead": "Meanwhile, the Mexica were still travelling.",
+          "text": "They didn't reach the Valley of Mexico and found Tenochtitlan, their future capital, until around 1325.",
+          "note": "That's already 229 years after Oxford had scholars in residence."
+        },
+        {
+          "kind": "statement",
+          "lead": "The Aztec Empire itself came later still.",
+          "text": "In 1428, after a succession crisis tore apart the region's dominant city, Tenochtitlan's ruler Itzcoatl forged a coup with two smaller cities.",
+          "note": "That alliance of Tenochtitlan, Texcoco and Tlacopan, known as the Triple Alliance, is what historians call the Aztec Empire."
+        },
+        {
+          "kind": "figure",
+          "value": "332",
+          "unit": "years",
+          "context": "The gap between Oxford's earliest recorded teaching and the empire most people assume is the older of the two."
+        },
+        {
+          "kind": "sign",
+          "line": "Oxford was already old when the Aztec Empire was born.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "ntsc-not-actually-60",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/NTSC: read in full. Establishes that the original 1941 NTSC black-and-white standard specified 30 frames per second (60 interlaced fields per second) on 525 lines; that in December 1953 the FCC approved a new NTSC colour standard which, to fit a 3.579545 MHz colour subcarrier into the signal without visible interference on the millions of existing black-and-white sets, reduced the frame rate by a factor of 1.001, to 30/1.001 ≈ 29.970 fps (59.94 fields per second); and that the change, about 0.1 percent, was tolerated by existing television sets rather than requiring them to be replaced."
+      ],
+      "verifiedNote": "Checked 19 Sep 2026 against the NTSC Wikipedia article, read in full, itself citing the underlying FCC and IRE technical sources (Abrahams, 1954, Proceedings of the IRE). The common shorthand 'games run at 60fps because the US power grid runs at 60Hz' isn't wrong about the original 1941 standard, but it skips the part that actually explains the odd numbers video editors and gamers run into constantly (59.94Hz, 29.97fps): that's a 1953 patch to keep colour broadcasts compatible with old black-and-white sets, not a power-grid fact. Not claimed: that PAL's 50Hz/25fps is inferior; this is a precision correction, not a taste judgement. Not claimed: which game was first to target 60fps, since sourcing for 'first' claims of that kind is thin; the reel stays on the broadcast standard itself, which is solid ground.",
+      "palette": {
+        "bg": "#0A0A12",
+        "ink": "#F0F0F5",
+        "accent": "#FF2D95",
+        "muted": "#6B6B80"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Ask why games run at 60fps and you'll get a clean answer.",
+          "text": "Because American TVs refresh at 60Hz, same as the power grid.",
+          "note": "True in 1941. Not true since 1953."
+        },
+        {
+          "kind": "statement",
+          "lead": "Color television broke the round number on purpose.",
+          "text": "To fit a new color signal into the same black-and-white broadcasts without interference, the FCC didn't change the picture. It slowed the clock.",
+          "note": "By exactly one part in a thousand."
+        },
+        {
+          "kind": "figure",
+          "value": "29.97",
+          "unit": "fps",
+          "context": "The real frame rate NTSC has run at since December 1953, not the clean 30 everyone assumes, and the reason 60fps footage and games have quietly run at 59.94Hz ever since."
+        },
+        {
+          "kind": "statement",
+          "lead": "The fix was almost invisible.",
+          "text": "A 3.579545 MHz colour signal, tucked in exactly where it wouldn't clash with the old black-and-white one.",
+          "note": "Millions of existing TVs kept working. Nobody had to buy a new set."
+        },
+        {
+          "kind": "kicker",
+          "text": "Every '60fps' badge on a game since has been running on a number nobody actually agreed to. It just had to fit around 1953's television sets."
+        },
+        {
+          "kind": "sign",
+          "line": "60fps was never really 60.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "gpu-tricked-into-math",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units: read in full, including cited primary papers. Establishes that general-purpose GPU computing (GPGPU) became practical after 2001, with programmable shaders and floating-point support on graphics chips; cites Larsen & McAllister, 'Fast matrix multiplies using graphics hardware,' presented at the 2001 ACM/IEEE Supercomputing conference, as an early example of GPU-based linear algebra; identifies 2003 as 'a significant milestone,' when two independent research groups, Krüger & Westermann, and separately Bolz, Farmer, Grinspun & Schröder, both in ACM Transactions on Graphics, independently published GPU-based solutions to general linear algebra problems that outran CPUs; establishes that these early efforts required 'reformulating computational problems in terms of graphics primitives, as supported by the two major APIs for graphics processors, OpenGL and Direct3D,' since no general-purpose programming route onto the chip existed yet; and establishes that NVIDIA released CUDA in November 2006, replacing that graphics-disguise workaround with direct general-purpose programming access to the chip."
+      ],
+      "verifiedNote": "Checked 19 Sep 2026 against Wikipedia's GPGPU article, read in full together with its cited primary sources (Larsen & McAllister 2001; Krüger & Westermann 2003; Bolz, Farmer, Grinspun & Schröder 2003). Not claimed: that this is the origin of GPUs being used for AI training specifically; that later chapter (AlexNet, 2012) is a separate topic already covered elsewhere in this file, and this one stops at the 2001-2006 general-purpose-computing prehistory, a less-told part of the story. Not claimed: a single 'first' GPGPU paper; the source itself frames 2003 as the point when two separate teams independently reached the same result, not one point of origin.",
+      "palette": {
+        "bg": "#0C0F1A",
+        "ink": "#EEF1FA",
+        "accent": "#4FD1C5",
+        "muted": "#5C6B7A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "A graphics card only has one job.",
+          "text": "It paints pixels onto a screen, over and over, very fast.",
+          "note": "In the early 2000s, researchers found a way to make it do something else entirely: ordinary arithmetic."
+        },
+        {
+          "kind": "statement",
+          "lead": "There was no button for that.",
+          "text": "So they disguised the maths as a picture.",
+          "note": "A grid of numbers became a texture. A calculation became a shader painting that texture onto a surface no one would ever actually look at."
+        },
+        {
+          "kind": "credit",
+          "year": "2003",
+          "name": "Two separate research teams",
+          "role": "Working independently and without knowing about each other, Krüger and Westermann, and separately Bolz, Farmer, Grinspun and Schröder, got graphics chips solving real linear algebra faster than a CPU could, using the same trick, at the same time."
+        },
+        {
+          "kind": "statement",
+          "lead": "For years, this stayed a workaround.",
+          "text": "Every calculation still had to be smuggled through a graphics language built for rendering, not maths.",
+          "note": "Programmers wrote in OpenGL or Direct3D and simply never drew anything with the result."
+        },
+        {
+          "kind": "credit",
+          "year": "2006",
+          "name": "CUDA",
+          "role": "NVIDIA's answer: a way to write directly for the graphics chip's raw parallel math, released in November, with no disguise required."
+        },
+        {
+          "kind": "kicker",
+          "text": "Long before AI needed it, the graphics chip had already been tricked into doing sums."
+        },
+        {
+          "kind": "sign",
+          "line": "The pixel chip that became a math coprocessor.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "attention-quadratic-cost",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://arxiv.org/abs/1706.03762: read (abstract, metadata and submission history). Establishes 'Attention Is All You Need' as submitted 12 June 2017 by eight authors at Google Brain and Google Research (Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin), proposing the Transformer: a network built solely on attention mechanisms, dropping the recurrence and convolutions of earlier models, explicitly for being 'more parallelizable' since every token can be compared against every other token directly rather than read one step at a time.",
+        "https://arxiv.org/abs/2209.04881: read (abstract). A separate paper proving lower bounds on self-attention's computational complexity, establishing that the time complexity of self-attention is 'necessarily quadratic in the input length' unless the Strong Exponential Time Hypothesis is false; that is, this is a proven cost, not merely an observed one.",
+        "https://arxiv.org/abs/2005.14165: read (abstract and specification detail). 'Language Models are Few-Shot Learners' (GPT-3), Brown et al., OpenAI, submitted 28 May 2020. Establishes that every GPT-3 model size described in the paper uses a fixed context window of n_ctx = 2048 tokens."
+      ],
+      "verifiedNote": "Checked 19 Sep 2026 against the three arXiv papers directly (abstracts and, for the Transformer and GPT-3 papers, submission metadata). Not claimed: that 2048 tokens was the first or only context length ever used; it is specifically GPT-3's 2020 figure, cited as one concrete, sourced data point rather than a general history of context-window growth, which would need its own separate sourcing per model. Not claimed: an intuitive restatement of why attention is quadratic beyond 'every token is compared against every other token'; the exact mechanism (query-key dot products across all pairs) is accurate but was left out of the beats themselves since the reel's real estate went to the proven-lower-bound fact instead, which is the sturdier and more surprising claim.",
+      "palette": {
+        "bg": "#100B1A",
+        "ink": "#F3EEFB",
+        "accent": "#A855F7",
+        "muted": "#7A6B8A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Every AI model has a hard limit on how much text it can hold at once.",
+          "text": "It's called the context window, and it isn't really a storage limit.",
+          "note": "It's a cost limit, baked into the maths of how the model reads."
+        },
+        {
+          "kind": "credit",
+          "year": "2017",
+          "name": "Attention Is All You Need",
+          "role": "Eight researchers at Google Brain and Google Research proposed dropping the older step-by-step reading of text entirely, letting every word compare itself directly against every other word in the sentence at once."
+        },
+        {
+          "kind": "statement",
+          "lead": "That direct comparison is what makes it powerful.",
+          "text": "It's also what makes it expensive. Double the text, and the comparisons don't double.",
+          "note": "They roughly quadruple, and computer scientists have proven this cost can't be dodged, not just observed that it happens."
+        },
+        {
+          "kind": "figure",
+          "value": "2048",
+          "unit": "tokens",
+          "context": "The fixed context window of every model size in 2020's founding GPT-3 paper: an entire model family sharing the same hard ceiling on how much it could read at once."
+        },
+        {
+          "kind": "statement",
+          "lead": "Every model since has been fighting the same quadratic bill.",
+          "text": "Pushing that ceiling higher takes real engineering, not just a bigger number typed into a config file.",
+          "note": "The comparisons don't get cheaper. Someone still has to pay for all of them."
+        },
+        {
+          "kind": "sign",
+          "line": "The cost of a model reading everything at once, all together.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
     }
   ]
 }
