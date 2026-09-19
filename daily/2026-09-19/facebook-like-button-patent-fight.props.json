@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (facebook-like-button-patent-fight)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0C0E16",
+    "ink": "#EEF0F7",
+    "accent": "#5B6EE8",
+    "muted": "#7B8296"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The Facebook Like button feels like it has always existed.",
+      "text": "It went live on 9 February 2009, as a single button with a single meaning.",
+      "note": "There was no dislike option, no Love or Haha, just one word. Those extra reactions did not arrive for another seven years.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Once Facebook let other websites use it, it spread startlingly fast.",
+      "text": "A week after the wider social plugin launch, 50,000 websites had already added the button.",
+      "note": "Five months later that number had grown to 2 million websites, each one sending data back to Facebook whenever the page loaded, whether or not a visitor ever clicked it.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2010",
+      "name": "Mark Zuckerberg",
+      "role": "Facebook's chief executive. Announcing the button's expansion across the web at the company's F8 conference on 21 April 2010, he said Facebook was building 'a web where the default is social'.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The button eventually ended up in court.",
+      "text": "In February 2013, a company called Rembrandt Social Media sued Facebook, claiming a patent on the idea of a like button.",
+      "note": "The patent traced back to 1998 and a little known early social network called Surfbook, built by Dutch programmer Joannes Jozef Everardus van der Meer, who had died in 2004 and never saw the lawsuit filed in his name.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "40",
+      "unit": "x",
+      "context": "How much the button's reach grew in just five months on other websites, from 50,000 sites to 2 million.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "kicker",
+      "text": "A single thumbs up button spread across millions of websites before the patent fight over who owned the idea had even begun.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "sign",
+      "line": "One button, one meaning, and a decade of consequences nobody clicking it saw coming.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 130
+    }
+  ],
+  "cta": "Subscribe for more."
+}

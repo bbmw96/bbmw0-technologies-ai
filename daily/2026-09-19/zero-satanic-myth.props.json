@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (zero-satanic-myth)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#120D08",
+    "ink": "#F5EDE0",
+    "accent": "#D4A24C",
+    "muted": "#8C7A5E"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The story everyone half-remembers about zero.",
+      "text": "Medieval Europe feared it as the Devil's numeral, and the Church banned it outright.",
+      "note": "It's in bestselling books. One calls zero 'contraband.' Another says merchants used it in secret, supposedly why the English word for a secret code is cipher.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "One historian actually traced this back to its sources.",
+      "text": "Oxford's C. Philipp Nothaft found no medieval document that calls zero satanic, and no Church ban on record at all.",
+      "note": "The trail leads back to a single 1905 article by a philologist, expanded by popular writers from the late 1980s onward.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1299",
+      "name": "Arte del Cambio, Florence",
+      "role": "The city's money-changers' guild, whose surviving statute really does bar members from writing account entries in Hindu-Arabic figures, ordering plain written-out letters instead.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "statement",
+      "lead": "Here's the part usually bolted on afterward.",
+      "text": "That a 0 could be forged into a 6 or a 9, the reason given in most retellings.",
+      "note": "The guild's actual 1299 text never says this. It gives no reason at all. The forgery explanation was added by a modern author, in the year 2000.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Even the word cipher isn't a clue. It's just Arabic sifr, zero, spelled the Latin way.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "sign",
+      "line": "No satanic ban. Just bankers who wanted plain writing.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,194 @@
+{
+  "date": "2026-09-19",
+  "generatedAt": "2026-09-19T12:46:39.550Z",
+  "policyVersion": "1.0.0",
+  "strictMode": false,
+  "allowed": [
+    "facebook-like-button-patent-fight",
+    "zero-satanic-myth"
+  ],
+  "blocked": [
+    "eisenhower-matrix-not-eisenhowers"
+  ],
+  "results": [
+    {
+      "slug": "eisenhower-matrix-not-eisenhowers",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "Eisenhower never drew a box in his life.",
+      "niche": "productivity",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "safety.hard_banned",
+          "message": "Prohibited term \"president\" appears in the video text or metadata.",
+          "detail": {
+            "term": "president"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.125,
+        "worstTitleAgainst": "qwerty-not-slow",
+        "worstDescriptionSimilarity": 0.391,
+        "combo": "reel:#10120F:#B8925A:#F2EFE6",
+        "themeGap": 198,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "facebook-like-button-patent-fight",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "It went live on 9 February 2009, as a single button with a single meaning.",
+      "niche": "app",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "safety.context_review",
+          "message": "Context-sensitive term(s) present: died. Legitimate in educational science and history, referred to the AI safety reviewer.",
+          "detail": {
+            "terms": [
+              "died"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.091,
+        "worstTitleAgainst": "speedrun-frame",
+        "worstDescriptionSimilarity": 0.259,
+        "combo": "reel:#0C0E16:#5B6EE8:#EEF0F7",
+        "themeGap": 198,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "zero-satanic-myth",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Medieval Europe feared it as the Devil's numeral, and the Church banned it outright.",
+      "niche": "history",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "safety.context_review",
+          "message": "Context-sensitive term(s) present: church. Legitimate in educational science and history, referred to the AI safety reviewer.",
+          "detail": {
+            "terms": [
+              "church"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.097,
+        "worstTitleAgainst": "feynman-technique-not-feynmans",
+        "worstDescriptionSimilarity": 0.287,
+        "combo": "reel:#120D08:#D4A24C:#F5EDE0",
+        "themeGap": 198,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    }
+  ]
+}

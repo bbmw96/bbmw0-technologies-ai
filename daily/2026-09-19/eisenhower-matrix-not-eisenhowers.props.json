@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (eisenhower-matrix-not-eisenhowers)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#10120F",
+    "ink": "#F2EFE6",
+    "accent": "#B8925A",
+    "muted": "#7D8177"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "kicker",
+      "text": "Eisenhower never drew a box in his life.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "statement",
+      "lead": "19 August 1954, Northwestern University",
+      "text": "Eisenhower quoted a line at the World Council of Churches: 'I have two kinds of problems, the urgent and the important. The urgent are not important, and the important are never urgent.'",
+      "note": "He credited it to 'a former college president', not to himself, and not by name.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1954",
+      "name": "Dr J. Roscoe Miller",
+      "role": "Northwestern's president, who introduced Eisenhower that day and is named earlier in the speech. He is not the 'former college president' Eisenhower actually quotes, though most retellings assume he is.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "35",
+      "unit": "years",
+      "context": "The gap between Eisenhower's speech and the year the four quadrant grid people picture was actually invented.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "credit",
+      "year": "1989",
+      "name": "Stephen Covey",
+      "role": "Turned Eisenhower's two sentences into the four quadrant grid in his book The 7 Habits of Highly Effective People, more than three decades after the speech.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "sign",
+      "line": "The quote is Eisenhower's. The box belongs to somebody else entirely.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 112
+    }
+  ],
+  "cta": "Subscribe for more."
+}
