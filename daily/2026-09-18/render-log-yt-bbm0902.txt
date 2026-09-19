@@ -1,6 +1,6 @@
-Rendering 11 Shorts for 2026-09-18 (concurrency=3, GL=default)
-Compliance: 7 cleared, 4 blocked (policy v1.0.0).
-Blocked by compliance: flappy-bird-pulled, great-molasses-flood-1919, great-stink-london-1858, ten-percent-brain-myth
+Rendering 10 Shorts for 2026-09-18 (concurrency=3, GL=default)
+Compliance: 6 cleared, 4 blocked (policy v1.0.0).
+Blocked by compliance: flappy-bird-pulled, great-molasses-flood-1919, honey-badger-venom-resistance, ten-percent-brain-myth
 
 --- coriolis-effect-drain-myth ---
   SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
@@ -11,7 +11,7 @@ Blocked by compliance: flappy-bird-pulled, great-molasses-flood-1919, great-stin
   ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
   instagram via: Composio
   FAILED upload: Command failed: node scripts/instagram-upload-composio.mjs --video-url="https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-18/daily-2026-09-18-eugene-goostman-turing.mp4" --caption="Here's what actually happened when someone asked it a simple question." --tags="shorts,ai,facts,didyouknow,history"
-Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"A7-T8-qYwrlRqrMm8s7t510"}}
+Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"A1GI2CbFCMbH-wKv4VE3kfj"}}
 
   --- child stdout ---
   |   id=ca_9c4hykP4M5OP  toolkit=github  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=EXPIRED
@@ -40,7 +40,7 @@ Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (sta
   |   Pick a slug from the list above that publishes media, and use it instead.
   | --- end diagnostics ---
   --- child stderr ---
-  | Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"A7-T8-qYwrlRqrMm8s7t510"}}
+  | Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"A1GI2CbFCMbH-wKv4VE3kfj"}}
 
 --- feynman-technique-not-feynmans ---
   SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
@@ -51,7 +51,7 @@ Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (sta
   ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
   instagram via: Composio
   FAILED upload: Command failed: node scripts/instagram-upload-composio.mjs --video-url="https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-18/daily-2026-09-18-first-banner-ad-1994.mp4" --caption="There's no such thing as the first banner ad." --tags="shorts,tech,facts,didyouknow,history"
-Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"AJktvqJEkad0pJ9fxzE8hnU"}}
+Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"Ax7FN9ScA-7S5V0GXxbVYMh"}}
 
   --- child stdout ---
   |   id=ca_9c4hykP4M5OP  toolkit=github  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=EXPIRED
@@ -80,12 +80,7 @@ Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (sta
   |   Pick a slug from the list above that publishes media, and use it instead.
   | --- end diagnostics ---
   --- child stderr ---
-  | Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"AJktvqJEkad0pJ9fxzE8hnU"}}
-
---- first-spam-email-1978 ---
-  composition=Reel audio= privacy=public
-  rendered: out/daily-2026-09-18-first-spam-email-1978.mp4
-  uploaded public: https://youtu.be/oJqaaM3eFbY
+  | Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"Ax7FN9ScA-7S5V0GXxbVYMh"}}
 
 --- flappy-bird-pulled ---
   composition=Reel audio= privacy=public
@@ -97,15 +92,10 @@ Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (sta
   rendered: out/daily-2026-09-18-great-molasses-flood-1919.mp4
   BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-18/compliance-verdict.json.
 
---- great-stink-london-1858 ---
+--- honey-badger-venom-resistance ---
   composition=Reel audio= privacy=public
-  rendered: out/daily-2026-09-18-great-stink-london-1858.mp4
+  rendered: out/daily-2026-09-18-honey-badger-venom-resistance.mp4
   BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-18/compliance-verdict.json.
-
---- iphone-no-app-store-2007 ---
-  composition=Reel audio= privacy=public
-  rendered: out/daily-2026-09-18-iphone-no-app-store-2007.mp4
-  uploaded public: https://youtu.be/LoUZm071r7Q
 
 --- minecraft-creeper-origin ---
   composition=Reel audio= privacy=public
@@ -113,7 +103,7 @@ Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (sta
   ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
   instagram via: Composio
   FAILED upload: Command failed: node scripts/instagram-upload-composio.mjs --video-url="https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-18/daily-2026-09-18-minecraft-creeper-origin.mp4" --caption="It was supposed to be a pig." --tags="shorts,gaming,facts,didyouknow,history"
-Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"Ai8iiTm0Z8_lLIyNHWCQI-w"}}
+Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"A5dwAoBQzqIxwQWHzaDKyWD"}}
 
   --- child stdout ---
   |   id=ca_9c4hykP4M5OP  toolkit=github  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=EXPIRED
@@ -142,11 +132,16 @@ Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (sta
   |   Pick a slug from the list above that publishes media, and use it instead.
   | --- end diagnostics ---
   --- child stderr ---
-  | Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"Ai8iiTm0Z8_lLIyNHWCQI-w"}}
+  | Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"A5dwAoBQzqIxwQWHzaDKyWD"}}
+
+--- peanuts-underground-geocarpy ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-18-peanuts-underground-geocarpy.mp4
+  uploaded public: https://youtu.be/IIaYlmXdEAQ
 
 --- ten-percent-brain-myth ---
   composition=Reel audio= privacy=public
   rendered: out/daily-2026-09-18-ten-percent-brain-myth.mp4
   BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-18/compliance-verdict.json.
 
-=== Done. 9 rendered, 2 uploaded, 2 skipped, 4 blocked by compliance, 3 failed. ===
+=== Done. 8 rendered, 1 uploaded, 2 skipped, 4 blocked by compliance, 3 failed. ===

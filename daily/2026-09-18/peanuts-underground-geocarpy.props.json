@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (peanuts-underground-geocarpy)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0F120A",
+    "ink": "#F3F5E8",
+    "accent": "#9AAA3E",
+    "muted": "#6B7350"
+  },
+  "niche": "food",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "A peanut is not a nut, and it does not grow the way its name suggests either.",
+      "text": "Peanuts are legumes, in the same plant family as peas, beans and lentils, and after their yellow flowers pollinate themselves above ground, the plant sends the developing pod underground to finish growing.",
+      "note": "Botanists call this geocarpy, from the Greek for earth fruit.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "The mechanism is a structure called a peg. Once a flower is fertilised, it withers and a stem grows downward and away from the plant, burying its tip in the soil, where the pod then forms and swells at the buried end.",
+      "note": "It is a genuinely unusual strategy: almost every other flowering plant develops its fruit in the open air, not underground.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "40",
+      "unit": "days",
+      "context": "roughly how long after planting a peanut plant's self pollinating yellow flowers typically appear.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "figure",
+      "value": "150",
+      "unit": "days",
+      "context": "the upper end of how long peanut pods typically take to ripen underground after planting.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "kicker",
+      "text": "The plant is quietly useful even before harvest. Like other legumes, its roots host nitrogen fixing bacteria that enrich the soil, which is why growers are told to leave the roots behind to decay rather than pulling the whole plant out.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "A legume that flowers in the sun and finishes the job entirely out of sight.",
+      "handle": "@bbm0902",
+      "durationInFrames": 136
+    }
+  ],
+  "cta": "Subscribe for more."
+}

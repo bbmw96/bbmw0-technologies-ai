@@ -8,12 +8,18 @@
     "first-banner-ad-1994",
     "minecraft-creeper-origin",
     "coriolis-effect-drain-myth",
-    "feynman-technique-not-feynmans"
+    "feynman-technique-not-feynmans",
+    "first-spam-email-1978",
+    "iphone-no-app-store-2007",
+    "peanuts-underground-geocarpy",
+    "alexnet-imagenet-2012"
   ],
   "blocked": [
     "flappy-bird-pulled",
     "great-molasses-flood-1919",
-    "ten-percent-brain-myth"
+    "ten-percent-brain-myth",
+    "great-stink-london-1858",
+    "honey-badger-venom-resistance"
   ],
   "results": [
     {
@@ -466,6 +472,326 @@
         "worstTitleAgainst": "betelgeuse-dimming",
         "worstDescriptionSimilarity": 0.264,
         "combo": "reel:#120E14:#EC4899:#F6F0F8",
+        "themeGap": 182,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "first-spam-email-1978",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "The word didn't exist yet.",
+      "niche": "tech",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.125,
+        "worstTitleAgainst": "algebra-origin",
+        "worstDescriptionSimilarity": 0.282,
+        "combo": "reel:#141210:#EF4444:#F5F1EA",
+        "themeGap": 182,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "great-stink-london-1858",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "It fixed it because, in the summer of 1858, the smell became unbearable, even to the people who ran ",
+      "niche": "history",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "safety.hard_banned",
+          "message": "Prohibited term \"parliament\" appears in the video text or metadata.",
+          "detail": {
+            "term": "parliament"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "safety.context_review",
+          "message": "Context-sensitive term(s) present: dead, disease. Legitimate in educational science and history, referred to the AI safety reviewer.",
+          "detail": {
+            "terms": [
+              "dead",
+              "disease"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.105,
+        "worstTitleAgainst": "hawthorne-effect-myth",
+        "worstDescriptionSimilarity": 0.29,
+        "combo": "reel:#0E120D:#6B7A3D:#EDEEE0",
+        "themeGap": 182,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "iphone-no-app-store-2007",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "For its first thirteen months, there was no App Store at all.",
+      "niche": "app",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.2,
+        "worstTitleAgainst": "first-banner-ad-1994 (same batch)",
+        "worstDescriptionSimilarity": 0.241,
+        "combo": "reel:#0F1113:#38BDF8:#F2F3F5",
+        "themeGap": 182,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "honey-badger-venom-resistance",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "Up to a quarter of a honey badger's diet is venomous snakes, hunted for meat rather than out of desp",
+      "niche": "animals",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "halal.origins_claim",
+          "message": "States a contested origins or deep-time claim as settled fact (matched: \\bevolv(?:ed|ing|es|e)\\b).",
+          "detail": {
+            "pattern": "\\bevolv(?:ed|ing|es|e)\\b"
+          }
+        },
+        {
+          "severity": "BLOCK",
+          "rule": "halal.origins_claim",
+          "message": "States a contested origins or deep-time claim as settled fact (matched: \\bevolution(?:ary)?\\b).",
+          "detail": {
+            "pattern": "\\bevolution(?:ary)?\\b"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "safety.context_review",
+          "message": "Context-sensitive term(s) present: kill, blood, poison, venom. Legitimate in educational science and history, referred to the AI safety reviewer.",
+          "detail": {
+            "terms": [
+              "kill",
+              "blood",
+              "poison",
+              "venom"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.083,
+        "worstTitleAgainst": "human-bioluminescence-glow",
+        "worstDescriptionSimilarity": 0.285,
+        "combo": "reel:#0D0D08:#D4A72C:#F2EFE0",
+        "themeGap": 182,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "peanuts-underground-geocarpy",
+      "channelId": "yt-bbm0902",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Peanuts are legumes, in the same plant family as peas, beans and lentils, and after their yellow flo",
+      "niche": "food",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.086,
+        "worstTitleAgainst": "atari-landfill",
+        "worstDescriptionSimilarity": 0.268,
+        "combo": "reel:#0F120A:#9AAA3E:#F3F5E8",
+        "themeGap": 182,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "alexnet-imagenet-2012",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "wasn't built in a lab.",
+      "niche": "ai",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.2,
+        "worstTitleAgainst": "creeper-first-computer-virus",
+        "worstDescriptionSimilarity": 0.234,
+        "combo": "reel:#12101C:#8B5CF6:#F3F0FA",
         "themeGap": 182,
         "audioGap": 0
       },

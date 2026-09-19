@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (first-spam-email-1978)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#141210",
+    "ink": "#F5F1EA",
+    "accent": "#EF4444",
+    "muted": "#8A8178"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The first spam email wasn't called spam",
+      "text": "The word didn't exist yet.",
+      "note": "'Spam' wasn't coined for unwanted online messages until April 1993, on Usenet, fifteen years after this email was sent.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "credit",
+      "year": "1978",
+      "name": "Gary Thuerk",
+      "role": "A marketing manager at Digital Equipment Corporation. On 3 May, he pitched a new DEC computer to roughly 400 people over ARPANET, the internet's forerunner.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "statement",
+      "lead": "'Complaints started coming in almost immediately,'",
+      "text": "Thuerk himself recalled, decades later.",
+      "note": "A few days after, an ARPANET representative phoned him directly. 'He made me promise never to do it again,' Thuerk said.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "figure",
+      "value": "13",
+      "unit": "million",
+      "context": "US dollars in sales DEC reportedly made off that single unsolicited pitch.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "kicker",
+      "text": "The complaint that got him in trouble is also why he's remembered today as spam's accidental inventor.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "sign",
+      "line": "Before there was a word for it, there was already a market for it.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 130
+    }
+  ],
+  "cta": "Subscribe for more."
+}
