@@ -1,0 +1,10 @@
+{
+  "kind": "text",
+  "theme": "basalt-marigold",
+  "lang": "zh",
+  "text": "当安拉决定创造万物时,他以此立誓,记录在他那部存放于他那里的经典中:\"我的慈悯超越我的震怒。\"",
+  "note": "Claude's own translation (hadith-api has no Chinese edition)",
+  "fontScale": 0.85,
+  "slideNumber": 4,
+  "slideTotal": 8
+}

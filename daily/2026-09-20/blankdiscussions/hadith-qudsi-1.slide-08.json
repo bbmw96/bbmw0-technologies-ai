@@ -1,0 +1,14 @@
+{
+  "kind": "citation",
+  "theme": "basalt-marigold",
+  "lines": [
+    "Hadith Qudsi 1, Forty Hadith Qudsi",
+    "Related by Muslim (also al-Bukhari, an-Nasa'i, Ibn Majah)",
+    "Arabic & English: hadith-api (translator not specified by source)",
+    "Chinese, Korean, Japanese, Malay: Claude's own translation",
+    "(hadith-api has no edition in these languages)"
+  ],
+  "handle": "@blankdiscussions",
+  "slideNumber": 8,
+  "slideTotal": 8
+}

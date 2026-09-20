@@ -28,7 +28,7 @@
 // same stack has the same coverage there.
 import React from "react";
 
-export type ThemeKey = "emerald-gold" | "midnight-silver" | "terracotta-cream" | "plum-rose" | "indigo-saffron" | "sapphire-pearl" | "garnet-amber" | "obsidian-jade" | "ivory-cobalt" | "charcoal-copper" | "amber-slate" | "rosewood-mint" | "azure-sand" | "crimson-pewter" | "olive-gold" | "violet-ash" | "teal-bronze" | "maroon-linen" | "cobalt-ember" | "forest-blush" | "onyx-turquoise" | "clay-frost";
+export type ThemeKey = "emerald-gold" | "midnight-silver" | "terracotta-cream" | "plum-rose" | "indigo-saffron" | "sapphire-pearl" | "garnet-amber" | "obsidian-jade" | "ivory-cobalt" | "charcoal-copper" | "amber-slate" | "rosewood-mint" | "azure-sand" | "crimson-pewter" | "olive-gold" | "violet-ash" | "teal-bronze" | "maroon-linen" | "cobalt-ember" | "forest-blush" | "onyx-turquoise" | "clay-frost" | "basalt-marigold" | "linen-periwinkle";
 
 export const THEMES: Record<ThemeKey, { bg: string; ink: string; accent: string; muted: string; label: string }> = {
   "emerald-gold": { bg: "#0B2B26", ink: "#F5F1E6", accent: "#C9A227", muted: "#8FB6AC", label: "Emerald & Gold" },
@@ -53,8 +53,10 @@ export const THEMES: Record<ThemeKey, { bg: string; ink: string; accent: string;
   "forest-blush": { bg: "#122419", ink: "#F1EDE6", accent: "#D98CA0", muted: "#42624F", label: "Forest & Blush" },
   "onyx-turquoise": { bg: "#141414", ink: "#EDEDED", accent: "#3FBFAE", muted: "#5C5C5C", label: "Onyx & Turquoise" },
   "clay-frost": { bg: "#E7E2DA", ink: "#2C2A26", accent: "#8CA3AE", muted: "#9C9184", label: "Clay & Frost" },
+  "basalt-marigold": { bg: "#1B1D1F", ink: "#F5F2EA", accent: "#E8B94A", muted: "#5A5D61", label: "Basalt & Marigold" },
+  "linen-periwinkle": { bg: "#F2EEE4", ink: "#2A2A3D", accent: "#7B87C9", muted: "#A39E8E", label: "Linen & Periwinkle" },
 };
-export const THEME_ORDER: ThemeKey[] = ["emerald-gold", "midnight-silver", "terracotta-cream", "plum-rose", "indigo-saffron", "sapphire-pearl", "garnet-amber", "obsidian-jade", "ivory-cobalt", "charcoal-copper", "amber-slate", "rosewood-mint", "azure-sand", "crimson-pewter", "olive-gold", "violet-ash", "teal-bronze", "maroon-linen", "cobalt-ember", "forest-blush", "onyx-turquoise", "clay-frost"];
+export const THEME_ORDER: ThemeKey[] = ["emerald-gold", "midnight-silver", "terracotta-cream", "plum-rose", "indigo-saffron", "sapphire-pearl", "garnet-amber", "obsidian-jade", "ivory-cobalt", "charcoal-copper", "amber-slate", "rosewood-mint", "azure-sand", "crimson-pewter", "olive-gold", "violet-ash", "teal-bronze", "maroon-linen", "cobalt-ember", "forest-blush", "onyx-turquoise", "clay-frost", "basalt-marigold", "linen-periwinkle"];
 
 const SANS = '"Helvetica Neue", Inter, Arial, system-ui, sans-serif';
 // Font stacks, most-specific/best-shaped first, safe generic last.

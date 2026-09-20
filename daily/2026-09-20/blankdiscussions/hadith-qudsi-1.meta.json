@@ -1,0 +1,43 @@
+{
+  "slug": "hadith-qudsi-1",
+  "date": "2026-09-20",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "\"My mercy prevails over My wrath.\"\n\nHadith Qudsi 1, from the Forty Hadith Qudsi collection - related by Muslim (also by al-Bukhari, an-Nasa'i and Ibn Majah). A reminder, in Allah's own words as reported by the Prophet ï·º, of how far His mercy outweighs His anger. Swipe through for the Arabic, then English, Mandarin, Korean, Japanese and Malay.\n\nSources on the final slide.\n\n#HadithQudsi #DivineMercy #IslamicReminder #Deen #MuslimReminder",
+  "tags": [
+    "HadithQudsi",
+    "DivineMercy",
+    "IslamicReminder",
+    "Deen",
+    "MuslimReminder",
+    "IslamicQuotes",
+    "ProphetMuhammad",
+    "AllahsMercy",
+    "SahihMuslim",
+    "FortyHadithQudsi"
+  ],
+  "theme": "basalt-marigold",
+  "slides": [
+    "hadith-qudsi-1.slide-01.json",
+    "hadith-qudsi-1.slide-02.json",
+    "hadith-qudsi-1.slide-03.json",
+    "hadith-qudsi-1.slide-04.json",
+    "hadith-qudsi-1.slide-05.json",
+    "hadith-qudsi-1.slide-06.json",
+    "hadith-qudsi-1.slide-07.json",
+    "hadith-qudsi-1.slide-08.json"
+  ],
+  "sourcing": {
+    "primary_text": "Hadith Qudsi 1, Forty Hadith Qudsi collection - related by Muslim (also by al-Bukhari, an-Nasa'i and Ibn Majah). A Hadith Qudsi is a saying in which the Prophet ï·º reports words spoken by Allah Himself, distinct from the Qur'an and from the Prophet's ï·º own ordinary sayings. Chosen for today's post because the render pipeline (see verification_note) currently has an unresolved font-coverage gap for Quranic Uthmani-script diacritics, so today's sourcing was scoped to Hadith (standard Arabic, which renders cleanly) rather than Qur'an.",
+    "arabic": "Edition ara-qudsi, cdn.jsdelivr.net/gh/fawazahmed0/hadith-api. Live-fetched and verified this session (2026-09-20) via GET /editions/ara-qudsi/1.json, HTTP 200. Slide shows the matn only (isnad chain 'an Abi Hurayrah... qala Rasulullah...' and the closing attribution tail 'rawahu Muslim...' omitted for slide length, following the same precedent as nawawi-13.meta.json/bukhari-1-1.meta.json); matn preserved verbatim, character-for-character, full attribution given on the citation slide instead.",
+    "english": "Edition eng-qudsi, cdn.jsdelivr.net/gh/fawazahmed0/hadith-api. Same live call, GET /editions/eng-qudsi/1.json, HTTP 200. Matn quoted verbatim (isnad and citation tail likewise omitted from the slide, per the same convention). Checked editions.json for a named translator: both ara-qudsi and eng-qudsi list 'author': 'Unknown' - so the on-slide and citation-slide credit says 'translator not specified by source' rather than asserting the commonly-published Ibrahim/Johnson-Davies Forty Hadith Qudsi translation, which could not be verified as the actual source of this specific API text.",
+    "chinese_korean_japanese_malay": "No Chinese, Korean, Japanese, or Malay edition exists for the qudsi collection in the fawazahmed0/hadith-api catalogue (re-confirmed this session via a fresh fetch of the full editions.json: qudsi lists only Arabic (two variants), English and French). These four renderings are therefore my own careful translation, produced directly from the verified Arabic and English matn above, and labelled on-slide and in the citation as a translation rather than attributed to a named scholar or edition.",
+    "verification_note": "Arabic and English matn are primary-sourced and citable, live-fetched this session (2026-09-20) via cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/{ara-qudsi,eng-qudsi}/1.json, both HTTP 200 - re-fetched fresh rather than trusted from any prior turn's memory, per the channel's hard sourcing requirement. The full editions.json catalogue was also re-fetched this session to verify the translator-attribution and missing-language-edition claims above rather than assuming them. Chinese, Korean, Japanese and Malay are transparently labelled translations.",
+    "compliance_check": "Manually checked against scripts/data/compliance-policy.json's halal keyword-blocklists (intoxicants, pork, gambling, riba, immodesty, profanity, superstition, origins_patterns, animate_imagery, context_review) since compliance-gate.mjs does not cover this channel's schema. No blocklisted terms present in any of the six language texts. No imagery generated at all (pure typography slides). Content is a foundational statement about Allah's mercy with no restricted-addressee or sensitive-scope nuance (unlike e.g. quran-33-33) - no context_review flags apply. Clean."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-20/hadith-qudsi-1-slide-NN.png --props=daily/2026-09-20/blankdiscussions/hadith-qudsi-1.slide-NN.json  (run once per slide, NN = 01 through 08; rendered via a parallel Linux-native scratch Remotion project this session because the real repo's node_modules contains Windows-native binaries that crash the Linux sandbox - see internal render notes)",
+  "status": "rendered_committed_push_blocked",
+  "hosting_blocker": "All 8 slide PNGs were rendered, visually spot-checked (clean - no tofu/glyph issues, no overflow), copied into daily/2026-09-20/blankdiscussions/renders/, and committed to the local git history this session (commit 6232847). `git push origin main` failed with 'could not read Username for https://github.com' - no git credentials, credential helper, SSH key, or token are available in this session's shell (checked environment variables, ~/.netrc, ~/.ssh, and git config, all empty). Desktop Commander MCP, the credential path the task instructions point to, is unavailable this session (connection timeout). Composio's GitHub write tool and the engineering:github plugin are also blocked/unauthenticated. Per the task's explicit instruction not to improvise a workaround, this post was left unpublished rather than routed through an unauthorized hosting method. raw.githubusercontent.com URLs for this post do NOT yet resolve. Next run (or a session with working git push credentials) should: git push the existing local commit 6232847, verify the raw URLs resolve, then proceed to Instagram publishing for this already-rendered, already-compliance-checked post."
+}
