@@ -1,0 +1,25 @@
+{
+  "slug": "attention-quadratic-cost",
+  "date": "2026-09-20",
+  "title": "It's called the context window, and it isn't really a storage limit.",
+  "description": "It's called the context window, and it isn't really a storage limit. It's a cost limit, baked into the maths of how the model reads.\n\nEight researchers at Google Brain and Google Research proposed dropping the older step-by-step reading of text entirely, letting every word compare itself directly against every other word in the sentence at once.\n\nIt's also what makes it expensive. Double the text, and the comparisons don't double. They roughly quadruple, and computer scientists have proven this cost can't be dodged, not just observed that it happens.\n\nThe fixed context window of every model size in 2020's founding GPT-3 paper: an entire model family sharing the same hard ceiling on how much it could read at once.\n\nPushing that ceiling higher takes real engineering, not just a bigger number typed into a config file. The comparisons don't get cheaper. Someone still has to pay for all of them.\n\nSources:\n- https://arxiv.org/abs/1706.03762: read (abstract, metadata and submission history). Establishes 'Attention Is All You Need' as submitted 12 June 2017 by eight authors at Google Brain and Google Research (Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin), proposing the Transformer: a network built solely on attention mechanisms, dropping the recurrence and convolutions of earlier models, explicitly for being 'more parallelizable' since every token can be compared against every other token directly rather than read one step at a time.\n- https://arxiv.org/abs/2209.04881: read (abstract). A separate paper proving lower bounds on self-attention's computational complexity, establishing that the time complexity of self-attention is 'necessarily quadratic in the input length' unless the Strong Exponential Time Hypothesis is false; that is, this is a proven cost, not merely an observed one.\n- https://arxiv.org/abs/2005.14165: read (abstract and specification detail). 'Language Models are Few-Shot Learners' (GPT-3), Brown et al., OpenAI, submitted 28 May 2020. Establishes that every GPT-3 model size described in the paper uses a fixed context window of n_ctx = 2048 tokens.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-20-attention-quadratic-cost.mp4",
+  "propsFile": "daily/2026-09-20/attention-quadratic-cost.props.json",
+  "durationInFrames": 1206,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}

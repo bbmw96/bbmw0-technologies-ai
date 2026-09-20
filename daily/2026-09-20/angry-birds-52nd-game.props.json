@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (angry-birds-52nd-game)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#12100D",
+    "ink": "#F5EFE6",
+    "accent": "#E0472C",
+    "muted": "#8A8178"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "kicker",
+      "text": "Angry Birds was not Rovio's first game. It was not their tenth, or their thirtieth.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "credit",
+      "year": "2003",
+      "name": "Niklas Hed, Jarno Vakevainen and Kim Dikert",
+      "role": "Three university students who started a company called Relude after winning a Finnish demo competition. It was renamed Rovio two years later.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "51 games and near bankruptcy later",
+      "text": "Rovio had made 51 games and was close to bankruptcy when it built its 52nd, Angry Birds, in eight months.",
+      "note": "That count comes from Rovio's own company history page, not a rounded up legend.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The pigs have two origin stories",
+      "text": "It is commonly believed the pig enemies were inspired by the 2009 swine flu pandemic, which was in the news while the game was made.",
+      "note": "Designer Jaakko Iisalo has disputed this, saying the pig design traces back to drawings he made at around age 10, long before the outbreak.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "One claim is easier to check than the other",
+      "text": "The 51 games and eight month build time both come from Rovio's own company history page.",
+      "note": "The pig origin is less settled. It survives mainly as a disputed claim, so it is presented here as contested rather than confirmed.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "Fifty one failures and eight months stand between a near bankrupt studio and the birds.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 136
+    }
+  ],
+  "cta": "Follow for more."
+}

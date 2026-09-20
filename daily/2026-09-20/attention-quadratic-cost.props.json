@@ -1,0 +1,56 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (attention-quadratic-cost)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#100B1A",
+    "ink": "#F3EEFB",
+    "accent": "#A855F7",
+    "muted": "#7A6B8A"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Every AI model has a hard limit on how much text it can hold at once.",
+      "text": "It's called the context window, and it isn't really a storage limit.",
+      "note": "It's a cost limit, baked into the maths of how the model reads.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2017",
+      "name": "Attention Is All You Need",
+      "role": "Eight researchers at Google Brain and Google Research proposed dropping the older step-by-step reading of text entirely, letting every word compare itself directly against every other word in the sentence at once.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "That direct comparison is what makes it powerful.",
+      "text": "It's also what makes it expensive. Double the text, and the comparisons don't double.",
+      "note": "They roughly quadruple, and computer scientists have proven this cost can't be dodged, not just observed that it happens.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "2048",
+      "unit": "tokens",
+      "context": "The fixed context window of every model size in 2020's founding GPT-3 paper: an entire model family sharing the same hard ceiling on how much it could read at once.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "Every model since has been fighting the same quadratic bill.",
+      "text": "Pushing that ceiling higher takes real engineering, not just a bigger number typed into a config file.",
+      "note": "The comparisons don't get cheaper. Someone still has to pay for all of them.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "The cost of a model reading everything at once, all together.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 112
+    }
+  ],
+  "cta": "Follow for more."
+}

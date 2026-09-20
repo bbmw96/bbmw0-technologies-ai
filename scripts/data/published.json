@@ -220,7 +220,9 @@
     "reel:ntsc-not-actually-60",
     "reel:oxford-aztec-empire",
     "reel:water-three-states-myth",
-    "reel:git-bitkeeper-breakup"
+    "reel:git-bitkeeper-breakup",
+    "reel:attention-quadratic-cost",
+    "reel:angry-birds-52nd-game"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -3797,6 +3799,45 @@
       "youtubeUrl": "https://youtu.be/DEsNobEsDmA",
       "uploadedAt": "2026-09-20T13:21:31.170Z",
       "privacy": "public"
+    },
+    {
+      "id": "git-bitkeeper-breakup",
+      "date": "2026-09-20",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Torvalds did not walk away from BitKeeper. BitKeeper's maker banned him.",
+      "description": "Torvalds did not walk away from BitKeeper. BitKeeper's maker banned him.\n\nThe Linux kernel began using BitKeeper, a proprietary version control tool, over objections from Richard Stallman and a refusal from veteran developer Alan Cox. BitKeeper's free licence for open source developers forbade them from working on any rival tool, including CVS or Subversion, for as long as they used it.\n\nAn OSDL developer working on an unrelated project. His attempt to view BitKeeper's revision history without paying for a licence gave BitMover its reason to end free use.\n\nBitMover did not just shut Tridgell out. It refused to give or sell a licence to anyone employed by OSDL, including Linus Torvalds, who had no part in Tridgell's work. Free use officially ended on 1 July 2005. The Git project began that same year, built to replace BitKeeper for the kernel.\n\nAn employee at a company paying for a commercial BitKeeper licence. In October 2005 he agreed to stop contributing to the rival tool Mercurial after BitMover's founder complained.\n\nSources:\n- https://en.wikipedia.org/wiki/BitKeeper - read in full: confirms the Linux kernel adopted BitKeeper in 2002 over objections from Richard Stallman and a refusal to use it from veteran developer Alan Cox; that the free licence for open source developers forbade them from working on any rival tool, including CVS, GNU arch, Subversion or ClearCase, for as long as they used it; that BitMover revoked the free version in April 2005, blaming the efforts of Andrew Tridgell, an OSDL developer working on an unrelated project, to view revision metadata the free licence withheld; that BitMover then refused to give or sell a licence to anyone employed by OSDL, including Linus Torvalds and Andrew Morton; that free use officially ended on 1 July 2005; and that in October 2005 BitMover's founder Larry McVoy pressured a paying commercial customer's employee, Bryan O'Sullivan, into agreeing to stop contributing to the rival tool Mercurial.\n- https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git - Git's own official history page, read in full: confirms the Linux kernel used BitKeeper from 2002, that its free of charge status was revoked in 2005, and that this prompted Torvalds and the kernel community to build their own replacement that same year.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "attention-quadratic-cost",
+      "date": "2026-09-20",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It's called the context window, and it isn't really a storage limit.",
+      "description": "It's called the context window, and it isn't really a storage limit. It's a cost limit, baked into the maths of how the model reads.\n\nEight researchers at Google Brain and Google Research proposed dropping the older step-by-step reading of text entirely, letting every word compare itself directly against every other word in the sentence at once.\n\nIt's also what makes it expensive. Double the text, and the comparisons don't double. They roughly quadruple, and computer scientists have proven this cost can't be dodged, not just observed that it happens.\n\nThe fixed context window of every model size in 2020's founding GPT-3 paper: an entire model family sharing the same hard ceiling on how much it could read at once.\n\nPushing that ceiling higher takes real engineering, not just a bigger number typed into a config file. The comparisons don't get cheaper. Someone still has to pay for all of them.\n\nSources:\n- https://arxiv.org/abs/1706.03762: read (abstract, metadata and submission history). Establishes 'Attention Is All You Need' as submitted 12 June 2017 by eight authors at Google Brain and Google Research (Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin), proposing the Transformer: a network built solely on attention mechanisms, dropping the recurrence and convolutions of earlier models, explicitly for being 'more parallelizable' since every token can be compared against every other token directly rather than read one step at a time.\n- https://arxiv.org/abs/2209.04881: read (abstract). A separate paper proving lower bounds on self-attention's computational complexity, establishing that the time complexity of self-attention is 'necessarily quadratic in the input length' unless the Strong Exponential Time Hypothesis is false; that is, this is a proven cost, not merely an observed one.\n- https://arxiv.org/abs/2005.14165: read (abstract and specification detail). 'Language Models are Few-Shot Learners' (GPT-3), Brown et al., OpenAI, submitted 28 May 2020. Establishes that every GPT-3 model size described in the paper uses a fixed context window of n_ctx = 2048 tokens.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "angry-birds-52nd-game",
+      "date": "2026-09-20",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Angry Birds was not Rovio's first game. It was not their tenth, or their thirtieth.",
+      "description": "Angry Birds was not Rovio's first game. It was not their tenth, or their thirtieth.\n\nThree university students who started a company called Relude after winning a Finnish demo competition. It was renamed Rovio two years later.\n\nRovio had made 51 games and was close to bankruptcy when it built its 52nd, Angry Birds, in eight months. That count comes from Rovio's own company history page, not a rounded up legend.\n\nIt is commonly believed the pig enemies were inspired by the 2009 swine flu pandemic, which was in the news while the game was made. Designer Jaakko Iisalo has disputed this, saying the pig design traces back to drawings he made at around age 10, long before the outbreak.\n\nThe 51 games and eight month build time both come from Rovio's own company history page. The pig origin is less settled. It survives mainly as a disputed claim, so it is presented here as contested rather than confirmed.\n\nSources:\n- https://www.rovio.com/rovio-history/ - Rovio's own company history page, read in full: confirms the company started in 2003 as Relude, founded by Niklas Hed, Jarno Vakevainen and Kim Dikert after winning a Finnish demo competition, was renamed Rovio in 2005, and had made 51 games and was near bankruptcy before building its 52nd game, Angry Birds, in eight months, released in 2009.\n- https://en.wikipedia.org/wiki/Angry_Birds_(video_game) - read in full: confirms it is commonly believed the pig enemies were inspired by the 2009 swine flu pandemic being in the news during development, but that this has since been disputed by designer Jaakko Iisalo, who says the pigs were based on drawings he had made at around age 10.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }
