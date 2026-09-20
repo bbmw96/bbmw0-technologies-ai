@@ -1,0 +1,25 @@
+{
+  "slug": "git-bitkeeper-breakup",
+  "date": "2026-09-20",
+  "title": "Torvalds did not walk away from BitKeeper. BitKeeper's maker banned him.",
+  "description": "Torvalds did not walk away from BitKeeper. BitKeeper's maker banned him.\n\nThe Linux kernel began using BitKeeper, a proprietary version control tool, over objections from Richard Stallman and a refusal from veteran developer Alan Cox. BitKeeper's free licence for open source developers forbade them from working on any rival tool, including CVS or Subversion, for as long as they used it.\n\nAn OSDL developer working on an unrelated project. His attempt to view BitKeeper's revision history without paying for a licence gave BitMover its reason to end free use.\n\nBitMover did not just shut Tridgell out. It refused to give or sell a licence to anyone employed by OSDL, including Linus Torvalds, who had no part in Tridgell's work. Free use officially ended on 1 July 2005. The Git project began that same year, built to replace BitKeeper for the kernel.\n\nAn employee at a company paying for a commercial BitKeeper licence. In October 2005 he agreed to stop contributing to the rival tool Mercurial after BitMover's founder complained.\n\nSources:\n- https://en.wikipedia.org/wiki/BitKeeper - read in full: confirms the Linux kernel adopted BitKeeper in 2002 over objections from Richard Stallman and a refusal to use it from veteran developer Alan Cox; that the free licence for open source developers forbade them from working on any rival tool, including CVS, GNU arch, Subversion or ClearCase, for as long as they used it; that BitMover revoked the free version in April 2005, blaming the efforts of Andrew Tridgell, an OSDL developer working on an unrelated project, to view revision metadata the free licence withheld; that BitMover then refused to give or sell a licence to anyone employed by OSDL, including Linus Torvalds and Andrew Morton; that free use officially ended on 1 July 2005; and that in October 2005 BitMover's founder Larry McVoy pressured a paying commercial customer's employee, Bryan O'Sullivan, into agreeing to stop contributing to the rival tool Mercurial.\n- https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git - Git's own official history page, read in full: confirms the Linux kernel used BitKeeper from 2002, that its free of charge status was revoked in 2005, and that this prompted Torvalds and the kernel community to build their own replacement that same year.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-20-git-bitkeeper-breakup.mp4",
+  "propsFile": "daily/2026-09-20/git-bitkeeper-breakup.props.json",
+  "durationInFrames": 1104,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

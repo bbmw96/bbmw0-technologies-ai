@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (git-bitkeeper-breakup)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0D1117",
+    "ink": "#E6EDF3",
+    "accent": "#F0883E",
+    "muted": "#7D8590"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "kicker",
+      "text": "Torvalds did not walk away from BitKeeper. BitKeeper's maker banned him.",
+      "durationInFrames": 88
+    },
+    {
+      "kind": "statement",
+      "lead": "2002",
+      "text": "The Linux kernel began using BitKeeper, a proprietary version control tool, over objections from Richard Stallman and a refusal from veteran developer Alan Cox.",
+      "note": "BitKeeper's free licence for open source developers forbade them from working on any rival tool, including CVS or Subversion, for as long as they used it.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2005",
+      "name": "Andrew Tridgell",
+      "role": "An OSDL developer working on an unrelated project. His attempt to view BitKeeper's revision history without paying for a licence gave BitMover its reason to end free use.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "lead": "April 2005",
+      "text": "BitMover did not just shut Tridgell out. It refused to give or sell a licence to anyone employed by OSDL, including Linus Torvalds, who had no part in Tridgell's work.",
+      "note": "Free use officially ended on 1 July 2005. The Git project began that same year, built to replace BitKeeper for the kernel.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2005",
+      "name": "Bryan O'Sullivan",
+      "role": "An employee at a company paying for a commercial BitKeeper licence. In October 2005 he agreed to stop contributing to the rival tool Mercurial after BitMover's founder complained.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "sign",
+      "line": "A dispute mostly about one outside developer ended up creating the tool that now runs almost all of software.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 160
+    }
+  ],
+  "cta": "Subscribe for more."
+}

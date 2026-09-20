@@ -1,0 +1,25 @@
+{
+  "slug": "water-three-states-myth",
+  "date": "2026-09-20",
+  "title": "Water is the only substance on Earth that naturally exists as a solid, liquid, and gas.",
+  "description": "Water is the only substance on Earth that naturally exists as a solid, liquid, and gas. It's the model answer on the quiz. It is not true.\n\nAt its fumaroles, sulfur dioxide and hydrogen sulfide gas react and cool into solid yellow crystals. USGS calls it native sulfur, a solid forming right beside the very gases that made it.\n\nBelow 115°C, the sulfur stays a solid crystal. Above it, the sulfur melts into vivid orange liquid. Near 200°C the molten sulfur turns red. Past 450°C, with air present, it burns back into gas.\n\nThe exact temperature, at a precise 611.657 pascals of pressure, where water itself sits as ice, liquid, and vapour all at once. Real, and comically narrow.\n\nWater isn't unique for doing this. It's just the only one most people ever watch do it.\n\nSources:\n- https://en.wikipedia.org/wiki/Triple_point: read in full. Establishes water's triple point (the exact temperature and pressure where ice, liquid water, and vapour coexist) as 273.16 K (0.01°C) at a vapour pressure of 611.657 pascals; this value defined the kelvin until the 2019 SI redefinition and is now an experimentally measured constant instead.\n- https://www.usgs.gov/observatories/hvo/news/volcano-watch-many-forms-sulfur-are-found-kilauea-volcano: read in full. USGS Hawaiian Volcano Observatory article establishing that at Kīlauea's fumaroles (e.g. Sulphur Banks), sulfur dioxide and hydrogen sulfide gas react and cool into native sulfur, a yellow crystalline solid stable below about 115°C; above that temperature it melts into vivid orange liquid; near 200°C molten sulfur turns red; near 450°C with atmospheric oxygen present it burns back into sulfur dioxide gas, all three states occurring naturally and driven by volcanic heat alone.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "science",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-20-water-three-states-myth.mp4",
+  "propsFile": "daily/2026-09-20/water-three-states-myth.props.json",
+  "durationInFrames": 1070,
+  "audioUrl": "",
+  "niche": "science",
+  "composition": "Reel"
+}

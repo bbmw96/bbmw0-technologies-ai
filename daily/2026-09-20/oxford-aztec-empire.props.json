@@ -1,0 +1,56 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (oxford-aztec-empire)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#10120E",
+    "ink": "#F2EEDD",
+    "accent": "#B8562F",
+    "muted": "#8A7A63"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "A trivia question that sounds made up.",
+      "text": "Is Oxford University older than the Aztec Empire?",
+      "note": "Not close. Oxford had scholars in residence for over three centuries before the Aztec Empire existed at all.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1096",
+      "name": "University of Oxford",
+      "role": "The University's own recorded history: there is no clear founding date, but teaching existed at Oxford in some form by this year.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "Meanwhile, the Mexica were still travelling.",
+      "text": "They didn't reach the Valley of Mexico and found Tenochtitlan, their future capital, until around 1325.",
+      "note": "That's already 229 years after Oxford had scholars in residence.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "The Aztec Empire itself came later still.",
+      "text": "In 1428, after a succession crisis tore apart the region's dominant city, Tenochtitlan's ruler Itzcoatl forged a coup with two smaller cities.",
+      "note": "That alliance of Tenochtitlan, Texcoco and Tlacopan, known as the Triple Alliance, is what historians call the Aztec Empire.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "332",
+      "unit": "years",
+      "context": "The gap between Oxford's earliest recorded teaching and the empire most people assume is the older of the two.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "sign",
+      "line": "Oxford was already old when the Aztec Empire was born.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 106
+    }
+  ],
+  "cta": "Subscribe for more."
+}

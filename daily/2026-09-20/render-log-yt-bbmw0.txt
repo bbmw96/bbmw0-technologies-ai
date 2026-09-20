@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-09-20 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- git-bitkeeper-breakup ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-20-git-bitkeeper-breakup.mp4
+  uploaded public: https://youtu.be/DEsNobEsDmA
+
+--- oxford-aztec-empire ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-20-oxford-aztec-empire.mp4
+  uploaded public: https://youtu.be/fi0W3MWq1ec
+
+--- water-three-states-myth ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-20-water-three-states-myth.mp4
+  uploaded public: https://youtu.be/vdSVmwmy3J8
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

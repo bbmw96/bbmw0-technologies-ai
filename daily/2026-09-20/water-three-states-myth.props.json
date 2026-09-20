@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (water-three-states-myth)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#081014",
+    "ink": "#EAF6FA",
+    "accent": "#29B6D8",
+    "muted": "#6F8B93"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The one science fact everyone repeats correctly.",
+      "text": "Water is the only substance on Earth that naturally exists as a solid, liquid, and gas.",
+      "note": "It's the model answer on the quiz. It is not true.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Kīlauea volcano, Hawai'i.",
+      "text": "At its fumaroles, sulfur dioxide and hydrogen sulfide gas react and cool into solid yellow crystals.",
+      "note": "USGS calls it native sulfur, a solid forming right beside the very gases that made it.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Heat the same vent a little.",
+      "text": "Below 115°C, the sulfur stays a solid crystal. Above it, the sulfur melts into vivid orange liquid.",
+      "note": "Near 200°C the molten sulfur turns red. Past 450°C, with air present, it burns back into gas.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "0.01",
+      "unit": "°C",
+      "context": "The exact temperature, at a precise 611.657 pascals of pressure, where water itself sits as ice, liquid, and vapour all at once. Real, and comically narrow.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "kicker",
+      "text": "Water isn't unique for doing this. It's just the only one most people ever watch do it.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "sign",
+      "line": "One vent. One element. All three states.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
