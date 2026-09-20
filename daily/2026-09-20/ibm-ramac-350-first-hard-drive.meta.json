@@ -1,0 +1,25 @@
+{
+  "slug": "ibm-ramac-350-first-hard-drive",
+  "date": "2026-09-20",
+  "title": "That number depends entirely on which bits you count.",
+  "description": "That number depends entirely on which bits you count. The Computer History Museum's own figure for it is 3.75 megabytes, not 5.\n\nIt stored 5 million characters, but each one took 8 bits on the disk, only 6 of those bits were actual data, the rest was parity and spacing. Count all 8 bits per character and you get the famous 5MB. Count only the informational 6, and it's 3.75MB.\n\nReynold Johnson's team at IBM's San Jose lab built it: fifty 24-inch magnetic disks spinning on a single spindle, the first commercial hard drive.\n\nIBM only leased the whole 305 RAMAC system, disk drive, processor, printer, card punch, all together. The unit weighed over a ton, moved by forklift, occasionally flown in on cargo planes.\n\nThe monthly lease for the whole system in 1956, about $36,700 in today's money, and the drive still wasn't yours to keep.\n\nIBM's own engineers said the drive could have held more. Marketing turned it down, they didn't yet know how to sell anyone on wanting more storage than that.\n\nSources:\n- https://www.computerhistory.org/storageengine/first-commercial-hard-disk-drive-shipped/: read (primary\n- https://en.wikipedia.org/wiki/IBM_305_RAMAC: read. Establishes the system was publicly announced 14 September 1956 (citing a contemporary New York Times article); that the 350 disk unit recorded each of its 5 million characters as 6 data bits plus 1 parity bit plus 1 space bit\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-20-ibm-ramac-350-first-hard-drive.mp4",
+  "propsFile": "daily/2026-09-20/ibm-ramac-350-first-hard-drive.props.json",
+  "durationInFrames": 1402,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

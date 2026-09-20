@@ -1,0 +1,25 @@
+{
+  "slug": "law-of-triviality-coffee-committee",
+  "date": "2026-09-20",
+  "title": "A committee approves a nuclear reactor in minutes, then burns 45 minutes arguing over a bike shed.",
+  "description": "A committee approves a nuclear reactor in minutes, then burns 45 minutes arguing over a bike shed. There was a third item on that same 1957 agenda, and almost nobody quotes it.\n\nC. Northcote Parkinson invented a fictional finance committee to make the point, not a real boardroom, a chapter called 'High Finance, or the Point of Vanishing Interest.'\n\nA GBP 10 million reactor contract: passed in two and a half minutes. A GBP 350 bike shed: 45 minutes of debate. Everyone could picture a bike shed, so everyone had an opinion on the roofing material.\n\nHow long that same committee then argued over the GBP 21 annual coffee budget, longer than the bike shed, and Parkinson has them still undecided when the meeting ends.\n\nThe word 'bikeshedding' itself is his, not Parkinson's, a FreeBSD mailing-list email sent 2 October, after weeks of argument over a genuinely simple patch to add fractional seconds to the sleep command.\n\nSources:\n- https://en.wikipedia.org/wiki/Law_of_triviality: read. Establishes C. Northcote Parkinson's 1957 book Parkinson's Law, and Other Studies in Administration (chapter 3, 'High Finance, or the Point of Vanishing Interest'), and quotes the book's fictional finance committee's three-item agenda directly: a GBP 10 million reactor contract passed in two and a half minutes, a GBP 350 bicycle shed debated for 45 minutes ('with the possible result of saving some GBP 50'), and a GBP 21/year refreshments budget for the Joint Welfare Committee that 'will occupy the members for an hour and a quarter' and is left undecided, tabled to the next meeting. Also establishes that the term 'bikeshedding' was coined separately, in 1999, by Poul-Henning Kamp.\n- http://phk.freebsd.dk/sagas/bikeshed/: read in full (primary source\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "productivity",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-20-law-of-triviality-coffee-committee.mp4",
+  "propsFile": "daily/2026-09-20/law-of-triviality-coffee-committee.props.json",
+  "durationInFrames": 1242,
+  "audioUrl": "",
+  "niche": "productivity",
+  "composition": "Reel"
+}

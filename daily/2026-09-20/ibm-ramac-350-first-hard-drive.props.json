@@ -1,0 +1,63 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (ibm-ramac-350-first-hard-drive)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0D1117",
+    "ink": "#E6EDF3",
+    "accent": "#57C7FF",
+    "muted": "#6B7280"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "IBM's 1956 RAMAC 350 gets filed away as 'the first hard drive, five whole megabytes.'",
+      "text": "That number depends entirely on which bits you count.",
+      "note": "The Computer History Museum's own figure for it is 3.75 megabytes, not 5.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Here's the gap.",
+      "text": "It stored 5 million characters, but each one took 8 bits on the disk — only 6 of those bits were actual data, the rest was parity and spacing.",
+      "note": "Count all 8 bits per character and you get the famous 5MB. Count only the informational 6, and it's 3.75MB.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1956",
+      "name": "IBM 350 RAMAC",
+      "role": "Reynold Johnson's team at IBM's San Jose lab built it: fifty 24-inch magnetic disks spinning on a single spindle, the first commercial hard drive.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "statement",
+      "lead": "Nobody bought one outright.",
+      "text": "IBM only leased the whole 305 RAMAC system — disk drive, processor, printer, card punch, all together.",
+      "note": "The unit weighed over a ton, moved by forklift, occasionally flown in on cargo planes.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "3,200",
+      "unit": "$/mo",
+      "context": "The monthly lease for the whole system in 1956 — about $36,700 in today's money, and the drive still wasn't yours to keep.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "statement",
+      "lead": "The capacity ceiling wasn't a technical one either.",
+      "text": "IBM's own engineers said the drive could have held more.",
+      "note": "Marketing turned it down — they didn't yet know how to sell anyone on wanting more storage than that.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "A ton of steel, rented by the month, for less data than gets argued about in the comments today.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 160
+    }
+  ],
+  "cta": "Subscribe for more."
+}

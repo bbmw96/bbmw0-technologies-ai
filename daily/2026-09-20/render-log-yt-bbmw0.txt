@@ -1,19 +1,41 @@
-Rendering 3 Shorts for 2026-09-20 (concurrency=3, GL=default)
-Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+Rendering 8 Shorts for 2026-09-20 (concurrency=24, GL=--gl=angle)
+Compliance: 6 cleared, 2 blocked (policy v1.0.0).
+Blocked by compliance: attention-quadratic-cost, git-bitkeeper-breakup
+
+--- angry-birds-52nd-game ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-20-angry-birds-52nd-game.mp4
+  ig credentials: COMPOSIO_API_KEY=EMPTY or not set, IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=EMPTY or not set
+  FAILED: no usable Instagram credential. Both COMPOSIO_API_KEY and IG_ACCESS_TOKEN arrived empty. If the secret is listed in the repo but arrives empty here, it was stored with a blank value; re-set it with:
+    gh secret set COMPOSIO_API_KEY --repo bbmw96/bbmw0-technologies-ai
+
+--- arkhipov-b59-nuclear-veto-1962 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-20-arkhipov-b59-nuclear-veto-1962.mp4
+  uploaded public: https://youtu.be/l7GTOHbqMjc
+
+--- attention-quadratic-cost ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-20-attention-quadratic-cost.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-20/compliance-verdict.json.
 
 --- git-bitkeeper-breakup ---
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
+
+--- ibm-ramac-350-first-hard-drive ---
   composition=Reel audio= privacy=public
-  rendered: out/daily-2026-09-20-git-bitkeeper-breakup.mp4
-  uploaded public: https://youtu.be/DEsNobEsDmA
+  rendered: out/daily-2026-09-20-ibm-ramac-350-first-hard-drive.mp4
+  uploaded public: https://youtu.be/nYfU6pRS_nc
+
+--- law-of-triviality-coffee-committee ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-20-law-of-triviality-coffee-committee.mp4
+  uploaded public: https://youtu.be/7ohe1oKlAE4
 
 --- oxford-aztec-empire ---
-  composition=Reel audio= privacy=public
-  rendered: out/daily-2026-09-20-oxford-aztec-empire.mp4
-  uploaded public: https://youtu.be/fi0W3MWq1ec
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
 
 --- water-three-states-myth ---
-  composition=Reel audio= privacy=public
-  rendered: out/daily-2026-09-20-water-three-states-myth.mp4
-  uploaded public: https://youtu.be/vdSVmwmy3J8
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
 
-=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===
+=== Done. 5 rendered, 3 uploaded, 3 skipped, 1 blocked by compliance, 1 failed. ===

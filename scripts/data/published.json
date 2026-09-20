@@ -222,7 +222,10 @@
     "reel:water-three-states-myth",
     "reel:git-bitkeeper-breakup",
     "reel:attention-quadratic-cost",
-    "reel:angry-birds-52nd-game"
+    "reel:angry-birds-52nd-game",
+    "reel:law-of-triviality-coffee-committee",
+    "reel:ibm-ramac-350-first-hard-drive",
+    "reel:arkhipov-b59-nuclear-veto-1962"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -3838,6 +3841,57 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "law-of-triviality-coffee-committee",
+      "date": "2026-09-20",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "A committee approves a nuclear reactor in minutes, then burns 45 minutes arguing over a bike shed.",
+      "description": "A committee approves a nuclear reactor in minutes, then burns 45 minutes arguing over a bike shed. There was a third item on that same 1957 agenda, and almost nobody quotes it.\n\nC. Northcote Parkinson invented a fictional finance committee to make the point, not a real boardroom, a chapter called 'High Finance, or the Point of Vanishing Interest.'\n\nA GBP 10 million reactor contract: passed in two and a half minutes. A GBP 350 bike shed: 45 minutes of debate. Everyone could picture a bike shed, so everyone had an opinion on the roofing material.\n\nHow long that same committee then argued over the GBP 21 annual coffee budget, longer than the bike shed, and Parkinson has them still undecided when the meeting ends.\n\nThe word 'bikeshedding' itself is his, not Parkinson's, a FreeBSD mailing-list email sent 2 October, after weeks of argument over a genuinely simple patch to add fractional seconds to the sleep command.\n\nSources:\n- https://en.wikipedia.org/wiki/Law_of_triviality: read. Establishes C. Northcote Parkinson's 1957 book Parkinson's Law, and Other Studies in Administration (chapter 3, 'High Finance, or the Point of Vanishing Interest'), and quotes the book's fictional finance committee's three-item agenda directly: a GBP 10 million reactor contract passed in two and a half minutes, a GBP 350 bicycle shed debated for 45 minutes ('with the possible result of saving some GBP 50'), and a GBP 21/year refreshments budget for the Joint Welfare Committee that 'will occupy the members for an hour and a quarter' and is left undecided, tabled to the next meeting. Also establishes that the term 'bikeshedding' was coined separately, in 1999, by Poul-Henning Kamp.\n- http://phk.freebsd.dk/sagas/bikeshed/: read in full (primary source\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "7ohe1oKlAE4",
+      "youtubeUrl": "https://youtu.be/7ohe1oKlAE4",
+      "uploadedAt": "2026-09-20T19:41:52.112Z",
+      "privacy": "public"
+    },
+    {
+      "id": "ibm-ramac-350-first-hard-drive",
+      "date": "2026-09-20",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "That number depends entirely on which bits you count.",
+      "description": "That number depends entirely on which bits you count. The Computer History Museum's own figure for it is 3.75 megabytes, not 5.\n\nIt stored 5 million characters, but each one took 8 bits on the disk, only 6 of those bits were actual data, the rest was parity and spacing. Count all 8 bits per character and you get the famous 5MB. Count only the informational 6, and it's 3.75MB.\n\nReynold Johnson's team at IBM's San Jose lab built it: fifty 24-inch magnetic disks spinning on a single spindle, the first commercial hard drive.\n\nIBM only leased the whole 305 RAMAC system, disk drive, processor, printer, card punch, all together. The unit weighed over a ton, moved by forklift, occasionally flown in on cargo planes.\n\nThe monthly lease for the whole system in 1956, about $36,700 in today's money, and the drive still wasn't yours to keep.\n\nIBM's own engineers said the drive could have held more. Marketing turned it down, they didn't yet know how to sell anyone on wanting more storage than that.\n\nSources:\n- https://www.computerhistory.org/storageengine/first-commercial-hard-disk-drive-shipped/: read (primary\n- https://en.wikipedia.org/wiki/IBM_305_RAMAC: read. Establishes the system was publicly announced 14 September 1956 (citing a contemporary New York Times article); that the 350 disk unit recorded each of its 5 million characters as 6 data bits plus 1 parity bit plus 1 space bit\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "nYfU6pRS_nc",
+      "youtubeUrl": "https://youtu.be/nYfU6pRS_nc",
+      "uploadedAt": "2026-09-20T19:40:37.485Z",
+      "privacy": "public"
+    },
+    {
+      "id": "arkhipov-b59-nuclear-veto-1962",
+      "date": "2026-09-20",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The stranger, truer version: that veto only existed on his boat because of where he happened to be s",
+      "description": "The stranger, truer version: that veto only existed on his boat because of where he happened to be standing. The other submarines in the same group didn't need his agreement at all.\n\nCornered by US Navy destroyers off Cuba, out of radio contact with Moscow for days, carrying a nuclear torpedo with roughly the power of the Hiroshima bomb.\n\nThey dropped practice depth charges as a signal, not to sink it. Nobody aboard B-59 knew that. They didn't know if the war outside had already started.\n\nTwo said yes. The third was Vasily Arkhipov, the flotilla's chief of staff, who happened to be riding that particular submarine. On the other three boats in the group, only two signatures were needed, his rank was the only reason B-59 required three.\n\nHow long the story stayed buried, first acknowledged at a 1997 Moscow conference, fully confirmed at a 2002 Havana conference where both sides compared notes for the first time.\n\nSources:\n- https://en.wikipedia.org/wiki/Soviet_submarine_B-59: read. Establishes B-59 (a Foxtrot-class submarine, one of four in a detachment with B-4, B-36 and B-130) was cornered by US Navy ships including USS Cony and USS Beale, backed by the carrier USS Randolph, off Cuba on 27 October 1962; that it carried one nuclear-tipped torpedo with roughly the yield of the Hiroshima bomb (10kt) and had been out of radio contact with Moscow for days; that US destroyers dropped signalling practice depth charges intended to force it to surface, not to sink it, which the exhausted crew inside did not know; that launching the torpedo needed unanimous agreement from B-59's three most senior officers (Savitsky, political officer Maslennikov, and detachment Chief of Staff Vasily Arkhipov), a requirement unique to B-59 among the four boats because Arkhipov's rank as detachment commander meant his consent was also needed, where the other three subs needed only two signatures; and that Arkhipov alone refused and persuaded Savitsky to surface instead. Also flags that naval intelligence officer Vadim Orlov's account of Savitsky's exact spoken words has itself been 'described as controversial,' which this topic deliberately does not quote.\n- https://nsarchive.gwu.edu/briefing-book/russia-programs/2022-10-03/soviet-submarines-nuclear-torpedoes-cuban-missile-crisis: read (primary\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "l7GTOHbqMjc",
+      "youtubeUrl": "https://youtu.be/l7GTOHbqMjc",
+      "uploadedAt": "2026-09-20T19:38:06.446Z",
+      "privacy": "public"
     }
   ]
 }

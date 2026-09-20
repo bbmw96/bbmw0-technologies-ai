@@ -1,0 +1,56 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (law-of-triviality-coffee-committee)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0C10",
+    "ink": "#F2EDE2",
+    "accent": "#C9A24C",
+    "muted": "#6B6558"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The bikeshedding story usually stops after two items on the agenda.",
+      "text": "A committee approves a nuclear reactor in minutes, then burns 45 minutes arguing over a bike shed.",
+      "note": "There was a third item on that same 1957 agenda, and almost nobody quotes it.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1957",
+      "name": "Parkinson's Law, and Other Studies in Administration",
+      "role": "C. Northcote Parkinson invented a fictional finance committee to make the point — not a real boardroom, a chapter called 'High Finance, or the Point of Vanishing Interest.'",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The famous half of the story checks out.",
+      "text": "A GBP 10 million reactor contract: passed in two and a half minutes. A GBP 350 bike shed: 45 minutes of debate.",
+      "note": "Everyone could picture a bike shed, so everyone had an opinion on the roofing material.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "75",
+      "unit": "minutes",
+      "context": "How long that same committee then argued over the GBP 21 annual coffee budget — longer than the bike shed, and Parkinson has them still undecided when the meeting ends.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "credit",
+      "year": "1999",
+      "name": "Poul-Henning Kamp",
+      "role": "The word 'bikeshedding' itself is his, not Parkinson's — a FreeBSD mailing-list email sent 2 October, after weeks of argument over a genuinely simple patch to add fractional seconds to the sleep command.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "The trivial item was never the bike shed. It was whatever's easiest to have an opinion on.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 148
+    }
+  ],
+  "cta": "Subscribe for more."
+}

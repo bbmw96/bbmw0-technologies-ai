@@ -1,0 +1,56 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (arkhipov-b59-nuclear-veto-1962)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0E0D0B",
+    "ink": "#F0ECDF",
+    "accent": "#C8452F",
+    "muted": "#786F5E"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The story gets told as 'one man's veto stopped World War Three.'",
+      "text": "The stranger, truer version: that veto only existed on his boat because of where he happened to be standing.",
+      "note": "The other submarines in the same group didn't need his agreement at all.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "27 Oct 1962",
+      "name": "Soviet submarine B-59",
+      "role": "Cornered by US Navy destroyers off Cuba, out of radio contact with Moscow for days, carrying a nuclear torpedo with roughly the power of the Hiroshima bomb.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The US ships were only trying to force it to the surface.",
+      "text": "They dropped practice depth charges as a signal, not to sink it.",
+      "note": "Nobody aboard B-59 knew that. They didn't know if the war outside had already started.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Firing needed all three of the boat's senior officers to agree.",
+      "text": "Two said yes. The third was Vasily Arkhipov, the flotilla's chief of staff, who happened to be riding that particular submarine.",
+      "note": "On the other three boats in the group, only two signatures were needed — his rank was the only reason B-59 required three.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "40",
+      "unit": "years",
+      "context": "How long the story stayed buried — first acknowledged at a 1997 Moscow conference, fully confirmed at a 2002 Havana conference where both sides compared notes for the first time.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "sign",
+      "line": "The vote that only existed because of who happened to be on board.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 124
+    }
+  ],
+  "cta": "Subscribe for more."
+}
