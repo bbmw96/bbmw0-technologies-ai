@@ -8460,6 +8460,277 @@
           "handle": "@ai_game_odyssey"
         }
       ]
+    },
+    {
+      "id": "law-of-triviality-coffee-committee",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Law_of_triviality: read. Establishes C. Northcote Parkinson's 1957 book Parkinson's Law, and Other Studies in Administration (chapter 3, 'High Finance, or the Point of Vanishing Interest'), and quotes the book's fictional finance committee's three-item agenda directly: a GBP 10 million reactor contract passed in two and a half minutes, a GBP 350 bicycle shed debated for 45 minutes ('with the possible result of saving some GBP 50'), and a GBP 21/year refreshments budget for the Joint Welfare Committee that 'will occupy the members for an hour and a quarter' and is left undecided, tabled to the next meeting. Also establishes that the term 'bikeshedding' was coined separately, in 1999, by Poul-Henning Kamp.",
+        "http://phk.freebsd.dk/sagas/bikeshed/: read in full (primary source — Poul-Henning Kamp's own retrospective page reproducing his original email verbatim). Confirms the email's exact header (Subject: 'A bike shed (any colour will do) on greener grass...', Date: Sat, 02 Oct 1999, sent to the FreeBSD committers and hackers mailing lists) and that it was triggered by a drawn-out FreeBSD mailing-list argument over adding fractional-second support to the sleep(1) command — a real, working, uncontroversial patch that still took weeks of debate."
+      ],
+      "verifiedNote": "Checked 20 Sep 2026. Not claimed: that Parkinson invented the word 'bikeshedding' — he described the pattern in 1957, but the word itself is Kamp's, from 42 years later; the beats keep these as two separate, dated credits rather than blurring them into one origin story. Not used: Kamp's own email says Parkinson's book was written 'in the early 1960'ies' — that's Kamp misremembering the date of the very book he's citing (it was 1957), which is a fun wrinkle but a distraction from the main point, so it was left out rather than repeated as fact. Not claimed: that the coffee-budget item was ever resolved — Parkinson's own text has the committee still arguing and asking the secretary for more information, i.e. it explicitly never gets decided.",
+      "palette": {
+        "bg": "#0A0C10",
+        "ink": "#F2EDE2",
+        "accent": "#C9A24C",
+        "muted": "#6B6558"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The bikeshedding story usually stops after two items on the agenda.",
+          "text": "A committee approves a nuclear reactor in minutes, then burns 45 minutes arguing over a bike shed.",
+          "note": "There was a third item on that same 1957 agenda, and almost nobody quotes it."
+        },
+        {
+          "kind": "credit",
+          "year": "1957",
+          "name": "Parkinson's Law, and Other Studies in Administration",
+          "role": "C. Northcote Parkinson invented a fictional finance committee to make the point — not a real boardroom, a chapter called 'High Finance, or the Point of Vanishing Interest.'"
+        },
+        {
+          "kind": "statement",
+          "lead": "The famous half of the story checks out.",
+          "text": "A GBP 10 million reactor contract: passed in two and a half minutes. A GBP 350 bike shed: 45 minutes of debate.",
+          "note": "Everyone could picture a bike shed, so everyone had an opinion on the roofing material."
+        },
+        {
+          "kind": "figure",
+          "value": "75",
+          "unit": "minutes",
+          "context": "How long that same committee then argued over the GBP 21 annual coffee budget — longer than the bike shed, and Parkinson has them still undecided when the meeting ends."
+        },
+        {
+          "kind": "credit",
+          "year": "1999",
+          "name": "Poul-Henning Kamp",
+          "role": "The word 'bikeshedding' itself is his, not Parkinson's — a FreeBSD mailing-list email sent 2 October, after weeks of argument over a genuinely simple patch to add fractional seconds to the sleep command."
+        },
+        {
+          "kind": "sign",
+          "line": "The trivial item was never the bike shed. It was whatever's easiest to have an opinion on.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "dpad-shirai-not-yokoi",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/D-pad: read. Establishes that Nintendo's cross-shaped D-pad was 'developed by Ichiro Shirai' and first used in the 1982 Game & Watch adaptation of Donkey Kong; that its patented distinguishing features over the earlier Tiger Electronics design were being smaller, positioned for the left thumb, and using membrane switches instead of domed ones; that William F. Palisek patented 'the first true D-pad design for Tiger Electronics' in 1979, debuting on Tiger's 1980 Deluxe Football with Instant Replay handheld as the 'Playmaker' button; and that Nintendo later won a Technology & Engineering Emmy for the design.",
+        "https://patents.google.com/patent/US4687200A/en: read (primary — the patent record itself). Confirms US4687200A, 'Multi-directional switch,' inventor Ichiro Shirai, assignee Nintendo Co Ltd, priority date 1983-08-05, US filing date 1985-08-09, granted/published 1987-08-18.",
+        "https://patents.google.com/patent/US4256931A/en: read (primary). Confirms US4256931A, 'Multiple dome switch assembly having pivotable common actuator,' inventor William F. Palisek, original assignee Interstate Industries Inc (current assignee Tiger Electronics Toys Inc), filed and granted-priority 1979-08-27, published 1981-03-17."
+      ],
+      "verifiedNote": "Checked 20 Sep 2026 against both patent records directly, not just secondary write-ups. Not claimed: that Gunpei Yokoi has no connection to the D-pad — he ran Nintendo R&D1, the division that shipped it, and popular accounts crediting him are not fabricating a link, just naming the wrong specific person as the credited inventor on the patent itself. Not claimed: that Nintendo copied Palisek's design outright — the patent's own claims rest on the specific differences (size, thumb position, membrane switches), which is why both patents could coexist. Not stated as fact: the exact reason for the 1983-to-1985 gap between the patent's priority date and its US filing date (likely a Japanese-first filing under priority convention) — the sourced patent record shows the dates but not Nintendo's internal filing strategy, so the beats stick to the dates themselves.",
+      "palette": {
+        "bg": "#0B0F0C",
+        "ink": "#EAF2E8",
+        "accent": "#8FD14F",
+        "muted": "#5C6B57"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Ask who invented the D-pad and most people say Gunpei Yokoi.",
+          "text": "The patent doesn't.",
+          "note": "Yokoi ran the division that shipped it. He isn't the name on the paperwork."
+        },
+        {
+          "kind": "credit",
+          "year": "1982",
+          "name": "Ichiro Shirai",
+          "role": "Nintendo's cross-shaped pad first shipped inside the Game & Watch version of Donkey Kong, credited on the eventual patent to Shirai rather than his better-known boss."
+        },
+        {
+          "kind": "statement",
+          "lead": "The patent itself came years after the product.",
+          "text": "Nintendo filed for it in August 1985 and wasn't granted it until August 1987.",
+          "note": "Five years after the D-pad had already shipped to shops."
+        },
+        {
+          "kind": "credit",
+          "year": "1979",
+          "name": "William F. Palisek",
+          "role": "Filed the actual first cross-style four-way controller patent, for Tiger Electronics — it shipped on Tiger's 1980 football handheld as the 'Playmaker' button, two years before Nintendo's version existed."
+        },
+        {
+          "kind": "statement",
+          "lead": "So what did Nintendo's patent actually claim?",
+          "text": "Not the cross shape — a smaller pad, built for the left thumb, using membrane switches instead of Palisek's bulkier domed ones.",
+          "note": "That's the whole distinguishing claim, in writing."
+        },
+        {
+          "kind": "sign",
+          "line": "The most recognisable button on any controller, credited to the wrong household name.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "alphazero-fewer-positions-per-second",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://ar5iv.labs.arxiv.org/html/1712.01815: read in full (primary — DeepMind's own paper, 'Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm,' Silver et al., arXiv 1712.01815, later peer-reviewed and published in Science on 7 Dec 2018). Establishes: training was 700,000 steps total, but AlphaZero 'outperformed Stockfish after just 4 hours (300k steps)'; the final 100-game tournament match at 1 minute per move gave AlphaZero, playing White, 25 wins/25 draws/0 losses against Stockfish, and playing Black, 3 wins/47 draws/0 losses — a combined 28-72-0 with zero losses (Table 1); and that 'AlphaZero searches just 80 thousand positions per second in chess... compared to 70 million for Stockfish,' with the paper framing AlphaZero's selectivity, guided by its trained network, as closer to the 'human-like' search Claude Shannon originally proposed."
+      ],
+      "verifiedNote": "Checked 20 Sep 2026 directly against the arXiv paper's abstract, results text, and Table 1 — not a secondary summary. Not claimed: that AlphaZero never lost a single game under any conditions — the 0 losses is specifically for the 100-game chess match against Stockfish at 1-minute-per-move tournament controls; the same paper reports AlphaZero lost 8 of 100 games to the shogi engine Elmo, which the beats don't get into since the topic is chess. Not claimed: that 80,000 vs 70,000,000 positions/second is a timeless comparison — it's a snapshot from this specific 2017 matchup at this specific hardware and time control, not a general 'AI vs. traditional engines' constant. Not used as a beat: the 2018 Science publication date, since it's a secondary detail about the paper's peer-review path rather than the chess result itself.",
+      "palette": {
+        "bg": "#0C0A14",
+        "ink": "#EDE8FB",
+        "accent": "#8B5CF6",
+        "muted": "#6E637F"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The story people tell about AlphaZero is that it won chess by out-computing an old engine.",
+          "text": "DeepMind's own numbers say the opposite happened.",
+          "note": "It searched far less of the board, not more."
+        },
+        {
+          "kind": "credit",
+          "year": "2017",
+          "name": "AlphaZero",
+          "role": "DeepMind trained it on nothing but chess's rules and self-play — no opening books, no human games, no hand-built evaluation function."
+        },
+        {
+          "kind": "statement",
+          "lead": "It didn't take long to matter.",
+          "text": "Starting from random play, AlphaZero was already outplaying Stockfish, 2016's reigning world-champion engine, after 4 hours of training.",
+          "note": "300,000 self-play steps, and it had already caught up."
+        },
+        {
+          "kind": "figure",
+          "value": "80,000",
+          "unit": "pos/sec",
+          "context": "What AlphaZero actually searches per second in chess — against Stockfish's 70 million a second. It won by searching less, not more."
+        },
+        {
+          "kind": "statement",
+          "lead": "The final scoreline backs it up.",
+          "text": "A 100-game match at tournament time controls: 28 wins, 72 draws, 0 losses, for AlphaZero.",
+          "note": "Beaten on selectivity, not on speed."
+        },
+        {
+          "kind": "sign",
+          "line": "It won chess by thinking about less of it, more carefully.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "ibm-ramac-350-first-hard-drive",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://www.computerhistory.org/storageengine/first-commercial-hard-disk-drive-shipped/: read (primary — Computer History Museum's own Storage Engine archive entry). Establishes Reynold Johnson's team at IBM's San Jose lab built the Model 350 from 1954; it stored '5 million, 6-bit characters... equivalent to 3.75 Megabytes of data storage capacity' on fifty 24-inch disks spinning at 1200 rpm; and the 5ft-by-6ft unit 'weighed over one ton (including a separate air compressor required for operation).'",
+        "https://en.wikipedia.org/wiki/IBM_305_RAMAC: read. Establishes the system was publicly announced 14 September 1956 (citing a contemporary New York Times article); that the 350 disk unit recorded each of its 5 million characters as 6 data bits plus 1 parity bit plus 1 space bit — 8 bits per character on the platter, which is where the commonly repeated '5 megabytes' figure comes from; that the whole IBM 305 RAMAC system (not just the drive) leased for US$3,200/month, equivalent to about $36,700 in 2025; that it weighed over a ton and had to be moved by forklift and cargo plane (Currie Munce, in a Wall Street Journal interview); and that Munce also said the drive's capacity could have been made larger, but IBM's marketing department resisted because they weren't confident they could sell customers on wanting more storage than that."
+      ],
+      "verifiedNote": "Checked 20 Sep 2026. Deliberately did not pin down an exact shipping day: the Computer History Museum's own entry says the unit shipped to Zellerbach Paper in San Francisco in June 1956, while Wikipedia (citing a 2006 Newsweek retrospective) gives 13 September 1956 for the first hard disk unit shipped, a day before the system's public announcement. Rather than assert one over the other, the beats use only the announcement date, which is solidly documented by a contemporary New York Times article. The '5MB vs 3.75MB' discrepancy is not a mistake on either side — it's presented as-is, as two different, both-sourced ways of counting the same 5 million characters, which is the actual point of the beat.",
+      "palette": {
+        "bg": "#0D1117",
+        "ink": "#E6EDF3",
+        "accent": "#57C7FF",
+        "muted": "#6B7280"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "IBM's 1956 RAMAC 350 gets filed away as 'the first hard drive, five whole megabytes.'",
+          "text": "That number depends entirely on which bits you count.",
+          "note": "The Computer History Museum's own figure for it is 3.75 megabytes, not 5."
+        },
+        {
+          "kind": "statement",
+          "lead": "Here's the gap.",
+          "text": "It stored 5 million characters, but each one took 8 bits on the disk — only 6 of those bits were actual data, the rest was parity and spacing.",
+          "note": "Count all 8 bits per character and you get the famous 5MB. Count only the informational 6, and it's 3.75MB."
+        },
+        {
+          "kind": "credit",
+          "year": "1956",
+          "name": "IBM 350 RAMAC",
+          "role": "Reynold Johnson's team at IBM's San Jose lab built it: fifty 24-inch magnetic disks spinning on a single spindle, the first commercial hard drive."
+        },
+        {
+          "kind": "statement",
+          "lead": "Nobody bought one outright.",
+          "text": "IBM only leased the whole 305 RAMAC system — disk drive, processor, printer, card punch, all together.",
+          "note": "The unit weighed over a ton, moved by forklift, occasionally flown in on cargo planes."
+        },
+        {
+          "kind": "figure",
+          "value": "3,200",
+          "unit": "$/mo",
+          "context": "The monthly lease for the whole system in 1956 — about $36,700 in today's money, and the drive still wasn't yours to keep."
+        },
+        {
+          "kind": "statement",
+          "lead": "The capacity ceiling wasn't a technical one either.",
+          "text": "IBM's own engineers said the drive could have held more.",
+          "note": "Marketing turned it down — they didn't yet know how to sell anyone on wanting more storage than that."
+        },
+        {
+          "kind": "sign",
+          "line": "A ton of steel, rented by the month, for less data than gets argued about in the comments today.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "arkhipov-b59-nuclear-veto-1962",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Soviet_submarine_B-59: read. Establishes B-59 (a Foxtrot-class submarine, one of four in a detachment with B-4, B-36 and B-130) was cornered by US Navy ships including USS Cony and USS Beale, backed by the carrier USS Randolph, off Cuba on 27 October 1962; that it carried one nuclear-tipped torpedo with roughly the yield of the Hiroshima bomb (10kt) and had been out of radio contact with Moscow for days; that US destroyers dropped signalling practice depth charges intended to force it to surface, not to sink it, which the exhausted crew inside did not know; that launching the torpedo needed unanimous agreement from B-59's three most senior officers (Savitsky, political officer Maslennikov, and detachment Chief of Staff Vasily Arkhipov), a requirement unique to B-59 among the four boats because Arkhipov's rank as detachment commander meant his consent was also needed, where the other three subs needed only two signatures; and that Arkhipov alone refused and persuaded Savitsky to surface instead. Also flags that naval intelligence officer Vadim Orlov's account of Savitsky's exact spoken words has itself been 'described as controversial,' which this topic deliberately does not quote.",
+        "https://nsarchive.gwu.edu/briefing-book/russia-programs/2022-10-03/soviet-submarines-nuclear-torpedoes-cuban-missile-crisis: read (primary — National Security Archive briefing book, 'The Underwater Cuban Missile Crisis at 60'). Confirms the same date and depth-charge detail directly from the USS Beale deck log ('use of practice depth charges (PDCs), and eventual surfacing of submarine C-19 on the evening of 27 October'); is headlined 'Submarine Commanders Suppressed Story for 40 Years,' establishing the story's public confirmation only at a 1997 Moscow conference and a fuller 2002 Havana conference; and independently states that 'Orlov's account includes the controversial depiction of an order by Captain Valentin Savitsky to assemble the nuclear torpedo,' confirming that specific caveat from a second, primary source."
+      ],
+      "verifiedNote": "Checked 20 Sep 2026 against both a well-cited encyclopedia account and the National Security Archive's own briefing book. Deliberately not quoted: Savitsky's dramatic reported words ('We're going to blast them now... we will not disgrace our navy') — both sources independently flag that account, sourced to a single officer's later recollection, as controversial, so the beats stick to the sourced procedural facts (who was aboard, what the ships were doing, what agreement the launch needed) rather than dialogue nobody can fully verify. Also not centred: Arkhipov's own 1997 conference presentation, per the NSA archive, does not describe himself as the hero of the moment — he downplays his personal role and focuses on how the crew realised the aircraft overhead wasn't attacking them. The 'one man's veto' framing is the public shorthand the beats work with, since the underlying facts (three signatures required, his was the dissenting one) hold up, but that framing is more dramatic than how Arkhipov described it himself.",
+      "palette": {
+        "bg": "#0E0D0B",
+        "ink": "#F0ECDF",
+        "accent": "#C8452F",
+        "muted": "#786F5E"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The story gets told as 'one man's veto stopped World War Three.'",
+          "text": "The stranger, truer version: that veto only existed on his boat because of where he happened to be standing.",
+          "note": "The other submarines in the same group didn't need his agreement at all."
+        },
+        {
+          "kind": "credit",
+          "year": "27 Oct 1962",
+          "name": "Soviet submarine B-59",
+          "role": "Cornered by US Navy destroyers off Cuba, out of radio contact with Moscow for days, carrying a nuclear torpedo with roughly the power of the Hiroshima bomb."
+        },
+        {
+          "kind": "statement",
+          "lead": "The US ships were only trying to force it to the surface.",
+          "text": "They dropped practice depth charges as a signal, not to sink it.",
+          "note": "Nobody aboard B-59 knew that. They didn't know if the war outside had already started."
+        },
+        {
+          "kind": "statement",
+          "lead": "Firing needed all three of the boat's senior officers to agree.",
+          "text": "Two said yes. The third was Vasily Arkhipov, the flotilla's chief of staff, who happened to be riding that particular submarine.",
+          "note": "On the other three boats in the group, only two signatures were needed — his rank was the only reason B-59 required three."
+        },
+        {
+          "kind": "figure",
+          "value": "40",
+          "unit": "years",
+          "context": "How long the story stayed buried — first acknowledged at a 1997 Moscow conference, fully confirmed at a 2002 Havana conference where both sides compared notes for the first time."
+        },
+        {
+          "kind": "sign",
+          "line": "The vote that only existed because of who happened to be on board.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
