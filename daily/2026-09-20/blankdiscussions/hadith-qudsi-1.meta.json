@@ -38,6 +38,22 @@
     "compliance_check": "Manually checked against scripts/data/compliance-policy.json's halal keyword-blocklists (intoxicants, pork, gambling, riba, immodesty, profanity, superstition, origins_patterns, animate_imagery, context_review) since compliance-gate.mjs does not cover this channel's schema. No blocklisted terms present in any of the six language texts. No imagery generated at all (pure typography slides). Content is a foundational statement about Allah's mercy with no restricted-addressee or sensitive-scope nuance (unlike e.g. quran-33-33) - no context_review flags apply. Clean."
   },
   "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-20/hadith-qudsi-1-slide-NN.png --props=daily/2026-09-20/blankdiscussions/hadith-qudsi-1.slide-NN.json  (run once per slide, NN = 01 through 08; rendered via a parallel Linux-native scratch Remotion project this session because the real repo's node_modules contains Windows-native binaries that crash the Linux sandbox - see internal render notes)",
-  "status": "rendered_committed_push_blocked",
-  "hosting_blocker": "All 8 slide PNGs were rendered, visually spot-checked (clean - no tofu/glyph issues, no overflow), copied into daily/2026-09-20/blankdiscussions/renders/, and committed to the local git history this session (commit 6232847). `git push origin main` failed with 'could not read Username for https://github.com' - no git credentials, credential helper, SSH key, or token are available in this session's shell (checked environment variables, ~/.netrc, ~/.ssh, and git config, all empty). Desktop Commander MCP, the credential path the task instructions point to, is unavailable this session (connection timeout). Composio's GitHub write tool and the engineering:github plugin are also blocked/unauthenticated. Per the task's explicit instruction not to improvise a workaround, this post was left unpublished rather than routed through an unauthorized hosting method. raw.githubusercontent.com URLs for this post do NOT yet resolve. Next run (or a session with working git push credentials) should: git push the existing local commit 6232847, verify the raw URLs resolve, then proceed to Instagram publishing for this already-rendered, already-compliance-checked post."
+  "status": "published",
+  "hosting_blocker": "RESOLVED 2026-09-21: a later session (outside this shell) successfully pushed the blocked commits - both b1d17e5 (slide JSON/meta) and 4193cd1 (JPEG renders) are present in origin/main as of this run, and raw.githubusercontent.com URLs for all 8 hadith-qudsi-1 JPEGs were re-verified HTTP 200 this session before publishing. Original blocker text (kept for history): git push failed in the 2026-09-20 session shell with 'could not read Username for https://github.com' - no git credentials available there, and Desktop Commander/Composio GitHub were both unavailable that session.",
+  "published": {
+    "mediaId": "18127498495862545",
+    "permalink": "https://www.instagram.com/p/DditW-IlcuJ/",
+    "publishedAt": "2026-09-21T08:15:55+0000",
+    "hostingUrls": [
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-20/blankdiscussions/renders/hadith-qudsi-1-slide-01.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-20/blankdiscussions/renders/hadith-qudsi-1-slide-02.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-20/blankdiscussions/renders/hadith-qudsi-1-slide-03.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-20/blankdiscussions/renders/hadith-qudsi-1-slide-04.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-20/blankdiscussions/renders/hadith-qudsi-1-slide-05.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-20/blankdiscussions/renders/hadith-qudsi-1-slide-06.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-20/blankdiscussions/renders/hadith-qudsi-1-slide-07.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-20/blankdiscussions/renders/hadith-qudsi-1-slide-08.jpg"
+    ],
+    "publishedVia": "Composio INSTAGRAM_CREATE_CAROUSEL_CONTAINER + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH, ig_user_id 28477523595198052 (verified live via INSTAGRAM_GET_USER_INFO: username=blankdiscussions, account_type=MEDIA_CREATOR, media_count=23 before this publish - confirmed correct account despite the Composio connection's alias field showing a stale 'ai_game_odyssey' label; the connection id in use this session was instagram_sledge-got, not the instagram_demob-runite id recorded in channels.json, but the live user_info fields are authoritative and matched blankdiscussions exactly)"
+  }
 }
