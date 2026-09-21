@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-21",
+  "repo": "bbmw96/bbmw0-technologies-ai",
+  "tag": "media-2026-09-21",
+  "base": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-21",
+  "urls": {
+    "alphazero-fewer-positions-per-second": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-21/daily-2026-09-21-alphazero-fewer-positions-per-second.mp4",
+    "dpad-shirai-not-yokoi": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-21/daily-2026-09-21-dpad-shirai-not-yokoi.mp4"
+  }
+}

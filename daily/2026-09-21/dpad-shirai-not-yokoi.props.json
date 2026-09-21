@@ -1,0 +1,56 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (dpad-shirai-not-yokoi)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0F0C",
+    "ink": "#EAF2E8",
+    "accent": "#8FD14F",
+    "muted": "#5C6B57"
+  },
+  "niche": "gaming",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Ask who invented the D-pad and most people say Gunpei Yokoi.",
+      "text": "The patent doesn't.",
+      "note": "Yokoi ran the division that shipped it. He isn't the name on the paperwork.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "credit",
+      "year": "1982",
+      "name": "Ichiro Shirai",
+      "role": "Nintendo's cross-shaped pad first shipped inside the Game & Watch version of Donkey Kong, credited on the eventual patent to Shirai rather than his better-known boss.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "statement",
+      "lead": "The patent itself came years after the product.",
+      "text": "Nintendo filed for it in August 1985 and wasn't granted it until August 1987.",
+      "note": "Five years after the D-pad had already shipped to shops.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "credit",
+      "year": "1979",
+      "name": "William F. Palisek",
+      "role": "Filed the actual first cross-style four-way controller patent, for Tiger Electronics — it shipped on Tiger's 1980 football handheld as the 'Playmaker' button, two years before Nintendo's version existed.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "So what did Nintendo's patent actually claim?",
+      "text": "Not the cross shape — a smaller pad, built for the left thumb, using membrane switches instead of Palisek's bulkier domed ones.",
+      "note": "That's the whole distinguishing claim, in writing.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "The most recognisable button on any controller, credited to the wrong household name.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 124
+    }
+  ],
+  "cta": "Follow for more."
+}

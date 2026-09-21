@@ -225,7 +225,10 @@
     "reel:angry-birds-52nd-game",
     "reel:law-of-triviality-coffee-committee",
     "reel:ibm-ramac-350-first-hard-drive",
-    "reel:arkhipov-b59-nuclear-veto-1962"
+    "reel:arkhipov-b59-nuclear-veto-1962",
+    "reel:alphazero-fewer-positions-per-second",
+    "reel:gpu-tricked-into-math",
+    "reel:dpad-shirai-not-yokoi"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -3892,6 +3895,45 @@
       "youtubeUrl": "https://youtu.be/l7GTOHbqMjc",
       "uploadedAt": "2026-09-20T19:38:06.446Z",
       "privacy": "public"
+    },
+    {
+      "id": "alphazero-fewer-positions-per-second",
+      "date": "2026-09-21",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "DeepMind's own numbers say the opposite happened.",
+      "description": "DeepMind's own numbers say the opposite happened. It searched far less of the board, not more.\n\nDeepMind trained it on nothing but chess's rules and self-play, no opening books, no human games, no hand-built evaluation function.\n\nStarting from random play, AlphaZero was already outplaying Stockfish, 2016's reigning world-champion engine, after 4 hours of training. 300,000 self-play steps, and it had already caught up.\n\nWhat AlphaZero actually searches per second in chess, against Stockfish's 70 million a second. It won by searching less, not more.\n\nA 100-game match at tournament time controls: 28 wins, 72 draws, 0 losses, for AlphaZero. Beaten on selectivity, not on speed.\n\nSources:\n- https://ar5iv.labs.arxiv.org/html/1712.01815: read in full (primary\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "gpu-tricked-into-math",
+      "date": "2026-09-21",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It paints pixels onto a screen, over and over, very fast.",
+      "description": "It paints pixels onto a screen, over and over, very fast. In the early 2000s, researchers found a way to make it do something else entirely: ordinary arithmetic.\n\nSo they disguised the maths as a picture. A grid of numbers became a texture. A calculation became a shader painting that texture onto a surface no one would ever actually look at.\n\nWorking independently and without knowing about each other, Krüger and Westermann, and separately Bolz, Farmer, Grinspun and Schröder, got graphics chips solving real linear algebra faster than a CPU could, using the same trick, at the same time.\n\nEvery calculation still had to be smuggled through a graphics language built for rendering, not maths. Programmers wrote in OpenGL or Direct3D and simply never drew anything with the result.\n\nNVIDIA's answer: a way to write directly for the graphics chip's raw parallel math, released in November, with no disguise required.\n\nLong before AI needed it, the graphics chip had already been tricked into doing sums.\n\nSources:\n- https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units: read in full, including cited primary papers. Establishes that general-purpose GPU computing (GPGPU) became practical after 2001, with programmable shaders and floating-point support on graphics chips; cites Larsen & McAllister, 'Fast matrix multiplies using graphics hardware,' presented at the 2001 ACM/IEEE Supercomputing conference, as an early example of GPU-based linear algebra; identifies 2003 as 'a significant milestone,' when two independent research groups, Krüger & Westermann, and separately Bolz, Farmer, Grinspun & Schröder, both in ACM Transactions on Graphics, independently published GPU-based solutions to general linear algebra problems that outran CPUs; establishes that these early efforts required 'reformulating computational problems in terms of graphics primitives, as supported by the two major APIs for graphics processors, OpenGL and Direct3D,' since no general-purpose programming route onto the chip existed yet; and establishes that NVIDIA released CUDA in November 2006, replacing that graphics-disguise workaround with direct general-purpose programming access to the chip.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "dpad-shirai-not-yokoi",
+      "date": "2026-09-21",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The patent doesn't.",
+      "description": "The patent doesn't. Yokoi ran the division that shipped it. He isn't the name on the paperwork.\n\nNintendo's cross-shaped pad first shipped inside the Game & Watch version of Donkey Kong, credited on the eventual patent to Shirai rather than his better-known boss.\n\nNintendo filed for it in August 1985 and wasn't granted it until August 1987. Five years after the D-pad had already shipped to shops.\n\nFiled the actual first cross-style four-way controller patent, for Tiger Electronics, it shipped on Tiger's 1980 football handheld as the 'Playmaker' button, two years before Nintendo's version existed.\n\nNot the cross shape, a smaller pad, built for the left thumb, using membrane switches instead of Palisek's bulkier domed ones. That's the whole distinguishing claim, in writing.\n\nSources:\n- https://en.wikipedia.org/wiki/D-pad: read. Establishes that Nintendo's cross-shaped D-pad was 'developed by Ichiro Shirai' and first used in the 1982 Game & Watch adaptation of Donkey Kong; that its patented distinguishing features over the earlier Tiger Electronics design were being smaller, positioned for the left thumb, and using membrane switches instead of domed ones; that William F. Palisek patented 'the first true D-pad design for Tiger Electronics' in 1979, debuting on Tiger's 1980 Deluxe Football with Instant Replay handheld as the 'Playmaker' button; and that Nintendo later won a Technology & Engineering Emmy for the design.\n- https://patents.google.com/patent/US4687200A/en: read (primary\n- https://patents.google.com/patent/US4256931A/en: read (primary). Confirms US4256931A, 'Multiple dome switch assembly having pivotable common actuator,' inventor William F. Palisek, original assignee Interstate Industries Inc (current assignee Tiger Electronics Toys Inc), filed and granted-priority 1979-08-27, published 1981-03-17.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }

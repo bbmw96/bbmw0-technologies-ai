@@ -1,0 +1,25 @@
+{
+  "slug": "gpu-tricked-into-math",
+  "date": "2026-09-21",
+  "title": "It paints pixels onto a screen, over and over, very fast.",
+  "description": "It paints pixels onto a screen, over and over, very fast. In the early 2000s, researchers found a way to make it do something else entirely: ordinary arithmetic.\n\nSo they disguised the maths as a picture. A grid of numbers became a texture. A calculation became a shader painting that texture onto a surface no one would ever actually look at.\n\nWorking independently and without knowing about each other, Krüger and Westermann, and separately Bolz, Farmer, Grinspun and Schröder, got graphics chips solving real linear algebra faster than a CPU could, using the same trick, at the same time.\n\nEvery calculation still had to be smuggled through a graphics language built for rendering, not maths. Programmers wrote in OpenGL or Direct3D and simply never drew anything with the result.\n\nNVIDIA's answer: a way to write directly for the graphics chip's raw parallel math, released in November, with no disguise required.\n\nLong before AI needed it, the graphics chip had already been tricked into doing sums.\n\nSources:\n- https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units: read in full, including cited primary papers. Establishes that general-purpose GPU computing (GPGPU) became practical after 2001, with programmable shaders and floating-point support on graphics chips; cites Larsen & McAllister, 'Fast matrix multiplies using graphics hardware,' presented at the 2001 ACM/IEEE Supercomputing conference, as an early example of GPU-based linear algebra; identifies 2003 as 'a significant milestone,' when two independent research groups, Krüger & Westermann, and separately Bolz, Farmer, Grinspun & Schröder, both in ACM Transactions on Graphics, independently published GPU-based solutions to general linear algebra problems that outran CPUs; establishes that these early efforts required 'reformulating computational problems in terms of graphics primitives, as supported by the two major APIs for graphics processors, OpenGL and Direct3D,' since no general-purpose programming route onto the chip existed yet; and establishes that NVIDIA released CUDA in November 2006, replacing that graphics-disguise workaround with direct general-purpose programming access to the chip.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-21-gpu-tricked-into-math.mp4",
+  "propsFile": "daily/2026-09-21/gpu-tricked-into-math.props.json",
+  "durationInFrames": 1248,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}

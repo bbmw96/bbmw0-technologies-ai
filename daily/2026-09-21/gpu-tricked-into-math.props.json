@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (gpu-tricked-into-math)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0C0F1A",
+    "ink": "#EEF1FA",
+    "accent": "#4FD1C5",
+    "muted": "#5C6B7A"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "A graphics card only has one job.",
+      "text": "It paints pixels onto a screen, over and over, very fast.",
+      "note": "In the early 2000s, researchers found a way to make it do something else entirely: ordinary arithmetic.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "There was no button for that.",
+      "text": "So they disguised the maths as a picture.",
+      "note": "A grid of numbers became a texture. A calculation became a shader painting that texture onto a surface no one would ever actually look at.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2003",
+      "name": "Two separate research teams",
+      "role": "Working independently and without knowing about each other, Krüger and Westermann, and separately Bolz, Farmer, Grinspun and Schröder, got graphics chips solving real linear algebra faster than a CPU could, using the same trick, at the same time.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "For years, this stayed a workaround.",
+      "text": "Every calculation still had to be smuggled through a graphics language built for rendering, not maths.",
+      "note": "Programmers wrote in OpenGL or Direct3D and simply never drew anything with the result.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2006",
+      "name": "CUDA",
+      "role": "NVIDIA's answer: a way to write directly for the graphics chip's raw parallel math, released in November, with no disguise required.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "kicker",
+      "text": "Long before AI needed it, the graphics chip had already been tricked into doing sums.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "sign",
+      "line": "The pixel chip that became a math coprocessor.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Follow for more."
+}

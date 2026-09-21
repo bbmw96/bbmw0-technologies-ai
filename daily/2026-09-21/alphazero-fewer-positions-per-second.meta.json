@@ -1,0 +1,25 @@
+{
+  "slug": "alphazero-fewer-positions-per-second",
+  "date": "2026-09-21",
+  "title": "DeepMind's own numbers say the opposite happened.",
+  "description": "DeepMind's own numbers say the opposite happened. It searched far less of the board, not more.\n\nDeepMind trained it on nothing but chess's rules and self-play, no opening books, no human games, no hand-built evaluation function.\n\nStarting from random play, AlphaZero was already outplaying Stockfish, 2016's reigning world-champion engine, after 4 hours of training. 300,000 self-play steps, and it had already caught up.\n\nWhat AlphaZero actually searches per second in chess, against Stockfish's 70 million a second. It won by searching less, not more.\n\nA 100-game match at tournament time controls: 28 wins, 72 draws, 0 losses, for AlphaZero. Beaten on selectivity, not on speed.\n\nSources:\n- https://ar5iv.labs.arxiv.org/html/1712.01815: read in full (primary\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-21-alphazero-fewer-positions-per-second.mp4",
+  "propsFile": "daily/2026-09-21/alphazero-fewer-positions-per-second.props.json",
+  "durationInFrames": 1056,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}
