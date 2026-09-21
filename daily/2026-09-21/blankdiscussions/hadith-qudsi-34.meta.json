@@ -1,0 +1,45 @@
+{
+  "slug": "hadith-qudsi-34",
+  "date": "2026-09-21",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "\"So long as you call upon Me and ask of Me, I shall forgive you, and I shall not mind.\"\n\nHadith Qudsi 34, from the Forty Hadith Qudsi collection - related by at-Tirmidhi (also by Ahmad ibn Hanbal). On the sheer scale of Allah's forgiveness, however great the sin, for whoever turns back to Him sincerely. Swipe through for the Arabic, then English, Mandarin, Korean, Japanese, Malay and Thai.\n\nSources on the final slide.\n\n#HadithQudsi #DivineForgiveness #IslamicReminder #Deen #MuslimReminder",
+  "tags": [
+    "HadithQudsi",
+    "DivineForgiveness",
+    "IslamicReminder",
+    "Deen",
+    "MuslimReminder",
+    "IslamicQuotes",
+    "ProphetMuhammad",
+    "AllahsForgiveness",
+    "Tirmidhi",
+    "FortyHadithQudsi"
+  ],
+  "theme": "umber-mauve",
+  "slides": [
+    "hadith-qudsi-34.slide-01.json",
+    "hadith-qudsi-34.slide-02.json",
+    "hadith-qudsi-34.slide-03.json",
+    "hadith-qudsi-34.slide-04.json",
+    "hadith-qudsi-34.slide-05.json",
+    "hadith-qudsi-34.slide-06.json",
+    "hadith-qudsi-34.slide-07.json",
+    "hadith-qudsi-34.slide-08.json",
+    "hadith-qudsi-34.slide-09.json"
+  ],
+  "sourcing": {
+    "primary_text": "Hadith Qudsi 34, Forty Hadith Qudsi collection - related by at-Tirmidhi (also by Ahmad ibn Hanbal); its chain of authorities is graded sound (hasan) per the source's own grading note. On the vastness of Allah's forgiveness relative to the magnitude of sin, conditioned only on sincere turning to Him without ascribing partners to Him (shirk). Chosen as today's one new post, after reviewing several qudsi candidates (18, 19, 25, 33, 37) for compliance-safety and thematic freshness against the 24 posts already published; #34 was selected for a theme (forgiveness scaling with sincere repentance) not yet covered by any prior post on this channel. Hadith (not Qur'an) because the render pipeline still has an unresolved font-coverage gap for Quranic Uthmani-script diacritics (standard hadith Arabic renders cleanly, re-confirmed by visual spot-check of prior posts this session).",
+    "arabic": "Edition ara-qudsi, cdn.jsdelivr.net/gh/fawazahmed0/hadith-api. Live-fetched and verified this session (2026-09-21) via GET /editions/ara-qudsi/34.json, HTTP 200. Slide shows the matn only (isnad chain 'an Anas... qala: sami'tu Rasulallah... yaqul: qala Allahu ta'ala:' and the closing attribution tail 'rawahu at-Tirmidhi (wa kadhalika Ahmad) wa sanaduhu hasan' omitted for slide length, following the same precedent as hadith-qudsi-1.meta.json/hadith-qudsi-15.meta.json). Two minor typographic artifacts in the raw source string were corrected as pure rendering fixes, with no change to wording: a doubled fatha diacritic on 'دَعَوْتَنِي' (rendered 'دَعَوْتََنِي' in the raw source) and a stray space before the shadda in 'ثُمَّ' (rendered 'ثُم َّ' in the raw source, appearing once). Matn otherwise preserved verbatim, full attribution given on the citation slide instead.",
+    "english": "Edition eng-qudsi, cdn.jsdelivr.net/gh/fawazahmed0/hadith-api. Same live call, GET /editions/eng-qudsi/34.json, HTTP 200. Matn quoted verbatim (isnad and citation tail omitted per the same convention: 'On the authority of Anas... Allah the Almighty said:' and 'It was related by at-Tirmidhi... Its chain of authorities is sound' both dropped from the slide, full attribution retained on the citation slide). Checked editions.json for a named translator: both ara-qudsi and eng-qudsi list 'author': 'Unknown' - so the on-slide and citation-slide credit says 'translator not specified by source' rather than asserting the commonly-published Ibrahim/Johnson-Davies Forty Hadith Qudsi translation, which could not be verified as the actual source of this specific API text.",
+    "chinese_korean_japanese_malay_thai": "No Chinese, Korean, Japanese, Malay, or Thai edition exists for the qudsi collection in the fawazahmed0/hadith-api catalogue (re-confirmed this session via a fresh fetch of the full editions.json: the 'qudsi' book lists only ara-qudsi, ara-qudsi1 (diacritics-removed), eng-qudsi and fra-qudsi, all author 'Unknown'). These five renderings are therefore my own careful translation, made directly from the verified Arabic matn (cross-checked against the English) above, and labelled on-slide and in the citation as a translation rather than attributed to a named scholar or edition. The repeated vocative 'O son of Adam' / 'ya ibna Adama' (three occurrences in both Arabic and English) was preserved as a repeated address in all five translations rather than compressed, matching the source's own rhetorical structure. Thai added 2026-09-21 as a seventh slide language at the owner's request, mid-session, before this post had been hosted or published - so it is the first post carrying Thai and is not a retrofit to already-published content. The Thai rendering uses the standard shirk terminology 'ตั้งภาคี' (to associate partners with Allah) for 'ascribing no partner to Me', matching how the Chinese/Korean/Japanese/Malay translations render the same clause.",
+    "verification_note": "Arabic and English matn are primary-sourced and citable, live-fetched this session (2026-09-21) via cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/{ara-qudsi,eng-qudsi}/34.json, both HTTP 200, re-fetched fresh rather than trusted from any prior turn's memory or a pre-compaction record, per the channel's hard sourcing requirement. The full editions.json catalogue was also re-fetched this session to independently verify the translator-attribution and missing-language-edition claims above. Chinese, Korean, Japanese, Malay and Thai are transparently labelled translations.",
+    "compliance_check": "Manually checked against scripts/data/compliance-policy.json's halal keyword-blocklists (intoxicants, pork, gambling, riba, immodesty, profanity, superstition, origins_patterns, animate_imagery, context_review), read in full this session since compliance-gate.mjs does not cover this channel's schema. No blocklisted terms present in any of the seven language texts, the title, or the caption. No imagery generated at all (pure typography slides, so animate_imagery does not apply). Content is a mainstream, widely cited hadith on divine forgiveness with no restricted-addressee or sensitive-scope nuance (unlike e.g. quran-33-33); no context_review flags apply. House style also checked: no em dash or en dash used, no emoji, UK spelling throughout. Clean."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-21/hadith-qudsi-34-slide-NN.png --props=daily/2026-09-21/blankdiscussions/hadith-qudsi-34.slide-NN.json  (run once per slide, NN = 01 through 09; rendered via a parallel Linux-native scratch Remotion project this session because the real repo's node_modules contains Windows-native binaries that crash the Linux sandbox - see internal render notes)",
+  "status": "rendered_pending_host",
+  "theme_note": "All 24 themes in THEME_ORDER (src/compositions/IslamicCarouselSlide.tsx) were already used, one per prior post, confirmed by grepping every meta.json's theme field this session. Per that file's own code comment (add a new theme rather than repeat one if the list is exhausted), a 25th theme 'umber-mauve' (deep umber bg #2A1B12, warm ivory ink #F5EDE3, dusty mauve accent #C98C82) was added to ThemeKey, THEMES and THEME_ORDER this session and used for this post.",
+  "language_note": "Thai (th) added to the composition's LangCode/LANG_META this session at the owner's explicit request ('add the Thai Language into any new posts that will be published from now on'), so this post and every post after it carry 7 language slides (ar, en, zh, ko, ja, ms, th) instead of 6. The 24 already-published posts are NOT being retroactively edited to add Thai. Font-coverage caveat: this Linux sandbox had no Thai-capable font installed by default (unlike Arabic/CJK, which worked out of the box); Noto Sans Thai was downloaded and installed locally this session specifically so Thai rendering could be visually spot-checked before shipping, per the channel's font-coverage discipline. See IslamicCarouselSlide.tsx's THAI font-stack comment for the caveat that only Noto Sans Thai was actually verified - the Windows-native fallbacks (Leelawadee UI, Tahoma) listed after it were not."
+}

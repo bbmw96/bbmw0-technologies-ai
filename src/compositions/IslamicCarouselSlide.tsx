@@ -28,7 +28,7 @@
 // same stack has the same coverage there.
 import React from "react";
 
-export type ThemeKey = "emerald-gold" | "midnight-silver" | "terracotta-cream" | "plum-rose" | "indigo-saffron" | "sapphire-pearl" | "garnet-amber" | "obsidian-jade" | "ivory-cobalt" | "charcoal-copper" | "amber-slate" | "rosewood-mint" | "azure-sand" | "crimson-pewter" | "olive-gold" | "violet-ash" | "teal-bronze" | "maroon-linen" | "cobalt-ember" | "forest-blush" | "onyx-turquoise" | "clay-frost" | "basalt-marigold" | "linen-periwinkle";
+export type ThemeKey = "emerald-gold" | "midnight-silver" | "terracotta-cream" | "plum-rose" | "indigo-saffron" | "sapphire-pearl" | "garnet-amber" | "obsidian-jade" | "ivory-cobalt" | "charcoal-copper" | "amber-slate" | "rosewood-mint" | "azure-sand" | "crimson-pewter" | "olive-gold" | "violet-ash" | "teal-bronze" | "maroon-linen" | "cobalt-ember" | "forest-blush" | "onyx-turquoise" | "clay-frost" | "basalt-marigold" | "linen-periwinkle" | "umber-mauve";
 
 export const THEMES: Record<ThemeKey, { bg: string; ink: string; accent: string; muted: string; label: string }> = {
   "emerald-gold": { bg: "#0B2B26", ink: "#F5F1E6", accent: "#C9A227", muted: "#8FB6AC", label: "Emerald & Gold" },
@@ -55,8 +55,9 @@ export const THEMES: Record<ThemeKey, { bg: string; ink: string; accent: string;
   "clay-frost": { bg: "#E7E2DA", ink: "#2C2A26", accent: "#8CA3AE", muted: "#9C9184", label: "Clay & Frost" },
   "basalt-marigold": { bg: "#1B1D1F", ink: "#F5F2EA", accent: "#E8B94A", muted: "#5A5D61", label: "Basalt & Marigold" },
   "linen-periwinkle": { bg: "#F2EEE4", ink: "#2A2A3D", accent: "#7B87C9", muted: "#A39E8E", label: "Linen & Periwinkle" },
+  "umber-mauve": { bg: "#2A1B12", ink: "#F5EDE3", accent: "#C98C82", muted: "#6B5A4A", label: "Umber & Mauve" },
 };
-export const THEME_ORDER: ThemeKey[] = ["emerald-gold", "midnight-silver", "terracotta-cream", "plum-rose", "indigo-saffron", "sapphire-pearl", "garnet-amber", "obsidian-jade", "ivory-cobalt", "charcoal-copper", "amber-slate", "rosewood-mint", "azure-sand", "crimson-pewter", "olive-gold", "violet-ash", "teal-bronze", "maroon-linen", "cobalt-ember", "forest-blush", "onyx-turquoise", "clay-frost", "basalt-marigold", "linen-periwinkle"];
+export const THEME_ORDER: ThemeKey[] = ["emerald-gold", "midnight-silver", "terracotta-cream", "plum-rose", "indigo-saffron", "sapphire-pearl", "garnet-amber", "obsidian-jade", "ivory-cobalt", "charcoal-copper", "amber-slate", "rosewood-mint", "azure-sand", "crimson-pewter", "olive-gold", "violet-ash", "teal-bronze", "maroon-linen", "cobalt-ember", "forest-blush", "onyx-turquoise", "clay-frost", "basalt-marigold", "linen-periwinkle", "umber-mauve"];
 
 const SANS = '"Helvetica Neue", Inter, Arial, system-ui, sans-serif';
 // Font stacks, most-specific/best-shaped first, safe generic last.
@@ -64,8 +65,18 @@ const ARABIC = '"Traditional Arabic", "Arabic Typesetting", "Segoe UI", Tahoma, 
 const CHINESE = '"Microsoft YaHei", "Microsoft JhengHei", "SimSun", sans-serif';
 const KOREAN = '"Malgun Gothic", "Apple SD Gothic Neo", sans-serif';
 const JAPANESE = '"Yu Gothic", "MS Gothic", "Meiryo", sans-serif';
+// Thai added 2026-09-21. "Noto Sans Thai" listed first because that's what
+// was actually installed and render-verified in the Linux sandbox this repo
+// currently renders from (no Thai glyphs ship with the sandbox's base fonts,
+// unlike Arabic/CJK which had working coverage out of the box - see the
+// render notes for hadith-qudsi-34). "Leelawadee UI" and Tahoma are the
+// Windows-native fallbacks for the project's own machine, per this file's
+// usual convention, but were NOT the ones actually used to verify this glyph
+// set - only Noto Sans Thai was. Re-verify with a real render if this ever
+// runs somewhere Noto Sans Thai isn't installed.
+const THAI = '"Noto Sans Thai", "Leelawadee UI", Tahoma, sans-serif';
 
-export type LangCode = "ar" | "en" | "zh" | "ko" | "ja" | "ms";
+export type LangCode = "ar" | "en" | "zh" | "ko" | "ja" | "ms" | "th";
 export const LANG_META: Record<LangCode, { name: string; font: string; dir: "rtl" | "ltr"; sizePx: number; lineHeight: number }> = {
   ar: { name: "العربية", font: ARABIC, dir: "rtl", sizePx: 62, lineHeight: 1.65 },
   en: { name: "English", font: SANS, dir: "ltr", sizePx: 48, lineHeight: 1.4 },
@@ -76,6 +87,11 @@ export const LANG_META: Record<LangCode, { name: string; font: string; dir: "rtl
   // covers it fully - no separate font family or glyph-coverage risk like
   // the CJK/Arabic stacks above needed.
   ms: { name: "Bahasa Melayu", font: SANS, dir: "ltr", sizePx: 44, lineHeight: 1.5 },
+  // Thai stacks tone marks and vowel signs above/below the base consonant
+  // (similar risk profile to Arabic diacritics), and has no spaces between
+  // words, so line-height needs the same kind of headroom CJK gets rather
+  // than the tighter Latin value.
+  th: { name: "ภาษาไทย", font: THAI, dir: "ltr", sizePx: 48, lineHeight: 1.75 },
 };
 
 export type CarouselSlideProps =
