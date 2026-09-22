@@ -1,0 +1,10 @@
+Rendering 1 Shorts for 2026-09-22 (concurrency=3, GL=default)
+Compliance: 0 cleared, 1 blocked (policy v1.0.0).
+Blocked by compliance: metroid-reveal-missed
+
+--- metroid-reveal-missed ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-22-metroid-reveal-missed.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-22/compliance-verdict.json.
+
+=== Done. 1 rendered, 0 uploaded, 0 skipped, 1 blocked by compliance, 0 failed. ===

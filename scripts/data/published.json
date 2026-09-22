@@ -228,7 +228,8 @@
     "reel:arkhipov-b59-nuclear-veto-1962",
     "reel:alphazero-fewer-positions-per-second",
     "reel:gpu-tricked-into-math",
-    "reel:dpad-shirai-not-yokoi"
+    "reel:dpad-shirai-not-yokoi",
+    "reel:metroid-reveal-missed"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -3930,6 +3931,19 @@
       "audioUrl": "",
       "title": "The patent doesn't.",
       "description": "The patent doesn't. Yokoi ran the division that shipped it. He isn't the name on the paperwork.\n\nNintendo's cross-shaped pad first shipped inside the Game & Watch version of Donkey Kong, credited on the eventual patent to Shirai rather than his better-known boss.\n\nNintendo filed for it in August 1985 and wasn't granted it until August 1987. Five years after the D-pad had already shipped to shops.\n\nFiled the actual first cross-style four-way controller patent, for Tiger Electronics, it shipped on Tiger's 1980 football handheld as the 'Playmaker' button, two years before Nintendo's version existed.\n\nNot the cross shape, a smaller pad, built for the left thumb, using membrane switches instead of Palisek's bulkier domed ones. That's the whole distinguishing claim, in writing.\n\nSources:\n- https://en.wikipedia.org/wiki/D-pad: read. Establishes that Nintendo's cross-shaped D-pad was 'developed by Ichiro Shirai' and first used in the 1982 Game & Watch adaptation of Donkey Kong; that its patented distinguishing features over the earlier Tiger Electronics design were being smaller, positioned for the left thumb, and using membrane switches instead of domed ones; that William F. Palisek patented 'the first true D-pad design for Tiger Electronics' in 1979, debuting on Tiger's 1980 Deluxe Football with Instant Replay handheld as the 'Playmaker' button; and that Nintendo later won a Technology & Engineering Emmy for the design.\n- https://patents.google.com/patent/US4687200A/en: read (primary\n- https://patents.google.com/patent/US4256931A/en: read (primary). Confirms US4256931A, 'Multiple dome switch assembly having pivotable common actuator,' inventor William F. Palisek, original assignee Interstate Industries Inc (current assignee Tiger Electronics Toys Inc), filed and granted-priority 1979-08-27, published 1981-03-17.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "metroid-reveal-missed",
+      "date": "2026-09-22",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Most people who played Metroid in 1986 never actually saw its most famous moment.",
+      "description": "Most people who played Metroid in 1986 never actually saw its most famous moment.\n\nSamus Aran is called 'he' throughout Metroid's instruction manual, which also admits that little is known about 'him'. That was not a translation error. Nintendo built the disguise into the game's own paperwork.\n\nMetroid's ending depends on how long it takes to finish. Only the fastest clears show Samus without her suit at all. A first playthrough drawn out on paper by hand, the only option in 1986, realistically took five to ten hours. That ending does not remove her helmet.\n\nClear the game inside that and the ending swaps Samus's armour for a bikini instead.\n\nProducer, working with director Satoru Okada, on a game that helped invent the exploration genre later named after it: the metroidvania.\n\nSources:\n- https://en.wikipedia.org/wiki/Metroid_(video_game) - read in full: confirms director Satoru Okada, producer Gunpei Yokoi, and artists including Hiroji Kiyotake, Hirofumi Matsuoka and Yoshio Sakamoto; release dates of 6 August 1986 for the Japanese Famicom Disk System version and August 1987 for the North American NES version; and that the game shows one of five endings based on completion time, with only the third, fourth and fifth endings showing Samus Aran without her suit.\n- https://waltoriouswritesaboutgames.com/2021/10/20/history-lessons-metroid/ - a full playthrough account, read in full: confirms the instruction manual calls Samus 'he' throughout while admitting little is known about 'him'; that a realistic first playthrough of five to ten hours, mapped out by hand, produces an ending where Samus does not remove her helmet at all; and that clearing the game in under an hour, which the author cross checked against a Metroid wiki endings list, gives an ending where Samus wears a bikini instead of her armour.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
       "niche": "gaming",
       "channelId": "ig-aigameodyssey",
       "special": false,

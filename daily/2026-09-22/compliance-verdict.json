@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-22T13:48:44.887Z",
+  "policyVersion": "1.0.0",
+  "strictMode": false,
+  "allowed": [],
+  "blocked": [
+    "metroid-reveal-missed"
+  ],
+  "results": [
+    {
+      "slug": "metroid-reveal-missed",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "BLOCK",
+      "title": "Most people who played Metroid in 1986 never actually saw its most famous moment.",
+      "niche": "gaming",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "halal.immodesty",
+          "message": "Prohibited under immodesty: \"bikini\".",
+          "detail": {
+            "term": "bikini",
+            "category": "immodesty"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.2,
+        "worstTitleAgainst": "dartmouth-ai-1956",
+        "worstDescriptionSimilarity": 0.268,
+        "combo": "reel:#0C0F1A:#4FD1C5:#EAF0FF",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    }
+  ]
+}

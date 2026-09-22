@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (metroid-reveal-missed)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0C0F1A",
+    "ink": "#EAF0FF",
+    "accent": "#4FD1C5",
+    "muted": "#6C7A8C"
+  },
+  "niche": "gaming",
+  "beats": [
+    {
+      "kind": "kicker",
+      "text": "Most people who played Metroid in 1986 never actually saw its most famous moment.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "statement",
+      "lead": "The manual gave it away, on purpose",
+      "text": "Samus Aran is called 'he' throughout Metroid's instruction manual, which also admits that little is known about 'him'.",
+      "note": "That was not a translation error. Nintendo built the disguise into the game's own paperwork.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The reveal was a stopwatch",
+      "text": "Metroid's ending depends on how long it takes to finish. Only the fastest clears show Samus without her suit at all.",
+      "note": "A first playthrough drawn out on paper by hand, the only option in 1986, realistically took five to ten hours. That ending does not remove her helmet.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "60",
+      "unit": "minutes",
+      "context": "Clear the game inside that and the ending swaps Samus's armour for a bikini instead.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "credit",
+      "year": "1986",
+      "name": "Gunpei Yokoi",
+      "role": "Producer, working with director Satoru Okada, on a game that helped invent the exploration genre later named after it: the metroidvania.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "sign",
+      "line": "The ending you actually got depended entirely on how good you were at drawing your own map.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 148
+    }
+  ],
+  "cta": "Follow for more."
+}
