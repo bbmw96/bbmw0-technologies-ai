@@ -39,7 +39,24 @@
     "compliance_check": "Checked programmatically against every string term in scripts/data/compliance-policy.json's halal section (prohibited, superstition, origins_patterns, animate_imagery, context_review) across all slide text, title, caption and tags, plus a manual read: no hits. Pure typography, no imagery. House style: no em/en dashes, no emoji, UK spelling."
   },
   "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-24/hadith-qudsi-11-slide-NN.png --props=daily/2026-09-24/blankdiscussions/hadith-qudsi-11.slide-NN.json (NN = 01..09), rendered on the Windows host via Desktop Commander, then converted to JPEG for Instagram.",
-  "status": "rendered_and_hosted",
+  "status": "published",
   "theme_note": "All 25 themes in THEME_ORDER were already used (umber-mauve by hadith-qudsi-34). Per the file's own comment, a 26th theme 'aubergine-citrine' (bg #2A1830, ink #F4EEF2, accent #D8C24A, muted #6E5872) was added to ThemeKey, THEMES and THEME_ORDER on 2026-09-24 for this post.",
-  "render_check": "All 9 slides rendered 2026-09-24 on the Windows host; Arabic (including the madda on آدَمَ and the damma/sukun marks), Chinese, Korean, Japanese and Thai visually spot-checked at full resolution, no tofu or missing marks. PNG and JPEG (quality 92, Instagram requires JPEG) committed to daily/2026-09-24/blankdiscussions/renders/."
+  "render_check": "All 9 slides rendered 2026-09-24 on the Windows host; Arabic (including the madda on آدَمَ and the damma/sukun marks), Chinese, Korean, Japanese and Thai visually spot-checked at full resolution, no tofu or missing marks. PNG and JPEG (quality 92, Instagram requires JPEG) committed to daily/2026-09-24/blankdiscussions/renders/.",
+  "published": {
+    "mediaId": "18137538526543819",
+    "permalink": "https://www.instagram.com/p/DdrOegEoKHN/",
+    "publishedAt": "2026-09-24T15:39:06+0000",
+    "hostingUrls": [
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-24/blankdiscussions/renders/hadith-qudsi-11-slide-01.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-24/blankdiscussions/renders/hadith-qudsi-11-slide-02.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-24/blankdiscussions/renders/hadith-qudsi-11-slide-03.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-24/blankdiscussions/renders/hadith-qudsi-11-slide-04.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-24/blankdiscussions/renders/hadith-qudsi-11-slide-05.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-24/blankdiscussions/renders/hadith-qudsi-11-slide-06.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-24/blankdiscussions/renders/hadith-qudsi-11-slide-07.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-24/blankdiscussions/renders/hadith-qudsi-11-slide-08.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-24/blankdiscussions/renders/hadith-qudsi-11-slide-09.jpg"
+    ],
+    "publishedVia": "Composio INSTAGRAM_CREATE_CAROUSEL_CONTAINER (container 18108462938021458) + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH, account alias 'BlankDiscussions', ig_user_id 28477523595198052. Published by the 2026-09-24 one-time follow-up task after the daily run hosted the renders (all 9 JPEGs re-checked HTTP 200 image/jpeg immediately before publishing). Confirmed live via INSTAGRAM_GET_IG_USER_MEDIA; account media_count 26 after publish."
+  }
 }
