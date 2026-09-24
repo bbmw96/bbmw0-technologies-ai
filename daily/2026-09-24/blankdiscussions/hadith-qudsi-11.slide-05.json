@@ -1,0 +1,10 @@
+{
+  "kind": "text",
+  "theme": "aubergine-citrine",
+  "lang": "ko",
+  "text": "알라께서 말씀하시길: \"아담의 자손이여, 베풀어라. 그리하면 내가 너에게 베풀리라.\"",
+  "note": "Claude's own translation (hadith-api has no Korean edition)",
+  "fontScale": 1.0,
+  "slideNumber": 5,
+  "slideTotal": 9
+}

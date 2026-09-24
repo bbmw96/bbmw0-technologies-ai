@@ -1,0 +1,10 @@
+{
+  "kind": "text",
+  "theme": "aubergine-citrine",
+  "lang": "zh",
+  "text": "安拉说:\"亚当的子孙啊,你当施舍,我必供给你。\"",
+  "note": "Claude's own translation (hadith-api has no Chinese edition)",
+  "fontScale": 1.0,
+  "slideNumber": 4,
+  "slideTotal": 9
+}

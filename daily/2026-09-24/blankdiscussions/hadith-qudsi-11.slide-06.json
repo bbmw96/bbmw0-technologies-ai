@@ -1,0 +1,10 @@
+{
+  "kind": "text",
+  "theme": "aubergine-citrine",
+  "lang": "ja",
+  "text": "アッラーは仰せられた。「アダムの子よ、施しなさい。そうすれば、われもあなたに施そう。」",
+  "note": "Claude's own translation (hadith-api has no Japanese edition)",
+  "fontScale": 1.0,
+  "slideNumber": 6,
+  "slideTotal": 9
+}

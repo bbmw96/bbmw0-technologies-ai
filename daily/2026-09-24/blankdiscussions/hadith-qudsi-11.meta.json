@@ -1,0 +1,45 @@
+{
+  "slug": "hadith-qudsi-11",
+  "date": "2026-09-24",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "\"Spend (on charity), O son of Adam, and I shall spend on you.\"\n\nHadith Qudsi 11, from the Forty Hadith Qudsi collection - related by al-Bukhari (also by Muslim). A short promise on generosity: what is given for Allah's sake is not lost, and He provides for the one who gives. Swipe through for the Arabic, then English, Mandarin, Korean, Japanese, Malay and Thai.\n\nSources on the final slide.\n\n#HadithQudsi #Charity #Sadaqah #IslamicReminder #Deen",
+  "tags": [
+    "HadithQudsi",
+    "Charity",
+    "Sadaqah",
+    "IslamicReminder",
+    "Deen",
+    "MuslimReminder",
+    "Generosity",
+    "FortyHadithQudsi",
+    "Bukhari",
+    "IslamicQuotes"
+  ],
+  "theme": "aubergine-citrine",
+  "slides": [
+    "hadith-qudsi-11.slide-01.json",
+    "hadith-qudsi-11.slide-02.json",
+    "hadith-qudsi-11.slide-03.json",
+    "hadith-qudsi-11.slide-04.json",
+    "hadith-qudsi-11.slide-05.json",
+    "hadith-qudsi-11.slide-06.json",
+    "hadith-qudsi-11.slide-07.json",
+    "hadith-qudsi-11.slide-08.json",
+    "hadith-qudsi-11.slide-09.json"
+  ],
+  "sourcing": {
+    "primary_text": "Hadith Qudsi 11, Forty Hadith Qudsi collection - related by al-Bukhari (also by Muslim), per the eng-qudsi source's own attribution tail. On spending in charity and Allah's promise to provide for the one who spends. Chosen as today's second post after scanning all 40 qudsi entries in a fresh fetch of eng-qudsi.json: #11 is short (so the seven language renderings stay faithful and readable), mainstream, a theme (charity/generosity) not yet covered by the 25 published posts, and has no restricted-addressee or sensitive-scope nuance. Hadith rather than Qur'an for the same reason as recent posts (Quranic Uthmani diacritic font coverage not re-verified on the renderer).",
+    "arabic": "Edition ara-qudsi, cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-qudsi/11.json, live-fetched 2026-09-24, HTTP 200. Slide shows the matn only, 'أَنْفِقْ يَا ابْنَ آدَمَ، أُنْفِقْ عَلَيْكَ', extracted programmatically from the source string and asserted byte-identical before writing the slide; the isnad ('an Abi Hurayrah ... qala: qala Allah:') is omitted for slide length per the hadith-qudsi-1/15/34 precedent. The Arabic source string carries no attribution tail and no formatting artifacts needed fixing.",
+    "english": "Edition eng-qudsi, same repository, GET /editions/eng-qudsi/11.json, live-fetched 2026-09-24, HTTP 200. Matn 'Spend (on charity), O son of Adam, and I shall spend on you.' extracted programmatically and asserted byte-identical to the source; the parenthetical '(on charity)' is the source translator's own gloss and is kept verbatim. Isnad and the tail 'It was related by al-Bukhari (also by Muslim)' are moved to the citation slide. The source's isnad spells the narrator 'Abu Harayrah' (a typo for Abu Hurayrah, as the Arabic confirms); that line is not shown on any slide. editions.json re-fetched this session: eng-qudsi and ara-qudsi both list author 'Unknown', so the credit reads 'translator not specified by source'.",
+    "chinese_korean_japanese_malay_thai": "editions.json (re-fetched 2026-09-24) lists only ara-qudsi, ara-qudsi1, eng-qudsi and fra-qudsi for this collection, so these five are Claude's own translations made from the verified Arabic (cross-checked with the English) and labelled as such on every slide and on the citation slide. The Arabic 'anfiq' (spend, understood as spending in charity/for Allah's sake, as the English gloss notes) and 'unfiq alayk' (I shall spend on you) are rendered with each language's usual charity vocabulary: Chinese 施舍/供给, Korean 베풀다, Japanese 施す, Malay 'berinfak' (the standard Malay term, preserving the Arabic's repeated verb), Thai 'บริจาค' (give/donate) with the second clause rendered 'ประทานให้' (bestow upon), since a literal 'spend on you' reads unnaturally in Thai. Epithet: the Arabic says only 'qala Allah', so the translations open with plain 'Allah said' rather than adding an honorific not present in this source.",
+    "verification_note": "Arabic and English matn primary-sourced and live-fetched this session (2026-09-24) from cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1, both HTTP 200, and asserted byte-for-byte against the slide text in code before the slide files were written. Caption pull-quote asserted equal to the English matn. No wording generated from memory.",
+    "compliance_check": "Checked programmatically against every string term in scripts/data/compliance-policy.json's halal section (prohibited, superstition, origins_patterns, animate_imagery, context_review) across all slide text, title, caption and tags, plus a manual read: no hits. Pure typography, no imagery. House style: no em/en dashes, no emoji, UK spelling."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-24/hadith-qudsi-11-slide-NN.png --props=daily/2026-09-24/blankdiscussions/hadith-qudsi-11.slide-NN.json (NN = 01..09), rendered on the Windows host via Desktop Commander, then converted to JPEG for Instagram.",
+  "status": "rendered_and_hosted",
+  "theme_note": "All 25 themes in THEME_ORDER were already used (umber-mauve by hadith-qudsi-34). Per the file's own comment, a 26th theme 'aubergine-citrine' (bg #2A1830, ink #F4EEF2, accent #D8C24A, muted #6E5872) was added to ThemeKey, THEMES and THEME_ORDER on 2026-09-24 for this post.",
+  "render_check": "All 9 slides rendered 2026-09-24 on the Windows host; Arabic (including the madda on آدَمَ and the damma/sukun marks), Chinese, Korean, Japanese and Thai visually spot-checked at full resolution, no tofu or missing marks. PNG and JPEG (quality 92, Instagram requires JPEG) committed to daily/2026-09-24/blankdiscussions/renders/."
+}
