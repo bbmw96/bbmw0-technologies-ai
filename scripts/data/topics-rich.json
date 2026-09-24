@@ -8731,6 +8731,654 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "pentium-fdiv-bug-1994",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pentium_FDIV_bug: confirms the bug's cause (five cells in a 2,048-cell lookup table, of which 1,066 were meant to be populated, that should have held +2 but held 0), the discovery timeline (Thomas Nicely first noticed inconsistencies 13 June 1994 while enumerating twin primes, isolated the cause by 19 October, reported it to Intel 24 October), Byte magazine's 1-in-9-billion estimate for random divisions, Intel's initial prove-it-yourself replacement policy, IBM's 20 December 1994 halt of Pentium-based PC shipments that forced Intel's reversal, and the $475 million pre-tax charge Intel announced on 17 January 1995."
+      ],
+      "verifiedNote": "Checked 21 Sep 2026. Wikipedia's own citations (The Wall Street Journal, Intel's 1994 annual report, BYTE March 1995) corroborate the $475 million charge and the five-cell defect count. Left out the well-sourced anecdote about id Software's Michael Abrash tracking the bug through Quake's level geometry: a fun aside, but not a fact about the bug itself, and the beats were already at six.",
+      "palette": {
+        "bg": "#120A0A",
+        "ink": "#F7ECEC",
+        "accent": "#FF4D4D",
+        "muted": "#8A6E6E"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The bug lived in exactly five cells of a chip built from thousands of them.",
+          "text": "The Pentium's division circuit used a lookup table with 2,048 cells; 1,066 were meant to hold real values, and five that should have held +2 held 0 instead.",
+          "note": "A fabrication error, not a design mistake: the array was correct on paper."
+        },
+        {
+          "kind": "credit",
+          "year": "1994",
+          "name": "Thomas Nicely",
+          "role": "maths professor at Lynchburg College, found it while counting twin primes"
+        },
+        {
+          "kind": "statement",
+          "text": "Nicely noticed the inconsistency on 13 June 1994, spent four months ruling out his own code and hardware, then reported it to Intel on 24 October.",
+          "note": "Byte magazine later estimated only 1 in 9 billion random divisions would ever hit the bad cells."
+        },
+        {
+          "kind": "statement",
+          "text": "Intel's first response was to replace chips only for customers who could prove they were affected.",
+          "note": "It reversed course on 20 December 1994, after IBM halted shipments of Pentium-based PCs."
+        },
+        {
+          "kind": "figure",
+          "value": "475",
+          "unit": "million",
+          "context": "dollars Intel charged against earnings on 17 January 1995 to cover the recall, computing's first full chip recall."
+        },
+        {
+          "kind": "sign",
+          "line": "Five wrong cells led to a $475 million recall.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "dualshock-rumble-lawsuit-2004",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Immersion_v._Sony: confirms Immersion Corporation sued Sony and Microsoft in February 2002 over haptic-feedback patents used in game controllers, that Microsoft settled by buying a 10% stake in Immersion while Sony fought on, the 21 September 2004 jury verdict of $82 million (totalling $90.7 million with interest), the March 2006 appellate loss that ordered a stayed suspension of infringing controller sales, Sony's E3 2006 announcement removing vibration from the PS3 controller, and the March 2007 settlement in which Sony paid $97.2 million plus royalties on top of $30.6 million already paid in compulsory licence fees, ahead of the DualShock 3's April 2008 US launch."
+      ],
+      "verifiedNote": "Checked 21 Sep 2026 via Wikipedia's Immersion v. Sony article, which cites Bloomberg, Gamasutra/Game Developer and Immersion's own press releases for the dollar figures and dates. Did not assert that Sony's stated motion-sensing rationale for removing vibration was false: Immersion's president was publicly sceptical, but no court ever found the E3 explanation to be pretextual, so the beat notes the scepticism without stating it as fact.",
+      "palette": {
+        "bg": "#0A0C14",
+        "ink": "#EAEEFA",
+        "accent": "#6C7BFF",
+        "muted": "#6B7290"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Sony's own controller lost a core feature for two years over a lawsuit.",
+          "text": "In February 2002, Immersion Corporation sued Sony, and Microsoft, for patent infringement over the vibration technology in the DualShock controller.",
+          "note": "Nintendo wasn't named: its Rumble Pak used a separately patented design."
+        },
+        {
+          "kind": "statement",
+          "text": "Microsoft settled straight away, buying a 10% stake in Immersion. Sony fought the case instead.",
+          "note": "That decision cost it years in court and tens of millions more than Microsoft ever paid."
+        },
+        {
+          "kind": "statement",
+          "text": "A jury awarded Immersion $82 million on 21 September 2004; with interest, the total reached $90.7 million.",
+          "note": "A federal court upheld the verdict in March 2006 and ordered Sony to stop selling the infringing controllers, though the order was stayed during appeal."
+        },
+        {
+          "kind": "statement",
+          "text": "At E3 2006, Sony announced the new PlayStation 3 controller would ship with no vibration at all.",
+          "note": "Sony said this avoided interference with the controller's new motion sensor; Immersion's own president was publicly sceptical of that explanation."
+        },
+        {
+          "kind": "figure",
+          "value": "97.2",
+          "unit": "million",
+          "context": "dollars Sony agreed to pay Immersion in the March 2007 settlement, on top of $30.6 million already paid in licence fees."
+        },
+        {
+          "kind": "sign",
+          "line": "The PS3 launched silent. Rumble came back in 2008.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "parry-1972-turing-test",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/PARRY: confirms Kenneth Colby, a Stanford psychiatrist, wrote PARRY in 1972 to simulate paranoid schizophrenia; that it modelled beliefs and a conversational strategy, described as \"ELIZA with attitude\"; the early-1970s trial in which psychiatrists questioned real patients and PARRY over teleprinters while a separate panel of 33 psychiatrists read transcripts blind, correctly identifying human versus machine only 48% of the time (consistent with chance); and that PARRY and ELIZA were connected over ARPANET at the 1972 ICCC conference."
+      ],
+      "verifiedNote": "Checked 21 Sep 2026 via Wikipedia's PARRY article, which cites Colby, Hilf, Weber and Kraemer's 1972 paper in the journal Artificial Intelligence for the 48% figure and Guzeldere and Franchi (1995) for the ELIZA/PARRY ARPANET meeting. Described the ARPANET exchange only as \"a 1972 computer conference\" rather than naming exact October dates, since the Wikipedia article notes an earlier September 1972 session also exists (documented in RFC 439), which I did not read myself, so I avoided asserting which session was the one being referred to as most famous.",
+      "palette": {
+        "bg": "#0B1412",
+        "ink": "#E9F5F0",
+        "accent": "#2DD4BF",
+        "muted": "#5F7A74"
+      },
+      "beats": [
+        {
+          "kind": "credit",
+          "year": "1972",
+          "name": "Kenneth Colby",
+          "role": "Stanford psychiatrist who built PARRY to simulate paranoid schizophrenia"
+        },
+        {
+          "kind": "statement",
+          "text": "PARRY modelled beliefs, judged new statements as fitting or threatening them, then chose how to respond.",
+          "note": "Contemporaries called it \"ELIZA with attitude\": a real conversational strategy, not just pattern-matched replies."
+        },
+        {
+          "kind": "statement",
+          "lead": "Psychiatrists tried to spot the computer. They mostly couldn't.",
+          "text": "In an early-1970s trial, experienced psychiatrists questioned real patients and PARRY over teleprinters; a separate panel of 33 psychiatrists then read the transcripts blind.",
+          "note": "Teleprinters, not chat windows: this predates the personal computer by nearly a decade."
+        },
+        {
+          "kind": "figure",
+          "value": "48",
+          "unit": "%",
+          "context": "correct guesses at telling PARRY from a real patient, statistically no better than chance."
+        },
+        {
+          "kind": "statement",
+          "text": "PARRY and ELIZA even talked to each other over ARPANET at a 1972 computer conference.",
+          "note": "Two scripted programs, simulating a therapist and a patient, having a conversation neither could actually understand."
+        },
+        {
+          "kind": "sign",
+          "line": "A chatbot fooled psychiatrists in 1972, before the personal computer existed.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "dalle-name-dali-walle-2021",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://openai.com/index/dall-e/: primary source; dated 5 January 2021, confirms DALL·E is a 12-billion-parameter version of GPT-3 retrained on text-image pairs, the token architecture (up to 256 text tokens plus 1,024 image tokens predicted autoregressively), the CLIP-reranking step that keeps the top 32 of 512 generated samples per caption, and the exact quote: \"We did not anticipate that this capability would emerge, and made no modifications to the neural network or training procedure to encourage it.\"",
+        "https://www.nbcnews.com/tech/innovation/here-s-dall-e-algorithm-learned-draw-anything-you-tell-n1255834: same-day (5 January 2021) coverage confirming the Salvador Dali/WALL-E naming pun was already the public framing of the launch, not a later retelling."
+      ],
+      "verifiedNote": "Checked 21 Sep 2026. OpenAI's own blog post does not spell out the Dali/WALL-E etymology in its current live text; that framing comes from contemporaneous press (NBC News, published the same day) and later coverage (Smithsonian, on DALL·E 2). Did not state GPT-3's own parameter count as a number, since the blog gives DALL·E's figure but I did not re-verify GPT-3's exact 175 billion figure against a primary source for this entry; the beat only says DALL·E's 12 billion is \"a fraction\" of it.",
+      "palette": {
+        "bg": "#120A16",
+        "ink": "#F5EEFA",
+        "accent": "#C084FC",
+        "muted": "#8A7599"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "OpenAI's image generator is named after a robot and a surrealist painter.",
+          "text": "DALL·E is a portmanteau of Salvador Dali, the Spanish surrealist, and WALL-E, Pixar's 2008 robot.",
+          "note": "OpenAI never spelled the joke out in dry technical language; the pun was already the headline when NBC News covered the launch."
+        },
+        {
+          "kind": "statement",
+          "text": "OpenAI published DALL·E on 5 January 2021: a 12-billion-parameter version of GPT-3, retrained to generate images from text captions instead of continuing text.",
+          "note": "The model treats an image as 1,024 extra tokens tacked onto a caption's 256, then predicts all of them the way GPT-3 predicts words."
+        },
+        {
+          "kind": "statement",
+          "text": "For every caption, DALL·E generated 512 candidate images, then used a second model called CLIP to rerank them down to the best 32.",
+          "note": "OpenAI stated none of its published examples were hand-picked beyond that automatic reranking."
+        },
+        {
+          "kind": "figure",
+          "value": "12",
+          "unit": "billion",
+          "context": "parameters in the original DALL·E, a fraction of GPT-3's full size, repurposed entirely for pictures."
+        },
+        {
+          "kind": "statement",
+          "text": "DALL·E turned out to be able to translate images the way GPT-3 translates text: performing image-to-image tasks it was never explicitly trained on.",
+          "note": "OpenAI's own paper says: \"We did not anticipate that this capability would emerge, and made no modifications to the neural network or training procedure to encourage it.\""
+        },
+        {
+          "kind": "sign",
+          "line": "Named for a robot and a surrealist. Launched 5 January 2021.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "ubercab-cease-desist-2010",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://techcrunch.com/2010/10/24/ubercab-ordered-to-cease-and-desist/: primary reporting from 24 October 2010, confirms the San Francisco Metro Transit Authority and California Public Utilities Commission delivered UberCab a cease-and-desist order on 20 October 2010, the taxi industry's specific complaints (no taxi licence, different insurance, immediate pickups without the hour's advance booking limos required), penalties of up to $5,000 per instance of operation plus up to 90 days' jail per day of continued operation, CEO Ryan Graves' quoted response, and the company's rebrand from UberCab to Uber within days including the \"more uber than cab\" comment.",
+        "https://fortune.com/2014/06/04/universal-music-group-sold-uber-domain/: primary reporting from 4 June 2014 confirming Universal Music Group acquired Uber shares through its investment in an unrelated, since-shut-down startup also called Uber.com, that Universal sold the domain (and its equity) to the ride-hailing Uber for equity rather than cash around 2010, that Universal cashed out its stake early for what the article calls \"a nominal profit\", and that Universal would have made more than $100 million had it held on, given Uber's reported $17 billion valuation as of May 2014."
+      ],
+      "verifiedNote": "Checked 21 Sep 2026. Several domain-industry blogs (namefi.io, domaindetails.com) repeat a specific '2 percent equity stake' and exact dollar figures ($107K paid, $863K received, up to $3.46 billion foregone by 2025) for the Universal/Uber.com domain deal. Fortune's own on-the-record 2014 reporting, the most authoritative primary source found, is deliberately vaguer: it confirms the equity-for-domain mechanism and says Universal sold for \"a nominal profit\" and missed out on \"more than $100 million\", but does not state an exact percentage. The beats use only what Fortune itself confirms and do not repeat the unverified 2 percent figure.",
+      "palette": {
+        "bg": "#0C0C0E",
+        "ink": "#F3F3F5",
+        "accent": "#1FB6FF",
+        "muted": "#7A7A82"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "A cease-and-desist order is what actually killed the word \"Cab\".",
+          "text": "On 20 October 2010, the San Francisco Metro Transit Authority and the California Public Utilities Commission delivered UberCab a cease-and-desist order.",
+          "note": "The company was barely four months old; TechCrunch had covered its launch that July."
+        },
+        {
+          "kind": "statement",
+          "text": "The taxi industry's complaints were specific: no taxi licence, different insurance than licensed taxis, and pickups without the hour's advance booking the law required for limos.",
+          "note": "Real regulatory objections, not just a turf war."
+        },
+        {
+          "kind": "figure",
+          "value": "90",
+          "unit": "days",
+          "context": "potential jail time threatened for each day UberCab kept operating past the order, on top of a $5,000 fee per instance."
+        },
+        {
+          "kind": "statement",
+          "text": "The company didn't fight over the name. Within days, UberCab became simply Uber, on its website, its blog, and in a company comment reading \"more uber than cab\".",
+          "note": "CEO Ryan Graves told TechCrunch only that the company was working with the agencies to figure out their exact concerns."
+        },
+        {
+          "kind": "statement",
+          "text": "Because Uber was brand new, it paid for uber.com in company equity rather than cash: shares in a business barely worth anything yet.",
+          "note": "Universal Music Group held the domain from an unrelated failed venture, then sold its stake early. Fortune reported in 2014 the missed gain topped $100 million."
+        },
+        {
+          "kind": "sign",
+          "line": "Renamed within days of a cease-and-desist order. The domain deal cost someone else $100 million.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "great-fire-of-london-death-toll-1666",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Robert_Hubert: confirms Robert Hubert, a French watchmaker, falsely confessed to starting the Great Fire; that he first claimed Westminster and changed his story once told the fire never reached there; that he claimed to throw a fire grenade through the Farriner bakery's open window despite the bakery having no window and Hubert being judged too crippled to throw anything; that a captain of the Maid of Stockholm later testified he had landed Hubert in England two days after the fire started; and that Hubert was hanged at Tyburn on 27 October 1666, his body torn apart by a crowd before it could be handed over for dissection.",
+        "https://londonist.com/2016/08/is-it-true-that-only-six-people-died-in-the-great-fire: confirms the fire destroyed roughly four-fifths of London including about 13,200 houses, four of the City's seven gates and St Paul's Cathedral; the Monument's inscription (\"Merciless to the wealth and estates of the citizens, it was harmless to their lives\"); the identities described for several of the six officially recorded dead, including a maid at the Farriner bakery and three bodies mummified by heat inside St Paul's Cathedral; and the historians' disagreement over the true toll, with Adrian Tinniswood putting it \"in single figures\" and Neil Hanson arguing for \"several hundred, or quite possibly several thousand\", citing melted glass and iron found in the ruins as evidence the fire burned hotter than a modern crematorium."
+      ],
+      "verifiedNote": "Checked 21 Sep 2026. Sources disagree on the exact number of churches destroyed (87 in some tellings, 89 per Londonist's more detailed piece), so the church count was left out of the beats entirely rather than picking one number to state as fact. Presented the death toll as a live historians' disagreement (Tinniswood versus Hanson) rather than asserting either side, since Londonist's own reporting, the most detailed piece found, concludes the low official count is probably wrong but does not resolve by how much.",
+      "palette": {
+        "bg": "#140C08",
+        "ink": "#F7EDE0",
+        "accent": "#FF6B35",
+        "muted": "#8C7563"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The fire destroyed the city. The city's own monument insists it barely touched a life.",
+          "text": "The Great Fire of London began on 2 September 1666 and burned for four days, destroying roughly 80% of the walled city.",
+          "note": "It took four of the City's seven gates along with St Paul's Cathedral."
+        },
+        {
+          "kind": "figure",
+          "value": "13200",
+          "unit": "houses",
+          "context": "burned down in four days. The official death toll was six."
+        },
+        {
+          "kind": "statement",
+          "text": "The Monument to the fire still carries the line: \"Merciless to the wealth and estates of the citizens, it was harmless to their lives.\"",
+          "note": "The six recorded dead include a maid who could not escape the bakery where the fire started, and three bodies found mummified by heat inside St Paul's Cathedral."
+        },
+        {
+          "kind": "statement",
+          "text": "Historians disagree on whether six is real. Adrian Tinniswood puts the toll in single figures; Neil Hanson argues it was several hundred, or quite possibly several thousand.",
+          "note": "Hanson's case rests on melted glass and iron found in the ruins: evidence the fire burned hotter than a modern crematorium, hot enough to leave no remains at all."
+        },
+        {
+          "kind": "statement",
+          "text": "One death the toll does include is Robert Hubert, a French watchmaker who confessed to starting the fire and was hanged for it at Tyburn.",
+          "note": "He had changed his story once already, claiming Westminster before learning the fire never reached there, and a ship's captain later testified Hubert did not land in England until two days after it started."
+        },
+        {
+          "kind": "sign",
+          "line": "13,200 houses burned. The monument says six people died. Historians aren't convinced.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "romer-speed-of-light-1676",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/R%C3%B8mer%27s_determination_of_the_speed_of_light: confirms Ole Romer, working at the Royal Observatory in Paris, demonstrated in 1676 that light has a finite, measurable speed by timing eclipses of Jupiter's moon Io; that he estimated light takes about 22 minutes to cross the diameter of Earth's orbit; that this implies a speed of about 226,663 km/s, 24.4% lower than the true value of 299,792 km/s; and that Giovanni Domenico Cassini, the observatory's director, never fully accepted the theory even though it gained wider acceptance elsewhere."
+      ],
+      "verifiedNote": "Checked 21 Sep 2026 via Wikipedia's dedicated article on Romer's determination of the speed of light, which is itself sourced to AMNH and Optica (formerly OSA) historical write-ups. Used Romer's own 22-minute figure as the on-screen headline number rather than the derived km/s value, since it is the figure he actually stated and easier to hold in mind than 226,663; the km/s comparison against the modern value is given as supporting context in a separate beat instead.",
+      "palette": {
+        "bg": "#080B14",
+        "ink": "#E9EEF8",
+        "accent": "#5B8DEF",
+        "muted": "#6B7690"
+      },
+      "beats": [
+        {
+          "kind": "credit",
+          "year": "1676",
+          "name": "Ole Romer",
+          "role": "Danish astronomer at the Royal Observatory in Paris"
+        },
+        {
+          "kind": "statement",
+          "text": "Romer noticed that eclipses of Jupiter's moon Io ran early when Earth was closest to Jupiter, and late when it was furthest away.",
+          "note": "The gap was not Io's orbit changing: it was extra light needing extra distance to cross. Most scientists at the time assumed light travelled instantly."
+        },
+        {
+          "kind": "figure",
+          "value": "22",
+          "unit": "minutes",
+          "context": "how long Romer calculated light takes to cross the diameter of Earth's orbit around the Sun."
+        },
+        {
+          "kind": "statement",
+          "text": "His figures imply a speed of about 226,663 kilometres per second: roughly 24% slower than the true value of 299,792 km/s.",
+          "note": "He was off by a quarter. He was also the first person in history to prove light has a speed at all."
+        },
+        {
+          "kind": "statement",
+          "text": "Giovanni Cassini, the observatory's own director and the astronomer whose data Romer had used, never fully accepted the theory.",
+          "note": "It won support elsewhere in Europe well before Paris came around to it."
+        },
+        {
+          "kind": "sign",
+          "line": "He measured the speed of light in 1676 by watching a moon of Jupiter.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "pong-coin-box-overflow-1972",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pong: confirms Nolan Bushnell gave Allan Alcorn Pong as a secret warm-up exercise, telling him it was for a General Electric contract; that Alcorn had no prior video game experience; that a circuit defect left the paddles unable to reach the top of the screen and Alcorn kept it to limit play time; that the prototype used a $75 Hitachi black-and-white television; that it was installed at Andy Capp's Tavern in August 1972, and a few days after a fault was reported the cause proved to be the coin mechanism overflowing with quarters; that patrons came to the bar solely to play it; and that Pong consistently earned four times the revenue of other coin-operated machines."
+      ],
+      "verifiedNote": "Checked 24 Sep 2026 against Wikipedia's Pong article, whose Andy Capp's and coin-box details are cited to Steven Kent's The Ultimate History of Video Games and Alcorn's own interview. The popular retelling says the machine simply 'broke'; the source says the manager, Bill Gaddis, reported technical issues and the cause was the coin mechanism overflowing, so the beat says exactly that. Did not call Pong the first video game (it was not), did not name the bar's town (not in the source read), and left out the claim that banks refused funding over Mafia associations, which Wikipedia marks citation needed.",
+      "palette": {
+        "bg": "#0B0B0B",
+        "ink": "#F2F2F2",
+        "accent": "#FFD23F",
+        "muted": "#7A7A7A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Pong was never meant to be sold.",
+          "text": "Nolan Bushnell gave engineer Allan Alcorn the job as a secret warm-up exercise, telling him it was for a General Electric contract.",
+          "note": "Alcorn had never worked on a video game before."
+        },
+        {
+          "kind": "statement",
+          "text": "The paddles could not reach the top of the screen because of a defect in the circuit. Alcorn left it in on purpose.",
+          "note": "He reasoned that two skilled players could otherwise rally forever."
+        },
+        {
+          "kind": "credit",
+          "year": "1972",
+          "name": "Andy Capp's Tavern",
+          "role": "the bar where the prototype was tested, built around a $75 Hitachi television"
+        },
+        {
+          "kind": "statement",
+          "text": "A few days in, the bar's manager called Alcorn out to fix a fault. Nothing was broken: the coin mechanism was overflowing with quarters.",
+          "note": "People were coming to the bar solely to play it."
+        },
+        {
+          "kind": "figure",
+          "value": "4",
+          "unit": "times",
+          "context": "the revenue Pong consistently earned compared with other coin-operated machines."
+        },
+        {
+          "kind": "sign",
+          "line": "The first sign of a hit was a coin box too full to work.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "gulf-war-game-boy-1991",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nintendo_New_York: confirms the store's museum displayed a Game Boy owned by Dr Stephan Scoggins, a medic deployed in the Gulf War; that its front was burned and melted in his barracks during a bombing; that he sent it to Nintendo Power asking for a replacement; that technicians judged it a 'lost cause' but found it still powered on with Start and Select working, testing it with Tetris; that Nintendo Power sent him a replacement 'as a special Desert Storm courtesy' and ran his letter in issue 26 (July 1991); and that it was confirmed in 2023 to have been returned to Nintendo of America's headquarters in Redmond, Washington.",
+        "https://www.siliconera.com/the-gulf-war-game-boy-says-goodbye-to-nintendo-new-york-store-removed/: confirms the removal was reported on 29 to 30 June 2023 after a store worker said it had gone back to Redmond, and that the unit on display had received a screen replacement and new batteries when needed."
+      ],
+      "verifiedNote": "Checked 24 Sep 2026. The popular version says the Game Boy 'still works perfectly'; the sources say Nintendo's technicians called it a lost cause, only power, Start and Select were confirmed working, and the displayed unit later had its screen replaced. Did not repeat Siliconera's line that it stayed on 'for over 30 years': the store only opened in 2005, so that figure cannot be right. Did not claim it was hit by a bomb directly; the source says it was burned in his barracks during a bombing.",
+      "palette": {
+        "bg": "#12140C",
+        "ink": "#EEF0E2",
+        "accent": "#9BBC0F",
+        "muted": "#707458"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The Game Boy that 'survived a bomb' was declared a lost cause.",
+          "text": "Its front was burned and melted in its owner's barracks during a bombing in the Gulf War.",
+          "note": "Its owner, Stephan Scoggins, a medic deployed in the war, posted it to Nintendo Power asking for a replacement."
+        },
+        {
+          "kind": "statement",
+          "text": "Nintendo's technicians wrote it off, then found it still powered on. Start and Select still worked, so they tested it with Tetris.",
+          "note": "That is all the source confirms: not that every button and the screen survived."
+        },
+        {
+          "kind": "credit",
+          "year": "1991",
+          "name": "Nintendo Power issue 26",
+          "role": "printed his letter and sent him a new Game Boy 'as a special Desert Storm courtesy'"
+        },
+        {
+          "kind": "statement",
+          "text": "The scorched console went on show in Nintendo's New York store, switched on and playing Tetris.",
+          "note": "Keeping it running took new batteries and, at one point, a replacement screen."
+        },
+        {
+          "kind": "statement",
+          "text": "In 2023 a store worker confirmed it had been quietly sent back to Nintendo of America's headquarters in Redmond, Washington.",
+          "note": "It is unclear whether it will ever go back on show."
+        },
+        {
+          "kind": "sign",
+          "line": "The toughest Game Boy ever needed a new screen.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "samuel-checkers-machine-learning-1959",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Arthur_Samuel_(computer_scientist): confirms Arthur Samuel coined the term 'machine learning' in 1959; that he joined IBM in Poughkeepsie in 1949 and wrote a draughts (checkers) program on the IBM 701, IBM's first commercial computer; that the demonstration caused IBM's stock to rise 15 points overnight (cited to McCarthy and Feigenbaum's 1990 AI Magazine memoriam); that he implemented an early form of alpha-beta pruning because memory was so limited; that the program played thousands of games against itself; and that it reached a respectable amateur standard.",
+        "https://www.ibm.com/history/early-games: IBM's own history page confirms Samuel called the process 'machine learning', a term he coined; that in 1962 the program beat 'self-described checkers master' Robert Nealey; and that its subsequent record against human opponents was mixed."
+      ],
+      "verifiedNote": "Checked 24 Sep 2026. The popular version says Samuel's program beat a draughts champion. IBM's own history page calls Robert Nealey a 'self-described' master and says the program's later record against humans was mixed, and Wikipedia places it at respectable amateur level, so the video says that. Wikipedia flags one citation for the 1959 coinage as failed verification, but IBM's page independently credits Samuel with coining the term, so the claim stands. Left out his later TeX work: true but off topic.",
+      "palette": {
+        "bg": "#0A0F14",
+        "ink": "#E6EEF5",
+        "accent": "#3FA7FF",
+        "muted": "#667888"
+      },
+      "beats": [
+        {
+          "kind": "credit",
+          "year": "1959",
+          "name": "Arthur Samuel",
+          "role": "IBM engineer who coined the term 'machine learning'"
+        },
+        {
+          "kind": "statement",
+          "text": "He coined it to describe a draughts program, written for the IBM 701, that got better by remembering which positions led to wins.",
+          "note": "Memory was so tight he had to invent an early form of what is now called alpha-beta pruning."
+        },
+        {
+          "kind": "figure",
+          "value": "15",
+          "unit": "points",
+          "context": "how far IBM's share price rose overnight after the program was first demonstrated."
+        },
+        {
+          "kind": "statement",
+          "text": "It improved by playing thousands of games against itself.",
+          "note": "Samuel kept refining it until the mid-1970s."
+        },
+        {
+          "kind": "statement",
+          "text": "In 1962 it beat Robert Nealey. IBM's own history calls him only a 'self-described' checkers master.",
+          "note": "Its record against humans after that was mixed: a respectable amateur, not a world beater."
+        },
+        {
+          "kind": "sign",
+          "line": "Machine learning was named after a draughts program.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "chinook-never-beat-tinsley",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chinook_(computer_program): confirms Chinook was built at the University of Alberta by a team led by Jonathan Schaeffer; that all its knowledge was programmed by hand rather than learned; that it qualified for the World Championship by finishing second to Marion Tinsley at the 1990 US Nationals; that the governing bodies refused a computer entry until Tinsley resigned his title in protest; that Tinsley won their match with four wins to Chinook's two and 33 draws; that in 1994 Chinook became Man-Machine World Champion after six drawn games and Tinsley's withdrawal due to pancreatic cancer, without ever defeating him; and that the team's paper 'Checkers Is Solved' was published in Science on 19 July 2007, proving perfect play ends in a draw.",
+        "https://en.wikipedia.org/wiki/Marion_Tinsley: confirms Tinsley lost only seven games from 1950 until his death in 1995, two of them to Chinook; that the unofficial match was played in August 1992; that he was diagnosed with pancreatic cancer a week after the 1994 match; and that he died on 3 April 1995."
+      ],
+      "verifiedNote": "Checked 24 Sep 2026. The popular version says a computer beat the world draughts champion in 1994. It did not: all six games were drawn and Chinook took the title when Tinsley withdrew ill. Did not use the widely repeated anecdote that Tinsley saw a win 64 moves ahead: Wikipedia sources it, but the claim depends on how the database was read and felt too fragile for an on-screen fact. Did not state the 1992 match score as a world title match: it was an unofficial match after the federations refused.",
+      "palette": {
+        "bg": "#140B0B",
+        "ink": "#F6EAEA",
+        "accent": "#E8483C",
+        "muted": "#8C6A68"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The first program to win a world title against humans never beat the champion.",
+          "text": "Chinook, a draughts program from the University of Alberta, finished second to Marion Tinsley at the 1990 US Nationals.",
+          "note": "All of its knowledge was programmed by its creators rather than learned."
+        },
+        {
+          "kind": "statement",
+          "text": "The governing bodies refused to let a computer play for the world title, so Tinsley resigned his title in protest and played the match anyway.",
+          "note": "He won in 1992 with four wins to Chinook's two, and 33 draws."
+        },
+        {
+          "kind": "figure",
+          "value": "7",
+          "unit": "losses",
+          "context": "the total number of games Tinsley lost from 1950 until his death in 1995. Two of them were to Chinook."
+        },
+        {
+          "kind": "statement",
+          "text": "In their 1994 rematch, all six games were drawn. Then Tinsley withdrew, ill with pancreatic cancer, and Chinook was declared champion.",
+          "note": "He died the following April."
+        },
+        {
+          "kind": "statement",
+          "text": "In 2007 the same team proved that draughts, played perfectly by both sides, always ends in a draw.",
+          "note": "Published in Science as 'Checkers Is Solved'."
+        },
+        {
+          "kind": "sign",
+          "line": "The machine got the title. The man was never beaten.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "smart-goals-doran-1981",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/SMART_criteria: confirms the acronym was first proposed by George T. Doran in the November 1981 issue of Management Review (vol. 70, issue 11, pp. 35 to 36), in a paper titled 'There's a S.M.A.R.T. way to write management's goals and objectives'; that his original letters stood for Specific, Measurable, Assignable, Realistic and Time-related; that 'achievable' and 'relevant' are later substitutions; that SMART is linked to, not written by, Peter Drucker's management by objectives; and that Swann and colleagues criticise the framework's lack of theoretical or empirical foundation.",
+        "https://www.projectsmart.co.uk/smart-goals/brief-history-of-smart-goals.php: confirms Doran was a consultant and former Director of Corporate Planning for Washington Water Power Company, writing in Spokane, Washington; quotes his line that the acronym 'doesn't mean that every objective written will have all five criteria'; and notes his son Sean Doran confirmed the attribution to the site."
+      ],
+      "verifiedNote": "Checked 24 Sep 2026. Tried to read Doran's original scan directly but both PDF copies returned no machine-readable text, so his wording is taken from Project Smart's quotation, which matches the letter definitions in Wikipedia. Did not claim Drucker invented SMART, a common misattribution; Wikipedia only links it to his management by objectives. Did not use the Michigan State University 76% versus 43% figure: it concerns writing goals down and sharing progress, not SMART specifically.",
+      "palette": {
+        "bg": "#0D1210",
+        "ink": "#EAF3EE",
+        "accent": "#2FD98B",
+        "muted": "#6A7D73"
+      },
+      "beats": [
+        {
+          "kind": "credit",
+          "year": "1981",
+          "name": "George T. Doran",
+          "role": "consultant and former corporate planning director at Washington Water Power, writing in Spokane"
+        },
+        {
+          "kind": "statement",
+          "text": "In the original, the A did not mean Achievable. It meant Assignable: who is actually going to do it.",
+          "note": "Doran's five were Specific, Measurable, Assignable, Realistic and Time-related. Achievable and Relevant came later."
+        },
+        {
+          "kind": "figure",
+          "value": "2",
+          "unit": "pages",
+          "context": "the length of the Management Review article that introduced SMART, pages 35 and 36 of the November 1981 issue."
+        },
+        {
+          "kind": "statement",
+          "text": "Doran wrote that the acronym does not mean every objective will have all five criteria.",
+          "note": "Many people still assume all five are compulsory."
+        },
+        {
+          "kind": "statement",
+          "text": "Researchers reviewing its use in physical activity programmes have pointed out it was never built on theory or experimental evidence.",
+          "note": "It began as advice for managers writing objectives, not as a tested method."
+        },
+        {
+          "kind": "sign",
+          "line": "SMART goals were never meant to tick every box.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "morse-telegraph-underground-failure-1844",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Baltimore%E2%80%93Washington_telegraph_line: confirms Congress appropriated $30,000 in March 1843 for the line; that Morse first laid the wire underground using Ezra Cornell's plough, starting 21 October 1843, and stopped after about 9.5 miles because the line was failing; that he switched to overhead wire on about 700 chestnut poles from 1 April 1844; that on 1 May 1844 the unfinished line carried news of the Whig Party's nomination of Henry Clay; that 'What hath God wrought' was sent on 24 May 1844 from the Capitol to Alfred Vail in Baltimore, the phrase suggested by Annie Ellsworth; and that the Postmaster General judged the line unlikely ever to earn income, returning it to private development.",
+        "https://www.loc.gov/static/collections/samuel-morse-papers/articles-and-essays/invention-of-the-telegraph/: the Library of Congress confirms the underground wire failed because a partner, Congressman F. O. J. Smith, bought wire with defective insulation; that Cornell suggested stringing wire overhead; and that Morse's receiver recorded messages as dents in a moving paper tape."
+      ],
+      "verifiedNote": "Checked 24 Sep 2026. The popular version treats 'What hath God wrought' as the line's first message; Wikipedia records the Henry Clay nomination news crossing the unfinished line on 1 May, so the video says the famous message was the official opening, not the first use. Did not settle whether the message ends in a question mark: the Library of Congress prints one, other sources do not. Did not claim the message was heard as beeps: at the time it was embossed on paper tape.",
+      "palette": {
+        "bg": "#14110A",
+        "ink": "#F5EFE1",
+        "accent": "#D9A441",
+        "muted": "#857A62"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "America's first long-distance telegraph line was nearly buried.",
+          "text": "Morse started by laying the wire underground between Washington and Baltimore, using a plough built by Ezra Cornell.",
+          "note": "After about nine and a half miles, the line was failing. A partner had bought wire with defective insulation."
+        },
+        {
+          "kind": "statement",
+          "text": "Out of time, Morse took Cornell's advice and strung the wire overhead instead.",
+          "note": "Cooke and Wheatstone were already using poles in England."
+        },
+        {
+          "kind": "figure",
+          "value": "700",
+          "unit": "poles",
+          "context": "chestnut poles, about 300 feet apart, that replaced the buried pipe in the spring of 1844."
+        },
+        {
+          "kind": "statement",
+          "text": "On 1 May 1844, before the line was finished, it carried news of Henry Clay's nomination for president.",
+          "note": "'What hath God wrought', sent on 24 May, was the official opening, not the first message."
+        },
+        {
+          "kind": "statement",
+          "text": "The phrase was not even Morse's choice. It was suggested by Annie Ellsworth, from the Book of Numbers.",
+          "note": "It arrived in Baltimore as dents in a moving strip of paper, not as sound."
+        },
+        {
+          "kind": "sign",
+          "line": "The famous first message was not the first message.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
