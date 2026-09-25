@@ -41,6 +41,22 @@
     "compliance_check": "Checked programmatically against every string term in scripts/data/compliance-policy.json's halal section (prohibited, superstition, origins_patterns) across all slide text, title, caption and tags, using the same word-boundary matching as scripts/compliance/halal.mjs (a naive substring check first, then corrected to word-boundary: a naive pass wrongly flagged 'ham' inside the translator credit 'Abdullah Muhammad Basmeih', a false positive that word-boundary matching resolves, same as the project's own gate). No genuine hits. Pure typography, no imagery, so animate_imagery and context_review do not apply. House style: no em or en dashes, no emoji, UK spelling used throughout the caption."
   },
   "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-25/quran-49-13-slide-NN.png --props=daily/2026-09-25/blankdiscussions/quran-49-13.slide-NN.json (NN = 01..08), rendered on the Windows host via Desktop Commander, then converted to JPEG for Instagram.",
-  "status": "rendered_and_hosted",
-  "theme_note": "All 26 themes in THEME_ORDER were already used (aubergine-citrine most recently, by hadith-qudsi-11). Per the file's own comment, a 27th theme 'byzantium-sage' (bg #3A0D1F, ink #F1E9DC, accent #7FA66B, muted #6E4A57) was added to ThemeKey, THEMES and THEME_ORDER on 2026-09-25 for this post."
+  "status": "published",
+  "theme_note": "All 26 themes in THEME_ORDER were already used (aubergine-citrine most recently, by hadith-qudsi-11). Per the file's own comment, a 27th theme 'byzantium-sage' (bg #3A0D1F, ink #F1E9DC, accent #7FA66B, muted #6E4A57) was added to ThemeKey, THEMES and THEME_ORDER on 2026-09-25 for this post.",
+  "published": {
+    "mediaId": "17903916471590460",
+    "permalink": "https://www.instagram.com/p/DduXsSFnUA-/",
+    "publishedAt": "2026-09-25T20:57:22+0000",
+    "hostingUrls": [
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-25/blankdiscussions/renders/quran-49-13-slide-01.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-25/blankdiscussions/renders/quran-49-13-slide-02.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-25/blankdiscussions/renders/quran-49-13-slide-03.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-25/blankdiscussions/renders/quran-49-13-slide-04.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-25/blankdiscussions/renders/quran-49-13-slide-05.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-25/blankdiscussions/renders/quran-49-13-slide-06.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-25/blankdiscussions/renders/quran-49-13-slide-07.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-25/blankdiscussions/renders/quran-49-13-slide-08.jpg"
+    ],
+    "publishedVia": "Composio INSTAGRAM_POST_IG_USER_MEDIA (8 child containers, is_carousel_item=true) + INSTAGRAM_CREATE_CAROUSEL_CONTAINER (parent container 18108859457021458, built from the child ids rather than child_image_urls directly - INSTAGRAM_CREATE_CAROUSEL_CONTAINER's child_image_urls path failed on every attempt with a misleading 'multiple instagram accounts connected, specify account' error even with the account field correctly set, confirmed by isolating the same account field against INSTAGRAM_GET_USER_INFO and INSTAGRAM_POST_IG_USER_MEDIA, both of which honoured it fine; the children-ids path is the working workaround) + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH, account alias 'BlankDiscussions' (connection id instagram_willed-pried; the connection id in the standing task prompt, instagram_demob-runite, no longer matches a live connection - resolved by listing active instagram connections this session rather than assuming the stored id), ig_user_id 28477523595198052. Confirmed live via INSTAGRAM_GET_IG_MEDIA immediately after publish: media_type CAROUSEL_ALBUM, 8 children in the correct order, permalink present."
+  }
 }
