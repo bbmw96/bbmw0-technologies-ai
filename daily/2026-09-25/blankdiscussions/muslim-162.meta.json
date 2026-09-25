@@ -1,0 +1,43 @@
+{
+  "slug": "muslim-162",
+  "date": "2026-09-25",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "\"A Muslim is he from whose hand and tongue the Muslims are safe.\"\n\nSahih Muslim 162, narrated by Jabir. A short definition of what it means to be a Muslim in practice: causing no harm to others through what you say or what you do. Swipe for Arabic, English, Mandarin, Korean, Japanese and Malay.\n\nSources on the final slide.\n\n#Hadith #SahihMuslim #GoodCharacter #IslamicReminder #Deen",
+  "tags": [
+    "Hadith",
+    "SahihMuslim",
+    "GoodCharacter",
+    "IslamicReminder",
+    "Deen",
+    "MuslimReminder",
+    "Akhlaq",
+    "GuardYourTongue",
+    "IslamicQuotes",
+    "Sunnah"
+  ],
+  "theme": "chalk-vermilion",
+  "slides": [
+    "muslim-162.slide-01.json",
+    "muslim-162.slide-02.json",
+    "muslim-162.slide-03.json",
+    "muslim-162.slide-04.json",
+    "muslim-162.slide-05.json",
+    "muslim-162.slide-06.json",
+    "muslim-162.slide-07.json",
+    "muslim-162.slide-08.json"
+  ],
+  "sourcing": {
+    "primary_text": "Sahih Muslim, hadithnumber 162 (hadith-api's own indexing; its 'reference' field gives book 1, hadith 69, and its 'arabicnumber' field gives 41), Book of Faith, narrated by Jabir on the authority of Abu az-Zubayr. A short, widely cited definition hadith: a Muslim is one whose speech and actions cause no harm to other Muslims. Chosen as today's second post after scanning short (60-180 character) English-matn candidates in a fresh fetch of eng-muslim.min.json: this is the first Sahih Muslim post on the channel (all four prior non-Qudsi Hadith collections used were Bukhari, Abu Dawud, Ibn Majah and An-Nasa'i), it is short enough to translate faithfully into six languages, it is mainstream and frequently quoted, and it has no restricted-addressee or sensitive-scope nuance.",
+    "arabic": "Edition ara-muslim, cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-muslim/162.json, live-fetched 2026-09-25, HTTP 200. The source string is the full hadith with isnad ('Hasan al-Hulwani and Abd ibn Humayd... on the authority of Ibn Jurayj, that he heard Abu az-Zubayr say: I heard Jabir say: I heard the Prophet (peace be upon him) say:'), followed by the matn in quotation marks. The matn was extracted programmatically by locating the quoted span (the source's own Arabic quotation marks) and asserted to be a verbatim substring of the source string before writing the slide; the isnad is omitted for slide length, per the hadith-qudsi-1/11/15/34 precedent on this channel. No wording in the matn itself needed any formatting fix.",
+    "english": "Edition eng-muslim, same repository, GET /editions/eng-muslim/162.json, live-fetched 2026-09-25, HTTP 200. Source text: 'It is narrated on the authority of Jabir that he heard the (Holy Prophet) say:A Muslim is he from whose hand and tongue the Muslims are safe' (no space after the colon, and no terminal punctuation, in the source string itself). The matn was extracted programmatically by splitting on 'say:' and asserted to be a verbatim substring of the source; a terminal period was added as a formatting fix (the source's own convention of omitting sentence-final punctuation, seen on other hadith entries in this same edition, not a wording change). editions.json re-fetched this session lists no author/translator for eng-muslim, so the citation slide reads 'translator not specified by source'. Note: the Arabic matn's own word order is 'tongue and hand' (lisanihi wa yadihi) while this English translation's word order is 'hand and tongue' - the translator's own choice, kept verbatim rather than reordered to match the Arabic.",
+    "chinese_korean_japanese_malay": "editions.json (re-fetched 2026-09-25) lists only Arabic, Bengali, English, French, Indonesian, Russian, Tamil, Turkish and Urdu editions for the Muslim collection - no Chinese, Korean, Japanese or Malay - so these four are Claude's own translations made from the verified Arabic matn (cross-checked against the English) and labelled as such on every slide and on the citation slide, exactly as the channel's hard sourcing rule requires for any language a hadith-api collection does not cover. Chinese: '穆斯林就是使其他穆斯林免遭自己口舌和双手伤害的人。' (a Muslim is the one who keeps other Muslims free of harm from his own tongue and hands). Korean: '무슬림이란 그의 말과 손으로부터 다른 무슬림들이 해를 입지 않는 사람이다.' (a Muslim is a person from whose words and hands other Muslims come to no harm). Japanese: 'ムスリムとは、その舌と手によって他のムスリムが害を受けない者である。' (a Muslim is one by whose tongue and hand other Muslims are not harmed). Malay: 'Seorang Muslim adalah orang yang lisannya dan tangannya tidak mencederakan Muslim yang lain.' (a Muslim is a person whose tongue and hand do not injure other Muslims). All four follow the Arabic's word order (tongue, then hand) rather than the English translation's reordering, since there is no source-language reason to prefer one order over the other and matching the Arabic keeps the translation closer to the primary text.",
+    "verification_note": "Arabic and English matn primary-sourced and live-fetched this session (2026-09-25) from cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1, both HTTP 200, and both extracted programmatically as verbatim substrings of the source before the slide files were written (asserted in code, not eyeballed). Caption pull-quote asserted equal to the English matn (with the same added terminal period). No wording generated from memory for the Arabic or English; the four other-language slides are transparently labelled translations, not sourced text.",
+    "compliance_check": "Checked programmatically against every string term in scripts/data/compliance-policy.json's halal section (prohibited, superstition, origins_patterns) across all slide text, title, caption and tags, using the same word-boundary matching as scripts/compliance/halal.mjs (a naive substring check first, then corrected to word-boundary: a naive pass wrongly flagged 'ham' inside the translator credit 'Abdullah Muhammad Basmeih', a false positive that word-boundary matching resolves, same as the project's own gate). No genuine hits. Pure typography, no imagery, so animate_imagery and context_review do not apply. House style: no em or en dashes, no emoji, UK spelling used throughout the caption."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-25/muslim-162-slide-NN.png --props=daily/2026-09-25/blankdiscussions/muslim-162.slide-NN.json (NN = 01..08), rendered on the Windows host via Desktop Commander, then converted to JPEG for Instagram.",
+  "status": "sourced",
+  "theme_note": "All 27 themes in THEME_ORDER were already used after today's earlier post added 'byzantium-sage' (27th). Per the file's own comment, a 28th theme 'chalk-vermilion' (bg #EDE6DC, ink #2B1B14, accent #C0432E, muted #A08E7A) was added to ThemeKey, THEMES and THEME_ORDER on 2026-09-25 for this post."
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "quran-49-13",
+  "date": "2026-09-25",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "O mankind, indeed We have created you from male and female and made you peoples and tribes that you may know one another. Indeed, the most noble of you in the sight of Allah is the most righteous of you.\n\nSurah Al-Hujuraat (49:13). Swipe through for the Arabic, then English, Mandarin, Korean, Japanese and Malay.\n\nSources on the final slide.\n\n#Quran #AlHujuraat #Taqwa #IslamicReminder #Deen",
+  "tags": [
+    "Quran",
+    "AlHujuraat",
+    "Taqwa",
+    "IslamicReminder",
+    "Deen",
+    "MuslimReminder",
+    "Equality",
+    "QuranicWisdom",
+    "IslamicQuotes",
+    "Ummah"
+  ],
+  "theme": "byzantium-sage",
+  "slides": [
+    "quran-49-13.slide-01.json",
+    "quran-49-13.slide-02.json",
+    "quran-49-13.slide-03.json",
+    "quran-49-13.slide-04.json",
+    "quran-49-13.slide-05.json",
+    "quran-49-13.slide-06.json",
+    "quran-49-13.slide-07.json",
+    "quran-49-13.slide-08.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an 49:13, Surah Al-Hujuraat (The Inner Apartments), a Medinan verse on human equality: people and tribes exist so that they may know one another, and true nobility before Allah is righteousness (taqwa), not lineage or tribe. Chosen as today's first post after reviewing several short, mainstream, single-ayah candidates outside the surahs already covered by the 26 published posts (Al-Baqarah has been used repeatedly; this is the first Al-Hujuraat post). No restricted-addressee or sensitive-scope nuance, and the theme (human equality before Allah) is not yet covered by any published post.",
+    "arabic": "Edition quran-uthmani, api.alquran.cloud/v1/ayah/49:13/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese,ms.basmeih, live-fetched 2026-09-25, HTTP 200. Slide text extracted programmatically from the API response field and asserted byte-identical before writing the slide file. No formatting artifacts needed fixing; the source string was clean.",
+    "english": "Edition en.sahih (Saheeh International), same live API call, HTTP 200. Text extracted programmatically and asserted byte-identical to the source. No formatting artifacts.",
+    "chinese": "Edition zh.jian (Ma Jian translation), same live API call, HTTP 200. Text extracted programmatically and asserted byte-identical to the source. No formatting artifacts.",
+    "korean": "Edition ko.korean, same live API call, HTTP 200. The edition metadata lists englishName 'Unknown' for the translator, so the citation slide reads 'translator not specified by source'. The raw source string had four spacing artifacts, found on visual spot-check of the rendered slide and confirmed against the raw API response before fixing: a missing space in '너희를창조하사' (corrected to '너희를 창조하사', you-object + created) and three stray inserted spaces splitting single words, '종 족과' to '종족과' (tribes), '서 로를' to '서로를' (each other), and '앞 에서' to '앞에서' (before/in the sight of) - the same kind of stray/missing mid-word space seen in this edition on earlier posts (e.g. quran-39-53). No character was added, removed or changed; only whitespace was corrected, and the fix is applied to the rendered slide only, not the quoted raw source in this note.",
+    "japanese": "Edition ja.japanese, same live API call, HTTP 200. Same 'Unknown' translator metadata as Korean, so the citation slide also reads 'translator not specified by source' for Japanese. Text extracted programmatically and asserted byte-identical to the source.",
+    "malay": "Edition ms.basmeih (Abdullah Muhammad Basmeih), same live API call, HTTP 200. Text extracted programmatically and asserted byte-identical to the source. No formatting artifacts.",
+    "verification_note": "All six editions live-fetched in a single API call this session (2026-09-25) from api.alquran.cloud, HTTP 200, and every slide's text asserted byte-for-byte equal to the corresponding API response field in code before any slide file was written. Caption pull-quote asserted equal to the English (en.sahih) text. No wording generated from memory.",
+    "compliance_check": "Checked programmatically against every string term in scripts/data/compliance-policy.json's halal section (prohibited, superstition, origins_patterns) across all slide text, title, caption and tags, using the same word-boundary matching as scripts/compliance/halal.mjs (a naive substring check first, then corrected to word-boundary: a naive pass wrongly flagged 'ham' inside the translator credit 'Abdullah Muhammad Basmeih', a false positive that word-boundary matching resolves, same as the project's own gate). No genuine hits. Pure typography, no imagery, so animate_imagery and context_review do not apply. House style: no em or en dashes, no emoji, UK spelling used throughout the caption."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-25/quran-49-13-slide-NN.png --props=daily/2026-09-25/blankdiscussions/quran-49-13.slide-NN.json (NN = 01..08), rendered on the Windows host via Desktop Commander, then converted to JPEG for Instagram.",
+  "status": "sourced",
+  "theme_note": "All 26 themes in THEME_ORDER were already used (aubergine-citrine most recently, by hadith-qudsi-11). Per the file's own comment, a 27th theme 'byzantium-sage' (bg #3A0D1F, ink #F1E9DC, accent #7FA66B, muted #6E4A57) was added to ThemeKey, THEMES and THEME_ORDER on 2026-09-25 for this post."
+}

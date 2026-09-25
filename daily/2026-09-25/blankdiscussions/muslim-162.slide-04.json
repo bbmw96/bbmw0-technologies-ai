@@ -1,0 +1,9 @@
+{
+  "kind": "text",
+  "theme": "chalk-vermilion",
+  "lang": "zh",
+  "text": "穆斯林就是使其他穆斯林免遭自己口舌和双手伤害的人。",
+  "note": "Claude's own translation (hadith-api has no Chinese edition)",
+  "slideNumber": 4,
+  "slideTotal": 8
+}

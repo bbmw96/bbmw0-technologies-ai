@@ -1,0 +1,9 @@
+{
+  "kind": "text",
+  "theme": "chalk-vermilion",
+  "lang": "ko",
+  "text": "무슬림이란 그의 말과 손으로부터 다른 무슬림들이 해를 입지 않는 사람이다.",
+  "note": "Claude's own translation (hadith-api has no Korean edition)",
+  "slideNumber": 5,
+  "slideTotal": 8
+}

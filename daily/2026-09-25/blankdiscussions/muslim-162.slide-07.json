@@ -1,0 +1,9 @@
+{
+  "kind": "text",
+  "theme": "chalk-vermilion",
+  "lang": "ms",
+  "text": "Seorang Muslim adalah orang yang lisannya dan tangannya tidak mencederakan Muslim yang lain.",
+  "note": "Claude's own translation (hadith-api has no Malay edition)",
+  "slideNumber": 7,
+  "slideTotal": 8
+}

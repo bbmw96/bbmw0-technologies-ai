@@ -1,0 +1,9 @@
+{
+  "kind": "text",
+  "theme": "chalk-vermilion",
+  "lang": "ja",
+  "text": "ムスリムとは、その舌と手によって他のムスリムが害を受けない者である。",
+  "note": "Claude's own translation (hadith-api has no Japanese edition)",
+  "slideNumber": 6,
+  "slideTotal": 8
+}
