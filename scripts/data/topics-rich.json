@@ -9379,6 +9379,315 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "paul-revere-not-british-are-coming",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Paul_Revere%27s_midnight_ride — read in full 25 Sep 2026. Confirms Revere set out on the night of 18 April 1775, that he was intercepted by a British Army patrol in Lincoln, Massachusetts before reaching Concord, that the officers took his horse and released him to walk to Lexington, that his own warning is reconstructed as some form of 'The Regulars are coming out' rather than 'The British are coming' (colonists still considered themselves British subjects, so the phrase would have made little sense), and that of the three riders that night — Revere, William Dawes and Samuel Prescott — only Prescott actually reached Concord.",
+        "https://en.wikipedia.org/wiki/Samuel_Prescott — read in full 25 Sep 2026. Corroborates that Prescott, a doctor who happened to join Revere and Dawes on the road around 1am on 19 April, was 'the only participant in the ride to reach Concord'; when the British patrol stopped the group, Prescott jumped his horse over a stone wall, escaped through woods and swampland, alerted the Hartwell family en route, then reached Concord where the church bell was rung, and went on to spread the alarm further to Acton and Stow.",
+        "https://www.americanhistorycentral.com/entries/paul-revere/ — read in full 25 Sep 2026. Quotes Revere's own account of the capture directly: 'Out started six officers, seized my bridle, put their pistols to my breast...'. Notes that Revere's story was popularised decades later by Longfellow's 1860s poem, and does not itself claim any specific phrase Revere shouted — it neither confirms nor repeats 'The British are coming', which is the detail this entry corrects."
+      ],
+      "verifiedNote": "Checked 25 Sep 2026 against three sources, read in full. No recording or transcript of Revere's exact spoken words to the countryside survives; 'The Regulars are coming out' is the standard historians' reconstruction (used on the main Wikipedia account of the ride) rather than a verbatim quote, and the entry treats it that way rather than putting it in quotation marks as his exact words. What is directly quoted is Revere's own 1798 letter describing his capture, which the americanhistorycentral.com source transcribes. Deliberately not claimed: an exact wording for what Revere called out door to door, since no such record exists — the entry's firm claim is only the negative one, that 'the British are coming' is not it, which all sources agree on either explicitly or by omission. Figure beat uses the plain count of riders (3) against how many reached Concord (1), which earns the emphasis; the capture location and exact timings are left in prose.",
+      "palette": {
+        "bg": "#0D0E12",
+        "ink": "#F0EEE6",
+        "accent": "#B8433A",
+        "muted": "#7D7A72"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Everyone knows the line",
+          "text": "\"The British are coming!\"",
+          "note": "Paul Revere almost certainly never said it. In April 1775 the colonists still considered themselves British subjects — shouting that word to warn them would have made little sense."
+        },
+        {
+          "kind": "credit",
+          "year": "1775",
+          "name": "Paul Revere",
+          "role": "Rode out from Boston on the night of 18 April to warn that army regulars were marching on Lexington and Concord. His actual warning is reconstructed as something closer to 'The Regulars are coming out.'"
+        },
+        {
+          "kind": "statement",
+          "lead": "He never finished the ride",
+          "text": "A British patrol stopped him before he reached Concord.",
+          "note": "Six officers surrounded him near Lincoln, Massachusetts. In his own 1798 letter he wrote: 'Out started six officers, seized my bridle, put their pistols to my breast...' They took his horse and let him walk back to Lexington."
+        },
+        {
+          "kind": "figure",
+          "value": "3",
+          "unit": "riders",
+          "context": "Revere, William Dawes, and a doctor named Samuel Prescott who'd joined them on the road. Dawes was thrown from his horse. Revere was captured. Only Prescott jumped a stone wall, rode through the woods, and actually reached Concord."
+        },
+        {
+          "kind": "kicker",
+          "text": "The line everyone remembers came from a poem, written 85 years later, by a man who wasn't there."
+        },
+        {
+          "kind": "sign",
+          "line": "The ride is real. The quote is Longfellow's.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "berlin-wall-schabowski-mistake",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/G%C3%BCnter_Schabowski — read in full 25 Sep 2026. Confirms that on 9 November 1989, East German Politburo member Egon Krenz handed Schabowski a note on new, not-yet-effective travel regulations shortly before a press conference; that when asked when the rules took effect, Schabowski, working from the note without a full briefing, answered 'As far as I know... effective immediately, without delay' (German: 'Das tritt nach meiner Kenntnis... ist das sofort... unverzüglich'); and that after West German television broadcast this as the Wall opening, thousands of East Berliners gathered at border crossings that night, and at 23:30 a Stasi officer at the Bornholmer Straße crossing opened the gate without orders from above.",
+        "https://worldhistorycommons.org/gunter-schabowski-press-conference — read in full 25 Sep 2026. Corroborates the same sequence: the draft regulation handed to Schabowski that day, his uncertain, papers-shuffling answer that the rules were in effect 'immediately, without delay,' the West German media's report that the Wall itself was opening, and the border guards opening the crossings that night without instructions after crowds gathered, unable to hold the line."
+      ],
+      "verifiedNote": "Checked 25 Sep 2026 against two independently read sources that agree on the sequence and the German phrase quoted. Deliberately not claimed as settled fact: a minority historical argument (raised in a 2014 Conversation piece not used as a source here, since it complicates rather than confirms the core claim) that Schabowski's answer was less of an innocent slip than his reputation suggests — the two sources used here both describe it as an unbriefed, uncertain answer, which is the version this entry tells. No figure beat: the exact time (23:30) and the border-crossing name are specific enough to be worth stating but do not need 300px enlargement, so they stay in prose.",
+      "palette": {
+        "bg": "#0A0B0D",
+        "ink": "#EDEDED",
+        "accent": "#3D6EB0",
+        "muted": "#7A7D82"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The story goes that East Germany decided to open the Berlin Wall",
+          "text": "It didn't. One man's mistake at a press conference did.",
+          "note": "On 9 November 1989, a Politburo spokesman was handed a note on new travel rules minutes before facing reporters, with no time to be briefed on it properly."
+        },
+        {
+          "kind": "credit",
+          "year": "1989",
+          "name": "Günter Schabowski",
+          "role": "East German Politburo spokesman. Read from a note he barely understood, live, in front of the world's press."
+        },
+        {
+          "kind": "statement",
+          "lead": "A reporter asked the obvious question",
+          "text": "\"When does this take effect?\"",
+          "note": "Schabowski shuffled his papers, looked uncertain, then said: 'As far as I know — immediately, without delay.' The rules weren't due to start until 4am the next morning."
+        },
+        {
+          "kind": "statement",
+          "lead": "West German television broadcast it as fact",
+          "text": "By nightfall, thousands stood at the checkpoints demanding to cross.",
+          "note": "Border guards had no orders for this. No shots, no directive from above — just a crowd too large to hold back."
+        },
+        {
+          "kind": "kicker",
+          "text": "At 11:30pm, a single guard at Bornholmer Straße opened the gate. Nobody above him had decided to."
+        },
+        {
+          "kind": "sign",
+          "line": "The Wall didn't fall by decision. It fell by mistake.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "hello-world-kernighan-1972",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/%22Hello,_World!%22_program — read in full 25 Sep 2026. Confirms the earliest documented appearance of the program is Brian Kernighan's 1972 internal Bell Labs tutorial 'A Tutorial Introduction to the Language B', quotes its exact code (main( ) { extrn a, b, c; putchar(a); putchar(b); putchar(c); putchar('!*n'); } a 'hell'; b 'o, w'; c 'orld';), and explains the phrase was split across three variables because a character constant in B was limited to four ASCII characters. It further states that the far more famous version — printf(\"hello, world\"); in Kernighan and Ritchie's 1978 book The C Programming Language — was itself 'inherited from a 1974 Bell Laboratories internal memorandum' also written by Kernighan, titled 'Programming in C: A Tutorial'."
+      ],
+      "verifiedNote": "Checked 25 Sep 2026 against one source, Wikipedia's dedicated article on the program, which quotes the original 1972 code directly and cites the 1974 memorandum by name; a second, independent primary reading of the 1972 B tutorial itself or the 1974 memo was not obtained, so this stands as a single well-documented source rather than two independently read ones, flagged rather than hidden. Deliberately not claimed: that Kernighan personally confirmed in an interview that he coined the phrase — the sources here present it as documentary fact from the tutorials themselves, not as something drawn from his own retrospective account. The code beat quotes the actual 1972 B source exactly as Wikipedia renders it, including the period-accurate '!*n' newline escape, which predates C's backslash-n.",
+      "palette": {
+        "bg": "#0C0C0C",
+        "ink": "#EDEDE8",
+        "accent": "#E8A33D",
+        "muted": "#82807A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Every programmer's first program says the same thing",
+          "text": "It didn't start in C.",
+          "note": "'Hello, world' is inseparable from Kernighan and Ritchie's 1978 C book. Kernighan had already written it six years earlier, for a language almost nobody remembers."
+        },
+        {
+          "kind": "credit",
+          "year": "1972",
+          "name": "Brian Kernighan",
+          "role": "Wrote a tutorial for a language called B, a direct predecessor to C. It included a short program with one job: print a greeting to the terminal."
+        },
+        {
+          "kind": "code",
+          "chars": "a 'hell'; b 'o, w'; c 'orld';",
+          "caption": "Split into three pieces on purpose."
+        },
+        {
+          "kind": "statement",
+          "lead": "Why split it up",
+          "text": "B could only hold four characters at a time.",
+          "note": "A character constant in B was limited to four ASCII characters, so 'hello, world' had to be broken into three variables and printed one after another."
+        },
+        {
+          "kind": "statement",
+          "lead": "The version everyone knows came later",
+          "text": "And it had already been used for two years before the famous book.",
+          "note": "Kernighan reused the phrase in a 1974 Bell Labs internal memo, 'Programming in C: A Tutorial' — four years before The C Programming Language made it the standard first line of code for everyone after."
+        },
+        {
+          "kind": "sign",
+          "line": "The most copied program in computing started as a workaround.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "instagram-burbn-pivot",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Instagram — read in full 25 Sep 2026. Confirms Instagram began as 'Burbn', a mobile check-in app built by Kevin Systrom and Mike Krieger; that they refocused it on photo-sharing because it was 'too similar to Foursquare' and photos had become the popular feature; that the name Instagram is a portmanteau of 'instant camera' and 'telegram'; that the iOS app launched 6 October 2010; and that it reached roughly one million registered users within about two months.",
+        "https://www.startuparchive.org/p/how-kevin-systrom-pivoted-a-failed-check-in-app-into-instagram — read in full 25 Sep 2026. Corroborates and adds detail: Burbn peaked at around 100 users after three months; Systrom and Krieger identified photo-sharing as 'the only thing that felt like a greenfield opportunity — everything else felt crowded'; and Kevin's wife told him people hesitated to post because their photos 'didn't look as good as everyone else's', which led directly to Instagram's first filter, X-Pro II."
+      ],
+      "verifiedNote": "Checked 25 Sep 2026 against two independently read sources that agree on the Burbn-to-Instagram sequence, the ~100-user figure, and the filter origin story. Deliberately not claimed: an exact funding amount raised for Burbn, since neither source read here gives one. The figure beat uses the 100-user count rather than the later 1-million milestone, because 100 is the number that needed sourcing to be believed; the million-user contrast is carried in the kicker's prose instead of a second figure beat, per the rule that a figure should earn its size rather than exist because the beat slot is open.",
+      "palette": {
+        "bg": "#120E14",
+        "ink": "#F5F0F5",
+        "accent": "#C13584",
+        "muted": "#857F87"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Instagram wasn't built as a photo app",
+          "text": "It started as a location check-in app called Burbn.",
+          "note": "Kevin Systrom and Mike Krieger built it in San Francisco to compete with Foursquare — check-ins, plans with friends, points for going out. Photos were just one feature, buried among many."
+        },
+        {
+          "kind": "figure",
+          "value": "100",
+          "unit": "users",
+          "context": "How many people Burbn had after three months. By most measures, it was already failing."
+        },
+        {
+          "kind": "statement",
+          "lead": "So they looked at what people actually used it for",
+          "text": "Almost nobody cared about check-ins. Everyone shared photos.",
+          "note": "Systrom and Krieger stripped out everything else and rebuilt the whole app around the one feature people kept coming back for."
+        },
+        {
+          "kind": "statement",
+          "lead": "One thing still stood in the way",
+          "text": "People didn't think their photos looked good enough to post.",
+          "note": "Kevin's wife told him that was the real reason people hesitated. His answer became Instagram's first filter, X-Pro II."
+        },
+        {
+          "kind": "kicker",
+          "text": "The app launched as Instagram on 6 October 2010. Two months later it had a million users — the same idea that, as Burbn, had never broken a hundred."
+        },
+        {
+          "kind": "sign",
+          "line": "A failed check-in app, one feature away from Instagram.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "oregon-trail-1971-teletype",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Oregon_Trail_(1971_video_game) — read in full 25 Sep 2026. Confirms the original game was written by three Carleton College student teachers, Don Rawitsch, Bill Heinemann and Paul Dillenberger, at Jordan Junior High School in Minneapolis; that it ran on an HP 2100 minicomputer accessed via teleprinter, coded in HP Time-Shared BASIC; that it first ran for Rawitsch's history class on 3 December 1971; that it was deleted from the district's mainframe at the end of the semester; and that Rawitsch recreated it in 1974 after joining the Minnesota Educational Computing Consortium (MECC), which distributed it over its time-sharing network to Minnesota schools from 1975.",
+        "https://www.the74million.org/article/oregon-trail-at-50-how-three-teachers-created-the-computer-game-that-inspired-and-diverted-generations-of-students/ — read in full 25 Sep 2026. Adds that the game took roughly 10 to 14 days to build, coded at a teletype at Bryant Junior High 'in a cramped anteroom next to the janitor's closet'; that Rawitsch, 21 at the time, originated the concept from a butcher-paper map game; that the original ran to roughly 800 lines of BASIC with hunting mini-games requiring players to type words like 'BANG' quickly; and quotes Paul Dillenberger's own joke about what the game earned him: 'I got a jean jacket and a copy of the game instead of owning an island somewhere.'"
+      ],
+      "verifiedNote": "Checked 25 Sep 2026 against two independently read sources that agree on the creators, the 1971 date, the deletion of the original code, and the 1974 MECC rewrite. Deliberately not claimed: that the iconic 'You have died of dysentery' wording appeared in the 1971 original — both sources describe dysentery as one of several period-accurate hazards (also snake bites, broken wheels, fog), and the specific phrasing became fixed in later MECC versions, so the entry treats dysentery as one of the game's original hazards without asserting the exact death message dates to 1971. No figure beat: line counts and day counts are specific but not the kind of number the video should render at 300px, so they stay in prose.",
+      "palette": {
+        "bg": "#0D0F0B",
+        "ink": "#EFEDE3",
+        "accent": "#7A8F4A",
+        "muted": "#7D7C6E"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Generations know the death message",
+          "text": "\"You have died of dysentery.\"",
+          "note": "The game that made it famous started as a homework deadline, not a design plan."
+        },
+        {
+          "kind": "credit",
+          "year": "1971",
+          "name": "Rawitsch, Heinemann and Dillenberger",
+          "role": "Three student teachers at a Minneapolis junior high, building from a butcher-paper map game Rawitsch had used to teach a history unit."
+        },
+        {
+          "kind": "statement",
+          "lead": "They had about two weeks",
+          "text": "Coded at a teleprinter next to the janitor's closet.",
+          "note": "Working on a shared HP 2100 minicomputer, they wrote roughly 800 lines of BASIC, finishing just in time for Rawitsch's class to play it on 3 December 1971."
+        },
+        {
+          "kind": "statement",
+          "lead": "Then the school deleted it",
+          "text": "The original code didn't survive the semester.",
+          "note": "District policy wiped the mainframe afterward. Rawitsch rebuilt the game from memory three years later after joining Minnesota's educational computing agency — and that rewrite is the version that spread to schools everywhere."
+        },
+        {
+          "kind": "kicker",
+          "text": "Paul Dillenberger's own summary of what the game earned him: 'a jean jacket and a copy of the game, instead of owning an island somewhere.'"
+        },
+        {
+          "kind": "sign",
+          "line": "A two-week homework project became one of the best-known games ever made.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "imagenet-mechanical-turk",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/ImageNet — read in full 25 Sep 2026. Confirms Fei-Fei Li began the ImageNet project in 2006; that the completed dataset held 14,197,122 images across 21,841 categories, scaled back from an original, unattainable target of 40,000 categories and 400 million images; that images were labelled using Amazon Mechanical Turk from July 2008 to April 2010, using 49,000 workers from 167 countries, with each image labelled multiple times; that the dataset was first presented as a poster at CVPR 2009; and that the resulting ILSVRC competition and AlexNet's 2012 win on it (15.3% top-5 error) catalysed the deep-learning boom.",
+        "https://qz.com/1034972/the-data-that-changed-the-direction-of-ai-research-and-possibly-the-world — read in full 25 Sep 2026. Corroborates the Mechanical Turk labelling effort and adds detail: Li's insight that 'the best algorithm wouldn't work well if the data it learned from didn't reflect the real world'; that PhD students Jia Deng and Olga Russakovsky ran much of the labelling operation; that simple categories needed as few as two labellers while difficult ones, such as distinguishing miniature huskies, needed up to ten rounds of validation; and that the team built statistical models of individual Turkers' behaviour to catch cheating or errors."
+      ],
+      "verifiedNote": "Checked 25 Sep 2026 against two independently read sources that agree on the worker count, the country count, the labelling window, and the final dataset size. Deliberately not claimed: any specific pay rate for the Mechanical Turk workers, since neither source read here states one. The figure beat uses the worker count (49,000) rather than the image count (14,197,122), because a seven-figure number would not render legibly at 300px and the point — how much human labour this took — is carried just as well by the smaller figure; the full image count is instead stated in prose in the following beat.",
+      "palette": {
+        "bg": "#0F0D14",
+        "ink": "#F0EEF5",
+        "accent": "#5B8FD9",
+        "muted": "#827E93"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The 2012 breakthrough that started the deep-learning boom",
+          "text": "needed millions of images labelled by hand first.",
+          "note": "AlexNet gets the credit. The dataset it was trained on took human beings years to build."
+        },
+        {
+          "kind": "credit",
+          "year": "2006",
+          "name": "Fei-Fei Li",
+          "role": "Set out to build a dataset mapping images to the tens of thousands of categories in WordNet — a project other researchers thought was hopeless at that scale."
+        },
+        {
+          "kind": "figure",
+          "value": "49,000",
+          "unit": "workers",
+          "context": "People hired through Amazon Mechanical Turk, across 167 countries, spending nearly two years labelling and cross-checking millions of images."
+        },
+        {
+          "kind": "statement",
+          "lead": "Some images needed more checking than others",
+          "text": "A cat might need two opinions. A miniature husky needed ten.",
+          "note": "The team built statistical models of how individual Turkers behaved just to catch the ones cutting corners or getting it wrong."
+        },
+        {
+          "kind": "statement",
+          "lead": "What all that labour produced",
+          "text": "14,197,122 images across 21,841 categories.",
+          "note": "First shown as a poster at a computer vision conference in 2009. Three years later, it was the training data behind AlexNet's win — and the moment computer vision changed."
+        },
+        {
+          "kind": "sign",
+          "line": "The algorithm got the headlines. The dataset made it possible.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
     }
   ]
 }
