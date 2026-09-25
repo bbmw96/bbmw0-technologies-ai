@@ -95,6 +95,35 @@
         "publicVideos": 86
       },
       "note": "reelsLive not recomputed against published.json this snapshot (left null rather than carried-forward or guessed); every recent title on both channels reads as Reel-format (statement-style hooks), consistent with --reels-only being unconditional since 16 Aug, so the prior snapshots' reelsLive undercounts are likely stale rather than this being a regression. Subscribers moved from a combined 2 to 4 and views from 635 to 1868; still far too small a base for a trend, but the direction is up on both channels, not flat. yt-bbmw0 publicVideos rose 62 to 73 (11 net new public videos in 9 days, after cleanup unlisting is netted out) and is actively publishing today. yt-bbm0902 publicVideos is UNCHANGED at 13 (matched exactly against the 2026-09-01 snapshot) and its most recent upload was 2026-09-06, four days before this read: this is the topic-stock exhaustion already flagged in the daily-shorts-real-cadence memory (yt-bbm0902 down to 1 unused topic total across all 5 niches as of today, 4 of 5 niches at literal zero), not a publishing or auth failure — confirmed independently here by the flat videoCount and stale upload date lining up exactly with that diagnosis. This is the single highest-priority item for the next research pass on this project, ahead of any other channel. NOTE: this exact entry was written once already earlier in this session and then found reverted back to the two-snapshot state on a subsequent read, with no edit conflict reported (the file read back as byte-identical to the pre-edit version, not a different edit layered on top) — almost certainly the same OneDrive cloud-sync visibility lag already documented in cleanup-log.json's 2026-08-18 _runCaveat, applied here to a different file. If this entry goes missing a second time, that pattern is worth raising with the user directly rather than silently re-applying a third time."
+    },
+    {
+      "date": "2026-09-25",
+      "week": "2026-W39",
+      "source": "Composio YOUTUBE_GET_CHANNEL_STATISTICS (mine=true, both accounts)",
+      "channels": {
+        "yt-bbmw0": {
+          "handle": "@bbmw.0",
+          "channelId": "UCSRkqZ0PckW8ae-cnZcN1hw",
+          "subscribers": 5,
+          "views": 10427,
+          "publicVideos": 77,
+          "reelsLive": null
+        },
+        "yt-bbm0902": {
+          "handle": "@bbm0902",
+          "channelId": "UC5O9s1vte7UiLICKP1pHiIQ",
+          "subscribers": 2,
+          "views": 1926,
+          "publicVideos": 40,
+          "reelsLive": null
+        }
+      },
+      "totals": {
+        "subscribers": 7,
+        "views": 12353,
+        "publicVideos": 117
+      },
+      "note": "15 days since the last read (2026-09-10 to 2026-09-25). Both directions are up, and this is the first snapshot where the movement looks like more than noise: yt-bbmw0 views went 1279 to 10427 (roughly 8x) and subscribers 2 to 5; yt-bbm0902 views went 589 to 1926 (roughly 3.3x) and publicVideos jumped 13 to 40 (27 net new), meaning yt-bbm0902's topic-stock exhaustion flagged in the 2026-09-10 snapshot has been resolved since then (it published steadily, not just once) and is no longer the top-priority item. yt-bbmw0 publicVideos went 73 to 77 net (+4), which understates actual publishing volume: this week's cleanup batch (see cleanup-log.json, 2026-09-25) unlisted 7 more of its older videos in between, so gross new public uploads this period were roughly 11, same order as the prior period. Combined subscribers (7) and views (12,353) remain far below the monetisation gate (1,000 subs + 20M views/90 days) and at this base size a single video's performance can still move the whole number, so this is encouraging direction, not a result. Instagram (ig-aigameodyssey) is still not captured here: this session's Composio Instagram connection aliased 'ai_game_odyssey' resolved to Instagram Business Account 28477523595198052 / username 'blankdiscussions' — the SAME underlying account as the connection aliased 'BlankDiscussions' — so no separate ig-aigameodyssey follower/reach figures could be read this week without risking recording the wrong channel's numbers under the wrong name. That alias mix-up is a Composio connection-config issue, separate from and not confirmed to be related to this week's real IG upload failures (see this week's pipeline-health finding: INSTAGRAM_CREATE_MEDIA_CONTAINER error_subcode 33, 'Object with ID does not exist, cannot be loaded due to missing permissions'), but both point at something wrong with how the Instagram side is authenticated/connected and are worth the user's attention together."
     }
   ]
 }

@@ -79,6 +79,20 @@
       "newlyRetired": 13,
       "verifiedBy": "YOUTUBE_UPDATE_VIDEO responses: all 13 report privacyStatus=unlisted",
       "note": "See _classCRecountedProperlyOn2026-09-10 for full methodology. First batch to use the live channel listing (not published.json) plus hashtag-normalized title grouping plus a live privacyStatus check on every candidate before touching anything. The 13: spacebar (ZO2XmDZJtHM), algebra (hHSVNrx77nY), nintendo-1889 (fKxeSmJxZTA), binary-search (VZ3Gzy7GxB8), first-sms-1992 (k7SOVwKNd0s), cleopatra-moon (tFD2RuVXKSw), ctrl-shift-t (xO212265odY), screen-readers-html (t__22G95Iew), at-symbol-accounting (Z355cH9OydU), copy-paste-tesler (K87dzPJYcKY), naming-cache-invalidation (296cXkb52ig), astrolabe-latitude (ziSfbDxnpgE), vikings-north-america (nTVFyOahbO4). In every case the OLDER public copy (all published 2026-07-27 to 2026-07-30, none of them previously recorded in published.json) was kept and the newer one retired."
+    },
+    {
+      "ranAt": "2026-09-25T20:20:00Z",
+      "week": "2026-W39",
+      "channelsTouched": [
+        "yt-bbmw0"
+      ],
+      "defectClass": "A/B mixed",
+      "attempted": 7,
+      "succeeded": 7,
+      "failed": 0,
+      "newlyRetired": 7,
+      "verifiedBy": "YOUTUBE_UPDATE_VIDEO responses: all 7 report privacyStatus=unlisted, embeddable and publicStatsViewable preserved (this call did not reset them, unlike the note in `method` above)",
+      "note": "First batch since 2026-09-10 (2 weeks overdue on the ~weekly cadence). Method: live-pulled all 165 items in yt-bbmw0's uploads playlist via YOUTUBE_LIST_CHANNEL_VIDEOS, live-checked privacyStatus for all via YOUTUBE_GET_VIDEO_DETAILS_BATCH, excluded anything recorded as a reel (themeId=reel) in published.json and anything already in this file's unlisted[] array. That left 38 unique still-public non-reel candidates, but 27 of those were NOT pre-reel ThemedShort fact videos at all -- they were early product/build-log content (e.g. 'I built a Shorts editor in one day', two monthly long-form recaps) that this cleanup effort was never meant to touch, so they were excluded. Of the remaining 25 genuine ThemedShort fact-format videos (July 27 - Aug 15), 15 were confirmed by title-normalized duplicate search to be the deliberately-kept 'oldest public copy' of a fact group from prior Class C batches (unlisting them would zero out that fact's public presence, the exact mistake flagged in _privacyAnomalyFound2026-09-01) and 3 more (sJfIfArcOiU 'Shift+F3', qZd4TJxY_Gk 'Great Wall', pS0j05wiAkg 'Salt water', nsdwTZYSBfs 'shortest war' -- 4 actually) turned out to be the LAST remaining public copy of their group once already-unlisted/private siblings were accounted for, so they were excluded too. Only the 7 videos below had zero public siblings of any kind (true single-instance ThemedShort videos, safe to retire without affecting any other copy): lightning-glass (9IQG_VwqIp0), qwerty-speed (ptkbyGZ5qWs), arabic-numerals (GM_jh23WPlA), vending-machine (SfzqYKuwDzk), eiffel-tower (AY-I_LMlBfM), old-glass (exoVMFddMsY), paper-fold-42 (X4jhDbjYCfk). Class A vs B was not distinguished for these (would require watching each for the invented-stat beat, not done this session; AY-I_LMlBfM and exoVMFddMsY are published 2026-08-11, the same calendar day as the 18:58 fix commit, so their class is genuinely ambiguous without a timestamp check). classA/classB/classC counts above are NOT updated to reflect this batch since this batch's classification method (single-instance-only) is orthogonal to the A/B/C system and the true remaining counts in each class were already flagged as unreliable by prior sessions. 4 candidates deliberately skipped this run (sJfIfArcOiU, qZd4TJxY_Gk, pS0j05wiAkg, nsdwTZYSBfs) should be revisited only alongside a decision on the same-titled sibling(s) that are currently private/unlisted -- see whether those should be restored to public instead of leaving the fact with zero public YouTube copies."
     }
   ],
   "unlisted": [
@@ -501,6 +515,76 @@
       "reason": "duplicate (exact-title match; kept oldest 5pFrcs-BSoE; topic never had a published.json record for either copy)",
       "unlistedAt": "2026-09-10T20:35:00Z",
       "url": "https://youtu.be/nTVFyOahbO4"
+    },
+    {
+      "id": "9IQG_VwqIp0",
+      "channel": "yt-bbmw0",
+      "title": "Lightning striking sand creates glass tubes. #Shorts #facts",
+      "publishedAt": "2026-07-29",
+      "defectClass": "A/B (unconfirmed which without watching)",
+      "reason": "pre-reel ThemedShort, single instance (no surviving sibling copy to protect)",
+      "unlistedAt": "2026-09-25T20:20:00Z",
+      "url": "https://youtu.be/9IQG_VwqIp0"
+    },
+    {
+      "id": "ptkbyGZ5qWs",
+      "channel": "yt-bbmw0",
+      "title": "QWERTY was not designed for typing speed. #Shorts",
+      "publishedAt": "2026-07-31",
+      "defectClass": "A/B (unconfirmed which without watching)",
+      "reason": "pre-reel ThemedShort, single instance",
+      "unlistedAt": "2026-09-25T20:20:00Z",
+      "url": "https://youtu.be/ptkbyGZ5qWs"
+    },
+    {
+      "id": "GM_jh23WPlA",
+      "channel": "yt-bbmw0",
+      "title": "The numerals you use every day came through Arabic. #Shorts #didyouknow",
+      "publishedAt": "2026-08-03",
+      "defectClass": "A/B (unconfirmed which without watching)",
+      "reason": "pre-reel ThemedShort, single instance",
+      "unlistedAt": "2026-09-25T20:20:00Z",
+      "url": "https://youtu.be/GM_jh23WPlA"
+    },
+    {
+      "id": "SfzqYKuwDzk",
+      "channel": "yt-bbmw0",
+      "title": "The first vending machine was built in ancient Greece. #Shorts #facts",
+      "publishedAt": "2026-08-03",
+      "defectClass": "A/B (unconfirmed which without watching)",
+      "reason": "pre-reel ThemedShort, single instance",
+      "unlistedAt": "2026-09-25T20:20:00Z",
+      "url": "https://youtu.be/SfzqYKuwDzk"
+    },
+    {
+      "id": "AY-I_LMlBfM",
+      "channel": "yt-bbmw0",
+      "title": "The Eiffel Tower was built to be temporary. #Shorts",
+      "publishedAt": "2026-08-11",
+      "defectClass": "A/B boundary (published same calendar day as the 18:58 fix commit; exact time not checked)",
+      "reason": "pre-reel ThemedShort, single instance",
+      "unlistedAt": "2026-09-25T20:20:00Z",
+      "url": "https://youtu.be/AY-I_LMlBfM"
+    },
+    {
+      "id": "exoVMFddMsY",
+      "channel": "yt-bbmw0",
+      "title": "Old window glass is not slowly flowing. #Shorts",
+      "publishedAt": "2026-08-11",
+      "defectClass": "A/B boundary (published same calendar day as the 18:58 fix commit; exact time not checked)",
+      "reason": "pre-reel ThemedShort, single instance",
+      "unlistedAt": "2026-09-25T20:20:00Z",
+      "url": "https://youtu.be/exoVMFddMsY"
+    },
+    {
+      "id": "X4jhDbjYCfk",
+      "channel": "yt-bbmw0",
+      "title": "Fold paper 42 times and it reaches the Moon. #Shorts #learn",
+      "publishedAt": "2026-08-15",
+      "defectClass": "B",
+      "reason": "pre-reel ThemedShort published after the invented-stat fix; pastel format, single instance",
+      "unlistedAt": "2026-09-25T20:20:00Z",
+      "url": "https://youtu.be/X4jhDbjYCfk"
     }
   ]
 }

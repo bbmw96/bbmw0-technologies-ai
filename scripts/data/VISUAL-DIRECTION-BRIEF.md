@@ -1,5 +1,58 @@
 # NEXT SESSION — START HERE
 
+## ADDED 25 Sep 2026 — pattern interrupt confirmed shipped; loop seam is now the sole open item here
+
+This week's director pass checked "THE REAL NEXT ITEM" below against git
+history rather than assuming it was still both-open. It is not: commit
+`71ade14` ("reels: opening flash-snap pattern interrupt on beat 1"), 18 Aug
+2026, is on `main` and adds a colour-flip/scale-snap flash over beat 1's
+first ~7 frames — the second bullet under "THE REAL NEXT ITEM" is done. The
+code comment at `EditorialReel.tsx:595` says so explicitly: "still is enough
+here because this is a colour/scale state, not a loop seam" — i.e. the
+author of that commit was already distinguishing it from the loop work and
+left the loop undone on purpose, not by oversight.
+
+**The loop seam (bullet one) is still not implemented.** `grep -n loop
+src/compositions/EditorialReel.tsx` finds only that one comment; there is no
+seam logic anywhere in the composition. This was this week's candidate for
+"improve one thing," and it was deliberately NOT attempted this session —
+not because of a missing credential or a broken tool, but because the brief
+itself makes render-and-watch mandatory ("a still cannot tell you whether a
+loop seam is invisible. That is not optional here"), and that render/watch/
+iterate loop needs more session budget than this week's director pass had
+left after pipeline health, cleanup, and growth logging. Starting it and
+leaving it half-verified would be worse than leaving it clearly queued.
+
+**Concrete spec for whoever picks this up:**
+1. The `sign` beat (`SignBeat`, `EditorialReel.tsx:518-549`) is the last
+   beat in every reel; beat 1 is whatever the topic's first entry in
+   `beats[]` is (usually `statement` or `kicker`). The ask is to make the
+   tail of `sign` visually resolve into the head of beat 1 — same palette
+   stop, same composition — so a viewer who loops back doesn't perceive a
+   cut. `sign`'s field is `p.accent`; check what beat 1's field is per beat
+   kind (`StatementBeat` and `KickerBeat` fields, both defined above in the
+   same file) and either match them or design a deliberate cross-fade
+   between the two specific fields actually in use, not a generic case.
+2. Do this with `Sequence`/interpolate timing already established in the
+   file (see how `BeatShell`'s 7-frame edge wipe and the flash-snap's own
+   `Sequence` are built) rather than inventing a new animation primitive.
+3. Render with Desktop Commander (`npx remotion still` per beat, or
+   `npx remotion render` for the full clip) — the Linux sandbox cannot
+   render this repo's Remotion output (Windows-only native binaries via
+   OneDrive, documented multiple times in this file already).
+4. Watch the actual loop point: render the last ~15 frames of `sign` and
+   the first ~15 frames of beat 1 as a short clip or as adjacent stills,
+   and judge by eye whether the seam reads as continuous or as a jump.
+   `ffprobe`/frame-extraction the way the 10 Sep typing-sound entry did for
+   audio timing is the right level of rigor here for video.
+5. Do not commit until that watch pass happens. If it doesn't look
+   invisible on the first attempt, that is expected — iterate the specific
+   colours/positions rather than shipping a visible seam.
+
+Once this lands, the brief's own priority list ("Only then") becomes the
+correct next queue: per-topic generated palettes, an image layer, and
+re-listening to the voice.
+
 ## ADDED 12 Sep 2026 — blankdiscussions daily post blocked by a full tool outage, not a content problem
 
 Today's `blankdiscussions-daily-posting` scheduled task run confirmed, live via
