@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (ubercab-cease-desist-2010)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0C0C0E",
+    "ink": "#F3F3F5",
+    "accent": "#1FB6FF",
+    "muted": "#7A7A82"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "A cease-and-desist order is what actually killed the word \"Cab\".",
+      "text": "On 20 October 2010, the San Francisco Metro Transit Authority and the California Public Utilities Commission delivered UberCab a cease-and-desist order.",
+      "note": "The company was barely four months old; TechCrunch had covered its launch that July.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "The taxi industry's complaints were specific: no taxi licence, different insurance than licensed taxis, and pickups without the hour's advance booking the law required for limos.",
+      "note": "Real regulatory objections, not just a turf war.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "90",
+      "unit": "days",
+      "context": "potential jail time threatened for each day UberCab kept operating past the order, on top of a $5,000 fee per instance.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "text": "The company didn't fight over the name. Within days, UberCab became simply Uber, on its website, its blog, and in a company comment reading \"more uber than cab\".",
+      "note": "CEO Ryan Graves told TechCrunch only that the company was working with the agencies to figure out their exact concerns.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "Because Uber was brand new, it paid for uber.com in company equity rather than cash: shares in a business barely worth anything yet.",
+      "note": "Universal Music Group held the domain from an unrelated failed venture, then sold its stake early. Fortune reported in 2014 the missed gain topped $100 million.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "Renamed within days of a cease-and-desist order. The domain deal cost someone else $100 million.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 136
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -229,7 +229,10 @@
     "reel:alphazero-fewer-positions-per-second",
     "reel:gpu-tricked-into-math",
     "reel:dpad-shirai-not-yokoi",
-    "reel:metroid-reveal-missed"
+    "reel:metroid-reveal-missed",
+    "reel:great-fire-of-london-death-toll-1666",
+    "reel:ubercab-cease-desist-2010",
+    "reel:morse-telegraph-underground-failure-1844"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -3948,6 +3951,53 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "great-fire-of-london-death-toll-1666",
+      "date": "2026-09-25",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The Great Fire of London began on 2 September 1666 and burned for four days, destroying roughly 80% ",
+      "description": "The Great Fire of London began on 2 September 1666 and burned for four days, destroying roughly 80% of the walled city. It took four of the City's seven gates along with St Paul's Cathedral.\n\nburned down in four days. The official death toll was six.\n\nThe Monument to the fire still carries the line: \"Merciless to the wealth and estates of the citizens, it was harmless to their lives.\" The six recorded dead include a maid who could not escape the bakery where the fire started, and three bodies found mummified by heat inside St Paul's Cathedral.\n\nHistorians disagree on whether six is real. Adrian Tinniswood puts the toll in single figures; Neil Hanson argues it was several hundred, or quite possibly several thousand. Hanson's case rests on melted glass and iron found in the ruins: evidence the fire burned hotter than a modern crematorium, hot enough to leave no remains at all.\n\nOne death the toll does include is Robert Hubert, a French watchmaker who confessed to starting the fire and was hanged for it at Tyburn. He had changed his story once already, claiming Westminster before learning the fire never reached there, and a ship's captain later testified Hubert did not land in England until two days after it started.\n\nSources:\n- https://en.wikipedia.org/wiki/Robert_Hubert: confirms Robert Hubert, a French watchmaker, falsely confessed to starting the Great Fire; that he first claimed Westminster and changed his story once told the fire never reached there; that he claimed to throw a fire grenade through the Farriner bakery's open window despite the bakery having no window and Hubert being judged too crippled to throw anything; that a captain of the Maid of Stockholm later testified he had landed Hubert in England two days after the fire started; and that Hubert was hanged at Tyburn on 27 October 1666, his body torn apart by a crowd before it could be handed over for dissection.\n- https://londonist.com/2016/08/is-it-true-that-only-six-people-died-in-the-great-fire: confirms the fire destroyed roughly four-fifths of London including about 13,200 houses, four of the City's seven gates and St Paul's Cathedral; the Monument's inscription (\"Merciless to the wealth and estates of the citizens, it was harmless to their lives\"); the identities described for several of the six officially recorded dead, including a maid at the Farriner bakery and three bodies mummified by heat inside St Paul's Cathedral; and the historians' disagreement over the true toll, with Adrian Tinniswood putting it \"in single figures\" and Neil Hanson arguing for \"several hundred, or quite possibly several thousand\", citing melted glass and iron found in the ruins as evidence the fire burned hotter than a modern crematorium.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "DBrIORHpEeU",
+      "youtubeUrl": "https://youtu.be/DBrIORHpEeU",
+      "uploadedAt": "2026-09-25T14:20:54.186Z",
+      "privacy": "public"
+    },
+    {
+      "id": "ubercab-cease-desist-2010",
+      "date": "2026-09-25",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "On 20 October 2010, the San Francisco Metro Transit Authority and the California Public Utilities Co",
+      "description": "On 20 October 2010, the San Francisco Metro Transit Authority and the California Public Utilities Commission delivered UberCab a cease-and-desist order. The company was barely four months old; TechCrunch had covered its launch that July.\n\nThe taxi industry's complaints were specific: no taxi licence, different insurance than licensed taxis, and pickups without the hour's advance booking the law required for limos. Real regulatory objections, not just a turf war.\n\npotential jail time threatened for each day UberCab kept operating past the order, on top of a $5,000 fee per instance.\n\nThe company didn't fight over the name. Within days, UberCab became simply Uber, on its website, its blog, and in a company comment reading \"more uber than cab\". CEO Ryan Graves told TechCrunch only that the company was working with the agencies to figure out their exact concerns.\n\nBecause Uber was brand new, it paid for uber.com in company equity rather than cash: shares in a business barely worth anything yet. Universal Music Group held the domain from an unrelated failed venture, then sold its stake early. Fortune reported in 2014 the missed gain topped $100 million.\n\nSources:\n- https://techcrunch.com/2010/10/24/ubercab-ordered-to-cease-and-desist/: primary reporting from 24 October 2010, confirms the San Francisco Metro Transit Authority and California Public Utilities Commission delivered UberCab a cease-and-desist order on 20 October 2010, the taxi industry's specific complaints (no taxi licence, different insurance, immediate pickups without the hour's advance booking limos required), penalties of up to $5,000 per instance of operation plus up to 90 days' jail per day of continued operation, CEO Ryan Graves' quoted response, and the company's rebrand from UberCab to Uber within days including the \"more uber than cab\" comment.\n- https://fortune.com/2014/06/04/universal-music-group-sold-uber-domain/: primary reporting from 4 June 2014 confirming Universal Music Group acquired Uber shares through its investment in an unrelated, since-shut-down startup also called Uber.com, that Universal sold the domain (and its equity) to the ride-hailing Uber for equity rather than cash around 2010, that Universal cashed out its stake early for what the article calls \"a nominal profit\", and that Universal would have made more than $100 million had it held on, given Uber's reported $17 billion valuation as of May 2014.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "iDpzRpPrRVI",
+      "youtubeUrl": "https://youtu.be/iDpzRpPrRVI",
+      "uploadedAt": "2026-09-25T14:25:02.186Z",
+      "privacy": "public"
+    },
+    {
+      "id": "morse-telegraph-underground-failure-1844",
+      "date": "2026-09-25",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Morse started by laying the wire underground between Washington and Baltimore, using a plough built ",
+      "description": "Morse started by laying the wire underground between Washington and Baltimore, using a plough built by Ezra Cornell. After about nine and a half miles, the line was failing. A partner had bought wire with defective insulation.\n\nOut of time, Morse took Cornell's advice and strung the wire overhead instead. Cooke and Wheatstone were already using poles in England.\n\nchestnut poles, about 300 feet apart, that replaced the buried pipe in the spring of 1844.\n\nOn 1 May 1844, before the line was finished, it carried news of Henry Clay's nomination for president. 'What hath God wrought', sent on 24 May, was the official opening, not the first message.\n\nThe phrase was not even Morse's choice. It was suggested by Annie Ellsworth, from the Book of Numbers. It arrived in Baltimore as dents in a moving strip of paper, not as sound.\n\nSources:\n- https://en.wikipedia.org/wiki/Baltimore%E2%80%93Washington_telegraph_line: confirms Congress appropriated $30,000 in March 1843 for the line; that Morse first laid the wire underground using Ezra Cornell's plough, starting 21 October 1843, and stopped after about 9.5 miles because the line was failing; that he switched to overhead wire on about 700 chestnut poles from 1 April 1844; that on 1 May 1844 the unfinished line carried news of the Whig Party's nomination of Henry Clay; that 'What hath God wrought' was sent on 24 May 1844 from the Capitol to Alfred Vail in Baltimore, the phrase suggested by Annie Ellsworth; and that the Postmaster General judged the line unlikely ever to earn income, returning it to private development.\n- https://www.loc.gov/static/collections/samuel-morse-papers/articles-and-essays/invention-of-the-telegraph/: the Library of Congress confirms the underground wire failed because a partner, Congressman F. O. J. Smith, bought wire with defective insulation; that Cornell suggested stringing wire overhead; and that Morse's receiver recorded messages as dents in a moving paper tape.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
     }
   ]
 }

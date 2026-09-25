@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (morse-telegraph-underground-failure-1844)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#14110A",
+    "ink": "#F5EFE1",
+    "accent": "#D9A441",
+    "muted": "#857A62"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "America's first long-distance telegraph line was nearly buried.",
+      "text": "Morse started by laying the wire underground between Washington and Baltimore, using a plough built by Ezra Cornell.",
+      "note": "After about nine and a half miles, the line was failing. A partner had bought wire with defective insulation.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "Out of time, Morse took Cornell's advice and strung the wire overhead instead.",
+      "note": "Cooke and Wheatstone were already using poles in England.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "figure",
+      "value": "700",
+      "unit": "poles",
+      "context": "chestnut poles, about 300 feet apart, that replaced the buried pipe in the spring of 1844.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "statement",
+      "text": "On 1 May 1844, before the line was finished, it carried news of Henry Clay's nomination for president.",
+      "note": "'What hath God wrought', sent on 24 May, was the official opening, not the first message.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "The phrase was not even Morse's choice. It was suggested by Annie Ellsworth, from the Book of Numbers.",
+      "note": "It arrived in Baltimore as dents in a moving strip of paper, not as sound.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "The famous first message was not the first message.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}

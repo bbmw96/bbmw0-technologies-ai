@@ -1,0 +1,20 @@
+Rendering 3 Shorts for 2026-09-25 (concurrency=3, GL=default)
+Compliance: 2 cleared, 1 blocked (policy v1.0.0).
+Blocked by compliance: morse-telegraph-underground-failure-1844
+
+--- great-fire-of-london-death-toll-1666 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-25-great-fire-of-london-death-toll-1666.mp4
+  uploaded public: https://youtu.be/DBrIORHpEeU
+
+--- morse-telegraph-underground-failure-1844 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-25-morse-telegraph-underground-failure-1844.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-25/compliance-verdict.json.
+
+--- ubercab-cease-desist-2010 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-25-ubercab-cease-desist-2010.mp4
+  uploaded public: https://youtu.be/iDpzRpPrRVI
+
+=== Done. 3 rendered, 2 uploaded, 0 skipped, 1 blocked by compliance, 0 failed. ===

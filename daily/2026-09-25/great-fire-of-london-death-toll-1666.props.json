@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (great-fire-of-london-death-toll-1666)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#140C08",
+    "ink": "#F7EDE0",
+    "accent": "#FF6B35",
+    "muted": "#8C7563"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The fire destroyed the city. The city's own monument insists it barely touched a life.",
+      "text": "The Great Fire of London began on 2 September 1666 and burned for four days, destroying roughly 80% of the walled city.",
+      "note": "It took four of the City's seven gates along with St Paul's Cathedral.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "13200",
+      "unit": "houses",
+      "context": "burned down in four days. The official death toll was six.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "statement",
+      "text": "The Monument to the fire still carries the line: \"Merciless to the wealth and estates of the citizens, it was harmless to their lives.\"",
+      "note": "The six recorded dead include a maid who could not escape the bakery where the fire started, and three bodies found mummified by heat inside St Paul's Cathedral.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "Historians disagree on whether six is real. Adrian Tinniswood puts the toll in single figures; Neil Hanson argues it was several hundred, or quite possibly several thousand.",
+      "note": "Hanson's case rests on melted glass and iron found in the ruins: evidence the fire burned hotter than a modern crematorium, hot enough to leave no remains at all.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "One death the toll does include is Robert Hubert, a French watchmaker who confessed to starting the fire and was hanged for it at Tyburn.",
+      "note": "He had changed his story once already, claiming Westminster before learning the fire never reached there, and a ship's captain later testified Hubert did not land in England until two days after it started.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "13,200 houses burned. The monument says six people died. Historians aren't convinced.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 118
+    }
+  ],
+  "cta": "Subscribe for more."
+}
