@@ -1,0 +1,25 @@
+{
+  "slug": "samuel-checkers-machine-learning-1959",
+  "date": "2026-09-25",
+  "title": "He coined it to describe a draughts program, written for the IBM 701, that got better by remembering",
+  "description": "IBM engineer who coined the term 'machine learning'\n\nHe coined it to describe a draughts program, written for the IBM 701, that got better by remembering which positions led to wins. Memory was so tight he had to invent an early form of what is now called alpha-beta pruning.\n\nhow far IBM's share price rose overnight after the program was first demonstrated.\n\nIt improved by playing thousands of games against itself. Samuel kept refining it until the mid-1970s.\n\nIn 1962 it beat Robert Nealey. IBM's own history calls him only a 'self-described' checkers master. Its record against humans after that was mixed: a respectable amateur, not a world beater.\n\nSources:\n- https://en.wikipedia.org/wiki/Arthur_Samuel_(computer_scientist): confirms Arthur Samuel coined the term 'machine learning' in 1959; that he joined IBM in Poughkeepsie in 1949 and wrote a draughts (checkers) program on the IBM 701, IBM's first commercial computer; that the demonstration caused IBM's stock to rise 15 points overnight (cited to McCarthy and Feigenbaum's 1990 AI Magazine memoriam); that he implemented an early form of alpha-beta pruning because memory was so limited; that the program played thousands of games against itself; and that it reached a respectable amateur standard.\n- https://www.ibm.com/history/early-games: IBM's own history page confirms Samuel called the process 'machine learning', a term he coined; that in 1962 the program beat 'self-described checkers master' Robert Nealey; and that its subsequent record against human opponents was mixed.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-25-samuel-checkers-machine-learning-1959.mp4",
+  "propsFile": "daily/2026-09-25/samuel-checkers-machine-learning-1959.props.json",
+  "durationInFrames": 842,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}

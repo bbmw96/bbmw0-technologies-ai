@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (samuel-checkers-machine-learning-1959)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0F14",
+    "ink": "#E6EEF5",
+    "accent": "#3FA7FF",
+    "muted": "#667888"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "credit",
+      "year": "1959",
+      "name": "Arthur Samuel",
+      "role": "IBM engineer who coined the term 'machine learning'",
+      "durationInFrames": 88
+    },
+    {
+      "kind": "statement",
+      "text": "He coined it to describe a draughts program, written for the IBM 701, that got better by remembering which positions led to wins.",
+      "note": "Memory was so tight he had to invent an early form of what is now called alpha-beta pruning.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "15",
+      "unit": "points",
+      "context": "how far IBM's share price rose overnight after the program was first demonstrated.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "statement",
+      "text": "It improved by playing thousands of games against itself.",
+      "note": "Samuel kept refining it until the mid-1970s.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "statement",
+      "text": "In 1962 it beat Robert Nealey. IBM's own history calls him only a 'self-described' checkers master.",
+      "note": "Its record against humans after that was mixed: a respectable amateur, not a world beater.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "sign",
+      "line": "Machine learning was named after a draughts program.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Follow for more."
+}

@@ -232,7 +232,8 @@
     "reel:metroid-reveal-missed",
     "reel:great-fire-of-london-death-toll-1666",
     "reel:ubercab-cease-desist-2010",
-    "reel:morse-telegraph-underground-failure-1844"
+    "reel:morse-telegraph-underground-failure-1844",
+    "reel:samuel-checkers-machine-learning-1959"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -3998,6 +3999,45 @@
       "channelId": "yt-bbmw0",
       "special": false,
       "platform": "youtube"
+    },
+    {
+      "id": "samuel-checkers-machine-learning-1959",
+      "date": "2026-09-25",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "He coined it to describe a draughts program, written for the IBM 701, that got better by remembering",
+      "description": "IBM engineer who coined the term 'machine learning'\n\nHe coined it to describe a draughts program, written for the IBM 701, that got better by remembering which positions led to wins. Memory was so tight he had to invent an early form of what is now called alpha-beta pruning.\n\nhow far IBM's share price rose overnight after the program was first demonstrated.\n\nIt improved by playing thousands of games against itself. Samuel kept refining it until the mid-1970s.\n\nIn 1962 it beat Robert Nealey. IBM's own history calls him only a 'self-described' checkers master. Its record against humans after that was mixed: a respectable amateur, not a world beater.\n\nSources:\n- https://en.wikipedia.org/wiki/Arthur_Samuel_(computer_scientist): confirms Arthur Samuel coined the term 'machine learning' in 1959; that he joined IBM in Poughkeepsie in 1949 and wrote a draughts (checkers) program on the IBM 701, IBM's first commercial computer; that the demonstration caused IBM's stock to rise 15 points overnight (cited to McCarthy and Feigenbaum's 1990 AI Magazine memoriam); that he implemented an early form of alpha-beta pruning because memory was so limited; that the program played thousands of games against itself; and that it reached a respectable amateur standard.\n- https://www.ibm.com/history/early-games: IBM's own history page confirms Samuel called the process 'machine learning', a term he coined; that in 1962 the program beat 'self-described checkers master' Robert Nealey; and that its subsequent record against human opponents was mixed.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "ubercab-cease-desist-2010",
+      "date": "2026-09-25",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "On 20 October 2010, the San Francisco Metro Transit Authority and the California Public Utilities Co",
+      "description": "On 20 October 2010, the San Francisco Metro Transit Authority and the California Public Utilities Commission delivered UberCab a cease-and-desist order. The company was barely four months old; TechCrunch had covered its launch that July.\n\nThe taxi industry's complaints were specific: no taxi licence, different insurance than licensed taxis, and pickups without the hour's advance booking the law required for limos. Real regulatory objections, not just a turf war.\n\npotential jail time threatened for each day UberCab kept operating past the order, on top of a $5,000 fee per instance.\n\nThe company didn't fight over the name. Within days, UberCab became simply Uber, on its website, its blog, and in a company comment reading \"more uber than cab\". CEO Ryan Graves told TechCrunch only that the company was working with the agencies to figure out their exact concerns.\n\nBecause Uber was brand new, it paid for uber.com in company equity rather than cash: shares in a business barely worth anything yet. Universal Music Group held the domain from an unrelated failed venture, then sold its stake early. Fortune reported in 2014 the missed gain topped $100 million.\n\nSources:\n- https://techcrunch.com/2010/10/24/ubercab-ordered-to-cease-and-desist/: primary reporting from 24 October 2010, confirms the San Francisco Metro Transit Authority and California Public Utilities Commission delivered UberCab a cease-and-desist order on 20 October 2010, the taxi industry's specific complaints (no taxi licence, different insurance, immediate pickups without the hour's advance booking limos required), penalties of up to $5,000 per instance of operation plus up to 90 days' jail per day of continued operation, CEO Ryan Graves' quoted response, and the company's rebrand from UberCab to Uber within days including the \"more uber than cab\" comment.\n- https://fortune.com/2014/06/04/universal-music-group-sold-uber-domain/: primary reporting from 4 June 2014 confirming Universal Music Group acquired Uber shares through its investment in an unrelated, since-shut-down startup also called Uber.com, that Universal sold the domain (and its equity) to the ride-hailing Uber for equity rather than cash around 2010, that Universal cashed out its stake early for what the article calls \"a nominal profit\", and that Universal would have made more than $100 million had it held on, given Uber's reported $17 billion valuation as of May 2014.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "morse-telegraph-underground-failure-1844",
+      "date": "2026-09-25",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Morse started by laying the wire underground between Washington and Baltimore, using a plough built ",
+      "description": "Morse started by laying the wire underground between Washington and Baltimore, using a plough built by Ezra Cornell. After about nine and a half miles, the line was failing. A partner had bought wire with defective insulation.\n\nOut of time, Morse took Cornell's advice and strung the wire overhead instead. Cooke and Wheatstone were already using poles in England.\n\nchestnut poles, about 300 feet apart, that replaced the buried pipe in the spring of 1844.\n\nOn 1 May 1844, before the line was finished, it carried news of Henry Clay's nomination for president. 'What hath God wrought', sent on 24 May, was the official opening, not the first message.\n\nThe phrase was not even Morse's choice. It was suggested by Annie Ellsworth, from the Book of Numbers. It arrived in Baltimore as dents in a moving strip of paper, not as sound.\n\nSources:\n- https://en.wikipedia.org/wiki/Baltimore%E2%80%93Washington_telegraph_line: confirms Congress appropriated $30,000 in March 1843 for the line; that Morse first laid the wire underground using Ezra Cornell's plough, starting 21 October 1843, and stopped after about 9.5 miles because the line was failing; that he switched to overhead wire on about 700 chestnut poles from 1 April 1844; that on 1 May 1844 the unfinished line carried news of the Whig Party's nomination of Henry Clay; that 'What hath God wrought' was sent on 24 May 1844 from the Capitol to Alfred Vail in Baltimore, the phrase suggested by Annie Ellsworth; and that the Postmaster General judged the line unlikely ever to earn income, returning it to private development.\n- https://www.loc.gov/static/collections/samuel-morse-papers/articles-and-essays/invention-of-the-telegraph/: the Library of Congress confirms the underground wire failed because a partner, Congressman F. O. J. Smith, bought wire with defective insulation; that Cornell suggested stringing wire overhead; and that Morse's receiver recorded messages as dents in a moving paper tape.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }

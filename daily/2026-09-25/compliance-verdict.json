@@ -5,7 +5,8 @@
   "strictMode": false,
   "allowed": [
     "great-fire-of-london-death-toll-1666",
-    "ubercab-cease-desist-2010"
+    "ubercab-cease-desist-2010",
+    "samuel-checkers-machine-learning-1959"
   ],
   "blocked": [
     "morse-telegraph-underground-failure-1844"
@@ -199,6 +200,50 @@
         "worstTitleAgainst": "wombat-cube-shaped-poop",
         "worstDescriptionSimilarity": 0.265,
         "combo": "reel:#0C0C0E:#1FB6FF:#F3F3F5",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "samuel-checkers-machine-learning-1959",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "He coined it to describe a draughts program, written for the IBM 701, that got better by remembering",
+      "niche": "ai",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.079,
+        "worstTitleAgainst": "missile-command-nightmares",
+        "worstDescriptionSimilarity": 0.248,
+        "combo": "reel:#0A0F14:#3FA7FF:#E6EEF5",
         "themeGap": null,
         "audioGap": 0
       },
