@@ -6,7 +6,18 @@
   "handle": "@blankdiscussions",
   "mediaFormat": "carousel",
   "caption": "And [remember] when your Lord proclaimed, 'If you are grateful, I will surely increase you [in favor]; but if you deny, indeed, My punishment is severe.'\n\nSurah Ibrahim (14:7). Swipe through for the Arabic, then English, Mandarin, Korean, Japanese and Malay.\n\nSources on the final slide.\n\n#Quran #Ibrahim #Shukr #IslamicReminder #Deen",
-  "tags": ["Quran", "Ibrahim", "Shukr", "IslamicReminder", "Deen", "MuslimReminder", "Gratitude", "QuranicWisdom", "IslamicQuotes", "Ummah"],
+  "tags": [
+    "Quran",
+    "Ibrahim",
+    "Shukr",
+    "IslamicReminder",
+    "Deen",
+    "MuslimReminder",
+    "Gratitude",
+    "QuranicWisdom",
+    "IslamicQuotes",
+    "Ummah"
+  ],
   "theme": "slate-copper",
   "slides": [
     "quran-14-7.slide-01.json",
@@ -30,6 +41,6 @@
     "compliance_check": "Checked programmatically this session against every string term in scripts/data/compliance-policy.json's halal section (prohibited, superstition, origins_patterns; 123 terms) across all slide text, title, caption and tags, using word-boundary regex matching. No hits. Pure typography, no imagery, so animate_imagery and context_review do not apply. House style: no em or en dashes, no emoji, UK spelling used throughout the caption."
   },
   "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-26/quran-14-7-slide-NN.png --props=daily/2026-09-26/blankdiscussions/quran-14-7.slide-NN.json (NN = 01..08), rendered on the Windows host via Desktop Commander, then converted to JPEG for Instagram.",
-  "status": "sourced",
+  "status": "rendered_and_hosted",
   "theme_note": "All 29 themes in THEME_ORDER were already used (cerulean-honey most recently, by quran-16-90, the first post published today). Per the file's own comment, a 30th theme 'slate-copper' (bg #1F2937, ink #F5F1E8, accent #C77B4D, muted #6B7A8F) was added to ThemeKey, THEMES and THEME_ORDER on 2026-09-26 for this post."
 }
