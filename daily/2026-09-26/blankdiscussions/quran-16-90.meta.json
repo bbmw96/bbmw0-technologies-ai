@@ -6,7 +6,18 @@
   "handle": "@blankdiscussions",
   "mediaFormat": "carousel",
   "caption": "Indeed, Allah orders justice and good conduct and giving to relatives and forbids immorality and bad conduct and oppression. He admonishes you that perhaps you will be reminded.\n\nSurah An-Nahl (16:90). Swipe through for the Arabic, then English, Mandarin, Korean, Japanese and Malay.\n\nSources on the final slide.\n\n#Quran #AnNahl #Adl #IslamicReminder #Deen",
-  "tags": ["Quran", "AnNahl", "Adl", "IslamicReminder", "Deen", "MuslimReminder", "Justice", "QuranicWisdom", "IslamicQuotes", "Ummah"],
+  "tags": [
+    "Quran",
+    "AnNahl",
+    "Adl",
+    "IslamicReminder",
+    "Deen",
+    "MuslimReminder",
+    "Justice",
+    "QuranicWisdom",
+    "IslamicQuotes",
+    "Ummah"
+  ],
   "theme": "cerulean-honey",
   "slides": [
     "quran-16-90.slide-01.json",
@@ -30,6 +41,6 @@
     "compliance_check": "Checked programmatically this session against every string term in scripts/data/compliance-policy.json's halal section (prohibited, superstition, origins_patterns; 123 terms) across all slide text, title, caption and tags, using word-boundary regex matching (same approach as scripts/compliance/halal.mjs) to avoid false positives from substrings inside unrelated words. No hits. Pure typography, no imagery, so animate_imagery and context_review do not apply. House style: no em or en dashes, no emoji, UK spelling used throughout the caption."
   },
   "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-26/quran-16-90-slide-NN.png --props=daily/2026-09-26/blankdiscussions/quran-16-90.slide-NN.json (NN = 01..08), rendered on the Windows host via Desktop Commander, then converted to JPEG for Instagram.",
-  "status": "sourced",
+  "status": "rendered_and_hosted",
   "theme_note": "All 28 themes in THEME_ORDER were already used (chalk-vermilion most recently, by muslim-162 on 2026-09-25). Per the file's own comment, a 29th theme 'cerulean-honey' (bg #0E2A47, ink #F5EFE0, accent #E3A857, muted #5B7A99) was added to ThemeKey, THEMES and THEME_ORDER on 2026-09-26 for this post."
 }
