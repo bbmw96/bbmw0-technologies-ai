@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (romer-speed-of-light-1676)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#080B14",
+    "ink": "#E9EEF8",
+    "accent": "#5B8DEF",
+    "muted": "#6B7690"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "credit",
+      "year": "1676",
+      "name": "Ole Romer",
+      "role": "Danish astronomer at the Royal Observatory in Paris",
+      "durationInFrames": 88
+    },
+    {
+      "kind": "statement",
+      "text": "Romer noticed that eclipses of Jupiter's moon Io ran early when Earth was closest to Jupiter, and late when it was furthest away.",
+      "note": "The gap was not Io's orbit changing: it was extra light needing extra distance to cross. Most scientists at the time assumed light travelled instantly.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "22",
+      "unit": "minutes",
+      "context": "how long Romer calculated light takes to cross the diameter of Earth's orbit around the Sun.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "statement",
+      "text": "His figures imply a speed of about 226,663 kilometres per second: roughly 24% slower than the true value of 299,792 km/s.",
+      "note": "He was off by a quarter. He was also the first person in history to prove light has a speed at all.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "Giovanni Cassini, the observatory's own director and the astronomer whose data Romer had used, never fully accepted the theory.",
+      "note": "It won support elsewhere in Europe well before Paris came around to it.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "sign",
+      "line": "He measured the speed of light in 1676 by watching a moon of Jupiter.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 130
+    }
+  ],
+  "cta": "Subscribe for more."
+}

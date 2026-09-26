@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-09-26 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- berlin-wall-schabowski-mistake ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-26-berlin-wall-schabowski-mistake.mp4
+  uploaded public: https://youtu.be/XqdX9cQ_nzM
+
+--- romer-speed-of-light-1676 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-26-romer-speed-of-light-1676.mp4
+  uploaded public: https://youtu.be/Dd7HuEZEf78
+
+--- smart-goals-doran-1981 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-26-smart-goals-doran-1981.mp4
+  uploaded public: https://youtu.be/TI87vjj5lp8
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (smart-goals-doran-1981)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0D1210",
+    "ink": "#EAF3EE",
+    "accent": "#2FD98B",
+    "muted": "#6A7D73"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "credit",
+      "year": "1981",
+      "name": "George T. Doran",
+      "role": "consultant and former corporate planning director at Washington Water Power, writing in Spokane",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "statement",
+      "text": "In the original, the A did not mean Achievable. It meant Assignable: who is actually going to do it.",
+      "note": "Doran's five were Specific, Measurable, Assignable, Realistic and Time-related. Achievable and Relevant came later.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "2",
+      "unit": "pages",
+      "context": "the length of the Management Review article that introduced SMART, pages 35 and 36 of the November 1981 issue.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "text": "Doran wrote that the acronym does not mean every objective will have all five criteria.",
+      "note": "Many people still assume all five are compulsory.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "text": "Researchers reviewing its use in physical activity programmes have pointed out it was never built on theory or experimental evidence.",
+      "note": "It began as advice for managers writing objectives, not as a tested method.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "SMART goals were never meant to tick every box.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}

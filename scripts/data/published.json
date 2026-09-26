@@ -233,7 +233,10 @@
     "reel:great-fire-of-london-death-toll-1666",
     "reel:ubercab-cease-desist-2010",
     "reel:morse-telegraph-underground-failure-1844",
-    "reel:samuel-checkers-machine-learning-1959"
+    "reel:samuel-checkers-machine-learning-1959",
+    "reel:smart-goals-doran-1981",
+    "reel:berlin-wall-schabowski-mistake",
+    "reel:romer-speed-of-light-1676"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -4038,6 +4041,57 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "smart-goals-doran-1981",
+      "date": "2026-09-26",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "In the original, the A did not mean Achievable. It meant Assignable: who is actually going to do it.",
+      "description": "consultant and former corporate planning director at Washington Water Power, writing in Spokane\n\nIn the original, the A did not mean Achievable. It meant Assignable: who is actually going to do it. Doran's five were Specific, Measurable, Assignable, Realistic and Time-related. Achievable and Relevant came later.\n\nthe length of the Management Review article that introduced SMART, pages 35 and 36 of the November 1981 issue.\n\nDoran wrote that the acronym does not mean every objective will have all five criteria. Many people still assume all five are compulsory.\n\nResearchers reviewing its use in physical activity programmes have pointed out it was never built on theory or experimental evidence. It began as advice for managers writing objectives, not as a tested method.\n\nSources:\n- https://en.wikipedia.org/wiki/SMART_criteria: confirms the acronym was first proposed by George T. Doran in the November 1981 issue of Management Review (vol. 70, issue 11, pp. 35 to 36), in a paper titled 'There's a S.M.A.R.T. way to write management's goals and objectives'; that his original letters stood for Specific, Measurable, Assignable, Realistic and Time-related; that 'achievable' and 'relevant' are later substitutions; that SMART is linked to, not written by, Peter Drucker's management by objectives; and that Swann and colleagues criticise the framework's lack of theoretical or empirical foundation.\n- https://www.projectsmart.co.uk/smart-goals/brief-history-of-smart-goals.php: confirms Doran was a consultant and former Director of Corporate Planning for Washington Water Power Company, writing in Spokane, Washington; quotes his line that the acronym 'doesn't mean that every objective written will have all five criteria'; and notes his son Sean Doran confirmed the attribution to the site.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "TI87vjj5lp8",
+      "youtubeUrl": "https://youtu.be/TI87vjj5lp8",
+      "uploadedAt": "2026-09-26T13:34:53.836Z",
+      "privacy": "public"
+    },
+    {
+      "id": "berlin-wall-schabowski-mistake",
+      "date": "2026-09-26",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It didn't. One man's mistake at a press conference did.",
+      "description": "It didn't. One man's mistake at a press conference did. On 9 November 1989, a Politburo spokesman was handed a note on new travel rules minutes before facing reporters, with no time to be briefed on it properly.\n\nEast German Politburo spokesman. Read from a note he barely understood, live, in front of the world's press.\n\n\"When does this take effect?\" Schabowski shuffled his papers, looked uncertain, then said: 'As far as I know, immediately, without delay.' The rules weren't due to start until 4am the next morning.\n\nBy nightfall, thousands stood at the checkpoints demanding to cross. Border guards had no orders for this. No shots, no directive from above, just a crowd too large to hold back.\n\nAt 11:30pm, a single guard at Bornholmer Straße opened the gate. Nobody above him had decided to.\n\nSources:\n- https://en.wikipedia.org/wiki/G%C3%BCnter_Schabowski\n- https://worldhistorycommons.org/gunter-schabowski-press-conference\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "XqdX9cQ_nzM",
+      "youtubeUrl": "https://youtu.be/XqdX9cQ_nzM",
+      "uploadedAt": "2026-09-26T13:31:13.539Z",
+      "privacy": "public"
+    },
+    {
+      "id": "romer-speed-of-light-1676",
+      "date": "2026-09-26",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Romer noticed that eclipses of Jupiter's moon Io ran early when Earth was closest to Jupiter, and la",
+      "description": "Danish astronomer at the Royal Observatory in Paris\n\nRomer noticed that eclipses of Jupiter's moon Io ran early when Earth was closest to Jupiter, and late when it was furthest away. The gap was not Io's orbit changing: it was extra light needing extra distance to cross. Most scientists at the time assumed light travelled instantly.\n\nhow long Romer calculated light takes to cross the diameter of Earth's orbit around the Sun.\n\nHis figures imply a speed of about 226,663 kilometres per second: roughly 24% slower than the true value of 299,792 km/s. He was off by a quarter. He was also the first person in history to prove light has a speed at all.\n\nGiovanni Cassini, the observatory's own director and the astronomer whose data Romer had used, never fully accepted the theory. It won support elsewhere in Europe well before Paris came around to it.\n\nSources:\n- https://en.wikipedia.org/wiki/R%C3%B8mer%27s_determination_of_the_speed_of_light: confirms Ole Romer, working at the Royal Observatory in Paris, demonstrated in 1676 that light has a finite, measurable speed by timing eclipses of Jupiter's moon Io; that he estimated light takes about 22 minutes to cross the diameter of Earth's orbit; that this implies a speed of about 226,663 km/s, 24.4% lower than the true value of 299,792 km/s; and that Giovanni Domenico Cassini, the observatory's director, never fully accepted the theory even though it gained wider acceptance elsewhere.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "Dd7HuEZEf78",
+      "youtubeUrl": "https://youtu.be/Dd7HuEZEf78",
+      "uploadedAt": "2026-09-26T13:33:02.156Z",
+      "privacy": "public"
     }
   ]
 }
