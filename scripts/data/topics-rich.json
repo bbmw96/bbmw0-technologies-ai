@@ -9688,6 +9688,296 @@
           "handle": "@ai_game_odyssey"
         }
       ]
+    },
+    {
+      "id": "kanban-piggly-wiggly-myth",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://artsmalley.com/articles/which-supermarket-reviewing-the-origins-of-toyota-s-pull-system - Art Smalley, a translator of Taiichi Ohno's writing and a Toyota Production System historian, traces the documented timeline: a Toyota colleague returned from the US with photographs of an American supermarket around 1951 and 1952 and explained the restocking system to Ohno; Ohno named and began running the 'supermarket system' on Toyota's shop floor in 1952 and 1953; Ohno did not see a US supermarket in person until his own 1956 trip, by which point the system was already operating; and the specific claim that the store was Piggly Wiggly is unsourced in Ohno's own writing, with the article noting the chain had left the Detroit area, where Toyota's US visitors mostly went, by 1930.",
+        "https://kanbantool.com/kanban-guide/kanban-history - a widely repeated version of the popular story, stated as fact: 'Ohno visited the United States in 1956, and he was impressed by how supermarket chains Piggly Wiggly was able to keep the shelves stocked with just the right amount of each product.' Used here as an example of the claim being corrected, not as a source for the underlying facts.",
+        "https://en.wikipedia.org/wiki/Kanban - confirms Ohno developed kanban as an industrial engineer at Toyota and that it was applied in practice at Toyota's main plant machine shop in 1953, consistent with the earlier implementation date given by Smalley."
+      ],
+      "verifiedNote": "Checked 26 Sep 2026. The 1956 trip is real, and Ohno did visit American supermarkets on it; what is wrong is the popular claim that the trip is where the idea came from. Left out the specific supermarket chain his colleague's photographs came from, since Smalley's research does not name it, and left out any single named colleague, since sources differ on exactly who returned from the US in 1951 and 1952.",
+      "palette": {
+        "bg": "#12100D",
+        "ink": "#F3EFE7",
+        "accent": "#E0A458",
+        "muted": "#8C8577"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The story everyone tells about kanban",
+          "text": "Taiichi Ohno saw an American supermarket called Piggly Wiggly, and that is where the idea came from.",
+          "note": "That version is repeated across the same blog posts and training decks. Ohno never named Piggly Wiggly in his own writing."
+        },
+        {
+          "kind": "credit",
+          "year": "1951",
+          "name": "Taiichi Ohno",
+          "role": "Toyota engineer shown photographs of an American supermarket by a colleague who had just returned from a US trip."
+        },
+        {
+          "kind": "statement",
+          "text": "Ohno named and began running his 'supermarket system' on Toyota's shop floor in 1952 and 1953: parts restocked only as they were withdrawn, the way a shelf is restocked after a customer takes something off it.",
+          "note": "He built the system from a description and photographs, years before he saw an American supermarket in person."
+        },
+        {
+          "kind": "kicker",
+          "text": "By the time Ohno finally stood inside a US supermarket, in 1956, his system had already been running for three years."
+        },
+        {
+          "kind": "sign",
+          "line": "The supermarket came after the idea, not before it.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "swot-stewart-not-harvard",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://www.sciencedirect.com/science/article/pii/S0024630123000110 - Puyt, Lie and Wilderom's 2023 peer-reviewed history in the journal Long Range Planning traces SWOT's real origin to Robert F. Stewart's Theory and Practice of Planning group at the Stanford Research Institute, active between 1962 and 1971; states Stewart developed the SOFT approach (Satisfactory, Opportunities, Faults, Threats) in 1965, calling it 'the progenitor of SWOT analysis in all its variations'; records that SOFT was later relabelled Strengths, Weaknesses, Opportunities, Threats by Albert Humphrey, a member of the same SRI team, in his 1974 publication 'Getting management commitment to planning'; and quotes William D. Guth, the last surviving Harvard Business School policy faculty member from the 1960s, saying in 2017 he was confident no one on that faculty created the framework, against the popular claim that it originated there.",
+        "https://en.wikipedia.org/wiki/Albert_S._Humphrey - confirms Humphrey worked on a team led by Robert Stewart that published the SOFT framework at the Stanford Research Institute, distinguishing his role in relabelling the tool from Stewart's role in creating it."
+      ],
+      "verifiedNote": "Checked 26 Sep 2026. Two different popular stories are corrected at once here: the SWOT-was-invented-at-Harvard version, and the SWOT-was-invented-solo-by-Albert-Humphrey version. Left the 1965 Harvard Business School textbook out of the beats beyond one line, since Puyt and colleagues confirm its authors used the words 'strengths' and 'weaknesses' in a different, narrower sense and were never actually claiming to have built a SWOT-style tool.",
+      "palette": {
+        "bg": "#0D1210",
+        "ink": "#EDF3EF",
+        "accent": "#4FB286",
+        "muted": "#7C8C86"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The tool almost every business course teaches",
+          "text": "SWOT analysis is usually credited to Harvard Business School's planning course, or to Albert Humphrey inventing it alone at Stanford.",
+          "note": "A 2023 peer-reviewed history in the journal Long Range Planning found that neither claim holds up."
+        },
+        {
+          "kind": "credit",
+          "year": "1965",
+          "name": "Robert F. Stewart",
+          "role": "Led the long-range planning group at the Stanford Research Institute where the framework was actually built, and first called it SOFT, not SWOT."
+        },
+        {
+          "kind": "statement",
+          "text": "SOFT stood for Satisfactory, Opportunity, Fault, Threat: the present and future of an organisation, sorted into what was working and what was not.",
+          "note": "Albert Humphrey worked on the same SRI team. He relabelled it SWOT, for Strengths, Weaknesses, Opportunities, Threats, in a paper he published in 1974."
+        },
+        {
+          "kind": "statement",
+          "text": "The Harvard Business School origin story does not hold up either.",
+          "note": "William Guth, the last surviving member of Harvard's 1960s policy faculty, said in 2017 he was confident no one on that faculty created the framework."
+        },
+        {
+          "kind": "kicker",
+          "text": "A tool built to help you check your assumptions had one about its own history."
+        },
+        {
+          "kind": "sign",
+          "line": "SWOT was not Harvard's, and it was not only Humphrey's.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "banana-equivalent-dose",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Banana_equivalent_dose - confirms one BED is informally set at about 0.1 microsieverts (1x10-7 sievert), sourced to the radioactive isotope potassium-40 naturally present in bananas; states an average day's background radiation exposure is equivalent to about 100 BED; and notes health physicists consider BED a flawed unit for cumulative exposure, because the potassium in a banana does not stay in the body, so the dose does not actually add up the way repeated exposure normally would.",
+        "https://en.wikipedia.org/wiki/Potassium-40 - confirms potassium-40 has a half-life of about 1.248 billion years, makes up 0.0117% of natural potassium, is the largest source of natural internal radioactivity in humans and animals, and states the dose from eating one banana is about 1% of an average American's total daily radiation exposure, consistent with the 100-banana comparison."
+      ],
+      "verifiedNote": "Checked 26 Sep 2026. Led with the 100-bananas-a-day figure because it is the one round, sourced number in the material, rather than the 0.1 microsievert dose itself, which is too small a unit to render clearly on screen. Included the homeostasis complication (the body clears excess potassium within hours) because without it the fact implies bananas are dangerous in quantity, which the same sources explicitly say they are not.",
+      "palette": {
+        "bg": "#14110A",
+        "ink": "#F6F0DE",
+        "accent": "#F2C14E",
+        "muted": "#8F8A73"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Bananas are radioactive",
+          "text": "Genuinely and measurably radioactive, not a trace amount you need instruments to notice in principle.",
+          "note": "The radioactivity comes from potassium-40, a naturally occurring isotope that makes up a small fraction of all the potassium in a banana, and in you."
+        },
+        {
+          "kind": "figure",
+          "value": "100",
+          "unit": "bananas",
+          "context": "how many you would need to eat in a single day just to match an average day's ordinary background radiation exposure."
+        },
+        {
+          "kind": "statement",
+          "text": "Potassium-40 has been decaying since before the Earth finished forming: its half-life is about 1.25 billion years.",
+          "note": "It is the largest source of natural internal radioactivity in the human body, not an exotic contamination."
+        },
+        {
+          "kind": "statement",
+          "text": "Eating more bananas does not raise your radiation dose the way repeated exposure normally would.",
+          "note": "The body keeps potassium levels roughly constant. Any extra is cleared out within hours, which is also why physicists call 'banana equivalent dose' a flawed unit rather than a real measurement."
+        },
+        {
+          "kind": "kicker",
+          "text": "You are also radioactive. So is the banana. Neither of you should worry about it."
+        },
+        {
+          "kind": "sign",
+          "line": "Radioactive, and also lunch.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "schrodinger-cat-mockery",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat - confirms Erwin Schrodinger published the thought experiment in November 1935 in the journal Naturwissenschaften, in a paper written in response to the Einstein-Podolsky-Rosen paper published earlier that year, and states plainly that 'Schrodinger did not wish to promote the idea of dead-and-live cats as a serious possibility' but intended the example 'to illustrate the absurdity of the existing view of quantum mechanics,' employing reductio ad absurdum.",
+        "https://www.aps.org/publications/apsnews/200203/history.cfm - the American Physical Society's history article corroborates that Schrodinger devised the cat scenario to expose a contradiction between quantum theory's predictions and ordinary experience, framing it as a demonstration of the theory's limitations rather than a description of how reality actually behaves."
+      ],
+      "verifiedNote": "Checked 26 Sep 2026. The APS News piece gives a vaguer date for the essay (it says early in 1935), which read alone would sit awkwardly before the EPR paper it was responding to; that detail is not used on screen, and the November 1935 date and Naturwissenschaften citation come from Wikipedia's more specific sourcing instead. Left out the exact mechanics of the box (the radioactive atom, the Geiger counter, the poison) beyond one summary line, since the point of the topic is the intent behind the experiment, not its apparatus.",
+      "palette": {
+        "bg": "#0B0D14",
+        "ink": "#EAEDF7",
+        "accent": "#8C7BE0",
+        "muted": "#767C93"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The most famous experiment never actually run",
+          "text": "Schrodinger did not believe his cat was really alive and dead at once.",
+          "note": "He built the scenario to make that idea sound ridiculous, not to describe something he thought was true."
+        },
+        {
+          "kind": "credit",
+          "year": "1935",
+          "name": "Erwin Schrodinger",
+          "role": "Published the thought experiment in the journal Naturwissenschaften, responding to Einstein, Podolsky and Rosen's paper on quantum theory from earlier that year."
+        },
+        {
+          "kind": "statement",
+          "text": "In the scenario, a sealed box holds a cat alongside a radioactive atom with a fifty percent chance of triggering poison.",
+          "note": "Quantum mechanics, applied literally to the whole box, says the cat is neither alive nor dead until someone looks: a blend of both at once."
+        },
+        {
+          "kind": "statement",
+          "text": "Schrodinger was arguing that this was absurd, and that something was wrong with treating a cat by the same quantum rules as a single atom.",
+          "note": "The Copenhagen interpretation he was criticising is still the one most commonly taught today."
+        },
+        {
+          "kind": "kicker",
+          "text": "The joke became the textbook example of the thing it was mocking."
+        },
+        {
+          "kind": "sign",
+          "line": "He built it to sound absurd. It became the icon.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "al-khwarizmi-algebra-algorithm",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Al-Khwarizmi - confirms Muhammad ibn Musa al-Khwarizmi wrote 'al-Kitab al-mukhtasar fi hisab al-jabr wal-muqabala' ('The Compendious Book on Calculation by Completion and Balancing'), compiled between about 813 and 833 CE; states the English word 'algebra' comes directly from 'al-jabr' in that title, meaning completion or rejoining; and confirms that when his works were translated into Latin in the 12th century his name was rendered 'Algoritmi', which became the source of the word 'algorithm'.",
+        "https://en.wikipedia.org/wiki/Algorithm - corroborates that the term 'algorithm' derives from 'Algoritmi', the Latinised form of al-Khwarizmi's name, used in the title of the 12th-century Latin translation of his treatise on Hindu-Arabic numerals, 'Algoritmi de numero Indorum'."
+      ],
+      "verifiedNote": "Checked 26 Sep 2026. The book's completion date is usually given as a range, roughly 813 to 833 CE, rather than a single year, since sources differ; the on-screen figure uses 'c. 820', the midpoint most commonly cited, rather than presenting false precision. Left out al-Khwarizmi's other major contributions (his work on Hindu-Arabic numerals, astronomy and geography) to keep the topic to the two etymologies that share one origin.",
+      "palette": {
+        "bg": "#12100C",
+        "ink": "#F2EEE3",
+        "accent": "#C99A4E",
+        "muted": "#8A8477"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Two of mathematics' biggest words",
+          "text": "Algebra and algorithm both come from the same person.",
+          "note": "Muhammad ibn Musa al-Khwarizmi, a scholar working in Baghdad in the ninth century."
+        },
+        {
+          "kind": "credit",
+          "year": "c. 820",
+          "name": "Al-Khwarizmi",
+          "role": "Wrote 'al-Kitab al-mukhtasar fi hisab al-jabr wal-muqabala', 'The Compendious Book on Calculation by Completion and Balancing'."
+        },
+        {
+          "kind": "statement",
+          "text": "'Al-jabr', part of that title, meant completing or rejoining broken parts. Carried into Latin, it became 'algebra'.",
+          "note": "The book's method for solving equations is what made the title worth borrowing."
+        },
+        {
+          "kind": "statement",
+          "text": "When 12th-century translators rendered his name in Latin, they wrote it as 'Algoritmi'.",
+          "note": "That Latinised name became the root of 'algorithm', through a later translation of his separate work on Hindu-Arabic numerals."
+        },
+        {
+          "kind": "kicker",
+          "text": "He used neither word himself. Translators built both out of his name and his title, centuries after he wrote them."
+        },
+        {
+          "kind": "sign",
+          "line": "Algebra and algorithm: one man, one book.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "ada-lovelace-note-g-1843",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ada_Lovelace - confirms Lovelace's 'Note G', published in September 1843 within her translation of Luigi Menabrea's article on Charles Babbage's unbuilt Analytical Engine, set out a method for calculating a sequence of Bernoulli numbers and is often called the first published computer program, though the Engine was never completed and the program was never run; states historian Allan Bromley documented several dozen programs in Babbage's own notes from 1837 to 1840, substantially predating Lovelace's; and quotes Doron Swade's assessment that Lovelace's distinct insight was recognising the machine could manipulate 'other things besides number', a use Babbage had not spelled out.",
+        "https://www.computerhistory.org/babbage/adalovelace/ - the Computer History Museum's page on Lovelace corroborates the 1843 publication of her translation and notes in Taylor's Scientific Memoirs, and quotes her own line: 'The Analytical Engine weaves algebraic patterns just as the Jacquard loom weaves flowers and leaves,' alongside her statement that the Engine 'might act upon other things besides number', including composing music."
+      ],
+      "verifiedNote": "Checked 26 Sep 2026. The 'first programmer' framing is presented as contested rather than settled, since Bromley's archival findings and the argument made by Eugene Eric Kim and Betty Toole are a real, cited scholarly position, not a fringe one; Stephen Wolfram's defence of Lovelace's originality is also real but is not used here as the deciding word either way. Left out the detailed contents of the Bernoulli-number algorithm itself, since the point of the topic is the dispute over priority and the recognised insight, not the mathematics.",
+      "palette": {
+        "bg": "#0E0F14",
+        "ink": "#EDEFF7",
+        "accent": "#7B9BE0",
+        "muted": "#797E93"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The 'first programmer' story",
+          "text": "Ada Lovelace is usually said to have written the first computer program, in 1843.",
+          "note": "The algorithm she published was real. Whether it was the first is genuinely disputed among historians."
+        },
+        {
+          "kind": "credit",
+          "year": "1843",
+          "name": "Ada Lovelace",
+          "role": "Published 'Note G' in Taylor's Scientific Memoirs: a method for calculating Bernoulli numbers on Charles Babbage's unbuilt Analytical Engine."
+        },
+        {
+          "kind": "statement",
+          "text": "The Analytical Engine was never built, so the program was never run.",
+          "note": "Historian Allan Bromley found dozens of programs in Babbage's own working notes from 1837 to 1840: years before Lovelace's Note G."
+        },
+        {
+          "kind": "statement",
+          "text": "'The Analytical Engine weaves algebraic patterns just as the Jacquard loom weaves flowers and leaves,' she wrote in those same 1843 notes.",
+          "note": "She argued the machine could act on 'other things besides number', including composing music: a leap Babbage himself had not spelled out."
+        },
+        {
+          "kind": "kicker",
+          "text": "The first program is disputed. The first person to see what a program was for might not be."
+        },
+        {
+          "kind": "sign",
+          "line": "Maybe not the first coder. Possibly the first to see the point of code.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
