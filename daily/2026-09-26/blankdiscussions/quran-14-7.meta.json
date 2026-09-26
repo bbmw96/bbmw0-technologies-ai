@@ -41,6 +41,22 @@
     "compliance_check": "Checked programmatically this session against every string term in scripts/data/compliance-policy.json's halal section (prohibited, superstition, origins_patterns; 123 terms) across all slide text, title, caption and tags, using word-boundary regex matching. No hits. Pure typography, no imagery, so animate_imagery and context_review do not apply. House style: no em or en dashes, no emoji, UK spelling used throughout the caption."
   },
   "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-26/quran-14-7-slide-NN.png --props=daily/2026-09-26/blankdiscussions/quran-14-7.slide-NN.json (NN = 01..08), rendered on the Windows host via Desktop Commander, then converted to JPEG for Instagram.",
-  "status": "rendered_and_hosted",
-  "theme_note": "All 29 themes in THEME_ORDER were already used (cerulean-honey most recently, by quran-16-90, the first post published today). Per the file's own comment, a 30th theme 'slate-copper' (bg #1F2937, ink #F5F1E8, accent #C77B4D, muted #6B7A8F) was added to ThemeKey, THEMES and THEME_ORDER on 2026-09-26 for this post."
+  "status": "published",
+  "theme_note": "All 29 themes in THEME_ORDER were already used (cerulean-honey most recently, by quran-16-90, the first post published today). Per the file's own comment, a 30th theme 'slate-copper' (bg #1F2937, ink #F5F1E8, accent #C77B4D, muted #6B7A8F) was added to ThemeKey, THEMES and THEME_ORDER on 2026-09-26 for this post.",
+  "published": {
+    "mediaId": "18092841092159130",
+    "permalink": "https://www.instagram.com/p/DdvontAlTd7/",
+    "publishedAt": "2026-09-26T08:44:31+0000",
+    "hostingUrls": [
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-26/blankdiscussions/renders/quran-14-7-slide-01.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-26/blankdiscussions/renders/quran-14-7-slide-02.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-26/blankdiscussions/renders/quran-14-7-slide-03.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-26/blankdiscussions/renders/quran-14-7-slide-04.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-26/blankdiscussions/renders/quran-14-7-slide-05.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-26/blankdiscussions/renders/quran-14-7-slide-06.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-26/blankdiscussions/renders/quran-14-7-slide-07.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-26/blankdiscussions/renders/quran-14-7-slide-08.jpg"
+    ],
+    "publishedVia": "Composio MCP (via connect_composio_dev_mcp gateway). 8 child containers via INSTAGRAM_POST_IG_USER_MEDIA (is_carousel_item=true, one per hosted slide image URL), then INSTAGRAM_CREATE_CAROUSEL_CONTAINER built from those 8 child ids in slide order (children-ids path, not child_image_urls, per the working pattern established on prior posts for this account), then INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH. Account alias 'BlankDiscussions', connection id instagram_willed-pried (re-verified live via account listing this session), ig_user_id 28477523595198052. Published second, 31 minutes after the first post of the day (quran-16-90, published 08:13:01 UTC) to keep the required 20-60 minute spacing between posts. Confirmed live via INSTAGRAM_GET_IG_MEDIA immediately after publish: media_type CAROUSEL_ALBUM, media_product_type FEED, 8 children, caption byte-matches, permalink present."
+  }
 }
