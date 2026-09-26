@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-26",
+  "repo": "bbmw96/bbmw0-technologies-ai",
+  "tag": "media-2026-09-26",
+  "base": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-26",
+  "urls": {
+    "imagenet-mechanical-turk": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-26/daily-2026-09-26-imagenet-mechanical-turk.mp4",
+    "pentium-fdiv-bug-1994": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-26/daily-2026-09-26-pentium-fdiv-bug-1994.mp4",
+    "pong-coin-box-overflow-1972": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-26/daily-2026-09-26-pong-coin-box-overflow-1972.mp4"
+  }
+}

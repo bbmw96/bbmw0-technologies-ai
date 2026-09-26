@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (pentium-fdiv-bug-1994)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#120A0A",
+    "ink": "#F7ECEC",
+    "accent": "#FF4D4D",
+    "muted": "#8A6E6E"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The bug lived in exactly five cells of a chip built from thousands of them.",
+      "text": "The Pentium's division circuit used a lookup table with 2,048 cells; 1,066 were meant to hold real values, and five that should have held +2 held 0 instead.",
+      "note": "A fabrication error, not a design mistake: the array was correct on paper.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1994",
+      "name": "Thomas Nicely",
+      "role": "maths professor at Lynchburg College, found it while counting twin primes",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "statement",
+      "text": "Nicely noticed the inconsistency on 13 June 1994, spent four months ruling out his own code and hardware, then reported it to Intel on 24 October.",
+      "note": "Byte magazine later estimated only 1 in 9 billion random divisions would ever hit the bad cells.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "Intel's first response was to replace chips only for customers who could prove they were affected.",
+      "note": "It reversed course on 20 December 1994, after IBM halted shipments of Pentium-based PCs.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "figure",
+      "value": "475",
+      "unit": "million",
+      "context": "dollars Intel charged against earnings on 17 January 1995 to cover the recall, computing's first full chip recall.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "sign",
+      "line": "Five wrong cells led to a $475 million recall.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Follow for more."
+}

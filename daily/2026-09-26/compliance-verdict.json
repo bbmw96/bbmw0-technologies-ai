@@ -6,7 +6,10 @@
   "allowed": [
     "berlin-wall-schabowski-mistake",
     "romer-speed-of-light-1676",
-    "smart-goals-doran-1981"
+    "smart-goals-doran-1981",
+    "imagenet-mechanical-turk",
+    "pentium-fdiv-bug-1994",
+    "pong-coin-box-overflow-1972"
   ],
   "blocked": [],
   "results": [
@@ -144,6 +147,138 @@
         "worstTitleAgainst": "metroid-reveal-missed",
         "worstDescriptionSimilarity": 0.281,
         "combo": "reel:#0D1210:#2FD98B:#EAF3EE",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "imagenet-mechanical-turk",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "needed millions of images labelled by hand first.",
+      "niche": "ai",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.143,
+        "worstTitleAgainst": "vanilla-albius",
+        "worstDescriptionSimilarity": 0.243,
+        "combo": "reel:#0F0D14:#5B8FD9:#F0EEF5",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "pentium-fdiv-bug-1994",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "The Pentium's division circuit used a lookup table with 2,048 cells; 1,066 were meant to hold real v",
+      "niche": "tech",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.065,
+        "worstTitleAgainst": "napoleon-not-short",
+        "worstDescriptionSimilarity": 0.251,
+        "combo": "reel:#120A0A:#FF4D4D:#F7ECEC",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "pong-coin-box-overflow-1972",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Nolan Bushnell gave engineer Allan Alcorn the job as a secret warm-up exercise, telling him it was f",
+      "niche": "gaming",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.081,
+        "worstTitleAgainst": "corrupted-blood-2005",
+        "worstDescriptionSimilarity": 0.267,
+        "combo": "reel:#0B0B0B:#FFD23F:#F2F2F2",
         "themeGap": null,
         "audioGap": 0
       },

@@ -1,0 +1,25 @@
+{
+  "slug": "imagenet-mechanical-turk",
+  "date": "2026-09-26",
+  "title": "needed millions of images labelled by hand first.",
+  "description": "needed millions of images labelled by hand first. AlexNet gets the credit. The dataset it was trained on took human beings years to build.\n\nSet out to build a dataset mapping images to the tens of thousands of categories in WordNet, a project other researchers thought was hopeless at that scale.\n\nPeople hired through Amazon Mechanical Turk, across 167 countries, spending nearly two years labelling and cross-checking millions of images.\n\nA cat might need two opinions. A miniature husky needed ten. The team built statistical models of how individual Turkers behaved just to catch the ones cutting corners or getting it wrong.\n\n14,197,122 images across 21,841 categories. First shown as a poster at a computer vision conference in 2009. Three years later, it was the training data behind AlexNet's win, and the moment computer vision changed.\n\nSources:\n- https://en.wikipedia.org/wiki/ImageNet\n- https://qz.com/1034972/the-data-that-changed-the-direction-of-ai-research-and-possibly-the-world\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-26-imagenet-mechanical-turk.mp4",
+  "propsFile": "daily/2026-09-26/imagenet-mechanical-turk.props.json",
+  "durationInFrames": 1116,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}

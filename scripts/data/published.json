@@ -236,7 +236,10 @@
     "reel:samuel-checkers-machine-learning-1959",
     "reel:smart-goals-doran-1981",
     "reel:berlin-wall-schabowski-mistake",
-    "reel:romer-speed-of-light-1676"
+    "reel:romer-speed-of-light-1676",
+    "reel:imagenet-mechanical-turk",
+    "reel:pong-coin-box-overflow-1972",
+    "reel:pentium-fdiv-bug-1994"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -4092,6 +4095,45 @@
       "youtubeUrl": "https://youtu.be/Dd7HuEZEf78",
       "uploadedAt": "2026-09-26T13:33:02.156Z",
       "privacy": "public"
+    },
+    {
+      "id": "imagenet-mechanical-turk",
+      "date": "2026-09-26",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "needed millions of images labelled by hand first.",
+      "description": "needed millions of images labelled by hand first. AlexNet gets the credit. The dataset it was trained on took human beings years to build.\n\nSet out to build a dataset mapping images to the tens of thousands of categories in WordNet, a project other researchers thought was hopeless at that scale.\n\nPeople hired through Amazon Mechanical Turk, across 167 countries, spending nearly two years labelling and cross-checking millions of images.\n\nA cat might need two opinions. A miniature husky needed ten. The team built statistical models of how individual Turkers behaved just to catch the ones cutting corners or getting it wrong.\n\n14,197,122 images across 21,841 categories. First shown as a poster at a computer vision conference in 2009. Three years later, it was the training data behind AlexNet's win, and the moment computer vision changed.\n\nSources:\n- https://en.wikipedia.org/wiki/ImageNet\n- https://qz.com/1034972/the-data-that-changed-the-direction-of-ai-research-and-possibly-the-world\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "pong-coin-box-overflow-1972",
+      "date": "2026-09-26",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Nolan Bushnell gave engineer Allan Alcorn the job as a secret warm-up exercise, telling him it was f",
+      "description": "Nolan Bushnell gave engineer Allan Alcorn the job as a secret warm-up exercise, telling him it was for a General Electric contract. Alcorn had never worked on a video game before.\n\nThe paddles could not reach the top of the screen because of a defect in the circuit. Alcorn left it in on purpose. He reasoned that two skilled players could otherwise rally forever.\n\nthe bar where the prototype was tested, built around a $75 Hitachi television\n\nA few days in, the bar's manager called Alcorn out to fix a fault. Nothing was broken: the coin mechanism was overflowing with quarters. People were coming to the bar solely to play it.\n\nthe revenue Pong consistently earned compared with other coin-operated machines.\n\nSources:\n- https://en.wikipedia.org/wiki/Pong: confirms Nolan Bushnell gave Allan Alcorn Pong as a secret warm-up exercise, telling him it was for a General Electric contract; that Alcorn had no prior video game experience; that a circuit defect left the paddles unable to reach the top of the screen and Alcorn kept it to limit play time; that the prototype used a $75 Hitachi black-and-white television; that it was installed at Andy Capp's Tavern in August 1972, and a few days after a fault was reported the cause proved to be the coin mechanism overflowing with quarters; that patrons came to the bar solely to play it; and that Pong consistently earned four times the revenue of other coin-operated machines.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "pentium-fdiv-bug-1994",
+      "date": "2026-09-26",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The Pentium's division circuit used a lookup table with 2,048 cells; 1,066 were meant to hold real v",
+      "description": "The Pentium's division circuit used a lookup table with 2,048 cells; 1,066 were meant to hold real values, and five that should have held +2 held 0 instead. A fabrication error, not a design mistake: the array was correct on paper.\n\nmaths professor at Lynchburg College, found it while counting twin primes\n\nNicely noticed the inconsistency on 13 June 1994, spent four months ruling out his own code and hardware, then reported it to Intel on 24 October. Byte magazine later estimated only 1 in 9 billion random divisions would ever hit the bad cells.\n\nIntel's first response was to replace chips only for customers who could prove they were affected. It reversed course on 20 December 1994, after IBM halted shipments of Pentium-based PCs.\n\ndollars Intel charged against earnings on 17 January 1995 to cover the recall, computing's first full chip recall.\n\nSources:\n- https://en.wikipedia.org/wiki/Pentium_FDIV_bug: confirms the bug's cause (five cells in a 2,048-cell lookup table, of which 1,066 were meant to be populated, that should have held +2 but held 0), the discovery timeline (Thomas Nicely first noticed inconsistencies 13 June 1994 while enumerating twin primes, isolated the cause by 19 October, reported it to Intel 24 October), Byte magazine's 1-in-9-billion estimate for random divisions, Intel's initial prove-it-yourself replacement policy, IBM's 20 December 1994 halt of Pentium-based PC shipments that forced Intel's reversal, and the $475 million pre-tax charge Intel announced on 17 January 1995.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }

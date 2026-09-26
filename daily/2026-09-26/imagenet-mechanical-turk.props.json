@@ -1,0 +1,56 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (imagenet-mechanical-turk)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0F0D14",
+    "ink": "#F0EEF5",
+    "accent": "#5B8FD9",
+    "muted": "#827E93"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The 2012 breakthrough that started the deep-learning boom",
+      "text": "needed millions of images labelled by hand first.",
+      "note": "AlexNet gets the credit. The dataset it was trained on took human beings years to build.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "credit",
+      "year": "2006",
+      "name": "Fei-Fei Li",
+      "role": "Set out to build a dataset mapping images to the tens of thousands of categories in WordNet — a project other researchers thought was hopeless at that scale.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "figure",
+      "value": "49,000",
+      "unit": "workers",
+      "context": "People hired through Amazon Mechanical Turk, across 167 countries, spending nearly two years labelling and cross-checking millions of images.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "lead": "Some images needed more checking than others",
+      "text": "A cat might need two opinions. A miniature husky needed ten.",
+      "note": "The team built statistical models of how individual Turkers behaved just to catch the ones cutting corners or getting it wrong.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "What all that labour produced",
+      "text": "14,197,122 images across 21,841 categories.",
+      "note": "First shown as a poster at a computer vision conference in 2009. Three years later, it was the training data behind AlexNet's win — and the moment computer vision changed.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "The algorithm got the headlines. The dataset made it possible.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 106
+    }
+  ],
+  "cta": "Follow for more."
+}

@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (pong-coin-box-overflow-1972)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0B0B",
+    "ink": "#F2F2F2",
+    "accent": "#FFD23F",
+    "muted": "#7A7A7A"
+  },
+  "niche": "gaming",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Pong was never meant to be sold.",
+      "text": "Nolan Bushnell gave engineer Allan Alcorn the job as a secret warm-up exercise, telling him it was for a General Electric contract.",
+      "note": "Alcorn had never worked on a video game before.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "The paddles could not reach the top of the screen because of a defect in the circuit. Alcorn left it in on purpose.",
+      "note": "He reasoned that two skilled players could otherwise rally forever.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1972",
+      "name": "Andy Capp's Tavern",
+      "role": "the bar where the prototype was tested, built around a $75 Hitachi television",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "statement",
+      "text": "A few days in, the bar's manager called Alcorn out to fix a fault. Nothing was broken: the coin mechanism was overflowing with quarters.",
+      "note": "People were coming to the bar solely to play it.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "4",
+      "unit": "times",
+      "context": "the revenue Pong consistently earned compared with other coin-operated machines.",
+      "durationInFrames": 94
+    },
+    {
+      "kind": "sign",
+      "line": "The first sign of a hit was a coin box too full to work.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 130
+    }
+  ],
+  "cta": "Follow for more."
+}

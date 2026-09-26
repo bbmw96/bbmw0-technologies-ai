@@ -1,0 +1,25 @@
+{
+  "slug": "pentium-fdiv-bug-1994",
+  "date": "2026-09-26",
+  "title": "The Pentium's division circuit used a lookup table with 2,048 cells; 1,066 were meant to hold real v",
+  "description": "The Pentium's division circuit used a lookup table with 2,048 cells; 1,066 were meant to hold real values, and five that should have held +2 held 0 instead. A fabrication error, not a design mistake: the array was correct on paper.\n\nmaths professor at Lynchburg College, found it while counting twin primes\n\nNicely noticed the inconsistency on 13 June 1994, spent four months ruling out his own code and hardware, then reported it to Intel on 24 October. Byte magazine later estimated only 1 in 9 billion random divisions would ever hit the bad cells.\n\nIntel's first response was to replace chips only for customers who could prove they were affected. It reversed course on 20 December 1994, after IBM halted shipments of Pentium-based PCs.\n\ndollars Intel charged against earnings on 17 January 1995 to cover the recall, computing's first full chip recall.\n\nSources:\n- https://en.wikipedia.org/wiki/Pentium_FDIV_bug: confirms the bug's cause (five cells in a 2,048-cell lookup table, of which 1,066 were meant to be populated, that should have held +2 but held 0), the discovery timeline (Thomas Nicely first noticed inconsistencies 13 June 1994 while enumerating twin primes, isolated the cause by 19 October, reported it to Intel 24 October), Byte magazine's 1-in-9-billion estimate for random divisions, Intel's initial prove-it-yourself replacement policy, IBM's 20 December 1994 halt of Pentium-based PC shipments that forced Intel's reversal, and the $475 million pre-tax charge Intel announced on 17 January 1995.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-26-pentium-fdiv-bug-1994.mp4",
+  "propsFile": "daily/2026-09-26/pentium-fdiv-bug-1994.props.json",
+  "durationInFrames": 990,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}
