@@ -9978,6 +9978,276 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "slack-glitch-game-pivot",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://buildingslack.com/the-death-of-glitch-the-birth-of-slack/ — read in full 27 Sep 2026 (Slack's own corporate-history blog, written by/with Stewart Butterfield's account). Establishes: Glitch, Tiny Speck's browser-based game, had unsustainable economics (Flash-based, expensive to run, couldn't adapt as gaming moved to mobile); its servers went offline at 8pm on 9 December 2012; and within one month the team had repurposed their internal IRC-based tools — channels, FTP file-sharing, searchable chat archives, integrations posting from external systems — into the first Slack prototype, with a public launch about a year later.",
+        "https://en.wikipedia.org/wiki/Slack_(software) — read in full 27 Sep 2026. Establishes: Slack launched publicly in August 2013, and 8,000 customers signed up for the service within 24 hours of that launch.",
+        "https://buildingslack.com/we-cant-call-it-slack/ — read in full 27 Sep 2026. Establishes: 'Slack' was used as a codename on Butterfield's pitch deck; the popular story that the name is a backronym for 'Searchable Log of All Conversation and Knowledge'; and quotes Butterfield's own tweet reply on the question — 'Pretty sure the word came first (probably true of all acronyms?) but it was there at the beginning' — confirming the plain word preceded the acronym rather than the other way round."
+      ],
+      "verifiedNote": "Checked 27 Sep 2026 directly against Slack's own two building Slack posts and Wikipedia's Slack article, which agree on the Glitch shutdown date and the 8,000-signup launch figure. Not claimed: an exact founding date for Tiny Speck, since none of the three sources read here states one. Not claimed: that the Searchable Log backronym is definitively false in every account — Butterfield's own reply only establishes that the plain word came first for him, not that no one internally ever proposed the acronym before launch, so the beat is worded to that narrower, sourced claim rather than a flat 'it's a myth.'",
+      "palette": {
+        "bg": "#140B12",
+        "ink": "#F5EEF2",
+        "accent": "#E01E5A",
+        "muted": "#8C7885"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "People assume Slack was designed from day one to be workplace software.",
+          "text": "It was built to keep a struggling video game studio internally coordinated.",
+          "note": "That game was Glitch, a browser-based world from Stewart Butterfield's company, Tiny Speck."
+        },
+        {
+          "kind": "credit",
+          "year": "2012",
+          "name": "Glitch",
+          "role": "Tiny Speck's browser game — expensive to run, built on Flash just as gaming moved to mobile. Butterfield's team took its servers offline on 9 December 2012."
+        },
+        {
+          "kind": "statement",
+          "lead": "The game died. The tools built to run it didn't.",
+          "text": "An internal IRC-based system — channels, file sharing, searchable chat archives — became Slack's first prototype within a month of the shutdown.",
+          "note": "None of it was designed to be sold. It was designed to keep one struggling team talking."
+        },
+        {
+          "kind": "figure",
+          "value": "8,000",
+          "unit": "signups",
+          "context": "Customers Slack signed up in the first 24 hours after launching publicly in August 2013 — about a year after Glitch went dark."
+        },
+        {
+          "kind": "statement",
+          "lead": "Even the name carries a myth.",
+          "text": "Most people think 'Slack' is a backronym for 'Searchable Log of All Conversation and Knowledge.'",
+          "note": "Butterfield himself said the plain word came first, and the acronym was fitted to it afterwards."
+        },
+        {
+          "kind": "sign",
+          "line": "A dead game's leftover chat tool, now run by millions of teams that never played it.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "discord-fates-forever-pivot",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Discord_(software) — read in full 27 Sep 2026. Establishes: Discord was founded by Jason Citron and Stanislav Vishnevskiy; Citron founded the studio Hammer & Chisel in 2012 after selling his previous company, OpenFeint, to GREE; the studio's game Fates Forever (2014, a mobile MOBA) 'was not commercially successful'; Discord was publicly released in May 2015; and early growth was 3 million users by January 2016, 11 million by July 2016, 25 million by December 2016, and nearly 90 million by the end of 2017, gaining roughly 1.5 million new users a week — spreading in large part because gaming subreddits began replacing IRC links with Discord ones.",
+        "https://toucharcade.com/2015/09/14/ex-fates-forever-developers-making-discord-a-voice-comm-app-for-multiplayer-mobile-games/ — read in full 27 Sep 2026 (contemporary report, published the week Discord was announced). Establishes and quotes Citron directly: 'voice and text chat on mobile haven't really advanced over the past decade' — the gap Fates Forever's development exposed and Discord was built to fix.",
+        "https://techcrunch.com/2011/04/21/japanese-company-gree-buys-mobile-social-gaming-platform-openfeint-for-104-million/ — read in full 27 Sep 2026 (contemporary reporting). Establishes the $104 million cash acquisition of OpenFeint by GREE, announced April 2011."
+      ],
+      "verifiedNote": "Checked 27 Sep 2026 against Wikipedia's Discord article, cross-checked with the contemporary TouchArcade report from the week of Discord's announcement and TechCrunch's original OpenFeint acquisition report — all three agree on the OpenFeint sale price, the Fates Forever-to-Discord pivot, and the May 2015 launch. Not claimed: an exact reason Fates Forever failed commercially beyond what the sources state ('did not achieve the traction it needed'). Not claimed: any user or revenue figures past 2017, since the topic is specifically about the founding pivot and its first two and a half years.",
+      "palette": {
+        "bg": "#0B0C14",
+        "ink": "#EDEEFB",
+        "accent": "#5865F2",
+        "muted": "#6E7196"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Discord wasn't built as a chat app for gamers.",
+          "text": "It was the second product from a team whose first was a video game that flopped.",
+          "note": "That game was Fates Forever, a mobile MOBA released in 2014."
+        },
+        {
+          "kind": "credit",
+          "year": "2011",
+          "name": "Jason Citron",
+          "role": "Sold his previous company, mobile gaming platform OpenFeint, to Japan's GREE for $104 million in cash — then used the fresh start to found Hammer & Chisel and build a game."
+        },
+        {
+          "kind": "statement",
+          "lead": "Fates Forever never found its audience.",
+          "text": "While building it, the team kept hitting the same wall: voice and text chat for gamers hadn't meaningfully improved in a decade.",
+          "note": "TeamSpeak and Skype were still what most players were stuck with."
+        },
+        {
+          "kind": "statement",
+          "lead": "So they built the tool instead of another game.",
+          "text": "Discord launched publicly in May 2015, aimed straight at the problem Fates Forever had run into.",
+          "note": "Same team, same instinct, a completely different product."
+        },
+        {
+          "kind": "figure",
+          "value": "90",
+          "unit": "million",
+          "context": "Discord's user count by the end of 2017 — up from 3 million less than two years earlier, gaining roughly 1.5 million new users a week."
+        },
+        {
+          "kind": "sign",
+          "line": "A failed MOBA's real legacy: the voice chat its own players never got to use.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "word2vec-king-queen-analogy",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://ar5iv.labs.arxiv.org/html/1301.3781 — read in full 27 Sep 2026 (primary — Mikolov, Chen, Corrado & Dean, 'Efficient Estimation of Word Representations in Vector Space,' Google, arXiv:1301.3781, 2013). Establishes the exact wording: 'vector(\"King\") - vector(\"Man\") + vector(\"Woman\") results in a vector that is closest to the vector representation of the word Queen'; an analogy test set of 19,544 questions (8,869 semantic, 10,675 syntactic) across 14 relationship categories; and the best Skip-gram model's 66.1% semantic and 65.1% syntactic accuracy, trained on 6 billion words with 1000-dimensional vectors (Table 6).",
+        "https://www.marekrei.com/blog/linguistic-regularities-word-representations/ — read in full 27 Sep 2026 (secondary explainer). Corroborates that the companion NAACL 2013 paper (Mikolov, Yih & Zweig, 'Linguistic Regularities in Continuous Space Word Representations') formalised the same relationship as the 'vector offset method' — cosine similarity to a computed offset vector — confirming the king/queen arithmetic was a named, tested method rather than a one-off demo."
+      ],
+      "verifiedNote": "Checked 27 Sep 2026 directly against the ar5iv full-text rendering of the original paper, not a summary of it. Not claimed: a specific accuracy figure for the king/queen example alone — the 66.1%/65.1% figures are overall test-set accuracy across all 19,544 questions, not a per-example score, and the beats are worded to reflect that. Not claimed: that this was the first word-embedding model ever built — earlier work had already produced word vectors; the topic is specifically about this paper's analogy-arithmetic result and its own reported numbers.",
+      "palette": {
+        "bg": "#081015",
+        "ink": "#E8F6FA",
+        "accent": "#22D3EE",
+        "muted": "#5C7A82"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The most famous demonstration that a computer understood gender and royalty",
+          "text": "was just subtraction and addition.",
+          "note": "No dictionary, no hand-coded rules — the model was never told what a king or a queen is."
+        },
+        {
+          "kind": "credit",
+          "year": "2013",
+          "name": "word2vec",
+          "role": "Tomas Mikolov, Kai Chen, Greg Corrado and Jeffrey Dean at Google trained it purely by having it predict which words sit near each other across huge amounts of ordinary text."
+        },
+        {
+          "kind": "statement",
+          "lead": "The result got a name of its own.",
+          "text": "Take the vector for 'King', subtract 'Man', add 'Woman' — the closest vector left in the whole space is 'Queen.'",
+          "note": "That is the paper's own wording, not a paraphrase added later."
+        },
+        {
+          "kind": "figure",
+          "value": "19,544",
+          "unit": "questions",
+          "context": "The test set built to check this wasn't one lucky example — thousands of analogy questions, split between semantic pairs like king/queen and syntactic ones like big/biggest."
+        },
+        {
+          "kind": "statement",
+          "lead": "It didn't get them all right.",
+          "text": "The best version of the model answered about two in three correctly: 66.1% on semantic questions, 65.1% on syntactic ones.",
+          "note": "Genuinely impressive for 2013, and nowhere near solved."
+        },
+        {
+          "kind": "sign",
+          "line": "It never learned what a queen is. It learned where the word sits.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "first-tweet-just-setting-up",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://www.computerhistory.org/tdih/march/21/ — read in full 27 Sep 2026. Establishes the date (21 March 2006), time (9:50am) and exact text ('just setting up my twttr') of Jack Dorsey's first tweet.",
+        "https://techcrunch.com/2011/03/13/twitters-beginning/ — read in full 27 Sep 2026. Quotes Dorsey's own retrospective tweets, posted on the story's fifth anniversary, directly rather than paraphrasing them: he sketched the idea in 2001 as 'stat.us'; the team got the internal go-ahead to start building 'twttr' on 13 March 2006; and co-founder Noah Glass chose the name 'Twitter,' taken from the Oxford English Dictionary's definition — 'a short inconsequential burst of information... chirps from birds.'",
+        "https://www.forbes.com/sites/rachelsandler/2021/03/22/jack-dorseys-first-tweet-fetched-29-million-in-nft-sale-and-he-donated-proceeds-to-charity/ — read in full 27 Sep 2026. Establishes the March 2021 NFT sale of that tweet for $2.9 million to entrepreneur Sina Estavi, and that Dorsey converted the proceeds to bitcoin and donated them to charity.",
+        "https://www.coindesk.com/business/2022/04/13/jack-dorseys-first-tweet-nft-went-on-sale-for-48m-it-ended-with-a-top-bid-of-just-280 — read in full 27 Sep 2026. Establishes the April 2022 resale attempt: listed at $48 million on 6 April 2022, auction closed 13 April 2022 with a top bid of 0.09 ETH (about $280) across seven offers."
+      ],
+      "verifiedNote": "Checked 27 Sep 2026 across four independently read sources: Computer History Museum for the base tweet; TechCrunch, which quotes Dorsey's own 2011 anniversary tweets directly, for the naming and pre-history; and Forbes plus CoinDesk for the two NFT transactions. Not claimed: that this was literally the first tweet ever sent on the service — several independent write-ups point out the tweet's status ID is 20, not 1, implying earlier deleted or test posts, but that specific numbering claim wasn't confirmed here against a source solid enough to state as fact, so the topic sticks to what's well documented: this is the tweet popularly known, and sold, as 'the first tweet.' Not claimed: a time zone for the 9:50am timestamp, since the source gives the time without specifying one.",
+      "palette": {
+        "bg": "#0B141A",
+        "ink": "#EAF6FD",
+        "accent": "#1DA1F2",
+        "muted": "#5E7A88"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "People usually just remember the line.",
+          "text": "'just setting up my twttr' — posted 21 March 2006, before the product was even called Twitter.",
+          "note": "It launched publicly as Twitter four months later, in July 2006."
+        },
+        {
+          "kind": "credit",
+          "year": "2001",
+          "name": "'stat.us'",
+          "role": "Jack Dorsey's own first sketch of the idea, drawn on a notepad five years earlier. Nothing came of it until Odeo, a podcasting company, gave the concept a real team in March 2006."
+        },
+        {
+          "kind": "statement",
+          "lead": "Even the name wasn't his.",
+          "text": "Co-founder Noah Glass chose 'Twitter,' not Dorsey.",
+          "note": "He took it from the Oxford English Dictionary: 'a short inconsequential burst of information... chirps from birds.'"
+        },
+        {
+          "kind": "statement",
+          "lead": "That tweet later became a very literal collector's item.",
+          "text": "Entrepreneur Sina Estavi bought it as an NFT for $2.9 million in March 2021.",
+          "note": "Dorsey converted the proceeds to bitcoin and donated them to charity."
+        },
+        {
+          "kind": "figure",
+          "value": "280",
+          "unit": "USD",
+          "context": "The top bid when Estavi tried to resell that same NFT for $48 million thirteen months later. Seven bids came in; none went higher."
+        },
+        {
+          "kind": "sign",
+          "line": "The internet's most expensive four words, and the crash that followed them.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "okrs-not-google-intel-grove",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Objectives_and_key_results — read in full 27 Sep 2026. Establishes: Andy Grove developed the system at Intel in the 1970s, originally called 'iMBOs' (Intel Management by Objectives), drawing on Peter Drucker's older Management by Objectives idea; Grove documented it in his 1983 book 'High Output Management'; John Doerr attended a course taught by Grove at Intel in 1975 where he was introduced to iMBOs; and Doerr introduced the methodology, by then renamed OKRs, to Google's founders in 1999.",
+        "https://en.wikipedia.org/wiki/John_Doerr — read in full 27 Sep 2026. Establishes: Doerr joined Intel in 1974 during development of the 8080 microprocessor and became one of its most successful salespeople; in 1980 he left for the venture capital firm Kleiner Perkins, a move Grove discouraged, quoting Grove directly: 'John, venture capital, that's not a real job. It's like being a real estate agent.'",
+        "https://www.whatmatters.com/articles/the-origin-story — read in full 27 Sep 2026 (John Doerr's own organisation, built around his book 'Measure What Matters'). Corroborates the Intel-to-Google chronology and confirms Doerr wrote 'Measure What Matters' to document Grove's methods."
+      ],
+      "verifiedNote": "Checked 27 Sep 2026 against both Wikipedia articles and whatmatters.com, which agree on Grove's 1970s Intel origin, the 'iMBOs' name, the 1975 course, and the 1999 introduction to Google. Not claimed: the exact year within the 1970s that Grove first used the iMBOs system, since none of the three sources read here narrows it further than 'the 1970s.' Not claimed: that Peter Drucker's Management by Objectives and Grove's iMBOs are the same system — Drucker is credited only as an acknowledged influence, not as having designed what Grove built.",
+      "palette": {
+        "bg": "#0A1218",
+        "ink": "#EAF2F6",
+        "accent": "#00A8F0",
+        "muted": "#5E7684"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Most people who've used OKRs at work credit Google for them.",
+          "text": "Google adopted the system. It didn't invent it.",
+          "note": "By the time OKRs reached Google, the method had already been running inside another company for decades."
+        },
+        {
+          "kind": "credit",
+          "year": "1970s",
+          "name": "Andy Grove",
+          "role": "Built the system inside Intel and called it 'iMBOs' — Intel Management by Objectives — drawing on Peter Drucker's older idea of managing by objectives from the 1950s."
+        },
+        {
+          "kind": "statement",
+          "lead": "One of Grove's own students carried it out the door.",
+          "text": "John Doerr joined Intel in 1974 as a salesman and sat in Grove's internal course in 1975, where he first learned the iMBOs method.",
+          "note": "He later wrote the book that gave it its modern name: 'Measure What Matters.'"
+        },
+        {
+          "kind": "figure",
+          "value": "25",
+          "unit": "years",
+          "context": "How long the method had already been running at Intel before Doerr, by then a venture capitalist, introduced it to Google's founders in 1999."
+        },
+        {
+          "kind": "statement",
+          "lead": "Grove wasn't impressed by where Doerr took it next.",
+          "text": "When Doerr left Intel for the venture capital firm Kleiner Perkins in 1980, Grove told him venture capital 'is not a real job. It's like being a real estate agent.'",
+          "note": "Grove wrote the method down just once, in his 1983 book 'High Output Management.'"
+        },
+        {
+          "kind": "sign",
+          "line": "A 1970s Intel habit, still wearing the name Google made famous.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
