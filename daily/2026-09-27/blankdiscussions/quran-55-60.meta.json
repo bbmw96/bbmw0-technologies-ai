@@ -41,6 +41,15 @@
     "compliance_check": "Checked programmatically this session against every string term in scripts/data/compliance-policy.json's halal section (prohibited, superstition, origins_patterns) across all slide text, title, caption and tags, using word-boundary regex matching. No hits. Pure typography, no imagery, so animate_imagery and context_review do not apply. House style: no em or en dashes, no emoji, UK spelling used throughout the caption."
   },
   "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-27/quran-55-60-slide-NN.png --props=daily/2026-09-27/blankdiscussions/quran-55-60.slide-NN.json (NN = 01..08), rendered on the Windows host via Desktop Commander, then converted to JPEG for Instagram.",
-  "status": "sourced",
-  "theme_note": "All 30 themes in THEME_ORDER were already used (steel-blossom being the 31st, added to ThemeKey, THEMES and THEME_ORDER on 2026-09-27 for this post, following the same 'add rather than repeat' rule used for slate-copper on 2026-09-26)."
+  "status": "rendered_and_hosted",
+  "theme_note": "All 30 themes in THEME_ORDER were already used (steel-blossom being the 31st, added to ThemeKey, THEMES and THEME_ORDER on 2026-09-27 for this post, following the same 'add rather than repeat' rule used for slate-copper on 2026-09-26).",
+  "hosting_verified": {
+    "checkedAt": "2026-09-27",
+    "sampleUrls": [
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-27/blankdiscussions/renders/quran-55-60-slide-02.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-27/blankdiscussions/renders/quran-55-60-slide-05.jpg"
+    ],
+    "httpStatus": 200,
+    "note": "Visually spot-checked Arabic (slide-02), Chinese (slide-04), Korean (slide-05) and Japanese (slide-06) renders for tofu/missing glyphs - all render correctly."
+  }
 }
