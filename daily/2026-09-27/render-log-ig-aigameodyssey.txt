@@ -1,11 +1,47 @@
-Rendering 3 Shorts for 2026-09-27 (concurrency=3, GL=default)
-Compliance: 2 cleared, 1 blocked (policy v1.0.0).
-Blocked by compliance: ada-lovelace-note-g-1843
+Rendering 8 Shorts for 2026-09-27 (concurrency=3, GL=default)
+Compliance: 5 cleared, 3 blocked (policy v1.0.0).
+Blocked by compliance: ada-lovelace-note-g-1843, dualshock-rumble-lawsuit-2004, hello-world-kernighan-1972
 
 --- ada-lovelace-note-g-1843 ---
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
+
+--- chinook-never-beat-tinsley ---
   composition=Reel audio= privacy=public
-  rendered: out/daily-2026-09-27-ada-lovelace-note-g-1843.mp4
-  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-27/compliance-verdict.json.
+  rendered: out/daily-2026-09-27-chinook-never-beat-tinsley.mp4
+  hosting media so Instagram can fetch it...
+  ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
+  instagram via: Composio
+  FAILED upload: Command failed: node scripts/instagram-upload-composio.mjs --video-url="https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-27/daily-2026-09-27-chinook-never-beat-tinsley.mp4" --caption="Chinook, a draughts program from the University of Alberta, finished second to Marion Tinsley at the" --tags="shorts,ai,facts,didyouknow,history"
+Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"AH2x554PN65lbLC1bf8jcur"}}
+
+  --- child stdout ---
+  |   id=ca_9c4hykP4M5OP  toolkit=github  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=EXPIRED
+  |   id=ca_vjf62kxg26zV  toolkit=anthropic_administrator  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=ACTIVE
+  |   (this script was passed ACCOUNT="instagram_sledge-got" — it must match an id above, not a nickname)
+  |   /tools?toolkit_slug=instagram&limit=200 -> HTTP 200, 16 instagram tool(s) [trusted]
+  | instagram tools visible to this key: 16 found
+  |   INSTAGRAM_CREATE_CAROUSEL_CONTAINER
+  |   INSTAGRAM_CREATE_MEDIA_CONTAINER
+  |   INSTAGRAM_CREATE_POST
+  |   INSTAGRAM_GET_CONVERSATION
+  |   INSTAGRAM_GET_POST_COMMENTS
+  |   INSTAGRAM_GET_POST_INSIGHTS
+  |   INSTAGRAM_GET_POST_STATUS
+  |   INSTAGRAM_GET_USER_INFO
+  |   INSTAGRAM_GET_USER_INSIGHTS
+  |   INSTAGRAM_GET_USER_MEDIA
+  |   INSTAGRAM_LIST_ALL_CONVERSATIONS
+  |   INSTAGRAM_LIST_ALL_MESSAGES
+  |   INSTAGRAM_MARK_SEEN
+  |   INSTAGRAM_REPLY_TO_COMMENT
+  |   INSTAGRAM_SEND_IMAGE
+  |   INSTAGRAM_SEND_TEXT_MESSAGE
+  |   INSTAGRAM_POST_IG_USER_MEDIA present in this key's tool list: NO
+  |   So the 404 is correct: the key can see Instagram tools, but not that one.
+  |   Pick a slug from the list above that publishes media, and use it instead.
+  | --- end diagnostics ---
+  --- child stderr ---
+  | Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"AH2x554PN65lbLC1bf8jcur"}}
 
 --- dalle-name-dali-walle-2021 ---
   composition=Reel audio= privacy=public
@@ -14,7 +50,7 @@ Blocked by compliance: ada-lovelace-note-g-1843
   ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
   instagram via: Composio
   FAILED upload: Command failed: node scripts/instagram-upload-composio.mjs --video-url="https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-27/daily-2026-09-27-dalle-name-dali-walle-2021.mp4" --caption="DALL·E is a portmanteau of Salvador Dali, the Spanish surrealist, and WALL-E, Pixar's 2008 robot." --tags="shorts,app,facts,didyouknow,history"
-Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"ALFdQpnfkbye34B64gXo8uM"}}
+Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"AH5ynx27j9zJ48EiCAvVEOD"}}
 
   --- child stdout ---
   |   id=ca_9c4hykP4M5OP  toolkit=github  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=EXPIRED
@@ -43,16 +79,21 @@ Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (sta
   |   Pick a slug from the list above that publishes media, and use it instead.
   | --- end diagnostics ---
   --- child stderr ---
-  | Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"ALFdQpnfkbye34B64gXo8uM"}}
+  | Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"AH5ynx27j9zJ48EiCAvVEOD"}}
 
---- hello-world-kernighan-1972 ---
+--- dualshock-rumble-lawsuit-2004 ---
   composition=Reel audio= privacy=public
-  rendered: out/daily-2026-09-27-hello-world-kernighan-1972.mp4
+  rendered: out/daily-2026-09-27-dualshock-rumble-lawsuit-2004.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-27/compliance-verdict.json.
+
+--- gulf-war-game-boy-1991 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-27-gulf-war-game-boy-1991.mp4
   hosting media so Instagram can fetch it...
   ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
   instagram via: Composio
-  FAILED upload: Command failed: node scripts/instagram-upload-composio.mjs --video-url="https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-27/daily-2026-09-27-hello-world-kernighan-1972.mp4" --caption="It didn't start in C." --tags="shorts,tech,facts,didyouknow,history"
-Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"ARnCwigqxHEwU1bPF40XTbB"}}
+  FAILED upload: Command failed: node scripts/instagram-upload-composio.mjs --video-url="https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-27/daily-2026-09-27-gulf-war-game-boy-1991.mp4" --caption="Its front was burned and melted in its owner's barracks during a bombing in the Gulf War." --tags="shorts,gaming,facts,didyouknow,history"
+Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"AzM4EI7n1ihhA30uZG5ZqMb"}}
 
   --- child stdout ---
   |   id=ca_9c4hykP4M5OP  toolkit=github  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=EXPIRED
@@ -81,6 +122,50 @@ Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (sta
   |   Pick a slug from the list above that publishes media, and use it instead.
   | --- end diagnostics ---
   --- child stderr ---
-  | Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"ARnCwigqxHEwU1bPF40XTbB"}}
+  | Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"AzM4EI7n1ihhA30uZG5ZqMb"}}
 
-=== Done. 3 rendered, 0 uploaded, 0 skipped, 1 blocked by compliance, 2 failed. ===
+--- hello-world-kernighan-1972 ---
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
+
+--- instagram-burbn-pivot ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-27-instagram-burbn-pivot.mp4
+  hosting media so Instagram can fetch it...
+  ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
+  instagram via: Composio
+  FAILED upload: Command failed: node scripts/instagram-upload-composio.mjs --video-url="https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-09-27/daily-2026-09-27-instagram-burbn-pivot.mp4" --caption="It started as a location check-in app called Burbn." --tags="shorts,app,facts,didyouknow,history"
+Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"AtU3DpyPcnzKiKO8mgNp0bc"}}
+
+  --- child stdout ---
+  |   id=ca_9c4hykP4M5OP  toolkit=github  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=EXPIRED
+  |   id=ca_vjf62kxg26zV  toolkit=anthropic_administrator  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=ACTIVE
+  |   (this script was passed ACCOUNT="instagram_sledge-got" — it must match an id above, not a nickname)
+  |   /tools?toolkit_slug=instagram&limit=200 -> HTTP 200, 16 instagram tool(s) [trusted]
+  | instagram tools visible to this key: 16 found
+  |   INSTAGRAM_CREATE_CAROUSEL_CONTAINER
+  |   INSTAGRAM_CREATE_MEDIA_CONTAINER
+  |   INSTAGRAM_CREATE_POST
+  |   INSTAGRAM_GET_CONVERSATION
+  |   INSTAGRAM_GET_POST_COMMENTS
+  |   INSTAGRAM_GET_POST_INSIGHTS
+  |   INSTAGRAM_GET_POST_STATUS
+  |   INSTAGRAM_GET_USER_INFO
+  |   INSTAGRAM_GET_USER_INSIGHTS
+  |   INSTAGRAM_GET_USER_MEDIA
+  |   INSTAGRAM_LIST_ALL_CONVERSATIONS
+  |   INSTAGRAM_LIST_ALL_MESSAGES
+  |   INSTAGRAM_MARK_SEEN
+  |   INSTAGRAM_REPLY_TO_COMMENT
+  |   INSTAGRAM_SEND_IMAGE
+  |   INSTAGRAM_SEND_TEXT_MESSAGE
+  |   INSTAGRAM_POST_IG_USER_MEDIA present in this key's tool list: NO
+  |   So the 404 is correct: the key can see Instagram tools, but not that one.
+  |   Pick a slug from the list above that publishes media, and use it instead.
+  | --- end diagnostics ---
+  --- child stderr ---
+  | Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"AtU3DpyPcnzKiKO8mgNp0bc"}}
+
+--- paul-revere-not-british-are-coming ---
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
+
+=== Done. 5 rendered, 0 uploaded, 3 skipped, 1 blocked by compliance, 4 failed. ===

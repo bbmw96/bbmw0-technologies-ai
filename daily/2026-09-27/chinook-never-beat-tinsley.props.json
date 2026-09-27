@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (chinook-never-beat-tinsley)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#140B0B",
+    "ink": "#F6EAEA",
+    "accent": "#E8483C",
+    "muted": "#8C6A68"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The first program to win a world title against humans never beat the champion.",
+      "text": "Chinook, a draughts program from the University of Alberta, finished second to Marion Tinsley at the 1990 US Nationals.",
+      "note": "All of its knowledge was programmed by its creators rather than learned.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "The governing bodies refused to let a computer play for the world title, so Tinsley resigned his title in protest and played the match anyway.",
+      "note": "He won in 1992 with four wins to Chinook's two, and 33 draws.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "7",
+      "unit": "losses",
+      "context": "the total number of games Tinsley lost from 1950 until his death in 1995. Two of them were to Chinook.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "statement",
+      "text": "In their 1994 rematch, all six games were drawn. Then Tinsley withdrew, ill with pancreatic cancer, and Chinook was declared champion.",
+      "note": "He died the following April.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "text": "In 2007 the same team proved that draughts, played perfectly by both sides, always ends in a draw.",
+      "note": "Published in Science as 'Checkers Is Solved'.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "sign",
+      "line": "The machine got the title. The man was never beaten.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 106
+    }
+  ],
+  "cta": "Follow for more."
+}

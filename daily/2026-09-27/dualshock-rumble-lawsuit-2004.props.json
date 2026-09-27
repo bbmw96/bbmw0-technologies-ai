@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (dualshock-rumble-lawsuit-2004)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0C14",
+    "ink": "#EAEEFA",
+    "accent": "#6C7BFF",
+    "muted": "#6B7290"
+  },
+  "niche": "gaming",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Sony's own controller lost a core feature for two years over a lawsuit.",
+      "text": "In February 2002, Immersion Corporation sued Sony, and Microsoft, for patent infringement over the vibration technology in the DualShock controller.",
+      "note": "Nintendo wasn't named: its Rumble Pak used a separately patented design.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "Microsoft settled straight away, buying a 10% stake in Immersion. Sony fought the case instead.",
+      "note": "That decision cost it years in court and tens of millions more than Microsoft ever paid.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "text": "A jury awarded Immersion $82 million on 21 September 2004; with interest, the total reached $90.7 million.",
+      "note": "A federal court upheld the verdict in March 2006 and ordered Sony to stop selling the infringing controllers, though the order was stayed during appeal.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "At E3 2006, Sony announced the new PlayStation 3 controller would ship with no vibration at all.",
+      "note": "Sony said this avoided interference with the controller's new motion sensor; Immersion's own president was publicly sceptical of that explanation.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "97.2",
+      "unit": "million",
+      "context": "dollars Sony agreed to pay Immersion in the March 2007 settlement, on top of $30.6 million already paid in licence fees.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "sign",
+      "line": "The PS3 launched silent. Rumble came back in 2008.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Follow for more."
+}

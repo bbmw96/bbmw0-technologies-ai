@@ -247,7 +247,10 @@
     "reel:banana-equivalent-dose",
     "reel:schrodinger-cat-mockery",
     "reel:instagram-burbn-pivot",
-    "reel:kanban-piggly-wiggly-myth"
+    "reel:kanban-piggly-wiggly-myth",
+    "reel:chinook-never-beat-tinsley",
+    "reel:gulf-war-game-boy-1991",
+    "reel:dualshock-rumble-lawsuit-2004"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -4300,6 +4303,58 @@
       "youtubeUrl": "https://youtu.be/UuLKbmeqqic",
       "uploadedAt": "2026-09-27T19:14:53.248Z",
       "privacy": "public"
+    },
+    {
+      "id": "chinook-never-beat-tinsley",
+      "date": "2026-09-27",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Chinook, a draughts program from the University of Alberta, finished second to Marion Tinsley at the",
+      "description": "Chinook, a draughts program from the University of Alberta, finished second to Marion Tinsley at the 1990 US Nationals. All of its knowledge was programmed by its creators rather than learned.\n\nThe governing bodies refused to let a computer play for the world title, so Tinsley resigned his title in protest and played the match anyway. He won in 1992 with four wins to Chinook's two, and 33 draws.\n\nthe total number of games Tinsley lost from 1950 until his death in 1995. Two of them were to Chinook.\n\nIn their 1994 rematch, all six games were drawn. Then Tinsley withdrew, ill with pancreatic cancer, and Chinook was declared champion. He died the following April.\n\nIn 2007 the same team proved that draughts, played perfectly by both sides, always ends in a draw. Published in Science as 'Checkers Is Solved'.\n\nSources:\n- https://en.wikipedia.org/wiki/Chinook_(computer_program): confirms Chinook was built at the University of Alberta by a team led by Jonathan Schaeffer; that all its knowledge was programmed by hand rather than learned; that it qualified for the World Championship by finishing second to Marion Tinsley at the 1990 US Nationals; that the governing bodies refused a computer entry until Tinsley resigned his title in protest; that Tinsley won their match with four wins to Chinook's two and 33 draws; that in 1994 Chinook became Man-Machine World Champion after six drawn games and Tinsley's withdrawal due to pancreatic cancer, without ever defeating him; and that the team's paper 'Checkers Is Solved' was published in Science on 19 July 2007, proving perfect play ends in a draw.\n- https://en.wikipedia.org/wiki/Marion_Tinsley: confirms Tinsley lost only seven games from 1950 until his death in 1995, two of them to Chinook; that the unofficial match was played in August 1992; that he was diagnosed with pancreatic cancer a week after the 1994 match; and that he died on 3 April 1995.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "gulf-war-game-boy-1991",
+      "date": "2026-09-27",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Its front was burned and melted in its owner's barracks during a bombing in the Gulf War.",
+      "description": "Its front was burned and melted in its owner's barracks during a bombing in the Gulf War. Its owner, Stephan Scoggins, a medic deployed in the war, posted it to Nintendo Power asking for a replacement.\n\nNintendo's technicians wrote it off, then found it still powered on. Start and Select still worked, so they tested it with Tetris. That is all the source confirms: not that every button and the screen survived.\n\nprinted his letter and sent him a new Game Boy 'as a special Desert Storm courtesy'\n\nThe scorched console went on show in Nintendo's New York store, switched on and playing Tetris. Keeping it running took new batteries and, at one point, a replacement screen.\n\nIn 2023 a store worker confirmed it had been quietly sent back to Nintendo of America's headquarters in Redmond, Washington. It is unclear whether it will ever go back on show.\n\nSources:\n- https://en.wikipedia.org/wiki/Nintendo_New_York: confirms the store's museum displayed a Game Boy owned by Dr Stephan Scoggins, a medic deployed in the Gulf War; that its front was burned and melted in his barracks during a bombing; that he sent it to Nintendo Power asking for a replacement; that technicians judged it a 'lost cause' but found it still powered on with Start and Select working, testing it with Tetris; that Nintendo Power sent him a replacement 'as a special Desert Storm courtesy' and ran his letter in issue 26 (July 1991); and that it was confirmed in 2023 to have been returned to Nintendo of America's headquarters in Redmond, Washington.\n- https://www.siliconera.com/the-gulf-war-game-boy-says-goodbye-to-nintendo-new-york-store-removed/: confirms the removal was reported on 29 to 30 June 2023 after a store worker said it had gone back to Redmond, and that the unit on display had received a screen replacement and new batteries when needed.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "instagram-burbn-pivot",
+      "date": "2026-09-27",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It started as a location check-in app called Burbn.",
+      "description": "It started as a location check-in app called Burbn. Kevin Systrom and Mike Krieger built it in San Francisco to compete with Foursquare, check-ins, plans with friends, points for going out. Photos were just one feature, buried among many.\n\nHow many people Burbn had after three months. By most measures, it was already failing.\n\nAlmost nobody cared about check-ins. Everyone shared photos. Systrom and Krieger stripped out everything else and rebuilt the whole app around the one feature people kept coming back for.\n\nPeople didn't think their photos looked good enough to post. Kevin's wife told him that was the real reason people hesitated. His answer became Instagram's first filter, X-Pro II.\n\nThe app launched as Instagram on 6 October 2010. Two months later it had a million users, the same idea that, as Burbn, had never broken a hundred.\n\nSources:\n- https://en.wikipedia.org/wiki/Instagram\n- https://www.startuparchive.org/p/how-kevin-systrom-pivoted-a-failed-check-in-app-into-instagram\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "dualshock-rumble-lawsuit-2004",
+      "date": "2026-09-27",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "In February 2002, Immersion Corporation sued Sony, and Microsoft, for patent infringement over the v",
+      "description": "In February 2002, Immersion Corporation sued Sony, and Microsoft, for patent infringement over the vibration technology in the DualShock controller. Nintendo wasn't named: its Rumble Pak used a separately patented design.\n\nMicrosoft settled straight away, buying a 10% stake in Immersion. Sony fought the case instead. That decision cost it years in court and tens of millions more than Microsoft ever paid.\n\nA jury awarded Immersion $82 million on 21 September 2004; with interest, the total reached $90.7 million. A federal court upheld the verdict in March 2006 and ordered Sony to stop selling the infringing controllers, though the order was stayed during appeal.\n\nAt E3 2006, Sony announced the new PlayStation 3 controller would ship with no vibration at all. Sony said this avoided interference with the controller's new motion sensor; Immersion's own president was publicly sceptical of that explanation.\n\ndollars Sony agreed to pay Immersion in the March 2007 settlement, on top of $30.6 million already paid in licence fees.\n\nSources:\n- https://en.wikipedia.org/wiki/Immersion_v._Sony: confirms Immersion Corporation sued Sony and Microsoft in February 2002 over haptic-feedback patents used in game controllers, that Microsoft settled by buying a 10% stake in Immersion while Sony fought on, the 21 September 2004 jury verdict of $82 million (totalling $90.7 million with interest), the March 2006 appellate loss that ordered a stayed suspension of infringing controller sales, Sony's E3 2006 announcement removing vibration from the PS3 controller, and the March 2007 settlement in which Sony paid $97.2 million plus royalties on top of $30.6 million already paid in compulsory licence fees, ahead of the DualShock 3's April 2008 US launch.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }

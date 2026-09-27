@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (gulf-war-game-boy-1991)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#12140C",
+    "ink": "#EEF0E2",
+    "accent": "#9BBC0F",
+    "muted": "#707458"
+  },
+  "niche": "gaming",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The Game Boy that 'survived a bomb' was declared a lost cause.",
+      "text": "Its front was burned and melted in its owner's barracks during a bombing in the Gulf War.",
+      "note": "Its owner, Stephan Scoggins, a medic deployed in the war, posted it to Nintendo Power asking for a replacement.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "Nintendo's technicians wrote it off, then found it still powered on. Start and Select still worked, so they tested it with Tetris.",
+      "note": "That is all the source confirms: not that every button and the screen survived.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1991",
+      "name": "Nintendo Power issue 26",
+      "role": "printed his letter and sent him a new Game Boy 'as a special Desert Storm courtesy'",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "text": "The scorched console went on show in Nintendo's New York store, switched on and playing Tetris.",
+      "note": "Keeping it running took new batteries and, at one point, a replacement screen.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "statement",
+      "text": "In 2023 a store worker confirmed it had been quietly sent back to Nintendo of America's headquarters in Redmond, Washington.",
+      "note": "It is unclear whether it will ever go back on show.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "sign",
+      "line": "The toughest Game Boy ever needed a new screen.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Follow for more."
+}
