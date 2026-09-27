@@ -41,7 +41,7 @@
     "compliance_check": "Checked programmatically this session against every string term in scripts/data/compliance-policy.json's halal section (prohibited, superstition, origins_patterns) across all slide text, title, caption and tags, using word-boundary regex matching. No hits. Pure typography, no imagery, so animate_imagery and context_review do not apply. House style: no em or en dashes, no emoji, UK spelling used throughout the caption."
   },
   "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-27/quran-55-60-slide-NN.png --props=daily/2026-09-27/blankdiscussions/quran-55-60.slide-NN.json (NN = 01..08), rendered on the Windows host via Desktop Commander, then converted to JPEG for Instagram.",
-  "status": "rendered_and_hosted",
+  "status": "published",
   "theme_note": "All 30 themes in THEME_ORDER were already used (steel-blossom being the 31st, added to ThemeKey, THEMES and THEME_ORDER on 2026-09-27 for this post, following the same 'add rather than repeat' rule used for slate-copper on 2026-09-26).",
   "hosting_verified": {
     "checkedAt": "2026-09-27",
@@ -51,5 +51,21 @@
     ],
     "httpStatus": 200,
     "note": "Visually spot-checked Arabic (slide-02), Chinese (slide-04), Korean (slide-05) and Japanese (slide-06) renders for tofu/missing glyphs - all render correctly."
+  },
+  "published": {
+    "mediaId": "18115830278599846",
+    "permalink": "https://www.instagram.com/p/DdzWGcQmau4/",
+    "publishedAt": "2026-09-27T19:19:41+0000",
+    "hostingUrls": [
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-27/blankdiscussions/renders/quran-55-60-slide-01.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-27/blankdiscussions/renders/quran-55-60-slide-02.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-27/blankdiscussions/renders/quran-55-60-slide-03.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-27/blankdiscussions/renders/quran-55-60-slide-04.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-27/blankdiscussions/renders/quran-55-60-slide-05.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-27/blankdiscussions/renders/quran-55-60-slide-06.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-27/blankdiscussions/renders/quran-55-60-slide-07.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-27/blankdiscussions/renders/quran-55-60-slide-08.jpg"
+    ],
+    "publishedVia": "Composio MCP (via connect_composio_dev_mcp gateway). 8 child containers via INSTAGRAM_POST_IG_USER_MEDIA (is_carousel_item=true, one per hosted slide image URL), then INSTAGRAM_CREATE_CAROUSEL_CONTAINER built from those 8 child ids in slide order (children-ids path, not child_image_urls, per the working pattern established on prior posts), then INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH. Account alias 'BlankDiscussions', connection id instagram_willed-pried (re-verified live via account listing this session), ig_user_id 28477523595198052. Only post published today (first of the day; no prior post today to space against). Confirmed live via INSTAGRAM_GET_IG_MEDIA immediately after publish: media_type CAROUSEL_ALBUM, media_product_type FEED, 8 children, caption byte-matches, permalink present."
   }
 }
