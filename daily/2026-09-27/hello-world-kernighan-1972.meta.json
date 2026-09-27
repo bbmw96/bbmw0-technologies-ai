@@ -1,0 +1,25 @@
+{
+  "slug": "hello-world-kernighan-1972",
+  "date": "2026-09-27",
+  "title": "It didn't start in C.",
+  "description": "It didn't start in C. 'Hello, world' is inseparable from Kernighan and Ritchie's 1978 C book. Kernighan had already written it six years earlier, for a language almost nobody remembers.\n\nWrote a tutorial for a language called B, a direct predecessor to C. It included a short program with one job: print a greeting to the terminal.\n\nSplit into three pieces on purpose.\n\nB could only hold four characters at a time. A character constant in B was limited to four ASCII characters, so 'hello, world' had to be broken into three variables and printed one after another.\n\nAnd it had already been used for two years before the famous book. Kernighan reused the phrase in a 1974 Bell Labs internal memo, 'Programming in C: A Tutorial', four years before The C Programming Language made it the standard first line of code for everyone after.\n\nSources:\n- https://en.wikipedia.org/wiki/%22Hello,_World!%22_program\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-27-hello-world-kernighan-1972.mp4",
+  "propsFile": "daily/2026-09-27/hello-world-kernighan-1972.props.json",
+  "durationInFrames": 1146,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

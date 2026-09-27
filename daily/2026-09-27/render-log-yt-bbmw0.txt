@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-09-27 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- ada-lovelace-note-g-1843 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-27-ada-lovelace-note-g-1843.mp4
+  uploaded public: https://youtu.be/ck6XZ3CqpG8
+
+--- hello-world-kernighan-1972 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-27-hello-world-kernighan-1972.mp4
+  uploaded public: https://youtu.be/rixb0FfErcQ
+
+--- paul-revere-not-british-are-coming ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-27-paul-revere-not-british-are-coming.mp4
+  uploaded public: https://youtu.be/vMo_EzPXAHE
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

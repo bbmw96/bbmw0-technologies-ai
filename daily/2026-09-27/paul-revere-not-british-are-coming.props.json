@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (paul-revere-not-british-are-coming)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0D0E12",
+    "ink": "#F0EEE6",
+    "accent": "#B8433A",
+    "muted": "#7D7A72"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Everyone knows the line",
+      "text": "\"The British are coming!\"",
+      "note": "Paul Revere almost certainly never said it. In April 1775 the colonists still considered themselves British subjects — shouting that word to warn them would have made little sense.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1775",
+      "name": "Paul Revere",
+      "role": "Rode out from Boston on the night of 18 April to warn that army regulars were marching on Lexington and Concord. His actual warning is reconstructed as something closer to 'The Regulars are coming out.'",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "He never finished the ride",
+      "text": "A British patrol stopped him before he reached Concord.",
+      "note": "Six officers surrounded him near Lincoln, Massachusetts. In his own 1798 letter he wrote: 'Out started six officers, seized my bridle, put their pistols to my breast...' They took his horse and let him walk back to Lexington.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "3",
+      "unit": "riders",
+      "context": "Revere, William Dawes, and a doctor named Samuel Prescott who'd joined them on the road. Dawes was thrown from his horse. Revere was captured. Only Prescott jumped a stone wall, rode through the woods, and actually reached Concord.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The line everyone remembers came from a poem, written 85 years later, by a man who wasn't there.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "sign",
+      "line": "The ride is real. The quote is Longfellow's.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

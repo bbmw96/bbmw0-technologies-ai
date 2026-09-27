@@ -239,7 +239,10 @@
     "reel:romer-speed-of-light-1676",
     "reel:imagenet-mechanical-turk",
     "reel:pong-coin-box-overflow-1972",
-    "reel:pentium-fdiv-bug-1994"
+    "reel:pentium-fdiv-bug-1994",
+    "reel:ada-lovelace-note-g-1843",
+    "reel:hello-world-kernighan-1972",
+    "reel:paul-revere-not-british-are-coming"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -4134,6 +4137,57 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "ada-lovelace-note-g-1843",
+      "date": "2026-09-27",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Ada Lovelace is usually said to have written the first computer program, in 1843.",
+      "description": "Ada Lovelace is usually said to have written the first computer program, in 1843. The algorithm she published was real. Whether it was the first is genuinely disputed among historians.\n\nPublished 'Note G' in Taylor's Scientific Memoirs: a method for calculating Bernoulli numbers on Charles Babbage's unbuilt Analytical Engine.\n\nThe Analytical Engine was never built, so the program was never run. Historian Allan Bromley found dozens of programs in Babbage's own working notes from 1837 to 1840: years before Lovelace's Note G.\n\n'The Analytical Engine weaves algebraic patterns just as the Jacquard loom weaves flowers and leaves,' she wrote in those same 1843 notes. She argued the machine could act on 'other things besides number', including composing music: a leap Babbage himself had not spelled out.\n\nThe first program is disputed. The first person to see what a program was for might not be.\n\nSources:\n- https://en.wikipedia.org/wiki/Ada_Lovelace - confirms Lovelace's 'Note G', published in September 1843 within her translation of Luigi Menabrea's article on Charles Babbage's unbuilt Analytical Engine, set out a method for calculating a sequence of Bernoulli numbers and is often called the first published computer program, though the Engine was never completed and the program was never run; states historian Allan Bromley documented several dozen programs in Babbage's own notes from 1837 to 1840, substantially predating Lovelace's; and quotes Doron Swade's assessment that Lovelace's distinct insight was recognising the machine could manipulate 'other things besides number', a use Babbage had not spelled out.\n- https://www.computerhistory.org/babbage/adalovelace/ - the Computer History Museum's page on Lovelace corroborates the 1843 publication of her translation and notes in Taylor's Scientific Memoirs, and quotes her own line: 'The Analytical Engine weaves algebraic patterns just as the Jacquard loom weaves flowers and leaves,' alongside her statement that the Engine 'might act upon other things besides number', including composing music.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "ck6XZ3CqpG8",
+      "youtubeUrl": "https://youtu.be/ck6XZ3CqpG8",
+      "uploadedAt": "2026-09-27T14:27:14.819Z",
+      "privacy": "public"
+    },
+    {
+      "id": "hello-world-kernighan-1972",
+      "date": "2026-09-27",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It didn't start in C.",
+      "description": "It didn't start in C. 'Hello, world' is inseparable from Kernighan and Ritchie's 1978 C book. Kernighan had already written it six years earlier, for a language almost nobody remembers.\n\nWrote a tutorial for a language called B, a direct predecessor to C. It included a short program with one job: print a greeting to the terminal.\n\nSplit into three pieces on purpose.\n\nB could only hold four characters at a time. A character constant in B was limited to four ASCII characters, so 'hello, world' had to be broken into three variables and printed one after another.\n\nAnd it had already been used for two years before the famous book. Kernighan reused the phrase in a 1974 Bell Labs internal memo, 'Programming in C: A Tutorial', four years before The C Programming Language made it the standard first line of code for everyone after.\n\nSources:\n- https://en.wikipedia.org/wiki/%22Hello,_World!%22_program\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "rixb0FfErcQ",
+      "youtubeUrl": "https://youtu.be/rixb0FfErcQ",
+      "uploadedAt": "2026-09-27T14:29:17.253Z",
+      "privacy": "public"
+    },
+    {
+      "id": "paul-revere-not-british-are-coming",
+      "date": "2026-09-27",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "\"The British are coming!\"",
+      "description": "\"The British are coming!\" Paul Revere almost certainly never said it. In April 1775 the colonists still considered themselves British subjects, shouting that word to warn them would have made little sense.\n\nRode out from Boston on the night of 18 April to warn that army regulars were marching on Lexington and Concord. His actual warning is reconstructed as something closer to 'The Regulars are coming out.'\n\nA British patrol stopped him before he reached Concord. Six officers surrounded him near Lincoln, Massachusetts. In his own 1798 letter he wrote: 'Out started six officers, seized my bridle, put their pistols to my breast...' They took his horse and let him walk back to Lexington.\n\nRevere, William Dawes, and a doctor named Samuel Prescott who'd joined them on the road. Dawes was thrown from his horse. Revere was captured. Only Prescott jumped a stone wall, rode through the woods, and actually reached Concord.\n\nThe line everyone remembers came from a poem, written 85 years later, by a man who wasn't there.\n\nSources:\n- https://en.wikipedia.org/wiki/Paul_Revere%27s_midnight_ride\n- https://en.wikipedia.org/wiki/Samuel_Prescott\n- https://www.americanhistorycentral.com/entries/paul-revere/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "vMo_EzPXAHE",
+      "youtubeUrl": "https://youtu.be/vMo_EzPXAHE",
+      "uploadedAt": "2026-09-27T14:31:14.314Z",
+      "privacy": "public"
     }
   ]
 }

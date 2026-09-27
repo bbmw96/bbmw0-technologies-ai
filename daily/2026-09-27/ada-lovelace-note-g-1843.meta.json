@@ -1,0 +1,25 @@
+{
+  "slug": "ada-lovelace-note-g-1843",
+  "date": "2026-09-27",
+  "title": "Ada Lovelace is usually said to have written the first computer program, in 1843.",
+  "description": "Ada Lovelace is usually said to have written the first computer program, in 1843. The algorithm she published was real. Whether it was the first is genuinely disputed among historians.\n\nPublished 'Note G' in Taylor's Scientific Memoirs: a method for calculating Bernoulli numbers on Charles Babbage's unbuilt Analytical Engine.\n\nThe Analytical Engine was never built, so the program was never run. Historian Allan Bromley found dozens of programs in Babbage's own working notes from 1837 to 1840: years before Lovelace's Note G.\n\n'The Analytical Engine weaves algebraic patterns just as the Jacquard loom weaves flowers and leaves,' she wrote in those same 1843 notes. She argued the machine could act on 'other things besides number', including composing music: a leap Babbage himself had not spelled out.\n\nThe first program is disputed. The first person to see what a program was for might not be.\n\nSources:\n- https://en.wikipedia.org/wiki/Ada_Lovelace - confirms Lovelace's 'Note G', published in September 1843 within her translation of Luigi Menabrea's article on Charles Babbage's unbuilt Analytical Engine, set out a method for calculating a sequence of Bernoulli numbers and is often called the first published computer program, though the Engine was never completed and the program was never run; states historian Allan Bromley documented several dozen programs in Babbage's own notes from 1837 to 1840, substantially predating Lovelace's; and quotes Doron Swade's assessment that Lovelace's distinct insight was recognising the machine could manipulate 'other things besides number', a use Babbage had not spelled out.\n- https://www.computerhistory.org/babbage/adalovelace/ - the Computer History Museum's page on Lovelace corroborates the 1843 publication of her translation and notes in Taylor's Scientific Memoirs, and quotes her own line: 'The Analytical Engine weaves algebraic patterns just as the Jacquard loom weaves flowers and leaves,' alongside her statement that the Engine 'might act upon other things besides number', including composing music.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-27-ada-lovelace-note-g-1843.mp4",
+  "propsFile": "daily/2026-09-27/ada-lovelace-note-g-1843.props.json",
+  "durationInFrames": 1074,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

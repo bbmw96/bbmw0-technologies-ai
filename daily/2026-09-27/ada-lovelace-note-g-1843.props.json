@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (ada-lovelace-note-g-1843)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0E0F14",
+    "ink": "#EDEFF7",
+    "accent": "#7B9BE0",
+    "muted": "#797E93"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The 'first programmer' story",
+      "text": "Ada Lovelace is usually said to have written the first computer program, in 1843.",
+      "note": "The algorithm she published was real. Whether it was the first is genuinely disputed among historians.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1843",
+      "name": "Ada Lovelace",
+      "role": "Published 'Note G' in Taylor's Scientific Memoirs: a method for calculating Bernoulli numbers on Charles Babbage's unbuilt Analytical Engine.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "statement",
+      "text": "The Analytical Engine was never built, so the program was never run.",
+      "note": "Historian Allan Bromley found dozens of programs in Babbage's own working notes from 1837 to 1840: years before Lovelace's Note G.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "'The Analytical Engine weaves algebraic patterns just as the Jacquard loom weaves flowers and leaves,' she wrote in those same 1843 notes.",
+      "note": "She argued the machine could act on 'other things besides number', including composing music: a leap Babbage himself had not spelled out.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The first program is disputed. The first person to see what a program was for might not be.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "sign",
+      "line": "Maybe not the first coder. Possibly the first to see the point of code.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 130
+    }
+  ],
+  "cta": "Subscribe for more."
+}

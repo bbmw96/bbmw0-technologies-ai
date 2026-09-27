@@ -1,0 +1,55 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (hello-world-kernighan-1972)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0C0C0C",
+    "ink": "#EDEDE8",
+    "accent": "#E8A33D",
+    "muted": "#82807A"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Every programmer's first program says the same thing",
+      "text": "It didn't start in C.",
+      "note": "'Hello, world' is inseparable from Kernighan and Ritchie's 1978 C book. Kernighan had already written it six years earlier, for a language almost nobody remembers.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1972",
+      "name": "Brian Kernighan",
+      "role": "Wrote a tutorial for a language called B, a direct predecessor to C. It included a short program with one job: print a greeting to the terminal.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "code",
+      "chars": "a 'hell'; b 'o, w'; c 'orld';",
+      "caption": "Split into three pieces on purpose.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "Why split it up",
+      "text": "B could only hold four characters at a time.",
+      "note": "A character constant in B was limited to four ASCII characters, so 'hello, world' had to be broken into three variables and printed one after another.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The version everyone knows came later",
+      "text": "And it had already been used for two years before the famous book.",
+      "note": "Kernighan reused the phrase in a 1974 Bell Labs internal memo, 'Programming in C: A Tutorial' — four years before The C Programming Language made it the standard first line of code for everyone after.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "The most copied program in computing started as a workaround.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 106
+    }
+  ],
+  "cta": "Subscribe for more."
+}
