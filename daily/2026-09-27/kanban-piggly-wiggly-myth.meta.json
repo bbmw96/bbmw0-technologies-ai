@@ -1,0 +1,25 @@
+{
+  "slug": "kanban-piggly-wiggly-myth",
+  "date": "2026-09-27",
+  "title": "Taiichi Ohno saw an American supermarket called Piggly Wiggly, and that is where the idea came from.",
+  "description": "Taiichi Ohno saw an American supermarket called Piggly Wiggly, and that is where the idea came from. That version is repeated across the same blog posts and training decks. Ohno never named Piggly Wiggly in his own writing.\n\nToyota engineer shown photographs of an American supermarket by a colleague who had just returned from a US trip.\n\nOhno named and began running his 'supermarket system' on Toyota's shop floor in 1952 and 1953: parts restocked only as they were withdrawn, the way a shelf is restocked after a customer takes something off it. He built the system from a description and photographs, years before he saw an American supermarket in person.\n\nBy the time Ohno finally stood inside a US supermarket, in 1956, his system had already been running for three years.\n\nSources:\n- https://artsmalley.com/articles/which-supermarket-reviewing-the-origins-of-toyota-s-pull-system - Art Smalley, a translator of Taiichi Ohno's writing and a Toyota Production System historian, traces the documented timeline: a Toyota colleague returned from the US with photographs of an American supermarket around 1951 and 1952 and explained the restocking system to Ohno; Ohno named and began running the 'supermarket system' on Toyota's shop floor in 1952 and 1953; Ohno did not see a US supermarket in person until his own 1956 trip, by which point the system was already operating; and the specific claim that the store was Piggly Wiggly is unsourced in Ohno's own writing, with the article noting the chain had left the Detroit area, where Toyota's US visitors mostly went, by 1930.\n- https://kanbantool.com/kanban-guide/kanban-history - a widely repeated version of the popular story, stated as fact: 'Ohno visited the United States in 1956, and he was impressed by how supermarket chains Piggly Wiggly was able to keep the shelves stocked with just the right amount of each product.' Used here as an example of the claim being corrected, not as a source for the underlying facts.\n- https://en.wikipedia.org/wiki/Kanban - confirms Ohno developed kanban as an industrial engineer at Toyota and that it was applied in practice at Toyota's main plant machine shop in 1953, consistent with the earlier implementation date given by Smalley.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "productivity",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-27-kanban-piggly-wiggly-myth.mp4",
+  "propsFile": "daily/2026-09-27/kanban-piggly-wiggly-myth.props.json",
+  "durationInFrames": 842,
+  "audioUrl": "",
+  "niche": "productivity",
+  "composition": "Reel"
+}

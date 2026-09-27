@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (schrodinger-cat-mockery)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0D14",
+    "ink": "#EAEDF7",
+    "accent": "#8C7BE0",
+    "muted": "#767C93"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The most famous experiment never actually run",
+      "text": "Schrodinger did not believe his cat was really alive and dead at once.",
+      "note": "He built the scenario to make that idea sound ridiculous, not to describe something he thought was true.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1935",
+      "name": "Erwin Schrodinger",
+      "role": "Published the thought experiment in the journal Naturwissenschaften, responding to Einstein, Podolsky and Rosen's paper on quantum theory from earlier that year.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "statement",
+      "text": "In the scenario, a sealed box holds a cat alongside a radioactive atom with a fifty percent chance of triggering poison.",
+      "note": "Quantum mechanics, applied literally to the whole box, says the cat is neither alive nor dead until someone looks: a blend of both at once.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "Schrodinger was arguing that this was absurd, and that something was wrong with treating a cat by the same quantum rules as a single atom.",
+      "note": "The Copenhagen interpretation he was criticising is still the one most commonly taught today.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The joke became the textbook example of the thing it was mocking.",
+      "durationInFrames": 94
+    },
+    {
+      "kind": "sign",
+      "line": "He built it to sound absurd. It became the icon.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 106
+    }
+  ],
+  "cta": "Subscribe for more."
+}

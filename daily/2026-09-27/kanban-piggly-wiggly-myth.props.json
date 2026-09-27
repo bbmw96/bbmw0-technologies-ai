@@ -1,0 +1,46 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (kanban-piggly-wiggly-myth)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#12100D",
+    "ink": "#F3EFE7",
+    "accent": "#E0A458",
+    "muted": "#8C8577"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The story everyone tells about kanban",
+      "text": "Taiichi Ohno saw an American supermarket called Piggly Wiggly, and that is where the idea came from.",
+      "note": "That version is repeated across the same blog posts and training decks. Ohno never named Piggly Wiggly in his own writing.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1951",
+      "name": "Taiichi Ohno",
+      "role": "Toyota engineer shown photographs of an American supermarket by a colleague who had just returned from a US trip.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "statement",
+      "text": "Ohno named and began running his 'supermarket system' on Toyota's shop floor in 1952 and 1953: parts restocked only as they were withdrawn, the way a shelf is restocked after a customer takes something off it.",
+      "note": "He built the system from a description and photographs, years before he saw an American supermarket in person.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "By the time Ohno finally stood inside a US supermarket, in 1956, his system had already been running for three years.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "sign",
+      "line": "The supermarket came after the idea, not before it.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}

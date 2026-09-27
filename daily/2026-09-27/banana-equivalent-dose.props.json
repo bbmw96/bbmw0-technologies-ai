@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (banana-equivalent-dose)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#14110A",
+    "ink": "#F6F0DE",
+    "accent": "#F2C14E",
+    "muted": "#8F8A73"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Bananas are radioactive",
+      "text": "Genuinely and measurably radioactive, not a trace amount you need instruments to notice in principle.",
+      "note": "The radioactivity comes from potassium-40, a naturally occurring isotope that makes up a small fraction of all the potassium in a banana, and in you.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "100",
+      "unit": "bananas",
+      "context": "how many you would need to eat in a single day just to match an average day's ordinary background radiation exposure.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "text": "Potassium-40 has been decaying since before the Earth finished forming: its half-life is about 1.25 billion years.",
+      "note": "It is the largest source of natural internal radioactivity in the human body, not an exotic contamination.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "Eating more bananas does not raise your radiation dose the way repeated exposure normally would.",
+      "note": "The body keeps potassium levels roughly constant. Any extra is cleared out within hours, which is also why physicists call 'banana equivalent dose' a flawed unit rather than a real measurement.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "You are also radioactive. So is the banana. Neither of you should worry about it.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "sign",
+      "line": "Radioactive, and also lunch.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

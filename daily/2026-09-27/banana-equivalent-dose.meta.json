@@ -1,0 +1,25 @@
+{
+  "slug": "banana-equivalent-dose",
+  "date": "2026-09-27",
+  "title": "Genuinely and measurably radioactive, not a trace amount you need instruments to notice in principle",
+  "description": "Genuinely and measurably radioactive, not a trace amount you need instruments to notice in principle. The radioactivity comes from potassium-40, a naturally occurring isotope that makes up a small fraction of all the potassium in a banana, and in you.\n\nhow many you would need to eat in a single day just to match an average day's ordinary background radiation exposure.\n\nPotassium-40 has been decaying since before the Earth finished forming: its half-life is about 1.25 billion years. It is the largest source of natural internal radioactivity in the human body, not an exotic contamination.\n\nEating more bananas does not raise your radiation dose the way repeated exposure normally would. The body keeps potassium levels roughly constant. Any extra is cleared out within hours, which is also why physicists call 'banana equivalent dose' a flawed unit rather than a real measurement.\n\nYou are also radioactive. So is the banana. Neither of you should worry about it.\n\nSources:\n- https://en.wikipedia.org/wiki/Banana_equivalent_dose - confirms one BED is informally set at about 0.1 microsieverts (1x10-7 sievert), sourced to the radioactive isotope potassium-40 naturally present in bananas; states an average day's background radiation exposure is equivalent to about 100 BED; and notes health physicists consider BED a flawed unit for cumulative exposure, because the potassium in a banana does not stay in the body, so the dose does not actually add up the way repeated exposure normally would.\n- https://en.wikipedia.org/wiki/Potassium-40 - confirms potassium-40 has a half-life of about 1.248 billion years, makes up 0.0117% of natural potassium, is the largest source of natural internal radioactivity in humans and animals, and states the dose from eating one banana is about 1% of an average American's total daily radiation exposure, consistent with the 100-banana comparison.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "science",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-27-banana-equivalent-dose.mp4",
+  "propsFile": "daily/2026-09-27/banana-equivalent-dose.props.json",
+  "durationInFrames": 1028,
+  "audioUrl": "",
+  "niche": "science",
+  "composition": "Reel"
+}

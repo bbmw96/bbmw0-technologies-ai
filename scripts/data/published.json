@@ -243,7 +243,11 @@
     "reel:ada-lovelace-note-g-1843",
     "reel:hello-world-kernighan-1972",
     "reel:paul-revere-not-british-are-coming",
-    "reel:dalle-name-dali-walle-2021"
+    "reel:dalle-name-dali-walle-2021",
+    "reel:banana-equivalent-dose",
+    "reel:schrodinger-cat-mockery",
+    "reel:instagram-burbn-pivot",
+    "reel:kanban-piggly-wiggly-myth"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -4228,6 +4232,74 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "banana-equivalent-dose",
+      "date": "2026-09-27",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Genuinely and measurably radioactive, not a trace amount you need instruments to notice in principle",
+      "description": "Genuinely and measurably radioactive, not a trace amount you need instruments to notice in principle. The radioactivity comes from potassium-40, a naturally occurring isotope that makes up a small fraction of all the potassium in a banana, and in you.\n\nhow many you would need to eat in a single day just to match an average day's ordinary background radiation exposure.\n\nPotassium-40 has been decaying since before the Earth finished forming: its half-life is about 1.25 billion years. It is the largest source of natural internal radioactivity in the human body, not an exotic contamination.\n\nEating more bananas does not raise your radiation dose the way repeated exposure normally would. The body keeps potassium levels roughly constant. Any extra is cleared out within hours, which is also why physicists call 'banana equivalent dose' a flawed unit rather than a real measurement.\n\nYou are also radioactive. So is the banana. Neither of you should worry about it.\n\nSources:\n- https://en.wikipedia.org/wiki/Banana_equivalent_dose - confirms one BED is informally set at about 0.1 microsieverts (1x10-7 sievert), sourced to the radioactive isotope potassium-40 naturally present in bananas; states an average day's background radiation exposure is equivalent to about 100 BED; and notes health physicists consider BED a flawed unit for cumulative exposure, because the potassium in a banana does not stay in the body, so the dose does not actually add up the way repeated exposure normally would.\n- https://en.wikipedia.org/wiki/Potassium-40 - confirms potassium-40 has a half-life of about 1.248 billion years, makes up 0.0117% of natural potassium, is the largest source of natural internal radioactivity in humans and animals, and states the dose from eating one banana is about 1% of an average American's total daily radiation exposure, consistent with the 100-banana comparison.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "qiFQnWCsu54",
+      "youtubeUrl": "https://youtu.be/qiFQnWCsu54",
+      "uploadedAt": "2026-09-27T19:10:45.401Z",
+      "privacy": "public"
+    },
+    {
+      "id": "schrodinger-cat-mockery",
+      "date": "2026-09-27",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Schrodinger did not believe his cat was really alive and dead at once.",
+      "description": "Schrodinger did not believe his cat was really alive and dead at once. He built the scenario to make that idea sound ridiculous, not to describe something he thought was true.\n\nPublished the thought experiment in the journal Naturwissenschaften, responding to Einstein, Podolsky and Rosen's paper on quantum theory from earlier that year.\n\nIn the scenario, a sealed box holds a cat alongside a radioactive atom with a fifty percent chance of triggering poison. Quantum mechanics, applied literally to the whole box, says the cat is neither alive nor dead until someone looks: a blend of both at once.\n\nSchrodinger was arguing that this was absurd, and that something was wrong with treating a cat by the same quantum rules as a single atom. The Copenhagen interpretation he was criticising is still the one most commonly taught today.\n\nThe joke became the textbook example of the thing it was mocking.\n\nSources:\n- https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat - confirms Erwin Schrodinger published the thought experiment in November 1935 in the journal Naturwissenschaften, in a paper written in response to the Einstein-Podolsky-Rosen paper published earlier that year, and states plainly that 'Schrodinger did not wish to promote the idea of dead-and-live cats as a serious possibility' but intended the example 'to illustrate the absurdity of the existing view of quantum mechanics,' employing reductio ad absurdum.\n- https://www.aps.org/publications/apsnews/200203/history.cfm - the American Physical Society's history article corroborates that Schrodinger devised the cat scenario to expose a contradiction between quantum theory's predictions and ordinary experience, framing it as a demonstration of the theory's limitations rather than a description of how reality actually behaves.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "vLtLTXUONz4",
+      "youtubeUrl": "https://youtu.be/vLtLTXUONz4",
+      "uploadedAt": "2026-09-27T19:16:23.526Z",
+      "privacy": "public"
+    },
+    {
+      "id": "instagram-burbn-pivot",
+      "date": "2026-09-27",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It started as a location check-in app called Burbn.",
+      "description": "It started as a location check-in app called Burbn. Kevin Systrom and Mike Krieger built it in San Francisco to compete with Foursquare, check-ins, plans with friends, points for going out. Photos were just one feature, buried among many.\n\nHow many people Burbn had after three months. By most measures, it was already failing.\n\nAlmost nobody cared about check-ins. Everyone shared photos. Systrom and Krieger stripped out everything else and rebuilt the whole app around the one feature people kept coming back for.\n\nPeople didn't think their photos looked good enough to post. Kevin's wife told him that was the real reason people hesitated. His answer became Instagram's first filter, X-Pro II.\n\nThe app launched as Instagram on 6 October 2010. Two months later it had a million users, the same idea that, as Burbn, had never broken a hundred.\n\nSources:\n- https://en.wikipedia.org/wiki/Instagram\n- https://www.startuparchive.org/p/how-kevin-systrom-pivoted-a-failed-check-in-app-into-instagram\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "_qx0RKCh_j8",
+      "youtubeUrl": "https://youtu.be/_qx0RKCh_j8",
+      "uploadedAt": "2026-09-27T19:13:41.123Z",
+      "privacy": "public"
+    },
+    {
+      "id": "kanban-piggly-wiggly-myth",
+      "date": "2026-09-27",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Taiichi Ohno saw an American supermarket called Piggly Wiggly, and that is where the idea came from.",
+      "description": "Taiichi Ohno saw an American supermarket called Piggly Wiggly, and that is where the idea came from. That version is repeated across the same blog posts and training decks. Ohno never named Piggly Wiggly in his own writing.\n\nToyota engineer shown photographs of an American supermarket by a colleague who had just returned from a US trip.\n\nOhno named and began running his 'supermarket system' on Toyota's shop floor in 1952 and 1953: parts restocked only as they were withdrawn, the way a shelf is restocked after a customer takes something off it. He built the system from a description and photographs, years before he saw an American supermarket in person.\n\nBy the time Ohno finally stood inside a US supermarket, in 1956, his system had already been running for three years.\n\nSources:\n- https://artsmalley.com/articles/which-supermarket-reviewing-the-origins-of-toyota-s-pull-system - Art Smalley, a translator of Taiichi Ohno's writing and a Toyota Production System historian, traces the documented timeline: a Toyota colleague returned from the US with photographs of an American supermarket around 1951 and 1952 and explained the restocking system to Ohno; Ohno named and began running the 'supermarket system' on Toyota's shop floor in 1952 and 1953; Ohno did not see a US supermarket in person until his own 1956 trip, by which point the system was already operating; and the specific claim that the store was Piggly Wiggly is unsourced in Ohno's own writing, with the article noting the chain had left the Detroit area, where Toyota's US visitors mostly went, by 1930.\n- https://kanbantool.com/kanban-guide/kanban-history - a widely repeated version of the popular story, stated as fact: 'Ohno visited the United States in 1956, and he was impressed by how supermarket chains Piggly Wiggly was able to keep the shelves stocked with just the right amount of each product.' Used here as an example of the claim being corrected, not as a source for the underlying facts.\n- https://en.wikipedia.org/wiki/Kanban - confirms Ohno developed kanban as an industrial engineer at Toyota and that it was applied in practice at Toyota's main plant machine shop in 1953, consistent with the earlier implementation date given by Smalley.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "UuLKbmeqqic",
+      "youtubeUrl": "https://youtu.be/UuLKbmeqqic",
+      "uploadedAt": "2026-09-27T19:14:53.248Z",
+      "privacy": "public"
     }
   ]
 }

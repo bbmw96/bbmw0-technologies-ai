@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (instagram-burbn-pivot)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#120E14",
+    "ink": "#F5F0F5",
+    "accent": "#C13584",
+    "muted": "#857F87"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Instagram wasn't built as a photo app",
+      "text": "It started as a location check-in app called Burbn.",
+      "note": "Kevin Systrom and Mike Krieger built it in San Francisco to compete with Foursquare — check-ins, plans with friends, points for going out. Photos were just one feature, buried among many.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "100",
+      "unit": "users",
+      "context": "How many people Burbn had after three months. By most measures, it was already failing.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "statement",
+      "lead": "So they looked at what people actually used it for",
+      "text": "Almost nobody cared about check-ins. Everyone shared photos.",
+      "note": "Systrom and Krieger stripped out everything else and rebuilt the whole app around the one feature people kept coming back for.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "One thing still stood in the way",
+      "text": "People didn't think their photos looked good enough to post.",
+      "note": "Kevin's wife told him that was the real reason people hesitated. His answer became Instagram's first filter, X-Pro II.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The app launched as Instagram on 6 October 2010. Two months later it had a million users — the same idea that, as Burbn, had never broken a hundred.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "sign",
+      "line": "A failed check-in app, one feature away from Instagram.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}

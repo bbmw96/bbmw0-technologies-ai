@@ -1,0 +1,25 @@
+{
+  "slug": "instagram-burbn-pivot",
+  "date": "2026-09-27",
+  "title": "It started as a location check-in app called Burbn.",
+  "description": "It started as a location check-in app called Burbn. Kevin Systrom and Mike Krieger built it in San Francisco to compete with Foursquare, check-ins, plans with friends, points for going out. Photos were just one feature, buried among many.\n\nHow many people Burbn had after three months. By most measures, it was already failing.\n\nAlmost nobody cared about check-ins. Everyone shared photos. Systrom and Krieger stripped out everything else and rebuilt the whole app around the one feature people kept coming back for.\n\nPeople didn't think their photos looked good enough to post. Kevin's wife told him that was the real reason people hesitated. His answer became Instagram's first filter, X-Pro II.\n\nThe app launched as Instagram on 6 October 2010. Two months later it had a million users, the same idea that, as Burbn, had never broken a hundred.\n\nSources:\n- https://en.wikipedia.org/wiki/Instagram\n- https://www.startuparchive.org/p/how-kevin-systrom-pivoted-a-failed-check-in-app-into-instagram\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "app",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-27-instagram-burbn-pivot.mp4",
+  "propsFile": "daily/2026-09-27/instagram-burbn-pivot.props.json",
+  "durationInFrames": 1080,
+  "audioUrl": "",
+  "niche": "app",
+  "composition": "Reel"
+}
