@@ -242,7 +242,8 @@
     "reel:pentium-fdiv-bug-1994",
     "reel:ada-lovelace-note-g-1843",
     "reel:hello-world-kernighan-1972",
-    "reel:paul-revere-not-british-are-coming"
+    "reel:paul-revere-not-british-are-coming",
+    "reel:dalle-name-dali-walle-2021"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -4188,6 +4189,45 @@
       "youtubeUrl": "https://youtu.be/vMo_EzPXAHE",
       "uploadedAt": "2026-09-27T14:31:14.314Z",
       "privacy": "public"
+    },
+    {
+      "id": "ada-lovelace-note-g-1843",
+      "date": "2026-09-27",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Ada Lovelace is usually said to have written the first computer program, in 1843.",
+      "description": "Ada Lovelace is usually said to have written the first computer program, in 1843. The algorithm she published was real. Whether it was the first is genuinely disputed among historians.\n\nPublished 'Note G' in Taylor's Scientific Memoirs: a method for calculating Bernoulli numbers on Charles Babbage's unbuilt Analytical Engine.\n\nThe Analytical Engine was never built, so the program was never run. Historian Allan Bromley found dozens of programs in Babbage's own working notes from 1837 to 1840: years before Lovelace's Note G.\n\n'The Analytical Engine weaves algebraic patterns just as the Jacquard loom weaves flowers and leaves,' she wrote in those same 1843 notes. She argued the machine could act on 'other things besides number', including composing music: a leap Babbage himself had not spelled out.\n\nThe first program is disputed. The first person to see what a program was for might not be.\n\nSources:\n- https://en.wikipedia.org/wiki/Ada_Lovelace - confirms Lovelace's 'Note G', published in September 1843 within her translation of Luigi Menabrea's article on Charles Babbage's unbuilt Analytical Engine, set out a method for calculating a sequence of Bernoulli numbers and is often called the first published computer program, though the Engine was never completed and the program was never run; states historian Allan Bromley documented several dozen programs in Babbage's own notes from 1837 to 1840, substantially predating Lovelace's; and quotes Doron Swade's assessment that Lovelace's distinct insight was recognising the machine could manipulate 'other things besides number', a use Babbage had not spelled out.\n- https://www.computerhistory.org/babbage/adalovelace/ - the Computer History Museum's page on Lovelace corroborates the 1843 publication of her translation and notes in Taylor's Scientific Memoirs, and quotes her own line: 'The Analytical Engine weaves algebraic patterns just as the Jacquard loom weaves flowers and leaves,' alongside her statement that the Engine 'might act upon other things besides number', including composing music.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "hello-world-kernighan-1972",
+      "date": "2026-09-27",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It didn't start in C.",
+      "description": "It didn't start in C. 'Hello, world' is inseparable from Kernighan and Ritchie's 1978 C book. Kernighan had already written it six years earlier, for a language almost nobody remembers.\n\nWrote a tutorial for a language called B, a direct predecessor to C. It included a short program with one job: print a greeting to the terminal.\n\nSplit into three pieces on purpose.\n\nB could only hold four characters at a time. A character constant in B was limited to four ASCII characters, so 'hello, world' had to be broken into three variables and printed one after another.\n\nAnd it had already been used for two years before the famous book. Kernighan reused the phrase in a 1974 Bell Labs internal memo, 'Programming in C: A Tutorial', four years before The C Programming Language made it the standard first line of code for everyone after.\n\nSources:\n- https://en.wikipedia.org/wiki/%22Hello,_World!%22_program\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "dalle-name-dali-walle-2021",
+      "date": "2026-09-27",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "DALL·E is a portmanteau of Salvador Dali, the Spanish surrealist, and WALL-E, Pixar's 2008 robot.",
+      "description": "DALL·E is a portmanteau of Salvador Dali, the Spanish surrealist, and WALL-E, Pixar's 2008 robot. OpenAI never spelled the joke out in dry technical language; the pun was already the headline when NBC News covered the launch.\n\nOpenAI published DALL·E on 5 January 2021: a 12-billion-parameter version of GPT-3, retrained to generate images from text captions instead of continuing text. The model treats an image as 1,024 extra tokens tacked onto a caption's 256, then predicts all of them the way GPT-3 predicts words.\n\nFor every caption, DALL·E generated 512 candidate images, then used a second model called CLIP to rerank them down to the best 32. OpenAI stated none of its published examples were hand-picked beyond that automatic reranking.\n\nparameters in the original DALL·E, a fraction of GPT-3's full size, repurposed entirely for pictures.\n\nDALL·E turned out to be able to translate images the way GPT-3 translates text: performing image-to-image tasks it was never explicitly trained on. OpenAI's own paper says: \"We did not anticipate that this capability would emerge, and made no modifications to the neural network or training procedure to encourage it.\"\n\nSources:\n- https://openai.com/index/dall-e/: primary source; dated 5 January 2021, confirms DALL·E is a 12-billion-parameter version of GPT-3 retrained on text-image pairs, the token architecture (up to 256 text tokens plus 1,024 image tokens predicted autoregressively), the CLIP-reranking step that keeps the top 32 of 512 generated samples per caption, and the exact quote: \"We did not anticipate that this capability would emerge, and made no modifications to the neural network or training procedure to encourage it.\"\n- https://www.nbcnews.com/tech/innovation/here-s-dall-e-algorithm-learned-draw-anything-you-tell-n1255834: same-day (5 January 2021) coverage confirming the Salvador Dali/WALL-E naming pun was already the public framing of the launch, not a later retelling.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }

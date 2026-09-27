@@ -6,7 +6,8 @@
   "allowed": [
     "ada-lovelace-note-g-1843",
     "hello-world-kernighan-1972",
-    "paul-revere-not-british-are-coming"
+    "paul-revere-not-british-are-coming",
+    "dalle-name-dali-walle-2021"
   ],
   "blocked": [],
   "results": [
@@ -160,6 +161,56 @@
         "worstTitleAgainst": "trojan-room-coffee",
         "worstDescriptionSimilarity": 0.239,
         "combo": "reel:#0D0E12:#B8433A:#F0EEE6",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "dalle-name-dali-walle-2021",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "DALL·E is a portmanteau of Salvador Dali, the Spanish surrealist, and WALL-E, Pixar's 2008 robot.",
+      "niche": "app",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.077,
+        "worstTitleAgainst": "a-star-shakey",
+        "worstDescriptionSimilarity": 0.263,
+        "combo": "reel:#120A16:#C084FC:#F5EEFA",
         "themeGap": null,
         "audioGap": 0
       },

@@ -1,0 +1,53 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (dalle-name-dali-walle-2021)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#120A16",
+    "ink": "#F5EEFA",
+    "accent": "#C084FC",
+    "muted": "#8A7599"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "OpenAI's image generator is named after a robot and a surrealist painter.",
+      "text": "DALL·E is a portmanteau of Salvador Dali, the Spanish surrealist, and WALL-E, Pixar's 2008 robot.",
+      "note": "OpenAI never spelled the joke out in dry technical language; the pun was already the headline when NBC News covered the launch.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "OpenAI published DALL·E on 5 January 2021: a 12-billion-parameter version of GPT-3, retrained to generate images from text captions instead of continuing text.",
+      "note": "The model treats an image as 1,024 extra tokens tacked onto a caption's 256, then predicts all of them the way GPT-3 predicts words.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "For every caption, DALL·E generated 512 candidate images, then used a second model called CLIP to rerank them down to the best 32.",
+      "note": "OpenAI stated none of its published examples were hand-picked beyond that automatic reranking.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "12",
+      "unit": "billion",
+      "context": "parameters in the original DALL·E, a fraction of GPT-3's full size, repurposed entirely for pictures.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "statement",
+      "text": "DALL·E turned out to be able to translate images the way GPT-3 translates text: performing image-to-image tasks it was never explicitly trained on.",
+      "note": "OpenAI's own paper says: \"We did not anticipate that this capability would emerge, and made no modifications to the neural network or training procedure to encourage it.\"",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "Named for a robot and a surrealist. Launched 5 January 2021.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 112
+    }
+  ],
+  "cta": "Follow for more."
+}
