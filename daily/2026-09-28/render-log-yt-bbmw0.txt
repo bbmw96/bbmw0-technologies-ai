@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-09-28 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- first-tweet-just-setting-up ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-28-first-tweet-just-setting-up.mp4
+  uploaded public: https://youtu.be/z9PiqImB76o
+
+--- okrs-not-google-intel-grove ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-28-okrs-not-google-intel-grove.mp4
+  uploaded public: https://youtu.be/NDuz5dYLV3Y
+
+--- swot-stewart-not-harvard ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-28-swot-stewart-not-harvard.mp4
+  uploaded public: https://youtu.be/WmANdc8n_aQ
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

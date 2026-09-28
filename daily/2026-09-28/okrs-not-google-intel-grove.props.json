@@ -1,0 +1,56 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (okrs-not-google-intel-grove)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A1218",
+    "ink": "#EAF2F6",
+    "accent": "#00A8F0",
+    "muted": "#5E7684"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Most people who've used OKRs at work credit Google for them.",
+      "text": "Google adopted the system. It didn't invent it.",
+      "note": "By the time OKRs reached Google, the method had already been running inside another company for decades.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1970s",
+      "name": "Andy Grove",
+      "role": "Built the system inside Intel and called it 'iMBOs' — Intel Management by Objectives — drawing on Peter Drucker's older idea of managing by objectives from the 1950s.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "lead": "One of Grove's own students carried it out the door.",
+      "text": "John Doerr joined Intel in 1974 as a salesman and sat in Grove's internal course in 1975, where he first learned the iMBOs method.",
+      "note": "He later wrote the book that gave it its modern name: 'Measure What Matters.'",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "25",
+      "unit": "years",
+      "context": "How long the method had already been running at Intel before Doerr, by then a venture capitalist, introduced it to Google's founders in 1999.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "Grove wasn't impressed by where Doerr took it next.",
+      "text": "When Doerr left Intel for the venture capital firm Kleiner Perkins in 1980, Grove told him venture capital 'is not a real job. It's like being a real estate agent.'",
+      "note": "Grove wrote the method down just once, in his 1983 book 'High Output Management.'",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "A 1970s Intel habit, still wearing the name Google made famous.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 112
+    }
+  ],
+  "cta": "Subscribe for more."
+}

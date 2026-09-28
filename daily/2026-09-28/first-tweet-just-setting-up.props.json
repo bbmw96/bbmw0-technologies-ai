@@ -1,0 +1,56 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (first-tweet-just-setting-up)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B141A",
+    "ink": "#EAF6FD",
+    "accent": "#1DA1F2",
+    "muted": "#5E7A88"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "People usually just remember the line.",
+      "text": "'just setting up my twttr' — posted 21 March 2006, before the product was even called Twitter.",
+      "note": "It launched publicly as Twitter four months later, in July 2006.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2001",
+      "name": "'stat.us'",
+      "role": "Jack Dorsey's own first sketch of the idea, drawn on a notepad five years earlier. Nothing came of it until Odeo, a podcasting company, gave the concept a real team in March 2006.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Even the name wasn't his.",
+      "text": "Co-founder Noah Glass chose 'Twitter,' not Dorsey.",
+      "note": "He took it from the Oxford English Dictionary: 'a short inconsequential burst of information... chirps from birds.'",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "statement",
+      "lead": "That tweet later became a very literal collector's item.",
+      "text": "Entrepreneur Sina Estavi bought it as an NFT for $2.9 million in March 2021.",
+      "note": "Dorsey converted the proceeds to bitcoin and donated them to charity.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "280",
+      "unit": "USD",
+      "context": "The top bid when Estavi tried to resell that same NFT for $48 million thirteen months later. Seven bids came in; none went higher.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "sign",
+      "line": "The internet's most expensive four words, and the crash that followed them.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 118
+    }
+  ],
+  "cta": "Subscribe for more."
+}

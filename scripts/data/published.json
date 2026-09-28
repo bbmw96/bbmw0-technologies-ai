@@ -250,7 +250,10 @@
     "reel:kanban-piggly-wiggly-myth",
     "reel:chinook-never-beat-tinsley",
     "reel:gulf-war-game-boy-1991",
-    "reel:dualshock-rumble-lawsuit-2004"
+    "reel:dualshock-rumble-lawsuit-2004",
+    "reel:swot-stewart-not-harvard",
+    "reel:okrs-not-google-intel-grove",
+    "reel:first-tweet-just-setting-up"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -4355,6 +4358,57 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "swot-stewart-not-harvard",
+      "date": "2026-09-28",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "SWOT analysis is usually credited to Harvard Business School's planning course, or to Albert Humphre",
+      "description": "SWOT analysis is usually credited to Harvard Business School's planning course, or to Albert Humphrey inventing it alone at Stanford. A 2023 peer-reviewed history in the journal Long Range Planning found that neither claim holds up.\n\nLed the long-range planning group at the Stanford Research Institute where the framework was actually built, and first called it SOFT, not SWOT.\n\nSOFT stood for Satisfactory, Opportunity, Fault, Threat: the present and future of an organisation, sorted into what was working and what was not. Albert Humphrey worked on the same SRI team. He relabelled it SWOT, for Strengths, Weaknesses, Opportunities, Threats, in a paper he published in 1974.\n\nThe Harvard Business School origin story does not hold up either. William Guth, the last surviving member of Harvard's 1960s policy faculty, said in 2017 he was confident no one on that faculty created the framework.\n\nA tool built to help you check your assumptions had one about its own history.\n\nSources:\n- https://www.sciencedirect.com/science/article/pii/S0024630123000110 - Puyt, Lie and Wilderom's 2023 peer-reviewed history in the journal Long Range Planning traces SWOT's real origin to Robert F. Stewart's Theory and Practice of Planning group at the Stanford Research Institute, active between 1962 and 1971; states Stewart developed the SOFT approach (Satisfactory, Opportunities, Faults, Threats) in 1965, calling it 'the progenitor of SWOT analysis in all its variations'; records that SOFT was later relabelled Strengths, Weaknesses, Opportunities, Threats by Albert Humphrey, a member of the same SRI team, in his 1974 publication 'Getting management commitment to planning'; and quotes William D. Guth, the last surviving Harvard Business School policy faculty member from the 1960s, saying in 2017 he was confident no one on that faculty created the framework, against the popular claim that it originated there.\n- https://en.wikipedia.org/wiki/Albert_S._Humphrey - confirms Humphrey worked on a team led by Robert Stewart that published the SOFT framework at the Stanford Research Institute, distinguishing his role in relabelling the tool from Stewart's role in creating it.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "WmANdc8n_aQ",
+      "youtubeUrl": "https://youtu.be/WmANdc8n_aQ",
+      "uploadedAt": "2026-09-28T17:16:56.540Z",
+      "privacy": "public"
+    },
+    {
+      "id": "okrs-not-google-intel-grove",
+      "date": "2026-09-28",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Google adopted the system. It didn't invent it.",
+      "description": "Google adopted the system. It didn't invent it. By the time OKRs reached Google, the method had already been running inside another company for decades.\n\nBuilt the system inside Intel and called it 'iMBOs', Intel Management by Objectives, drawing on Peter Drucker's older idea of managing by objectives from the 1950s.\n\nJohn Doerr joined Intel in 1974 as a salesman and sat in Grove's internal course in 1975, where he first learned the iMBOs method. He later wrote the book that gave it its modern name: 'Measure What Matters.'\n\nHow long the method had already been running at Intel before Doerr, by then a venture capitalist, introduced it to Google's founders in 1999.\n\nWhen Doerr left Intel for the venture capital firm Kleiner Perkins in 1980, Grove told him venture capital 'is not a real job. It's like being a real estate agent.' Grove wrote the method down just once, in his 1983 book 'High Output Management.'\n\nSources:\n- https://en.wikipedia.org/wiki/Objectives_and_key_results\n- https://en.wikipedia.org/wiki/John_Doerr\n- https://www.whatmatters.com/articles/the-origin-story\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "NDuz5dYLV3Y",
+      "youtubeUrl": "https://youtu.be/NDuz5dYLV3Y",
+      "uploadedAt": "2026-09-28T17:14:58.894Z",
+      "privacy": "public"
+    },
+    {
+      "id": "first-tweet-just-setting-up",
+      "date": "2026-09-28",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "'just setting up my twttr', posted 21 March 2006, before the product was even called Twitter.",
+      "description": "'just setting up my twttr', posted 21 March 2006, before the product was even called Twitter. It launched publicly as Twitter four months later, in July 2006.\n\nJack Dorsey's own first sketch of the idea, drawn on a notepad five years earlier. Nothing came of it until Odeo, a podcasting company, gave the concept a real team in March 2006.\n\nCo-founder Noah Glass chose 'Twitter,' not Dorsey. He took it from the Oxford English Dictionary: 'a short inconsequential burst of information... chirps from birds.'\n\nEntrepreneur Sina Estavi bought it as an NFT for $2.9 million in March 2021. Dorsey converted the proceeds to bitcoin and donated them to charity.\n\nThe top bid when Estavi tried to resell that same NFT for $48 million thirteen months later. Seven bids came in; none went higher.\n\nSources:\n- https://www.computerhistory.org/tdih/march/21/\n- https://techcrunch.com/2011/03/13/twitters-beginning/\n- https://www.forbes.com/sites/rachelsandler/2021/03/22/jack-dorseys-first-tweet-fetched-29-million-in-nft-sale-and-he-donated-proceeds-to-charity/\n- https://www.coindesk.com/business/2022/04/13/jack-dorseys-first-tweet-nft-went-on-sale-for-48m-it-ended-with-a-top-bid-of-just-280\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "z9PiqImB76o",
+      "youtubeUrl": "https://youtu.be/z9PiqImB76o",
+      "uploadedAt": "2026-09-28T17:12:55.977Z",
+      "privacy": "public"
     }
   ]
 }

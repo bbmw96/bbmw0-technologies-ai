@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (swot-stewart-not-harvard)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0D1210",
+    "ink": "#EDF3EF",
+    "accent": "#4FB286",
+    "muted": "#7C8C86"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The tool almost every business course teaches",
+      "text": "SWOT analysis is usually credited to Harvard Business School's planning course, or to Albert Humphrey inventing it alone at Stanford.",
+      "note": "A 2023 peer-reviewed history in the journal Long Range Planning found that neither claim holds up.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1965",
+      "name": "Robert F. Stewart",
+      "role": "Led the long-range planning group at the Stanford Research Institute where the framework was actually built, and first called it SOFT, not SWOT.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "text": "SOFT stood for Satisfactory, Opportunity, Fault, Threat: the present and future of an organisation, sorted into what was working and what was not.",
+      "note": "Albert Humphrey worked on the same SRI team. He relabelled it SWOT, for Strengths, Weaknesses, Opportunities, Threats, in a paper he published in 1974.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "text": "The Harvard Business School origin story does not hold up either.",
+      "note": "William Guth, the last surviving member of Harvard's 1960s policy faculty, said in 2017 he was confident no one on that faculty created the framework.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "A tool built to help you check your assumptions had one about its own history.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "sign",
+      "line": "SWOT was not Harvard's, and it was not only Humphrey's.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 106
+    }
+  ],
+  "cta": "Subscribe for more."
+}
