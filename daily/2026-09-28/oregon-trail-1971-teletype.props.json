@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (oregon-trail-1971-teletype)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0D0F0B",
+    "ink": "#EFEDE3",
+    "accent": "#7A8F4A",
+    "muted": "#7D7C6E"
+  },
+  "niche": "gaming",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Generations know the death message",
+      "text": "\"You have died of dysentery.\"",
+      "note": "The game that made it famous started as a homework deadline, not a design plan.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "credit",
+      "year": "1971",
+      "name": "Rawitsch, Heinemann and Dillenberger",
+      "role": "Three student teachers at a Minneapolis junior high, building from a butcher-paper map game Rawitsch had used to teach a history unit.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "They had about two weeks",
+      "text": "Coded at a teleprinter next to the janitor's closet.",
+      "note": "Working on a shared HP 2100 minicomputer, they wrote roughly 800 lines of BASIC, finishing just in time for Rawitsch's class to play it on 3 December 1971.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Then the school deleted it",
+      "text": "The original code didn't survive the semester.",
+      "note": "District policy wiped the mainframe afterward. Rawitsch rebuilt the game from memory three years later after joining Minnesota's educational computing agency — and that rewrite is the version that spread to schools everywhere.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Paul Dillenberger's own summary of what the game earned him: 'a jean jacket and a copy of the game, instead of owning an island somewhere.'",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "sign",
+      "line": "A two-week homework project became one of the best-known games ever made.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 118
+    }
+  ],
+  "cta": "Follow for more."
+}

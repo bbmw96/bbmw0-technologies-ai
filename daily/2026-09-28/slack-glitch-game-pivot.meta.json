@@ -1,0 +1,25 @@
+{
+  "slug": "slack-glitch-game-pivot",
+  "date": "2026-09-28",
+  "title": "It was built to keep a struggling video game studio internally coordinated.",
+  "description": "It was built to keep a struggling video game studio internally coordinated. That game was Glitch, a browser-based world from Stewart Butterfield's company, Tiny Speck.\n\nTiny Speck's browser game, expensive to run, built on Flash just as gaming moved to mobile. Butterfield's team took its servers offline on 9 December 2012.\n\nAn internal IRC-based system, channels, file sharing, searchable chat archives, became Slack's first prototype within a month of the shutdown. None of it was designed to be sold. It was designed to keep one struggling team talking.\n\nCustomers Slack signed up in the first 24 hours after launching publicly in August 2013, about a year after Glitch went dark.\n\nMost people think 'Slack' is a backronym for 'Searchable Log of All Conversation and Knowledge.' Butterfield himself said the plain word came first, and the acronym was fitted to it afterwards.\n\nSources:\n- https://buildingslack.com/the-death-of-glitch-the-birth-of-slack/\n- https://en.wikipedia.org/wiki/Slack_(software)\n- https://buildingslack.com/we-cant-call-it-slack/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "app",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-28-slack-glitch-game-pivot.mp4",
+  "propsFile": "daily/2026-09-28/slack-glitch-game-pivot.props.json",
+  "durationInFrames": 1170,
+  "audioUrl": "",
+  "niche": "app",
+  "composition": "Reel"
+}

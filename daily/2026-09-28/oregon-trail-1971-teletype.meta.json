@@ -1,0 +1,25 @@
+{
+  "slug": "oregon-trail-1971-teletype",
+  "date": "2026-09-28",
+  "title": "\"You have died of dysentery.\"",
+  "description": "\"You have died of dysentery.\" The game that made it famous started as a homework deadline, not a design plan.\n\nThree student teachers at a Minneapolis junior high, building from a butcher-paper map game Rawitsch had used to teach a history unit.\n\nCoded at a teleprinter next to the janitor's closet. Working on a shared HP 2100 minicomputer, they wrote roughly 800 lines of BASIC, finishing just in time for Rawitsch's class to play it on 3 December 1971.\n\nThe original code didn't survive the semester. District policy wiped the mainframe afterward. Rawitsch rebuilt the game from memory three years later after joining Minnesota's educational computing agency, and that rewrite is the version that spread to schools everywhere.\n\nPaul Dillenberger's own summary of what the game earned him: 'a jean jacket and a copy of the game, instead of owning an island somewhere.'\n\nSources:\n- https://en.wikipedia.org/wiki/The_Oregon_Trail_(1971_video_game)\n- https://www.the74million.org/article/oregon-trail-at-50-how-three-teachers-created-the-computer-game-that-inspired-and-diverted-generations-of-students/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "gaming",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-28-oregon-trail-1971-teletype.mp4",
+  "propsFile": "daily/2026-09-28/oregon-trail-1971-teletype.props.json",
+  "durationInFrames": 1086,
+  "audioUrl": "",
+  "niche": "gaming",
+  "composition": "Reel"
+}

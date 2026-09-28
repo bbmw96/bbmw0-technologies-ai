@@ -253,7 +253,9 @@
     "reel:dualshock-rumble-lawsuit-2004",
     "reel:swot-stewart-not-harvard",
     "reel:okrs-not-google-intel-grove",
-    "reel:first-tweet-just-setting-up"
+    "reel:first-tweet-just-setting-up",
+    "reel:oregon-trail-1971-teletype",
+    "reel:slack-glitch-game-pivot"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -4409,6 +4411,45 @@
       "youtubeUrl": "https://youtu.be/z9PiqImB76o",
       "uploadedAt": "2026-09-28T17:12:55.977Z",
       "privacy": "public"
+    },
+    {
+      "id": "oregon-trail-1971-teletype",
+      "date": "2026-09-28",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "\"You have died of dysentery.\"",
+      "description": "\"You have died of dysentery.\" The game that made it famous started as a homework deadline, not a design plan.\n\nThree student teachers at a Minneapolis junior high, building from a butcher-paper map game Rawitsch had used to teach a history unit.\n\nCoded at a teleprinter next to the janitor's closet. Working on a shared HP 2100 minicomputer, they wrote roughly 800 lines of BASIC, finishing just in time for Rawitsch's class to play it on 3 December 1971.\n\nThe original code didn't survive the semester. District policy wiped the mainframe afterward. Rawitsch rebuilt the game from memory three years later after joining Minnesota's educational computing agency, and that rewrite is the version that spread to schools everywhere.\n\nPaul Dillenberger's own summary of what the game earned him: 'a jean jacket and a copy of the game, instead of owning an island somewhere.'\n\nSources:\n- https://en.wikipedia.org/wiki/The_Oregon_Trail_(1971_video_game)\n- https://www.the74million.org/article/oregon-trail-at-50-how-three-teachers-created-the-computer-game-that-inspired-and-diverted-generations-of-students/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "first-tweet-just-setting-up",
+      "date": "2026-09-28",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "'just setting up my twttr', posted 21 March 2006, before the product was even called Twitter.",
+      "description": "'just setting up my twttr', posted 21 March 2006, before the product was even called Twitter. It launched publicly as Twitter four months later, in July 2006.\n\nJack Dorsey's own first sketch of the idea, drawn on a notepad five years earlier. Nothing came of it until Odeo, a podcasting company, gave the concept a real team in March 2006.\n\nCo-founder Noah Glass chose 'Twitter,' not Dorsey. He took it from the Oxford English Dictionary: 'a short inconsequential burst of information... chirps from birds.'\n\nEntrepreneur Sina Estavi bought it as an NFT for $2.9 million in March 2021. Dorsey converted the proceeds to bitcoin and donated them to charity.\n\nThe top bid when Estavi tried to resell that same NFT for $48 million thirteen months later. Seven bids came in; none went higher.\n\nSources:\n- https://www.computerhistory.org/tdih/march/21/\n- https://techcrunch.com/2011/03/13/twitters-beginning/\n- https://www.forbes.com/sites/rachelsandler/2021/03/22/jack-dorseys-first-tweet-fetched-29-million-in-nft-sale-and-he-donated-proceeds-to-charity/\n- https://www.coindesk.com/business/2022/04/13/jack-dorseys-first-tweet-nft-went-on-sale-for-48m-it-ended-with-a-top-bid-of-just-280\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "slack-glitch-game-pivot",
+      "date": "2026-09-28",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It was built to keep a struggling video game studio internally coordinated.",
+      "description": "It was built to keep a struggling video game studio internally coordinated. That game was Glitch, a browser-based world from Stewart Butterfield's company, Tiny Speck.\n\nTiny Speck's browser game, expensive to run, built on Flash just as gaming moved to mobile. Butterfield's team took its servers offline on 9 December 2012.\n\nAn internal IRC-based system, channels, file sharing, searchable chat archives, became Slack's first prototype within a month of the shutdown. None of it was designed to be sold. It was designed to keep one struggling team talking.\n\nCustomers Slack signed up in the first 24 hours after launching publicly in August 2013, about a year after Glitch went dark.\n\nMost people think 'Slack' is a backronym for 'Searchable Log of All Conversation and Knowledge.' Butterfield himself said the plain word came first, and the acronym was fitted to it afterwards.\n\nSources:\n- https://buildingslack.com/the-death-of-glitch-the-birth-of-slack/\n- https://en.wikipedia.org/wiki/Slack_(software)\n- https://buildingslack.com/we-cant-call-it-slack/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }

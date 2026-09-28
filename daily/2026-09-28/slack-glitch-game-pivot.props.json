@@ -1,0 +1,56 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (slack-glitch-game-pivot)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#140B12",
+    "ink": "#F5EEF2",
+    "accent": "#E01E5A",
+    "muted": "#8C7885"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "People assume Slack was designed from day one to be workplace software.",
+      "text": "It was built to keep a struggling video game studio internally coordinated.",
+      "note": "That game was Glitch, a browser-based world from Stewart Butterfield's company, Tiny Speck.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2012",
+      "name": "Glitch",
+      "role": "Tiny Speck's browser game — expensive to run, built on Flash just as gaming moved to mobile. Butterfield's team took its servers offline on 9 December 2012.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "statement",
+      "lead": "The game died. The tools built to run it didn't.",
+      "text": "An internal IRC-based system — channels, file sharing, searchable chat archives — became Slack's first prototype within a month of the shutdown.",
+      "note": "None of it was designed to be sold. It was designed to keep one struggling team talking.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "8,000",
+      "unit": "signups",
+      "context": "Customers Slack signed up in the first 24 hours after launching publicly in August 2013 — about a year after Glitch went dark.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "statement",
+      "lead": "Even the name carries a myth.",
+      "text": "Most people think 'Slack' is a backronym for 'Searchable Log of All Conversation and Knowledge.'",
+      "note": "Butterfield himself said the plain word came first, and the acronym was fitted to it afterwards.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "A dead game's leftover chat tool, now run by millions of teams that never played it.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 142
+    }
+  ],
+  "cta": "Follow for more."
+}
