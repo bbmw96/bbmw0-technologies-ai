@@ -1,0 +1,25 @@
+{
+  "slug": "word2vec-king-queen-analogy",
+  "date": "2026-09-29",
+  "title": "was just subtraction and addition.",
+  "description": "was just subtraction and addition. No dictionary, no hand-coded rules, the model was never told what a king or a queen is.\n\nTomas Mikolov, Kai Chen, Greg Corrado and Jeffrey Dean at Google trained it purely by having it predict which words sit near each other across huge amounts of ordinary text.\n\nTake the vector for 'King', subtract 'Man', add 'Woman', the closest vector left in the whole space is 'Queen.' That is the paper's own wording, not a paraphrase added later.\n\nThe test set built to check this wasn't one lucky example, thousands of analogy questions, split between semantic pairs like king/queen and syntactic ones like big/biggest.\n\nThe best version of the model answered about two in three correctly: 66.1% on semantic questions, 65.1% on syntactic ones. Genuinely impressive for 2013, and nowhere near solved.\n\nSources:\n- https://ar5iv.labs.arxiv.org/html/1301.3781\n- https://www.marekrei.com/blog/linguistic-regularities-word-representations/\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-29-word2vec-king-queen-analogy.mp4",
+  "propsFile": "daily/2026-09-29/word2vec-king-queen-analogy.props.json",
+  "durationInFrames": 1194,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}

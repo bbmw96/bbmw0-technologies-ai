@@ -1,0 +1,56 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (word2vec-king-queen-analogy)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#081015",
+    "ink": "#E8F6FA",
+    "accent": "#22D3EE",
+    "muted": "#5C7A82"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The most famous demonstration that a computer understood gender and royalty",
+      "text": "was just subtraction and addition.",
+      "note": "No dictionary, no hand-coded rules — the model was never told what a king or a queen is.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2013",
+      "name": "word2vec",
+      "role": "Tomas Mikolov, Kai Chen, Greg Corrado and Jeffrey Dean at Google trained it purely by having it predict which words sit near each other across huge amounts of ordinary text.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "The result got a name of its own.",
+      "text": "Take the vector for 'King', subtract 'Man', add 'Woman' — the closest vector left in the whole space is 'Queen.'",
+      "note": "That is the paper's own wording, not a paraphrase added later.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "19,544",
+      "unit": "questions",
+      "context": "The test set built to check this wasn't one lucky example — thousands of analogy questions, split between semantic pairs like king/queen and syntactic ones like big/biggest.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "statement",
+      "lead": "It didn't get them all right.",
+      "text": "The best version of the model answered about two in three correctly: 66.1% on semantic questions, 65.1% on syntactic ones.",
+      "note": "Genuinely impressive for 2013, and nowhere near solved.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "It never learned what a queen is. It learned where the word sits.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 124
+    }
+  ],
+  "cta": "Follow for more."
+}

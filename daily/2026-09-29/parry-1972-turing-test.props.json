@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (parry-1972-turing-test)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B1412",
+    "ink": "#E9F5F0",
+    "accent": "#2DD4BF",
+    "muted": "#5F7A74"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "credit",
+      "year": "1972",
+      "name": "Kenneth Colby",
+      "role": "Stanford psychiatrist who built PARRY to simulate paranoid schizophrenia",
+      "durationInFrames": 94
+    },
+    {
+      "kind": "statement",
+      "text": "PARRY modelled beliefs, judged new statements as fitting or threatening them, then chose how to respond.",
+      "note": "Contemporaries called it \"ELIZA with attitude\": a real conversational strategy, not just pattern-matched replies.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "Psychiatrists tried to spot the computer. They mostly couldn't.",
+      "text": "In an early-1970s trial, experienced psychiatrists questioned real patients and PARRY over teleprinters; a separate panel of 33 psychiatrists then read the transcripts blind.",
+      "note": "Teleprinters, not chat windows: this predates the personal computer by nearly a decade.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "48",
+      "unit": "%",
+      "context": "correct guesses at telling PARRY from a real patient, statistically no better than chance.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "statement",
+      "text": "PARRY and ELIZA even talked to each other over ARPANET at a 1972 computer conference.",
+      "note": "Two scripted programs, simulating a therapist and a patient, having a conversation neither could actually understand.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "sign",
+      "line": "A chatbot fooled psychiatrists in 1972, before the personal computer existed.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 112
+    }
+  ],
+  "cta": "Follow for more."
+}

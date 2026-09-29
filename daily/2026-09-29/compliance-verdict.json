@@ -5,7 +5,9 @@
   "strictMode": false,
   "allowed": [
     "al-khwarizmi-algebra-algorithm",
-    "discord-fates-forever-pivot"
+    "discord-fates-forever-pivot",
+    "parry-1972-turing-test",
+    "word2vec-king-queen-analogy"
   ],
   "blocked": [],
   "results": [
@@ -87,6 +89,94 @@
         "worstTitleAgainst": "zelda-battery-not-first",
         "worstDescriptionSimilarity": 0.241,
         "combo": "reel:#0B0C14:#5865F2:#EDEEFB",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "parry-1972-turing-test",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "PARRY modelled beliefs, judged new statements as fitting or threatening them, then chose how to resp",
+      "niche": "ai",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.098,
+        "worstTitleAgainst": "bombardier-beetle-explosive-defence",
+        "worstDescriptionSimilarity": 0.267,
+        "combo": "reel:#0B1412:#2DD4BF:#E9F5F0",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "word2vec-king-queen-analogy",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "was just subtraction and addition.",
+      "niche": "ai",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.083,
+        "worstTitleAgainst": "tay-chatbot-16-hours",
+        "worstDescriptionSimilarity": 0.231,
+        "combo": "reel:#081015:#22D3EE:#E8F6FA",
         "themeGap": null,
         "audioGap": 0
       },

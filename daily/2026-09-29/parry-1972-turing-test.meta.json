@@ -1,0 +1,25 @@
+{
+  "slug": "parry-1972-turing-test",
+  "date": "2026-09-29",
+  "title": "PARRY modelled beliefs, judged new statements as fitting or threatening them, then chose how to resp",
+  "description": "Stanford psychiatrist who built PARRY to simulate paranoid schizophrenia\n\nPARRY modelled beliefs, judged new statements as fitting or threatening them, then chose how to respond. Contemporaries called it \"ELIZA with attitude\": a real conversational strategy, not just pattern-matched replies.\n\nIn an early-1970s trial, experienced psychiatrists questioned real patients and PARRY over teleprinters; a separate panel of 33 psychiatrists then read the transcripts blind. Teleprinters, not chat windows: this predates the personal computer by nearly a decade.\n\ncorrect guesses at telling PARRY from a real patient, statistically no better than chance.\n\nPARRY and ELIZA even talked to each other over ARPANET at a 1972 computer conference. Two scripted programs, simulating a therapist and a patient, having a conversation neither could actually understand.\n\nSources:\n- https://en.wikipedia.org/wiki/PARRY: confirms Kenneth Colby, a Stanford psychiatrist, wrote PARRY in 1972 to simulate paranoid schizophrenia; that it modelled beliefs and a conversational strategy, described as \"ELIZA with attitude\"; the early-1970s trial in which psychiatrists questioned real patients and PARRY over teleprinters while a separate panel of 33 psychiatrists read transcripts blind, correctly identifying human versus machine only 48% of the time (consistent with chance); and that PARRY and ELIZA were connected over ARPANET at the 1972 ICCC conference.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-29-parry-1972-turing-test.mp4",
+  "propsFile": "daily/2026-09-29/parry-1972-turing-test.props.json",
+  "durationInFrames": 954,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}
