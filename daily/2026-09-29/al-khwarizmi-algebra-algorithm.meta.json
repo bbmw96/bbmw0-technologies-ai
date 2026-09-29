@@ -1,0 +1,25 @@
+{
+  "slug": "al-khwarizmi-algebra-algorithm",
+  "date": "2026-09-29",
+  "title": "Algebra and algorithm both come from the same person.",
+  "description": "Algebra and algorithm both come from the same person. Muhammad ibn Musa al-Khwarizmi, a scholar working in Baghdad in the ninth century.\n\nWrote 'al-Kitab al-mukhtasar fi hisab al-jabr wal-muqabala', 'The Compendious Book on Calculation by Completion and Balancing'.\n\n'Al-jabr', part of that title, meant completing or rejoining broken parts. Carried into Latin, it became 'algebra'. The book's method for solving equations is what made the title worth borrowing.\n\nWhen 12th-century translators rendered his name in Latin, they wrote it as 'Algoritmi'. That Latinised name became the root of 'algorithm', through a later translation of his separate work on Hindu-Arabic numerals.\n\nHe used neither word himself. Translators built both out of his name and his title, centuries after he wrote them.\n\nSources:\n- https://en.wikipedia.org/wiki/Al-Khwarizmi - confirms Muhammad ibn Musa al-Khwarizmi wrote 'al-Kitab al-mukhtasar fi hisab al-jabr wal-muqabala' ('The Compendious Book on Calculation by Completion and Balancing'), compiled between about 813 and 833 CE; states the English word 'algebra' comes directly from 'al-jabr' in that title, meaning completion or rejoining; and confirms that when his works were translated into Latin in the 12th century his name was rendered 'Algoritmi', which became the source of the word 'algorithm'.\n- https://en.wikipedia.org/wiki/Algorithm - corroborates that the term 'algorithm' derives from 'Algoritmi', the Latinised form of al-Khwarizmi's name, used in the title of the 12th-century Latin translation of his treatise on Hindu-Arabic numerals, 'Algoritmi de numero Indorum'.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "history",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-09-29-al-khwarizmi-algebra-algorithm.mp4",
+  "propsFile": "daily/2026-09-29/al-khwarizmi-algebra-algorithm.props.json",
+  "durationInFrames": 974,
+  "audioUrl": "",
+  "niche": "history",
+  "composition": "Reel"
+}

@@ -1,0 +1,14 @@
+Rendering 2 Shorts for 2026-09-29 (concurrency=3, GL=default)
+Compliance: 2 cleared, 0 blocked (policy v1.0.0).
+
+--- al-khwarizmi-algebra-algorithm ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-29-al-khwarizmi-algebra-algorithm.mp4
+  uploaded public: https://youtu.be/PRkEeoaUEVE
+
+--- discord-fates-forever-pivot ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-29-discord-fates-forever-pivot.mp4
+  uploaded public: https://youtu.be/y9mrkhQit30
+
+=== Done. 2 rendered, 2 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

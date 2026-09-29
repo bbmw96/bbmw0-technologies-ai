@@ -1,0 +1,52 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (al-khwarizmi-algebra-algorithm)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#12100C",
+    "ink": "#F2EEE3",
+    "accent": "#C99A4E",
+    "muted": "#8A8477"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Two of mathematics' biggest words",
+      "text": "Algebra and algorithm both come from the same person.",
+      "note": "Muhammad ibn Musa al-Khwarizmi, a scholar working in Baghdad in the ninth century.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "credit",
+      "year": "c. 820",
+      "name": "Al-Khwarizmi",
+      "role": "Wrote 'al-Kitab al-mukhtasar fi hisab al-jabr wal-muqabala', 'The Compendious Book on Calculation by Completion and Balancing'.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "statement",
+      "text": "'Al-jabr', part of that title, meant completing or rejoining broken parts. Carried into Latin, it became 'algebra'.",
+      "note": "The book's method for solving equations is what made the title worth borrowing.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "text": "When 12th-century translators rendered his name in Latin, they wrote it as 'Algoritmi'.",
+      "note": "That Latinised name became the root of 'algorithm', through a later translation of his separate work on Hindu-Arabic numerals.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "kicker",
+      "text": "He used neither word himself. Translators built both out of his name and his title, centuries after he wrote them.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "sign",
+      "line": "Algebra and algorithm: one man, one book.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,56 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (discord-fates-forever-pivot)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0C14",
+    "ink": "#EDEEFB",
+    "accent": "#5865F2",
+    "muted": "#6E7196"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Discord wasn't built as a chat app for gamers.",
+      "text": "It was the second product from a team whose first was a video game that flopped.",
+      "note": "That game was Fates Forever, a mobile MOBA released in 2014.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2011",
+      "name": "Jason Citron",
+      "role": "Sold his previous company, mobile gaming platform OpenFeint, to Japan's GREE for $104 million in cash — then used the fresh start to found Hammer & Chisel and build a game.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Fates Forever never found its audience.",
+      "text": "While building it, the team kept hitting the same wall: voice and text chat for gamers hadn't meaningfully improved in a decade.",
+      "note": "TeamSpeak and Skype were still what most players were stuck with.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "So they built the tool instead of another game.",
+      "text": "Discord launched publicly in May 2015, aimed straight at the problem Fates Forever had run into.",
+      "note": "Same team, same instinct, a completely different product.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "90",
+      "unit": "million",
+      "context": "Discord's user count by the end of 2017 — up from 3 million less than two years earlier, gaining roughly 1.5 million new users a week.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "sign",
+      "line": "A failed MOBA's real legacy: the voice chat its own players never got to use.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 136
+    }
+  ],
+  "cta": "Subscribe for more."
+}
