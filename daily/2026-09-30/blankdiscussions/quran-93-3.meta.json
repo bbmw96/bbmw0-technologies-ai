@@ -1,0 +1,65 @@
+{
+  "slug": "quran-93-3",
+  "date": "2026-09-30",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "Your Lord has not taken leave of you, [O Muhammad], nor has He detested [you].\n\nSurah Ad-Duha (93:3). Swipe through for the Arabic, then English, Mandarin, Korean, Japanese and Malay.\n\nSources on the final slide.\n\n#Quran #AdDuha #Hope #IslamicReminder #Deen",
+  "tags": [
+    "Quran",
+    "AdDuha",
+    "Hope",
+    "IslamicReminder",
+    "Deen"
+  ],
+  "theme": "pine-lavender",
+  "slides": [
+    "quran-93-3.slide-01.json",
+    "quran-93-3.slide-02.json",
+    "quran-93-3.slide-03.json",
+    "quran-93-3.slide-04.json",
+    "quran-93-3.slide-05.json",
+    "quran-93-3.slide-06.json",
+    "quran-93-3.slide-07.json",
+    "quran-93-3.slide-08.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an 93:3, Surah Ad-Duha: short single ayah of reassurance. Slug not previously used by any published post on this channel (checked against all 31 existing meta.json files).",
+    "arabic": "Edition quran-uthmani, live-fetched 2026-09-30, HTTP 200, single call api.alquran.cloud/v1/ayah/93:3/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese,ms.basmeih. Slide text extracted programmatically from the API response and asserted byte-identical to the on-disk slide JSON. No formatting artifacts.",
+    "english": "Edition en.sahih (Saheeh International), same live call. Extracted programmatically, asserted byte-identical. Source text contains bracketed translator insertions [O Muhammad] and [you], kept as-is.",
+    "chinese": "Edition zh.jian (Ma Jian translation), same live call. Extracted programmatically, asserted byte-identical.",
+    "korean": "Edition ko.korean, same live call. Edition metadata lists englishName 'Unknown' for the translator, so the citation slide reads 'translator not specified by source'. Extracted programmatically, asserted byte-identical.",
+    "japanese": "Edition ja.japanese, same live call. Same 'Unknown' translator metadata, same citation wording. Extracted programmatically, asserted byte-identical.",
+    "malay": "Edition ms.basmeih (Abdullah Muhammad Basmeih), same live call. Extracted programmatically, asserted byte-identical.",
+    "verification_note": "All six editions fetched in one API call this session (HTTP 200); every slide text written directly from the raw response fields and re-read from disk and asserted equal before this record was written. No wording generated from memory. Caption pull-quote is the en.sahih text.",
+    "compliance_check": "Checked programmatically against every string term in scripts/data/compliance-policy.json halal section (142 terms) across all slide text, caption and tags with word-boundary regex. No hits. Pure typography, no imagery. No em or en dashes, no emoji."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-09-30/quran-93-3-slide-NN.png --props=daily/2026-09-30/blankdiscussions/quran-93-3.slide-NN.json (NN = 01..08), then converted to JPEG (quality 92) for Instagram.",
+  "status": "published",
+  "theme_note": "All 31 themes in THEME_ORDER were already used; pine-lavender added as the 32nd (ThemeKey, THEMES, THEME_ORDER), following the add-rather-than-repeat rule.",
+  "hosting_verified": {
+    "checkedAt": "2026-09-30",
+    "sampleUrls": [
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-30/blankdiscussions/renders/quran-93-3-slide-02.jpg"
+    ],
+    "httpStatus": 200,
+    "note": "Visually spot-checked Arabic (slide-02), Chinese (slide-04), Korean (slide-05) and Japanese (slide-06) renders: no tofu or missing glyphs."
+  },
+  "published": {
+    "mediaId": "17904777135592017",
+    "permalink": "https://www.instagram.com/p/Dd54H2klc64/",
+    "publishedAt": "2026-09-30T08:12:21+0000",
+    "hostingUrls": [
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-30/blankdiscussions/renders/quran-93-3-slide-01.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-30/blankdiscussions/renders/quran-93-3-slide-02.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-30/blankdiscussions/renders/quran-93-3-slide-03.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-30/blankdiscussions/renders/quran-93-3-slide-04.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-30/blankdiscussions/renders/quran-93-3-slide-05.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-30/blankdiscussions/renders/quran-93-3-slide-06.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-30/blankdiscussions/renders/quran-93-3-slide-07.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-30/blankdiscussions/renders/quran-93-3-slide-08.jpg"
+    ],
+    "publishedVia": "Composio MCP: 8 child containers via INSTAGRAM_POST_IG_USER_MEDIA (is_carousel_item=true), INSTAGRAM_CREATE_CAROUSEL_CONTAINER from child ids in slide order, INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH. Account alias 'BlankDiscussions', ig_user_id 28477523595198052. Confirmed live via INSTAGRAM_GET_IG_MEDIA: CAROUSEL_ALBUM, caption matches. Only post today: no second post sourced (single post chosen to keep verification thorough)."
+  }
+}
