@@ -10572,6 +10572,297 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "pokemon-mew-300-bytes",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://iwataasks.nintendo.com/interviews/ds/pokemon/0/0/ - Nintendo's own interview; Morimoto says Mew went in 'right at the very end' because the cartridge was really full, that removing debug features left 'a miniscule 300 bytes', that it was left in for possible post-launch use, and that a bug leaked it into some players' games.",
+        "https://www.gamespot.com/articles/how-mew-saved-pokemon/1100-6490812/ - corroborated the 300 bytes and the programmer Shigeki Morimoto, and gave the April 1996 CoroCoro Legendary Pokemon Offer with 20 winners and over 78,000 entries.",
+        "https://en.wikipedia.org/wiki/Mew_(Pok%C3%A9mon) - corroborated that Mew was added after debug features were removed, that the sprite was small and uncoloured for lack of space, and the CoroCoro offer figures."
+      ],
+      "verifiedNote": "Checked 30 Sep 2026. Not claimed: any exact date for when Mew was added; that Satoru Iwata personally compressed or freed the space (he is the interviewer here, not the programmer); the sales-growth quote attributed to Ishihara in the GameSpot piece, which I could not corroborate elsewhere; and the Wikipedia line that Mew was meant only for staff to know about, which sits awkwardly beside Morimoto's own 'post-launch activity' wording, so his wording is used. The Vermilion City truck rumour is left out as unrelated to the sourced facts. The game is the Japanese Red and Green; 'Red and Green' is used to match the sources.",
+      "palette": {
+        "bg": "#1A1A1A",
+        "ink": "#FFFFFF",
+        "accent": "#F2B8D8",
+        "muted": "#8A8A8A"
+      },
+      "beats": [
+        {
+          "kind": "figure",
+          "value": "300",
+          "unit": "bytes",
+          "context": "All the free space left on the Pokémon Red and Green cartridge once the debug features were removed."
+        },
+        {
+          "kind": "statement",
+          "lead": "The game was already finished",
+          "text": "Mew went in right at the very end.",
+          "note": "Programmer Shigeki Morimoto said the cartridge was really full and there wasn't room for much more on there."
+        },
+        {
+          "kind": "statement",
+          "lead": "It was not a secret plan",
+          "text": "It was left in for possible use after launch.",
+          "note": "Morimoto said it was kept in case it suited some post-launch activity."
+        },
+        {
+          "kind": "statement",
+          "lead": "Then a bug leaked it",
+          "text": "Mew turned up in some players' games.",
+          "note": "Morimoto: 'It looked like we planned all of this, but that wasn't the case.' Staff had been told not to tamper with a single bit after debugging ended."
+        },
+        {
+          "kind": "statement",
+          "lead": "Then it became a prize",
+          "text": "Over 78,000 people entered to win Mew.",
+          "note": "CoroCoro Comic's April 1996 Legendary Pokémon Offer had just 20 winners."
+        },
+        {
+          "kind": "credit",
+          "year": "1996",
+          "name": "Shigeki Morimoto",
+          "role": "Game Freak programmer who added Mew after the debug features were removed."
+        },
+        {
+          "kind": "sign",
+          "line": "300 bytes became gaming's best known secret.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "gpt2-too-dangerous-staged-release",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://openai.com/index/better-language-models/ - OpenAI's February 2019 announcement; established 1.5 billion parameters, 8 million web pages of training data, the next-word objective, the quote 'we are not releasing the trained model', and that a much smaller model and a paper were released instead.",
+        "https://openai.com/index/gpt-2-1-5b-release/ - OpenAI's 5 November 2019 post; established the full 1.5B release as the final stage, the phrase 'a test case of a full staged release process', and 'We've seen no strong evidence of misuse so far.'"
+      ],
+      "verifiedNote": "Checked 30 Sep 2026. The May 2019 step (345M model released, 762M and 1.5B shared with partners) is taken from the February post's update note as fetched; I did not separately read the May post. Not claimed: that the warning was a publicity stunt, which critics suggested but which is opinion; any exact February day; that the model was harmless (OpenAI itself noted concern about spam and phishing). The original framing is 'concerns about malicious applications', so the popular phrase 'too dangerous to release' is treated as shorthand, not a quote.",
+      "palette": {
+        "bg": "#101418",
+        "ink": "#FFFFFF",
+        "accent": "#10A37F",
+        "muted": "#8A8A8A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "February 2019",
+          "text": "OpenAI announced a model it would not release.",
+          "note": "'Due to our concerns about malicious applications of the technology, we are not releasing the trained model.'"
+        },
+        {
+          "kind": "statement",
+          "lead": "The model was GPT-2",
+          "text": "It had 1.5 billion parameters.",
+          "note": "It was trained on 8 million web pages with one job: predict the next word."
+        },
+        {
+          "kind": "statement",
+          "lead": "The popular version says it was locked away",
+          "text": "It never was.",
+          "note": "A much smaller model and a technical paper went out the same day. A 345 million parameter version followed in May 2019."
+        },
+        {
+          "kind": "statement",
+          "lead": "November 2019",
+          "text": "The full model was released anyway.",
+          "note": "OpenAI said: 'We've seen no strong evidence of misuse so far.'"
+        },
+        {
+          "kind": "credit",
+          "year": "2019",
+          "name": "OpenAI",
+          "role": "Called the release 'a test case of a full staged release process'."
+        },
+        {
+          "kind": "kicker",
+          "text": "The model too dangerous to release was public within the year."
+        },
+        {
+          "kind": "sign",
+          "line": "Staged release became the template for what came next.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "android-camera-os-pivot",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://www.pcworld.com/article/451350/android-founder-we-aimed-to-make-a-camera-os.html - Andy Rubin, Japan New Economy Summit, Tokyo, 16 April 2013: 'The exact same platform, the exact same operating system we built for cameras, that became Android for cellphones'; camera market growth was slowing; handsets were the bigger opportunity and a free OS could undercut rivals.",
+        "https://www.dpreview.com/articles/0013837043/android-was-originally-designed-for-cameras/ - corroborated that the 2004 investor pitch was 'a camera platform with a cloud portion for storing images online', and that the team repurposed it as a handset OS as camera growth slowed.",
+        "https://en.wikipedia.org/wiki/Android_(operating_system) - founding in October 2003 in Palo Alto by Andy Rubin and Chris White, the original FotoFrame camera OS project, the April 2004 pivot to phones, Google's 2005 acquisition, and the HTC Dream announced 23 September 2008 as the first commercial Android phone."
+      ],
+      "verifiedNote": "Checked 30 Sep 2026. Not claimed: the price Google paid for Android Inc., which no source I read states reliably; the claim that Samsung could have bought it, which appeared only in a forum post; and any detail of the FotoFrame product beyond its name. The 'cloud for storing images' pitch and the 2013 quote come straight from Rubin via the press reports. Founding and pivot dates come from Wikipedia only and are kept to the year or month given.",
+      "palette": {
+        "bg": "#0B1F17",
+        "ink": "#FFFFFF",
+        "accent": "#3DDC84",
+        "muted": "#8A8A8A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Before phones",
+          "text": "Android was built for cameras.",
+          "note": "Andy Rubin pitched investors in 2004 a camera platform with a cloud portion for storing images online."
+        },
+        {
+          "kind": "credit",
+          "year": "2003",
+          "name": "Andy Rubin and Chris White",
+          "role": "Founded Android Inc. in Palo Alto in October 2003."
+        },
+        {
+          "kind": "statement",
+          "lead": "Then the market moved",
+          "text": "Camera growth was slowing.",
+          "note": "Rubin said handsets were the bigger opportunity, and a free operating system could undercut rivals."
+        },
+        {
+          "kind": "statement",
+          "lead": "In Rubin's own words, 2013",
+          "text": "The same platform became Android for cellphones.",
+          "note": "'The exact same platform, the exact same operating system we built for cameras', said in Tokyo on 16 April 2013."
+        },
+        {
+          "kind": "statement",
+          "lead": "Google bought it in 2005",
+          "text": "The founders joined Google with it.",
+          "note": "Rubin, Rich Miner, Nick Sears and Chris White all moved across."
+        },
+        {
+          "kind": "credit",
+          "year": "2008",
+          "name": "HTC Dream",
+          "role": "Sold as the T-Mobile G1, the first commercial Android phone, announced 23 September 2008."
+        },
+        {
+          "kind": "sign",
+          "line": "The world's biggest phone OS began as a camera OS.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "gmail-april-fools-2004",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://www.pbs.org/newshour/nation/20-years-ago-people-thought-googles-gmail-launch-was-an-april-fools-day-joke - established 1GB of free storage at launch, described as 250 to 500 times the space rivals offered, that the date and Google's prank tradition made people doubt it, invite-only exclusivity, the Caribou codename, Paul Buchheit leading the project, and opening to all in 2007.",
+        "https://en.wikipedia.org/wiki/Gmail - corroborated the 1 April 2004 announcement, the 1GB offer, Paul Buchheit as creator and the Caribou codename."
+      ],
+      "verifiedNote": "Checked 30 Sep 2026. Not claimed: specific rival figures such as Hotmail 2MB and Yahoo 4MB, because the two sources I read describe the gap differently (the PBS piece gives 250 to 500 times); a precise day in 2007 for the public opening, which I did not confirm; Marissa Mayer's role; and the date Gmail left beta (2009), which is not needed. The 10,000 users on 300 old machines figure comes from the PBS (AP) article only, so it is attributed to it in the note.",
+      "palette": {
+        "bg": "#1A1A1A",
+        "ink": "#FFFFFF",
+        "accent": "#EA4335",
+        "muted": "#8A8A8A"
+      },
+      "beats": [
+        {
+          "kind": "figure",
+          "value": "1",
+          "unit": "gigabyte",
+          "context": "Free storage Gmail offered at launch, roughly 250 to 500 times what rivals gave."
+        },
+        {
+          "kind": "statement",
+          "lead": "1 April 2004",
+          "text": "Nobody believed it.",
+          "note": "Google's founders had a tradition of outlandish April Fools' jokes, and a gigabyte of email sounded preposterous."
+        },
+        {
+          "kind": "statement",
+          "lead": "It was real, but tiny",
+          "text": "Launch capacity was 10,000 users on 300 old machines.",
+          "note": "Per the AP report, that exclusivity drove demand for invitations."
+        },
+        {
+          "kind": "statement",
+          "lead": "Then it stayed invite only",
+          "text": "Google opened it to everyone in 2007.",
+          "note": "For years, the only way in was to be invited."
+        },
+        {
+          "kind": "credit",
+          "year": "2004",
+          "name": "Paul Buchheit",
+          "role": "Led the project, internally codenamed Caribou."
+        },
+        {
+          "kind": "kicker",
+          "text": "The date was the joke. The gigabyte was not."
+        },
+        {
+          "kind": "sign",
+          "line": "Gmail launched as a prank and became the standard.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "shannon-theseus-mouse-1950",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://www.technologyreview.com/2018/12/19/138508/mighty-mouse/ - MIT Technology Review; established that Theseus was built in 1950, learned by trial and error using telephone relay circuits, that whiskers touching a wall flipped a relay from on to off, that it is described as one of the world's first examples of machine learning, and that the original maze is at the MIT Museum and no longer works.",
+        "https://mitmuseum.mit.edu/collections/object/2007.030.001 - MIT Museum catalogue entry; established that the mouse finds its way to the goal and remembers the path, that relays calculate its position and remember successful and unsuccessful paths, and that parts of the maze were machined at Bell Labs while the circuitry was built at home on the living room floor."
+      ],
+      "verifiedNote": "Checked 30 Sep 2026. Not claimed: the number of relays; that it was the first learning machine (sources say 'one of the first'); the exact size of the maze, which the two sources did not give consistently; any detail of Betty Shannon's exact share of the wiring beyond the museum's wording, so she is not credited in the beats. The year 1950 follows Technology Review, though another reference site dates the film demonstration to 1952, so the beats say built in 1950 and do not date any demonstration.",
+      "palette": {
+        "bg": "#101418",
+        "ink": "#FFFFFF",
+        "accent": "#7AB8FF",
+        "muted": "#8A8A8A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "1950",
+          "text": "A mechanical mouse learned its way through a maze.",
+          "note": "Claude Shannon built Theseus, which finds its way to the goal and remembers the path."
+        },
+        {
+          "kind": "statement",
+          "lead": "Its brain",
+          "text": "Telephone relays.",
+          "note": "Relays beneath the maze calculated its position and remembered successful and unsuccessful paths."
+        },
+        {
+          "kind": "statement",
+          "lead": "How it learned",
+          "text": "By bumping into walls.",
+          "note": "When its whiskers touched a wall, a relay flipped from on to off, recording a wall on that side."
+        },
+        {
+          "kind": "statement",
+          "lead": "Built at home",
+          "text": "The circuitry was wired on the living room floor.",
+          "note": "Parts of the maze were machined at Bell Labs, but the circuitry was built at home."
+        },
+        {
+          "kind": "statement",
+          "lead": "Where it is now",
+          "text": "The MIT Museum holds the original maze.",
+          "note": "It no longer works."
+        },
+        {
+          "kind": "kicker",
+          "text": "One of the first learning machines was a mouse running on telephone relays."
+        },
+        {
+          "kind": "sign",
+          "line": "AI started with a mouse and a telephone exchange.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
