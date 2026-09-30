@@ -10248,6 +10248,330 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "dagen-h-sweden-1967",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dagen_H - established the exact switch time and date (3 September 1967, 05:00, with a 01:00-06:00 non-essential traffic ban), the sign count (around 350,000, including 20,000 in Stockholm), the Högertrafikkommissionen (HTK), the song contest detail, and border/vehicle statistics.",
+        "https://en.wikipedia.org/wiki/1955_Swedish_driving_side_referendum - established the exact 1955 referendum date (16 October 1955) and vote breakdown: 15.50% in favour, 82.89% against, 53.18% turnout; and that the Riksdag approved the switch anyway in 1963.",
+        "https://www.amusingplanet.com/2019/04/dagen-h-day-sweden-switched-traffic.html - established the changeover cost (628 million kronor), the sign count (~360,000), and the 4:50 a.m. loudspeaker announcement detail.",
+        "https://historyfacts.com/world-history/fact/sweden-switched-driving-left-to-right/ - independently corroborated the 5:00 a.m. switch time, the sign count, and that accident and injury numbers on the day and the following Monday were flat-to-down versus the national average, not spiked."
+      ],
+      "verifiedNote": "Checked 28 Sep 2026. The referendum-vs-parliament gap is the hook: Swedes voted 82.9% against switching in 1955, and the Riksdag did it anyway in 1963, executed in 1967. Sign count is given by sources as 350,000-360,000; rendered as 'around 350,000' rather than a falsely precise figure. A specific 'insurance claims fell 40%' statistic appeared in only one source and is deliberately left out; the safer, two-source-corroborated claim is that accidents did not spike and briefly fell. No figure beat: the strongest numbers here are a percentage (82.9%) and a large kronor sum, neither of which fits the figure beat's whole-number/short-unit constraint without distortion, so they stay as text.",
+      "palette": {
+        "bg": "#0B1F3A",
+        "ink": "#F5F5F0",
+        "accent": "#FFD400",
+        "muted": "#7C8CA6"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "In 1955, Sweden asked the public",
+          "text": "82.9% voted no.",
+          "note": "A national referendum on switching from left-hand to right-hand traffic failed by a landslide; only 15.5% voted in favour."
+        },
+        {
+          "kind": "statement",
+          "lead": "Parliament did it anyway",
+          "text": "Twelve years later, they switched.",
+          "note": "The Riksdag approved the change in 1963 under pressure from the Council of Europe and the Nordic Council; overriding the 1955 vote."
+        },
+        {
+          "kind": "credit",
+          "year": "1967",
+          "name": "Dagen H",
+          "role": "3 September, 5:00 a.m. A loudspeaker announcement; 'Nu är det dags att byta!' ('Now is the time to change!'); and the whole country moved to the right side of the road at once."
+        },
+        {
+          "kind": "statement",
+          "lead": "The scale of it",
+          "text": "Around 350,000 road signs changed overnight.",
+          "note": "Most were swapped in the 24 hours before the switch. The whole operation cost 628 million kronor."
+        },
+        {
+          "kind": "kicker",
+          "text": "The crash rate didn't spike. It fell."
+        },
+        {
+          "kind": "sign",
+          "line": "Norway and Finland already drove on the right. Sweden was the odd one out.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "mars-blue-sunset",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://science.nasa.gov/resource/sunset-on-mars-from-pathfinder-images/ - established that NASA's famous 1997 Pathfinder 'Mars sunset' image is a composite: a genuine, radiometrically correct sky exposure stitched to a separately, artistically adjusted foreground.",
+        "https://science.nasa.gov/resource/sunset-at-mars-gusev-crater-spirit/ - established Spirit rover's genuine sunset photograph, 19 May 2005 (sol 489), Gusev Crater, showing a real bluish glow around the sun, with a noted caveat that the far-sky redness in that image was exaggerated by the camera's filter choice.",
+        "https://www.jpl.nasa.gov/news/nasas-curiosity-rover-views-serene-sundown-on-mars/ - established Curiosity's 15 April 2015 (sol 956) Mastcam sunset sequence at Gale Crater, the first sunset Curiosity recorded in colour, and planetary scientist Mark Lemmon's explanation that fine dust particles scatter blue light more efficiently near the sun.",
+        "https://science.nasa.gov/earth/earth-observatory/crepuscular-rays-and-light-scattering-150090/ - established the contrasting mechanism on Earth: Rayleigh scattering by small gas molecules scatters blue light away from the sun's direct path at sunset, leaving the sky red; the opposite of what Martian dust does."
+      ],
+      "verifiedNote": "Checked 28 Sep 2026. The myth-correction is the opening beat: the iconic 1997 Pathfinder 'sunset' picture that most people have seen is not a straight photograph but a composite of a real sky exposure and an adjusted foreground; stated precisely as that, not implied to be a raw photo. Spirit's 2005 image is used only for its confirmed blue-near-sun glow; NASA's own note that the far-sky redness in that specific frame was filter-exaggerated means that detail is left out. No figure beat: no NASA source in this research produced a strong, whole-number statistic (dust particle size, wavelength) worth 300px; the real numbers here are dates, which carry the story better as credits.",
+      "palette": {
+        "bg": "#2B140D",
+        "ink": "#F5EDE6",
+        "accent": "#4F86C6",
+        "muted": "#9C7A6A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Mars' most famous sunset picture",
+          "text": "It isn't really a photograph.",
+          "note": "NASA's iconic 1997 Pathfinder image is a composite; a genuine sky exposure stitched to a separately, artistically adjusted foreground."
+        },
+        {
+          "kind": "credit",
+          "year": "2005",
+          "name": "Spirit rover",
+          "role": "19 May, Gusev Crater. A real sunset, caught by its Pancam; with a blue glow around the sun."
+        },
+        {
+          "kind": "credit",
+          "year": "2015",
+          "name": "Curiosity rover",
+          "role": "15 April, Gale Crater. Captured Mars' first sunset recorded in colour, over six minutes fifty-one seconds."
+        },
+        {
+          "kind": "statement",
+          "lead": "Why the colour flips",
+          "text": "The same dust that turns Martian days red does this.",
+          "note": "Fine dust in the atmosphere scatters blue light forward, concentrating it near the sun at sunset; the opposite of how Earth's air scatters light."
+        },
+        {
+          "kind": "kicker",
+          "text": "Red planet. Blue sunsets."
+        },
+        {
+          "kind": "sign",
+          "line": "Confirmed by three separate NASA missions, decades apart.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "paperless-office-1975-myth",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://www.csmonitor.com/2005/1212/p13s01-wmgn.html - established the exact 1975 Business Week article ('The Office of the Future', 30 June 1975), its 'most record-handling will be electronic' claim pegged to 1990, and the verbatim George Pake quote and his own, separate 1995 estimate.",
+        "https://expexinc.com/in-1975-business-week-prophesized-that-the-office-of-the-future-would-be-a-paperless-one/ - independently corroborated the same Pake quote and its attribution to Xerox PARC's June 1975 Business Week feature.",
+        "https://cool.culturalheritage.org/byorg/abbey/ap/ap02/ap02-3/ap02-309.html - established that US business paper use rose from 850 billion to 1.4 trillion pages between 1981 and 1984, citing historian Edward Tenner.",
+        "https://www.sdcexec.com/sourcing-procurement/manufacturing/article/10290027/paper-still-the-net-best-thing - established, via Sellen & Harper's 'The Myth of the Paperless Office' (2001), that US office paper consumption rose more than 14% between 1995 and 2000.",
+        "https://www.afandpa.org/news/2024/afpa-details-us-paper-production-and-capacity-trends - established that US printing-writing paper capacity peaked around 2000 and had fallen to about 12% of total capacity, under 10 million tons, by 2023."
+      ],
+      "verifiedNote": "Checked 28 Sep 2026. The commonly repeated line is 'Business Week predicted paperless offices by 1990'; that conflates two separate claims in the same 1975 article: the magazine's own forecast about electronic record-handling (pegged to 1990) and Xerox PARC's George Pake's personal, hedged guess about a desk terminal (pegged to 1995, and he explicitly said he didn't know how much paper he'd still want). The Pake quote is corroborated by two independent secondary sources but I could not reach a scanned primary copy of the original Business Week issue, so it is treated as well-corroborated rather than primary-verified. A widely repeated '115 billion sheets a year from PCs' (Worldwatch Institute) figure could not be traced to an original document and is deliberately left out. No figure beat: the strongest number, 1.4 trillion pages, fails the figure beat's whole-number and short-unit rule without distortion, so it stays as text.",
+      "palette": {
+        "bg": "#161512",
+        "ink": "#F5F0E6",
+        "accent": "#E8B04B",
+        "muted": "#8C8578"
+      },
+      "beats": [
+        {
+          "kind": "credit",
+          "year": "1975",
+          "name": "George Pake",
+          "role": "Xerox PARC. Told Business Week he didn't know how much paper he'd still want; not the 'paperless by 1990' claim usually attributed to him."
+        },
+        {
+          "kind": "statement",
+          "lead": "What that prediction actually said",
+          "text": "The magazine predicted electronic record-handling by 1990.",
+          "note": "A separate claim from Pake's own hedge about a desk terminal by 1995; the two get merged in almost every retelling."
+        },
+        {
+          "kind": "statement",
+          "lead": "What happened instead",
+          "text": "US business paper use nearly doubled in three years.",
+          "note": "850 billion pages in 1981 to 1.4 trillion by 1984, as photocopiers and early computers multiplied documents instead of replacing them."
+        },
+        {
+          "kind": "statement",
+          "lead": "It kept rising",
+          "text": "Office paper use rose again once email arrived.",
+          "note": "US office paper consumption grew more than 14% between 1995 and 2000."
+        },
+        {
+          "kind": "kicker",
+          "text": "Paper use only started falling once everyone had a phone."
+        },
+        {
+          "kind": "sign",
+          "line": "Printing-writing paper capacity peaked around 2000; a quarter-century late.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "puck-man-to-pac-man",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pac-Man - established the Japan release date (22 May 1980), the original name 'Puck Man', the paku-paku etymology, and the October 1980 Midway US release under the changed name.",
+        "https://www.thrillingtalesofoldvideogames.com/blog/pac-man-hockey-pucks-paku-paku - a dedicated investigation confirming the paku-paku etymology via the official Pac-Man Museum and Chris Kohler's 'Power Up', and establishing that the vandalism-rename story is attributed inconsistently across retellings, with no confirmed source on the Japanese side of Namco.",
+        "https://gameinformer.com/classic/2020/06/19/pac-mans-creator-on-the-legacy-pizza-and-the-future - a direct, on-record quote from creator Toru Iwatani confirming the pizza-slice inspiration for the character's design.",
+        "https://www.guinnessworldrecords.com/world-records/98519-highest-grossing-arcade-videogame - the official record: approximately 10 billion coin-operated plays and $3.5 billion in cumulative earnings between 1980 and 1999, making Pac-Man the highest-grossing arcade video game of all time."
+      ],
+      "verifiedNote": "Checked 28 Sep 2026. The 'vandals would scratch the P into an F' rename story is told constantly (it is even on Wikipedia, sourced there only to a single CNN piece) but cannot be traced to any Namco executive, interview, or document; attribution varies between retellings, which is itself a sign of folklore rather than history. That unconfirmed status is the hook and is stated as unconfirmed, not repeated as fact. A competing 'named after a hockey puck' shape story is separately confirmed FALSE by the authors of 'Pac-Man: Birth of an Icon', who did primary research with Namco; not used here. Iwatani's pizza quote and the paku-paku etymology are both solid, on-record facts and are used as stated. The 10-billion-plays figure comes straight from Guinness and is a genuinely significant number, which is why it gets the figure beat rather than a smaller, address-like count.",
+      "palette": {
+        "bg": "#120B1E",
+        "ink": "#F5F0FF",
+        "accent": "#FFD400",
+        "muted": "#8A7FA6"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The story everyone repeats",
+          "text": "Pac-Man was renamed to stop vandals scratching an F onto arcade cabinets.",
+          "note": "Repeated by CNN, Wikipedia, and countless retellings; but no Namco executive, document, or interview has ever been found saying this."
+        },
+        {
+          "kind": "credit",
+          "year": "1980",
+          "name": "Puck Man",
+          "role": "22 May, Japan. Namco's original name for the character, from 'paku-paku'; the Japanese sound for a mouth opening and closing."
+        },
+        {
+          "kind": "statement",
+          "lead": "Creator Toru Iwatani's own account",
+          "text": "The shape came from a missing slice of pizza.",
+          "note": "\"I was eating a whole pizza while thinking about a game themed on eating,\" he told Game Informer in 2020, \"and I came up with the design after looking at the pie with a slice taken out.\""
+        },
+        {
+          "kind": "credit",
+          "year": "1980",
+          "name": "Midway",
+          "role": "October. Published the US version under the changed name; Pac-Man; an Americanisation, not a confirmed scandal dodge."
+        },
+        {
+          "kind": "figure",
+          "value": "10",
+          "unit": "billion",
+          "context": "coin-operated plays between 1980 and 1999, per Guinness World Records; the highest-grossing arcade game ever."
+        },
+        {
+          "kind": "sign",
+          "line": "Nobody at Namco has ever confirmed the vandalism story.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "google-duplex-2018-disclosure",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://research.google/blog/google-duplex-an-ai-system-for-accomplishing-real-world-tasks-over-the-phone/ - Google's own 8 May 2018 announcement, including the hair-salon and restaurant audio samples and its initial, vague commitment to 'experiment with the right approach' on disclosure.",
+        "https://techcrunch.com/2018/05/18/what-we-know-about-googles-duplex-demo-so-far - established that Google declined to name the demo businesses or confirm whether the audio was edited, leaving the live-vs-edited question unresolved.",
+        "https://techcrunch.com/2018/06/27/a-closer-look-at-google-duplex/ - established the ethical backlash over non-disclosure and the exact disclosure line Duplex used once Google rebuilt it to identify itself: 'Hi, I'm the Google Assistant... this automated call will be recorded.'",
+        "https://9to5google.com/2018/05/10/google-duplex-announce-itself-phone-calls/ - established that Google publicly committed to building disclosure into Duplex within days of the I/O backlash, first reported 10 May 2018."
+      ],
+      "verifiedNote": "Checked 28 Sep 2026. The popular memory of this demo is 'Google secretly recorded two real, unedited phone calls live on stage'; what's actually verifiable is narrower and is stated that way: Google said the calls were to real businesses, but refused for weeks to name those businesses or confirm the audio wasn't edited, and independent observers flagged signs of editing (no background noise, no business-name greeting) that were never publicly resolved either way. The script avoids asserting the calls were live or that they were faked; both would overclaim what's sourced. No figure beat: no verified adoption or call-volume number tied to the actual 2018 launch turned up in this research.",
+      "palette": {
+        "bg": "#0E1116",
+        "ink": "#F2F4F3",
+        "accent": "#4285F4",
+        "muted": "#7C8794"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Google I/O, May 2018",
+          "text": "Sundar Pichai played two phone calls on stage.",
+          "note": "An AI voice booking a hair salon appointment and a restaurant table, saying 'um' and 'mmm-hmm' to sound human. Neither call told the person answering that they were talking to a bot."
+        },
+        {
+          "kind": "statement",
+          "lead": "Were they real, unedited calls?",
+          "text": "Google never actually confirmed that.",
+          "note": "It refused to name the businesses or say whether the audio had been edited; independent observers noted no background noise and no business greeting."
+        },
+        {
+          "kind": "statement",
+          "lead": "The backlash",
+          "text": "Critics called the non-disclosure deceptive.",
+          "note": "Without knowing they were speaking to software, the people who answered those calls couldn't meaningfully consent to it."
+        },
+        {
+          "kind": "statement",
+          "lead": "Google's response",
+          "text": "It rebuilt Duplex to identify itself.",
+          "note": "Within days, Google committed to disclosure. By the next public demo, every call opened: 'Hi, I'm the Google Assistant... this automated call will be recorded.'"
+        },
+        {
+          "kind": "kicker",
+          "text": "The AI got politer. The demo never got confirmed."
+        },
+        {
+          "kind": "sign",
+          "line": "Duplex now announces itself before it books anything.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "snapchat-rejected-facebook-3-billion",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://www.csmonitor.com/Technology/Horizons/2013/1116/Why-did-Snapchat-s-23-year-old-CEO-reject-a-3-billion-buyout-offer - established the $3 billion all-cash Facebook offer (via WSJ), that Snapchat had no revenue at the time, and that daily photo/message volume rose from 200 million to 350 million between June and September 2013.",
+        "https://www.forbes.com/sites/davidwismer/2013/11/17/snapchat-how-to-make-3-billion-or-was-it-4-billion-disappear-and-other-quotes-of-the-week/ - established that the $3 billion Facebook figure is solidly reported while a separate $4 billion Google offer is only a 'latest rumour', and explicitly flagged the two figures as often confused.",
+        "https://www.shellypalmer.com/2013/11/google-snapchat/ - traced the '$4 billion Google offer' claim to a single journalist's tweet, never confirmed by Google or a named primary source.",
+        "https://www.uniladtech.com/social-media/snapchat/snapchat-ceo-evan-spiegel-3billion-mark-zuckerberg-622036-20250325 - reported Evan Spiegel's own 2025 account on the Diary of a CEO podcast, quoting him directly: 'we decided that we would rather go it alone.'",
+        "https://techcrunch.com/2017/03/01/snap-values-itself-at-nearly-24b-with-its-ipo-pricing - established Snap Inc.'s IPO pricing at $17 a share, valuing the company at nearly $24 billion in March 2017."
+      ],
+      "verifiedNote": "Checked 28 Sep 2026. The $3 billion Facebook offer (November 2013, via the Wall Street Journal) is corroborated independently by CSMonitor, NPR, CNBC and Slate, though the original WSJ piece is paywalled and was not read directly; confidence is high on the strength of the independent corroboration. A separately reported '$4 billion Google offer' is deliberately framed as unconfirmed rumour, not fact: it traces to one journalist's tweet and Forbes flagged the confusion at the time. That is kept distinct from Tencent's confirmed but separate ~$4 billion-valuation minority investment in Snapchat the same month, which is not used here to avoid conflating two different '$4 billion' stories. Bobby Murphy has no attributed public quote on the rejection in any source found, so the reasoning is attributed to Spiegel only.",
+      "palette": {
+        "bg": "#1A1A1A",
+        "ink": "#FFFFFF",
+        "accent": "#FFFC00",
+        "muted": "#8A8A8A"
+      },
+      "beats": [
+        {
+          "kind": "figure",
+          "value": "3",
+          "unit": "billion",
+          "context": "Facebook's cash offer to buy Snapchat outright, November 2013; rejected."
+        },
+        {
+          "kind": "statement",
+          "lead": "Snapchat was two years old",
+          "text": "It had made $0 in revenue.",
+          "note": "Evan Spiegel turned down the offer anyway, betting on growth."
+        },
+        {
+          "kind": "statement",
+          "lead": "The popular version adds a rival bid",
+          "text": "A rumoured $4 billion Google offer is often repeated as fact.",
+          "note": "It traces to a single journalist's tweet, never confirmed by Google or a named primary source; Forbes flagged the $3B-vs-$4B confusion as unresolved at the time."
+        },
+        {
+          "kind": "statement",
+          "lead": "Why he said no",
+          "text": "Usage was still climbing fast.",
+          "note": "Snapchat's daily photos and messages grew from 200 million to 350 million between June and September 2013 alone."
+        },
+        {
+          "kind": "credit",
+          "year": "2025",
+          "name": "Evan Spiegel",
+          "role": "Explained the decision on the Diary of a CEO podcast: 'we decided that we would rather go it alone.'"
+        },
+        {
+          "kind": "sign",
+          "line": "Snap went public in 2017, valued at nearly $24 billion.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
