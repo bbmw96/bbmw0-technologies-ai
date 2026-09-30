@@ -1,0 +1,63 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (android-camera-os-pivot)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B1F17",
+    "ink": "#FFFFFF",
+    "accent": "#3DDC84",
+    "muted": "#8A8A8A"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Before phones",
+      "text": "Android was built for cameras.",
+      "note": "Andy Rubin pitched investors in 2004 a camera platform with a cloud portion for storing images online.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "credit",
+      "year": "2003",
+      "name": "Andy Rubin and Chris White",
+      "role": "Founded Android Inc. in Palo Alto in October 2003.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "statement",
+      "lead": "Then the market moved",
+      "text": "Camera growth was slowing.",
+      "note": "Rubin said handsets were the bigger opportunity, and a free operating system could undercut rivals.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "In Rubin's own words, 2013",
+      "text": "The same platform became Android for cellphones.",
+      "note": "'The exact same platform, the exact same operating system we built for cameras', said in Tokyo on 16 April 2013.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "Google bought it in 2005",
+      "text": "The founders joined Google with it.",
+      "note": "Rubin, Rich Miner, Nick Sears and Chris White all moved across.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "credit",
+      "year": "2008",
+      "name": "HTC Dream",
+      "role": "Sold as the T-Mobile G1, the first commercial Android phone, announced 23 September 2008.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "sign",
+      "line": "The world's biggest phone OS began as a camera OS.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 106
+    }
+  ],
+  "cta": "Subscribe for more."
+}

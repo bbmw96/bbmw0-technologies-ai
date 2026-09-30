@@ -1,0 +1,20 @@
+Rendering 3 Shorts for 2026-09-30 (concurrency=3, GL=default)
+Compliance: 2 cleared, 1 blocked (policy v1.0.0).
+Blocked by compliance: snapchat-rejected-facebook-3-billion
+
+--- android-camera-os-pivot ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-30-android-camera-os-pivot.mp4
+  uploaded public: https://youtu.be/Q9VJj8otFsg
+
+--- gmail-april-fools-2004 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-30-gmail-april-fools-2004.mp4
+  uploaded public: https://youtu.be/YSSkKM9koAY
+
+--- snapchat-rejected-facebook-3-billion ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-09-30-snapchat-rejected-facebook-3-billion.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-09-30/compliance-verdict.json.
+
+=== Done. 3 rendered, 2 uploaded, 0 skipped, 1 blocked by compliance, 0 failed. ===

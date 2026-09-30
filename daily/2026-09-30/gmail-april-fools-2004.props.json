@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (gmail-april-fools-2004)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#1A1A1A",
+    "ink": "#FFFFFF",
+    "accent": "#EA4335",
+    "muted": "#8A8A8A"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "figure",
+      "value": "1",
+      "unit": "gigabyte",
+      "context": "Free storage Gmail offered at launch, roughly 250 to 500 times what rivals gave.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "statement",
+      "lead": "1 April 2004",
+      "text": "Nobody believed it.",
+      "note": "Google's founders had a tradition of outlandish April Fools' jokes, and a gigabyte of email sounded preposterous.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "It was real, but tiny",
+      "text": "Launch capacity was 10,000 users on 300 old machines.",
+      "note": "Per the AP report, that exclusivity drove demand for invitations.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "statement",
+      "lead": "Then it stayed invite only",
+      "text": "Google opened it to everyone in 2007.",
+      "note": "For years, the only way in was to be invited.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "credit",
+      "year": "2004",
+      "name": "Paul Buchheit",
+      "role": "Led the project, internally codenamed Caribou.",
+      "durationInFrames": 78
+    },
+    {
+      "kind": "kicker",
+      "text": "The date was the joke. The gigabyte was not.",
+      "durationInFrames": 76
+    },
+    {
+      "kind": "sign",
+      "line": "Gmail launched as a prank and became the standard.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}
