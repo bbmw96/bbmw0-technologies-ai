@@ -1,0 +1,25 @@
+{
+  "slug": "shannon-theseus-mouse-1950",
+  "date": "2026-09-30",
+  "title": "A mechanical mouse learned its way through a maze.",
+  "description": "A mechanical mouse learned its way through a maze. Claude Shannon built Theseus, which finds its way to the goal and remembers the path.\n\nTelephone relays. Relays beneath the maze calculated its position and remembered successful and unsuccessful paths.\n\nBy bumping into walls. When its whiskers touched a wall, a relay flipped from on to off, recording a wall on that side.\n\nThe circuitry was wired on the living room floor. Parts of the maze were machined at Bell Labs, but the circuitry was built at home.\n\nThe MIT Museum holds the original maze. It no longer works.\n\nOne of the first learning machines was a mouse running on telephone relays.\n\nSources:\n- https://www.technologyreview.com/2018/12/19/138508/mighty-mouse/ - MIT Technology Review; established that Theseus was built in 1950, learned by trial and error using telephone relay circuits, that whiskers touching a wall flipped a relay from on to off, that it is described as one of the world's first examples of machine learning, and that the original maze is at the MIT Museum and no longer works.\n- https://mitmuseum.mit.edu/collections/object/2007.030.001 - MIT Museum catalogue entry; established that the mouse finds its way to the goal and remembers the path, that relays calculate its position and remember successful and unsuccessful paths, and that parts of the maze were machined at Bell Labs while the circuitry was built at home on the living room floor.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-09-30-shannon-theseus-mouse-1950.mp4",
+  "propsFile": "daily/2026-09-30/shannon-theseus-mouse-1950.props.json",
+  "durationInFrames": 976,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}

@@ -262,7 +262,8 @@
     "reel:word2vec-king-queen-analogy",
     "reel:snapchat-rejected-facebook-3-billion",
     "reel:gmail-april-fools-2004",
-    "reel:android-camera-os-pivot"
+    "reel:android-camera-os-pivot",
+    "reel:shannon-theseus-mouse-1950"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -4577,6 +4578,45 @@
       "youtubeUrl": "https://youtu.be/Q9VJj8otFsg",
       "uploadedAt": "2026-09-30T15:29:45.560Z",
       "privacy": "public"
+    },
+    {
+      "id": "shannon-theseus-mouse-1950",
+      "date": "2026-09-30",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "A mechanical mouse learned its way through a maze.",
+      "description": "A mechanical mouse learned its way through a maze. Claude Shannon built Theseus, which finds its way to the goal and remembers the path.\n\nTelephone relays. Relays beneath the maze calculated its position and remembered successful and unsuccessful paths.\n\nBy bumping into walls. When its whiskers touched a wall, a relay flipped from on to off, recording a wall on that side.\n\nThe circuitry was wired on the living room floor. Parts of the maze were machined at Bell Labs, but the circuitry was built at home.\n\nThe MIT Museum holds the original maze. It no longer works.\n\nOne of the first learning machines was a mouse running on telephone relays.\n\nSources:\n- https://www.technologyreview.com/2018/12/19/138508/mighty-mouse/ - MIT Technology Review; established that Theseus was built in 1950, learned by trial and error using telephone relay circuits, that whiskers touching a wall flipped a relay from on to off, that it is described as one of the world's first examples of machine learning, and that the original maze is at the MIT Museum and no longer works.\n- https://mitmuseum.mit.edu/collections/object/2007.030.001 - MIT Museum catalogue entry; established that the mouse finds its way to the goal and remembers the path, that relays calculate its position and remember successful and unsuccessful paths, and that parts of the maze were machined at Bell Labs while the circuitry was built at home on the living room floor.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "snapchat-rejected-facebook-3-billion",
+      "date": "2026-09-30",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It had made $0 in revenue.",
+      "description": "Facebook's cash offer to buy Snapchat outright, November 2013; rejected.\n\nIt had made $0 in revenue. Evan Spiegel turned down the offer anyway, betting on growth.\n\nA rumoured $4 billion Google offer is often repeated as fact. It traces to a single journalist's tweet, never confirmed by Google or a named primary source; Forbes flagged the $3B-vs-$4B confusion as unresolved at the time.\n\nUsage was still climbing fast. Snapchat's daily photos and messages grew from 200 million to 350 million between June and September 2013 alone.\n\nExplained the decision on the Diary of a CEO podcast: 'we decided that we would rather go it alone.'\n\nSources:\n- https://www.csmonitor.com/Technology/Horizons/2013/1116/Why-did-Snapchat-s-23-year-old-CEO-reject-a-3-billion-buyout-offer - established the $3 billion all-cash Facebook offer (via WSJ), that Snapchat had no revenue at the time, and that daily photo/message volume rose from 200 million to 350 million between June and September 2013.\n- https://www.forbes.com/sites/davidwismer/2013/11/17/snapchat-how-to-make-3-billion-or-was-it-4-billion-disappear-and-other-quotes-of-the-week/ - established that the $3 billion Facebook figure is solidly reported while a separate $4 billion Google offer is only a 'latest rumour', and explicitly flagged the two figures as often confused.\n- https://www.shellypalmer.com/2013/11/google-snapchat/ - traced the '$4 billion Google offer' claim to a single journalist's tweet, never confirmed by Google or a named primary source.\n- https://www.uniladtech.com/social-media/snapchat/snapchat-ceo-evan-spiegel-3billion-mark-zuckerberg-622036-20250325 - reported Evan Spiegel's own 2025 account on the Diary of a CEO podcast, quoting him directly: 'we decided that we would rather go it alone.'\n- https://techcrunch.com/2017/03/01/snap-values-itself-at-nearly-24b-with-its-ipo-pricing - established Snap Inc.'s IPO pricing at $17 a share, valuing the company at nearly $24 billion in March 2017.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "gmail-april-fools-2004",
+      "date": "2026-09-30",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Nobody believed it.",
+      "description": "Free storage Gmail offered at launch, roughly 250 to 500 times what rivals gave.\n\nNobody believed it. Google's founders had a tradition of outlandish April Fools' jokes, and a gigabyte of email sounded preposterous.\n\nLaunch capacity was 10,000 users on 300 old machines. Per the AP report, that exclusivity drove demand for invitations.\n\nGoogle opened it to everyone in 2007. For years, the only way in was to be invited.\n\nLed the project, internally codenamed Caribou.\n\nThe date was the joke. The gigabyte was not.\n\nSources:\n- https://www.pbs.org/newshour/nation/20-years-ago-people-thought-googles-gmail-launch-was-an-april-fools-day-joke - established 1GB of free storage at launch, described as 250 to 500 times the space rivals offered, that the date and Google's prank tradition made people doubt it, invite-only exclusivity, the Caribou codename, Paul Buchheit leading the project, and opening to all in 2007.\n- https://en.wikipedia.org/wiki/Gmail - corroborated the 1 April 2004 announcement, the 1GB offer, Paul Buchheit as creator and the Caribou codename.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }

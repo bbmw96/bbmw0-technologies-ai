@@ -5,7 +5,8 @@
   "strictMode": false,
   "allowed": [
     "android-camera-os-pivot",
-    "gmail-april-fools-2004"
+    "gmail-april-fools-2004",
+    "shannon-theseus-mouse-1950"
   ],
   "blocked": [
     "snapchat-rejected-facebook-3-billion"
@@ -163,6 +164,50 @@
         "worstTitleAgainst": "parkinsons-law",
         "worstDescriptionSimilarity": 0.233,
         "combo": "reel:#1A1A1A:#FFFC00:#FFFFFF",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "shannon-theseus-mouse-1950",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "A mechanical mouse learned its way through a maze.",
+      "niche": "ai",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.1,
+        "worstTitleAgainst": "google-googol-misspelling",
+        "worstDescriptionSimilarity": 0.246,
+        "combo": "reel:#101418:#7AB8FF:#FFFFFF",
         "themeGap": null,
         "audioGap": 0
       },
