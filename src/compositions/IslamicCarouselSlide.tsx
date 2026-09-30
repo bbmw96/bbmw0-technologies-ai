@@ -28,7 +28,7 @@
 // same stack has the same coverage there.
 import React from "react";
 
-export type ThemeKey = "emerald-gold" | "midnight-silver" | "terracotta-cream" | "plum-rose" | "indigo-saffron" | "sapphire-pearl" | "garnet-amber" | "obsidian-jade" | "ivory-cobalt" | "charcoal-copper" | "amber-slate" | "rosewood-mint" | "azure-sand" | "crimson-pewter" | "olive-gold" | "violet-ash" | "teal-bronze" | "maroon-linen" | "cobalt-ember" | "forest-blush" | "onyx-turquoise" | "clay-frost" | "basalt-marigold" | "linen-periwinkle" | "umber-mauve" | "aubergine-citrine" | "byzantium-sage" | "chalk-vermilion" | "cerulean-honey" | "slate-copper" | "steel-blossom";
+export type ThemeKey = "emerald-gold" | "midnight-silver" | "terracotta-cream" | "plum-rose" | "indigo-saffron" | "sapphire-pearl" | "garnet-amber" | "obsidian-jade" | "ivory-cobalt" | "charcoal-copper" | "amber-slate" | "rosewood-mint" | "azure-sand" | "crimson-pewter" | "olive-gold" | "violet-ash" | "teal-bronze" | "maroon-linen" | "cobalt-ember" | "forest-blush" | "onyx-turquoise" | "clay-frost" | "basalt-marigold" | "linen-periwinkle" | "umber-mauve" | "aubergine-citrine" | "byzantium-sage" | "chalk-vermilion" | "cerulean-honey" | "slate-copper" | "steel-blossom" | "pine-lavender";
 
 export const THEMES: Record<ThemeKey, { bg: string; ink: string; accent: string; muted: string; label: string }> = {
   "emerald-gold": { bg: "#0B2B26", ink: "#F5F1E6", accent: "#C9A227", muted: "#8FB6AC", label: "Emerald & Gold" },
@@ -62,8 +62,9 @@ export const THEMES: Record<ThemeKey, { bg: string; ink: string; accent: string;
   "cerulean-honey": { bg: "#0E2A47", ink: "#F5EFE0", accent: "#E3A857", muted: "#5B7A99", label: "Cerulean & Honey" },
   "slate-copper": { bg: "#1F2937", ink: "#F5F1E8", accent: "#C77B4D", muted: "#6B7A8F", label: "Slate & Copper" },
   "steel-blossom": { bg: "#22303C", ink: "#F4F1E8", accent: "#D98BAA", muted: "#5A6B78", label: "Steel & Blossom" },
+  "pine-lavender": { bg: "#1E3530", ink: "#F3F0E6", accent: "#B9A3E3", muted: "#5F7A72", label: "Pine & Lavender" },
 };
-export const THEME_ORDER: ThemeKey[] = ["emerald-gold", "midnight-silver", "terracotta-cream", "plum-rose", "indigo-saffron", "sapphire-pearl", "garnet-amber", "obsidian-jade", "ivory-cobalt", "charcoal-copper", "amber-slate", "rosewood-mint", "azure-sand", "crimson-pewter", "olive-gold", "violet-ash", "teal-bronze", "maroon-linen", "cobalt-ember", "forest-blush", "onyx-turquoise", "clay-frost", "basalt-marigold", "linen-periwinkle", "umber-mauve", "aubergine-citrine", "byzantium-sage", "chalk-vermilion", "cerulean-honey", "slate-copper", "steel-blossom"];
+export const THEME_ORDER: ThemeKey[] = ["emerald-gold", "midnight-silver", "terracotta-cream", "plum-rose", "indigo-saffron", "sapphire-pearl", "garnet-amber", "obsidian-jade", "ivory-cobalt", "charcoal-copper", "amber-slate", "rosewood-mint", "azure-sand", "crimson-pewter", "olive-gold", "violet-ash", "teal-bronze", "maroon-linen", "cobalt-ember", "forest-blush", "onyx-turquoise", "clay-frost", "basalt-marigold", "linen-periwinkle", "umber-mauve", "aubergine-citrine", "byzantium-sage", "chalk-vermilion", "cerulean-honey", "slate-copper", "steel-blossom", "pine-lavender"];
 
 const SANS = '"Helvetica Neue", Inter, Arial, system-ui, sans-serif';
 // Font stacks, most-specific/best-shaped first, safe generic last.
