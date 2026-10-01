@@ -28,7 +28,7 @@
 // same stack has the same coverage there.
 import React from "react";
 
-export type ThemeKey = "emerald-gold" | "midnight-silver" | "terracotta-cream" | "plum-rose" | "indigo-saffron" | "sapphire-pearl" | "garnet-amber" | "obsidian-jade" | "ivory-cobalt" | "charcoal-copper" | "amber-slate" | "rosewood-mint" | "azure-sand" | "crimson-pewter" | "olive-gold" | "violet-ash" | "teal-bronze" | "maroon-linen" | "cobalt-ember" | "forest-blush" | "onyx-turquoise" | "clay-frost" | "basalt-marigold" | "linen-periwinkle" | "umber-mauve" | "aubergine-citrine" | "byzantium-sage" | "chalk-vermilion" | "cerulean-honey" | "slate-copper" | "steel-blossom" | "pine-lavender" | "walnut-aqua";
+export type ThemeKey = "emerald-gold" | "midnight-silver" | "terracotta-cream" | "plum-rose" | "indigo-saffron" | "sapphire-pearl" | "garnet-amber" | "obsidian-jade" | "ivory-cobalt" | "charcoal-copper" | "amber-slate" | "rosewood-mint" | "azure-sand" | "crimson-pewter" | "olive-gold" | "violet-ash" | "teal-bronze" | "maroon-linen" | "cobalt-ember" | "forest-blush" | "onyx-turquoise" | "clay-frost" | "basalt-marigold" | "linen-periwinkle" | "umber-mauve" | "aubergine-citrine" | "byzantium-sage" | "chalk-vermilion" | "cerulean-honey" | "slate-copper" | "steel-blossom" | "pine-lavender" | "walnut-aqua" | "ink-saffron-rose";
 
 export const THEMES: Record<ThemeKey, { bg: string; ink: string; accent: string; muted: string; label: string }> = {
   "emerald-gold": { bg: "#0B2B26", ink: "#F5F1E6", accent: "#C9A227", muted: "#8FB6AC", label: "Emerald & Gold" },
@@ -64,8 +64,9 @@ export const THEMES: Record<ThemeKey, { bg: string; ink: string; accent: string;
   "steel-blossom": { bg: "#22303C", ink: "#F4F1E8", accent: "#D98BAA", muted: "#5A6B78", label: "Steel & Blossom" },
   "pine-lavender": { bg: "#1E3530", ink: "#F3F0E6", accent: "#B9A3E3", muted: "#5F7A72", label: "Pine & Lavender" },
   "walnut-aqua": { bg: "#3A2A20", ink: "#F5EDE0", accent: "#7FD1C7", muted: "#8A7467", label: "Walnut & Aqua" },
+  "ink-saffron-rose": { bg: "#E6EEE9", ink: "#1F2A2B", accent: "#7A2E5A", muted: "#8DA399", label: "Sage & Plum" },
 };
-export const THEME_ORDER: ThemeKey[] = ["emerald-gold", "midnight-silver", "terracotta-cream", "plum-rose", "indigo-saffron", "sapphire-pearl", "garnet-amber", "obsidian-jade", "ivory-cobalt", "charcoal-copper", "amber-slate", "rosewood-mint", "azure-sand", "crimson-pewter", "olive-gold", "violet-ash", "teal-bronze", "maroon-linen", "cobalt-ember", "forest-blush", "onyx-turquoise", "clay-frost", "basalt-marigold", "linen-periwinkle", "umber-mauve", "aubergine-citrine", "byzantium-sage", "chalk-vermilion", "cerulean-honey", "slate-copper", "steel-blossom", "pine-lavender", "walnut-aqua"];
+export const THEME_ORDER: ThemeKey[] = ["emerald-gold", "midnight-silver", "terracotta-cream", "plum-rose", "indigo-saffron", "sapphire-pearl", "garnet-amber", "obsidian-jade", "ivory-cobalt", "charcoal-copper", "amber-slate", "rosewood-mint", "azure-sand", "crimson-pewter", "olive-gold", "violet-ash", "teal-bronze", "maroon-linen", "cobalt-ember", "forest-blush", "onyx-turquoise", "clay-frost", "basalt-marigold", "linen-periwinkle", "umber-mauve", "aubergine-citrine", "byzantium-sage", "chalk-vermilion", "cerulean-honey", "slate-copper", "steel-blossom", "pine-lavender", "walnut-aqua", "ink-saffron-rose"];
 
 const SANS = '"Helvetica Neue", Inter, Arial, system-ui, sans-serif';
 // Font stacks, most-specific/best-shaped first, safe generic last.
@@ -84,7 +85,7 @@ const JAPANESE = '"Yu Gothic", "MS Gothic", "Meiryo", sans-serif';
 // runs somewhere Noto Sans Thai isn't installed.
 const THAI = '"Noto Sans Thai", "Leelawadee UI", Tahoma, sans-serif';
 
-export type LangCode = "ar" | "en" | "zh" | "ko" | "ja" | "ms" | "th";
+export type LangCode = "ar" | "en" | "zh" | "ko" | "ja" | "ms" | "th" | "es";
 export const LANG_META: Record<LangCode, { name: string; font: string; dir: "rtl" | "ltr"; sizePx: number; lineHeight: number }> = {
   ar: { name: "العربية", font: ARABIC, dir: "rtl", sizePx: 62, lineHeight: 1.65 },
   en: { name: "English", font: SANS, dir: "ltr", sizePx: 48, lineHeight: 1.4 },
@@ -100,6 +101,9 @@ export const LANG_META: Record<LangCode, { name: string; font: string; dir: "rtl
   // words, so line-height needs the same kind of headroom CJK gets rather
   // than the tighter Latin value.
   th: { name: "ภาษาไทย", font: THAI, dir: "ltr", sizePx: 48, lineHeight: 1.75 },
+  // Spanish added 2026-10-01 (Latin script, rides the SANS stack; accented
+  // letters and inverted punctuation are covered by every stack member).
+  es: { name: "Español", font: SANS, dir: "ltr", sizePx: 44, lineHeight: 1.5 },
 };
 
 export type CarouselSlideProps =
