@@ -10863,6 +10863,218 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "excel-gene-names-dates-2016",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://link.springer.com/article/10.1186/s13059-016-1044-7 - Ziemann, Eren and El-Osta, Genome Biology 2016; established that Excel converted SEPT2 to 2-Sep and MARCH1 to 1-Mar, and that 19.6% of papers with Excel gene lists (704 articles from 3,597 papers, published 2005 to 2015) contained such errors.",
+        "https://www.theregister.com/2020/08/06/excel_gene_names/ - The Register, 6 Aug 2020; established that the HUGO Gene Nomenclature Committee issued updated naming rules and gave examples including SEPT2 to SEPTIN2 and MARCH1 to MARCHF1.",
+        "https://theprint.in/science/27-genes-in-your-body-now-have-a-new-name-because-microsoft-excel-confused-them-for-dates/477398/ - ThePrint, 8 Aug 2020; established the figure of 27 renamed genes and the HGNC requirement that gene symbols should not affect data validation in Excel."
+      ],
+      "verifiedNote": "Checked 1 Oct 2026. Not claimed: that Microsoft refused to fix Excel (only ThePrint relays an HGNC remark about this and no source gives a Microsoft statement); the exact date the 2020 guidelines were issued beyond 'August 2020'; any claim about how many individual papers had wrong conclusions as a result. The count of 27 renamed genes comes from ThePrint and matches the headlines of several other outlets, but was not confirmed on the HGNC site, so it is attributed to reporting.",
+      "palette": {
+        "bg": "#0F1F17",
+        "ink": "#FFFFFF",
+        "accent": "#21A366",
+        "muted": "#8A8A8A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "2016",
+          "text": "Excel was quietly corrupting gene names in published science.",
+          "note": "A study of papers from 2005 to 2015 found 19.6% of those with Excel gene lists contained errors."
+        },
+        {
+          "kind": "statement",
+          "lead": "The glitch",
+          "text": "SEPT2 became 2-Sep.",
+          "note": "MARCH1 became 1-Mar. Excel read the gene symbols as dates."
+        },
+        {
+          "kind": "figure",
+          "value": "27",
+          "unit": "genes",
+          "context": "Renamed in 2020 by the HUGO Gene Nomenclature Committee, according to press reports, so that Excel would stop mistaking them for dates."
+        },
+        {
+          "kind": "statement",
+          "lead": "The fix",
+          "text": "MARCH1 is now MARCHF1.",
+          "note": "SEPT2 is now SEPTIN2. The scientists changed the genes, not the software."
+        },
+        {
+          "kind": "kicker",
+          "text": "It was easier to rename human genes than to change a spreadsheet."
+        },
+        {
+          "kind": "sign",
+          "line": "Even biology has to work around the software.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "mars-climate-orbiter-pound-seconds-1999",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://llis.nasa.gov/llis_lib/pdf/1009464main1_0641-mr.pdf - NASA Mars Climate Orbiter Mishap Investigation Board Phase I report; established the root cause as a ground software file called Small Forces producing thruster data in pound-seconds instead of newton-seconds, and the altitude estimates (226 km expected, as low as 110 km an hour before orbit insertion, 80 km survivable minimum, 57 km after correction) plus that a contingency fifth correction manoeuvre was never executed.",
+        "https://science.nasa.gov/mission/mars-climate-orbiter/ - NASA mission page; established that last contact was on 23 September 1999, nine months after launch, and that ground software used English units while onboard software used metric."
+      ],
+      "verifiedNote": "Checked 1 Oct 2026. Not claimed: the mission cost (the NASA mission page does not give it and the figure came only from a secondary source); that the spacecraft 'crashed' (NASA says it is believed to have burned up in the Martian atmosphere, so the beats say passed too low); any individual blamed by name. The 4.45 conversion factor is true but not used because the report excerpt read did not state it.",
+      "palette": {
+        "bg": "#1F120D",
+        "ink": "#FFFFFF",
+        "accent": "#E2725B",
+        "muted": "#8A8A8A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "23 September 1999",
+          "text": "A Mars spacecraft was lost over a unit mix-up.",
+          "note": "Mars Climate Orbiter made its last contact nine months after launch."
+        },
+        {
+          "kind": "statement",
+          "lead": "The error",
+          "text": "Thruster data was in pound-seconds, not newton-seconds.",
+          "note": "A ground software file called Small Forces produced English units. The navigation expected metric."
+        },
+        {
+          "kind": "figure",
+          "value": "57",
+          "unit": "km",
+          "context": "The altitude the corrected figures put the orbiter at above Mars. It needed to stay above 80 km to survive. The plan had been 226 km."
+        },
+        {
+          "kind": "statement",
+          "lead": "The warning signs",
+          "text": "The numbers drifted for weeks.",
+          "note": "An hour before orbit insertion, estimates had fallen to as low as 110 km. A fifth correction manoeuvre was never carried out."
+        },
+        {
+          "kind": "kicker",
+          "text": "The mission did not fail in space. It failed in a file format."
+        },
+        {
+          "kind": "sign",
+          "line": "Always check your units.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "google-cat-network-face-detector-2012",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://arxiv.org/abs/1112.6209 - Le, Ranzato, Monga, Devin, Chen, Corrado, Dean and Ng, 'Building high-level features using large scale unsupervised learning', submitted 29 Dec 2011; established 1 billion connections, a cluster of 1,000 machines (16,000 cores) for three days, 10 million 200 by 200 pixel images from the internet, a face detector learned without labelled images, sensitivity to cat faces and human bodies, and a 70% relative improvement over the previous best ImageNet result.",
+        "https://en.wikipedia.org/wiki/Google_Brain - Google Brain article; established the 16,000 processors in 1,000 computers description and that the work was widely reported as the cat experiment in June 2012."
+      ],
+      "verifiedNote": "Checked 1 Oct 2026. Not claimed: that the images were all YouTube frames (the paper abstract says the internet, the YouTube description comes from press coverage); the ImageNet category count and accuracy percentage (the abstract extract gave 20,000 categories which I could not reconcile with my recollection of 22,000, so only the 70% relative improvement is used); the exact cat detection accuracy, which the abstract does not state; who led the project, since the author list has eight names.",
+      "palette": {
+        "bg": "#101418",
+        "ink": "#FFFFFF",
+        "accent": "#F4B400",
+        "muted": "#8A8A8A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Google, 2012",
+          "text": "A neural network taught itself what a cat looks like.",
+          "note": "It was trained on 10 million images from the internet, with no labels to tell it what was in them."
+        },
+        {
+          "kind": "statement",
+          "lead": "Its size",
+          "text": "A billion connections.",
+          "note": "It ran on 1,000 machines with 16,000 cores for three days."
+        },
+        {
+          "kind": "statement",
+          "lead": "The twist",
+          "text": "The paper led with faces, not cats.",
+          "note": "The network learned a face detector without labelled images. Cat faces and human bodies came next."
+        },
+        {
+          "kind": "figure",
+          "value": "70",
+          "unit": "percent",
+          "context": "The relative improvement the same paper reported over the previous best result on ImageNet object recognition."
+        },
+        {
+          "kind": "kicker",
+          "text": "The internet's favourite animal became the headline for a leap in deep learning."
+        },
+        {
+          "kind": "sign",
+          "line": "Nobody told it what a cat was.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "lenna-playboy-test-image",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://theconversation.com/the-playboy-centrefold-at-the-centre-of-computer-science-41457 - The Conversation; established that the image was digitised at the University of Southern California Signal and Image Processing Institute, that the researchers had exhausted their usual test images, that the source was the November 1972 issue of Playboy, and that the result was 512 by 512 pixels from a 5.12 inch strip.",
+        "https://gizmodo.com/lena-test-image-playboy-how-sex-changed-internet-1849798731 - Gizmodo; established that the team wanted a human face, interesting textures and a glossy finish, that the top 5.12 inches of the page fitted the Muirhead wirephoto scanner to make a 512 by 512 pixel image, that Optical Engineering put it on a July 1991 cover with Playboy permission for educational and research use, and that the family of around 150 Nature journals and others now refuse it.",
+        "https://en.wikipedia.org/wiki/Lenna - Wikipedia; established the spelling Lenna at the request of Lena Forsen and IEEE's announcement that it would stop allowing the image from 1 April 2024."
+      ],
+      "verifiedNote": "Checked 1 Oct 2026. Not claimed: the year of the scan, because sources disagree (1972 in one, 1973 in others), so only the issue date of November 1972 is given; the name of the graduate student; Playboy's early reaction; Forsen's views. The IEEE date rests on Wikipedia alone and is therefore attributed softly in the beats ('since turned it away') rather than dated.",
+      "palette": {
+        "bg": "#14141C",
+        "ink": "#FFFFFF",
+        "accent": "#C084FC",
+        "muted": "#8A8A8A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Image processing",
+          "text": "Its most famous test picture came from a magazine.",
+          "note": "The Lenna image was cropped from the November 1972 issue of Playboy."
+        },
+        {
+          "kind": "statement",
+          "lead": "Why",
+          "text": "A lab had run out of test images.",
+          "note": "Researchers at the University of Southern California wanted a human face, rich textures and a glossy finish."
+        },
+        {
+          "kind": "figure",
+          "value": "512",
+          "unit": "pixels",
+          "context": "The width and height of the scan. It was made from the top 5.12 inches of the page, which was all the scanner could fit."
+        },
+        {
+          "kind": "statement",
+          "lead": "The spelling",
+          "text": "Lenna, with two Ns.",
+          "note": "The model, Lena Forsen, asked for it so the name would be pronounced correctly."
+        },
+        {
+          "kind": "statement",
+          "lead": "Today",
+          "text": "Nature journals and IEEE have since turned it away.",
+          "note": "Decades of compression and vision papers used the same crop."
+        },
+        {
+          "kind": "kicker",
+          "text": "A scanner's width fixed the size of an entire field's test image."
+        },
+        {
+          "kind": "sign",
+          "line": "Tech history is full of accidents.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
