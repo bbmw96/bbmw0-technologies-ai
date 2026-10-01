@@ -1,0 +1,41 @@
+{
+  "slug": "quran-2-153",
+  "date": "2026-10-01",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "O you who have believed, seek help through patience and prayer. Indeed, Allah is with the patient.\n\nSurah Al-Baqarah (2:153). Swipe through for the Arabic, then English, Mandarin, Korean, Japanese and Malay.\n\nSources on the final slide.\n\n#Quran #AlBaqarah #Patience #IslamicReminder #Deen",
+  "tags": [
+    "Quran",
+    "AlBaqarah",
+    "Patience",
+    "IslamicReminder",
+    "Deen"
+  ],
+  "theme": "walnut-aqua",
+  "slides": [
+    "quran-2-153.slide-01.json",
+    "quran-2-153.slide-02.json",
+    "quran-2-153.slide-03.json",
+    "quran-2-153.slide-04.json",
+    "quran-2-153.slide-05.json",
+    "quran-2-153.slide-06.json",
+    "quran-2-153.slide-07.json",
+    "quran-2-153.slide-08.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an 2:153, Surah Al-Baqarah: seek help through patience and prayer. Not used by any prior post (checked against existing blankdiscussions meta.json files).",
+    "arabic": "Edition quran-uthmani, live-fetched 2026-10-01 (HTTP 200), single call api.alquran.cloud/v1/ayah/2:153/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese,ms.basmeih. Asserted byte-identical to slide JSON after write.",
+    "english": "Edition en.sahih (Saheeh International), same live call, asserted byte-identical.",
+    "chinese": "Edition zh.jian (Ma Jian), same live call, asserted byte-identical.",
+    "korean": "Edition ko.korean, same live call; translator listed 'Unknown' by source so slide says 'translator not specified by source'. Source data artifact: stray space inside '인 내하는' (mid-word); corrected to '인내하는' (whitespace only, no wording change). Rest byte-identical.",
+    "japanese": "Edition ja.japanese, same live call; translator 'Unknown' by source. Asserted byte-identical.",
+    "malay": "Edition ms.basmeih (Abdullah Muhammad Basmeih), same live call, asserted byte-identical.",
+    "verification_note": "All six editions fetched in one API call this session (HTTP 200); slide text written programmatically from raw response fields and re-read from disk and asserted equal. No wording from memory.",
+    "compliance_check": "Checked programmatically against all 142 string terms in scripts/data/compliance-policy.json halal section across slide text and caption, word-boundary regex: 0 hits. Pure typography. No em/en dashes, no emoji."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-10-01/quran-2-153-slide-NN.png --props=daily/2026-10-01/blankdiscussions/quran-2-153.slide-NN.json (NN = 01..08), then converted to JPEG (quality 92) for Instagram.",
+  "status": "rendered_and_hosted",
+  "theme_note": "All 32 prior themes used; walnut-aqua added as the 33rd (ThemeKey, THEMES, THEME_ORDER)."
+}
