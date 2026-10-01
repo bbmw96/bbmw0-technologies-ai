@@ -36,6 +36,30 @@
     "compliance_check": "Checked programmatically against all 142 string terms in scripts/data/compliance-policy.json halal section across slide text and caption, word-boundary regex: 0 hits. Pure typography. No em/en dashes, no emoji."
   },
   "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-10-01/quran-2-153-slide-NN.png --props=daily/2026-10-01/blankdiscussions/quran-2-153.slide-NN.json (NN = 01..08), then converted to JPEG (quality 92) for Instagram.",
-  "status": "rendered_and_hosted",
-  "theme_note": "All 32 prior themes used; walnut-aqua added as the 33rd (ThemeKey, THEMES, THEME_ORDER)."
+  "status": "published",
+  "theme_note": "All 32 prior themes used; walnut-aqua added as the 33rd (ThemeKey, THEMES, THEME_ORDER).",
+  "hosting_verified": {
+    "checkedAt": "2026-10-01",
+    "sampleUrls": [
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-01/blankdiscussions/renders/quran-2-153-slide-01.jpg"
+    ],
+    "httpStatus": 200,
+    "note": "Visually spot-checked Arabic (slide-02), Chinese (04), Korean (05), Japanese (06): no tofu or missing glyphs."
+  },
+  "published": {
+    "mediaId": "18161716114497335",
+    "permalink": "https://www.instagram.com/p/Dd8jpD3m2CA/",
+    "publishedAt": "2026-10-01T09:11:07+0000",
+    "hostingUrls": [
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-01/blankdiscussions/renders/quran-2-153-slide-01.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-01/blankdiscussions/renders/quran-2-153-slide-02.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-01/blankdiscussions/renders/quran-2-153-slide-03.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-01/blankdiscussions/renders/quran-2-153-slide-04.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-01/blankdiscussions/renders/quran-2-153-slide-05.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-01/blankdiscussions/renders/quran-2-153-slide-06.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-01/blankdiscussions/renders/quran-2-153-slide-07.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-01/blankdiscussions/renders/quran-2-153-slide-08.jpg"
+    ],
+    "publishedVia": "Composio MCP: 8 child containers via INSTAGRAM_POST_IG_USER_MEDIA (is_carousel_item=true), carousel parent from child ids in slide order, INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH. Account alias 'BlankDiscussions', ig_user_id 28477523595198052. Confirmed live via INSTAGRAM_GET_IG_MEDIA: CAROUSEL_ALBUM, caption matches. Only post today: single post chosen to keep verification thorough."
+  }
 }
