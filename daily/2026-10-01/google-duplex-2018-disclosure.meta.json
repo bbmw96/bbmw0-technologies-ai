@@ -1,0 +1,25 @@
+{
+  "slug": "google-duplex-2018-disclosure",
+  "date": "2026-10-01",
+  "title": "Sundar Pichai played two phone calls on stage.",
+  "description": "Sundar Pichai played two phone calls on stage. An AI voice booking a hair salon appointment and a restaurant table, saying 'um' and 'mmm-hmm' to sound human. Neither call told the person answering that they were talking to a bot.\n\nGoogle never actually confirmed that. It refused to name the businesses or say whether the audio had been edited; independent observers noted no background noise and no business greeting.\n\nCritics called the non-disclosure deceptive. Without knowing they were speaking to software, the people who answered those calls couldn't meaningfully consent to it.\n\nIt rebuilt Duplex to identify itself. Within days, Google committed to disclosure. By the next public demo, every call opened: 'Hi, I'm the Google Assistant... this automated call will be recorded.'\n\nThe AI got politer. The demo never got confirmed.\n\nSources:\n- https://research.google/blog/google-duplex-an-ai-system-for-accomplishing-real-world-tasks-over-the-phone/ - Google's own 8 May 2018 announcement, including the hair-salon and restaurant audio samples and its initial, vague commitment to 'experiment with the right approach' on disclosure.\n- https://techcrunch.com/2018/05/18/what-we-know-about-googles-duplex-demo-so-far - established that Google declined to name the demo businesses or confirm whether the audio was edited, leaving the live-vs-edited question unresolved.\n- https://techcrunch.com/2018/06/27/a-closer-look-at-google-duplex/ - established the ethical backlash over non-disclosure and the exact disclosure line Duplex used once Google rebuilt it to identify itself: 'Hi, I'm the Google Assistant... this automated call will be recorded.'\n- https://9to5google.com/2018/05/10/google-duplex-announce-itself-phone-calls/ - established that Google publicly committed to building disclosure into Duplex within days of the I/O backlash, first reported 10 May 2018.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-10-01-google-duplex-2018-disclosure.mp4",
+  "propsFile": "daily/2026-10-01/google-duplex-2018-disclosure.props.json",
+  "durationInFrames": 1004,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}

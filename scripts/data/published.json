@@ -266,7 +266,10 @@
     "reel:shannon-theseus-mouse-1950",
     "reel:dagen-h-sweden-1967",
     "reel:mars-climate-orbiter-pound-seconds-1999",
-    "reel:paperless-office-1975-myth"
+    "reel:paperless-office-1975-myth",
+    "reel:google-cat-network-face-detector-2012",
+    "reel:google-duplex-2018-disclosure",
+    "reel:pokemon-mew-300-bytes"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -4667,6 +4670,45 @@
       "youtubeUrl": "https://youtu.be/-NBf9niekko",
       "uploadedAt": "2026-10-01T15:54:47.363Z",
       "privacy": "public"
+    },
+    {
+      "id": "google-cat-network-face-detector-2012",
+      "date": "2026-10-01",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "A neural network taught itself what a cat looks like.",
+      "description": "A neural network taught itself what a cat looks like. It was trained on 10 million images from the internet, with no labels to tell it what was in them.\n\nA billion connections. It ran on 1,000 machines with 16,000 cores for three days.\n\nThe paper led with faces, not cats. The network learned a face detector without labelled images. Cat faces and human bodies came next.\n\nThe relative improvement the same paper reported over the previous best result on ImageNet object recognition.\n\nThe internet's favourite animal became the headline for a leap in deep learning.\n\nSources:\n- https://arxiv.org/abs/1112.6209 - Le, Ranzato, Monga, Devin, Chen, Corrado, Dean and Ng, 'Building high-level features using large scale unsupervised learning', submitted 29 Dec 2011; established 1 billion connections, a cluster of 1,000 machines (16,000 cores) for three days, 10 million 200 by 200 pixel images from the internet, a face detector learned without labelled images, sensitivity to cat faces and human bodies, and a 70% relative improvement over the previous best ImageNet result.\n- https://en.wikipedia.org/wiki/Google_Brain - Google Brain article; established the 16,000 processors in 1,000 computers description and that the work was widely reported as the cat experiment in June 2012.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "google-duplex-2018-disclosure",
+      "date": "2026-10-01",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Sundar Pichai played two phone calls on stage.",
+      "description": "Sundar Pichai played two phone calls on stage. An AI voice booking a hair salon appointment and a restaurant table, saying 'um' and 'mmm-hmm' to sound human. Neither call told the person answering that they were talking to a bot.\n\nGoogle never actually confirmed that. It refused to name the businesses or say whether the audio had been edited; independent observers noted no background noise and no business greeting.\n\nCritics called the non-disclosure deceptive. Without knowing they were speaking to software, the people who answered those calls couldn't meaningfully consent to it.\n\nIt rebuilt Duplex to identify itself. Within days, Google committed to disclosure. By the next public demo, every call opened: 'Hi, I'm the Google Assistant... this automated call will be recorded.'\n\nThe AI got politer. The demo never got confirmed.\n\nSources:\n- https://research.google/blog/google-duplex-an-ai-system-for-accomplishing-real-world-tasks-over-the-phone/ - Google's own 8 May 2018 announcement, including the hair-salon and restaurant audio samples and its initial, vague commitment to 'experiment with the right approach' on disclosure.\n- https://techcrunch.com/2018/05/18/what-we-know-about-googles-duplex-demo-so-far - established that Google declined to name the demo businesses or confirm whether the audio was edited, leaving the live-vs-edited question unresolved.\n- https://techcrunch.com/2018/06/27/a-closer-look-at-google-duplex/ - established the ethical backlash over non-disclosure and the exact disclosure line Duplex used once Google rebuilt it to identify itself: 'Hi, I'm the Google Assistant... this automated call will be recorded.'\n- https://9to5google.com/2018/05/10/google-duplex-announce-itself-phone-calls/ - established that Google publicly committed to building disclosure into Duplex within days of the I/O backlash, first reported 10 May 2018.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "pokemon-mew-300-bytes",
+      "date": "2026-10-01",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Mew went in right at the very end.",
+      "description": "All the free space left on the Pokémon Red and Green cartridge once the debug features were removed.\n\nMew went in right at the very end. Programmer Shigeki Morimoto said the cartridge was really full and there wasn't room for much more on there.\n\nIt was left in for possible use after launch. Morimoto said it was kept in case it suited some post-launch activity.\n\nMew turned up in some players' games. Morimoto: 'It looked like we planned all of this, but that wasn't the case.' Staff had been told not to tamper with a single bit after debugging ended.\n\nOver 78,000 people entered to win Mew. CoroCoro Comic's April 1996 Legendary Pokémon Offer had just 20 winners.\n\nGame Freak programmer who added Mew after the debug features were removed.\n\nSources:\n- https://iwataasks.nintendo.com/interviews/ds/pokemon/0/0/ - Nintendo's own interview; Morimoto says Mew went in 'right at the very end' because the cartridge was really full, that removing debug features left 'a miniscule 300 bytes', that it was left in for possible post-launch use, and that a bug leaked it into some players' games.\n- https://www.gamespot.com/articles/how-mew-saved-pokemon/1100-6490812/ - corroborated the 300 bytes and the programmer Shigeki Morimoto, and gave the April 1996 CoroCoro Legendary Pokemon Offer with 20 winners and over 78,000 entries.\n- https://en.wikipedia.org/wiki/Mew_(Pok%C3%A9mon) - corroborated that Mew was added after debug features were removed, that the sprite was small and uncoloured for lack of space, and the CoroCoro offer figures.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }

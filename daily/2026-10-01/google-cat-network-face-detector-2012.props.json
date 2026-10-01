@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (google-cat-network-face-detector-2012)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#101418",
+    "ink": "#FFFFFF",
+    "accent": "#F4B400",
+    "muted": "#8A8A8A"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Google, 2012",
+      "text": "A neural network taught itself what a cat looks like.",
+      "note": "It was trained on 10 million images from the internet, with no labels to tell it what was in them.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "Its size",
+      "text": "A billion connections.",
+      "note": "It ran on 1,000 machines with 16,000 cores for three days.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "statement",
+      "lead": "The twist",
+      "text": "The paper led with faces, not cats.",
+      "note": "The network learned a face detector without labelled images. Cat faces and human bodies came next.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "figure",
+      "value": "70",
+      "unit": "percent",
+      "context": "The relative improvement the same paper reported over the previous best result on ImageNet object recognition.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "kicker",
+      "text": "The internet's favourite animal became the headline for a leap in deep learning.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "sign",
+      "line": "Nobody told it what a cat was.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Follow for more."
+}

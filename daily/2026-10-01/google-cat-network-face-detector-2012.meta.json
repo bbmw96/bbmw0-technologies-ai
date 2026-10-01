@@ -1,0 +1,25 @@
+{
+  "slug": "google-cat-network-face-detector-2012",
+  "date": "2026-10-01",
+  "title": "A neural network taught itself what a cat looks like.",
+  "description": "A neural network taught itself what a cat looks like. It was trained on 10 million images from the internet, with no labels to tell it what was in them.\n\nA billion connections. It ran on 1,000 machines with 16,000 cores for three days.\n\nThe paper led with faces, not cats. The network learned a face detector without labelled images. Cat faces and human bodies came next.\n\nThe relative improvement the same paper reported over the previous best result on ImageNet object recognition.\n\nThe internet's favourite animal became the headline for a leap in deep learning.\n\nSources:\n- https://arxiv.org/abs/1112.6209 - Le, Ranzato, Monga, Devin, Chen, Corrado, Dean and Ng, 'Building high-level features using large scale unsupervised learning', submitted 29 Dec 2011; established 1 billion connections, a cluster of 1,000 machines (16,000 cores) for three days, 10 million 200 by 200 pixel images from the internet, a face detector learned without labelled images, sensitivity to cat faces and human bodies, and a 70% relative improvement over the previous best ImageNet result.\n- https://en.wikipedia.org/wiki/Google_Brain - Google Brain article; established the 16,000 processors in 1,000 computers description and that the work was widely reported as the cat experiment in June 2012.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-10-01-google-cat-network-face-detector-2012.mp4",
+  "propsFile": "daily/2026-10-01/google-cat-network-face-detector-2012.props.json",
+  "durationInFrames": 830,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}

@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-01",
+  "repo": "bbmw96/bbmw0-technologies-ai",
+  "tag": "media-2026-10-01",
+  "base": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-10-01",
+  "urls": {
+    "google-cat-network-face-detector-2012": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-10-01/daily-2026-10-01-google-cat-network-face-detector-2012.mp4",
+    "google-duplex-2018-disclosure": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-10-01/daily-2026-10-01-google-duplex-2018-disclosure.mp4",
+    "pokemon-mew-300-bytes": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-10-01/daily-2026-10-01-pokemon-mew-300-bytes.mp4"
+  }
+}
