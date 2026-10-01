@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (mars-climate-orbiter-pound-seconds-1999)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#1F120D",
+    "ink": "#FFFFFF",
+    "accent": "#E2725B",
+    "muted": "#8A8A8A"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "23 September 1999",
+      "text": "A Mars spacecraft was lost over a unit mix-up.",
+      "note": "Mars Climate Orbiter made its last contact nine months after launch.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "The error",
+      "text": "Thruster data was in pound-seconds, not newton-seconds.",
+      "note": "A ground software file called Small Forces produced English units. The navigation expected metric.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "figure",
+      "value": "57",
+      "unit": "km",
+      "context": "The altitude the corrected figures put the orbiter at above Mars. It needed to stay above 80 km to survive. The plan had been 226 km.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "statement",
+      "lead": "The warning signs",
+      "text": "The numbers drifted for weeks.",
+      "note": "An hour before orbit insertion, estimates had fallen to as low as 110 km. A fifth correction manoeuvre was never carried out.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "kicker",
+      "text": "The mission did not fail in space. It failed in a file format.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "sign",
+      "line": "Always check your units.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

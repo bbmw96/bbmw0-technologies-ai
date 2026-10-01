@@ -1,0 +1,20 @@
+Rendering 3 Shorts for 2026-10-01 (concurrency=3, GL=default)
+Compliance: 2 cleared, 1 blocked (policy v1.0.0).
+Blocked by compliance: dagen-h-sweden-1967
+
+--- dagen-h-sweden-1967 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-01-dagen-h-sweden-1967.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-10-01/compliance-verdict.json.
+
+--- mars-climate-orbiter-pound-seconds-1999 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-01-mars-climate-orbiter-pound-seconds-1999.mp4
+  uploaded public: https://youtu.be/neTWwgTD26E
+
+--- paperless-office-1975-myth ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-01-paperless-office-1975-myth.mp4
+  uploaded public: https://youtu.be/-NBf9niekko
+
+=== Done. 3 rendered, 2 uploaded, 0 skipped, 1 blocked by compliance, 0 failed. ===

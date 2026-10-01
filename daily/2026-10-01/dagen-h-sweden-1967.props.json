@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (dagen-h-sweden-1967)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B1F3A",
+    "ink": "#F5F5F0",
+    "accent": "#FFD400",
+    "muted": "#7C8CA6"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "In 1955, Sweden asked the public",
+      "text": "82.9% voted no.",
+      "note": "A national referendum on switching from left-hand to right-hand traffic failed by a landslide; only 15.5% voted in favour.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "statement",
+      "lead": "Parliament did it anyway",
+      "text": "Twelve years later, they switched.",
+      "note": "The Riksdag approved the change in 1963 under pressure from the Council of Europe and the Nordic Council; overriding the 1955 vote.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "credit",
+      "year": "1967",
+      "name": "Dagen H",
+      "role": "3 September, 5:00 a.m. A loudspeaker announcement; 'Nu är det dags att byta!' ('Now is the time to change!'); and the whole country moved to the right side of the road at once.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The scale of it",
+      "text": "Around 350,000 road signs changed overnight.",
+      "note": "Most were swapped in the 24 hours before the switch. The whole operation cost 628 million kronor.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "kicker",
+      "text": "The crash rate didn't spike. It fell.",
+      "durationInFrames": 64
+    },
+    {
+      "kind": "sign",
+      "line": "Norway and Finland already drove on the right. Sweden was the odd one out.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 130
+    }
+  ],
+  "cta": "Subscribe for more."
+}

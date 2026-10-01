@@ -1,0 +1,172 @@
+{
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T15:51:03.355Z",
+  "policyVersion": "1.0.0",
+  "strictMode": false,
+  "allowed": [
+    "mars-climate-orbiter-pound-seconds-1999",
+    "paperless-office-1975-myth"
+  ],
+  "blocked": [
+    "dagen-h-sweden-1967"
+  ],
+  "results": [
+    {
+      "slug": "dagen-h-sweden-1967",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "82.9% voted no.",
+      "niche": "history",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "safety.hard_banned",
+          "message": "Prohibited term \"parliament\" appears in the video text or metadata.",
+          "detail": {
+            "term": "parliament"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "halal.context_review",
+          "message": "Term(s) needing context: song. Referred to the AI reviewer.",
+          "detail": {
+            "terms": [
+              "song"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.044,
+        "worstTitleAgainst": "pareto-principle-juran",
+        "worstDescriptionSimilarity": 0.235,
+        "combo": "reel:#0B1F3A:#FFD400:#F5F5F0",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "mars-climate-orbiter-pound-seconds-1999",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "A Mars spacecraft was lost over a unit mix-up.",
+      "niche": "science",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.083,
+        "worstTitleAgainst": "gpu-tricked-into-math",
+        "worstDescriptionSimilarity": 0.244,
+        "combo": "reel:#1F120D:#E2725B:#FFFFFF",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "paperless-office-1975-myth",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "The magazine predicted electronic record-handling by 1990.",
+      "niche": "productivity",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.077,
+        "worstTitleAgainst": "spacewar-1972-olympics",
+        "worstDescriptionSimilarity": 0.247,
+        "combo": "reel:#161512:#E8B04B:#F5F0E6",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    }
+  ]
+}

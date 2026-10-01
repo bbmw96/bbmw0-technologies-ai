@@ -263,7 +263,10 @@
     "reel:snapchat-rejected-facebook-3-billion",
     "reel:gmail-april-fools-2004",
     "reel:android-camera-os-pivot",
-    "reel:shannon-theseus-mouse-1950"
+    "reel:shannon-theseus-mouse-1950",
+    "reel:dagen-h-sweden-1967",
+    "reel:mars-climate-orbiter-pound-seconds-1999",
+    "reel:paperless-office-1975-myth"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -4617,6 +4620,53 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "dagen-h-sweden-1967",
+      "date": "2026-10-01",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "82.9% voted no.",
+      "description": "82.9% voted no. A national referendum on switching from left-hand to right-hand traffic failed by a landslide; only 15.5% voted in favour.\n\nTwelve years later, they switched. The Riksdag approved the change in 1963 under pressure from the Council of Europe and the Nordic Council; overriding the 1955 vote.\n\n3 September, 5:00 a.m. A loudspeaker announcement; 'Nu är det dags att byta!' ('Now is the time to change!'); and the whole country moved to the right side of the road at once.\n\nAround 350,000 road signs changed overnight. Most were swapped in the 24 hours before the switch. The whole operation cost 628 million kronor.\n\nThe crash rate didn't spike. It fell.\n\nSources:\n- https://en.wikipedia.org/wiki/Dagen_H - established the exact switch time and date (3 September 1967, 05:00, with a 01:00-06:00 non-essential traffic ban), the sign count (around 350,000, including 20,000 in Stockholm), the Högertrafikkommissionen (HTK), the song contest detail, and border/vehicle statistics.\n- https://en.wikipedia.org/wiki/1955_Swedish_driving_side_referendum - established the exact 1955 referendum date (16 October 1955) and vote breakdown: 15.50% in favour, 82.89% against, 53.18% turnout; and that the Riksdag approved the switch anyway in 1963.\n- https://www.amusingplanet.com/2019/04/dagen-h-day-sweden-switched-traffic.html - established the changeover cost (628 million kronor), the sign count (~360,000), and the 4:50 a.m. loudspeaker announcement detail.\n- https://historyfacts.com/world-history/fact/sweden-switched-driving-left-to-right/ - independently corroborated the 5:00 a.m. switch time, the sign count, and that accident and injury numbers on the day and the following Monday were flat-to-down versus the national average, not spiked.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "mars-climate-orbiter-pound-seconds-1999",
+      "date": "2026-10-01",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "A Mars spacecraft was lost over a unit mix-up.",
+      "description": "A Mars spacecraft was lost over a unit mix-up. Mars Climate Orbiter made its last contact nine months after launch.\n\nThruster data was in pound-seconds, not newton-seconds. A ground software file called Small Forces produced English units. The navigation expected metric.\n\nThe altitude the corrected figures put the orbiter at above Mars. It needed to stay above 80 km to survive. The plan had been 226 km.\n\nThe numbers drifted for weeks. An hour before orbit insertion, estimates had fallen to as low as 110 km. A fifth correction manoeuvre was never carried out.\n\nThe mission did not fail in space. It failed in a file format.\n\nSources:\n- https://llis.nasa.gov/llis_lib/pdf/1009464main1_0641-mr.pdf - NASA Mars Climate Orbiter Mishap Investigation Board Phase I report; established the root cause as a ground software file called Small Forces producing thruster data in pound-seconds instead of newton-seconds, and the altitude estimates (226 km expected, as low as 110 km an hour before orbit insertion, 80 km survivable minimum, 57 km after correction) plus that a contingency fifth correction manoeuvre was never executed.\n- https://science.nasa.gov/mission/mars-climate-orbiter/ - NASA mission page; established that last contact was on 23 September 1999, nine months after launch, and that ground software used English units while onboard software used metric.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "neTWwgTD26E",
+      "youtubeUrl": "https://youtu.be/neTWwgTD26E",
+      "uploadedAt": "2026-10-01T15:53:31.358Z",
+      "privacy": "public"
+    },
+    {
+      "id": "paperless-office-1975-myth",
+      "date": "2026-10-01",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The magazine predicted electronic record-handling by 1990.",
+      "description": "Xerox PARC. Told Business Week he didn't know how much paper he'd still want; not the 'paperless by 1990' claim usually attributed to him.\n\nThe magazine predicted electronic record-handling by 1990. A separate claim from Pake's own hedge about a desk terminal by 1995; the two get merged in almost every retelling.\n\nUS business paper use nearly doubled in three years. 850 billion pages in 1981 to 1.4 trillion by 1984, as photocopiers and early computers multiplied documents instead of replacing them.\n\nOffice paper use rose again once email arrived. US office paper consumption grew more than 14% between 1995 and 2000.\n\nPaper use only started falling once everyone had a phone.\n\nSources:\n- https://www.csmonitor.com/2005/1212/p13s01-wmgn.html - established the exact 1975 Business Week article ('The Office of the Future', 30 June 1975), its 'most record-handling will be electronic' claim pegged to 1990, and the verbatim George Pake quote and his own, separate 1995 estimate.\n- https://expexinc.com/in-1975-business-week-prophesized-that-the-office-of-the-future-would-be-a-paperless-one/ - independently corroborated the same Pake quote and its attribution to Xerox PARC's June 1975 Business Week feature.\n- https://cool.culturalheritage.org/byorg/abbey/ap/ap02/ap02-3/ap02-309.html - established that US business paper use rose from 850 billion to 1.4 trillion pages between 1981 and 1984, citing historian Edward Tenner.\n- https://www.sdcexec.com/sourcing-procurement/manufacturing/article/10290027/paper-still-the-net-best-thing - established, via Sellen & Harper's 'The Myth of the Paperless Office' (2001), that US office paper consumption rose more than 14% between 1995 and 2000.\n- https://www.afandpa.org/news/2024/afpa-details-us-paper-production-and-capacity-trends - established that US printing-writing paper capacity peaked around 2000 and had fallen to about 12% of total capacity, under 10 million tons, by 2023.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "-NBf9niekko",
+      "youtubeUrl": "https://youtu.be/-NBf9niekko",
+      "uploadedAt": "2026-10-01T15:54:47.363Z",
+      "privacy": "public"
     }
   ]
 }

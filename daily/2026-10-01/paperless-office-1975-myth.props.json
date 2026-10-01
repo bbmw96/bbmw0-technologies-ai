@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (paperless-office-1975-myth)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#161512",
+    "ink": "#F5F0E6",
+    "accent": "#E8B04B",
+    "muted": "#8C8578"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "credit",
+      "year": "1975",
+      "name": "George Pake",
+      "role": "Xerox PARC. Told Business Week he didn't know how much paper he'd still want; not the 'paperless by 1990' claim usually attributed to him.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "What that prediction actually said",
+      "text": "The magazine predicted electronic record-handling by 1990.",
+      "note": "A separate claim from Pake's own hedge about a desk terminal by 1995; the two get merged in almost every retelling.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "What happened instead",
+      "text": "US business paper use nearly doubled in three years.",
+      "note": "850 billion pages in 1981 to 1.4 trillion by 1984, as photocopiers and early computers multiplied documents instead of replacing them.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "It kept rising",
+      "text": "Office paper use rose again once email arrived.",
+      "note": "US office paper consumption grew more than 14% between 1995 and 2000.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "kicker",
+      "text": "Paper use only started falling once everyone had a phone.",
+      "durationInFrames": 82
+    },
+    {
+      "kind": "sign",
+      "line": "Printing-writing paper capacity peaked around 2000; a quarter-century late.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}

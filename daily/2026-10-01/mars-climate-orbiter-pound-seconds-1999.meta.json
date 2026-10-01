@@ -1,0 +1,25 @@
+{
+  "slug": "mars-climate-orbiter-pound-seconds-1999",
+  "date": "2026-10-01",
+  "title": "A Mars spacecraft was lost over a unit mix-up.",
+  "description": "A Mars spacecraft was lost over a unit mix-up. Mars Climate Orbiter made its last contact nine months after launch.\n\nThruster data was in pound-seconds, not newton-seconds. A ground software file called Small Forces produced English units. The navigation expected metric.\n\nThe altitude the corrected figures put the orbiter at above Mars. It needed to stay above 80 km to survive. The plan had been 226 km.\n\nThe numbers drifted for weeks. An hour before orbit insertion, estimates had fallen to as low as 110 km. A fifth correction manoeuvre was never carried out.\n\nThe mission did not fail in space. It failed in a file format.\n\nSources:\n- https://llis.nasa.gov/llis_lib/pdf/1009464main1_0641-mr.pdf - NASA Mars Climate Orbiter Mishap Investigation Board Phase I report; established the root cause as a ground software file called Small Forces producing thruster data in pound-seconds instead of newton-seconds, and the altitude estimates (226 km expected, as low as 110 km an hour before orbit insertion, 80 km survivable minimum, 57 km after correction) plus that a contingency fifth correction manoeuvre was never executed.\n- https://science.nasa.gov/mission/mars-climate-orbiter/ - NASA mission page; established that last contact was on 23 September 1999, nine months after launch, and that ground software used English units while onboard software used metric.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "science",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-10-01-mars-climate-orbiter-pound-seconds-1999.mp4",
+  "propsFile": "daily/2026-10-01/mars-climate-orbiter-pound-seconds-1999.props.json",
+  "durationInFrames": 908,
+  "audioUrl": "",
+  "niche": "science",
+  "composition": "Reel"
+}
