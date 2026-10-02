@@ -1,0 +1,25 @@
+{
+  "slug": "mars-blue-sunset",
+  "date": "2026-10-02",
+  "title": "Mars' most famous sunset picture. It isn't really a photograph.",
+  "description": "It isn't really a photograph. NASA's iconic 1997 Pathfinder image is a composite; a genuine sky exposure stitched to a separately, artistically adjusted foreground.\n\n19 May, Gusev Crater. A real sunset, caught by its Pancam; with a blue glow around the sun.\n\n15 April, Gale Crater. Captured Mars' first sunset recorded in colour, over six minutes fifty-one seconds.\n\nThe same dust that turns Martian days red does this. Fine dust in the atmosphere scatters blue light forward, concentrating it near the sun at sunset; the opposite of how Earth's air scatters light.\n\nRed planet. Blue sunsets.\n\nSources:\n- https://science.nasa.gov/resource/sunset-on-mars-from-pathfinder-images/ - established that NASA's famous 1997 Pathfinder 'Mars sunset' image is a composite: a genuine, radiometrically correct sky exposure stitched to a separately, artistically adjusted foreground.\n- https://science.nasa.gov/resource/sunset-at-mars-gusev-crater-spirit/ - established Spirit rover's genuine sunset photograph, 19 May 2005 (sol 489), Gusev Crater, showing a real bluish glow around the sun, with a noted caveat that the far-sky redness in that image was exaggerated by the camera's filter choice.\n- https://www.jpl.nasa.gov/news/nasas-curiosity-rover-views-serene-sundown-on-mars/ - established Curiosity's 15 April 2015 (sol 956) Mastcam sunset sequence at Gale Crater, the first sunset Curiosity recorded in colour, and planetary scientist Mark Lemmon's explanation that fine dust particles scatter blue light more efficiently near the sun.\n- https://science.nasa.gov/earth/earth-observatory/crepuscular-rays-and-light-scattering-150090/ - established the contrasting mechanism on Earth: Rayleigh scattering by small gas molecules scatters blue light away from the sun's direct path at sunset, leaving the sky red; the opposite of what Martian dust does.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "science",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-10-02-mars-blue-sunset.mp4",
+  "propsFile": "daily/2026-10-02/mars-blue-sunset.props.json",
+  "durationInFrames": 856,
+  "audioUrl": "",
+  "niche": "science",
+  "composition": "Reel"
+}

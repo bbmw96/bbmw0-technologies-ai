@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-10-02 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- lenna-playboy-test-image ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-02-lenna-playboy-test-image.mp4
+  uploaded public: https://youtu.be/HyTrElBgIhM
+
+--- linux-just-a-hobby-freax-name ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-02-linux-just-a-hobby-freax-name.mp4
+  uploaded public: https://youtu.be/qq8Z3brKIhI
+
+--- mars-blue-sunset ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-02-mars-blue-sunset.mp4
+  uploaded public: https://youtu.be/n006cTmwzxs
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

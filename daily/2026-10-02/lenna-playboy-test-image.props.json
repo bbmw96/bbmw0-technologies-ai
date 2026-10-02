@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (lenna-playboy-test-image)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#14141C",
+    "ink": "#FFFFFF",
+    "accent": "#C084FC",
+    "muted": "#8A8A8A"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Image processing",
+      "text": "Its most famous test picture came from a magazine.",
+      "note": "The Lenna image was cropped from the November 1972 issue of Playboy.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "Why",
+      "text": "A lab had run out of test images.",
+      "note": "Researchers at the University of Southern California wanted a human face, rich textures and a glossy finish.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "figure",
+      "value": "512",
+      "unit": "pixels",
+      "context": "The width and height of the scan. It was made from the top 5.12 inches of the page, which was all the scanner could fit.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "The spelling",
+      "text": "Lenna, with two Ns.",
+      "note": "The model, Lena Forsen, asked for it so the name would be pronounced correctly.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "statement",
+      "lead": "Today",
+      "text": "Nature journals and IEEE have since turned it away.",
+      "note": "Decades of compression and vision papers used the same crop.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "kicker",
+      "text": "A scanner's width fixed the size of an entire field's test image.",
+      "durationInFrames": 94
+    },
+    {
+      "kind": "sign",
+      "line": "Tech history is full of accidents.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

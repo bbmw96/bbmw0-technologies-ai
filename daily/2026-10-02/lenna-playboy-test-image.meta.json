@@ -1,0 +1,25 @@
+{
+  "slug": "lenna-playboy-test-image",
+  "date": "2026-10-02",
+  "title": "Image processing. Its most famous test picture came from a magazine.",
+  "description": "Its most famous test picture came from a magazine. The Lenna image was cropped from the November 1972 issue of Playboy.\n\nA lab had run out of test images. Researchers at the University of Southern California wanted a human face, rich textures and a glossy finish.\n\nThe width and height of the scan. It was made from the top 5.12 inches of the page, which was all the scanner could fit.\n\nLenna, with two Ns. The model, Lena Forsen, asked for it so the name would be pronounced correctly.\n\nNature journals and IEEE have since turned it away. Decades of compression and vision papers used the same crop.\n\nA scanner's width fixed the size of an entire field's test image.\n\nSources:\n- https://theconversation.com/the-playboy-centrefold-at-the-centre-of-computer-science-41457 - The Conversation; established that the image was digitised at the University of Southern California Signal and Image Processing Institute, that the researchers had exhausted their usual test images, that the source was the November 1972 issue of Playboy, and that the result was 512 by 512 pixels from a 5.12 inch strip.\n- https://gizmodo.com/lena-test-image-playboy-how-sex-changed-internet-1849798731 - Gizmodo; established that the team wanted a human face, interesting textures and a glossy finish, that the top 5.12 inches of the page fitted the Muirhead wirephoto scanner to make a 512 by 512 pixel image, that Optical Engineering put it on a July 1991 cover with Playboy permission for educational and research use, and that the family of around 150 Nature journals and others now refuse it.\n- https://en.wikipedia.org/wiki/Lenna - Wikipedia; established the spelling Lenna at the request of Lena Forsen and IEEE's announcement that it would stop allowing the image from 1 April 2024.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-10-02-lenna-playboy-test-image.mp4",
+  "propsFile": "daily/2026-10-02/lenna-playboy-test-image.props.json",
+  "durationInFrames": 996,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

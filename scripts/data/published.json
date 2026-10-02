@@ -269,7 +269,10 @@
     "reel:paperless-office-1975-myth",
     "reel:google-cat-network-face-detector-2012",
     "reel:google-duplex-2018-disclosure",
-    "reel:pokemon-mew-300-bytes"
+    "reel:pokemon-mew-300-bytes",
+    "reel:lenna-playboy-test-image",
+    "reel:linux-just-a-hobby-freax-name",
+    "reel:mars-blue-sunset"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -4709,6 +4712,57 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "lenna-playboy-test-image",
+      "date": "2026-10-02",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Image processing. Its most famous test picture came from a magazine.",
+      "description": "Its most famous test picture came from a magazine. The Lenna image was cropped from the November 1972 issue of Playboy.\n\nA lab had run out of test images. Researchers at the University of Southern California wanted a human face, rich textures and a glossy finish.\n\nThe width and height of the scan. It was made from the top 5.12 inches of the page, which was all the scanner could fit.\n\nLenna, with two Ns. The model, Lena Forsen, asked for it so the name would be pronounced correctly.\n\nNature journals and IEEE have since turned it away. Decades of compression and vision papers used the same crop.\n\nA scanner's width fixed the size of an entire field's test image.\n\nSources:\n- https://theconversation.com/the-playboy-centrefold-at-the-centre-of-computer-science-41457 - The Conversation; established that the image was digitised at the University of Southern California Signal and Image Processing Institute, that the researchers had exhausted their usual test images, that the source was the November 1972 issue of Playboy, and that the result was 512 by 512 pixels from a 5.12 inch strip.\n- https://gizmodo.com/lena-test-image-playboy-how-sex-changed-internet-1849798731 - Gizmodo; established that the team wanted a human face, interesting textures and a glossy finish, that the top 5.12 inches of the page fitted the Muirhead wirephoto scanner to make a 512 by 512 pixel image, that Optical Engineering put it on a July 1991 cover with Playboy permission for educational and research use, and that the family of around 150 Nature journals and others now refuse it.\n- https://en.wikipedia.org/wiki/Lenna - Wikipedia; established the spelling Lenna at the request of Lena Forsen and IEEE's announcement that it would stop allowing the image from 1 April 2024.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "HyTrElBgIhM",
+      "youtubeUrl": "https://youtu.be/HyTrElBgIhM",
+      "uploadedAt": "2026-10-02T11:57:40.210Z",
+      "privacy": "public"
+    },
+    {
+      "id": "linux-just-a-hobby-freax-name",
+      "date": "2026-10-02",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Tech. Linux was announced as a hobby that would not be big.",
+      "description": "Linux was announced as a hobby that would not be big. Torvalds wrote on 25 August 1991: just a hobby, won't be big and professional like gnu.\n\nHe wanted to call it Freax. A mix of free, freak and x, as an allusion to Unix.\n\nVolunteer admin of the Helsinki University of Technology FTP server. He renamed the directory Linux.\n\nVersion 0.01 went online on 17 September 1991. It was uploaded to ftp.funet.fi, in the directory Lemmke had named.\n\nThe name of the world's biggest open source project came from a server admin.\n\nSources:\n- https://en.wikipedia.org/wiki/History_of_Linux - Wikipedia; established Torvalds' 25 August 1991 comp.os.minix post (\"just a hobby, won't be big and professional like gnu\"), the working name Freax as a mix of free, freak and x, Ari Lemmke renaming the FTP directory to Linux in September 1991 because he did not think Freax was a good name, and release 0.01 on 17 September 1991.\n- https://en.wikipedia.org/wiki/Linux_kernel - Wikipedia; independently confirmed the 25 August 1991 announcement wording and that version 0.01 was put on ftp.funet.fi on 17 September 1991.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "qq8Z3brKIhI",
+      "youtubeUrl": "https://youtu.be/qq8Z3brKIhI",
+      "uploadedAt": "2026-10-02T11:59:06.553Z",
+      "privacy": "public"
+    },
+    {
+      "id": "mars-blue-sunset",
+      "date": "2026-10-02",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Mars' most famous sunset picture. It isn't really a photograph.",
+      "description": "It isn't really a photograph. NASA's iconic 1997 Pathfinder image is a composite; a genuine sky exposure stitched to a separately, artistically adjusted foreground.\n\n19 May, Gusev Crater. A real sunset, caught by its Pancam; with a blue glow around the sun.\n\n15 April, Gale Crater. Captured Mars' first sunset recorded in colour, over six minutes fifty-one seconds.\n\nThe same dust that turns Martian days red does this. Fine dust in the atmosphere scatters blue light forward, concentrating it near the sun at sunset; the opposite of how Earth's air scatters light.\n\nRed planet. Blue sunsets.\n\nSources:\n- https://science.nasa.gov/resource/sunset-on-mars-from-pathfinder-images/ - established that NASA's famous 1997 Pathfinder 'Mars sunset' image is a composite: a genuine, radiometrically correct sky exposure stitched to a separately, artistically adjusted foreground.\n- https://science.nasa.gov/resource/sunset-at-mars-gusev-crater-spirit/ - established Spirit rover's genuine sunset photograph, 19 May 2005 (sol 489), Gusev Crater, showing a real bluish glow around the sun, with a noted caveat that the far-sky redness in that image was exaggerated by the camera's filter choice.\n- https://www.jpl.nasa.gov/news/nasas-curiosity-rover-views-serene-sundown-on-mars/ - established Curiosity's 15 April 2015 (sol 956) Mastcam sunset sequence at Gale Crater, the first sunset Curiosity recorded in colour, and planetary scientist Mark Lemmon's explanation that fine dust particles scatter blue light more efficiently near the sun.\n- https://science.nasa.gov/earth/earth-observatory/crepuscular-rays-and-light-scattering-150090/ - established the contrasting mechanism on Earth: Rayleigh scattering by small gas molecules scatters blue light away from the sun's direct path at sunset, leaving the sky red; the opposite of what Martian dust does.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "n006cTmwzxs",
+      "youtubeUrl": "https://youtu.be/n006cTmwzxs",
+      "uploadedAt": "2026-10-02T12:00:39.813Z",
+      "privacy": "public"
     }
   ]
 }

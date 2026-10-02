@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (linux-just-a-hobby-freax-name)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#14141C",
+    "ink": "#FFFFFF",
+    "accent": "#F472B6",
+    "muted": "#8A8A8A"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Tech",
+      "text": "Linux was announced as a hobby that would not be big.",
+      "note": "Torvalds wrote on 25 August 1991: just a hobby, won't be big and professional like gnu.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "statement",
+      "lead": "The name",
+      "text": "He wanted to call it Freax.",
+      "note": "A mix of free, freak and x, as an allusion to Unix.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "credit",
+      "year": "1991",
+      "name": "Ari Lemmke",
+      "role": "Volunteer admin of the Helsinki University of Technology FTP server. He renamed the directory Linux.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "statement",
+      "lead": "The release",
+      "text": "Version 0.01 went online on 17 September 1991.",
+      "note": "It was uploaded to ftp.funet.fi, in the directory Lemmke had named.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "kicker",
+      "text": "The name of the world's biggest open source project came from a server admin.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "sign",
+      "line": "Tech history is full of accidents.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

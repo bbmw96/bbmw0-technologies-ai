@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (mars-blue-sunset)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#2B140D",
+    "ink": "#F5EDE6",
+    "accent": "#4F86C6",
+    "muted": "#9C7A6A"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Mars' most famous sunset picture",
+      "text": "It isn't really a photograph.",
+      "note": "NASA's iconic 1997 Pathfinder image is a composite; a genuine sky exposure stitched to a separately, artistically adjusted foreground.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "credit",
+      "year": "2005",
+      "name": "Spirit rover",
+      "role": "19 May, Gusev Crater. A real sunset, caught by its Pancam; with a blue glow around the sun.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "credit",
+      "year": "2015",
+      "name": "Curiosity rover",
+      "role": "15 April, Gale Crater. Captured Mars' first sunset recorded in colour, over six minutes fifty-one seconds.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "statement",
+      "lead": "Why the colour flips",
+      "text": "The same dust that turns Martian days red does this.",
+      "note": "Fine dust in the atmosphere scatters blue light forward, concentrating it near the sun at sunset; the opposite of how Earth's air scatters light.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Red planet. Blue sunsets.",
+      "durationInFrames": 60
+    },
+    {
+      "kind": "sign",
+      "line": "Confirmed by three separate NASA missions, decades apart.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

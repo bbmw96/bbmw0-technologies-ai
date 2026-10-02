@@ -1,0 +1,25 @@
+{
+  "slug": "linux-just-a-hobby-freax-name",
+  "date": "2026-10-02",
+  "title": "Tech. Linux was announced as a hobby that would not be big.",
+  "description": "Linux was announced as a hobby that would not be big. Torvalds wrote on 25 August 1991: just a hobby, won't be big and professional like gnu.\n\nHe wanted to call it Freax. A mix of free, freak and x, as an allusion to Unix.\n\nVolunteer admin of the Helsinki University of Technology FTP server. He renamed the directory Linux.\n\nVersion 0.01 went online on 17 September 1991. It was uploaded to ftp.funet.fi, in the directory Lemmke had named.\n\nThe name of the world's biggest open source project came from a server admin.\n\nSources:\n- https://en.wikipedia.org/wiki/History_of_Linux - Wikipedia; established Torvalds' 25 August 1991 comp.os.minix post (\"just a hobby, won't be big and professional like gnu\"), the working name Freax as a mix of free, freak and x, Ari Lemmke renaming the FTP directory to Linux in September 1991 because he did not think Freax was a good name, and release 0.01 on 17 September 1991.\n- https://en.wikipedia.org/wiki/Linux_kernel - Wikipedia; independently confirmed the 25 August 1991 announcement wording and that version 0.01 was put on ftp.funet.fi on 17 September 1991.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-10-02-linux-just-a-hobby-freax-name.mp4",
+  "propsFile": "daily/2026-10-02/linux-just-a-hobby-freax-name.props.json",
+  "durationInFrames": 812,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}
