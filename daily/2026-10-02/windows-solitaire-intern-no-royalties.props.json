@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (windows-solitaire-intern-no-royalties)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#14141C",
+    "ink": "#FFFFFF",
+    "accent": "#F59E0B",
+    "muted": "#8A8A8A"
+  },
+  "niche": "gaming",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Gaming",
+      "text": "Windows Solitaire was written by an intern, for himself.",
+      "note": "Wes Cherry made it in his own time in summer 1988, for Windows 2.1.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "statement",
+      "lead": "The reason",
+      "text": "He had been playing a Mac version instead of studying.",
+      "note": "Cherry says he wanted a Windows version for himself.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "credit",
+      "year": "1990",
+      "name": "Susan Kare",
+      "role": "Designed the card deck. Solitaire shipped in Windows 3.0, released 22 May 1990.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "statement",
+      "lead": "The pay",
+      "text": "He received no royalties.",
+      "note": "Cherry says he was supplied with an IBM XT to fix bugs and was perfectly fine with that.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "figure",
+      "value": "35",
+      "unit": "million",
+      "context": "Monthly players across 200 markets at the 30th anniversary in 2020, according to Engadget.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "kicker",
+      "text": "A student's side project became one of the most played games ever.",
+      "durationInFrames": 94
+    },
+    {
+      "kind": "sign",
+      "line": "Gaming history hides in the bundled apps.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Follow for more."
+}

@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-02",
+  "repo": "bbmw96/bbmw0-technologies-ai",
+  "tag": "media-2026-10-02",
+  "base": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-10-02",
+  "urls": {
+    "puck-man-to-pac-man": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-10-02/daily-2026-10-02-puck-man-to-pac-man.mp4",
+    "transformer-equal-authors-random-order-2017": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-10-02/daily-2026-10-02-transformer-equal-authors-random-order-2017.mp4",
+    "windows-solitaire-intern-no-royalties": "https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-10-02/daily-2026-10-02-windows-solitaire-intern-no-royalties.mp4"
+  }
+}

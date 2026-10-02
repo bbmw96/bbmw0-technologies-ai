@@ -274,7 +274,10 @@
     "reel:linux-just-a-hobby-freax-name",
     "reel:mars-blue-sunset",
     "reel:excel-gene-names-dates-2016",
-    "reel:wordle-made-for-partner-90-players"
+    "reel:wordle-made-for-partner-90-players",
+    "reel:transformer-equal-authors-random-order-2017",
+    "reel:windows-solitaire-intern-no-royalties",
+    "reel:puck-man-to-pac-man"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -4799,6 +4802,45 @@
       "youtubeUrl": "https://youtu.be/UhYMyCtXsuw",
       "uploadedAt": "2026-10-02T15:14:41.633Z",
       "privacy": "public"
+    },
+    {
+      "id": "transformer-equal-authors-random-order-2017",
+      "date": "2026-10-02",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The paper behind modern AI lists its authors in random order.",
+      "description": "The paper behind modern AI lists its authors in random order. Attention Is All You Need has a footnote that reads: Equal contribution. Listing order is random.\n\nOne author bet that attention alone was enough. The paper credits Jakob Uszkoreit with proposing to replace recurrent networks with self-attention.\n\nProposed scaled dot-product attention and multi-head attention, according to the paper.\n\nThe big model trained for 3.5 days on one machine with eight NVIDIA P100 chips.\n\nIt scored 28.4 BLEU on English to German translation. It scored 41.8 on English to French, and the paper was presented at NIPS 2017.\n\nEight people shared the credit for the architecture behind today's chatbots.\n\nSources:\n- https://arxiv.org/pdf/1706.03762 - The paper itself; established the footnote \"Equal contribution. Listing order is random.\", the contributions statement (Jakob proposed replacing RNNs with self-attention; Noam proposed scaled dot-product and multi-head attention), the big models trained for 300,000 steps (3.5 days) on one machine with 8 NVIDIA P100 GPUs, BLEU scores of 28.4 (English to German) and 41.8 (English to French), and the NIPS 2017 venue.\n- https://arxiv.org/abs/1706.03762 - arXiv listing; established the title, the eight authors, the 12 June 2017 submission date and the 28.4 BLEU claim.\n- https://en.wikipedia.org/wiki/Attention_Is_All_You_Need - Wikipedia; established that the title nods to the Beatles song All You Need Is Love and that the name Transformer was chosen because Jakob Uszkoreit liked the sound of the word.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "windows-solitaire-intern-no-royalties",
+      "date": "2026-10-02",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Windows Solitaire was written by an intern, for himself.",
+      "description": "Windows Solitaire was written by an intern, for himself. Wes Cherry made it in his own time in summer 1988, for Windows 2.1.\n\nHe had been playing a Mac version instead of studying. Cherry says he wanted a Windows version for himself.\n\nDesigned the card deck. Solitaire shipped in Windows 3.0, released 22 May 1990.\n\nHe received no royalties. Cherry says he was supplied with an IBM XT to fix bugs and was perfectly fine with that.\n\nMonthly players across 200 markets at the 30th anniversary in 2020, according to Engadget.\n\nA student's side project became one of the most played games ever.\n\nSources:\n- https://finance.yahoo.com/news/guy-wrote-windows-solitaire-did-231250280.html - Yahoo Finance quoting Wes Cherry; established that he wrote it in his own time as an intern in summer 1988 for Windows 2.1, that he was not paid royalties beyond being supplied an IBM XT to fix bugs, and that he wanted a Windows version of a Mac solitaire game he had played instead of studying.\n- https://en.wikipedia.org/wiki/Microsoft_Solitaire - Wikipedia; established inclusion in Windows 3.0 (released 22 May 1990), Susan Kare designing the card deck, the reported aim of easing users into the graphical interface, and the 2019 World Video Game Hall of Fame entry.\n- https://www.engadget.com/microsoft-solitaire-turns-30-today-bouncy-bouncy-094904319.html - Engadget; established the figure of 35 million players per month across 200 markets and 65 languages at the 30th anniversary.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "puck-man-to-pac-man",
+      "date": "2026-10-02",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The story everyone repeats. Pac-Man was renamed to stop vandals scratching an F onto arcade",
+      "description": "Pac-Man was renamed to stop vandals scratching an F onto arcade cabinets. Repeated by CNN, Wikipedia, and countless retellings; but no Namco executive, document, or interview has ever been found saying this.\n\n22 May, Japan. Namco's original name for the character, from 'paku-paku'; the Japanese sound for a mouth opening and closing.\n\nThe shape came from a missing slice of pizza. \"I was eating a whole pizza while thinking about a game themed on eating,\" he told Game Informer in 2020, \"and I came up with the design after looking at the pie with a slice taken out.\"\n\nOctober. Published the US version under the changed name; Pac-Man; an Americanisation, not a confirmed scandal dodge.\n\ncoin-operated plays between 1980 and 1999, per Guinness World Records; the highest-grossing arcade game ever.\n\nSources:\n- https://en.wikipedia.org/wiki/Pac-Man - established the Japan release date (22 May 1980), the original name 'Puck Man', the paku-paku etymology, and the October 1980 Midway US release under the changed name.\n- https://www.thrillingtalesofoldvideogames.com/blog/pac-man-hockey-pucks-paku-paku - a dedicated investigation confirming the paku-paku etymology via the official Pac-Man Museum and Chris Kohler's 'Power Up', and establishing that the vandalism-rename story is attributed inconsistently across retellings, with no confirmed source on the Japanese side of Namco.\n- https://gameinformer.com/classic/2020/06/19/pac-mans-creator-on-the-legacy-pizza-and-the-future - a direct, on-record quote from creator Toru Iwatani confirming the pizza-slice inspiration for the character's design.\n- https://www.guinnessworldrecords.com/world-records/98519-highest-grossing-arcade-videogame - the official record: approximately 10 billion coin-operated plays and $3.5 billion in cumulative earnings between 1980 and 1999, making Pac-Man the highest-grossing arcade video game of all time.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }

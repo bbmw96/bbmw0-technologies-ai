@@ -1,0 +1,25 @@
+{
+  "slug": "transformer-equal-authors-random-order-2017",
+  "date": "2026-10-02",
+  "title": "The paper behind modern AI lists its authors in random order.",
+  "description": "The paper behind modern AI lists its authors in random order. Attention Is All You Need has a footnote that reads: Equal contribution. Listing order is random.\n\nOne author bet that attention alone was enough. The paper credits Jakob Uszkoreit with proposing to replace recurrent networks with self-attention.\n\nProposed scaled dot-product attention and multi-head attention, according to the paper.\n\nThe big model trained for 3.5 days on one machine with eight NVIDIA P100 chips.\n\nIt scored 28.4 BLEU on English to German translation. It scored 41.8 on English to French, and the paper was presented at NIPS 2017.\n\nEight people shared the credit for the architecture behind today's chatbots.\n\nSources:\n- https://arxiv.org/pdf/1706.03762 - The paper itself; established the footnote \"Equal contribution. Listing order is random.\", the contributions statement (Jakob proposed replacing RNNs with self-attention; Noam proposed scaled dot-product and multi-head attention), the big models trained for 300,000 steps (3.5 days) on one machine with 8 NVIDIA P100 GPUs, BLEU scores of 28.4 (English to German) and 41.8 (English to French), and the NIPS 2017 venue.\n- https://arxiv.org/abs/1706.03762 - arXiv listing; established the title, the eight authors, the 12 June 2017 submission date and the 28.4 BLEU claim.\n- https://en.wikipedia.org/wiki/Attention_Is_All_You_Need - Wikipedia; established that the title nods to the Beatles song All You Need Is Love and that the name Transformer was chosen because Jakob Uszkoreit liked the sound of the word.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-10-02-transformer-equal-authors-random-order-2017.mp4",
+  "propsFile": "daily/2026-10-02/transformer-equal-authors-random-order-2017.props.json",
+  "durationInFrames": 942,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}

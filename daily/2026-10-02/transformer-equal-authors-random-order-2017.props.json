@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (transformer-equal-authors-random-order-2017)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#14141C",
+    "ink": "#FFFFFF",
+    "accent": "#38BDF8",
+    "muted": "#8A8A8A"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "AI",
+      "text": "The paper behind modern AI lists its authors in random order.",
+      "note": "Attention Is All You Need has a footnote that reads: Equal contribution. Listing order is random.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "statement",
+      "lead": "The idea",
+      "text": "One author bet that attention alone was enough.",
+      "note": "The paper credits Jakob Uszkoreit with proposing to replace recurrent networks with self-attention.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "credit",
+      "year": "2017",
+      "name": "Noam Shazeer",
+      "role": "Proposed scaled dot-product attention and multi-head attention, according to the paper.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "figure",
+      "value": "8",
+      "unit": "GPUs",
+      "context": "The big model trained for 3.5 days on one machine with eight NVIDIA P100 chips.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "statement",
+      "lead": "The result",
+      "text": "It scored 28.4 BLEU on English to German translation.",
+      "note": "It scored 41.8 on English to French, and the paper was presented at NIPS 2017.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "kicker",
+      "text": "Eight people shared the credit for the architecture behind today's chatbots.",
+      "durationInFrames": 88
+    },
+    {
+      "kind": "sign",
+      "line": "AI history is mostly footnotes.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Follow for more."
+}

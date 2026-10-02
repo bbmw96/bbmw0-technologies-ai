@@ -1,0 +1,127 @@
+Rendering 6 Shorts for 2026-10-02 (concurrency=3, GL=default)
+Compliance: 6 cleared, 0 blocked (policy v1.0.0).
+
+--- lenna-playboy-test-image ---
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
+
+--- linux-just-a-hobby-freax-name ---
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
+
+--- mars-blue-sunset ---
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
+
+--- puck-man-to-pac-man ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-02-puck-man-to-pac-man.mp4
+  hosting media so Instagram can fetch it...
+  ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
+  instagram via: Composio
+  FAILED upload: Command failed: node scripts/instagram-upload-composio.mjs --video-url="https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-10-02/daily-2026-10-02-puck-man-to-pac-man.mp4" --caption="The story everyone repeats. Pac-Man was renamed to stop vandals scratching an F onto arcade" --tags="shorts,gaming,facts,didyouknow,history"
+Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"ASZLw0g9zvEKmVDaiHnwJ5W"}}
+
+  --- child stdout ---
+  |   id=ca_9c4hykP4M5OP  toolkit=github  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=EXPIRED
+  |   id=ca_vjf62kxg26zV  toolkit=anthropic_administrator  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=ACTIVE
+  |   (this script was passed ACCOUNT="instagram_sledge-got" — it must match an id above, not a nickname)
+  |   /tools?toolkit_slug=instagram&limit=200 -> HTTP 200, 16 instagram tool(s) [trusted]
+  | instagram tools visible to this key: 16 found
+  |   INSTAGRAM_CREATE_CAROUSEL_CONTAINER
+  |   INSTAGRAM_CREATE_MEDIA_CONTAINER
+  |   INSTAGRAM_CREATE_POST
+  |   INSTAGRAM_GET_CONVERSATION
+  |   INSTAGRAM_GET_POST_COMMENTS
+  |   INSTAGRAM_GET_POST_INSIGHTS
+  |   INSTAGRAM_GET_POST_STATUS
+  |   INSTAGRAM_GET_USER_INFO
+  |   INSTAGRAM_GET_USER_INSIGHTS
+  |   INSTAGRAM_GET_USER_MEDIA
+  |   INSTAGRAM_LIST_ALL_CONVERSATIONS
+  |   INSTAGRAM_LIST_ALL_MESSAGES
+  |   INSTAGRAM_MARK_SEEN
+  |   INSTAGRAM_REPLY_TO_COMMENT
+  |   INSTAGRAM_SEND_IMAGE
+  |   INSTAGRAM_SEND_TEXT_MESSAGE
+  |   INSTAGRAM_POST_IG_USER_MEDIA present in this key's tool list: NO
+  |   So the 404 is correct: the key can see Instagram tools, but not that one.
+  |   Pick a slug from the list above that publishes media, and use it instead.
+  | --- end diagnostics ---
+  --- child stderr ---
+  | Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"ASZLw0g9zvEKmVDaiHnwJ5W"}}
+
+--- transformer-equal-authors-random-order-2017 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-02-transformer-equal-authors-random-order-2017.mp4
+  hosting media so Instagram can fetch it...
+  ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
+  instagram via: Composio
+  FAILED upload: Command failed: node scripts/instagram-upload-composio.mjs --video-url="https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-10-02/daily-2026-10-02-transformer-equal-authors-random-order-2017.mp4" --caption="The paper behind modern AI lists its authors in random order." --tags="shorts,ai,facts,didyouknow,history"
+Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"AMR3vaycnJERU-zfTSx53wv"}}
+
+  --- child stdout ---
+  |   id=ca_9c4hykP4M5OP  toolkit=github  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=EXPIRED
+  |   id=ca_vjf62kxg26zV  toolkit=anthropic_administrator  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=ACTIVE
+  |   (this script was passed ACCOUNT="instagram_sledge-got" — it must match an id above, not a nickname)
+  |   /tools?toolkit_slug=instagram&limit=200 -> HTTP 200, 16 instagram tool(s) [trusted]
+  | instagram tools visible to this key: 16 found
+  |   INSTAGRAM_CREATE_CAROUSEL_CONTAINER
+  |   INSTAGRAM_CREATE_MEDIA_CONTAINER
+  |   INSTAGRAM_CREATE_POST
+  |   INSTAGRAM_GET_CONVERSATION
+  |   INSTAGRAM_GET_POST_COMMENTS
+  |   INSTAGRAM_GET_POST_INSIGHTS
+  |   INSTAGRAM_GET_POST_STATUS
+  |   INSTAGRAM_GET_USER_INFO
+  |   INSTAGRAM_GET_USER_INSIGHTS
+  |   INSTAGRAM_GET_USER_MEDIA
+  |   INSTAGRAM_LIST_ALL_CONVERSATIONS
+  |   INSTAGRAM_LIST_ALL_MESSAGES
+  |   INSTAGRAM_MARK_SEEN
+  |   INSTAGRAM_REPLY_TO_COMMENT
+  |   INSTAGRAM_SEND_IMAGE
+  |   INSTAGRAM_SEND_TEXT_MESSAGE
+  |   INSTAGRAM_POST_IG_USER_MEDIA present in this key's tool list: NO
+  |   So the 404 is correct: the key can see Instagram tools, but not that one.
+  |   Pick a slug from the list above that publishes media, and use it instead.
+  | --- end diagnostics ---
+  --- child stderr ---
+  | Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"AMR3vaycnJERU-zfTSx53wv"}}
+
+--- windows-solitaire-intern-no-royalties ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-02-windows-solitaire-intern-no-royalties.mp4
+  hosting media so Instagram can fetch it...
+  ig credentials: COMPOSIO_API_KEY=present(23 chars), IG_ACCESS_TOKEN=EMPTY or not set, IG_USER_ID=present(17 chars)
+  instagram via: Composio
+  FAILED upload: Command failed: node scripts/instagram-upload-composio.mjs --video-url="https://github.com/bbmw96/bbmw0-technologies-ai/releases/download/media-2026-10-02/daily-2026-10-02-windows-solitaire-intern-no-royalties.mp4" --caption="Windows Solitaire was written by an intern, for himself." --tags="shorts,gaming,facts,didyouknow,history"
+Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"AF6APKNaaEsLeasHikxekqZ"}}
+
+  --- child stdout ---
+  |   id=ca_9c4hykP4M5OP  toolkit=github  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=EXPIRED
+  |   id=ca_vjf62kxg26zV  toolkit=anthropic_administrator  user=pg-test-11a10687-0e03-4d4f-9749-480e61a935f1  status=ACTIVE
+  |   (this script was passed ACCOUNT="instagram_sledge-got" — it must match an id above, not a nickname)
+  |   /tools?toolkit_slug=instagram&limit=200 -> HTTP 200, 16 instagram tool(s) [trusted]
+  | instagram tools visible to this key: 16 found
+  |   INSTAGRAM_CREATE_CAROUSEL_CONTAINER
+  |   INSTAGRAM_CREATE_MEDIA_CONTAINER
+  |   INSTAGRAM_CREATE_POST
+  |   INSTAGRAM_GET_CONVERSATION
+  |   INSTAGRAM_GET_POST_COMMENTS
+  |   INSTAGRAM_GET_POST_INSIGHTS
+  |   INSTAGRAM_GET_POST_STATUS
+  |   INSTAGRAM_GET_USER_INFO
+  |   INSTAGRAM_GET_USER_INSIGHTS
+  |   INSTAGRAM_GET_USER_MEDIA
+  |   INSTAGRAM_LIST_ALL_CONVERSATIONS
+  |   INSTAGRAM_LIST_ALL_MESSAGES
+  |   INSTAGRAM_MARK_SEEN
+  |   INSTAGRAM_REPLY_TO_COMMENT
+  |   INSTAGRAM_SEND_IMAGE
+  |   INSTAGRAM_SEND_TEXT_MESSAGE
+  |   INSTAGRAM_POST_IG_USER_MEDIA present in this key's tool list: NO
+  |   So the 404 is correct: the key can see Instagram tools, but not that one.
+  |   Pick a slug from the list above that publishes media, and use it instead.
+  | --- end diagnostics ---
+  --- child stderr ---
+  | Upload failed: INSTAGRAM_CREATE_MEDIA_CONTAINER: Failed to create container (status 400). Response: {"error":{"message":"Unsupported post request. Object with ID '26759002047072119' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"IGApiException","code":100,"error_subcode":33,"fbtrace_id":"AF6APKNaaEsLeasHikxekqZ"}}
+
+=== Done. 3 rendered, 0 uploaded, 3 skipped, 0 blocked by compliance, 3 failed. ===

@@ -1,0 +1,56 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (puck-man-to-pac-man)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#120B1E",
+    "ink": "#F5F0FF",
+    "accent": "#FFD400",
+    "muted": "#8A7FA6"
+  },
+  "niche": "gaming",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The story everyone repeats",
+      "text": "Pac-Man was renamed to stop vandals scratching an F onto arcade cabinets.",
+      "note": "Repeated by CNN, Wikipedia, and countless retellings; but no Namco executive, document, or interview has ever been found saying this.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1980",
+      "name": "Puck Man",
+      "role": "22 May, Japan. Namco's original name for the character, from 'paku-paku'; the Japanese sound for a mouth opening and closing.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "Creator Toru Iwatani's own account",
+      "text": "The shape came from a missing slice of pizza.",
+      "note": "\"I was eating a whole pizza while thinking about a game themed on eating,\" he told Game Informer in 2020, \"and I came up with the design after looking at the pie with a slice taken out.\"",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1980",
+      "name": "Midway",
+      "role": "October. Published the US version under the changed name; Pac-Man; an Americanisation, not a confirmed scandal dodge.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "figure",
+      "value": "10",
+      "unit": "billion",
+      "context": "coin-operated plays between 1980 and 1999, per Guinness World Records; the highest-grossing arcade game ever.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "sign",
+      "line": "Nobody at Namco has ever confirmed the vandalism story.",
+      "handle": "@ai_game_odyssey",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Follow for more."
+}
