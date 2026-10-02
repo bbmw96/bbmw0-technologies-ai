@@ -1,0 +1,51 @@
+{
+  "slug": "quran-3-139",
+  "date": "2026-10-02",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "So do not weaken and do not grieve, and you will be superior if you are [true] believers.\n\nSurah Ali 'Imran (3:139). Swipe through for the Arabic, then English, Mandarin, Korean, Japanese, Malay, Thai and Spanish.\n\nSources on the final slide.\n\n#Quran #AliImran #Hope #IslamicReminder #Deen",
+  "tags": [
+    "Quran",
+    "AliImran",
+    "Hope",
+    "IslamicReminder",
+    "Deen"
+  ],
+  "theme": "mulberry-seafoam",
+  "slides": [
+    "quran-3-139.slide-01.json",
+    "quran-3-139.slide-02.json",
+    "quran-3-139.slide-03.json",
+    "quran-3-139.slide-04.json",
+    "quran-3-139.slide-05.json",
+    "quran-3-139.slide-06.json",
+    "quran-3-139.slide-07.json",
+    "quran-3-139.slide-08.json",
+    "quran-3-139.slide-09.json",
+    "quran-3-139.slide-10.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an 3:139, Surah Ali 'Imran, on hope and steadfastness. Not used by any prior post (checked against existing blankdiscussions meta.json files). Standing 8-language/10-slide format.",
+    "arabic": "Edition quran-uthmani, single live call api.alquran.cloud/v1/ayah/3:139/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese,ms.basmeih,th.thai,es.cortes (HTTP 200, fetched 2026-10-02); slide text written programmatically from the raw API fields, no retyping.",
+    "english": "Edition en.sahih (Saheeh International), same call, byte-identical.",
+    "chinese": "Edition zh.jian (Ma Jian), same call, byte-identical.",
+    "korean": "Edition ko.korean, translator 'Unknown' per source so slide says 'translator not specified by source'. Byte-identical; artifact scan (double spaces, space before punctuation, leading/trailing whitespace, control chars) found none, so no corrections were needed.",
+    "japanese": "Edition ja.japanese, translator 'Unknown' per source, byte-identical, same artifact scan clean.",
+    "malay": "Edition ms.basmeih (Abdullah Muhammad Basmeih), byte-identical.",
+    "thai": "Edition th.thai (King Fahad Quran Complex), byte-identical.",
+    "spanish": "Edition es.cortes (Julio Cortes), byte-identical.",
+    "verification_note": "Live fetch performed this session in the same script that wrote the slide files. No wording from memory.",
+    "compliance_check": "Checked against 139 string terms in compliance-policy.json halal section across slide text and caption, word-boundary regex: 0 hits. No em/en dashes, no emoji."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide daily/2026-10-02/blankdiscussions/renders/quran-3-139-slide-NN.jpg --image-format=jpeg --jpeg-quality=92 --props=daily/2026-10-02/blankdiscussions/quran-3-139.slide-NN.json (NN = 01..10)",
+  "status": "rendered_and_hosted",
+  "theme_note": "All 34 prior themes used; mulberry-seafoam (Mulberry & Seafoam) added as the 35th.",
+  "hosting_verified": {
+    "checkedAt": "2026-10-02",
+    "sampleUrls": [],
+    "httpStatus": null,
+    "note": "Visually spot-checked Arabic (02), Chinese (04), Korean (05), Japanese (06), Thai (08): no tofu or missing glyphs."
+  }
+}
