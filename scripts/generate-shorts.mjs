@@ -480,7 +480,26 @@ for (const topic of richChosen) {
 
     const total = props.beats.reduce((s, b) => s + (b.durationInFrames || 0), 0);
     const pub = topic.publish || {};
-    const firstText = props.beats.map((b) => b.text || b.caption).find(Boolean) || topic.id;
+    // Title source. Beat 1's `text` is written as the RESPONSE to its `lead`
+    // ("Bananas are radioactive" -> "Genuinely and measurably radioactive..."),
+    // so text alone arrives on YouTube without its subject: 27 Sep shipped
+    // "It didn't start in C." and "Genuinely and measurably radioactive, not a
+    // trace amount..." as titles, neither naming what the video is about. Lead
+    // first, then text, cut at a word boundary so the 100-char limit never
+    // slices a word in half.
+    const firstBeat = props.beats.find((b) => b.text || b.caption) || {};
+    const clip = (s, n) => {
+      if (s.length <= n) return s;
+      const cut = s.slice(0, n + 1);
+      const sp = cut.lastIndexOf(" ");
+      return (sp > n * 0.6 ? cut.slice(0, sp) : s.slice(0, n)).replace(/[\s,;:.]+$/, "");
+    };
+    const leadText = String(firstBeat.lead || "").trim().replace(/[.:,;\s]+$/, "");
+    const bodyText = String(firstBeat.text || firstBeat.caption || "").trim();
+    const firstText = clip(
+      leadText && bodyText ? `${leadText}. ${bodyText}` : (leadText || bodyText || topic.id),
+      100,
+    );
     const bodyLines = props.beats
       .map((b) => [b.text || b.caption, b.note || b.role || b.context].filter(Boolean).join(" "))
       .filter(Boolean);
