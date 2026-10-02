@@ -494,7 +494,12 @@ for (const topic of richChosen) {
       const sp = cut.lastIndexOf(" ");
       return (sp > n * 0.6 ? cut.slice(0, sp) : s.slice(0, n)).replace(/[\s,;:.]+$/, "");
     };
-    const leadText = String(firstBeat.lead || "").trim().replace(/[.:,;\s]+$/, "");
+    // Some topics use `lead` as a hook ("Bananas are radioactive"), others as a
+    // one or two word eyebrow label ("Tech", "Image processing"). Only a hook
+    // belongs in the title; 2 Oct shipped "Tech. Linux was announced..." when
+    // labels were prepended too. Three words or more reads as a hook.
+    const rawLead = String(firstBeat.lead || "").trim().replace(/[.:,;\s]+$/, "");
+    const leadText = rawLead.split(/\s+/).filter(Boolean).length >= 3 ? rawLead : "";
     const bodyText = String(firstBeat.text || firstBeat.caption || "").trim();
     const firstText = clip(
       leadText && bodyText ? `${leadText}. ${bodyText}` : (leadText || bodyText || topic.id),
