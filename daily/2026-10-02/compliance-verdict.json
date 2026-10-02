@@ -6,7 +6,9 @@
   "allowed": [
     "lenna-playboy-test-image",
     "linux-just-a-hobby-freax-name",
-    "mars-blue-sunset"
+    "mars-blue-sunset",
+    "excel-gene-names-dates-2016",
+    "wordle-made-for-partner-90-players"
   ],
   "blocked": [],
   "results": [
@@ -144,6 +146,100 @@
         "worstTitleAgainst": "lenna-playboy-test-image (same batch)",
         "worstDescriptionSimilarity": 0.248,
         "combo": "reel:#2B140D:#4F86C6:#F5EDE6",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "excel-gene-names-dates-2016",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Excel was quietly corrupting gene names in published science.",
+      "niche": "app",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.103,
+        "worstTitleAgainst": "tay-chatbot-16-hours",
+        "worstDescriptionSimilarity": 0.234,
+        "combo": "reel:#0F1F17:#21A366:#FFFFFF",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "wordle-made-for-partner-90-players",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Wordle was built as a gift for one person.",
+      "niche": "app",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.174,
+        "worstTitleAgainst": "android-camera-os-pivot",
+        "worstDescriptionSimilarity": 0.243,
+        "combo": "reel:#14141C:#84CC16:#FFFFFF",
         "themeGap": null,
         "audioGap": 0
       },

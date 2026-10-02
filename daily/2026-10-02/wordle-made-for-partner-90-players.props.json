@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (wordle-made-for-partner-90-players)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#14141C",
+    "ink": "#FFFFFF",
+    "accent": "#84CC16",
+    "muted": "#8A8A8A"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "App",
+      "text": "Wordle was built as a gift for one person.",
+      "note": "Josh Wardle made it in January 2021 for his partner, Palak Shah.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "statement",
+      "lead": "The word list",
+      "text": "She cut about 12,000 words down to roughly 2,500.",
+      "note": "Shah kept the commonly known ones so the daily puzzle felt fair.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "figure",
+      "value": "90",
+      "unit": "players",
+      "context": "Roughly how many played on 1 November 2021. It passed 300,000 by 2 January 2022.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "statement",
+      "lead": "The grid",
+      "text": "The shareable emoji squares came from friends in New Zealand.",
+      "note": "Wardle added the format, and results spread across Twitter.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "lead": "No adverts",
+      "text": "He never wanted it to be a full-time job.",
+      "note": "The game had no adverts, and Wardle has said making money was not the goal.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "kicker",
+      "text": "The New York Times bought it in January 2022 for a low seven figure sum.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "sign",
+      "line": "Big apps often start as small gifts.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -272,7 +272,9 @@
     "reel:pokemon-mew-300-bytes",
     "reel:lenna-playboy-test-image",
     "reel:linux-just-a-hobby-freax-name",
-    "reel:mars-blue-sunset"
+    "reel:mars-blue-sunset",
+    "reel:excel-gene-names-dates-2016",
+    "reel:wordle-made-for-partner-90-players"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -4762,6 +4764,40 @@
       "youtubeId": "n006cTmwzxs",
       "youtubeUrl": "https://youtu.be/n006cTmwzxs",
       "uploadedAt": "2026-10-02T12:00:39.813Z",
+      "privacy": "public"
+    },
+    {
+      "id": "excel-gene-names-dates-2016",
+      "date": "2026-10-02",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Excel was quietly corrupting gene names in published science.",
+      "description": "Excel was quietly corrupting gene names in published science. A study of papers from 2005 to 2015 found 19.6% of those with Excel gene lists contained errors.\n\nSEPT2 became 2-Sep. MARCH1 became 1-Mar. Excel read the gene symbols as dates.\n\nRenamed in 2020 by the HUGO Gene Nomenclature Committee, according to press reports, so that Excel would stop mistaking them for dates.\n\nMARCH1 is now MARCHF1. SEPT2 is now SEPTIN2. The scientists changed the genes, not the software.\n\nIt was easier to rename human genes than to change a spreadsheet.\n\nSources:\n- https://link.springer.com/article/10.1186/s13059-016-1044-7 - Ziemann, Eren and El-Osta, Genome Biology 2016; established that Excel converted SEPT2 to 2-Sep and MARCH1 to 1-Mar, and that 19.6% of papers with Excel gene lists (704 articles from 3,597 papers, published 2005 to 2015) contained such errors.\n- https://www.theregister.com/2020/08/06/excel_gene_names/ - The Register, 6 Aug 2020; established that the HUGO Gene Nomenclature Committee issued updated naming rules and gave examples including SEPT2 to SEPTIN2 and MARCH1 to MARCHF1.\n- https://theprint.in/science/27-genes-in-your-body-now-have-a-new-name-because-microsoft-excel-confused-them-for-dates/477398/ - ThePrint, 8 Aug 2020; established the figure of 27 renamed genes and the HGNC requirement that gene symbols should not affect data validation in Excel.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "uFQEywfBDiU",
+      "youtubeUrl": "https://youtu.be/uFQEywfBDiU",
+      "uploadedAt": "2026-10-02T15:13:00.845Z",
+      "privacy": "public"
+    },
+    {
+      "id": "wordle-made-for-partner-90-players",
+      "date": "2026-10-02",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Wordle was built as a gift for one person.",
+      "description": "Wordle was built as a gift for one person. Josh Wardle made it in January 2021 for his partner, Palak Shah.\n\nShe cut about 12,000 words down to roughly 2,500. Shah kept the commonly known ones so the daily puzzle felt fair.\n\nRoughly how many played on 1 November 2021. It passed 300,000 by 2 January 2022.\n\nThe shareable emoji squares came from friends in New Zealand. Wardle added the format, and results spread across Twitter.\n\nHe never wanted it to be a full-time job. The game had no adverts, and Wardle has said making money was not the goal.\n\nThe New York Times bought it in January 2022 for a low seven figure sum.\n\nSources:\n- https://en.wikipedia.org/wiki/Josh_Wardle - Wikipedia; established that Wardle developed Wordle in January 2021 for his partner Palak Shah, that she narrowed roughly 12,000 five-letter words to about 2,500 familiar ones, that the first working title was Mr. Bugs' Wordy Nugz (citing The Verge), that there were no adverts and he did not want it to become a full-time job, and the earlier Reddit projects The Button and r/place.\n- https://en.wikipedia.org/wiki/Wordle - Wikipedia; established approximately 90 players on 1 November 2021, over 300,000 by 2 January 2022, the emoji results grid inspired by friends in New Zealand, and the sale to The New York Times Company on 31 January 2022 for an undisclosed price in the low seven figures.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "UhYMyCtXsuw",
+      "youtubeUrl": "https://youtu.be/UhYMyCtXsuw",
+      "uploadedAt": "2026-10-02T15:14:41.633Z",
       "privacy": "public"
     }
   ]

@@ -1,0 +1,25 @@
+{
+  "slug": "excel-gene-names-dates-2016",
+  "date": "2026-10-02",
+  "title": "Excel was quietly corrupting gene names in published science.",
+  "description": "Excel was quietly corrupting gene names in published science. A study of papers from 2005 to 2015 found 19.6% of those with Excel gene lists contained errors.\n\nSEPT2 became 2-Sep. MARCH1 became 1-Mar. Excel read the gene symbols as dates.\n\nRenamed in 2020 by the HUGO Gene Nomenclature Committee, according to press reports, so that Excel would stop mistaking them for dates.\n\nMARCH1 is now MARCHF1. SEPT2 is now SEPTIN2. The scientists changed the genes, not the software.\n\nIt was easier to rename human genes than to change a spreadsheet.\n\nSources:\n- https://link.springer.com/article/10.1186/s13059-016-1044-7 - Ziemann, Eren and El-Osta, Genome Biology 2016; established that Excel converted SEPT2 to 2-Sep and MARCH1 to 1-Mar, and that 19.6% of papers with Excel gene lists (704 articles from 3,597 papers, published 2005 to 2015) contained such errors.\n- https://www.theregister.com/2020/08/06/excel_gene_names/ - The Register, 6 Aug 2020; established that the HUGO Gene Nomenclature Committee issued updated naming rules and gave examples including SEPT2 to SEPTIN2 and MARCH1 to MARCHF1.\n- https://theprint.in/science/27-genes-in-your-body-now-have-a-new-name-because-microsoft-excel-confused-them-for-dates/477398/ - ThePrint, 8 Aug 2020; established the figure of 27 renamed genes and the HGNC requirement that gene symbols should not affect data validation in Excel.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "app",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-10-02-excel-gene-names-dates-2016.mp4",
+  "propsFile": "daily/2026-10-02/excel-gene-names-dates-2016.props.json",
+  "durationInFrames": 788,
+  "audioUrl": "",
+  "niche": "app",
+  "composition": "Reel"
+}
