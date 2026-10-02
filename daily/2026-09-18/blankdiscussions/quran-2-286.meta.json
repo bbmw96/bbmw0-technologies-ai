@@ -43,9 +43,9 @@
   "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide daily/2026-09-18/blankdiscussions/renders/quran-2-286-slide-NN.png --props=daily/2026-09-18/blankdiscussions/quran-2-286.slide-NN.json  (run once per slide, NN = 01 through 08)",
   "status": "published",
   "published": {
-    "mediaId": "18069975266765811",
-    "permalink": "https://www.instagram.com/p/DddwyYwFeGD/",
-    "publishedAt": "2026-09-19T10:09:35Z",
+    "mediaId": "18228752380322433",
+    "permalink": "https://www.instagram.com/p/DdbTpu2oJDM/",
+    "publishedAt": "2026-09-18T11:22:35+0000",
     "hostingUrls": [
       "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-18/blankdiscussions/renders/quran-2-286-slide-01.png",
       "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-18/blankdiscussions/renders/quran-2-286-slide-02.png",
@@ -56,6 +56,15 @@
       "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-18/blankdiscussions/renders/quran-2-286-slide-07.png",
       "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-09-18/blankdiscussions/renders/quran-2-286-slide-08.png"
     ],
-    "publishedVia": "Composio MCP (INSTAGRAM_CREATE_CAROUSEL_CONTAINER with child_image_urls + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH), published 2026-09-19 as part of clearing the 2026-09-18 sourced-but-unpublished backlog, completing the last-three-ayat trilogy alongside quran-2-284 and quran-2-285. Sourcing was independently re-verified live against api.alquran.cloud this session (2026-09-19) before publishing, per the channel's hard sourcing rule, including re-confirming the documented Korean source-data gap (the ko.korean edition still returns only the fragment '대가를' for this ayah), and matched the committed slide text exactly."
+    "publishedVia": "Composio MCP (INSTAGRAM_CREATE_CAROUSEL_CONTAINER with child_image_urls + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH), published 2026-09-19 as part of clearing the 2026-09-18 sourced-but-unpublished backlog, completing the last-three-ayat trilogy alongside quran-2-284 and quran-2-285. Sourcing was independently re-verified live against api.alquran.cloud this session (2026-09-19) before publishing, per the channel's hard sourcing rule, including re-confirming the documented Korean source-data gap (the ko.korean edition still returns only the fragment '대가를' for this ayah), and matched the committed slide text exactly.",
+    "recordCorrection": {
+      "correctedAt": "2026-10-02",
+      "note": "Previously recorded media no longer exists on the account (Graph API: object does not exist). Live account listing on 2026-10-02 shows this post's content live under the mediaId/permalink above, published 2026-09-18. Record updated to point at the live post; no new publish was made.",
+      "previousRecord": {
+        "mediaId": "18069975266765811",
+        "permalink": "https://www.instagram.com/p/DddwyYwFeGD/",
+        "publishedAt": "2026-09-19T10:09:35Z"
+      }
+    }
   }
 }
