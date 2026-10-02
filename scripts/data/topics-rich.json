@@ -11075,6 +11075,288 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "transformer-equal-authors-random-order-2017",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://arxiv.org/pdf/1706.03762 - The paper itself; established the footnote \"Equal contribution. Listing order is random.\", the contributions statement (Jakob proposed replacing RNNs with self-attention; Noam proposed scaled dot-product and multi-head attention), the big models trained for 300,000 steps (3.5 days) on one machine with 8 NVIDIA P100 GPUs, BLEU scores of 28.4 (English to German) and 41.8 (English to French), and the NIPS 2017 venue.",
+        "https://arxiv.org/abs/1706.03762 - arXiv listing; established the title, the eight authors, the 12 June 2017 submission date and the 28.4 BLEU claim.",
+        "https://en.wikipedia.org/wiki/Attention_Is_All_You_Need - Wikipedia; established that the title nods to the Beatles song All You Need Is Love and that the name Transformer was chosen because Jakob Uszkoreit liked the sound of the word."
+      ],
+      "verifiedNote": "Checked 2 Oct 2026. Not claimed: that all eight authors later left Google or the citation count, because both rest on Wikipedia alone and change over time; which author coined the title, since only Wikipedia attributes the idea behind it. The Beatles link and the naming anecdote are attributed softly as reported rather than stated as the authors' own account.",
+      "palette": {
+        "bg": "#14141C",
+        "ink": "#FFFFFF",
+        "accent": "#38BDF8",
+        "muted": "#8A8A8A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "AI",
+          "text": "The paper behind modern AI lists its authors in random order.",
+          "note": "Attention Is All You Need has a footnote that reads: Equal contribution. Listing order is random."
+        },
+        {
+          "kind": "statement",
+          "lead": "The idea",
+          "text": "One author bet that attention alone was enough.",
+          "note": "The paper credits Jakob Uszkoreit with proposing to replace recurrent networks with self-attention."
+        },
+        {
+          "kind": "credit",
+          "year": "2017",
+          "name": "Noam Shazeer",
+          "role": "Proposed scaled dot-product attention and multi-head attention, according to the paper."
+        },
+        {
+          "kind": "figure",
+          "value": "8",
+          "unit": "GPUs",
+          "context": "The big model trained for 3.5 days on one machine with eight NVIDIA P100 chips."
+        },
+        {
+          "kind": "statement",
+          "lead": "The result",
+          "text": "It scored 28.4 BLEU on English to German translation.",
+          "note": "It scored 41.8 on English to French, and the paper was presented at NIPS 2017."
+        },
+        {
+          "kind": "kicker",
+          "text": "Eight people shared the credit for the architecture behind today's chatbots."
+        },
+        {
+          "kind": "sign",
+          "line": "AI history is mostly footnotes.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-research-preview-100-million",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://openai.com/index/chatgpt/ - OpenAI launch post; established the 30 November 2022 launch, the label research preview with free access during that period, the RLHF training method and the stated limitations, including plausible sounding but incorrect answers.",
+        "https://www.techmeme.com/221205/p22 - Techmeme summary of Sam Altman's posts; established the wording \"ChatGPT launched on wednesday. today it crossed 1 million users!\", the remark that the compute costs are eye-watering, and the estimate of single-digit cents per chat.",
+        "https://www.theregister.com/2023/02/03/chatgpt_most_popular_apps/ - The Register reporting UBS and Similarweb data; established 100 million monthly active users by January 2023, about 13 million unique daily visitors in January, TikTok taking nine months and Instagram two and a half years to reach 100 million, and the UBS quote about never seeing a faster ramp in 20 years."
+      ],
+      "verifiedNote": "Checked 2 Oct 2026. Not claimed: the exact date of the one million post, because sources give 5 or 6 December depending on time zone, so it is described only as five days after launch; that ChatGPT was the fastest growing app ever as a flat fact (it is UBS's analyst view, so attributed); any later user or revenue figures. The 100 million figure is a third party estimate and is labelled as such.",
+      "palette": {
+        "bg": "#14141C",
+        "ink": "#FFFFFF",
+        "accent": "#34D399",
+        "muted": "#8A8A8A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "AI",
+          "text": "ChatGPT launched as a research preview.",
+          "note": "OpenAI said on 30 November 2022 that it was free for now, so it could gather feedback on strengths and weaknesses."
+        },
+        {
+          "kind": "statement",
+          "lead": "Five days",
+          "text": "One million people signed up within five days.",
+          "note": "Sam Altman posted that it launched on Wednesday and had crossed 1 million users."
+        },
+        {
+          "kind": "statement",
+          "lead": "The cost",
+          "text": "Altman called the compute costs eye-watering.",
+          "note": "He estimated single-digit cents per chat and said it would have to be monetised somehow."
+        },
+        {
+          "kind": "figure",
+          "value": "100",
+          "unit": "million",
+          "context": "Estimated monthly users by January 2023, according to UBS analysis of Similarweb data."
+        },
+        {
+          "kind": "statement",
+          "lead": "For scale",
+          "text": "TikTok took nine months to reach the same mark.",
+          "note": "Instagram took two and a half years, per the same data. UBS said it had not seen a faster ramp in 20 years."
+        },
+        {
+          "kind": "kicker",
+          "text": "A preview meant to collect feedback became the fastest ramp UBS had seen."
+        },
+        {
+          "kind": "sign",
+          "line": "The AI era started as an experiment.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "windows-solitaire-intern-no-royalties",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://finance.yahoo.com/news/guy-wrote-windows-solitaire-did-231250280.html - Yahoo Finance quoting Wes Cherry; established that he wrote it in his own time as an intern in summer 1988 for Windows 2.1, that he was not paid royalties beyond being supplied an IBM XT to fix bugs, and that he wanted a Windows version of a Mac solitaire game he had played instead of studying.",
+        "https://en.wikipedia.org/wiki/Microsoft_Solitaire - Wikipedia; established inclusion in Windows 3.0 (released 22 May 1990), Susan Kare designing the card deck, the reported aim of easing users into the graphical interface, and the 2019 World Video Game Hall of Fame entry.",
+        "https://www.engadget.com/microsoft-solitaire-turns-30-today-bouncy-bouncy-094904319.html - Engadget; established the figure of 35 million players per month across 200 markets and 65 languages at the 30th anniversary."
+      ],
+      "verifiedNote": "Checked 2 Oct 2026. Not claimed: that Microsoft officially bundled it to teach the mouse, because the only support found was Wikipedia's phrasing and Engadget's own commentary, not a Microsoft statement; the \"most used Windows program\" telemetry claim; the exact monthly figure as current. The 35 million figure is dated to the 2020 anniversary.",
+      "palette": {
+        "bg": "#14141C",
+        "ink": "#FFFFFF",
+        "accent": "#F59E0B",
+        "muted": "#8A8A8A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Gaming",
+          "text": "Windows Solitaire was written by an intern, for himself.",
+          "note": "Wes Cherry made it in his own time in summer 1988, for Windows 2.1."
+        },
+        {
+          "kind": "statement",
+          "lead": "The reason",
+          "text": "He had been playing a Mac version instead of studying.",
+          "note": "Cherry says he wanted a Windows version for himself."
+        },
+        {
+          "kind": "credit",
+          "year": "1990",
+          "name": "Susan Kare",
+          "role": "Designed the card deck. Solitaire shipped in Windows 3.0, released 22 May 1990."
+        },
+        {
+          "kind": "statement",
+          "lead": "The pay",
+          "text": "He received no royalties.",
+          "note": "Cherry says he was supplied with an IBM XT to fix bugs and was perfectly fine with that."
+        },
+        {
+          "kind": "figure",
+          "value": "35",
+          "unit": "million",
+          "context": "Monthly players across 200 markets at the 30th anniversary in 2020, according to Engadget."
+        },
+        {
+          "kind": "kicker",
+          "text": "A student's side project became one of the most played games ever."
+        },
+        {
+          "kind": "sign",
+          "line": "Gaming history hides in the bundled apps.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "wordle-made-for-partner-90-players",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Josh_Wardle - Wikipedia; established that Wardle developed Wordle in January 2021 for his partner Palak Shah, that she narrowed roughly 12,000 five-letter words to about 2,500 familiar ones, that the first working title was Mr. Bugs' Wordy Nugz (citing The Verge), that there were no adverts and he did not want it to become a full-time job, and the earlier Reddit projects The Button and r/place.",
+        "https://en.wikipedia.org/wiki/Wordle - Wikipedia; established approximately 90 players on 1 November 2021, over 300,000 by 2 January 2022, the emoji results grid inspired by friends in New Zealand, and the sale to The New York Times Company on 31 January 2022 for an undisclosed price in the low seven figures."
+      ],
+      "verifiedNote": "Checked 2 Oct 2026. The New York Times pages were blocked, so figures rest on Wikipedia and its cited reporting. Not claimed: the exact size of the answer list, because sources give 2,309 and 2,315 and about 2,500 at different stages; Wardle's net worth or any specific sale price; the launch month as October or November. The player counts are attributed to reported figures.",
+      "palette": {
+        "bg": "#14141C",
+        "ink": "#FFFFFF",
+        "accent": "#84CC16",
+        "muted": "#8A8A8A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "App",
+          "text": "Wordle was built as a gift for one person.",
+          "note": "Josh Wardle made it in January 2021 for his partner, Palak Shah."
+        },
+        {
+          "kind": "statement",
+          "lead": "The word list",
+          "text": "She cut about 12,000 words down to roughly 2,500.",
+          "note": "Shah kept the commonly known ones so the daily puzzle felt fair."
+        },
+        {
+          "kind": "figure",
+          "value": "90",
+          "unit": "players",
+          "context": "Roughly how many played on 1 November 2021. It passed 300,000 by 2 January 2022."
+        },
+        {
+          "kind": "statement",
+          "lead": "The grid",
+          "text": "The shareable emoji squares came from friends in New Zealand.",
+          "note": "Wardle added the format, and results spread across Twitter."
+        },
+        {
+          "kind": "statement",
+          "lead": "No adverts",
+          "text": "He never wanted it to be a full-time job.",
+          "note": "The game had no adverts, and Wardle has said making money was not the goal."
+        },
+        {
+          "kind": "kicker",
+          "text": "The New York Times bought it in January 2022 for a low seven figure sum."
+        },
+        {
+          "kind": "sign",
+          "line": "Big apps often start as small gifts.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "linux-just-a-hobby-freax-name",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Linux - Wikipedia; established Torvalds' 25 August 1991 comp.os.minix post (\"just a hobby, won't be big and professional like gnu\"), the working name Freax as a mix of free, freak and x, Ari Lemmke renaming the FTP directory to Linux in September 1991 because he did not think Freax was a good name, and release 0.01 on 17 September 1991.",
+        "https://en.wikipedia.org/wiki/Linux_kernel - Wikipedia; independently confirmed the 25 August 1991 announcement wording and that version 0.01 was put on ftp.funet.fi on 17 September 1991."
+      ],
+      "verifiedNote": "Checked 2 Oct 2026. Not claimed: the line count of version 0.01 (about 10,000 per one source, not confirmed by the second); how many people first downloaded it; whether Torvalds approved the name at once. Both sources are Wikipedia, so the Freax and Lemmke details are attributed as reported.",
+      "palette": {
+        "bg": "#14141C",
+        "ink": "#FFFFFF",
+        "accent": "#F472B6",
+        "muted": "#8A8A8A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Tech",
+          "text": "Linux was announced as a hobby that would not be big.",
+          "note": "Torvalds wrote on 25 August 1991: just a hobby, won't be big and professional like gnu."
+        },
+        {
+          "kind": "statement",
+          "lead": "The name",
+          "text": "He wanted to call it Freax.",
+          "note": "A mix of free, freak and x, as an allusion to Unix."
+        },
+        {
+          "kind": "credit",
+          "year": "1991",
+          "name": "Ari Lemmke",
+          "role": "Volunteer admin of the Helsinki University of Technology FTP server. He renamed the directory Linux."
+        },
+        {
+          "kind": "statement",
+          "lead": "The release",
+          "text": "Version 0.01 went online on 17 September 1991.",
+          "note": "It was uploaded to ftp.funet.fi, in the directory Lemmke had named."
+        },
+        {
+          "kind": "kicker",
+          "text": "The name of the world's biggest open source project came from a server admin."
+        },
+        {
+          "kind": "sign",
+          "line": "Tech history is full of accidents.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
