@@ -28,7 +28,7 @@
 // same stack has the same coverage there.
 import React from "react";
 
-export type ThemeKey = "emerald-gold" | "midnight-silver" | "terracotta-cream" | "plum-rose" | "indigo-saffron" | "sapphire-pearl" | "garnet-amber" | "obsidian-jade" | "ivory-cobalt" | "charcoal-copper" | "amber-slate" | "rosewood-mint" | "azure-sand" | "crimson-pewter" | "olive-gold" | "violet-ash" | "teal-bronze" | "maroon-linen" | "cobalt-ember" | "forest-blush" | "onyx-turquoise" | "clay-frost" | "basalt-marigold" | "linen-periwinkle" | "umber-mauve" | "aubergine-citrine" | "byzantium-sage" | "chalk-vermilion" | "cerulean-honey" | "slate-copper" | "steel-blossom" | "pine-lavender" | "walnut-aqua" | "ink-saffron-rose" | "mulberry-seafoam";
+export type ThemeKey = "emerald-gold" | "midnight-silver" | "terracotta-cream" | "plum-rose" | "indigo-saffron" | "sapphire-pearl" | "garnet-amber" | "obsidian-jade" | "ivory-cobalt" | "charcoal-copper" | "amber-slate" | "rosewood-mint" | "azure-sand" | "crimson-pewter" | "olive-gold" | "violet-ash" | "teal-bronze" | "maroon-linen" | "cobalt-ember" | "forest-blush" | "onyx-turquoise" | "clay-frost" | "basalt-marigold" | "linen-periwinkle" | "umber-mauve" | "aubergine-citrine" | "byzantium-sage" | "chalk-vermilion" | "cerulean-honey" | "slate-copper" | "steel-blossom" | "pine-lavender" | "walnut-aqua" | "ink-saffron-rose" | "mulberry-seafoam" | "denim-peach";
 
 export const THEMES: Record<ThemeKey, { bg: string; ink: string; accent: string; muted: string; label: string }> = {
   "emerald-gold": { bg: "#0B2B26", ink: "#F5F1E6", accent: "#C9A227", muted: "#8FB6AC", label: "Emerald & Gold" },
@@ -66,8 +66,9 @@ export const THEMES: Record<ThemeKey, { bg: string; ink: string; accent: string;
   "walnut-aqua": { bg: "#3A2A20", ink: "#F5EDE0", accent: "#7FD1C7", muted: "#8A7467", label: "Walnut & Aqua" },
   "ink-saffron-rose": { bg: "#E6EEE9", ink: "#1F2A2B", accent: "#7A2E5A", muted: "#8DA399", label: "Sage & Plum" },
   "mulberry-seafoam": { bg: "#2E1F2B", ink: "#F6EFEA", accent: "#8ED1B5", muted: "#8A7483", label: "Mulberry & Seafoam" },
+  "denim-peach": { bg: "#1B2A3D", ink: "#FBF1E8", accent: "#F2A883", muted: "#7F93A8", label: "Denim & Peach" },
 };
-export const THEME_ORDER: ThemeKey[] = ["emerald-gold", "midnight-silver", "terracotta-cream", "plum-rose", "indigo-saffron", "sapphire-pearl", "garnet-amber", "obsidian-jade", "ivory-cobalt", "charcoal-copper", "amber-slate", "rosewood-mint", "azure-sand", "crimson-pewter", "olive-gold", "violet-ash", "teal-bronze", "maroon-linen", "cobalt-ember", "forest-blush", "onyx-turquoise", "clay-frost", "basalt-marigold", "linen-periwinkle", "umber-mauve", "aubergine-citrine", "byzantium-sage", "chalk-vermilion", "cerulean-honey", "slate-copper", "steel-blossom", "pine-lavender", "walnut-aqua", "ink-saffron-rose", "mulberry-seafoam"];
+export const THEME_ORDER: ThemeKey[] = ["emerald-gold", "midnight-silver", "terracotta-cream", "plum-rose", "indigo-saffron", "sapphire-pearl", "garnet-amber", "obsidian-jade", "ivory-cobalt", "charcoal-copper", "amber-slate", "rosewood-mint", "azure-sand", "crimson-pewter", "olive-gold", "violet-ash", "teal-bronze", "maroon-linen", "cobalt-ember", "forest-blush", "onyx-turquoise", "clay-frost", "basalt-marigold", "linen-periwinkle", "umber-mauve", "aubergine-citrine", "byzantium-sage", "chalk-vermilion", "cerulean-honey", "slate-copper", "steel-blossom", "pine-lavender", "walnut-aqua", "ink-saffron-rose", "mulberry-seafoam", "denim-peach"];
 
 const SANS = '"Helvetica Neue", Inter, Arial, system-ui, sans-serif';
 // Font stacks, most-specific/best-shaped first, safe generic last.

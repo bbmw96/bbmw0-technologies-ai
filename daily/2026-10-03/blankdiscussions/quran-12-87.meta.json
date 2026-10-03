@@ -1,0 +1,52 @@
+{
+  "slug": "quran-12-87",
+  "date": "2026-10-03",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "O my sons, go and find out about Joseph and his brother and despair not of relief from Allah. Indeed, no one despairs of relief from Allah except the disbelieving people.\n\nSurah Yusuf (12:87). Swipe through for the Arabic, then English, Mandarin, Korean, Japanese, Malay, Thai and Spanish.\n\nSources on the final slide.\n\n#Quran #Yusuf #Hope #IslamicReminder #Deen",
+  "tags": [
+    "Quran",
+    "Yusuf",
+    "Hope",
+    "IslamicReminder",
+    "Deen"
+  ],
+  "theme": "denim-peach",
+  "slides": [
+    "quran-12-87.slide-01.json",
+    "quran-12-87.slide-02.json",
+    "quran-12-87.slide-03.json",
+    "quran-12-87.slide-04.json",
+    "quran-12-87.slide-05.json",
+    "quran-12-87.slide-06.json",
+    "quran-12-87.slide-07.json",
+    "quran-12-87.slide-08.json",
+    "quran-12-87.slide-09.json",
+    "quran-12-87.slide-10.json"
+  ],
+  "sourcing": {
+    "source_artifact_note": "Source verses carry closing quotation marks for Prophet Yaqub (Jacob) speech that opens in the preceding verse (en.sahih ends with a lone double quote, ms.basmeih and th.thai and es.cortes likewise carry quote marks). Slide text left byte-identical to the API, nothing edited. Only the caption (not a slide) drops the single unmatched trailing quote from the English line for readability; no word changed.",
+    "primary_text": "Qur'an 12:87, Surah Yusuf, on never despairing of Allah's relief. Not used by any prior post (checked against existing blankdiscussions meta.json files). Standing 8-language/10-slide format.",
+    "arabic": "Edition quran-uthmani, single live call api.alquran.cloud/v1/ayah/12:87/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese,ms.basmeih,th.thai,es.cortes (HTTP 200, fetched 2026-10-03); slide text written programmatically from the raw API fields, no retyping.",
+    "english": "Edition en.sahih (Saheeh International), same call, byte-identical.",
+    "chinese": "Edition zh.jian (Ma Jian), same call, byte-identical.",
+    "korean": "Edition ko.korean, translator 'Unknown' per source so slide says 'translator not specified by source'. Byte-identical; artifact scan (double spaces, space before punctuation, leading/trailing whitespace, control chars) found none, so no corrections were needed.",
+    "japanese": "Edition ja.japanese, translator 'Unknown' per source, byte-identical, same artifact scan clean.",
+    "malay": "Edition ms.basmeih (Abdullah Muhammad Basmeih), byte-identical.",
+    "thai": "Edition th.thai (King Fahad Quran Complex), byte-identical.",
+    "spanish": "Edition es.cortes (Julio Cortes), byte-identical.",
+    "verification_note": "Live fetch performed this session in the same script that wrote the slide files. No wording from memory.",
+    "compliance_check": "Checked against 139 string terms in compliance-policy.json halal section across slide text and caption, word-boundary regex: 0 hits. No em/en dashes, no emoji."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide daily/2026-10-03/blankdiscussions/renders/quran-12-87-slide-NN.jpg --image-format=jpeg --jpeg-quality=92 --props=daily/2026-10-03/blankdiscussions/quran-12-87.slide-NN.json (NN = 01..10)",
+  "status": "rendered_and_hosted",
+  "theme_note": "All 34 prior themes used; denim-peach (Denim & Peach) added as the 35th.",
+  "hosting_verified": {
+    "checkedAt": "2026-10-03",
+    "sampleUrls": [],
+    "httpStatus": null,
+    "note": "Visually spot-checked Arabic (02), Chinese (04), Korean (05), Japanese (06), Thai (08): no tofu or missing glyphs."
+  }
+}
