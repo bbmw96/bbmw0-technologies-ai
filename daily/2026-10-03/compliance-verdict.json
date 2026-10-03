@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T14:05:43.498Z",
+  "policyVersion": "1.0.0",
+  "strictMode": false,
+  "allowed": [
+    "netflix-blockbuster-50-million-2000"
+  ],
+  "blocked": [],
+  "results": [
+    {
+      "slug": "netflix-blockbuster-50-million-2000",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Netflix once offered itself to Blockbuster.",
+      "niche": "app",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.083,
+        "worstTitleAgainst": "atari-adventure-easter-egg",
+        "worstDescriptionSimilarity": 0.233,
+        "combo": "reel:#1A1A1A:#E50914:#FFFFFF",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Rendering 1 Shorts for 2026-10-03 (concurrency=3, GL=default)
+Compliance: 1 cleared, 0 blocked (policy v1.0.0).
+
+--- netflix-blockbuster-50-million-2000 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-03-netflix-blockbuster-50-million-2000.mp4
+  uploaded public: https://youtu.be/JEcAEnFzX2E
+
+=== Done. 1 rendered, 1 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (netflix-blockbuster-50-million-2000)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#1A1A1A",
+    "ink": "#FFFFFF",
+    "accent": "#E50914",
+    "muted": "#8A8A8A"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "App",
+      "text": "Netflix once offered itself to Blockbuster.",
+      "note": "The popular version makes Blockbuster the fool. The detail that matters is what Netflix was in 2000.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "figure",
+      "value": "50",
+      "unit": "million",
+      "context": "Dollars. The price Netflix asked Blockbuster for in 2000, according to the founders.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "credit",
+      "year": "2000",
+      "name": "Reed Hastings and Marc Randolph",
+      "role": "Met Blockbuster CEO John Antioco. Randolph recalls being laughed out of the room.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "statement",
+      "lead": "The catch",
+      "text": "Netflix was a DVD by mail service.",
+      "note": "Streaming was still years away. Antioco called the dot-com hysteria completely overblown.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "credit",
+      "year": "2007",
+      "name": "John Antioco",
+      "role": "Left Blockbuster in March 2007. He later bought Netflix shares, according to CNBC.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "kicker",
+      "text": "Blockbuster filed for bankruptcy in 2010.",
+      "durationInFrames": 60
+    },
+    {
+      "kind": "sign",
+      "line": "Hindsight makes bad decisions look obvious.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
