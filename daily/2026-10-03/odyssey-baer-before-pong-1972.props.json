@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (odyssey-baer-before-pong-1972)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0D1210",
+    "ink": "#EAF5E8",
+    "accent": "#FBBF24",
+    "muted": "#6B8577"
+  },
+  "niche": "gaming",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Gaming",
+      "text": "Pong was not the first home video game.",
+      "note": "A defence engineer in New Hampshire built a multi-game TV console years before Atari.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "credit",
+      "year": "1966",
+      "name": "Ralph Baer",
+      "role": "Engineer at Sanders Associates in Nashua, New Hampshire. He began work on games that plug into a television.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "lead": "The prototype",
+      "text": "The Brown Box had a light gun and a golf putter.",
+      "note": "Its seventh version, TV Game Unit #7, was wrapped in brown wood-grain vinyl to look more appealing to investors.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "May 1972",
+      "text": "Nolan Bushnell saw the Odyssey demonstration.",
+      "note": "Atari's Pong followed. Magnavox and Sanders later sued Atari, and Atari settled and became a licensee.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "figure",
+      "value": "350000",
+      "unit": "consoles",
+      "context": "Baer's figure for Odyssey sales between 1972 and 1975, at $99.95 each.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "kicker",
+      "text": "The patent fights around it paid out more than $100 million.",
+      "durationInFrames": 88
+    },
+    {
+      "kind": "sign",
+      "line": "Gaming history has an older chapter.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Follow for more."
+}

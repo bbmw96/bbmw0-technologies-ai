@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (chatgpt-research-preview-100-million)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#14141C",
+    "ink": "#FFFFFF",
+    "accent": "#34D399",
+    "muted": "#8A8A8A"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "AI",
+      "text": "ChatGPT launched as a research preview.",
+      "note": "OpenAI said on 30 November 2022 that it was free for now, so it could gather feedback on strengths and weaknesses.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "statement",
+      "lead": "Five days",
+      "text": "One million people signed up within five days.",
+      "note": "Sam Altman posted that it launched on Wednesday and had crossed 1 million users.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "statement",
+      "lead": "The cost",
+      "text": "Altman called the compute costs eye-watering.",
+      "note": "He estimated single-digit cents per chat and said it would have to be monetised somehow.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "figure",
+      "value": "100",
+      "unit": "million",
+      "context": "Estimated monthly users by January 2023, according to UBS analysis of Similarweb data.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "statement",
+      "lead": "For scale",
+      "text": "TikTok took nine months to reach the same mark.",
+      "note": "Instagram took two and a half years, per the same data. UBS said it had not seen a faster ramp in 20 years.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "A preview meant to collect feedback became the fastest ramp UBS had seen.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "sign",
+      "line": "The AI era started as an experiment.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Follow for more."
+}

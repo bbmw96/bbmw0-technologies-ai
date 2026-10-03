@@ -278,7 +278,9 @@
     "reel:transformer-equal-authors-random-order-2017",
     "reel:windows-solitaire-intern-no-royalties",
     "reel:puck-man-to-pac-man",
-    "reel:netflix-blockbuster-50-million-2000"
+    "reel:netflix-blockbuster-50-million-2000",
+    "reel:odyssey-baer-before-pong-1972",
+    "reel:chatgpt-research-preview-100-million"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -4859,6 +4861,45 @@
       "youtubeUrl": "https://youtu.be/JEcAEnFzX2E",
       "uploadedAt": "2026-10-03T14:07:19.754Z",
       "privacy": "public"
+    },
+    {
+      "id": "odyssey-baer-before-pong-1972",
+      "date": "2026-10-03",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Pong was not the first home video game.",
+      "description": "Pong was not the first home video game. A defence engineer in New Hampshire built a multi-game TV console years before Atari.\n\nEngineer at Sanders Associates in Nashua, New Hampshire. He began work on games that plug into a television.\n\nThe Brown Box had a light gun and a golf putter. Its seventh version, TV Game Unit #7, was wrapped in brown wood-grain vinyl to look more appealing to investors.\n\nNolan Bushnell saw the Odyssey demonstration. Atari's Pong followed. Magnavox and Sanders later sued Atari, and Atari settled and became a licensee.\n\nBaer's figure for Odyssey sales between 1972 and 1975, at $99.95 each.\n\nThe patent fights around it paid out more than $100 million.\n\nSources:\n- https://en.wikipedia.org/wiki/Magnavox_Odyssey - Wikipedia; established the Brown Box as the seventh prototype finished in January 1969, the Sanders and Magnavox agreement signed in January 1971, the September 1972 North American release at $99.95, 28 games across 11 game cards, Baer's figure of 350,000 units sold before discontinuation in 1975, Bushnell seeing a demonstration in May 1972, and more than $100 million won in patent suits and settlements.\n- https://en.wikipedia.org/wiki/Ralph_H._Baer - Wikipedia; established Baer's employer Sanders Associates in Nashua, New Hampshire, the team of Bill Harrison and Bill Rusch, U.S. Patent 3,728,480 granted 17 April 1973, and Baer's dispute with Bushnell over credit.\n- https://si.edu/es/object/brown-box-1967-68%3Anmah_1301997 - Smithsonian National Museum of American History catalogue entry; established the prototype as TV Game Unit #7, nicknamed for its brown wood-grain vinyl, with two controllers, multiple games including ping-pong, a light gun and golf putting.\n- https://www.history.com/articles/brown-box-home-gaming-ralph-baer - History.com; independently confirmed the 1971 Magnavox licence, the 1972 release at $99.95, 350,000 units sold from 1972 to 1975, Bushnell's 1972 sight of the table tennis demo, and that Atari later settled the patent suit and became a licensee.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "gaming",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "netflix-blockbuster-50-million-2000",
+      "date": "2026-10-03",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Netflix once offered itself to Blockbuster.",
+      "description": "Netflix once offered itself to Blockbuster. The popular version makes Blockbuster the fool. The detail that matters is what Netflix was in 2000.\n\nDollars. The price Netflix asked Blockbuster for in 2000, according to the founders.\n\nMet Blockbuster CEO John Antioco. Randolph recalls being laughed out of the room.\n\nNetflix was a DVD by mail service. Streaming was still years away. Antioco called the dot-com hysteria completely overblown.\n\nLeft Blockbuster in March 2007. He later bought Netflix shares, according to CNBC.\n\nBlockbuster filed for bankruptcy in 2010.\n\nSources:\n- https://www.cnbc.com/2020/09/22/how-netflix-almost-lost-the-movie-rental-wars-to-blockbuster.html - CNBC; established that Netflix proposed selling to Blockbuster for $50 million in 2000, Hastings saying Netflix would become Blockbuster's online business, ex-CFO Barry McCarthy saying they were laughed out of the office, Antioco leaving in March 2007, and Blockbuster filing for bankruptcy in 2010.\n- https://fortune.com/2023/04/14/netflix-cofounder-marc-randolph-recalls-blockbuster-rejecting-chance-to-buy-it - Fortune; established Marc Randolph and Reed Hastings meeting John Antioco in 2000, the $50 million price, Randolph recalling being laughed out of the room, and Antioco calling the dot-com hysteria completely overblown.\n- https://todayifoundout.com/?p=60247 - Today I Found Out; argued the popular version omits that in 2000 Netflix offered only DVD by mail, with streaming about seven years away, and that the rejection was widely seen as sensible at the time. Used for context only.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "chatgpt-research-preview-100-million",
+      "date": "2026-10-03",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "ChatGPT launched as a research preview.",
+      "description": "ChatGPT launched as a research preview. OpenAI said on 30 November 2022 that it was free for now, so it could gather feedback on strengths and weaknesses.\n\nOne million people signed up within five days. Sam Altman posted that it launched on Wednesday and had crossed 1 million users.\n\nAltman called the compute costs eye-watering. He estimated single-digit cents per chat and said it would have to be monetised somehow.\n\nEstimated monthly users by January 2023, according to UBS analysis of Similarweb data.\n\nTikTok took nine months to reach the same mark. Instagram took two and a half years, per the same data. UBS said it had not seen a faster ramp in 20 years.\n\nA preview meant to collect feedback became the fastest ramp UBS had seen.\n\nSources:\n- https://openai.com/index/chatgpt/ - OpenAI launch post; established the 30 November 2022 launch, the label research preview with free access during that period, the RLHF training method and the stated limitations, including plausible sounding but incorrect answers.\n- https://www.techmeme.com/221205/p22 - Techmeme summary of Sam Altman's posts; established the wording \"ChatGPT launched on wednesday. today it crossed 1 million users!\", the remark that the compute costs are eye-watering, and the estimate of single-digit cents per chat.\n- https://www.theregister.com/2023/02/03/chatgpt_most_popular_apps/ - The Register reporting UBS and Similarweb data; established 100 million monthly active users by January 2023, about 13 million unique daily visitors in January, TikTok taking nine months and Instagram two and a half years to reach 100 million, and the UBS quote about never seeing a faster ramp in 20 years.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }

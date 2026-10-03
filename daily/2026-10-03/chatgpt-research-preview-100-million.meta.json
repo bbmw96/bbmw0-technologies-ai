@@ -1,0 +1,25 @@
+{
+  "slug": "chatgpt-research-preview-100-million",
+  "date": "2026-10-03",
+  "title": "ChatGPT launched as a research preview.",
+  "description": "ChatGPT launched as a research preview. OpenAI said on 30 November 2022 that it was free for now, so it could gather feedback on strengths and weaknesses.\n\nOne million people signed up within five days. Sam Altman posted that it launched on Wednesday and had crossed 1 million users.\n\nAltman called the compute costs eye-watering. He estimated single-digit cents per chat and said it would have to be monetised somehow.\n\nEstimated monthly users by January 2023, according to UBS analysis of Similarweb data.\n\nTikTok took nine months to reach the same mark. Instagram took two and a half years, per the same data. UBS said it had not seen a faster ramp in 20 years.\n\nA preview meant to collect feedback became the fastest ramp UBS had seen.\n\nSources:\n- https://openai.com/index/chatgpt/ - OpenAI launch post; established the 30 November 2022 launch, the label research preview with free access during that period, the RLHF training method and the stated limitations, including plausible sounding but incorrect answers.\n- https://www.techmeme.com/221205/p22 - Techmeme summary of Sam Altman's posts; established the wording \"ChatGPT launched on wednesday. today it crossed 1 million users!\", the remark that the compute costs are eye-watering, and the estimate of single-digit cents per chat.\n- https://www.theregister.com/2023/02/03/chatgpt_most_popular_apps/ - The Register reporting UBS and Similarweb data; established 100 million monthly active users by January 2023, about 13 million unique daily visitors in January, TikTok taking nine months and Instagram two and a half years to reach 100 million, and the UBS quote about never seeing a faster ramp in 20 years.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-10-03-chatgpt-research-preview-100-million.mp4",
+  "propsFile": "daily/2026-10-03/chatgpt-research-preview-100-million.props.json",
+  "durationInFrames": 1044,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}
