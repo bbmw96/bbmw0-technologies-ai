@@ -1,0 +1,25 @@
+{
+  "slug": "backpropagation-linnainmaa-1970",
+  "date": "2026-10-04",
+  "title": "Backpropagation was not invented in 1986.",
+  "description": "Backpropagation was not invented in 1986. The famous paper popularised it. The method is older, and it began outside AI.\n\nDescribed the method in his University of Helsinki master's thesis, as reverse mode automatic differentiation, with no mention of neural networks.\n\nFirst neural network specific use of it, according to Schmidhuber. Wikipedia dates the standard form to 1982.\n\nPublished Learning representations by back-propagating errors in Nature, showing hidden layers learn useful internal representations.\n\nHe says he never claimed to have invented it. His contribution, he says, was showing it could learn useful internal representations.\n\nCredit usually goes to whoever made the idea work, not whoever had it first.\n\nSources:\n- https://en.wikipedia.org/wiki/Backpropagation - Wikipedia; established Seppo Linnainmaa's 1970 University of Helsinki master's thesis describing the reverse mode of automatic differentiation, Werbos applying it to multilayer networks in the standard way by 1982, David Parker in 1985, and the 1986 Nature paper by Rumelhart, Hinton and Williams popularising it.\n- https://arxiv.org/pdf/1404.7828 - Schmidhuber, Deep Learning in Neural Networks: An Overview, section 5.5; established that efficient backpropagation in arbitrary networks was apparently first described in Linnainmaa's 1970 thesis without reference to neural networks, that Werbos made the first neural network specific application in 1981 with earlier discussion in 1974, and that the 1986 paper significantly contributed to popularisation by showing useful internal representations in hidden layers.\n- https://syncedreview.com/2020/04/23/who-invented-backpropagation-hinton-says-he-didnt-but-his-work-made-it-popular/ - Synced Review; recorded Hinton saying he has never claimed to have invented backpropagation, and that his contribution was showing it could learn useful internal representations.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-10-04-backpropagation-linnainmaa-1970.mp4",
+  "propsFile": "daily/2026-10-04/backpropagation-linnainmaa-1970.props.json",
+  "durationInFrames": 948,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}

@@ -283,7 +283,9 @@
     "reel:chatgpt-research-preview-100-million",
     "reel:bitcoin-pizza-2010-offer-open",
     "reel:carrington-doubted-the-link-1859",
-    "reel:toy-story-2-deleted-rm-rf-1998"
+    "reel:toy-story-2-deleted-rm-rf-1998",
+    "reel:gpt2-too-dangerous-staged-release",
+    "reel:backpropagation-linnainmaa-1970"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -4954,6 +4956,45 @@
       "youtubeUrl": "https://youtu.be/vezdBr0gyWg",
       "uploadedAt": "2026-10-04T14:36:00.028Z",
       "privacy": "public"
+    },
+    {
+      "id": "gpt2-too-dangerous-staged-release",
+      "date": "2026-10-04",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "OpenAI announced a model it would not release.",
+      "description": "OpenAI announced a model it would not release. 'Due to our concerns about malicious applications of the technology, we are not releasing the trained model.'\n\nIt had 1.5 billion parameters. It was trained on 8 million web pages with one job: predict the next word.\n\nIt never was. A much smaller model and a technical paper went out the same day. A 345 million parameter version followed in May 2019.\n\nThe full model was released anyway. OpenAI said: 'We've seen no strong evidence of misuse so far.'\n\nCalled the release 'a test case of a full staged release process'.\n\nThe model too dangerous to release was public within the year.\n\nSources:\n- https://openai.com/index/better-language-models/ - OpenAI's February 2019 announcement; established 1.5 billion parameters, 8 million web pages of training data, the next-word objective, the quote 'we are not releasing the trained model', and that a much smaller model and a paper were released instead.\n- https://openai.com/index/gpt-2-1-5b-release/ - OpenAI's 5 November 2019 post; established the full 1.5B release as the final stage, the phrase 'a test case of a full staged release process', and 'We've seen no strong evidence of misuse so far.'\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "bitcoin-pizza-2010-offer-open",
+      "date": "2026-10-04",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The famous bitcoin pizza was an open offer, not a one off.",
+      "description": "The famous bitcoin pizza was an open offer, not a one off. Laszlo Hanyecz posted on a forum that he would pay 10,000 bitcoin for a couple of pizzas.\n\nProgrammer who bought two Papa John's pizzas on 22 May 2010, the first known commercial bitcoin transaction.\n\nThe price he paid for two pizzas. Nasdaq puts the pizzas at about 41 dollars at the time.\n\nSomeone else paid with their own money. Jeremy Sturdivant ordered the pizzas and received the 10,000 bitcoin in return.\n\nHe said he could not keep doing it. Hanyecz wrote that he could not generate thousands of coins a day any more.\n\nThe pizza was cheap. The offer was the story.\n\nSources:\n- https://en.wikipedia.org/wiki/Laszlo_Hanyecz - Wikipedia; established that on 22 May 2010 programmer Laszlo Hanyecz bought two Papa John's pizzas for 10,000 bitcoin, described as the first known commercial transaction using bitcoin.\n- https://www.nasdaq.com/articles/happy-bitcoin-pizza-day - Nasdaq; established that Jeremy Sturdivant ordered the pizzas with his own money and received the 10,000 bitcoin, and that the pizzas were worth about $41 at the time.\n- https://bitcointalk.org/index.php?topic=5453728.0 - Bitcointalk thread; quotes Hanyecz offering 10,000 BTC for a couple of pizzas, then keeping the offer open, later saying he could not afford to keep doing it because he could not generate thousands of coins a day any more. The claim that he bought eight pizzas for 40,000 bitcoin appears there only via tweets and is disputed in the replies.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
+    },
+    {
+      "id": "backpropagation-linnainmaa-1970",
+      "date": "2026-10-04",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Backpropagation was not invented in 1986.",
+      "description": "Backpropagation was not invented in 1986. The famous paper popularised it. The method is older, and it began outside AI.\n\nDescribed the method in his University of Helsinki master's thesis, as reverse mode automatic differentiation, with no mention of neural networks.\n\nFirst neural network specific use of it, according to Schmidhuber. Wikipedia dates the standard form to 1982.\n\nPublished Learning representations by back-propagating errors in Nature, showing hidden layers learn useful internal representations.\n\nHe says he never claimed to have invented it. His contribution, he says, was showing it could learn useful internal representations.\n\nCredit usually goes to whoever made the idea work, not whoever had it first.\n\nSources:\n- https://en.wikipedia.org/wiki/Backpropagation - Wikipedia; established Seppo Linnainmaa's 1970 University of Helsinki master's thesis describing the reverse mode of automatic differentiation, Werbos applying it to multilayer networks in the standard way by 1982, David Parker in 1985, and the 1986 Nature paper by Rumelhart, Hinton and Williams popularising it.\n- https://arxiv.org/pdf/1404.7828 - Schmidhuber, Deep Learning in Neural Networks: An Overview, section 5.5; established that efficient backpropagation in arbitrary networks was apparently first described in Linnainmaa's 1970 thesis without reference to neural networks, that Werbos made the first neural network specific application in 1981 with earlier discussion in 1974, and that the 1986 paper significantly contributed to popularisation by showing useful internal representations in hidden layers.\n- https://syncedreview.com/2020/04/23/who-invented-backpropagation-hinton-says-he-didnt-but-his-work-made-it-popular/ - Synced Review; recorded Hinton saying he has never claimed to have invented backpropagation, and that his contribution was showing it could learn useful internal representations.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "ai",
+      "channelId": "ig-aigameodyssey",
+      "special": false,
+      "platform": "instagram"
     }
   ]
 }

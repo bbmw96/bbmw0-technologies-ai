@@ -6,7 +6,9 @@
   "allowed": [
     "bitcoin-pizza-2010-offer-open",
     "carrington-doubted-the-link-1859",
-    "toy-story-2-deleted-rm-rf-1998"
+    "toy-story-2-deleted-rm-rf-1998",
+    "backpropagation-linnainmaa-1970",
+    "gpt2-too-dangerous-staged-release"
   ],
   "blocked": [],
   "results": [
@@ -148,6 +150,100 @@
         "worstTitleAgainst": "alphafold-protein-nobel",
         "worstDescriptionSimilarity": 0.243,
         "combo": "reel:#0F1A24:#F5B82E:#F2F6FA",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "backpropagation-linnainmaa-1970",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Backpropagation was not invented in 1986.",
+      "niche": "ai",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.167,
+        "worstTitleAgainst": "undo-not-tesler",
+        "worstDescriptionSimilarity": 0.257,
+        "combo": "reel:#14141C:#34D399:#FFFFFF",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "gpt2-too-dangerous-staged-release",
+      "channelId": "ig-aigameodyssey",
+      "platform": "instagram",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "OpenAI announced a model it would not release.",
+      "niche": "ai",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.234,
+        "worstTitleAgainst": "linux-just-a-hobby-freax-name",
+        "worstDescriptionSimilarity": 0.259,
+        "combo": "reel:#101418:#10A37F:#FFFFFF",
         "themeGap": null,
         "audioGap": 0
       },

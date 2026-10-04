@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (gpt2-too-dangerous-staged-release)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#101418",
+    "ink": "#FFFFFF",
+    "accent": "#10A37F",
+    "muted": "#8A8A8A"
+  },
+  "niche": "ai",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "February 2019",
+      "text": "OpenAI announced a model it would not release.",
+      "note": "'Due to our concerns about malicious applications of the technology, we are not releasing the trained model.'",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "The model was GPT-2",
+      "text": "It had 1.5 billion parameters.",
+      "note": "It was trained on 8 million web pages with one job: predict the next word.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "statement",
+      "lead": "The popular version says it was locked away",
+      "text": "It never was.",
+      "note": "A much smaller model and a technical paper went out the same day. A 345 million parameter version followed in May 2019.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "November 2019",
+      "text": "The full model was released anyway.",
+      "note": "OpenAI said: 'We've seen no strong evidence of misuse so far.'",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "credit",
+      "year": "2019",
+      "name": "OpenAI",
+      "role": "Called the release 'a test case of a full staged release process'.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "kicker",
+      "text": "The model too dangerous to release was public within the year.",
+      "durationInFrames": 88
+    },
+    {
+      "kind": "sign",
+      "line": "Staged release became the template for what came next.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Follow for more."
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "gpt2-too-dangerous-staged-release",
+  "date": "2026-10-04",
+  "title": "OpenAI announced a model it would not release.",
+  "description": "OpenAI announced a model it would not release. 'Due to our concerns about malicious applications of the technology, we are not releasing the trained model.'\n\nIt had 1.5 billion parameters. It was trained on 8 million web pages with one job: predict the next word.\n\nIt never was. A much smaller model and a technical paper went out the same day. A 345 million parameter version followed in May 2019.\n\nThe full model was released anyway. OpenAI said: 'We've seen no strong evidence of misuse so far.'\n\nCalled the release 'a test case of a full staged release process'.\n\nThe model too dangerous to release was public within the year.\n\nSources:\n- https://openai.com/index/better-language-models/ - OpenAI's February 2019 announcement; established 1.5 billion parameters, 8 million web pages of training data, the next-word objective, the quote 'we are not releasing the trained model', and that a much smaller model and a paper were released instead.\n- https://openai.com/index/gpt-2-1-5b-release/ - OpenAI's 5 November 2019 post; established the full 1.5B release as the final stage, the phrase 'a test case of a full staged release process', and 'We've seen no strong evidence of misuse so far.'\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "ai",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "27",
+  "privacy": "public",
+  "channelId": "ig-aigameodyssey",
+  "special": false,
+  "platform": "instagram",
+  "handle": "@ai_game_odyssey",
+  "file": "out/daily-2026-10-04-gpt2-too-dangerous-staged-release.mp4",
+  "propsFile": "daily/2026-10-04/gpt2-too-dangerous-staged-release.props.json",
+  "durationInFrames": 1000,
+  "audioUrl": "",
+  "niche": "ai",
+  "composition": "Reel"
+}
