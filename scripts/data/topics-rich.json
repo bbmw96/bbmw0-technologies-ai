@@ -11590,6 +11590,242 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "toy-story-2-deleted-rm-rf-1998",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://thenextweb.com/media/2012/05/21/how-pixars-toy-story-2-was-deleted-twice-once-by-technology-and-again-for-its-own-good/ - The Next Web; established the rm -r -f command, that about 90 percent of the film was gone (the directory was a tenth of its expected size), that Galyn Susman had a working copy on a workstation at home after having a baby, that the team compared roughly 30,000 files against older archives, and that the film was then largely rebuilt after Christmas 1998 for a 22 November 1999 release.",
+        "https://www.techspot.com/news/112848-how-pixars-nearly-deleted-toy-story-2-single.html - TechSpot; established that the command was run in the wrong directory, that roughly 90 percent of the files were deleted, that Susman and Oren Jacob retrieved the home copy, and that Ed Catmull called the later overhaul the cinematic equivalent of a heart transplant."
+      ],
+      "verifiedNote": "Checked 4 Oct 2026. Not claimed: who typed the command (not established in what I read), the exact date of the deletion (Jacob himself is unsure, so only 1998 is stated), the machine cost (a quoted figure that is almost certainly a joke), or that the backup was the only copy (TechSpot says only usable intact copy, the other source says the home copy was two weeks old and gaps were filled from older archives). The finished film was rebuilt for story reasons, not because of the deletion, so the two events are kept separate.",
+      "palette": {
+        "bg": "#0F1A24",
+        "ink": "#F2F6FA",
+        "accent": "#F5B82E",
+        "muted": "#7A8B9A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Tech",
+          "text": "Pixar nearly lost Toy Story 2 to one command.",
+          "note": "The Unix command was rm -r -f, which deletes everything below a folder without asking."
+        },
+        {
+          "kind": "figure",
+          "value": "90",
+          "unit": "percent",
+          "context": "Of the film files were gone. The directory had shrunk to a tenth of its expected size."
+        },
+        {
+          "kind": "statement",
+          "lead": "The catch",
+          "text": "The film was then largely rebuilt anyway.",
+          "note": "After Christmas 1998 most animation, layout, lighting and effects were redone, with release locked for 22 November 1999."
+        },
+        {
+          "kind": "credit",
+          "year": "1998",
+          "name": "Galyn Susman",
+          "role": "Supervising technical director. She had been working from home after having a baby, so her workstation held a recent copy."
+        },
+        {
+          "kind": "statement",
+          "lead": "The drive home",
+          "text": "They carried the workstation to the studio in a car.",
+          "note": "Susman and Oren Jacob moved it wrapped in blankets. The team then checked about 30,000 files against older archives."
+        },
+        {
+          "kind": "kicker",
+          "text": "The film was saved by a baby."
+        },
+        {
+          "kind": "sign",
+          "line": "Tech has a habit of nearly breaking.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "carrington-doubted-the-link-1859",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Carrington_Event - Wikipedia; established that Richard Carrington and Richard Hodgson independently saw the flare just before noon on 1 September 1859, that Carrington himself wrote that one swallow does not make a summer about linking it to the storm, that aurora was reported near the equator, that telegraph pylons threw sparks, and that two operators between Boston and Portland worked for about two hours on auroral current with their batteries disconnected. Also the March 1989 Quebec outage and a 2013 Lloyd's estimate of $600 billion to $2.6 trillion, described there as speculative.",
+        "https://www.noaa.gov/heritage/stories/five-historically-huge-solar-events - NOAA; established the date of 1 September 1859, that Carrington and Hodgson saw it independently, that the aurora was seen further south than ever recorded, that telegraph operators were shocked and small fires started, and that some machines sent messages without being plugged in."
+      ],
+      "verifiedNote": "Checked 4 Oct 2026. Not claimed: any single storm strength figure (the Dst estimate is a range that depends on the method), a cost for a repeat today (Lloyd's figure is speculative and not used), that it knocked out the whole telegraph network, or the often repeated claim that the 2012 miss was nine days away (stated in Wikipedia but not read in a primary source). The Boston to Portland detail is attributed as reported.",
+      "palette": {
+        "bg": "#0B1020",
+        "ink": "#EAF2FF",
+        "accent": "#34D399",
+        "muted": "#7B8AA8"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Science",
+          "text": "The man who saw the 1859 flare doubted it caused the storm.",
+          "note": "Richard Carrington wrote that one swallow does not make a summer."
+        },
+        {
+          "kind": "credit",
+          "year": "1859",
+          "name": "Carrington and Hodgson",
+          "role": "Two British astronomers who saw the flare independently, just before noon on 1 September."
+        },
+        {
+          "kind": "statement",
+          "lead": "The sky",
+          "text": "The aurora was reported close to the equator.",
+          "note": "Sightings came from Cuba, Hawaii and Colombia, far further south than usual."
+        },
+        {
+          "kind": "statement",
+          "lead": "The wires",
+          "text": "Telegraph equipment shocked operators and threw sparks.",
+          "note": "NOAA also records small fires, and messages arriving that no one had sent."
+        },
+        {
+          "kind": "figure",
+          "value": "2",
+          "unit": "hours",
+          "context": "Two operators between Boston and Portland worked with their batteries disconnected, powered by the sky alone."
+        },
+        {
+          "kind": "kicker",
+          "text": "He saw it first and doubted it most."
+        },
+        {
+          "kind": "sign",
+          "line": "Science is slower than the sky.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "bitcoin-pizza-2010-offer-open",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Laszlo_Hanyecz - Wikipedia; established that on 22 May 2010 programmer Laszlo Hanyecz bought two Papa John's pizzas for 10,000 bitcoin, described as the first known commercial transaction using bitcoin.",
+        "https://www.nasdaq.com/articles/happy-bitcoin-pizza-day - Nasdaq; established that Jeremy Sturdivant ordered the pizzas with his own money and received the 10,000 bitcoin, and that the pizzas were worth about $41 at the time.",
+        "https://bitcointalk.org/index.php?topic=5453728.0 - Bitcointalk thread; quotes Hanyecz offering 10,000 BTC for a couple of pizzas, then keeping the offer open, later saying he could not afford to keep doing it because he could not generate thousands of coins a day any more. The claim that he bought eight pizzas for 40,000 bitcoin appears there only via tweets and is disputed in the replies."
+      ],
+      "verifiedNote": "Checked 4 Oct 2026. Not claimed: that he spent 40,000 bitcoin on eight pizzas (secondhand, disputed in the thread), any current dollar value (it changes daily and the Nasdaq figure is dated), that the pizza was the first ever bitcoin trade for goods beyond what Wikipedia says (first known commercial transaction), or how Hanyecz mined (not read in a primary source). The $41 figure is attributed to the Nasdaq article.",
+      "palette": {
+        "bg": "#1A1407",
+        "ink": "#FFF6E0",
+        "accent": "#F7931A",
+        "muted": "#9A8A68"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Tech",
+          "text": "The famous bitcoin pizza was an open offer, not a one off.",
+          "note": "Laszlo Hanyecz posted on a forum that he would pay 10,000 bitcoin for a couple of pizzas."
+        },
+        {
+          "kind": "credit",
+          "year": "2010",
+          "name": "Laszlo Hanyecz",
+          "role": "Programmer who bought two Papa John's pizzas on 22 May 2010, the first known commercial bitcoin transaction."
+        },
+        {
+          "kind": "figure",
+          "value": "10,000",
+          "unit": "bitcoin",
+          "context": "The price he paid for two pizzas. Nasdaq puts the pizzas at about 41 dollars at the time."
+        },
+        {
+          "kind": "statement",
+          "lead": "The other side",
+          "text": "Someone else paid with their own money.",
+          "note": "Jeremy Sturdivant ordered the pizzas and received the 10,000 bitcoin in return."
+        },
+        {
+          "kind": "statement",
+          "lead": "Why it stopped",
+          "text": "He said he could not keep doing it.",
+          "note": "Hanyecz wrote that he could not generate thousands of coins a day any more."
+        },
+        {
+          "kind": "kicker",
+          "text": "The pizza was cheap. The offer was the story."
+        },
+        {
+          "kind": "sign",
+          "line": "Tech history is mostly small decisions.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "therac-25-software-replaced-interlocks-1985",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Therac-25 - Wikipedia; established six documented accidents between June 1985 and January 1987, at least three patient deaths, doses of 150 to 200 Gy against an intended 2 Gy in the first case, the integer overflow in a bit flag that let the beam run in X-ray mode without the target in place, and that earlier hardware interlocks were replaced by software checks. Investigation by Nancy Leveson and Clark Turner published in Computer in 1993.",
+        "https://cs.huji.ac.il/w~feit/sem/se11/therac.pdf - Course slides summarising Leveson and Turner; established 11 machines installed in the US and Canada, three race condition bugs, an operator able to change treatment mode within about 8 seconds, cryptic error messages such as Malfunction 54, software written by a single programmer in PDP-11 assembler, and hardware interlocks removed as considered unnecessary.",
+        "https://ethicsunwrapped.utexas.edu/case-study/therac-25 - University of Texas case study; established that patients reported being burned by the machine, that the company considered it impossible, that the FDA issued a shutdown order on 6 February 1987 and ordered a redesign of software, safety features and mechanical interlocks. It says six fatal accidents, which conflicts with Wikipedia and is not used."
+      ],
+      "verifiedNote": "Checked 4 Oct 2026. Not claimed: the number of deaths beyond at least three (the sources disagree, and the case study says six fatal), the name or qualifications of the programmer (not established), the exact dose in every case (cases varied), or that the Therac-20 software caused the faults. The 250 times figure comes from Wikipedia as up to 250 times the normal dose and is stated as up to.",
+      "palette": {
+        "bg": "#10161C",
+        "ink": "#EEF3F7",
+        "accent": "#38BDF8",
+        "muted": "#7A8793"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Tech",
+          "text": "A radiation machine killed patients because software replaced a lock.",
+          "note": "The Therac-25 swapped earlier hardware interlocks for software checks."
+        },
+        {
+          "kind": "credit",
+          "year": "1985",
+          "name": "Therac-25",
+          "role": "Six documented overdose accidents followed between June 1985 and January 1987. At least three patients died."
+        },
+        {
+          "kind": "statement",
+          "lead": "The fault",
+          "text": "A fast edit could trick the machine.",
+          "note": "Slides on the investigation describe an operator changing the mode within about 8 seconds, a race condition in reading input."
+        },
+        {
+          "kind": "figure",
+          "value": "250",
+          "unit": "times",
+          "context": "The worst overdoses were up to 250 times the normal dose, according to Wikipedia."
+        },
+        {
+          "kind": "statement",
+          "lead": "The warnings",
+          "text": "The error messages were cryptic.",
+          "note": "Operators saw messages such as Malfunction 54. Slides on the investigation say they became insensitised to errors."
+        },
+        {
+          "kind": "credit",
+          "year": "1987",
+          "name": "The FDA",
+          "role": "Issued a shutdown order on 6 February 1987 and required a redesign of the software and the safety interlocks."
+        },
+        {
+          "kind": "kicker",
+          "text": "The software was trusted. The patients paid for it."
+        },
+        {
+          "kind": "sign",
+          "line": "Tech needs a second lock.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
