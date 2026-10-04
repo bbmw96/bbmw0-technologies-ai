@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (carrington-doubted-the-link-1859)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B1020",
+    "ink": "#EAF2FF",
+    "accent": "#34D399",
+    "muted": "#7B8AA8"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Science",
+      "text": "The man who saw the 1859 flare doubted it caused the storm.",
+      "note": "Richard Carrington wrote that one swallow does not make a summer.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "credit",
+      "year": "1859",
+      "name": "Carrington and Hodgson",
+      "role": "Two British astronomers who saw the flare independently, just before noon on 1 September.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "statement",
+      "lead": "The sky",
+      "text": "The aurora was reported close to the equator.",
+      "note": "Sightings came from Cuba, Hawaii and Colombia, far further south than usual.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "statement",
+      "lead": "The wires",
+      "text": "Telegraph equipment shocked operators and threw sparks.",
+      "note": "NOAA also records small fires, and messages arriving that no one had sent.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "figure",
+      "value": "2",
+      "unit": "hours",
+      "context": "Two operators between Boston and Portland worked with their batteries disconnected, powered by the sky alone.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "kicker",
+      "text": "He saw it first and doubted it most.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Science is slower than the sky.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

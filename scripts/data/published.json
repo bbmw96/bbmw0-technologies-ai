@@ -280,7 +280,10 @@
     "reel:puck-man-to-pac-man",
     "reel:netflix-blockbuster-50-million-2000",
     "reel:odyssey-baer-before-pong-1972",
-    "reel:chatgpt-research-preview-100-million"
+    "reel:chatgpt-research-preview-100-million",
+    "reel:bitcoin-pizza-2010-offer-open",
+    "reel:carrington-doubted-the-link-1859",
+    "reel:toy-story-2-deleted-rm-rf-1998"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -4900,6 +4903,57 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "bitcoin-pizza-2010-offer-open",
+      "date": "2026-10-04",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The famous bitcoin pizza was an open offer, not a one off.",
+      "description": "The famous bitcoin pizza was an open offer, not a one off. Laszlo Hanyecz posted on a forum that he would pay 10,000 bitcoin for a couple of pizzas.\n\nProgrammer who bought two Papa John's pizzas on 22 May 2010, the first known commercial bitcoin transaction.\n\nThe price he paid for two pizzas. Nasdaq puts the pizzas at about 41 dollars at the time.\n\nSomeone else paid with their own money. Jeremy Sturdivant ordered the pizzas and received the 10,000 bitcoin in return.\n\nHe said he could not keep doing it. Hanyecz wrote that he could not generate thousands of coins a day any more.\n\nThe pizza was cheap. The offer was the story.\n\nSources:\n- https://en.wikipedia.org/wiki/Laszlo_Hanyecz - Wikipedia; established that on 22 May 2010 programmer Laszlo Hanyecz bought two Papa John's pizzas for 10,000 bitcoin, described as the first known commercial transaction using bitcoin.\n- https://www.nasdaq.com/articles/happy-bitcoin-pizza-day - Nasdaq; established that Jeremy Sturdivant ordered the pizzas with his own money and received the 10,000 bitcoin, and that the pizzas were worth about $41 at the time.\n- https://bitcointalk.org/index.php?topic=5453728.0 - Bitcointalk thread; quotes Hanyecz offering 10,000 BTC for a couple of pizzas, then keeping the offer open, later saying he could not afford to keep doing it because he could not generate thousands of coins a day any more. The claim that he bought eight pizzas for 40,000 bitcoin appears there only via tweets and is disputed in the replies.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "lrSIDJWqAYg",
+      "youtubeUrl": "https://youtu.be/lrSIDJWqAYg",
+      "uploadedAt": "2026-10-04T14:33:33.693Z",
+      "privacy": "public"
+    },
+    {
+      "id": "carrington-doubted-the-link-1859",
+      "date": "2026-10-04",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The man who saw the 1859 flare doubted it caused the storm.",
+      "description": "The man who saw the 1859 flare doubted it caused the storm. Richard Carrington wrote that one swallow does not make a summer.\n\nTwo British astronomers who saw the flare independently, just before noon on 1 September.\n\nThe aurora was reported close to the equator. Sightings came from Cuba, Hawaii and Colombia, far further south than usual.\n\nTelegraph equipment shocked operators and threw sparks. NOAA also records small fires, and messages arriving that no one had sent.\n\nTwo operators between Boston and Portland worked with their batteries disconnected, powered by the sky alone.\n\nHe saw it first and doubted it most.\n\nSources:\n- https://en.wikipedia.org/wiki/Carrington_Event - Wikipedia; established that Richard Carrington and Richard Hodgson independently saw the flare just before noon on 1 September 1859, that Carrington himself wrote that one swallow does not make a summer about linking it to the storm, that aurora was reported near the equator, that telegraph pylons threw sparks, and that two operators between Boston and Portland worked for about two hours on auroral current with their batteries disconnected. Also the March 1989 Quebec outage and a 2013 Lloyd's estimate of $600 billion to $2.6 trillion, described there as speculative.\n- https://www.noaa.gov/heritage/stories/five-historically-huge-solar-events - NOAA; established the date of 1 September 1859, that Carrington and Hodgson saw it independently, that the aurora was seen further south than ever recorded, that telegraph operators were shocked and small fires started, and that some machines sent messages without being plugged in.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "g16XefVOT9I",
+      "youtubeUrl": "https://youtu.be/g16XefVOT9I",
+      "uploadedAt": "2026-10-04T14:34:42.111Z",
+      "privacy": "public"
+    },
+    {
+      "id": "toy-story-2-deleted-rm-rf-1998",
+      "date": "2026-10-04",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Pixar nearly lost Toy Story 2 to one command.",
+      "description": "Pixar nearly lost Toy Story 2 to one command. The Unix command was rm -r -f, which deletes everything below a folder without asking.\n\nOf the film files were gone. The directory had shrunk to a tenth of its expected size.\n\nThe film was then largely rebuilt anyway. After Christmas 1998 most animation, layout, lighting and effects were redone, with release locked for 22 November 1999.\n\nSupervising technical director. She had been working from home after having a baby, so her workstation held a recent copy.\n\nThey carried the workstation to the studio in a car. Susman and Oren Jacob moved it wrapped in blankets. The team then checked about 30,000 files against older archives.\n\nThe film was saved by a baby.\n\nSources:\n- https://thenextweb.com/media/2012/05/21/how-pixars-toy-story-2-was-deleted-twice-once-by-technology-and-again-for-its-own-good/ - The Next Web; established the rm -r -f command, that about 90 percent of the film was gone (the directory was a tenth of its expected size), that Galyn Susman had a working copy on a workstation at home after having a baby, that the team compared roughly 30,000 files against older archives, and that the film was then largely rebuilt after Christmas 1998 for a 22 November 1999 release.\n- https://www.techspot.com/news/112848-how-pixars-nearly-deleted-toy-story-2-single.html - TechSpot; established that the command was run in the wrong directory, that roughly 90 percent of the files were deleted, that Susman and Oren Jacob retrieved the home copy, and that Ed Catmull called the later overhaul the cinematic equivalent of a heart transplant.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "vezdBr0gyWg",
+      "youtubeUrl": "https://youtu.be/vezdBr0gyWg",
+      "uploadedAt": "2026-10-04T14:36:00.028Z",
+      "privacy": "public"
     }
   ]
 }

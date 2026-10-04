@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (bitcoin-pizza-2010-offer-open)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#1A1407",
+    "ink": "#FFF6E0",
+    "accent": "#F7931A",
+    "muted": "#9A8A68"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Tech",
+      "text": "The famous bitcoin pizza was an open offer, not a one off.",
+      "note": "Laszlo Hanyecz posted on a forum that he would pay 10,000 bitcoin for a couple of pizzas.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "credit",
+      "year": "2010",
+      "name": "Laszlo Hanyecz",
+      "role": "Programmer who bought two Papa John's pizzas on 22 May 2010, the first known commercial bitcoin transaction.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "figure",
+      "value": "10,000",
+      "unit": "bitcoin",
+      "context": "The price he paid for two pizzas. Nasdaq puts the pizzas at about 41 dollars at the time.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "statement",
+      "lead": "The other side",
+      "text": "Someone else paid with their own money.",
+      "note": "Jeremy Sturdivant ordered the pizzas and received the 10,000 bitcoin in return.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "statement",
+      "lead": "Why it stopped",
+      "text": "He said he could not keep doing it.",
+      "note": "Hanyecz wrote that he could not generate thousands of coins a day any more.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "kicker",
+      "text": "The pizza was cheap. The offer was the story.",
+      "durationInFrames": 76
+    },
+    {
+      "kind": "sign",
+      "line": "Tech history is mostly small decisions.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

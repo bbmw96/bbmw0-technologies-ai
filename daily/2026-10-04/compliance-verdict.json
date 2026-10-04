@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-04",
+  "generatedAt": "2026-10-04T14:32:08.497Z",
+  "policyVersion": "1.0.0",
+  "strictMode": false,
+  "allowed": [
+    "bitcoin-pizza-2010-offer-open",
+    "carrington-doubted-the-link-1859",
+    "toy-story-2-deleted-rm-rf-1998"
+  ],
+  "blocked": [],
+  "results": [
+    {
+      "slug": "bitcoin-pizza-2010-offer-open",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "The famous bitcoin pizza was an open offer, not a one off.",
+      "niche": "tech",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.111,
+        "worstTitleAgainst": "alphafold-protein-nobel",
+        "worstDescriptionSimilarity": 0.229,
+        "combo": "reel:#1A1407:#F7931A:#FFF6E0",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "carrington-doubted-the-link-1859",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "The man who saw the 1859 flare doubted it caused the storm.",
+      "niche": "science",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.118,
+        "worstTitleAgainst": "metroid-reveal-missed",
+        "worstDescriptionSimilarity": 0.263,
+        "combo": "reel:#0B1020:#34D399:#EAF2FF",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "toy-story-2-deleted-rm-rf-1998",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Pixar nearly lost Toy Story 2 to one command.",
+      "niche": "tech",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "halal.context_review",
+          "message": "Term(s) needing context: christmas. Referred to the AI reviewer.",
+          "detail": {
+            "terms": [
+              "christmas"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.111,
+        "worstTitleAgainst": "alphafold-protein-nobel",
+        "worstDescriptionSimilarity": 0.243,
+        "combo": "reel:#0F1A24:#F5B82E:#F2F6FA",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    }
+  ]
+}

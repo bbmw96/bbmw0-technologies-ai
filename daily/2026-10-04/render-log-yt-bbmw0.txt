@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-10-04 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- bitcoin-pizza-2010-offer-open ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-04-bitcoin-pizza-2010-offer-open.mp4
+  uploaded public: https://youtu.be/lrSIDJWqAYg
+
+--- carrington-doubted-the-link-1859 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-04-carrington-doubted-the-link-1859.mp4
+  uploaded public: https://youtu.be/g16XefVOT9I
+
+--- toy-story-2-deleted-rm-rf-1998 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-04-toy-story-2-deleted-rm-rf-1998.mp4
+  uploaded public: https://youtu.be/vezdBr0gyWg
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

@@ -1,0 +1,25 @@
+{
+  "slug": "toy-story-2-deleted-rm-rf-1998",
+  "date": "2026-10-04",
+  "title": "Pixar nearly lost Toy Story 2 to one command.",
+  "description": "Pixar nearly lost Toy Story 2 to one command. The Unix command was rm -r -f, which deletes everything below a folder without asking.\n\nOf the film files were gone. The directory had shrunk to a tenth of its expected size.\n\nThe film was then largely rebuilt anyway. After Christmas 1998 most animation, layout, lighting and effects were redone, with release locked for 22 November 1999.\n\nSupervising technical director. She had been working from home after having a baby, so her workstation held a recent copy.\n\nThey carried the workstation to the studio in a car. Susman and Oren Jacob moved it wrapped in blankets. The team then checked about 30,000 files against older archives.\n\nThe film was saved by a baby.\n\nSources:\n- https://thenextweb.com/media/2012/05/21/how-pixars-toy-story-2-was-deleted-twice-once-by-technology-and-again-for-its-own-good/ - The Next Web; established the rm -r -f command, that about 90 percent of the film was gone (the directory was a tenth of its expected size), that Galyn Susman had a working copy on a workstation at home after having a baby, that the team compared roughly 30,000 files against older archives, and that the film was then largely rebuilt after Christmas 1998 for a 22 November 1999 release.\n- https://www.techspot.com/news/112848-how-pixars-nearly-deleted-toy-story-2-single.html - TechSpot; established that the command was run in the wrong directory, that roughly 90 percent of the files were deleted, that Susman and Oren Jacob retrieved the home copy, and that Ed Catmull called the later overhaul the cinematic equivalent of a heart transplant.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-10-04-toy-story-2-deleted-rm-rf-1998.mp4",
+  "propsFile": "daily/2026-10-04/toy-story-2-deleted-rm-rf-1998.props.json",
+  "durationInFrames": 1026,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}
