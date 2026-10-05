@@ -4,8 +4,9 @@
   "method": "Composio YOUTUBE_UPDATE_VIDEO (privacy_status=unlisted). NOTE: that tool also resets embeddable and publicStatsViewable to false; acceptable for videos being retired, but it is lossy — see scripts/youtube-cleanup.mjs, which preserves the full status object but needs a broader OAuth scope than the repo's current youtube.upload-only refresh tokens.",
   "classA": {
     "total": 27,
-    "retired": 10,
-    "remaining": 17
+    "retired": 20,
+    "remaining": 17,
+    "note": "retired counts batch-1 and batch-6 Class A unlists only; remaining is the live count from the 2026-10-05 inventory (17 public pre-fix videos across both channels), which supersedes the old 27-10 arithmetic"
   },
   "classB": {
     "total": 4,
@@ -93,6 +94,20 @@
       "newlyRetired": 7,
       "verifiedBy": "YOUTUBE_UPDATE_VIDEO responses: all 7 report privacyStatus=unlisted, embeddable and publicStatsViewable preserved (this call did not reset them, unlike the note in `method` above)",
       "note": "First batch since 2026-09-10 (2 weeks overdue on the ~weekly cadence). Method: live-pulled all 165 items in yt-bbmw0's uploads playlist via YOUTUBE_LIST_CHANNEL_VIDEOS, live-checked privacyStatus for all via YOUTUBE_GET_VIDEO_DETAILS_BATCH, excluded anything recorded as a reel (themeId=reel) in published.json and anything already in this file's unlisted[] array. That left 38 unique still-public non-reel candidates, but 27 of those were NOT pre-reel ThemedShort fact videos at all -- they were early product/build-log content (e.g. 'I built a Shorts editor in one day', two monthly long-form recaps) that this cleanup effort was never meant to touch, so they were excluded. Of the remaining 25 genuine ThemedShort fact-format videos (July 27 - Aug 15), 15 were confirmed by title-normalized duplicate search to be the deliberately-kept 'oldest public copy' of a fact group from prior Class C batches (unlisting them would zero out that fact's public presence, the exact mistake flagged in _privacyAnomalyFound2026-09-01) and 3 more (sJfIfArcOiU 'Shift+F3', qZd4TJxY_Gk 'Great Wall', pS0j05wiAkg 'Salt water', nsdwTZYSBfs 'shortest war' -- 4 actually) turned out to be the LAST remaining public copy of their group once already-unlisted/private siblings were accounted for, so they were excluded too. Only the 7 videos below had zero public siblings of any kind (true single-instance ThemedShort videos, safe to retire without affecting any other copy): lightning-glass (9IQG_VwqIp0), qwerty-speed (ptkbyGZ5qWs), arabic-numerals (GM_jh23WPlA), vending-machine (SfzqYKuwDzk), eiffel-tower (AY-I_LMlBfM), old-glass (exoVMFddMsY), paper-fold-42 (X4jhDbjYCfk). Class A vs B was not distinguished for these (would require watching each for the invented-stat beat, not done this session; AY-I_LMlBfM and exoVMFddMsY are published 2026-08-11, the same calendar day as the 18:58 fix commit, so their class is genuinely ambiguous without a timestamp check). classA/classB/classC counts above are NOT updated to reflect this batch since this batch's classification method (single-instance-only) is orthogonal to the A/B/C system and the true remaining counts in each class were already flagged as unreliable by prior sessions. 4 candidates deliberately skipped this run (sJfIfArcOiU, qZd4TJxY_Gk, pS0j05wiAkg, nsdwTZYSBfs) should be revisited only alongside a decision on the same-titled sibling(s) that are currently private/unlisted -- see whether those should be restored to public instead of leaving the fact with zero public YouTube copies."
+    },
+    {
+      "ranAt": "2026-10-05T13:00:00Z",
+      "week": "2026-W41",
+      "channelsTouched": [
+        "yt-bbmw0"
+      ],
+      "defectClass": "A",
+      "attempted": 10,
+      "succeeded": 10,
+      "failed": 0,
+      "newlyRetired": 10,
+      "verifiedBy": "YOUTUBE_UPDATE_VIDEO responses: all 10 report privacyStatus=unlisted, embeddable and publicStatsViewable still true",
+      "note": "Oldest-first. Inventory came from a full live walk of both uploads playlists (YOUTUBE_LIST_PLAYLIST_ITEMS with status), not from published.json. Note these were the LAST public instance of each fact, which is intended for Class A: an invented-number video should not stay public just because it is the only copy."
     }
   ],
   "unlisted": [
@@ -585,6 +600,107 @@
       "reason": "pre-reel ThemedShort published after the invented-stat fix; pastel format, single instance",
       "unlistedAt": "2026-09-25T20:20:00Z",
       "url": "https://youtu.be/X4jhDbjYCfk"
+    },
+    {
+      "id": "_gRuEmXgIKE",
+      "channel": "yt-bbmw0",
+      "title": "Algebra is named after an Arabic word. #Shorts #facts",
+      "publishedAt": "2026-07-27",
+      "defectClass": "A",
+      "reason": "pre-reel ThemedShort published before the 2026-08-11 invented-stat fix; last public copy of this fact on the channel",
+      "unlistedAt": "2026-10-05T13:00:00Z",
+      "url": "https://youtu.be/_gRuEmXgIKE"
+    },
+    {
+      "id": "7xTdas-AUvw",
+      "channel": "yt-bbmw0",
+      "title": "Naming things and cache invalidation are the two hard problems. #Shorts #learn",
+      "publishedAt": "2026-07-27",
+      "defectClass": "A",
+      "reason": "pre-reel ThemedShort published before the 2026-08-11 invented-stat fix; last public copy of this fact on the channel",
+      "unlistedAt": "2026-10-05T13:00:00Z",
+      "url": "https://youtu.be/7xTdas-AUvw"
+    },
+    {
+      "id": "Viki9XnYuNo",
+      "channel": "yt-bbmw0",
+      "title": "The first text message was sent in 1992. #Shorts",
+      "publishedAt": "2026-07-27",
+      "defectClass": "A",
+      "reason": "pre-reel ThemedShort published before the 2026-08-11 invented-stat fix; last public copy of this fact on the channel",
+      "unlistedAt": "2026-10-05T13:00:00Z",
+      "url": "https://youtu.be/Viki9XnYuNo"
+    },
+    {
+      "id": "RS9G5stmNbY",
+      "channel": "yt-bbmw0",
+      "title": "Nintendo was founded in 1889. #Shorts #didyouknow",
+      "publishedAt": "2026-07-27",
+      "defectClass": "A",
+      "reason": "pre-reel ThemedShort published before the 2026-08-11 invented-stat fix; last public copy of this fact on the channel",
+      "unlistedAt": "2026-10-05T13:00:00Z",
+      "url": "https://youtu.be/RS9G5stmNbY"
+    },
+    {
+      "id": "JFtlzf9-_dU",
+      "channel": "yt-bbmw0",
+      "title": "Shift-click selects a range. #Shorts",
+      "publishedAt": "2026-07-27",
+      "defectClass": "A",
+      "reason": "pre-reel ThemedShort published before the 2026-08-11 invented-stat fix; last public copy of this fact on the channel",
+      "unlistedAt": "2026-10-05T13:00:00Z",
+      "url": "https://youtu.be/JFtlzf9-_dU"
+    },
+    {
+      "id": "eMg1RsiW9Gk",
+      "channel": "yt-bbmw0",
+      "title": "The astrolabe could find your latitude from a star. #Shorts #didyouknow",
+      "publishedAt": "2026-07-28",
+      "defectClass": "A",
+      "reason": "pre-reel ThemedShort published before the 2026-08-11 invented-stat fix; last public copy of this fact on the channel",
+      "unlistedAt": "2026-10-05T13:00:00Z",
+      "url": "https://youtu.be/eMg1RsiW9Gk"
+    },
+    {
+      "id": "6AKRk8d-NrM",
+      "channel": "yt-bbmw0",
+      "title": "The @ symbol was used in accounting before email existed. #Shorts #quickfact",
+      "publishedAt": "2026-07-28",
+      "defectClass": "A",
+      "reason": "pre-reel ThemedShort published before the 2026-08-11 invented-stat fix; last public copy of this fact on the channel",
+      "unlistedAt": "2026-10-05T13:00:00Z",
+      "url": "https://youtu.be/6AKRk8d-NrM"
+    },
+    {
+      "id": "eoMA3P5mqC8",
+      "channel": "yt-bbmw0",
+      "title": "Screen readers rely on correct HTML headings. #Shorts #facts",
+      "publishedAt": "2026-07-28",
+      "defectClass": "A",
+      "reason": "pre-reel ThemedShort published before the 2026-08-11 invented-stat fix; last public copy of this fact on the channel",
+      "unlistedAt": "2026-10-05T13:00:00Z",
+      "url": "https://youtu.be/eoMA3P5mqC8"
+    },
+    {
+      "id": "v_gKTz1I8O0",
+      "channel": "yt-bbmw0",
+      "title": "The spacebar is the most-pressed key on any keyboard. #Shorts",
+      "publishedAt": "2026-07-28",
+      "defectClass": "A",
+      "reason": "pre-reel ThemedShort published before the 2026-08-11 invented-stat fix; last public copy of this fact on the channel",
+      "unlistedAt": "2026-10-05T13:00:00Z",
+      "url": "https://youtu.be/v_gKTz1I8O0"
+    },
+    {
+      "id": "tFY0cSB3jf8",
+      "channel": "yt-bbmw0",
+      "title": "Cleopatra lived closer to the Moon landing than to the pyramids. #Shorts",
+      "publishedAt": "2026-07-29",
+      "defectClass": "A",
+      "reason": "pre-reel ThemedShort published before the 2026-08-11 invented-stat fix; last public copy of this fact on the channel",
+      "unlistedAt": "2026-10-05T13:00:00Z",
+      "url": "https://youtu.be/tFY0cSB3jf8"
     }
-  ]
+  ],
+  "_liveInventory2026-10-05": "Full live walk of both uploads playlists before this batch. Still PUBLIC and pre-reel after batch 6: yt-bbmw0 8 videos (sJfIfArcOiU, 8jdnxwp1gV0, 5pFrcs-BSoE 30 Jul; tJOLa7_Y210 31 Jul; --hT2RHXjKA 2 Aug; qZd4TJxY_Gk, pS0j05wiAkg, nsdwTZYSBfs 3 Aug) and yt-bbm0902 9 videos (RqAC_LVrT3o 9 Aug; jlOBHPMne-o, TwswTLg9qKU, Xhi2gJFmYWo, RIGIn1M9spQ 10 Aug; L_HBO00R5Gw, NDGMxAgGirI, aItIGproW00, WwGy9CWfv5w 11 Aug, all before the 18:58 fix). All 17 are Class A by date. Next week: unlist the 8 on yt-bbmw0 plus the 2 oldest on yt-bbm0902 (account youtube_puku-bret), then the remaining 7 the week after, which finishes Class A. The six 30 Apr and 2 May product-demo videos on yt-bbmw0 are not ThemedShorts and are out of scope."
 }

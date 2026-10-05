@@ -63,7 +63,7 @@
 import React from "react";
 import {
   AbsoluteFill, Sequence, useCurrentFrame, useVideoConfig, interpolate, spring, Audio, staticFile,
-  OffthreadVideo, Img,
+  OffthreadVideo, Img, Easing,
 } from "remotion";
 import { Motif, resolveNiche, secondaryNiche } from "./motifs";
 
@@ -320,6 +320,12 @@ const BeatShell: React.FC<{
 // ---------------------------------------------------------------- beats
 
 const PAD = 72;
+
+// Frames over which the last beat dissolves into the solid accent field that
+// frame 0 opens on. 10 frames is a third of a second at 30fps: long enough to
+// read as a deliberate resolve, short enough to leave the CTA up for most of
+// the sign beat (it lands at frame 26 of a ~96-frame beat).
+const LOOP_FRAMES = 10;
 
 // Glyph reveal onset, kept as one constant so the spring's start frame (used
 // for the visual pop-in) and the typing-click Sequence's start frame (added
@@ -597,6 +603,25 @@ export const EditorialReel: React.FC<ReelProps> = ({
   const openFade = interpolate(frame, [0, 2, 8], [1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const openLift = interpolate(openSpring, [0, 1], [0, -104], { extrapolateRight: "clamp" });
   const openScale = interpolate(openSpring, [0, 1], [1.12, 1], { extrapolateRight: "clamp" });
+
+  // Loop seam (added 5 Oct 2026, per VISUAL-DIRECTION-BRIEF "make the reel loop").
+  //
+  // Shorts and Reels autoplay the video again from frame 0, and frame 0 of
+  // every reel is the opening flash above: a solid palette.accent field. The
+  // sign beat that ends every reel is ALSO a palette.accent field, with the
+  // closing text on it. So the two ends already share their colour; what
+  // made the replay read as a jump was the text, the drift and the pips
+  // vanishing in one frame. This veil lifts a solid accent field over the
+  // last LOOP_FRAMES, so the final frame IS frame 0. The replay then reads
+  // as one continuous accent beat that snaps open into beat 1, which is the
+  // flash-snap doing the job it was built for. Keyed to the summed beat
+  // length, not to the sign beat, so it holds even if a reel ever ends on
+  // a different beat kind (it then fades that beat to accent instead).
+  // Checked by rendering the last frames and frames 0 to 8 side by side.
+  const total = beats.reduce((acc, b) => acc + b.durationInFrames, 0);
+  const loopVeil = interpolate(frame, [total - LOOP_FRAMES, total - 1], [0, 1], {
+    extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.in(Easing.quad),
+  });
   return (
     <NicheContext.Provider value={niche}>
     <AbsoluteFill style={{ background: palette.bg }}>
@@ -634,6 +659,13 @@ export const EditorialReel: React.FC<ReelProps> = ({
           );
         })}
       </div>
+
+      {/* Loop veil: see the loop-seam note above. Under the opening flash in
+          paint order so the two can never stack; they cannot overlap in time
+          on any reel longer than LOOP_FRAMES plus the flash anyway. */}
+      {loopVeil > 0 ? (
+        <AbsoluteFill aria-hidden style={{ background: palette.accent, opacity: loopVeil, pointerEvents: "none" }} />
+      ) : null}
 
       {/* Opening flash-snap. Sits topmost so it covers beat 1 for the first
           couple of frames, then scales up and lifts off the top edge, gone by

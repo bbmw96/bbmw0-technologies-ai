@@ -53,7 +53,7 @@
     },
     {
       "id": "ig-aigameodyssey",
-      "enabled": true,
+      "enabled": false,
       "platform": "instagram",
       "handle": "@ai_game_odyssey",
       "composioConnection": "instagram_sledge-got",
@@ -76,7 +76,8 @@
       "igUserId": "26759002047072119",
       "publishVia": "composio",
       "weekendCount": 2,
-      "_niche_note": "Matched to the account's stated brand (weekly AI-video saga, gaming). Publishing animal and space facts to a gaming account is off-brand, and Instagram reads topical consistency hard on a small account: it would suppress reach on both these posts and any gaming content later."
+      "_niche_note": "Matched to the account's stated brand (weekly AI-video saga, gaming). Publishing animal and space facts to a gaming account is off-brand, and Instagram reads topical consistency hard on a small account: it would suppress reach on both these posts and any gaming content later.",
+      "_disabledOn2026-10-05": "Paused by the weekly director pass. Every scheduled run from at least 2026-09-28 to 2026-10-04 failed this leg at INSTAGRAM_CREATE_MEDIA_CONTAINER (code 100, subcode 33: object 26759002047072119 does not exist or missing permissions). Root cause, confirmed via Composio connection list on 2026-10-05: the connection instagram_sledge-got (alias ai_game_odyssey) is authenticated as user 28477523595198052 / username blankdiscussions, the SAME account as instagram_willed-pried, so its token cannot publish to the ai_game_odyssey IG user id. Worse, generate-shorts records topicsUsed at generation time, so each failed day still consumed up to 3 verified tech/app/ai/gaming topics that were never posted, from the same pool yt-bbmw0 draws on. Re-enable only after the ai_game_odyssey connection is re-authenticated in Composio while logged into the @ai_game_odyssey Instagram account, and its user_info.id matches igUserId. The ~30 burned topics (reel:<id> entries dated 2026-09-22 to 2026-10-04 with platform=instagram) can then be removed from topicsUsed so they publish for real."
     },
     {
       "id": "ig-blankdiscussions",

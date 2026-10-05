@@ -1,4 +1,29 @@
-# NEXT SESSION — START HERE
+# NEXT SESSION, START HERE
+
+## ADDED 5 Oct 2026: loop seam SHIPPED; the Linux sandbox CAN render this repo
+
+**Loop seam is done.** `EditorialReel.tsx` now lays a solid `palette.accent`
+veil over the last `LOOP_FRAMES` (10) frames of every reel. Frame 0 of every
+reel is already a solid accent field (the 18 Aug flash-snap), and the sign
+beat's field is accent too, so the last frame now IS frame 0: the replay reads
+as one accent beat that snaps open into beat 1. Verified on
+`backpropagation-linnainmaa-1970` (948 frames): rendered frames 918 to 947 and
+0 to 14 as a sequence, watched them in order, and the mean absolute pixel
+difference between frame 947 and frame 0 is 0.0. The CTA still holds from
+frame 26 to about frame 86 of the 96-frame sign beat. For reels whose beat 1
+is kicker or code (field `p.bg`, not accent), the seam is accent to accent
+and then the flash-snap reveals a different field, which is the designed
+pattern interrupt, not a jump.
+
+**Rendering in the Linux sandbox works, contrary to the older notes below.**
+It fails with "Bus error" when run inside the OneDrive mount. It works when
+the repo is copied to `/tmp` (exclude node_modules, out, daily, .git), then
+`npm ci --ignore-scripts` there (17 s), then
+`npx remotion still|render src/compositions/registry.tsx Reel ... --props=<daily/.../x.props.json>`.
+Use `--sequence --image-format=jpeg --frames=A-B` to get frames to watch.
+
+**Next visual item from "Only then":** per-topic generated palettes (kill the
+fixed list), then the image layer.
 
 ## ADDED 25 Sep 2026 — pattern interrupt confirmed shipped; loop seam is now the sole open item here
 

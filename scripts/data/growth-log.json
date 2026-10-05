@@ -124,6 +124,35 @@
         "publicVideos": 117
       },
       "note": "15 days since the last read (2026-09-10 to 2026-09-25). Both directions are up, and this is the first snapshot where the movement looks like more than noise: yt-bbmw0 views went 1279 to 10427 (roughly 8x) and subscribers 2 to 5; yt-bbm0902 views went 589 to 1926 (roughly 3.3x) and publicVideos jumped 13 to 40 (27 net new), meaning yt-bbm0902's topic-stock exhaustion flagged in the 2026-09-10 snapshot has been resolved since then (it published steadily, not just once) and is no longer the top-priority item. yt-bbmw0 publicVideos went 73 to 77 net (+4), which understates actual publishing volume: this week's cleanup batch (see cleanup-log.json, 2026-09-25) unlisted 7 more of its older videos in between, so gross new public uploads this period were roughly 11, same order as the prior period. Combined subscribers (7) and views (12,353) remain far below the monetisation gate (1,000 subs + 20M views/90 days) and at this base size a single video's performance can still move the whole number, so this is encouraging direction, not a result. Instagram (ig-aigameodyssey) is still not captured here: this session's Composio Instagram connection aliased 'ai_game_odyssey' resolved to Instagram Business Account 28477523595198052 / username 'blankdiscussions' — the SAME underlying account as the connection aliased 'BlankDiscussions' — so no separate ig-aigameodyssey follower/reach figures could be read this week without risking recording the wrong channel's numbers under the wrong name. That alias mix-up is a Composio connection-config issue, separate from and not confirmed to be related to this week's real IG upload failures (see this week's pipeline-health finding: INSTAGRAM_CREATE_MEDIA_CONTAINER error_subcode 33, 'Object with ID does not exist, cannot be loaded due to missing permissions'), but both point at something wrong with how the Instagram side is authenticated/connected and are worth the user's attention together."
+    },
+    {
+      "date": "2026-10-05",
+      "week": "2026-W41",
+      "source": "Composio YOUTUBE_GET_CHANNEL_STATISTICS (mine=true, both accounts)",
+      "channels": {
+        "yt-bbmw0": {
+          "handle": "@bbmw.0",
+          "channelId": "UCSRkqZ0PckW8ae-cnZcN1hw",
+          "subscribers": 7,
+          "views": 15135,
+          "publicVideos": 106,
+          "reelsLive": null
+        },
+        "yt-bbm0902": {
+          "handle": "@bbm0902",
+          "channelId": "UC5O9s1vte7UiLICKP1pHiIQ",
+          "subscribers": 2,
+          "views": 1932,
+          "publicVideos": 40,
+          "reelsLive": null
+        }
+      },
+      "totals": {
+        "subscribers": 9,
+        "views": 17067,
+        "publicVideos": 146
+      },
+      "note": "10 days since 2026-09-25. yt-bbmw0: subscribers 5 to 7, views 10427 to 15135 (+4708, about 470/day, slower than the previous period's ~610/day but still clearly up). publicVideos reads 106 here vs 77 last time; that jump is larger than real new uploads (about 27 since 25 Sep), so the counter definition or cache likely differs between reads; treat publicVideos as unreliable. yt-bbm0902 is FLAT: views 1926 to 1932, subscribers 2, videos 40, last upload 2026-09-18. Cause is supply, not auth: 0 unused verified topics across its 5 niches (animals, space, biology, food, weather) as of today. ig-aigameodyssey: no numbers; the Composio connection meant for it is logged into blankdiscussions (see channels.json _disabledOn2026-10-05), and every IG upload since at least 28 Sep failed."
     }
   ]
 }
