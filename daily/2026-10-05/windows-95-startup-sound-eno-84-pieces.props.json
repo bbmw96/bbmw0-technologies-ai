@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (windows-95-startup-sound-eno-84-pieces)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B2A2A",
+    "ink": "#F2FFFC",
+    "accent": "#3FD0C9",
+    "muted": "#6FA39F"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Tech",
+      "text": "The Windows 95 startup sound was written by Brian Eno, on a Mac.",
+      "note": "He said: I have never used a PC in my life.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "credit",
+      "year": "1994",
+      "name": "Brian Eno",
+      "role": "Ambient music pioneer commissioned by Microsoft designers Mark Malamud and Erik Gavriluk.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "statement",
+      "lead": "The brief",
+      "text": "The brief asked for music that was inspiring, optimistic, futuristic and sentimental.",
+      "note": "And it had to be 3.25 seconds long.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "figure",
+      "value": "84",
+      "unit": "pieces",
+      "context": "How many short compositions Eno wrote for that one sound.",
+      "durationInFrames": 94
+    },
+    {
+      "kind": "statement",
+      "lead": "The recognition",
+      "text": "The sound has since been preserved by the Library of Congress.",
+      "note": "It was added to the National Recording Registry in 2025.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "kicker",
+      "text": "One of the most heard sounds in computing came from eighty four tries.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "sign",
+      "line": "Small constraints make big work.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

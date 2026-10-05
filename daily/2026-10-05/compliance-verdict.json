@@ -1,0 +1,189 @@
+{
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T17:35:56.315Z",
+  "policyVersion": "1.0.0",
+  "strictMode": false,
+  "allowed": [
+    "pokemon-go-50x-traffic-2016",
+    "therac-25-software-replaced-interlocks-1985"
+  ],
+  "blocked": [
+    "windows-95-startup-sound-eno-84-pieces"
+  ],
+  "results": [
+    {
+      "slug": "pokemon-go-50x-traffic-2016",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Pokémon Go did not just have a busy launch. It was planned for a tiny fraction of the traffic it",
+      "niche": "app",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.1,
+        "worstTitleAgainst": "word2vec-king-queen-analogy",
+        "worstDescriptionSimilarity": 0.246,
+        "combo": "reel:#07141F:#FFCB05:#EAF6FF",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "therac-25-software-replaced-interlocks-1985",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "A radiation machine killed patients because software replaced a lock.",
+      "niche": "tech",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "safety.context_review",
+          "message": "Context-sensitive term(s) present: killed, died. Legitimate in educational science and history, referred to the AI safety reviewer.",
+          "detail": {
+            "terms": [
+              "killed",
+              "died"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.092,
+        "worstTitleAgainst": "instagram-burbn-pivot",
+        "worstDescriptionSimilarity": 0.279,
+        "combo": "reel:#10161C:#38BDF8:#EEF3F7",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "windows-95-startup-sound-eno-84-pieces",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "The Windows 95 startup sound was written by Brian Eno, on a Mac.",
+      "niche": "tech",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "safety.hard_banned",
+          "message": "Prohibited term \"congress\" appears in the video text or metadata.",
+          "detail": {
+            "term": "congress"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "halal.context_review",
+          "message": "Term(s) needing context: music. Referred to the AI reviewer.",
+          "detail": {
+            "terms": [
+              "music"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.2,
+        "worstTitleAgainst": "windows-solitaire-intern-no-royalties",
+        "worstDescriptionSimilarity": 0.25,
+        "combo": "reel:#0B2A2A:#3FD0C9:#F2FFFC",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    }
+  ]
+}

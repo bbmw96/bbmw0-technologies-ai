@@ -285,7 +285,10 @@
     "reel:carrington-doubted-the-link-1859",
     "reel:toy-story-2-deleted-rm-rf-1998",
     "reel:gpt2-too-dangerous-staged-release",
-    "reel:backpropagation-linnainmaa-1970"
+    "reel:backpropagation-linnainmaa-1970",
+    "reel:windows-95-startup-sound-eno-84-pieces",
+    "reel:pokemon-go-50x-traffic-2016",
+    "reel:therac-25-software-replaced-interlocks-1985"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -4995,6 +4998,53 @@
       "channelId": "ig-aigameodyssey",
       "special": false,
       "platform": "instagram"
+    },
+    {
+      "id": "windows-95-startup-sound-eno-84-pieces",
+      "date": "2026-10-05",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The Windows 95 startup sound was written by Brian Eno, on a Mac.",
+      "description": "The Windows 95 startup sound was written by Brian Eno, on a Mac. He said: I have never used a PC in my life.\n\nAmbient music pioneer commissioned by Microsoft designers Mark Malamud and Erik Gavriluk.\n\nThe brief asked for music that was inspiring, optimistic, futuristic and sentimental. And it had to be 3.25 seconds long.\n\nHow many short compositions Eno wrote for that one sound.\n\nThe sound has since been preserved by the Library of Congress. It was added to the National Recording Registry in 2025.\n\nOne of the most heard sounds in computing came from eighty four tries.\n\nSources:\n- https://www.mentalfloss.com/article/50824/creating-windows-95-startup-sound - Mental Floss; established Brian Eno was hired, the brief asked for music that was inspiring, universal, optimistic, futuristic, sentimental and emotional, it had to be 3.25 seconds long, he wrote 84 pieces, and he used a Mac, quoting him: I have never used a PC in my life.\n- https://www.popsci.com/technology/windows-95-startup-sound-library-of-congress/ - Popular Science; established the 1994 commission by Microsoft designers Mark Malamud and Erik Gavriluk, the 84 compositions, the 3.25 second requirement in Eno's own recollection, that he wrote it on a Mac, and its 2025 addition to the National Recording Registry.\n- https://en.wikipedia.org/wiki/Windows_95 - Wikipedia; established the 24 August 1995 retail release and that the sound is called The Microsoft Sound.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "pokemon-go-50x-traffic-2016",
+      "date": "2026-10-05",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Pokémon Go did not just have a busy launch. It was planned for a tiny fraction of the traffic it",
+      "description": "Pokémon Go did not just have a busy launch. It was planned for a tiny fraction of the traffic it got. The engineers targeted 1X, and treated about 5X as the worst case.\n\nLaunched Pokémon Go on 6 July 2016 in Australia, New Zealand and the United States.\n\nThe traffic it actually received compared with the original target, ten times the worst case estimate.\n\nThe first launch region blew past the plan within 15 minutes. Google wrote that Australia and New Zealand exceeded expectations almost at once.\n\nIt ran on Kubernetes at a scale Google had not seen before. Google called it the largest Kubernetes deployment on its container service at the time.\n\nThe crashes were not a failure to plan. The plan was fifty times too small.\n\nSources:\n- https://cloud.google.com/blog/products/containers-kubernetes/bringing-pokemon-go-to-life-on-google-cloud - Google Cloud blog by Luke Stone, 29 September 2016; established the 1X target, a worst case estimate of about 5X, actual traffic of 50X the target (10 times the worst case), the Australia and New Zealand launch exceeding expectations within 15 minutes, and the game running on Google Container Engine with Kubernetes.\n- https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go - Wikipedia; established the 6 July 2016 launch in Australia, New Zealand and the United States, crashes and login errors lasting days, and more than 10 million downloads in the first week.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "uRBKBTXPCL0",
+      "youtubeUrl": "https://youtu.be/uRBKBTXPCL0",
+      "uploadedAt": "2026-10-05T17:37:03.085Z",
+      "privacy": "public"
+    },
+    {
+      "id": "therac-25-software-replaced-interlocks-1985",
+      "date": "2026-10-05",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "A radiation machine killed patients because software replaced a lock.",
+      "description": "A radiation machine killed patients because software replaced a lock. The Therac-25 swapped earlier hardware interlocks for software checks.\n\nSix documented overdose accidents followed between June 1985 and January 1987. At least three patients died.\n\nA fast edit could trick the machine. Slides on the investigation describe an operator changing the mode within about 8 seconds, a race condition in reading input.\n\nThe worst overdoses were up to 250 times the normal dose, according to Wikipedia.\n\nThe error messages were cryptic. Operators saw messages such as Malfunction 54. Slides on the investigation say they became insensitised to errors.\n\nIssued a shutdown order on 6 February 1987 and required a redesign of the software and the safety interlocks.\n\nThe software was trusted. The patients paid for it.\n\nSources:\n- https://en.wikipedia.org/wiki/Therac-25 - Wikipedia; established six documented accidents between June 1985 and January 1987, at least three patient deaths, doses of 150 to 200 Gy against an intended 2 Gy in the first case, the integer overflow in a bit flag that let the beam run in X-ray mode without the target in place, and that earlier hardware interlocks were replaced by software checks. Investigation by Nancy Leveson and Clark Turner published in Computer in 1993.\n- https://cs.huji.ac.il/w~feit/sem/se11/therac.pdf - Course slides summarising Leveson and Turner; established 11 machines installed in the US and Canada, three race condition bugs, an operator able to change treatment mode within about 8 seconds, cryptic error messages such as Malfunction 54, software written by a single programmer in PDP-11 assembler, and hardware interlocks removed as considered unnecessary.\n- https://ethicsunwrapped.utexas.edu/case-study/therac-25 - University of Texas case study; established that patients reported being burned by the machine, that the company considered it impossible, that the FDA issued a shutdown order on 6 February 1987 and ordered a redesign of software, safety features and mechanical interlocks. It says six fatal accidents, which conflicts with Wikipedia and is not used.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "4ao__9DD310",
+      "youtubeUrl": "https://youtu.be/4ao__9DD310",
+      "uploadedAt": "2026-10-05T17:38:03.654Z",
+      "privacy": "public"
     }
   ]
 }

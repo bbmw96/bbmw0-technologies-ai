@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (therac-25-software-replaced-interlocks-1985)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#10161C",
+    "ink": "#EEF3F7",
+    "accent": "#38BDF8",
+    "muted": "#7A8793"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Tech",
+      "text": "A radiation machine killed patients because software replaced a lock.",
+      "note": "The Therac-25 swapped earlier hardware interlocks for software checks.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "credit",
+      "year": "1985",
+      "name": "Therac-25",
+      "role": "Six documented overdose accidents followed between June 1985 and January 1987. At least three patients died.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "statement",
+      "lead": "The fault",
+      "text": "A fast edit could trick the machine.",
+      "note": "Slides on the investigation describe an operator changing the mode within about 8 seconds, a race condition in reading input.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "figure",
+      "value": "250",
+      "unit": "times",
+      "context": "The worst overdoses were up to 250 times the normal dose, according to Wikipedia.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "statement",
+      "lead": "The warnings",
+      "text": "The error messages were cryptic.",
+      "note": "Operators saw messages such as Malfunction 54. Slides on the investigation say they became insensitised to errors.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "credit",
+      "year": "1987",
+      "name": "The FDA",
+      "role": "Issued a shutdown order on 6 February 1987 and required a redesign of the software and the safety interlocks.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "kicker",
+      "text": "The software was trusted. The patients paid for it.",
+      "durationInFrames": 76
+    },
+    {
+      "kind": "sign",
+      "line": "Tech needs a second lock.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

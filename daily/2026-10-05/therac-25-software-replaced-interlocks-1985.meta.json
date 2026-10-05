@@ -1,0 +1,25 @@
+{
+  "slug": "therac-25-software-replaced-interlocks-1985",
+  "date": "2026-10-05",
+  "title": "A radiation machine killed patients because software replaced a lock.",
+  "description": "A radiation machine killed patients because software replaced a lock. The Therac-25 swapped earlier hardware interlocks for software checks.\n\nSix documented overdose accidents followed between June 1985 and January 1987. At least three patients died.\n\nA fast edit could trick the machine. Slides on the investigation describe an operator changing the mode within about 8 seconds, a race condition in reading input.\n\nThe worst overdoses were up to 250 times the normal dose, according to Wikipedia.\n\nThe error messages were cryptic. Operators saw messages such as Malfunction 54. Slides on the investigation say they became insensitised to errors.\n\nIssued a shutdown order on 6 February 1987 and required a redesign of the software and the safety interlocks.\n\nThe software was trusted. The patients paid for it.\n\nSources:\n- https://en.wikipedia.org/wiki/Therac-25 - Wikipedia; established six documented accidents between June 1985 and January 1987, at least three patient deaths, doses of 150 to 200 Gy against an intended 2 Gy in the first case, the integer overflow in a bit flag that let the beam run in X-ray mode without the target in place, and that earlier hardware interlocks were replaced by software checks. Investigation by Nancy Leveson and Clark Turner published in Computer in 1993.\n- https://cs.huji.ac.il/w~feit/sem/se11/therac.pdf - Course slides summarising Leveson and Turner; established 11 machines installed in the US and Canada, three race condition bugs, an operator able to change treatment mode within about 8 seconds, cryptic error messages such as Malfunction 54, software written by a single programmer in PDP-11 assembler, and hardware interlocks removed as considered unnecessary.\n- https://ethicsunwrapped.utexas.edu/case-study/therac-25 - University of Texas case study; established that patients reported being burned by the machine, that the company considered it impossible, that the FDA issued a shutdown order on 6 February 1987 and ordered a redesign of software, safety features and mechanical interlocks. It says six fatal accidents, which conflicts with Wikipedia and is not used.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-10-05-therac-25-software-replaced-interlocks-1985.mp4",
+  "propsFile": "daily/2026-10-05/therac-25-software-replaced-interlocks-1985.props.json",
+  "durationInFrames": 1078,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

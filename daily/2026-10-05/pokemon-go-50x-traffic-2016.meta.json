@@ -1,0 +1,25 @@
+{
+  "slug": "pokemon-go-50x-traffic-2016",
+  "date": "2026-10-05",
+  "title": "Pokémon Go did not just have a busy launch. It was planned for a tiny fraction of the traffic it",
+  "description": "Pokémon Go did not just have a busy launch. It was planned for a tiny fraction of the traffic it got. The engineers targeted 1X, and treated about 5X as the worst case.\n\nLaunched Pokémon Go on 6 July 2016 in Australia, New Zealand and the United States.\n\nThe traffic it actually received compared with the original target, ten times the worst case estimate.\n\nThe first launch region blew past the plan within 15 minutes. Google wrote that Australia and New Zealand exceeded expectations almost at once.\n\nIt ran on Kubernetes at a scale Google had not seen before. Google called it the largest Kubernetes deployment on its container service at the time.\n\nThe crashes were not a failure to plan. The plan was fifty times too small.\n\nSources:\n- https://cloud.google.com/blog/products/containers-kubernetes/bringing-pokemon-go-to-life-on-google-cloud - Google Cloud blog by Luke Stone, 29 September 2016; established the 1X target, a worst case estimate of about 5X, actual traffic of 50X the target (10 times the worst case), the Australia and New Zealand launch exceeding expectations within 15 minutes, and the game running on Google Container Engine with Kubernetes.\n- https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go - Wikipedia; established the 6 July 2016 launch in Australia, New Zealand and the United States, crashes and login errors lasting days, and more than 10 million downloads in the first week.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "app",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-10-05-pokemon-go-50x-traffic-2016.mp4",
+  "propsFile": "daily/2026-10-05/pokemon-go-50x-traffic-2016.props.json",
+  "durationInFrames": 1050,
+  "audioUrl": "",
+  "niche": "app",
+  "composition": "Reel"
+}

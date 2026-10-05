@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (pokemon-go-50x-traffic-2016)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#07141F",
+    "ink": "#EAF6FF",
+    "accent": "#FFCB05",
+    "muted": "#6F8DA6"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "App",
+      "text": "Pokémon Go did not just have a busy launch. It was planned for a tiny fraction of the traffic it got.",
+      "note": "The engineers targeted 1X, and treated about 5X as the worst case.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2016",
+      "name": "Niantic",
+      "role": "Launched Pokémon Go on 6 July 2016 in Australia, New Zealand and the United States.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "figure",
+      "value": "50",
+      "unit": "times",
+      "context": "The traffic it actually received compared with the original target, ten times the worst case estimate.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "statement",
+      "lead": "How fast",
+      "text": "The first launch region blew past the plan within 15 minutes.",
+      "note": "Google wrote that Australia and New Zealand exceeded expectations almost at once.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "statement",
+      "lead": "Under the hood",
+      "text": "It ran on Kubernetes at a scale Google had not seen before.",
+      "note": "Google called it the largest Kubernetes deployment on its container service at the time.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "kicker",
+      "text": "The crashes were not a failure to plan. The plan was fifty times too small.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "sign",
+      "line": "Every big launch is a guess.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

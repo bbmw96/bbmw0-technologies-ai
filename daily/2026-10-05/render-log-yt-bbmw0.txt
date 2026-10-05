@@ -1,0 +1,20 @@
+Rendering 3 Shorts for 2026-10-05 (concurrency=3, GL=default)
+Compliance: 2 cleared, 1 blocked (policy v1.0.0).
+Blocked by compliance: windows-95-startup-sound-eno-84-pieces
+
+--- pokemon-go-50x-traffic-2016 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-05-pokemon-go-50x-traffic-2016.mp4
+  uploaded public: https://youtu.be/uRBKBTXPCL0
+
+--- therac-25-software-replaced-interlocks-1985 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-05-therac-25-software-replaced-interlocks-1985.mp4
+  uploaded public: https://youtu.be/4ao__9DD310
+
+--- windows-95-startup-sound-eno-84-pieces ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-05-windows-95-startup-sound-eno-84-pieces.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-10-05/compliance-verdict.json.
+
+=== Done. 3 rendered, 2 uploaded, 0 skipped, 1 blocked by compliance, 0 failed. ===
