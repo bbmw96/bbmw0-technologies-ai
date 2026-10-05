@@ -11826,6 +11826,236 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "pokemon-go-50x-traffic-2016",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://cloud.google.com/blog/products/containers-kubernetes/bringing-pokemon-go-to-life-on-google-cloud - Google Cloud blog by Luke Stone, 29 September 2016; established the 1X target, a worst case estimate of about 5X, actual traffic of 50X the target (10 times the worst case), the Australia and New Zealand launch exceeding expectations within 15 minutes, and the game running on Google Container Engine with Kubernetes.",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go - Wikipedia; established the 6 July 2016 launch in Australia, New Zealand and the United States, crashes and login errors lasting days, and more than 10 million downloads in the first week."
+      ],
+      "verifiedNote": "Checked 5 Oct 2026. Not claimed: any revenue or later download totals (they differ between sources), that Niantic or Google staff said anything beyond the blog post, or exact server counts (the post says only many tens of thousands of cores). The 5X worst case is from the Google post; Wikipedia paraphrases it as 10 times the worst case, which agrees.",
+      "palette": {
+        "bg": "#07141F",
+        "ink": "#EAF6FF",
+        "accent": "#FFCB05",
+        "muted": "#6F8DA6"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "App",
+          "text": "Pokémon Go did not just have a busy launch. It was planned for a tiny fraction of the traffic it got.",
+          "note": "The engineers targeted 1X, and treated about 5X as the worst case."
+        },
+        {
+          "kind": "credit",
+          "year": "2016",
+          "name": "Niantic",
+          "role": "Launched Pokémon Go on 6 July 2016 in Australia, New Zealand and the United States."
+        },
+        {
+          "kind": "figure",
+          "value": "50",
+          "unit": "times",
+          "context": "The traffic it actually received compared with the original target, ten times the worst case estimate."
+        },
+        {
+          "kind": "statement",
+          "lead": "How fast",
+          "text": "The first launch region blew past the plan within 15 minutes.",
+          "note": "Google wrote that Australia and New Zealand exceeded expectations almost at once."
+        },
+        {
+          "kind": "statement",
+          "lead": "Under the hood",
+          "text": "It ran on Kubernetes at a scale Google had not seen before.",
+          "note": "Google called it the largest Kubernetes deployment on its container service at the time."
+        },
+        {
+          "kind": "kicker",
+          "text": "The crashes were not a failure to plan. The plan was fifty times too small."
+        },
+        {
+          "kind": "sign",
+          "line": "Every big launch is a guess.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "fortnite-battle-royale-two-months-2017",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://www.pcgamer.com/uk/fortnite-battle-royale-was-developed-in-just-two-months-and-wasnt-originally-going-to-be-free-to-play - PC Gamer reporting a GDC talk by Epic's Ed Zobrist; established about two months of development starting around the Save the World launch, the Unreal Tournament team leading it, and the free to play decision coming in the final two weeks. The article text says 2018 in one place, which is a typo; every other source gives 2017.",
+        "https://en.wikipedia.org/wiki/Fortnite - Wikipedia; established Save the World early access on 25 July 2017, Battle Royale built in about two months, and more than 10 million players within two weeks of release.",
+        "https://en.wikipedia.org/wiki/Fortnite_Battle_Royale - Wikipedia; established the 26 September 2017 release and that it was first planned as part of the paid game before becoming a separate free title."
+      ],
+      "verifiedNote": "Checked 5 Oct 2026. Not claimed: the Disney car ride story or the school bus origin of the Battle Bus (only one summary source, not read in a primary account), named individual developers beyond the Unreal Tournament team, any lawsuit with PUBG (not found in the pages read), or later player totals. Fortnite itself began development years earlier; only the Battle Royale mode took two months.",
+      "palette": {
+        "bg": "#0E0B22",
+        "ink": "#F4F0FF",
+        "accent": "#9D4DFF",
+        "muted": "#8A82B0"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Gaming",
+          "text": "The game that made Fortnite a giant was built in about two months.",
+          "note": "Battle Royale started around the time Save the World launched in July 2017."
+        },
+        {
+          "kind": "credit",
+          "year": "2017",
+          "name": "Unreal Tournament team",
+          "role": "The Epic team that Ed Zobrist said picked up the charge to build Battle Royale."
+        },
+        {
+          "kind": "figure",
+          "value": "2",
+          "unit": "months",
+          "context": "About how long Battle Royale took to build before its 26 September 2017 release."
+        },
+        {
+          "kind": "statement",
+          "lead": "The late pivot",
+          "text": "It was meant to be part of the paid game.",
+          "note": "Epic made it a separate free to play title in the final two weeks before launch."
+        },
+        {
+          "kind": "statement",
+          "lead": "The result",
+          "text": "More than 10 million players tried it within two weeks.",
+          "note": "That figure is from Wikipedia's Fortnite article."
+        },
+        {
+          "kind": "kicker",
+          "text": "A paid mode became a free game, and the whole thing was a late decision."
+        },
+        {
+          "kind": "sign",
+          "line": "Big hits are often rushed.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "windows-95-startup-sound-eno-84-pieces",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://www.mentalfloss.com/article/50824/creating-windows-95-startup-sound - Mental Floss; established Brian Eno was hired, the brief asked for music that was inspiring, universal, optimistic, futuristic, sentimental and emotional, it had to be 3.25 seconds long, he wrote 84 pieces, and he used a Mac, quoting him: I have never used a PC in my life.",
+        "https://www.popsci.com/technology/windows-95-startup-sound-library-of-congress/ - Popular Science; established the 1994 commission by Microsoft designers Mark Malamud and Erik Gavriluk, the 84 compositions, the 3.25 second requirement in Eno's own recollection, that he wrote it on a Mac, and its 2025 addition to the National Recording Registry.",
+        "https://en.wikipedia.org/wiki/Windows_95 - Wikipedia; established the 24 August 1995 retail release and that the sound is called The Microsoft Sound."
+      ],
+      "verifiedNote": "Checked 5 Oct 2026. Not claimed: the final length of the released sound (Wikipedia says six seconds, Popular Science says the chosen version was double the brief, Mental Floss says 3.25, so the sources disagree), Eno's fee (not stated in sources read), or which of the 84 pieces was chosen. The 3.25 seconds is only claimed as the brief.",
+      "palette": {
+        "bg": "#0B2A2A",
+        "ink": "#F2FFFC",
+        "accent": "#3FD0C9",
+        "muted": "#6FA39F"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Tech",
+          "text": "The Windows 95 startup sound was written by Brian Eno, on a Mac.",
+          "note": "He said: I have never used a PC in my life."
+        },
+        {
+          "kind": "credit",
+          "year": "1994",
+          "name": "Brian Eno",
+          "role": "Ambient music pioneer commissioned by Microsoft designers Mark Malamud and Erik Gavriluk."
+        },
+        {
+          "kind": "statement",
+          "lead": "The brief",
+          "text": "The brief asked for music that was inspiring, optimistic, futuristic and sentimental.",
+          "note": "And it had to be 3.25 seconds long."
+        },
+        {
+          "kind": "figure",
+          "value": "84",
+          "unit": "pieces",
+          "context": "How many short compositions Eno wrote for that one sound."
+        },
+        {
+          "kind": "statement",
+          "lead": "The recognition",
+          "text": "The sound has since been preserved by the Library of Congress.",
+          "note": "It was added to the National Recording Registry in 2025."
+        },
+        {
+          "kind": "kicker",
+          "text": "One of the most heard sounds in computing came from eighty four tries."
+        },
+        {
+          "kind": "sign",
+          "line": "Small constraints make big work.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "ai-art-colorado-state-fair-2022",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://www.cbsnews.com/amp/colorado/news/ai-created-art-exhibit-first-place-colorado-state-fair-causing-controversy-jason-allen - CBS Colorado, September 2022; established Jason Allen won first place in the digital arts and digitally manipulated photography category with Theatre D'opera Spatial made using Midjourney, that the category had 18 accepted entries, and that his win drew thousands of critical comments online.",
+        "https://wtop.com/arts/2022/09/ai-won-an-art-contest-and-artists-are-furious/ - WTOP; established the 300 dollar prize, that Allen spent over 80 hours and about 900 iterations before choosing three images, that he used Photoshop and Gigapixel AI afterwards, and that judge Cal Duran said he did not realise it was AI generated but kept his decision."
+      ],
+      "verifiedNote": "Checked 5 Oct 2026. Not claimed: the exact date of the fair (only that Allen announced the win in late August 2022), the later US Copyright Office ruling (not read in this run), or whether the other judges knew. The 900 iterations and 80 hours are Allen's own account as reported by WTOP. The piece title is written without accents to match the figure style used elsewhere.",
+      "palette": {
+        "bg": "#140A22",
+        "ink": "#F7EFFF",
+        "accent": "#E0A93B",
+        "muted": "#9A86B3"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "AI",
+          "text": "An AI generated picture won a state fair art prize in 2022.",
+          "note": "Jason Allen won first place at the Colorado State Fair with a piece made in Midjourney."
+        },
+        {
+          "kind": "credit",
+          "year": "2022",
+          "name": "Jason Allen",
+          "role": "Entered Theatre D'opera Spatial in the digital arts and digitally manipulated photography category."
+        },
+        {
+          "kind": "figure",
+          "value": "900",
+          "unit": "versions",
+          "context": "About how many iterations Allen said he refined over more than 80 hours before picking three images."
+        },
+        {
+          "kind": "statement",
+          "lead": "The prize",
+          "text": "First place was worth 300 dollars.",
+          "note": "The category had 18 accepted entries, according to CBS Colorado."
+        },
+        {
+          "kind": "statement",
+          "lead": "The judge",
+          "text": "One judge did not realise it was AI.",
+          "note": "Cal Duran told reporters he kept his decision anyway."
+        },
+        {
+          "kind": "kicker",
+          "text": "The prize was small. The argument it started was not."
+        },
+        {
+          "kind": "sign",
+          "line": "Tools change faster than rules.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
