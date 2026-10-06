@@ -1,0 +1,49 @@
+{
+  "slug": "quran-13-11",
+  "date": "2026-10-06",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "For each one are successive [angels] before and behind him who protect him by the decree of Allah. Indeed, Allah will not change the condition of a people until they change what is in themselves. And when Allah intends for a people ill, there is no repelling it. And there is not for them besides Him any patron.\n\nSurah Ar-Ra'd (13:11). Swipe through for the Arabic, then English, Mandarin, Korean, Japanese, Malay, Thai and Spanish.\n\nSources on the final slide.\n\n#Quran #Guidance #Change #IslamicReminder #Deen",
+  "tags": [
+    "Quran",
+    "Change",
+    "IslamicReminder",
+    "Deen"
+  ],
+  "theme": "lilac-pine",
+  "slides": [
+    "quran-13-11.slide-01.json",
+    "quran-13-11.slide-02.json",
+    "quran-13-11.slide-03.json",
+    "quran-13-11.slide-04.json",
+    "quran-13-11.slide-05.json",
+    "quran-13-11.slide-06.json",
+    "quran-13-11.slide-07.json",
+    "quran-13-11.slide-08.json",
+    "quran-13-11.slide-09.json",
+    "quran-13-11.slide-10.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an 13:11, Surah Ar-Ra'd. Not used by any prior post (checked against all existing blankdiscussions meta.json files). Standing 8-language/10-slide format.",
+    "arabic": "Edition quran-uthmani, live call api.alquran.cloud/v1/ayah/13:11/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese,ms.basmeih,th.thai,es.cortes (HTTP 200, fetched 2026-10-06); fetched twice in the same script and the two responses diffed identical; slide text written programmatically from the raw API fields, no retyping.",
+    "english": "Edition en.sahih (Saheeh International), same call, byte-identical.",
+    "chinese": "Edition zh.jian (Ma Jian), same call, byte-identical.",
+    "korean": "Edition ko.korean, translator 'Unknown' per source so slide says 'Translator not specified by source'. Byte-identical; artifact scan (double spaces, space before punctuation, leading/trailing whitespace, control chars) found none. (Source text contains mid-word line-break-like spacing e.g. '명 령', '백성 에게' - left untouched as source wording.)",
+    "japanese": "Edition ja.japanese, translator 'Unknown' per source, byte-identical, same artifact scan clean.",
+    "malay": "Edition ms.basmeih (Abdullah Muhammad Basmeih), byte-identical.",
+    "thai": "Edition th.thai (King Fahad Quran Complex), byte-identical.",
+    "spanish": "Edition es.cortes (Julio Cortes), byte-identical.",
+    "source_artifact_note": "Slide text left byte-identical to the API, nothing edited. Caption uses the English line unchanged.",
+    "verification_note": "Live fetch performed this session in the same script that wrote the slide files. No wording from memory.",
+    "compliance_check": "Checked against 142 string terms in compliance-policy.json halal section across all slide text: 0 hits."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide daily/2026-10-06/blankdiscussions/renders/quran-13-11-slide-NN.jpg --image-format=jpeg --jpeg-quality=92 --props=daily/2026-10-06/blankdiscussions/quran-13-11.slide-NN.json (NN = 01..10)",
+  "status": "rendered",
+  "theme_note": "All 36 prior themes used; lilac-pine (Lilac & Pine) added as the 37th.",
+  "hosting_verified": {
+    "checkedAt": "2026-10-06",
+    "note": "Visually spot-checked Arabic (02), Chinese (04), Korean (05), Japanese (06), Malay (07), Thai (08): no tofu or missing glyphs."
+  }
+}
