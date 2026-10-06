@@ -40,10 +40,29 @@
     "compliance_check": "Checked against 142 string terms in compliance-policy.json halal section across all slide text: 0 hits."
   },
   "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide daily/2026-10-06/blankdiscussions/renders/quran-13-11-slide-NN.jpg --image-format=jpeg --jpeg-quality=92 --props=daily/2026-10-06/blankdiscussions/quran-13-11.slide-NN.json (NN = 01..10)",
-  "status": "rendered",
+  "status": "published",
   "theme_note": "All 36 prior themes used; lilac-pine (Lilac & Pine) added as the 37th.",
   "hosting_verified": {
     "checkedAt": "2026-10-06",
-    "note": "Visually spot-checked Arabic (02), Chinese (04), Korean (05), Japanese (06), Malay (07), Thai (08): no tofu or missing glyphs."
+    "note": "Visually spot-checked Arabic (02), Chinese (04), Korean (05), Japanese (06), Malay (07), Thai (08): no tofu or missing glyphs.",
+    "httpStatus": 200
+  },
+  "published": {
+    "mediaId": "18098978984339685",
+    "permalink": "https://www.instagram.com/p/DeJdTpWlaWR/",
+    "publishedAt": "2026-10-06T09:25:53+0000",
+    "hostingUrls": [
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-06/blankdiscussions/renders/quran-13-11-slide-01.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-06/blankdiscussions/renders/quran-13-11-slide-02.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-06/blankdiscussions/renders/quran-13-11-slide-03.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-06/blankdiscussions/renders/quran-13-11-slide-04.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-06/blankdiscussions/renders/quran-13-11-slide-05.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-06/blankdiscussions/renders/quran-13-11-slide-06.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-06/blankdiscussions/renders/quran-13-11-slide-07.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-06/blankdiscussions/renders/quran-13-11-slide-08.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-06/blankdiscussions/renders/quran-13-11-slide-09.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-06/blankdiscussions/renders/quran-13-11-slide-10.jpg"
+    ],
+    "publishedVia": "Composio INSTAGRAM_POST_IG_USER_MEDIA (children + CAROUSEL parent) + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH (connection instagram_willed-pried)"
   }
 }
