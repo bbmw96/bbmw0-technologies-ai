@@ -1,50 +1,69 @@
 {
-  "slug": "quran-2-45",
-  "date": "2026-10-06",
-  "channel": "ig-blankdiscussions",
-  "platform": "instagram",
-  "handle": "@blankdiscussions",
-  "mediaFormat": "carousel",
-  "caption": "And seek help through patience and prayer, and indeed, it is difficult except for the humbly submissive [to Allah]\n\nSurah Al-Baqarah (2:45). Swipe through for the Arabic, then English, Mandarin, Korean, Japanese, Malay, Thai and Spanish.\n\nSources on the final slide.\n\n#Quran #Guidance #Patience #Prayer #IslamicReminder #Deen",
-  "tags": [
-    "Quran",
-    "Patience",
-    "Prayer",
-    "IslamicReminder",
-    "Deen"
-  ],
-  "theme": "mist-garnet",
-  "slides": [
-    "quran-2-45.slide-01.json",
-    "quran-2-45.slide-02.json",
-    "quran-2-45.slide-03.json",
-    "quran-2-45.slide-04.json",
-    "quran-2-45.slide-05.json",
-    "quran-2-45.slide-06.json",
-    "quran-2-45.slide-07.json",
-    "quran-2-45.slide-08.json",
-    "quran-2-45.slide-09.json",
-    "quran-2-45.slide-10.json"
-  ],
-  "sourcing": {
-    "primary_text": "Qur'an 2:45, Surah Al-Baqarah. Not used by any prior post (checked against all existing blankdiscussions meta.json files). Standing 8-language/10-slide format.",
-    "arabic": "Edition quran-uthmani, live call api.alquran.cloud/v1/ayah/2:45/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese,ms.basmeih,th.thai,es.cortes (HTTP 200, fetched 2026-10-06); fetched twice in the same script and the two responses diffed identical; slide text written programmatically from the raw API fields, no retyping.",
-    "english": "Edition en.sahih (Saheeh International), same call, byte-identical.",
-    "chinese": "Edition zh.jian (Ma Jian), same call, byte-identical.",
-    "korean": "Edition ko.korean, translator 'Unknown' per source so slide says 'Translator not specified by source'. Byte-identical; artifact scan (double spaces, space before punctuation, leading/trailing whitespace, control chars) found none.",
-    "japanese": "Edition ja.japanese, translator 'Unknown' per source, byte-identical, same artifact scan clean.",
-    "malay": "Edition ms.basmeih (Abdullah Muhammad Basmeih), byte-identical.",
-    "thai": "Edition th.thai (King Fahad Quran Complex), byte-identical.",
-    "spanish": "Edition es.cortes (Julio Cortes), byte-identical.",
-    "source_artifact_note": "Slide text left byte-identical to the API, nothing edited. Caption uses the English line unchanged.",
-    "verification_note": "Live fetch performed this session in the same script that wrote the slide files. No wording from memory.",
-    "compliance_check": "Checked against 142 string terms in compliance-policy.json halal section across all slide text: 0 hits."
-  },
-  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide daily/2026-10-06/blankdiscussions/renders/quran-2-45-slide-NN.jpg --image-format=jpeg --jpeg-quality=92 --props=daily/2026-10-06/blankdiscussions/quran-2-45.slide-NN.json (NN = 01..10)",
-  "status": "rendered",
-  "theme_note": "All 37 prior themes used; mist-garnet (Mist & Garnet) added as the 38th.",
-  "hosting_verified": {
-    "checkedAt": "2026-10-06",
-    "note": "Visually spot-checked Arabic (02), Chinese (04), Korean (05), Japanese (06), Thai (08): no tofu or missing glyphs."
-  }
+    "slug":  "quran-2-45",
+    "date":  "2026-10-06",
+    "channel":  "ig-blankdiscussions",
+    "platform":  "instagram",
+    "handle":  "@blankdiscussions",
+    "mediaFormat":  "carousel",
+    "caption":  "And seek help through patience and prayer, and indeed, it is difficult except for the humbly submissive [to Allah]\n\nSurah Al-Baqarah (2:45). Swipe through for the Arabic, then English, Mandarin, Korean, Japanese, Malay, Thai and Spanish.\n\nSources on the final slide.\n\n#Quran #Guidance #Patience #Prayer #IslamicReminder #Deen",
+    "tags":  [
+                 "Quran",
+                 "Patience",
+                 "Prayer",
+                 "IslamicReminder",
+                 "Deen"
+             ],
+    "theme":  "mist-garnet",
+    "slides":  [
+                   "quran-2-45.slide-01.json",
+                   "quran-2-45.slide-02.json",
+                   "quran-2-45.slide-03.json",
+                   "quran-2-45.slide-04.json",
+                   "quran-2-45.slide-05.json",
+                   "quran-2-45.slide-06.json",
+                   "quran-2-45.slide-07.json",
+                   "quran-2-45.slide-08.json",
+                   "quran-2-45.slide-09.json",
+                   "quran-2-45.slide-10.json"
+               ],
+    "sourcing":  {
+                     "primary_text":  "Qur\u0027an 2:45, Surah Al-Baqarah. Not used by any prior post (checked against all existing blankdiscussions meta.json files). Standing 8-language/10-slide format.",
+                     "arabic":  "Edition quran-uthmani, live call api.alquran.cloud/v1/ayah/2:45/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese,ms.basmeih,th.thai,es.cortes (HTTP 200, fetched 2026-10-06); fetched twice in the same script and the two responses diffed identical; slide text written programmatically from the raw API fields, no retyping.",
+                     "english":  "Edition en.sahih (Saheeh International), same call, byte-identical.",
+                     "chinese":  "Edition zh.jian (Ma Jian), same call, byte-identical.",
+                     "korean":  "Edition ko.korean, translator \u0027Unknown\u0027 per source so slide says \u0027Translator not specified by source\u0027. Byte-identical; artifact scan (double spaces, space before punctuation, leading/trailing whitespace, control chars) found none.",
+                     "japanese":  "Edition ja.japanese, translator \u0027Unknown\u0027 per source, byte-identical, same artifact scan clean.",
+                     "malay":  "Edition ms.basmeih (Abdullah Muhammad Basmeih), byte-identical.",
+                     "thai":  "Edition th.thai (King Fahad Quran Complex), byte-identical.",
+                     "spanish":  "Edition es.cortes (Julio Cortes), byte-identical.",
+                     "source_artifact_note":  "Slide text left byte-identical to the API, nothing edited. Caption uses the English line unchanged.",
+                     "verification_note":  "Live fetch performed this session in the same script that wrote the slide files. No wording from memory.",
+                     "compliance_check":  "Checked against 142 string terms in compliance-policy.json halal section across all slide text: 0 hits."
+                 },
+    "renderCommand":  "npx remotion still src/compositions/registry.tsx IslamicSlide daily/2026-10-06/blankdiscussions/renders/quran-2-45-slide-NN.jpg --image-format=jpeg --jpeg-quality=92 --props=daily/2026-10-06/blankdiscussions/quran-2-45.slide-NN.json (NN = 01..10)",
+    "status":  "published",
+    "theme_note":  "All 37 prior themes used; mist-garnet (Mist \u0026 Garnet) added as the 38th.",
+    "hosting_verified":  {
+                             "checkedAt":  "2026-10-06",
+                             "note":  "Visually spot-checked Arabic (02), Chinese (04), Korean (05), Japanese (06), Thai (08): no tofu or missing glyphs.",
+                             "httpStatus":  200
+                         },
+    "published":  {
+                      "mediaId":  "18022283897714553",
+                      "permalink":  "https://www.instagram.com/p/DeKypBRmZqr/",
+                      "publishedAt":  "2026-10-06T21:51:34+0000",
+                      "hostingUrls":  [
+                                          "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-06/blankdiscussions/renders/quran-2-45-slide-01.jpg",
+                                          "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-06/blankdiscussions/renders/quran-2-45-slide-02.jpg",
+                                          "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-06/blankdiscussions/renders/quran-2-45-slide-03.jpg",
+                                          "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-06/blankdiscussions/renders/quran-2-45-slide-04.jpg",
+                                          "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-06/blankdiscussions/renders/quran-2-45-slide-05.jpg",
+                                          "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-06/blankdiscussions/renders/quran-2-45-slide-06.jpg",
+                                          "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-06/blankdiscussions/renders/quran-2-45-slide-07.jpg",
+                                          "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-06/blankdiscussions/renders/quran-2-45-slide-08.jpg",
+                                          "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-06/blankdiscussions/renders/quran-2-45-slide-09.jpg",
+                                          "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-06/blankdiscussions/renders/quran-2-45-slide-10.jpg"
+                                      ],
+                      "publishedVia":  "Composio INSTAGRAM_POST_IG_USER_MEDIA (children + CAROUSEL parent) + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH (connection instagram_willed-pried)"
+                  }
 }
