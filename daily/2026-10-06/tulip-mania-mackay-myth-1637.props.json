@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (tulip-mania-mackay-myth-1637)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#1E0D14",
+    "ink": "#FFF0F3",
+    "accent": "#F2788F",
+    "muted": "#B58C98"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The legend",
+      "text": "The tulip crash that ruined Holland is mostly a story.",
+      "note": "Historian Anne Goldgar found little evidence of widespread financial ruin.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "credit",
+      "year": "1841",
+      "name": "Charles Mackay",
+      "role": "Wrote that substantial merchants were reduced almost to beggary, drawing partly on satirical Dutch poems and pamphlets.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "statement",
+      "lead": "The crowd",
+      "text": "Far fewer people took part than the legend says.",
+      "note": "Goldgar counted about 285 traders in Haarlem, 60 in Amsterdam and 25 in Enkhuizen, and says those are underestimates.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "figure",
+      "value": "3",
+      "unit": "years",
+      "context": "What 1,100 guilders for a Switsers bulb equalled in a master carpenter's wages. Rich merchants could afford it.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "statement",
+      "lead": "The ruin",
+      "text": "She found virtually no bankruptcies traced to tulips.",
+      "note": "Bankruptcy records are patchy, so this is a lack of evidence, not proof.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "kicker",
+      "text": "The real damage was to trust, in a society that ran on credit.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "sign",
+      "line": "Check the famous version.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

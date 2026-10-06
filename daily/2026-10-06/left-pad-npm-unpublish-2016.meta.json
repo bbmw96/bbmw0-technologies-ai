@@ -1,0 +1,25 @@
+{
+  "slug": "left-pad-npm-unpublish-2016",
+  "date": "2026-10-06",
+  "title": "One programmer broke part of the web by deleting 11 lines of code.",
+  "description": "One programmer broke part of the web by deleting 11 lines of code. On 22 March 2016, Azer Koçulu unpublished 273 packages from npm, including left-pad.\n\nIndependent programmer who pulled all 273 of his npm packages after a dispute over the package name kik.\n\nThe size of left-pad in its final version. Some outlets reported 17 lines.\n\nIt began with a messaging app called Kik. Kik wanted the package name kik. npm says it followed its dispute policy, and that the unpublishing, not the dispute, caused the disruption.\n\nnpm put the deleted version back from a backup. Announced at 4:05 PM and finished by 4:55 PM Pacific, about two and a half hours after failures began, according to npm.\n\nEleven lines of code, and thousands of projects stopped to wait.\n\nSources:\n- https://en.wikipedia.org/wiki/Npm_left-pad_incident - Wikipedia; established the date of 22 March 2016, that Azer Koçulu deleted all 273 modules he had registered, that the final left-pad was 11 lines (some outlets said 17), that thousands of projects depended on it, and that npm later restricted unpublishing.\n- https://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm - npm's own account; established failures began around 2:30 PM Pacific, that Koçulu unpublished kik and 272 others, that npm republished left-pad 0.0.3 from backup, announced at 4:05 PM and finished by 4:55 PM, and that npm says its dispute policy was followed and the unpublishing caused the disruption.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-10-06-left-pad-npm-unpublish-2016.mp4",
+  "propsFile": "daily/2026-10-06/left-pad-npm-unpublish-2016.props.json",
+  "durationInFrames": 1068,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

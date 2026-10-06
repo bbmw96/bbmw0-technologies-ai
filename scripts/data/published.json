@@ -288,7 +288,10 @@
     "reel:backpropagation-linnainmaa-1970",
     "reel:windows-95-startup-sound-eno-84-pieces",
     "reel:pokemon-go-50x-traffic-2016",
-    "reel:therac-25-software-replaced-interlocks-1985"
+    "reel:therac-25-software-replaced-interlocks-1985",
+    "reel:tulip-mania-mackay-myth-1637",
+    "reel:sms-160-hillebrand-twitter-140",
+    "reel:left-pad-npm-unpublish-2016"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -5044,6 +5047,57 @@
       "youtubeId": "4ao__9DD310",
       "youtubeUrl": "https://youtu.be/4ao__9DD310",
       "uploadedAt": "2026-10-05T17:38:03.654Z",
+      "privacy": "public"
+    },
+    {
+      "id": "tulip-mania-mackay-myth-1637",
+      "date": "2026-10-06",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The tulip crash that ruined Holland is mostly a story.",
+      "description": "The tulip crash that ruined Holland is mostly a story. Historian Anne Goldgar found little evidence of widespread financial ruin.\n\nWrote that substantial merchants were reduced almost to beggary, drawing partly on satirical Dutch poems and pamphlets.\n\nFar fewer people took part than the legend says. Goldgar counted about 285 traders in Haarlem, 60 in Amsterdam and 25 in Enkhuizen, and says those are underestimates.\n\nWhat 1,100 guilders for a Switsers bulb equalled in a master carpenter's wages. Rich merchants could afford it.\n\nShe found virtually no bankruptcies traced to tulips. Bankruptcy records are patchy, so this is a lack of evidence, not proof.\n\nThe real damage was to trust, in a society that ran on credit.\n\nSources:\n- https://www.history.com/news/tulip-mania-financial-crash-holland - History.com; established that Charles Mackay's 1841 account is the source of the ruin story, that he drew on satirical Dutch poems and pamphlets, and that Anne Goldgar's archival work found little evidence of wider economic damage.\n- https://www.historytoday.com/print/pdf/node/54516/debug - History Today, Goldgar's own article; established about 285 traders in Haarlem, 60 in Amsterdam and 25 in Enkhuizen (underestimates), that 1,100 guilders for Switsers bulbs was about three years' wages for a master carpenter yet affordable to rich merchants, that she found virtually no bankruptcies caused by tulips though records are patchy, and that the real disruption was a breach of trust in a credit based society.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "CE0U7Gqevrg",
+      "youtubeUrl": "https://youtu.be/CE0U7Gqevrg",
+      "uploadedAt": "2026-10-06T15:37:19.556Z",
+      "privacy": "public"
+    },
+    {
+      "id": "sms-160-hillebrand-twitter-140",
+      "date": "2026-10-06",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The text message limit was set by counting postcards.",
+      "description": "The text message limit was set by counting postcards. Friedhelm Hillebrand chaired the GSM standardisation group in the 1980s.\n\nTested random messages, then postcards and telex texts, to choose how long a text should be.\n\nThe length he recommended, and the committee accepted.\n\nThe first SMS said Merry Christmas. Neil Papworth sent it on 3 December 1992 to Richard Jarvis.\n\nTwitter's 140 left 20 characters spare. Tweets were built to travel as texts, so 20 characters were kept back for the username and other data.\n\nPostcards set the length of a text, and a text set the length of a tweet.\n\nSources:\n- https://www.telefonica.com/en/communication-room/blog/origin-history-sms/ - Telefonica; established that Friedhelm Hillebrand chaired the GSM standardisation group, tested random messages that stayed within 160 characters, researched postcards and telex texts, recommended 160 which was accepted, that Neil Papworth sent the first SMS, Merry Christmas, on 3 December 1992 to Richard Jarvis, and that Twitter kept 20 of 160 characters for usernames and commands.\n- https://www.davidson.edu/news/all-atwitter-few-characters-weigh-140-v-280 - Davidson College; established that Hillebrand studied postcards, that tweets were designed to be sent as texts so Twitter used 140 and reserved 20 characters for metadata, and that Twitter doubled its limit to 280 in November 2017.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "JLu13q3Ks7U",
+      "youtubeUrl": "https://youtu.be/JLu13q3Ks7U",
+      "uploadedAt": "2026-10-06T15:36:20.856Z",
+      "privacy": "public"
+    },
+    {
+      "id": "left-pad-npm-unpublish-2016",
+      "date": "2026-10-06",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "One programmer broke part of the web by deleting 11 lines of code.",
+      "description": "One programmer broke part of the web by deleting 11 lines of code. On 22 March 2016, Azer Koçulu unpublished 273 packages from npm, including left-pad.\n\nIndependent programmer who pulled all 273 of his npm packages after a dispute over the package name kik.\n\nThe size of left-pad in its final version. Some outlets reported 17 lines.\n\nIt began with a messaging app called Kik. Kik wanted the package name kik. npm says it followed its dispute policy, and that the unpublishing, not the dispute, caused the disruption.\n\nnpm put the deleted version back from a backup. Announced at 4:05 PM and finished by 4:55 PM Pacific, about two and a half hours after failures began, according to npm.\n\nEleven lines of code, and thousands of projects stopped to wait.\n\nSources:\n- https://en.wikipedia.org/wiki/Npm_left-pad_incident - Wikipedia; established the date of 22 March 2016, that Azer Koçulu deleted all 273 modules he had registered, that the final left-pad was 11 lines (some outlets said 17), that thousands of projects depended on it, and that npm later restricted unpublishing.\n- https://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm - npm's own account; established failures began around 2:30 PM Pacific, that Koçulu unpublished kik and 272 others, that npm republished left-pad 0.0.3 from backup, announced at 4:05 PM and finished by 4:55 PM, and that npm says its dispute policy was followed and the unpublishing caused the disruption.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "piojUvSKvMc",
+      "youtubeUrl": "https://youtu.be/piojUvSKvMc",
+      "uploadedAt": "2026-10-06T15:35:27.369Z",
       "privacy": "public"
     }
   ]

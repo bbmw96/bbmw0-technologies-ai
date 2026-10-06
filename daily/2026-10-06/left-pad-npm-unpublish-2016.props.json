@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (left-pad-npm-unpublish-2016)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B1A1F",
+    "ink": "#EAF7F5",
+    "accent": "#F2B134",
+    "muted": "#7FA6A8"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Left-pad",
+      "text": "One programmer broke part of the web by deleting 11 lines of code.",
+      "note": "On 22 March 2016, Azer Koçulu unpublished 273 packages from npm, including left-pad.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "credit",
+      "year": "2016",
+      "name": "Azer Koçulu",
+      "role": "Independent programmer who pulled all 273 of his npm packages after a dispute over the package name kik.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "figure",
+      "value": "11",
+      "unit": "lines",
+      "context": "The size of left-pad in its final version. Some outlets reported 17 lines.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "statement",
+      "lead": "The dispute",
+      "text": "It began with a messaging app called Kik.",
+      "note": "Kik wanted the package name kik. npm says it followed its dispute policy, and that the unpublishing, not the dispute, caused the disruption.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The fix",
+      "text": "npm put the deleted version back from a backup.",
+      "note": "Announced at 4:05 PM and finished by 4:55 PM Pacific, about two and a half hours after failures began, according to npm.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Eleven lines of code, and thousands of projects stopped to wait.",
+      "durationInFrames": 88
+    },
+    {
+      "kind": "sign",
+      "line": "Small things carry big weight.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-10-06 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- left-pad-npm-unpublish-2016 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-06-left-pad-npm-unpublish-2016.mp4
+  uploaded public: https://youtu.be/piojUvSKvMc
+
+--- sms-160-hillebrand-twitter-140 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-06-sms-160-hillebrand-twitter-140.mp4
+  uploaded public: https://youtu.be/JLu13q3Ks7U
+
+--- tulip-mania-mackay-myth-1637 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-06-tulip-mania-mackay-myth-1637.mp4
+  uploaded public: https://youtu.be/CE0U7Gqevrg
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

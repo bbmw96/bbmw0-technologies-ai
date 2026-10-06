@@ -1,0 +1,25 @@
+{
+  "slug": "sms-160-hillebrand-twitter-140",
+  "date": "2026-10-06",
+  "title": "The text message limit was set by counting postcards.",
+  "description": "The text message limit was set by counting postcards. Friedhelm Hillebrand chaired the GSM standardisation group in the 1980s.\n\nTested random messages, then postcards and telex texts, to choose how long a text should be.\n\nThe length he recommended, and the committee accepted.\n\nThe first SMS said Merry Christmas. Neil Papworth sent it on 3 December 1992 to Richard Jarvis.\n\nTwitter's 140 left 20 characters spare. Tweets were built to travel as texts, so 20 characters were kept back for the username and other data.\n\nPostcards set the length of a text, and a text set the length of a tweet.\n\nSources:\n- https://www.telefonica.com/en/communication-room/blog/origin-history-sms/ - Telefonica; established that Friedhelm Hillebrand chaired the GSM standardisation group, tested random messages that stayed within 160 characters, researched postcards and telex texts, recommended 160 which was accepted, that Neil Papworth sent the first SMS, Merry Christmas, on 3 December 1992 to Richard Jarvis, and that Twitter kept 20 of 160 characters for usernames and commands.\n- https://www.davidson.edu/news/all-atwitter-few-characters-weigh-140-v-280 - Davidson College; established that Hillebrand studied postcards, that tweets were designed to be sent as texts so Twitter used 140 and reserved 20 characters for metadata, and that Twitter doubled its limit to 280 in November 2017.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "app",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-10-06-sms-160-hillebrand-twitter-140.mp4",
+  "propsFile": "daily/2026-10-06/sms-160-hillebrand-twitter-140.props.json",
+  "durationInFrames": 894,
+  "audioUrl": "",
+  "niche": "app",
+  "composition": "Reel"
+}
