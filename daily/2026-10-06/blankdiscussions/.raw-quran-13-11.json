@@ -1,0 +1,230 @@
+{
+ "code": 200,
+ "status": "OK",
+ "data": [
+  {
+   "number": 1718,
+   "text": "لَهُۥ مُعَقِّبَٰتٌۭ مِّنۢ بَيْنِ يَدَيْهِ وَمِنْ خَلْفِهِۦ يَحْفَظُونَهُۥ مِنْ أَمْرِ ٱللَّهِ ۗ إِنَّ ٱللَّهَ لَا يُغَيِّرُ مَا بِقَوْمٍ حَتَّىٰ يُغَيِّرُوا۟ مَا بِأَنفُسِهِمْ ۗ وَإِذَآ أَرَادَ ٱللَّهُ بِقَوْمٍۢ سُوٓءًۭا فَلَا مَرَدَّ لَهُۥ ۚ وَمَا لَهُم مِّن دُونِهِۦ مِن وَالٍ",
+   "edition": {
+    "identifier": "quran-uthmani",
+    "language": "ar",
+    "name": "القرآن الكريم برسم العثماني (uthmani)",
+    "englishName": "Uthmani",
+    "format": "text",
+    "type": "quran",
+    "direction": "rtl"
+   },
+   "surah": {
+    "number": 13,
+    "name": "سُورَةُ الرَّعۡدِ",
+    "englishName": "Ar-Ra'd",
+    "englishNameTranslation": "The Thunder",
+    "numberOfAyahs": 43,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 11,
+   "juz": 13,
+   "manzil": 3,
+   "page": 250,
+   "ruku": 206,
+   "hizbQuarter": 100,
+   "sajda": false
+  },
+  {
+   "number": 1718,
+   "text": "For each one are successive [angels] before and behind him who protect him by the decree of Allah. Indeed, Allah will not change the condition of a people until they change what is in themselves. And when Allah intends for a people ill, there is no repelling it. And there is not for them besides Him any patron.",
+   "edition": {
+    "identifier": "en.sahih",
+    "language": "en",
+    "name": "Saheeh International",
+    "englishName": "Saheeh International",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 13,
+    "name": "سُورَةُ الرَّعۡدِ",
+    "englishName": "Ar-Ra'd",
+    "englishNameTranslation": "The Thunder",
+    "numberOfAyahs": 43,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 11,
+   "juz": 13,
+   "manzil": 3,
+   "page": 250,
+   "ruku": 206,
+   "hizbQuarter": 100,
+   "sajda": false
+  },
+  {
+   "number": 1718,
+   "text": "每个人的前面和后面，都有许多接踵而来的天神，他们奉真主的命令来监护他。真主必定不变更任何民众的情况，直到他们变更自己的情况。当真主欲降灾害于任何民众的时候，那灾害是不可抗拒的。除真主外，他们绝无保佑者。",
+   "edition": {
+    "identifier": "zh.jian",
+    "language": "zh",
+    "name": "马坚",
+    "englishName": "Ma Jian",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 13,
+    "name": "سُورَةُ الرَّعۡدِ",
+    "englishName": "Ar-Ra'd",
+    "englishNameTranslation": "The Thunder",
+    "numberOfAyahs": 43,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 11,
+   "juz": 13,
+   "manzil": 3,
+   "page": 250,
+   "ruku": 206,
+   "hizbQuarter": 100,
+   "sajda": false
+  },
+  {
+   "number": 1718,
+   "text": "모든 인간에게는 그의 앞과뒤에 천사들이 있어 하나님의 명 령으로 그를 지켜보고 계심이라 실로 하나님께서는 사람들이 저들의 마음속에 있는 것을 바꾸기 전에는 저들의 상태를 변화시키지 아니 하시니라 하나님이 그 백성 에게 고난을 주려 하실때는 어느 누구도 막아낼 수 없으니 하나님 외에는 보호자가 없느니라",
+   "edition": {
+    "identifier": "ko.korean",
+    "language": "ko",
+    "name": "Korean",
+    "englishName": "Unknown",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 13,
+    "name": "سُورَةُ الرَّعۡدِ",
+    "englishName": "Ar-Ra'd",
+    "englishNameTranslation": "The Thunder",
+    "numberOfAyahs": 43,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 11,
+   "juz": 13,
+   "manzil": 3,
+   "page": 250,
+   "ruku": 206,
+   "hizbQuarter": 100,
+   "sajda": false
+  },
+  {
+   "number": 1718,
+   "text": "各人には，前からも後ろからも，次から次に（天使）が付いていて，アッラーの御命令により監視している。本当にアッラーは，人が自ら変えない限り，決して人びと（の運命）を変えられない。だがアッラーが（一度）人びとに災難を下そうと御望みになれば，それは決して避けることは出来ない。かれらには，かれの外に守護者はないのである。",
+   "edition": {
+    "identifier": "ja.japanese",
+    "language": "ja",
+    "name": "Japanese",
+    "englishName": "Unknown",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 13,
+    "name": "سُورَةُ الرَّعۡدِ",
+    "englishName": "Ar-Ra'd",
+    "englishNameTranslation": "The Thunder",
+    "numberOfAyahs": 43,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 11,
+   "juz": 13,
+   "manzil": 3,
+   "page": 250,
+   "ruku": 206,
+   "hizbQuarter": 100,
+   "sajda": false
+  },
+  {
+   "number": 1718,
+   "text": "Bagi tiap-tiap seorang ada malaikat penjaganya silih berganti dari hadapannya dan dari belakangnya, yang mengawas dan menjaganya (dari sesuatu bahaya) dengan perintah Allah. Sesungguhnya Allah tidak mengubah apa yang ada pada sesuatu kaum sehingga mereka mengubah apa yang ada pada diri mereka sendiri. Dan apabila Allah menghendaki untuk menimpakan kepada sesuatu kaum bala bencana (disebabkan kesalahan mereka sendiri), maka tiada sesiapapun yang dapat menolak atau menahan apa yang ditetapkanNya itu, dan tidak ada sesiapapun yang dapat menolong dan melindungi mereka selain daripadaNya.",
+   "edition": {
+    "identifier": "ms.basmeih",
+    "language": "ms",
+    "name": "Basmeih",
+    "englishName": "Abdullah Muhammad Basmeih",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 13,
+    "name": "سُورَةُ الرَّعۡدِ",
+    "englishName": "Ar-Ra'd",
+    "englishNameTranslation": "The Thunder",
+    "numberOfAyahs": 43,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 11,
+   "juz": 13,
+   "manzil": 3,
+   "page": 250,
+   "ruku": 206,
+   "hizbQuarter": 100,
+   "sajda": false
+  },
+  {
+   "number": 1718,
+   "text": "สำหรับเขามีมะลาอิกะฮฺผู้เฝ้าติดตามทั้งข้างหน้าและข้างหลังเขา รักษาเขาตามพระบัญชาของอัลลอฮฺ แท้จริงอัลลอฮฺจะมิทรงเปลี่ยนแปลงสภาพของชนกลุ่มใด จนกว่าพวกเขาจะเปลี่ยนแปลงสภาพของพวกเขาเอง และเมื่ออัลลอฮฺทรงปรารถนาความทุกข์แก่ชนกลุ่มใดก็จะไม่มีผู้ตอบโต้พระองค์ และสำหรับพวกเขาไม่มีผู้ช่วยเหลือนอกจากพระองค์",
+   "edition": {
+    "identifier": "th.thai",
+    "language": "th",
+    "name": "ภาษาไทย",
+    "englishName": "King Fahad Quran Complex",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 13,
+    "name": "سُورَةُ الرَّعۡدِ",
+    "englishName": "Ar-Ra'd",
+    "englishNameTranslation": "The Thunder",
+    "numberOfAyahs": 43,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 11,
+   "juz": 13,
+   "manzil": 3,
+   "page": 250,
+   "ruku": 206,
+   "hizbQuarter": 100,
+   "sajda": false
+  },
+  {
+   "number": 1718,
+   "text": "Tiene, por delante y por detrás, pegados a él, que le custodian por orden de Alá. Alá no cambiará la condición de un pueblo mientras éste no cambie lo que en sí tiene. Pero, si Alá quiere mal a un pueblo, no hay manera de evitarlo: fuera de Él, no tienen amigo.",
+   "edition": {
+    "identifier": "es.cortes",
+    "language": "es",
+    "name": "Cortes",
+    "englishName": "Julio Cortes",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 13,
+    "name": "سُورَةُ الرَّعۡدِ",
+    "englishName": "Ar-Ra'd",
+    "englishNameTranslation": "The Thunder",
+    "numberOfAyahs": 43,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 11,
+   "juz": 13,
+   "manzil": 3,
+   "page": 250,
+   "ruku": 206,
+   "hizbQuarter": 100,
+   "sajda": false
+  }
+ ]
+}
