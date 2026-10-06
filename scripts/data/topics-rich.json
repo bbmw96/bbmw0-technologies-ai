@@ -12056,6 +12056,292 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "left-pad-npm-unpublish-2016",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Npm_left-pad_incident - Wikipedia; established the date of 22 March 2016, that Azer Koçulu deleted all 273 modules he had registered, that the final left-pad was 11 lines (some outlets said 17), that thousands of projects depended on it, and that npm later restricted unpublishing.",
+        "https://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm - npm's own account; established failures began around 2:30 PM Pacific, that Koçulu unpublished kik and 272 others, that npm republished left-pad 0.0.3 from backup, announced at 4:05 PM and finished by 4:55 PM, and that npm says its dispute policy was followed and the unpublishing caused the disruption."
+      ],
+      "verifiedNote": "Checked 6 Oct 2026. Not claimed: the exact policy change wording (read only on Wikipedia, not in npm's own post), who was right in the Kik dispute, or any named company outages, since the named company list came from a single secondary source. The 17 line figure is reported by some outlets, so the reel says 11 and mentions 17 only as a discrepancy.",
+      "palette": {
+        "bg": "#0B1A1F",
+        "ink": "#EAF7F5",
+        "accent": "#F2B134",
+        "muted": "#7FA6A8"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Left-pad",
+          "text": "One programmer broke part of the web by deleting 11 lines of code.",
+          "note": "On 22 March 2016, Azer Koçulu unpublished 273 packages from npm, including left-pad."
+        },
+        {
+          "kind": "credit",
+          "year": "2016",
+          "name": "Azer Koçulu",
+          "role": "Independent programmer who pulled all 273 of his npm packages after a dispute over the package name kik."
+        },
+        {
+          "kind": "figure",
+          "value": "11",
+          "unit": "lines",
+          "context": "The size of left-pad in its final version. Some outlets reported 17 lines."
+        },
+        {
+          "kind": "statement",
+          "lead": "The dispute",
+          "text": "It began with a messaging app called Kik.",
+          "note": "Kik wanted the package name kik. npm says it followed its dispute policy, and that the unpublishing, not the dispute, caused the disruption."
+        },
+        {
+          "kind": "statement",
+          "lead": "The fix",
+          "text": "npm put the deleted version back from a backup.",
+          "note": "Announced at 4:05 PM and finished by 4:55 PM Pacific, about two and a half hours after failures began, according to npm."
+        },
+        {
+          "kind": "kicker",
+          "text": "Eleven lines of code, and thousands of projects stopped to wait."
+        },
+        {
+          "kind": "sign",
+          "line": "Small things carry big weight.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "facebook-bots-english-drift-2017",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://techxplore.com/news/2021-07-fact-facebook-didnt-chatbots-language.html - TechXplore fact check; established that Facebook's FAIR group trained negotiation bots called Alice and Bob, that they drifted into shorthand because nothing required proper English, that researchers then adjusted the set up, and quoted Dhruv Batra: agents will drift off understandable language and invent codewords for themselves.",
+        "https://www.snopes.com/fact-check/facebook-ai-developed-own-language/ - Snopes; rated the shutdown claim false, quoted lead author Michael Lewis: there was no panic, and the project hasn't been shut down, and that changing an experiment's parameters is not the same as unplugging AI.",
+        "https://arxiv.org/abs/1706.05125 - arXiv abstract for Deal or No Deal? End to End Learning for Negotiation Dialogues; established the authors (Lewis, Yarats, Dauphin, Parikh, Batra) and the date of 16 June 2017."
+      ],
+      "verifiedNote": "Checked 6 Oct 2026. Not claimed: what the shorthand actually said, the exact wording of the bots' exchanges, or what happened to the project afterwards. The Batra quote is as relayed by TechXplore from Fast Company, not read in the original Fast Company piece.",
+      "palette": {
+        "bg": "#0D1226",
+        "ink": "#EEF1FF",
+        "accent": "#5CC8FF",
+        "muted": "#8791B8"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The myth",
+          "text": "Facebook did not shut down an AI for inventing a secret language.",
+          "note": "The 2017 headlines said it did. The researchers say they changed the experiment instead."
+        },
+        {
+          "kind": "credit",
+          "year": "2017",
+          "name": "Alice and Bob",
+          "role": "Two negotiation chatbots built by Facebook's AI research group to bargain over virtual items."
+        },
+        {
+          "kind": "statement",
+          "lead": "The drift",
+          "text": "Nobody had rewarded them for using proper English.",
+          "note": "So they drifted into shorthand. Dhruv Batra said agents will drift off understandable language and invent codewords for themselves."
+        },
+        {
+          "kind": "statement",
+          "lead": "The response",
+          "text": "The team added techniques to reward correct English.",
+          "note": "Lead author Michael Lewis said: There was no panic, and the project hasn't been shut down."
+        },
+        {
+          "kind": "credit",
+          "year": "2017",
+          "name": "Deal or No Deal?",
+          "role": "The paper behind it, by Lewis, Yarats, Dauphin, Parikh and Batra, posted on 16 June 2017."
+        },
+        {
+          "kind": "kicker",
+          "text": "The bots were not rebelling. They were never told to stick to English."
+        },
+        {
+          "kind": "sign",
+          "line": "Read past the headline.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "minecraft-notch-sanity-2014",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://www.engadget.com/2014-09-15-microsoft-buying-minecraft.html - Engadget, 15 September 2014; established the 2.5 billion dollar price, the announcement date, that Microsoft promised to keep Minecraft on existing platforms, that Markus Persson, Carl Manneh and Jakob Porser were leaving, and Persson's line: it's not about the money, it's about my sanity.",
+        "https://www.bit-tech.net/news/gaming/notch-exits-mojang-after-2-5bn-microsoft-de/1 - bit-tech; established Persson's reasons for leaving, including the quote: I've become a symbol. I don't want to be a symbol, responsible for something huge."
+      ],
+      "verifiedNote": "Checked 6 Oct 2026. Not claimed: Minecraft sales or player numbers, employee counts, Persson's personal payout, or the date the deal closed. bit-tech's article is dated 17 September while Engadget and the announcement are 15 September, so the reel uses 15 September as the announcement date. Quotes are as reported in these two articles, not read on Persson's own blog.",
+      "palette": {
+        "bg": "#10190E",
+        "ink": "#F0F7E8",
+        "accent": "#8AD03F",
+        "muted": "#8FA67E"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "2014",
+          "text": "Minecraft's creator sold up over pressure, not price.",
+          "note": "Markus Persson said: It's not about the money. It's about my sanity."
+        },
+        {
+          "kind": "credit",
+          "year": "2014",
+          "name": "Microsoft",
+          "role": "Announced on 15 September 2014 that it would buy Mojang and Minecraft."
+        },
+        {
+          "kind": "figure",
+          "value": "2500",
+          "unit": "million",
+          "context": "The price in US dollars, as announced. That is 2.5 billion."
+        },
+        {
+          "kind": "statement",
+          "lead": "The symbol",
+          "text": "He said he had become a symbol.",
+          "note": "Persson wrote: I've become a symbol. I don't want to be a symbol, responsible for something huge."
+        },
+        {
+          "kind": "statement",
+          "lead": "The exit",
+          "text": "Persson, Carl Manneh and Jakob Porser all left Mojang.",
+          "note": "Persson said he planned to go back to smaller experimental projects."
+        },
+        {
+          "kind": "kicker",
+          "text": "The game got too big for the person who made it."
+        },
+        {
+          "kind": "sign",
+          "line": "Success has a cost.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "tulip-mania-mackay-myth-1637",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://www.history.com/news/tulip-mania-financial-crash-holland - History.com; established that Charles Mackay's 1841 account is the source of the ruin story, that he drew on satirical Dutch poems and pamphlets, and that Anne Goldgar's archival work found little evidence of wider economic damage.",
+        "https://www.historytoday.com/print/pdf/node/54516/debug - History Today, Goldgar's own article; established about 285 traders in Haarlem, 60 in Amsterdam and 25 in Enkhuizen (underestimates), that 1,100 guilders for Switsers bulbs was about three years' wages for a master carpenter yet affordable to rich merchants, that she found virtually no bankruptcies caused by tulips though records are patchy, and that the real disruption was a breach of trust in a credit based society."
+      ],
+      "verifiedNote": "Checked 6 Oct 2026. Not claimed: any single peak price, the 12 fold price rise or 5,000 guilder figure (the two articles gave different framing and I did not read the underlying archives), the exact dates of the price spike, or that no one at all went bankrupt. The bankruptcy line is deliberately worded as absence of evidence from patchy records. Mackay quote is as quoted in History Today.",
+      "palette": {
+        "bg": "#1E0D14",
+        "ink": "#FFF0F3",
+        "accent": "#F2788F",
+        "muted": "#B58C98"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The legend",
+          "text": "The tulip crash that ruined Holland is mostly a story.",
+          "note": "Historian Anne Goldgar found little evidence of widespread financial ruin."
+        },
+        {
+          "kind": "credit",
+          "year": "1841",
+          "name": "Charles Mackay",
+          "role": "Wrote that substantial merchants were reduced almost to beggary, drawing partly on satirical Dutch poems and pamphlets."
+        },
+        {
+          "kind": "statement",
+          "lead": "The crowd",
+          "text": "Far fewer people took part than the legend says.",
+          "note": "Goldgar counted about 285 traders in Haarlem, 60 in Amsterdam and 25 in Enkhuizen, and says those are underestimates."
+        },
+        {
+          "kind": "figure",
+          "value": "3",
+          "unit": "years",
+          "context": "What 1,100 guilders for a Switsers bulb equalled in a master carpenter's wages. Rich merchants could afford it."
+        },
+        {
+          "kind": "statement",
+          "lead": "The ruin",
+          "text": "She found virtually no bankruptcies traced to tulips.",
+          "note": "Bankruptcy records are patchy, so this is a lack of evidence, not proof."
+        },
+        {
+          "kind": "kicker",
+          "text": "The real damage was to trust, in a society that ran on credit."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the famous version.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "sms-160-hillebrand-twitter-140",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://www.telefonica.com/en/communication-room/blog/origin-history-sms/ - Telefonica; established that Friedhelm Hillebrand chaired the GSM standardisation group, tested random messages that stayed within 160 characters, researched postcards and telex texts, recommended 160 which was accepted, that Neil Papworth sent the first SMS, Merry Christmas, on 3 December 1992 to Richard Jarvis, and that Twitter kept 20 of 160 characters for usernames and commands.",
+        "https://www.davidson.edu/news/all-atwitter-few-characters-weigh-140-v-280 - Davidson College; established that Hillebrand studied postcards, that tweets were designed to be sent as texts so Twitter used 140 and reserved 20 characters for metadata, and that Twitter doubled its limit to 280 in November 2017."
+      ],
+      "verifiedNote": "Checked 6 Oct 2026. Not claimed: how many postcards were counted, or what length they averaged. The two sources disagree (Telefonica says postcards and telex stayed under 150, Davidson says about 160), so no postcard figure is used. Also not claimed: the exact year Hillebrand chose the limit beyond the 1980s, or Twitter's internal reasoning beyond what these sources say.",
+      "palette": {
+        "bg": "#0F1A2B",
+        "ink": "#EDF4FF",
+        "accent": "#4FA3FF",
+        "muted": "#8397B3"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "160",
+          "text": "The text message limit was set by counting postcards.",
+          "note": "Friedhelm Hillebrand chaired the GSM standardisation group in the 1980s."
+        },
+        {
+          "kind": "credit",
+          "year": "1980s",
+          "name": "Friedhelm Hillebrand",
+          "role": "Tested random messages, then postcards and telex texts, to choose how long a text should be."
+        },
+        {
+          "kind": "figure",
+          "value": "160",
+          "unit": "chars",
+          "context": "The length he recommended, and the committee accepted."
+        },
+        {
+          "kind": "statement",
+          "lead": "The first text",
+          "text": "The first SMS said Merry Christmas.",
+          "note": "Neil Papworth sent it on 3 December 1992 to Richard Jarvis."
+        },
+        {
+          "kind": "statement",
+          "lead": "Twitter",
+          "text": "Twitter's 140 left 20 characters spare.",
+          "note": "Tweets were built to travel as texts, so 20 characters were kept back for the username and other data."
+        },
+        {
+          "kind": "kicker",
+          "text": "Postcards set the length of a text, and a text set the length of a tweet."
+        },
+        {
+          "kind": "sign",
+          "line": "Old limits shape new apps.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
