@@ -41,7 +41,7 @@
   "hosting_verified": {
     "checkedAt": "2026-10-07",
     "note": "Visually spot-checked Arabic, Chinese, Korean, Malay slides: no tofu or missing glyphs.",
-    "httpStatus": null
+    "httpStatus": 200
   },
   "hostingUrls": [
     "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-07/blankdiscussions/renders/quran-3-173-slide-01.jpg",
