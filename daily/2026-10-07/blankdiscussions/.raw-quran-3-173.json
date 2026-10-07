@@ -1,0 +1,230 @@
+{
+ "code": 200,
+ "status": "OK",
+ "data": [
+  {
+   "number": 466,
+   "text": "ٱلَّذِينَ قَالَ لَهُمُ ٱلنَّاسُ إِنَّ ٱلنَّاسَ قَدْ جَمَعُوا۟ لَكُمْ فَٱخْشَوْهُمْ فَزَادَهُمْ إِيمَٰنًۭا وَقَالُوا۟ حَسْبُنَا ٱللَّهُ وَنِعْمَ ٱلْوَكِيلُ",
+   "edition": {
+    "identifier": "quran-uthmani",
+    "language": "ar",
+    "name": "القرآن الكريم برسم العثماني (uthmani)",
+    "englishName": "Uthmani",
+    "format": "text",
+    "type": "quran",
+    "direction": "rtl"
+   },
+   "surah": {
+    "number": 3,
+    "name": "سُورَةُ آلِ عِمۡرَانَ",
+    "englishName": "Aal-i-Imraan",
+    "englishNameTranslation": "The Family of Imraan",
+    "numberOfAyahs": 200,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 173,
+   "juz": 4,
+   "manzil": 1,
+   "page": 72,
+   "ruku": 59,
+   "hizbQuarter": 29,
+   "sajda": false
+  },
+  {
+   "number": 466,
+   "text": "Those to whom hypocrites said, \"Indeed, the people have gathered against you, so fear them.\" But it [merely] increased them in faith, and they said, \"Sufficient for us is Allah, and [He is] the best Disposer of affairs.\"",
+   "edition": {
+    "identifier": "en.sahih",
+    "language": "en",
+    "name": "Saheeh International",
+    "englishName": "Saheeh International",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 3,
+    "name": "سُورَةُ آلِ عِمۡرَانَ",
+    "englishName": "Aal-i-Imraan",
+    "englishNameTranslation": "The Family of Imraan",
+    "numberOfAyahs": 200,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 173,
+   "juz": 4,
+   "manzil": 1,
+   "page": 72,
+   "ruku": 59,
+   "hizbQuarter": 29,
+   "sajda": false
+  },
+  {
+   "number": 466,
+   "text": "有人曾对他们说：那些人确已为进攻你们而集合队伍了，故你们应当畏惧他们。这句话却增加了他们的信念，他们说：真主是使我们满足的，他是优美的监护者！",
+   "edition": {
+    "identifier": "zh.jian",
+    "language": "zh",
+    "name": "马坚",
+    "englishName": "Ma Jian",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 3,
+    "name": "سُورَةُ آلِ عِمۡرَانَ",
+    "englishName": "Aal-i-Imraan",
+    "englishNameTranslation": "The Family of Imraan",
+    "numberOfAyahs": 200,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 173,
+   "juz": 4,
+   "manzil": 1,
+   "page": 72,
+   "ruku": 59,
+   "hizbQuarter": 29,
+   "sajda": false
+  },
+  {
+   "number": 466,
+   "text": "무리가 그들에게 말하길 많은 군중이 너희에게 대항하여 오 나니 그들을 두려워 하라 그러니 그들의 신앙은 더욱 두터워졌으니 그들이 말하더라 우리는 하나님만 으로 만족하나니 승리는 그분에 게의탁하는 자에게 있노라",
+   "edition": {
+    "identifier": "ko.korean",
+    "language": "ko",
+    "name": "Korean",
+    "englishName": "Unknown",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 3,
+    "name": "سُورَةُ آلِ عِمۡرَانَ",
+    "englishName": "Aal-i-Imraan",
+    "englishNameTranslation": "The Family of Imraan",
+    "numberOfAyahs": 200,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 173,
+   "juz": 4,
+   "manzil": 1,
+   "page": 72,
+   "ruku": 59,
+   "hizbQuarter": 29,
+   "sajda": false
+  },
+  {
+   "number": 466,
+   "text": "人びとが，かれらに向かって言った。「見なさい，あなたがたに対して大軍が集結している。かれらを恐れるべきである。」だがこのことが却ってかれらの信仰を深めた。そして「わたしたちには，アッラーがいれば万全である。かれは最も優れた管理者であられる。」と言った。",
+   "edition": {
+    "identifier": "ja.japanese",
+    "language": "ja",
+    "name": "Japanese",
+    "englishName": "Unknown",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 3,
+    "name": "سُورَةُ آلِ عِمۡرَانَ",
+    "englishName": "Aal-i-Imraan",
+    "englishNameTranslation": "The Family of Imraan",
+    "numberOfAyahs": 200,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 173,
+   "juz": 4,
+   "manzil": 1,
+   "page": 72,
+   "ruku": 59,
+   "hizbQuarter": 29,
+   "sajda": false
+  },
+  {
+   "number": 466,
+   "text": "Mereka juga ialah yang diberitahu oleh orang-orang (pembawa berita) kepada mereka: \"Bahawa kaum (kafir musyrik) telah mengumpulkan tentera untuk memerangi kamu, oleh itu hendaklah kamu gerun kepadanya\". Maka berita itu makin menambahkan iman mereka lalu berkata: \"Cukuplah untuk (menolong) kami, dan Ia sebaik-baik pengurus (yang terserah kepadaNya segala urusan kami)\".",
+   "edition": {
+    "identifier": "ms.basmeih",
+    "language": "ms",
+    "name": "Basmeih",
+    "englishName": "Abdullah Muhammad Basmeih",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 3,
+    "name": "سُورَةُ آلِ عِمۡرَانَ",
+    "englishName": "Aal-i-Imraan",
+    "englishNameTranslation": "The Family of Imraan",
+    "numberOfAyahs": 200,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 173,
+   "juz": 4,
+   "manzil": 1,
+   "page": 72,
+   "ruku": 59,
+   "hizbQuarter": 29,
+   "sajda": false
+  },
+  {
+   "number": 466,
+   "text": "บรรดาที่ ผู้คน ได้กล่าวแก่พวกเขาว่า แท้จริงมีผู้คน ได้ชุมนุมสำหรับพวกท่าน ดังนั้นพวกท่านจงกลัวพวกเขาเถิดแล้วมัน ได้เพิ่มการอีมานแก่พวกเขา และพวกเขากล่าวว่าอัลลอฮ์นั้นเป็นผู้ที่พอเพียงแก่เราแล้ว และเป็นผู้รับมอบหมายที่ดีเยี่ยม",
+   "edition": {
+    "identifier": "th.thai",
+    "language": "th",
+    "name": "ภาษาไทย",
+    "englishName": "King Fahad Quran Complex",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 3,
+    "name": "سُورَةُ آلِ عِمۡرَانَ",
+    "englishName": "Aal-i-Imraan",
+    "englishNameTranslation": "The Family of Imraan",
+    "numberOfAyahs": 200,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 173,
+   "juz": 4,
+   "manzil": 1,
+   "page": 72,
+   "ruku": 59,
+   "hizbQuarter": 29,
+   "sajda": false
+  },
+  {
+   "number": 466,
+   "text": "A aquéllos a quienes se dijo: «La gente se ha agrupado contra vosotros, ¡tenedles miedo!», esto les aumentó la fe y dijeron: «Alá nos basta! ¡Es un protector excelente!»",
+   "edition": {
+    "identifier": "es.cortes",
+    "language": "es",
+    "name": "Cortes",
+    "englishName": "Julio Cortes",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 3,
+    "name": "سُورَةُ آلِ عِمۡرَانَ",
+    "englishName": "Aal-i-Imraan",
+    "englishNameTranslation": "The Family of Imraan",
+    "numberOfAyahs": 200,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 173,
+   "juz": 4,
+   "manzil": 1,
+   "page": 72,
+   "ruku": 59,
+   "hizbQuarter": 29,
+   "sajda": false
+  }
+ ]
+}
