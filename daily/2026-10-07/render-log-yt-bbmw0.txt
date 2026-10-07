@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-10-07 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- amazon-cadabra-original-name-1994 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-07-amazon-cadabra-original-name-1994.mp4
+  uploaded public: https://youtu.be/krUJe2Mb8IA
+
+--- apple-1984-advert-aired-once-nationally ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-07-apple-1984-advert-aired-once-nationally.mp4
+  uploaded public: https://youtu.be/2cHa96qk7EY
+
+--- me-at-the-zoo-first-youtube-video-2005 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-07-me-at-the-zoo-first-youtube-video-2005.mp4
+  uploaded public: https://youtu.be/_1qgnCfDBMQ
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

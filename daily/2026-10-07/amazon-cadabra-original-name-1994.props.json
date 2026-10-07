@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (amazon-cadabra-original-name-1994)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#10151C",
+    "ink": "#F3F6FA",
+    "accent": "#FF9900",
+    "muted": "#8493A6"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Tech",
+      "text": "Amazon started life under a different name: Cadabra.",
+      "note": "It was incorporated as Cadabra, Inc. on 5 July 1994.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "statement",
+      "lead": "The spell",
+      "text": "The name was a twist on the magic word Abracadabra.",
+      "note": "That is how HISTORY describes it.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "credit",
+      "year": "1994",
+      "name": "Jeff Bezos",
+      "role": "Founder who started the company in a rented garage in Bellevue, Washington.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "statement",
+      "lead": "The new name",
+      "text": "Amazon was chosen partly because it starts with A.",
+      "note": "A name near the start of the alphabet would appear sooner in online searches, and the Amazon is the biggest river in the world.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Launch",
+      "text": "The website opened as a bookshop on 16 July 1995.",
+      "note": "It billed itself as the world’s largest collection of books for anyone with web access.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "kicker",
+      "text": "The shop opened a year and eleven days after the company was founded.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "sign",
+      "line": "Even giants start with a different name.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (me-at-the-zoo-first-youtube-video-2005)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#1A0F12",
+    "ink": "#FFF4F1",
+    "accent": "#FF4E45",
+    "muted": "#B08A86"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "App",
+      "text": "The first video on YouTube is about elephants’ trunks.",
+      "note": "Jawed Karim uploaded Me at the zoo on 23 April 2005, at 8:31 pm Pacific time.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "credit",
+      "year": "2005",
+      "name": "Jawed Karim",
+      "role": "YouTube co-founder who appears in the clip, filmed at the San Diego Zoo.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "figure",
+      "value": "19",
+      "unit": "seconds",
+      "context": "The length of the video. Sources vary by about a second.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "statement",
+      "lead": "The cameraman",
+      "text": "A school friend, Yakov Lapitsky, filmed it.",
+      "note": "Wikipedia describes him as Karim’s high school friend.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "statement",
+      "lead": "The line",
+      "text": "The cool thing, he says, is that elephants have really, really, really long trunks.",
+      "note": "That is the whole point of the video, and the reason it is the most famous upload on the site.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Fifteen years later",
+      "text": "The San Diego Zoo left a pinned comment in 2020.",
+      "note": "Wikipedia reports it became the most liked comment on the platform, with 4.7 million likes.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "kicker",
+      "text": "More than 416 million views, as of September 2026, for 19 seconds of elephants.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "sign",
+      "line": "Big platforms start with tiny uploads.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

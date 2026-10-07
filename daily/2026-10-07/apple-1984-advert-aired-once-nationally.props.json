@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (apple-1984-advert-aired-once-nationally)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0D0D12",
+    "ink": "#F4F4F6",
+    "accent": "#E5483B",
+    "muted": "#8E8E99"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Tech",
+      "text": "Apple’s most famous advert was shown nationally only once.",
+      "note": "It aired during Super Bowl XVIII on CBS on 22 January 1984.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "credit",
+      "year": "1984",
+      "name": "Ridley Scott",
+      "role": "Director of the one minute advert, made with the agency Chiat/Day.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "statement",
+      "lead": "Before that",
+      "text": "It had already run once in Idaho.",
+      "note": "Wikipedia lists KMVT in Twin Falls as the first broadcast, on 31 December 1983.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "The board",
+      "text": "Apple’s board reportedly hated it.",
+      "note": "Wikipedia says the entire board disliked the commercial.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "statement",
+      "lead": "The cost",
+      "text": "Nobody agrees what it cost.",
+      "note": "The New York Times reported $370,000, a 2005 account said $900,000, and Scott said under $250,000.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "kicker",
+      "text": "You’ll see why 1984 won’t be like ‘1984’.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "One airing can outlast a campaign.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
