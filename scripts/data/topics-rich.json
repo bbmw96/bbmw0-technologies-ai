@@ -12342,6 +12342,238 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "me-at-the-zoo-first-youtube-video-2005",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Me_at_the_zoo - Wikipedia; established the upload by co-founder Jawed Karim on 23 April 2005 at 8:31:52 pm PDT, a length of about 19 seconds, the San Diego Zoo setting, Yakov Lapitsky (a school friend) filming, the quoted line about really, really, really long trunks, more than 416 million views as of September 2026, and the San Diego Zoo pinned comment of 2020 with 4.7 million likes."
+      ],
+      "verifiedNote": "Checked 7 Oct 2026 from Wikipedia only; YouTube itself was not read. Not claimed: the exact running time as authoritative, because sources vary by about a second (the reel says 19 and says so); any claim about the camera used; the channel name; the first comment. View and like counts are attributed to Wikipedia and dated.",
+      "palette": {
+        "bg": "#1A0F12",
+        "ink": "#FFF4F1",
+        "accent": "#FF4E45",
+        "muted": "#B08A86"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "App",
+          "text": "The first video on YouTube is about elephants’ trunks.",
+          "note": "Jawed Karim uploaded Me at the zoo on 23 April 2005, at 8:31 pm Pacific time."
+        },
+        {
+          "kind": "credit",
+          "year": "2005",
+          "name": "Jawed Karim",
+          "role": "YouTube co-founder who appears in the clip, filmed at the San Diego Zoo."
+        },
+        {
+          "kind": "figure",
+          "value": "19",
+          "unit": "seconds",
+          "context": "The length of the video. Sources vary by about a second."
+        },
+        {
+          "kind": "statement",
+          "lead": "The cameraman",
+          "text": "A school friend, Yakov Lapitsky, filmed it.",
+          "note": "Wikipedia describes him as Karim’s high school friend."
+        },
+        {
+          "kind": "statement",
+          "lead": "The line",
+          "text": "The cool thing, he says, is that elephants have really, really, really long trunks.",
+          "note": "That is the whole point of the video, and the reason it is the most famous upload on the site."
+        },
+        {
+          "kind": "statement",
+          "lead": "Fifteen years later",
+          "text": "The San Diego Zoo left a pinned comment in 2020.",
+          "note": "Wikipedia reports it became the most liked comment on the platform, with 4.7 million likes."
+        },
+        {
+          "kind": "kicker",
+          "text": "More than 416 million views, as of September 2026, for 19 seconds of elephants."
+        },
+        {
+          "kind": "sign",
+          "line": "Big platforms start with tiny uploads.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "goldeneye-multiplayer-six-months-before-release-1997",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/GoldenEye_007_(1997_video_game) - Wikipedia; established that Steve Ellis, a second programmer, was mostly responsible for the multiplayer mode, that it was added roughly six months before release, David Doak’s description that Ellis sat in a room with the single-player code and turned GoldenEye into a multiplayer game, North American release on 25 August 1997, and sales of more than eight million units, the third best selling Nintendo 64 game."
+      ],
+      "verifiedNote": "Checked 7 Oct 2026 from Wikipedia only. Not claimed: that multiplayer was never discussed before Ellis (the page says it was not part of the original design, which the reel words carefully); the Sean Connery likeness licensing detail, which was seen only in a summary; any claim that multiplayer alone drove sales, since the page says it contributed. The Doak description is attributed to him.",
+      "palette": {
+        "bg": "#0F1216",
+        "ink": "#F2F5F7",
+        "accent": "#E8B923",
+        "muted": "#8896A3"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Gaming",
+          "text": "GoldenEye’s famous multiplayer was not in the original design.",
+          "note": "It was added roughly six months before the game was released in 1997."
+        },
+        {
+          "kind": "credit",
+          "year": "1997",
+          "name": "Steve Ellis",
+          "role": "Programmer who was mostly responsible for implementing the multiplayer mode."
+        },
+        {
+          "kind": "statement",
+          "lead": "How",
+          "text": "He took the finished single player code and turned it into a multiplayer game.",
+          "note": "That is how fellow developer David Doak described it, as reported by Wikipedia."
+        },
+        {
+          "kind": "statement",
+          "lead": "Release",
+          "text": "The game reached North America on 25 August 1997.",
+          "note": "Japan came first, on 23 August 1997, and the United Kingdom followed on 7 November."
+        },
+        {
+          "kind": "figure",
+          "value": "8",
+          "unit": "million",
+          "context": "Copies sold worldwide, more than eight million, making it the third best selling Nintendo 64 game."
+        },
+        {
+          "kind": "kicker",
+          "text": "Six months before release, a single player game became a multiplayer one."
+        },
+        {
+          "kind": "sign",
+          "line": "Late ideas can define a game.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "apple-1984-advert-aired-once-nationally",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/1984_(advertisement) - Wikipedia; established director Ridley Scott, agency Chiat/Day, a one minute length, the first broadcast on KMVT in Twin Falls, Idaho on 31 December 1983, the only national airing during Super Bowl XVIII on CBS on 22 January 1984, that Apple’s board hated the commercial, the disputed cost (the New York Times reported $370,000, a 2005 account said $900,000, Scott said under $250,000), and the closing line about 24 January."
+      ],
+      "verifiedNote": "Checked 7 Oct 2026 from Wikipedia only. Not claimed: a single cost figure, because the three sources disagree and the reel says so; why it ran in Idaho first; who on the board said what; the advert’s effect on Macintosh sales. The board reaction is attributed to Wikipedia.",
+      "palette": {
+        "bg": "#0D0D12",
+        "ink": "#F4F4F6",
+        "accent": "#E5483B",
+        "muted": "#8E8E99"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Tech",
+          "text": "Apple’s most famous advert was shown nationally only once.",
+          "note": "It aired during Super Bowl XVIII on CBS on 22 January 1984."
+        },
+        {
+          "kind": "credit",
+          "year": "1984",
+          "name": "Ridley Scott",
+          "role": "Director of the one minute advert, made with the agency Chiat/Day."
+        },
+        {
+          "kind": "statement",
+          "lead": "Before that",
+          "text": "It had already run once in Idaho.",
+          "note": "Wikipedia lists KMVT in Twin Falls as the first broadcast, on 31 December 1983."
+        },
+        {
+          "kind": "statement",
+          "lead": "The board",
+          "text": "Apple’s board reportedly hated it.",
+          "note": "Wikipedia says the entire board disliked the commercial."
+        },
+        {
+          "kind": "statement",
+          "lead": "The cost",
+          "text": "Nobody agrees what it cost.",
+          "note": "The New York Times reported $370,000, a 2005 account said $900,000, and Scott said under $250,000."
+        },
+        {
+          "kind": "kicker",
+          "text": "You’ll see why 1984 won’t be like ‘1984’."
+        },
+        {
+          "kind": "sign",
+          "line": "One airing can outlast a campaign.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "amazon-cadabra-original-name-1994",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Amazon - Wikipedia; established incorporation as Cadabra, Inc. on 5 July 1994 in Washington state, the rename to Amazon.com, the dictionary choice and the Amazon River being the biggest river in the world, and the site opening as an online bookseller on 16 July 1995.",
+        "https://en.wikipedia.org/wiki/Jeff_Bezos - Wikipedia; established the rented garage in Bellevue, Washington, and that Amazon was chosen partly because a name starting with A would appear sooner in online searches.",
+        "https://www.history.com/this-day-in-history/amazon-opens-for-business - HISTORY; established the founding date of 5 July 1994 and that Cadabra was a twist on the magic word Abracadabra."
+      ],
+      "verifiedNote": "Checked 7 Oct 2026 across three sources. Not claimed: the popular story that a lawyer misheard Cadabra as cadaver, because the pages mentioned it without a clear source and it is not verified; the first book sold and early weekly sales or country counts, which were seen on a single secondary page only.",
+      "palette": {
+        "bg": "#10151C",
+        "ink": "#F3F6FA",
+        "accent": "#FF9900",
+        "muted": "#8493A6"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Tech",
+          "text": "Amazon started life under a different name: Cadabra.",
+          "note": "It was incorporated as Cadabra, Inc. on 5 July 1994."
+        },
+        {
+          "kind": "statement",
+          "lead": "The spell",
+          "text": "The name was a twist on the magic word Abracadabra.",
+          "note": "That is how HISTORY describes it."
+        },
+        {
+          "kind": "credit",
+          "year": "1994",
+          "name": "Jeff Bezos",
+          "role": "Founder who started the company in a rented garage in Bellevue, Washington."
+        },
+        {
+          "kind": "statement",
+          "lead": "The new name",
+          "text": "Amazon was chosen partly because it starts with A.",
+          "note": "A name near the start of the alphabet would appear sooner in online searches, and the Amazon is the biggest river in the world."
+        },
+        {
+          "kind": "statement",
+          "lead": "Launch",
+          "text": "The website opened as a bookshop on 16 July 1995.",
+          "note": "It billed itself as the world’s largest collection of books for anyone with web access."
+        },
+        {
+          "kind": "kicker",
+          "text": "The shop opened a year and eleven days after the company was founded."
+        },
+        {
+          "kind": "sign",
+          "line": "Even giants start with a different name.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
