@@ -1,0 +1,16 @@
+﻿{
+    "published":  {
+                      "publishedAt":  "2026-10-08T20:40:16+0000",
+                      "publishedVia":  "Composio INSTAGRAM_POST_IG_USER_MEDIA (REELS) + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH (connection instagram_willed-pried)",
+                      "mediaId":  "18129744571695351",
+                      "videoUrl":  "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-08/blankdiscussions/reel-quran-93-5.mp4",
+                      "permalink":  "https://www.instagram.com/reel/DeP0CYniN2R/"
+                  },
+    "channel":  "ig-blankdiscussions",
+    "sourcing":  "Qur\u0027an 93:5 (Surah Ad-Dhuhaa), editions quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese,ms.basmeih,th.thai,es.cortes, fetched twice live from api.alquran.cloud 2026-10-08, identical; artifact scan clean; 142 halal-policy terms, 0 hits; verse not previously posted.",
+    "status":  "published",
+    "slug":  "quran-93-5-reel",
+    "theme":  "n/a (edited Dola AI footage, watermark cropped, original audio removed)",
+    "date":  "2026-10-08",
+    "mediaFormat":  "reel"
+}
