@@ -12574,6 +12574,225 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "snake-before-nokia",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Snake_(video_game_genre): read in full. Established that the genre began with the arcade game Blockade, published by Gremlin in 1976 and written by Lane Hauck and Ago Kiss, that Worm for the TRS-80 by Peter Trefonas in 1978 is the first known home computer version, that Nibbles shipped as a QBasic sample with MS-DOS from 1991, and that Nokia's Snake was released in 1998 for the Nokia 6110.",
+        "https://en.wikipedia.org/wiki/Nokia_6110: read in full. Established that the phone was announced on 18 December 1997 and released in 1998, and that it was the first Nokia phone with Snake pre-installed.",
+        "https://blogs.windows.com/devices/2012/02/02/snake-charmed-10-fascinating-facts-about-the-worlds-most-popular-game/: read in full. Established that Blockade from Gremlin in 1976 was the first Snake type game and that Taneli Armanto, a Nokia design engineer, adapted Snake for Nokia devices."
+      ],
+      "verifiedNote": "Checked 8 Oct 2026. The correction is that Nokia did not invent Snake, it adapted a game 22 years old. Dates differ by source: one says Nokia's version arrived in 1997, but the 6110 was announced in December 1997 and released in 1998, so the video uses 1998 and the 22 year gap is 1998 minus 1976. Not claimed: that Armanto designed Snake from scratch, only that he adapted it. Not claimed: any figure for phones carrying Snake. The 400 million number comes from a 2012 Microsoft blog, does not say how many were preinstalled, and was cut.",
+      "palette": {
+        "bg": "#0A100C",
+        "ink": "#E9F4EC",
+        "accent": "#5BD67A",
+        "muted": "#6F8576"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Nokia did not invent Snake",
+          "text": "The first game of its kind was an arcade cabinet called Blockade, made by Gremlin in 1976.",
+          "note": "It was a two player game where the player who survived longest won. It was written by Lane Hauck and Ago Kiss."
+        },
+        {
+          "kind": "statement",
+          "lead": "Home computers had it twenty years earlier",
+          "text": "Worm for the TRS-80, by Peter Trefonas in 1978, is the first known home computer version.",
+          "note": "MS-DOS then shipped a QBasic version called Nibbles from 1991."
+        },
+        {
+          "kind": "credit",
+          "year": "1998",
+          "name": "Taneli Armanto",
+          "role": "Nokia design engineer who adapted Snake for its phones. It arrived on the Nokia 6110, the first Nokia phone with Snake pre-installed."
+        },
+        {
+          "kind": "figure",
+          "value": "22",
+          "unit": "years",
+          "context": "Between Blockade in 1976 and Snake on the Nokia 6110 in 1998."
+        },
+        {
+          "kind": "kicker",
+          "text": "Nokia did not invent Snake. It gave it a phone."
+        },
+        {
+          "kind": "sign",
+          "line": "Old game. New pocket.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "penicillin-fleming-florey-chain",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Penicillin: read in full. Established Fleming's observation on 3 September 1928 and publication in 1929, that he did not convince anyone it was important because it was so difficult to isolate, that Florey, Chain and colleagues at Oxford concentrated it and showed bactericidal action in vitro and in vivo, that policeman Albert Alexander was treated in 1941, improved, and died when the supply ran out, that the 1945 Nobel Prize was shared by Chain, Fleming and Florey, that 2.3 million doses were made in time for the Normandy invasion, and that over 646 billion units a year were being made by June 1945.",
+        "https://en.wikipedia.org/wiki/Alexander_Fleming: read in full. Established that the 1945 prize citation was for the discovery of penicillin and its curative effect in various infectious diseases, that the 1929 paper drew little attention, and that the popular claim that Fleming abandoned penicillin in the early 1930s is disputed.",
+        "https://www.nobelprize.org/prizes/medicine/1945/summary/: read. Confirmed the 1945 prize in Physiology or Medicine went jointly to Fleming, Chain and Florey, with the motivation 'for the discovery of penicillin and its curative effect in various infectious diseases'.",
+        "https://www.nationalgeographic.com/magazine/article/how-world-war-ii-put-penicillin-into-every-pharmacy: read in full. Established that Florey's team turned penicillin from a laboratory curiosity into a practical antibiotic, that Albert Alexander received the first dose on 12 February 1941, that the mould grew only as a thin film, that corn steep liquor and a strain from a rotten melon in a Peoria market solved production, and that 2.3 million doses were made for D-Day."
+      ],
+      "verifiedNote": "Checked 8 Oct 2026 against four sources. The angle is that discovery and cure were different jobs. Not claimed: that Fleming abandoned penicillin, because Wikipedia's Fleming page disputes this and cites his 1939 notebook and his continued distribution of the mould. Not claimed: that the Peoria fruit was a cantaloupe, since one source says cantaloupe and another says melon, so the video says only that it was a mouldy fruit, and it is not used in the beats. Not claimed: any figure for how many lives were saved. Figure beat uses the 646 billion units a year, a sourced whole number.",
+      "palette": {
+        "bg": "#0D0F0A",
+        "ink": "#F0F3E6",
+        "accent": "#B9D84A",
+        "muted": "#7C8468"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Fleming spotted it. Someone else made it a medicine.",
+          "text": "Fleming saw the mould killing bacteria in 1928. A team in Oxford turned it into a drug.",
+          "note": "His 1929 paper drew little attention. Florey, Chain and colleagues showed it killed bacteria in living bodies as well as in dishes."
+        },
+        {
+          "kind": "credit",
+          "year": "1941",
+          "name": "Albert Alexander",
+          "role": "Oxford police officer and the first patient given penicillin, on 12 February 1941. He improved, then the supply ran out and he died."
+        },
+        {
+          "kind": "statement",
+          "lead": "The bottleneck was growing it",
+          "text": "The mould grew as a thin film, so output stayed tiny.",
+          "note": "Corn steep liquor, a cheap corn belt by-product, and a better strain found on a mouldy fruit in a Peoria market made large scale production possible."
+        },
+        {
+          "kind": "statement",
+          "lead": "By D-Day it was ready",
+          "text": "2.3 million doses had been made in time for the Normandy landings.",
+          "note": "Allied soldiers carried the antibiotic onto the beaches on 6 June 1944."
+        },
+        {
+          "kind": "figure",
+          "value": "646",
+          "unit": "billion",
+          "context": "Units of penicillin a year being made in the United States by June 1945."
+        },
+        {
+          "kind": "kicker",
+          "text": "One mould. Three Nobel winners."
+        },
+        {
+          "kind": "sign",
+          "line": "Discovery is only the start.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "dancing-plague-1518-not-ergot",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dancing_plague_of_1518: read in full. Established that the episode was in Strasbourg from July to September 1518, that Frau Troffea began dancing on 14 July and is named in four of six chronicle accounts, that between 50 and 400 people were reported dancing, that the claim of up to 15 deaths a day rests on later accounts while contemporary Strasbourg sources do not mention deaths, that historians doubt ergot because poisoned people would be unlikely to dance for days and it does not explain outbreaks along the Rhine and Moselle, and that John Waller favours stress induced mass psychogenic illness.",
+        "https://publicdomainreview.org/essay/the-dancing-plague-of-1518/: read in full. Independently established that Troffea danced in the street outside her home on 14 July without music, that the council first followed physicians and built dance stages in the horse and grain markets, that this backfired because onlookers read it as the anger of Saint Vitus, that the council then tore down the stages and banned dance and music, that ergot restricts blood flow to the limbs and so makes prolonged dancing implausible, and that the 15 deaths a day figure is conditional and the final toll unknown."
+      ],
+      "verifiedNote": "Checked 8 Oct 2026 against two sources that agree. The correction is that the popular poisoned bread explanation is the one historians doubt. Not claimed: any dancer total, because sources give anything from 50 to about 400 and one says many hundreds, so no figure beat was used. Not claimed: that anyone died, only that the claim rests on later accounts. Not claimed: that psychogenic illness is proven, it is the favoured theory. The council's response is attributed to later accounts because Wikipedia notes the measures are not firmly established.",
+      "palette": {
+        "bg": "#120C0C",
+        "ink": "#F5ECE6",
+        "accent": "#D2543B",
+        "muted": "#8A7770"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version blames poisoned bread",
+          "text": "Historians doubt ergot. Dancing for days does not fit it.",
+          "note": "John Waller argues poisoned people would be unlikely to keep dancing for days, and ergot cannot explain outbreaks along the Rhine and Moselle."
+        },
+        {
+          "kind": "credit",
+          "year": "1518",
+          "name": "Frau Troffea",
+          "role": "Began dancing in a Strasbourg street on 14 July, with no music. Four of the six chronicle accounts name her."
+        },
+        {
+          "kind": "statement",
+          "lead": "The council's fix made it worse",
+          "text": "Later accounts say officials built stages and paid musicians. More people joined in.",
+          "note": "Onlookers read the spectacle as the anger of Saint Vitus. The council then tore the stages down and banned dancing and music."
+        },
+        {
+          "kind": "statement",
+          "lead": "The death toll is a claim, not a record",
+          "text": "The often repeated 15 deaths a day rests on later accounts.",
+          "note": "Contemporary Strasbourg sources do not mention deaths, and historians disagree on whether anyone died."
+        },
+        {
+          "kind": "kicker",
+          "text": "The favoured explanation today is stress, not poison."
+        },
+        {
+          "kind": "sign",
+          "line": "Hardship can look like a spell.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "semmelweis-handwashing-1847",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ignaz_Semmelweis: read in full. Established that in the Vienna General Hospital the First Clinic averaged about 10% maternal mortality from puerperal fever against under 4% in the Second Clinic, that colleague Jakob Kolletschka died after a scalpel cut during a post mortem and his autopsy resembled the women's, that Semmelweis introduced chlorinated lime handwashing in 1847, that mortality was 18.3% in April 1847 and 2.2% in June after handwashing began in mid May, that First Clinic mortality fell by about 90%, that Rudolf Virchow was among those who rejected his ideas, and that he died on 13 August 1865 aged 47 with pyemia listed as the cause.",
+        "https://www.sciencealert.com/ignaz-semmelweis: read in full. Independently established that doctors' ward mothers had roughly a one in 10 chance of dying against about half that risk with midwives, that Kolletschka died in 1847 from an infected post mortem wound, that mortality fell from around 18 percent in April 1847 to less than 2 percent by July, that senior staff resisted, and that Semmelweis died on 13 August 1865 from an infected hand wound."
+      ],
+      "verifiedNote": "Checked 8 Oct 2026 against two sources that agree on the main numbers. Not claimed: that he was beaten to death, since Wikipedia says guards beat him and a gangrenous hand wound may have resulted, but this is hedged and not needed. Not claimed: the yearly rates for 1841 to 1846, to avoid cherry picking. The 90 per cent figure is Wikipedia's rounded description of the fall, and the April and June percentages are shown in the note rather than as the figure beat. Chlorinated lime is named as the solution. Not claimed: exactly when in May handwashing began beyond 'mid May'.",
+      "palette": {
+        "bg": "#0A0F12",
+        "ink": "#E9F2F5",
+        "accent": "#3FC1C9",
+        "muted": "#6D8189"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Two clinics, one hospital, very different odds",
+          "text": "In Vienna the doctors' clinic lost about 10% of mothers to childbed fever. The midwives' clinic lost under 4%.",
+          "note": "Those are average rates for 1841 to 1846 at the Vienna General Hospital."
+        },
+        {
+          "kind": "credit",
+          "year": "1847",
+          "name": "Jakob Kolletschka",
+          "role": "Semmelweis's colleague. He died after a student's scalpel cut him during a post mortem, and his autopsy resembled those of the women."
+        },
+        {
+          "kind": "statement",
+          "lead": "So Semmelweis made doctors wash",
+          "text": "Mortality was 18.3% in April 1847. After handwashing in chlorinated lime began, June was 2.2%.",
+          "note": "Doctors had been going from the autopsy room straight to the delivery ward without cleaning their hands."
+        },
+        {
+          "kind": "figure",
+          "value": "90",
+          "unit": "per cent",
+          "context": "Roughly how far deaths in the First Clinic fell once handwashing began."
+        },
+        {
+          "kind": "statement",
+          "lead": "Right, but ignored",
+          "text": "Most contemporaries rejected the idea, and Rudolf Virchow was among them.",
+          "note": "He had no theory to explain it, and germ theory had not yet taken hold in Vienna."
+        },
+        {
+          "kind": "kicker",
+          "text": "He died in 1865, aged 47, of a septic wound."
+        },
+        {
+          "kind": "sign",
+          "line": "The proof was there. The theory was late.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
