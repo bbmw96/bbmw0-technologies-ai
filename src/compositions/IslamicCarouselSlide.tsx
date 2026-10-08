@@ -28,7 +28,7 @@
 // same stack has the same coverage there.
 import React from "react";
 
-export type ThemeKey = "emerald-gold" | "midnight-silver" | "terracotta-cream" | "plum-rose" | "indigo-saffron" | "sapphire-pearl" | "garnet-amber" | "obsidian-jade" | "ivory-cobalt" | "charcoal-copper" | "amber-slate" | "rosewood-mint" | "azure-sand" | "crimson-pewter" | "olive-gold" | "violet-ash" | "teal-bronze" | "maroon-linen" | "cobalt-ember" | "forest-blush" | "onyx-turquoise" | "clay-frost" | "basalt-marigold" | "linen-periwinkle" | "umber-mauve" | "aubergine-citrine" | "byzantium-sage" | "chalk-vermilion" | "cerulean-honey" | "slate-copper" | "steel-blossom" | "pine-lavender" | "walnut-aqua" | "ink-saffron-rose" | "mulberry-seafoam" | "denim-peach" | "sandstone-navy" | "celadon-plum" | "lilac-pine" | "mist-garnet" | "ocean-coral" | "graphite-lemon";
+export type ThemeKey = "emerald-gold" | "midnight-silver" | "terracotta-cream" | "plum-rose" | "indigo-saffron" | "sapphire-pearl" | "garnet-amber" | "obsidian-jade" | "ivory-cobalt" | "charcoal-copper" | "amber-slate" | "rosewood-mint" | "azure-sand" | "crimson-pewter" | "olive-gold" | "violet-ash" | "teal-bronze" | "maroon-linen" | "cobalt-ember" | "forest-blush" | "onyx-turquoise" | "clay-frost" | "basalt-marigold" | "linen-periwinkle" | "umber-mauve" | "aubergine-citrine" | "byzantium-sage" | "chalk-vermilion" | "cerulean-honey" | "slate-copper" | "steel-blossom" | "pine-lavender" | "walnut-aqua" | "ink-saffron-rose" | "mulberry-seafoam" | "denim-peach" | "sandstone-navy" | "celadon-plum" | "lilac-pine" | "mist-garnet" | "ocean-coral" | "graphite-lemon" | "espresso-sky" | "navy-lime";
 
 export const THEMES: Record<ThemeKey, { bg: string; ink: string; accent: string; muted: string; label: string }> = {
   "emerald-gold": { bg: "#0B2B26", ink: "#F5F1E6", accent: "#C9A227", muted: "#8FB6AC", label: "Emerald & Gold" },
@@ -72,9 +72,11 @@ export const THEMES: Record<ThemeKey, { bg: string; ink: string; accent: string;
   "mist-garnet": { bg: "#E3E8EC", ink: "#2A1F26", accent: "#8E2F45", muted: "#7C8791", label: "Mist & Garnet" },
   "ocean-coral": { bg: "#12303A", ink: "#F2F7F6", accent: "#FF8E72", muted: "#6F929B", label: "Ocean & Coral" },
   "graphite-lemon": { bg: "#2B2D31", ink: "#F4F1E8", accent: "#E8D44D", muted: "#85878C", label: "Graphite & Lemon" },
+  "espresso-sky": { bg: "#2A1F1A", ink: "#F5EFE8", accent: "#7FC4E8", muted: "#8F7F76", label: "Espresso & Sky" },
+  "navy-lime": { bg: "#0F2238", ink: "#F3F6F8", accent: "#B6E35A", muted: "#6C8196", label: "Navy & Lime" },
   "lilac-pine": { bg: "#E6DFEF", ink: "#1D2B25", accent: "#2F6B55", muted: "#857E90", label: "Lilac & Pine" },
 };
-export const THEME_ORDER: ThemeKey[] = ["emerald-gold", "midnight-silver", "terracotta-cream", "plum-rose", "indigo-saffron", "sapphire-pearl", "garnet-amber", "obsidian-jade", "ivory-cobalt", "charcoal-copper", "amber-slate", "rosewood-mint", "azure-sand", "crimson-pewter", "olive-gold", "violet-ash", "teal-bronze", "maroon-linen", "cobalt-ember", "forest-blush", "onyx-turquoise", "clay-frost", "basalt-marigold", "linen-periwinkle", "umber-mauve", "aubergine-citrine", "byzantium-sage", "chalk-vermilion", "cerulean-honey", "slate-copper", "steel-blossom", "pine-lavender", "walnut-aqua", "ink-saffron-rose", "mulberry-seafoam", "denim-peach", "sandstone-navy", "celadon-plum", "lilac-pine", "mist-garnet", "ocean-coral", "graphite-lemon"];
+export const THEME_ORDER: ThemeKey[] = ["emerald-gold", "midnight-silver", "terracotta-cream", "plum-rose", "indigo-saffron", "sapphire-pearl", "garnet-amber", "obsidian-jade", "ivory-cobalt", "charcoal-copper", "amber-slate", "rosewood-mint", "azure-sand", "crimson-pewter", "olive-gold", "violet-ash", "teal-bronze", "maroon-linen", "cobalt-ember", "forest-blush", "onyx-turquoise", "clay-frost", "basalt-marigold", "linen-periwinkle", "umber-mauve", "aubergine-citrine", "byzantium-sage", "chalk-vermilion", "cerulean-honey", "slate-copper", "steel-blossom", "pine-lavender", "walnut-aqua", "ink-saffron-rose", "mulberry-seafoam", "denim-peach", "sandstone-navy", "celadon-plum", "lilac-pine", "mist-garnet", "ocean-coral", "graphite-lemon", "espresso-sky", "navy-lime"];
 
 const SANS = '"Helvetica Neue", Inter, Arial, system-ui, sans-serif';
 // Font stacks, most-specific/best-shaped first, safe generic last.
