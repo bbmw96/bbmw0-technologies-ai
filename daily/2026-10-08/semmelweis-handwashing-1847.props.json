@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (semmelweis-handwashing-1847)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0F12",
+    "ink": "#E9F2F5",
+    "accent": "#3FC1C9",
+    "muted": "#6D8189"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Two clinics, one hospital, very different odds",
+      "text": "In Vienna the doctors' clinic lost about 10% of mothers to childbed fever. The midwives' clinic lost under 4%.",
+      "note": "Those are average rates for 1841 to 1846 at the Vienna General Hospital.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1847",
+      "name": "Jakob Kolletschka",
+      "role": "Semmelweis's colleague. He died after a student's scalpel cut him during a post mortem, and his autopsy resembled those of the women.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "statement",
+      "lead": "So Semmelweis made doctors wash",
+      "text": "Mortality was 18.3% in April 1847. After handwashing in chlorinated lime began, June was 2.2%.",
+      "note": "Doctors had been going from the autopsy room straight to the delivery ward without cleaning their hands.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "90",
+      "unit": "per cent",
+      "context": "Roughly how far deaths in the First Clinic fell once handwashing began.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "statement",
+      "lead": "Right, but ignored",
+      "text": "Most contemporaries rejected the idea, and Rudolf Virchow was among them.",
+      "note": "He had no theory to explain it, and germ theory had not yet taken hold in Vienna.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "kicker",
+      "text": "He died in 1865, aged 47, of a septic wound.",
+      "durationInFrames": 82
+    },
+    {
+      "kind": "sign",
+      "line": "The proof was there. The theory was late.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

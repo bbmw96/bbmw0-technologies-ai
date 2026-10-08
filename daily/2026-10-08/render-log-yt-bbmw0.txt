@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-10-08 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- dancing-plague-1518-not-ergot ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-08-dancing-plague-1518-not-ergot.mp4
+  uploaded public: https://youtu.be/DcwpLi0vU0o
+
+--- semmelweis-handwashing-1847 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-08-semmelweis-handwashing-1847.mp4
+  uploaded public: https://youtu.be/XDj_EeKfBPg
+
+--- snake-before-nokia ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-08-snake-before-nokia.mp4
+  uploaded public: https://youtu.be/ZXRjZxxFcRw
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

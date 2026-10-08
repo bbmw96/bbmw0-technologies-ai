@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (dancing-plague-1518-not-ergot)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#120C0C",
+    "ink": "#F5ECE6",
+    "accent": "#D2543B",
+    "muted": "#8A7770"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version blames poisoned bread",
+      "text": "Historians doubt ergot. Dancing for days does not fit it.",
+      "note": "John Waller argues poisoned people would be unlikely to keep dancing for days, and ergot cannot explain outbreaks along the Rhine and Moselle.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1518",
+      "name": "Frau Troffea",
+      "role": "Began dancing in a Strasbourg street on 14 July, with no music. Four of the six chronicle accounts name her.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "The council's fix made it worse",
+      "text": "Later accounts say officials built stages and paid musicians. More people joined in.",
+      "note": "Onlookers read the spectacle as the anger of Saint Vitus. The council then tore the stages down and banned dancing and music.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The death toll is a claim, not a record",
+      "text": "The often repeated 15 deaths a day rests on later accounts.",
+      "note": "Contemporary Strasbourg sources do not mention deaths, and historians disagree on whether anyone died.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The favoured explanation today is stress, not poison.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Hardship can look like a spell.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

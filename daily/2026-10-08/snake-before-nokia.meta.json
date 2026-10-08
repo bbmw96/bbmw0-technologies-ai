@@ -1,0 +1,25 @@
+{
+  "slug": "snake-before-nokia",
+  "date": "2026-10-08",
+  "title": "Nokia did not invent Snake. The first game of its kind was an arcade cabinet called Blockade, made",
+  "description": "The first game of its kind was an arcade cabinet called Blockade, made by Gremlin in 1976. It was a two player game where the player who survived longest won. It was written by Lane Hauck and Ago Kiss.\n\nWorm for the TRS-80, by Peter Trefonas in 1978, is the first known home computer version. MS-DOS then shipped a QBasic version called Nibbles from 1991.\n\nNokia design engineer who adapted Snake for its phones. It arrived on the Nokia 6110, the first Nokia phone with Snake pre-installed.\n\nBetween Blockade in 1976 and Snake on the Nokia 6110 in 1998.\n\nNokia did not invent Snake. It gave it a phone.\n\nSources:\n- https://en.wikipedia.org/wiki/Snake_(video_game_genre): read in full. Established that the genre began with the arcade game Blockade, published by Gremlin in 1976 and written by Lane Hauck and Ago Kiss, that Worm for the TRS-80 by Peter Trefonas in 1978 is the first known home computer version, that Nibbles shipped as a QBasic sample with MS-DOS from 1991, and that Nokia's Snake was released in 1998 for the Nokia 6110.\n- https://en.wikipedia.org/wiki/Nokia_6110: read in full. Established that the phone was announced on 18 December 1997 and released in 1998, and that it was the first Nokia phone with Snake pre-installed.\n- https://blogs.windows.com/devices/2012/02/02/snake-charmed-10-fascinating-facts-about-the-worlds-most-popular-game/: read in full. Established that Blockade from Gremlin in 1976 was the first Snake type game and that Taneli Armanto, a Nokia design engineer, adapted Snake for Nokia devices.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "app",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-10-08-snake-before-nokia.mp4",
+  "propsFile": "daily/2026-10-08/snake-before-nokia.props.json",
+  "durationInFrames": 896,
+  "audioUrl": "",
+  "niche": "app",
+  "composition": "Reel"
+}

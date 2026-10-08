@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (snake-before-nokia)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A100C",
+    "ink": "#E9F4EC",
+    "accent": "#5BD67A",
+    "muted": "#6F8576"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Nokia did not invent Snake",
+      "text": "The first game of its kind was an arcade cabinet called Blockade, made by Gremlin in 1976.",
+      "note": "It was a two player game where the player who survived longest won. It was written by Lane Hauck and Ago Kiss.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Home computers had it twenty years earlier",
+      "text": "Worm for the TRS-80, by Peter Trefonas in 1978, is the first known home computer version.",
+      "note": "MS-DOS then shipped a QBasic version called Nibbles from 1991.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1998",
+      "name": "Taneli Armanto",
+      "role": "Nokia design engineer who adapted Snake for its phones. It arrived on the Nokia 6110, the first Nokia phone with Snake pre-installed.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "figure",
+      "value": "22",
+      "unit": "years",
+      "context": "Between Blockade in 1976 and Snake on the Nokia 6110 in 1998.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "kicker",
+      "text": "Nokia did not invent Snake. It gave it a phone.",
+      "durationInFrames": 82
+    },
+    {
+      "kind": "sign",
+      "line": "Old game. New pocket.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
