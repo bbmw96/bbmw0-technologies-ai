@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (usb-seven-companies-bhatt-1996)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0F12",
+    "ink": "#E9F2F5",
+    "accent": "#4FA3FF",
+    "muted": "#6D8189"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Before USB, every device had its own plug",
+      "text": "PCs carried a crowd of different connectors, and USB was created to make connecting devices fundamentally easier.",
+      "note": "It also set out to simplify software setup.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "It was a seven company effort",
+      "text": "Compaq, DEC, IBM, Intel, Microsoft, NEC and Nortel began developing it in 1995.",
+      "note": "No single company or person owns the invention.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "credit",
+      "year": "1990s",
+      "name": "Ajay Bhatt",
+      "role": "Intel architect. He and his team worked on the standard, and the first USB chips were made by Intel in 1995.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "figure",
+      "value": "12",
+      "unit": "Mbit/s",
+      "context": "The Full Speed rate in USB 1.0, released in January 1996.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "kicker",
+      "text": "In 2009 an Intel advert made Bhatt a \"rock star\" of computing.",
+      "durationInFrames": 94
+    },
+    {
+      "kind": "sign",
+      "line": "Famous as one name. Built by seven companies.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

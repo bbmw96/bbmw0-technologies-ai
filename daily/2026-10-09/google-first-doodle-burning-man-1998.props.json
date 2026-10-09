@@ -1,0 +1,56 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (google-first-doodle-burning-man-1998)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0F12",
+    "ink": "#E9F2F5",
+    "accent": "#F2C94C",
+    "muted": "#6D8189"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The first Doodle was an out of office note",
+      "text": "In August 1998 Larry Page and Sergey Brin published the first Doodle to say they were away at Burning Man.",
+      "note": "Google's Doodles page dates it to 30 August 1998.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2000",
+      "name": "Dennis Hwang",
+      "role": "Asked by Page and Brin to design a Bastille Day logo in 2000, his first Doodle.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "statement",
+      "lead": "Then the logo started to move",
+      "text": "The first animated Doodle ran on 31 October 2000, for Halloween.",
+      "note": "The first interactive one came ten years later.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "statement",
+      "lead": "And then you could play it",
+      "text": "On 21 May 2010 a playable Pac-Man logo marked the game's 30th anniversary.",
+      "note": "Google calls it the first interactive Doodle game experience.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "figure",
+      "value": "5000",
+      "unit": "Doodles",
+      "context": "Google says it has made more than this over the decades.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "sign",
+      "line": "It began as a note on the door.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

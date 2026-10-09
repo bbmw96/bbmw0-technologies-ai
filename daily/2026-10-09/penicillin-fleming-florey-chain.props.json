@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (penicillin-fleming-florey-chain)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0D0F0A",
+    "ink": "#F0F3E6",
+    "accent": "#B9D84A",
+    "muted": "#7C8468"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Fleming spotted it. Someone else made it a medicine.",
+      "text": "Fleming saw the mould killing bacteria in 1928. A team in Oxford turned it into a drug.",
+      "note": "His 1929 paper drew little attention. Florey, Chain and colleagues showed it killed bacteria in living bodies as well as in dishes.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1941",
+      "name": "Albert Alexander",
+      "role": "Oxford police officer and the first patient given penicillin, on 12 February 1941. He improved, then the supply ran out and he died.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "The bottleneck was growing it",
+      "text": "The mould grew as a thin film, so output stayed tiny.",
+      "note": "Corn steep liquor, a cheap corn belt by-product, and a better strain found on a mouldy fruit in a Peoria market made large scale production possible.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "By D-Day it was ready",
+      "text": "2.3 million doses had been made in time for the Normandy landings.",
+      "note": "Allied soldiers carried the antibiotic onto the beaches on 6 June 1944.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "figure",
+      "value": "646",
+      "unit": "billion",
+      "context": "Units of penicillin a year being made in the United States by June 1945.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "kicker",
+      "text": "One mould. Three Nobel winners.",
+      "durationInFrames": 60
+    },
+    {
+      "kind": "sign",
+      "line": "Discovery is only the start.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
