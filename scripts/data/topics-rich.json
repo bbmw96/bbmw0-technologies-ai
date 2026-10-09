@@ -12793,6 +12793,321 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "counter-strike-half-life-mod-1999",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Counter-Strike_(video_game) (read in full): established that Minh Le and Jess Cliffe created Counter-Strike as a modification of Valve's Half-Life, that beta 1 was released on 15 July 1999, that Valve partnered with the creators in an announcement on 12 April 2000, and that the retail version went gold on 9 November 2000 as Half-Life: Counter-Strike.",
+        "https://en.wikipedia.org/wiki/Half-Life_(video_game) (read): established that Half-Life was released on 19 November 1998 and that Counter-Strike was the most successful of its fan-made mods.",
+        "https://en.wikipedia.org/wiki/Jess_Cliffe (read, apart from unrelated personal sections): established that Cliffe co-created the mod with Le and later joined Valve as a designer."
+      ],
+      "verifiedNote": "Checked 9 Oct 2026. Not claimed: exact sale terms or price of the rights, because the article only says statements suggest the rights were sold in early 2000. Not claimed: which of Le or Cliffe did which job beyond Cliffe voicing some lines. Not claimed: anything about Cliffe's later life, which is irrelevant here. Beta player counts left out.",
+      "palette": {
+        "bg": "#0A0F12",
+        "ink": "#E9F2F5",
+        "accent": "#E8A33D",
+        "muted": "#6D8189"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "It was not made by Valve",
+          "text": "Counter-Strike began as a free fan modification of Half-Life, built by two players, Minh Le and Jess Cliffe.",
+          "note": "Half-Life itself came out on 19 November 1998."
+        },
+        {
+          "kind": "credit",
+          "year": "1999",
+          "name": "Minh Le and Jess Cliffe",
+          "role": "Released beta 1 of the mod on 15 July 1999. Development had started that year."
+        },
+        {
+          "kind": "statement",
+          "lead": "Then Valve came calling",
+          "text": "Valve announced a partnership with the two creators on 12 April 2000.",
+          "note": "Cliffe went on to work at Valve. Le left to start his own studio."
+        },
+        {
+          "kind": "statement",
+          "lead": "The mod became a boxed game",
+          "text": "The retail version went gold on 9 November 2000, sold as Half-Life: Counter-Strike.",
+          "note": "Among Half-Life mods, Counter-Strike was the most successful."
+        },
+        {
+          "kind": "kicker",
+          "text": "A fan project became one of the best known shooters ever made."
+        },
+        {
+          "kind": "sign",
+          "line": "Some of the biggest games started as someone else's toolbox.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "stardew-valley-one-developer-four-and-a-half-years",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Stardew_Valley (read in full): established that Eric Barone was the sole developer, that it released on Windows on 26 February 2016, that it was written in C# on Microsoft XNA, that music and effects were made in Reason, art in Paint.NET, and that sales passed 50 million by February 2026.",
+        "https://en.wikipedia.org/wiki/Eric_Barone (read): established that he worked on it from 2012 for about four and a half years, averaging ten hours a day, seven days a week, while working part time as an evening usher at the Paramount Theatre in Seattle, and that Harvest Moon was his childhood favourite."
+      ],
+      "verifiedNote": "Checked 9 Oct 2026. The two articles give \"five years\" and \"four and a half years\"; the beats use four and a half, from the biography, and describe the span as 2012 to 2016. Not claimed: exact sales on any single platform, or that he never had any help at all after launch (a small team joined in 2019, which is stated). Publisher history with Chucklefish left out because the two sources do not cover it in the same way. The 50 million is a \"more than\" figure from Wikipedia, so the context says \"more than\".",
+      "palette": {
+        "bg": "#0A0F12",
+        "ink": "#E9F2F5",
+        "accent": "#7BC96F",
+        "muted": "#6D8189"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "One person, every job",
+          "text": "Eric Barone designed, programmed, drew, composed and wrote Stardew Valley himself.",
+          "note": "He used C# with Microsoft XNA, Paint.NET for pixel art and Reason for the music."
+        },
+        {
+          "kind": "credit",
+          "year": "2012",
+          "name": "Eric Barone",
+          "role": "Began work and kept going for about four and a half years, averaging ten hours a day, seven days a week."
+        },
+        {
+          "kind": "statement",
+          "lead": "He still had a day job",
+          "text": "Alongside the game he worked part time as an evening usher at the Paramount Theatre in Seattle.",
+          "note": "His partner, Amber Hageman, worked two jobs to support them."
+        },
+        {
+          "kind": "statement",
+          "lead": "It was a Harvest Moon fan's game",
+          "text": "Harvest Moon was his childhood favourite, and the farming series shaped what he built.",
+          "note": "The game released on Windows on 26 February 2016."
+        },
+        {
+          "kind": "figure",
+          "value": "50",
+          "unit": "million",
+          "context": "Copies sold across all platforms by February 2026, as a minimum."
+        },
+        {
+          "kind": "kicker",
+          "text": "A small team only joined him in 2019."
+        },
+        {
+          "kind": "sign",
+          "line": "One person. Four and a half years. Fifty million copies.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "amazon-recruiting-ai-penalised-womens-2018",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://www.euronews.com/business/2018/10/10/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women (read in full, Reuters report republished): established that the team had been building the screening programs since 2014, that candidates were scored from one to five stars, that models were trained on CVs submitted over a 10 year period which came mostly from men, that CVs containing the word \"women's\" were penalised, that graduates of two all women's colleges were downgraded, that the team was disbanded by the start of 2017, and that recruiters looked at its output but never relied solely on it.",
+        "https://incidentdatabase.ai/reports/611 (read): independently established the same 2014 start, the one to five star scale, the 10 year training period, the \"women's chess club captain\" example, and that Amazon said the tool was never used by recruiters to evaluate candidates, which anonymous sources disputed in part."
+      ],
+      "verifiedNote": "Checked 9 Oct 2026. Not claimed: that Amazon hired or rejected anyone because of the tool, since Amazon denied recruiters used it to evaluate candidates and the Reuters sources said only that recruiters looked at its output. Not claimed: the names of the two colleges, which were not published. Not claimed: the model counts, because only one source gave them. The disbandment date is stated as around early 2017, inferred from \"by the start of last year\" in an article from October 2018.",
+      "palette": {
+        "bg": "#0A0F12",
+        "ink": "#E9F2F5",
+        "accent": "#C97BE0",
+        "muted": "#6D8189"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Amazon built an AI to rank CVs",
+          "text": "From 2014 a team built programs that gave candidates one to five stars, like a product rating.",
+          "note": "Reuters reported the team began work in 2014."
+        },
+        {
+          "kind": "statement",
+          "lead": "It learned from ten years of CVs",
+          "text": "The training data came from CVs submitted over a 10 year period, and most were from men.",
+          "note": "The system copied the pattern it was shown."
+        },
+        {
+          "kind": "statement",
+          "lead": "Then it marked women down",
+          "text": "CVs containing the word \"women's\", as in \"women's chess club captain\", were penalised.",
+          "note": "It also downgraded graduates of two all women's colleges."
+        },
+        {
+          "kind": "statement",
+          "lead": "Humans stayed in the loop",
+          "text": "Recruiters looked at its recommendations but never relied solely on the rankings.",
+          "note": "Amazon said the tool was never used by recruiters to evaluate candidates."
+        },
+        {
+          "kind": "kicker",
+          "text": "The team was disbanded around early 2017, and the story broke in 2018."
+        },
+        {
+          "kind": "sign",
+          "line": "The data was the bias. The model only learned it.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "usb-seven-companies-bhatt-1996",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/USB (read the history section): established that seven companies, Compaq, DEC, IBM, Intel, Microsoft, NEC and Nortel, began developing USB in 1995, that USB 1.0 was released in January 1996 with 1.5 and 12 Mbit/s signalling, that Ajay Bhatt and his team worked on the standard at Intel, and that the stated goal was to make it fundamentally easier to connect external devices to PCs and to replace the many connectors on PCs.",
+        "https://en.wikipedia.org/wiki/Ajay_Bhatt (read): established that he joined Intel in 1990, that he is described as a creator of USB rather than sole inventor (headlines call him \"co-creator\"), and that a 2009 Intel television advert portrayed him, played by actor Sunil Narkar."
+      ],
+      "verifiedNote": "Checked 9 Oct 2026. Not claimed: that Bhatt alone invented USB, because the sources describe a seven company group and a team. Not claimed: any pay or royalty story, because neither source supports one. Not claimed: Windows 98 or iMac adoption, because the fetched text did not state them. The start of development is given as 1995 per the USB article, not 1994 as some sources say. Not claimed: the claim that USB was named or designed to be reversible, which it was not.",
+      "palette": {
+        "bg": "#0A0F12",
+        "ink": "#E9F2F5",
+        "accent": "#4FA3FF",
+        "muted": "#6D8189"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Before USB, every device had its own plug",
+          "text": "PCs carried a crowd of different connectors, and USB was created to make connecting devices fundamentally easier.",
+          "note": "It also set out to simplify software setup."
+        },
+        {
+          "kind": "statement",
+          "lead": "It was a seven company effort",
+          "text": "Compaq, DEC, IBM, Intel, Microsoft, NEC and Nortel began developing it in 1995.",
+          "note": "No single company or person owns the invention."
+        },
+        {
+          "kind": "credit",
+          "year": "1990s",
+          "name": "Ajay Bhatt",
+          "role": "Intel architect. He and his team worked on the standard, and the first USB chips were made by Intel in 1995."
+        },
+        {
+          "kind": "figure",
+          "value": "12",
+          "unit": "Mbit/s",
+          "context": "The Full Speed rate in USB 1.0, released in January 1996."
+        },
+        {
+          "kind": "kicker",
+          "text": "In 2009 an Intel advert made Bhatt a \"rock star\" of computing."
+        },
+        {
+          "kind": "sign",
+          "line": "Famous as one name. Built by seven companies.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "google-first-doodle-burning-man-1998",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://doodles.google/about/ (read): established that the first Doodle was published in 1998, dated 30 August 1998, so the founders Larry Page and Sergey Brin could tell people they were out of office for Burning Man, that the team has created more than 5,000 Doodles, and that the Pac-Man Doodle of 21 May 2010 was the first interactive Doodle game experience.",
+        "https://en.wikipedia.org/wiki/Google_Doodle (read): independently established the Burning Man origin, that Page and Brin later asked Dennis Hwang to design a Bastille Day logo in 2000, that the first animated Doodle ran on 31 October 2000, and that the first interactive Doodle was the playable Pac-Man logo of 21 May 2010."
+      ],
+      "verifiedNote": "Checked 9 Oct 2026. The two sources disagree slightly on the motive: Google says it was an out of office notice, Wikipedia adds that it was to alert users to the company's absence if servers crashed. The beats use the out of office wording, which both support. Not claimed: that Hwang made the first ever Doodle (he made the first one designed by the team, in 2000). Not claimed: an exact current Doodle count beyond \"more than 5,000\".",
+      "palette": {
+        "bg": "#0A0F12",
+        "ink": "#E9F2F5",
+        "accent": "#F2C94C",
+        "muted": "#6D8189"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The first Doodle was an out of office note",
+          "text": "In August 1998 Larry Page and Sergey Brin published the first Doodle to say they were away at Burning Man.",
+          "note": "Google's Doodles page dates it to 30 August 1998."
+        },
+        {
+          "kind": "credit",
+          "year": "2000",
+          "name": "Dennis Hwang",
+          "role": "Asked by Page and Brin to design a Bastille Day logo in 2000, his first Doodle."
+        },
+        {
+          "kind": "statement",
+          "lead": "Then the logo started to move",
+          "text": "The first animated Doodle ran on 31 October 2000, for Halloween.",
+          "note": "The first interactive one came ten years later."
+        },
+        {
+          "kind": "statement",
+          "lead": "And then you could play it",
+          "text": "On 21 May 2010 a playable Pac-Man logo marked the game's 30th anniversary.",
+          "note": "Google calls it the first interactive Doodle game experience."
+        },
+        {
+          "kind": "figure",
+          "value": "5000",
+          "unit": "Doodles",
+          "context": "Google says it has made more than this over the decades."
+        },
+        {
+          "kind": "sign",
+          "line": "It began as a note on the door.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "post-it-note-failed-glue-silver-fry",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Post-it_Note (read in full): established that Spencer Silver made a low tack reusable adhesive at 3M in 1968 while trying to make a strong one, that he promoted it internally for five years as a solution without a problem, that Art Fry used it for hymn book bookmarks in 1974 under 3M's permitted bootlegging policy, that the 1977 test market as \"Press 'n Peel\" was disappointing, that a 1978 free sample campaign in Boise, Idaho, led to over 90 per cent saying they would buy it, that the national launch was in 1980, and that the canary yellow came from scrap paper in the next lab.",
+        "https://en.wikipedia.org/wiki/Art_Fry (read): independently established that Fry attended Silver's seminar and thought of using the adhesive to anchor a bookmark in his hymn book, that 3M's policy lets employees spend some work time on projects of their choosing, and that Post-it Notes were released to the national market in 1980."
+      ],
+      "verifiedNote": "Checked 9 Oct 2026. The 3M company page could not be fetched, so the Boise and Press 'n Peel details rest on one Wikipedia article and are phrased plainly without extra figures. Not claimed: the \"15 per cent rule\", which the Art Fry article does not state. Not claimed: exact adhesive chemistry. The yellow colour is described as chance, which the article states.",
+      "palette": {
+        "bg": "#0A0F12",
+        "ink": "#E9F2F5",
+        "accent": "#F2D64B",
+        "muted": "#6D8189"
+      },
+      "beats": [
+        {
+          "kind": "credit",
+          "year": "1968",
+          "name": "Spencer Silver",
+          "role": "3M scientist. He tried to make a super strong adhesive and made a weak, reusable one instead."
+        },
+        {
+          "kind": "statement",
+          "lead": "For five years, nobody wanted it",
+          "text": "Silver promoted the adhesive inside 3M as a solution without a problem and found no supporters.",
+          "note": "It had been aimed at the aerospace industry."
+        },
+        {
+          "kind": "credit",
+          "year": "1974",
+          "name": "Art Fry",
+          "role": "Heard Silver's seminar, then used the adhesive to hold a bookmark in his hymn book."
+        },
+        {
+          "kind": "statement",
+          "lead": "The first launch flopped",
+          "text": "In 1977 3M test marketed it as \"Press 'n Peel\" in four cities, and the results were disappointing.",
+          "note": "In 1978 free samples went to offices in Boise, Idaho, and over 90 per cent of recipients said they would buy it."
+        },
+        {
+          "kind": "kicker",
+          "text": "The yellow was chance. It matched the scrap paper in the next lab."
+        },
+        {
+          "kind": "sign",
+          "line": "A failed glue found its job in a hymn book.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
