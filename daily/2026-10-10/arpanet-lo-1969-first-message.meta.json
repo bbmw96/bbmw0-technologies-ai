@@ -1,0 +1,25 @@
+{
+  "slug": "arpanet-lo-1969-first-message",
+  "date": "2026-10-10",
+  "title": "The first message on the early internet was a crash. On 29 October 1969, UCLA tried to log in to a",
+  "description": "On 29 October 1969, UCLA tried to log in to a computer at SRI over the ARPANET. The machines were an SDS Sigma 7 and an SDS 940.\n\nUCLA student programmer. He typed the login command while Bill Duvall waited at SRI.\n\nOnly \"l\" and \"o\" arrived before the SRI machine crashed.\n\nSo the first thing the network ever carried was \"lo\", as in \"lo and behold\". The wordplay is a gloss added afterwards, not a plan.\n\nAbout an hour later the machine was adjusted and the full login worked.\n\nSources:\n- https://en.wikipedia.org/wiki/ARPANET (read): established that on 29 October 1969 Charley Kline at UCLA, on an SDS Sigma 7, tried to log in to Bill Duvall's SDS 940 at SRI, that the SRI machine crashed after two characters, and that after an hour of adjustment the login succeeded.\n- https://www.lk.cs.ucla.edu/internet_first_words.html (Leonard Kleinrock's UCLA page, read): established the time of 22:30 on 29 October 1969, that Kline sent the \"l\" and \"o\" before the system crashed, that the full login was completed about an hour later, and that the first message is described as \"lo\", as in \"lo and behold\".\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-10-10-arpanet-lo-1969-first-message.mp4",
+  "propsFile": "daily/2026-10-10/arpanet-lo-1969-first-message.props.json",
+  "durationInFrames": 852,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (eat-the-frog-chamfort-not-twain)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0F12",
+    "ink": "#E9F2F5",
+    "accent": "#5BC27A",
+    "muted": "#6D8189"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Eat the frog is credited to Mark Twain",
+      "text": "The advice to do your worst task first is usually attributed to him.",
+      "note": "Brian Tracy's book Eat That Frog! opens with that credit.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "lead": "Nobody has found Twain saying it",
+      "text": "Quote Investigator found no substantive evidence, and the first known Twain link is a 1988 newspaper column.",
+      "note": "Twain died in 1910, 78 years earlier.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "credit",
+      "year": "1795",
+      "name": "Nicolas Chamfort",
+      "role": "French writer. His collected works credit a toad a day to M. de Lassay.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "statement",
+      "lead": "It was never about productivity",
+      "text": "The line was about swallowing a toad each morning so nothing in high society could disgust you later.",
+      "note": "It was a joke about society, not a task list.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The frog is a toad, and the author is French.",
+      "durationInFrames": 82
+    },
+    {
+      "kind": "sign",
+      "line": "A famous tip, credited to the wrong century.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

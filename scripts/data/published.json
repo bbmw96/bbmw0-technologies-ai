@@ -300,7 +300,10 @@
     "reel:snake-before-nokia",
     "reel:google-first-doodle-burning-man-1998",
     "reel:usb-seven-companies-bhatt-1996",
-    "reel:penicillin-fleming-florey-chain"
+    "reel:penicillin-fleming-florey-chain",
+    "reel:eat-the-frog-chamfort-not-twain",
+    "reel:arpanet-lo-1969-first-message",
+    "reel:post-it-note-failed-glue-silver-fry"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -5257,6 +5260,57 @@
       "channelId": "yt-bbmw0",
       "special": false,
       "platform": "youtube"
+    },
+    {
+      "id": "eat-the-frog-chamfort-not-twain",
+      "date": "2026-10-10",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Eat the frog is credited to Mark Twain. The advice to do your worst task first is usually attributed",
+      "description": "The advice to do your worst task first is usually attributed to him. Brian Tracy's book Eat That Frog! opens with that credit.\n\nQuote Investigator found no substantive evidence, and the first known Twain link is a 1988 newspaper column. Twain died in 1910, 78 years earlier.\n\nFrench writer. His collected works credit a toad a day to M. de Lassay.\n\nThe line was about swallowing a toad each morning so nothing in high society could disgust you later. It was a joke about society, not a task list.\n\nThe frog is a toad, and the author is French.\n\nSources:\n- https://quoteinvestigator.com/2013/04/03/eat-frog/ (read): established that Quote Investigator found no substantive evidence Mark Twain said it, that the earliest known Twain link is a 1988 Cleveland Plain Dealer column, that the saying is traced to Nicolas Chamfort's works of about 1795 where it is credited to M. de Lassay and uses a toad, and that Brian Tracy's Eat That Frog! opens with the Twain attribution.\n- https://wist.info/chamfort-nicolas/67155/ (read): established the French wording \"Faudrait avaler un crapaud tous les matins\" and the English \"swallow a toad every morning\", from Chamfort's Products of Perfected Civilization, 1795, credited to M. de Lassay, in the context of facing high society so as to meet nothing more disgusting during the day.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "6R2uwZiJxdk",
+      "youtubeUrl": "https://youtu.be/6R2uwZiJxdk",
+      "uploadedAt": "2026-10-10T15:00:09.973Z",
+      "privacy": "public"
+    },
+    {
+      "id": "arpanet-lo-1969-first-message",
+      "date": "2026-10-10",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The first message on the early internet was a crash. On 29 October 1969, UCLA tried to log in to a",
+      "description": "On 29 October 1969, UCLA tried to log in to a computer at SRI over the ARPANET. The machines were an SDS Sigma 7 and an SDS 940.\n\nUCLA student programmer. He typed the login command while Bill Duvall waited at SRI.\n\nOnly \"l\" and \"o\" arrived before the SRI machine crashed.\n\nSo the first thing the network ever carried was \"lo\", as in \"lo and behold\". The wordplay is a gloss added afterwards, not a plan.\n\nAbout an hour later the machine was adjusted and the full login worked.\n\nSources:\n- https://en.wikipedia.org/wiki/ARPANET (read): established that on 29 October 1969 Charley Kline at UCLA, on an SDS Sigma 7, tried to log in to Bill Duvall's SDS 940 at SRI, that the SRI machine crashed after two characters, and that after an hour of adjustment the login succeeded.\n- https://www.lk.cs.ucla.edu/internet_first_words.html (Leonard Kleinrock's UCLA page, read): established the time of 22:30 on 29 October 1969, that Kline sent the \"l\" and \"o\" before the system crashed, that the full login was completed about an hour later, and that the first message is described as \"lo\", as in \"lo and behold\".\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "ZnznunYKN_s",
+      "youtubeUrl": "https://youtu.be/ZnznunYKN_s",
+      "uploadedAt": "2026-10-10T14:58:28.138Z",
+      "privacy": "public"
+    },
+    {
+      "id": "post-it-note-failed-glue-silver-fry",
+      "date": "2026-10-10",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "For five years, nobody wanted it. Silver promoted the adhesive inside 3M as a solution without a",
+      "description": "3M scientist. He tried to make a super strong adhesive and made a weak, reusable one instead.\n\nSilver promoted the adhesive inside 3M as a solution without a problem and found no supporters. It had been aimed at the aerospace industry.\n\nHeard Silver's seminar, then used the adhesive to hold a bookmark in his hymn book.\n\nIn 1977 3M test marketed it as \"Press 'n Peel\" in four cities, and the results were disappointing. In 1978 free samples went to offices in Boise, Idaho, and over 90 per cent of recipients said they would buy it.\n\nThe yellow was chance. It matched the scrap paper in the next lab.\n\nSources:\n- https://en.wikipedia.org/wiki/Post-it_Note (read in full): established that Spencer Silver made a low tack reusable adhesive at 3M in 1968 while trying to make a strong one, that he promoted it internally for five years as a solution without a problem, that Art Fry used it for hymn book bookmarks in 1974 under 3M's permitted bootlegging policy, that the 1977 test market as \"Press 'n Peel\" was disappointing, that a 1978 free sample campaign in Boise, Idaho, led to over 90 per cent saying they would buy it, that the national launch was in 1980, and that the canary yellow came from scrap paper in the next lab.\n- https://en.wikipedia.org/wiki/Art_Fry (read): independently established that Fry attended Silver's seminar and thought of using the adhesive to anchor a bookmark in his hymn book, that 3M's policy lets employees spend some work time on projects of their choosing, and that Post-it Notes were released to the national market in 1980.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "yi_JjOFbfG0",
+      "youtubeUrl": "https://youtu.be/yi_JjOFbfG0",
+      "uploadedAt": "2026-10-10T15:01:46.036Z",
+      "privacy": "public"
     }
   ]
 }

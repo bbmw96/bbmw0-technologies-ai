@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (post-it-note-failed-glue-silver-fry)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0F12",
+    "ink": "#E9F2F5",
+    "accent": "#F2D64B",
+    "muted": "#6D8189"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "credit",
+      "year": "1968",
+      "name": "Spencer Silver",
+      "role": "3M scientist. He tried to make a super strong adhesive and made a weak, reusable one instead.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "statement",
+      "lead": "For five years, nobody wanted it",
+      "text": "Silver promoted the adhesive inside 3M as a solution without a problem and found no supporters.",
+      "note": "It had been aimed at the aerospace industry.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "credit",
+      "year": "1974",
+      "name": "Art Fry",
+      "role": "Heard Silver's seminar, then used the adhesive to hold a bookmark in his hymn book.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "statement",
+      "lead": "The first launch flopped",
+      "text": "In 1977 3M test marketed it as \"Press 'n Peel\" in four cities, and the results were disappointing.",
+      "note": "In 1978 free samples went to offices in Boise, Idaho, and over 90 per cent of recipients said they would buy it.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The yellow was chance. It matched the scrap paper in the next lab.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "sign",
+      "line": "A failed glue found its job in a hymn book.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 106
+    }
+  ],
+  "cta": "Subscribe for more."
+}

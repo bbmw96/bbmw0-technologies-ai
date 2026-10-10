@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-10-10 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- arpanet-lo-1969-first-message ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-10-arpanet-lo-1969-first-message.mp4
+  uploaded public: https://youtu.be/ZnznunYKN_s
+
+--- eat-the-frog-chamfort-not-twain ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-10-eat-the-frog-chamfort-not-twain.mp4
+  uploaded public: https://youtu.be/6R2uwZiJxdk
+
+--- post-it-note-failed-glue-silver-fry ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-10-post-it-note-failed-glue-silver-fry.mp4
+  uploaded public: https://youtu.be/yi_JjOFbfG0
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===
