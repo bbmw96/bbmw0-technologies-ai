@@ -13108,6 +13108,263 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "arpanet-lo-1969-first-message",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/ARPANET (read): established that on 29 October 1969 Charley Kline at UCLA, on an SDS Sigma 7, tried to log in to Bill Duvall's SDS 940 at SRI, that the SRI machine crashed after two characters, and that after an hour of adjustment the login succeeded.",
+        "https://www.lk.cs.ucla.edu/internet_first_words.html (Leonard Kleinrock's UCLA page, read): established the time of 22:30 on 29 October 1969, that Kline sent the \"l\" and \"o\" before the system crashed, that the full login was completed about an hour later, and that the first message is described as \"lo\", as in \"lo and behold\"."
+      ],
+      "verifiedNote": "Checked 10 Oct 2026. Not claimed: that \"lo\" was a deliberate message, because both sources describe a crash partway through typing \"login\". Not claimed: that this was the first message ever sent on any network, because Wikipedia calls it the first successful host to host connection on the ARPANET. Not claimed: the \"lo and behold\" quotation as something Kline said, because Kleinrock's page only adds it as a gloss. The Computer History Museum page was fetched but did not cover the event, so it is not cited.",
+      "palette": {
+        "bg": "#0A0F12",
+        "ink": "#E9F2F5",
+        "accent": "#4FA3FF",
+        "muted": "#6D8189"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The first message on the early internet was a crash",
+          "text": "On 29 October 1969, UCLA tried to log in to a computer at SRI over the ARPANET.",
+          "note": "The machines were an SDS Sigma 7 and an SDS 940."
+        },
+        {
+          "kind": "credit",
+          "year": "1969",
+          "name": "Charley Kline",
+          "role": "UCLA student programmer. He typed the login command while Bill Duvall waited at SRI."
+        },
+        {
+          "kind": "figure",
+          "value": "2",
+          "unit": "letters",
+          "context": "Only \"l\" and \"o\" arrived before the SRI machine crashed."
+        },
+        {
+          "kind": "statement",
+          "lead": "The word was meant to be \"login\"",
+          "text": "So the first thing the network ever carried was \"lo\", as in \"lo and behold\".",
+          "note": "The wordplay is a gloss added afterwards, not a plan."
+        },
+        {
+          "kind": "kicker",
+          "text": "About an hour later the machine was adjusted and the full login worked."
+        },
+        {
+          "kind": "sign",
+          "line": "The internet started with a crash and a retry.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "piltdown-man-fluorine-1953",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Piltdown_Man (read): established that Charles Dawson and Arthur Smith Woodward presented the find on 18 December 1912, that doubts were raised within a few years (Waterston 1913, Boule 1915), that fluorine absorption tests by Oakley, Le Gros Clark and Weiner exposed it in 1953, and that the pieces combined a medieval human skull with an orangutan jaw and filed teeth.",
+        "https://www.pbs.org/wgbh/aso/databank/entries/do53pi.html (read): established that the hoax was reported on 21 November 1953 after the Natural History Museum published its findings, that an improved fluorine test showed the jaw and teeth were not the same age as the skull, and that the jaw was most likely an orangutan's.",
+        "https://nhm.ac.uk/discover/news/2016/august/piltdown-man-charles-dawson-likely-fraudster.html (read): established that a 2016 study found consistent working methods pointing to one forger, Charles Dawson, and that DNA linked teeth from two sites to the same orangutan."
+      ],
+      "verifiedNote": "Checked 10 Oct 2026. Not claimed: any date for Oakley's first fluorine test, because the Natural History Museum and PBS pages give 1949 but Wikipedia places the results differently. Not claimed: that Dawson's guilt is proven beyond doubt, because the 2016 team said he was almost certainly the forger and his motive is unknown. Not claimed: chimpanzee teeth, because the Natural History Museum news page mentions only orangutan. The 41 years figure is 1912 to 1953.",
+      "palette": {
+        "bg": "#0A0F12",
+        "ink": "#E9F2F5",
+        "accent": "#D9A441",
+        "muted": "#6D8189"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Britain's \"missing link\" was a fake",
+          "text": "In December 1912 Charles Dawson and Arthur Smith Woodward presented Piltdown Man to the Geological Society.",
+          "note": "It was billed as an early human ancestor."
+        },
+        {
+          "kind": "statement",
+          "lead": "Doubters spoke up almost at once",
+          "text": "Waterston in 1913 and Boule in 1915 argued it was an ape jaw with a human skull.",
+          "note": "Both were dismissed for decades."
+        },
+        {
+          "kind": "statement",
+          "lead": "Fluorine gave the game away",
+          "text": "Tests in 1953 showed the jaw and teeth were not the same age as the skull, and the jaw was most likely an orangutan's.",
+          "note": "The skull was human and far more recent than claimed."
+        },
+        {
+          "kind": "figure",
+          "value": "41",
+          "unit": "years",
+          "context": "From the 1912 announcement to the 1953 exposure."
+        },
+        {
+          "kind": "kicker",
+          "text": "A 2016 study found one forger's methods throughout, and named Dawson."
+        },
+        {
+          "kind": "sign",
+          "line": "The fake survived because it said what experts wanted.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "eat-the-frog-chamfort-not-twain",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://quoteinvestigator.com/2013/04/03/eat-frog/ (read): established that Quote Investigator found no substantive evidence Mark Twain said it, that the earliest known Twain link is a 1988 Cleveland Plain Dealer column, that the saying is traced to Nicolas Chamfort's works of about 1795 where it is credited to M. de Lassay and uses a toad, and that Brian Tracy's Eat That Frog! opens with the Twain attribution.",
+        "https://wist.info/chamfort-nicolas/67155/ (read): established the French wording \"Faudrait avaler un crapaud tous les matins\" and the English \"swallow a toad every morning\", from Chamfort's Products of Perfected Civilization, 1795, credited to M. de Lassay, in the context of facing high society so as to meet nothing more disgusting during the day."
+      ],
+      "verifiedNote": "Checked 10 Oct 2026. Not claimed: that Brian Tracy invented the Twain link, because Quote Investigator only shows his book repeats it. Not claimed: any exact first Twain citation beyond the 1988 column, which Quote Investigator calls the first known. Not claimed: that nobody could ever have found a Twain source, only that none has been found. The toad is Chamfort's wording, not a frog.",
+      "palette": {
+        "bg": "#0A0F12",
+        "ink": "#E9F2F5",
+        "accent": "#5BC27A",
+        "muted": "#6D8189"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Eat the frog is credited to Mark Twain",
+          "text": "The advice to do your worst task first is usually attributed to him.",
+          "note": "Brian Tracy's book Eat That Frog! opens with that credit."
+        },
+        {
+          "kind": "statement",
+          "lead": "Nobody has found Twain saying it",
+          "text": "Quote Investigator found no substantive evidence, and the first known Twain link is a 1988 newspaper column.",
+          "note": "Twain died in 1910, 78 years earlier."
+        },
+        {
+          "kind": "credit",
+          "year": "1795",
+          "name": "Nicolas Chamfort",
+          "role": "French writer. His collected works credit a toad a day to M. de Lassay."
+        },
+        {
+          "kind": "statement",
+          "lead": "It was never about productivity",
+          "text": "The line was about swallowing a toad each morning so nothing in high society could disgust you later.",
+          "note": "It was a joke about society, not a task list."
+        },
+        {
+          "kind": "kicker",
+          "text": "The frog is a toad, and the author is French."
+        },
+        {
+          "kind": "sign",
+          "line": "A famous tip, credited to the wrong century.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "final-fantasy-name-sakaguchi-any-f-word",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Final_Fantasy_(video_game) (read): established that the working title was Fighting Fantasy and was changed to avoid a clash with a gamebook series, that the team wanted a name shortening to FF, that Uematsu said the success was tied to Sakaguchi's situation, that Sakaguchi later said any word starting with F would have done, that Square faced bankruptcy, and the Japanese release date of 18 December 1987.",
+        "https://soranews24.com/2015/05/26/final-fantasy-creator-reveals-the-real-reason-behind-the-final-part-of-the-hit-series-title/amp/ (read, published 26 May 2015): established that Sakaguchi, in a keynote reported by Famitsu, said \"final\" was chosen for neither popular reason and that anything starting with an F would have been fine.",
+        "https://www.gematsu.com/2009/07/uematsu-how-final-fantasy-got-its-name (read, dated 24 July 2009): established that Nobuo Uematsu said Square was going to go bankrupt and the designers believed it would be the company's swan song, and that Sakaguchi planning to leave was the lesser reason."
+      ],
+      "verifiedNote": "Checked 10 Oct 2026. Not claimed: which account is correct, because Uematsu (2009) and Sakaguchi (2015) disagree and the video says so. Not claimed: sales figures, since sources vary by year. Not claimed: that Square actually went bankrupt, which no source says. The popular story that it was named because it was the last game is presented as Uematsu's account, not fact.",
+      "palette": {
+        "bg": "#0A0F12",
+        "ink": "#E9F2F5",
+        "accent": "#7B8CFF",
+        "muted": "#6D8189"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The famous story: it was the last game",
+          "text": "Final Fantasy launched in Japan on 18 December 1987, while Square faced bankruptcy.",
+          "note": "Nobuo Uematsu said the team saw it as a swan song."
+        },
+        {
+          "kind": "statement",
+          "lead": "It was first called Fighting Fantasy",
+          "text": "The name changed to avoid a clash with an existing gamebook series.",
+          "note": "The team wanted a title that shortened to FF."
+        },
+        {
+          "kind": "statement",
+          "lead": "The creator told a different story",
+          "text": "In 2015 Sakaguchi said \"final\" was chosen for neither popular reason.",
+          "note": "He said anything starting with an F would have been fine."
+        },
+        {
+          "kind": "credit",
+          "year": "1987",
+          "name": "Hironobu Sakaguchi",
+          "role": "Director. Uematsu said he planned to quit if the game failed."
+        },
+        {
+          "kind": "kicker",
+          "text": "Two insiders, two answers, and a franchise named by a letter."
+        },
+        {
+          "kind": "sign",
+          "line": "The last fantasy turned out to be the first of many.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "lamda-lemoine-sentience-claim-2022",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/LaMDA (read): established that on 11 June 2022 The Washington Post reported Blake Lemoine had been put on paid leave after telling executives LaMDA had become sentient, that Google said the claims were wholly unfounded, that he was fired on 22 July 2022, and that experts including Yann LeCun largely rejected the claim.",
+        "https://abc7chicago.com/post/blake-lemoine-google-engineer-fired-lamda-ai-sentient/12072237/ (read, CNN report dated 23 July 2022): established that Google called the claims \"wholly unfounded\", said he persistently violated employment and data security policies, that he claimed LaMDA reached a level of consciousness after thousands of messages, and that he was placed on leave in June."
+      ],
+      "verifiedNote": "Checked 10 Oct 2026. Not claimed: that LaMDA is or is not conscious, because the video reports only what was said. Not claimed: the exact message count, since the CNN report says only \"thousands\". Not claimed: that he was fired solely over the sentience claim, because Google cited policy violations. The firing date of 22 July 2022 is from Wikipedia; the CNN report is dated 23 July.",
+      "palette": {
+        "bg": "#0A0F12",
+        "ink": "#E9F2F5",
+        "accent": "#C97BE0",
+        "muted": "#6D8189"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "An engineer said Google's chatbot was alive",
+          "text": "In June 2022 Blake Lemoine told executives that LaMDA had become sentient.",
+          "note": "He said he had exchanged thousands of messages with it."
+        },
+        {
+          "kind": "statement",
+          "lead": "Google said no",
+          "text": "It called the claims \"wholly unfounded\" after what it described as extensive review.",
+          "note": "Experts including Yann LeCun largely rejected them too."
+        },
+        {
+          "kind": "credit",
+          "year": "2022",
+          "name": "Blake Lemoine",
+          "role": "Google engineer. Put on paid leave in June and fired on 22 July 2022."
+        },
+        {
+          "kind": "statement",
+          "lead": "Google gave a policy reason",
+          "text": "It said he persistently violated employment and data security policies.",
+          "note": "Lemoine said he was dismissed after hiring a lawyer for LaMDA."
+        },
+        {
+          "kind": "kicker",
+          "text": "A chatbot that talks like a person is not proof of a person."
+        },
+        {
+          "kind": "sign",
+          "line": "Fluent is not the same as feeling.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
