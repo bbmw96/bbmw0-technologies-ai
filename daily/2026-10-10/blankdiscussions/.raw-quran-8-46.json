@@ -1,0 +1,230 @@
+{
+ "code": 200,
+ "status": "OK",
+ "data": [
+  {
+   "number": 1206,
+   "text": "وَأَطِيعُوا۟ ٱللَّهَ وَرَسُولَهُۥ وَلَا تَنَٰزَعُوا۟ فَتَفْشَلُوا۟ وَتَذْهَبَ رِيحُكُمْ ۖ وَٱصْبِرُوٓا۟ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّٰبِرِينَ",
+   "edition": {
+    "identifier": "quran-uthmani",
+    "language": "ar",
+    "name": "القرآن الكريم برسم العثماني (uthmani)",
+    "englishName": "Uthmani",
+    "format": "text",
+    "type": "quran",
+    "direction": "rtl"
+   },
+   "surah": {
+    "number": 8,
+    "name": "سُورَةُ الأَنفَالِ",
+    "englishName": "Al-Anfaal",
+    "englishNameTranslation": "The Spoils of War",
+    "numberOfAyahs": 75,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 46,
+   "juz": 10,
+   "manzil": 2,
+   "page": 183,
+   "ruku": 151,
+   "hizbQuarter": 73,
+   "sajda": false
+  },
+  {
+   "number": 1206,
+   "text": "And obey Allah and His Messenger, and do not dispute and [thus] lose courage and [then] your strength would depart; and be patient. Indeed, Allah is with the patient.",
+   "edition": {
+    "identifier": "en.sahih",
+    "language": "en",
+    "name": "Saheeh International",
+    "englishName": "Saheeh International",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 8,
+    "name": "سُورَةُ الأَنفَالِ",
+    "englishName": "Al-Anfaal",
+    "englishNameTranslation": "The Spoils of War",
+    "numberOfAyahs": 75,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 46,
+   "juz": 10,
+   "manzil": 2,
+   "page": 183,
+   "ruku": 151,
+   "hizbQuarter": 73,
+   "sajda": false
+  },
+  {
+   "number": 1206,
+   "text": "你们当服从真主及其使者，你们不要纷争，否则，你们必定胆怯，你们的实力必定消失；你们应当坚忍，真主确是同坚忍者同在的。",
+   "edition": {
+    "identifier": "zh.jian",
+    "language": "zh",
+    "name": "马坚",
+    "englishName": "Ma Jian",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 8,
+    "name": "سُورَةُ الأَنفَالِ",
+    "englishName": "Al-Anfaal",
+    "englishNameTranslation": "The Spoils of War",
+    "numberOfAyahs": 75,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 46,
+   "juz": 10,
+   "manzil": 2,
+   "page": 183,
+   "ruku": 151,
+   "hizbQuarter": 73,
+   "sajda": false
+  },
+  {
+   "number": 1206,
+   "text": "하나님과 선지자에게 순종하고 서로 다투지 말라 그리하면 너희가 용기를 잃어 힘을 상실하 나니 인내하라 실로 하나님은 인 내하는 자와 항상 함께하시니라",
+   "edition": {
+    "identifier": "ko.korean",
+    "language": "ko",
+    "name": "Korean",
+    "englishName": "Unknown",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 8,
+    "name": "سُورَةُ الأَنفَالِ",
+    "englishName": "Al-Anfaal",
+    "englishNameTranslation": "The Spoils of War",
+    "numberOfAyahs": 75,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 46,
+   "juz": 10,
+   "manzil": 2,
+   "page": 183,
+   "ruku": 151,
+   "hizbQuarter": 73,
+   "sajda": false
+  },
+  {
+   "number": 1206,
+   "text": "あなたがたはアッラーと使徒に従いなさい。そして論争して意気をくじかれ，力を失なってはならない。耐えなさい。アッラーは耐え忍ぶ者と共におられる。",
+   "edition": {
+    "identifier": "ja.japanese",
+    "language": "ja",
+    "name": "Japanese",
+    "englishName": "Unknown",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 8,
+    "name": "سُورَةُ الأَنفَالِ",
+    "englishName": "Al-Anfaal",
+    "englishNameTranslation": "The Spoils of War",
+    "numberOfAyahs": 75,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 46,
+   "juz": 10,
+   "manzil": 2,
+   "page": 183,
+   "ruku": 151,
+   "hizbQuarter": 73,
+   "sajda": false
+  },
+  {
+   "number": 1206,
+   "text": "Dan taatlah kamu kepada Allah dan RasulNya, dan janganlah kamu berbantah-bantahan; kalau tidak nescaya kamu menjadi lemah semangat dan hilang kekuatan kamu, dan sabarlah (menghadapi segala kesukaran dengan cekal hati); sesungguhnya Allah beserta orang-orang yang sabar.",
+   "edition": {
+    "identifier": "ms.basmeih",
+    "language": "ms",
+    "name": "Basmeih",
+    "englishName": "Abdullah Muhammad Basmeih",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 8,
+    "name": "سُورَةُ الأَنفَالِ",
+    "englishName": "Al-Anfaal",
+    "englishNameTranslation": "The Spoils of War",
+    "numberOfAyahs": 75,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 46,
+   "juz": 10,
+   "manzil": 2,
+   "page": 183,
+   "ruku": 151,
+   "hizbQuarter": 73,
+   "sajda": false
+  },
+  {
+   "number": 1206,
+   "text": "“และจงเชื่อฟังอัลลอฮฺ และร่อซูลของพระองค์เถิด และจงอย่าขัดแย้งกัน จำทำให้พวกเจ้าย่อท้อ และทำให้ความเข้มแข็งของพวกเจ้าหมดไป และจงอดทนเถิด แท้จริงอัลลอฮฺนั้นทรงอยู่กับผู้ที่อดทนทั้งหลาย”",
+   "edition": {
+    "identifier": "th.thai",
+    "language": "th",
+    "name": "ภาษาไทย",
+    "englishName": "King Fahad Quran Complex",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 8,
+    "name": "سُورَةُ الأَنفَالِ",
+    "englishName": "Al-Anfaal",
+    "englishNameTranslation": "The Spoils of War",
+    "numberOfAyahs": 75,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 46,
+   "juz": 10,
+   "manzil": 2,
+   "page": 183,
+   "ruku": 151,
+   "hizbQuarter": 73,
+   "sajda": false
+  },
+  {
+   "number": 1206,
+   "text": "¡Y obedeced a Alá y a Su Enviado! ¡No discutáis! Si no, os desanimaréis y se enfriará vuestro ardor. ¡Tened paciencia, que Alá está con los pacientes!",
+   "edition": {
+    "identifier": "es.cortes",
+    "language": "es",
+    "name": "Cortes",
+    "englishName": "Julio Cortes",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 8,
+    "name": "سُورَةُ الأَنفَالِ",
+    "englishName": "Al-Anfaal",
+    "englishNameTranslation": "The Spoils of War",
+    "numberOfAyahs": 75,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 46,
+   "juz": 10,
+   "manzil": 2,
+   "page": 183,
+   "ruku": 151,
+   "hizbQuarter": 73,
+   "sajda": false
+  }
+ ]
+}
