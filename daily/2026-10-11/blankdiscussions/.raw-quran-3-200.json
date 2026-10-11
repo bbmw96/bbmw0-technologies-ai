@@ -1,0 +1,230 @@
+{
+ "code": 200,
+ "status": "OK",
+ "data": [
+  {
+   "number": 493,
+   "text": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱصْبِرُوا۟ وَصَابِرُوا۟ وَرَابِطُوا۟ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُفْلِحُونَ",
+   "edition": {
+    "identifier": "quran-uthmani",
+    "language": "ar",
+    "name": "القرآن الكريم برسم العثماني (uthmani)",
+    "englishName": "Uthmani",
+    "format": "text",
+    "type": "quran",
+    "direction": "rtl"
+   },
+   "surah": {
+    "number": 3,
+    "name": "سُورَةُ آلِ عِمۡرَانَ",
+    "englishName": "Aal-i-Imraan",
+    "englishNameTranslation": "The Family of Imraan",
+    "numberOfAyahs": 200,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 200,
+   "juz": 4,
+   "manzil": 1,
+   "page": 76,
+   "ruku": 61,
+   "hizbQuarter": 30,
+   "sajda": false
+  },
+  {
+   "number": 493,
+   "text": "O you who have believed, persevere and endure and remain stationed and fear Allah that you may be successful.",
+   "edition": {
+    "identifier": "en.sahih",
+    "language": "en",
+    "name": "Saheeh International",
+    "englishName": "Saheeh International",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 3,
+    "name": "سُورَةُ آلِ عِمۡرَانَ",
+    "englishName": "Aal-i-Imraan",
+    "englishNameTranslation": "The Family of Imraan",
+    "numberOfAyahs": 200,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 200,
+   "juz": 4,
+   "manzil": 1,
+   "page": 76,
+   "ruku": 61,
+   "hizbQuarter": 30,
+   "sajda": false
+  },
+  {
+   "number": 493,
+   "text": "信道的人们啊！你们当坚忍，当奋斗，当戒备，当敬畏真主，以便你们成功。",
+   "edition": {
+    "identifier": "zh.jian",
+    "language": "zh",
+    "name": "马坚",
+    "englishName": "Ma Jian",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 3,
+    "name": "سُورَةُ آلِ عِمۡرَانَ",
+    "englishName": "Aal-i-Imraan",
+    "englishNameTranslation": "The Family of Imraan",
+    "numberOfAyahs": 200,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 200,
+   "juz": 4,
+   "manzil": 1,
+   "page": 76,
+   "ruku": 61,
+   "hizbQuarter": 30,
+   "sajda": false
+  },
+  {
+   "number": 493,
+   "text": "믿음을 가진 자들이여 인내 하라 인내함에 경쟁하며 단결하라 그리고 하나님을 공경하라 너희가 번성 하리라",
+   "edition": {
+    "identifier": "ko.korean",
+    "language": "ko",
+    "name": "Korean",
+    "englishName": "Unknown",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 3,
+    "name": "سُورَةُ آلِ عِمۡرَانَ",
+    "englishName": "Aal-i-Imraan",
+    "englishNameTranslation": "The Family of Imraan",
+    "numberOfAyahs": 200,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 200,
+   "juz": 4,
+   "manzil": 1,
+   "page": 76,
+   "ruku": 61,
+   "hizbQuarter": 30,
+   "sajda": false
+  },
+  {
+   "number": 493,
+   "text": "あなたがた信仰する者よ，耐え忍びなさい。忍耐に極めて強く，互いに堅固でありなさい。そしてアッラーを畏れなさい。そうすればあなたがたは成功するであろう。",
+   "edition": {
+    "identifier": "ja.japanese",
+    "language": "ja",
+    "name": "Japanese",
+    "englishName": "Unknown",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 3,
+    "name": "سُورَةُ آلِ عِمۡرَانَ",
+    "englishName": "Aal-i-Imraan",
+    "englishNameTranslation": "The Family of Imraan",
+    "numberOfAyahs": 200,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 200,
+   "juz": 4,
+   "manzil": 1,
+   "page": 76,
+   "ruku": 61,
+   "hizbQuarter": 30,
+   "sajda": false
+  },
+  {
+   "number": 493,
+   "text": "Wahai orang-orang yang beriman! Bersabarlah kamu (menghadapi segala kesukaran dalam mengerjakan perkara-perkara yang berkebajikan), dan kuatkanlah kesabaran kamu lebih daripada kesabaran musuh, di medan perjuangan), dan bersedialah (dengan kekuatan pertahanan di daerah-daerah sempadan) serta bertaqwalah kamu kepada Allah supaya, kamu berjaya (mencapai kemenangan).",
+   "edition": {
+    "identifier": "ms.basmeih",
+    "language": "ms",
+    "name": "Basmeih",
+    "englishName": "Abdullah Muhammad Basmeih",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 3,
+    "name": "سُورَةُ آلِ عِمۡرَانَ",
+    "englishName": "Aal-i-Imraan",
+    "englishNameTranslation": "The Family of Imraan",
+    "numberOfAyahs": 200,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 200,
+   "juz": 4,
+   "manzil": 1,
+   "page": 76,
+   "ruku": 61,
+   "hizbQuarter": 30,
+   "sajda": false
+  },
+  {
+   "number": 493,
+   "text": "โอ้บรรดาผู้ศรัทธาทั้งหลาย ! จงมีความอดทน และจงต่างอดทนซึ่งกันและกันเถิด และจงประจำอยู่ชายแดน และพึงกลัวเกรงอัลลอฮ์เถิด เพื่อว่าพวกเจ้าจะได้รับความสำเร็จ",
+   "edition": {
+    "identifier": "th.thai",
+    "language": "th",
+    "name": "ภาษาไทย",
+    "englishName": "King Fahad Quran Complex",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 3,
+    "name": "سُورَةُ آلِ عِمۡرَانَ",
+    "englishName": "Aal-i-Imraan",
+    "englishNameTranslation": "The Family of Imraan",
+    "numberOfAyahs": 200,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 200,
+   "juz": 4,
+   "manzil": 1,
+   "page": 76,
+   "ruku": 61,
+   "hizbQuarter": 30,
+   "sajda": false
+  },
+  {
+   "number": 493,
+   "text": "¡Creyentes! ¡Tened paciencia, rivalizad en ella! ¡Sed firmes! ¡Temed a Alá! Quizás así, prosperéis.",
+   "edition": {
+    "identifier": "es.cortes",
+    "language": "es",
+    "name": "Cortes",
+    "englishName": "Julio Cortes",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 3,
+    "name": "سُورَةُ آلِ عِمۡرَانَ",
+    "englishName": "Aal-i-Imraan",
+    "englishNameTranslation": "The Family of Imraan",
+    "numberOfAyahs": 200,
+    "revelationType": "Medinan"
+   },
+   "numberInSurah": 200,
+   "juz": 4,
+   "manzil": 1,
+   "page": 76,
+   "ruku": 61,
+   "hizbQuarter": 30,
+   "sajda": false
+  }
+ ]
+}
