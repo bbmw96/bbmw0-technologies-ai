@@ -13365,6 +13365,210 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "gchq-cocks-rsa-secret-1973",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Clifford_Cocks (read): established that Cocks joined GCHQ's CESG in September 1973, aged about 22, that Nick Patterson told him of James Ellis's non-secret encryption idea (published internally in 1969 but never implemented), that his surviving note is dated 20 November 1973, that he revealed the work in a public talk on 18 December 1997, and that Rivest, Shamir and Adleman independently published RSA in 1977.",
+        "https://en.wikipedia.org/wiki/Public-key_cryptography (read): established that Ellis conceived non-secret encryption in 1970, Cocks implemented the RSA equivalent in 1973, Williamson found the Diffie-Hellman equivalent in 1974, that all of it stayed secret until the British government declassified it in 1997, and that Diffie and Hellman published in 1976."
+      ],
+      "verifiedNote": "Checked 11 Oct 2026. Not claimed: how long Cocks took, because Wikipedia says only \"quickly\" and he reportedly did not write it down at the time. Not claimed: any leak to Rivest, Shamir and Adleman, which Cocks himself has dismissed. The GCHQ page itself could not be fetched, so the 1970 versus 1969 date for Ellis is left out of the beats.",
+      "palette": {
+        "bg": "#0A0F12",
+        "ink": "#E9F2F5",
+        "accent": "#7BD0E0",
+        "muted": "#6D8189"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "RSA was invented twice",
+          "text": "A 22 year old at British intelligence found it first, in 1973.",
+          "note": "The public inventors, Rivest, Shamir and Adleman, published in 1977."
+        },
+        {
+          "kind": "credit",
+          "year": "1973",
+          "name": "Clifford Cocks",
+          "role": "Joined GCHQ's CESG in September. His surviving note is dated 20 November."
+        },
+        {
+          "kind": "statement",
+          "lead": "The idea came from a colleague",
+          "text": "Nick Patterson told him about James Ellis's \"non-secret encryption\".",
+          "note": "Ellis had the concept but no way to make it work."
+        },
+        {
+          "kind": "statement",
+          "lead": "Then it was locked away",
+          "text": "The work stayed classified for 24 years.",
+          "note": "Cocks spoke about it publicly on 18 December 1997."
+        },
+        {
+          "kind": "kicker",
+          "text": "The internet's lock existed before the internet needed one."
+        },
+        {
+          "kind": "sign",
+          "line": "Secret first. Famous second.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "murphys-law-origin-disputed-1949",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Murphy%27s_law (read): established that John Stapp ran project MX981 at Muroc Army Air Field in 1948 to 1949, that Edward Murphy proposed strain gauges on Stapp's harness, that in a trial reportedly around June 1949 the sensors read zero because some were wired backwards, that no one can reliably say who coined the phrase, that the link to Muroc is \"by no means secure\", that no use of \"Murphy's law\" has been found before 1951, that De Morgan wrote a similar idea in 1866, and that Stapp, Murphy and Nichols shared the 2003 Ig Nobel Prize \"for (probably) giving birth to the name\"."
+      ],
+      "verifiedNote": "Checked 11 Oct 2026 from one source only, so every claim is phrased as reported or disputed. Not claimed: that Murphy blamed his assistant, which is \"reportedly\" only. Not claimed: any single original wording, because Murphy's son and George Nichols give conflicting versions. Not claimed: that the law is true, since critics point to confirmation bias.",
+      "palette": {
+        "bg": "#0A0F12",
+        "ink": "#E9F2F5",
+        "accent": "#E0A87B",
+        "muted": "#6D8189"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The famous origin story is shaky",
+          "text": "Murphy's law is said to come from a 1949 rocket sled test.",
+          "note": "Historians call that link \"by no means secure\"."
+        },
+        {
+          "kind": "statement",
+          "lead": "What reportedly happened",
+          "text": "Sensors on a test harness read zero because some were wired backwards.",
+          "note": "Engineer Edward Murphy had proposed them for John Stapp's project."
+        },
+        {
+          "kind": "credit",
+          "year": "1866",
+          "name": "Augustus De Morgan",
+          "role": "Mathematician. Wrote that whatever can happen will happen, given enough trials."
+        },
+        {
+          "kind": "statement",
+          "lead": "The name arrived later",
+          "text": "No use of \"Murphy's law\" has been found before 1951.",
+          "note": "Accounts of who coined it conflict."
+        },
+        {
+          "kind": "kicker",
+          "text": "Even the law about things going wrong has an origin that went wrong."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the story as well as the wiring.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "dropbox-demo-video-digg-75000-2007",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://news.ycombinator.com/item?id=8863 (read): established that Drew Houston posted \"My YC app: Dropbox - Throw away your USB drive\" to Hacker News on 4 April 2007, and replied in the thread that the business plan was freemium.",
+        "https://techcrunch.com/2011/10/19/dropbox-minimal-viable-product/ (read, published 19 October 2011): established that the video was a three minute demonstration, that Houston said the beta waiting list \"went from 5,000 people to 75,000 people literally overnight\", that the team \"put in about a dozen Easter eggs that were tailored for the Digg audience\", that the video passed 10,000 Diggs within 24 hours, and that a working prototype could not yet be demonstrated.",
+        "https://en.wikipedia.org/wiki/Dropbox (read): established that Evenflow, Inc. was founded in May 2007 and renamed Dropbox, Inc. in October 2009."
+      ],
+      "verifiedNote": "Checked 11 Oct 2026. Not claimed: who narrated the video, which no source read says. Not claimed: that the product was fake, because TechCrunch says only that working software could not be shown as a prototype. Not claimed: any Steve Jobs acquisition offer, which none of the read sources covered. Not claimed: an exact date for the Digg video.",
+      "palette": {
+        "bg": "#0A0F12",
+        "ink": "#E9F2F5",
+        "accent": "#7B9CE0",
+        "muted": "#6D8189"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Dropbox sold the idea before the product",
+          "text": "Its first big test was a three minute demo video.",
+          "note": "Working software could not yet be shown as a prototype."
+        },
+        {
+          "kind": "figure",
+          "value": "75000",
+          "unit": "people",
+          "context": "on the beta waiting list after the video, up from 5,000"
+        },
+        {
+          "kind": "statement",
+          "lead": "It was aimed at one crowd",
+          "text": "The team hid about a dozen Easter eggs for the Digg audience.",
+          "note": "The video passed 10,000 Diggs within 24 hours."
+        },
+        {
+          "kind": "credit",
+          "year": "2007",
+          "name": "Drew Houston",
+          "role": "Posted his Y Combinator application to Hacker News on 4 April."
+        },
+        {
+          "kind": "kicker",
+          "text": "He proved people wanted it before he finished building it."
+        },
+        {
+          "kind": "sign",
+          "line": "Show the idea. Then build it.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "backrub-stanford-bandwidth-bechtolsheim-cheque-1998",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Google (read): established that Page and Brin started the BackRub research project at Stanford in 1996, that the first version was released in August 1996 and used nearly half of the university's network bandwidth, that google.com was registered on 15 September 1997, that Andy Bechtolsheim contributed $100,000 in August 1998 to a corporation that did not yet exist, and that Google was incorporated on 4 September 1998 in Susan Wojcicki's garage in Menlo Park.",
+        "https://en.wikipedia.org/wiki/Google_Search (read): established that the Stanford phase of the search engine was nicknamed BackRub and that PageRank was developed in 1996 by Page, Brin and Scott Hassan."
+      ],
+      "verifiedNote": "Checked 11 Oct 2026. Not claimed: why it was called BackRub, since the History page does not explain it (the Google Search page offers a backlinks reason, which was not cross-checked). Not claimed: the googol misspelling, because that is already covered in google-googol-misspelling. Not claimed: Lego casing or patent assignment, which neither page covered.",
+      "palette": {
+        "bg": "#0A0F12",
+        "ink": "#E9F2F5",
+        "accent": "#E07B9C",
+        "muted": "#6D8189"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Google began as a campus problem",
+          "text": "Its first version, BackRub, used nearly half of Stanford's network bandwidth.",
+          "note": "It was released on the university website in August 1996."
+        },
+        {
+          "kind": "credit",
+          "year": "1996",
+          "name": "Larry Page and Sergey Brin",
+          "role": "Stanford PhD students who started the BackRub research project."
+        },
+        {
+          "kind": "statement",
+          "lead": "The first cheque came early",
+          "text": "Andy Bechtolsheim wrote one for $100,000 in August 1998.",
+          "note": "It was made out to a corporation that did not yet exist."
+        },
+        {
+          "kind": "statement",
+          "lead": "The company followed",
+          "text": "Google was incorporated on 4 September 1998 in a friend's garage.",
+          "note": "The garage belonged to Susan Wojcicki in Menlo Park."
+        },
+        {
+          "kind": "kicker",
+          "text": "The company was funded before it was formed."
+        },
+        {
+          "kind": "sign",
+          "line": "Big things start as bandwidth problems.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
