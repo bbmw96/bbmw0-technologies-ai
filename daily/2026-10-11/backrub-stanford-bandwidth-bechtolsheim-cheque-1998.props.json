@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (backrub-stanford-bandwidth-bechtolsheim-cheque-1998)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0F12",
+    "ink": "#E9F2F5",
+    "accent": "#E07B9C",
+    "muted": "#6D8189"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Google began as a campus problem",
+      "text": "Its first version, BackRub, used nearly half of Stanford's network bandwidth.",
+      "note": "It was released on the university website in August 1996.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "credit",
+      "year": "1996",
+      "name": "Larry Page and Sergey Brin",
+      "role": "Stanford PhD students who started the BackRub research project.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "statement",
+      "lead": "The first cheque came early",
+      "text": "Andy Bechtolsheim wrote one for $100,000 in August 1998.",
+      "note": "It was made out to a corporation that did not yet exist.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "The company followed",
+      "text": "Google was incorporated on 4 September 1998 in a friend's garage.",
+      "note": "The garage belonged to Susan Wojcicki in Menlo Park.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "kicker",
+      "text": "The company was funded before it was formed.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Big things start as bandwidth problems.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

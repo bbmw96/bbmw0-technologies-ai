@@ -1,0 +1,20 @@
+Rendering 3 Shorts for 2026-10-11 (concurrency=3, GL=default)
+Compliance: 2 cleared, 1 blocked (policy v1.0.0).
+Blocked by compliance: piltdown-man-fluorine-1953
+
+--- backrub-stanford-bandwidth-bechtolsheim-cheque-1998 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-11-backrub-stanford-bandwidth-bechtolsheim-cheque-1998.mp4
+  uploaded public: https://youtu.be/U2XsCsfhjgM
+
+--- dropbox-demo-video-digg-75000-2007 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-11-dropbox-demo-video-digg-75000-2007.mp4
+  uploaded public: https://youtu.be/I1i0IQ2rlNY
+
+--- piltdown-man-fluorine-1953 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-11-piltdown-man-fluorine-1953.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-10-11/compliance-verdict.json.
+
+=== Done. 3 rendered, 2 uploaded, 0 skipped, 1 blocked by compliance, 0 failed. ===

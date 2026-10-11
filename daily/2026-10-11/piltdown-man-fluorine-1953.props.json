@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (piltdown-man-fluorine-1953)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0F12",
+    "ink": "#E9F2F5",
+    "accent": "#D9A441",
+    "muted": "#6D8189"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Britain's \"missing link\" was a fake",
+      "text": "In December 1912 Charles Dawson and Arthur Smith Woodward presented Piltdown Man to the Geological Society.",
+      "note": "It was billed as an early human ancestor.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "Doubters spoke up almost at once",
+      "text": "Waterston in 1913 and Boule in 1915 argued it was an ape jaw with a human skull.",
+      "note": "Both were dismissed for decades.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "statement",
+      "lead": "Fluorine gave the game away",
+      "text": "Tests in 1953 showed the jaw and teeth were not the same age as the skull, and the jaw was most likely an orangutan's.",
+      "note": "The skull was human and far more recent than claimed.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "41",
+      "unit": "years",
+      "context": "From the 1912 announcement to the 1953 exposure.",
+      "durationInFrames": 82
+    },
+    {
+      "kind": "kicker",
+      "text": "A 2016 study found one forger's methods throughout, and named Dawson.",
+      "durationInFrames": 88
+    },
+    {
+      "kind": "sign",
+      "line": "The fake survived because it said what experts wanted.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}

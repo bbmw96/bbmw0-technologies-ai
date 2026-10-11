@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (dropbox-demo-video-digg-75000-2007)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0F12",
+    "ink": "#E9F2F5",
+    "accent": "#7B9CE0",
+    "muted": "#6D8189"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Dropbox sold the idea before the product",
+      "text": "Its first big test was a three minute demo video.",
+      "note": "Working software could not yet be shown as a prototype.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "figure",
+      "value": "75000",
+      "unit": "people",
+      "context": "on the beta waiting list after the video, up from 5,000",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "statement",
+      "lead": "It was aimed at one crowd",
+      "text": "The team hid about a dozen Easter eggs for the Digg audience.",
+      "note": "The video passed 10,000 Diggs within 24 hours.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "credit",
+      "year": "2007",
+      "name": "Drew Houston",
+      "role": "Posted his Y Combinator application to Hacker News on 4 April.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "kicker",
+      "text": "He proved people wanted it before he finished building it.",
+      "durationInFrames": 82
+    },
+    {
+      "kind": "sign",
+      "line": "Show the idea. Then build it.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
