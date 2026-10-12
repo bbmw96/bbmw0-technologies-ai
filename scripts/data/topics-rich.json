@@ -13569,6 +13569,266 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "excel-1900-leap-year-lotus-compatibility",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://learn.microsoft.com/en-us/office/troubleshoot/excel/wrongly-assumes-1900-is-leap-year (read): established that Lotus 1-2-3 assumed 1900 was a leap year when it was not, that Multiplan and Excel did the same to share its serial date system, that only 1900 is mishandled (century years such as 2100 are correct), that WEEKDAY returns incorrect values for dates before 1 March 1900, that correcting it would decrease almost all dates in current worksheets by one day, and that Microsoft judged the disadvantages of fixing it to outweigh the advantages.",
+        "https://en.wikipedia.org/wiki/Leap_year_problem (read): established that the bug originated in Lotus 1-2-3, was purposely implemented in Excel for backward compatibility, and has been promoted into a requirement in the Ecma Office Open XML specification (ECMA-376, ISO/IEC 29500)."
+      ],
+      "verifiedNote": "Checked 12 Oct 2026. Not claimed: that a named Lotus engineer made the original choice, since neither page credits anyone. Not claimed: that it was done to save memory or speed, which neither page says. Not claimed: the serial number of the false day, or the release year of Lotus 1-2-3, because the pages read did not state them. Not claimed: that current Excel versions still behave this way beyond what Microsoft documents on its page.",
+      "palette": {
+        "bg": "#0F1F17",
+        "ink": "#FFFFFF",
+        "accent": "#21A366",
+        "muted": "#8A8A8A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Excel believes in a day that never happened",
+          "text": "It treats 1900 as a leap year. It was not one.",
+          "note": "Microsoft documents this as a known behaviour."
+        },
+        {
+          "kind": "statement",
+          "lead": "It was copied on purpose",
+          "text": "Lotus 1-2-3 made the error first. Multiplan and Excel matched it.",
+          "note": "That let users move worksheets between the programs."
+        },
+        {
+          "kind": "statement",
+          "lead": "It is only one year",
+          "text": "Excel handles 2100 correctly, along with every other century year.",
+          "note": "Only 1900 is wrong."
+        },
+        {
+          "kind": "statement",
+          "lead": "Why Microsoft left it",
+          "text": "Fixing it would move almost every date in current worksheets back by one day.",
+          "note": "Microsoft says the disadvantages of correcting it outweigh the advantages."
+        },
+        {
+          "kind": "kicker",
+          "text": "The mistake is now written into an international standard."
+        },
+        {
+          "kind": "sign",
+          "line": "Compatibility can outlive correctness.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "air-canada-chatbot-liable-moffatt-2024",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Moffatt_v._Air_Canada (read): established the decision date of 14 February 2024, the Civil Resolution Tribunal of British Columbia, tribunal member Christopher Rivers, that the chatbot told Jake Moffatt he could buy a full price ticket and claim a bereavement refund within 90 days, that the airline website said bereavement fares could not be applied retroactively, that Air Canada argued the chatbot was a separate legal entity responsible for its own actions, and that the tribunal rejected this because the chatbot was part of the website.",
+        "https://www.mondaq.com/canada/new-technology/1432798/bc-tribunal-confirms-companies-remain-liable-for-ai-chatbot-created-information (read): independently confirmed the chatbot advice and the 90 day window, that the linked bereavement page contradicted it, that the tribunal found negligent misrepresentation, that it did not matter whether correct information existed elsewhere on the site, and that damages with interest and fees were awarded."
+      ],
+      "verifiedNote": "Checked 12 Oct 2026. Not claimed: any dollar amount of the award, because the two sources differ in how they present it (one gives about 650, one gives 812 in Canadian dollars with costs and interest) and the decision text itself could not be fetched. Not claimed: what happened to the chatbot afterwards, which neither page covers. Not claimed: that this set a binding precedent, since it is a tribunal decision.",
+      "palette": {
+        "bg": "#0A0E14",
+        "ink": "#EEF3F8",
+        "accent": "#6FB7FF",
+        "muted": "#75828F"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "A chatbot made up a refund policy",
+          "text": "It told a grieving customer he could buy a full price ticket and claim a bereavement discount afterwards.",
+          "note": "It said to apply within 90 days of buying the ticket."
+        },
+        {
+          "kind": "statement",
+          "lead": "The website said otherwise",
+          "text": "Air Canada's own bereavement page said fares could not be applied after travel.",
+          "note": "The airline refused the refund."
+        },
+        {
+          "kind": "credit",
+          "year": "2024",
+          "name": "Civil Resolution Tribunal of British Columbia",
+          "role": "Ruled on 14 February 2024 that the airline must pay Jake Moffatt."
+        },
+        {
+          "kind": "statement",
+          "lead": "The airline's defence",
+          "text": "It argued the chatbot was a separate legal entity responsible for its own actions.",
+          "note": "The tribunal rejected this because the chatbot was part of the airline's website."
+        },
+        {
+          "kind": "kicker",
+          "text": "Correct information elsewhere on the site did not excuse the wrong answer."
+        },
+        {
+          "kind": "sign",
+          "line": "Your chatbot speaks for you.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "einstein-never-failed-maths-1935-ripleys",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://content.time.com/time/specials/packages/article/0,28804,1936731_1936743_1936758,00.html (read): established that Ripley's Believe It or Not repeated the claim that Einstein failed mathematics, that in 1935 a Princeton rabbi showed him the clipping and he laughed and replied \"I never failed in mathematics\", and that he said \"Before I was fifteen I had mastered differential and integral calculus\".",
+        "https://en.wikipedia.org/wiki/Albert_Einstein (read): established that at 16 he failed to reach the required standard in the general part of the 1895 ETH entrance test but performed with distinction in physics and mathematics, that he mastered integral and differential calculus by his own account in his early teens, and that he received the top grade of 6 in algebra and geometry in his 1896 Matura."
+      ],
+      "verifiedNote": "Checked 12 Oct 2026. Not claimed: which sections of the ETH general part he failed, since the page does not say. Not claimed: that the Swiss marking scale was reversed, which was not confirmed from a source read. Not claimed: any specific maths mark from the entrance exam. Not claimed: the date of the Ripley's cartoon itself, only the 1935 meeting as reported by Time. The quotation is attributed to Time's account of the exchange.",
+      "palette": {
+        "bg": "#0A0F12",
+        "ink": "#E9F2F5",
+        "accent": "#E0B04A",
+        "muted": "#6D8189"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "A famous schoolroom myth",
+          "text": "Einstein did not fail mathematics.",
+          "note": "Ripley's Believe It or Not printed the claim anyway."
+        },
+        {
+          "kind": "credit",
+          "year": "1935",
+          "name": "A Princeton rabbi",
+          "role": "Showed Einstein the Ripley's clipping. He laughed and said he never failed in mathematics."
+        },
+        {
+          "kind": "figure",
+          "value": "15",
+          "unit": "years old",
+          "context": "Einstein said he had mastered differential and integral calculus before reaching this age."
+        },
+        {
+          "kind": "statement",
+          "lead": "The real exam story",
+          "text": "At 16 he missed the standard in the general part of the 1895 ETH entrance test.",
+          "note": "He performed with distinction in physics and mathematics."
+        },
+        {
+          "kind": "kicker",
+          "text": "In 1896 he earned the top grade, a 6, in algebra and geometry."
+        },
+        {
+          "kind": "sign",
+          "line": "The myth is easier to repeat than the record.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "brainstorming-osborn-groups-produce-fewer-ideas",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Brainstorming (read): established that Alex Osborn, an American advertising executive, began developing the method in 1939, that the term was popularised in Applied Imagination (1953), his four rules (quantity, withhold criticism, welcome wild ideas, combine and improve), that Diehl and Stroebe in 1987 reviewed 22 studies and found groups brainstorming together produce fewer ideas than individuals working separately, and that production blocking (only one person can speak at a time) is a key cause.",
+        "https://www.producttalk.org/2012/07/brainstorming-more-questions-than-answers (read): established that Taylor, Berry and Block published a 1958 study in Administrative Science Quarterly comparing groups of four with pooled individuals who never met, that the pooled individuals significantly outperformed the real groups, and that Osborn was an advertising executive without data for his claim that groups generate more ideas."
+      ],
+      "verifiedNote": "Checked 12 Oct 2026. Not claimed: that the 1958 study was at Yale, because neither page read said so. Not claimed: the number of participants or the exact scores. Not claimed: that brainstorming never works in any form, since the sources only support that traditional group brainstorming produced fewer ideas than the same people working alone. The producttalk page is a secondary blog summary of the 1958 paper, so the claim is attributed to the paper as reported.",
+      "palette": {
+        "bg": "#14100A",
+        "ink": "#F5EFE6",
+        "accent": "#F28C38",
+        "muted": "#8F8070"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Brainstorming has an inventor",
+          "text": "Advertising executive Alex Osborn began developing it in 1939.",
+          "note": "He popularised the term in his 1953 book, Applied Imagination."
+        },
+        {
+          "kind": "statement",
+          "lead": "His rules",
+          "text": "Go for quantity, withhold criticism, welcome wild ideas, combine and improve.",
+          "note": "He claimed groups would produce more ideas than people working alone."
+        },
+        {
+          "kind": "credit",
+          "year": "1958",
+          "name": "Taylor, Berry and Block",
+          "role": "Compared real groups of four with individuals working alone, whose ideas were pooled into pretend groups of four."
+        },
+        {
+          "kind": "statement",
+          "lead": "The result",
+          "text": "The pooled individuals significantly outperformed the real groups.",
+          "note": "Later research blamed production blocking: only one person can speak at a time."
+        },
+        {
+          "kind": "figure",
+          "value": "22",
+          "unit": "studies",
+          "context": "Reviewed by Diehl and Stroebe in 1987. Groups brainstorming together produced fewer ideas than individuals working separately."
+        },
+        {
+          "kind": "sign",
+          "line": "Think alone first. Then meet.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "pheidippides-marathon-run-not-in-herodotus",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pheidippides (read): established that Herodotus describes an Athenian messenger and professional long distance runner sent to Sparta before the Battle of Marathon in 490 BC, and does not mention a run from Marathon to Athens or a death; that the first known account of a Marathon to Athens run is by Plutarch (46 to 120 AD), who names a herald called Thersippus or Eukles; that Lucian, about a century later, names the runner Philippides and has him die; that the Spartathlon is 246 km and has been run annually since 1983; and that Michel Bréal, inspired by Browning's 1879 poem, proposed a marathon race for the 1896 Olympics.",
+        "https://cts.perseids.org/read/greekLit/tlg0016/tlg001/perseus-eng2/6.105.3-6.106.3 (read): Herodotus 6.105 to 6.106 in translation; established that Philippides was in Sparta the day after leaving Athens, sent by the generals, that he reported Pan had appeared to him, and that the only running mentioned is from Athens to Sparta, with no run from Marathon to Athens.",
+        "https://en.wikipedia.org/wiki/Marathon (read): established that the first Olympic marathon took place on 10 April 1896, won by Spyridon Louis in 2 hours 58 minutes 50 seconds, and that historians dispute the legend because Herodotus describes a run from Athens to Sparta and back and nothing about Marathon to Athens."
+      ],
+      "verifiedNote": "Checked 12 Oct 2026. Not claimed: the name spelling as definitive, since sources use both Pheidippides and Philippides. Not claimed: the 1982 RAF expedition timings. Not claimed: that the Marathon to Athens run definitely never happened, only that Herodotus does not record it and the first surviving account comes centuries later. Not claimed: any distance for the account of Herodotus, because the 246 km figure is the modern Spartathlon route, not a figure from Herodotus.",
+      "palette": {
+        "bg": "#120E0A",
+        "ink": "#F3ECE0",
+        "accent": "#C8642E",
+        "muted": "#857766"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The marathon legend is not in the main source",
+          "text": "Herodotus never mentions a run from Marathon to Athens.",
+          "note": "He does not mention a dying messenger either."
+        },
+        {
+          "kind": "statement",
+          "lead": "What he did write",
+          "text": "The generals sent a runner from Athens to Sparta, who arrived the day after he left.",
+          "note": "He reported that the god Pan had appeared to him."
+        },
+        {
+          "kind": "credit",
+          "year": "490 BC",
+          "name": "Philippides",
+          "role": "The messenger sent to Sparta before the Battle of Marathon, named in some sources as Pheidippides."
+        },
+        {
+          "kind": "figure",
+          "value": "246",
+          "unit": "km",
+          "context": "The Spartathlon distance from Athens to Sparta, run every year since 1983."
+        },
+        {
+          "kind": "statement",
+          "lead": "The famous version came later",
+          "text": "The first known Marathon to Athens account is by Plutarch, centuries after the battle.",
+          "note": "He names a herald called Thersippus or Eukles. Lucian later names the runner Philippides."
+        },
+        {
+          "kind": "sign",
+          "line": "The legend is younger than the history.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
