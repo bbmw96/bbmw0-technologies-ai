@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (murphys-law-origin-disputed-1949)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0F12",
+    "ink": "#E9F2F5",
+    "accent": "#E0A87B",
+    "muted": "#6D8189"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The famous origin story is shaky",
+      "text": "Murphy's law is said to come from a 1949 rocket sled test.",
+      "note": "Historians call that link \"by no means secure\".",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "What reportedly happened",
+      "text": "Sensors on a test harness read zero because some were wired backwards.",
+      "note": "Engineer Edward Murphy had proposed them for John Stapp's project.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "credit",
+      "year": "1866",
+      "name": "Augustus De Morgan",
+      "role": "Mathematician. Wrote that whatever can happen will happen, given enough trials.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "statement",
+      "lead": "The name arrived later",
+      "text": "No use of \"Murphy's law\" has been found before 1951.",
+      "note": "Accounts of who coined it conflict.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "kicker",
+      "text": "Even the law about things going wrong has an origin that went wrong.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "sign",
+      "line": "Check the story as well as the wiring.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

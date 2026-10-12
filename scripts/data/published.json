@@ -306,7 +306,10 @@
     "reel:post-it-note-failed-glue-silver-fry",
     "reel:dropbox-demo-video-digg-75000-2007",
     "reel:piltdown-man-fluorine-1953",
-    "reel:backrub-stanford-bandwidth-bechtolsheim-cheque-1998"
+    "reel:backrub-stanford-bandwidth-bechtolsheim-cheque-1998",
+    "reel:murphys-law-origin-disputed-1949",
+    "reel:pheidippides-marathon-run-not-in-herodotus",
+    "reel:gchq-cocks-rsa-secret-1973"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -5360,6 +5363,57 @@
       "youtubeId": "U2XsCsfhjgM",
       "youtubeUrl": "https://youtu.be/U2XsCsfhjgM",
       "uploadedAt": "2026-10-11T15:14:42.352Z",
+      "privacy": "public"
+    },
+    {
+      "id": "murphys-law-origin-disputed-1949",
+      "date": "2026-10-12",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The famous origin story is shaky. Murphy's law is said to come from a 1949 rocket sled test.",
+      "description": "Murphy's law is said to come from a 1949 rocket sled test. Historians call that link \"by no means secure\".\n\nSensors on a test harness read zero because some were wired backwards. Engineer Edward Murphy had proposed them for John Stapp's project.\n\nMathematician. Wrote that whatever can happen will happen, given enough trials.\n\nNo use of \"Murphy's law\" has been found before 1951. Accounts of who coined it conflict.\n\nEven the law about things going wrong has an origin that went wrong.\n\nSources:\n- https://en.wikipedia.org/wiki/Murphy%27s_law (read): established that John Stapp ran project MX981 at Muroc Army Air Field in 1948 to 1949, that Edward Murphy proposed strain gauges on Stapp's harness, that in a trial reportedly around June 1949 the sensors read zero because some were wired backwards, that no one can reliably say who coined the phrase, that the link to Muroc is \"by no means secure\", that no use of \"Murphy's law\" has been found before 1951, that De Morgan wrote a similar idea in 1866, and that Stapp, Murphy and Nichols shared the 2003 Ig Nobel Prize \"for (probably) giving birth to the name\".\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "Tjf4pLIoIA4",
+      "youtubeUrl": "https://youtu.be/Tjf4pLIoIA4",
+      "uploadedAt": "2026-10-12T18:25:13.127Z",
+      "privacy": "public"
+    },
+    {
+      "id": "pheidippides-marathon-run-not-in-herodotus",
+      "date": "2026-10-12",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The marathon legend is not in the main source. Herodotus never mentions a run from Marathon to",
+      "description": "Herodotus never mentions a run from Marathon to Athens. He does not mention a dying messenger either.\n\nThe generals sent a runner from Athens to Sparta, who arrived the day after he left. He reported that the god Pan had appeared to him.\n\nThe messenger sent to Sparta before the Battle of Marathon, named in some sources as Pheidippides.\n\nThe Spartathlon distance from Athens to Sparta, run every year since 1983.\n\nThe first known Marathon to Athens account is by Plutarch, centuries after the battle. He names a herald called Thersippus or Eukles. Lucian later names the runner Philippides.\n\nSources:\n- https://en.wikipedia.org/wiki/Pheidippides (read): established that Herodotus describes an Athenian messenger and professional long distance runner sent to Sparta before the Battle of Marathon in 490 BC, and does not mention a run from Marathon to Athens or a death; that the first known account of a Marathon to Athens run is by Plutarch (46 to 120 AD), who names a herald called Thersippus or Eukles; that Lucian, about a century later, names the runner Philippides and has him die; that the Spartathlon is 246 km and has been run annually since 1983; and that Michel Bréal, inspired by Browning's 1879 poem, proposed a marathon race for the 1896 Olympics.\n- https://cts.perseids.org/read/greekLit/tlg0016/tlg001/perseus-eng2/6.105.3-6.106.3 (read): Herodotus 6.105 to 6.106 in translation; established that Philippides was in Sparta the day after leaving Athens, sent by the generals, that he reported Pan had appeared to him, and that the only running mentioned is from Athens to Sparta, with no run from Marathon to Athens.\n- https://en.wikipedia.org/wiki/Marathon (read): established that the first Olympic marathon took place on 10 April 1896, won by Spyridon Louis in 2 hours 58 minutes 50 seconds, and that historians dispute the legend because Herodotus describes a run from Athens to Sparta and back and nothing about Marathon to Athens.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "qbMssUbcd4s",
+      "youtubeUrl": "https://youtu.be/qbMssUbcd4s",
+      "uploadedAt": "2026-10-12T18:26:24.182Z",
+      "privacy": "public"
+    },
+    {
+      "id": "gchq-cocks-rsa-secret-1973",
+      "date": "2026-10-12",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "RSA was invented twice. A 22 year old at British intelligence found it first, in 1973.",
+      "description": "A 22 year old at British intelligence found it first, in 1973. The public inventors, Rivest, Shamir and Adleman, published in 1977.\n\nJoined GCHQ's CESG in September. His surviving note is dated 20 November.\n\nNick Patterson told him about James Ellis's \"non-secret encryption\". Ellis had the concept but no way to make it work.\n\nThe work stayed classified for 24 years. Cocks spoke about it publicly on 18 December 1997.\n\nThe internet's lock existed before the internet needed one.\n\nSources:\n- https://en.wikipedia.org/wiki/Clifford_Cocks (read): established that Cocks joined GCHQ's CESG in September 1973, aged about 22, that Nick Patterson told him of James Ellis's non-secret encryption idea (published internally in 1969 but never implemented), that his surviving note is dated 20 November 1973, that he revealed the work in a public talk on 18 December 1997, and that Rivest, Shamir and Adleman independently published RSA in 1977.\n- https://en.wikipedia.org/wiki/Public-key_cryptography (read): established that Ellis conceived non-secret encryption in 1970, Cocks implemented the RSA equivalent in 1973, Williamson found the Diffie-Hellman equivalent in 1974, that all of it stayed secret until the British government declassified it in 1997, and that Diffie and Hellman published in 1976.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "YhUaaMpD43A",
+      "youtubeUrl": "https://youtu.be/YhUaaMpD43A",
+      "uploadedAt": "2026-10-12T18:24:17.188Z",
       "privacy": "public"
     }
   ]

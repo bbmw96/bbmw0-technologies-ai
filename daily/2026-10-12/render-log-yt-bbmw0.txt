@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-10-12 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- gchq-cocks-rsa-secret-1973 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-12-gchq-cocks-rsa-secret-1973.mp4
+  uploaded public: https://youtu.be/YhUaaMpD43A
+
+--- murphys-law-origin-disputed-1949 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-12-murphys-law-origin-disputed-1949.mp4
+  uploaded public: https://youtu.be/Tjf4pLIoIA4
+
+--- pheidippides-marathon-run-not-in-herodotus ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-12-pheidippides-marathon-run-not-in-herodotus.mp4
+  uploaded public: https://youtu.be/qbMssUbcd4s
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

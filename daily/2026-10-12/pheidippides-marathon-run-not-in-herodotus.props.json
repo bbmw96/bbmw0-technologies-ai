@@ -1,0 +1,56 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (pheidippides-marathon-run-not-in-herodotus)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#120E0A",
+    "ink": "#F3ECE0",
+    "accent": "#C8642E",
+    "muted": "#857766"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The marathon legend is not in the main source",
+      "text": "Herodotus never mentions a run from Marathon to Athens.",
+      "note": "He does not mention a dying messenger either.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "What he did write",
+      "text": "The generals sent a runner from Athens to Sparta, who arrived the day after he left.",
+      "note": "He reported that the god Pan had appeared to him.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "credit",
+      "year": "490 BC",
+      "name": "Philippides",
+      "role": "The messenger sent to Sparta before the Battle of Marathon, named in some sources as Pheidippides.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "figure",
+      "value": "246",
+      "unit": "km",
+      "context": "The Spartathlon distance from Athens to Sparta, run every year since 1983.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "statement",
+      "lead": "The famous version came later",
+      "text": "The first known Marathon to Athens account is by Plutarch, centuries after the battle.",
+      "note": "He names a herald called Thersippus or Eukles. Lucian later names the runner Philippides.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "sign",
+      "line": "The legend is younger than the history.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
