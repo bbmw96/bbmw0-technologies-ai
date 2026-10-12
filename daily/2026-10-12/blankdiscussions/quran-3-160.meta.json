@@ -1,0 +1,44 @@
+{
+  "slug": "quran-3-160",
+  "date": "2026-10-12",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "If Allah should aid you, no one can overcome you; but if He should forsake you, who is there that can aid you after Him? And upon Allah let the believers rely.\n\nSurah Aal-i-Imraan (3:160). Swipe through for the Arabic, then English, Mandarin, Korean, Japanese, Malay, Thai and Spanish.\n\nSources on the final slide.\n\n#Quran #Tawakkul #Trust #IslamicReminder #Deen",
+  "tags": [
+    "Quran",
+    "Tawakkul",
+    "Trust",
+    "Guidance",
+    "Deen"
+  ],
+  "theme": "peat-coral",
+  "slides": [
+    "quran-3-160.slide-01.json",
+    "quran-3-160.slide-02.json",
+    "quran-3-160.slide-03.json",
+    "quran-3-160.slide-04.json",
+    "quran-3-160.slide-05.json",
+    "quran-3-160.slide-06.json",
+    "quran-3-160.slide-07.json",
+    "quran-3-160.slide-08.json",
+    "quran-3-160.slide-09.json",
+    "quran-3-160.slide-10.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an 3:160, Surah Aal-i-Imraan. Not used by any prior post (checked against all existing blankdiscussions meta.json files). Standing 8-language/10-slide format.",
+    "arabic": "Edition quran-uthmani, live call api.alquran.cloud/v1/ayah/3:160/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese,ms.basmeih,th.thai,es.cortes (HTTP 200, fetched 2026-10-12); two fetches in the build script diffed identical; slide text written programmatically from raw API fields.",
+    "other_editions": "en.sahih (Saheeh International), zh.jian (Ma Jian), ms.basmeih (Abdullah Muhammad Basmeih), th.thai (King Fahad Quran Complex), es.cortes (Julio Cortes). ko.korean and ja.japanese: translator listed as Unknown by source; slides say 'Translator not specified by source'.",
+    "source_artifact_note": "es.cortes source text contains a stray ' ,' artifact: 'abandona, ,¿quién' (doubled comma). Slide 09 uses 'abandona, ¿quién' (one stray comma removed); no wording touched. All other editions: no double spaces, leading/trailing whitespace or control chars.",
+    "verification_note": "Third independent re-fetch later the same session diffed against every slide JSON: 7 of 8 byte-identical, es.cortes identical except the documented stray-comma fix (counted in diff above).",
+    "compliance_check": "Checked against 142 string terms in compliance-policy.json halal section across all edition text: 0 hits."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide daily/2026-10-12/blankdiscussions/renders/quran-3-160-slide-NN.jpg --image-format=jpeg --jpeg-quality=92 --props=daily/2026-10-12/blankdiscussions/quran-3-160.slide-NN.json",
+  "status": "rendered_and_hosted",
+  "theme_note": "All 47 prior themes used; new theme 'peat-coral' added for this post.",
+  "hosting_verified": {
+    "checkedAt": "2026-10-12",
+    "note": "Visually spot-checked Arabic, Korean, Thai slides: no tofu or missing glyphs."
+  }
+}
