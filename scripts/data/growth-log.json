@@ -153,6 +153,35 @@
         "publicVideos": 146
       },
       "note": "10 days since 2026-09-25. yt-bbmw0: subscribers 5 to 7, views 10427 to 15135 (+4708, about 470/day, slower than the previous period's ~610/day but still clearly up). publicVideos reads 106 here vs 77 last time; that jump is larger than real new uploads (about 27 since 25 Sep), so the counter definition or cache likely differs between reads; treat publicVideos as unreliable. yt-bbm0902 is FLAT: views 1926 to 1932, subscribers 2, videos 40, last upload 2026-09-18. Cause is supply, not auth: 0 unused verified topics across its 5 niches (animals, space, biology, food, weather) as of today. ig-aigameodyssey: no numbers; the Composio connection meant for it is logged into blankdiscussions (see channels.json _disabledOn2026-10-05), and every IG upload since at least 28 Sep failed."
+    },
+    {
+      "date": "2026-10-12",
+      "week": "2026-W42",
+      "source": "Composio YOUTUBE_GET_CHANNEL_STATISTICS (explicit channel id, per-account)",
+      "channels": {
+        "yt-bbmw0": {
+          "handle": "@bbmw.0",
+          "channelId": "UCSRkqZ0PckW8ae-cnZcN1hw",
+          "subscribers": 7,
+          "views": 15581,
+          "publicVideos": 114,
+          "reelsLive": null
+        },
+        "yt-bbm0902": {
+          "handle": "@bbm0902",
+          "channelId": "UC5O9s1vte7UiLICKP1pHiIQ",
+          "subscribers": 2,
+          "views": 1938,
+          "publicVideos": 41,
+          "reelsLive": null
+        }
+      },
+      "totals": {
+        "subscribers": 9,
+        "views": 17519,
+        "publicVideos": 155
+      },
+      "note": "Versus 2026-09-25: yt-bbmw0 subs 5 to 7, views 10427 to 15581 (+5154 in 17 days); yt-bbm0902 subs 2 to 2, views 1926 to 1938 (+12, flat because it has published nothing since 5 Oct, topic supply exhausted). videoCount is YouTube's cached count and includes unlisted videos, so it is not a public count. Still far from the 1,000 sub gate. Instagram not read."
     }
   ]
 }
