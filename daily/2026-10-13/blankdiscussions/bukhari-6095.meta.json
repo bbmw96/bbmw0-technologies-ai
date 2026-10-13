@@ -38,17 +38,23 @@
     "compliance_check": "Checked against all string terms in compliance-policy.json halal section across English and translations: 0 hits. No imagery."
   },
   "renderCommand": "node scripts/_bd_render.mjs 2026-10-13 bukhari-6095",
-  "status": "rendered_and_hosted",
-  "hostingUrls": [
-    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-01.jpg",
-    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-02.jpg",
-    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-03.jpg",
-    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-04.jpg",
-    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-05.jpg",
-    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-06.jpg",
-    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-07.jpg",
-    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-08.jpg",
-    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-09.jpg",
-    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-10.jpg"
-  ]
+  "status": "published",
+  "published": {
+    "mediaId": "18110006696181821",
+    "permalink": "https://www.instagram.com/p/DecxoeVHbna/",
+    "publishedAt": "2026-10-13T21:29:05+0000",
+    "hostingUrls": [
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-01.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-02.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-03.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-04.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-05.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-06.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-07.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-08.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-09.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-10.jpg"
+    ],
+    "publishedVia": "Composio INSTAGRAM_CREATE_CAROUSEL_CONTAINER + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH, account instagram_willed-pried"
+  }
 }

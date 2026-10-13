@@ -140,6 +140,12 @@
       "post": "Quran 5:1 (opening clause) Reel",
       "date": "2026-10-13",
       "permalink": "https://www.instagram.com/reel/Decw-cjDVav/"
+    },
+    {
+      "post": "Bukhari 6095 three signs of a hypocrite (carousel)",
+      "date": "2026-10-13",
+      "permalink": "https://www.instagram.com/p/DecxoeVHbna/"
     }
-  ]
+  ],
+  "next_steps": "Day 3+: follow suggested_order. Hadith: node scripts/_bd_hadith.mjs <date> <coll> <num> <theme> <title> scripts/_tr_<coll>-<num>.json <Name>; then _bd_hmeta.mjs, _bd_render.mjs. Quran: scripts/_bd_build_20261013.mjs (change date) + _bd_meta. New theme needed each post (all used)."
 }
