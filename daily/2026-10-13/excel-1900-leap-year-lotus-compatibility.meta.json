@@ -1,0 +1,25 @@
+{
+  "slug": "excel-1900-leap-year-lotus-compatibility",
+  "date": "2026-10-13",
+  "title": "Excel believes in a day that never happened. It treats 1900 as a leap year. It was not one.",
+  "description": "It treats 1900 as a leap year. It was not one. Microsoft documents this as a known behaviour.\n\nLotus 1-2-3 made the error first. Multiplan and Excel matched it. That let users move worksheets between the programs.\n\nExcel handles 2100 correctly, along with every other century year. Only 1900 is wrong.\n\nFixing it would move almost every date in current worksheets back by one day. Microsoft says the disadvantages of correcting it outweigh the advantages.\n\nThe mistake is now written into an international standard.\n\nSources:\n- https://learn.microsoft.com/en-us/office/troubleshoot/excel/wrongly-assumes-1900-is-leap-year (read): established that Lotus 1-2-3 assumed 1900 was a leap year when it was not, that Multiplan and Excel did the same to share its serial date system, that only 1900 is mishandled (century years such as 2100 are correct), that WEEKDAY returns incorrect values for dates before 1 March 1900, that correcting it would decrease almost all dates in current worksheets by one day, and that Microsoft judged the disadvantages of fixing it to outweigh the advantages.\n- https://en.wikipedia.org/wiki/Leap_year_problem (read): established that the bug originated in Lotus 1-2-3, was purposely implemented in Excel for backward compatibility, and has been promoted into a requirement in the Ecma Office Open XML specification (ECMA-376, ISO/IEC 29500).\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "app",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-10-13-excel-1900-leap-year-lotus-compatibility.mp4",
+  "propsFile": "daily/2026-10-13/excel-1900-leap-year-lotus-compatibility.props.json",
+  "durationInFrames": 842,
+  "audioUrl": "",
+  "niche": "app",
+  "composition": "Reel"
+}

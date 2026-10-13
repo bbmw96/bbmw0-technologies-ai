@@ -1,0 +1,56 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (marie-antoinette-let-them-eat-cake-rousseau-1765)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#120E0A",
+    "ink": "#F3ECE0",
+    "accent": "#B8486A",
+    "muted": "#857766"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "She did not say it",
+      "text": "There is no evidence Marie Antoinette ever said let them eat cake.",
+      "note": "Historians treat the line as a cliché that was attached to her later.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "credit",
+      "year": "1765",
+      "name": "Jean-Jacques Rousseau",
+      "role": "Wrote the line in his Confessions about an unnamed great princess, and may have invented the anecdote. It was published in 1782.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "statement",
+      "lead": "She was a child",
+      "text": "When Rousseau wrote it, Marie Antoinette was nine years old.",
+      "note": "She had not yet left Austria. She did not arrive in France until 1770.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "statement",
+      "lead": "And it was not cake",
+      "text": "The French word is brioche, a luxury bread enriched with butter and eggs.",
+      "note": "Cake is the traditional English translation.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "credit",
+      "year": "1843",
+      "name": "Alphonse Karr",
+      "role": "A French writer who attributed the line to Marie Antoinette in print, about fifty years after her death.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "sign",
+      "line": "The quote is older than the queen.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

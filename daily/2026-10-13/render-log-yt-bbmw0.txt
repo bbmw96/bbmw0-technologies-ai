@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-10-13 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- brainstorming-osborn-groups-produce-fewer-ideas ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-13-brainstorming-osborn-groups-produce-fewer-ideas.mp4
+  uploaded public: https://youtu.be/RWaJU2bVSEk
+
+--- excel-1900-leap-year-lotus-compatibility ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-13-excel-1900-leap-year-lotus-compatibility.mp4
+  uploaded public: https://youtu.be/L6JsW6ii4Z0
+
+--- marie-antoinette-let-them-eat-cake-rousseau-1765 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-13-marie-antoinette-let-them-eat-cake-rousseau-1765.mp4
+  uploaded public: https://youtu.be/lpePiNSBuII
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

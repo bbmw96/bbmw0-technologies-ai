@@ -1,0 +1,56 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (brainstorming-osborn-groups-produce-fewer-ideas)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#14100A",
+    "ink": "#F5EFE6",
+    "accent": "#F28C38",
+    "muted": "#8F8070"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Brainstorming has an inventor",
+      "text": "Advertising executive Alex Osborn began developing it in 1939.",
+      "note": "He popularised the term in his 1953 book, Applied Imagination.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "His rules",
+      "text": "Go for quantity, withhold criticism, welcome wild ideas, combine and improve.",
+      "note": "He claimed groups would produce more ideas than people working alone.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "credit",
+      "year": "1958",
+      "name": "Taylor, Berry and Block",
+      "role": "Compared real groups of four with individuals working alone, whose ideas were pooled into pretend groups of four.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "The result",
+      "text": "The pooled individuals significantly outperformed the real groups.",
+      "note": "Later research blamed production blocking: only one person can speak at a time.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "figure",
+      "value": "22",
+      "unit": "studies",
+      "context": "Reviewed by Diehl and Stroebe in 1987. Groups brainstorming together produced fewer ideas than individuals working separately.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "sign",
+      "line": "Think alone first. Then meet.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

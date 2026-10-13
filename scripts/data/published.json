@@ -309,7 +309,10 @@
     "reel:backrub-stanford-bandwidth-bechtolsheim-cheque-1998",
     "reel:murphys-law-origin-disputed-1949",
     "reel:pheidippides-marathon-run-not-in-herodotus",
-    "reel:gchq-cocks-rsa-secret-1973"
+    "reel:gchq-cocks-rsa-secret-1973",
+    "reel:excel-1900-leap-year-lotus-compatibility",
+    "reel:brainstorming-osborn-groups-produce-fewer-ideas",
+    "reel:marie-antoinette-let-them-eat-cake-rousseau-1765"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -5414,6 +5417,57 @@
       "youtubeId": "YhUaaMpD43A",
       "youtubeUrl": "https://youtu.be/YhUaaMpD43A",
       "uploadedAt": "2026-10-12T18:24:17.188Z",
+      "privacy": "public"
+    },
+    {
+      "id": "excel-1900-leap-year-lotus-compatibility",
+      "date": "2026-10-13",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Excel believes in a day that never happened. It treats 1900 as a leap year. It was not one.",
+      "description": "It treats 1900 as a leap year. It was not one. Microsoft documents this as a known behaviour.\n\nLotus 1-2-3 made the error first. Multiplan and Excel matched it. That let users move worksheets between the programs.\n\nExcel handles 2100 correctly, along with every other century year. Only 1900 is wrong.\n\nFixing it would move almost every date in current worksheets back by one day. Microsoft says the disadvantages of correcting it outweigh the advantages.\n\nThe mistake is now written into an international standard.\n\nSources:\n- https://learn.microsoft.com/en-us/office/troubleshoot/excel/wrongly-assumes-1900-is-leap-year (read): established that Lotus 1-2-3 assumed 1900 was a leap year when it was not, that Multiplan and Excel did the same to share its serial date system, that only 1900 is mishandled (century years such as 2100 are correct), that WEEKDAY returns incorrect values for dates before 1 March 1900, that correcting it would decrease almost all dates in current worksheets by one day, and that Microsoft judged the disadvantages of fixing it to outweigh the advantages.\n- https://en.wikipedia.org/wiki/Leap_year_problem (read): established that the bug originated in Lotus 1-2-3, was purposely implemented in Excel for backward compatibility, and has been promoted into a requirement in the Ecma Office Open XML specification (ECMA-376, ISO/IEC 29500).\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "L6JsW6ii4Z0",
+      "youtubeUrl": "https://youtu.be/L6JsW6ii4Z0",
+      "uploadedAt": "2026-10-13T16:39:49.378Z",
+      "privacy": "public"
+    },
+    {
+      "id": "brainstorming-osborn-groups-produce-fewer-ideas",
+      "date": "2026-10-13",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Brainstorming has an inventor. Advertising executive Alex Osborn began developing it in 1939.",
+      "description": "Advertising executive Alex Osborn began developing it in 1939. He popularised the term in his 1953 book, Applied Imagination.\n\nGo for quantity, withhold criticism, welcome wild ideas, combine and improve. He claimed groups would produce more ideas than people working alone.\n\nCompared real groups of four with individuals working alone, whose ideas were pooled into pretend groups of four.\n\nThe pooled individuals significantly outperformed the real groups. Later research blamed production blocking: only one person can speak at a time.\n\nReviewed by Diehl and Stroebe in 1987. Groups brainstorming together produced fewer ideas than individuals working separately.\n\nSources:\n- https://en.wikipedia.org/wiki/Brainstorming (read): established that Alex Osborn, an American advertising executive, began developing the method in 1939, that the term was popularised in Applied Imagination (1953), his four rules (quantity, withhold criticism, welcome wild ideas, combine and improve), that Diehl and Stroebe in 1987 reviewed 22 studies and found groups brainstorming together produce fewer ideas than individuals working separately, and that production blocking (only one person can speak at a time) is a key cause.\n- https://www.producttalk.org/2012/07/brainstorming-more-questions-than-answers (read): established that Taylor, Berry and Block published a 1958 study in Administrative Science Quarterly comparing groups of four with pooled individuals who never met, that the pooled individuals significantly outperformed the real groups, and that Osborn was an advertising executive without data for his claim that groups generate more ideas.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "RWaJU2bVSEk",
+      "youtubeUrl": "https://youtu.be/RWaJU2bVSEk",
+      "uploadedAt": "2026-10-13T16:38:23.988Z",
+      "privacy": "public"
+    },
+    {
+      "id": "marie-antoinette-let-them-eat-cake-rousseau-1765",
+      "date": "2026-10-13",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "She did not say it. There is no evidence Marie Antoinette ever said let them eat cake.",
+      "description": "There is no evidence Marie Antoinette ever said let them eat cake. Historians treat the line as a cliché that was attached to her later.\n\nWrote the line in his Confessions about an unnamed great princess, and may have invented the anecdote. It was published in 1782.\n\nWhen Rousseau wrote it, Marie Antoinette was nine years old. She had not yet left Austria. She did not arrive in France until 1770.\n\nThe French word is brioche, a luxury bread enriched with butter and eggs. Cake is the traditional English translation.\n\nA French writer who attributed the line to Marie Antoinette in print, about fifty years after her death.\n\nSources:\n- https://en.wikipedia.org/wiki/Let_them_eat_cake (read): established that the line first appears in Rousseau's Confessions, whose first six books were written in 1765 and published in 1782; that Rousseau attributed it to an unnamed great princess and may have invented the anecdote; that Marie Antoinette was nine in 1765 and had not yet come from Austria; that Alphonse Karr attributed it to her in Les Guêpes in 1843; that the words are about brioche, an enriched bread; that other people were blamed earlier, including a 7th century Chinese emperor in the Book of Jin; and that historians find no evidence she said it.\n- https://www.history.com/news/did-marie-antoinette-really-say-let-them-eat-cake (read): corroborated that the story circulated before 1789, was first told about Marie Therese, a Spanish princess who married Louis XIV, that Rousseau included it in the Confessions, and that historians say Marie Antoinette did not say it. It gives the details of the wording and year of Rousseau slightly differently from Wikipedia, so those details are not used.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "lpePiNSBuII",
+      "youtubeUrl": "https://youtu.be/lpePiNSBuII",
+      "uploadedAt": "2026-10-13T16:41:26.962Z",
       "privacy": "public"
     }
   ]
