@@ -13829,6 +13829,216 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "heartbleed-missing-length-check-2014",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Heartbleed (read): established that Robin Seggelmann wrote the heartbeat extension in 2011 and later said he missed validating a variable containing a length; that Stephen Henson reviewed it and committed it on 31 December 2011; that heartbeat support shipped enabled by default in OpenSSL 1.0.1 on 14 March 2012; that Neel Mehta of Google privately reported it on 1 April 2014; that it was disclosed on 7 April 2014 with OpenSSL 1.0.1g; that about 17% of trusted secure web servers were believed vulnerable at disclosure; and that about 900 Canadian social insurance numbers were taken from the Canada Revenue Agency on 8 April 2014.",
+        "https://heartbleed.com/ (read): the researchers' own page; established that the flaw was an implementation problem, a programming mistake in OpenSSL, and not a flaw in the protocol; that OpenSSL 1.0.1 to 1.0.1f were vulnerable; that each heartbeat could read 64 KB but the attacker could repeat requests; that Codenomicon and Neel Mehta found it independently; and that private keys, passwords and messages could be exposed."
+      ],
+      "verifiedNote": "Checked 13 Oct 2026. Not claimed: that the whole internet was vulnerable, only the sourced 17% of trusted secure web servers at disclosure. Not claimed: that 64 KB was a total limit, because heartbleed.com says it applies per heartbeat and requests can be repeated. Not claimed: a firm discovery date, because Codenomicon gives 3 April 2014 and Mehta reported on 1 April 2014, so the beat says both teams found it independently. Not claimed: any blame beyond the sourced facts that one programmer missed the check and a reviewer missed it too.",
+      "palette": {
+        "bg": "#0A0F12",
+        "ink": "#E9F2F5",
+        "accent": "#E0584B",
+        "muted": "#6D8189"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The encryption was never broken",
+          "text": "Heartbleed was a missing length check, not a cracked cipher.",
+          "note": "The researchers called it a programming mistake in OpenSSL, not a flaw in the protocol."
+        },
+        {
+          "kind": "credit",
+          "year": "2011",
+          "name": "Robin Seggelmann",
+          "role": "Wrote the heartbeat feature and later said he missed validating a variable containing a length. A reviewer missed it too, and it was committed on 31 December 2011."
+        },
+        {
+          "kind": "figure",
+          "value": "64",
+          "unit": "KB",
+          "context": "How much of a server's memory one malformed heartbeat request could read back. An attacker could simply ask again."
+        },
+        {
+          "kind": "statement",
+          "lead": "It sat there for over two years",
+          "text": "The flawed code shipped by default in March 2012 and was disclosed in April 2014.",
+          "note": "About 17% of trusted secure web servers were thought to be vulnerable."
+        },
+        {
+          "kind": "statement",
+          "lead": "Two teams, one bug",
+          "text": "Google's Neel Mehta and the security firm Codenomicon found it independently.",
+          "note": "Mehta reported it to OpenSSL on 1 April 2014. The fix, version 1.0.1g, came on 7 April."
+        },
+        {
+          "kind": "sign",
+          "line": "One missing check. Half a million servers.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "marie-antoinette-let-them-eat-cake-rousseau-1765",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Let_them_eat_cake (read): established that the line first appears in Rousseau's Confessions, whose first six books were written in 1765 and published in 1782; that Rousseau attributed it to an unnamed great princess and may have invented the anecdote; that Marie Antoinette was nine in 1765 and had not yet come from Austria; that Alphonse Karr attributed it to her in Les Guêpes in 1843; that the words are about brioche, an enriched bread; that other people were blamed earlier, including a 7th century Chinese emperor in the Book of Jin; and that historians find no evidence she said it.",
+        "https://www.history.com/news/did-marie-antoinette-really-say-let-them-eat-cake (read): corroborated that the story circulated before 1789, was first told about Marie Therese, a Spanish princess who married Louis XIV, that Rousseau included it in the Confessions, and that historians say Marie Antoinette did not say it. It gives the details of the wording and year of Rousseau slightly differently from Wikipedia, so those details are not used."
+      ],
+      "verifiedNote": "Checked 13 Oct 2026. Not claimed: the exact year Rousseau wrote the line beyond 'about 1765', because sources differ slightly and one gives a different dish. Not claimed: who the great princess was, because Rousseau did not say and sources suggest different people. Not claimed: that Marie Antoinette was never cruel or never careless, only that there is no evidence she said this. Not claimed: her exact age on arrival in France. The 1843 Karr attribution is from Wikipedia only.",
+      "palette": {
+        "bg": "#120E0A",
+        "ink": "#F3ECE0",
+        "accent": "#B8486A",
+        "muted": "#857766"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "She did not say it",
+          "text": "There is no evidence Marie Antoinette ever said let them eat cake.",
+          "note": "Historians treat the line as a cliché that was attached to her later."
+        },
+        {
+          "kind": "credit",
+          "year": "1765",
+          "name": "Jean-Jacques Rousseau",
+          "role": "Wrote the line in his Confessions about an unnamed great princess, and may have invented the anecdote. It was published in 1782."
+        },
+        {
+          "kind": "statement",
+          "lead": "She was a child",
+          "text": "When Rousseau wrote it, Marie Antoinette was nine years old.",
+          "note": "She had not yet left Austria. She did not arrive in France until 1770."
+        },
+        {
+          "kind": "statement",
+          "lead": "And it was not cake",
+          "text": "The French word is brioche, a luxury bread enriched with butter and eggs.",
+          "note": "Cake is the traditional English translation."
+        },
+        {
+          "kind": "credit",
+          "year": "1843",
+          "name": "Alphonse Karr",
+          "role": "A French writer who attributed the line to Marie Antoinette in print, about fifty years after her death."
+        },
+        {
+          "kind": "sign",
+          "line": "The quote is older than the queen.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "mata-v-avianca-chatgpt-fake-cases-2023",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mata_v._Avianca,_Inc. (read): established that Roberto Mata sued Avianca in the Southern District of New York over a metal serving cart striking his knee on an international flight; that Judge P. Kevin Castel dismissed the case and fined the plaintiff's attorneys $5,000; that ChatGPT assured the lawyers the cases indeed exist and can be found in databases such as LexisNexis and Westlaw; and that the judge found subjective bad faith.",
+        "https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1:2022cv01461/575368/54/ (read): the sanctions opinion dated 22 June 2023; established that Peter LoDuca, Steven A. Schwartz and their firm Levidow, Levidow & Oberman were sanctioned $5,000 jointly; that six fake opinions were identified (Varghese, Shaboon, Petersen, Martinez, Durden and Miller); that ChatGPT said Varghese does indeed exist and was available on Westlaw and LexisNexis; and that the bad faith finding rested on conscious avoidance and false and misleading statements to the court, not on the use of AI itself."
+      ],
+      "verifiedNote": "Checked 13 Oct 2026. Not claimed: that the lawyers were fined simply for using ChatGPT, because the opinion rests on bad faith, conscious avoidance and misleading statements. Not claimed: a count beyond six identified fake opinions, since a seventh citation was found not to exist as cited. Not claimed: the year of the flight, which neither source gives. Wikipedia mentions May 2023 and June 2023 inconsistently, so the date used is 22 June 2023 from the opinion itself.",
+      "palette": {
+        "bg": "#14141C",
+        "ink": "#FFFFFF",
+        "accent": "#F5A524",
+        "muted": "#8A8A8A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "He asked the chatbot to check itself",
+          "text": "ChatGPT told a lawyer that the cases it invented were real.",
+          "note": "It said they could be found on Westlaw and LexisNexis."
+        },
+        {
+          "kind": "credit",
+          "year": "2023",
+          "name": "Steven A. Schwartz",
+          "role": "A New York lawyer whose brief in a personal injury case against Avianca cited cases that did not exist."
+        },
+        {
+          "kind": "figure",
+          "value": "6",
+          "unit": "fakes",
+          "context": "Fake court opinions the judge identified, including one called Varghese v. China Southern Airlines."
+        },
+        {
+          "kind": "statement",
+          "lead": "The punishment was not for using AI",
+          "text": "Judge P. Kevin Castel sanctioned the lawyers for bad faith.",
+          "note": "He cited conscious avoidance and misleading statements to the court, on 22 June 2023."
+        },
+        {
+          "kind": "figure",
+          "value": "5000",
+          "unit": "dollars",
+          "context": "The fine, paid jointly by two lawyers and their firm. The underlying injury case was dismissed."
+        },
+        {
+          "kind": "sign",
+          "line": "The chatbot never checked. Neither did he.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "super-mario-bros-2-doki-doki-panic-1988",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Super_Mario_Bros._2 (read): established that the Japanese Super Mario Bros. 2 came out on 3 June 1986 and that Nintendo of America found it too similar to the original and too frustrating in difficulty; that the Western game is based on Doki Doki Panic, released 10 July 1987 as an advergame for Fuji Television's Yume Kōjō '87 expo; that Kensuke Tanabe directed; that North America got the Western version on 9 October 1988; that it was the top selling US game for fourteen consecutive months from October 1988; and that the Japanese game reached the West as The Lost Levels in Super Mario All-Stars on 14 July 1993.",
+        "https://en.wikipedia.org/wiki/Doki_Doki_Panic (read): corroborated the Fuji Television advergame origin and mascots Imajin, Lina, Mama and Papa; that Nintendo of America's president Minoru Arakawa asked for the game to be converted into a Mario sequel; and that Mario, Luigi, Toad and the Princess were modelled on the Doki Doki Panic characters."
+      ],
+      "verifiedNote": "Checked 13 Oct 2026. Not claimed: which Mario character maps to which original character, because the sources list the characters without a clear one to one mapping. Not claimed: a single sales figure, because the article gives conflicting rankings and 7.46 million worldwide is not used. Not claimed: that Mario 2 was only a reskin, since the team reworked graphics and gameplay. Hedged: the fourteen month figure comes from the Wikipedia article alone.",
+      "palette": {
+        "bg": "#14100D",
+        "ink": "#F5EDE6",
+        "accent": "#E0453A",
+        "muted": "#8A7A6E"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Two different Mario 2 games",
+          "text": "Japan and the West got completely different sequels.",
+          "note": "Nintendo of America rejected the Japanese one as too similar and too hard."
+        },
+        {
+          "kind": "credit",
+          "year": "1987",
+          "name": "Doki Doki Panic",
+          "role": "A Famicom Disk System game made as an advert for Fuji Television's Yume Kōjō expo. Its mascots Imajin, Lina, Mama and Papa starred in it."
+        },
+        {
+          "kind": "statement",
+          "lead": "Then Mario moved in",
+          "text": "Nintendo of America asked for it to be turned into a Mario sequel.",
+          "note": "Kensuke Tanabe directed the new version, released in North America on 9 October 1988."
+        },
+        {
+          "kind": "figure",
+          "value": "14",
+          "unit": "months",
+          "context": "How long it stayed the top selling video game in the United States, starting in October 1988."
+        },
+        {
+          "kind": "kicker",
+          "text": "The West finally got the Japanese original in 1993, as The Lost Levels."
+        },
+        {
+          "kind": "sign",
+          "line": "The sequel the West loved was never meant to be Mario.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
     }
   ]
 }
