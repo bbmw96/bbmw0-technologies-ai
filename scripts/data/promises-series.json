@@ -145,7 +145,13 @@
       "post": "Bukhari 6095 three signs of a hypocrite (carousel)",
       "date": "2026-10-13",
       "permalink": "https://www.instagram.com/p/DecxoeVHbna/"
+    },
+    {
+      "post": "Quran 17:34 (second half) Reel, remixed edit",
+      "date": "2026-10-13",
+      "permalink": "https://www.instagram.com/reel/Dec2i7vDqbb/"
     }
   ],
-  "next_steps": "Day 3+: follow suggested_order. Hadith: node scripts/_bd_hadith.mjs <date> <coll> <num> <theme> <title> scripts/_tr_<coll>-<num>.json <Name>; then _bd_hmeta.mjs, _bd_render.mjs. Quran: scripts/_bd_build_20261013.mjs (change date) + _bd_meta. New theme needed each post (all used)."
+  "next_steps": "Day 3+: follow suggested_order. Hadith: node scripts/_bd_hadith.mjs <date> <coll> <num> <theme> <title> scripts/_tr_<coll>-<num>.json <Name>; then _bd_hmeta.mjs, _bd_render.mjs. Quran: scripts/_bd_build_20261013.mjs (change date) + _bd_meta. New theme needed each post (all used).",
+  "video_rule": "Never reuse the same edit twice: each Reel must change shot order, crops, grades, speed, transitions and text layout (recipe in scripts/reel-recipe-17-34.tgz). Source footage: edited-shorts/promise-rainforest-clean.mp4; other clips in edited-shorts belong to another channel with burned-in text."
 }
