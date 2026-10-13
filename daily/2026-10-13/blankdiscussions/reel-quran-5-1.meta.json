@@ -1,0 +1,20 @@
+{
+  "slug": "quran-5-1-reel",
+  "date": "2026-10-13",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "reel",
+  "series": "promises-covenants-pledges (scripts/data/promises-series.json)",
+  "caption": "O you who have believed, fulfill [all] contracts.\n\nQur’an 5:1 (Surah Al-Maa’idah, opening clause). Day 1 of our series: what Islam says about promises, covenants and pledges.\n\nArabic, English, Mandarin, Korean, Japanese, Malay, Thai and Spanish. Sources on the final frame.\n\n#Quran #Promises #FulfilYourWord #IslamicReminder #Deen",
+  "theme": "n/a (edited Dola AI footage, watermark cropped out, slowed and boomeranged to 19.8s, original audio removed)",
+  "sourcing": {
+    "primary_text": "Qur’an 5:1, Surah Al-Maa’idah. Reel quotes only the OPENING CLAUSE (the instruction to fulfil contracts), labelled on-frame as ‘Opening clause’; the rest of the verse concerns permitted livestock and ihram.",
+    "arabic": "Edition quran-uthmani, api.alquran.cloud/v1/ayah/5:1/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese,ms.basmeih,th.thai,es.cortes. Fetched 3 times independently on 2026-10-13 (device build script twice, diffed identical; cloud render script once; sha1 of all editions identical to the device copy).",
+    "excerpt_method": "Each non-Arabic clause is asserted programmatically to be a verbatim prefix of the live edition text. Arabic clause is token 5 up to the first waqf mark U+06DA of the live text; nothing typed from memory.",
+    "source_artifact_note": "API prepends the basmalah to the Uthmani text of the first ayah of a surah; it is not part of 5:1 and was removed (documented). No double spaces, space-before-punctuation, trailing whitespace or control chars in any edition.",
+    "translators": "en Saheeh International, zh Ma Jian, ms Abdullah Muhammad Basmeih, th King Fahad Quran Complex, es Julio Cortes; ko and ja translator listed Unknown by source and labelled as such on-frame.",
+    "compliance_check": "142 halal-policy terms vs all edition text: 0 hits."
+  },
+  "status": "rendered_and_hosted"
+}

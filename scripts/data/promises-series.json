@@ -1,0 +1,33 @@
+{
+  "series": "What does Islam say about promises, covenants and pledges",
+  "requestedBy": "channel owner, 2026-10-13",
+  "rules": [
+    "Every Quran ayah: Arabic + 7 translations fetched live from api.alquran.cloud per the standing sourcing rule; never from memory.",
+    "Every hadith: Arabic + English verified live (sunnah.com page and/or hadith-api); zh/ko/ja/ms/th/es are own translations labelled on-slide as such, unless a real edition exists.",
+    "One ayah or hadith (or one tight consecutive pair) per post so wording stays exact and clear in every language; mark progress in 'done'.",
+    "Candidate lists were produced by keyword search of the live Quran (en.sahih: promise/covenant/pledge/oath) and of the full English Bukhari, Muslim, Abu Dawud, Tirmidhi, Nasai, Ibn Majah, Malik and Nawawi collections on 2026-10-13. Coverage is the major explicit texts; no claim that it is every narration in existence."
+  ],
+  "quran_human_obligation": ["5:1","17:34","23:8","70:32","2:177","16:91","16:92","16:95","8:58","8:56","9:4","9:7","6:152","13:19","13:20","13:25","2:27","2:40","3:76","3:77","33:15","33:23","48:10","61:2","61:3","19:54","5:7","2:224","5:89"],
+  "quran_allahs_promise": ["4:122","3:9","30:6","39:20","14:47","9:111","24:55","40:55","22:47","3:194"],
+  "hadith": [
+    {"ref":"Bukhari 33 / 2682 / 6095","topic":"three signs of a hypocrite incl. breaking a promise"},
+    {"ref":"Bukhari 3178 / Muslim 59 (fawaz 210) / Abu Dawud 4688 / Nasai 5020 / Tirmidhi 2632","topic":"four traits: lies, breaks promise, treacherous covenant, evil quarrel"},
+    {"ref":"Tirmidhi 1995","topic":"do not make a promise only to not fulfil it"},
+    {"ref":"Abu Dawud 4995 / Tirmidhi 2633","topic":"intended to fulfil but unable: no sin"},
+    {"ref":"Abu Dawud 4971","topic":"great treachery: lying to a brother who trusts you"},
+    {"ref":"Muslim 4538 / Abu Dawud 2756 / Ibn Majah 2872-2873","topic":"banner for every treacherous person on the Day of Resurrection"},
+    {"ref":"Bukhari 6914 / Tirmidhi 1403 / Ibn Majah 2686-2687","topic":"killing one under a covenant: not smelling Paradise"},
+    {"ref":"Abu Dawud 2758","topic":"the Prophet: I do not break a covenant"},
+    {"ref":"Bukhari 3162","topic":"Umar: fulfil Allah's covenant with those under protection"},
+    {"ref":"Ibn Majah 3957 / 4036","topic":"end of times: promises broken, trusts betrayed"},
+    {"ref":"Abu Dawud 4343","topic":"covenants impaired, guarantees rare"},
+    {"ref":"Tirmidhi 1595","topic":"pledge to an Imam kept only for worldly gain"},
+    {"ref":"Tirmidhi 3802","topic":"none more truthful in fulfilling promises (Abu Dharr)"},
+    {"ref":"Ibn Majah 126 / 127","topic":"Talhah, one who fulfilled his covenant"},
+    {"ref":"Bukhari 3953 / 4875","topic":"Badr: O Allah I ask You to fulfil Your covenant and promise"},
+    {"ref":"Muslim 3328","topic":"violating a covenant with a Muslim: curse of Allah and angels"}
+  ],
+  "suggested_order": ["Quran 5:1","Quran 17:34","Quran 61:2-3","Bukhari three signs","Quran 16:91","Quran 33:23","Hadith four traits","Quran 23:8 + 70:32","Quran 2:177","Hadith treachery banner","Quran 4:122","Hadith Tirmidhi 1995","Quran 19:54","Hadith 6914","Quran 9:111","Hadith Abu Dawud 4995"],
+  "reel": "First post of the series should be a Reel: edited-shorts/promise-rainforest-clean.mp4 (10s, Dola watermark cropped out) with the ayah overlaid.",
+  "done": []
+}
