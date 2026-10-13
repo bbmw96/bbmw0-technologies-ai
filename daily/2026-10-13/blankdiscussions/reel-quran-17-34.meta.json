@@ -1,0 +1,21 @@
+{
+  "slug": "quran-17-34-reel",
+  "date": "2026-10-13",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "reel",
+  "series": "promises-covenants-pledges",
+  "seriesDay": 3,
+  "caption": "And do not approach the property of an orphan, except in the way that is best, until he reaches maturity. And fulfill [every] commitment. Indeed, the commitment is ever [that about which one will be] questioned.\n\nQur’an 17:34 (Surah Al-Isra). Part 3 of our series on what Islam says about promises, covenants and pledges. The reel shows the second half of the verse in Arabic, English, Mandarin, Korean, Japanese, Malay, Thai and Spanish.\n\nSources on the final frame.\n\n#Quran #Promises #Covenant #IslamicReminder #Deen",
+  "theme": "n/a (re-edited Dola AI footage: six re-cropped/re-graded shots in new order, speed-ramped, some reversed/mirrored, dissolves, grain and vignette; watermark cropped out; original audio removed; new text layout with language chips). Recipe: scripts/reel-recipe-17-34.tgz",
+  "sourcing": {
+    "primary_text": "Qur’an 17:34, Surah Al-Isra. Reel shows the SECOND HALF only (from the waqf mark after ‘until he reaches maturity’: the command to fulfil the covenant), labelled on-frame; the full English verse is quoted in the caption for context.",
+    "arabic": "Edition quran-uthmani via api.alquran.cloud/v1/ayah/17:34/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese,ms.basmeih,th.thai,es.cortes. Fetched 3 times independently on 2026-10-13 (device build script twice, diffed identical; cloud card script once; sha1 73a4df70622aa41ad5bb656c26b927bb4893cbd7 identical on device and cloud).",
+    "excerpt_method": "Each non-Arabic excerpt is asserted programmatically (endsWith) to be a verbatim suffix of the live edition text; Arabic excerpt = tokens after the first U+06DA waqf mark of the live text. Nothing typed from memory.",
+    "source_artifact_note": "No double spaces, space-before-punctuation, trailing whitespace or control chars in any edition. ms.basmeih excerpt begins lowercase (‘dan’) because the source continues after a semicolon; kept verbatim.",
+    "translators": "en Saheeh International, zh Ma Jian, ms Abdullah Muhammad Basmeih, th King Fahad Quran Complex, es Julio Cortes; ko and ja translator listed Unknown by source and labelled as such on-frame.",
+    "compliance_check": "142 halal-policy terms vs all edition text: 0 hits."
+  },
+  "status": "rendered_and_hosted"
+}
