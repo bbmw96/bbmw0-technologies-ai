@@ -135,6 +135,8 @@ try {
         status: {
           privacyStatus,
           selfDeclaredMadeForKids: false, // adjust per video if needed
+          // Realistic AI generated footage must be disclosed. Set by --synthetic.
+          ...(args.synthetic ? { containsSyntheticMedia: true } : {}),
         },
       },
       media: {

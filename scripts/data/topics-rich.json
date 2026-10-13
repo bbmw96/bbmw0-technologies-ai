@@ -14039,6 +14039,91 @@
           "handle": "@ai_game_odyssey"
         }
       ]
+    },
+    {
+      "id": "amazon-lungs-of-the-planet-net-oxygen-zero",
+      "niche": "biology",
+      "verified": true,
+      "sources": [
+        "https://nature.ox.ac.uk/research_stories/rainforests-are-not-the-lungs-of-our-planet/ (read): primary source, Yadvinder Malhi, Oxford, 3 March 2021; established that calling the Amazon the lungs of the planet is a misconception; that net oxygen production by land ecosystems is close to zero; that about half the oxygen plants make is used by the plants themselves and the other half by microbes and insects breaking down plant material; that oxygen accumulates when organic matter is buried, mostly in ocean sediments where algae sink into deep sea mud; that about a third of land photosynthesis happens in tropical forests, the Amazon being the largest; that oxygen is about 21 per cent of the air; and that forests matter for biodiversity, carbon storage, climate and water regulation but not for oxygen.",
+        "https://www.nationalgeographic.com/environment/article/why-amazon-doesnt-produce-20-percent-worlds-oxygen (read): established that the Amazon is often said to make 20 per cent of the world's oxygen and that the article calls this a gross overestimate; Malhi's quote that the net oxygen effect of the Amazon or any other biome is around zero; Michael Coe of the Woods Hole Research Center saying the claim does not make any physical sense; and the suggestion by Malhi and Coe that the myth began with the Amazon's large share of land photosynthesis.",
+        "https://noticiasambientales.com/environment-en/is-the-amazon-the-lungs-of-the-planet-the-scientific-myth-claiming-it-produces-20-of-the-global-oxygen/ (read): second report dated 7 November 2025; corroborated the Malhi and Coe statements, oxygen at 21 per cent of the air, and Coe's description of the forest as a giant air conditioner that stores carbon dioxide and helps steady South American rainfall.",
+        "https://longnow.org/ideas/the-amazon-is-not-the-earths-lungs/ (read): summary of Peter Brannen in The Atlantic, 31 August 2019; corroborated that the Amazon does not supply 20 per cent of the planet's oxygen and that its net contribution is more or less zero. Not used for its 6 per cent figure."
+      ],
+      "verifiedNote": "Checked 13 Oct 2026. Rebuilt after owner feedback that the first cut was slow and repeated one line. Repetition audit done the same day: no Amazon, rainforest, lungs or oxygen myth topic exists in published.json (345 videos), topics.json, topics-rich.json or any daily folder; the only oxygen mentions are octopus blood and a water myth, unrelated. The footage itself was used whole in the 13 Oct 2026 Quran 5:1 Reel, so this cut uses four different slowed segments. Not claimed: any single replacement percentage for the Amazon's share, because sources give 16, 9 and 6 per cent depending on method. Not claimed: that the footage shows the Amazon, because it is AI generated rainforest footage. Not claimed: any deep time figure. Not claimed: that the 20 per cent myth origin is certain, only that two scientists suggest it. A Quora page that appeared in search was not used. The footage is AI generated, so the upload needs the altered or synthetic content disclosure.",
+      "palette": {
+        "bg": "#07140E",
+        "ink": "#E8F3EC",
+        "accent": "#6FCF97",
+        "muted": "#6E8B7A"
+      },
+      "beats": [
+        {
+          "kind": "media",
+          "assetType": "video",
+          "src": "bg/rainforest-canopy-1.mp4",
+          "caption": "The lungs of the planet?",
+          "note": "The Amazon is said to make 20 per cent of the world's oxygen.",
+          "durationInFrames": 123
+        },
+        {
+          "kind": "statement",
+          "lead": "Oxford ecologist Yadvinder Malhi",
+          "text": "Calling it the lungs is a misconception.",
+          "note": "Forests matter a great deal, he says, but not for producing oxygen."
+        },
+        {
+          "kind": "figure",
+          "value": "0",
+          "unit": "net gain",
+          "context": "Net oxygen from land ecosystems is close to zero, once you count what plants and microbes use."
+        },
+        {
+          "kind": "media",
+          "assetType": "video",
+          "src": "bg/rainforest-canopy-2.mp4",
+          "caption": "Half goes straight back",
+          "note": "Plants use about half of the oxygen they make. Microbes and insects breaking down plant matter use the rest.",
+          "durationInFrames": 123
+        },
+        {
+          "kind": "statement",
+          "lead": "So where does the surplus come from",
+          "text": "From burial.",
+          "note": "Oxygen stays in the air when plant and algae matter is buried before it breaks down. Most burial happens in ocean sediments, where algae sink into deep sea mud."
+        },
+        {
+          "kind": "media",
+          "assetType": "video",
+          "src": "bg/rainforest-canopy-3.mp4",
+          "caption": "A third of the work",
+          "note": "About a third of land photosynthesis happens in tropical forests. Researchers suggest that is how the myth began.",
+          "durationInFrames": 123
+        },
+        {
+          "kind": "statement",
+          "lead": "The air around you",
+          "text": "21 per cent oxygen.",
+          "note": "Michael Coe of the Woods Hole Research Center said the 20 per cent claim does not make any physical sense."
+        },
+        {
+          "kind": "media",
+          "assetType": "video",
+          "src": "bg/rainforest-canopy-4.mp4",
+          "caption": "What it really does",
+          "note": "It stores carbon, helps steady the rain and shelters extraordinary biodiversity.",
+          "durationInFrames": 123
+        },
+        {
+          "kind": "kicker",
+          "text": "Not the lungs. The air conditioner."
+        },
+        {
+          "kind": "sign",
+          "line": "The most famous rainforest fact is the wrong one.",
+          "handle": "@bbm0902"
+        }
+      ]
     }
   ]
 }

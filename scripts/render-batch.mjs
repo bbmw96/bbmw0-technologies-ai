@@ -376,6 +376,14 @@ for (const propsFile of propsFiles) {
 
       const credFlag = channel && channel.credentialsFile
         ? ` --credentials="${channel.credentialsFile}"` : "";
+      // Any reel with real footage in it carries AI generated footage (every
+      // asset in animate-imagery-review.json is AI generated), so declare it to
+      // YouTube as altered or synthetic content. Added 13 Oct 2026.
+      let syntheticFlag = "";
+      try {
+        const pj = JSON.parse(fs.readFileSync(propsAbs, "utf8"));
+        if ((pj.beats || []).some((b) => b && b.kind === "media")) syntheticFlag = " --synthetic";
+      } catch { /* no props to read, no flag */ }
       const cmd = [
         "node", "scripts/youtube-upload.mjs",
         `--file="${outFile}"`,
@@ -385,7 +393,7 @@ for (const propsFile of propsFiles) {
         `--category=${meta.categoryId}`,
         `--privacy=${meta.privacy}`,
         "--shorts",
-      ].join(" ") + credFlag;
+      ].join(" ") + credFlag + syntheticFlag;
 
       // Capture stdout so we can pull the video ID out, but still show progress.
       const out = execSync(cmd, { cwd: ROOT, encoding: "utf8", stdio: ["inherit", "pipe", "inherit"] });

@@ -102,7 +102,7 @@ export type ReelBeat =
   // asset's own length, because the picture, not the caption, sets the pace
   // here. Every other beat kind, every other topic, is completely unaffected
   // by this addition: it is purely additive to the ReelBeat union.
-  | { kind: "media"; assetType: "image" | "video"; src: string; caption?: string; durationInFrames: number };
+  | { kind: "media"; assetType: "image" | "video"; src: string; caption?: string; note?: string; durationInFrames: number };
 
 export type ReelProps = {
   palette: { bg: string; ink: string; accent: string; muted: string };
@@ -495,6 +495,14 @@ const MediaBeat: React.FC<{ b: Extract<ReelBeat, { kind: "media" }>; p: ReelProp
       {b.caption ? (
         <div style={{ position: "absolute", left: PAD, right: PAD, bottom: 130 }}>
           <Words text={b.caption} size={58} colour={p.ink} weight={800} delay={6} />
+          {/* Optional second line, added 13 Oct 2026 so a footage beat can carry
+              a fact and not just a title. It lands after the caption has set,
+              so the screen changes at least twice inside a short beat. */}
+          {b.note ? (
+            <div style={{ marginTop: 26 }}>
+              <Words text={b.note} size={40} colour={p.ink} weight={600} delay={34} stagger={1} lineHeight={1.12} />
+            </div>
+          ) : null}
         </div>
       ) : null}
     </AbsoluteFill>

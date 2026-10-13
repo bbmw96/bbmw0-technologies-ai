@@ -127,6 +127,54 @@
       "reviewed_by": "BBMW0 Technologies",
       "reviewed_on": "2026-09-01",
       "notes": "Superseded. Kept on disk only for provenance, not git-tracked, must never be used in a composition."
+    },
+    {
+      "file": "bg/rainforest-canopy-1.mp4",
+      "depicts": "plants",
+      "species": "none (ferns, moss, tree trunks, mist)",
+      "eyesOrFaceVisible": false,
+      "cleared": true,
+      "review_method": "Extracted frames every half second across the whole 10 second source and viewed them as contact sheets: only ferns, leaves, moss, trunks, a small stream and mist appear. No animal, no person, no face or eyes in any frame. After processing, viewed frames from the clip and the bottom right corner at full size to confirm the watermark is gone.",
+      "reviewed_by": "BBMW0 Technologies",
+      "reviewed_on": "2026-10-13",
+      "derived_from": "900decaf-Connect_Dola_to_Claude_2.mp4 (owner supplied, 720x1280 HEVC, AI generated footage)",
+      "notes": "source 0 to 2.6s. Cropped to 686x1220 from offset 17,0 to remove the 'Dola AI' corner mark entirely (mark sat at roughly y 1240 to 1262), scaled to 1080x1920, slowed 1.6x with motion interpolation, cut to 123 frames at 30fps. AI generated footage: the YouTube altered or synthetic content disclosure applies. The same source clip was used whole in the 13 Oct 2026 Quran 5:1 Reel, so this video uses different, slowed segments."
+    },
+    {
+      "file": "bg/rainforest-canopy-2.mp4",
+      "depicts": "plants",
+      "species": "none (ferns, moss, tree trunks, mist)",
+      "eyesOrFaceVisible": false,
+      "cleared": true,
+      "review_method": "Extracted frames every half second across the whole 10 second source and viewed them as contact sheets: only ferns, leaves, moss, trunks, a small stream and mist appear. No animal, no person, no face or eyes in any frame. After processing, viewed frames from the clip and the bottom right corner at full size to confirm the watermark is gone.",
+      "reviewed_by": "BBMW0 Technologies",
+      "reviewed_on": "2026-10-13",
+      "derived_from": "900decaf-Connect_Dola_to_Claude_2.mp4 (owner supplied, 720x1280 HEVC, AI generated footage)",
+      "notes": "source 2.6 to 5.2s. Cropped to 686x1220 from offset 17,0 to remove the 'Dola AI' corner mark entirely (mark sat at roughly y 1240 to 1262), scaled to 1080x1920, slowed 1.6x with motion interpolation, cut to 123 frames at 30fps. AI generated footage: the YouTube altered or synthetic content disclosure applies. The same source clip was used whole in the 13 Oct 2026 Quran 5:1 Reel, so this video uses different, slowed segments."
+    },
+    {
+      "file": "bg/rainforest-canopy-3.mp4",
+      "depicts": "plants",
+      "species": "none (ferns, moss, tree trunks, mist)",
+      "eyesOrFaceVisible": false,
+      "cleared": true,
+      "review_method": "Extracted frames every half second across the whole 10 second source and viewed them as contact sheets: only ferns, leaves, moss, trunks, a small stream and mist appear. No animal, no person, no face or eyes in any frame. After processing, viewed frames from the clip and the bottom right corner at full size to confirm the watermark is gone.",
+      "reviewed_by": "BBMW0 Technologies",
+      "reviewed_on": "2026-10-13",
+      "derived_from": "900decaf-Connect_Dola_to_Claude_2.mp4 (owner supplied, 720x1280 HEVC, AI generated footage)",
+      "notes": "source 4.8 to 7.4s. Cropped to 686x1220 from offset 17,0 to remove the 'Dola AI' corner mark entirely (mark sat at roughly y 1240 to 1262), scaled to 1080x1920, slowed 1.6x with motion interpolation, cut to 123 frames at 30fps. AI generated footage: the YouTube altered or synthetic content disclosure applies. The same source clip was used whole in the 13 Oct 2026 Quran 5:1 Reel, so this video uses different, slowed segments."
+    },
+    {
+      "file": "bg/rainforest-canopy-4.mp4",
+      "depicts": "plants",
+      "species": "none (ferns, moss, tree trunks, mist)",
+      "eyesOrFaceVisible": false,
+      "cleared": true,
+      "review_method": "Extracted frames every half second across the whole 10 second source and viewed them as contact sheets: only ferns, leaves, moss, trunks, a small stream and mist appear. No animal, no person, no face or eyes in any frame. After processing, viewed frames from the clip and the bottom right corner at full size to confirm the watermark is gone.",
+      "reviewed_by": "BBMW0 Technologies",
+      "reviewed_on": "2026-10-13",
+      "derived_from": "900decaf-Connect_Dola_to_Claude_2.mp4 (owner supplied, 720x1280 HEVC, AI generated footage)",
+      "notes": "source 7.4 to 10.08s. Cropped to 686x1220 from offset 17,0 to remove the 'Dola AI' corner mark entirely (mark sat at roughly y 1240 to 1262), scaled to 1080x1920, slowed 1.6x with motion interpolation, cut to 123 frames at 30fps. AI generated footage: the YouTube altered or synthetic content disclosure applies. The same source clip was used whole in the 13 Oct 2026 Quran 5:1 Reel, so this video uses different, slowed segments."
     }
   ]
 }

@@ -104,7 +104,7 @@ function readingLoad(b) {
     // The CTA is not in the beat data - it comes from the composition - but it
     // is on screen and has to be read, so it counts toward the beat's length.
     sign: [b.line, b.handle, "Subscribe for more"],
-    media: [b.caption],
+    media: [b.caption, b.note],
   }[b.kind] || [];
   return fields.reduce((s, f) => s + words(f), 0);
 }
