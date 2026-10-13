@@ -1,0 +1,54 @@
+{
+  "slug": "bukhari-6095",
+  "date": "2026-10-13",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "series": "promises-covenants-pledges",
+  "seriesDay": "2",
+  "caption": "Allah's Messenger (ﷺ) said, \"The signs of a hypocrite are three: Whenever he speaks, he tells a lie; and whenever he promises, he breaks his promise; and whenever he is entrusted, he betrays (proves to be dishonest).\"\n\nSahih al-Bukhari 6095. Day 2 of our series on what Islam says about promises, covenants and pledges. Swipe for the Arabic, English, Mandarin, Korean, Japanese, Malay, Thai and Spanish.\n\nSources on the final slide.\n\n#Hadith #Promises #Trustworthiness #IslamicReminder #Deen",
+  "tags": [
+    "Hadith",
+    "Promises",
+    "Amanah",
+    "Honesty",
+    "Deen"
+  ],
+  "theme": "sable-aqua",
+  "slides": [
+    "bukhari-6095.slide-01.json",
+    "bukhari-6095.slide-02.json",
+    "bukhari-6095.slide-03.json",
+    "bukhari-6095.slide-04.json",
+    "bukhari-6095.slide-05.json",
+    "bukhari-6095.slide-06.json",
+    "bukhari-6095.slide-07.json",
+    "bukhari-6095.slide-08.json",
+    "bukhari-6095.slide-09.json",
+    "bukhari-6095.slide-10.json"
+  ],
+  "sourcing": {
+    "primary_text": "Sahih al-Bukhari 6095 (hadith-api numbering; Book 78, Hadith 122). Series: what Islam says about promises, covenants and pledges.",
+    "arabic_and_english": "Live-fetched twice on 2026-10-13 from cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-<collection> and eng-<collection>, HTTP 200, the two fetches diffed identical. Slides written programmatically from the API text.",
+    "arabic_extraction": "Arabic slide shows the Prophet's words only (the text between the quotation marks); the chain of narrators is omitted from the slide, not altered. Invisible RLM/RLE control marks removed.",
+    "english_artifact_note": "API English text omitted the closing period and quotation mark when applicable; restored punctuation only, no wording changed. 'Narrated X:' prefix kept as 'Narrated X: '.",
+    "grade": "hadith-api supplies no grade for this edition (grades empty); slide states only the collection. Sahih al-Bukhari / Sahih Muslim collections are the sources, no grade is claimed beyond that.",
+    "chinese_korean_japanese_malay_thai_spanish": "hadith-api has no Chinese, Korean, Japanese, Malay, Thai or Spanish edition (checked editions.json 2026-10-13). These six slides are Claude's own careful translation from the verified Arabic and English, labelled on-slide as such; no scholar is named.",
+    "compliance_check": "Checked against all string terms in compliance-policy.json halal section across English and translations: 0 hits. No imagery."
+  },
+  "renderCommand": "node scripts/_bd_render.mjs 2026-10-13 bukhari-6095",
+  "status": "rendered_and_hosted",
+  "hostingUrls": [
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-01.jpg",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-02.jpg",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-03.jpg",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-04.jpg",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-05.jpg",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-06.jpg",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-07.jpg",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-08.jpg",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-09.jpg",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-13/blankdiscussions/renders/bukhari-6095-slide-10.jpg"
+  ]
+}

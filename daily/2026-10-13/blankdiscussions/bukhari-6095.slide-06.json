@@ -1,0 +1,9 @@
+{
+  "theme": "sable-aqua",
+  "kind": "text",
+  "lang": "ja",
+  "text": "偽信者のしるしは三つある。話せば嘘をつき、約束すれば違え、信頼して預けられれば裏切る（不誠実であることが明らかになる）。",
+  "note": "Claude's own translation (hadith-api has no Japanese edition)",
+  "slideNumber": 6,
+  "slideTotal": 10
+}
