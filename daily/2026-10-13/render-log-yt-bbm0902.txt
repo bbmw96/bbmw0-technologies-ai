@@ -1,0 +1,19 @@
+Rendering 4 Shorts for 2026-10-13 (concurrency=3, GL=default)
+Compliance: 3 cleared, 1 blocked (policy v1.0.0).
+Blocked by compliance: amazon-lungs-of-the-planet-net-oxygen-zero
+
+--- amazon-lungs-of-the-planet-net-oxygen-zero ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-13-amazon-lungs-of-the-planet-net-oxygen-zero.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-10-13/compliance-verdict.json.
+
+--- brainstorming-osborn-groups-produce-fewer-ideas ---
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
+
+--- excel-1900-leap-year-lotus-compatibility ---
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
+
+--- marie-antoinette-let-them-eat-cake-rousseau-1765 ---
+  SKIPPED: already uploaded to YouTube. Clear its youtubeId in published.json to re-run.
+
+=== Done. 1 rendered, 0 uploaded, 3 skipped, 1 blocked by compliance, 0 failed. ===

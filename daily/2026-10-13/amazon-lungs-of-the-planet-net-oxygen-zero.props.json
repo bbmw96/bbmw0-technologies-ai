@@ -1,0 +1,86 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (amazon-lungs-of-the-planet-net-oxygen-zero)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#07140E",
+    "ink": "#E8F3EC",
+    "accent": "#6FCF97",
+    "muted": "#6E8B7A"
+  },
+  "niche": "biology",
+  "beats": [
+    {
+      "kind": "media",
+      "assetType": "video",
+      "src": "bg/rainforest-canopy-1.mp4",
+      "caption": "The lungs of the planet?",
+      "note": "The Amazon is said to make 20 per cent of the world's oxygen.",
+      "durationInFrames": 123
+    },
+    {
+      "kind": "statement",
+      "lead": "Oxford ecologist Yadvinder Malhi",
+      "text": "Calling it the lungs is a misconception.",
+      "note": "Forests matter a great deal, he says, but not for producing oxygen.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "figure",
+      "value": "0",
+      "unit": "net gain",
+      "context": "Net oxygen from land ecosystems is close to zero, once you count what plants and microbes use.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "media",
+      "assetType": "video",
+      "src": "bg/rainforest-canopy-2.mp4",
+      "caption": "Half goes straight back",
+      "note": "Plants use about half of the oxygen they make. Microbes and insects breaking down plant matter use the rest.",
+      "durationInFrames": 123
+    },
+    {
+      "kind": "statement",
+      "lead": "So where does the surplus come from",
+      "text": "From burial.",
+      "note": "Oxygen stays in the air when plant and algae matter is buried before it breaks down. Most burial happens in ocean sediments, where algae sink into deep sea mud.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "media",
+      "assetType": "video",
+      "src": "bg/rainforest-canopy-3.mp4",
+      "caption": "A third of the work",
+      "note": "About a third of land photosynthesis happens in tropical forests. Researchers suggest that is how the myth began.",
+      "durationInFrames": 123
+    },
+    {
+      "kind": "statement",
+      "lead": "The air around you",
+      "text": "21 per cent oxygen.",
+      "note": "Michael Coe of the Woods Hole Research Center said the 20 per cent claim does not make any physical sense.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "media",
+      "assetType": "video",
+      "src": "bg/rainforest-canopy-4.mp4",
+      "caption": "What it really does",
+      "note": "It stores carbon, helps steady the rain and shelters extraordinary biodiversity.",
+      "durationInFrames": 123
+    },
+    {
+      "kind": "kicker",
+      "text": "Not the lungs. The air conditioner.",
+      "durationInFrames": 60
+    },
+    {
+      "kind": "sign",
+      "line": "The most famous rainforest fact is the wrong one.",
+      "handle": "@bbm0902",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}
