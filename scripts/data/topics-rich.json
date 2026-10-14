@@ -14124,6 +14124,308 @@
           "handle": "@bbm0902"
         }
       ]
+    },
+    {
+      "id": "viking-horned-helmets-doepler-1876",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://www.scandinavianarchaeology.com/?p=896 (read): established that the Gjermundbu helmet, c.875 AD from a male grave in Norway, shows no sign of ever having had horns; that Vendel period helmets (550 to 793 AD) have none either; that Carl Emil Doepler designed costumes for the 1876 premiere of Wagner's Ring, studied Viking Age artefacts and used artistic freedom, and gave Odin wings instead of horns; and that Lorenz Frolich's 1877 painting of Sweyn Forkbeard's capture is described as the first known illustration of a horned Viking in course literature.",
+        "https://www.historyhit.com/types-of-viking-helmets/ (read): established that the Gjermundbu helmet was found in southern Norway in 1943, is iron with four plates and a fixed visor, and is the most complete of only five known Viking helmet remains; that the horned helmet was not worn by real Vikings; that Doepler's designs for an 1876 Ring production first showcased it; and that the look blended Norse and medieval German history, closer to Germanic tribes of the Migration Period (375 to 568 AD)."
+      ],
+      "verifiedNote": "Checked 14 Oct 2026. Sources differ on rarity: one calls Gjermundbu the only verified Viking Age helmet, the other the most complete of five known remains. The reel uses five known, with Gjermundbu as most complete. Not claimed: that Wagner designed the costumes (Doepler did), what Hunding's helmet looked like, or that no Viking ever wore a horned object in ritual. Not claimed: any Bronze Age horned helmet detail, as neither source covers it.",
+      "palette": {
+        "bg": "#101014",
+        "ink": "#F4F2ED",
+        "accent": "#D9A441",
+        "muted": "#85817A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The Viking look",
+          "text": "The horned helmet was a costume designer's idea.",
+          "note": "Carl Emil Doepler's designs for an 1876 production of Wagner's Ring brought it to fame."
+        },
+        {
+          "kind": "figure",
+          "value": "5",
+          "unit": "known",
+          "context": "Viking helmet remains are known. The most complete, found in Norway in 1943 at Gjermundbu, shows no sign of ever having had horns."
+        },
+        {
+          "kind": "credit",
+          "year": "1876",
+          "name": "Carl Emil Doepler",
+          "role": "Costume designer for the Ring premiere. He studied Viking Age artefacts in museums, then took artistic freedom."
+        },
+        {
+          "kind": "statement",
+          "lead": "For Odin, he chose",
+          "text": "Wings, not horns.",
+          "note": "The horned version grew from a mix of Norse and medieval German history."
+        },
+        {
+          "kind": "statement",
+          "lead": "Where horns really belong",
+          "text": "Earlier Germanic tribes.",
+          "note": "Helmets of the Migration Period, 375 to 568 AD, fit the look better than anything Viking."
+        },
+        {
+          "kind": "statement",
+          "lead": "One year later",
+          "text": "Painters ran with it.",
+          "note": "Lorenz Frolich's 1877 painting of Sweyn Forkbeard is described as the first known horned Viking in course literature."
+        },
+        {
+          "kind": "kicker",
+          "text": "The horns came from the theatre."
+        },
+        {
+          "kind": "sign",
+          "line": "The Viking look is a nineteenth century costume.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "mp3-tom-diner-brandenburg-1988",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://www.npr.org/sections/therecord/2011/03/18/134598010/for-better-or-worse-mp3s-are-the-format-of-choice (read): established that in 1988 Karlheinz Brandenburg and colleagues at the Fraunhofer Institute thought their compression worked until they tested Suzanne Vega's Tom's Diner; that everything else sounded OK but her voice was destroyed; and that he listened to the song more than 500 times during development.",
+        "https://www.mentalfloss.com/article/19727/how-toms-diner-tuned-mp3 (read): established that Vega wrote Tom's Diner in 1982 as an a cappella song; that Brandenburg chose the a cappella track because he expected a warm unaccompanied voice to be very hard to compress; that audiophiles already used the track to test speakers after the 1987 album; and that Vega is called the Mother of the MP3."
+      ],
+      "verifiedNote": "Checked 14 Oct 2026. Not claimed: the year MP3 was finished or standardised, because the two sources date the work differently (1988 versus the 1990s). Not claimed: any exact quote of Brandenburg beyond the NPR paraphrase. Not claimed: that Vega endorsed the nickname.",
+      "palette": {
+        "bg": "#0E1116",
+        "ink": "#F2F4F3",
+        "accent": "#4ADE80",
+        "muted": "#7C8794"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Fraunhofer, 1988",
+          "text": "One song broke the early MP3 tests.",
+          "note": "Everything else sounded fine. Suzanne Vega's voice was destroyed."
+        },
+        {
+          "kind": "credit",
+          "year": "1982",
+          "name": "Suzanne Vega",
+          "role": "Wrote Tom's Diner as an a cappella song, so the track is one unaccompanied voice."
+        },
+        {
+          "kind": "statement",
+          "lead": "Why it was hard",
+          "text": "A warm, bare voice looked close to impossible to compress.",
+          "note": "Karlheinz Brandenburg picked it for that reason, and compared the track before and after compression."
+        },
+        {
+          "kind": "figure",
+          "value": "500",
+          "unit": "listens",
+          "context": "Brandenburg says he played the song more than 500 times while developing the technology that became the MP3."
+        },
+        {
+          "kind": "statement",
+          "lead": "Already a test track",
+          "text": "Audiophiles used it to check speakers.",
+          "note": "That began after the 1987 album Solitude Standing."
+        },
+        {
+          "kind": "kicker",
+          "text": "A folk song taught a codec to hear."
+        },
+        {
+          "kind": "sign",
+          "line": "Vega is now called the Mother of the MP3.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "ebbinghaus-forgetting-curve-one-subject-1885",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0120644 (read, first 100000 characters): Murre and Dros, PLOS ONE 2015; established that Hermann Ebbinghaus was the only subject in his own experiments, reported in 1880 and 1885; that the replication at the University of Amsterdam had one subject, Joeri Dros, a 22 year old man; that it ran 1 December 2011 to 13 February 2012 and took about 70 hours; that each list held 104 nonsense syllables in 8 rows of 13; that relearning was tested after 20 minutes, 1 hour, 9 hours, 1 day, 2 days, 6 days and 31 days; that the curve closely resembled Ebbinghaus's data; that the 31 day score was much lower; and that a likely upward jump from the 24 hour point is what sleep research would predict, without the paper establishing a sleep cause."
+      ],
+      "verifiedNote": "Checked 14 Oct 2026. Only one source was read in full, the primary paper, so this stays a single source entry. Not claimed: any percentage of memory lost at any interval, because none was read. Not claimed: that sleep causes the jump. Not claimed: an exact session count, which the paper does not give. The last 2325 characters of the paper were not read.",
+      "palette": {
+        "bg": "#131211",
+        "ink": "#F3F0EA",
+        "accent": "#D97757",
+        "muted": "#89827A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The forgetting curve",
+          "text": "It came from one man memorising nonsense.",
+          "note": "Hermann Ebbinghaus was the only subject in his own experiments, reported in 1885."
+        },
+        {
+          "kind": "credit",
+          "year": "1885",
+          "name": "Hermann Ebbinghaus",
+          "role": "Learned lists of meaningless syllables, then measured how much effort it took to relearn them later."
+        },
+        {
+          "kind": "figure",
+          "value": "104",
+          "unit": "syllables",
+          "context": "In each list of the 2015 replication, set out in rows of 13."
+        },
+        {
+          "kind": "statement",
+          "lead": "Then someone repeated it",
+          "text": "On himself.",
+          "note": "At the University of Amsterdam, Joeri Dros, a 22 year old, was the only subject. It took about 70 hours."
+        },
+        {
+          "kind": "statement",
+          "lead": "The result",
+          "text": "The curve held up.",
+          "note": "It closely matched Ebbinghaus's data. Only the 31 day score came out much lower."
+        },
+        {
+          "kind": "statement",
+          "lead": "One twist",
+          "text": "Memory rose after a day.",
+          "note": "The authors saw a likely jump from the 24 hour point, which sleep research would predict. The paper does not prove sleep caused it."
+        },
+        {
+          "kind": "kicker",
+          "text": "Two men, 130 years apart, one curve."
+        },
+        {
+          "kind": "sign",
+          "line": "The most cited memory graph began with a single volunteer.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "twitter-odeo-itunes-podcasting-pivot-2005",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://www.nbcnews.com/id/wbna42577600 (read): established that Odeo had a podcasting platform in July 2005; that in fall 2005 Apple announced iTunes with built in podcasting and Evan Williams asked staff for new directions; that Jack Dorsey proposed the status idea, which everyone interviewed agreed on; that in February 2006 Noah Glass, Dorsey and contractor Florian Webber presented it as Twttr, a text to one number broadcast to friends; that a prototype worked in March 2006; and that in September 2006 Williams told investors, who had put in about 5 million dollars, that Odeo was going nowhere and bought their shares back at an unreported price.",
+        "https://www.history.com/this-day-in-history/twitter-launches (read): established that Twttr launched publicly on 15 July 2006 from Odeo; that it used the number 40404; that Dorsey's first message was just setting up my twttr on 21 March; and that the 140 character limit was based on the maximum text message length of the time."
+      ],
+      "verifiedNote": "Checked 14 Oct 2026. Not claimed: that Apple caused the pivot (the sources give the timing, not the cause). Not claimed: who invented the name (NBC credits Glass, other accounts differ). History.com gives 21 March without the year, so 2006 is inferred from the prototype timeline in the NBC piece. Not claimed: the price Williams paid investors.",
+      "palette": {
+        "bg": "#121110",
+        "ink": "#F0ECE3",
+        "accent": "#D9932B",
+        "muted": "#857F75"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Autumn 2005",
+          "text": "Apple put podcasting inside iTunes.",
+          "note": "Odeo was a podcasting company. Its boss, Evan Williams, asked staff for new ideas."
+        },
+        {
+          "kind": "credit",
+          "year": "2005",
+          "name": "Jack Dorsey",
+          "role": "An Odeo engineer who proposed the status idea. Everyone NBC interviewed agreed it began with him."
+        },
+        {
+          "kind": "statement",
+          "lead": "February 2006",
+          "text": "The pitch: text one number, tell your friends.",
+          "note": "Noah Glass, Dorsey and contractor Florian Webber presented it as Twttr."
+        },
+        {
+          "kind": "figure",
+          "value": "140",
+          "unit": "letters",
+          "context": "The limit, based on the maximum length of a text message at the time."
+        },
+        {
+          "kind": "statement",
+          "lead": "21 March",
+          "text": "just setting up my twttr",
+          "note": "Dorsey's first message. The public launch followed on 15 July 2006."
+        },
+        {
+          "kind": "statement",
+          "lead": "September 2006",
+          "text": "Odeo's investors were bought out.",
+          "note": "Williams said the company was going nowhere. They had put in about 5 million dollars. The price was never reported."
+        },
+        {
+          "kind": "kicker",
+          "text": "The side project outlived the company."
+        },
+        {
+          "kind": "sign",
+          "line": "Twitter began as a way out of podcasting.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "bell-gray-telephone-same-day-1876",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Elisha_Gray_and_Alexander_Bell_telephone_controversy (read): established that Bell's patent application and Gray's caveat were both filed on 14 February 1876; that Gray's lawyer was William D. Baldwin; that the order of arrival is disputed, with Bell's fee on the cash blotter earlier and Gray's caveat possibly delivered earlier but left in the in-basket until the afternoon; that Gray's fee was entered late that afternoon and his caveat reached the examiner the next day; that patent 174,465 went to Bell; and that the Telephone Appeals were argued from 24 January to 8 February 1887 with Chief Justice Waite writing.",
+        "https://www.themarginalian.org/2008/10/20/telephone-invention-controversy/ (read): corroborated the same filing day, that Gray reached the Patent Office a few hours before Bell's lawyer by this account, that Bell's lawyer had his fee entered immediately, and that Gray's went through at the usual pace and reached the examiner the following morning."
+      ],
+      "verifiedNote": "Checked 14 Oct 2026. The sources disagree on the order of filing, so the reel says it is disputed. Not claimed: who arrived first, any patent issue date (the Wikipedia article gives both 3 and 7 March), the outcome of the 1887 case, or the patent number as a figure beat, since it is an address, not a fact. Not claimed: that Bell copied Gray.",
+      "palette": {
+        "bg": "#101014",
+        "ink": "#F4F2ED",
+        "accent": "#D9A441",
+        "muted": "#85817A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "14 February 1876",
+          "text": "Two men filed for the telephone on one day.",
+          "note": "Alexander Graham Bell filed a patent application. Elisha Gray filed a patent caveat."
+        },
+        {
+          "kind": "credit",
+          "year": "1876",
+          "name": "Elisha Gray",
+          "role": "Filed through his lawyer, William D. Baldwin. By his account, the caveat was taken to the office hours before Bell's papers."
+        },
+        {
+          "kind": "statement",
+          "lead": "The popular story",
+          "text": "Bell arrived first.",
+          "note": "Historians still disagree. Bell's fee reached the cash blotter first, but Gray's caveat may have sat unprocessed in the in-basket until the afternoon."
+        },
+        {
+          "kind": "statement",
+          "lead": "What differed",
+          "text": "The speed of the paperwork.",
+          "note": "Bell's lawyer had his fee entered at once. Gray's went through at the usual pace, and reached the examiner the next day."
+        },
+        {
+          "kind": "statement",
+          "lead": "The fight went on",
+          "text": "It reached the Supreme Court.",
+          "note": "The Telephone Appeals were argued from 24 January to 8 February 1887."
+        },
+        {
+          "kind": "kicker",
+          "text": "One day, two filings, and a dispute that never fully settled."
+        },
+        {
+          "kind": "sign",
+          "line": "The telephone has two birth certificates.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
