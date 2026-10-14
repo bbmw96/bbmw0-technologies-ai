@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-10-14 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- bell-gray-telephone-same-day-1876 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-14-bell-gray-telephone-same-day-1876.mp4
+  uploaded public: https://youtu.be/ym56hAu2d10
+
+--- heartbleed-missing-length-check-2014 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-14-heartbleed-missing-length-check-2014.mp4
+  uploaded public: https://youtu.be/uw_51IOQ_es
+
+--- twitter-odeo-itunes-podcasting-pivot-2005 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-14-twitter-odeo-itunes-podcasting-pivot-2005.mp4
+  uploaded public: https://youtu.be/0TrRHE1xKrk
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

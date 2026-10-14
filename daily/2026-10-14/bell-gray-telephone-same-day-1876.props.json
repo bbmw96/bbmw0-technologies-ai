@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (bell-gray-telephone-same-day-1876)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#101014",
+    "ink": "#F4F2ED",
+    "accent": "#D9A441",
+    "muted": "#85817A"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "14 February 1876",
+      "text": "Two men filed for the telephone on one day.",
+      "note": "Alexander Graham Bell filed a patent application. Elisha Gray filed a patent caveat.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "credit",
+      "year": "1876",
+      "name": "Elisha Gray",
+      "role": "Filed through his lawyer, William D. Baldwin. By his account, the caveat was taken to the office hours before Bell's papers.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "statement",
+      "lead": "The popular story",
+      "text": "Bell arrived first.",
+      "note": "Historians still disagree. Bell's fee reached the cash blotter first, but Gray's caveat may have sat unprocessed in the in-basket until the afternoon.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "statement",
+      "lead": "What differed",
+      "text": "The speed of the paperwork.",
+      "note": "Bell's lawyer had his fee entered at once. Gray's went through at the usual pace, and reached the examiner the next day.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "statement",
+      "lead": "The fight went on",
+      "text": "It reached the Supreme Court.",
+      "note": "The Telephone Appeals were argued from 24 January to 8 February 1887.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "kicker",
+      "text": "One day, two filings, and a dispute that never fully settled.",
+      "durationInFrames": 88
+    },
+    {
+      "kind": "sign",
+      "line": "The telephone has two birth certificates.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

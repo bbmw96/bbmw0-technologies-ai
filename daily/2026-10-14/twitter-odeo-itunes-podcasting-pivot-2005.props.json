@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (twitter-odeo-itunes-podcasting-pivot-2005)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#121110",
+    "ink": "#F0ECE3",
+    "accent": "#D9932B",
+    "muted": "#857F75"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Autumn 2005",
+      "text": "Apple put podcasting inside iTunes.",
+      "note": "Odeo was a podcasting company. Its boss, Evan Williams, asked staff for new ideas.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "credit",
+      "year": "2005",
+      "name": "Jack Dorsey",
+      "role": "An Odeo engineer who proposed the status idea. Everyone NBC interviewed agreed it began with him.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "statement",
+      "lead": "February 2006",
+      "text": "The pitch: text one number, tell your friends.",
+      "note": "Noah Glass, Dorsey and contractor Florian Webber presented it as Twttr.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "figure",
+      "value": "140",
+      "unit": "letters",
+      "context": "The limit, based on the maximum length of a text message at the time.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "statement",
+      "lead": "21 March",
+      "text": "just setting up my twttr",
+      "note": "Dorsey's first message. The public launch followed on 15 July 2006.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "statement",
+      "lead": "September 2006",
+      "text": "Odeo's investors were bought out.",
+      "note": "Williams said the company was going nowhere. They had put in about 5 million dollars. The price was never reported.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "kicker",
+      "text": "The side project outlived the company.",
+      "durationInFrames": 60
+    },
+    {
+      "kind": "sign",
+      "line": "Twitter began as a way out of podcasting.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

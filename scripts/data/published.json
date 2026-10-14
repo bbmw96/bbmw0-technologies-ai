@@ -313,7 +313,10 @@
     "reel:excel-1900-leap-year-lotus-compatibility",
     "reel:brainstorming-osborn-groups-produce-fewer-ideas",
     "reel:marie-antoinette-let-them-eat-cake-rousseau-1765",
-    "reel:amazon-lungs-of-the-planet-net-oxygen-zero"
+    "reel:amazon-lungs-of-the-planet-net-oxygen-zero",
+    "reel:twitter-odeo-itunes-podcasting-pivot-2005",
+    "reel:bell-gray-telephone-same-day-1876",
+    "reel:heartbleed-missing-length-check-2014"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -5483,6 +5486,57 @@
       "channelId": "yt-bbm0902",
       "special": false,
       "platform": "youtube"
+    },
+    {
+      "id": "twitter-odeo-itunes-podcasting-pivot-2005",
+      "date": "2026-10-14",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Apple put podcasting inside iTunes.",
+      "description": "Apple put podcasting inside iTunes. Odeo was a podcasting company. Its boss, Evan Williams, asked staff for new ideas.\n\nAn Odeo engineer who proposed the status idea. Everyone NBC interviewed agreed it began with him.\n\nThe pitch: text one number, tell your friends. Noah Glass, Dorsey and contractor Florian Webber presented it as Twttr.\n\nThe limit, based on the maximum length of a text message at the time.\n\njust setting up my twttr Dorsey's first message. The public launch followed on 15 July 2006.\n\nOdeo's investors were bought out. Williams said the company was going nowhere. They had put in about 5 million dollars. The price was never reported.\n\nThe side project outlived the company.\n\nSources:\n- https://www.nbcnews.com/id/wbna42577600 (read): established that Odeo had a podcasting platform in July 2005; that in fall 2005 Apple announced iTunes with built in podcasting and Evan Williams asked staff for new directions; that Jack Dorsey proposed the status idea, which everyone interviewed agreed on; that in February 2006 Noah Glass, Dorsey and contractor Florian Webber presented it as Twttr, a text to one number broadcast to friends; that a prototype worked in March 2006; and that in September 2006 Williams told investors, who had put in about 5 million dollars, that Odeo was going nowhere and bought their shares back at an unreported price.\n- https://www.history.com/this-day-in-history/twitter-launches (read): established that Twttr launched publicly on 15 July 2006 from Odeo; that it used the number 40404; that Dorsey's first message was just setting up my twttr on 21 March; and that the 140 character limit was based on the maximum text message length of the time.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "0TrRHE1xKrk",
+      "youtubeUrl": "https://youtu.be/0TrRHE1xKrk",
+      "uploadedAt": "2026-10-14T14:48:40.617Z",
+      "privacy": "public"
+    },
+    {
+      "id": "bell-gray-telephone-same-day-1876",
+      "date": "2026-10-14",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "14 February 1876. Two men filed for the telephone on one day.",
+      "description": "Two men filed for the telephone on one day. Alexander Graham Bell filed a patent application. Elisha Gray filed a patent caveat.\n\nFiled through his lawyer, William D. Baldwin. By his account, the caveat was taken to the office hours before Bell's papers.\n\nBell arrived first. Historians still disagree. Bell's fee reached the cash blotter first, but Gray's caveat may have sat unprocessed in the in-basket until the afternoon.\n\nThe speed of the paperwork. Bell's lawyer had his fee entered at once. Gray's went through at the usual pace, and reached the examiner the next day.\n\nIt reached the Supreme Court. The Telephone Appeals were argued from 24 January to 8 February 1887.\n\nOne day, two filings, and a dispute that never fully settled.\n\nSources:\n- https://en.wikipedia.org/wiki/Elisha_Gray_and_Alexander_Bell_telephone_controversy (read): established that Bell's patent application and Gray's caveat were both filed on 14 February 1876; that Gray's lawyer was William D. Baldwin; that the order of arrival is disputed, with Bell's fee on the cash blotter earlier and Gray's caveat possibly delivered earlier but left in the in-basket until the afternoon; that Gray's fee was entered late that afternoon and his caveat reached the examiner the next day; that patent 174,465 went to Bell; and that the Telephone Appeals were argued from 24 January to 8 February 1887 with Chief Justice Waite writing.\n- https://www.themarginalian.org/2008/10/20/telephone-invention-controversy/ (read): corroborated the same filing day, that Gray reached the Patent Office a few hours before Bell's lawyer by this account, that Bell's lawyer had his fee entered immediately, and that Gray's went through at the usual pace and reached the examiner the following morning.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "ym56hAu2d10",
+      "youtubeUrl": "https://youtu.be/ym56hAu2d10",
+      "uploadedAt": "2026-10-14T14:27:43.080Z",
+      "privacy": "public"
+    },
+    {
+      "id": "heartbleed-missing-length-check-2014",
+      "date": "2026-10-14",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The encryption was never broken. Heartbleed was a missing length check, not a cracked cipher.",
+      "description": "Heartbleed was a missing length check, not a cracked cipher. The researchers called it a programming mistake in OpenSSL, not a flaw in the protocol.\n\nWrote the heartbeat feature and later said he missed validating a variable containing a length. A reviewer missed it too, and it was committed on 31 December 2011.\n\nHow much of a server's memory one malformed heartbeat request could read back. An attacker could simply ask again.\n\nThe flawed code shipped by default in March 2012 and was disclosed in April 2014. About 17% of trusted secure web servers were thought to be vulnerable.\n\nGoogle's Neel Mehta and the security firm Codenomicon found it independently. Mehta reported it to OpenSSL on 1 April 2014. The fix, version 1.0.1g, came on 7 April.\n\nSources:\n- https://en.wikipedia.org/wiki/Heartbleed (read): established that Robin Seggelmann wrote the heartbeat extension in 2011 and later said he missed validating a variable containing a length; that Stephen Henson reviewed it and committed it on 31 December 2011; that heartbeat support shipped enabled by default in OpenSSL 1.0.1 on 14 March 2012; that Neel Mehta of Google privately reported it on 1 April 2014; that it was disclosed on 7 April 2014 with OpenSSL 1.0.1g; that about 17% of trusted secure web servers were believed vulnerable at disclosure; and that about 900 Canadian social insurance numbers were taken from the Canada Revenue Agency on 8 April 2014.\n- https://heartbleed.com/ (read): the researchers' own page; established that the flaw was an implementation problem, a programming mistake in OpenSSL, and not a flaw in the protocol; that OpenSSL 1.0.1 to 1.0.1f were vulnerable; that each heartbeat could read 64 KB but the attacker could repeat requests; that Codenomicon and Neel Mehta found it independently; and that private keys, passwords and messages could be exposed.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "uw_51IOQ_es",
+      "youtubeUrl": "https://youtu.be/uw_51IOQ_es",
+      "uploadedAt": "2026-10-14T14:39:42.302Z",
+      "privacy": "public"
     }
   ]
 }

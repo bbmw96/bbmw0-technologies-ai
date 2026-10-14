@@ -1,0 +1,25 @@
+{
+  "slug": "heartbleed-missing-length-check-2014",
+  "date": "2026-10-14",
+  "title": "The encryption was never broken. Heartbleed was a missing length check, not a cracked cipher.",
+  "description": "Heartbleed was a missing length check, not a cracked cipher. The researchers called it a programming mistake in OpenSSL, not a flaw in the protocol.\n\nWrote the heartbeat feature and later said he missed validating a variable containing a length. A reviewer missed it too, and it was committed on 31 December 2011.\n\nHow much of a server's memory one malformed heartbeat request could read back. An attacker could simply ask again.\n\nThe flawed code shipped by default in March 2012 and was disclosed in April 2014. About 17% of trusted secure web servers were thought to be vulnerable.\n\nGoogle's Neel Mehta and the security firm Codenomicon found it independently. Mehta reported it to OpenSSL on 1 April 2014. The fix, version 1.0.1g, came on 7 April.\n\nSources:\n- https://en.wikipedia.org/wiki/Heartbleed (read): established that Robin Seggelmann wrote the heartbeat extension in 2011 and later said he missed validating a variable containing a length; that Stephen Henson reviewed it and committed it on 31 December 2011; that heartbeat support shipped enabled by default in OpenSSL 1.0.1 on 14 March 2012; that Neel Mehta of Google privately reported it on 1 April 2014; that it was disclosed on 7 April 2014 with OpenSSL 1.0.1g; that about 17% of trusted secure web servers were believed vulnerable at disclosure; and that about 900 Canadian social insurance numbers were taken from the Canada Revenue Agency on 8 April 2014.\n- https://heartbleed.com/ (read): the researchers' own page; established that the flaw was an implementation problem, a programming mistake in OpenSSL, and not a flaw in the protocol; that OpenSSL 1.0.1 to 1.0.1f were vulnerable; that each heartbeat could read 64 KB but the attacker could repeat requests; that Codenomicon and Neel Mehta found it independently; and that private keys, passwords and messages could be exposed.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-10-14-heartbleed-missing-length-check-2014.mp4",
+  "propsFile": "daily/2026-10-14/heartbleed-missing-length-check-2014.props.json",
+  "durationInFrames": 1088,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

@@ -1,0 +1,56 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (heartbleed-missing-length-check-2014)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0F12",
+    "ink": "#E9F2F5",
+    "accent": "#E0584B",
+    "muted": "#6D8189"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The encryption was never broken",
+      "text": "Heartbleed was a missing length check, not a cracked cipher.",
+      "note": "The researchers called it a programming mistake in OpenSSL, not a flaw in the protocol.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "credit",
+      "year": "2011",
+      "name": "Robin Seggelmann",
+      "role": "Wrote the heartbeat feature and later said he missed validating a variable containing a length. A reviewer missed it too, and it was committed on 31 December 2011.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "figure",
+      "value": "64",
+      "unit": "KB",
+      "context": "How much of a server's memory one malformed heartbeat request could read back. An attacker could simply ask again.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "lead": "It sat there for over two years",
+      "text": "The flawed code shipped by default in March 2012 and was disclosed in April 2014.",
+      "note": "About 17% of trusted secure web servers were thought to be vulnerable.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Two teams, one bug",
+      "text": "Google's Neel Mehta and the security firm Codenomicon found it independently.",
+      "note": "Mehta reported it to OpenSSL on 1 April 2014. The fix, version 1.0.1g, came on 7 April.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "sign",
+      "line": "One missing check. Half a million servers.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
