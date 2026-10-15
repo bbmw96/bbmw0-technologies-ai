@@ -14426,6 +14426,236 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "power-pose-42-people-carney-2010",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Power_posing (read): established that Carney, Cuddy and Yap published the original study in Psychological Science in 2010 with 42 participants, reporting higher testosterone and lower cortisol; that the 2015 Ranehill replication used a larger sample and confirmed felt power but found no physiological or behavioural effects; and that Carney publicly stated she does not believe the effects are real.",
+        "http://faculty.haas.berkeley.edu/dana_carney/pdf_My%20position%20on%20power%20poses.pdf (read): Carney's own statement. Established that the final sample was N = 42 after 5 exclusions, that subjects were run in batches while the effect was checked, and that she says she does not believe the power pose effects are real.",
+        "https://www.zne.uzh.ch/dam/jcr:e5fc4c3c-d50e-4aa9-96ab-4389e426d20d/Psychological%20Science-2015-Ranehill-0956797614553946.pdf (read): the replication paper. Established N = 200 (98 women, 102 men), poses held for 3 minutes where the original used 1, a significant effect on self reported feelings of power, and no significant effect on testosterone, cortisol or risk taking."
+      ],
+      "verifiedNote": "Checked 15 Oct 2026. Not claimed: that the original study was retracted (it was not, per the sources read), the date of Carney's statement (her page is undated and Wikipedia gives only 2016), Amy Cuddy's 2018 p-curve paper and the ongoing dispute over it, TED talk view counts, or any claim that posture cannot affect mood. Only the self reported feeling of power was confirmed by the replication.",
+      "palette": {
+        "bg": "#131211",
+        "ink": "#F3F0EA",
+        "accent": "#D97757",
+        "muted": "#89827A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "2010",
+          "text": "A one minute pose was said to change your hormones.",
+          "note": "Dana Carney, Amy Cuddy and Andy Yap reported higher testosterone and lower cortisol after a high power pose."
+        },
+        {
+          "kind": "figure",
+          "value": "42",
+          "unit": "people",
+          "context": "The final sample of the original study, after five exclusions."
+        },
+        {
+          "kind": "statement",
+          "lead": "2015",
+          "text": "A larger replication found no hormone effect.",
+          "note": "Ranehill and colleagues used 200 people, 98 women and 102 men, and held the poses for three minutes. Testosterone, cortisol and risk taking did not change significantly."
+        },
+        {
+          "kind": "statement",
+          "lead": "What survived",
+          "text": "People still said they felt more powerful.",
+          "note": "That self reported feeling was the one result the replication confirmed."
+        },
+        {
+          "kind": "credit",
+          "year": "2016",
+          "name": "Dana Carney",
+          "role": "The lead author of the 2010 study. She said she does not believe the power pose effects are real, and listed flaws including checking the result while running the study in batches."
+        },
+        {
+          "kind": "kicker",
+          "text": "The feeling held up. The hormone claim did not."
+        },
+        {
+          "kind": "sign",
+          "line": "A small study is a question, not an answer.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "nupedia-24-articles-wikipedia-side-project-2001",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nupedia (read): established that Nupedia went online on 9 March 2000 with Jimmy Wales as founder, funding from Bomis and Larry Sanger as editor in chief; that it used a seven step editorial process; that 24 articles completed review with about 150 in progress; that Wikipedia began in January 2001 as a side project; and that Nupedia's server crashed on 26 September 2003, given as its end date.",
+        "https://en.wikipedia.org/wiki/History_of_Wikipedia (read): established that Wikipedia began as a side project of Nupedia to allow collaboration before peer review, that the first edit was on 15 January 2001, that Sanger suggested the name Wikipedia on 11 January 2001, and that English Wikipedia reached 200,000 articles in January 2004."
+      ],
+      "verifiedNote": "Checked 15 Oct 2026. The two Wikipedia articles disagree on how many Nupedia articles were finished in its first year (21 against 12), so that number is not used. Not claimed: any Wikipedia article count for its first month or year, who first thought of using a wiki (the sources only say Sanger proposed it on the mailing list), or the reasons for Sanger's departure beyond the date.",
+      "palette": {
+        "bg": "#0F1214",
+        "ink": "#EEF1F2",
+        "accent": "#4FA3A5",
+        "muted": "#7C878B"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "March 2000",
+          "text": "The serious encyclopaedia launched first.",
+          "note": "Nupedia was founded by Jimmy Wales, funded by Bomis, with Larry Sanger as editor in chief and a seven step review process."
+        },
+        {
+          "kind": "figure",
+          "value": "24",
+          "unit": "articles",
+          "context": "Finished the whole review process by the end of Nupedia, with about 150 more in progress."
+        },
+        {
+          "kind": "credit",
+          "year": "2001",
+          "name": "Larry Sanger",
+          "role": "Proposed the wiki idea on the Nupedia mailing list and, on 11 January 2001, suggested the name Wikipedia."
+        },
+        {
+          "kind": "statement",
+          "lead": "15 January 2001",
+          "text": "The side project went live.",
+          "note": "It was meant to let articles be drafted together before entering Nupedia's peer review."
+        },
+        {
+          "kind": "statement",
+          "lead": "Then it flipped",
+          "text": "The side project outgrew the main one.",
+          "note": "English Wikipedia passed 200,000 articles in January 2004. Nupedia's server crashed on 26 September 2003, the date given as its end."
+        },
+        {
+          "kind": "kicker",
+          "text": "The careful project finished 24 articles. The side project did the rest."
+        },
+        {
+          "kind": "sign",
+          "line": "Wikipedia was the backup plan.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "nobel-merchant-of-death-obituary-unfound-1888",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://www.history.com/news/did-a-premature-obituary-inspire-the-nobel-prize (read): established the usual story (Ludvig Nobel died in France in 1888 and a French paper mistook it for Alfred's death, calling him a merchant of death), that historians have not found an original copy of that obituary, that some now treat it as a myth, that the Nobel Foundation suggests an 1868 award from the Royal Swedish Academy of Sciences as a possible origin of the science prizes, and that Nobel met Bertha von Suttner in 1876 and signed his will on 27 November 1895.",
+        "https://en.wikipedia.org/wiki/Alfred_Nobel (read): corroborated that Ludvig died in 1888, that the obituary story is described as supposedly causing newspapers to publish obituaries of Alfred in error and that historians have been unable to verify it, and that the will was signed on 27 November 1895 at the Swedish-Norwegian Club in Paris.",
+        "https://www.nobelprize.org/alfred-nobel/alfred-nobels-will/ (read): primary institutional source. Established that the third and final will was signed on 27 November 1895 at the Swedish-Norwegian Club in Paris, that it funds five prizes (physics, chemistry, physiology or medicine, literature and peace), and that the first prizes were awarded in 1901."
+      ],
+      "verifiedNote": "Checked 15 Oct 2026. The reel says the obituary has not been found, not that it never existed. Not claimed: the newspaper's name, the exact headline wording, any Le Figaro obituary dated April 1888 (one source mentions it, the other does not, so it is left out), the number of patents, the size of the estate, or that the obituary is the reason for the prizes.",
+      "palette": {
+        "bg": "#121110",
+        "ink": "#F4F1EA",
+        "accent": "#C9A24B",
+        "muted": "#8A847A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular story",
+          "text": "A newspaper called Alfred Nobel the merchant of death.",
+          "note": "In 1888 his brother Ludvig died in France, and a French paper is said to have mistaken it for Alfred's death."
+        },
+        {
+          "kind": "credit",
+          "year": "1888",
+          "name": "Ludvig Nobel",
+          "role": "Alfred's brother, who died in France that year. The death is the part of the story that is not in doubt."
+        },
+        {
+          "kind": "statement",
+          "lead": "The problem",
+          "text": "Nobody has found the obituary.",
+          "note": "Historians have not located an original copy, and some now treat the story as a myth."
+        },
+        {
+          "kind": "credit",
+          "year": "1895",
+          "name": "Alfred Nobel",
+          "role": "Signed his final will on 27 November at the Swedish-Norwegian Club in Paris, leaving his estate to fund five prizes."
+        },
+        {
+          "kind": "statement",
+          "lead": "So why the prizes?",
+          "text": "The motives are still debated.",
+          "note": "The Nobel Foundation points to an 1868 award from the Royal Swedish Academy of Sciences as a possible origin of the science prizes. The peace prize is often linked to his friendship with Bertha von Suttner."
+        },
+        {
+          "kind": "kicker",
+          "text": "The best known origin story is the one nobody can show you."
+        },
+        {
+          "kind": "sign",
+          "line": "The first prizes were awarded in 1901.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "dunning-kruger-65-students-no-mount-stupid-1999",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://www.gwern.net/doc/psychology/1999-kruger.pdf (read): the original 1999 paper by Kruger and Dunning. Established four studies on humour, logical reasoning and grammar; the abstract's 12th percentile actual against 62nd percentile self estimate for the bottom quartile; Study 1 with 65 Cornell undergraduates rating 30 jokes, where the bottom quartile (n = 16) scored at the 12th percentile and placed themselves at the 58th; and that the paper contains no Mount Stupid curve, its Figure 1 plotting perceived ability against actual score by quartile.",
+        "https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect (read): corroborated the 12th and 62nd percentile figures and the journal reference (Journal of Personality and Social Psychology, 77(6), 1121 to 1134), and established that a paper by Gignac and Zajenkowski is titled 'The Dunning-Kruger effect is (mostly) a statistical artefact', with regression to the mean part of the critique."
+      ],
+      "verifiedNote": "Checked 15 Oct 2026. Not claimed: the Ig Nobel Prize (could not confirm the citation from a primary page), the MacArthur Wheeler bank robbery story (not confirmed in the sources read), who first drew the Mount Stupid chart or when, or that the effect does not exist. The critique is reported as a published argument, not a settled result.",
+      "palette": {
+        "bg": "#11131A",
+        "ink": "#F1F3F8",
+        "accent": "#7C9CF5",
+        "muted": "#838896"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "The less you know, the more you overrate yourself.",
+          "note": "The 1999 paper by Justin Kruger and David Dunning ran four studies on humour, logical reasoning and grammar."
+        },
+        {
+          "kind": "figure",
+          "value": "65",
+          "unit": "students",
+          "context": "Cornell undergraduates rated 30 jokes in the first study."
+        },
+        {
+          "kind": "statement",
+          "lead": "The bottom quarter",
+          "text": "They scored at the 12th percentile.",
+          "note": "In the first study they placed themselves at the 58th. The abstract's summary across the paper puts it at the 62nd."
+        },
+        {
+          "kind": "statement",
+          "lead": "The famous chart",
+          "text": "The peak called Mount Stupid is not in the paper.",
+          "note": "Its Figure 1 plots perceived ability against actual test score, grouped by quartile."
+        },
+        {
+          "kind": "statement",
+          "lead": "Since then",
+          "text": "Some researchers call it mostly a statistical artefact.",
+          "note": "One paper by Gignac and Zajenkowski carries that title, and the critique leans on regression to the mean."
+        },
+        {
+          "kind": "kicker",
+          "text": "The data is in the paper. The mountain is not."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the chart against the paper.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
