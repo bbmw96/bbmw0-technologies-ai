@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (nobel-merchant-of-death-obituary-unfound-1888)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#121110",
+    "ink": "#F4F1EA",
+    "accent": "#C9A24B",
+    "muted": "#8A847A"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular story",
+      "text": "A newspaper called Alfred Nobel the merchant of death.",
+      "note": "In 1888 his brother Ludvig died in France, and a French paper is said to have mistaken it for Alfred's death.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1888",
+      "name": "Ludvig Nobel",
+      "role": "Alfred's brother, who died in France that year. The death is the part of the story that is not in doubt.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "statement",
+      "lead": "The problem",
+      "text": "Nobody has found the obituary.",
+      "note": "Historians have not located an original copy, and some now treat the story as a myth.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "credit",
+      "year": "1895",
+      "name": "Alfred Nobel",
+      "role": "Signed his final will on 27 November at the Swedish-Norwegian Club in Paris, leaving his estate to fund five prizes.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "So why the prizes?",
+      "text": "The motives are still debated.",
+      "note": "The Nobel Foundation points to an 1868 award from the Royal Swedish Academy of Sciences as a possible origin of the science prizes. The peace prize is often linked to his friendship with Bertha von Suttner.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The best known origin story is the one nobody can show you.",
+      "durationInFrames": 94
+    },
+    {
+      "kind": "sign",
+      "line": "The first prizes were awarded in 1901.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

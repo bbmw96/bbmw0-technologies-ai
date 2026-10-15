@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-10-15 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- ebbinghaus-forgetting-curve-one-subject-1885 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-15-ebbinghaus-forgetting-curve-one-subject-1885.mp4
+  uploaded public: https://youtu.be/N08ytP4Tzts
+
+--- nobel-merchant-of-death-obituary-unfound-1888 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-15-nobel-merchant-of-death-obituary-unfound-1888.mp4
+  uploaded public: https://youtu.be/CMsfGL_VSec
+
+--- nupedia-24-articles-wikipedia-side-project-2001 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-15-nupedia-24-articles-wikipedia-side-project-2001.mp4
+  uploaded public: https://youtu.be/hRC6FP2lat8
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

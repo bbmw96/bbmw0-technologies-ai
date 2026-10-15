@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (ebbinghaus-forgetting-curve-one-subject-1885)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#131211",
+    "ink": "#F3F0EA",
+    "accent": "#D97757",
+    "muted": "#89827A"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The forgetting curve",
+      "text": "It came from one man memorising nonsense.",
+      "note": "Hermann Ebbinghaus was the only subject in his own experiments, reported in 1885.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "credit",
+      "year": "1885",
+      "name": "Hermann Ebbinghaus",
+      "role": "Learned lists of meaningless syllables, then measured how much effort it took to relearn them later.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "figure",
+      "value": "104",
+      "unit": "syllables",
+      "context": "In each list of the 2015 replication, set out in rows of 13.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "statement",
+      "lead": "Then someone repeated it",
+      "text": "On himself.",
+      "note": "At the University of Amsterdam, Joeri Dros, a 22 year old, was the only subject. It took about 70 hours.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "The result",
+      "text": "The curve held up.",
+      "note": "It closely matched Ebbinghaus's data. Only the 31 day score came out much lower.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "statement",
+      "lead": "One twist",
+      "text": "Memory rose after a day.",
+      "note": "The authors saw a likely jump from the 24 hour point, which sleep research would predict. The paper does not prove sleep caused it.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "kicker",
+      "text": "Two men, 130 years apart, one curve.",
+      "durationInFrames": 64
+    },
+    {
+      "kind": "sign",
+      "line": "The most cited memory graph began with a single volunteer.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 106
+    }
+  ],
+  "cta": "Subscribe for more."
+}
