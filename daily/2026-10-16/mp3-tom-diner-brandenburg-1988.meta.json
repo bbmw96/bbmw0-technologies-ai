@@ -1,0 +1,25 @@
+{
+  "slug": "mp3-tom-diner-brandenburg-1988",
+  "date": "2026-10-16",
+  "title": "One song broke the early MP3 tests.",
+  "description": "One song broke the early MP3 tests. Everything else sounded fine. Suzanne Vega's voice was destroyed.\n\nWrote Tom's Diner as an a cappella song, so the track is one unaccompanied voice.\n\nA warm, bare voice looked close to impossible to compress. Karlheinz Brandenburg picked it for that reason, and compared the track before and after compression.\n\nBrandenburg says he played the song more than 500 times while developing the technology that became the MP3.\n\nAudiophiles used it to check speakers. That began after the 1987 album Solitude Standing.\n\nA folk song taught a codec to hear.\n\nSources:\n- https://www.npr.org/sections/therecord/2011/03/18/134598010/for-better-or-worse-mp3s-are-the-format-of-choice (read): established that in 1988 Karlheinz Brandenburg and colleagues at the Fraunhofer Institute thought their compression worked until they tested Suzanne Vega's Tom's Diner; that everything else sounded OK but her voice was destroyed; and that he listened to the song more than 500 times during development.\n- https://www.mentalfloss.com/article/19727/how-toms-diner-tuned-mp3 (read): established that Vega wrote Tom's Diner in 1982 as an a cappella song; that Brandenburg chose the a cappella track because he expected a warm unaccompanied voice to be very hard to compress; that audiophiles already used the track to test speakers after the 1987 album; and that Vega is called the Mother of the MP3.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-10-16-mp3-tom-diner-brandenburg-1988.mp4",
+  "propsFile": "daily/2026-10-16/mp3-tom-diner-brandenburg-1988.props.json",
+  "durationInFrames": 898,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

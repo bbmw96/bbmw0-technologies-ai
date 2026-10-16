@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (skype-estonian-engineers-kazaa-retired-2025)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#11131A",
+    "ink": "#F1F3F8",
+    "accent": "#7C9CF5",
+    "muted": "#838896"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "Skype was a Microsoft product.",
+      "note": "It launched in 2003, from Niklas Zennstrom and Janus Friis. Microsoft bought it in 2011.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "credit",
+      "year": "2003",
+      "name": "Heinla, Kasesalu, Tallinn and Annus",
+      "role": "The Estonian developers credited with creating the software. The first public beta came out on 29 August.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "The trick",
+      "text": "It copied the peer to peer design of Kazaa.",
+      "note": "Friis and Annus are credited with proposing it as a way to cut the cost of voice calls.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "figure",
+      "value": "170",
+      "unit": "million",
+      "context": "Connected users Microsoft cited for 2010, in the release announcing an $8.5 billion cash deal.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "statement",
+      "lead": "The end",
+      "text": "Microsoft retired Skype on 5 May 2025.",
+      "note": "Users moved to the free version of Teams. Skype's user base had fallen to about 36 million by 2023.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "kicker",
+      "text": "Four Estonians built it. A blog post ended it.",
+      "durationInFrames": 76
+    },
+    {
+      "kind": "sign",
+      "line": "Even giants get switched off.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

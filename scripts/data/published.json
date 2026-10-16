@@ -319,7 +319,10 @@
     "reel:heartbleed-missing-length-check-2014",
     "reel:nupedia-24-articles-wikipedia-side-project-2001",
     "reel:ebbinghaus-forgetting-curve-one-subject-1885",
-    "reel:nobel-merchant-of-death-obituary-unfound-1888"
+    "reel:nobel-merchant-of-death-obituary-unfound-1888",
+    "reel:power-pose-42-people-carney-2010",
+    "reel:mp3-tom-diner-brandenburg-1988",
+    "reel:skype-estonian-engineers-kazaa-retired-2025"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -5590,6 +5593,57 @@
       "youtubeId": "CMsfGL_VSec",
       "youtubeUrl": "https://youtu.be/CMsfGL_VSec",
       "uploadedAt": "2026-10-15T13:53:13.031Z",
+      "privacy": "public"
+    },
+    {
+      "id": "power-pose-42-people-carney-2010",
+      "date": "2026-10-16",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "A one minute pose was said to change your hormones.",
+      "description": "A one minute pose was said to change your hormones. Dana Carney, Amy Cuddy and Andy Yap reported higher testosterone and lower cortisol after a high power pose.\n\nThe final sample of the original study, after five exclusions.\n\nA larger replication found no hormone effect. Ranehill and colleagues used 200 people, 98 women and 102 men, and held the poses for three minutes. Testosterone, cortisol and risk taking did not change significantly.\n\nPeople still said they felt more powerful. That self reported feeling was the one result the replication confirmed.\n\nThe lead author of the 2010 study. She said she does not believe the power pose effects are real, and listed flaws including checking the result while running the study in batches.\n\nThe feeling held up. The hormone claim did not.\n\nSources:\n- https://en.wikipedia.org/wiki/Power_posing (read): established that Carney, Cuddy and Yap published the original study in Psychological Science in 2010 with 42 participants, reporting higher testosterone and lower cortisol; that the 2015 Ranehill replication used a larger sample and confirmed felt power but found no physiological or behavioural effects; and that Carney publicly stated she does not believe the effects are real.\n- http://faculty.haas.berkeley.edu/dana_carney/pdf_My%20position%20on%20power%20poses.pdf (read): Carney's own statement. Established that the final sample was N = 42 after 5 exclusions, that subjects were run in batches while the effect was checked, and that she says she does not believe the power pose effects are real.\n- https://www.zne.uzh.ch/dam/jcr:e5fc4c3c-d50e-4aa9-96ab-4389e426d20d/Psychological%20Science-2015-Ranehill-0956797614553946.pdf (read): the replication paper. Established N = 200 (98 women, 102 men), poses held for 3 minutes where the original used 1, a significant effect on self reported feelings of power, and no significant effect on testosterone, cortisol or risk taking.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "jnKsWCi3DkQ",
+      "youtubeUrl": "https://youtu.be/jnKsWCi3DkQ",
+      "uploadedAt": "2026-10-16T13:42:47.393Z",
+      "privacy": "public"
+    },
+    {
+      "id": "mp3-tom-diner-brandenburg-1988",
+      "date": "2026-10-16",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "One song broke the early MP3 tests.",
+      "description": "One song broke the early MP3 tests. Everything else sounded fine. Suzanne Vega's voice was destroyed.\n\nWrote Tom's Diner as an a cappella song, so the track is one unaccompanied voice.\n\nA warm, bare voice looked close to impossible to compress. Karlheinz Brandenburg picked it for that reason, and compared the track before and after compression.\n\nBrandenburg says he played the song more than 500 times while developing the technology that became the MP3.\n\nAudiophiles used it to check speakers. That began after the 1987 album Solitude Standing.\n\nA folk song taught a codec to hear.\n\nSources:\n- https://www.npr.org/sections/therecord/2011/03/18/134598010/for-better-or-worse-mp3s-are-the-format-of-choice (read): established that in 1988 Karlheinz Brandenburg and colleagues at the Fraunhofer Institute thought their compression worked until they tested Suzanne Vega's Tom's Diner; that everything else sounded OK but her voice was destroyed; and that he listened to the song more than 500 times during development.\n- https://www.mentalfloss.com/article/19727/how-toms-diner-tuned-mp3 (read): established that Vega wrote Tom's Diner in 1982 as an a cappella song; that Brandenburg chose the a cappella track because he expected a warm unaccompanied voice to be very hard to compress; that audiophiles already used the track to test speakers after the 1987 album; and that Vega is called the Mother of the MP3.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "gefnNk3xyDA",
+      "youtubeUrl": "https://youtu.be/gefnNk3xyDA",
+      "uploadedAt": "2026-10-16T13:40:57.997Z",
+      "privacy": "public"
+    },
+    {
+      "id": "skype-estonian-engineers-kazaa-retired-2025",
+      "date": "2026-10-16",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The popular version. Skype was a Microsoft product.",
+      "description": "Skype was a Microsoft product. It launched in 2003, from Niklas Zennstrom and Janus Friis. Microsoft bought it in 2011.\n\nThe Estonian developers credited with creating the software. The first public beta came out on 29 August.\n\nIt copied the peer to peer design of Kazaa. Friis and Annus are credited with proposing it as a way to cut the cost of voice calls.\n\nConnected users Microsoft cited for 2010, in the release announcing an $8.5 billion cash deal.\n\nMicrosoft retired Skype on 5 May 2025. Users moved to the free version of Teams. Skype's user base had fallen to about 36 million by 2023.\n\nFour Estonians built it. A blog post ended it.\n\nSources:\n- https://en.wikipedia.org/wiki/Skype (read): founded 2003 by Niklas Zennstrom and Janus Friis; software credited to Estonian developers Ahti Heinla, Priit Kasesalu, Jaan Tallinn and Toivo Annus; Friis and Annus credited with proposing a Kazaa style peer to peer design to cut voice call costs; first public beta 29 August 2003; Microsoft deal announced 10 May 2011; retired 5 May 2025; about 36 million daily users in February 2023.\n- https://www.sec.gov/Archives/edgar/data/0000789019/000119312511134416/dex991.htm (read): Microsoft's press release, 10 May 2011: $8.5 billion in cash, and \"170 million connected users and over 207 billion minutes of voice and video conversations in 2010\".\n- https://www.techrepublic.com/article/microsoft-skype-shutting-down/ (read): Microsoft confirmed the retirement in a blog post on 28 February, Skype closes on 5 May 2025, users move to Teams Free, and the user base had dwindled to 36 million by 2023.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "hbmcv1i4KAw",
+      "youtubeUrl": "https://youtu.be/hbmcv1i4KAw",
+      "uploadedAt": "2026-10-16T13:44:31.931Z",
       "privacy": "public"
     }
   ]

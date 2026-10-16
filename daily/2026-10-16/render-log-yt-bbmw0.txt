@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-10-16 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- mp3-tom-diner-brandenburg-1988 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-16-mp3-tom-diner-brandenburg-1988.mp4
+  uploaded public: https://youtu.be/gefnNk3xyDA
+
+--- power-pose-42-people-carney-2010 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-16-power-pose-42-people-carney-2010.mp4
+  uploaded public: https://youtu.be/jnKsWCi3DkQ
+
+--- skype-estonian-engineers-kazaa-retired-2025 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-16-skype-estonian-engineers-kazaa-retired-2025.mp4
+  uploaded public: https://youtu.be/hbmcv1i4KAw
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

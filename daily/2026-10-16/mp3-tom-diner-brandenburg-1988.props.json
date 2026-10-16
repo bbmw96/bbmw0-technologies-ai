@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (mp3-tom-diner-brandenburg-1988)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0E1116",
+    "ink": "#F2F4F3",
+    "accent": "#4ADE80",
+    "muted": "#7C8794"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Fraunhofer, 1988",
+      "text": "One song broke the early MP3 tests.",
+      "note": "Everything else sounded fine. Suzanne Vega's voice was destroyed.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "credit",
+      "year": "1982",
+      "name": "Suzanne Vega",
+      "role": "Wrote Tom's Diner as an a cappella song, so the track is one unaccompanied voice.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "statement",
+      "lead": "Why it was hard",
+      "text": "A warm, bare voice looked close to impossible to compress.",
+      "note": "Karlheinz Brandenburg picked it for that reason, and compared the track before and after compression.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "figure",
+      "value": "500",
+      "unit": "listens",
+      "context": "Brandenburg says he played the song more than 500 times while developing the technology that became the MP3.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "statement",
+      "lead": "Already a test track",
+      "text": "Audiophiles used it to check speakers.",
+      "note": "That began after the 1987 album Solitude Standing.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "kicker",
+      "text": "A folk song taught a codec to hear.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Vega is now called the Mother of the MP3.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}

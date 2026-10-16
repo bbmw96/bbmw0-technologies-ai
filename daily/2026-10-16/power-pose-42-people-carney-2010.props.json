@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (power-pose-42-people-carney-2010)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#131211",
+    "ink": "#F3F0EA",
+    "accent": "#D97757",
+    "muted": "#89827A"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "2010",
+      "text": "A one minute pose was said to change your hormones.",
+      "note": "Dana Carney, Amy Cuddy and Andy Yap reported higher testosterone and lower cortisol after a high power pose.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "figure",
+      "value": "42",
+      "unit": "people",
+      "context": "The final sample of the original study, after five exclusions.",
+      "durationInFrames": 94
+    },
+    {
+      "kind": "statement",
+      "lead": "2015",
+      "text": "A larger replication found no hormone effect.",
+      "note": "Ranehill and colleagues used 200 people, 98 women and 102 men, and held the poses for three minutes. Testosterone, cortisol and risk taking did not change significantly.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "What survived",
+      "text": "People still said they felt more powerful.",
+      "note": "That self reported feeling was the one result the replication confirmed.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "credit",
+      "year": "2016",
+      "name": "Dana Carney",
+      "role": "The lead author of the 2010 study. She said she does not believe the power pose effects are real, and listed flaws including checking the result while running the study in batches.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The feeling held up. The hormone claim did not.",
+      "durationInFrames": 76
+    },
+    {
+      "kind": "sign",
+      "line": "A small study is a question, not an answer.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}
