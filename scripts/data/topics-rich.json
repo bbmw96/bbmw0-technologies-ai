@@ -14656,6 +14656,238 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "rfc-1149-pigeon-ping-bergen-2001",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://www.rfc-editor.org/rfc/rfc1149 (read): RFC 1149 by D. Waitzman of BBN, dated 1 April 1990; datagram printed in hexadecimal on a small paper scroll wrapped around a carrier's leg and secured with duct tape; \"A typical MTU is 256 milligrams.\"",
+        "http://www.blug.linux.no/rfc1149/writeup/ (read): the Bergen Linux User Group write-up of the test on Saturday 28 April 2001 in Norway; packets carried on pigeons' legs, read back with the gocr OCR tool; four valid ping replies with times from 3,211 to 6,389 seconds; a neighbour's flock distracted the pigeons for about an hour; an open cage at the far end let pigeons out without packets; the team declared it a success.",
+        "https://en.wikipedia.org/wiki/IP_over_Avian_Carriers (read): the run used ping -c 9, so nine requests; four received; 55 per cent loss; slowest round trip 6388671.9 ms."
+      ],
+      "verifiedNote": "Checked 16 Oct 2026. The nine pings sent and the 55 per cent loss rest on the Wikipedia summary and its ping command, not on the BLUG write-up, which does not state the count. Not claimed: the number of pigeons used and the distance between sites (the write-up gives neither; Wikipedia's 5 km is marked citation needed), and any detail of RFC 2549 (date not confirmed from a page read). The RFC page lists the status as Experimental, so the beat says only that it is a joke standard dated 1 April.",
+      "palette": {
+        "bg": "#11131A",
+        "ink": "#F1F3F8",
+        "accent": "#7C9CF5",
+        "muted": "#838896"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "A real standard",
+          "text": "Someone wrote the rules for sending internet traffic by pigeon.",
+          "note": "RFC 1149, by David Waitzman of BBN, dated 1 April 1990. The datagram is printed in hexadecimal on a paper scroll and wrapped round a leg with duct tape."
+        },
+        {
+          "kind": "statement",
+          "lead": "The specification",
+          "text": "A typical MTU is 256 milligrams.",
+          "note": "That is the RFC's own wording for the maximum size of a packet."
+        },
+        {
+          "kind": "credit",
+          "year": "2001",
+          "name": "Bergen Linux User Group",
+          "role": "Ran it for real in Norway on 28 April, with ping packets on pigeons' legs. They read the replies back with OCR software."
+        },
+        {
+          "kind": "figure",
+          "value": "55",
+          "unit": "% lost",
+          "context": "Nine pings went out and four replies came back. The slowest round trip took 6,389 seconds."
+        },
+        {
+          "kind": "statement",
+          "lead": "What went wrong",
+          "text": "A neighbour's flock distracted theirs.",
+          "note": "Their pigeons stayed to fly with the others for about an hour, and an open cage at the far end let more escape."
+        },
+        {
+          "kind": "kicker",
+          "text": "The team still called it a success."
+        },
+        {
+          "kind": "sign",
+          "line": "Packet loss has a flight path.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "youtube-dating-line-tsunami-idea-2005",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://commencement.illinois.edu/wp-content/uploads/2019/10/JawedKarimCommencementAddress.pdf (read): Jawed Karim's own commencement address. Quotes: \"To generate interest we just said it was a new kind of dating site\"; the slogan \"Tune in , Hook up\"; they spammed Craigslist in Los Angeles and Las Vegas offering twenty dollars for every video uploaded; he filled the site with videos of 747s; \"By June we had completely revamped the website, making it more open, and more general\"; the December 2004 Indian Ocean tsunami and no good way to find the clips; by February 2005 he and two PayPal colleagues were discussing a video sharing website.",
+        "https://vice.com/en/article/10-years-ago-today-youtube-launched-as-a-dating-website (read): Vice, 23 April 2015, describes the dating origin as rumoured and passed off as fact in books, and relies on Karim's account; used only to confirm the speech is the source of the story and the twenty dollar figure.",
+        "https://en.wikipedia.org/wiki/History_of_YouTube (read): founders Chad Hurley, Steve Chen and Jawed Karim; site activated 14 February 2005."
+      ],
+      "verifiedNote": "Checked 16 Oct 2026. Not claimed: the Janet Jackson Super Bowl story (Karim's speech does not mention it, and the Wikipedia page gives no year or direct quote), the $100 a month server cost and the claim that no one accepted the twenty dollar offer (both appear only in secondary coverage, and Vice's own text mixed up the figures), and the Google price. The beat says Karim said the dating line was used to generate interest, which is his wording; it does not claim the founders never intended a dating service, only that he described it as a pitch line.",
+      "palette": {
+        "bg": "#11131A",
+        "ink": "#F1F3F8",
+        "accent": "#7C9CF5",
+        "muted": "#838896"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "YouTube started as a dating site.",
+          "note": "The source is co-founder Jawed Karim himself, in a 2007 commencement speech at the University of Illinois."
+        },
+        {
+          "kind": "statement",
+          "lead": "Read the wording",
+          "text": "He said they called it that to generate interest.",
+          "note": "His words: \"To generate interest we just said it was a new kind of dating site.\" The slogan was \"Tune in, Hook up.\""
+        },
+        {
+          "kind": "credit",
+          "year": "2004",
+          "name": "The Indian Ocean tsunami",
+          "role": "Karim said there was no good way to find video clips of it online. By February 2005 he and two PayPal colleagues were discussing a video sharing website."
+        },
+        {
+          "kind": "figure",
+          "value": "20",
+          "unit": "dollars",
+          "context": "What they offered women for every video uploaded, in Craigslist posts in Los Angeles and Las Vegas."
+        },
+        {
+          "kind": "statement",
+          "lead": "Few people came",
+          "text": "So Karim filled it with videos of 747s.",
+          "note": "By June the site was revamped to be more open and more general."
+        },
+        {
+          "kind": "kicker",
+          "text": "The dating line was the pitch. The idea was video."
+        },
+        {
+          "kind": "sign",
+          "line": "Read the speech, not the summary.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "google-maps-desktop-program-where2-2004",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Google_Maps (read): Google Maps began as a C++ desktop program at Where 2 Technologies, a Sydney company founded in early 2003; Google acquired the company in October 2004; Keyhole was bought the same month, its Earth Viewer became Google Earth in 2005 and some technology went into Maps; launch announced on the Google Blog on 8 February 2005.",
+        "https://www.historyofinformation.com/detail.php?id=3806 (read): Maps originated in a C++ program designed by Lars and Jens Rasmussen of Where 2 Technologies in Sydney, designed to be separately downloaded, and pitched to Google as web based; Keyhole bought October 2004.",
+        "https://itwire.com/your-it-news/home-it/how-yahoo-helped-create-google-maps (read): Lars Rasmussen's account at the Warren Centre 2009 Innovation Lecture; Larry Page suggested a browser version rather than a desktop application, and the team rewrote it in HTML and JavaScript, the approach later called AJAX."
+      ],
+      "verifiedNote": "Checked 16 Oct 2026. Not claimed: that the Rasmussens are brothers (Wikipedia says so, the other two pages do not), the ZipDash purchase date (its reference is dated 2005, so uncertain), and any user numbers. The Page suggestion is reported as Lars Rasmussen's own account from a 2009 lecture, as relayed by iTWire, not as independently confirmed.",
+      "palette": {
+        "bg": "#11131A",
+        "ink": "#F1F3F8",
+        "accent": "#7C9CF5",
+        "muted": "#838896"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "Google built Maps from scratch.",
+          "note": "It began as a C++ desktop program made by Where 2 Technologies, a small Sydney company founded in early 2003."
+        },
+        {
+          "kind": "credit",
+          "year": "2004",
+          "name": "Lars and Jens Rasmussen",
+          "role": "Designed that program, meant to be downloaded and installed separately. Google bought their company in October."
+        },
+        {
+          "kind": "statement",
+          "lead": "The change",
+          "text": "Larry Page suggested a version for the browser.",
+          "note": "In Lars Rasmussen's account, the team rewrote it in HTML and JavaScript, the approach later called AJAX."
+        },
+        {
+          "kind": "statement",
+          "lead": "Same month",
+          "text": "Google also bought Keyhole.",
+          "note": "Its Earth Viewer became Google Earth in 2005, and some of its technology went into Maps."
+        },
+        {
+          "kind": "statement",
+          "lead": "The launch",
+          "text": "Google announced Maps on its blog on 8 February 2005.",
+          "note": "About four months after buying the company."
+        },
+        {
+          "kind": "kicker",
+          "text": "Maps was an install that became a web page."
+        },
+        {
+          "kind": "sign",
+          "line": "Most big products start small.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "skype-estonian-engineers-kazaa-retired-2025",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Skype (read): founded 2003 by Niklas Zennstrom and Janus Friis; software credited to Estonian developers Ahti Heinla, Priit Kasesalu, Jaan Tallinn and Toivo Annus; Friis and Annus credited with proposing a Kazaa style peer to peer design to cut voice call costs; first public beta 29 August 2003; Microsoft deal announced 10 May 2011; retired 5 May 2025; about 36 million daily users in February 2023.",
+        "https://www.sec.gov/Archives/edgar/data/0000789019/000119312511134416/dex991.htm (read): Microsoft's press release, 10 May 2011: $8.5 billion in cash, and \"170 million connected users and over 207 billion minutes of voice and video conversations in 2010\".",
+        "https://www.techrepublic.com/article/microsoft-skype-shutting-down/ (read): Microsoft confirmed the retirement in a blog post on 28 February, Skype closes on 5 May 2025, users move to Teams Free, and the user base had dwindled to 36 million by 2023."
+      ],
+      "verifiedNote": "Checked 16 Oct 2026. Not claimed: the eBay purchase price (Wikipedia gives US$2.5 billion in the body and US$2.6 billion in the lead), the 2009 sale valuation (two different figures on the same page), and the 2013 peak of 50 million concurrent users, which was not checked elsewhere. The Kazaa design credit is Wikipedia's wording (\"credited with proposing\") and is reported that way.",
+      "palette": {
+        "bg": "#11131A",
+        "ink": "#F1F3F8",
+        "accent": "#7C9CF5",
+        "muted": "#838896"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "Skype was a Microsoft product.",
+          "note": "It launched in 2003, from Niklas Zennstrom and Janus Friis. Microsoft bought it in 2011."
+        },
+        {
+          "kind": "credit",
+          "year": "2003",
+          "name": "Heinla, Kasesalu, Tallinn and Annus",
+          "role": "The Estonian developers credited with creating the software. The first public beta came out on 29 August."
+        },
+        {
+          "kind": "statement",
+          "lead": "The trick",
+          "text": "It copied the peer to peer design of Kazaa.",
+          "note": "Friis and Annus are credited with proposing it as a way to cut the cost of voice calls."
+        },
+        {
+          "kind": "figure",
+          "value": "170",
+          "unit": "million",
+          "context": "Connected users Microsoft cited for 2010, in the release announcing an $8.5 billion cash deal."
+        },
+        {
+          "kind": "statement",
+          "lead": "The end",
+          "text": "Microsoft retired Skype on 5 May 2025.",
+          "note": "Users moved to the free version of Teams. Skype's user base had fallen to about 36 million by 2023."
+        },
+        {
+          "kind": "kicker",
+          "text": "Four Estonians built it. A blog post ended it."
+        },
+        {
+          "kind": "sign",
+          "line": "Even giants get switched off.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
