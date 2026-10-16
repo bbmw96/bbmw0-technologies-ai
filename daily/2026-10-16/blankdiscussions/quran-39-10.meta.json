@@ -1,0 +1,39 @@
+{
+  "slug": "quran-39-10",
+  "date": "2026-10-16",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "\"Say: O My servants who have believed, fear your Lord.\" The patient will be given their reward without account.\n\nSurah Az-Zumar (39:10). Swipe through for the Arabic, then English, Mandarin, Korean, Japanese, Malay, Thai and Spanish.\n\nSources on the final slide.\n\n#Quran #Sabr #IslamicReminder #Deen #Guidance",
+  "tags": [
+    "Quran",
+    "Sabr",
+    "Guidance",
+    "Deen"
+  ],
+  "theme": "cocoa-teal",
+  "slides": [
+    "quran-39-10.slide-01.json",
+    "quran-39-10.slide-02.json",
+    "quran-39-10.slide-03.json",
+    "quran-39-10.slide-04.json",
+    "quran-39-10.slide-05.json",
+    "quran-39-10.slide-06.json",
+    "quran-39-10.slide-07.json",
+    "quran-39-10.slide-08.json",
+    "quran-39-10.slide-09.json",
+    "quran-39-10.slide-10.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an 39:10, Surah Az-Zumar. Not used by any prior blankdiscussions post (checked against all existing meta.json slugs; 39:53 is a different verse). Standing 8-language/10-slide format.",
+    "arabic": "Edition quran-uthmani, live call https://api.alquran.cloud/v1/ayah/39:10/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese,ms.basmeih,th.thai,es.cortes (HTTP 200, fetched 2026-10-16); fetched twice in the same script and the two responses diffed byte-identical; slide text written programmatically from the raw API fields, no retyping.",
+    "other_editions": "en.sahih (Saheeh International), zh.jian (Ma Jian), ms.basmeih (Abdullah Muhammad Basmeih), th.thai (King Fahad Quran Complex), es.cortes (Julio Cortes): same call, byte-identical. ko.korean and ja.japanese: translator listed as unknown by source; slide says 'Translator not specified by source'.",
+    "source_artifact_note": "Artifact scan (double spaces, space before punctuation, leading/trailing whitespace, control chars) found none in any edition. Slide text byte-identical to the API. Source-side spacing quirks in the Korean edition (e.g. '나 의', '하 는' style word splits) and Spanish edition spelling 'recibierán' are reproduced as-is, not edited.",
+    "verification_note": "Live fetch performed this session (2026-10-16) in the same script that wrote the slide files; two fetches diffed identical. No wording from memory.",
+    "compliance_check": "Checked manually against 83 string terms flattened from compliance-policy.json halal.prohibited across all edition text (word-boundary match): 0 hits."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide daily/2026-10-16/blankdiscussions/renders/quran-39-10-slide-NN.jpg --image-format=jpeg --jpeg-quality=92 --props=daily/2026-10-16/blankdiscussions/quran-39-10.slide-NN.json",
+  "status": "sourced",
+  "theme_note": "THEME_ORDER exhausted; new theme cocoa-teal added."
+}
