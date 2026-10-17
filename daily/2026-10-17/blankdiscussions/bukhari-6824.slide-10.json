@@ -1,0 +1,15 @@
+{
+  "theme": "chaste-41",
+  "kind": "citation",
+  "lines": [
+    "Sahih al-Bukhari 6824 (Book 86, Hadith 52)",
+    "Narrated by Ibn `Abbas",
+    "Arabic & English: hadith-api (cdn.jsdelivr.net/gh/fawazahmed0/hadith-api)",
+    "Collection: Sahih al-Bukhari (no grade supplied by hadith-api)",
+    "Chinese, Korean, Japanese, Malay, Thai, Spanish:",
+    "Claude's own translation from the verified Arabic and English"
+  ],
+  "handle": "@blankdiscussions",
+  "slideNumber": 10,
+  "slideTotal": 10
+}

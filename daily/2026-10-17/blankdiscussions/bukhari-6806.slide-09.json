@@ -1,0 +1,10 @@
+{
+  "theme": "chaste-32",
+  "kind": "text",
+  "lang": "es",
+  "text": "Relató Abu Huraira: El Profeta (ﷺ) dijo: «Siete personas serán cobijadas por Allah bajo Su sombra el Día de la Resurrección, cuando no haya más sombra que la Suya: un gobernante justo; un joven criado en la adoración de Allah; un hombre que recuerda a Allah en soledad y sus ojos se inundan de lágrimas; un hombre cuyo corazón está unido a las mezquitas; dos hombres que se aman por Allah; un hombre a quien una mujer de noble cuna y belleza invita a cometer zina con ella, y dice: “Temo a Allah”; y un hombre que da caridad tan en secreto que su mano izquierda no sabe lo que dio la derecha».",
+  "note": "Claude's own translation (hadith-api has no Spanish edition)",
+  "fontScale": 0.85,
+  "slideNumber": 9,
+  "slideTotal": 10
+}

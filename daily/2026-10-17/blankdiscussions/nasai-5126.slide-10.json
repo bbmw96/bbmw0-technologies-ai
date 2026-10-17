@@ -1,0 +1,15 @@
+{
+  "theme": "chaste-34",
+  "kind": "citation",
+  "lines": [
+    "Sunan an-Nasa'i 5126 (Book 48, Hadith 87)",
+    "Narrator: see source",
+    "Arabic & English: hadith-api (cdn.jsdelivr.net/gh/fawazahmed0/hadith-api)",
+    "Grade per hadith-api: Hasan (Abu Ghuddah); Hasan (Al-Albani); Isnaad Hasan (Zubair Ali Zai)",
+    "Chinese, Korean, Japanese, Malay, Thai, Spanish:",
+    "Claude's own translation from the verified Arabic and English"
+  ],
+  "handle": "@blankdiscussions",
+  "slideNumber": 10,
+  "slideTotal": 10
+}

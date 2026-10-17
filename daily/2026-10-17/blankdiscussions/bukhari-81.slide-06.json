@@ -1,0 +1,10 @@
+{
+  "theme": "chaste-51",
+  "kind": "text",
+  "lang": "ja",
+  "text": "アナスが伝える。私はあなた方に一つのハディースを伝えよう。私の後には、誰もそれをあなた方に伝えないだろう。私はアッラーの使徒（ﷺ）が言われるのを聞いた。「終末の時の兆しには次のものがある。一、宗教的知識が減る（学者の死によって）。二、無知がはびこる。三、公然の姦通が蔓延する。四、女性が増え男性が減り、ついには五十人の女性を一人の男性が世話するまでになる。」",
+  "note": "Claude's own translation (hadith-api has no Japanese edition)",
+  "fontScale": 0.95,
+  "slideNumber": 6,
+  "slideTotal": 10
+}

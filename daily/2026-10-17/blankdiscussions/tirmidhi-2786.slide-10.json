@@ -1,0 +1,15 @@
+{
+  "theme": "chaste-33",
+  "kind": "citation",
+  "lines": [
+    "Jami` at-Tirmidhi 2786 (Book 43, Hadith 58)",
+    "Narrated by Abu Musa",
+    "Arabic & English: hadith-api (cdn.jsdelivr.net/gh/fawazahmed0/hadith-api)",
+    "Grade per hadith-api: Hasan (Ahmad Muhammad Shakir); Hasan (Al-Albani); Hasan Sahih (Bashar Awad Maarouf); Isnaad Hasan (Zubair Ali Zai)",
+    "Chinese, Korean, Japanese, Malay, Thai, Spanish:",
+    "Claude's own translation from the verified Arabic and English"
+  ],
+  "handle": "@blankdiscussions",
+  "slideNumber": 10,
+  "slideTotal": 10
+}

@@ -1,0 +1,15 @@
+{
+  "theme": "chaste-50",
+  "kind": "citation",
+  "lines": [
+    "Sahih Muslim 4012 (Book 22, Hadith 51)",
+    "Narrated by Rafi b. Khadij",
+    "Arabic & English: hadith-api (cdn.jsdelivr.net/gh/fawazahmed0/hadith-api)",
+    "Collection: Sahih Muslim (no grade supplied by hadith-api)",
+    "Chinese, Korean, Japanese, Malay, Thai, Spanish:",
+    "Claude's own translation from the verified Arabic and English"
+  ],
+  "handle": "@blankdiscussions",
+  "slideNumber": 10,
+  "slideTotal": 10
+}

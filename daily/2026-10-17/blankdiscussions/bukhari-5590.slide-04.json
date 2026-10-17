@@ -1,0 +1,10 @@
+{
+  "theme": "chaste-52",
+  "kind": "text",
+  "lang": "zh",
+  "text": "艾卜·阿米尔或艾卜·马立克·艾什阿里传述：他听见先知（ﷺ）说：“我的信众中将有一些人，把通奸、丝绸、酒和乐器视为合法。又有一些人将住在山边，傍晚牧人赶着他们的羊群回来，向他们讨点东西，他们却说：‘明天再来吧。’安拉会在夜间毁灭他们，使山塌在他们身上，并把其余的人变成猴子和猪，直到复活日。”",
+  "note": "Claude's own translation (hadith-api has no Chinese edition)",
+  "fontScale": 0.9,
+  "slideNumber": 4,
+  "slideTotal": 10
+}

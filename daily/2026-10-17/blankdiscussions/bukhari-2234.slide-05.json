@@ -1,0 +1,9 @@
+{
+  "theme": "chaste-40",
+  "kind": "text",
+  "lang": "ko",
+  "text": "아부 후라이라가 전하길: 나는 예언자(ﷺ)께서 이렇게 말씀하시는 것을 들었다. “너희의 여종이 간음을 저지르고 그 간음이 입증되면 그녀를 채찍질하되, 그 뒤로는 아무도 그녀를 비난해서는 안 된다. 두 번째로 간음하면 다시 채찍질하고 그 뒤로 아무도 비난해서는 안 된다. 세 번째로 간음을 저지르고 그것이 입증되면 털로 꼰 밧줄 한 가닥에라도 그녀를 팔아야 한다.”",
+  "note": "Claude's own translation (hadith-api has no Korean edition)",
+  "slideNumber": 5,
+  "slideTotal": 10
+}

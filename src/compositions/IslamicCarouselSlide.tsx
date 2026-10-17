@@ -28,7 +28,7 @@
 // same stack has the same coverage there.
 import React from "react";
 
-export type ThemeKey = "emerald-gold" | "midnight-silver" | "terracotta-cream" | "plum-rose" | "indigo-saffron" | "sapphire-pearl" | "garnet-amber" | "obsidian-jade" | "ivory-cobalt" | "charcoal-copper" | "amber-slate" | "rosewood-mint" | "azure-sand" | "crimson-pewter" | "olive-gold" | "violet-ash" | "teal-bronze" | "maroon-linen" | "cobalt-ember" | "forest-blush" | "onyx-turquoise" | "clay-frost" | "basalt-marigold" | "linen-periwinkle" | "umber-mauve" | "aubergine-citrine" | "byzantium-sage" | "chalk-vermilion" | "cerulean-honey" | "slate-copper" | "steel-blossom" | "pine-lavender" | "walnut-aqua" | "ink-saffron-rose" | "mulberry-seafoam" | "denim-peach" | "sandstone-navy" | "celadon-plum" | "lilac-pine" | "mist-garnet" | "ocean-coral" | "graphite-lemon" | "espresso-sky" | "navy-lime" | "carbon-orchid" | "bone-teal" | "dune-indigo" | "peat-coral" | "fjord-amber" | "wine-pistachio" | "sable-aqua" | "pewter-saffron" | "bronze-ice" | "moss-ivory" | "cocoa-teal" | "ash-vermilion" | "spruce-honey";
+export type ThemeKey = "emerald-gold" | "midnight-silver" | "terracotta-cream" | "plum-rose" | "indigo-saffron" | "sapphire-pearl" | "garnet-amber" | "obsidian-jade" | "ivory-cobalt" | "charcoal-copper" | "amber-slate" | "rosewood-mint" | "azure-sand" | "crimson-pewter" | "olive-gold" | "violet-ash" | "teal-bronze" | "maroon-linen" | "cobalt-ember" | "forest-blush" | "onyx-turquoise" | "clay-frost" | "basalt-marigold" | "linen-periwinkle" | "umber-mauve" | "aubergine-citrine" | "byzantium-sage" | "chalk-vermilion" | "cerulean-honey" | "slate-copper" | "steel-blossom" | "pine-lavender" | "walnut-aqua" | "ink-saffron-rose" | "mulberry-seafoam" | "denim-peach" | "sandstone-navy" | "celadon-plum" | "lilac-pine" | "mist-garnet" | "ocean-coral" | "graphite-lemon" | "espresso-sky" | "navy-lime" | "carbon-orchid" | "bone-teal" | "dune-indigo" | "peat-coral" | "fjord-amber" | "wine-pistachio" | "sable-aqua" | "pewter-saffron" | "bronze-ice" | "moss-ivory" | "cocoa-teal" | "ash-vermilion" | "spruce-honey" | "chaste-01" | "chaste-02" | "chaste-03" | "chaste-04" | "chaste-05" | "chaste-06" | "chaste-07" | "chaste-08" | "chaste-09" | "chaste-10" | "chaste-11" | "chaste-12" | "chaste-13" | "chaste-14" | "chaste-15" | "chaste-16" | "chaste-17" | "chaste-18" | "chaste-19" | "chaste-20" | "chaste-21" | "chaste-22" | "chaste-23" | "chaste-24" | "chaste-25" | "chaste-26" | "chaste-27" | "chaste-28" | "chaste-29" | "chaste-30" | "chaste-31" | "chaste-32" | "chaste-33" | "chaste-34" | "chaste-35" | "chaste-36" | "chaste-37" | "chaste-38" | "chaste-39" | "chaste-40" | "chaste-41" | "chaste-42" | "chaste-43" | "chaste-44" | "chaste-45" | "chaste-46" | "chaste-47" | "chaste-48" | "chaste-49" | "chaste-50" | "chaste-51" | "chaste-52" | "chaste-53" | "chaste-54" | "chaste-55" | "chaste-56" | "chaste-57" | "chaste-58" | "chaste-59" | "chaste-60";
 
 export const THEMES: Record<ThemeKey, { bg: string; ink: string; accent: string; muted: string; label: string }> = {
   "emerald-gold": { bg: "#0B2B26", ink: "#F5F1E6", accent: "#C9A227", muted: "#8FB6AC", label: "Emerald & Gold" },
@@ -88,8 +88,68 @@ export const THEMES: Record<ThemeKey, { bg: string; ink: string; accent: string;
   "pewter-saffron": { bg: "#23262B", ink: "#F3F1EC", accent: "#E9B44C", muted: "#868A92", label: "Pewter & Saffron" },
   "wine-pistachio": { bg: "#3B1522", ink: "#F7EDEF", accent: "#B7D68A", muted: "#9A7A84", label: "Wine & Pistachio" },
   "lilac-pine": { bg: "#E6DFEF", ink: "#1D2B25", accent: "#2F6B55", muted: "#857E90", label: "Lilac & Pine" },
+  "chaste-01": { bg: "#172b1d", ink: "#ecf3ee", accent: "#de5ddf", muted: "#87a18f", label: "Chastity series 01" },
+  "chaste-02": { bg: "#281933", ink: "#f0ecf3", accent: "#a0e458", muted: "#9687a1", label: "Chastity series 02" },
+  "chaste-03": { bg: "#272411", ink: "#f3f2ec", accent: "#6265da", muted: "#a19e87", label: "Chastity series 03" },
+  "chaste-04": { bg: "#19272a", ink: "#ecf2f3", accent: "#df9a5d", muted: "#879ca1", label: "Chastity series 04" },
+  "chaste-05": { bg: "#321b27", ink: "#f3ecf0", accent: "#5ee458", muted: "#a18795", label: "Chastity series 05" },
+  "chaste-06": { bg: "#172613", ink: "#eef3ec", accent: "#9862da", muted: "#8da187", label: "Chastity series 06" },
+  "chaste-07": { bg: "#16152e", ink: "#edecf3", accent: "#dfd85d", muted: "#8887a1", label: "Chastity series 07" },
+  "chaste-08": { bg: "#30231c", ink: "#f3efec", accent: "#58a7e4", muted: "#a19087", label: "Chastity series 08" },
+  "chaste-09": { bg: "#14241e", ink: "#ecf3f1", accent: "#da626b", muted: "#87a197", label: "Chastity series 09" },
+  "chaste-10": { bg: "#2b162c", ink: "#f3ecf3", accent: "#a9df5d", muted: "#9f87a1", label: "Chastity series 10" },
+  "chaste-11": { bg: "#2f3518", ink: "#f2f3ec", accent: "#5865e4", muted: "#9ba187", label: "Chastity series 11" },
+  "chaste-12": { bg: "#151c23", ink: "#ecf0f3", accent: "#da9262", muted: "#8794a1", label: "Chastity series 12" },
+  "chaste-13": { bg: "#2b171b", ink: "#f3ecee", accent: "#5ddfd1", muted: "#a1878c", label: "Chastity series 13" },
+  "chaste-14": { bg: "#19331b", ink: "#ecf3ed", accent: "#e458ae", muted: "#87a189", label: "Chastity series 14" },
+  "chaste-15": { bg: "#191127", ink: "#efecf3", accent: "#dacb62", muted: "#9187a1", label: "Chastity series 15" },
+  "chaste-16": { bg: "#2a2419", ink: "#f3f1ec", accent: "#5dafdf", muted: "#a19887", label: "Chastity series 16" },
+  "chaste-17": { bg: "#1b3231", ink: "#ecf3f3", accent: "#e4586c", muted: "#87a1a0", label: "Chastity series 17" },
+  "chaste-18": { bg: "#261321", ink: "#f3ecf1", accent: "#62da8c", muted: "#a1879a", label: "Chastity series 18" },
+  "chaste-19": { bg: "#202e15", ink: "#eff3ec", accent: "#cb5ddf", muted: "#93a187", label: "Chastity series 19" },
+  "chaste-20": { bg: "#1c2030", ink: "#ecedf3", accent: "#e48758", muted: "#878ba1", label: "Chastity series 20" },
+  "chaste-21": { bg: "#241614", ink: "#f3edec", accent: "#62dac5", muted: "#a18a87", label: "Chastity series 21" },
+  "chaste-22": { bg: "#162c1f", ink: "#ecf3ef", accent: "#df5db6", muted: "#87a192", label: "Chastity series 22" },
+  "chaste-23": { bg: "#2c1835", ink: "#f1ecf3", accent: "#73e458", muted: "#9987a1", label: "Chastity series 23" },
+  "chaste-24": { bg: "#232315", ink: "#f3f3ec", accent: "#8662da", muted: "#a1a187", label: "Chastity series 24" },
+  "chaste-25": { bg: "#17252b", ink: "#ecf1f3", accent: "#df5d78", muted: "#8799a1", label: "Chastity series 25" },
+  "chaste-26": { bg: "#331924", ink: "#f3ecef", accent: "#58e480", muted: "#a18792", label: "Chastity series 26" },
+  "chaste-27": { bg: "#142711", ink: "#edf3ec", accent: "#c062da", muted: "#8aa187", label: "Chastity series 27" },
+  "chaste-28": { bg: "#1b192a", ink: "#edecf3", accent: "#bcdf5d", muted: "#8b87a1", label: "Chastity series 28" },
+  "chaste-29": { bg: "#32251b", ink: "#f3efec", accent: "#587ae4", muted: "#a19387", label: "Chastity series 29" },
+  "chaste-30": { bg: "#132621", ink: "#ecf3f1", accent: "#da62bc", muted: "#87a19a", label: "Chastity series 30" },
+  "chaste-31": { bg: "#2e152d", ink: "#f3ecf3", accent: "#7edf5d", muted: "#a187a0", label: "Chastity series 31" },
+  "chaste-32": { bg: "#29301c", ink: "#f1f3ec", accent: "#7958e4", muted: "#98a187", label: "Chastity series 32" },
+  "chaste-33": { bg: "#141a24", ink: "#eceff3", accent: "#daba62", muted: "#8791a1", label: "Chastity series 33" },
+  "chaste-34": { bg: "#2c1618", ink: "#f3eced", accent: "#5dc2df", muted: "#a18789", label: "Chastity series 34" },
+  "chaste-35": { bg: "#18351e", ink: "#ecf3ee", accent: "#bc58e4", muted: "#87a18d", label: "Chastity series 35" },
+  "chaste-36": { bg: "#1c1523", ink: "#f0ecf3", accent: "#c2da62", muted: "#9487a1", label: "Chastity series 36" },
+  "chaste-37": { bg: "#2b2717", ink: "#f3f2ec", accent: "#5d85df", muted: "#a19c87", label: "Chastity series 37" },
+  "chaste-38": { bg: "#193133", ink: "#ecf2f3", accent: "#e47358", muted: "#879ea1", label: "Chastity series 38" },
+  "chaste-39": { bg: "#27111f", ink: "#f3ecf1", accent: "#62dab4", muted: "#a18797", label: "Chastity series 39" },
+  "chaste-40": { bg: "#1e2a19", ink: "#eff3ec", accent: "#745ddf", muted: "#8fa187", label: "Chastity series 40" },
+  "chaste-41": { bg: "#1b1c32", ink: "#ecedf3", accent: "#e4b558", muted: "#8788a1", label: "Chastity series 41" },
+  "chaste-42": { bg: "#261713", ink: "#f3eeec", accent: "#62c7da", muted: "#a18e87", label: "Chastity series 42" },
+  "chaste-43": { bg: "#152e22", ink: "#ecf3f0", accent: "#df5d8b", muted: "#87a195", label: "Chastity series 43" },
+  "chaste-44": { bg: "#2d1c30", ink: "#f2ecf3", accent: "#58e46c", muted: "#9d87a1", label: "Chastity series 44" },
+  "chaste-45": { bg: "#222414", ink: "#f2f3ec", accent: "#628eda", muted: "#9da187", label: "Chastity series 45" },
+  "chaste-46": { bg: "#16232c", ink: "#ecf0f3", accent: "#df6d5d", muted: "#8796a1", label: "Chastity series 46" },
+  "chaste-47": { bg: "#351820", ink: "#f3ecee", accent: "#58e4ae", muted: "#a1878e", label: "Chastity series 47" },
+  "chaste-48": { bg: "#152315", ink: "#ecf3ec", accent: "#da62cd", muted: "#87a187", label: "Chastity series 48" },
+  "chaste-49": { bg: "#1d172b", ink: "#eeecf3", accent: "#91df5d", muted: "#8f87a1", label: "Chastity series 49" },
+  "chaste-50": { bg: "#332919", ink: "#f3f0ec", accent: "#58d7e4", muted: "#a19687", label: "Chastity series 50" },
+  "chaste-51": { bg: "#112724", ink: "#ecf3f2", accent: "#da6294", muted: "#87a19e", label: "Chastity series 51" },
+  "chaste-52": { bg: "#2a1927", ink: "#f3ecf2", accent: "#5ddf67", muted: "#a1879c", label: "Chastity series 52" },
+  "chaste-53": { bg: "#27321b", ink: "#f0f3ec", accent: "#a758e4", muted: "#95a187", label: "Chastity series 53" },
+  "chaste-54": { bg: "#131726", ink: "#eceef3", accent: "#d3da62", muted: "#878da1", label: "Chastity series 54" },
+  "chaste-55": { bg: "#2e1615", ink: "#f3edec", accent: "#5ddfa4", muted: "#a18887", label: "Chastity series 55" },
+  "chaste-56": { bg: "#1c3023", ink: "#ecf3ef", accent: "#e458de", muted: "#87a190", label: "Chastity series 56" },
+  "chaste-57": { bg: "#1e1424", ink: "#f1ecf3", accent: "#9ada62", muted: "#9787a1", label: "Chastity series 57" },
+  "chaste-58": { bg: "#2c2b16", ink: "#f3f3ec", accent: "#605ddf", muted: "#a19f87", label: "Chastity series 58" },
+  "chaste-59": { bg: "#182f35", ink: "#ecf2f3", accent: "#e4a058", muted: "#879ba1", label: "Chastity series 59" },
+  "chaste-60": { bg: "#23151c", ink: "#f3ecf0", accent: "#62da63", muted: "#a18794", label: "Chastity series 60" },
 };
-export const THEME_ORDER: ThemeKey[] = ["emerald-gold", "midnight-silver", "terracotta-cream", "plum-rose", "indigo-saffron", "sapphire-pearl", "garnet-amber", "obsidian-jade", "ivory-cobalt", "charcoal-copper", "amber-slate", "rosewood-mint", "azure-sand", "crimson-pewter", "olive-gold", "violet-ash", "teal-bronze", "maroon-linen", "cobalt-ember", "forest-blush", "onyx-turquoise", "clay-frost", "basalt-marigold", "linen-periwinkle", "umber-mauve", "aubergine-citrine", "byzantium-sage", "chalk-vermilion", "cerulean-honey", "slate-copper", "steel-blossom", "pine-lavender", "walnut-aqua", "ink-saffron-rose", "mulberry-seafoam", "denim-peach", "sandstone-navy", "celadon-plum", "lilac-pine", "mist-garnet", "ocean-coral", "graphite-lemon", "espresso-sky", "navy-lime", "carbon-orchid", "bone-teal", "dune-indigo", "peat-coral", "fjord-amber", "wine-pistachio", "sable-aqua", "pewter-saffron", "bronze-ice", "moss-ivory", "cocoa-teal", "ash-vermilion", "spruce-honey"];
+export const THEME_ORDER: ThemeKey[] = ["emerald-gold", "midnight-silver", "terracotta-cream", "plum-rose", "indigo-saffron", "sapphire-pearl", "garnet-amber", "obsidian-jade", "ivory-cobalt", "charcoal-copper", "amber-slate", "rosewood-mint", "azure-sand", "crimson-pewter", "olive-gold", "violet-ash", "teal-bronze", "maroon-linen", "cobalt-ember", "forest-blush", "onyx-turquoise", "clay-frost", "basalt-marigold", "linen-periwinkle", "umber-mauve", "aubergine-citrine", "byzantium-sage", "chalk-vermilion", "cerulean-honey", "slate-copper", "steel-blossom", "pine-lavender", "walnut-aqua", "ink-saffron-rose", "mulberry-seafoam", "denim-peach", "sandstone-navy", "celadon-plum", "lilac-pine", "mist-garnet", "ocean-coral", "graphite-lemon", "espresso-sky", "navy-lime", "carbon-orchid", "bone-teal", "dune-indigo", "peat-coral", "fjord-amber", "wine-pistachio", "sable-aqua", "pewter-saffron", "bronze-ice", "moss-ivory", "cocoa-teal", "ash-vermilion", "spruce-honey", "chaste-01", "chaste-02", "chaste-03", "chaste-04", "chaste-05", "chaste-06", "chaste-07", "chaste-08", "chaste-09", "chaste-10", "chaste-11", "chaste-12", "chaste-13", "chaste-14", "chaste-15", "chaste-16", "chaste-17", "chaste-18", "chaste-19", "chaste-20", "chaste-21", "chaste-22", "chaste-23", "chaste-24", "chaste-25", "chaste-26", "chaste-27", "chaste-28", "chaste-29", "chaste-30", "chaste-31", "chaste-32", "chaste-33", "chaste-34", "chaste-35", "chaste-36", "chaste-37", "chaste-38", "chaste-39", "chaste-40", "chaste-41", "chaste-42", "chaste-43", "chaste-44", "chaste-45", "chaste-46", "chaste-47", "chaste-48", "chaste-49", "chaste-50", "chaste-51", "chaste-52", "chaste-53", "chaste-54", "chaste-55", "chaste-56", "chaste-57", "chaste-58", "chaste-59", "chaste-60"];
 
 const SANS = '"Helvetica Neue", Inter, Arial, system-ui, sans-serif';
 // Font stacks, most-specific/best-shaped first, safe generic last.

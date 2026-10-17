@@ -1,0 +1,15 @@
+{
+  "theme": "chaste-45",
+  "kind": "citation",
+  "lines": [
+    "Sunan Abi Dawud 3601 (Book 25, Hadith 31)",
+    "Narrator: see source",
+    "Arabic & English: hadith-api (cdn.jsdelivr.net/gh/fawazahmed0/hadith-api)",
+    "Grade per hadith-api: Hasan (Al-Albani); Hasan (Muhammad Muhyi Al-Din Abdul Hamid); Hasan (Shuaib Al Arnaut); Hasan (Zubair Ali Zai)",
+    "Chinese, Korean, Japanese, Malay, Thai, Spanish:",
+    "Claude's own translation from the verified Arabic and English"
+  ],
+  "handle": "@blankdiscussions",
+  "slideNumber": 10,
+  "slideTotal": 10
+}

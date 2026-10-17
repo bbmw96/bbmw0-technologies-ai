@@ -1,0 +1,10 @@
+{
+  "theme": "chaste-51",
+  "kind": "text",
+  "lang": "es",
+  "text": "Relató Anas: Os voy a narrar un hadiz que nadie más que yo os narrará después. Oí al Mensajero de Allah (ﷺ) decir: «Entre las señales de la Hora están: 1. El conocimiento religioso disminuirá (por la muerte de los sabios). 2. La ignorancia religiosa prevalecerá. 3. Prevalecerá la zina (relaciones sexuales ilícitas) abierta. 4. Las mujeres aumentarán y los hombres disminuirán hasta el punto de que un solo hombre cuidará de cincuenta mujeres».",
+  "note": "Claude's own translation (hadith-api has no Spanish edition)",
+  "fontScale": 0.95,
+  "slideNumber": 9,
+  "slideTotal": 10
+}

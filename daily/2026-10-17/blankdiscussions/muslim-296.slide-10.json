@@ -1,0 +1,15 @@
+{
+  "theme": "chaste-28",
+  "kind": "citation",
+  "lines": [
+    "Sahih Muslim 296 (Book 1, Hadith 202)",
+    "Narrated by Abu Huraira",
+    "Arabic & English: hadith-api (cdn.jsdelivr.net/gh/fawazahmed0/hadith-api)",
+    "Collection: Sahih Muslim (no grade supplied by hadith-api)",
+    "Chinese, Korean, Japanese, Malay, Thai, Spanish:",
+    "Claude's own translation from the verified Arabic and English"
+  ],
+  "handle": "@blankdiscussions",
+  "slideNumber": 10,
+  "slideTotal": 10
+}

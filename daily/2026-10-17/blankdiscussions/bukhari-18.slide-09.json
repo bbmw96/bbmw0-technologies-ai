@@ -1,0 +1,10 @@
+{
+  "theme": "chaste-35",
+  "kind": "text",
+  "lang": "es",
+  "text": "Relató 'Ubada bin As-Samit, quien participó en la batalla de Badr y fue naqib, la noche del juramento de Al-'Aqaba: El Mensajero de Allah dijo, mientras un grupo de sus compañeros estaba a su alrededor: «Juradme lealtad en estas cosas: 1. No asociar nada a Allah en la adoración. 2. No robar. 3. No cometer zina (relaciones sexuales ilícitas). 4. No matar a vuestros hijos. 5. No acusar falsamente a un inocente (propagando tal acusación entre la gente). 6. No desobedecer en lo que es bueno». Y el Profeta (ﷺ) añadió: «Quien de vosotros cumpla su juramento, Allah lo recompensará. Y quien incurra en alguna de ellas (salvo la asociación de copartícipes a Allah) y reciba su castigo en este mundo, ese castigo será una expiación de ese pecado. Y si alguien incurre en alguna de ellas y Allah le oculta su pecado, es Él quien decide perdonarlo o castigarlo (en el Más Allá)».",
+  "note": "Claude's own translation (hadith-api has no Spanish edition)",
+  "fontScale": 0.7,
+  "slideNumber": 9,
+  "slideTotal": 10
+}

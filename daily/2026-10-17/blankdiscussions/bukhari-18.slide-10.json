@@ -1,0 +1,15 @@
+{
+  "theme": "chaste-35",
+  "kind": "citation",
+  "lines": [
+    "Sahih al-Bukhari 18 (Book 2, Hadith 11)",
+    "Narrated by 'Ubada bin As-Samit",
+    "Arabic & English: hadith-api (cdn.jsdelivr.net/gh/fawazahmed0/hadith-api)",
+    "Collection: Sahih al-Bukhari (no grade supplied by hadith-api)",
+    "Chinese, Korean, Japanese, Malay, Thai, Spanish:",
+    "Claude's own translation from the verified Arabic and English"
+  ],
+  "handle": "@blankdiscussions",
+  "slideNumber": 10,
+  "slideTotal": 10
+}

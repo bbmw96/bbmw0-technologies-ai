@@ -1,0 +1,10 @@
+{
+  "theme": "chaste-31",
+  "kind": "text",
+  "lang": "zh",
+  "text": "艾卜·胡莱赖传述：我说：“安拉的使者啊！我是个年轻人，我怕自己会犯通奸，而我又无力结婚。”他沉默不语，我又重复了一次，他仍沉默；我第三次这样说，他还是沉默；我第四次重复，先知才说：“艾卜·胡莱赖啊！笔已写完你将要遭遇的一切。所以，你阉割自己也好，不阉割也罢，都是一样。”",
+  "note": "Claude's own translation (hadith-api has no Chinese edition)",
+  "fontScale": 0.95,
+  "slideNumber": 4,
+  "slideTotal": 10
+}

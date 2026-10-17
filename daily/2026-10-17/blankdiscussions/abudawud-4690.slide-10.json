@@ -1,0 +1,15 @@
+{
+  "theme": "chaste-25",
+  "kind": "citation",
+  "lines": [
+    "Sunan Abi Dawud 4690 (Book 42, Hadith 95)",
+    "Narrated by AbuHurayrah",
+    "Arabic & English: hadith-api (cdn.jsdelivr.net/gh/fawazahmed0/hadith-api)",
+    "Grade per hadith-api: Sahih (Al-Albani); Sahih (Muhammad Muhyi Al-Din Abdul Hamid); Sahih (Shuaib Al Arnaut); Isnaad Sahih (Zubair Ali Zai)",
+    "Chinese, Korean, Japanese, Malay, Thai, Spanish:",
+    "Claude's own translation from the verified Arabic and English"
+  ],
+  "handle": "@blankdiscussions",
+  "slideNumber": 10,
+  "slideTotal": 10
+}
