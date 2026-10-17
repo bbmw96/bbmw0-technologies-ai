@@ -14888,6 +14888,249 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "moores-law-never-18-months-house-1975",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://www.cs.utexas.edu/~fussell/courses/cs352h/papers/moore.pdf (read): reprint of Moore's paper \"Cramming More Components onto Integrated Circuits\", Electronics, 19 April 1965. Says complexity for minimum component costs \"has increased at a rate of roughly a factor of two per year\", that there is no reason to believe it will not remain nearly constant for at least ten years, and \"by 1975, the number of components per integrated circuit for minimum cost will be 65 000\".",
+        "https://en.wikipedia.org/wiki/Moore%27s_law (read): Moore was director of research and development at Fairchild Semiconductor in 1965; at the 1975 IEEE International Electron Devices Meeting he revised the doubling period to about two years; David House, an Intel executive, is credited with the 18 month figure, reasoning that chip performance would double roughly every 18 months; Moore affirmed he never said transistor count would double every 18 months."
+      ],
+      "verifiedNote": "Checked 17 Oct 2026. The 1965 figures were read in the reprint of the paper itself. The 1975 revision, Moore's job title and the House attribution rest on Wikipedia's account and are worded as credited, not as certain. Not claimed: what a 1965 chip actually held, the exact wording of Moore's 1975 talk beyond the two year slope, or any date for House's remark beyond 1975.",
+      "palette": {
+        "bg": "#10151C",
+        "ink": "#F0F4F8",
+        "accent": "#5EC4B6",
+        "muted": "#7F8A96"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "Moore's law says chips double every 18 months.",
+          "note": "Gordon Moore says he never said that."
+        },
+        {
+          "kind": "credit",
+          "year": "1965",
+          "name": "Gordon Moore",
+          "role": "Then head of research and development at Fairchild Semiconductor. His paper ran in Electronics magazine on 19 April."
+        },
+        {
+          "kind": "statement",
+          "lead": "What he wrote",
+          "text": "A doubling every year.",
+          "note": "He expected it to hold for at least ten years, reaching 65,000 components per circuit by 1975."
+        },
+        {
+          "kind": "statement",
+          "lead": "The revision",
+          "text": "In 1975 he changed it to two years.",
+          "note": "He said so at the IEEE International Electron Devices Meeting."
+        },
+        {
+          "kind": "figure",
+          "value": "18",
+          "unit": "months",
+          "context": "The number everyone repeats. It was never Moore's."
+        },
+        {
+          "kind": "credit",
+          "year": "1975",
+          "name": "David House",
+          "role": "The Intel executive credited with the 18 months. He reasoned that chip performance would double about that often."
+        },
+        {
+          "kind": "kicker",
+          "text": "The most famous number in computing belongs to someone else."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the number, then the name.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "ethernet-named-after-ether-metcalfe-1973",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://www.eng.hawaii.edu/wp-content/uploads/2020/06/Looking-Back-on-40-Years-of-Ethernet.pdf (read): places Metcalfe's memo to PARC management on 22 May 1973; he chose the name from the 19th century phrase \"Ether\", luminiferous ether being the medium through which light was thought to travel; the team used thick coaxial cable because it could be tapped passively; Metcalfe: \"we didn't call it coax-net\" and the ether \"could be coax, twisted pair, radio, optical fibers, power line, whatever you wanted\".",
+        "https://en.wikipedia.org/wiki/Ethernet (read): name drawn from the old idea of luminiferous aether and meant to stress that Ethernet could run over any medium; first network ran at 2.94 Mbit/s over shared coaxial cable at Xerox PARC; a 1983 standard covered 10 Mbit/s over coaxial cable up to 500 metres (10BASE5); the DIX Blue Book followed in 1980."
+      ],
+      "verifiedNote": "Checked 17 Oct 2026. The two sources disagree on what happened on 22 May 1973: the Hawaii paper calls it the date of Metcalfe's memo, Wikipedia says the network first ran then. Only the memo is claimed, and the first run is described without a date. Not claimed: that the idea of the ether was disproved (neither page was read for that), or Metcalfe's job title in 1973.",
+      "palette": {
+        "bg": "#12141C",
+        "ink": "#F2F4F9",
+        "accent": "#F5A25D",
+        "muted": "#868B98"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The name",
+          "text": "Ethernet is named after the ether.",
+          "note": "Luminiferous ether was the 19th century idea of a medium that carried light."
+        },
+        {
+          "kind": "credit",
+          "year": "1973",
+          "name": "Bob Metcalfe",
+          "role": "Wrote the memo to Xerox PARC management explaining how Ethernet would work. It is dated 22 May."
+        },
+        {
+          "kind": "statement",
+          "lead": "The cable",
+          "text": "He did not call it coax-net.",
+          "note": "The first network ran at 2.94 Mbit/s over shared coaxial cable at Xerox PARC."
+        },
+        {
+          "kind": "statement",
+          "lead": "The point",
+          "text": "The ether could be anything.",
+          "note": "Metcalfe: coax, twisted pair, radio, optical fibre, power line, whatever you wanted."
+        },
+        {
+          "kind": "figure",
+          "value": "500",
+          "unit": "metres",
+          "context": "The reach of the 1983 standard for 10 Mbit/s Ethernet over coaxial cable."
+        },
+        {
+          "kind": "kicker",
+          "text": "He named it for the medium, not the cable."
+        },
+        {
+          "kind": "sign",
+          "line": "Names outlast hardware.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "duolingo-began-as-translation-business-cnn-buzzfeed",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Duolingo (read): idea formulated in 2009 by Carnegie Mellon professor Luis von Ahn and his student Severin Hacker; private beta launched on 30 November 2011 in the body (27 November in the infobox), public launch 19 June 2012; early revenue came from a crowdsourced translation service, later replaced by the Duolingo English Test, advertising and subscriptions (no date given).",
+        "https://gmrtranscription.com/blog/duolingo-finalize-translation-deals-buzzfeed-cnn (read): dated 2 April 2014; BuzzFeed's publishing system automatically sends an article to Duolingo after a certain point of fame; CNN staff send articles to volunteers; students do the translating as part of learning; more than 30 articles translated by students daily.",
+        "https://curiouspm.substack.com/p/duolingo-the-backstory (read): the plan was to teach a language for free, have users translate online articles as part of the teaching, and sell the translations to media houses; names CNN and BuzzFeed as deals.",
+        "https://en.wikipedia.org/wiki/ReCAPTCHA (read): von Ahn was among reCAPTCHA's developers at Carnegie Mellon; it paired a known word with an uncertain scanned word to digitise books; a cited source dated 16 September 2009 is titled \"Teaching computers to read: Google acquires reCAPTCHA\"."
+      ],
+      "verifiedNote": "Checked 17 Oct 2026. Not claimed: any date for the end of the translation service (no source gave one), the beta launch day (sources conflict between 27 and 30 November 2011), the number of reCAPTCHA exit dollars, or whether reCAPTCHA was von Ahn's first or second company (sources disagree). The 30 a day figure is from one 2014 report and is worded as that.",
+      "palette": {
+        "bg": "#0F1A14",
+        "ink": "#F1F7F2",
+        "accent": "#8BD450",
+        "muted": "#7E8C82"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "Duolingo is a free app for learning languages.",
+          "note": "It is. But it was built to make money another way."
+        },
+        {
+          "kind": "credit",
+          "year": "2009",
+          "name": "Luis von Ahn and Severin Hacker",
+          "role": "The idea came from Carnegie Mellon. Von Ahn had already worked on reCAPTCHA, which used people to digitise books."
+        },
+        {
+          "kind": "statement",
+          "lead": "The plan",
+          "text": "Learners translate real web articles.",
+          "note": "The translations were then sold to media companies."
+        },
+        {
+          "kind": "statement",
+          "lead": "The customers",
+          "text": "CNN and BuzzFeed.",
+          "note": "BuzzFeed's system sent an article to Duolingo once it became popular enough."
+        },
+        {
+          "kind": "figure",
+          "value": "30",
+          "unit": "articles",
+          "context": "More than this many a day were translated by students, according to a report from April 2014."
+        },
+        {
+          "kind": "statement",
+          "lead": "The change",
+          "text": "Other income replaced it.",
+          "note": "The English test, advertising and subscriptions took over the translation service."
+        },
+        {
+          "kind": "kicker",
+          "text": "The lessons were the product. The learners were the workforce."
+        },
+        {
+          "kind": "sign",
+          "line": "Free usually means a plan.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "franklin-daily-schedule-order-gave-most-trouble",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://ushistory.org/franklin/autobiography/page40.htm (read): Franklin's Autobiography text with his daily schedule: \"The Morning Question, What good Shall I do this Day?\", \"Rise, wash, and address Powerful Goodness\" at 5, evening activities ending with \"Examination of the Day\", \"Evening Question, What Good have I done to day?\", and \"Sleep\" at 10; the precept of Order requires that every part of his business should have its allotted time.",
+        "https://ushistory.org/franklin/autobiography/page41.htm (read): Franklin writes \"My scheme of Order gave me the most trouble\"; tells the story of the man who accepts an ax that is only speckled; admits he never arrived at the perfection he sought but was \"a better and a happier man than I otherwise should have been\".",
+        "https://ushistory.org/franklin/autobiography/page38.htm (read): the Order precept as worded: \"Let all your things have their places; let each part of your business have its time.\""
+      ],
+      "verifiedNote": "Checked 17 Oct 2026. Not claimed: how many virtues there were (the pages read did not state a number), the year he wrote the schedule, or that he never followed it on any day. The claim is only that Franklin himself wrote that Order gave him the most trouble. The ushistory.org pages carry the Autobiography text; the passage was not compared against a printed edition.",
+      "palette": {
+        "bg": "#17140F",
+        "ink": "#F7F2E8",
+        "accent": "#D9A441",
+        "muted": "#928A7A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "Franklin ran his days to a strict timetable.",
+          "note": "The timetable is real. It is in his autobiography."
+        },
+        {
+          "kind": "statement",
+          "lead": "The plan",
+          "text": "Up at five. Asleep at ten.",
+          "note": "It opened with a question: \"What good shall I do this day?\" It closed with another: \"What good have I done to day?\""
+        },
+        {
+          "kind": "statement",
+          "lead": "The confession",
+          "text": "\"My scheme of Order gave me the most trouble.\"",
+          "note": "Order was the virtue that asked every part of his business to have its allotted time."
+        },
+        {
+          "kind": "statement",
+          "lead": "The ax",
+          "text": "He told a story about a speckled ax.",
+          "note": "A man tires of polishing it and accepts it while it is still only speckled. Franklin admits he was tempted the same way."
+        },
+        {
+          "kind": "statement",
+          "lead": "The verdict",
+          "text": "He never arrived at the perfection he sought.",
+          "note": "But he judged himself \"a better and a happier man than I otherwise should have been\"."
+        },
+        {
+          "kind": "kicker",
+          "text": "The famous schedule was a target, not a record."
+        },
+        {
+          "kind": "sign",
+          "line": "Aim high. Expect speckles.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
