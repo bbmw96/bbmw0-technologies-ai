@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-10-17 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- duolingo-began-as-translation-business-cnn-buzzfeed ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-17-duolingo-began-as-translation-business-cnn-buzzfeed.mp4
+  uploaded public: https://youtu.be/aBWjxtwZTis
+
+--- einstein-never-failed-maths-1935-ripleys ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-17-einstein-never-failed-maths-1935-ripleys.mp4
+  uploaded public: https://youtu.be/1_VmJXSs0WQ
+
+--- viking-horned-helmets-doepler-1876 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-17-viking-horned-helmets-doepler-1876.mp4
+  uploaded public: https://youtu.be/P5YfZ8LNv7s
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

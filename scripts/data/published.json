@@ -322,7 +322,10 @@
     "reel:nobel-merchant-of-death-obituary-unfound-1888",
     "reel:power-pose-42-people-carney-2010",
     "reel:mp3-tom-diner-brandenburg-1988",
-    "reel:skype-estonian-engineers-kazaa-retired-2025"
+    "reel:skype-estonian-engineers-kazaa-retired-2025",
+    "reel:einstein-never-failed-maths-1935-ripleys",
+    "reel:duolingo-began-as-translation-business-cnn-buzzfeed",
+    "reel:viking-horned-helmets-doepler-1876"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -5644,6 +5647,57 @@
       "youtubeId": "hbmcv1i4KAw",
       "youtubeUrl": "https://youtu.be/hbmcv1i4KAw",
       "uploadedAt": "2026-10-16T13:44:31.931Z",
+      "privacy": "public"
+    },
+    {
+      "id": "einstein-never-failed-maths-1935-ripleys",
+      "date": "2026-10-17",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "A famous schoolroom myth. Einstein did not fail mathematics.",
+      "description": "Einstein did not fail mathematics. Ripley's Believe It or Not printed the claim anyway.\n\nShowed Einstein the Ripley's clipping. He laughed and said he never failed in mathematics.\n\nEinstein said he had mastered differential and integral calculus before reaching this age.\n\nAt 16 he missed the standard in the general part of the 1895 ETH entrance test. He performed with distinction in physics and mathematics.\n\nIn 1896 he earned the top grade, a 6, in algebra and geometry.\n\nSources:\n- https://content.time.com/time/specials/packages/article/0,28804,1936731_1936743_1936758,00.html (read): established that Ripley's Believe It or Not repeated the claim that Einstein failed mathematics, that in 1935 a Princeton rabbi showed him the clipping and he laughed and replied \"I never failed in mathematics\", and that he said \"Before I was fifteen I had mastered differential and integral calculus\".\n- https://en.wikipedia.org/wiki/Albert_Einstein (read): established that at 16 he failed to reach the required standard in the general part of the 1895 ETH entrance test but performed with distinction in physics and mathematics, that he mastered integral and differential calculus by his own account in his early teens, and that he received the top grade of 6 in algebra and geometry in his 1896 Matura.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "1_VmJXSs0WQ",
+      "youtubeUrl": "https://youtu.be/1_VmJXSs0WQ",
+      "uploadedAt": "2026-10-17T12:37:30.717Z",
+      "privacy": "public"
+    },
+    {
+      "id": "duolingo-began-as-translation-business-cnn-buzzfeed",
+      "date": "2026-10-17",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The popular version. Duolingo is a free app for learning languages.",
+      "description": "Duolingo is a free app for learning languages. It is. But it was built to make money another way.\n\nThe idea came from Carnegie Mellon. Von Ahn had already worked on reCAPTCHA, which used people to digitise books.\n\nLearners translate real web articles. The translations were then sold to media companies.\n\nCNN and BuzzFeed. BuzzFeed's system sent an article to Duolingo once it became popular enough.\n\nMore than this many a day were translated by students, according to a report from April 2014.\n\nOther income replaced it. The English test, advertising and subscriptions took over the translation service.\n\nThe lessons were the product. The learners were the workforce.\n\nSources:\n- https://en.wikipedia.org/wiki/Duolingo (read): idea formulated in 2009 by Carnegie Mellon professor Luis von Ahn and his student Severin Hacker; private beta launched on 30 November 2011 in the body (27 November in the infobox), public launch 19 June 2012; early revenue came from a crowdsourced translation service, later replaced by the Duolingo English Test, advertising and subscriptions (no date given).\n- https://gmrtranscription.com/blog/duolingo-finalize-translation-deals-buzzfeed-cnn (read): dated 2 April 2014; BuzzFeed's publishing system automatically sends an article to Duolingo after a certain point of fame; CNN staff send articles to volunteers; students do the translating as part of learning; more than 30 articles translated by students daily.\n- https://curiouspm.substack.com/p/duolingo-the-backstory (read): the plan was to teach a language for free, have users translate online articles as part of the teaching, and sell the translations to media houses; names CNN and BuzzFeed as deals.\n- https://en.wikipedia.org/wiki/ReCAPTCHA (read): von Ahn was among reCAPTCHA's developers at Carnegie Mellon; it paired a known word with an uncertain scanned word to digitise books; a cited source dated 16 September 2009 is titled \"Teaching computers to read: Google acquires reCAPTCHA\".\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "aBWjxtwZTis",
+      "youtubeUrl": "https://youtu.be/aBWjxtwZTis",
+      "uploadedAt": "2026-10-17T12:36:42.174Z",
+      "privacy": "public"
+    },
+    {
+      "id": "viking-horned-helmets-doepler-1876",
+      "date": "2026-10-17",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The Viking look. The horned helmet was a costume designer's idea.",
+      "description": "The horned helmet was a costume designer's idea. Carl Emil Doepler's designs for an 1876 production of Wagner's Ring brought it to fame.\n\nViking helmet remains are known. The most complete, found in Norway in 1943 at Gjermundbu, shows no sign of ever having had horns.\n\nCostume designer for the Ring premiere. He studied Viking Age artefacts in museums, then took artistic freedom.\n\nWings, not horns. The horned version grew from a mix of Norse and medieval German history.\n\nEarlier Germanic tribes. Helmets of the Migration Period, 375 to 568 AD, fit the look better than anything Viking.\n\nPainters ran with it. Lorenz Frolich's 1877 painting of Sweyn Forkbeard is described as the first known horned Viking in course literature.\n\nThe horns came from the theatre.\n\nSources:\n- https://www.scandinavianarchaeology.com/?p=896 (read): established that the Gjermundbu helmet, c.875 AD from a male grave in Norway, shows no sign of ever having had horns; that Vendel period helmets (550 to 793 AD) have none either; that Carl Emil Doepler designed costumes for the 1876 premiere of Wagner's Ring, studied Viking Age artefacts and used artistic freedom, and gave Odin wings instead of horns; and that Lorenz Frolich's 1877 painting of Sweyn Forkbeard's capture is described as the first known illustration of a horned Viking in course literature.\n- https://www.historyhit.com/types-of-viking-helmets/ (read): established that the Gjermundbu helmet was found in southern Norway in 1943, is iron with four plates and a fixed visor, and is the most complete of only five known Viking helmet remains; that the horned helmet was not worn by real Vikings; that Doepler's designs for an 1876 Ring production first showcased it; and that the look blended Norse and medieval German history, closer to Germanic tribes of the Migration Period (375 to 568 AD).\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "P5YfZ8LNv7s",
+      "youtubeUrl": "https://youtu.be/P5YfZ8LNv7s",
+      "uploadedAt": "2026-10-17T12:38:41.703Z",
       "privacy": "public"
     }
   ]

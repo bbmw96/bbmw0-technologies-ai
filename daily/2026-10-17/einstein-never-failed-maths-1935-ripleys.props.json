@@ -1,0 +1,54 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (einstein-never-failed-maths-1935-ripleys)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0F12",
+    "ink": "#E9F2F5",
+    "accent": "#E0B04A",
+    "muted": "#6D8189"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "A famous schoolroom myth",
+      "text": "Einstein did not fail mathematics.",
+      "note": "Ripley's Believe It or Not printed the claim anyway.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "credit",
+      "year": "1935",
+      "name": "A Princeton rabbi",
+      "role": "Showed Einstein the Ripley's clipping. He laughed and said he never failed in mathematics.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "figure",
+      "value": "15",
+      "unit": "years old",
+      "context": "Einstein said he had mastered differential and integral calculus before reaching this age.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "statement",
+      "lead": "The real exam story",
+      "text": "At 16 he missed the standard in the general part of the 1895 ETH entrance test.",
+      "note": "He performed with distinction in physics and mathematics.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "kicker",
+      "text": "In 1896 he earned the top grade, a 6, in algebra and geometry.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "sign",
+      "line": "The myth is easier to repeat than the record.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}

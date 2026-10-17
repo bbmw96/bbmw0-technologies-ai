@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (duolingo-began-as-translation-business-cnn-buzzfeed)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0F1A14",
+    "ink": "#F1F7F2",
+    "accent": "#8BD450",
+    "muted": "#7E8C82"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "Duolingo is a free app for learning languages.",
+      "note": "It is. But it was built to make money another way.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "credit",
+      "year": "2009",
+      "name": "Luis von Ahn and Severin Hacker",
+      "role": "The idea came from Carnegie Mellon. Von Ahn had already worked on reCAPTCHA, which used people to digitise books.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "The plan",
+      "text": "Learners translate real web articles.",
+      "note": "The translations were then sold to media companies.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "statement",
+      "lead": "The customers",
+      "text": "CNN and BuzzFeed.",
+      "note": "BuzzFeed's system sent an article to Duolingo once it became popular enough.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "figure",
+      "value": "30",
+      "unit": "articles",
+      "context": "More than this many a day were translated by students, according to a report from April 2014.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "statement",
+      "lead": "The change",
+      "text": "Other income replaced it.",
+      "note": "The English test, advertising and subscriptions took over the translation service.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "kicker",
+      "text": "The lessons were the product. The learners were the workforce.",
+      "durationInFrames": 82
+    },
+    {
+      "kind": "sign",
+      "line": "Free usually means a plan.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

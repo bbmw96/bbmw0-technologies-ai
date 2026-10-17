@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (viking-horned-helmets-doepler-1876)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#101014",
+    "ink": "#F4F2ED",
+    "accent": "#D9A441",
+    "muted": "#85817A"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The Viking look",
+      "text": "The horned helmet was a costume designer's idea.",
+      "note": "Carl Emil Doepler's designs for an 1876 production of Wagner's Ring brought it to fame.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "figure",
+      "value": "5",
+      "unit": "known",
+      "context": "Viking helmet remains are known. The most complete, found in Norway in 1943 at Gjermundbu, shows no sign of ever having had horns.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "credit",
+      "year": "1876",
+      "name": "Carl Emil Doepler",
+      "role": "Costume designer for the Ring premiere. He studied Viking Age artefacts in museums, then took artistic freedom.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "lead": "For Odin, he chose",
+      "text": "Wings, not horns.",
+      "note": "The horned version grew from a mix of Norse and medieval German history.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "statement",
+      "lead": "Where horns really belong",
+      "text": "Earlier Germanic tribes.",
+      "note": "Helmets of the Migration Period, 375 to 568 AD, fit the look better than anything Viking.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "One year later",
+      "text": "Painters ran with it.",
+      "note": "Lorenz Frolich's 1877 painting of Sweyn Forkbeard is described as the first known horned Viking in course literature.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "kicker",
+      "text": "The horns came from the theatre.",
+      "durationInFrames": 60
+    },
+    {
+      "kind": "sign",
+      "line": "The Viking look is a nineteenth century costume.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
