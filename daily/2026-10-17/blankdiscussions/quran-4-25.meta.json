@@ -35,7 +35,7 @@
     "source_artifact_note": "Artifact scan (double spaces, space before punctuation, leading/trailing whitespace, control chars) found none; slide text byte-identical to the API.",
     "compliance_check": "Checked against 142 string terms in compliance-policy.json halal section across all edition text: hits = []. The text is scripture addressing the prohibition and legal treatment of zina; it is not promotional or explicit content."
   },
-  "status": "sourced",
+  "status": "published",
   "hostingUrls": [
     "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-17/blankdiscussions/renders/quran-4-25-slide-01.jpg",
     "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-17/blankdiscussions/renders/quran-4-25-slide-02.jpg",
@@ -47,5 +47,23 @@
     "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-17/blankdiscussions/renders/quran-4-25-slide-08.jpg",
     "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-17/blankdiscussions/renders/quran-4-25-slide-09.jpg",
     "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-17/blankdiscussions/renders/quran-4-25-slide-10.jpg"
-  ]
+  ],
+  "published": {
+    "mediaId": "18041725340834465",
+    "permalink": "https://www.instagram.com/p/Delw9eflRUN/",
+    "publishedAt": "2026-10-17T09:16:21+0000",
+    "hostingUrls": [
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-17/blankdiscussions/renders/quran-4-25-slide-01.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-17/blankdiscussions/renders/quran-4-25-slide-02.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-17/blankdiscussions/renders/quran-4-25-slide-03.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-17/blankdiscussions/renders/quran-4-25-slide-04.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-17/blankdiscussions/renders/quran-4-25-slide-05.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-17/blankdiscussions/renders/quran-4-25-slide-06.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-17/blankdiscussions/renders/quran-4-25-slide-07.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-17/blankdiscussions/renders/quran-4-25-slide-08.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-17/blankdiscussions/renders/quran-4-25-slide-09.jpg",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-17/blankdiscussions/renders/quran-4-25-slide-10.jpg"
+    ],
+    "publishedVia": "Composio INSTAGRAM_CREATE_CAROUSEL_CONTAINER (child_image_urls) + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH"
+  }
 }
