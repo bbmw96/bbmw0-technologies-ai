@@ -1,0 +1,24 @@
+import fs from "fs";
+const slug = "quran-20-114", date = "2026-10-18", dir = `daily/${date}/blankdiscussions`;
+const base = `https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/${dir}/renders/`;
+const urls = Array.from({ length: 10 }, (_, i) => `${base}${slug}-slide-${String(i + 1).padStart(2, "0")}.jpg`);
+const meta = {
+  slug, date, channel: "ig-blankdiscussions", platform: "instagram", handle: "@blankdiscussions", mediaFormat: "carousel",
+  caption: "\"And say, 'My Lord, increase me in knowledge.'\"\n\nQur'an 20:114 (Surah Taha). Swipe through for the Arabic, then English, Mandarin, Korean, Japanese, Malay, Thai and Spanish.\n\nSources on the final slide.\n\n#Quran #Knowledge #IslamicReminder #Deen #Guidance",
+  tags: ["Quran", "Knowledge", "Guidance", "Deen"],
+  theme: "moss-ivory",
+  slides: Array.from({ length: 10 }, (_, i) => `${slug}.slide-${String(i + 1).padStart(2, "0")}.json`),
+  sourcing: {
+    primary_text: "Qur'an 20:114, Surah Taha. Not used by any prior blankdiscussions post (checked against all existing meta.json slugs). Standing 8-language/10-slide format.",
+    arabic: "Edition quran-uthmani, live call https://api.alquran.cloud/v1/ayah/20:114/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese,ms.basmeih,th.thai,es.cortes (HTTP 200, fetched 2026-10-18); fetched twice in the same script and diffed identical; slide text written programmatically from the raw API fields, no retyping. Build script re-run once more after the final render set was chosen, same result.",
+    other_editions: "en.sahih (Saheeh International), zh.jian (Ma Jian), ms.basmeih (Abdullah Muhammad Basmeih), th.thai (King Fahad Quran Complex), es.cortes (Julio Cortes): same call. ko.korean and ja.japanese: translator listed as unknown by source; slide says 'Translator not specified by source'.",
+    source_artifact_note: "Artifact scan (double spaces, space before punctuation, leading/trailing whitespace, control chars) run by the build script; slide text written straight from API fields, unedited.",
+    compliance_check: "Checked against 142 string terms in compliance-policy.json halal section across all edition text: hits = [].",
+    selection_note: "2:216 and 9:40 were also sourced cleanly this session but dropped: both open with war context that reads poorly as a standalone slide."
+  },
+  renderCommand: `npx remotion still src/compositions/registry.tsx IslamicSlide ${dir}/renders/${slug}-slide-NN.jpg --image-format=jpeg --jpeg-quality=92 --props=${dir}/${slug}.slide-NN.json`,
+  status: "rendered_and_hosted",
+  hosting_verified: { checkedAt: date, note: "Visually spot-checked Arabic, Korean, Thai slides: no tofu or missing glyphs." },
+  hostingUrls: urls
+};
+fs.writeFileSync(`${dir}/${slug}.meta.json`, JSON.stringify(meta, null, 2));

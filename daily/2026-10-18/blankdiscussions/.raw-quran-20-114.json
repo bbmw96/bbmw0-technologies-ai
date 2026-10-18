@@ -1,0 +1,230 @@
+{
+ "code": 200,
+ "status": "OK",
+ "data": [
+  {
+   "number": 2462,
+   "text": "فَتَعَٰلَى ٱللَّهُ ٱلْمَلِكُ ٱلْحَقُّ ۗ وَلَا تَعْجَلْ بِٱلْقُرْءَانِ مِن قَبْلِ أَن يُقْضَىٰٓ إِلَيْكَ وَحْيُهُۥ ۖ وَقُل رَّبِّ زِدْنِى عِلْمًۭا",
+   "edition": {
+    "identifier": "quran-uthmani",
+    "language": "ar",
+    "name": "القرآن الكريم برسم العثماني (uthmani)",
+    "englishName": "Uthmani",
+    "format": "text",
+    "type": "quran",
+    "direction": "rtl"
+   },
+   "surah": {
+    "number": 20,
+    "name": "سُورَةُ طه",
+    "englishName": "Taa-Haa",
+    "englishNameTranslation": "Taa-Haa",
+    "numberOfAyahs": 135,
+    "revelationType": "Meccan"
+   },
+   "numberInSurah": 114,
+   "juz": 16,
+   "manzil": 4,
+   "page": 320,
+   "ruku": 275,
+   "hizbQuarter": 128,
+   "sajda": false
+  },
+  {
+   "number": 2462,
+   "text": "So high [above all] is Allah, the Sovereign, the Truth. And, [O Muhammad], do not hasten with [recitation of] the Qur'an before its revelation is completed to you, and say, \"My Lord, increase me in knowledge.\"",
+   "edition": {
+    "identifier": "en.sahih",
+    "language": "en",
+    "name": "Saheeh International",
+    "englishName": "Saheeh International",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 20,
+    "name": "سُورَةُ طه",
+    "englishName": "Taa-Haa",
+    "englishNameTranslation": "Taa-Haa",
+    "numberOfAyahs": 135,
+    "revelationType": "Meccan"
+   },
+   "numberInSurah": 114,
+   "juz": 16,
+   "manzil": 4,
+   "page": 320,
+   "ruku": 275,
+   "hizbQuarter": 128,
+   "sajda": false
+  },
+  {
+   "number": 2462,
+   "text": "真主是超绝万物，宰制众生，体用真实的。 对你启示《古兰经》还没有完全的时候，你不要急忙诵读。你说：我的主啊！求你增加我的知识。",
+   "edition": {
+    "identifier": "zh.jian",
+    "language": "zh",
+    "name": "马坚",
+    "englishName": "Ma Jian",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 20,
+    "name": "سُورَةُ طه",
+    "englishName": "Taa-Haa",
+    "englishNameTranslation": "Taa-Haa",
+    "numberOfAyahs": 135,
+    "revelationType": "Meccan"
+   },
+   "numberInSurah": 114,
+   "juz": 16,
+   "manzil": 4,
+   "page": 320,
+   "ruku": 275,
+   "hizbQuarter": 128,
+   "sajda": false
+  },
+  {
+   "number": 2462,
+   "text": "하나님은 모든 것 위에 계 시며 왕이요 진리이시니 그분의 말씀이 종료될 때까지 꾸란의 계 시를 서둘지 말고 주여 저에게 지식을 더하여 주옵소서",
+   "edition": {
+    "identifier": "ko.korean",
+    "language": "ko",
+    "name": "Korean",
+    "englishName": "Unknown",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 20,
+    "name": "سُورَةُ طه",
+    "englishName": "Taa-Haa",
+    "englishNameTranslation": "Taa-Haa",
+    "numberOfAyahs": 135,
+    "revelationType": "Meccan"
+   },
+   "numberInSurah": 114,
+   "juz": 16,
+   "manzil": 4,
+   "page": 320,
+   "ruku": 275,
+   "hizbQuarter": 128,
+   "sajda": false
+  },
+  {
+   "number": 2462,
+   "text": "アッラーは，いと高くおられる真の王者である。あなた（預言者ムハンマド）に対する啓示が完了しない前に，クルアーンを急いではならない。寧ろ（祈って）言いなさい。「主よ，わたしの知識を深めて下さい。」",
+   "edition": {
+    "identifier": "ja.japanese",
+    "language": "ja",
+    "name": "Japanese",
+    "englishName": "Unknown",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 20,
+    "name": "سُورَةُ طه",
+    "englishName": "Taa-Haa",
+    "englishNameTranslation": "Taa-Haa",
+    "numberOfAyahs": 135,
+    "revelationType": "Meccan"
+   },
+   "numberInSurah": 114,
+   "juz": 16,
+   "manzil": 4,
+   "page": 320,
+   "ruku": 275,
+   "hizbQuarter": 128,
+   "sajda": false
+  },
+  {
+   "number": 2462,
+   "text": "Maka Maha Tinggilah Allah, yang Menguasai seluruh alam, lagi Yang Benar (pada segala-galanya). Dan janganlah engkau (wahai Muhammad) tergesa-gesa membaca Al-Quran sebelum selesai dibacakan oleh Jibril kepadamu, dan berdoalah dengan berkata: \"Wahai Tuhanku, tambahilah ilmuku\".",
+   "edition": {
+    "identifier": "ms.basmeih",
+    "language": "ms",
+    "name": "Basmeih",
+    "englishName": "Abdullah Muhammad Basmeih",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 20,
+    "name": "سُورَةُ طه",
+    "englishName": "Taa-Haa",
+    "englishNameTranslation": "Taa-Haa",
+    "numberOfAyahs": 135,
+    "revelationType": "Meccan"
+   },
+   "numberInSurah": 114,
+   "juz": 16,
+   "manzil": 4,
+   "page": 320,
+   "ruku": 275,
+   "hizbQuarter": 128,
+   "sajda": false
+  },
+  {
+   "number": 2462,
+   "text": "ดังนั้น อัลลอฮฺคือพระผู้ทรงสูงส่งยิ่ง พระผู้ทรงอำนาจอันแท้จริง และเจ้าอย่ารีบเร่งในการอ่านอัลกุรอาน ก่อนที่วะฮีย์ของพระองค์จะจบลง และจงกล่าวเถิด “ข้าแต่พระเจ้าของข้า พระองค์ขอพระองค์ทรงโปรดเพิ่มพูนความรู้แก่ข้าพระองค์ด้วย”",
+   "edition": {
+    "identifier": "th.thai",
+    "language": "th",
+    "name": "ภาษาไทย",
+    "englishName": "King Fahad Quran Complex",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 20,
+    "name": "سُورَةُ طه",
+    "englishName": "Taa-Haa",
+    "englishNameTranslation": "Taa-Haa",
+    "numberOfAyahs": 135,
+    "revelationType": "Meccan"
+   },
+   "numberInSurah": 114,
+   "juz": 16,
+   "manzil": 4,
+   "page": 320,
+   "ruku": 275,
+   "hizbQuarter": 128,
+   "sajda": false
+  },
+  {
+   "number": 2462,
+   "text": "¡Exaltado sea Alá, el Rey verdadero! ¡No te precipites en la Recitación antes de que te sea revelada por entero! Y di: «¡Señor! ¡Aumenta mi ciencia!»",
+   "edition": {
+    "identifier": "es.cortes",
+    "language": "es",
+    "name": "Cortes",
+    "englishName": "Julio Cortes",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 20,
+    "name": "سُورَةُ طه",
+    "englishName": "Taa-Haa",
+    "englishNameTranslation": "Taa-Haa",
+    "numberOfAyahs": 135,
+    "revelationType": "Meccan"
+   },
+   "numberInSurah": 114,
+   "juz": 16,
+   "manzil": 4,
+   "page": 320,
+   "ruku": 275,
+   "hizbQuarter": 128,
+   "sajda": false
+  }
+ ]
+}
