@@ -1,0 +1,25 @@
+{
+  "slug": "ethernet-named-after-ether-metcalfe-1973",
+  "date": "2026-10-18",
+  "title": "Ethernet is named after the ether.",
+  "description": "Ethernet is named after the ether. Luminiferous ether was the 19th century idea of a medium that carried light.\n\nWrote the memo to Xerox PARC management explaining how Ethernet would work. It is dated 22 May.\n\nHe did not call it coax-net. The first network ran at 2.94 Mbit/s over shared coaxial cable at Xerox PARC.\n\nThe ether could be anything. Metcalfe: coax, twisted pair, radio, optical fibre, power line, whatever you wanted.\n\nThe reach of the 1983 standard for 10 Mbit/s Ethernet over coaxial cable.\n\nHe named it for the medium, not the cable.\n\nSources:\n- https://www.eng.hawaii.edu/wp-content/uploads/2020/06/Looking-Back-on-40-Years-of-Ethernet.pdf (read): places Metcalfe's memo to PARC management on 22 May 1973; he chose the name from the 19th century phrase \"Ether\", luminiferous ether being the medium through which light was thought to travel; the team used thick coaxial cable because it could be tapped passively; Metcalfe: \"we didn't call it coax-net\" and the ether \"could be coax, twisted pair, radio, optical fibers, power line, whatever you wanted\".\n- https://en.wikipedia.org/wiki/Ethernet (read): name drawn from the old idea of luminiferous aether and meant to stress that Ethernet could run over any medium; first network ran at 2.94 Mbit/s over shared coaxial cable at Xerox PARC; a 1983 standard covered 10 Mbit/s over coaxial cable up to 500 metres (10BASE5); the DIX Blue Book followed in 1980.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-10-18-ethernet-named-after-ether-metcalfe-1973.mp4",
+  "propsFile": "daily/2026-10-18/ethernet-named-after-ether-metcalfe-1973.props.json",
+  "durationInFrames": 864,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

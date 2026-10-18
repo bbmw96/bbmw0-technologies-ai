@@ -1,0 +1,25 @@
+{
+  "slug": "google-maps-desktop-program-where2-2004",
+  "date": "2026-10-18",
+  "title": "The popular version. Google built Maps from scratch.",
+  "description": "Google built Maps from scratch. It began as a C++ desktop program made by Where 2 Technologies, a small Sydney company founded in early 2003.\n\nDesigned that program, meant to be downloaded and installed separately. Google bought their company in October.\n\nLarry Page suggested a version for the browser. In Lars Rasmussen's account, the team rewrote it in HTML and JavaScript, the approach later called AJAX.\n\nGoogle also bought Keyhole. Its Earth Viewer became Google Earth in 2005, and some of its technology went into Maps.\n\nGoogle announced Maps on its blog on 8 February 2005. About four months after buying the company.\n\nMaps was an install that became a web page.\n\nSources:\n- https://en.wikipedia.org/wiki/Google_Maps (read): Google Maps began as a C++ desktop program at Where 2 Technologies, a Sydney company founded in early 2003; Google acquired the company in October 2004; Keyhole was bought the same month, its Earth Viewer became Google Earth in 2005 and some technology went into Maps; launch announced on the Google Blog on 8 February 2005.\n- https://www.historyofinformation.com/detail.php?id=3806 (read): Maps originated in a C++ program designed by Lars and Jens Rasmussen of Where 2 Technologies in Sydney, designed to be separately downloaded, and pitched to Google as web based; Keyhole bought October 2004.\n- https://itwire.com/your-it-news/home-it/how-yahoo-helped-create-google-maps (read): Lars Rasmussen's account at the Warren Centre 2009 Innovation Lecture; Larry Page suggested a browser version rather than a desktop application, and the team rewrote it in HTML and JavaScript, the approach later called AJAX.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "app",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-10-18-google-maps-desktop-program-where2-2004.mp4",
+  "propsFile": "daily/2026-10-18/google-maps-desktop-program-where2-2004.props.json",
+  "durationInFrames": 984,
+  "audioUrl": "",
+  "niche": "app",
+  "composition": "Reel"
+}

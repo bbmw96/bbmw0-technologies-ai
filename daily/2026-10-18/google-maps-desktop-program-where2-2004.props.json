@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (google-maps-desktop-program-where2-2004)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#11131A",
+    "ink": "#F1F3F8",
+    "accent": "#7C9CF5",
+    "muted": "#838896"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "Google built Maps from scratch.",
+      "note": "It began as a C++ desktop program made by Where 2 Technologies, a small Sydney company founded in early 2003.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "credit",
+      "year": "2004",
+      "name": "Lars and Jens Rasmussen",
+      "role": "Designed that program, meant to be downloaded and installed separately. Google bought their company in October.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "lead": "The change",
+      "text": "Larry Page suggested a version for the browser.",
+      "note": "In Lars Rasmussen's account, the team rewrote it in HTML and JavaScript, the approach later called AJAX.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "Same month",
+      "text": "Google also bought Keyhole.",
+      "note": "Its Earth Viewer became Google Earth in 2005, and some of its technology went into Maps.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "statement",
+      "lead": "The launch",
+      "text": "Google announced Maps on its blog on 8 February 2005.",
+      "note": "About four months after buying the company.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "kicker",
+      "text": "Maps was an install that became a web page.",
+      "durationInFrames": 76
+    },
+    {
+      "kind": "sign",
+      "line": "Most big products start small.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

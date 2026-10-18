@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (ethernet-named-after-ether-metcalfe-1973)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#12141C",
+    "ink": "#F2F4F9",
+    "accent": "#F5A25D",
+    "muted": "#868B98"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The name",
+      "text": "Ethernet is named after the ether.",
+      "note": "Luminiferous ether was the 19th century idea of a medium that carried light.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "credit",
+      "year": "1973",
+      "name": "Bob Metcalfe",
+      "role": "Wrote the memo to Xerox PARC management explaining how Ethernet would work. It is dated 22 May.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "statement",
+      "lead": "The cable",
+      "text": "He did not call it coax-net.",
+      "note": "The first network ran at 2.94 Mbit/s over shared coaxial cable at Xerox PARC.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "statement",
+      "lead": "The point",
+      "text": "The ether could be anything.",
+      "note": "Metcalfe: coax, twisted pair, radio, optical fibre, power line, whatever you wanted.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "figure",
+      "value": "500",
+      "unit": "metres",
+      "context": "The reach of the 1983 standard for 10 Mbit/s Ethernet over coaxial cable.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "kicker",
+      "text": "He named it for the medium, not the cable.",
+      "durationInFrames": 76
+    },
+    {
+      "kind": "sign",
+      "line": "Names outlast hardware.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

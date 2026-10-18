@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-10-18 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- ethernet-named-after-ether-metcalfe-1973 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-18-ethernet-named-after-ether-metcalfe-1973.mp4
+  uploaded public: https://youtu.be/T-q0AhrPd94
+
+--- franklin-daily-schedule-order-gave-most-trouble ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-18-franklin-daily-schedule-order-gave-most-trouble.mp4
+  uploaded public: https://youtu.be/7q_6ZiUSW5g
+
+--- google-maps-desktop-program-where2-2004 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-18-google-maps-desktop-program-where2-2004.mp4
+  uploaded public: https://youtu.be/JszqA1glJak
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===
