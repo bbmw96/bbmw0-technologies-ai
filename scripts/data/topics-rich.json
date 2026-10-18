@@ -15131,6 +15131,303 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "wright-coin-toss-wilbur-won-orville-flew-1903",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://www.history.com/news/10-things-you-may-not-know-about-the-wright-brothers (read): the brothers flipped a coin on 14 December 1903 to decide who would test the Flyer first; Wilbur won, his attempt failed and caused minor damage; on 17 December Orville piloted the first flight, airborne for 12 seconds and 120 feet; Wilbur's final flight that day covered 852 feet in nearly a minute.",
+        "https://www.grc.nasa.gov/www/K-12/email.htm (read): NASA Glenn page: coin flipped for the first attempt on 14 December, Wilbur won and crashed on takeoff, repairs took three days, next attempt 17 December; each brother made two flights, four in total; first flight 120 feet in 12 seconds, about 7 to 8 mph over the ground, into a very strong headwind; longest flight 59 seconds and 852 feet.",
+        "https://blogs.libraries.wright.edu/news/outofthebox/2017/12/17/december-17-1903-success-four-flights/ (read): Wright State University Libraries: Wilbur won the toss and piloted the unsuccessful first try from Big Kill Devil Hill, blaming a trifling error from inexperience with the machine and its starting method; Orville flew 120 feet in 12 seconds at 10:35 a.m.; Wilbur flew 852 feet in 59 seconds."
+      ],
+      "verifiedNote": "Checked 18 Oct 2026. Not claimed: the exact duration of the longest flight (the Wright State page says 59 seconds but notes Orville's telegram to their father said 57, so the reel says only \"nearly a minute\"); who piloted the second and third flights or their distances (none of the pages read gave them); whether the 14 December attempt was a crash (History.com says minor damage, NASA says crashed on takeoff, so the reel says only that it failed). Not read: the Library of Congress Wright papers directly.",
+      "palette": {
+        "bg": "#10151C",
+        "ink": "#F4F1EA",
+        "accent": "#E0B04A",
+        "muted": "#8590A0"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "Two brothers flipped a coin, and the winner made history.",
+          "note": "The coin toss is real. It just did not hand the first flight to the man who won it."
+        },
+        {
+          "kind": "statement",
+          "lead": "14 December 1903",
+          "text": "Wilbur won the toss.",
+          "note": "His attempt failed. He put it down to a trifling error from inexperience with the machine and its starting method."
+        },
+        {
+          "kind": "statement",
+          "lead": "The wait",
+          "text": "The Flyer needed three days of repairs.",
+          "note": "NASA Glenn dates the next attempt to 17 December."
+        },
+        {
+          "kind": "statement",
+          "lead": "17 December",
+          "text": "Orville made the first flight.",
+          "note": "It began at 10:35 in the morning, into a very strong headwind. Over the ground it managed about 7 to 8 mph."
+        },
+        {
+          "kind": "figure",
+          "value": "12",
+          "unit": "seconds",
+          "context": "The length of the first flight on 17 December 1903. It covered 120 feet."
+        },
+        {
+          "kind": "statement",
+          "lead": "The best of the day",
+          "text": "Wilbur flew the furthest, 852 feet.",
+          "note": "That flight lasted nearly a minute. Each brother flew twice, four flights in all."
+        },
+        {
+          "kind": "kicker",
+          "text": "The winner of the coin toss was not the first to fly."
+        },
+        {
+          "kind": "sign",
+          "line": "Luck picks who tries first. Work picks who flies.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "curie-notebooks-still-radioactive-lead-boxes",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://www.csmonitor.com/Innovation/Horizons/2011/1107/Marie-Curie-Why-her-papers-are-still-radioactive (read): Curie's manuscripts are kept in lead-lined boxes in the Pierre and Marie Curie collection at France's national library; visitors must wear protective clothing and sign a waiver of liability; radium-226, the most common radium isotope, has a half-life of 1,601 years; she carried polonium and radium in her coat pocket and kept them in a desk drawer; her papers are still radioactive after more than 100 years.",
+        "https://www.sciencealert.com/these-personal-effects-of-marie-curie-will-be-radioactive-for-another-1-500-years (read): much of her personal effects including clothes, furniture, cookbooks and laboratory notes are still radioactive; her laboratory notebooks are stored in lead-lined boxes at the Bibliotheque Nationale in Paris; visitors are expected to sign a liability waiver and wear protective gear; radium-226 half-life given as about 1,600 years."
+      ],
+      "verifiedNote": "Checked 18 Oct 2026. Not claimed: any countdown of years remaining (the ScienceAlert headline says another 1,500 years but its own text gives a half-life of about 1,600 years, so the two do not match and the reel uses only the half-life); how the radium reached each page (the Christian Science Monitor piece does not explain it, so the reel only reports her habits, not a cause); anything about her health or death. The 1,601 and 1,600 half-life figures differ slightly between the two sources; the reel uses 1,601 from the Monitor.",
+      "palette": {
+        "bg": "#0E1A14",
+        "ink": "#F2F5EF",
+        "accent": "#8FD694",
+        "muted": "#7C8F82"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "Marie Curie's notebooks are still radioactive.",
+          "note": "That part is true. They sit in lead-lined boxes at France's national library in Paris."
+        },
+        {
+          "kind": "statement",
+          "lead": "The rule",
+          "text": "Visitors sign a liability waiver first.",
+          "note": "They also wear protective gear to open the boxes."
+        },
+        {
+          "kind": "figure",
+          "value": "1,601",
+          "unit": "years",
+          "context": "The half-life of radium-226, the most common radium isotope. Her papers are still radioactive after more than a century."
+        },
+        {
+          "kind": "statement",
+          "lead": "The habit",
+          "text": "She carried radium and polonium in her coat pocket.",
+          "note": "She also kept them in a desk drawer. The source does not say how the contamination reached each page, so this reel does not guess."
+        },
+        {
+          "kind": "statement",
+          "lead": "Not just paper",
+          "text": "Her clothes, furniture and cookbooks are listed as well.",
+          "note": "ScienceAlert reports that her laboratory notes are still radioactive too."
+        },
+        {
+          "kind": "kicker",
+          "text": "Her research is still giving off its own evidence."
+        },
+        {
+          "kind": "sign",
+          "line": "Handle with care.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "marshmallow-test-replication-918-children-2018",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://www.gwern.net/doc/psychology/2018-watts.pdf (read): Watts, Duncan and Quan 2018 replication paper: full sample n = 918 (552 children whose mothers had not completed college, 366 whose mothers had); gratification delay measured at 54 months, outcomes at Grade 1 and age 15; the bivariate association was \"only half the size of those reported in the original studies\"; original Shoda et al. 1990 reported r = .57 (SAT maths) and r = .42 (SAT verbal); in the non-college sample the unadjusted age-15 coefficient was 0.236, falling to 0.081 with family background and early cognitive controls and to 0.050 (p = .140, not significant) with concurrent cognitive and behavioural controls; the authors call the association highly sensitive to the inclusion of control variables."
+      ],
+      "verifiedNote": "Checked 18 Oct 2026. Not claimed: that the original 1972 experiment was wrong or fraudulent; the size or makeup of the original sample (not read); that patience does not matter at all. The reel states only what the 2018 paper reports. The 0.236, 0.081 and 0.050 coefficients are for the sample of children whose mothers had not completed college (Table 4 as relayed by the page text); they are labelled that way in the beat. Single primary source read; the abstract was not compared with the published journal version.",
+      "palette": {
+        "bg": "#1A1420",
+        "ink": "#F7F3FA",
+        "accent": "#F08FB3",
+        "muted": "#9488A0"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "Wait for the marshmallow and you will succeed in life.",
+          "note": "Early studies reported correlations of .57 with SAT maths and .42 with SAT verbal."
+        },
+        {
+          "kind": "figure",
+          "value": "918",
+          "unit": "children",
+          "context": "The sample in the 2018 replication. Delay was measured at 54 months old, then the children were followed to age 15."
+        },
+        {
+          "kind": "statement",
+          "lead": "First result",
+          "text": "The link was only half the size.",
+          "note": "The authors say the raw association was only half the size of those in the original studies."
+        },
+        {
+          "kind": "statement",
+          "lead": "Add the background",
+          "text": "Control for family and early ability, and it shrinks by about two thirds.",
+          "note": "For children whose mothers had not completed college, the age 15 coefficient fell from 0.236 to 0.081."
+        },
+        {
+          "kind": "statement",
+          "lead": "Add the last controls",
+          "text": "Include thinking and behaviour at 54 months, and it is no longer significant.",
+          "note": "The coefficient fell to 0.050, with a p value of 0.14."
+        },
+        {
+          "kind": "kicker",
+          "text": "Waiting told you much less once you knew the child's background."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the controls.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "instagram-13-employees-1-billion-facebook-2012",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://www.aljazeera.com/economy/2012/4/10/facebook-updates-status-with-instagram-deal (read): dated 10 April 2012; Facebook spent $1bn to buy a smartphone app called Instagram; described as a three-year-old company with 13 employees; more than 25 million users.",
+        "https://www.npr.org/sections/thetwo-way/2012/04/09/150292381/facebook-is-buying-instagram (read): NPR: price approximately $1 billion in stock and cash per Forbes; 13 employees per TechCrunch; the deal came just weeks before Facebook's IPO."
+      ],
+      "verifiedNote": "Checked 18 Oct 2026. Not claimed: the exact announcement day (the NPR URL carries 9 April and the Al Jazeera page is dated 10 April, so the reel says only April 2012); the final value at closing (neither page read covered it); the cash and stock split. The $77 million per employee figure is simple arithmetic from $1 billion divided by 13, rounded, and is labelled as approximate. The employee count is attributed to TechCrunch by NPR and stated by Al Jazeera.",
+      "palette": {
+        "bg": "#1C1210",
+        "ink": "#FFF6F1",
+        "accent": "#F2765A",
+        "muted": "#A08A83"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "Instagram was a giant that Facebook swallowed.",
+          "note": "It was a three year old company with 13 employees."
+        },
+        {
+          "kind": "figure",
+          "value": "13",
+          "unit": "staff",
+          "context": "The number of employees at Instagram when Facebook agreed to buy it in April 2012."
+        },
+        {
+          "kind": "statement",
+          "lead": "The price",
+          "text": "About $1 billion in cash and stock.",
+          "note": "NPR attributes the figure to Forbes. Al Jazeera reports it as $1bn."
+        },
+        {
+          "kind": "statement",
+          "lead": "The sum",
+          "text": "That is roughly $77 million for every employee.",
+          "note": "This is $1 billion divided by 13, rounded."
+        },
+        {
+          "kind": "statement",
+          "lead": "The audience",
+          "text": "More than 25 million people already used it.",
+          "note": "That is the user figure Al Jazeera gave."
+        },
+        {
+          "kind": "statement",
+          "lead": "The timing",
+          "text": "The deal landed just weeks before Facebook's IPO.",
+          "note": "NPR reported it as coming just weeks before the share sale."
+        },
+        {
+          "kind": "kicker",
+          "text": "Thirteen people, one app, and a billion dollars."
+        },
+        {
+          "kind": "sign",
+          "line": "Small team. Big number.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "apollo-guidance-computer-core-rope-software-woven-wire",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://righto.com/2019/07/software-woven-into-wire-core-rope-and.html (read): fixed core rope memory held 36,864 words in six modules; erasable memory 2,048 words; 16-bit words (15 data bits plus parity); a 1 is stored by threading a wire through a core and a 0 by bypassing it; ropes wired by women at Raytheon in Waltham, Massachusetts, many hired from the textile industry for sewing skills and others from the Waltham Watch Company; nicknamed \"LOL memory\" for Little Old Ladies, a name the article says overlooks women of colour who also worked on it; about 8 weeks and $15,000 per module.",
+        "https://en.wikipedia.org/wiki/Apollo_Guidance_Computer (read): fixed memory 36,864 words implemented as core rope; 2,048 words of erasable core memory; 16-bit word with 15 data bits and one parity bit; core rope made by weaving wires through and around magnetic cores; read-only and holds most of the AGC software."
+      ],
+      "verifiedNote": "Checked 18 Oct 2026. Not claimed: anything about the Apollo 11 1202 alarm or Margaret Hamilton (the search results found for it were secondary blogs and were not trusted); the clock speed (not needed); individual names of the Raytheon workers. The 8 weeks and $15,000 are the author's figures per module in the righto.com article, not an official NASA cost. The sources agree on 36,864 and 2,048 words and on 15 data bits plus parity.",
+      "palette": {
+        "bg": "#0F1620",
+        "ink": "#F1F5FA",
+        "accent": "#5AB0F2",
+        "muted": "#7F90A3"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "Apollo's software lived on a chip.",
+          "note": "It lived in wire. Core rope memory stored the program by weaving wires through and around magnetic cores."
+        },
+        {
+          "kind": "statement",
+          "lead": "How a bit worked",
+          "text": "A wire through a core meant a 1. A wire around it meant a 0.",
+          "note": "The software was physically woven into the memory."
+        },
+        {
+          "kind": "figure",
+          "value": "36,864",
+          "unit": "words",
+          "context": "The size of the Apollo Guidance Computer's fixed memory, in six modules. Each word was 16 bits, 15 of data and one for parity."
+        },
+        {
+          "kind": "statement",
+          "lead": "Who wove it",
+          "text": "Women at Raytheon in Waltham, Massachusetts.",
+          "note": "Many were hired from the textile industry for their sewing skills. Others came from the Waltham Watch Company."
+        },
+        {
+          "kind": "statement",
+          "lead": "The cost",
+          "text": "About eight weeks and $15,000 for each module.",
+          "note": "Those are the figures given in a detailed technical write up."
+        },
+        {
+          "kind": "kicker",
+          "text": "Once it was woven, the program could not be edited."
+        },
+        {
+          "kind": "sign",
+          "line": "Software, made by hand.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
