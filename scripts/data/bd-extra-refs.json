@@ -1,0 +1,128 @@
+{
+  "_comment": "Refs for @blankdiscussions posts whose slug is not itself a ref (multi-verse reels). scripts/_bd_dupcheck.mjs reads this. Add an entry the moment a multi-ref post is published.",
+  "posts": {
+    "zina-reel-01-quran": [
+      "quran:17:32",
+      "quran:24:2"
+    ],
+    "zina-reel-02-quran": [
+      "quran:25:68-70"
+    ],
+    "zina-reel-03-quran": [
+      "quran:24:30",
+      "quran:24:3"
+    ],
+    "zina-reel-04-quran": [
+      "quran:24:4-5",
+      "quran:24:23"
+    ],
+    "zina-reel-05-hadith": [
+      "bukhari:6810"
+    ],
+    "zina-reel-06-hadith": [
+      "tirmidhi:2786",
+      "abudawud:4690"
+    ],
+    "zina-reel-07-hadith": [
+      "bukhari:5221"
+    ],
+    "zina-reel-08-hadith": [
+      "bukhari:3321"
+    ],
+    "zina-ml-reel-01": [
+      "quran:17:32",
+      "quran:24:2"
+    ],
+    "zina-ml-reel-02": [
+      "quran:25:68-70"
+    ],
+    "zina-ml-reel-03": [
+      "quran:24:30",
+      "quran:24:3"
+    ],
+    "zina-ml-reel-04": [
+      "quran:24:4-5",
+      "quran:24:23"
+    ],
+    "zina-ml-reel-05": [
+      "bukhari:6810"
+    ],
+    "zina-ml-reel-06": [
+      "tirmidhi:2786",
+      "abudawud:4690"
+    ],
+    "zina-ml-reel-07": [
+      "bukhari:5221"
+    ],
+    "zina-ml-reel-08": [
+      "bukhari:3321"
+    ],
+    "carousel-18oct-bukhari-5076": [
+      "bukhari:5076"
+    ],
+    "carousel-18oct-bukhari-6806": [
+      "bukhari:6806"
+    ],
+    "carousel-18oct-tirmidhi-2786": [
+      "tirmidhi:2786"
+    ],
+    "carousel-18oct-nasai-5126": [
+      "nasai:5126"
+    ],
+    "carousel-18oct-bukhari-18": [
+      "bukhari:18"
+    ],
+    "carousel-18oct-bukhari-6878": [
+      "bukhari:6878"
+    ],
+    "carousel-18oct-muslim-4416": [
+      "muslim:4416"
+    ],
+    "carousel-18oct-bukhari-6831": [
+      "bukhari:6831"
+    ],
+    "carousel-18oct-bukhari-6818": [
+      "bukhari:6818"
+    ],
+    "carousel-18oct-bukhari-2234": [
+      "bukhari:2234"
+    ],
+    "carousel-18oct-bukhari-6824": [
+      "bukhari:6824"
+    ],
+    "carousel-18oct-bukhari-2671": [
+      "bukhari:2671"
+    ],
+    "carousel-18oct-muslim-4311": [
+      "muslim:4311"
+    ],
+    "carousel-18oct-abudawud-2052": [
+      "abudawud:2052"
+    ],
+    "carousel-18oct-abudawud-3601": [
+      "abudawud:3601"
+    ],
+    "carousel-18oct-malik-403": [
+      "malik:403"
+    ],
+    "carousel-18oct-bukhari-3222": [
+      "bukhari:3222"
+    ],
+    "carousel-18oct-bukhari-3321": [
+      "bukhari:3321"
+    ],
+    "carousel-18oct-bukhari-2283": [
+      "bukhari:2283"
+    ],
+    "carousel-18oct-muslim-4012": [
+      "muslim:4012"
+    ],
+    "carousel-18oct-bukhari-81": [
+      "bukhari:81"
+    ],
+    "carousel-18oct-bukhari-5590": [
+      "bukhari:5590"
+    ]
+  },
+  "_note18Oct": "The 22 hadith carousels published 18 Oct 2026 (mediaIds in the Claude project doc claude/blankdiscussions-zina-series-status.md) have no meta.json yet because the PC was offline. Listed here so the gate sees them."
+}

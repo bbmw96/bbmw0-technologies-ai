@@ -171,3 +171,17 @@ If editing files via tools, prefer bash heredoc for full file rewrites — the `
 - Non-technical operator. Comfortable with PowerShell, GitHub web UI, YouTube Studio. Not comfortable with debugging code.
 - Wants daily 5 Shorts published autonomously, monthly long-form. Audience is general/kid-safe.
 - Plans to drive this for an indefinite period — engine should be self-maintaining.
+
+## @blankdiscussions: NO-REPEAT GATE (added 19 Oct 2026, mandatory)
+
+On 19 Oct 2026 eight multilingual zina reels were built and published that repeated verses and hadith already live as reels and carousels. Nobody audited what was already posted first. The owner deleted them by hand. It must never happen again.
+
+Before building, rendering or publishing ANY @blankdiscussions post, in this order:
+
+1. Pull the LIVE inventory (Composio INSTAGRAM_GET_IG_USER_MEDIA on connection instagram_willed-pried, ig_user_id 28477523595198052, every page) and read every caption. The repo lags reality (the 18 Oct posts had no meta.json for a day), so the repo alone is not enough.
+2. Run `node scripts/_bd_dupcheck.mjs <ref> ...` for every verse or hadith in the post. Exit 3 means it has already been published in some format. Stop. Pick a different ref. Deleting a repeat does not make the ref fresh.
+3. A different FORMAT of something already posted (carousel vs reel) is still a repeat. A different LANGUAGE set is still a repeat. If the owner wants a repeat, they must say so for that specific ref in the current conversation, and it is passed as `--owner-approved="<ref>: <what they said>"`.
+4. Record every published post in its meta.json AND, for multi-ref posts, in scripts/data/bd-extra-refs.json, in the same session, before ending it.
+5. If a choice question to the owner would only produce duplicates (for example "keep old or replace"), the answer is to not build it, not to build it and ask.
+
+The same principle applies to the YouTube channels: check what is already live before generating (topics are in published.json; the live check is the YouTube uploads playlist).
