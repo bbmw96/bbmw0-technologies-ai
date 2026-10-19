@@ -1,0 +1,64 @@
+{
+ "channel": "ig-blankdiscussions",
+ "reason": "The 18 Oct zina reels showed Arabic and English only. These carry all 8 languages (ar, en, zh, ko, ja, ms, th, es). Old reels left up by owner choice.",
+ "method": "ffmpeg slideshow of the carousel slide stills (scripts: mlreel.sh), 4.2 to 5 s per language",
+ "publishedVia": "Composio INSTAGRAM_POST_IG_USER_MEDIA (REELS) + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH, connection instagram_willed-pried",
+ "posts": [
+  {
+   "slug": "zina-ml-reel-01",
+   "mediaId": "18128368237892513",
+   "permalink": "https://www.instagram.com/reel/Deq24V6jv1w/",
+   "publishedAtUTC": "2026-10-19T08:44:54Z",
+   "videoUrl": "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-19/blankdiscussions/zina-ml-reel-01.mp4"
+  },
+  {
+   "slug": "zina-ml-reel-02",
+   "mediaId": "18133138828740246",
+   "permalink": "https://www.instagram.com/reel/Deq3L20Dp13/",
+   "publishedAtUTC": "2026-10-19T08:47:11Z",
+   "videoUrl": "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-19/blankdiscussions/zina-ml-reel-02.mp4"
+  },
+  {
+   "slug": "zina-ml-reel-03",
+   "mediaId": "18118587557053045",
+   "permalink": "https://www.instagram.com/reel/Deq3MU1AmDf/",
+   "publishedAtUTC": "2026-10-19T08:47:27Z",
+   "videoUrl": "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-19/blankdiscussions/zina-ml-reel-03.mp4"
+  },
+  {
+   "slug": "zina-ml-reel-04",
+   "mediaId": "18079007906459256",
+   "permalink": "https://www.instagram.com/reel/Deq3MB_DpaV/",
+   "publishedAtUTC": "2026-10-19T08:47:33Z",
+   "videoUrl": "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-19/blankdiscussions/zina-ml-reel-04.mp4"
+  },
+  {
+   "slug": "zina-ml-reel-05",
+   "mediaId": "18113779124134833",
+   "permalink": "https://www.instagram.com/reel/Deq3L4DlMXn/",
+   "publishedAtUTC": "2026-10-19T08:47:43Z",
+   "videoUrl": "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-19/blankdiscussions/zina-ml-reel-05.mp4"
+  },
+  {
+   "slug": "zina-ml-reel-06",
+   "mediaId": "18131330408501222",
+   "permalink": "https://www.instagram.com/reel/Deq3MFqE5Hn/",
+   "publishedAtUTC": "2026-10-19T08:47:43Z",
+   "videoUrl": "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-19/blankdiscussions/zina-ml-reel-06.mp4"
+  },
+  {
+   "slug": "zina-ml-reel-07",
+   "mediaId": "18641410720017634",
+   "permalink": "https://www.instagram.com/reel/Deq3ME2lWnA/",
+   "publishedAtUTC": "2026-10-19T08:47:43Z",
+   "videoUrl": "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-19/blankdiscussions/zina-ml-reel-07.mp4"
+  },
+  {
+   "slug": "zina-ml-reel-08",
+   "mediaId": "18013140992995315",
+   "permalink": "https://www.instagram.com/reel/Deq3P9zimjN/",
+   "publishedAtUTC": "2026-10-19T08:47:49Z",
+   "videoUrl": "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-19/blankdiscussions/zina-ml-reel-08.mp4"
+  }
+ ]
+}
