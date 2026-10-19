@@ -15,7 +15,7 @@
     "disclosure": "caption states AI-generated; set altered/synthetic flag if the platform offers it"
   },
   "auditBefore": "dupcheck NEW and live caption audit of 123 posts: no match",
-  "status": "BUILT and QA'd, NOT PUBLISHED. Owner approval required.",
+  "status": "published",
   "coverUrl": "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-19/blankdiscussions/cover-bukhari-990.jpg",
   "cover": "daily/2026-10-19/blankdiscussions/cover-bukhari-990.jpg",
   "publishNote": "When publishing pass cover_url=coverUrl so the grid thumbnail is the designed cover, not a black frame. Frame 0 of the video is also the cover.",
@@ -25,5 +25,9 @@
     "translations": "6 own translations independently back-translated and reviewed by a separate agent; all 6 flagged and corrected (Thai and Spanish had an added word 'more', Korean pronoun switch, others terminology)",
     "audio": "soft brown-noise bed only, mean about -28 dB, peak about -14 dB, no tones",
     "status_before": "first build had Thai tofu and black frame-0 thumbnails; rebuilt"
-  }
+  },
+  "mediaId": "18152759947534747",
+  "permalink": "https://www.instagram.com/reel/Der--DpFSJP/",
+  "publishedAt": "2026-10-19T19:14:48Z",
+  "verifiedAfterPublish": "caption and 5 hashtags intact"
 }
