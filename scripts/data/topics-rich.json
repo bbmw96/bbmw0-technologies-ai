@@ -15428,6 +15428,226 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "phineas-gage-tamping-iron-chile-coach-1848",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Phineas_Gage: read. Established the accident on 13 September 1848 near Cavendish, Vermont, while Gage was blasting rock as a railroad foreman; the tamping iron at 3 ft 7 in, 13¼ lb and 1¼ in across; its path under the left cheekbone and out of the top of the skull, landing about 80 ft (25 m) away; that he stayed conscious and spoke within minutes; the 1852 move to Chile to drive six-horse stagecoaches on the Valparaiso to Santiago route; his death on 21 May 1860; and Macmillan's argument that the 'no longer Gage' description was published in 1868, after his death, and that his later steady work undercuts the drifter story.",
+        "https://www.npr.org/transcripts/528966102: read. Corroborated the date, the 13 lb iron, Gage's age of 25 and his work as a railroad foreman, the stagecoach job in Chile, and quoted Malcolm Macmillan saying a personality change 'undoubtedly occurred' but 'did not last much longer than about two to three years'.",
+        "https://www.britannica.com/print/article/1940849: read. Corroborated the date, the iron at 13.25 lb and 1.25 in across, the exit through the top of the skull, that he was conscious and could speak straight after, the 1852 Chile coaching job, his death in May 1860 from seizures nearly 12 years later, and that little was recorded about his personality before or after, so the extent of any change is unknown."
+      ],
+      "verifiedNote": "Checked 19 Oct 2026 against three sources. No figure beat: the iron's length and flight distance differ slightly between sources (80 ft and 82 ft, 1.1 m and 1 m), so they are given as roughly 25 metres and about a metre, and the weight is 13 lb in the beats rather than 13¼. Deliberately not claimed: any specific behaviour attributed to Gage after the accident (the profanity quote is Harlow's, published later, and the sources disagree on how far it generalises), that he never changed at all (Macmillan says a change did occur), the Van Horn 2012 brain wiring work, and the exact place he died. The popular version being corrected is the 'permanent personality wreck' story, not the accident itself.",
+      "palette": {
+        "bg": "#11131A",
+        "ink": "#F1F3F8",
+        "accent": "#7C9CF5",
+        "muted": "#838896"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The famous story says the accident made him a different man",
+          "text": "The record is thinner than that.",
+          "note": "Malcolm Macmillan, who studied the case closely, says a personality change did occur but did not last much longer than two to three years."
+        },
+        {
+          "kind": "credit",
+          "year": "1848",
+          "name": "Phineas Gage",
+          "role": "Railroad foreman. On 13 September, near Cavendish, Vermont, a tamping iron went through his head. He was conscious and speaking within minutes."
+        },
+        {
+          "kind": "statement",
+          "lead": "The iron weighed 13 pounds",
+          "text": "And it went straight through.",
+          "note": "It entered below his left cheekbone, left through the top of his skull, and landed roughly 25 metres behind him."
+        },
+        {
+          "kind": "credit",
+          "year": "1852",
+          "name": "Stagecoach driver, Chile",
+          "role": "Gage drove six-horse coaches on the Valparaiso to Santiago route. Macmillan reads his hiring as evidence that the worst changes were temporary."
+        },
+        {
+          "kind": "statement",
+          "lead": "The line everyone quotes",
+          "text": "'No longer Gage' was published in 1868.",
+          "note": "That was eight years after he died. Little was recorded about his personality before or after the accident."
+        },
+        {
+          "kind": "kicker",
+          "text": "The iron went through his head. The legend went further than the evidence."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the case notes before the legend.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "petrov-26-september-1983-oko-five-missiles",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Stanislav_Petrov: read. Established 26 September 1983; Petrov as a lieutenant colonel and duty officer at the Oko early warning command centre; one missile reported with four more behind it, five in total; his reasoning (new and not fully trusted system, five seemed illogical as an opening strike, no corroboration from ground radar); the cause, sunlight aligned with high altitude clouds over North Dakota, later corrected by cross referencing a geostationary satellite; the reprimand for not describing the incident in the war diary alongside his own statement that he was neither rewarded nor punished; and that the incident became public through General Votintsev's memoirs.",
+        "https://www.theregister.com/2017/09/18/stanislav_petrov_obit/: read. Corroborated five missiles (one, then four more), that Oko was new and buggy, that Petrov judged the US would not fire only five, that Oko was reading sunlight off the tops of heavy clouds as launches, that superiors later demoted or criticised him over paperwork, and that his role stayed secret until a Russian general's memoirs in 1997.",
+        "https://historyrevealed.com/period/cold-war/stanislav-petrov-soviet-soldier-saved-the-world: read. Corroborated the date, shortly after midnight, five missiles reported, the sunlight on high altitude clouds explanation, that he was interrogated and reprimanded over procedure and paperwork, and that the story emerged in the late 1990s."
+      ],
+      "verifiedNote": "Checked 19 Oct 2026 against three sources. Sources disagree on small points, so the beats avoid them: the year the story went public (1997 or 1998), whether Petrov was reprimanded, demoted or neither (he says neither rewarded nor punished), and how many missiles a real strike would involve (one source says thousands, which is not repeated). The '30 levels of checks' quote appears in The Register and Wikipedia but is not used. Deliberately not claimed: that Petrov personally could have launched anything, or that he alone prevented war. The beats say only that he judged it a false alarm and held back the report. Figure beat is 5 missiles because five is the number his reasoning turned on.",
+      "palette": {
+        "bg": "#0E0D0B",
+        "ink": "#F0ECDF",
+        "accent": "#C8452F",
+        "muted": "#786F5E"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The man who saved the world",
+          "text": "Was criticised over paperwork.",
+          "note": "Accounts of how he was treated differ, but several describe a reprimand for how the incident was written up."
+        },
+        {
+          "kind": "credit",
+          "year": "26 Sep 1983",
+          "name": "Lieutenant Colonel Stanislav Petrov",
+          "role": "Duty officer at the Soviet Oko early warning centre. Shortly after midnight, the system reported a US missile launch."
+        },
+        {
+          "kind": "figure",
+          "value": "5",
+          "unit": "missiles",
+          "context": "Oko showed one, then four more. Petrov doubted a real attack would start with five, and the new system had not earned his trust."
+        },
+        {
+          "kind": "statement",
+          "lead": "The cause",
+          "text": "Sunlight on clouds.",
+          "note": "Oko had misread sunlight reflecting off high altitude clouds as missile launches. A geostationary satellite later helped correct the error."
+        },
+        {
+          "kind": "statement",
+          "lead": "The world found out",
+          "text": "From a general's memoirs.",
+          "note": "The incident stayed secret until the late 1990s."
+        },
+        {
+          "kind": "kicker",
+          "text": "Five dots on a screen, a faulty sensor, and a man who waited for confirmation."
+        },
+        {
+          "kind": "sign",
+          "line": "Sometimes the best decision is waiting for proof.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "habit-66-days-not-21-lally-ucl",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://blogs.ucl.ac.uk/bsh/2012/06/29/busting-the-21-days-habit-formation-myth/: read. Established Maltz's 1960 book Psycho-Cybernetics saying it takes a minimum of about 21 days to effect any perceptible change in a mental image, based on examples like plastic surgery recovery and phantom limbs rather than habit research; the Lally study tracking people for 84 days; an average of 66 days for the habit to form; one person at 18 days; and another forecast at 254 days.",
+        "https://bps.org.uk/research-digest/how-form-habit: read. Corroborated 96 recruited and 82 completing, the 84 day study length, the 66 day average to maximum automaticity, the 18 to 254 day range with 254 extrapolated beyond the study end, and that a single missed day had little effect on later gains while many missed repetitions cumulatively lowered the automaticity reached.",
+        "https://www.spring.org.uk/?p=107834 and https://jamesclear.com/new-habit: read. Corroborated 96 UCL participants, the 66 day average, the 18 to 254 day range, Maltz's 21 day claim and that the 254 figure is an estimate because the study ran only 12 weeks."
+      ],
+      "verifiedNote": "Checked 19 Oct 2026. The 66 days is an average, not a median: the BPS digest and others say mean or average, and only some secondary writeups say median, so the beats say average. The paper's Wiley page could not be fetched, so the numbers come from the BPS Research Digest, the UCL blog and two secondary summaries that agree with each other. Publication year is shown as 2010 (journal issue, per the BPS and UCL pieces); one summary says 2009, probably the online date. Not claimed: that habits take 66 days for everyone, that the 21 day idea is the only source of the myth (the UCL blog suggests confusion with habituation, which is left out), or any claim about what Maltz himself believed beyond the quoted sentence.",
+      "palette": {
+        "bg": "#131211",
+        "ink": "#F3F0EA",
+        "accent": "#D97757",
+        "muted": "#89827A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "Everyone says habits take 21 days",
+          "text": "That number came from a book about mental images.",
+          "note": "Maxwell Maltz's 1960 book Psycho-Cybernetics said it takes a minimum of about 21 days for a mental image to change, drawing on plastic surgery recovery and phantom limbs."
+        },
+        {
+          "kind": "credit",
+          "year": "2010",
+          "name": "Phillippa Lally and colleagues, UCL",
+          "role": "96 volunteers picked a new daily habit, such as eating fruit with lunch, and rated how automatic it felt over 84 days."
+        },
+        {
+          "kind": "figure",
+          "value": "66",
+          "unit": "days",
+          "context": "The average time for a habit to feel automatic. Individuals ranged from 18 days to a forecast 254."
+        },
+        {
+          "kind": "statement",
+          "lead": "The 254",
+          "text": "Was a forecast.",
+          "note": "The study stopped at 84 days, so the longest time was projected, not observed."
+        },
+        {
+          "kind": "statement",
+          "lead": "Missing a day",
+          "text": "Barely mattered.",
+          "note": "One missed day had little effect on later progress. Many missed days, added up, lowered how automatic the habit became."
+        },
+        {
+          "kind": "kicker",
+          "text": "Roughly two months, with a very wide range."
+        },
+        {
+          "kind": "sign",
+          "line": "Give a habit time, and forgive the odd miss.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "salem-1692-nineteen-hanged-none-burned",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Salem_witch_trials: read. Established the trials running from February 1692 to May 1693; 19 executed by hanging (14 women and 5 men), the first hanging on 10 June 1692 and the last on 22 September 1692; Giles Corey, 81, pressed to death with stones over two days for refusing to plead, in September 1692; at least five others dying in jail; and that the idea of burned American witches is false.",
+        "https://www.history.com/articles/were-witches-burned-at-the-stake-during-the-salem-witch-trials: read. Established that none of the condemned was burned at the stake, that 19 were hanged at Gallows Hill in accordance with English law, that Giles Corey was pressed to death for refusing to plead, and that the burning myth likely comes from European witch trials where fire was common.",
+        "https://blogs.loc.gov/law/2020/10/the-crushing-death-of-giles-corey-of-salem-1692/: read (Library of Congress). Corroborated Corey as an 81 year old pressed to death between 17 and 19 September 1692 under peine forte et dure for refusing to submit to trial, and 19 people hanged."
+      ],
+      "verifiedNote": "Checked 19 Oct 2026 against three sources. The sources give Corey's death as 19 September (Wikipedia) or between 17 and 19 September (Library of Congress), so the beats say only that it was in September 1692. Whether history.com's 'English law' point includes a rule that burning was reserved for other crimes was not stated in what was read, so that is not claimed. Not used because only one source gave them: more than 200 accused, 30 convicted, the Proctor's Ledge execution site identified in 2016, and the 1711 reversal of judgments. The number of people who died in jail is given as at least five, from Wikipedia only, so it is left out of the beats. Figure beat is 19 hanged because it is the central count and all three sources agree.",
+      "palette": {
+        "bg": "#0E0D0B",
+        "ink": "#F0ECDF",
+        "accent": "#C8452F",
+        "muted": "#786F5E"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The story says Salem burned its witches",
+          "text": "Not one of them was.",
+          "note": "None of the condemned was burned at the stake. The idea likely comes from European trials, where fire was common. Salem followed English law and used the gallows."
+        },
+        {
+          "kind": "figure",
+          "value": "19",
+          "unit": "hanged",
+          "context": "Fourteen women and five men were hanged between 10 June and 22 September 1692."
+        },
+        {
+          "kind": "statement",
+          "lead": "One more man died in a different way",
+          "text": "Giles Corey was pressed to death.",
+          "note": "He was 81. He refused to enter a plea, so stones were piled on him in September 1692."
+        },
+        {
+          "kind": "kicker",
+          "text": "The fire belongs to Europe. Salem used rope."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the myth against the record.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
