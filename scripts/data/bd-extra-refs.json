@@ -122,6 +122,9 @@
     ],
     "carousel-18oct-bukhari-5590": [
       "bukhari:5590"
+    ],
+    "dola4-quran-72-18-reel": [
+      "quran:72:18"
     ]
   },
   "_note18Oct": "The 22 hadith carousels published 18 Oct 2026 (mediaIds in the Claude project doc claude/blankdiscussions-zina-series-status.md) have no meta.json yet because the PC was offline. Listed here so the gate sees them."
