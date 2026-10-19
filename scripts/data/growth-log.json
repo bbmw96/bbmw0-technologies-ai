@@ -182,6 +182,35 @@
         "publicVideos": 155
       },
       "note": "Versus 2026-09-25: yt-bbmw0 subs 5 to 7, views 10427 to 15581 (+5154 in 17 days); yt-bbm0902 subs 2 to 2, views 1926 to 1938 (+12, flat because it has published nothing since 5 Oct, topic supply exhausted). videoCount is YouTube's cached count and includes unlisted videos, so it is not a public count. Still far from the 1,000 sub gate. Instagram not read."
+    },
+    {
+      "date": "2026-10-19",
+      "week": "2026-W43",
+      "source": "Composio YOUTUBE_GET_CHANNEL_STATISTICS (explicit channel id, per-account)",
+      "channels": {
+        "yt-bbmw0": {
+          "handle": "@bbmw.0",
+          "channelId": "UCSRkqZ0PckW8ae-cnZcN1hw",
+          "subscribers": 7,
+          "views": 16217,
+          "publicVideos": 127,
+          "reelsLive": null
+        },
+        "yt-bbm0902": {
+          "handle": "@bbm0902",
+          "channelId": "UC5O9s1vte7UiLICKP1pHiIQ",
+          "subscribers": 2,
+          "views": 1939,
+          "publicVideos": 39,
+          "reelsLive": null
+        }
+      },
+      "totals": {
+        "subscribers": 9,
+        "views": 18156,
+        "publicVideos": 166
+      },
+      "note": "Versus 2026-10-12: yt-bbmw0 views 15581 to 16217 (+636 in 7 days, about 91/day, down sharply from about 470/day in late Sep), subscribers flat at 7. yt-bbm0902 views +1, subs flat at 2, no uploads since 5 Oct because its topic supply is zero. videoCount includes unlisted so it is not a public count. Trend: growth has stalled despite daily reels on yt-bbmw0; 9 subscribers total against a 1,000 gate. Instagram not read."
     }
   ]
 }

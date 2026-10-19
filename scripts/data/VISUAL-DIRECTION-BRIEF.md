@@ -578,3 +578,9 @@ order:
 
 A beautiful format with nothing true to say, or with false numbers still live
 behind it, is worth less than a plain one that is honest and consistent.
+
+## ADDED 19 Oct 2026, weekly director pass: the blocker is supply, not visuals
+
+Pipeline green (6 of 6 recent runs success, all published items themeId=reel, no old-style leaks). But unused verified reel topics are: yt-bbm0902 = 0 (niches animals, space, biology, food, weather; 42 topics all used), yt-bbmw0 = 8 (about 3 days at 3 per day), ig-aigameodyssey = 19 but its channel entry is enabled:false. yt-bbm0902 has published nothing since 5 Oct. Views on yt-bbmw0 fell from about 470/day to about 91/day over the last two weeks with subscribers flat at 7, so more thin volume is not the lever.
+
+Why no visual change was shipped this week: any render improvement is wasted if the channel has nothing to publish by Thursday. Next week's one thing: research and verify at least 12 new sourced topics (6 per active YouTube channel, each with primary sources and a verifiedNote) into topics-rich.json, then return to the loop ending / first-5s work. Also decide whether ig-aigameodyssey should be re-enabled, since 19 verified gaming and AI topics sit unused there.
