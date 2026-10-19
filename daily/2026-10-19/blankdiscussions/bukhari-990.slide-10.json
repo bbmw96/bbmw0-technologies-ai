@@ -1,0 +1,15 @@
+{
+  "theme": "midnight-silver",
+  "kind": "citation",
+  "lines": [
+    "Sahih al-Bukhari 990 (Book 14, Hadith 1)",
+    "Narrated by Ibn `Umar",
+    "Arabic & English: hadith-api (cdn.jsdelivr.net/gh/fawazahmed0/hadith-api)",
+    "Chinese, Korean, Japanese, Malay, Thai, Spanish:",
+    "Claude's own translation from the verified Arabic and English",
+    "(hadith-api has no edition in these languages)"
+  ],
+  "handle": "@blankdiscussions",
+  "slideNumber": 10,
+  "slideTotal": 10
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "bukhari-990",
+  "date": "2026-10-19",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "reel",
+  "caption": "The night prayer and Witr\n\nSahih al-Bukhari 990 (Book 14, Hadith 1), narrated by Ibn Umar: the night prayer is two rak'ahs by two, and whoever fears the dawn prays one rak'ah, which makes his prayer Witr. Shown in Arabic, English, Mandarin, Korean, Japanese, Malay, Thai and Spanish.\n\nArabic and English are from hadith-api. The Chinese, Korean, Japanese, Malay, Thai and Spanish are Claude's own translations from the verified Arabic and English, as no edition exists in those languages. Sources on the final frame.\n\nBackground footage is AI-generated (altered or synthetic content).\n\n#Witr #Hadith #IslamicReminder #NightPrayer #Sunnah",
+  "theme": "midnight-silver",
+  "video": "daily/2026-10-19/blankdiscussions/cine-bukhari-990-reel.mp4",
+  "videoUrl": "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-19/blankdiscussions/cine-bukhari-990-reel.mp4",
+  "footage": {
+    "source": "user-supplied Connect_Dola_to_Claude_4.mp4 (Dola AI generated)",
+    "edit": "cinematic cut: watermark cropped out (686x1220 @17,0), 8 slow-motion beats with push-in/pull-out zoom, warm/teal grade, vignette, grain, cross-dissolves, synthesized ambient drone, 8-language text overlay",
+    "disclosure": "caption states AI-generated; set altered/synthetic flag if the platform offers it"
+  },
+  "auditBefore": "dupcheck NEW and live caption audit of 123 posts: no match",
+  "status": "BUILT, NOT PUBLISHED. Owner said do not publish; awaiting explicit approval."
+}

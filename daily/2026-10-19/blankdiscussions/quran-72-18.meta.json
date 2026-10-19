@@ -19,5 +19,5 @@
     "render_note": "Arabic slide rendered with Amiri font (default fallback lacked U+06DF and U+06ED); verified visually"
   },
   "auditBefore": "scripts/_bd_dupcheck.mjs quran:72:18 = NEW; live Instagram caption audit found no 72:18 / Al-Jinn post",
-  "status": "scheduled for 2026-10-19T19:00:00Z (8PM BST)"
+  "status": "BUILT, NOT PUBLISHED. Owner said do not publish; the 8PM schedule was never created. Footage edit judged too light (crop only); superseded by cine-* reels."
 }
