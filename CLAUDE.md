@@ -185,3 +185,14 @@ Before building, rendering or publishing ANY @blankdiscussions post, in this ord
 5. If a choice question to the owner would only produce duplicates (for example "keep old or replace"), the answer is to not build it, not to build it and ask.
 
 The same principle applies to the YouTube channels: check what is already live before generating (topics are in published.json; the live check is the YouTube uploads playlist).
+
+
+## @blankdiscussions: PRE-PUBLISH QA GATE (added 19 Oct 2026, mandatory, after the Thai tofu / black thumbnail incident)
+Nothing is published until ALL of these are done and looked at, not assumed:
+1. FONTS: render host must have Noto Sans Thai, Noto CJK and Amiri (Quranic marks U+06DF, U+06ED). View EVERY slide of EVERY language at readable size. Any empty box = stop.
+2. TRANSLATIONS: Quran text only from alquran.cloud editions (fetch twice, identical). Any text in a language with no source edition (all hadith zh/ko/ja/ms/th/es) must be back-translated by an independent reviewer (separate agent, given only source and candidate) and corrected; look for added/omitted words (e.g. "one more rak'ah"), pronoun switches, wrong honorifics, community terminology. Disclose own translations on the last frame and in the caption.
+3. THUMBNAIL: the Instagram grid shows frame 0 (or cover_url). Frame 0 must be a designed cover (title, Arabic, languages), never black or a fade-in. Pass cover_url on publish. Existing reels cannot have the cover changed through the API.
+4. AUDIO: no synthetic tones. Soft ambience only, mean about -28 dB, peak below -12 dB, or silent. Listen-test is impossible for me, so keep it conservative and say so.
+5. CONTEXT: title/caption must not overclaim; verse/hadith context and reference numbers verified against the live source.
+6. DUPLICATES: run the NO-REPEAT GATE above.
+7. APPROVAL: show the owner the final video files (SendUserFile of the FINAL mp4, not intermediates) and publish only on explicit go-ahead.
