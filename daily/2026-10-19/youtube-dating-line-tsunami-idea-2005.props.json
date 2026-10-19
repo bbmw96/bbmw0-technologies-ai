@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (youtube-dating-line-tsunami-idea-2005)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#11131A",
+    "ink": "#F1F3F8",
+    "accent": "#7C9CF5",
+    "muted": "#838896"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "YouTube started as a dating site.",
+      "note": "The source is co-founder Jawed Karim himself, in a 2007 commencement speech at the University of Illinois.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "Read the wording",
+      "text": "He said they called it that to generate interest.",
+      "note": "His words: \"To generate interest we just said it was a new kind of dating site.\" The slogan was \"Tune in, Hook up.\"",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2004",
+      "name": "The Indian Ocean tsunami",
+      "role": "Karim said there was no good way to find video clips of it online. By February 2005 he and two PayPal colleagues were discussing a video sharing website.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "20",
+      "unit": "dollars",
+      "context": "What they offered women for every video uploaded, in Craigslist posts in Los Angeles and Las Vegas.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "statement",
+      "lead": "Few people came",
+      "text": "So Karim filled it with videos of 747s.",
+      "note": "By June the site was revamped to be more open and more general.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "kicker",
+      "text": "The dating line was the pitch. The idea was video.",
+      "durationInFrames": 82
+    },
+    {
+      "kind": "sign",
+      "line": "Read the speech, not the summary.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

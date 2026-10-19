@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (phineas-gage-tamping-iron-chile-coach-1848)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#11131A",
+    "ink": "#F1F3F8",
+    "accent": "#7C9CF5",
+    "muted": "#838896"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The famous story says the accident made him a different man",
+      "text": "The record is thinner than that.",
+      "note": "Malcolm Macmillan, who studied the case closely, says a personality change did occur but did not last much longer than two to three years.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1848",
+      "name": "Phineas Gage",
+      "role": "Railroad foreman. On 13 September, near Cavendish, Vermont, a tamping iron went through his head. He was conscious and speaking within minutes.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "statement",
+      "lead": "The iron weighed 13 pounds",
+      "text": "And it went straight through.",
+      "note": "It entered below his left cheekbone, left through the top of his skull, and landed roughly 25 metres behind him.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "credit",
+      "year": "1852",
+      "name": "Stagecoach driver, Chile",
+      "role": "Gage drove six-horse coaches on the Valparaiso to Santiago route. Macmillan reads his hiring as evidence that the worst changes were temporary.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "The line everyone quotes",
+      "text": "'No longer Gage' was published in 1868.",
+      "note": "That was eight years after he died. Little was recorded about his personality before or after the accident.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "kicker",
+      "text": "The iron went through his head. The legend went further than the evidence.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "sign",
+      "line": "Check the case notes before the legend.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

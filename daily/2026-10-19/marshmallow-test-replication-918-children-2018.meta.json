@@ -1,0 +1,25 @@
+{
+  "slug": "marshmallow-test-replication-918-children-2018",
+  "date": "2026-10-19",
+  "title": "The popular version. Wait for the marshmallow and you will succeed in life.",
+  "description": "Wait for the marshmallow and you will succeed in life. Early studies reported correlations of .57 with SAT maths and .42 with SAT verbal.\n\nThe sample in the 2018 replication. Delay was measured at 54 months old, then the children were followed to age 15.\n\nThe link was only half the size. The authors say the raw association was only half the size of those in the original studies.\n\nControl for family and early ability, and it shrinks by about two thirds. For children whose mothers had not completed college, the age 15 coefficient fell from 0.236 to 0.081.\n\nInclude thinking and behaviour at 54 months, and it is no longer significant. The coefficient fell to 0.050, with a p value of 0.14.\n\nWaiting told you much less once you knew the child's background.\n\nSources:\n- https://www.gwern.net/doc/psychology/2018-watts.pdf (read): Watts, Duncan and Quan 2018 replication paper: full sample n = 918 (552 children whose mothers had not completed college, 366 whose mothers had); gratification delay measured at 54 months, outcomes at Grade 1 and age 15; the bivariate association was \"only half the size of those reported in the original studies\"; original Shoda et al. 1990 reported r = .57 (SAT maths) and r = .42 (SAT verbal); in the non-college sample the unadjusted age-15 coefficient was 0.236, falling to 0.081 with family background and early cognitive controls and to 0.050 (p = .140, not significant) with concurrent cognitive and behavioural controls; the authors call the association highly sensitive to the inclusion of control variables.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "productivity",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-10-19-marshmallow-test-replication-918-children-2018.mp4",
+  "propsFile": "daily/2026-10-19/marshmallow-test-replication-918-children-2018.props.json",
+  "durationInFrames": 1116,
+  "audioUrl": "",
+  "niche": "productivity",
+  "composition": "Reel"
+}

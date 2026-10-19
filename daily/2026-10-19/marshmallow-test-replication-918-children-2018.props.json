@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (marshmallow-test-replication-918-children-2018)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#1A1420",
+    "ink": "#F7F3FA",
+    "accent": "#F08FB3",
+    "muted": "#9488A0"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "Wait for the marshmallow and you will succeed in life.",
+      "note": "Early studies reported correlations of .57 with SAT maths and .42 with SAT verbal.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "figure",
+      "value": "918",
+      "unit": "children",
+      "context": "The sample in the 2018 replication. Delay was measured at 54 months old, then the children were followed to age 15.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "First result",
+      "text": "The link was only half the size.",
+      "note": "The authors say the raw association was only half the size of those in the original studies.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "Add the background",
+      "text": "Control for family and early ability, and it shrinks by about two thirds.",
+      "note": "For children whose mothers had not completed college, the age 15 coefficient fell from 0.236 to 0.081.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Add the last controls",
+      "text": "Include thinking and behaviour at 54 months, and it is no longer significant.",
+      "note": "The coefficient fell to 0.050, with a p value of 0.14.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "kicker",
+      "text": "Waiting told you much less once you knew the child's background.",
+      "durationInFrames": 88
+    },
+    {
+      "kind": "sign",
+      "line": "Check the controls.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

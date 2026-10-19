@@ -1,0 +1,20 @@
+Rendering 3 Shorts for 2026-10-19 (concurrency=3, GL=default)
+Compliance: 1 cleared, 2 blocked (policy v1.0.0).
+Blocked by compliance: phineas-gage-tamping-iron-chile-coach-1848, youtube-dating-line-tsunami-idea-2005
+
+--- marshmallow-test-replication-918-children-2018 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-19-marshmallow-test-replication-918-children-2018.mp4
+  uploaded public: https://youtu.be/YSOFatEre18
+
+--- phineas-gage-tamping-iron-chile-coach-1848 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-19-phineas-gage-tamping-iron-chile-coach-1848.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-10-19/compliance-verdict.json.
+
+--- youtube-dating-line-tsunami-idea-2005 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-19-youtube-dating-line-tsunami-idea-2005.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-10-19/compliance-verdict.json.
+
+=== Done. 3 rendered, 1 uploaded, 0 skipped, 2 blocked by compliance, 0 failed. ===
