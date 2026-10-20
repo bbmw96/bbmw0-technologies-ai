@@ -15648,6 +15648,236 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "kodak-sasson-first-digital-camera-toaster-1975",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Steven_Sasson: read. Established that Sasson, an electrical engineer, was assigned in 1975 to build an electronic camera around a commercially available CCD; the camera recorded 100 x 100 pixels (0.01 megapixels) in black and white from a Fairchild CCD, weighed 8 pounds (3.6 kg), took 23 seconds per image and recorded to cassette tape; Kodak filed the patent in 1977 naming Sasson and Gareth Lloyd (US 4,131,919).",
+        "https://spectrum.ieee.org/first-digital-camera-history: read (IEEE Spectrum). Established that capture took 50 milliseconds but writing to tape took 23 seconds (Sasson's own words); that a separate playback unit converted the tape data to an NTSC signal for a television; that the device was about the size of a toaster; that Kodak executives said they did not see a market for it and it was never produced; and a patent granted in 1978.",
+        "https://petapixel.com/2017/09/21/kodak-said-digital-photography-1975/: read. Established Sasson's account to the New York Times that the executives were convinced no one would ever want to look at their pictures on a television set."
+      ],
+      "verifiedNote": "Checked 20 Oct 2026 against three sources. Wikipedia says the patent was filed in 1977 and IEEE Spectrum says it was granted in 1978, so the beat says only that a patent followed. Sasson's age was not given in any source read, so it is not claimed. IEEE reports Sasson was reportedly not allowed to discuss the camera outside Kodak; that is hearsay in the source and is left out. The 'first digital camera' claim is hedged to 'built at Kodak' because the sources establish this prototype, not a ranking against every earlier device. Kodak's later digital products and bankruptcy were not read and are not claimed. Figure beat is 23 seconds because it is the surprising contrast with the 50 millisecond capture.",
+      "palette": {
+        "bg": "#14110D",
+        "ink": "#F4EFE4",
+        "accent": "#E0A526",
+        "muted": "#8C8372"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "1975",
+          "text": "Kodak built a digital camera the size of a toaster.",
+          "note": "An engineer named Steven Sasson assembled it around a Fairchild CCD sensor. It weighed 3.6 kilograms."
+        },
+        {
+          "kind": "statement",
+          "lead": "The picture",
+          "text": "It was 100 by 100 pixels, in black and white.",
+          "note": "That is 0.01 megapixels. The image was recorded onto a cassette tape."
+        },
+        {
+          "kind": "figure",
+          "value": "23",
+          "unit": "seconds",
+          "context": "The time it took to write one picture to tape. Capturing it took only 50 milliseconds."
+        },
+        {
+          "kind": "statement",
+          "lead": "The playback",
+          "text": "You watched your photo on a television.",
+          "note": "A separate unit turned the tape data into a standard NTSC signal for a TV screen."
+        },
+        {
+          "kind": "statement",
+          "lead": "Kodak's answer",
+          "text": "The executives did not see a market for it.",
+          "note": "Sasson told the New York Times they were convinced no one would ever want to look at their pictures on a television set. The camera was never produced."
+        },
+        {
+          "kind": "kicker",
+          "text": "Kodak invented it, then filed the patent and moved on."
+        },
+        {
+          "kind": "sign",
+          "line": "Ask who builds the future, and who ships it.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "hubble-mirror-2200-nanometres-too-flat-1990",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hubble_Space_Telescope: read. Established that the primary mirror was 2.4 m across; launch on 24 April 1990 aboard Space Shuttle Discovery (STS-31); that images within weeks showed the problem; that the outer edge was too flat by about 2200 nanometres (2.2 micrometres); that the Allen Commission found a reflective null corrector had been incorrectly assembled with one lens out of position by 1.3 mm; and that COSTAR was installed in 1993 on the first servicing mission, STS-61, in December 1993.",
+        "https://asd.gsfc.nasa.gov/archive/hubble/missions/sm1.html: read (NASA Goddard archive). Established that the edge was ground too flat by 2.2 microns, roughly one fiftieth the thickness of a human hair; that this caused spherical aberration and fuzzy images; that COSTAR was a telephone booth sized instrument with five pairs of corrective mirrors placed in front of the Faint Object Camera, Faint Object Spectrograph and Goddard High Resolution Spectrograph; and that STS-61 aboard Endeavour flew from 2 to 13 December 1993."
+      ],
+      "verifiedNote": "Checked 20 Oct 2026 against two sources. Both give the error as 2.2 micrometres, so the figure beat uses the whole number 2200 in nanometres, which Wikipedia states. Not claimed: the cost of the repair, the number of spacewalks (the NASA page did not state it), claims that the mirror was the most precisely polished ever made (appears in search snippets only, not read), and any detail of how the flaw was missed in testing beyond the null corrector assembly error.",
+      "palette": {
+        "bg": "#0A0F1C",
+        "ink": "#EEF2FA",
+        "accent": "#6FA8FF",
+        "muted": "#7B87A3"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "24 April 1990",
+          "text": "Hubble launched with a mirror that was the wrong shape.",
+          "note": "Within weeks, its first images came back blurred."
+        },
+        {
+          "kind": "figure",
+          "value": "2200",
+          "unit": "nm",
+          "context": "How much too flat the edge of the 2.4 metre mirror was. NASA puts it at about one fiftieth the thickness of a human hair."
+        },
+        {
+          "kind": "statement",
+          "lead": "The cause",
+          "text": "A test instrument had been put together wrongly.",
+          "note": "The Allen Commission found the null corrector was incorrectly assembled, with one lens 1.3 millimetres out of position."
+        },
+        {
+          "kind": "statement",
+          "lead": "The fix",
+          "text": "Astronauts fitted it with glasses.",
+          "note": "COSTAR, the size of a telephone booth, carried five pairs of corrective mirrors in front of three instruments."
+        },
+        {
+          "kind": "statement",
+          "lead": "December 1993",
+          "text": "The repair flew on Space Shuttle Endeavour.",
+          "note": "Mission STS-61 ran from 2 to 13 December 1993."
+        },
+        {
+          "kind": "kicker",
+          "text": "A flaw thinner than a hair needed a shuttle to fix."
+        },
+        {
+          "kind": "sign",
+          "line": "Small errors travel a long way.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "apollo-11-1202-alarm-garman-crib-sheet-1969",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Apollo_Guidance_Computer: read. Established that during the Apollo 11 descent the computer showed a 1202 alarm (Executive overflow, no core sets) and then a 1201 alarm (no VAC areas); that spurious cycle steals from the rendezvous radar, left on standby, overloaded it; that priority scheduling shed lower priority tasks such as the 1668 display and finished the critical guidance work after each alarm; that guidance controller Steve Bales and his support team including Jack Garman issued GO calls; and that the landing succeeded.",
+        "https://en.wikipedia.org/wiki/Jack_Garman: read. Established that Garman told Bales the computer could be relied on provided the alarms did not become continuous; that Kranz had told him to study and write down every possible program alarm; that he made a handwritten list of every alarm code with the correct reaction and kept it under the plexiglass on his desk; and Bales' later remark that Garman had these things memorised.",
+        "https://www.smithsonianmag.com/air-space-magazine/troubleshooting-101-1201-actually-and-1202-too-111339271/: read (Air & Space). Established that earlier in a simulation a 1201 alarm had led Bales to abort the simulated landing because the team could not identify the code; that Garman, Bales and Capcom Charlie Duke recognised the alarms on the day; and that the computer, overwhelmed by radar data, started dropping unnecessary programs."
+      ],
+      "verifiedNote": "Checked 20 Oct 2026 against three sources. Not claimed: Garman's age (not stated in a source; a birth date implies about 24 but that is a calculation), the exact count of alarms (Wikipedia says at least four, the other sources give no count), the 13 per cent and 85 per cent load figures (one source only), the attribution of the scheduler design to named individuals, and who exactly spoke the GO call (sources differ in emphasis). The Wikipedia explanation of cause cites a flawed interface document, which the Smithsonian piece frames differently, so the beat says only that radar data overloaded the computer. No figure beat: nothing here earns 300px honestly.",
+      "palette": {
+        "bg": "#0C0F12",
+        "ink": "#F2F2EC",
+        "accent": "#E8B04A",
+        "muted": "#7E8791"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The rehearsal",
+          "text": "In a simulation, Mission Control aborted over this alarm.",
+          "note": "A 1201 alarm appeared, nobody could identify the code, and the guidance officer, Steve Bales, called off the practice landing."
+        },
+        {
+          "kind": "statement",
+          "lead": "20 July 1969",
+          "text": "Then it appeared for real, during the Apollo 11 descent.",
+          "note": "The computer flashed 1202, then 1201. Executive overflow."
+        },
+        {
+          "kind": "statement",
+          "lead": "The cause",
+          "text": "Radar data was swamping it.",
+          "note": "The computer began dropping lower priority tasks and kept the critical guidance work running, restarting after each alarm."
+        },
+        {
+          "kind": "credit",
+          "year": "1969",
+          "name": "Jack Garman",
+          "role": "Young computer specialist in Mission Control. After being told to study every possible program alarm, he had written each code and its correct response on a handwritten list under the plexiglass on his desk."
+        },
+        {
+          "kind": "statement",
+          "lead": "The call",
+          "text": "Bales trusted him, and the landing went ahead.",
+          "note": "Garman had told Bales the computer could be relied on as long as the alarms did not become continuous."
+        },
+        {
+          "kind": "kicker",
+          "text": "A list under the glass on a desk kept the landing on."
+        },
+        {
+          "kind": "sign",
+          "line": "Prepare for the alarm you hope never comes.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "mars-pathfinder-priority-inversion-fixed-from-earth-1997",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mars_Pathfinder: read. Established that the lander ran VxWorks; that resets caused by priority inversion occurred on 5, 10, 11 and 14 July 1997; that the bug had appeared in preflight testing but was given low priority; that no science or engineering data was lost after a reset but later operations were interrupted until the next day; that engineers reproduced and corrected it from Earth on a laboratory duplicate using logging and debugging functions left enabled; and that a patch enabling priority inheritance was applied on 21 July.",
+        "https://people.eecs.berkeley.edu/~jfc/duan/teaching/cs162-fa04/What%20really%20happened%20on%20Mars.htm: read (Mike Jones' note of 7 December 1997, RISKS-19.49). Established the three tasks: a high priority bus management task, a low priority meteorological task holding the bus mutex, and a medium priority communications task; that the medium task could preempt the low one so the high one stayed blocked; that a watchdog timer then forced a total reset; that JPL had seen one or two resets in preflight testing and put them down to a hardware glitch; that the mutex had priority inheritance switched off; and that uploading a short C program changed the global flags from FALSE to TRUE."
+      ],
+      "verifiedNote": "Checked 20 Oct 2026 against two sources. Not claimed: any quote from Glenn Reeves (his interview appeared only in search results and was not read), the precise number of resets beyond the four dates Wikipedia gives, and the exact upload date of the C program (Wikipedia gives 21 July for the patch, the Jones note gives no date). The two sources agree on the mechanism. Wikipedia says the bug was treated as a glitch; Jones says hardware glitch; the beat uses 'glitch' only. No figure beat: the reset count does not earn 300px.",
+      "palette": {
+        "bg": "#170E0C",
+        "ink": "#F6EEE8",
+        "accent": "#E3633A",
+        "muted": "#8F7A70"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "July 1997",
+          "text": "Pathfinder landed on Mars, then kept rebooting.",
+          "note": "Resets hit on 5, 10, 11 and 14 July. Each one interrupted operations until the next day."
+        },
+        {
+          "kind": "statement",
+          "lead": "The warning",
+          "text": "The bug had shown up before launch.",
+          "note": "Engineers saw resets in testing and put them down to a glitch. It was treated as low priority."
+        },
+        {
+          "kind": "statement",
+          "lead": "The cause",
+          "text": "A low priority task was holding the door.",
+          "note": "It held a lock the high priority bus task needed, while a medium priority task kept pre-empting it. A watchdog saw the bus task stuck and reset everything. That is priority inversion."
+        },
+        {
+          "kind": "statement",
+          "lead": "The fix",
+          "text": "Priority inheritance was switched off.",
+          "note": "The setting was a flag in the flight software. Engineers reproduced the fault on a laboratory copy of the lander."
+        },
+        {
+          "kind": "statement",
+          "lead": "21 July",
+          "text": "They patched it from Earth.",
+          "note": "A short program changed the flags from false to true, and the resets stopped."
+        },
+        {
+          "kind": "kicker",
+          "text": "The debugging tools they left switched on were the ones that saved the mission."
+        },
+        {
+          "kind": "sign",
+          "line": "Never strip out your own diagnostics.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
