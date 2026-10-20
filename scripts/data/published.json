@@ -331,7 +331,10 @@
     "reel:franklin-daily-schedule-order-gave-most-trouble",
     "reel:marshmallow-test-replication-918-children-2018",
     "reel:youtube-dating-line-tsunami-idea-2005",
-    "reel:phineas-gage-tamping-iron-chile-coach-1848"
+    "reel:phineas-gage-tamping-iron-chile-coach-1848",
+    "reel:apollo-11-1202-alarm-garman-crib-sheet-1969",
+    "reel:petrov-26-september-1983-oko-five-missiles",
+    "reel:wright-coin-toss-wilbur-won-orville-flew-1903"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -5799,6 +5802,57 @@
       "channelId": "yt-bbmw0",
       "special": false,
       "platform": "youtube"
+    },
+    {
+      "id": "apollo-11-1202-alarm-garman-crib-sheet-1969",
+      "date": "2026-10-20",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "In a simulation, Mission Control aborted over this alarm.",
+      "description": "In a simulation, Mission Control aborted over this alarm. A 1201 alarm appeared, nobody could identify the code, and the guidance officer, Steve Bales, called off the practice landing.\n\nThen it appeared for real, during the Apollo 11 descent. The computer flashed 1202, then 1201. Executive overflow.\n\nRadar data was swamping it. The computer began dropping lower priority tasks and kept the critical guidance work running, restarting after each alarm.\n\nYoung computer specialist in Mission Control. After being told to study every possible program alarm, he had written each code and its correct response on a handwritten list under the plexiglass on his desk.\n\nBales trusted him, and the landing went ahead. Garman had told Bales the computer could be relied on as long as the alarms did not become continuous.\n\nA list under the glass on a desk kept the landing on.\n\nSources:\n- https://en.wikipedia.org/wiki/Apollo_Guidance_Computer: read. Established that during the Apollo 11 descent the computer showed a 1202 alarm (Executive overflow, no core sets) and then a 1201 alarm (no VAC areas); that spurious cycle steals from the rendezvous radar, left on standby, overloaded it; that priority scheduling shed lower priority tasks such as the 1668 display and finished the critical guidance work after each alarm; that guidance controller Steve Bales and his support team including Jack Garman issued GO calls; and that the landing succeeded.\n- https://en.wikipedia.org/wiki/Jack_Garman: read. Established that Garman told Bales the computer could be relied on provided the alarms did not become continuous; that Kranz had told him to study and write down every possible program alarm; that he made a handwritten list of every alarm code with the correct reaction and kept it under the plexiglass on his desk; and Bales' later remark that Garman had these things memorised.\n- https://www.smithsonianmag.com/air-space-magazine/troubleshooting-101-1201-actually-and-1202-too-111339271/: read (Air & Space). Established that earlier in a simulation a 1201 alarm had led Bales to abort the simulated landing because the team could not identify the code; that Garman, Bales and Capcom Charlie Duke recognised the alarms on the day; and that the computer, overwhelmed by radar data, started dropping unnecessary programs.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "caNsuQXVkKQ",
+      "youtubeUrl": "https://youtu.be/caNsuQXVkKQ",
+      "uploadedAt": "2026-10-20T14:01:43.643Z",
+      "privacy": "public"
+    },
+    {
+      "id": "petrov-26-september-1983-oko-five-missiles",
+      "date": "2026-10-20",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The man who saved the world. Was criticised over paperwork.",
+      "description": "Was criticised over paperwork. Accounts of how he was treated differ, but several describe a reprimand for how the incident was written up.\n\nDuty officer at the Soviet Oko early warning centre. Shortly after midnight, the system reported a US missile launch.\n\nOko showed one, then four more. Petrov doubted a real attack would start with five, and the new system had not earned his trust.\n\nSunlight on clouds. Oko had misread sunlight reflecting off high altitude clouds as missile launches. A geostationary satellite later helped correct the error.\n\nFrom a general's memoirs. The incident stayed secret until the late 1990s.\n\nFive dots on a screen, a faulty sensor, and a man who waited for confirmation.\n\nSources:\n- https://en.wikipedia.org/wiki/Stanislav_Petrov: read. Established 26 September 1983; Petrov as a lieutenant colonel and duty officer at the Oko early warning command centre; one missile reported with four more behind it, five in total; his reasoning (new and not fully trusted system, five seemed illogical as an opening strike, no corroboration from ground radar); the cause, sunlight aligned with high altitude clouds over North Dakota, later corrected by cross referencing a geostationary satellite; the reprimand for not describing the incident in the war diary alongside his own statement that he was neither rewarded nor punished; and that the incident became public through General Votintsev's memoirs.\n- https://www.theregister.com/2017/09/18/stanislav_petrov_obit/: read. Corroborated five missiles (one, then four more), that Oko was new and buggy, that Petrov judged the US would not fire only five, that Oko was reading sunlight off the tops of heavy clouds as launches, that superiors later demoted or criticised him over paperwork, and that his role stayed secret until a Russian general's memoirs in 1997.\n- https://historyrevealed.com/period/cold-war/stanislav-petrov-soviet-soldier-saved-the-world: read. Corroborated the date, shortly after midnight, five missiles reported, the sunlight on high altitude clouds explanation, that he was interrogated and reprimanded over procedure and paperwork, and that the story emerged in the late 1990s.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "dwzCQTCT8rc",
+      "youtubeUrl": "https://youtu.be/dwzCQTCT8rc",
+      "uploadedAt": "2026-10-20T14:03:04.430Z",
+      "privacy": "public"
+    },
+    {
+      "id": "wright-coin-toss-wilbur-won-orville-flew-1903",
+      "date": "2026-10-20",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The popular version. Two brothers flipped a coin, and the winner made history.",
+      "description": "Two brothers flipped a coin, and the winner made history. The coin toss is real. It just did not hand the first flight to the man who won it.\n\nWilbur won the toss. His attempt failed. He put it down to a trifling error from inexperience with the machine and its starting method.\n\nThe Flyer needed three days of repairs. NASA Glenn dates the next attempt to 17 December.\n\nOrville made the first flight. It began at 10:35 in the morning, into a very strong headwind. Over the ground it managed about 7 to 8 mph.\n\nThe length of the first flight on 17 December 1903. It covered 120 feet.\n\nWilbur flew the furthest, 852 feet. That flight lasted nearly a minute. Each brother flew twice, four flights in all.\n\nThe winner of the coin toss was not the first to fly.\n\nSources:\n- https://www.history.com/news/10-things-you-may-not-know-about-the-wright-brothers (read): the brothers flipped a coin on 14 December 1903 to decide who would test the Flyer first; Wilbur won, his attempt failed and caused minor damage; on 17 December Orville piloted the first flight, airborne for 12 seconds and 120 feet; Wilbur's final flight that day covered 852 feet in nearly a minute.\n- https://www.grc.nasa.gov/www/K-12/email.htm (read): NASA Glenn page: coin flipped for the first attempt on 14 December, Wilbur won and crashed on takeoff, repairs took three days, next attempt 17 December; each brother made two flights, four in total; first flight 120 feet in 12 seconds, about 7 to 8 mph over the ground, into a very strong headwind; longest flight 59 seconds and 852 feet.\n- https://blogs.libraries.wright.edu/news/outofthebox/2017/12/17/december-17-1903-success-four-flights/ (read): Wright State University Libraries: Wilbur won the toss and piloted the unsuccessful first try from Big Kill Devil Hill, blaming a trifling error from inexperience with the machine and its starting method; Orville flew 120 feet in 12 seconds at 10:35 a.m.; Wilbur flew 852 feet in 59 seconds.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "CHE7gmoxE3g",
+      "youtubeUrl": "https://youtu.be/CHE7gmoxE3g",
+      "uploadedAt": "2026-10-20T14:04:34.276Z",
+      "privacy": "public"
     }
   ]
 }

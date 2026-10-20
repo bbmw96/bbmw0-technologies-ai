@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (wright-coin-toss-wilbur-won-orville-flew-1903)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#10151C",
+    "ink": "#F4F1EA",
+    "accent": "#E0B04A",
+    "muted": "#8590A0"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "Two brothers flipped a coin, and the winner made history.",
+      "note": "The coin toss is real. It just did not hand the first flight to the man who won it.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "14 December 1903",
+      "text": "Wilbur won the toss.",
+      "note": "His attempt failed. He put it down to a trifling error from inexperience with the machine and its starting method.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "The wait",
+      "text": "The Flyer needed three days of repairs.",
+      "note": "NASA Glenn dates the next attempt to 17 December.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "statement",
+      "lead": "17 December",
+      "text": "Orville made the first flight.",
+      "note": "It began at 10:35 in the morning, into a very strong headwind. Over the ground it managed about 7 to 8 mph.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "figure",
+      "value": "12",
+      "unit": "seconds",
+      "context": "The length of the first flight on 17 December 1903. It covered 120 feet.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "statement",
+      "lead": "The best of the day",
+      "text": "Wilbur flew the furthest, 852 feet.",
+      "note": "That flight lasted nearly a minute. Each brother flew twice, four flights in all.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "kicker",
+      "text": "The winner of the coin toss was not the first to fly.",
+      "durationInFrames": 94
+    },
+    {
+      "kind": "sign",
+      "line": "Luck picks who tries first. Work picks who flies.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}

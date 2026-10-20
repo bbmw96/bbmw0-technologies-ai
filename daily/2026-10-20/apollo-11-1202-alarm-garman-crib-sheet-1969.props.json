@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (apollo-11-1202-alarm-garman-crib-sheet-1969)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0C0F12",
+    "ink": "#F2F2EC",
+    "accent": "#E8B04A",
+    "muted": "#7E8791"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The rehearsal",
+      "text": "In a simulation, Mission Control aborted over this alarm.",
+      "note": "A 1201 alarm appeared, nobody could identify the code, and the guidance officer, Steve Bales, called off the practice landing.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "lead": "20 July 1969",
+      "text": "Then it appeared for real, during the Apollo 11 descent.",
+      "note": "The computer flashed 1202, then 1201. Executive overflow.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "lead": "The cause",
+      "text": "Radar data was swamping it.",
+      "note": "The computer began dropping lower priority tasks and kept the critical guidance work running, restarting after each alarm.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "credit",
+      "year": "1969",
+      "name": "Jack Garman",
+      "role": "Young computer specialist in Mission Control. After being told to study every possible program alarm, he had written each code and its correct response on a handwritten list under the plexiglass on his desk.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The call",
+      "text": "Bales trusted him, and the landing went ahead.",
+      "note": "Garman had told Bales the computer could be relied on as long as the alarms did not become continuous.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "kicker",
+      "text": "A list under the glass on a desk kept the landing on.",
+      "durationInFrames": 94
+    },
+    {
+      "kind": "sign",
+      "line": "Prepare for the alarm you hope never comes.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (petrov-26-september-1983-oko-five-missiles)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0E0D0B",
+    "ink": "#F0ECDF",
+    "accent": "#C8452F",
+    "muted": "#786F5E"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The man who saved the world",
+      "text": "Was criticised over paperwork.",
+      "note": "Accounts of how he was treated differ, but several describe a reprimand for how the incident was written up.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "credit",
+      "year": "26 Sep 1983",
+      "name": "Lieutenant Colonel Stanislav Petrov",
+      "role": "Duty officer at the Soviet Oko early warning centre. Shortly after midnight, the system reported a US missile launch.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "figure",
+      "value": "5",
+      "unit": "missiles",
+      "context": "Oko showed one, then four more. Petrov doubted a real attack would start with five, and the new system had not earned his trust.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "The cause",
+      "text": "Sunlight on clouds.",
+      "note": "Oko had misread sunlight reflecting off high altitude clouds as missile launches. A geostationary satellite later helped correct the error.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "statement",
+      "lead": "The world found out",
+      "text": "From a general's memoirs.",
+      "note": "The incident stayed secret until the late 1990s.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "kicker",
+      "text": "Five dots on a screen, a faulty sensor, and a man who waited for confirmation.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "sign",
+      "line": "Sometimes the best decision is waiting for proof.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-10-20 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- apollo-11-1202-alarm-garman-crib-sheet-1969 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-20-apollo-11-1202-alarm-garman-crib-sheet-1969.mp4
+  uploaded public: https://youtu.be/caNsuQXVkKQ
+
+--- petrov-26-september-1983-oko-five-missiles ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-20-petrov-26-september-1983-oko-five-missiles.mp4
+  uploaded public: https://youtu.be/dwzCQTCT8rc
+
+--- wright-coin-toss-wilbur-won-orville-flew-1903 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-20-wright-coin-toss-wilbur-won-orville-flew-1903.mp4
+  uploaded public: https://youtu.be/CHE7gmoxE3g
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

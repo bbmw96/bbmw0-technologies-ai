@@ -1,0 +1,25 @@
+{
+  "slug": "apollo-11-1202-alarm-garman-crib-sheet-1969",
+  "date": "2026-10-20",
+  "title": "In a simulation, Mission Control aborted over this alarm.",
+  "description": "In a simulation, Mission Control aborted over this alarm. A 1201 alarm appeared, nobody could identify the code, and the guidance officer, Steve Bales, called off the practice landing.\n\nThen it appeared for real, during the Apollo 11 descent. The computer flashed 1202, then 1201. Executive overflow.\n\nRadar data was swamping it. The computer began dropping lower priority tasks and kept the critical guidance work running, restarting after each alarm.\n\nYoung computer specialist in Mission Control. After being told to study every possible program alarm, he had written each code and its correct response on a handwritten list under the plexiglass on his desk.\n\nBales trusted him, and the landing went ahead. Garman had told Bales the computer could be relied on as long as the alarms did not become continuous.\n\nA list under the glass on a desk kept the landing on.\n\nSources:\n- https://en.wikipedia.org/wiki/Apollo_Guidance_Computer: read. Established that during the Apollo 11 descent the computer showed a 1202 alarm (Executive overflow, no core sets) and then a 1201 alarm (no VAC areas); that spurious cycle steals from the rendezvous radar, left on standby, overloaded it; that priority scheduling shed lower priority tasks such as the 1668 display and finished the critical guidance work after each alarm; that guidance controller Steve Bales and his support team including Jack Garman issued GO calls; and that the landing succeeded.\n- https://en.wikipedia.org/wiki/Jack_Garman: read. Established that Garman told Bales the computer could be relied on provided the alarms did not become continuous; that Kranz had told him to study and write down every possible program alarm; that he made a handwritten list of every alarm code with the correct reaction and kept it under the plexiglass on his desk; and Bales' later remark that Garman had these things memorised.\n- https://www.smithsonianmag.com/air-space-magazine/troubleshooting-101-1201-actually-and-1202-too-111339271/: read (Air & Space). Established that earlier in a simulation a 1201 alarm had led Bales to abort the simulated landing because the team could not identify the code; that Garman, Bales and Capcom Charlie Duke recognised the alarms on the day; and that the computer, overwhelmed by radar data, started dropping unnecessary programs.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-10-20-apollo-11-1202-alarm-garman-crib-sheet-1969.mp4",
+  "propsFile": "daily/2026-10-20/apollo-11-1202-alarm-garman-crib-sheet-1969.props.json",
+  "durationInFrames": 1134,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}
