@@ -1,0 +1,33 @@
+﻿{
+    "slug":  "quran-55-12-14",
+    "refs":  "quran:55:12-14",
+    "focusVerse":  "55:13",
+    "date":  "2026-10-21",
+    "channel":  "ig-blankdiscussions",
+    "platform":  "instagram",
+    "mediaFormat":  "reel",
+    "video":  "daily/2026-10-21/blankdiscussions/quran-55-12-14-reel.mp4",
+    "cover":  "daily/2026-10-21/blankdiscussions/cover-quran-55-12-14.jpg",
+    "footage":  {
+                    "disclosure":  "caption states animated artwork / synthetic",
+                    "source":  "original generative animation (canvas, night sky + skyline), made in-session; no AI video credits available"
+                },
+    "sourcing":  {
+                     "formattingFix":  "ko.korean 55:14: removed stray space in \u0027인 간\u0027 -\u003e \u0027인간\u0027; source wording \u0027빛으셨으며\u0027 (likely typo for 빚으셨으며) left verbatim",
+                     "editions":  "quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese,ms.basmeih,th.thai,es.cortes",
+                     "api":  "api.alquran.cloud",
+                     "fetchedTwiceIdentical":  true
+                 },
+    "ownLabels":  "main-verse and translator-credit labels in ar/zh/ko/ja/ms/th/es were written by Claude and back-translated by an independent reviewer; zh, ko, ja corrected",
+    "qa":  {
+               "ownerApproval":  "2026-10-21: approved publish",
+               "audio":  "soft brown noise mean -27 dB peak -14 dB",
+               "liveAudit":  "latest 100 live captions: only 55:60 from Ar-Rahman, no 55:12-14",
+               "dupcheck":  "NEW"
+           },
+    "status":  "published",
+    "mediaId":  "18129986833698220",
+    "permalink":  "https://www.instagram.com/reel/DexV7jtE35N/",
+    "publishedAt":  "2026-10-21T21:11:33Z",
+    "publishedVia":  "Composio INSTAGRAM_POST_IG_USER_MEDIA + _PUBLISH, cover_url set"
+}
