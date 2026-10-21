@@ -334,7 +334,10 @@
     "reel:phineas-gage-tamping-iron-chile-coach-1848",
     "reel:apollo-11-1202-alarm-garman-crib-sheet-1969",
     "reel:petrov-26-september-1983-oko-five-missiles",
-    "reel:wright-coin-toss-wilbur-won-orville-flew-1903"
+    "reel:wright-coin-toss-wilbur-won-orville-flew-1903",
+    "reel:hubble-mirror-2200-nanometres-too-flat-1990",
+    "reel:dunning-kruger-65-students-no-mount-stupid-1999",
+    "reel:kodak-sasson-first-digital-camera-toaster-1975"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -5852,6 +5855,57 @@
       "youtubeId": "CHE7gmoxE3g",
       "youtubeUrl": "https://youtu.be/CHE7gmoxE3g",
       "uploadedAt": "2026-10-20T14:04:34.276Z",
+      "privacy": "public"
+    },
+    {
+      "id": "hubble-mirror-2200-nanometres-too-flat-1990",
+      "date": "2026-10-21",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "24 April 1990. Hubble launched with a mirror that was the wrong shape.",
+      "description": "Hubble launched with a mirror that was the wrong shape. Within weeks, its first images came back blurred.\n\nHow much too flat the edge of the 2.4 metre mirror was. NASA puts it at about one fiftieth the thickness of a human hair.\n\nA test instrument had been put together wrongly. The Allen Commission found the null corrector was incorrectly assembled, with one lens 1.3 millimetres out of position.\n\nAstronauts fitted it with glasses. COSTAR, the size of a telephone booth, carried five pairs of corrective mirrors in front of three instruments.\n\nThe repair flew on Space Shuttle Endeavour. Mission STS-61 ran from 2 to 13 December 1993.\n\nA flaw thinner than a hair needed a shuttle to fix.\n\nSources:\n- https://en.wikipedia.org/wiki/Hubble_Space_Telescope: read. Established that the primary mirror was 2.4 m across; launch on 24 April 1990 aboard Space Shuttle Discovery (STS-31); that images within weeks showed the problem; that the outer edge was too flat by about 2200 nanometres (2.2 micrometres); that the Allen Commission found a reflective null corrector had been incorrectly assembled with one lens out of position by 1.3 mm; and that COSTAR was installed in 1993 on the first servicing mission, STS-61, in December 1993.\n- https://asd.gsfc.nasa.gov/archive/hubble/missions/sm1.html: read (NASA Goddard archive). Established that the edge was ground too flat by 2.2 microns, roughly one fiftieth the thickness of a human hair; that this caused spherical aberration and fuzzy images; that COSTAR was a telephone booth sized instrument with five pairs of corrective mirrors placed in front of the Faint Object Camera, Faint Object Spectrograph and Goddard High Resolution Spectrograph; and that STS-61 aboard Endeavour flew from 2 to 13 December 1993.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "U8P6UQBPbvI",
+      "youtubeUrl": "https://youtu.be/U8P6UQBPbvI",
+      "uploadedAt": "2026-10-21T14:19:36.255Z",
+      "privacy": "public"
+    },
+    {
+      "id": "dunning-kruger-65-students-no-mount-stupid-1999",
+      "date": "2026-10-21",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The popular version. The less you know, the more you overrate yourself.",
+      "description": "The less you know, the more you overrate yourself. The 1999 paper by Justin Kruger and David Dunning ran four studies on humour, logical reasoning and grammar.\n\nCornell undergraduates rated 30 jokes in the first study.\n\nThey scored at the 12th percentile. In the first study they placed themselves at the 58th. The abstract's summary across the paper puts it at the 62nd.\n\nThe peak called Mount Stupid is not in the paper. Its Figure 1 plots perceived ability against actual test score, grouped by quartile.\n\nSome researchers call it mostly a statistical artefact. One paper by Gignac and Zajenkowski carries that title, and the critique leans on regression to the mean.\n\nThe data is in the paper. The mountain is not.\n\nSources:\n- https://www.gwern.net/doc/psychology/1999-kruger.pdf (read): the original 1999 paper by Kruger and Dunning. Established four studies on humour, logical reasoning and grammar; the abstract's 12th percentile actual against 62nd percentile self estimate for the bottom quartile; Study 1 with 65 Cornell undergraduates rating 30 jokes, where the bottom quartile (n = 16) scored at the 12th percentile and placed themselves at the 58th; and that the paper contains no Mount Stupid curve, its Figure 1 plotting perceived ability against actual score by quartile.\n- https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect (read): corroborated the 12th and 62nd percentile figures and the journal reference (Journal of Personality and Social Psychology, 77(6), 1121 to 1134), and established that a paper by Gignac and Zajenkowski is titled 'The Dunning-Kruger effect is (mostly) a statistical artefact', with regression to the mean part of the critique.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "tHnDIB_Ia8s",
+      "youtubeUrl": "https://youtu.be/tHnDIB_Ia8s",
+      "uploadedAt": "2026-10-21T14:17:42.036Z",
+      "privacy": "public"
+    },
+    {
+      "id": "kodak-sasson-first-digital-camera-toaster-1975",
+      "date": "2026-10-21",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Kodak built a digital camera the size of a toaster.",
+      "description": "Kodak built a digital camera the size of a toaster. An engineer named Steven Sasson assembled it around a Fairchild CCD sensor. It weighed 3.6 kilograms.\n\nIt was 100 by 100 pixels, in black and white. That is 0.01 megapixels. The image was recorded onto a cassette tape.\n\nThe time it took to write one picture to tape. Capturing it took only 50 milliseconds.\n\nYou watched your photo on a television. A separate unit turned the tape data into a standard NTSC signal for a TV screen.\n\nThe executives did not see a market for it. Sasson told the New York Times they were convinced no one would ever want to look at their pictures on a television set. The camera was never produced.\n\nKodak invented it, then filed the patent and moved on.\n\nSources:\n- https://en.wikipedia.org/wiki/Steven_Sasson: read. Established that Sasson, an electrical engineer, was assigned in 1975 to build an electronic camera around a commercially available CCD; the camera recorded 100 x 100 pixels (0.01 megapixels) in black and white from a Fairchild CCD, weighed 8 pounds (3.6 kg), took 23 seconds per image and recorded to cassette tape; Kodak filed the patent in 1977 naming Sasson and Gareth Lloyd (US 4,131,919).\n- https://spectrum.ieee.org/first-digital-camera-history: read (IEEE Spectrum). Established that capture took 50 milliseconds but writing to tape took 23 seconds (Sasson's own words); that a separate playback unit converted the tape data to an NTSC signal for a television; that the device was about the size of a toaster; that Kodak executives said they did not see a market for it and it was never produced; and a patent granted in 1978.\n- https://petapixel.com/2017/09/21/kodak-said-digital-photography-1975/: read. Established Sasson's account to the New York Times that the executives were convinced no one would ever want to look at their pictures on a television set.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "uIODyMgu5e8",
+      "youtubeUrl": "https://youtu.be/uIODyMgu5e8",
+      "uploadedAt": "2026-10-21T14:21:27.859Z",
       "privacy": "public"
     }
   ]

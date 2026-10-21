@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (dunning-kruger-65-students-no-mount-stupid-1999)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#11131A",
+    "ink": "#F1F3F8",
+    "accent": "#7C9CF5",
+    "muted": "#838896"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "The less you know, the more you overrate yourself.",
+      "note": "The 1999 paper by Justin Kruger and David Dunning ran four studies on humour, logical reasoning and grammar.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "figure",
+      "value": "65",
+      "unit": "students",
+      "context": "Cornell undergraduates rated 30 jokes in the first study.",
+      "durationInFrames": 88
+    },
+    {
+      "kind": "statement",
+      "lead": "The bottom quarter",
+      "text": "They scored at the 12th percentile.",
+      "note": "In the first study they placed themselves at the 58th. The abstract's summary across the paper puts it at the 62nd.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "The famous chart",
+      "text": "The peak called Mount Stupid is not in the paper.",
+      "note": "Its Figure 1 plots perceived ability against actual test score, grouped by quartile.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "Since then",
+      "text": "Some researchers call it mostly a statistical artefact.",
+      "note": "One paper by Gignac and Zajenkowski carries that title, and the critique leans on regression to the mean.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "kicker",
+      "text": "The data is in the paper. The mountain is not.",
+      "durationInFrames": 82
+    },
+    {
+      "kind": "sign",
+      "line": "Check the chart against the paper.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-10-21 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- dunning-kruger-65-students-no-mount-stupid-1999 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-21-dunning-kruger-65-students-no-mount-stupid-1999.mp4
+  uploaded public: https://youtu.be/tHnDIB_Ia8s
+
+--- hubble-mirror-2200-nanometres-too-flat-1990 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-21-hubble-mirror-2200-nanometres-too-flat-1990.mp4
+  uploaded public: https://youtu.be/U8P6UQBPbvI
+
+--- kodak-sasson-first-digital-camera-toaster-1975 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-21-kodak-sasson-first-digital-camera-toaster-1975.mp4
+  uploaded public: https://youtu.be/uIODyMgu5e8
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

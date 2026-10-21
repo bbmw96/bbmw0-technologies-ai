@@ -1,0 +1,25 @@
+{
+  "slug": "dunning-kruger-65-students-no-mount-stupid-1999",
+  "date": "2026-10-21",
+  "title": "The popular version. The less you know, the more you overrate yourself.",
+  "description": "The less you know, the more you overrate yourself. The 1999 paper by Justin Kruger and David Dunning ran four studies on humour, logical reasoning and grammar.\n\nCornell undergraduates rated 30 jokes in the first study.\n\nThey scored at the 12th percentile. In the first study they placed themselves at the 58th. The abstract's summary across the paper puts it at the 62nd.\n\nThe peak called Mount Stupid is not in the paper. Its Figure 1 plots perceived ability against actual test score, grouped by quartile.\n\nSome researchers call it mostly a statistical artefact. One paper by Gignac and Zajenkowski carries that title, and the critique leans on regression to the mean.\n\nThe data is in the paper. The mountain is not.\n\nSources:\n- https://www.gwern.net/doc/psychology/1999-kruger.pdf (read): the original 1999 paper by Kruger and Dunning. Established four studies on humour, logical reasoning and grammar; the abstract's 12th percentile actual against 62nd percentile self estimate for the bottom quartile; Study 1 with 65 Cornell undergraduates rating 30 jokes, where the bottom quartile (n = 16) scored at the 12th percentile and placed themselves at the 58th; and that the paper contains no Mount Stupid curve, its Figure 1 plotting perceived ability against actual score by quartile.\n- https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect (read): corroborated the 12th and 62nd percentile figures and the journal reference (Journal of Personality and Social Psychology, 77(6), 1121 to 1134), and established that a paper by Gignac and Zajenkowski is titled 'The Dunning-Kruger effect is (mostly) a statistical artefact', with regression to the mean part of the critique.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "science",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-10-21-dunning-kruger-65-students-no-mount-stupid-1999.mp4",
+  "propsFile": "daily/2026-10-21/dunning-kruger-65-students-no-mount-stupid-1999.props.json",
+  "durationInFrames": 1038,
+  "audioUrl": "",
+  "niche": "science",
+  "composition": "Reel"
+}

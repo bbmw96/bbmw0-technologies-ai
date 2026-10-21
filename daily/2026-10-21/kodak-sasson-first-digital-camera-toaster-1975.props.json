@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (kodak-sasson-first-digital-camera-toaster-1975)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#14110D",
+    "ink": "#F4EFE4",
+    "accent": "#E0A526",
+    "muted": "#8C8372"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "1975",
+      "text": "Kodak built a digital camera the size of a toaster.",
+      "note": "An engineer named Steven Sasson assembled it around a Fairchild CCD sensor. It weighed 3.6 kilograms.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "The picture",
+      "text": "It was 100 by 100 pixels, in black and white.",
+      "note": "That is 0.01 megapixels. The image was recorded onto a cassette tape.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "figure",
+      "value": "23",
+      "unit": "seconds",
+      "context": "The time it took to write one picture to tape. Capturing it took only 50 milliseconds.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "statement",
+      "lead": "The playback",
+      "text": "You watched your photo on a television.",
+      "note": "A separate unit turned the tape data into a standard NTSC signal for a TV screen.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "statement",
+      "lead": "Kodak's answer",
+      "text": "The executives did not see a market for it.",
+      "note": "Sasson told the New York Times they were convinced no one would ever want to look at their pictures on a television set. The camera was never produced.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Kodak invented it, then filed the patent and moved on.",
+      "durationInFrames": 82
+    },
+    {
+      "kind": "sign",
+      "line": "Ask who builds the future, and who ships it.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}

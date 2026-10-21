@@ -1,0 +1,25 @@
+{
+  "slug": "kodak-sasson-first-digital-camera-toaster-1975",
+  "date": "2026-10-21",
+  "title": "Kodak built a digital camera the size of a toaster.",
+  "description": "Kodak built a digital camera the size of a toaster. An engineer named Steven Sasson assembled it around a Fairchild CCD sensor. It weighed 3.6 kilograms.\n\nIt was 100 by 100 pixels, in black and white. That is 0.01 megapixels. The image was recorded onto a cassette tape.\n\nThe time it took to write one picture to tape. Capturing it took only 50 milliseconds.\n\nYou watched your photo on a television. A separate unit turned the tape data into a standard NTSC signal for a TV screen.\n\nThe executives did not see a market for it. Sasson told the New York Times they were convinced no one would ever want to look at their pictures on a television set. The camera was never produced.\n\nKodak invented it, then filed the patent and moved on.\n\nSources:\n- https://en.wikipedia.org/wiki/Steven_Sasson: read. Established that Sasson, an electrical engineer, was assigned in 1975 to build an electronic camera around a commercially available CCD; the camera recorded 100 x 100 pixels (0.01 megapixels) in black and white from a Fairchild CCD, weighed 8 pounds (3.6 kg), took 23 seconds per image and recorded to cassette tape; Kodak filed the patent in 1977 naming Sasson and Gareth Lloyd (US 4,131,919).\n- https://spectrum.ieee.org/first-digital-camera-history: read (IEEE Spectrum). Established that capture took 50 milliseconds but writing to tape took 23 seconds (Sasson's own words); that a separate playback unit converted the tape data to an NTSC signal for a television; that the device was about the size of a toaster; that Kodak executives said they did not see a market for it and it was never produced; and a patent granted in 1978.\n- https://petapixel.com/2017/09/21/kodak-said-digital-photography-1975/: read. Established Sasson's account to the New York Times that the executives were convinced no one would ever want to look at their pictures on a television set.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-10-21-kodak-sasson-first-digital-camera-toaster-1975.mp4",
+  "propsFile": "daily/2026-10-21/kodak-sasson-first-digital-camera-toaster-1975.props.json",
+  "durationInFrames": 1054,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}
