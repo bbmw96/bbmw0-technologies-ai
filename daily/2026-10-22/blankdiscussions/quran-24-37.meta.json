@@ -30,5 +30,14 @@
                "fonts":  "Amiri, Noto Sans Thai, Noto CJK; all cards viewed, no tofu",
                "dupcheck":  "NEW (scripts/_bd_dupcheck.mjs)"
            },
-    "status":  "rendered_and_hosted"
+    "status":  "published",
+    "published":  {
+                      "mediaId":  "18107599574342763",
+                      "permalink":  "https://www.instagram.com/reel/Dey137Cgj8O/",
+                      "publishedAt":  "2026-10-22T11:09:46Z",
+                      "hostingUrls":  [
+                                          "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-10-22/blankdiscussions/quran-24-37-reel.mp4"
+                                      ],
+                      "publishedVia":  "Composio INSTAGRAM_POST_IG_USER_MEDIA + _PUBLISH, cover_url set"
+                  }
 }

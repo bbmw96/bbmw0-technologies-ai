@@ -5,7 +5,7 @@
     "platform":  "instagram",
     "handle":  "@blankdiscussions",
     "mediaFormat":  "reel",
-    "theme":  "mosque-rain-dola6-light-panel",
+    "theme":  "original-night-mosque-light-panel",
     "caption":  "Who truly cares for the mosques of Allah (Qur\u0027an 9:18, 8 languages, AI-footage disclosure)",
     "video":  "daily/2026-10-22/blankdiscussions/quran-9-18-reel.mp4",
     "cover":  "daily/2026-10-22/blankdiscussions/cover-quran-9-18.jpg",
@@ -15,8 +15,8 @@
                           "9:19"
                       ],
     "footage":  {
-                    "edit":  "Dola watermark cropped out (bottom 64px of source removed), 2x slow-mo ping-pong loop, horizontal flip, warm grade, vignette, soft brown-noise audio (mean -27 dB, peak below -13 dB)",
-                    "source":  "user-supplied Connect_Dola_to_Claude_6.mp4 (Dola AI generated), supplied 2026-10-22"
+                    "edit":  "Original animated night-mosque scene created for this post (procedural canvas animation: stars, crescent moon, drifting clouds, lit mosque and water reflection), 10 s seamless loop, soft brown-noise audio (mean -27 dB, peak about -13 dB)",
+                    "source":  "original, made by Claude for this post; no third-party or AI-generator footage"
                 },
     "sourcing":  {
                      "api":  "api.alquran.cloud",
