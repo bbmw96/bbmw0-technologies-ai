@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (habit-66-days-not-21-lally-ucl)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#131211",
+    "ink": "#F3F0EA",
+    "accent": "#D97757",
+    "muted": "#89827A"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "Everyone says habits take 21 days",
+      "text": "That number came from a book about mental images.",
+      "note": "Maxwell Maltz's 1960 book Psycho-Cybernetics said it takes a minimum of about 21 days for a mental image to change, drawing on plastic surgery recovery and phantom limbs.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2010",
+      "name": "Phillippa Lally and colleagues, UCL",
+      "role": "96 volunteers picked a new daily habit, such as eating fruit with lunch, and rated how automatic it felt over 84 days.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "figure",
+      "value": "66",
+      "unit": "days",
+      "context": "The average time for a habit to feel automatic. Individuals ranged from 18 days to a forecast 254.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "statement",
+      "lead": "The 254",
+      "text": "Was a forecast.",
+      "note": "The study stopped at 84 days, so the longest time was projected, not observed.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "statement",
+      "lead": "Missing a day",
+      "text": "Barely mattered.",
+      "note": "One missed day had little effect on later progress. Many missed days, added up, lowered how automatic the habit became.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "kicker",
+      "text": "Roughly two months, with a very wide range.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Give a habit time, and forgive the odd miss.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}

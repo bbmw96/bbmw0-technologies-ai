@@ -1,0 +1,25 @@
+{
+  "slug": "mars-pathfinder-priority-inversion-fixed-from-earth-1997",
+  "date": "2026-10-22",
+  "title": "Pathfinder landed on Mars, then kept rebooting.",
+  "description": "Pathfinder landed on Mars, then kept rebooting. Resets hit on 5, 10, 11 and 14 July. Each one interrupted operations until the next day.\n\nThe bug had shown up before launch. Engineers saw resets in testing and put them down to a glitch. It was treated as low priority.\n\nA low priority task was holding the door. It held a lock the high priority bus task needed, while a medium priority task kept pre-empting it. A watchdog saw the bus task stuck and reset everything. That is priority inversion.\n\nPriority inheritance was switched off. The setting was a flag in the flight software. Engineers reproduced the fault on a laboratory copy of the lander.\n\nThey patched it from Earth. A short program changed the flags from false to true, and the resets stopped.\n\nThe debugging tools they left switched on were the ones that saved the mission.\n\nSources:\n- https://en.wikipedia.org/wiki/Mars_Pathfinder: read. Established that the lander ran VxWorks; that resets caused by priority inversion occurred on 5, 10, 11 and 14 July 1997; that the bug had appeared in preflight testing but was given low priority; that no science or engineering data was lost after a reset but later operations were interrupted until the next day; that engineers reproduced and corrected it from Earth on a laboratory duplicate using logging and debugging functions left enabled; and that a patch enabling priority inheritance was applied on 21 July.\n- https://people.eecs.berkeley.edu/~jfc/duan/teaching/cs162-fa04/What%20really%20happened%20on%20Mars.htm: read (Mike Jones' note of 7 December 1997, RISKS-19.49). Established the three tasks: a high priority bus management task, a low priority meteorological task holding the bus mutex, and a medium priority communications task; that the medium task could preempt the low one so the high one stayed blocked; that a watchdog timer then forced a total reset; that JPL had seen one or two resets in preflight testing and put them down to a hardware glitch; that the mutex had priority inheritance switched off; and that uploading a short C program changed the global flags from FALSE to TRUE.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-10-22-mars-pathfinder-priority-inversion-fixed-from-earth-1997.mp4",
+  "propsFile": "daily/2026-10-22/mars-pathfinder-priority-inversion-fixed-from-earth-1997.props.json",
+  "durationInFrames": 1116,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

@@ -337,7 +337,10 @@
     "reel:wright-coin-toss-wilbur-won-orville-flew-1903",
     "reel:hubble-mirror-2200-nanometres-too-flat-1990",
     "reel:dunning-kruger-65-students-no-mount-stupid-1999",
-    "reel:kodak-sasson-first-digital-camera-toaster-1975"
+    "reel:kodak-sasson-first-digital-camera-toaster-1975",
+    "reel:habit-66-days-not-21-lally-ucl",
+    "reel:moores-law-never-18-months-house-1975",
+    "reel:mars-pathfinder-priority-inversion-fixed-from-earth-1997"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -5906,6 +5909,57 @@
       "youtubeId": "uIODyMgu5e8",
       "youtubeUrl": "https://youtu.be/uIODyMgu5e8",
       "uploadedAt": "2026-10-21T14:21:27.859Z",
+      "privacy": "public"
+    },
+    {
+      "id": "habit-66-days-not-21-lally-ucl",
+      "date": "2026-10-22",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Everyone says habits take 21 days. That number came from a book about mental images.",
+      "description": "That number came from a book about mental images. Maxwell Maltz's 1960 book Psycho-Cybernetics said it takes a minimum of about 21 days for a mental image to change, drawing on plastic surgery recovery and phantom limbs.\n\n96 volunteers picked a new daily habit, such as eating fruit with lunch, and rated how automatic it felt over 84 days.\n\nThe average time for a habit to feel automatic. Individuals ranged from 18 days to a forecast 254.\n\nWas a forecast. The study stopped at 84 days, so the longest time was projected, not observed.\n\nBarely mattered. One missed day had little effect on later progress. Many missed days, added up, lowered how automatic the habit became.\n\nRoughly two months, with a very wide range.\n\nSources:\n- https://blogs.ucl.ac.uk/bsh/2012/06/29/busting-the-21-days-habit-formation-myth/: read. Established Maltz's 1960 book Psycho-Cybernetics saying it takes a minimum of about 21 days to effect any perceptible change in a mental image, based on examples like plastic surgery recovery and phantom limbs rather than habit research; the Lally study tracking people for 84 days; an average of 66 days for the habit to form; one person at 18 days; and another forecast at 254 days.\n- https://bps.org.uk/research-digest/how-form-habit: read. Corroborated 96 recruited and 82 completing, the 84 day study length, the 66 day average to maximum automaticity, the 18 to 254 day range with 254 extrapolated beyond the study end, and that a single missed day had little effect on later gains while many missed repetitions cumulatively lowered the automaticity reached.\n- https://www.spring.org.uk/?p=107834 and https://jamesclear.com/new-habit: read. Corroborated 96 UCL participants, the 66 day average, the 18 to 254 day range, Maltz's 21 day claim and that the 254 figure is an estimate because the study ran only 12 weeks.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "OJpon8qRqro",
+      "youtubeUrl": "https://youtu.be/OJpon8qRqro",
+      "uploadedAt": "2026-10-22T14:16:08.345Z",
+      "privacy": "public"
+    },
+    {
+      "id": "moores-law-never-18-months-house-1975",
+      "date": "2026-10-22",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The popular version. Moore's law says chips double every 18 months.",
+      "description": "Moore's law says chips double every 18 months. Gordon Moore says he never said that.\n\nThen head of research and development at Fairchild Semiconductor. His paper ran in Electronics magazine on 19 April.\n\nA doubling every year. He expected it to hold for at least ten years, reaching 65,000 components per circuit by 1975.\n\nIn 1975 he changed it to two years. He said so at the IEEE International Electron Devices Meeting.\n\nThe number everyone repeats. It was never Moore's.\n\nThe Intel executive credited with the 18 months. He reasoned that chip performance would double about that often.\n\nThe most famous number in computing belongs to someone else.\n\nSources:\n- https://www.cs.utexas.edu/~fussell/courses/cs352h/papers/moore.pdf (read): reprint of Moore's paper \"Cramming More Components onto Integrated Circuits\", Electronics, 19 April 1965. Says complexity for minimum component costs \"has increased at a rate of roughly a factor of two per year\", that there is no reason to believe it will not remain nearly constant for at least ten years, and \"by 1975, the number of components per integrated circuit for minimum cost will be 65 000\".\n- https://en.wikipedia.org/wiki/Moore%27s_law (read): Moore was director of research and development at Fairchild Semiconductor in 1965; at the 1975 IEEE International Electron Devices Meeting he revised the doubling period to about two years; David House, an Intel executive, is credited with the 18 month figure, reasoning that chip performance would double roughly every 18 months; Moore affirmed he never said transistor count would double every 18 months.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "Opn8mTzgU2E",
+      "youtubeUrl": "https://youtu.be/Opn8mTzgU2E",
+      "uploadedAt": "2026-10-22T14:18:10.058Z",
+      "privacy": "public"
+    },
+    {
+      "id": "mars-pathfinder-priority-inversion-fixed-from-earth-1997",
+      "date": "2026-10-22",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Pathfinder landed on Mars, then kept rebooting.",
+      "description": "Pathfinder landed on Mars, then kept rebooting. Resets hit on 5, 10, 11 and 14 July. Each one interrupted operations until the next day.\n\nThe bug had shown up before launch. Engineers saw resets in testing and put them down to a glitch. It was treated as low priority.\n\nA low priority task was holding the door. It held a lock the high priority bus task needed, while a medium priority task kept pre-empting it. A watchdog saw the bus task stuck and reset everything. That is priority inversion.\n\nPriority inheritance was switched off. The setting was a flag in the flight software. Engineers reproduced the fault on a laboratory copy of the lander.\n\nThey patched it from Earth. A short program changed the flags from false to true, and the resets stopped.\n\nThe debugging tools they left switched on were the ones that saved the mission.\n\nSources:\n- https://en.wikipedia.org/wiki/Mars_Pathfinder: read. Established that the lander ran VxWorks; that resets caused by priority inversion occurred on 5, 10, 11 and 14 July 1997; that the bug had appeared in preflight testing but was given low priority; that no science or engineering data was lost after a reset but later operations were interrupted until the next day; that engineers reproduced and corrected it from Earth on a laboratory duplicate using logging and debugging functions left enabled; and that a patch enabling priority inheritance was applied on 21 July.\n- https://people.eecs.berkeley.edu/~jfc/duan/teaching/cs162-fa04/What%20really%20happened%20on%20Mars.htm: read (Mike Jones' note of 7 December 1997, RISKS-19.49). Established the three tasks: a high priority bus management task, a low priority meteorological task holding the bus mutex, and a medium priority communications task; that the medium task could preempt the low one so the high one stayed blocked; that a watchdog timer then forced a total reset; that JPL had seen one or two resets in preflight testing and put them down to a hardware glitch; that the mutex had priority inheritance switched off; and that uploading a short C program changed the global flags from FALSE to TRUE.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "445MB78dBQk",
+      "youtubeUrl": "https://youtu.be/445MB78dBQk",
+      "uploadedAt": "2026-10-22T14:17:13.491Z",
       "privacy": "public"
     }
   ]

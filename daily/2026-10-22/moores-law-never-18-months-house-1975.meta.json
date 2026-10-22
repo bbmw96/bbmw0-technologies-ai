@@ -1,0 +1,25 @@
+{
+  "slug": "moores-law-never-18-months-house-1975",
+  "date": "2026-10-22",
+  "title": "The popular version. Moore's law says chips double every 18 months.",
+  "description": "Moore's law says chips double every 18 months. Gordon Moore says he never said that.\n\nThen head of research and development at Fairchild Semiconductor. His paper ran in Electronics magazine on 19 April.\n\nA doubling every year. He expected it to hold for at least ten years, reaching 65,000 components per circuit by 1975.\n\nIn 1975 he changed it to two years. He said so at the IEEE International Electron Devices Meeting.\n\nThe number everyone repeats. It was never Moore's.\n\nThe Intel executive credited with the 18 months. He reasoned that chip performance would double about that often.\n\nThe most famous number in computing belongs to someone else.\n\nSources:\n- https://www.cs.utexas.edu/~fussell/courses/cs352h/papers/moore.pdf (read): reprint of Moore's paper \"Cramming More Components onto Integrated Circuits\", Electronics, 19 April 1965. Says complexity for minimum component costs \"has increased at a rate of roughly a factor of two per year\", that there is no reason to believe it will not remain nearly constant for at least ten years, and \"by 1975, the number of components per integrated circuit for minimum cost will be 65 000\".\n- https://en.wikipedia.org/wiki/Moore%27s_law (read): Moore was director of research and development at Fairchild Semiconductor in 1965; at the 1975 IEEE International Electron Devices Meeting he revised the doubling period to about two years; David House, an Intel executive, is credited with the 18 month figure, reasoning that chip performance would double roughly every 18 months; Moore affirmed he never said transistor count would double every 18 months.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-10-22-moores-law-never-18-months-house-1975.mp4",
+  "propsFile": "daily/2026-10-22/moores-law-never-18-months-house-1975.props.json",
+  "durationInFrames": 994,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

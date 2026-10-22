@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (mars-pathfinder-priority-inversion-fixed-from-earth-1997)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#170E0C",
+    "ink": "#F6EEE8",
+    "accent": "#E3633A",
+    "muted": "#8F7A70"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "July 1997",
+      "text": "Pathfinder landed on Mars, then kept rebooting.",
+      "note": "Resets hit on 5, 10, 11 and 14 July. Each one interrupted operations until the next day.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "The warning",
+      "text": "The bug had shown up before launch.",
+      "note": "Engineers saw resets in testing and put them down to a glitch. It was treated as low priority.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "The cause",
+      "text": "A low priority task was holding the door.",
+      "note": "It held a lock the high priority bus task needed, while a medium priority task kept pre-empting it. A watchdog saw the bus task stuck and reset everything. That is priority inversion.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The fix",
+      "text": "Priority inheritance was switched off.",
+      "note": "The setting was a flag in the flight software. Engineers reproduced the fault on a laboratory copy of the lander.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "21 July",
+      "text": "They patched it from Earth.",
+      "note": "A short program changed the flags from false to true, and the resets stopped.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "kicker",
+      "text": "The debugging tools they left switched on were the ones that saved the mission.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "sign",
+      "line": "Never strip out your own diagnostics.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

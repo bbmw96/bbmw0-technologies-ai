@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (moores-law-never-18-months-house-1975)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#10151C",
+    "ink": "#F0F4F8",
+    "accent": "#5EC4B6",
+    "muted": "#7F8A96"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "Moore's law says chips double every 18 months.",
+      "note": "Gordon Moore says he never said that.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "credit",
+      "year": "1965",
+      "name": "Gordon Moore",
+      "role": "Then head of research and development at Fairchild Semiconductor. His paper ran in Electronics magazine on 19 April.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "lead": "What he wrote",
+      "text": "A doubling every year.",
+      "note": "He expected it to hold for at least ten years, reaching 65,000 components per circuit by 1975.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "statement",
+      "lead": "The revision",
+      "text": "In 1975 he changed it to two years.",
+      "note": "He said so at the IEEE International Electron Devices Meeting.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "figure",
+      "value": "18",
+      "unit": "months",
+      "context": "The number everyone repeats. It was never Moore's.",
+      "durationInFrames": 82
+    },
+    {
+      "kind": "credit",
+      "year": "1975",
+      "name": "David House",
+      "role": "The Intel executive credited with the 18 months. He reasoned that chip performance would double about that often.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "kicker",
+      "text": "The most famous number in computing belongs to someone else.",
+      "durationInFrames": 82
+    },
+    {
+      "kind": "sign",
+      "line": "Check the number, then the name.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

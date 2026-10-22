@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-10-22 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- habit-66-days-not-21-lally-ucl ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-22-habit-66-days-not-21-lally-ucl.mp4
+  uploaded public: https://youtu.be/OJpon8qRqro
+
+--- mars-pathfinder-priority-inversion-fixed-from-earth-1997 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-22-mars-pathfinder-priority-inversion-fixed-from-earth-1997.mp4
+  uploaded public: https://youtu.be/445MB78dBQk
+
+--- moores-law-never-18-months-house-1975 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-22-moores-law-never-18-months-house-1975.mp4
+  uploaded public: https://youtu.be/Opn8mTzgU2E
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===
