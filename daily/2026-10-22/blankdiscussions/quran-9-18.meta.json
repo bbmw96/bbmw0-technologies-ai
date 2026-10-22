@@ -1,0 +1,34 @@
+﻿{
+    "slug":  "quran-9-18",
+    "date":  "2026-10-22",
+    "channel":  "ig-blankdiscussions",
+    "platform":  "instagram",
+    "handle":  "@blankdiscussions",
+    "mediaFormat":  "reel",
+    "theme":  "mosque-rain-dola6-light-panel",
+    "caption":  "Who truly cares for the mosques of Allah (Qur\u0027an 9:18, 8 languages, AI-footage disclosure)",
+    "video":  "daily/2026-10-22/blankdiscussions/quran-9-18-reel.mp4",
+    "cover":  "daily/2026-10-22/blankdiscussions/cover-quran-9-18.jpg",
+    "mainVerse":  "9:18",
+    "contextVerses":  [
+                          "9:17",
+                          "9:19"
+                      ],
+    "footage":  {
+                    "edit":  "Dola watermark cropped out (bottom 64px of source removed), 2x slow-mo ping-pong loop, horizontal flip, warm grade, vignette, soft brown-noise audio (mean -27 dB, peak below -13 dB)",
+                    "source":  "user-supplied Connect_Dola_to_Claude_6.mp4 (Dola AI generated), supplied 2026-10-22"
+                },
+    "sourcing":  {
+                     "api":  "api.alquran.cloud",
+                     "editions":  "quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese,ms.basmeih,th.thai,es.cortes",
+                     "fetchedTwiceIdentical":  true,
+                     "formattingFix":  "ko.korean: removed stray spaces inside words in 9:17, 9:18, 9:19 (e.g. 하나님 과 -\u003e 하나님과); zh.jian: removed space after full-width punctuation; no wording changed",
+                     "note":  "ko.korean and ja.japanese editions list translator as Unknown; stated on-slide. ja 24:38 source text reads as-is from the edition."
+                 },
+    "qa":  {
+               "ownerApproval":  "2026-10-22: user supplied clip and instructed to build the reels and publish",
+               "fonts":  "Amiri, Noto Sans Thai, Noto CJK; all cards viewed, no tofu",
+               "dupcheck":  "NEW (scripts/_bd_dupcheck.mjs)"
+           },
+    "status":  "rendered_and_hosted"
+}
