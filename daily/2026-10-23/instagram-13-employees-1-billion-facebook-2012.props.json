@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (instagram-13-employees-1-billion-facebook-2012)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#1C1210",
+    "ink": "#FFF6F1",
+    "accent": "#F2765A",
+    "muted": "#A08A83"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "Instagram was a giant that Facebook swallowed.",
+      "note": "It was a three year old company with 13 employees.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "figure",
+      "value": "13",
+      "unit": "staff",
+      "context": "The number of employees at Instagram when Facebook agreed to buy it in April 2012.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "statement",
+      "lead": "The price",
+      "text": "About $1 billion in cash and stock.",
+      "note": "NPR attributes the figure to Forbes. Al Jazeera reports it as $1bn.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "lead": "The sum",
+      "text": "That is roughly $77 million for every employee.",
+      "note": "This is $1 billion divided by 13, rounded.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "statement",
+      "lead": "The audience",
+      "text": "More than 25 million people already used it.",
+      "note": "That is the user figure Al Jazeera gave.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "statement",
+      "lead": "The timing",
+      "text": "The deal landed just weeks before Facebook's IPO.",
+      "note": "NPR reported it as coming just weeks before the share sale.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "kicker",
+      "text": "Thirteen people, one app, and a billion dollars.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Small team. Big number.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

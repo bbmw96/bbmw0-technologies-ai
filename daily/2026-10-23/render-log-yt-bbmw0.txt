@@ -1,0 +1,20 @@
+Rendering 3 Shorts for 2026-10-23 (concurrency=3, GL=default)
+Compliance: 2 cleared, 1 blocked (policy v1.0.0).
+Blocked by compliance: salem-1692-nineteen-hanged-none-burned
+
+--- apollo-guidance-computer-core-rope-software-woven-wire ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-23-apollo-guidance-computer-core-rope-software-woven-wire.mp4
+  uploaded public: https://youtu.be/f7TxZRsRVqc
+
+--- instagram-13-employees-1-billion-facebook-2012 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-23-instagram-13-employees-1-billion-facebook-2012.mp4
+  uploaded public: https://youtu.be/H-iKecyic9Q
+
+--- salem-1692-nineteen-hanged-none-burned ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-23-salem-1692-nineteen-hanged-none-burned.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-10-23/compliance-verdict.json.
+
+=== Done. 3 rendered, 2 uploaded, 0 skipped, 1 blocked by compliance, 0 failed. ===

@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (apollo-guidance-computer-core-rope-software-woven-wire)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0F1620",
+    "ink": "#F1F5FA",
+    "accent": "#5AB0F2",
+    "muted": "#7F90A3"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "Apollo's software lived on a chip.",
+      "note": "It lived in wire. Core rope memory stored the program by weaving wires through and around magnetic cores.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "How a bit worked",
+      "text": "A wire through a core meant a 1. A wire around it meant a 0.",
+      "note": "The software was physically woven into the memory.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "figure",
+      "value": "36,864",
+      "unit": "words",
+      "context": "The size of the Apollo Guidance Computer's fixed memory, in six modules. Each word was 16 bits, 15 of data and one for parity.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "Who wove it",
+      "text": "Women at Raytheon in Waltham, Massachusetts.",
+      "note": "Many were hired from the textile industry for their sewing skills. Others came from the Waltham Watch Company.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "The cost",
+      "text": "About eight weeks and $15,000 for each module.",
+      "note": "Those are the figures given in a detailed technical write up.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "kicker",
+      "text": "Once it was woven, the program could not be edited.",
+      "durationInFrames": 82
+    },
+    {
+      "kind": "sign",
+      "line": "Software, made by hand.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,47 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (salem-1692-nineteen-hanged-none-burned)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0E0D0B",
+    "ink": "#F0ECDF",
+    "accent": "#C8452F",
+    "muted": "#786F5E"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The story says Salem burned its witches",
+      "text": "Not one of them was.",
+      "note": "None of the condemned was burned at the stake. The idea likely comes from European trials, where fire was common. Salem followed English law and used the gallows.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "19",
+      "unit": "hanged",
+      "context": "Fourteen women and five men were hanged between 10 June and 22 September 1692.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "statement",
+      "lead": "One more man died in a different way",
+      "text": "Giles Corey was pressed to death.",
+      "note": "He was 81. He refused to enter a plea, so stones were piled on him in September 1692.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "kicker",
+      "text": "The fire belongs to Europe. Salem used rope.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Check the myth against the record.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
