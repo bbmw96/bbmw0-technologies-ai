@@ -1,0 +1,14 @@
+Rendering 2 Shorts for 2026-10-24 (concurrency=3, GL=default)
+Compliance: 2 cleared, 0 blocked (policy v1.0.0).
+
+--- curie-notebooks-still-radioactive-lead-boxes ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-24-curie-notebooks-still-radioactive-lead-boxes.mp4
+  uploaded public: https://youtu.be/ZAch-9h36H0
+
+--- rfc-1149-pigeon-ping-bergen-2001 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-10-24-rfc-1149-pigeon-ping-bergen-2001.mp4
+  uploaded public: https://youtu.be/d-W0tuAaGr8
+
+=== Done. 2 rendered, 2 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

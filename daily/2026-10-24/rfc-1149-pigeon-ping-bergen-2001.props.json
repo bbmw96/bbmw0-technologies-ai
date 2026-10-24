@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (rfc-1149-pigeon-ping-bergen-2001)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#11131A",
+    "ink": "#F1F3F8",
+    "accent": "#7C9CF5",
+    "muted": "#838896"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "A real standard",
+      "text": "Someone wrote the rules for sending internet traffic by pigeon.",
+      "note": "RFC 1149, by David Waitzman of BBN, dated 1 April 1990. The datagram is printed in hexadecimal on a paper scroll and wrapped round a leg with duct tape.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The specification",
+      "text": "A typical MTU is 256 milligrams.",
+      "note": "That is the RFC's own wording for the maximum size of a packet.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "credit",
+      "year": "2001",
+      "name": "Bergen Linux User Group",
+      "role": "Ran it for real in Norway on 28 April, with ping packets on pigeons' legs. They read the replies back with OCR software.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "figure",
+      "value": "55",
+      "unit": "% lost",
+      "context": "Nine pings went out and four replies came back. The slowest round trip took 6,389 seconds.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "statement",
+      "lead": "What went wrong",
+      "text": "A neighbour's flock distracted theirs.",
+      "note": "Their pigeons stayed to fly with the others for about an hour, and an open cage at the far end let more escape.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "kicker",
+      "text": "The team still called it a success.",
+      "durationInFrames": 64
+    },
+    {
+      "kind": "sign",
+      "line": "Packet loss has a flight path.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

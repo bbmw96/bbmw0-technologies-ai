@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (curie-notebooks-still-radioactive-lead-boxes)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0E1A14",
+    "ink": "#F2F5EF",
+    "accent": "#8FD694",
+    "muted": "#7C8F82"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "Marie Curie's notebooks are still radioactive.",
+      "note": "That part is true. They sit in lead-lined boxes at France's national library in Paris.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "statement",
+      "lead": "The rule",
+      "text": "Visitors sign a liability waiver first.",
+      "note": "They also wear protective gear to open the boxes.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "figure",
+      "value": "1,601",
+      "unit": "years",
+      "context": "The half-life of radium-226, the most common radium isotope. Her papers are still radioactive after more than a century.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "lead": "The habit",
+      "text": "She carried radium and polonium in her coat pocket.",
+      "note": "She also kept them in a desk drawer. The source does not say how the contamination reached each page, so this reel does not guess.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "Not just paper",
+      "text": "Her clothes, furniture and cookbooks are listed as well.",
+      "note": "ScienceAlert reports that her laboratory notes are still radioactive too.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "kicker",
+      "text": "Her research is still giving off its own evidence.",
+      "durationInFrames": 76
+    },
+    {
+      "kind": "sign",
+      "line": "Handle with care.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

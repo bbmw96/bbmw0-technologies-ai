@@ -343,7 +343,9 @@
     "reel:mars-pathfinder-priority-inversion-fixed-from-earth-1997",
     "reel:apollo-guidance-computer-core-rope-software-woven-wire",
     "reel:instagram-13-employees-1-billion-facebook-2012",
-    "reel:salem-1692-nineteen-hanged-none-burned"
+    "reel:salem-1692-nineteen-hanged-none-burned",
+    "reel:curie-notebooks-still-radioactive-lead-boxes",
+    "reel:rfc-1149-pigeon-ping-bergen-2001"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -6011,6 +6013,40 @@
       "channelId": "yt-bbmw0",
       "special": false,
       "platform": "youtube"
+    },
+    {
+      "id": "curie-notebooks-still-radioactive-lead-boxes",
+      "date": "2026-10-24",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The popular version. Marie Curie's notebooks are still radioactive.",
+      "description": "Marie Curie's notebooks are still radioactive. That part is true. They sit in lead-lined boxes at France's national library in Paris.\n\nVisitors sign a liability waiver first. They also wear protective gear to open the boxes.\n\nThe half-life of radium-226, the most common radium isotope. Her papers are still radioactive after more than a century.\n\nShe carried radium and polonium in her coat pocket. She also kept them in a desk drawer. The source does not say how the contamination reached each page, so this reel does not guess.\n\nHer clothes, furniture and cookbooks are listed as well. ScienceAlert reports that her laboratory notes are still radioactive too.\n\nHer research is still giving off its own evidence.\n\nSources:\n- https://www.csmonitor.com/Innovation/Horizons/2011/1107/Marie-Curie-Why-her-papers-are-still-radioactive (read): Curie's manuscripts are kept in lead-lined boxes in the Pierre and Marie Curie collection at France's national library; visitors must wear protective clothing and sign a waiver of liability; radium-226, the most common radium isotope, has a half-life of 1,601 years; she carried polonium and radium in her coat pocket and kept them in a desk drawer; her papers are still radioactive after more than 100 years.\n- https://www.sciencealert.com/these-personal-effects-of-marie-curie-will-be-radioactive-for-another-1-500-years (read): much of her personal effects including clothes, furniture, cookbooks and laboratory notes are still radioactive; her laboratory notebooks are stored in lead-lined boxes at the Bibliotheque Nationale in Paris; visitors are expected to sign a liability waiver and wear protective gear; radium-226 half-life given as about 1,600 years.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "ZAch-9h36H0",
+      "youtubeUrl": "https://youtu.be/ZAch-9h36H0",
+      "uploadedAt": "2026-10-24T13:01:13.219Z",
+      "privacy": "public"
+    },
+    {
+      "id": "rfc-1149-pigeon-ping-bergen-2001",
+      "date": "2026-10-24",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "A real standard. Someone wrote the rules for sending internet traffic by pigeon.",
+      "description": "Someone wrote the rules for sending internet traffic by pigeon. RFC 1149, by David Waitzman of BBN, dated 1 April 1990. The datagram is printed in hexadecimal on a paper scroll and wrapped round a leg with duct tape.\n\nA typical MTU is 256 milligrams. That is the RFC's own wording for the maximum size of a packet.\n\nRan it for real in Norway on 28 April, with ping packets on pigeons' legs. They read the replies back with OCR software.\n\nNine pings went out and four replies came back. The slowest round trip took 6,389 seconds.\n\nA neighbour's flock distracted theirs. Their pigeons stayed to fly with the others for about an hour, and an open cage at the far end let more escape.\n\nThe team still called it a success.\n\nSources:\n- https://www.rfc-editor.org/rfc/rfc1149 (read): RFC 1149 by D. Waitzman of BBN, dated 1 April 1990; datagram printed in hexadecimal on a small paper scroll wrapped around a carrier's leg and secured with duct tape; \"A typical MTU is 256 milligrams.\"\n- http://www.blug.linux.no/rfc1149/writeup/ (read): the Bergen Linux User Group write-up of the test on Saturday 28 April 2001 in Norway; packets carried on pigeons' legs, read back with the gocr OCR tool; four valid ping replies with times from 3,211 to 6,389 seconds; a neighbour's flock distracted the pigeons for about an hour; an open cage at the far end let pigeons out without packets; the team declared it a success.\n- https://en.wikipedia.org/wiki/IP_over_Avian_Carriers (read): the run used ping -c 9, so nine requests; four received; 55 per cent loss; slowest round trip 6388671.9 ms.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "d-W0tuAaGr8",
+      "youtubeUrl": "https://youtu.be/d-W0tuAaGr8",
+      "uploadedAt": "2026-10-24T13:02:11.952Z",
+      "privacy": "public"
     }
   ]
 }

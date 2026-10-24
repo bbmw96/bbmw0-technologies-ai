@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-24T13:00:08.357Z",
+  "policyVersion": "1.0.0",
+  "strictMode": false,
+  "allowed": [
+    "curie-notebooks-still-radioactive-lead-boxes",
+    "rfc-1149-pigeon-ping-bergen-2001"
+  ],
+  "blocked": [],
+  "results": [
+    {
+      "slug": "curie-notebooks-still-radioactive-lead-boxes",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "The popular version. Marie Curie's notebooks are still radioactive.",
+      "niche": "history",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.221,
+        "worstTitleAgainst": "apollo-guidance-computer-core-rope-software-woven-wire",
+        "worstDescriptionSimilarity": 0.249,
+        "combo": "reel:#0E1A14:#8FD694:#F2F5EF",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "rfc-1149-pigeon-ping-bergen-2001",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "A real standard. Someone wrote the rules for sending internet traffic by pigeon.",
+      "niche": "tech",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.091,
+        "worstTitleAgainst": "neptune-discovered-by-maths",
+        "worstDescriptionSimilarity": 0.222,
+        "combo": "reel:#11131A:#7C9CF5:#F1F3F8",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    }
+  ]
+}

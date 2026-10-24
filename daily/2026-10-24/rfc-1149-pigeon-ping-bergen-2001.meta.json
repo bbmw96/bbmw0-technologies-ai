@@ -1,0 +1,25 @@
+{
+  "slug": "rfc-1149-pigeon-ping-bergen-2001",
+  "date": "2026-10-24",
+  "title": "A real standard. Someone wrote the rules for sending internet traffic by pigeon.",
+  "description": "Someone wrote the rules for sending internet traffic by pigeon. RFC 1149, by David Waitzman of BBN, dated 1 April 1990. The datagram is printed in hexadecimal on a paper scroll and wrapped round a leg with duct tape.\n\nA typical MTU is 256 milligrams. That is the RFC's own wording for the maximum size of a packet.\n\nRan it for real in Norway on 28 April, with ping packets on pigeons' legs. They read the replies back with OCR software.\n\nNine pings went out and four replies came back. The slowest round trip took 6,389 seconds.\n\nA neighbour's flock distracted theirs. Their pigeons stayed to fly with the others for about an hour, and an open cage at the far end let more escape.\n\nThe team still called it a success.\n\nSources:\n- https://www.rfc-editor.org/rfc/rfc1149 (read): RFC 1149 by D. Waitzman of BBN, dated 1 April 1990; datagram printed in hexadecimal on a small paper scroll wrapped around a carrier's leg and secured with duct tape; \"A typical MTU is 256 milligrams.\"\n- http://www.blug.linux.no/rfc1149/writeup/ (read): the Bergen Linux User Group write-up of the test on Saturday 28 April 2001 in Norway; packets carried on pigeons' legs, read back with the gocr OCR tool; four valid ping replies with times from 3,211 to 6,389 seconds; a neighbour's flock distracted the pigeons for about an hour; an open cage at the far end let pigeons out without packets; the team declared it a success.\n- https://en.wikipedia.org/wiki/IP_over_Avian_Carriers (read): the run used ping -c 9, so nine requests; four received; 55 per cent loss; slowest round trip 6388671.9 ms.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-10-24-rfc-1149-pigeon-ping-bergen-2001.mp4",
+  "propsFile": "daily/2026-10-24/rfc-1149-pigeon-ping-bergen-2001.props.json",
+  "durationInFrames": 1062,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}
