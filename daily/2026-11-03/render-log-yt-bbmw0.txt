@@ -1,0 +1,20 @@
+Rendering 3 Shorts for 2026-11-03 (concurrency=3, GL=default)
+Compliance: 1 cleared, 2 blocked (policy v1.0.0).
+Blocked by compliance: arecibo-message-1679-bits-ceremony-1974, wow-signal-ehman-pen-mark-72-seconds-1977
+
+--- alcock-brown-first-nonstop-atlantic-eight-years-before-lindbergh-1919 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-03-alcock-brown-first-nonstop-atlantic-eight-years-before-lindbergh-1919.mp4
+  uploaded public: https://youtu.be/DgxCRcgnrNg
+
+--- arecibo-message-1679-bits-ceremony-1974 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-03-arecibo-message-1679-bits-ceremony-1974.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-11-03/compliance-verdict.json.
+
+--- wow-signal-ehman-pen-mark-72-seconds-1977 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-03-wow-signal-ehman-pen-mark-72-seconds-1977.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-11-03/compliance-verdict.json.
+
+=== Done. 3 rendered, 1 uploaded, 0 skipped, 2 blocked by compliance, 0 failed. ===

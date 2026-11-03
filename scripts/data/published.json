@@ -345,7 +345,10 @@
     "reel:instagram-13-employees-1-billion-facebook-2012",
     "reel:salem-1692-nineteen-hanged-none-burned",
     "reel:curie-notebooks-still-radioactive-lead-boxes",
-    "reel:rfc-1149-pigeon-ping-bergen-2001"
+    "reel:rfc-1149-pigeon-ping-bergen-2001",
+    "reel:alcock-brown-first-nonstop-atlantic-eight-years-before-lindbergh-1919",
+    "reel:wow-signal-ehman-pen-mark-72-seconds-1977",
+    "reel:arecibo-message-1679-bits-ceremony-1974"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -6047,6 +6050,49 @@
       "youtubeUrl": "https://youtu.be/d-W0tuAaGr8",
       "uploadedAt": "2026-10-24T13:02:11.952Z",
       "privacy": "public"
+    },
+    {
+      "id": "alcock-brown-first-nonstop-atlantic-eight-years-before-lindbergh-1919",
+      "date": "2026-11-03",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Lindbergh was not the first to fly nonstop across the Atlantic.",
+      "description": "Lindbergh was not the first to fly nonstop across the Atlantic. He flew solo from New York to Paris in over 33 hours and won the $25,000 Orteig Prize. Two men had crossed nonstop eight years earlier.\n\nAlcock and Brown left Newfoundland in a converted bomber. They took off from Lester's Field near St John's at about 1:45 p.m. in a modified First World War Vickers Vimy.\n\nAbout how long the crossing took, 1,890 miles from Newfoundland to Ireland.\n\nThey landed nose first in a bog. They aimed for what looked like a green field near Clifden, County Galway. It was Derrigimlagh Bog. The aircraft nosed over and neither man was hurt.\n\nThe Daily Mail paid 10,000 pounds. It was offered for a crossing in under 72 consecutive hours. A week later both men were knighted at Windsor Castle.\n\nAlcock never saw 1920. He was killed on 18 December 1919 near Rouen, flying a new Vickers Viking amphibian to the Paris Airshow.\n\nThe first nonstop crossing came eight years before the famous one.\n\nSources:\n- https://en.wikipedia.org/wiki/Alcock_and_Brown: read. Established the departure from Lester's Field near St John's at around 1:45 p.m. on 14 June 1919 and the landing at 8:40 a.m. on 15 June, the 1,890 mile route to Clifden, County Galway, the modified First World War Vickers Vimy, the landing in Derrigimlagh Bog after the aircraft nosed over with neither man hurt, the Daily Mail prize of 10,000 pounds for a crossing in under 72 consecutive hours, the knighthoods a week later at Windsor Castle, and Alcock's death on 18 December 1919 near Rouen flying a Vickers Viking amphibian to the Paris Airshow.\n- https://collection.sciencemuseumgroup.org.uk/objects/co499537: read. Established that the Vimy made 'the first non-stop flight across the Atlantic on 14th-15th June 1919', that the flight took 16 hours, that it ended in a crash-landing in a bog near Clifden, and that the crew were knighted by George V.\n- https://en.wikipedia.org/wiki/Charles_Lindbergh: read. Established Lindbergh's solo flight of 20 to 21 May 1927 from Roosevelt Field to Le Bourget in over 33 hours, the $25,000 Orteig Prize, and that he was the first to fly nonstop from New York to Paris.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "DgxCRcgnrNg",
+      "youtubeUrl": "https://youtu.be/DgxCRcgnrNg",
+      "uploadedAt": "2026-11-03T16:48:15.715Z",
+      "privacy": "public"
+    },
+    {
+      "id": "wow-signal-ehman-pen-mark-72-seconds-1977",
+      "date": "2026-11-03",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "15 August 1977. A radio telescope in Ohio picked up a signal nobody saw arrive.",
+      "description": "A radio telescope in Ohio picked up a signal nobody saw arrive. Big Ear's computer printed it at about 11:16 p.m. Eastern Daylight Time. No one was at the telescope at that time. Jerry Ehman found it a few days later.\n\n'Wow!' is a pen mark. Ehman circled the characters 6EQUJ5 on the printout and wrote 'Wow!' beside them.\n\nEach character is a signal strength. One character per 12 second row of printout. The values climbed through 6, E and Q to U, then fell to J and 5. U stood for 30, the largest value seen.\n\nThe longest Big Ear could watch one patch of sky as the Earth turned. The signal lasted the whole window.\n\nIt sat just above the hydrogen line. Ehman's figure is 1420.4556 megahertz, about 50 kilohertz above the hydrogen line, in a single narrow channel.\n\nNobody has found it again. Ehman searched in the months afterwards, and later searches, including the Very Large Array, found nothing. No explanation is settled.\n\nThe most famous signal in the search for aliens is one pen mark on one printout.\n\nSources:\n- https://en.wikipedia.org/wiki/Wow!_signal: read. Established the detection on 15 August 1977 at Big Ear, that Jerry Ehman circled 6EQUJ5 and wrote 'Wow!' beside it, that the signal lasted the full 72 second window Big Ear could observe a point, that it was in Sagittarius, that it has never recurred, and that follow-up searches (Gray at the VLA, Breakthrough Listen and others) found nothing.\n- http://www.bigear.org/6equj5.htm: read (Ehman's own explanation). Established that each character is a signal-to-noise value for one 12 second printout row, that E, Q and U stand for the ranges 14, 26 and 30, that U was the largest value seen, that the observation was about 11:16 p.m. EDT on 15 August 1977, that no one was at the telescope at that time, that the frequency was 1420.4556 MHz plus or minus 0.005 MHz (the hydrogen line plus an offset) in a single 10 kHz channel, and that the dual horn system showed only one detection.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "arecibo-message-1679-bits-ceremony-1974",
+      "date": "2026-11-03",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "16 November 1974. Humanity sent a message to the stars as part of a ceremony.",
+      "description": "Humanity sent a message to the stars as part of a ceremony. Arecibo broadcast it to mark the remodelling of its telescope. It was a demonstration of technology, not a serious attempt at conversation.\n\nFrank Drake wrote it, with help. Carl Sagan and other colleagues contributed to the design.\n\nThe length of the message. It is 73 times 23, both prime, which hints at how to fold it into a picture.\n\nNumbers, DNA, a stick figure and the telescope. It counts one to ten, gives the atomic numbers of five elements, shows DNA, a human 1.764 metres tall, a population of about four billion, the Solar System and the dish.\n\nThe whole thing took under three minutes. It went out at 10 bits a second.\n\nOne number was already out of date. The message gave a figure for human DNA base pairs that was believed correct in 1974. The count is now known to be about 3.2 billion.\n\nIt will take more than 20,000 years to arrive. The target is M13, a star cluster. The SETI Institute says it is unlikely to prompt a reply.\n\nThe most powerful broadcast we aimed at the stars was part of a ceremony.\n\nSources:\n- https://en.wikipedia.org/wiki/Arecibo_message: read. Established the 16 November 1974 date, that it was broadcast at a ceremony marking the remodelling of the telescope, that it was meant as a demonstration of human technological achievement rather than a real attempt at conversation, that it was 1,679 bits arranged 73 rows by 23 columns (a semiprime), that the broadcast lasted under three minutes, the contents (numbers 1 to 10, atomic numbers of hydrogen, carbon, nitrogen, oxygen and phosphorus, DNA, a human figure of 1.764 m, a population of about 4 billion, the Solar System, the dish), that the genome figure was believed correct in 1974 but is now known to be about 3.2 billion base pairs, and that the message will take at least 25,000 years to reach M13.\n- https://www.seti.org/research/seti-101/project-phoenix/arecibo/: read. Established the 1974 broadcast as part of ceremonies for a major upgrade, 1,679 bits as 73 lines of 23 characters, a broadcast under three minutes at 10 bits per second, the target M13, and the statement that it is unlikely the short inquiry will prompt a reply.\n- https://en.wikipedia.org/wiki/Frank_Drake: read. Established that Drake designed and wrote the Arecibo message in 1974.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
     }
   ]
 }

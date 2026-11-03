@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (alcock-brown-first-nonstop-atlantic-eight-years-before-lindbergh-1919)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#14110C",
+    "ink": "#F3EEE3",
+    "accent": "#D9A441",
+    "muted": "#8C8372"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "1927",
+      "text": "Lindbergh was not the first to fly nonstop across the Atlantic.",
+      "note": "He flew solo from New York to Paris in over 33 hours and won the $25,000 Orteig Prize. Two men had crossed nonstop eight years earlier.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "14 June 1919",
+      "text": "Alcock and Brown left Newfoundland in a converted bomber.",
+      "note": "They took off from Lester's Field near St John's at about 1:45 p.m. in a modified First World War Vickers Vimy.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "16",
+      "unit": "hours",
+      "context": "About how long the crossing took, 1,890 miles from Newfoundland to Ireland.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "statement",
+      "lead": "The landing",
+      "text": "They landed nose first in a bog.",
+      "note": "They aimed for what looked like a green field near Clifden, County Galway. It was Derrigimlagh Bog. The aircraft nosed over and neither man was hurt.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The prize",
+      "text": "The Daily Mail paid 10,000 pounds.",
+      "note": "It was offered for a crossing in under 72 consecutive hours. A week later both men were knighted at Windsor Castle.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "statement",
+      "lead": "Epilogue",
+      "text": "Alcock never saw 1920.",
+      "note": "He was killed on 18 December 1919 near Rouen, flying a new Vickers Viking amphibian to the Paris Airshow.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "kicker",
+      "text": "The first nonstop crossing came eight years before the famous one.",
+      "durationInFrames": 88
+    },
+    {
+      "kind": "sign",
+      "line": "Check who was first before you repeat it.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,75 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (arecibo-message-1679-bits-ceremony-1974)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0F1C",
+    "ink": "#EEF2FA",
+    "accent": "#6FA8FF",
+    "muted": "#7B87A3"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "16 November 1974",
+      "text": "Humanity sent a message to the stars as part of a ceremony.",
+      "note": "Arecibo broadcast it to mark the remodelling of its telescope. It was a demonstration of technology, not a serious attempt at conversation.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The author",
+      "text": "Frank Drake wrote it, with help.",
+      "note": "Carl Sagan and other colleagues contributed to the design.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "figure",
+      "value": "1679",
+      "unit": "bits",
+      "context": "The length of the message. It is 73 times 23, both prime, which hints at how to fold it into a picture.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "statement",
+      "lead": "The contents",
+      "text": "Numbers, DNA, a stick figure and the telescope.",
+      "note": "It counts one to ten, gives the atomic numbers of five elements, shows DNA, a human 1.764 metres tall, a population of about four billion, the Solar System and the dish.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The broadcast",
+      "text": "The whole thing took under three minutes.",
+      "note": "It went out at 10 bits a second.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "statement",
+      "lead": "The error",
+      "text": "One number was already out of date.",
+      "note": "The message gave a figure for human DNA base pairs that was believed correct in 1974. The count is now known to be about 3.2 billion.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The journey",
+      "text": "It will take more than 20,000 years to arrive.",
+      "note": "The target is M13, a star cluster. The SETI Institute says it is unlikely to prompt a reply.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "kicker",
+      "text": "The most powerful broadcast we aimed at the stars was part of a ceremony.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "sign",
+      "line": "Aim carefully, then be patient.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

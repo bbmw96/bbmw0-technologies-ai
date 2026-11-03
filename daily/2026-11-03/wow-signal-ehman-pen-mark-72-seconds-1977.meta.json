@@ -1,0 +1,25 @@
+{
+  "slug": "wow-signal-ehman-pen-mark-72-seconds-1977",
+  "date": "2026-11-03",
+  "title": "15 August 1977. A radio telescope in Ohio picked up a signal nobody saw arrive.",
+  "description": "A radio telescope in Ohio picked up a signal nobody saw arrive. Big Ear's computer printed it at about 11:16 p.m. Eastern Daylight Time. No one was at the telescope at that time. Jerry Ehman found it a few days later.\n\n'Wow!' is a pen mark. Ehman circled the characters 6EQUJ5 on the printout and wrote 'Wow!' beside them.\n\nEach character is a signal strength. One character per 12 second row of printout. The values climbed through 6, E and Q to U, then fell to J and 5. U stood for 30, the largest value seen.\n\nThe longest Big Ear could watch one patch of sky as the Earth turned. The signal lasted the whole window.\n\nIt sat just above the hydrogen line. Ehman's figure is 1420.4556 megahertz, about 50 kilohertz above the hydrogen line, in a single narrow channel.\n\nNobody has found it again. Ehman searched in the months afterwards, and later searches, including the Very Large Array, found nothing. No explanation is settled.\n\nThe most famous signal in the search for aliens is one pen mark on one printout.\n\nSources:\n- https://en.wikipedia.org/wiki/Wow!_signal: read. Established the detection on 15 August 1977 at Big Ear, that Jerry Ehman circled 6EQUJ5 and wrote 'Wow!' beside it, that the signal lasted the full 72 second window Big Ear could observe a point, that it was in Sagittarius, that it has never recurred, and that follow-up searches (Gray at the VLA, Breakthrough Listen and others) found nothing.\n- http://www.bigear.org/6equj5.htm: read (Ehman's own explanation). Established that each character is a signal-to-noise value for one 12 second printout row, that E, Q and U stand for the ranges 14, 26 and 30, that U was the largest value seen, that the observation was about 11:16 p.m. EDT on 15 August 1977, that no one was at the telescope at that time, that the frequency was 1420.4556 MHz plus or minus 0.005 MHz (the hydrogen line plus an offset) in a single 10 kHz channel, and that the dual horn system showed only one detection.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "science",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-03-wow-signal-ehman-pen-mark-72-seconds-1977.mp4",
+  "propsFile": "daily/2026-11-03/wow-signal-ehman-pen-mark-72-seconds-1977.props.json",
+  "durationInFrames": 1312,
+  "audioUrl": "",
+  "niche": "science",
+  "composition": "Reel"
+}

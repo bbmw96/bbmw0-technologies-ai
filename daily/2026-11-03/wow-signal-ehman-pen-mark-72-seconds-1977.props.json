@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (wow-signal-ehman-pen-mark-72-seconds-1977)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0F1C",
+    "ink": "#EEF2FA",
+    "accent": "#6FA8FF",
+    "muted": "#7B87A3"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "15 August 1977",
+      "text": "A radio telescope in Ohio picked up a signal nobody saw arrive.",
+      "note": "Big Ear's computer printed it at about 11:16 p.m. Eastern Daylight Time. No one was at the telescope at that time. Jerry Ehman found it a few days later.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The name",
+      "text": "'Wow!' is a pen mark.",
+      "note": "Ehman circled the characters 6EQUJ5 on the printout and wrote 'Wow!' beside them.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "statement",
+      "lead": "The code",
+      "text": "Each character is a signal strength.",
+      "note": "One character per 12 second row of printout. The values climbed through 6, E and Q to U, then fell to J and 5. U stood for 30, the largest value seen.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "72",
+      "unit": "seconds",
+      "context": "The longest Big Ear could watch one patch of sky as the Earth turned. The signal lasted the whole window.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "statement",
+      "lead": "The frequency",
+      "text": "It sat just above the hydrogen line.",
+      "note": "Ehman's figure is 1420.4556 megahertz, about 50 kilohertz above the hydrogen line, in a single narrow channel.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "Since then",
+      "text": "Nobody has found it again.",
+      "note": "Ehman searched in the months afterwards, and later searches, including the Very Large Array, found nothing. No explanation is settled.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "kicker",
+      "text": "The most famous signal in the search for aliens is one pen mark on one printout.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "sign",
+      "line": "Write 'Wow' next to the weird data.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

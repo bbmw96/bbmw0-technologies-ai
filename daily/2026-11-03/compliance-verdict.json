@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-03",
+  "generatedAt": "2026-11-03T16:46:42.902Z",
+  "policyVersion": "1.0.0",
+  "strictMode": false,
+  "allowed": [
+    "alcock-brown-first-nonstop-atlantic-eight-years-before-lindbergh-1919"
+  ],
+  "blocked": [
+    "arecibo-message-1679-bits-ceremony-1974",
+    "wow-signal-ehman-pen-mark-72-seconds-1977"
+  ],
+  "results": [
+    {
+      "slug": "alcock-brown-first-nonstop-atlantic-eight-years-before-lindbergh-1919",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Lindbergh was not the first to fly nonstop across the Atlantic.",
+      "niche": "history",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "safety.context_review",
+          "message": "Context-sensitive term(s) present: killed, death, war. Legitimate in educational science and history, referred to the AI safety reviewer.",
+          "detail": {
+            "terms": [
+              "killed",
+              "death",
+              "war"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.2,
+        "worstTitleAgainst": "odyssey-baer-before-pong-1972",
+        "worstDescriptionSimilarity": 0.232,
+        "combo": "reel:#14110C:#D9A441:#F3EEE3",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "arecibo-message-1679-bits-ceremony-1974",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "16 November 1974. Humanity sent a message to the stars as part of a ceremony.",
+      "niche": "science",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "repetition.combo_batch",
+          "message": "Same theme/font/audio as \"wow-signal-ehman-pen-mark-72-seconds-1977\" in this batch.",
+          "detail": {
+            "combo": "reel:#0A0F1C:#6FA8FF:#EEF2FA"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.077,
+        "worstTitleAgainst": "sms-160-hillebrand-twitter-140",
+        "worstDescriptionSimilarity": 0.264,
+        "combo": "reel:#0A0F1C:#6FA8FF:#EEF2FA",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "wow-signal-ehman-pen-mark-72-seconds-1977",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "15 August 1977. A radio telescope in Ohio picked up a signal nobody saw arrive.",
+      "niche": "science",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "repetition.combo_batch",
+          "message": "Same theme/font/audio as \"arecibo-message-1679-bits-ceremony-1974\" in this batch.",
+          "detail": {
+            "combo": "reel:#0A0F1C:#6FA8FF:#EEF2FA"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.091,
+        "worstTitleAgainst": "gmail-april-fools-2004",
+        "worstDescriptionSimilarity": 0.264,
+        "combo": "reel:#0A0F1C:#6FA8FF:#EEF2FA",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    }
+  ]
+}
