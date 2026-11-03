@@ -15878,6 +15878,371 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "wow-signal-ehman-pen-mark-72-seconds-1977",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wow!_signal: read. Established the detection on 15 August 1977 at Big Ear, that Jerry Ehman circled 6EQUJ5 and wrote 'Wow!' beside it, that the signal lasted the full 72 second window Big Ear could observe a point, that it was in Sagittarius, that it has never recurred, and that follow-up searches (Gray at the VLA, Breakthrough Listen and others) found nothing.",
+        "http://www.bigear.org/6equj5.htm: read (Ehman's own explanation). Established that each character is a signal-to-noise value for one 12 second printout row, that E, Q and U stand for the ranges 14, 26 and 30, that U was the largest value seen, that the observation was about 11:16 p.m. EDT on 15 August 1977, that no one was at the telescope at that time, that the frequency was 1420.4556 MHz plus or minus 0.005 MHz (the hydrogen line plus an offset) in a single 10 kHz channel, and that the dual horn system showed only one detection."
+      ],
+      "verifiedNote": "Checked 3 Nov 2026 against Wikipedia and Ehman's own page. Not claimed: the UTC date (Wikipedia is ambiguous between 15 and 16 August), Kraus's 1994 frequency of 1420.3556 MHz (0.1 MHz away from Ehman's, so the beat uses Ehman's), which horn received it, the 2017 Antonio Paris comet theory (dismissed by astronomers), the August 2024 cold hydrogen cloud preprint (a preprint only), and the summary-only claims on the second Ehman page (2 to 2.5 minutes, flux densities). The word 'astronomer' for Ehman is avoided because the sources label him both astronomer and volunteer.",
+      "palette": {
+        "bg": "#0A0F1C",
+        "ink": "#EEF2FA",
+        "accent": "#6FA8FF",
+        "muted": "#7B87A3"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "15 August 1977",
+          "text": "A radio telescope in Ohio picked up a signal nobody saw arrive.",
+          "note": "Big Ear's computer printed it at about 11:16 p.m. Eastern Daylight Time. No one was at the telescope at that time. Jerry Ehman found it a few days later."
+        },
+        {
+          "kind": "statement",
+          "lead": "The name",
+          "text": "'Wow!' is a pen mark.",
+          "note": "Ehman circled the characters 6EQUJ5 on the printout and wrote 'Wow!' beside them."
+        },
+        {
+          "kind": "statement",
+          "lead": "The code",
+          "text": "Each character is a signal strength.",
+          "note": "One character per 12 second row of printout. The values climbed through 6, E and Q to U, then fell to J and 5. U stood for 30, the largest value seen."
+        },
+        {
+          "kind": "figure",
+          "value": "72",
+          "unit": "seconds",
+          "context": "The longest Big Ear could watch one patch of sky as the Earth turned. The signal lasted the whole window."
+        },
+        {
+          "kind": "statement",
+          "lead": "The frequency",
+          "text": "It sat just above the hydrogen line.",
+          "note": "Ehman's figure is 1420.4556 megahertz, about 50 kilohertz above the hydrogen line, in a single narrow channel."
+        },
+        {
+          "kind": "statement",
+          "lead": "Since then",
+          "text": "Nobody has found it again.",
+          "note": "Ehman searched in the months afterwards, and later searches, including the Very Large Array, found nothing. No explanation is settled."
+        },
+        {
+          "kind": "kicker",
+          "text": "The most famous signal in the search for aliens is one pen mark on one printout."
+        },
+        {
+          "kind": "sign",
+          "line": "Write 'Wow' next to the weird data.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "arecibo-message-1679-bits-ceremony-1974",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Arecibo_message: read. Established the 16 November 1974 date, that it was broadcast at a ceremony marking the remodelling of the telescope, that it was meant as a demonstration of human technological achievement rather than a real attempt at conversation, that it was 1,679 bits arranged 73 rows by 23 columns (a semiprime), that the broadcast lasted under three minutes, the contents (numbers 1 to 10, atomic numbers of hydrogen, carbon, nitrogen, oxygen and phosphorus, DNA, a human figure of 1.764 m, a population of about 4 billion, the Solar System, the dish), that the genome figure was believed correct in 1974 but is now known to be about 3.2 billion base pairs, and that the message will take at least 25,000 years to reach M13.",
+        "https://www.seti.org/research/seti-101/project-phoenix/arecibo/: read. Established the 1974 broadcast as part of ceremonies for a major upgrade, 1,679 bits as 73 lines of 23 characters, a broadcast under three minutes at 10 bits per second, the target M13, and the statement that it is unlikely the short inquiry will prompt a reply.",
+        "https://en.wikipedia.org/wiki/Frank_Drake: read. Established that Drake designed and wrote the Arecibo message in 1974."
+      ],
+      "verifiedNote": "Checked 3 Nov 2026 against three pages. Not claimed: the distance to M13 as a single number (Wikipedia says about 25,000 light years, the SETI page says roughly 21,000, so the beat says more than 20,000), the transmitter power (450 kW versus a 20 trillion watt omnidirectional equivalent, different quantities), the transmission frequency (Wikipedia only), any quote from Drake on the odds of contact (none found), the 2001 crop circle, and a full list of the designers beyond Drake and the Sagan contribution.",
+      "palette": {
+        "bg": "#0A0F1C",
+        "ink": "#EEF2FA",
+        "accent": "#6FA8FF",
+        "muted": "#7B87A3"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "16 November 1974",
+          "text": "Humanity sent a message to the stars as part of a ceremony.",
+          "note": "Arecibo broadcast it to mark the remodelling of its telescope. It was a demonstration of technology, not a serious attempt at conversation."
+        },
+        {
+          "kind": "statement",
+          "lead": "The author",
+          "text": "Frank Drake wrote it, with help.",
+          "note": "Carl Sagan and other colleagues contributed to the design."
+        },
+        {
+          "kind": "figure",
+          "value": "1679",
+          "unit": "bits",
+          "context": "The length of the message. It is 73 times 23, both prime, which hints at how to fold it into a picture."
+        },
+        {
+          "kind": "statement",
+          "lead": "The contents",
+          "text": "Numbers, DNA, a stick figure and the telescope.",
+          "note": "It counts one to ten, gives the atomic numbers of five elements, shows DNA, a human 1.764 metres tall, a population of about four billion, the Solar System and the dish."
+        },
+        {
+          "kind": "statement",
+          "lead": "The broadcast",
+          "text": "The whole thing took under three minutes.",
+          "note": "It went out at 10 bits a second."
+        },
+        {
+          "kind": "statement",
+          "lead": "The error",
+          "text": "One number was already out of date.",
+          "note": "The message gave a figure for human DNA base pairs that was believed correct in 1974. The count is now known to be about 3.2 billion."
+        },
+        {
+          "kind": "statement",
+          "lead": "The journey",
+          "text": "It will take more than 20,000 years to arrive.",
+          "note": "The target is M13, a star cluster. The SETI Institute says it is unlikely to prompt a reply."
+        },
+        {
+          "kind": "kicker",
+          "text": "The most powerful broadcast we aimed at the stars was part of a ceremony."
+        },
+        {
+          "kind": "sign",
+          "line": "Aim carefully, then be patient.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "alcock-brown-first-nonstop-atlantic-eight-years-before-lindbergh-1919",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Alcock_and_Brown: read. Established the departure from Lester's Field near St John's at around 1:45 p.m. on 14 June 1919 and the landing at 8:40 a.m. on 15 June, the 1,890 mile route to Clifden, County Galway, the modified First World War Vickers Vimy, the landing in Derrigimlagh Bog after the aircraft nosed over with neither man hurt, the Daily Mail prize of 10,000 pounds for a crossing in under 72 consecutive hours, the knighthoods a week later at Windsor Castle, and Alcock's death on 18 December 1919 near Rouen flying a Vickers Viking amphibian to the Paris Airshow.",
+        "https://collection.sciencemuseumgroup.org.uk/objects/co499537: read. Established that the Vimy made 'the first non-stop flight across the Atlantic on 14th-15th June 1919', that the flight took 16 hours, that it ended in a crash-landing in a bog near Clifden, and that the crew were knighted by George V.",
+        "https://en.wikipedia.org/wiki/Charles_Lindbergh: read. Established Lindbergh's solo flight of 20 to 21 May 1927 from Roosevelt Field to Le Bourget in over 33 hours, the $25,000 Orteig Prize, and that he was the first to fly nonstop from New York to Paris."
+      ],
+      "verifiedNote": "Checked 3 Nov 2026 against Wikipedia and the Science Museum Group. Not claimed: any precise duration beyond 'about 16 hours' (Wikipedia gives 15 h 57 min, 'less than sixteen hours' and about 14.5 hours over open ocean, so the figure beat uses 16), engine details (360 hp versus Eagle VIII), the Churchill presentation detail, Lindbergh's distance (3,600 versus 3,610 miles), and the full name of Brown. The framing is that Lindbergh was first solo and first New York to Paris, while Alcock and Brown were first nonstop across the Atlantic.",
+      "palette": {
+        "bg": "#14110C",
+        "ink": "#F3EEE3",
+        "accent": "#D9A441",
+        "muted": "#8C8372"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "1927",
+          "text": "Lindbergh was not the first to fly nonstop across the Atlantic.",
+          "note": "He flew solo from New York to Paris in over 33 hours and won the $25,000 Orteig Prize. Two men had crossed nonstop eight years earlier."
+        },
+        {
+          "kind": "statement",
+          "lead": "14 June 1919",
+          "text": "Alcock and Brown left Newfoundland in a converted bomber.",
+          "note": "They took off from Lester's Field near St John's at about 1:45 p.m. in a modified First World War Vickers Vimy."
+        },
+        {
+          "kind": "figure",
+          "value": "16",
+          "unit": "hours",
+          "context": "About how long the crossing took, 1,890 miles from Newfoundland to Ireland."
+        },
+        {
+          "kind": "statement",
+          "lead": "The landing",
+          "text": "They landed nose first in a bog.",
+          "note": "They aimed for what looked like a green field near Clifden, County Galway. It was Derrigimlagh Bog. The aircraft nosed over and neither man was hurt."
+        },
+        {
+          "kind": "statement",
+          "lead": "The prize",
+          "text": "The Daily Mail paid 10,000 pounds.",
+          "note": "It was offered for a crossing in under 72 consecutive hours. A week later both men were knighted at Windsor Castle."
+        },
+        {
+          "kind": "statement",
+          "lead": "Epilogue",
+          "text": "Alcock never saw 1920.",
+          "note": "He was killed on 18 December 1919 near Rouen, flying a new Vickers Viking amphibian to the Paris Airshow."
+        },
+        {
+          "kind": "kicker",
+          "text": "The first nonstop crossing came eight years before the famous one."
+        },
+        {
+          "kind": "sign",
+          "line": "Check who was first before you repeat it.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "gantt-chart-adamiecki-harmonogram-1896",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gantt_chart: read. Established that the first known tool of this type was developed in 1896 by Karol Adamiecki, who called it a harmonogram, that Adamiecki published in Russian and Polish which limited adoption and recognition of his authorship, that Henry Gantt designed and popularised his chart around 1910 to 1915, and that one of the first major applications was by the United States in the First World War at the instigation of General William Crozier.",
+        "https://en.wikipedia.org/wiki/Karol_Adamiecki: read. Established the 1896 harmonogram for displaying interdependent processes, that he worked before Taylor popularised scientific management, and that his works were in Polish and Russian, languages little known in the English-speaking world.",
+        "https://en.wikipedia.org/wiki/Henry_Gantt: read. Established that Gantt worked with Frederick Taylor from 1887 until 1893 and that he died on 23 November 1919.",
+        "https://archive.org/stream/cu31924004570853/cu31924004570853_djvu.txt: read the preface verbatim (Wallace Clark, The Gantt Chart, 1922). Established that General William Crozier, Chief of Ordnance, retained Gantt as a production consultant first at the Frankford Arsenal, that in 1918 the charts were used in US arsenals in the production of naval aircraft, that Gantt never tried to patent or copyright his charts, and that he died on 23 November 1919."
+      ],
+      "verifiedNote": "Checked 3 Nov 2026 against Wikipedia and Clark's 1922 book. Not claimed: that Adamiecki 'invented' it outright (Wikipedia says 'first known'), the exact years Adamiecki published (1903, 1909 and 1931 are all mentioned), that his work appeared only in Polish and Russian (his 1931 bibliography includes French and German titles, so the beat says he published in those languages without 'only'), Hermann Schurch's 1912 charts (dated 1915 in the citation), and that shipbuilding was the first use. No figure beat: no number earns 300px.",
+      "palette": {
+        "bg": "#0E1512",
+        "ink": "#EDF3EF",
+        "accent": "#4FC08D",
+        "muted": "#7C8F86"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The myth",
+          "text": "The first known chart of this type came from a Polish engineer.",
+          "note": "Karol Adamiecki devised his version in 1896, years before the one that carries Henry Gantt's name."
+        },
+        {
+          "kind": "statement",
+          "lead": "1896",
+          "text": "Adamiecki called his version a harmonogram.",
+          "note": "It showed interdependent processes against time. He was working before Frederick Taylor had popularised scientific management."
+        },
+        {
+          "kind": "statement",
+          "lead": "The language",
+          "text": "He published in Polish and Russian.",
+          "note": "Those languages were little known in the English-speaking world, which limited how far his authorship was recognised."
+        },
+        {
+          "kind": "statement",
+          "lead": "The 1910s",
+          "text": "Henry Gantt designed his chart around 1910 to 1915.",
+          "note": "Gantt had worked alongside Frederick Taylor from 1887 until 1893."
+        },
+        {
+          "kind": "statement",
+          "lead": "1918",
+          "text": "The First World War put it to work.",
+          "note": "General William Crozier, the Chief of Ordnance, hired Gantt to consult on production, first at the Frankford Arsenal. In 1918 the charts were used in US arsenals, including for naval aircraft."
+        },
+        {
+          "kind": "statement",
+          "lead": "No patent",
+          "text": "Gantt never tried to patent it.",
+          "note": "Wallace Clark's 1922 book records that he made no attempt to patent or copyright his charts. He died on 23 November 1919."
+        },
+        {
+          "kind": "kicker",
+          "text": "The name stuck to the man who popularised it, not the earliest known maker."
+        },
+        {
+          "kind": "sign",
+          "line": "Give credit to where it started.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "luhmann-zettelkasten-90000-slips-fixed-place-numbers",
+      "niche": "productivity",
+      "verified": false,
+      "reviewNote": "Draft. Needs a source beyond Wikipedia for the slip count, the years and the digitisation date: the Bielefeld archive site (niklas-luhmann-archiv.de) loads by script and could not be read, and the heise article was blocked by robots.txt. Wikipedia's two pages also disagree on his output (70 books and nearly 400 articles versus about 50 books and 550 articles), so do not state output until resolved.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Niklas_Luhmann: read. Said Luhmann built a zettelkasten of some 90,000 index cards, probably created between 1952 and early 1997, digitised by Bielefeld in 2019.",
+        "https://luhmann.surge.sh/communicating-with-slip-boxes: read (Luhmann's essay, Kuehn translation). Established the firm fixed place numbering, a never-changing number per slip, the example of 57/12 continued by 57/13 with 57/12a for insertions, and 'more than twenty-six years' of co-operation with the box."
+      ],
+      "verifiedNote": "Draft only. Not claimed: output counts, the physical boxes, the second collection, and the Folgezettel label.",
+      "palette": {
+        "bg": "#0E1512",
+        "ink": "#EDF3EF",
+        "accent": "#4FC08D",
+        "muted": "#7C8F86"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The box",
+          "text": "One sociologist kept about 90,000 index cards.",
+          "note": "Niklas Luhmann built it up from the early 1950s."
+        },
+        {
+          "kind": "statement",
+          "lead": "The rule",
+          "text": "He never ordered cards by topic.",
+          "note": "Each slip got a number and kept it for ever. A slip numbered 57/12 could be continued by 57/13, and an insertion became 57/12a."
+        },
+        {
+          "kind": "statement",
+          "lead": "The partner",
+          "text": "He described it as co-operating with the box.",
+          "note": "His essay says that after more than twenty-six years the approach was viable."
+        },
+        {
+          "kind": "statement",
+          "lead": "2019",
+          "text": "The cards were digitised and put online.",
+          "note": "Bielefeld University made them available in 2019."
+        },
+        {
+          "kind": "kicker",
+          "text": "The system worked because every note had a fixed address."
+        },
+        {
+          "kind": "sign",
+          "line": "Number your notes and never move them.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "nokia-tune-gran-vals-bars-13-16-1994",
+      "niche": "tech",
+      "verified": false,
+      "reviewNote": "Draft. Every claim rests on Wikipedia's Nokia tune article, which cites a Finnish school textbook and a Finnish newspaper (Taloussanomat, 2010). Independent sources (BBC, NYT 2005, Nokia history, Microsoft Lumia Conversations) were all blocked from this environment. Needs a second source for the 1902 composition year, the 1993 Vanjoki and Kivinen selection, and the 2110 launch. Do not use the 1.8 billion plays a day claim: it comes from a 2009 TED talk and could not be checked.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nokia_tune: read. Said the excerpt is bars 13 to 16 of Gran Vals, composed in 1902 by Francisco Tarrega, that Anssi Vanjoki showed Gran Vals to Lauri Kivinen in 1993 and they selected the excerpt, that it first appeared on the Nokia 2110 released in 1994, and that it was named 'Grande valse' with the Nokia 6110 in December 1997 and renamed 'Nokia tune' in 1998."
+      ],
+      "verifiedNote": "Draft only. Not claimed: daily play counts, the 1992 advert with Lubomir Brabec, trademark status, and any Morse code link (not found in the sources).",
+      "palette": {
+        "bg": "#170E0C",
+        "ink": "#F6EEE8",
+        "accent": "#E3633A",
+        "muted": "#8F7A70"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The source",
+          "text": "The Nokia ringtone is a classical guitar waltz.",
+          "note": "It is bars 13 to 16 of Gran Vals by Francisco Tarrega."
+        },
+        {
+          "kind": "statement",
+          "lead": "1993",
+          "text": "Two executives picked the excerpt.",
+          "note": "Anssi Vanjoki showed Gran Vals to Lauri Kivinen and they chose the phrase."
+        },
+        {
+          "kind": "statement",
+          "lead": "1994",
+          "text": "It first appeared on the Nokia 2110.",
+          "note": "It was one of the standard ringtones."
+        },
+        {
+          "kind": "statement",
+          "lead": "The name",
+          "text": "Nokia called it Grande valse first.",
+          "note": "It carried that name on the Nokia 6110 in 1997 and became Nokia tune in 1998."
+        },
+        {
+          "kind": "kicker",
+          "text": "The most heard ringtone started as a guitar piece."
+        },
+        {
+          "kind": "sign",
+          "line": "Hum it. You already know it.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
