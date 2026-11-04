@@ -348,7 +348,10 @@
     "reel:rfc-1149-pigeon-ping-bergen-2001",
     "reel:alcock-brown-first-nonstop-atlantic-eight-years-before-lindbergh-1919",
     "reel:wow-signal-ehman-pen-mark-72-seconds-1977",
-    "reel:arecibo-message-1679-bits-ceremony-1974"
+    "reel:arecibo-message-1679-bits-ceremony-1974",
+    "reel:operation-mincemeat-glyndwr-michael-identified-1996",
+    "reel:pluto-dwarf-planet-vote-237-157-prague-2006",
+    "reel:gantt-chart-adamiecki-harmonogram-1896"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -6093,6 +6096,53 @@
       "channelId": "yt-bbmw0",
       "special": false,
       "platform": "youtube"
+    },
+    {
+      "id": "operation-mincemeat-glyndwr-michael-identified-1996",
+      "date": "2026-11-04",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "30 April 1943. A dead \"Royal Marines officer\" carried fake invasion plans.",
+      "description": "A dead \"Royal Marines officer\" carried fake invasion plans. The body was released from the submarine HMS Seraph so that it would be found. A fisherman found it.\n\nMajor William Martin never existed. British Military Intelligence invented him. His papers pointed to landings in Greece and Sardinia, with Sicily as a feint.\n\nA letter between two generals named the wrong targets. It called Sicily and the Dodecanese \"cover targets\" for the real assaults.\n\nGermany moved forces to the wrong places. Reinforcements went to Greece and Sardinia before and during the invasion of Sicily. Sicily received none.\n\nThe body was never an officer. In 1996 it was identified as Glyndwr Michael, a Welsh homeless man.\n\nAn amateur historian from London who found the evidence in the Public Record Office.\n\nHe was buried with full military honours as Major Martin. In 1998 a new inscription was added to the stone after the identification.\n\nHe fooled an army in death, and his real name stayed hidden for over fifty years.\n\nSources:\n- https://en.wikipedia.org/wiki/Operation_Mincemeat: read (first 39,400 of 82,900 characters verbatim; later text was a tool summary and was not used). Established the 30 April 1943 release from HMS Seraph; the persona Captain (Acting Major) William Martin of the Royal Marines; correspondence between two British generals suggesting invasion of Greece and Sardinia with Sicily a feint; the letter naming Sicily and the Dodecanese as \"cover targets\"; \"German reinforcements were shifted to Greece and Sardinia before and during the invasion of Sicily; Sicily received none\"; and that in 1996 Roger Morgan, an amateur historian from London, uncovered evidence in the Public Record Office.\n- https://en.wikipedia.org/wiki/Glyndwr_Michael: read in full. Established that the body was identified in 1996 as Glyndwr Michael, a Welsh homeless man; that Major William Martin was a persona invented by British Military Intelligence; that he was buried with full military honours in Huelva (grave No.1886); and that a new inscription was added in 1998 after the identification.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "_rYYRR1c4h8",
+      "youtubeUrl": "https://youtu.be/_rYYRR1c4h8",
+      "uploadedAt": "2026-11-04T16:44:34.651Z",
+      "privacy": "public"
+    },
+    {
+      "id": "pluto-dwarf-planet-vote-237-157-prague-2006",
+      "date": "2026-11-04",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "24 August 2006. Astronomers in Prague voted on what a planet is.",
+      "description": "Astronomers in Prague voted on what a planet is. The International Astronomical Union passed a definition at its General Assembly. Pluto was the casualty.\n\nA planet must pass three tests. It orbits the Sun, it is nearly round, and it has cleared the neighbourhood around its orbit.\n\nThe first draft would have added planets. A proposal published on 16 August would have made Ceres, Charon and Eris planets, with twelve more candidates.\n\nOpen meetings killed it within a week. Members heavily defeated the Pluto-like object proposals on 22 August, and a new draft replaced it.\n\nIn favour of naming Pluto a dwarf planet, against 157.\n\nPluto became the prototype of a new category. Resolution 6A called it a dwarf planet and the prototype of trans-Neptunian objects.\n\nPluto did not change. The definition did.\n\nSources:\n- https://www.iau.org/news/pressreleases/detail/iau0603/: read in full (IAU press release from the 2006 General Assembly closing ceremony, Prague Congress Center). Established the three criteria for a planet as worded in Resolution 5A; that Resolution 6A \"passed with 237 votes in favour, 157 against and 17 abstentions\"; that Pluto is a \"dwarf planet\" and \"the prototype of a new category of trans-Neptunian objects\"; and that 5A was not counted but passed with a great majority.\n- https://en.wikipedia.org/wiki/2006_definition_of_planet: read (first 39,403 of 70,213 characters verbatim). Established the final definition passed on 24 August 2006; 6A approved 237 to 157; the original proposal published 16 August that would have made Ceres, Charon and Eris planets with twelve further candidates; the open meetings of 22 August that heavily defeated the Pluto-like object proposals; and the rewritten third draft of 24 August that was passed.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "gantt-chart-adamiecki-harmonogram-1896",
+      "date": "2026-11-04",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The first known chart of this type came from a Polish engineer.",
+      "description": "The first known chart of this type came from a Polish engineer. Karol Adamiecki devised his version in 1896, years before the one that carries Henry Gantt's name.\n\nAdamiecki called his version a harmonogram. It showed interdependent processes against time. He was working before Frederick Taylor had popularised scientific management.\n\nHe published in Polish and Russian. Those languages were little known in the English-speaking world, which limited how far his authorship was recognised.\n\nHenry Gantt designed his chart around 1910 to 1915. Gantt had worked alongside Frederick Taylor from 1887 until 1893.\n\nThe First World War put it to work. General William Crozier, the Chief of Ordnance, hired Gantt to consult on production, first at the Frankford Arsenal. In 1918 the charts were used in US arsenals, including for naval aircraft.\n\nGantt never tried to patent it. Wallace Clark's 1922 book records that he made no attempt to patent or copyright his charts. He died on 23 November 1919.\n\nThe name stuck to the man who popularised it, not the earliest known maker.\n\nSources:\n- https://en.wikipedia.org/wiki/Gantt_chart: read. Established that the first known tool of this type was developed in 1896 by Karol Adamiecki, who called it a harmonogram, that Adamiecki published in Russian and Polish which limited adoption and recognition of his authorship, that Henry Gantt designed and popularised his chart around 1910 to 1915, and that one of the first major applications was by the United States in the First World War at the instigation of General William Crozier.\n- https://en.wikipedia.org/wiki/Karol_Adamiecki: read. Established the 1896 harmonogram for displaying interdependent processes, that he worked before Taylor popularised scientific management, and that his works were in Polish and Russian, languages little known in the English-speaking world.\n- https://en.wikipedia.org/wiki/Henry_Gantt: read. Established that Gantt worked with Frederick Taylor from 1887 until 1893 and that he died on 23 November 1919.\n- https://archive.org/stream/cu31924004570853/cu31924004570853_djvu.txt: read the preface verbatim (Wallace Clark, The Gantt Chart, 1922). Established that General William Crozier, Chief of Ordnance, retained Gantt as a production consultant first at the Frankford Arsenal, that in 1918 the charts were used in US arsenals in the production of naval aircraft, that Gantt never tried to patent or copyright his charts, and that he died on 23 November 1919.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "4NErjSzDK40",
+      "youtubeUrl": "https://youtu.be/4NErjSzDK40",
+      "uploadedAt": "2026-11-04T16:43:05.888Z",
+      "privacy": "public"
     }
   ]
 }

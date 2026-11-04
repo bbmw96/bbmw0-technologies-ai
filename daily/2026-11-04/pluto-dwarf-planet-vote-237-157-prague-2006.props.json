@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (pluto-dwarf-planet-vote-237-157-prague-2006)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0F1C",
+    "ink": "#EEF2FA",
+    "accent": "#6FA8FF",
+    "muted": "#7B87A3"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "24 August 2006",
+      "text": "Astronomers in Prague voted on what a planet is.",
+      "note": "The International Astronomical Union passed a definition at its General Assembly. Pluto was the casualty.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "The test",
+      "text": "A planet must pass three tests.",
+      "note": "It orbits the Sun, it is nearly round, and it has cleared the neighbourhood around its orbit.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "statement",
+      "lead": "The twist",
+      "text": "The first draft would have added planets.",
+      "note": "A proposal published on 16 August would have made Ceres, Charon and Eris planets, with twelve more candidates.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "The rewrite",
+      "text": "Open meetings killed it within a week.",
+      "note": "Members heavily defeated the Pluto-like object proposals on 22 August, and a new draft replaced it.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "figure",
+      "value": "237",
+      "unit": "votes",
+      "context": "In favour of naming Pluto a dwarf planet, against 157.",
+      "durationInFrames": 94
+    },
+    {
+      "kind": "statement",
+      "lead": "The label",
+      "text": "Pluto became the prototype of a new category.",
+      "note": "Resolution 6A called it a dwarf planet and the prototype of trans-Neptunian objects.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "kicker",
+      "text": "Pluto did not change. The definition did.",
+      "durationInFrames": 64
+    },
+    {
+      "kind": "sign",
+      "line": "A label is a decision, not a discovery.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

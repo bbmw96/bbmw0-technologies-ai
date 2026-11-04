@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (gantt-chart-adamiecki-harmonogram-1896)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0E1512",
+    "ink": "#EDF3EF",
+    "accent": "#4FC08D",
+    "muted": "#7C8F86"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The myth",
+      "text": "The first known chart of this type came from a Polish engineer.",
+      "note": "Karol Adamiecki devised his version in 1896, years before the one that carries Henry Gantt's name.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "1896",
+      "text": "Adamiecki called his version a harmonogram.",
+      "note": "It showed interdependent processes against time. He was working before Frederick Taylor had popularised scientific management.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "The language",
+      "text": "He published in Polish and Russian.",
+      "note": "Those languages were little known in the English-speaking world, which limited how far his authorship was recognised.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "statement",
+      "lead": "The 1910s",
+      "text": "Henry Gantt designed his chart around 1910 to 1915.",
+      "note": "Gantt had worked alongside Frederick Taylor from 1887 until 1893.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "lead": "1918",
+      "text": "The First World War put it to work.",
+      "note": "General William Crozier, the Chief of Ordnance, hired Gantt to consult on production, first at the Frankford Arsenal. In 1918 the charts were used in US arsenals, including for naval aircraft.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "No patent",
+      "text": "Gantt never tried to patent it.",
+      "note": "Wallace Clark's 1922 book records that he made no attempt to patent or copyright his charts. He died on 23 November 1919.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "kicker",
+      "text": "The name stuck to the man who popularised it, not the earliest known maker.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "sign",
+      "line": "Give credit to where it started.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,75 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (operation-mincemeat-glyndwr-michael-identified-1996)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#14110C",
+    "ink": "#F3EEE3",
+    "accent": "#D9A441",
+    "muted": "#8C8372"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "30 April 1943",
+      "text": "A dead \"Royal Marines officer\" carried fake invasion plans.",
+      "note": "The body was released from the submarine HMS Seraph so that it would be found. A fisherman found it.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "lead": "The persona",
+      "text": "Major William Martin never existed.",
+      "note": "British Military Intelligence invented him. His papers pointed to landings in Greece and Sardinia, with Sicily as a feint.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "The letter",
+      "text": "A letter between two generals named the wrong targets.",
+      "note": "It called Sicily and the Dodecanese \"cover targets\" for the real assaults.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "The result",
+      "text": "Germany moved forces to the wrong places.",
+      "note": "Reinforcements went to Greece and Sardinia before and during the invasion of Sicily. Sicily received none.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "statement",
+      "lead": "The truth",
+      "text": "The body was never an officer.",
+      "note": "In 1996 it was identified as Glyndwr Michael, a Welsh homeless man.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "credit",
+      "year": "1996",
+      "name": "Roger Morgan",
+      "role": "An amateur historian from London who found the evidence in the Public Record Office.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "statement",
+      "lead": "The grave",
+      "text": "He was buried with full military honours as Major Martin.",
+      "note": "In 1998 a new inscription was added to the stone after the identification.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "kicker",
+      "text": "He fooled an army in death, and his real name stayed hidden for over fifty years.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "sign",
+      "line": "A lie needs a believable paper trail.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,20 @@
+Rendering 3 Shorts for 2026-11-04 (concurrency=3, GL=default)
+Compliance: 2 cleared, 1 blocked (policy v1.0.0).
+Blocked by compliance: pluto-dwarf-planet-vote-237-157-prague-2006
+
+--- gantt-chart-adamiecki-harmonogram-1896 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-04-gantt-chart-adamiecki-harmonogram-1896.mp4
+  uploaded public: https://youtu.be/4NErjSzDK40
+
+--- operation-mincemeat-glyndwr-michael-identified-1996 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-04-operation-mincemeat-glyndwr-michael-identified-1996.mp4
+  uploaded public: https://youtu.be/_rYYRR1c4h8
+
+--- pluto-dwarf-planet-vote-237-157-prague-2006 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-04-pluto-dwarf-planet-vote-237-157-prague-2006.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-11-04/compliance-verdict.json.
+
+=== Done. 3 rendered, 2 uploaded, 0 skipped, 1 blocked by compliance, 0 failed. ===
