@@ -16144,13 +16144,13 @@
     {
       "id": "luhmann-zettelkasten-90000-slips-fixed-place-numbers",
       "niche": "productivity",
-      "verified": false,
-      "reviewNote": "Draft. Needs a source beyond Wikipedia for the slip count, the years and the digitisation date: the Bielefeld archive site (niklas-luhmann-archiv.de) loads by script and could not be read, and the heise article was blocked by robots.txt. Wikipedia's two pages also disagree on his output (70 books and nearly 400 articles versus about 50 books and 550 articles), so do not state output until resolved.",
+      "verified": true,
       "sources": [
-        "https://en.wikipedia.org/wiki/Niklas_Luhmann: read. Said Luhmann built a zettelkasten of some 90,000 index cards, probably created between 1952 and early 1997, digitised by Bielefeld in 2019.",
-        "https://luhmann.surge.sh/communicating-with-slip-boxes: read (Luhmann's essay, Kuehn translation). Established the firm fixed place numbering, a never-changing number per slip, the example of 57/12 continued by 57/13 with 57/12a for insertions, and 'more than twenty-six years' of co-operation with the box."
+        "https://luhmann.surge.sh/communicating-with-slip-boxes: read (Luhmann's essay, Kuehn translation). Established that he chose a firm fixed place (Stellordnung) over ordering by topics and sub-topics; that each slip keeps its number; the example of 57/12 continued by 57/13 and supplemented by 57/12a, with 57/12a1 inside that; the phrase \"after more than twenty-six years\"; and that the box becomes a partner of communication and \"an alter ego with who we can constantly communicate\".",
+        "https://en.wikipedia.org/wiki/Niklas_Luhmann: read. Established the some 90,000 index cards, created probably between 1952 and the beginning of 1997, and that Bielefeld University digitised and put them online in 2019.",
+        "https://en.wikipedia.org/wiki/Zettelkasten: read (first 39,416 of 69,624 characters verbatim). Established the start in 1952 to 1953, the unique index number in a branching hierarchy, the 2019 digitisation, and that Conrad Gessner (1516 to 1565) devised a method in which notes could be rearranged at any time and recommended gluing slips onto sheets, a step towards index cards."
       ],
-      "verifiedNote": "Draft only. Not claimed: output counts, the physical boxes, the second collection, and the Folgezettel label.",
+      "verifiedNote": "Checked 4 Nov 2026 against Luhmann's own essay plus two Wikipedia pages. Not claimed: output counts (the two Wikipedia pages disagree: more than 70 books and nearly 400 articles versus about 50 books and 550 articles), the second collection, the physical box count (the essay gives none), and any claim that Gessner invented the card index (the page credits him with a method and a step towards cards). The Luhmann archive homepage returned no body text, so it is not cited. No figure beat: 90,000 is already the opening statement.",
       "palette": {
         "bg": "#0E1512",
         "ink": "#EDF3EF",
@@ -16161,8 +16161,8 @@
         {
           "kind": "statement",
           "lead": "The box",
-          "text": "One sociologist kept about 90,000 index cards.",
-          "note": "Niklas Luhmann built it up from the early 1950s."
+          "text": "One sociologist kept some 90,000 index cards.",
+          "note": "Niklas Luhmann built it up from 1952 to 1953 onwards."
         },
         {
           "kind": "statement",
@@ -16172,9 +16172,15 @@
         },
         {
           "kind": "statement",
+          "lead": "Not new",
+          "text": "He did not invent the card box.",
+          "note": "In the 16th century Conrad Gessner devised a method where notes could be rearranged at any time, and suggested gluing slips onto sheets."
+        },
+        {
+          "kind": "statement",
           "lead": "The partner",
-          "text": "He described it as co-operating with the box.",
-          "note": "His essay says that after more than twenty-six years the approach was viable."
+          "text": "He called the box a partner in communication.",
+          "note": "After more than twenty-six years he wrote that the approach was viable. He described the result as an alter ego you can talk to."
         },
         {
           "kind": "statement",
@@ -16241,6 +16247,271 @@
           "kind": "sign",
           "line": "Hum it. You already know it.",
           "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "operation-mincemeat-glyndwr-michael-identified-1996",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Operation_Mincemeat: read (first 39,400 of 82,900 characters verbatim; later text was a tool summary and was not used). Established the 30 April 1943 release from HMS Seraph; the persona Captain (Acting Major) William Martin of the Royal Marines; correspondence between two British generals suggesting invasion of Greece and Sardinia with Sicily a feint; the letter naming Sicily and the Dodecanese as \"cover targets\"; \"German reinforcements were shifted to Greece and Sardinia before and during the invasion of Sicily; Sicily received none\"; and that in 1996 Roger Morgan, an amateur historian from London, uncovered evidence in the Public Record Office.",
+        "https://en.wikipedia.org/wiki/Glyndwr_Michael: read in full. Established that the body was identified in 1996 as Glyndwr Michael, a Welsh homeless man; that Major William Martin was a persona invented by British Military Intelligence; that he was buried with full military honours in Huelva (grave No.1886); and that a new inscription was added in 1998 after the identification."
+      ],
+      "verifiedNote": "Checked 4 Nov 2026 against two Wikipedia pages. National Archives, MI5 and IWM home pages were opened but held nothing on Mincemeat, so there is no independent second source. Not claimed: the date of the Sicily landings and German troop numbers (only in a tool summary), the fisherman's name or time, the cause of death (rat poison versus hunger or suicide is disputed), the HMS Dasher theory (death tolls differ between pages), Montagu's pneumonia story (disputed by later authors), the CWGC dates and the officers' honours (the pages conflict). No figure beat: no number here earns 300px.",
+      "palette": {
+        "bg": "#14110C",
+        "ink": "#F3EEE3",
+        "accent": "#D9A441",
+        "muted": "#8C8372"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "30 April 1943",
+          "text": "A dead \"Royal Marines officer\" carried fake invasion plans.",
+          "note": "The body was released from the submarine HMS Seraph so that it would be found. A fisherman found it."
+        },
+        {
+          "kind": "statement",
+          "lead": "The persona",
+          "text": "Major William Martin never existed.",
+          "note": "British Military Intelligence invented him. His papers pointed to landings in Greece and Sardinia, with Sicily as a feint."
+        },
+        {
+          "kind": "statement",
+          "lead": "The letter",
+          "text": "A letter between two generals named the wrong targets.",
+          "note": "It called Sicily and the Dodecanese \"cover targets\" for the real assaults."
+        },
+        {
+          "kind": "statement",
+          "lead": "The result",
+          "text": "Germany moved forces to the wrong places.",
+          "note": "Reinforcements went to Greece and Sardinia before and during the invasion of Sicily. Sicily received none."
+        },
+        {
+          "kind": "statement",
+          "lead": "The truth",
+          "text": "The body was never an officer.",
+          "note": "In 1996 it was identified as Glyndwr Michael, a Welsh homeless man."
+        },
+        {
+          "kind": "credit",
+          "year": "1996",
+          "name": "Roger Morgan",
+          "role": "An amateur historian from London who found the evidence in the Public Record Office."
+        },
+        {
+          "kind": "statement",
+          "lead": "The grave",
+          "text": "He was buried with full military honours as Major Martin.",
+          "note": "In 1998 a new inscription was added to the stone after the identification."
+        },
+        {
+          "kind": "kicker",
+          "text": "He fooled an army in death, and his real name stayed hidden for over fifty years."
+        },
+        {
+          "kind": "sign",
+          "line": "A lie needs a believable paper trail.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "patterson-lead-age-of-earth-to-leaded-petrol-ban-1956",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Clair_Cameron_Patterson: read in full (carries a maintenance banner and some citation needed tags; only untagged statements were used). Established the 1956 paper giving 4.550 Gy plus or minus 70 My from Canyon Diablo lead isotopes; the lead contamination found throughout his laboratory including in his own hair; one of the first laboratory clean rooms, acid-cleaned apparatus and distilled chemicals; Greenland ice cores (Camp Century, 1964) and Antarctic cores (1965) showing atmospheric lead rising after tetraethyl lead; the 700 to 1200 fold rise in lead in modern bones against 1600 year old Peruvian skeletons; exclusion from a 1971 National Research Council panel; and the complete US ban on leaded road petrol on 1 January 1996.",
+        "https://en.wikipedia.org/wiki/Age_of_Earth: read (first 39,400 of 60,257 characters verbatim). Confirmed 4.55 plus or minus 0.07 billion years, determined by Patterson on several meteorites including Canyon Diablo and published in 1956.",
+        "https://en.wikipedia.org/wiki/Tetraethyllead: read (first 39,400 of 83,992 characters verbatim). Confirmed the total elimination of leaded petrol sales for on-road vehicles on 1 January 1996, and the Ethyl Corporation lobbying against restrictions."
+      ],
+      "verifiedNote": "Checked 4 Nov 2026 against three Wikipedia pages. Caltech, ACS, Nobel and PNAS home pages held nothing on Patterson and Britannica refused the request, so there is no independent second source. Not claimed: the blood lead fall (up to 80 per cent by the late 1990s cites a CDC release that was not opened, and other figures conflict), the 1986 phase-out versus the 1996 ban, the Clean Air Act year, which mass spectrometer produced the 1956 data (Argonne and Caltech are both named), whether contamination was met in the late 1940s or the 1950s (the pages differ), and any claim about Thomas Midgley beyond the name. No figure beat: 4.55 billion is not a whole number.",
+      "palette": {
+        "bg": "#0A0F1C",
+        "ink": "#EEF2FA",
+        "accent": "#6FA8FF",
+        "muted": "#7B87A3"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "1956",
+          "text": "A chemist measured the age of the Earth.",
+          "note": "Clair Patterson used lead from the Canyon Diablo meteorite and got 4.55 billion years, give or take 70 million."
+        },
+        {
+          "kind": "statement",
+          "lead": "The problem",
+          "text": "His samples kept coming out contaminated.",
+          "note": "He found lead throughout his laboratory, even in his own hair."
+        },
+        {
+          "kind": "statement",
+          "lead": "The fix",
+          "text": "He built one of the first clean rooms.",
+          "note": "He acid-cleaned his apparatus and distilled every chemical shipped to him."
+        },
+        {
+          "kind": "statement",
+          "lead": "The discovery",
+          "text": "The lead in the air was not natural.",
+          "note": "Ice cores from Greenland in 1964 and Antarctica in 1965 showed atmospheric lead rising soon after tetraethyl lead was introduced."
+        },
+        {
+          "kind": "statement",
+          "lead": "In bone",
+          "text": "Modern bones held far more lead than ancient ones.",
+          "note": "He reported a rise of 700 to 1200 fold against 1600 year old Peruvian skeletons."
+        },
+        {
+          "kind": "statement",
+          "lead": "The fight",
+          "text": "The lead industry pushed back.",
+          "note": "He was excluded from a 1971 National Research Council panel on atmospheric lead."
+        },
+        {
+          "kind": "credit",
+          "year": "1996",
+          "name": "Leaded petrol",
+          "role": "Completely banned for road vehicles in the United States on 1 January 1996."
+        },
+        {
+          "kind": "kicker",
+          "text": "He set out to date the Earth and ended up cleaning its air."
+        },
+        {
+          "kind": "sign",
+          "line": "Fix the noise before you read the signal.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "pluto-dwarf-planet-vote-237-157-prague-2006",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://www.iau.org/news/pressreleases/detail/iau0603/: read in full (IAU press release from the 2006 General Assembly closing ceremony, Prague Congress Center). Established the three criteria for a planet as worded in Resolution 5A; that Resolution 6A \"passed with 237 votes in favour, 157 against and 17 abstentions\"; that Pluto is a \"dwarf planet\" and \"the prototype of a new category of trans-Neptunian objects\"; and that 5A was not counted but passed with a great majority.",
+        "https://en.wikipedia.org/wiki/2006_definition_of_planet: read (first 39,403 of 70,213 characters verbatim). Established the final definition passed on 24 August 2006; 6A approved 237 to 157; the original proposal published 16 August that would have made Ceres, Charon and Eris planets with twelve further candidates; the open meetings of 22 August that heavily defeated the Pluto-like object proposals; and the rewritten third draft of 24 August that was passed."
+      ],
+      "verifiedNote": "Checked 4 Nov 2026 against the IAU press release and Wikipedia. Not claimed: the abstention count (IAU says 17, Wikipedia says 30), any total of voters, the 424 astronomers present figure (it does not reconcile with the IAU abstentions: 237 plus 157 plus 17 is 411), the vote on 5A (not counted), and Pluto's discovery details. The headline figure uses only the 237 to 157 split, which both sources give.",
+      "palette": {
+        "bg": "#0A0F1C",
+        "ink": "#EEF2FA",
+        "accent": "#6FA8FF",
+        "muted": "#7B87A3"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "24 August 2006",
+          "text": "Astronomers in Prague voted on what a planet is.",
+          "note": "The International Astronomical Union passed a definition at its General Assembly. Pluto was the casualty."
+        },
+        {
+          "kind": "statement",
+          "lead": "The test",
+          "text": "A planet must pass three tests.",
+          "note": "It orbits the Sun, it is nearly round, and it has cleared the neighbourhood around its orbit."
+        },
+        {
+          "kind": "statement",
+          "lead": "The twist",
+          "text": "The first draft would have added planets.",
+          "note": "A proposal published on 16 August would have made Ceres, Charon and Eris planets, with twelve more candidates."
+        },
+        {
+          "kind": "statement",
+          "lead": "The rewrite",
+          "text": "Open meetings killed it within a week.",
+          "note": "Members heavily defeated the Pluto-like object proposals on 22 August, and a new draft replaced it."
+        },
+        {
+          "kind": "figure",
+          "value": "237",
+          "unit": "votes",
+          "context": "In favour of naming Pluto a dwarf planet, against 157."
+        },
+        {
+          "kind": "statement",
+          "lead": "The label",
+          "text": "Pluto became the prototype of a new category.",
+          "note": "Resolution 6A called it a dwarf planet and the prototype of trans-Neptunian objects."
+        },
+        {
+          "kind": "kicker",
+          "text": "Pluto did not change. The definition did."
+        },
+        {
+          "kind": "sign",
+          "line": "A label is a decision, not a discovery.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "openai-five-og-2019-seventeen-heroes-45000-years",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://openai.com/index/openai-five-defeats-dota-2-world-champions/: read in full (OpenAI, 15 April 2019). Established that OpenAI Five won two back-to-back games against the world champion team OG; that the Finals version played with 17 heroes, with Lich removed after his abilities changed significantly in Dota version 7.20; about 45,000 years of Dota self-play over 10 realtime months, an average of 250 years of simulated experience per day; training that focuses exclusively on beating other bots; and that it observes the game through the bot API as 20,000 numbers that constitute all the information a human is allowed to get.",
+        "https://en.wikipedia.org/wiki/OpenAI_Five: read in full. Confirmed the April 2019 live event in San Francisco against OG, and that Dendi lost a live one on one match to an OpenAI bot at The International in August 2017."
+      ],
+      "verifiedNote": "Checked 4 Nov 2026 against OpenAI's own announcement and Wikipedia. Not claimed: the Arena result (99.4 per cent of 42,729 public games appears only on Wikipedia, citing VentureBeat), whether OG's win count was a best of three (Wikipedia) or two games (OpenAI), the 180 years per day figure for 2018 (a different version), compute totals, reaction time (neither page gives one), and any pro player opinion on play style. The 2017 bot was a one on one bot, not the five-bot team.",
+      "palette": {
+        "bg": "#14141C",
+        "ink": "#FFFFFF",
+        "accent": "#F5A524",
+        "muted": "#8A8A8A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "April 2019",
+          "text": "An AI beat the Dota 2 world champions.",
+          "note": "OpenAI Five won two back-to-back games against OG at a live event in San Francisco."
+        },
+        {
+          "kind": "statement",
+          "lead": "The catch",
+          "text": "It played a cut down game.",
+          "note": "The Finals version used a pool of 17 heroes. Lich was removed after his abilities changed in Dota version 7.20."
+        },
+        {
+          "kind": "figure",
+          "value": "45,000",
+          "unit": "years",
+          "context": "Of Dota self-play over 10 months of real time, according to OpenAI."
+        },
+        {
+          "kind": "statement",
+          "lead": "The method",
+          "text": "It trained only against copies of itself.",
+          "note": "OpenAI says training focused exclusively on beating other bots, at an average of 250 years of simulated play per day."
+        },
+        {
+          "kind": "statement",
+          "lead": "The eyes",
+          "text": "It never looked at the screen.",
+          "note": "It read the game through a bot API, as 20,000 numbers covering all the information a human is allowed to get."
+        },
+        {
+          "kind": "statement",
+          "lead": "Before",
+          "text": "Two years earlier a different bot beat a pro one on one.",
+          "note": "At The International in August 2017, Dendi lost a live one on one match to an OpenAI bot."
+        },
+        {
+          "kind": "kicker",
+          "text": "It won, but on a smaller board than the one people play."
+        },
+        {
+          "kind": "sign",
+          "line": "Read the rules of the match before the headline.",
+          "handle": "@ai_game_odyssey"
         }
       ]
     }
