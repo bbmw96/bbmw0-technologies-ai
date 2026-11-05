@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (broad-street-pump-handle-outbreak-already-falling-1854)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#101110",
+    "ink": "#F2F0E8",
+    "accent": "#C9A24A",
+    "muted": "#8B887A"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "Removing the pump handle did not end the cholera outbreak.",
+      "note": "Deaths were already falling. Whitehead's table shows fatal attacks dropping from 142 on 1 September to 14 on 8 September, the day the handle came off.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "127",
+      "unit": "deaths",
+      "context": "On or near Broad Street in the first three days, in Soho in 1854. By the end of the outbreak the toll was 420.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "The method",
+      "text": "John Snow mapped the cases.",
+      "note": "The deaths clustered around the Broad Street pump. None of the workers at the nearby brewery caught cholera, and they drank a beer allowance instead of the well water.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The curate",
+      "text": "The man who traced the first case had started as a doubter.",
+      "note": "Rev. Henry Whitehead believed in bad air until Snow's maps convinced him. He traced the outbreak to an infant at 40 Broad Street.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The verdict",
+      "text": "The authorities still blamed bad air.",
+      "note": "London's Board of Health ultimately attributed the epidemic to miasma. William Farr only accepted Snow's diagnosis in 1866.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "kicker",
+      "text": "His water test proved nothing. The pattern of the deaths made the case.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "sign",
+      "line": "Check what really happened.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

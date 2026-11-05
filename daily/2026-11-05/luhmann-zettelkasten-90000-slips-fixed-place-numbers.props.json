@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (luhmann-zettelkasten-90000-slips-fixed-place-numbers)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0E1512",
+    "ink": "#EDF3EF",
+    "accent": "#4FC08D",
+    "muted": "#7C8F86"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The box",
+      "text": "One sociologist kept some 90,000 index cards.",
+      "note": "Niklas Luhmann built it up from 1952 to 1953 onwards.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "statement",
+      "lead": "The rule",
+      "text": "He never ordered cards by topic.",
+      "note": "Each slip got a number and kept it for ever. A slip numbered 57/12 could be continued by 57/13, and an insertion became 57/12a.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "Not new",
+      "text": "He did not invent the card box.",
+      "note": "In the 16th century Conrad Gessner devised a method where notes could be rearranged at any time, and suggested gluing slips onto sheets.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "The partner",
+      "text": "He called the box a partner in communication.",
+      "note": "After more than twenty-six years he wrote that the approach was viable. He described the result as an alter ego you can talk to.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "2019",
+      "text": "The cards were digitised and put online.",
+      "note": "Bielefeld University made them available in 2019.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "kicker",
+      "text": "The system worked because every note had a fixed address.",
+      "durationInFrames": 82
+    },
+    {
+      "kind": "sign",
+      "line": "Number your notes and never move them.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (siri-app-store-app-before-apple-2010)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B1018",
+    "ink": "#EDF2FA",
+    "accent": "#5AA6F2",
+    "muted": "#7A8799"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "5 February 2010",
+      "text": "Siri was an app on the App Store before Apple owned it.",
+      "note": "It arrived as a third party app for the iPhone, from a company that had spun out of SRI.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The research",
+      "text": "It grew out of a government funded AI project.",
+      "note": "MIT Technology Review says it was built on artificial intelligence research done at SRI as part of the CALO project.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "credit",
+      "year": "2010",
+      "name": "Dag Kittlaus",
+      "role": "Co-founder and chief executive of Siri. He told eWeek the app would reach Android and BlackBerry phones within months.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "statement",
+      "lead": "April 2010",
+      "text": "Apple bought it within three months of launch.",
+      "note": "The deal surfaced in an FTC filing dated 27 April 2010. Xconomy later gave a reported price of US$150 million to US$250 million.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The catch",
+      "text": "Analysts did not expect Android or BlackBerry versions after the sale.",
+      "note": "eWeek thought it doubtful Siri would ever reach them. MIT Technology Review called a Siri for Android an unlikely prospect.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "14 October 2011",
+      "text": "Siri came back inside the iPhone 4S.",
+      "note": "Apple launched the phone with a beta version of Siri. After the announcement it removed the standalone app from the App Store.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "kicker",
+      "text": "Once Apple built it into the iPhone, it pulled the original app.",
+      "durationInFrames": 94
+    },
+    {
+      "kind": "sign",
+      "line": "Plan for being bought.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

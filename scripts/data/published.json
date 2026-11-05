@@ -351,7 +351,10 @@
     "reel:arecibo-message-1679-bits-ceremony-1974",
     "reel:operation-mincemeat-glyndwr-michael-identified-1996",
     "reel:pluto-dwarf-planet-vote-237-157-prague-2006",
-    "reel:gantt-chart-adamiecki-harmonogram-1896"
+    "reel:gantt-chart-adamiecki-harmonogram-1896",
+    "reel:luhmann-zettelkasten-90000-slips-fixed-place-numbers",
+    "reel:broad-street-pump-handle-outbreak-already-falling-1854",
+    "reel:siri-app-store-app-before-apple-2010"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -6143,6 +6146,49 @@
       "youtubeUrl": "https://youtu.be/4NErjSzDK40",
       "uploadedAt": "2026-11-04T16:43:05.888Z",
       "privacy": "public"
+    },
+    {
+      "id": "luhmann-zettelkasten-90000-slips-fixed-place-numbers",
+      "date": "2026-11-05",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "One sociologist kept some 90,000 index cards.",
+      "description": "One sociologist kept some 90,000 index cards. Niklas Luhmann built it up from 1952 to 1953 onwards.\n\nHe never ordered cards by topic. Each slip got a number and kept it for ever. A slip numbered 57/12 could be continued by 57/13, and an insertion became 57/12a.\n\nHe did not invent the card box. In the 16th century Conrad Gessner devised a method where notes could be rearranged at any time, and suggested gluing slips onto sheets.\n\nHe called the box a partner in communication. After more than twenty-six years he wrote that the approach was viable. He described the result as an alter ego you can talk to.\n\nThe cards were digitised and put online. Bielefeld University made them available in 2019.\n\nThe system worked because every note had a fixed address.\n\nSources:\n- https://luhmann.surge.sh/communicating-with-slip-boxes: read (Luhmann's essay, Kuehn translation). Established that he chose a firm fixed place (Stellordnung) over ordering by topics and sub-topics; that each slip keeps its number; the example of 57/12 continued by 57/13 and supplemented by 57/12a, with 57/12a1 inside that; the phrase \"after more than twenty-six years\"; and that the box becomes a partner of communication and \"an alter ego with who we can constantly communicate\".\n- https://en.wikipedia.org/wiki/Niklas_Luhmann: read. Established the some 90,000 index cards, created probably between 1952 and the beginning of 1997, and that Bielefeld University digitised and put them online in 2019.\n- https://en.wikipedia.org/wiki/Zettelkasten: read (first 39,416 of 69,624 characters verbatim). Established the start in 1952 to 1953, the unique index number in a branching hierarchy, the 2019 digitisation, and that Conrad Gessner (1516 to 1565) devised a method in which notes could be rearranged at any time and recommended gluing slips onto sheets, a step towards index cards.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "XIOTCr9_jvM",
+      "youtubeUrl": "https://youtu.be/XIOTCr9_jvM",
+      "uploadedAt": "2026-11-05T17:02:16.988Z",
+      "privacy": "public"
+    },
+    {
+      "id": "broad-street-pump-handle-outbreak-already-falling-1854",
+      "date": "2026-11-05",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The popular version. Removing the pump handle did not end the cholera outbreak.",
+      "description": "Removing the pump handle did not end the cholera outbreak. Deaths were already falling. Whitehead's table shows fatal attacks dropping from 142 on 1 September to 14 on 8 September, the day the handle came off.\n\nOn or near Broad Street in the first three days, in Soho in 1854. By the end of the outbreak the toll was 420.\n\nJohn Snow mapped the cases. The deaths clustered around the Broad Street pump. None of the workers at the nearby brewery caught cholera, and they drank a beer allowance instead of the well water.\n\nThe man who traced the first case had started as a doubter. Rev. Henry Whitehead believed in bad air until Snow's maps convinced him. He traced the outbreak to an infant at 40 Broad Street.\n\nThe authorities still blamed bad air. London's Board of Health ultimately attributed the epidemic to miasma. William Farr only accepted Snow's diagnosis in 1866.\n\nHis water test proved nothing. The pattern of the deaths made the case.\n\nSources:\n- https://en.wikipedia.org/wiki/1854_Broad_Street_cholera_outbreak: read. Established that the outbreak hit Soho in late August 1854; that 127 people on or near Broad Street died over three days and 420 by the end; that Snow mapped the cases; that none of the workers in the nearby brewery contracted cholera, because they received a beer allowance and did not drink the well water; that removing the handle is popularly reported as ending the outbreak though it may already have been in rapid decline; and that the London Board of Health ultimately attributed the epidemic to miasma.\n- https://en.wikipedia.org/wiki/John_Snow: read. Established that Snow observed the epidemic may already have been in rapid decline when the handle was removed, and that William Farr realised the validity of Snow's diagnosis only in 1866.\n- https://www.ph.ucla.edu/epi/snow/removal.html: read. Established Snow's account of meeting the Board of Guardians of St James's parish on Thursday 7 September with the handle removed the next day; Snow's statement that the attacks had so far diminished before use of the water was stopped; and Rev. Henry Whitehead's 1867 table showing fatal attacks falling from 142 on 1 September to 14 on 8 September, plus his note that the commonly supposed arrest of the outbreak by closing the pump is a mistake.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "siri-app-store-app-before-apple-2010",
+      "date": "2026-11-05",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "5 February 2010. Siri was an app on the App Store before Apple owned it.",
+      "description": "Siri was an app on the App Store before Apple owned it. It arrived as a third party app for the iPhone, from a company that had spun out of SRI.\n\nIt grew out of a government funded AI project. MIT Technology Review says it was built on artificial intelligence research done at SRI as part of the CALO project.\n\nCo-founder and chief executive of Siri. He told eWeek the app would reach Android and BlackBerry phones within months.\n\nApple bought it within three months of launch. The deal surfaced in an FTC filing dated 27 April 2010. Xconomy later gave a reported price of US$150 million to US$250 million.\n\nAnalysts did not expect Android or BlackBerry versions after the sale. eWeek thought it doubtful Siri would ever reach them. MIT Technology Review called a Siri for Android an unlikely prospect.\n\nSiri came back inside the iPhone 4S. Apple launched the phone with a beta version of Siri. After the announcement it removed the standalone app from the App Store.\n\nOnce Apple built it into the iPhone, it pulled the original app.\n\nSources:\n- https://legacy.xconomy.com/?p=158552: read (Wade Roush, around the iPhone 4S launch; the date is inferred from its content, not stated). Established that Siri was introduced as a third party app for the iPhone 3G on 5 February 2010; that Apple bought the company in April 2010 for a reported US$150 million to US$250 million; and that Siri had won US$24 million in funding from Menlo Ventures and Morgenthaler Ventures.\n- https://www.eweek.com/news/apple-buys-siri-a-small-victory-in-mobile-web-war-with-google/: read (28 April 2010, Clint Boulton). Established that Siri launched its first app into the App Store in February; that the purchase surfaced from an FTC filing dated 27 April 2010 which gave no further information; that Dag Kittlaus was co-founder and chief executive; that Kittlaus said Siri aimed to reach Android and Research In Motion phones in the coming months; and that the writer thought it doubtful Siri would ever reach Android or BlackBerry.\n- https://www.technologyreview.com/2010/04/29/204026/apple-expected-to-acquire-siri/: read (29 April 2010, Erica Naone). Established that the purchase was reported and not confirmed, that Siri was built on artificial intelligence research done at SRI as part of the CALO project, and that a Siri for Android was now an unlikely prospect.\n- https://en.wikipedia.org/wiki/Siri: read. Established that Siri is a spin-off from SRI International's AI Center and an offshoot of the DARPA funded CALO project; that on 14 October 2011 Apple launched the iPhone 4S with a beta version of Siri; and that after the announcement Apple removed the standalone Siri app from the App Store.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
     }
   ]
 }

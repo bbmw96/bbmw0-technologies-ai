@@ -1,0 +1,20 @@
+Rendering 3 Shorts for 2026-11-05 (concurrency=3, GL=default)
+Compliance: 1 cleared, 2 blocked (policy v1.0.0).
+Blocked by compliance: broad-street-pump-handle-outbreak-already-falling-1854, siri-app-store-app-before-apple-2010
+
+--- broad-street-pump-handle-outbreak-already-falling-1854 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-05-broad-street-pump-handle-outbreak-already-falling-1854.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-11-05/compliance-verdict.json.
+
+--- luhmann-zettelkasten-90000-slips-fixed-place-numbers ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-05-luhmann-zettelkasten-90000-slips-fixed-place-numbers.mp4
+  uploaded public: https://youtu.be/XIOTCr9_jvM
+
+--- siri-app-store-app-before-apple-2010 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-05-siri-app-store-app-before-apple-2010.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-11-05/compliance-verdict.json.
+
+=== Done. 3 rendered, 1 uploaded, 0 skipped, 2 blocked by compliance, 0 failed. ===
