@@ -26,6 +26,7 @@
 // VISUAL-DIRECTION-BRIEF.md's "BlankDiscussions carousels" section. If this
 // ever renders on a different OS/CI runner, re-verify - do not assume the
 // same stack has the same coverage there.
+import { delayRender, continueRender, staticFile } from "remotion";
 import React from "react";
 
 export type ThemeKey = "emerald-gold" | "midnight-silver" | "terracotta-cream" | "plum-rose" | "indigo-saffron" | "sapphire-pearl" | "garnet-amber" | "obsidian-jade" | "ivory-cobalt" | "charcoal-copper" | "amber-slate" | "rosewood-mint" | "azure-sand" | "crimson-pewter" | "olive-gold" | "violet-ash" | "teal-bronze" | "maroon-linen" | "cobalt-ember" | "forest-blush" | "onyx-turquoise" | "clay-frost" | "basalt-marigold" | "linen-periwinkle" | "umber-mauve" | "aubergine-citrine" | "byzantium-sage" | "chalk-vermilion" | "cerulean-honey" | "slate-copper" | "steel-blossom" | "pine-lavender" | "walnut-aqua" | "ink-saffron-rose" | "mulberry-seafoam" | "denim-peach" | "sandstone-navy" | "celadon-plum" | "lilac-pine" | "mist-garnet" | "ocean-coral" | "graphite-lemon" | "espresso-sky" | "navy-lime" | "carbon-orchid" | "bone-teal" | "dune-indigo" | "peat-coral" | "fjord-amber" | "wine-pistachio" | "sable-aqua" | "pewter-saffron" | "bronze-ice" | "moss-ivory" | "cocoa-teal" | "ash-vermilion" | "spruce-honey" | "chaste-01" | "chaste-02" | "chaste-03" | "chaste-04" | "chaste-05" | "chaste-06" | "chaste-07" | "chaste-08" | "chaste-09" | "chaste-10" | "chaste-11" | "chaste-12" | "chaste-13" | "chaste-14" | "chaste-15" | "chaste-16" | "chaste-17" | "chaste-18" | "chaste-19" | "chaste-20" | "chaste-21" | "chaste-22" | "chaste-23" | "chaste-24" | "chaste-25" | "chaste-26" | "chaste-27" | "chaste-28" | "chaste-29" | "chaste-30" | "chaste-31" | "chaste-32" | "chaste-33" | "chaste-34" | "chaste-35" | "chaste-36" | "chaste-37" | "chaste-38" | "chaste-39" | "chaste-40" | "chaste-41" | "chaste-42" | "chaste-43" | "chaste-44" | "chaste-45" | "chaste-46" | "chaste-47" | "chaste-48" | "chaste-49" | "chaste-50" | "chaste-51" | "chaste-52" | "chaste-53" | "chaste-54" | "chaste-55" | "chaste-56" | "chaste-57" | "chaste-58" | "chaste-59" | "chaste-60";
@@ -153,7 +154,7 @@ export const THEME_ORDER: ThemeKey[] = ["emerald-gold", "midnight-silver", "terr
 
 const SANS = '"Helvetica Neue", Inter, Arial, system-ui, sans-serif';
 // Font stacks, most-specific/best-shaped first, safe generic last.
-const ARABIC = '"Traditional Arabic", "Arabic Typesetting", "Segoe UI", Tahoma, sans-serif';
+const ARABIC = 'Amiri, "Traditional Arabic", "Arabic Typesetting", "Segoe UI", Tahoma, sans-serif';
 const CHINESE = '"Microsoft YaHei", "Microsoft JhengHei", "SimSun", sans-serif';
 const KOREAN = '"Malgun Gothic", "Apple SD Gothic Neo", sans-serif';
 const JAPANESE = '"Yu Gothic", "MS Gothic", "Meiryo", sans-serif';
@@ -281,7 +282,16 @@ const Progress: React.FC<{ theme: ThemeKey; n: number; total: number }> = ({ the
   );
 };
 
+const useAmiri = () => {
+  const [h] = React.useState(() => delayRender("amiri"));
+  React.useEffect(() => {
+    const f = new FontFace("Amiri", `url(${staticFile("fonts/Amiri-Regular.ttf")})`);
+    f.load().then((ff) => { document.fonts.add(ff); continueRender(h); }).catch(() => continueRender(h));
+  }, [h]);
+};
+
 export const IslamicCarouselSlide: React.FC<CarouselSlideProps> = (props) => {
+  useAmiri();
   const p = THEMES[props.theme];
 
   if (props.kind === "cover") {
