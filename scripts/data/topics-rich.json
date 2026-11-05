@@ -16514,6 +16514,313 @@
           "handle": "@ai_game_odyssey"
         }
       ]
+    },
+    {
+      "id": "ariane-5-flight-501-overflow-1996",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ariane_flight_V88: read. Established that Ariane 5 flight 501 was the maiden flight, on 4 June 1996; that the rocket veered off its flight path 37 seconds after launch; that a conversion from a 64-bit floating point number to a 16-bit signed integer overflowed in the inertial reference system; that the code was reused from Ariane 4 and the alignment function served no purpose after lift-off on Ariane 5; that the payload was four Cluster satellites of 1,200 kg each; that the failure cost more than US$370 million; and that the inquiry board was headed by Jacques-Louis Lions.",
+        "https://www-users.cse.umn.edu/~arnold/disasters/ariane5rep.html: read (the inquiry report, Paris, 19 July 1996). Established that the back-up inertial reference unit failed 36.7 seconds after H0 and the active unit about 0.05 seconds later; that operations involving seven variables were at risk, four were protected and three were left unprotected; that protection was omitted because of a maximum workload target of 80%; that the specification required the processor to shut down on an exception; that the alignment function was kept for commonality reasons and is not required for Ariane 5; and that Ariane 5 builds up horizontal velocity five times more rapidly than Ariane 4."
+      ],
+      "verifiedNote": "Checked 5 Nov 2026 against the Wikipedia article and the inquiry report. Not claimed: any injury figure (neither source gives one), a payload value separate from the US$370 million loss (Wikipedia only, so it is not put on screen), the debris area (the report gives both 12 km2 and 5 x 2.5 km2), or the exact launch time (the report says 12:33:59 UT, Wikipedia says 12:34:06 UTC). The figure beat uses 37 seconds, which Wikipedia gives for the veer and the report's 36.7 seconds supports for the first unit failing; the breakup itself came at about 39 seconds per the report.",
+      "palette": {
+        "bg": "#0B0D14",
+        "ink": "#EEF1F8",
+        "accent": "#F2A33A",
+        "muted": "#7B8499"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "4 June 1996",
+          "text": "Europe's new rocket destroyed itself on its first flight.",
+          "note": "Ariane 5 flight 501 carried four Cluster research satellites of about 1,200 kg each. Wikipedia puts the loss at more than US$370 million."
+        },
+        {
+          "kind": "figure",
+          "value": "37",
+          "unit": "seconds",
+          "context": "From lift-off until the rocket veered off course. The inquiry timed the first navigation unit failure at 36.7 seconds."
+        },
+        {
+          "kind": "statement",
+          "lead": "The cause",
+          "text": "One number was too big for the box it was put in.",
+          "note": "A 64-bit floating point value was converted to a 16-bit signed integer, and it overflowed. The conversion was not protected."
+        },
+        {
+          "kind": "statement",
+          "lead": "The odds",
+          "text": "Four risky variables were guarded. Three were not.",
+          "note": "Seven variables were at risk. The inquiry says protection was left out because of a maximum workload target of 80%."
+        },
+        {
+          "kind": "statement",
+          "lead": "The old code",
+          "text": "The software was reused from Ariane 4.",
+          "note": "Ariane 5 builds up horizontal speed five times faster. The alignment function that failed was kept for commonality and was not needed on Ariane 5."
+        },
+        {
+          "kind": "statement",
+          "lead": "The shutdown",
+          "text": "The computer did what its specification said.",
+          "note": "On an error, the processor was specified to shut down. The back-up unit failed first, then the active one about 0.05 seconds later."
+        },
+        {
+          "kind": "kicker",
+          "text": "The part that failed had no job to do once the rocket left the ground."
+        },
+        {
+          "kind": "sign",
+          "line": "Test with the real numbers.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "first-handheld-mobile-call-cooper-engel-1973",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Martin_Cooper_(inventor): read. Established that Cooper made the first handheld cellular call on 3 April 1973 near the Hilton on Sixth Avenue in Manhattan; that the person called was Joel S. Engel, his chief competitor at AT&T; that the handset gave about 30 minutes of talk time before a 10-hour recharge; Cooper's remark that battery life was not really a problem because you could not hold the phone up for that long; and that bringing it to market took about 10 years.",
+        "https://en.wikipedia.org/wiki/Motorola_DynaTAC: read. Established that the call went through a Motorola base station on the roof of Burlington House hardwired to the AT&T landline network; that the DynaTAC 8000X was unveiled on 6 March 1983; that quantity production began in early April 1984 and it was priced at US$3,995 in 1984; that its lead gives a roughly 10-hour charge and 30 minutes of talk time; and that Motorola's 1973 forecast was for full operation within three years.",
+        "https://en.wikipedia.org/wiki/Mobile_phone: read (first part of the page). Established that the first handheld mobile phone call took place in New York City on 3 April 1973 and that the call was to a rival at AT&T."
+      ],
+      "verifiedNote": "Checked 5 Nov 2026 against three Wikipedia pages that disagree in places. Not claimed: the handset's weight (2 kg, 1.1 kg and 790 g all appear), the exact words Cooper said (two wordings appear), whether Engel works for AT&T or Bell Labs beyond the sourced 'a rival at AT&T', the claim in the DynaTAC article that the first call went to a wrong number (contradicted by the Cooper article), the patent date (1 or 16 September 1975), the talk time of 60 minutes in one passage, and any inflation adjusted price (two figures appear). The figure beat uses 10 hours, which the Cooper article and the DynaTAC lead agree on.",
+      "palette": {
+        "bg": "#0E100F",
+        "ink": "#F1F3EE",
+        "accent": "#D6A33E",
+        "muted": "#7F8A7F"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "3 April 1973",
+          "text": "The first handheld mobile call was made from a Manhattan pavement.",
+          "note": "Martin Cooper of Motorola stood on Sixth Avenue near the Hilton and rang Joel Engel, a rival at AT&T."
+        },
+        {
+          "kind": "statement",
+          "lead": "The set-up",
+          "text": "The phone only worked through one base station.",
+          "note": "Motorola's base station sat on the roof of Burlington House and was hardwired to the AT&T landline network."
+        },
+        {
+          "kind": "figure",
+          "value": "10",
+          "unit": "hours",
+          "context": "The recharge time for about 30 minutes of talk. Cooper joked that you could not hold the phone up for that long."
+        },
+        {
+          "kind": "statement",
+          "lead": "The wait",
+          "text": "Customers waited about ten years.",
+          "note": "Motorola unveiled the DynaTAC 8000X on 6 March 1983. Quantity production began in early April 1984."
+        },
+        {
+          "kind": "statement",
+          "lead": "The price",
+          "text": "The first commercial handset cost US$3,995 in 1984.",
+          "note": "Motorola's own forecast in 1973 had been full operation within three years."
+        },
+        {
+          "kind": "kicker",
+          "text": "His first call went to his chief competitor."
+        },
+        {
+          "kind": "sign",
+          "line": "Call your rival first.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "siri-app-store-app-before-apple-2010",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://legacy.xconomy.com/?p=158552: read (Wade Roush, around the iPhone 4S launch; the date is inferred from its content, not stated). Established that Siri was introduced as a third party app for the iPhone 3G on 5 February 2010; that Apple bought the company in April 2010 for a reported US$150 million to US$250 million; and that Siri had won US$24 million in funding from Menlo Ventures and Morgenthaler Ventures.",
+        "https://www.eweek.com/news/apple-buys-siri-a-small-victory-in-mobile-web-war-with-google/: read (28 April 2010, Clint Boulton). Established that Siri launched its first app into the App Store in February; that the purchase surfaced from an FTC filing dated 27 April 2010 which gave no further information; that Dag Kittlaus was co-founder and chief executive; that Kittlaus said Siri aimed to reach Android and Research In Motion phones in the coming months; and that the writer thought it doubtful Siri would ever reach Android or BlackBerry.",
+        "https://www.technologyreview.com/2010/04/29/204026/apple-expected-to-acquire-siri/: read (29 April 2010, Erica Naone). Established that the purchase was reported and not confirmed, that Siri was built on artificial intelligence research done at SRI as part of the CALO project, and that a Siri for Android was now an unlikely prospect.",
+        "https://en.wikipedia.org/wiki/Siri: read. Established that Siri is a spin-off from SRI International's AI Center and an offshoot of the DARPA funded CALO project; that on 14 October 2011 Apple launched the iPhone 4S with a beta version of Siri; and that after the announcement Apple removed the standalone Siri app from the App Store."
+      ],
+      "verifiedNote": "Checked 5 Nov 2026. Not claimed: any single confirmed purchase price (only Xconomy gives a reported range, so the beat says reported), a day for the purchase (the FTC filing was 27 April 2010 per eWeek, which is what the beat uses), or any date from the Wikipedia Siri page for the app launch and sale, because that page's account (app in December 2010, sale in April 2011 or two months later) contradicts the contemporary sources and was set aside. Not claimed: that the app was free (no source says), the launch device (iPhone 3G, 3GS and iPod Touch all appear), or the founder list beyond Kittlaus as co-founder and CEO. No figure beat: the US$24 million funding does not earn 300px.",
+      "palette": {
+        "bg": "#0B1018",
+        "ink": "#EDF2FA",
+        "accent": "#5AA6F2",
+        "muted": "#7A8799"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "5 February 2010",
+          "text": "Siri was an app on the App Store before Apple owned it.",
+          "note": "It arrived as a third party app for the iPhone, from a company that had spun out of SRI."
+        },
+        {
+          "kind": "statement",
+          "lead": "The research",
+          "text": "It grew out of a government funded AI project.",
+          "note": "MIT Technology Review says it was built on artificial intelligence research done at SRI as part of the CALO project."
+        },
+        {
+          "kind": "credit",
+          "year": "2010",
+          "name": "Dag Kittlaus",
+          "role": "Co-founder and chief executive of Siri. He told eWeek the app would reach Android and BlackBerry phones within months."
+        },
+        {
+          "kind": "statement",
+          "lead": "April 2010",
+          "text": "Apple bought it within three months of launch.",
+          "note": "The deal surfaced in an FTC filing dated 27 April 2010. Xconomy later gave a reported price of US$150 million to US$250 million."
+        },
+        {
+          "kind": "statement",
+          "lead": "The catch",
+          "text": "Analysts did not expect Android or BlackBerry versions after the sale.",
+          "note": "eWeek thought it doubtful Siri would ever reach them. MIT Technology Review called a Siri for Android an unlikely prospect."
+        },
+        {
+          "kind": "statement",
+          "lead": "14 October 2011",
+          "text": "Siri came back inside the iPhone 4S.",
+          "note": "Apple launched the phone with a beta version of Siri. After the announcement it removed the standalone app from the App Store."
+        },
+        {
+          "kind": "kicker",
+          "text": "Once Apple built it into the iPhone, it pulled the original app."
+        },
+        {
+          "kind": "sign",
+          "line": "Plan for being bought.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "portal-narbacular-drop-digipen-career-fair-2005",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Narbacular_Drop: read. Established that it was the senior game project of students at DigiPen Institute of Technology, released on 19 April 2005; that Valve's Robin Walker saw it at DigiPen's annual career fair, contacted the team and offered to show the game at Valve's offices; that after the presentation Valve president Gabe Newell offered the entire team jobs; and that the team included producer Kim Swift and director Jeep Barnett.",
+        "https://en.wikipedia.org/wiki/Portal_(video_game): read. Established that Portal began with the 2005 freeware game Narbacular Drop; that Newell said he was impressed that the team had actually carried the concept through; that Portal took approximately two years and four months to complete after the DigiPen team was brought into Valve with no more than ten people involved; that it was first released as part of The Orange Box for Windows and Xbox 360 on 10 October 2007; and that it became a standalone retail product on 9 April 2008."
+      ],
+      "verifiedNote": "Checked 5 Nov 2026. Not claimed: the year or number of hires (Wikipedia says the whole team but gives no count or year), Portal's sales and Metacritic scores or any award (the page was long and those parts reached me only in summary, so they were left out), and any date for the career fair. The figure beat uses 10, taken from 'no more than ten people', and the context says 'at most' so it is not read as an exact headcount.",
+      "palette": {
+        "bg": "#0C1114",
+        "ink": "#EAF3F6",
+        "accent": "#F28A2E",
+        "muted": "#6F8790"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "2005",
+          "text": "Portal began as a student project.",
+          "note": "Narbacular Drop was the senior game project of students at DigiPen Institute of Technology, released on 19 April 2005."
+        },
+        {
+          "kind": "statement",
+          "lead": "The career fair",
+          "text": "Valve found it at a careers fair.",
+          "note": "Valve's Robin Walker saw the game there, contacted the team and offered to show it at Valve's offices."
+        },
+        {
+          "kind": "credit",
+          "year": "2005",
+          "name": "Kim Swift",
+          "role": "Producer of Narbacular Drop, with director Jeep Barnett. After their presentation, Gabe Newell offered the entire team jobs."
+        },
+        {
+          "kind": "statement",
+          "lead": "The pitch",
+          "text": "Newell liked that they had finished the idea.",
+          "note": "He said he was impressed because the team had actually carried the concept through."
+        },
+        {
+          "kind": "figure",
+          "value": "10",
+          "unit": "people",
+          "context": "At most, worked on Portal. It took about two years and four months after the DigiPen team joined Valve."
+        },
+        {
+          "kind": "statement",
+          "lead": "10 October 2007",
+          "text": "Portal launched as part of The Orange Box.",
+          "note": "It came out on Windows and Xbox 360 that day, then on PlayStation 3 on 11 December 2007. A standalone release followed on 9 April 2008."
+        },
+        {
+          "kind": "kicker",
+          "text": "Valve did not just buy a game. It hired the whole team."
+        },
+        {
+          "kind": "sign",
+          "line": "Finish what you start.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "broad-street-pump-handle-outbreak-already-falling-1854",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/1854_Broad_Street_cholera_outbreak: read. Established that the outbreak hit Soho in late August 1854; that 127 people on or near Broad Street died over three days and 420 by the end; that Snow mapped the cases; that none of the workers in the nearby brewery contracted cholera, because they received a beer allowance and did not drink the well water; that removing the handle is popularly reported as ending the outbreak though it may already have been in rapid decline; and that the London Board of Health ultimately attributed the epidemic to miasma.",
+        "https://en.wikipedia.org/wiki/John_Snow: read. Established that Snow observed the epidemic may already have been in rapid decline when the handle was removed, and that William Farr realised the validity of Snow's diagnosis only in 1866.",
+        "https://www.ph.ucla.edu/epi/snow/removal.html: read. Established Snow's account of meeting the Board of Guardians of St James's parish on Thursday 7 September with the handle removed the next day; Snow's statement that the attacks had so far diminished before use of the water was stopped; and Rev. Henry Whitehead's 1867 table showing fatal attacks falling from 142 on 1 September to 14 on 8 September, plus his note that the commonly supposed arrest of the outbreak by closing the pump is a mistake."
+      ],
+      "verifiedNote": "Checked 5 Nov 2026. Not claimed: a single start date (Wikipedia says 31 August, UCLA says 30 August, so the beat says late August), a '250 yards' or 'ten days' figure (neither page gives it), a workhouse or Hampstead widow story (neither page mentions them), who exactly closed the pump (the sources differ between the Board of Guardians and a named individual), that Koch identified the bacterium in 1883 (not in the pages read), or that Snow's water test proved anything (the page says it did not conclusively prove danger). The figure beat uses 127, which Wikipedia gives for the first three days.",
+      "palette": {
+        "bg": "#101110",
+        "ink": "#F2F0E8",
+        "accent": "#C9A24A",
+        "muted": "#8B887A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "Removing the pump handle did not end the cholera outbreak.",
+          "note": "Deaths were already falling. Whitehead's table shows fatal attacks dropping from 142 on 1 September to 14 on 8 September, the day the handle came off."
+        },
+        {
+          "kind": "figure",
+          "value": "127",
+          "unit": "deaths",
+          "context": "On or near Broad Street in the first three days, in Soho in 1854. By the end of the outbreak the toll was 420."
+        },
+        {
+          "kind": "statement",
+          "lead": "The method",
+          "text": "John Snow mapped the cases.",
+          "note": "The deaths clustered around the Broad Street pump. None of the workers at the nearby brewery caught cholera, and they drank a beer allowance instead of the well water."
+        },
+        {
+          "kind": "statement",
+          "lead": "The curate",
+          "text": "The man who traced the first case had started as a doubter.",
+          "note": "Rev. Henry Whitehead believed in bad air until Snow's maps convinced him. He traced the outbreak to an infant at 40 Broad Street."
+        },
+        {
+          "kind": "statement",
+          "lead": "The verdict",
+          "text": "The authorities still blamed bad air.",
+          "note": "London's Board of Health ultimately attributed the epidemic to miasma. William Farr only accepted Snow's diagnosis in 1866."
+        },
+        {
+          "kind": "kicker",
+          "text": "His water test proved nothing. The pattern of the deaths made the case."
+        },
+        {
+          "kind": "sign",
+          "line": "Check what really happened.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
