@@ -1,0 +1,230 @@
+{
+ "code": 200,
+ "status": "OK",
+ "data": [
+  {
+   "number": 3486,
+   "text": "يَٰبُنَىَّ أَقِمِ ٱلصَّلَوٰةَ وَأْمُرْ بِٱلْمَعْرُوفِ وَٱنْهَ عَنِ ٱلْمُنكَرِ وَٱصْبِرْ عَلَىٰ مَآ أَصَابَكَ ۖ إِنَّ ذَٰلِكَ مِنْ عَزْمِ ٱلْأُمُورِ",
+   "edition": {
+    "identifier": "quran-uthmani",
+    "language": "ar",
+    "name": "القرآن الكريم برسم العثماني (uthmani)",
+    "englishName": "Uthmani",
+    "format": "text",
+    "type": "quran",
+    "direction": "rtl"
+   },
+   "surah": {
+    "number": 31,
+    "name": "سُورَةُ لُقۡمَانَ",
+    "englishName": "Luqman",
+    "englishNameTranslation": "Luqman",
+    "numberOfAyahs": 34,
+    "revelationType": "Meccan"
+   },
+   "numberInSurah": 17,
+   "juz": 21,
+   "manzil": 5,
+   "page": 412,
+   "ruku": 356,
+   "hizbQuarter": 164,
+   "sajda": false
+  },
+  {
+   "number": 3486,
+   "text": "O my son, establish prayer, enjoin what is right, forbid what is wrong, and be patient over what befalls you. Indeed, [all] that is of the matters [requiring] determination.",
+   "edition": {
+    "identifier": "en.sahih",
+    "language": "en",
+    "name": "Saheeh International",
+    "englishName": "Saheeh International",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 31,
+    "name": "سُورَةُ لُقۡمَانَ",
+    "englishName": "Luqman",
+    "englishNameTranslation": "Luqman",
+    "numberOfAyahs": 34,
+    "revelationType": "Meccan"
+   },
+   "numberInSurah": 17,
+   "juz": 21,
+   "manzil": 5,
+   "page": 412,
+   "ruku": 356,
+   "hizbQuarter": 164,
+   "sajda": false
+  },
+  {
+   "number": 3486,
+   "text": "我的小子啊！你应当谨守拜功，应当劝善戒恶，应当忍受患难，这确是应该决心做的事情。",
+   "edition": {
+    "identifier": "zh.jian",
+    "language": "zh",
+    "name": "马坚",
+    "englishName": "Ma Jian",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 31,
+    "name": "سُورَةُ لُقۡمَانَ",
+    "englishName": "Luqman",
+    "englishNameTranslation": "Luqman",
+    "numberOfAyahs": 34,
+    "revelationType": "Meccan"
+   },
+   "numberInSurah": 17,
+   "juz": 21,
+   "manzil": 5,
+   "page": 412,
+   "ruku": 356,
+   "hizbQuarter": 164,
+   "sajda": false
+  },
+  {
+   "number": 3486,
+   "text": "나의 아들아 예배를 드리라 그리고 선을 행하고 악을 금하며 네가 당하는 모든 것에 인내하라 이것은 실로 용기가 필요한 것이 니라",
+   "edition": {
+    "identifier": "ko.korean",
+    "language": "ko",
+    "name": "Korean",
+    "englishName": "Unknown",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 31,
+    "name": "سُورَةُ لُقۡمَانَ",
+    "englishName": "Luqman",
+    "englishNameTranslation": "Luqman",
+    "numberOfAyahs": 34,
+    "revelationType": "Meccan"
+   },
+   "numberInSurah": 17,
+   "juz": 21,
+   "manzil": 5,
+   "page": 412,
+   "ruku": 356,
+   "hizbQuarter": 164,
+   "sajda": false
+  },
+  {
+   "number": 3486,
+   "text": "「息子よ，礼拝の務めを守り，善を（人に）勧め悪を禁じ，あなたに降りかかることを耐え忍ベ。本当にそれはアッラーが人に定められたこと。",
+   "edition": {
+    "identifier": "ja.japanese",
+    "language": "ja",
+    "name": "Japanese",
+    "englishName": "Unknown",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 31,
+    "name": "سُورَةُ لُقۡمَانَ",
+    "englishName": "Luqman",
+    "englishNameTranslation": "Luqman",
+    "numberOfAyahs": 34,
+    "revelationType": "Meccan"
+   },
+   "numberInSurah": 17,
+   "juz": 21,
+   "manzil": 5,
+   "page": 412,
+   "ruku": 356,
+   "hizbQuarter": 164,
+   "sajda": false
+  },
+  {
+   "number": 3486,
+   "text": "\"Wahai anak kesayanganku, dirikanlah sembahyang, dan suruhlah berbuat kebaikan, serta laranglah daripada melakukan perbuatan yang mungkar, dan bersabarlah atas segala bala bencana yang menimpamu. Sesungguhnya yang demikian itu adalah dari perkara-perkara yang dikehendaki diambil berat melakukannya.",
+   "edition": {
+    "identifier": "ms.basmeih",
+    "language": "ms",
+    "name": "Basmeih",
+    "englishName": "Abdullah Muhammad Basmeih",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 31,
+    "name": "سُورَةُ لُقۡمَانَ",
+    "englishName": "Luqman",
+    "englishNameTranslation": "Luqman",
+    "numberOfAyahs": 34,
+    "revelationType": "Meccan"
+   },
+   "numberInSurah": 17,
+   "juz": 21,
+   "manzil": 5,
+   "page": 412,
+   "ruku": 356,
+   "hizbQuarter": 164,
+   "sajda": false
+  },
+  {
+   "number": 3486,
+   "text": "“โอ้ลูกเอ๋ย เจ้าจงดำรงไว้ซึ่งการละหมาด และจงใช้กันให้กระทำความดี และจงห้ามปรามกันให้ละเว้นการทำความชั่ว และจงอดทนต่อสิ่งที่ประสบกับเจ้า แท้จริง นั่นคือส่วนหนึ่งจากกิจการที่หนักแน่น มั่นคง”",
+   "edition": {
+    "identifier": "th.thai",
+    "language": "th",
+    "name": "ภาษาไทย",
+    "englishName": "King Fahad Quran Complex",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 31,
+    "name": "سُورَةُ لُقۡمَانَ",
+    "englishName": "Luqman",
+    "englishNameTranslation": "Luqman",
+    "numberOfAyahs": 34,
+    "revelationType": "Meccan"
+   },
+   "numberInSurah": 17,
+   "juz": 21,
+   "manzil": 5,
+   "page": 412,
+   "ruku": 356,
+   "hizbQuarter": 164,
+   "sajda": false
+  },
+  {
+   "number": 3486,
+   "text": "¡Hijito! ¡Haz la azalá! ¡Ordena lo que está bien y prohíbe lo que está mal! ¡Ten paciencia ante la adversidad! ¡Eso sí que es dar muestras de resolución!",
+   "edition": {
+    "identifier": "es.cortes",
+    "language": "es",
+    "name": "Cortes",
+    "englishName": "Julio Cortes",
+    "format": "text",
+    "type": "translation",
+    "direction": "ltr"
+   },
+   "surah": {
+    "number": 31,
+    "name": "سُورَةُ لُقۡمَانَ",
+    "englishName": "Luqman",
+    "englishNameTranslation": "Luqman",
+    "numberOfAyahs": 34,
+    "revelationType": "Meccan"
+   },
+   "numberInSurah": 17,
+   "juz": 21,
+   "manzil": 5,
+   "page": 412,
+   "ruku": 356,
+   "hizbQuarter": 164,
+   "sajda": false
+  }
+ ]
+}
