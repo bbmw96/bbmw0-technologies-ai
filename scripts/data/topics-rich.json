@@ -16821,6 +16821,252 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "diary-of-merer-oldest-papyri-giza-logbook-2013",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Diary_of_Merer: read. Established that the papyri were found and excavated in 2013 by a French mission under Pierre Tallet and Gregory Marouard; that they are the oldest known papyri with text; that Merer held the title of inspector; that the log records white limestone blocks shipped by boat from the Tura quarries to Giza; that the text does not say where the stones were to be used, with Tallet believing the outer casing; and that Ankhhaf, half brother of Khufu, is called a nobleman and overseer of Ra-shi-Khufu.",
+        "https://en.wikipedia.org/wiki/Wadi_al-Jarf: read. Established the site on the Red Sea coast, that excavation resumed in 2011 under Tallet and Marouard, that the discovery was announced in April 2013, that the papyri are the oldest ever found in Egypt, and that they date to about 2560 to 2550 BC, the end of Khufu's reign.",
+        "https://www.smithsonianmag.com/history/ancient-egypt-shipping-mining-farming-economy-pyramids-180956619/: read. Established that Tallet found the papyri in 2013, that Merer shipped limestone from Tura to Giza, that the noble Ankhhaf was Khufu's half brother, that the workers were provisioned with meat, poultry, fish and beer, and that Mark Lehner's excavations uncovered apartment blocks at Giza that might have housed as many as 20,000 people."
+      ],
+      "verifiedNote": "Checked 6 Nov 2026 from three pages. Not claimed: that slaves did or did not build the pyramids (none of the pages addresses it, so the reel does not make the argument), the crew size (Wikipedia says about forty boatmen, Smithsonian says about 200 men), the regnal year of the log (Wikipedia gives both the 26th and 27th year of Khufu, so the beat uses the 2560 BC date range only), the number of scrolls or fragments (pages say hundreds of fragments, no firm scroll count), anything attributed to Zahi Hawass, and that the workers were paid. Tallet's own 2017 publication was blocked by an anti-bot page and was not read.",
+      "palette": {
+        "bg": "#14110B",
+        "ink": "#F2ECDD",
+        "accent": "#D9A441",
+        "muted": "#8E8472"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The find",
+          "text": "The oldest papyrus texts in Egypt are a work crew's logbook.",
+          "note": "Pierre Tallet's team found them at Wadi al-Jarf, on the Red Sea coast, in 2013."
+        },
+        {
+          "kind": "statement",
+          "lead": "The date",
+          "text": "It was written around 2560 BC, near the end of Khufu's reign.",
+          "note": "Wikipedia dates the papyri to about 2560 to 2550 BC."
+        },
+        {
+          "kind": "statement",
+          "lead": "The job",
+          "text": "Merer, an inspector, shipped limestone by boat from Tura to Giza.",
+          "note": "Tallet believes the blocks were for the outer casing, though the log never says where the stones went."
+        },
+        {
+          "kind": "statement",
+          "lead": "The boss",
+          "text": "Merer reported to Ankhhaf, a nobleman and half brother of Khufu.",
+          "note": "Ankhhaf was overseer of Ra-shi-Khufu, the harbour at Giza."
+        },
+        {
+          "kind": "statement",
+          "lead": "The food",
+          "text": "The crew ate meat, poultry, fish and beer.",
+          "note": "Smithsonian Magazine reports that they were well provisioned. Mark Lehner's digs at Giza uncovered apartment blocks that might have housed as many as 20,000 people."
+        },
+        {
+          "kind": "kicker",
+          "text": "The oldest paperwork in Egypt is about moving stone and feeding the crew."
+        },
+        {
+          "kind": "sign",
+          "line": "Check what really happened.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "sydney-opera-house-planning-fallacy-7-to-102-million",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sydney_Opera_House: read. Established that 1957 estimates projected a cost of 3,500,000 pounds ($7 million) and completion on 26 January 1963; that the final cost was A$102 million; that Queen Elizabeth II formally opened it on 20 October 1973; that Utzon left the project on 28 February 1966 and left Australia never to return; and that he was in fact invited to the 1973 opening.",
+        "https://www.sydneyoperahouse.com/our-story/utzon-departs-the-house: read. Established that the cost was estimated at just 3.5 million pounds when construction began in 1959, and that Utzon would never return to Australia to see how his building had been completed by others.",
+        "https://en.wikipedia.org/wiki/Planning_fallacy: read. Established the definition (predictions of time needed show an optimism bias), the Lovallo and Kahneman 2003 wording (underestimating time, costs and risks while overestimating benefits), that Kahneman and Tversky first proposed the idea, that the Opera House is listed as an example, and the Buehler, Griffin and Ross 1994 result of 33.9 days predicted against 55.5 days actual for 37 students, with about 30 per cent finishing on their predicted date."
+      ],
+      "verifiedNote": "Checked 6 Nov 2026. Not claimed: the 1,357 per cent overrun (Wikipedia says in real terms, and my own arithmetic on the nominal figures matches it, so the reel uses nominal figures only), the share paid by the Opera House Lottery (not found in the pages read), any named expert such as Flyvbjerg using the Opera House as the example, the year 1979 for the term (the citations on the page did not support it), and the exact day Utzon left Australia (Wikipedia and the official site differ between 28 February and 28 April 1966). The 1957 versus 1959 date for the estimate differs between sources, so the beat says 1957 as Wikipedia does. The 1994 study was read only through Wikipedia, not the paper itself, so the study beat is attributed to it.",
+      "palette": {
+        "bg": "#0C1218",
+        "ink": "#EEF2F5",
+        "accent": "#E0553B",
+        "muted": "#7C8A96"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The plan",
+          "text": "In 1957 the Sydney Opera House was budgeted at A$7 million.",
+          "note": "That was 3.5 million pounds. The planned completion date was 26 January 1963, Australia Day."
+        },
+        {
+          "kind": "figure",
+          "value": "102",
+          "unit": "$ million",
+          "context": "The final cost in Australian dollars, nearly fifteen times the estimate. It opened on 20 October 1973, ten years after the planned date."
+        },
+        {
+          "kind": "statement",
+          "lead": "The architect",
+          "text": "Utzon never saw it finished.",
+          "note": "He left the project on 28 February 1966 and never returned to Australia. He was invited to the opening and did not come."
+        },
+        {
+          "kind": "statement",
+          "lead": "The name",
+          "text": "Psychologists call this the planning fallacy.",
+          "note": "Kahneman and Tversky first proposed it. It is the tendency to underestimate the time, costs and risks of future actions while overestimating the benefits."
+        },
+        {
+          "kind": "statement",
+          "lead": "The test",
+          "text": "A 1994 study of 37 students found the same bias.",
+          "note": "They predicted 33.9 days on average to finish. The real average was 55.5 days, and only about 30 per cent finished on their predicted date."
+        },
+        {
+          "kind": "kicker",
+          "text": "Your own deadline is probably optimistic too."
+        },
+        {
+          "kind": "sign",
+          "line": "Add a buffer.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "penzias-wilson-pigeons-horn-antenna-cosmic-microwave-1965",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Discovery_of_cosmic_microwave_background_radiation: read. Established that in 1964 Penzias and Wilson were experimenting with a supersensitive 6 metre (20 ft) horn antenna; a 3.5 K residual background noise after accounting for a 2.3 K sky component and a 0.9 K instrumental component; that they removed pigeons nesting in the antenna and cleaned out the droppings and the noise remained; that Dicke, Peebles and Wilkinson at Princeton, 60 km away, were preparing to search for it; that Bernard Burke told Penzias of a Peebles preprint and Penzias then called Dicke; and that Penzias and Wilson's paper ran at pages 419 to 421 of Astrophysical Journal Letters 142 in July 1965, straight after the Princeton paper.",
+        "https://en.wikipedia.org/wiki/Holmdel_Horn_Antenna: read. Established the site at Holmdel, that it was built in 1959 for Project Echo, and that it was designated a National Historic Landmark in 1989.",
+        "https://www.nobelprize.org/prizes/physics/1978/summary/: read. Established the 1978 Nobel Prize in Physics: one half to Pyotr Kapitsa and the other half jointly to Arno Penzias and Robert Wilson for their discovery of cosmic microwave background radiation.",
+        "https://npgallery.nps.gov/NRHP/GetAsset/NHLS/89002457_text: read. Established the 1964 to 1965 period of significance, that the noise remained after thorough checking, that the Princeton group was about 40 miles away, and that the signal was 100 times more intense than they had expected."
+      ],
+      "verifiedNote": "Checked 6 Nov 2026. Not claimed: the phrase white dielectric material, any account of the pigeons being trapped, shipped away or shot (no page read supports it), a plus or minus 1.0 K error, whether the discovery year is 1964 or 1965 (the pages differ, so the first beat says only that they were using the antenna in 1964), and that the Burke call was about the Princeton search itself (it concerned the Peebles preprint). The Nobel lecture PDFs were not read. The 3.5 K figure appears only in the note, not as a figure beat.",
+      "palette": {
+        "bg": "#0B0F18",
+        "ink": "#EDF0F7",
+        "accent": "#6FA8FF",
+        "muted": "#7A8399"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The noise",
+          "text": "In 1964 two Bell Labs engineers could not get rid of a hiss.",
+          "note": "Arno Penzias and Robert Wilson were using a 20 foot horn antenna at Holmdel. After allowing for the sky and their equipment, 3.5 K of noise was left."
+        },
+        {
+          "kind": "statement",
+          "lead": "The pigeons",
+          "text": "They checked everything, including the pigeons.",
+          "note": "They removed pigeons nesting in the antenna and cleaned out the droppings. The noise remained."
+        },
+        {
+          "kind": "figure",
+          "value": "100",
+          "unit": "times",
+          "context": "How much more intense the signal was than they had expected, according to the National Historic Landmark nomination."
+        },
+        {
+          "kind": "statement",
+          "lead": "The neighbours",
+          "text": "Princeton physicists were about to go looking for it.",
+          "note": "Robert Dicke's group, about 60 km away, was preparing to search for this radiation. Penzias heard of a related preprint from his friend Bernard Burke, then called Dicke."
+        },
+        {
+          "kind": "statement",
+          "lead": "The papers",
+          "text": "Both teams published together in July 1965.",
+          "note": "Penzias and Wilson's short paper ran in Astrophysical Journal Letters straight after the Princeton paper."
+        },
+        {
+          "kind": "statement",
+          "lead": "The prize",
+          "text": "They won the 1978 Nobel Prize in Physics.",
+          "note": "Half went to Penzias and Wilson jointly for the discovery. The other half went to Pyotr Kapitsa."
+        },
+        {
+          "kind": "kicker",
+          "text": "A noise they could not remove turned out to be the discovery."
+        },
+        {
+          "kind": "sign",
+          "line": "Check what really happened.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "hotmail-footer-advert-12-million-users-1996",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://news.microsoft.com/1999/02/08/msn-hotmail-from-zero-to-30-million-members-in-30-months/: read. Established the 4 July 1996 launch, that Bhatia and Smith approached Draper Fisher Jurvetson in 1995, that the firm wondered how they would attract members, more than 30 million active members by February 1999, and a sign up rate frequently above 1 million a week.",
+        "https://techcrunch.com/2009/10/18/ps-i-love-you-get-your-free-email-at-hotmail: read. Established that Tim Draper pushed for a plug at the bottom of every outgoing email, that the founders resisted, that they later agreed but without the P.S. I love you part, and that Hotmail reached 1 million users within six months. This is an excerpt from Adam Penenberg's book Viral Loop.",
+        "https://steve.blog/2013/10/23/red-herring-hotmail-photoshoot-for-the-original-viral-marketing-article/: read. Reprints Steve Jurvetson and Tim Draper's Viral Marketing article. Established that Tim Draper suggested appending an advert to every outbound email, that Hotmail signed up over 12 million subscribers in its first 1.5 years, and that it spent less than $500,000 on marketing from launch to 12 million users.",
+        "https://www.webmaster-source.com/2009/10/22/a-brief-history-of-hotmail-or-an-example-of-early-viral-marketing/: read. Established an account in which a line reading PS: I love you. Get your free e-mail at Hotmail was appended for years, which conflicts with the TechCrunch excerpt."
+      ],
+      "verifiedNote": "Checked 6 Nov 2026. Not claimed: the final wording of the footer (the sources conflict, so the reel says so), the Microsoft price and date (the 400 million dollar figure appears only in Wikipedia articles citing CNET pages that were blocked from this environment), the 300,000 dollar seed amount, and any breakdown of who at Draper Fisher Jurvetson said what beyond Tim Draper. The Wired article and the 1997 Hotmail about page were blocked. The 12 million figure comes from the reprinted Jurvetson and Draper article, whose page shows two edit dates (May 1997 and November 1998), so the beat attributes it to that article rather than to a date.",
+      "palette": {
+        "bg": "#10141C",
+        "ink": "#F1F3F8",
+        "accent": "#F5A524",
+        "muted": "#838BA0"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The launch",
+          "text": "Hotmail launched on 4 July 1996.",
+          "note": "Sabeer Bhatia and Jack Smith had pitched a free web email service to Draper Fisher Jurvetson in 1995. The firm wondered how they would attract members."
+        },
+        {
+          "kind": "statement",
+          "lead": "The idea",
+          "text": "Tim Draper wanted every email to carry an advert.",
+          "note": "He suggested a plug at the bottom of every outgoing message. The founders resisted, then agreed to the plug but not the P.S. I love you part."
+        },
+        {
+          "kind": "statement",
+          "lead": "The twist",
+          "text": "The line everyone quotes may not be what shipped.",
+          "note": "TechCrunch says the founders dropped the P.S. I love you wording. Another account says that exact line was appended for years. The sources disagree."
+        },
+        {
+          "kind": "figure",
+          "value": "12",
+          "unit": "million",
+          "context": "Subscribers in the first year and a half, on less than $500,000 of marketing, according to Jurvetson and Draper's Viral Marketing article."
+        },
+        {
+          "kind": "statement",
+          "lead": "The pace",
+          "text": "The first million took about six months.",
+          "note": "TechCrunch's excerpt from Viral Loop says Hotmail reached 1 million users within six months of launch."
+        },
+        {
+          "kind": "statement",
+          "lead": "The scale",
+          "text": "By February 1999 Hotmail had more than 30 million active members.",
+          "note": "Microsoft's own release said new sign ups frequently topped 1 million a week."
+        },
+        {
+          "kind": "kicker",
+          "text": "Every email sent was an advert for the service."
+        },
+        {
+          "kind": "sign",
+          "line": "Check what really happened.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
