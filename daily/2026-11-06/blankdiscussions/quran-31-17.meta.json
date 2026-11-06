@@ -1,0 +1,58 @@
+{
+  "slug": "quran-31-17",
+  "date": "2026-11-06",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "\"O my son, establish prayer, enjoin what is right, forbid what is wrong, and be patient over what befalls you. Indeed, [all] that is of the matters [requiring] determination.\"\n\nQur'an 31:17 (Surah Luqman). Swipe through for the Arabic, then English, Mandarin, Korean, Japanese, Malay, Thai and Spanish.\n\nSources on the final slide.\n\n#Quran #Luqman #Patience #IslamicReminder #Deen",
+  "tags": [
+    "Quran",
+    "Luqman",
+    "Patience",
+    "Deen"
+  ],
+  "theme": "chaste-56",
+  "slides": [
+    "quran-31-17.slide-01.json",
+    "quran-31-17.slide-02.json",
+    "quran-31-17.slide-03.json",
+    "quran-31-17.slide-04.json",
+    "quran-31-17.slide-05.json",
+    "quran-31-17.slide-06.json",
+    "quran-31-17.slide-07.json",
+    "quran-31-17.slide-08.json",
+    "quran-31-17.slide-09.json",
+    "quran-31-17.slide-10.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an 31:17, Surah Luqman. No-repeat ledger (scripts/_bd_dupcheck.mjs): NEW. 8-language/10-slide format. Single post on 2026-11-06 (scheduled run).",
+    "arabic": "Edition quran-uthmani, live call https://api.alquran.cloud/v1/ayah/31:17/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese,ms.basmeih,th.thai,es.cortes (HTTP 200, fetched 2026-11-06); fetched twice in the same script and diffed identical; slide text written programmatically from raw API fields.",
+    "other_editions": "en.sahih (Saheeh International), zh.jian (Ma Jian), ms.basmeih (Abdullah Muhammad Basmeih), th.thai (King Fahad Quran Complex), es.cortes (Julio Cortes): same call. ko.korean and ja.japanese: translator listed as unknown by source; slides say 'Translator not specified by source'.",
+    "source_artifact_note": "Artifact scan clean (double spaces, space before punctuation, trim, control chars). Korean edition had a mid-word space ('것이 니라'); fixed by spacing-only replacement to '것이니라' on the slide; no wording changed. Japanese edition shown as-is from source (includes the source's own '忍ベ' spelling). Candidate 25:63 was dropped unpublished (Japanese edition had a garbled character, Korean several stray spaces); 65:2 dropped (long, mid-sentence).",
+    "compliance_check": "Checked against 142 string terms in compliance-policy.json halal section across all edition text: hits = []."
+  },
+  "status": "published",
+  "hostingUrls": [
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-06/blankdiscussions/renders/quran-31-17-slide-01.jpg",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-06/blankdiscussions/renders/quran-31-17-slide-02.jpg",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-06/blankdiscussions/renders/quran-31-17-slide-03.jpg",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-06/blankdiscussions/renders/quran-31-17-slide-04.jpg",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-06/blankdiscussions/renders/quran-31-17-slide-05.jpg",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-06/blankdiscussions/renders/quran-31-17-slide-06.jpg",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-06/blankdiscussions/renders/quran-31-17-slide-07.jpg",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-06/blankdiscussions/renders/quran-31-17-slide-08.jpg",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-06/blankdiscussions/renders/quran-31-17-slide-09.jpg",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-06/blankdiscussions/renders/quran-31-17-slide-10.jpg"
+  ],
+  "hosting_verified": {
+    "checkedAt": "2026-11-06",
+    "note": "Rendered in cloud sandbox; Arabic, Korean, Japanese, Malay slides viewed: no tofu. Slides 01/05/10 URLs return HTTP 200 image/jpeg, 0 redirects."
+  },
+  "published": {
+    "mediaId": "18103911632639539",
+    "permalink": "https://www.instagram.com/p/DfZ-8qzEWsF/",
+    "publishedAt": "2026-11-06T15:59:04Z",
+    "publishedVia": "Composio INSTAGRAM_CREATE_CAROUSEL_CONTAINER + _PUBLISH (instagram_willed-pried)"
+  }
+}
