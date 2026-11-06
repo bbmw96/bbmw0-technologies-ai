@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (sydney-opera-house-planning-fallacy-7-to-102-million)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0C1218",
+    "ink": "#EEF2F5",
+    "accent": "#E0553B",
+    "muted": "#7C8A96"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The plan",
+      "text": "In 1957 the Sydney Opera House was budgeted at A$7 million.",
+      "note": "That was 3.5 million pounds. The planned completion date was 26 January 1963, Australia Day.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "figure",
+      "value": "102",
+      "unit": "$ million",
+      "context": "The final cost in Australian dollars, nearly fifteen times the estimate. It opened on 20 October 1973, ten years after the planned date.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "The architect",
+      "text": "Utzon never saw it finished.",
+      "note": "He left the project on 28 February 1966 and never returned to Australia. He was invited to the opening and did not come.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "The name",
+      "text": "Psychologists call this the planning fallacy.",
+      "note": "Kahneman and Tversky first proposed it. It is the tendency to underestimate the time, costs and risks of future actions while overestimating the benefits.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "The test",
+      "text": "A 1994 study of 37 students found the same bias.",
+      "note": "They predicted 33.9 days on average to finish. The real average was 55.5 days, and only about 30 per cent finished on their predicted date.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Your own deadline is probably optimistic too.",
+      "durationInFrames": 64
+    },
+    {
+      "kind": "sign",
+      "line": "Add a buffer.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

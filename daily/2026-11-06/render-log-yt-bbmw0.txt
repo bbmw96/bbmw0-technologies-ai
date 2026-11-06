@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-11-06 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- patterson-lead-age-of-earth-to-leaded-petrol-ban-1956 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-06-patterson-lead-age-of-earth-to-leaded-petrol-ban-1956.mp4
+  uploaded public: https://youtu.be/Tfa9ekIcrPM
+
+--- penzias-wilson-pigeons-horn-antenna-cosmic-microwave-1965 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-06-penzias-wilson-pigeons-horn-antenna-cosmic-microwave-1965.mp4
+  uploaded public: https://youtu.be/CD7kTsWVzxE
+
+--- sydney-opera-house-planning-fallacy-7-to-102-million ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-06-sydney-opera-house-planning-fallacy-7-to-102-million.mp4
+  uploaded public: https://youtu.be/TKN6ILA1he0
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

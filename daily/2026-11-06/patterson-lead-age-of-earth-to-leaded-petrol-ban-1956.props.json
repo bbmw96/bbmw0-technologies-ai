@@ -1,0 +1,75 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (patterson-lead-age-of-earth-to-leaded-petrol-ban-1956)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0F1C",
+    "ink": "#EEF2FA",
+    "accent": "#6FA8FF",
+    "muted": "#7B87A3"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "1956",
+      "text": "A chemist measured the age of the Earth.",
+      "note": "Clair Patterson used lead from the Canyon Diablo meteorite and got 4.55 billion years, give or take 70 million.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "statement",
+      "lead": "The problem",
+      "text": "His samples kept coming out contaminated.",
+      "note": "He found lead throughout his laboratory, even in his own hair.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "statement",
+      "lead": "The fix",
+      "text": "He built one of the first clean rooms.",
+      "note": "He acid-cleaned his apparatus and distilled every chemical shipped to him.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "lead": "The discovery",
+      "text": "The lead in the air was not natural.",
+      "note": "Ice cores from Greenland in 1964 and Antarctica in 1965 showed atmospheric lead rising soon after tetraethyl lead was introduced.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "In bone",
+      "text": "Modern bones held far more lead than ancient ones.",
+      "note": "He reported a rise of 700 to 1200 fold against 1600 year old Peruvian skeletons.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "The fight",
+      "text": "The lead industry pushed back.",
+      "note": "He was excluded from a 1971 National Research Council panel on atmospheric lead.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "credit",
+      "year": "1996",
+      "name": "Leaded petrol",
+      "role": "Completely banned for road vehicles in the United States on 1 January 1996.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "kicker",
+      "text": "He set out to date the Earth and ended up cleaning its air.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "sign",
+      "line": "Fix the noise before you read the signal.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

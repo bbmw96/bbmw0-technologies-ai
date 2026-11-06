@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (penzias-wilson-pigeons-horn-antenna-cosmic-microwave-1965)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0F18",
+    "ink": "#EDF0F7",
+    "accent": "#6FA8FF",
+    "muted": "#7A8399"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The noise",
+      "text": "In 1964 two Bell Labs engineers could not get rid of a hiss.",
+      "note": "Arno Penzias and Robert Wilson were using a 20 foot horn antenna at Holmdel. After allowing for the sky and their equipment, 3.5 K of noise was left.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The pigeons",
+      "text": "They checked everything, including the pigeons.",
+      "note": "They removed pigeons nesting in the antenna and cleaned out the droppings. The noise remained.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "figure",
+      "value": "100",
+      "unit": "times",
+      "context": "How much more intense the signal was than they had expected, according to the National Historic Landmark nomination.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "statement",
+      "lead": "The neighbours",
+      "text": "Princeton physicists were about to go looking for it.",
+      "note": "Robert Dicke's group, about 60 km away, was preparing to search for this radiation. Penzias heard of a related preprint from his friend Bernard Burke, then called Dicke.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The papers",
+      "text": "Both teams published together in July 1965.",
+      "note": "Penzias and Wilson's short paper ran in Astrophysical Journal Letters straight after the Princeton paper.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "statement",
+      "lead": "The prize",
+      "text": "They won the 1978 Nobel Prize in Physics.",
+      "note": "Half went to Penzias and Wilson jointly for the discovery. The other half went to Pyotr Kapitsa.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "kicker",
+      "text": "A noise they could not remove turned out to be the discovery.",
+      "durationInFrames": 94
+    },
+    {
+      "kind": "sign",
+      "line": "Check what really happened.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
