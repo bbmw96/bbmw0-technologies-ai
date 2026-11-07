@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (hotmail-footer-advert-12-million-users-1996)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#10141C",
+    "ink": "#F1F3F8",
+    "accent": "#F5A524",
+    "muted": "#838BA0"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The launch",
+      "text": "Hotmail launched on 4 July 1996.",
+      "note": "Sabeer Bhatia and Jack Smith had pitched a free web email service to Draper Fisher Jurvetson in 1995. The firm wondered how they would attract members.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The idea",
+      "text": "Tim Draper wanted every email to carry an advert.",
+      "note": "He suggested a plug at the bottom of every outgoing message. The founders resisted, then agreed to the plug but not the P.S. I love you part.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The twist",
+      "text": "The line everyone quotes may not be what shipped.",
+      "note": "TechCrunch says the founders dropped the P.S. I love you wording. Another account says that exact line was appended for years. The sources disagree.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "12",
+      "unit": "million",
+      "context": "Subscribers in the first year and a half, on less than $500,000 of marketing, according to Jurvetson and Draper's Viral Marketing article.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "statement",
+      "lead": "The pace",
+      "text": "The first million took about six months.",
+      "note": "TechCrunch's excerpt from Viral Loop says Hotmail reached 1 million users within six months of launch.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "statement",
+      "lead": "The scale",
+      "text": "By February 1999 Hotmail had more than 30 million active members.",
+      "note": "Microsoft's own release said new sign ups frequently topped 1 million a week.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "kicker",
+      "text": "Every email sent was an advert for the service.",
+      "durationInFrames": 76
+    },
+    {
+      "kind": "sign",
+      "line": "Check what really happened.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

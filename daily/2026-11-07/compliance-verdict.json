@@ -1,0 +1,158 @@
+{
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T15:17:15.963Z",
+  "policyVersion": "1.0.0",
+  "strictMode": false,
+  "allowed": [
+    "ariane-5-flight-501-overflow-1996",
+    "first-handheld-mobile-call-cooper-engel-1973",
+    "hotmail-footer-advert-12-million-users-1996"
+  ],
+  "blocked": [],
+  "results": [
+    {
+      "slug": "ariane-5-flight-501-overflow-1996",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "4 June 1996. Europe's new rocket destroyed itself on its first flight.",
+      "niche": "tech",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.114,
+        "worstTitleAgainst": "netflix-blockbuster-50-million-2000",
+        "worstDescriptionSimilarity": 0.264,
+        "combo": "reel:#0B0D14:#F2A33A:#EEF1F8",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "first-handheld-mobile-call-cooper-engel-1973",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "3 April 1973. The first handheld mobile call was made from a Manhattan pavement.",
+      "niche": "tech",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.118,
+        "worstTitleAgainst": "gchq-cocks-rsa-secret-1973",
+        "worstDescriptionSimilarity": 0.249,
+        "combo": "reel:#0E100F:#D6A33E:#F1F3EE",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "hotmail-footer-advert-12-million-users-1996",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Hotmail launched on 4 July 1996.",
+      "niche": "app",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.143,
+        "worstTitleAgainst": "chatgpt-research-preview-100-million",
+        "worstDescriptionSimilarity": 0.255,
+        "combo": "reel:#10141C:#F5A524:#F1F3F8",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    }
+  ]
+}

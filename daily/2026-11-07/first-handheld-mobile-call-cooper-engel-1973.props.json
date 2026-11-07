@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (first-handheld-mobile-call-cooper-engel-1973)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0E100F",
+    "ink": "#F1F3EE",
+    "accent": "#D6A33E",
+    "muted": "#7F8A7F"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "3 April 1973",
+      "text": "The first handheld mobile call was made from a Manhattan pavement.",
+      "note": "Martin Cooper of Motorola stood on Sixth Avenue near the Hilton and rang Joel Engel, a rival at AT&T.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The set-up",
+      "text": "The phone only worked through one base station.",
+      "note": "Motorola's base station sat on the roof of Burlington House and was hardwired to the AT&T landline network.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "figure",
+      "value": "10",
+      "unit": "hours",
+      "context": "The recharge time for about 30 minutes of talk. Cooper joked that you could not hold the phone up for that long.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "statement",
+      "lead": "The wait",
+      "text": "Customers waited about ten years.",
+      "note": "Motorola unveiled the DynaTAC 8000X on 6 March 1983. Quantity production began in early April 1984.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "The price",
+      "text": "The first commercial handset cost US$3,995 in 1984.",
+      "note": "Motorola's own forecast in 1973 had been full operation within three years.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "kicker",
+      "text": "His first call went to his chief competitor.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Call your rival first.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

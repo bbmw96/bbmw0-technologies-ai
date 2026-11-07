@@ -1,0 +1,25 @@
+{
+  "slug": "ariane-5-flight-501-overflow-1996",
+  "date": "2026-11-07",
+  "title": "4 June 1996. Europe's new rocket destroyed itself on its first flight.",
+  "description": "Europe's new rocket destroyed itself on its first flight. Ariane 5 flight 501 carried four Cluster research satellites of about 1,200 kg each. Wikipedia puts the loss at more than US$370 million.\n\nFrom lift-off until the rocket veered off course. The inquiry timed the first navigation unit failure at 36.7 seconds.\n\nOne number was too big for the box it was put in. A 64-bit floating point value was converted to a 16-bit signed integer, and it overflowed. The conversion was not protected.\n\nFour risky variables were guarded. Three were not. Seven variables were at risk. The inquiry says protection was left out because of a maximum workload target of 80%.\n\nThe software was reused from Ariane 4. Ariane 5 builds up horizontal speed five times faster. The alignment function that failed was kept for commonality and was not needed on Ariane 5.\n\nThe computer did what its specification said. On an error, the processor was specified to shut down. The back-up unit failed first, then the active one about 0.05 seconds later.\n\nThe part that failed had no job to do once the rocket left the ground.\n\nSources:\n- https://en.wikipedia.org/wiki/Ariane_flight_V88: read. Established that Ariane 5 flight 501 was the maiden flight, on 4 June 1996; that the rocket veered off its flight path 37 seconds after launch; that a conversion from a 64-bit floating point number to a 16-bit signed integer overflowed in the inertial reference system; that the code was reused from Ariane 4 and the alignment function served no purpose after lift-off on Ariane 5; that the payload was four Cluster satellites of 1,200 kg each; that the failure cost more than US$370 million; and that the inquiry board was headed by Jacques-Louis Lions.\n- https://www-users.cse.umn.edu/~arnold/disasters/ariane5rep.html: read (the inquiry report, Paris, 19 July 1996). Established that the back-up inertial reference unit failed 36.7 seconds after H0 and the active unit about 0.05 seconds later; that operations involving seven variables were at risk, four were protected and three were left unprotected; that protection was omitted because of a maximum workload target of 80%; that the specification required the processor to shut down on an exception; that the alignment function was kept for commonality reasons and is not required for Ariane 5; and that Ariane 5 builds up horizontal velocity five times more rapidly than Ariane 4.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-07-ariane-5-flight-501-overflow-1996.mp4",
+  "propsFile": "daily/2026-11-07/ariane-5-flight-501-overflow-1996.props.json",
+  "durationInFrames": 1432,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-11-07 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- ariane-5-flight-501-overflow-1996 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-07-ariane-5-flight-501-overflow-1996.mp4
+  uploaded public: https://youtu.be/2MxPIxW4RNM
+
+--- first-handheld-mobile-call-cooper-engel-1973 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-07-first-handheld-mobile-call-cooper-engel-1973.mp4
+  uploaded public: https://youtu.be/P8jJbnw9QsI
+
+--- hotmail-footer-advert-12-million-users-1996 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-07-hotmail-footer-advert-12-million-users-1996.mp4
+  uploaded public: https://youtu.be/AdEey5clDtc
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

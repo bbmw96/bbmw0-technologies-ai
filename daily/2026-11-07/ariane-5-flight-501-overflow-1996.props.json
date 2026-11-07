@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (ariane-5-flight-501-overflow-1996)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0D14",
+    "ink": "#EEF1F8",
+    "accent": "#F2A33A",
+    "muted": "#7B8499"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "4 June 1996",
+      "text": "Europe's new rocket destroyed itself on its first flight.",
+      "note": "Ariane 5 flight 501 carried four Cluster research satellites of about 1,200 kg each. Wikipedia puts the loss at more than US$370 million.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "37",
+      "unit": "seconds",
+      "context": "From lift-off until the rocket veered off course. The inquiry timed the first navigation unit failure at 36.7 seconds.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "lead": "The cause",
+      "text": "One number was too big for the box it was put in.",
+      "note": "A 64-bit floating point value was converted to a 16-bit signed integer, and it overflowed. The conversion was not protected.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The odds",
+      "text": "Four risky variables were guarded. Three were not.",
+      "note": "Seven variables were at risk. The inquiry says protection was left out because of a maximum workload target of 80%.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "The old code",
+      "text": "The software was reused from Ariane 4.",
+      "note": "Ariane 5 builds up horizontal speed five times faster. The alignment function that failed was kept for commonality and was not needed on Ariane 5.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The shutdown",
+      "text": "The computer did what its specification said.",
+      "note": "On an error, the processor was specified to shut down. The back-up unit failed first, then the active one about 0.05 seconds later.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "kicker",
+      "text": "The part that failed had no job to do once the rocket left the ground.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "sign",
+      "line": "Test with the real numbers.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
