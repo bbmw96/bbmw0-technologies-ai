@@ -17298,6 +17298,189 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "library-of-alexandria-faded-before-final-blow",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Library_of_Alexandria: read (verbatim for roughly the first 40,000 characters, the rest only as a summary). Established that the Library or part of its collection was accidentally burned by Julius Caesar in 48 BC but it is unclear how much was destroyed, that Strabo mentions visiting the Mouseion around 20 BC, that it dwindled during the Roman period from a lack of funding and support, the 145 BC purge under Ptolemy VIII, that a Palmyrene invasion and imperial counterattack between 270 and 275 AD probably destroyed whatever remained, the daughter library in the Serapeum, the demolition of the Serapeum in 391 AD, and size estimates of 40,000 to 700,000."
+      ],
+      "verifiedNote": "Checked 8 Nov 2026. Not claimed: the Caliph Omar story (I read it only through a summary, so I make no claim either way), exact scroll numbers destroyed in 48 BC, whether any library still existed at the Serapeum in 391 AD (the page says this is not recorded), or any single cause of the end. The second URL I tried for a separate destruction article returned the same page, so there is one source. Only claims in the verbatim part of the page are used.",
+      "palette": {
+        "bg": "#14100A",
+        "ink": "#F6EEDD",
+        "accent": "#D9A441",
+        "muted": "#9A8B6D"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "The Library of Alexandria did not end in one fire.",
+          "note": "Julius Caesar's civil war fire in 48 BC burned all or part of the collection, but it is unclear how much. Strabo mentions visiting the Mouseion around 20 BC."
+        },
+        {
+          "kind": "statement",
+          "lead": "The slow decline",
+          "text": "It dwindled under the Romans.",
+          "note": "The Library declined through a lack of funding and support. Its membership appears to have ceased by the 260s AD."
+        },
+        {
+          "kind": "statement",
+          "lead": "The purge",
+          "text": "Scholars had been driven out long before.",
+          "note": "In 145 BC Ptolemy VIII purged intellectuals from Alexandria. Aristarchus exiled himself to Cyprus and other scholars fled to other cities."
+        },
+        {
+          "kind": "statement",
+          "lead": "The size",
+          "text": "Nobody knows how many scrolls it held.",
+          "note": "Estimates range from 40,000 to 700,000 at its height."
+        },
+        {
+          "kind": "statement",
+          "lead": "The end",
+          "text": "Whatever remained probably went in the 270s AD.",
+          "note": "A Palmyrene invasion and an imperial counterattack between 270 and 275 AD probably destroyed what was left, if it still existed."
+        },
+        {
+          "kind": "statement",
+          "lead": "The daughter",
+          "text": "A second library may have outlived it.",
+          "note": "A daughter library in the Serapeum may have survived the main Library. The Serapeum was demolished in 391 AD under a decree from Bishop Theophilus."
+        },
+        {
+          "kind": "kicker",
+          "text": "It faded for centuries before anything finished it."
+        },
+        {
+          "kind": "sign",
+          "line": "Neglect burns slower.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "wegener-continental-drift-1912-no-mechanism",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Continental_drift: read. Established that the idea was first put forward by Abraham Ortelius in 1596, that Snider-Pellegrini (1858) and Reclus (1872) came before Wegener, that Wegener was the first to use the phrase continental drift, his 6 January 1912 presentation, the lack of a known geological mechanism, his speed estimate of 250 cm a year against 2.5 cm a year, that calculations showed centrifugal force was not sufficient, Mesosaurus fossils in Brazil and South Africa, Holmes proposing mantle convection in 1931, and plate tectonics being axiomatic to geophysics by 1967.",
+        "https://en.wikipedia.org/wiki/Alfred_Wegener: read. Established the 6 January 1912 presentation in Frankfurt, the 1915 book Die Entstehung der Kontinente und Ozeane, his 1905 doctorate in astronomy, that he was primarily known for meteorology in his lifetime, that he was treated as an outsider by geologists, and his death in Greenland in November 1930."
+      ],
+      "verifiedNote": "Checked 8 Nov 2026. Not claimed: that he was only a meteorologist (the Wegener page lists geologist among his fields, while the drift page says he was not a geologist, so the beat says what his doctorate was in), that his theory was ignored until after his death (the Wegener page says European researchers accepted its main tenets in the 1920s and calls the lone genius story a mischaracterisation), the exact cause of death, or any story about the coastline fit (the page says he meant the continental shelf edges). The figure beat uses the drift page's 250 cm a year.",
+      "palette": {
+        "bg": "#0A1418",
+        "ink": "#EAF5F5",
+        "accent": "#4DD0C4",
+        "muted": "#7A9496"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "Wegener did not invent continental drift.",
+          "note": "Abraham Ortelius first put the idea forward in 1596, and Snider-Pellegrini and Reclus followed. Wegener was the first to use the phrase continental drift."
+        },
+        {
+          "kind": "statement",
+          "lead": "The debut",
+          "text": "He presented it on 6 January 1912.",
+          "note": "In Frankfurt. His book Die Entstehung der Kontinente und Ozeane followed in 1915."
+        },
+        {
+          "kind": "statement",
+          "lead": "The outsider",
+          "text": "His doctorate was in astronomy.",
+          "note": "He was known in his lifetime mainly for meteorology. Geologists treated him as an outsider."
+        },
+        {
+          "kind": "statement",
+          "lead": "The evidence",
+          "text": "Fossils matched across oceans.",
+          "note": "Mesosaurus fossils turn up in Brazil and South Africa, and glacial sediments from the same period span the southern continents."
+        },
+        {
+          "kind": "figure",
+          "value": "250",
+          "unit": "cm a year",
+          "context": "Wegener's estimated drift speed, against about 2.5 cm a year as understood today. He also had no workable force, and calculations showed his centrifugal force was not enough."
+        },
+        {
+          "kind": "statement",
+          "lead": "The vindication",
+          "text": "He did not live to see it settled.",
+          "note": "Wegener died in Greenland in November 1930. By 1967 plate tectonics had become axiomatic to modern geophysics."
+        },
+        {
+          "kind": "kicker",
+          "text": "Right about the continents. Wrong about the cause."
+        },
+        {
+          "kind": "sign",
+          "line": "Right first, accepted later.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "hedy-lamarr-frequency-hopping-patent-1942-not-wifi",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hedy_Lamarr: read (verbatim for about the first half, the rest as a summary). Established the patent 2,292,387 granted on 11 August 1942 under her legal name Hedy Kiesler Markey, co-invention with George Antheil, the purpose of defeating Axis jamming of torpedo guidance, the Navy rejecting it as too large to fit in a torpedo, similar technology entering operational systems only in 1962, three years after the patent expired, and that modern systems such as Bluetooth, Wi-Fi and GPS use spread-spectrum principles.",
+        "https://patents.google.com/patent/US2292387A/en: read (verbatim for about the first 40,000 characters). Established the filing date of 10 June 1941, the grant on 11 August 1942, inventors Hedy Kiesler Markey and George Antheil, perforated paper rolls, 88 different carrier frequencies, and its use for remote control of torpedoes.",
+        "https://en.wikipedia.org/wiki/Frequency-hopping_spread_spectrum: read in full. Established that the patent is described as an early version using a piano roll to switch among 88 frequencies, that the 1962 Cuban Missile Crisis use drew on Sylvania's work, and that earlier frequency-hopping patents exist, including US 1,598,673 granted in 1926."
+      ],
+      "verifiedNote": "Checked 8 Nov 2026. Not claimed: that the Navy adopted it in the war (no page says so, and the pages conflict on whether it was rejected or donated), that her design was used in 1962 (the Cuban Missile Crisis use is credited to Sylvania), that she invented Wi-Fi or Bluetooth (no page says this), her 1997 EFF award or 2014 Hall of Fame induction (read only partly through a summary), or any story about how she and Antheil met. The Tesla 1903 patent mention was left out because I could not confirm what it covers.",
+      "palette": {
+        "bg": "#120A16",
+        "ink": "#F7EEF8",
+        "accent": "#E58AD0",
+        "muted": "#9A8099"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "Hedy Lamarr did not invent Wi-Fi.",
+          "note": "Her 1942 patent covered a radio guidance system for torpedoes. Earlier frequency-hopping patents exist, including US 1,598,673, granted in 1926."
+        },
+        {
+          "kind": "figure",
+          "value": "88",
+          "unit": "frequencies",
+          "context": "The patent proposed switching between 88 different carrier frequencies using perforated paper rolls, as in a player piano."
+        },
+        {
+          "kind": "statement",
+          "lead": "The patent",
+          "text": "It was granted on 11 August 1942.",
+          "note": "US patent 2,292,387, filed on 10 June 1941 under her married name, Hedy Kiesler Markey, with the composer George Antheil."
+        },
+        {
+          "kind": "statement",
+          "lead": "The purpose",
+          "text": "The target was enemy jamming.",
+          "note": "The patent describes the remote control of torpedoes. Hopping between frequencies was meant to defeat jamming by Axis powers."
+        },
+        {
+          "kind": "statement",
+          "lead": "The Navy",
+          "text": "It was not used in the war.",
+          "note": "Wikipedia says the Navy rejected it as too large to fit in a torpedo. Similar technology entered operational systems only in 1962, three years after the patent expired."
+        },
+        {
+          "kind": "kicker",
+          "text": "Wi-Fi and Bluetooth use the same family of ideas. It is not her invention."
+        },
+        {
+          "kind": "sign",
+          "line": "Credit the real claim.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
