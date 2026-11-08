@@ -1,0 +1,42 @@
+{
+  "slug": "quran-20-25-26",
+  "date": "2026-11-08",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "A du'a of Prophet Musa (Moses), peace be upon him: \"My Lord, expand for me my breast and ease for me my task.\"\n\nSurah Taa-Haa (20:25-26). Swipe through for the Arabic, then English, Mandarin, Korean and Japanese renderings.\n\nSources on the final slide.",
+  "tags": [
+    "Quran",
+    "IslamicReminder",
+    "Ayah",
+    "Dua",
+    "Deen",
+    "IslamicGuidance",
+    "MuslimReminder",
+    "Taha",
+    "QuranicVerses",
+    "Alhamdulillah"
+  ],
+  "slides": [
+    "quran-20-25-26.slide-01.json",
+    "quran-20-25-26.slide-02.json",
+    "quran-20-25-26.slide-03.json",
+    "quran-20-25-26.slide-04.json",
+    "quran-20-25-26.slide-05.json",
+    "quran-20-25-26.slide-06.json",
+    "quran-20-25-26.slide-07.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an, Surah Taa-Haa (20), Ayat 25-26",
+    "arabic": "Uthmani script (quran-uthmani), api.alquran.cloud. Two independent live fetches this session (2026-11-08) of GET /v1/ayah/20:{25..28}/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese, HTTP 200 each, diffed: byte-identical. Verbatim.",
+    "english": "Saheeh International (en.sahih). Raw: \"[Moses] said, \\\"My Lord, expand for me my breast [with assurance] And ease for me my task\". Only the unmatched opening quotation mark before 'My Lord' was dropped (the quotation continues past these ayat). Wording untouched.",
+    "chinese": "Ma Jian (zh.jian). Verbatim, ayat joined with no separator.",
+    "korean": "ko.korean; source metadata lists translator as 'Unknown', credited on-slide as not specified. Raw: \"이때 모세가 주여 저를 위해저의 마음을 활짝 열어주소서 그리고 저의 일이 쉽도록 하여 주소서\". Spacing-only fix: '위해저의' -> '위해 저의' (missing space). No wording changed.",
+    "japanese": "ja.japanese; source metadata lists translator as 'Unknown', cited as such. Verbatim: \"かれは（祈って）言った。「主よ，わたしの胸を広げて下さい。わたしの仕事を容易にして下さい。\"",
+    "verification_note": "All renderings from two live api.alquran.cloud fetches this session, diffed identical; none from memory. Ayat 27-28 were deliberately excluded because the Japanese edition's 20:27 contains a corrupted character in the source data. Manual halal compliance check against scripts/data/compliance-policy.json blocklists: clean; typography only, no imagery. Dupcheck: quran:20:25-26 NEW."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-11-08/quran-20-25-26-slide-NN.png --props=daily/2026-11-08/blankdiscussions/quran-20-25-26.slide-NN.json",
+  "status": "sourced_pending_render",
+  "theme": "moss-ivory"
+}
