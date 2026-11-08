@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (diary-of-merer-oldest-papyri-giza-logbook-2013)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#14110B",
+    "ink": "#F2ECDD",
+    "accent": "#D9A441",
+    "muted": "#8E8472"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The find",
+      "text": "The oldest papyrus texts in Egypt are a work crew's logbook.",
+      "note": "Pierre Tallet's team found them at Wadi al-Jarf, on the Red Sea coast, in 2013.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "statement",
+      "lead": "The date",
+      "text": "It was written around 2560 BC, near the end of Khufu's reign.",
+      "note": "Wikipedia dates the papyri to about 2560 to 2550 BC.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "statement",
+      "lead": "The job",
+      "text": "Merer, an inspector, shipped limestone by boat from Tura to Giza.",
+      "note": "Tallet believes the blocks were for the outer casing, though the log never says where the stones went.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "lead": "The boss",
+      "text": "Merer reported to Ankhhaf, a nobleman and half brother of Khufu.",
+      "note": "Ankhhaf was overseer of Ra-shi-Khufu, the harbour at Giza.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "statement",
+      "lead": "The food",
+      "text": "The crew ate meat, poultry, fish and beer.",
+      "note": "Smithsonian Magazine reports that they were well provisioned. Mark Lehner's digs at Giza uncovered apartment blocks that might have housed as many as 20,000 people.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "The oldest paperwork in Egypt is about moving stone and feeding the crew.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "sign",
+      "line": "Check what really happened.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

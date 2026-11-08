@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (library-of-alexandria-faded-before-final-blow)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#14100A",
+    "ink": "#F6EEDD",
+    "accent": "#D9A441",
+    "muted": "#9A8B6D"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "The Library of Alexandria did not end in one fire.",
+      "note": "Julius Caesar's civil war fire in 48 BC burned all or part of the collection, but it is unclear how much. Strabo mentions visiting the Mouseion around 20 BC.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The slow decline",
+      "text": "It dwindled under the Romans.",
+      "note": "The Library declined through a lack of funding and support. Its membership appears to have ceased by the 260s AD.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "statement",
+      "lead": "The purge",
+      "text": "Scholars had been driven out long before.",
+      "note": "In 145 BC Ptolemy VIII purged intellectuals from Alexandria. Aristarchus exiled himself to Cyprus and other scholars fled to other cities.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "The size",
+      "text": "Nobody knows how many scrolls it held.",
+      "note": "Estimates range from 40,000 to 700,000 at its height.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "statement",
+      "lead": "The end",
+      "text": "Whatever remained probably went in the 270s AD.",
+      "note": "A Palmyrene invasion and an imperial counterattack between 270 and 275 AD probably destroyed what was left, if it still existed.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "lead": "The daughter",
+      "text": "A second library may have outlived it.",
+      "note": "A daughter library in the Serapeum may have survived the main Library. The Serapeum was demolished in 391 AD under a decree from Bishop Theophilus.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "It faded for centuries before anything finished it.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Neglect burns slower.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

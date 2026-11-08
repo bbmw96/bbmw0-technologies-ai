@@ -1,0 +1,20 @@
+Rendering 3 Shorts for 2026-11-08 (concurrency=3, GL=default)
+Compliance: 2 cleared, 1 blocked (policy v1.0.0).
+Blocked by compliance: diary-of-merer-oldest-papyri-giza-logbook-2013
+
+--- diary-of-merer-oldest-papyri-giza-logbook-2013 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-08-diary-of-merer-oldest-papyri-giza-logbook-2013.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-11-08/compliance-verdict.json.
+
+--- library-of-alexandria-faded-before-final-blow ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-08-library-of-alexandria-faded-before-final-blow.mp4
+  uploaded public: https://youtu.be/avdJWe-Agbs
+
+--- wegener-continental-drift-1912-no-mechanism ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-08-wegener-continental-drift-1912-no-mechanism.mp4
+  uploaded public: https://youtu.be/JTNPwGOJuZ4
+
+=== Done. 3 rendered, 2 uploaded, 0 skipped, 1 blocked by compliance, 0 failed. ===

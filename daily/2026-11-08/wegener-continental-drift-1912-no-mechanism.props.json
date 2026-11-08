@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (wegener-continental-drift-1912-no-mechanism)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A1418",
+    "ink": "#EAF5F5",
+    "accent": "#4DD0C4",
+    "muted": "#7A9496"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "Wegener did not invent continental drift.",
+      "note": "Abraham Ortelius first put the idea forward in 1596, and Snider-Pellegrini and Reclus followed. Wegener was the first to use the phrase continental drift.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The debut",
+      "text": "He presented it on 6 January 1912.",
+      "note": "In Frankfurt. His book Die Entstehung der Kontinente und Ozeane followed in 1915.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "statement",
+      "lead": "The outsider",
+      "text": "His doctorate was in astronomy.",
+      "note": "He was known in his lifetime mainly for meteorology. Geologists treated him as an outsider.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "statement",
+      "lead": "The evidence",
+      "text": "Fossils matched across oceans.",
+      "note": "Mesosaurus fossils turn up in Brazil and South Africa, and glacial sediments from the same period span the southern continents.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "figure",
+      "value": "250",
+      "unit": "cm a year",
+      "context": "Wegener's estimated drift speed, against about 2.5 cm a year as understood today. He also had no workable force, and calculations showed his centrifugal force was not enough.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "The vindication",
+      "text": "He did not live to see it settled.",
+      "note": "Wegener died in Greenland in November 1930. By 1967 plate tectonics had become axiomatic to modern geophysics.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "kicker",
+      "text": "Right about the continents. Wrong about the cause.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Right first, accepted later.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

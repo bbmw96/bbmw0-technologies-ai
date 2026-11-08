@@ -360,7 +360,10 @@
     "reel:sydney-opera-house-planning-fallacy-7-to-102-million",
     "reel:hotmail-footer-advert-12-million-users-1996",
     "reel:first-handheld-mobile-call-cooper-engel-1973",
-    "reel:ariane-5-flight-501-overflow-1996"
+    "reel:ariane-5-flight-501-overflow-1996",
+    "reel:diary-of-merer-oldest-papyri-giza-logbook-2013",
+    "reel:wegener-continental-drift-1912-no-mechanism",
+    "reel:library-of-alexandria-faded-before-final-blow"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -6296,6 +6299,53 @@
       "youtubeId": "2MxPIxW4RNM",
       "youtubeUrl": "https://youtu.be/2MxPIxW4RNM",
       "uploadedAt": "2026-11-07T15:19:12.099Z",
+      "privacy": "public"
+    },
+    {
+      "id": "diary-of-merer-oldest-papyri-giza-logbook-2013",
+      "date": "2026-11-08",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The oldest papyrus texts in Egypt are a work crew's logbook.",
+      "description": "The oldest papyrus texts in Egypt are a work crew's logbook. Pierre Tallet's team found them at Wadi al-Jarf, on the Red Sea coast, in 2013.\n\nIt was written around 2560 BC, near the end of Khufu's reign. Wikipedia dates the papyri to about 2560 to 2550 BC.\n\nMerer, an inspector, shipped limestone by boat from Tura to Giza. Tallet believes the blocks were for the outer casing, though the log never says where the stones went.\n\nMerer reported to Ankhhaf, a nobleman and half brother of Khufu. Ankhhaf was overseer of Ra-shi-Khufu, the harbour at Giza.\n\nThe crew ate meat, poultry, fish and beer. Smithsonian Magazine reports that they were well provisioned. Mark Lehner's digs at Giza uncovered apartment blocks that might have housed as many as 20,000 people.\n\nThe oldest paperwork in Egypt is about moving stone and feeding the crew.\n\nSources:\n- https://en.wikipedia.org/wiki/Diary_of_Merer: read. Established that the papyri were found and excavated in 2013 by a French mission under Pierre Tallet and Gregory Marouard; that they are the oldest known papyri with text; that Merer held the title of inspector; that the log records white limestone blocks shipped by boat from the Tura quarries to Giza; that the text does not say where the stones were to be used, with Tallet believing the outer casing; and that Ankhhaf, half brother of Khufu, is called a nobleman and overseer of Ra-shi-Khufu.\n- https://en.wikipedia.org/wiki/Wadi_al-Jarf: read. Established the site on the Red Sea coast, that excavation resumed in 2011 under Tallet and Marouard, that the discovery was announced in April 2013, that the papyri are the oldest ever found in Egypt, and that they date to about 2560 to 2550 BC, the end of Khufu's reign.\n- https://www.smithsonianmag.com/history/ancient-egypt-shipping-mining-farming-economy-pyramids-180956619/: read. Established that Tallet found the papyri in 2013, that Merer shipped limestone from Tura to Giza, that the noble Ankhhaf was Khufu's half brother, that the workers were provisioned with meat, poultry, fish and beer, and that Mark Lehner's excavations uncovered apartment blocks at Giza that might have housed as many as 20,000 people.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "wegener-continental-drift-1912-no-mechanism",
+      "date": "2026-11-08",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The popular version. Wegener did not invent continental drift.",
+      "description": "Wegener did not invent continental drift. Abraham Ortelius first put the idea forward in 1596, and Snider-Pellegrini and Reclus followed. Wegener was the first to use the phrase continental drift.\n\nHe presented it on 6 January 1912. In Frankfurt. His book Die Entstehung der Kontinente und Ozeane followed in 1915.\n\nHis doctorate was in astronomy. He was known in his lifetime mainly for meteorology. Geologists treated him as an outsider.\n\nFossils matched across oceans. Mesosaurus fossils turn up in Brazil and South Africa, and glacial sediments from the same period span the southern continents.\n\nWegener's estimated drift speed, against about 2.5 cm a year as understood today. He also had no workable force, and calculations showed his centrifugal force was not enough.\n\nHe did not live to see it settled. Wegener died in Greenland in November 1930. By 1967 plate tectonics had become axiomatic to modern geophysics.\n\nRight about the continents. Wrong about the cause.\n\nSources:\n- https://en.wikipedia.org/wiki/Continental_drift: read. Established that the idea was first put forward by Abraham Ortelius in 1596, that Snider-Pellegrini (1858) and Reclus (1872) came before Wegener, that Wegener was the first to use the phrase continental drift, his 6 January 1912 presentation, the lack of a known geological mechanism, his speed estimate of 250 cm a year against 2.5 cm a year, that calculations showed centrifugal force was not sufficient, Mesosaurus fossils in Brazil and South Africa, Holmes proposing mantle convection in 1931, and plate tectonics being axiomatic to geophysics by 1967.\n- https://en.wikipedia.org/wiki/Alfred_Wegener: read. Established the 6 January 1912 presentation in Frankfurt, the 1915 book Die Entstehung der Kontinente und Ozeane, his 1905 doctorate in astronomy, that he was primarily known for meteorology in his lifetime, that he was treated as an outsider by geologists, and his death in Greenland in November 1930.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "JTNPwGOJuZ4",
+      "youtubeUrl": "https://youtu.be/JTNPwGOJuZ4",
+      "uploadedAt": "2026-11-08T15:48:11.789Z",
+      "privacy": "public"
+    },
+    {
+      "id": "library-of-alexandria-faded-before-final-blow",
+      "date": "2026-11-08",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The popular version. The Library of Alexandria did not end in one fire.",
+      "description": "The Library of Alexandria did not end in one fire. Julius Caesar's civil war fire in 48 BC burned all or part of the collection, but it is unclear how much. Strabo mentions visiting the Mouseion around 20 BC.\n\nIt dwindled under the Romans. The Library declined through a lack of funding and support. Its membership appears to have ceased by the 260s AD.\n\nScholars had been driven out long before. In 145 BC Ptolemy VIII purged intellectuals from Alexandria. Aristarchus exiled himself to Cyprus and other scholars fled to other cities.\n\nNobody knows how many scrolls it held. Estimates range from 40,000 to 700,000 at its height.\n\nWhatever remained probably went in the 270s AD. A Palmyrene invasion and an imperial counterattack between 270 and 275 AD probably destroyed what was left, if it still existed.\n\nA second library may have outlived it. A daughter library in the Serapeum may have survived the main Library. The Serapeum was demolished in 391 AD under a decree from Bishop Theophilus.\n\nIt faded for centuries before anything finished it.\n\nSources:\n- https://en.wikipedia.org/wiki/Library_of_Alexandria: read (verbatim for roughly the first 40,000 characters, the rest only as a summary). Established that the Library or part of its collection was accidentally burned by Julius Caesar in 48 BC but it is unclear how much was destroyed, that Strabo mentions visiting the Mouseion around 20 BC, that it dwindled during the Roman period from a lack of funding and support, the 145 BC purge under Ptolemy VIII, that a Palmyrene invasion and imperial counterattack between 270 and 275 AD probably destroyed whatever remained, the daughter library in the Serapeum, the demolition of the Serapeum in 391 AD, and size estimates of 40,000 to 700,000.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "avdJWe-Agbs",
+      "youtubeUrl": "https://youtu.be/avdJWe-Agbs",
+      "uploadedAt": "2026-11-08T15:45:57.096Z",
       "privacy": "public"
     }
   ]
