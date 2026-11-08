@@ -17067,6 +17067,237 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "among-us-2018-release-2020-surge",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Among_Us: read in full. Established the June 2018 mobile release and November 2018 Steam release, the 30 to 50 concurrent players shortly after launch, the mid-2020 surge led by content creators (Sodapoppin in July 2020, then xQc, Pokimane, MrBeast and others), the 3.8 million peak in late September 2020, and the 23 September 2020 abandonment of Among Us 2 because the original codebase was outdated.",
+        "https://www.gamedeveloper.com/business/behind-the-dizzying-ride-to-the-top-for-among-us: read in full (Simon Carless, 10 September 2020). Established that the game launched in June 2018 on Android, had an extremely slow start on Steam, that its first audience was Korea starting in December 2018 (still 50% of Steam sales per the developers), and that Twitch streams caused the most recent spike.",
+        "https://www.pastemagazine.com/games/among-us/among-us-game-twitch/: read in full. Established, via Innersloth's devlog, that active players jumped from 30 to 50 per hour to 70,000 to 110,000, and that the team announced Among Us 2 at that point."
+      ],
+      "verifiedNote": "Checked 8 Nov 2026. Not claimed: an iOS release date (Wikipedia gives 15 June 2018 for both mobile platforms, Gamasutra says July 2018 for iOS, so the beats say Android and Steam only), the team size (no page states it), the 500 million player figure (a cited SuperData estimate I could not check), the 'hack' player counts (a claimant's statement), the McNugget auction (a third party, not Innersloth), or who organised the high-profile streams. The 3.8 million figure is Wikipedia's concurrent-player peak for late September 2020.",
+      "palette": {
+        "bg": "#12081F",
+        "ink": "#F4EEFF",
+        "accent": "#FF4D5E",
+        "muted": "#8E7FA8"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "Among Us was not a 2020 game.",
+          "note": "It launched on Android in June 2018 and on Steam that November. Shortly after release it averaged 30 to 50 concurrent players."
+        },
+        {
+          "kind": "statement",
+          "lead": "The slow burn",
+          "text": "Its first real audience was in Korea.",
+          "note": "The developers told Gamasutra it began in December 2018, and that Korea still made up half of their Steam sales in 2020. Brazil followed."
+        },
+        {
+          "kind": "statement",
+          "lead": "The spark",
+          "text": "Twitch streamers lit it in mid-2020.",
+          "note": "Sodapoppin is credited with popularising it on Twitch in July 2020. Streamers including xQc, Pokimane and MrBeast followed, and lockdowns are often cited as a reason."
+        },
+        {
+          "kind": "figure",
+          "value": "3.8 million",
+          "unit": "players",
+          "context": "Peak concurrent players in late September 2020, up from 30 to 50 shortly after release. The team later called the early server a free Amazon one that was terrible."
+        },
+        {
+          "kind": "statement",
+          "lead": "The sequel",
+          "text": "They cancelled Among Us 2 within weeks.",
+          "note": "On 23 September 2020 the team dropped the sequel and reworked the original instead, because its codebase was outdated and not built for so much new content."
+        },
+        {
+          "kind": "kicker",
+          "text": "It took two years to become an overnight success."
+        },
+        {
+          "kind": "sign",
+          "line": "Timing is half the game.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "dqn-nature-2015-49-games-breakout-tunnel",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://klab.tch.harvard.edu/academia/classes/Neuro230/ReadingAssignments/MnihEtAlHassibis15NatureControlDeepRL.pdf: read (Nature, February 2015, Mnih et al.). Established 49 Atari 2600 games, more than 75% of the human score on 29 games, pixels and game score as input, the same algorithm, architecture and hyperparameters but a different network per game, 50 million frames (around 38 days of game experience), and the Breakout tunnel strategy in the text.",
+        "https://research.google/blog/from-pixels-to-actions-human-level-control-through-deep-reinforcement-learning/: read (Google Research blog, 25 February 2015). Established that the agent beat previous machine learning methods in 43 of 49 games, performed at more than 75% of a professional human player on more than half the games, and learned the Breakout tunnel."
+      ],
+      "verifiedNote": "Checked 8 Nov 2026. Not claimed: that it beat humans at all or most games (the paper says more than 75% of the human score on 29 games, which is not the same as beating the tester), any exact count of games where it exceeded the human tester, the 2013 precursor paper's results, the later Agent57 result on all 57 games (a different paper), or a training time in hours. The Methods say 50 million frames in total; I did not claim whether that is per game.",
+      "palette": {
+        "bg": "#0A1220",
+        "ink": "#EAF2FF",
+        "accent": "#5CC8FF",
+        "muted": "#7189A6"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "DeepMind's Atari player did not beat humans at every game.",
+          "note": "The 2015 Nature paper reports more than 75% of a professional human tester's score on 29 of the games it was tested on."
+        },
+        {
+          "kind": "figure",
+          "value": "49",
+          "unit": "games",
+          "context": "Atari 2600 games in the test, all played with the same algorithm, network architecture and hyperparameters."
+        },
+        {
+          "kind": "statement",
+          "lead": "The input",
+          "text": "It saw only pixels and the score.",
+          "note": "The agent received the raw screen pixels and the game score, with the available actions and life count as its only built-in knowledge. A different network was trained for each game."
+        },
+        {
+          "kind": "statement",
+          "lead": "Breakout",
+          "text": "In Breakout it learned to dig a tunnel.",
+          "note": "It dug a tunnel at one end of the brick wall so the ball bounced around the back and knocked out bricks from behind. The paper describes this as a strategy the agent learned."
+        },
+        {
+          "kind": "figure",
+          "value": "50 million",
+          "unit": "frames",
+          "context": "Total training in the paper's Methods, around 38 days of game experience."
+        },
+        {
+          "kind": "kicker",
+          "text": "Earlier methods lost on 43 of 49 games. Humans were a harder test."
+        },
+        {
+          "kind": "sign",
+          "line": "Pixels in. Strategy out.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "undertale-toby-fox-32-months-kickstarter-2013",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Undertale: read (verbatim to the reception section). Established 32 months of development, that Fox developed the game himself outside art by Temmie Chang and other guest designers, the Kickstarter dates, goal and total, the original mid-2014 target, the 15 September 2015 release for OS X and Windows, later ports, and at least five million copies sold.",
+        "https://undertale.wiki/w/Kickstarter: read in full. Established that the campaign ran from 24 June to 24 July 2013, raised $51,124 from 2,398 backers against a $5,000 goal, and that the demo was released on 23 May 2013 before it began.",
+        "https://medium.com/kickstarter/undertale-creator-toby-fox-on-the-indie-computer-game-that-s-become-an-industry-darling-fa4df6cee2db: read in full. Established that Fox was twenty-three when he launched the campaign, that it raised about ten times its goal, and his words: he passed his deadline and felt he was on borrowed time for the rest of development."
+      ],
+      "verifiedNote": "Checked 8 Nov 2026. Not claimed: that it was made entirely alone (Temmie Chang was the main artist), a precise start date for development (Wikipedia gives only 32 months), a Steam sales figure (an unverified summary only), any award wins (the pages I could read support nominations only), or anything about Deltarune. The $51,125 on the fan wiki's stretch goal list is a $1 slip against its own $51,124.",
+      "palette": {
+        "bg": "#0A0A0A",
+        "ink": "#F5F5F0",
+        "accent": "#FFE14D",
+        "muted": "#8A8A80"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "Undertale was not made entirely alone.",
+          "note": "Toby Fox wrote the script, composed the music and built the game himself. Temmie Chang was the main artist, providing most of the sprites and concept art."
+        },
+        {
+          "kind": "figure",
+          "value": "32",
+          "unit": "months",
+          "context": "How long Toby Fox spent developing it. It was first set for release in mid-2014."
+        },
+        {
+          "kind": "statement",
+          "lead": "The Kickstarter",
+          "text": "The goal was $5,000. It raised about ten times that.",
+          "note": "The campaign ran from 24 June to 24 July 2013 and raised $51,124 from 2,398 backers."
+        },
+        {
+          "kind": "statement",
+          "lead": "The order",
+          "text": "The demo came before the Kickstarter.",
+          "note": "A demo was released on 23 May 2013, a month before the campaign began. Fox was twenty-three when it launched."
+        },
+        {
+          "kind": "statement",
+          "lead": "The delay",
+          "text": "He missed his own deadline.",
+          "note": "It came out on 15 September 2015 for OS X and Windows. Fox said he passed his deadline and felt he was on borrowed time for the rest of development."
+        },
+        {
+          "kind": "kicker",
+          "text": "He asked for $5,000. It has sold at least five million copies."
+        },
+        {
+          "kind": "sign",
+          "line": "Mostly one person. Never entirely.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "samsung-chatgpt-source-code-ban-dx-division-2023",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://fortune.com/2023/05/02/samsung-bans-employee-use-chatgpt-data-leak/: read in full (updated 4 May 2023). Established that Korean media reported one employee uploaded confidential source code to fix a faulty database and another shared an entire meeting to make minutes, that Samsung's memo cited instances without specifics, that violations could lead to disciplinary action up to and including termination, and that a revised memo said the ban would be temporary.",
+        "https://www.kedglobal.com/artificial-intelligence/newsView/ked202305020022: read in full (KED Global, 2 May 2023). Established that the ban covered the Device eXperience division (smartphones and home appliances), that ChatGPT, Google Bard and Bing AI were barred on workplace devices, that staff were told not to enter work information into them outside the company, and that the semiconductor division was curtailing rather than entirely banning use.",
+        "https://bloomberg.com/news/articles/2023-05-02/samsung-bans-chatgpt-and-other-generative-ai-use-by-staff-after-leak: partly read (paywalled excerpt only). Established that the memo said data sent to these platforms is stored on external servers, making it difficult to retrieve and delete, and could be disclosed to other users."
+      ],
+      "verifiedNote": "Checked 8 Nov 2026. Not claimed: how many leaks there were (no page gives a number), any per-prompt byte limit, how Samsung discovered the leaks (not stated), the memo date (KED says 28 April, Bloomberg and Fortune say Monday, so the beats give only the 2 May report date), or which division the leaked code came from. The meeting and database incidents are Korean media reports relayed by Fortune, not Samsung's own statements. Bloomberg was paywalled, so only its excerpt was read.",
+      "palette": {
+        "bg": "#08121C",
+        "ink": "#EEF5FB",
+        "accent": "#4D8DFF",
+        "muted": "#7C8FA3"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "Samsung did not ban AI across the whole company.",
+          "note": "The memo went to the Device eXperience division, which runs smartphones and home appliances. KED Global reported the semiconductor division was curtailing use, not banning it outright."
+        },
+        {
+          "kind": "statement",
+          "lead": "The leak",
+          "text": "Staff pasted in code and a whole meeting.",
+          "note": "Korean media reported one employee uploaded confidential source code to fix a faulty database, and another shared an entire meeting so the chatbot could write the minutes."
+        },
+        {
+          "kind": "statement",
+          "lead": "The risk",
+          "text": "The problem was where the data went.",
+          "note": "Samsung's memo said data sent to these tools is stored on external servers, is difficult to retrieve and delete, and could be disclosed to other users."
+        },
+        {
+          "kind": "statement",
+          "lead": "The scope",
+          "text": "ChatGPT, Bard and Bing AI were all off limits.",
+          "note": "On workplace computers, tablets and phones. Staff were also told not to type company or work information into them outside the office."
+        },
+        {
+          "kind": "statement",
+          "lead": "The penalty",
+          "text": "Breaking the rule could cost the job.",
+          "note": "Fortune quoted the memo: disciplinary action up to and including termination of employment. A revised memo said the ban would be temporary."
+        },
+        {
+          "kind": "kicker",
+          "text": "Samsung called the ban temporary. It called the data hard to get back."
+        },
+        {
+          "kind": "sign",
+          "line": "Pasting is publishing.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
