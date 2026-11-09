@@ -363,7 +363,10 @@
     "reel:ariane-5-flight-501-overflow-1996",
     "reel:diary-of-merer-oldest-papyri-giza-logbook-2013",
     "reel:wegener-continental-drift-1912-no-mechanism",
-    "reel:library-of-alexandria-faded-before-final-blow"
+    "reel:library-of-alexandria-faded-before-final-blow",
+    "reel:crowdstrike-channel-file-291-20-values-2024",
+    "reel:cloudflare-leap-second-negative-number-2017",
+    "reel:hedy-lamarr-frequency-hopping-patent-1942-not-wifi"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -6346,6 +6349,57 @@
       "youtubeId": "avdJWe-Agbs",
       "youtubeUrl": "https://youtu.be/avdJWe-Agbs",
       "uploadedAt": "2026-11-08T15:45:57.096Z",
+      "privacy": "public"
+    },
+    {
+      "id": "crowdstrike-channel-file-291-20-values-2024",
+      "date": "2026-11-09",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The popular version. It was not a hack.",
+      "description": "It was not a hack. CrowdStrike's own summary says a third-party review confirmed the bug is not exploitable by a threat actor. It was a data mismatch inside its own software.\n\nThe code read past the end of a list. The full report, as TechTarget quotes it, describes an out-of-bounds memory read beyond the end of the input data array. On Windows, that meant a system crash.\n\nWhat the code supplied. The template type had defined 21 input fields. One too few, and 8 million machines or more went into reboot loops.\n\nTesting did not catch it. The report says the mismatch evaded multiple layers of build validation and testing, partly because the tests used wildcard matching criteria.\n\nFriday, 19 July 2024. That is when the Channel File 291 update was delivered to certain Windows hosts. By 29 July, about 99 per cent of Windows sensors were back online.\n\nUpdates now go out in stages. New content must pass successive deployment rings before production, with canary testing, and the code now checks the number of input fields.\n\nThe sensor expected 20 values. Someone had defined 21.\n\nSources:\n- https://www.crowdstrike.com/wp-content/uploads/2024/08/Executive-Summary_Root-Cause-Analysis_Channel-File-291.pdf: read in full (2 pages, dated 6 August 2024). Established that the faulty Channel File 291 update was delivered on 19 July 2024, that the sensor expected 20 input fields, that the result was an out-of-bounds memory read causing a system crash, that a third-party review confirmed the bug is not exploitable by a threat actor, and the fixes afterwards (more validation, successive deployment rings, bounds checking in the Content Interpreter, customer controls).\n- https://www.techtarget.com/cybersecurity/news/366602392/CrowdStrike-details-errors-that-led-to-mass-IT-outage: read in full (7 August 2024). Established, quoting the full root cause analysis, that the template type defined 21 input parameter fields while 20 values were supplied, that the read went beyond the end of the input data array, that the mismatch evaded multiple layers of build validation and testing partly because of wildcard matching criteria, that more than 8 million Windows systems entered reboot loops, and that staged deployment with canary testing followed.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "d9bJtBL21F0",
+      "youtubeUrl": "https://youtu.be/d9bJtBL21F0",
+      "uploadedAt": "2026-11-09T19:24:30.251Z",
+      "privacy": "public"
+    },
+    {
+      "id": "cloudflare-leap-second-negative-number-2017",
+      "date": "2026-11-09",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The popular version. The internet did not stop.",
+      "description": "The internet did not stop. The Register reports only a few machines across Cloudflare's 102 data centres were hit, about 0.2 per cent of DNS queries and under 1 per cent of HTTP requests.\n\nA leap second went in at midnight. Added just before 2017. Cloudflare's Go based DNS software, RRDNS, timed upstream resolvers, and the clock could now run backwards.\n\nGo does not promise time moves forward. The Register notes Go gave no monotonicity guarantee, so a time difference could come out negative.\n\nA negative number made the code panic. RRDNS passed that value to rand.Int63n, which panics when given a negative argument.\n\nOne character changed the check. The error check on rttMAX moved from equal to zero to equal or less than zero. The Register's headline credits a single character.\n\nThe share of DNS queries affected, as The Register reports. One extra second.\n\nA leap second added one tick. The fix needed one character.\n\nSources:\n- https://www.theregister.com/2017/01/04/cloudflare_trips_over_leap_second/: read in full (redirects to the 4 January 2017 article How the NYE leap second clocked Cloudflare and how a single character fixed it). Established that the leap second was added just before 2017, that RRDNS, Cloudflare's Go based DNS software, measures upstream resolver performance for CNAME lookups, that Go gives no monotonicity guarantee, that rand.Int63n panics on a negative argument, that only a few machines across 102 data centres were hit, about 0.2 per cent of DNS queries and under 1 per cent of HTTP requests, and that the fix was a single character widening an error check from zero to equal or less than zero.\n- https://blog.cloudflare.com/how-and-why-the-leap-second-affected-cloudflare-dns/: partly read (first part verbatim; body only as a summary). Used only as a cross-check that the post mortem exists, concerns RRDNS, and gives the same impact figures.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "JkSzXAkvCzs",
+      "youtubeUrl": "https://youtu.be/JkSzXAkvCzs",
+      "uploadedAt": "2026-11-09T19:22:39.774Z",
+      "privacy": "public"
+    },
+    {
+      "id": "hedy-lamarr-frequency-hopping-patent-1942-not-wifi",
+      "date": "2026-11-09",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The popular version. Hedy Lamarr did not invent Wi-Fi.",
+      "description": "Hedy Lamarr did not invent Wi-Fi. Her 1942 patent covered a radio guidance system for torpedoes. Earlier frequency-hopping patents exist, including US 1,598,673, granted in 1926.\n\nThe patent proposed switching between 88 different carrier frequencies using perforated paper rolls, as in a player piano.\n\nIt was granted on 11 August 1942. US patent 2,292,387, filed on 10 June 1941 under her married name, Hedy Kiesler Markey, with the composer George Antheil.\n\nThe target was enemy jamming. The patent describes the remote control of torpedoes. Hopping between frequencies was meant to defeat jamming by Axis powers.\n\nIt was not used in the war. Wikipedia says the Navy rejected it as too large to fit in a torpedo. Similar technology entered operational systems only in 1962, three years after the patent expired.\n\nWi-Fi and Bluetooth use the same family of ideas. It is not her invention.\n\nSources:\n- https://en.wikipedia.org/wiki/Hedy_Lamarr: read (verbatim for about the first half, the rest as a summary). Established the patent 2,292,387 granted on 11 August 1942 under her legal name Hedy Kiesler Markey, co-invention with George Antheil, the purpose of defeating Axis jamming of torpedo guidance, the Navy rejecting it as too large to fit in a torpedo, similar technology entering operational systems only in 1962, three years after the patent expired, and that modern systems such as Bluetooth, Wi-Fi and GPS use spread-spectrum principles.\n- https://patents.google.com/patent/US2292387A/en: read (verbatim for about the first 40,000 characters). Established the filing date of 10 June 1941, the grant on 11 August 1942, inventors Hedy Kiesler Markey and George Antheil, perforated paper rolls, 88 different carrier frequencies, and its use for remote control of torpedoes.\n- https://en.wikipedia.org/wiki/Frequency-hopping_spread_spectrum: read in full. Established that the patent is described as an early version using a piano roll to switch among 88 frequencies, that the 1962 Cuban Missile Crisis use drew on Sylvania's work, and that earlier frequency-hopping patents exist, including US 1,598,673 granted in 1926.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "ATA5nZPmeMo",
+      "youtubeUrl": "https://youtu.be/ATA5nZPmeMo",
+      "uploadedAt": "2026-11-09T19:26:03.963Z",
       "privacy": "public"
     }
   ]

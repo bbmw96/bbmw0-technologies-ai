@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-11-09 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- cloudflare-leap-second-negative-number-2017 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-09-cloudflare-leap-second-negative-number-2017.mp4
+  uploaded public: https://youtu.be/JkSzXAkvCzs
+
+--- crowdstrike-channel-file-291-20-values-2024 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-09-crowdstrike-channel-file-291-20-values-2024.mp4
+  uploaded public: https://youtu.be/d9bJtBL21F0
+
+--- hedy-lamarr-frequency-hopping-patent-1942-not-wifi ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-09-hedy-lamarr-frequency-hopping-patent-1942-not-wifi.mp4
+  uploaded public: https://youtu.be/ATA5nZPmeMo
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

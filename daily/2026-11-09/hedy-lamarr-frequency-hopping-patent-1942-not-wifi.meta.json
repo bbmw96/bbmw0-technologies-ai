@@ -1,0 +1,25 @@
+{
+  "slug": "hedy-lamarr-frequency-hopping-patent-1942-not-wifi",
+  "date": "2026-11-09",
+  "title": "The popular version. Hedy Lamarr did not invent Wi-Fi.",
+  "description": "Hedy Lamarr did not invent Wi-Fi. Her 1942 patent covered a radio guidance system for torpedoes. Earlier frequency-hopping patents exist, including US 1,598,673, granted in 1926.\n\nThe patent proposed switching between 88 different carrier frequencies using perforated paper rolls, as in a player piano.\n\nIt was granted on 11 August 1942. US patent 2,292,387, filed on 10 June 1941 under her married name, Hedy Kiesler Markey, with the composer George Antheil.\n\nThe target was enemy jamming. The patent describes the remote control of torpedoes. Hopping between frequencies was meant to defeat jamming by Axis powers.\n\nIt was not used in the war. Wikipedia says the Navy rejected it as too large to fit in a torpedo. Similar technology entered operational systems only in 1962, three years after the patent expired.\n\nWi-Fi and Bluetooth use the same family of ideas. It is not her invention.\n\nSources:\n- https://en.wikipedia.org/wiki/Hedy_Lamarr: read (verbatim for about the first half, the rest as a summary). Established the patent 2,292,387 granted on 11 August 1942 under her legal name Hedy Kiesler Markey, co-invention with George Antheil, the purpose of defeating Axis jamming of torpedo guidance, the Navy rejecting it as too large to fit in a torpedo, similar technology entering operational systems only in 1962, three years after the patent expired, and that modern systems such as Bluetooth, Wi-Fi and GPS use spread-spectrum principles.\n- https://patents.google.com/patent/US2292387A/en: read (verbatim for about the first 40,000 characters). Established the filing date of 10 June 1941, the grant on 11 August 1942, inventors Hedy Kiesler Markey and George Antheil, perforated paper rolls, 88 different carrier frequencies, and its use for remote control of torpedoes.\n- https://en.wikipedia.org/wiki/Frequency-hopping_spread_spectrum: read in full. Established that the patent is described as an early version using a piano roll to switch among 88 frequencies, that the 1962 Cuban Missile Crisis use drew on Sylvania's work, and that earlier frequency-hopping patents exist, including US 1,598,673 granted in 1926.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "history",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-09-hedy-lamarr-frequency-hopping-patent-1942-not-wifi.mp4",
+  "propsFile": "daily/2026-11-09/hedy-lamarr-frequency-hopping-patent-1942-not-wifi.props.json",
+  "durationInFrames": 1134,
+  "audioUrl": "",
+  "niche": "history",
+  "composition": "Reel"
+}

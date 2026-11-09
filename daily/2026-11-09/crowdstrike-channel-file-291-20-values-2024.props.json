@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (crowdstrike-channel-file-291-20-values-2024)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A0F16",
+    "ink": "#EEF3F8",
+    "accent": "#FF5A4D",
+    "muted": "#7F8C9A"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "It was not a hack.",
+      "note": "CrowdStrike's own summary says a third-party review confirmed the bug is not exploitable by a threat actor. It was a data mismatch inside its own software.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The crash",
+      "text": "The code read past the end of a list.",
+      "note": "The full report, as TechTarget quotes it, describes an out-of-bounds memory read beyond the end of the input data array. On Windows, that meant a system crash.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "20",
+      "unit": "values",
+      "context": "What the code supplied. The template type had defined 21 input fields. One too few, and 8 million machines or more went into reboot loops.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "The miss",
+      "text": "Testing did not catch it.",
+      "note": "The report says the mismatch evaded multiple layers of build validation and testing, partly because the tests used wildcard matching criteria.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "statement",
+      "lead": "The date",
+      "text": "Friday, 19 July 2024.",
+      "note": "That is when the Channel File 291 update was delivered to certain Windows hosts. By 29 July, about 99 per cent of Windows sensors were back online.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The fix",
+      "text": "Updates now go out in stages.",
+      "note": "New content must pass successive deployment rings before production, with canary testing, and the code now checks the number of input fields.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "kicker",
+      "text": "The sensor expected 20 values. Someone had defined 21.",
+      "durationInFrames": 76
+    },
+    {
+      "kind": "sign",
+      "line": "Count your inputs.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

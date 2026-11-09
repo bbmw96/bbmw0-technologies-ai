@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (hedy-lamarr-frequency-hopping-patent-1942-not-wifi)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#120A16",
+    "ink": "#F7EEF8",
+    "accent": "#E58AD0",
+    "muted": "#9A8099"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "Hedy Lamarr did not invent Wi-Fi.",
+      "note": "Her 1942 patent covered a radio guidance system for torpedoes. Earlier frequency-hopping patents exist, including US 1,598,673, granted in 1926.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "figure",
+      "value": "88",
+      "unit": "frequencies",
+      "context": "The patent proposed switching between 88 different carrier frequencies using perforated paper rolls, as in a player piano.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "statement",
+      "lead": "The patent",
+      "text": "It was granted on 11 August 1942.",
+      "note": "US patent 2,292,387, filed on 10 June 1941 under her married name, Hedy Kiesler Markey, with the composer George Antheil.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "statement",
+      "lead": "The purpose",
+      "text": "The target was enemy jamming.",
+      "note": "The patent describes the remote control of torpedoes. Hopping between frequencies was meant to defeat jamming by Axis powers.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "The Navy",
+      "text": "It was not used in the war.",
+      "note": "Wikipedia says the Navy rejected it as too large to fit in a torpedo. Similar technology entered operational systems only in 1962, three years after the patent expired.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "Wi-Fi and Bluetooth use the same family of ideas. It is not her invention.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "sign",
+      "line": "Credit the real claim.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

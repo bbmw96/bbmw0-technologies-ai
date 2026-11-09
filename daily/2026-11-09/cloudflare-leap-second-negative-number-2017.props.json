@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (cloudflare-leap-second-negative-number-2017)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0F0E14",
+    "ink": "#F2F0F7",
+    "accent": "#FFA34D",
+    "muted": "#8A869A"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "The internet did not stop.",
+      "note": "The Register reports only a few machines across Cloudflare's 102 data centres were hit, about 0.2 per cent of DNS queries and under 1 per cent of HTTP requests.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The trigger",
+      "text": "A leap second went in at midnight.",
+      "note": "Added just before 2017. Cloudflare's Go based DNS software, RRDNS, timed upstream resolvers, and the clock could now run backwards.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "statement",
+      "lead": "The flaw",
+      "text": "Go does not promise time moves forward.",
+      "note": "The Register notes Go gave no monotonicity guarantee, so a time difference could come out negative.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "statement",
+      "lead": "The crash",
+      "text": "A negative number made the code panic.",
+      "note": "RRDNS passed that value to rand.Int63n, which panics when given a negative argument.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "statement",
+      "lead": "The fix",
+      "text": "One character changed the check.",
+      "note": "The error check on rttMAX moved from equal to zero to equal or less than zero. The Register's headline credits a single character.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "figure",
+      "value": "0.2",
+      "unit": "% of DNS",
+      "context": "The share of DNS queries affected, as The Register reports. One extra second.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "kicker",
+      "text": "A leap second added one tick. The fix needed one character.",
+      "durationInFrames": 88
+    },
+    {
+      "kind": "sign",
+      "line": "Clocks go backwards.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

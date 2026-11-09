@@ -1,0 +1,25 @@
+{
+  "slug": "cloudflare-leap-second-negative-number-2017",
+  "date": "2026-11-09",
+  "title": "The popular version. The internet did not stop.",
+  "description": "The internet did not stop. The Register reports only a few machines across Cloudflare's 102 data centres were hit, about 0.2 per cent of DNS queries and under 1 per cent of HTTP requests.\n\nA leap second went in at midnight. Added just before 2017. Cloudflare's Go based DNS software, RRDNS, timed upstream resolvers, and the clock could now run backwards.\n\nGo does not promise time moves forward. The Register notes Go gave no monotonicity guarantee, so a time difference could come out negative.\n\nA negative number made the code panic. RRDNS passed that value to rand.Int63n, which panics when given a negative argument.\n\nOne character changed the check. The error check on rttMAX moved from equal to zero to equal or less than zero. The Register's headline credits a single character.\n\nThe share of DNS queries affected, as The Register reports. One extra second.\n\nA leap second added one tick. The fix needed one character.\n\nSources:\n- https://www.theregister.com/2017/01/04/cloudflare_trips_over_leap_second/: read in full (redirects to the 4 January 2017 article How the NYE leap second clocked Cloudflare and how a single character fixed it). Established that the leap second was added just before 2017, that RRDNS, Cloudflare's Go based DNS software, measures upstream resolver performance for CNAME lookups, that Go gives no monotonicity guarantee, that rand.Int63n panics on a negative argument, that only a few machines across 102 data centres were hit, about 0.2 per cent of DNS queries and under 1 per cent of HTTP requests, and that the fix was a single character widening an error check from zero to equal or less than zero.\n- https://blog.cloudflare.com/how-and-why-the-leap-second-affected-cloudflare-dns/: partly read (first part verbatim; body only as a summary). Used only as a cross-check that the post mortem exists, concerns RRDNS, and gives the same impact figures.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-09-cloudflare-leap-second-negative-number-2017.mp4",
+  "propsFile": "daily/2026-11-09/cloudflare-leap-second-negative-number-2017.props.json",
+  "durationInFrames": 1252,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

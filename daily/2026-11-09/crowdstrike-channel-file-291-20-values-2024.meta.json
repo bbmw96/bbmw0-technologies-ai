@@ -1,0 +1,25 @@
+{
+  "slug": "crowdstrike-channel-file-291-20-values-2024",
+  "date": "2026-11-09",
+  "title": "The popular version. It was not a hack.",
+  "description": "It was not a hack. CrowdStrike's own summary says a third-party review confirmed the bug is not exploitable by a threat actor. It was a data mismatch inside its own software.\n\nThe code read past the end of a list. The full report, as TechTarget quotes it, describes an out-of-bounds memory read beyond the end of the input data array. On Windows, that meant a system crash.\n\nWhat the code supplied. The template type had defined 21 input fields. One too few, and 8 million machines or more went into reboot loops.\n\nTesting did not catch it. The report says the mismatch evaded multiple layers of build validation and testing, partly because the tests used wildcard matching criteria.\n\nFriday, 19 July 2024. That is when the Channel File 291 update was delivered to certain Windows hosts. By 29 July, about 99 per cent of Windows sensors were back online.\n\nUpdates now go out in stages. New content must pass successive deployment rings before production, with canary testing, and the code now checks the number of input fields.\n\nThe sensor expected 20 values. Someone had defined 21.\n\nSources:\n- https://www.crowdstrike.com/wp-content/uploads/2024/08/Executive-Summary_Root-Cause-Analysis_Channel-File-291.pdf: read in full (2 pages, dated 6 August 2024). Established that the faulty Channel File 291 update was delivered on 19 July 2024, that the sensor expected 20 input fields, that the result was an out-of-bounds memory read causing a system crash, that a third-party review confirmed the bug is not exploitable by a threat actor, and the fixes afterwards (more validation, successive deployment rings, bounds checking in the Content Interpreter, customer controls).\n- https://www.techtarget.com/cybersecurity/news/366602392/CrowdStrike-details-errors-that-led-to-mass-IT-outage: read in full (7 August 2024). Established, quoting the full root cause analysis, that the template type defined 21 input parameter fields while 20 values were supplied, that the read went beyond the end of the input data array, that the mismatch evaded multiple layers of build validation and testing partly because of wildcard matching criteria, that more than 8 million Windows systems entered reboot loops, and that staged deployment with canary testing followed.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-09-crowdstrike-channel-file-291-20-values-2024.mp4",
+  "propsFile": "daily/2026-11-09/crowdstrike-channel-file-291-20-values-2024.props.json",
+  "durationInFrames": 1408,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}
