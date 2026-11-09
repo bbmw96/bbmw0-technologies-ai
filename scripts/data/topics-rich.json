@@ -17481,6 +17481,259 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "crowdstrike-channel-file-291-20-values-2024",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://www.crowdstrike.com/wp-content/uploads/2024/08/Executive-Summary_Root-Cause-Analysis_Channel-File-291.pdf: read in full (2 pages, dated 6 August 2024). Established that the faulty Channel File 291 update was delivered on 19 July 2024, that the sensor expected 20 input fields, that the result was an out-of-bounds memory read causing a system crash, that a third-party review confirmed the bug is not exploitable by a threat actor, and the fixes afterwards (more validation, successive deployment rings, bounds checking in the Content Interpreter, customer controls).",
+        "https://www.techtarget.com/cybersecurity/news/366602392/CrowdStrike-details-errors-that-led-to-mass-IT-outage: read in full (7 August 2024). Established, quoting the full root cause analysis, that the template type defined 21 input parameter fields while 20 values were supplied, that the read went beyond the end of the input data array, that the mismatch evaded multiple layers of build validation and testing partly because of wildcard matching criteria, that more than 8 million Windows systems entered reboot loops, and that staged deployment with canary testing followed."
+      ],
+      "verifiedNote": "Checked 9 Nov 2026. Not claimed: Microsoft's 8.5 million figure (not in either page read, so the beats say more than 8 million, as TechTarget does), a UTC release time or how long the update was live (neither page gives one), and which side supplied 20 and which 21 as a flat statement (the executive summary says the update provided 21 fields, TechTarget quoting the full report says 21 were defined and 20 supplied; the beats use the TechTarget wording and the sensor's expected 20). The full 12 page report was not fetched. The mismatch evading testing is the company's own account, and a security analyst quoted by TechTarget questioned how transparent it was.",
+      "palette": {
+        "bg": "#0A0F16",
+        "ink": "#EEF3F8",
+        "accent": "#FF5A4D",
+        "muted": "#7F8C9A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "It was not a hack.",
+          "note": "CrowdStrike's own summary says a third-party review confirmed the bug is not exploitable by a threat actor. It was a data mismatch inside its own software."
+        },
+        {
+          "kind": "statement",
+          "lead": "The crash",
+          "text": "The code read past the end of a list.",
+          "note": "The full report, as TechTarget quotes it, describes an out-of-bounds memory read beyond the end of the input data array. On Windows, that meant a system crash."
+        },
+        {
+          "kind": "figure",
+          "value": "20",
+          "unit": "values",
+          "context": "What the code supplied. The template type had defined 21 input fields. One too few, and 8 million machines or more went into reboot loops."
+        },
+        {
+          "kind": "statement",
+          "lead": "The miss",
+          "text": "Testing did not catch it.",
+          "note": "The report says the mismatch evaded multiple layers of build validation and testing, partly because the tests used wildcard matching criteria."
+        },
+        {
+          "kind": "statement",
+          "lead": "The date",
+          "text": "Friday, 19 July 2024.",
+          "note": "That is when the Channel File 291 update was delivered to certain Windows hosts. By 29 July, about 99 per cent of Windows sensors were back online."
+        },
+        {
+          "kind": "statement",
+          "lead": "The fix",
+          "text": "Updates now go out in stages.",
+          "note": "New content must pass successive deployment rings before production, with canary testing, and the code now checks the number of input fields."
+        },
+        {
+          "kind": "kicker",
+          "text": "The sensor expected 20 values. Someone had defined 21."
+        },
+        {
+          "kind": "sign",
+          "line": "Count your inputs.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "knight-capital-eighth-server-power-peg-2012",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://www.sec.gov/files/litigation/admin/2013/34-70694.pdf: SEC order on Knight Capital Americas LLC, 16 October 2013, first 39,925 of 55,038 characters read verbatim. Established the 1 August 2012 date, that a technician did not copy the new code to one of the eight SMARS servers, that no second technician reviewed the deployment, that the new code repurposed a flag formerly used for the dormant Power Peg code, that Knight stopped using Power Peg in 2003 and in 2005 moved a function without retesting, 4 million executions in 154 stocks for more than 397 million shares in about 45 minutes, a $460 million loss, and 97 automated emails before the 9:30 a.m. open reading Power Peg disabled.",
+        "https://www.jrvarma.in/blog/Y2013/Knight-Capital.html: read (posted 20 October 2013). Commentary quoting the order; used only as a cross-check that the order's figures were read correctly."
+      ],
+      "verifiedNote": "Checked 9 Nov 2026. Not claimed: the SEC penalty of $12 million (the penalty paragraph was only seen in a model summary and the blog, not verbatim), that the loss was pre tax (the order does not say so), the blog's nearly 7 billion dollars of wrong trades (its own characterisation), and willful violation wording. Power Peg was not dead since 2003: the order says Knight stopped using it then but the code remained present and callable, and a 2005 change broke its safeguard. Knight settled without admitting or denying the findings.",
+      "palette": {
+        "bg": "#0B1210",
+        "ink": "#EDF5F1",
+        "accent": "#3DDC97",
+        "muted": "#7B918A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "It was not a rogue algorithm.",
+          "note": "The SEC order traces it to a deployment slip. A technician did not copy the new code to one of eight servers, and no second person reviewed the job."
+        },
+        {
+          "kind": "statement",
+          "lead": "The old code",
+          "text": "A dead feature woke up.",
+          "note": "The new code reused a flag that once switched on Power Peg. Knight had stopped using Power Peg in 2003, but the code was still there and still callable."
+        },
+        {
+          "kind": "statement",
+          "lead": "The date",
+          "text": "1 August 2012, before the open.",
+          "note": "Seven servers ran the new code correctly. The eighth still ran the old, and it began sending child orders from 212 parent orders."
+        },
+        {
+          "kind": "statement",
+          "lead": "The warning",
+          "text": "Ninety seven emails arrived before 9:30.",
+          "note": "The system sent 97 automated messages, starting around 8:01 a.m., saying Power Peg disabled. The order says staff generally did not review them."
+        },
+        {
+          "kind": "statement",
+          "lead": "The damage",
+          "text": "Four million executions in 45 minutes.",
+          "note": "Across 154 stocks and more than 397 million shares. Knight ended up about 3.5 billion dollars net long in 80 stocks and 3.15 billion short in 74."
+        },
+        {
+          "kind": "figure",
+          "value": "460",
+          "unit": "$ million",
+          "context": "What Knight lost on those unwanted positions, according to the SEC order. One server out of eight."
+        },
+        {
+          "kind": "kicker",
+          "text": "Seven servers were right. The eighth was enough."
+        },
+        {
+          "kind": "sign",
+          "line": "Check every server.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare-leap-second-negative-number-2017",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://www.theregister.com/2017/01/04/cloudflare_trips_over_leap_second/: read in full (redirects to the 4 January 2017 article How the NYE leap second clocked Cloudflare and how a single character fixed it). Established that the leap second was added just before 2017, that RRDNS, Cloudflare's Go based DNS software, measures upstream resolver performance for CNAME lookups, that Go gives no monotonicity guarantee, that rand.Int63n panics on a negative argument, that only a few machines across 102 data centres were hit, about 0.2 per cent of DNS queries and under 1 per cent of HTTP requests, and that the fix was a single character widening an error check from zero to equal or less than zero.",
+        "https://blog.cloudflare.com/how-and-why-the-leap-second-affected-cloudflare-dns/: partly read (first part verbatim; body only as a summary). Used only as a cross-check that the post mortem exists, concerns RRDNS, and gives the same impact figures."
+      ],
+      "verifiedNote": "Checked 9 Nov 2026. Not claimed: the exact leap second timestamp, the duration or 06:45 UTC end time and the exact rtt code line (Cloudflare body seen only as a summary), the CNAME to non Cloudflare detail, any claim about monotonic time or Go 1.9 (neither page read says Cloudflare adopted them), and 0.2 per cent of HTTP requests (0.2 per cent is DNS queries). Only The Register was read in full, so this rests on one full secondary source plus the partly read Cloudflare post mortem.",
+      "palette": {
+        "bg": "#0F0E14",
+        "ink": "#F2F0F7",
+        "accent": "#FFA34D",
+        "muted": "#8A869A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "The internet did not stop.",
+          "note": "The Register reports only a few machines across Cloudflare's 102 data centres were hit, about 0.2 per cent of DNS queries and under 1 per cent of HTTP requests."
+        },
+        {
+          "kind": "statement",
+          "lead": "The trigger",
+          "text": "A leap second went in at midnight.",
+          "note": "Added just before 2017. Cloudflare's Go based DNS software, RRDNS, timed upstream resolvers, and the clock could now run backwards."
+        },
+        {
+          "kind": "statement",
+          "lead": "The flaw",
+          "text": "Go does not promise time moves forward.",
+          "note": "The Register notes Go gave no monotonicity guarantee, so a time difference could come out negative."
+        },
+        {
+          "kind": "statement",
+          "lead": "The crash",
+          "text": "A negative number made the code panic.",
+          "note": "RRDNS passed that value to rand.Int63n, which panics when given a negative argument."
+        },
+        {
+          "kind": "statement",
+          "lead": "The fix",
+          "text": "One character changed the check.",
+          "note": "The error check on rttMAX moved from equal to zero to equal or less than zero. The Register's headline credits a single character."
+        },
+        {
+          "kind": "figure",
+          "value": "0.2",
+          "unit": "% of DNS",
+          "context": "The share of DNS queries affected, as The Register reports. One extra second."
+        },
+        {
+          "kind": "kicker",
+          "text": "A leap second added one tick. The fix needed one character."
+        },
+        {
+          "kind": "sign",
+          "line": "Clocks go backwards.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "tacoma-narrows-flutter-not-resonance-1940",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://www.structuremag.org/?p=13425: read in full. Established the 7 November 1940 collapse, the 2,800 foot main span, a recorded wind of about 42 mph that morning, vortex shedding at about 1 Hz against observed oscillation of about 0.2 Hz at failure, the report quote that vertical oscillations were probably induced by turbulent wind, and the Billah and Scanlan 1991 citation.",
+        "https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940): first about 40,000 of 64,000 characters read verbatim. Established the 1 July 1940 opening, eight foot deep plate girders chosen over a proposed 25 foot deep truss, wind of about 40 mph, that many physics textbooks wrongly explain the failure as externally forced resonance, that the cause was aeroelastic torsional flutter driven by the wind, and the death of a cocker spaniel named Tubby.",
+        "https://practical.engineering/blog/2019/3/9/why-the-tacoma-narrows-bridge-collapsed: read in full. Established aeroelastic flutter with forces self induced from the bridge's unstable aerodynamic shape, and the nickname Galloping Gertie."
+      ],
+      "verifiedNote": "Checked 9 Nov 2026. Not claimed: that Tubby was the only fatality (not stated in the text read), the Billah and Scanlan paper's own wording (the paper was not read; its position comes from Wikipedia and the Structure citation), the 2007 parallel bridge, and a single wind speed (sources give about 40 and 42 mph, so the beats say about 42 mph from Structure). Practical Engineering says vortex resonance also occurred that day, which Structure and Wikipedia dispute, so no beat says vortices did or did not occur. The official commission drew no definitive conclusion.",
+      "palette": {
+        "bg": "#0C1114",
+        "ink": "#EAF3F6",
+        "accent": "#58C4C6",
+        "muted": "#70898D"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "It was not resonance.",
+          "note": "Many physics textbooks wrongly blame the Tacoma Narrows collapse on resonance. Billah and Scanlan wrote a 1991 paper in the American Journal of Physics saying so."
+        },
+        {
+          "kind": "statement",
+          "lead": "The bridge",
+          "text": "Opened 1 July. Gone by 7 November.",
+          "note": "A 2,800 foot main span, stiffened by eight foot deep plate girders. An earlier proposal had called for 25 foot deep trusses."
+        },
+        {
+          "kind": "statement",
+          "lead": "The wind",
+          "text": "Not a storm. Around 42 miles per hour.",
+          "note": "Structure magazine reports winds near 42 mph that morning. Other accounts give about 40."
+        },
+        {
+          "kind": "statement",
+          "lead": "The test",
+          "text": "The numbers did not match.",
+          "note": "Vortex shedding would have come at about 1 Hz, but the bridge was twisting at about 0.2 Hz when it failed, according to Structure."
+        },
+        {
+          "kind": "statement",
+          "lead": "The cause",
+          "text": "The wind fed the twisting itself.",
+          "note": "Aeroelastic flutter. The bridge's shape drew energy from the wind, so the motion grew rather than staying bounded."
+        },
+        {
+          "kind": "figure",
+          "value": "42",
+          "unit": "mph",
+          "context": "The wind recorded that morning, reported by Structure magazine. A steady breeze was enough."
+        },
+        {
+          "kind": "kicker",
+          "text": "The bridge was not shaken apart. It was pushed into shaking itself."
+        },
+        {
+          "kind": "sign",
+          "line": "Shape matters.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
