@@ -1,0 +1,42 @@
+{
+  "slug": "quran-21-87",
+  "date": "2026-11-09",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "The du'a of Prophet Yunus (Jonah), peace be upon him, called out from within the darknesses: \"There is no deity except You; exalted are You. Indeed, I have been of the wrongdoers.\"\n\nSurah Al-Anbiyaa (21:87). Swipe through for the Arabic, then English, Mandarin, Korean and Japanese renderings.\n\nSources on the final slide.",
+  "tags": [
+    "Quran",
+    "IslamicReminder",
+    "Ayah",
+    "Dua",
+    "Deen",
+    "IslamicGuidance",
+    "MuslimReminder",
+    "Yunus",
+    "QuranicVerses",
+    "Alhamdulillah"
+  ],
+  "theme": "chaste-55",
+  "slides": [
+    "quran-21-87.slide-01.json",
+    "quran-21-87.slide-02.json",
+    "quran-21-87.slide-03.json",
+    "quran-21-87.slide-04.json",
+    "quran-21-87.slide-05.json",
+    "quran-21-87.slide-06.json",
+    "quran-21-87.slide-07.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an, Surah Al-Anbiyaa (21), Ayah 87",
+    "arabic": "Uthmani script (quran-uthmani), api.alquran.cloud. Two independent live fetches this session (2026-11-09) of GET /v1/ayah/21:87/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese, HTTP 200 each, diffed: byte-identical. Verbatim.",
+    "english": "Saheeh International (en.sahih). Verbatim: \"And [mention] the man of the fish, when he went off in anger and thought that We would not decree [anything] upon him. And he called out within the darknesses, \\\"There is no deity except You; exalted are You. Indeed, I have been of the wrongdoers.\\\"\"",
+    "chinese": "Ma Jian (zh.jian). Raw: \"（你应当叙述）左农，当时他曾愤愤不平地离去，他猜想我绝不约束他，他在重重黑暗中呼吁（说）：除你之外，绝无应受崇拜者， 我赞颂你超绝万物，我确是不义的。\". Spacing-only fix: removed stray space after full-width comma ('， 我' -> '，我'). No wording changed.",
+    "korean": "ko.korean; source metadata lists translator as 'Unknown', credited on-slide as not specified. Raw: \"요나에 관한 이야기를 그대 의 백성에게 상기하리니 그는 화 가나 떠나며 하나님이 그를 제압 하지 못하리라 추측했노라 그러나 그도 역경에 처할 때는 실로 당신 외에는 신이 없나니 당신만을 찬 미하나이다 저는 실로 죄인들 무 리중에 있었습니다 하더라\". Spacing-only fixes (mid-word stray spaces / run-together words): '그대 의' -> '그대의'; '화 가나' -> '화가 나'; '제압 하지' -> '제압하지'; '찬 미하나이다' -> '찬미하나이다'; '무 리중에' -> '무리 중에'. Whitespace-stripped text verified identical to raw. No wording changed.",
+    "japanese": "ja.japanese; source metadata lists translator as 'Unknown', cited as such. Verbatim: \"またズン・ヌーンである。かれが激怒して出かけた時を思いなさい。かれは，われが自分を難儀させるようなことはないと思いながらも，暗闇の中で，「あなたの外に神はありません。あなたの栄光を讃えます。本当にわたしは不義な者でした。」と叫んだ。\"",
+    "verification_note": "All renderings from two live api.alquran.cloud fetches this session, diffed identical; none from memory. Manual halal compliance check against scripts/data/compliance-policy.json blocklists: typography only, no imagery. Dupcheck against fresh clone of origin/main (dba27ca): quran:21:87 NEW."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-11-09/quran-21-87-slide-NN.png --props=daily/2026-11-09/blankdiscussions/quran-21-87.slide-NN.json",
+  "status": "sourced_pending_render"
+}
