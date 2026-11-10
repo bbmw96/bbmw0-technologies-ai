@@ -1,0 +1,42 @@
+{
+  "slug": "quran-103-1-3",
+  "date": "2026-11-10",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "By time, indeed mankind is in loss, except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience.\n\nSurah Al-Asr (103:1-3). Swipe through for the Arabic, then English, Mandarin, Korean and Japanese renderings.\n\nSources on the final slide.",
+  "tags": [
+    "Quran",
+    "IslamicReminder",
+    "Ayah",
+    "Deen",
+    "IslamicGuidance",
+    "MuslimReminder",
+    "Patience",
+    "Sabr",
+    "QuranicVerses",
+    "Alhamdulillah"
+  ],
+  "theme": "chaste-53",
+  "slides": [
+    "quran-103-1-3.slide-01.json",
+    "quran-103-1-3.slide-02.json",
+    "quran-103-1-3.slide-03.json",
+    "quran-103-1-3.slide-04.json",
+    "quran-103-1-3.slide-05.json",
+    "quran-103-1-3.slide-06.json",
+    "quran-103-1-3.slide-07.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an, Surah Al-Asr (103), Ayahs 1-3",
+    "arabic": "Uthmani script (quran-uthmani), api.alquran.cloud. Two independent live fetches this session (2026-11-10) of GET /v1/surah/103/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese, HTTP 200 each, diffed: byte-identical. Source artifact: the API prepends the basmalah to ayah 1 of this surah; it was removed (exact-prefix strip, asserted in code) because it is not part of the verse. No other change. Raw ayah 1: \"بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْعَصْرِ\"",
+    "english": "Saheeh International (en.sahih). Verbatim, ayahs joined by a space: \"By time, Indeed, mankind is in loss, Except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience.\"",
+    "chinese": "Ma Jian (zh.jian). Verbatim, ayahs joined by a space: \"以时光盟誓， 一切人确是在亏折之中， 惟信道而且行善，并以真理相劝，以坚忍相勉的人则不然。\"",
+    "korean": "ko.korean; source metadata lists translator as 'Unknown', credited on-slide as not specified. Raw: \"세월을 두고 맹세하사 실로 모든 인간은 멸망케 되 니라 그러나 믿음으로 의로운 일을실천하며 서로가 서로에게 진리를권고하며 인내하는 자들은 제외라\". Spacing-only fixes: '되 니라' -> '되니라'; '일을실천하며' -> '일을 실천하며'; '진리를권고하며' -> '진리를 권고하며'. Whitespace-stripped text verified identical to raw. No wording changed.",
+    "japanese": "ja.japanese; source metadata lists translator as 'Unknown', cited as such. Verbatim, ayahs concatenated: \"時間にかけて（誓う）。本当に人間は，喪失の中にいる。信仰して善行に勤しみ，互いに真理を勧めあい，また忍耐を勧めあう者たちの外は。\"",
+    "verification_note": "All renderings from two live api.alquran.cloud fetches this session, diffed identical; none from memory. Manual halal compliance check against scripts/data/compliance-policy.json blocklists: typography only, no imagery. Dupcheck against fresh clone of origin/main (c1b27ea): quran:103:1-3 NEW."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-11-10/quran-103-1-3-slide-NN.png --props=daily/2026-11-10/blankdiscussions/quran-103-1-3.slide-NN.json",
+  "status": "sourced_pending_render"
+}
