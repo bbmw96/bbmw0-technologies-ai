@@ -1,0 +1,25 @@
+{
+  "slug": "tacoma-narrows-flutter-not-resonance-1940",
+  "date": "2026-11-10",
+  "title": "The popular version. It was not resonance.",
+  "description": "It was not resonance. Many physics textbooks wrongly blame the Tacoma Narrows collapse on resonance. Billah and Scanlan wrote a 1991 paper in the American Journal of Physics saying so.\n\nOpened 1 July. Gone by 7 November. A 2,800 foot main span, stiffened by eight foot deep plate girders. An earlier proposal had called for 25 foot deep trusses.\n\nNot a storm. Around 42 miles per hour. Structure magazine reports winds near 42 mph that morning. Other accounts give about 40.\n\nThe numbers did not match. Vortex shedding would have come at about 1 Hz, but the bridge was twisting at about 0.2 Hz when it failed, according to Structure.\n\nThe wind fed the twisting itself. Aeroelastic flutter. The bridge's shape drew energy from the wind, so the motion grew rather than staying bounded.\n\nThe wind recorded that morning, reported by Structure magazine. A steady breeze was enough.\n\nThe bridge was not shaken apart. It was pushed into shaking itself.\n\nSources:\n- https://www.structuremag.org/?p=13425: read in full. Established the 7 November 1940 collapse, the 2,800 foot main span, a recorded wind of about 42 mph that morning, vortex shedding at about 1 Hz against observed oscillation of about 0.2 Hz at failure, the report quote that vertical oscillations were probably induced by turbulent wind, and the Billah and Scanlan 1991 citation.\n- https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940): first about 40,000 of 64,000 characters read verbatim. Established the 1 July 1940 opening, eight foot deep plate girders chosen over a proposed 25 foot deep truss, wind of about 40 mph, that many physics textbooks wrongly explain the failure as externally forced resonance, that the cause was aeroelastic torsional flutter driven by the wind, and the death of a cocker spaniel named Tubby.\n- https://practical.engineering/blog/2019/3/9/why-the-tacoma-narrows-bridge-collapsed: read in full. Established aeroelastic flutter with forces self induced from the bridge's unstable aerodynamic shape, and the nickname Galloping Gertie.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "science",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-10-tacoma-narrows-flutter-not-resonance-1940.mp4",
+  "propsFile": "daily/2026-11-10/tacoma-narrows-flutter-not-resonance-1940.props.json",
+  "durationInFrames": 1288,
+  "audioUrl": "",
+  "niche": "science",
+  "composition": "Reel"
+}

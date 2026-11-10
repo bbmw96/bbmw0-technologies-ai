@@ -1,0 +1,25 @@
+{
+  "slug": "intel-4004-busicom-twelve-chips-60000-1971",
+  "date": "2026-11-10",
+  "title": "Twelve custom chips for one calculator.",
+  "description": "Twelve custom chips for one calculator. In April 1969, Japanese calculator company Busicom asked Intel to build a twelve chip set, according to Intel's own history page.\n\nIntel proposed four. One of them could be programmed. Ted Hoff and Stanley Mazor wrote the specifications, says IEEE Spectrum.\n\nHired in April 1970. Took over design leadership from Hoff, with Masatoshi Shima of Busicom checking the logic.\n\nBusicom owned the design. It held exclusive rights, so Intel could not sell the 4004 to anyone else.\n\nIntel says CEO Robert Noyce repurchased the rights, for everything but calculators, in May 1971 by returning Busicom's $60,000 investment. IEEE and Wikipedia describe a price break instead.\n\nAnnouncing a new era of integrated electronics. Intel began advertising the 4004 in November 1971. Wikipedia dates the announcement to 15 November, in Electronic News.\n\nThe microprocessor was a calculator job. Selling it to the world was the renegotiation.\n\nSources:\n- https://www.intel.com/content/www/us/en/history/virtual-vault/articles/the-intel-4004.html: read in full. Established April 1969 request from Busicom for a twelve chip set, Intel's four chip counter proposal including one programmable chip, Hoff, Faggin, Mazor and Shima all contributing, Busicom owning the exclusive rights, and CEO Robert Noyce repurchasing the rights for everything but calculators in May 1971 in exchange for returning Busicom's $60,000 investment.\n- https://spectrum.ieee.org/chip-hall-of-fame-intel-4004-microprocessor: read in full. Established Hoff proposing four chips (4001, 4002, 4003, 4004), Hoff and Stanley Mazor writing the specifications, Faggin hired in April 1970, Shima checking the logic, Busicom's exclusive rights preventing Intel selling the 4004 elsewhere, and a cost break for Busicom in return for Intel selling the family for non calculator uses. Gave no month or dollar figure for that deal.\n- https://en.wikipedia.org/wiki/Busicom: read in full. Established the 1969 approach, Busicom's design needing 12 ICs, Hoff's four IC architecture, the renegotiation in mid 1971 after Busicom asked for lower prices, the 15 November 1971 announcement in Electronic News, and the Busicom 141-PF as the first calculator with a microprocessor.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-10-intel-4004-busicom-twelve-chips-60000-1971.mp4",
+  "propsFile": "daily/2026-11-10/intel-4004-busicom-twelve-chips-60000-1971.props.json",
+  "durationInFrames": 1234,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

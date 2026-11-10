@@ -366,7 +366,10 @@
     "reel:library-of-alexandria-faded-before-final-blow",
     "reel:crowdstrike-channel-file-291-20-values-2024",
     "reel:cloudflare-leap-second-negative-number-2017",
-    "reel:hedy-lamarr-frequency-hopping-patent-1942-not-wifi"
+    "reel:hedy-lamarr-frequency-hopping-patent-1942-not-wifi",
+    "reel:apollo-13-mail-box-cube-canister-cylinder-socket-1970",
+    "reel:intel-4004-busicom-twelve-chips-60000-1971",
+    "reel:tacoma-narrows-flutter-not-resonance-1940"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -6401,6 +6404,49 @@
       "youtubeUrl": "https://youtu.be/ATA5nZPmeMo",
       "uploadedAt": "2026-11-09T19:26:03.963Z",
       "privacy": "public"
+    },
+    {
+      "id": "apollo-13-mail-box-cube-canister-cylinder-socket-1970",
+      "date": "2026-11-10",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Cube shaped filters. Cylinder shaped socket.",
+      "description": "Cube shaped filters. Cylinder shaped socket. The command module used cubic lithium hydroxide canisters to scrub carbon dioxide. The lunar module used cylindrical ones and had no backups, says Space Center Houston.\n\nThe lander was built for two people. HobbySpace says it was designed for two people for 36 hours, not three people for 96.\n\nAbout 1am, four hours after the explosion. Crew systems chief Ed Smylie realised then that carbon dioxide had to be dealt with, according to collectSPACE via Space.com.\n\nChief of NASA's crew systems division. He said probably 60 people were involved.\n\nA hose, a sock, a plastic bag, cue cards and duct tape. That is the Space.com list. HobbySpace adds a flight manual cover. Accounts differ on the exact parts.\n\nThe crew called it the mail box. NASA's caption reads: Apollo 13 Crew Installing 'Mail Box' for Purging Carbon Dioxide From Lunar Module, April 14, 1970.\n\nHouston could not send pictures. It talked the crew through it.\n\nSources:\n- https://spacecenter.org/apollo-13-infographic-how-did-they-make-that-co2-scrubber/: read in full. Established that the command module used cubic lithium hydroxide scrubbers and the lunar module cylindric ones, that the crew had plenty for the command module but no backups for the lunar module, and that Mission Control could not send pictures and described everything verbally.\n- https://www.space.com/space-exploration/apollo/nasa-engineer-ed-smylie-who-led-carbon-dioxide-fix-on-apollo-13-dies-at-95: read in full (collectSPACE report, 29 April 2025). Established Ed Smylie as chief of NASA's crew systems division, that he realised at about one in the morning, four hours after the explosion, that carbon dioxide had to be dealt with, his statement that probably 60 people were involved, and the materials: a spacesuit hose, a sock, a plastic bag, cue cards and duct tape.\n- https://hobbyspace.com/Blog/?p=8241: read in full. Established that the lunar module was built for two people for 36 hours rather than three for 96, the materials including a flight manual cover, suit parts and socks, and the crew's name for the rig, mailbox. A repost of a Gizmodo article, so not independent.\n- https://www.nasa.gov/history/afj/ap13fj/: read the landing page. Established NASA's image caption: Apollo 13 Crew Installing 'Mail Box' for Purging Carbon Dioxide From Lunar Module, April 14, 1970.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "intel-4004-busicom-twelve-chips-60000-1971",
+      "date": "2026-11-10",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Twelve custom chips for one calculator.",
+      "description": "Twelve custom chips for one calculator. In April 1969, Japanese calculator company Busicom asked Intel to build a twelve chip set, according to Intel's own history page.\n\nIntel proposed four. One of them could be programmed. Ted Hoff and Stanley Mazor wrote the specifications, says IEEE Spectrum.\n\nHired in April 1970. Took over design leadership from Hoff, with Masatoshi Shima of Busicom checking the logic.\n\nBusicom owned the design. It held exclusive rights, so Intel could not sell the 4004 to anyone else.\n\nIntel says CEO Robert Noyce repurchased the rights, for everything but calculators, in May 1971 by returning Busicom's $60,000 investment. IEEE and Wikipedia describe a price break instead.\n\nAnnouncing a new era of integrated electronics. Intel began advertising the 4004 in November 1971. Wikipedia dates the announcement to 15 November, in Electronic News.\n\nThe microprocessor was a calculator job. Selling it to the world was the renegotiation.\n\nSources:\n- https://www.intel.com/content/www/us/en/history/virtual-vault/articles/the-intel-4004.html: read in full. Established April 1969 request from Busicom for a twelve chip set, Intel's four chip counter proposal including one programmable chip, Hoff, Faggin, Mazor and Shima all contributing, Busicom owning the exclusive rights, and CEO Robert Noyce repurchasing the rights for everything but calculators in May 1971 in exchange for returning Busicom's $60,000 investment.\n- https://spectrum.ieee.org/chip-hall-of-fame-intel-4004-microprocessor: read in full. Established Hoff proposing four chips (4001, 4002, 4003, 4004), Hoff and Stanley Mazor writing the specifications, Faggin hired in April 1970, Shima checking the logic, Busicom's exclusive rights preventing Intel selling the 4004 elsewhere, and a cost break for Busicom in return for Intel selling the family for non calculator uses. Gave no month or dollar figure for that deal.\n- https://en.wikipedia.org/wiki/Busicom: read in full. Established the 1969 approach, Busicom's design needing 12 ICs, Hoff's four IC architecture, the renegotiation in mid 1971 after Busicom asked for lower prices, the 15 November 1971 announcement in Electronic News, and the Busicom 141-PF as the first calculator with a microprocessor.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "JWDWPgKrvpU",
+      "youtubeUrl": "https://youtu.be/JWDWPgKrvpU",
+      "uploadedAt": "2026-11-10T16:44:59.419Z",
+      "privacy": "public"
+    },
+    {
+      "id": "tacoma-narrows-flutter-not-resonance-1940",
+      "date": "2026-11-10",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The popular version. It was not resonance.",
+      "description": "It was not resonance. Many physics textbooks wrongly blame the Tacoma Narrows collapse on resonance. Billah and Scanlan wrote a 1991 paper in the American Journal of Physics saying so.\n\nOpened 1 July. Gone by 7 November. A 2,800 foot main span, stiffened by eight foot deep plate girders. An earlier proposal had called for 25 foot deep trusses.\n\nNot a storm. Around 42 miles per hour. Structure magazine reports winds near 42 mph that morning. Other accounts give about 40.\n\nThe numbers did not match. Vortex shedding would have come at about 1 Hz, but the bridge was twisting at about 0.2 Hz when it failed, according to Structure.\n\nThe wind fed the twisting itself. Aeroelastic flutter. The bridge's shape drew energy from the wind, so the motion grew rather than staying bounded.\n\nThe wind recorded that morning, reported by Structure magazine. A steady breeze was enough.\n\nThe bridge was not shaken apart. It was pushed into shaking itself.\n\nSources:\n- https://www.structuremag.org/?p=13425: read in full. Established the 7 November 1940 collapse, the 2,800 foot main span, a recorded wind of about 42 mph that morning, vortex shedding at about 1 Hz against observed oscillation of about 0.2 Hz at failure, the report quote that vertical oscillations were probably induced by turbulent wind, and the Billah and Scanlan 1991 citation.\n- https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940): first about 40,000 of 64,000 characters read verbatim. Established the 1 July 1940 opening, eight foot deep plate girders chosen over a proposed 25 foot deep truss, wind of about 40 mph, that many physics textbooks wrongly explain the failure as externally forced resonance, that the cause was aeroelastic torsional flutter driven by the wind, and the death of a cocker spaniel named Tubby.\n- https://practical.engineering/blog/2019/3/9/why-the-tacoma-narrows-bridge-collapsed: read in full. Established aeroelastic flutter with forces self induced from the bridge's unstable aerodynamic shape, and the nickname Galloping Gertie.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
     }
   ]
 }

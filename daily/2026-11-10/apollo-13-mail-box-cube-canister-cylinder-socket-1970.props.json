@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (apollo-13-mail-box-cube-canister-cylinder-socket-1970)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0E1114",
+    "ink": "#EDF1F4",
+    "accent": "#6FB6E8",
+    "muted": "#78868F"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The problem",
+      "text": "Cube shaped filters. Cylinder shaped socket.",
+      "note": "The command module used cubic lithium hydroxide canisters to scrub carbon dioxide. The lunar module used cylindrical ones and had no backups, says Space Center Houston.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The lifeboat",
+      "text": "The lander was built for two people.",
+      "note": "HobbySpace says it was designed for two people for 36 hours, not three people for 96.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "statement",
+      "lead": "The call",
+      "text": "About 1am, four hours after the explosion.",
+      "note": "Crew systems chief Ed Smylie realised then that carbon dioxide had to be dealt with, according to collectSPACE via Space.com.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "credit",
+      "year": "1970",
+      "name": "Ed Smylie",
+      "role": "Chief of NASA's crew systems division. He said probably 60 people were involved.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "statement",
+      "lead": "The parts",
+      "text": "A hose, a sock, a plastic bag, cue cards and duct tape.",
+      "note": "That is the Space.com list. HobbySpace adds a flight manual cover. Accounts differ on the exact parts.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "lead": "The name",
+      "text": "The crew called it the mail box.",
+      "note": "NASA's caption reads: Apollo 13 Crew Installing 'Mail Box' for Purging Carbon Dioxide From Lunar Module, April 14, 1970.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "kicker",
+      "text": "Houston could not send pictures. It talked the crew through it.",
+      "durationInFrames": 88
+    },
+    {
+      "kind": "sign",
+      "line": "Use what you have.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,20 @@
+Rendering 3 Shorts for 2026-11-10 (concurrency=3, GL=default)
+Compliance: 1 cleared, 2 blocked (policy v1.0.0).
+Blocked by compliance: apollo-13-mail-box-cube-canister-cylinder-socket-1970, tacoma-narrows-flutter-not-resonance-1940
+
+--- apollo-13-mail-box-cube-canister-cylinder-socket-1970 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-10-apollo-13-mail-box-cube-canister-cylinder-socket-1970.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-11-10/compliance-verdict.json.
+
+--- intel-4004-busicom-twelve-chips-60000-1971 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-10-intel-4004-busicom-twelve-chips-60000-1971.mp4
+  uploaded public: https://youtu.be/JWDWPgKrvpU
+
+--- tacoma-narrows-flutter-not-resonance-1940 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-10-tacoma-narrows-flutter-not-resonance-1940.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-11-10/compliance-verdict.json.
+
+=== Done. 3 rendered, 1 uploaded, 0 skipped, 2 blocked by compliance, 0 failed. ===

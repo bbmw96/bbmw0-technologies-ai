@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (tacoma-narrows-flutter-not-resonance-1940)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0C1114",
+    "ink": "#EAF3F6",
+    "accent": "#58C4C6",
+    "muted": "#70898D"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "It was not resonance.",
+      "note": "Many physics textbooks wrongly blame the Tacoma Narrows collapse on resonance. Billah and Scanlan wrote a 1991 paper in the American Journal of Physics saying so.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The bridge",
+      "text": "Opened 1 July. Gone by 7 November.",
+      "note": "A 2,800 foot main span, stiffened by eight foot deep plate girders. An earlier proposal had called for 25 foot deep trusses.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "lead": "The wind",
+      "text": "Not a storm. Around 42 miles per hour.",
+      "note": "Structure magazine reports winds near 42 mph that morning. Other accounts give about 40.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "statement",
+      "lead": "The test",
+      "text": "The numbers did not match.",
+      "note": "Vortex shedding would have come at about 1 Hz, but the bridge was twisting at about 0.2 Hz when it failed, according to Structure.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "lead": "The cause",
+      "text": "The wind fed the twisting itself.",
+      "note": "Aeroelastic flutter. The bridge's shape drew energy from the wind, so the motion grew rather than staying bounded.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "figure",
+      "value": "42",
+      "unit": "mph",
+      "context": "The wind recorded that morning, reported by Structure magazine. A steady breeze was enough.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "kicker",
+      "text": "The bridge was not shaken apart. It was pushed into shaking itself.",
+      "durationInFrames": 94
+    },
+    {
+      "kind": "sign",
+      "line": "Shape matters.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
