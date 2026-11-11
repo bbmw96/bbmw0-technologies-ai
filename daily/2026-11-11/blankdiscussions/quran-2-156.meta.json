@@ -1,0 +1,42 @@
+{
+  "slug": "quran-2-156",
+  "date": "2026-11-11",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "Who, when disaster strikes them, say, \"Indeed we belong to Allah, and indeed to Him we will return.\"\n\nSurah Al-Baqarah (2:156). Swipe through for the Arabic, then English, Mandarin, Korean and Japanese renderings.\n\nSources on the final slide.",
+  "tags": [
+    "Quran",
+    "IslamicReminder",
+    "Ayah",
+    "Deen",
+    "IslamicGuidance",
+    "MuslimReminder",
+    "Patience",
+    "Sabr",
+    "QuranicVerses",
+    "Alhamdulillah"
+  ],
+  "theme": "chaste-53",
+  "slides": [
+    "quran-2-156.slide-01.json",
+    "quran-2-156.slide-02.json",
+    "quran-2-156.slide-03.json",
+    "quran-2-156.slide-04.json",
+    "quran-2-156.slide-05.json",
+    "quran-2-156.slide-06.json",
+    "quran-2-156.slide-07.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an, Surah Al-Baqarah (2), Ayah 156",
+    "arabic": "Uthmani script (quran-uthmani), api.alquran.cloud. Two independent live fetches this session (2026-11-11) of GET /v1/ayah/2:156/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese, HTTP 200 each, diffed: byte-identical. Verbatim: \"ٱلَّذِينَ إِذَآ أَصَٰبَتْهُم مُّصِيبَةٌۭ قَالُوٓا۟ إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ رَٰجِعُونَ\"",
+    "english": "Saheeh International (en.sahih). Verbatim: \"Who, when disaster strikes them, say, \\\"Indeed we belong to Allah, and indeed to Him we will return.\\\"\"",
+    "chinese": "Ma Jian (zh.jian). Verbatim: \"他们遭难的时候，说：我们确是真主所有的，我们必定只归依他。\"",
+    "korean": "ko.korean; source metadata lists translator as 'Unknown', credited on-slide as not specified. Raw: \"재앙이 있을때 오 주여 우 리는 주안에 있으며 주께로 돌아 가나이다 라고 기도하는 자 있나니\". Spacing-only fixes: '있을때' -> '있을 때'; '우 리는' -> '우리는'; '돌아 가나이다' -> '돌아가나이다'. Whitespace-stripped text verified identical to raw. No wording changed.",
+    "japanese": "ja.japanese; source metadata lists translator as 'Unknown', cited as such. Verbatim: \"災難に遭うと，「本当にわたしたちは，アッラーのもの。かれの御許にわたしたちは帰ります。」と言う者，\"",
+    "verification_note": "All renderings from two live api.alquran.cloud fetches this session, diffed identical; none from memory. Manual halal compliance check against scripts/data/compliance-policy.json blocklists: typography only, no imagery. Dupcheck against local daily/*/blankdiscussions meta files: quran:2:156 NEW (2:152, 2:153 exist; different ayah)."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-11-11/quran-2-156-slide-NN.png --props=daily/2026-11-11/blankdiscussions/quran-2-156.slide-NN.json",
+  "status": "sourced_pending_render"
+}
