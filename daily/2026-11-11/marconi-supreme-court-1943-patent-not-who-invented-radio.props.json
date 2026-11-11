@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (marconi-supreme-court-1943-patent-not-who-invented-radio)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#13110E",
+    "ink": "#F3EEE6",
+    "accent": "#D98A4E",
+    "muted": "#8F8576"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "The Supreme Court ruled that Tesla invented radio.",
+      "note": "A 1984 New York Times article said the Justices overturned Marconi's patent because Tesla's work came first, according to Mercurians, which calls such accounts inaccurate.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The case",
+      "text": "A patent dispute, decided 21 June 1943.",
+      "note": "Marconi sued in the Court of Claims over four US patents. Chief Justice Stone wrote the opinion.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "The ruling",
+      "text": "An earlier patent beat Marconi's.",
+      "note": "The Court held that Stone's patent anticipated Marconi's, and that Marconi's patent disclosed no invention over it.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "statement",
+      "lead": "Tesla's part",
+      "text": "One piece of the prior art.",
+      "note": "Tesla's patent disclosed a four circuit system but lacked a variable inductance for tuning. The Court said Lodge supplied it.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "statement",
+      "lead": "What it left alone",
+      "text": "Marconi's original patent was not in question.",
+      "note": "The Court said his reputation as the first to achieve successful radio transmission rests on that original patent.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "statement",
+      "lead": "The gap",
+      "text": "Nobody ruled on who invented radio.",
+      "note": "Mercurians says the Supreme Court never determined that Tesla invented radio. The ruling was about the validity of Marconi's later claims.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "kicker",
+      "text": "Tesla's name is in the ruling as prior art. Not as the winner.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "sign",
+      "line": "Read the ruling.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

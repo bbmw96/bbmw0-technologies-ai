@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (interruption-23-minutes-15-seconds-mark-gallup-2006)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#10121A",
+    "ink": "#EDEFF7",
+    "accent": "#8FA2FF",
+    "muted": "#7C84A6"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The claim",
+      "text": "It takes 23 minutes to refocus.",
+      "note": "The line is repeated everywhere, usually credited to Gloria Mark of UC Irvine.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "lead": "The source",
+      "text": "An interview, not a paper.",
+      "note": "Gallup Business Journal, June 2006. A blogger who traced it in 2023 found the number in three interviews with Mark, and no printed paper containing it.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "What she said",
+      "text": "Resumed, not refocused.",
+      "note": "Mark told Gallup interrupted work was resumed on average in 23 minutes and 15 seconds, with about two other tasks in between.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "statement",
+      "lead": "The sample",
+      "text": "Thirty six people. Three days.",
+      "note": "Mark said her team shadowed 36 managers, analysts, developers, engineers and project leaders. Gallup's page names no paper.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "figure",
+      "value": "23",
+      "unit": "minutes",
+      "context": "Average time before interrupted work was resumed, with other tasks first. Not a measured brain recovery time.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "statement",
+      "lead": "The twist",
+      "text": "Interrupted people worked faster.",
+      "note": "In Mark's 2008 experiment they finished sooner but reported more stress, according to a blog and Silicon Canals. Neither page gives the sample size.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "kicker",
+      "text": "The number measures the detour. It was never a stopwatch on your brain.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "sign",
+      "line": "Check the source.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

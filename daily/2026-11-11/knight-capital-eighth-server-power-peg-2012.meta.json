@@ -1,0 +1,25 @@
+{
+  "slug": "knight-capital-eighth-server-power-peg-2012",
+  "date": "2026-11-11",
+  "title": "The popular version. It was not a rogue algorithm.",
+  "description": "It was not a rogue algorithm. The SEC order traces it to a deployment slip. A technician did not copy the new code to one of eight servers, and no second person reviewed the job.\n\nA dead feature woke up. The new code reused a flag that once switched on Power Peg. Knight had stopped using Power Peg in 2003, but the code was still there and still callable.\n\n1 August 2012, before the open. Seven servers ran the new code correctly. The eighth still ran the old, and it began sending child orders from 212 parent orders.\n\nNinety seven emails arrived before 9:30. The system sent 97 automated messages, starting around 8:01 a.m., saying Power Peg disabled. The order says staff generally did not review them.\n\nFour million executions in 45 minutes. Across 154 stocks and more than 397 million shares. Knight ended up about 3.5 billion dollars net long in 80 stocks and 3.15 billion short in 74.\n\nWhat Knight lost on those unwanted positions, according to the SEC order. One server out of eight.\n\nSeven servers were right. The eighth was enough.\n\nSources:\n- https://www.sec.gov/files/litigation/admin/2013/34-70694.pdf: SEC order on Knight Capital Americas LLC, 16 October 2013, first 39,925 of 55,038 characters read verbatim. Established the 1 August 2012 date, that a technician did not copy the new code to one of the eight SMARS servers, that no second technician reviewed the deployment, that the new code repurposed a flag formerly used for the dormant Power Peg code, that Knight stopped using Power Peg in 2003 and in 2005 moved a function without retesting, 4 million executions in 154 stocks for more than 397 million shares in about 45 minutes, a $460 million loss, and 97 automated emails before the 9:30 a.m. open reading Power Peg disabled.\n- https://www.jrvarma.in/blog/Y2013/Knight-Capital.html: read (posted 20 October 2013). Commentary quoting the order; used only as a cross-check that the order's figures were read correctly.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-11-knight-capital-eighth-server-power-peg-2012.mp4",
+  "propsFile": "daily/2026-11-11/knight-capital-eighth-server-power-peg-2012.props.json",
+  "durationInFrames": 1384,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

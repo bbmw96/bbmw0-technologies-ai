@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (knight-capital-eighth-server-power-peg-2012)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B1210",
+    "ink": "#EDF5F1",
+    "accent": "#3DDC97",
+    "muted": "#7B918A"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "It was not a rogue algorithm.",
+      "note": "The SEC order traces it to a deployment slip. A technician did not copy the new code to one of eight servers, and no second person reviewed the job.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The old code",
+      "text": "A dead feature woke up.",
+      "note": "The new code reused a flag that once switched on Power Peg. Knight had stopped using Power Peg in 2003, but the code was still there and still callable.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The date",
+      "text": "1 August 2012, before the open.",
+      "note": "Seven servers ran the new code correctly. The eighth still ran the old, and it began sending child orders from 212 parent orders.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "lead": "The warning",
+      "text": "Ninety seven emails arrived before 9:30.",
+      "note": "The system sent 97 automated messages, starting around 8:01 a.m., saying Power Peg disabled. The order says staff generally did not review them.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "lead": "The damage",
+      "text": "Four million executions in 45 minutes.",
+      "note": "Across 154 stocks and more than 397 million shares. Knight ended up about 3.5 billion dollars net long in 80 stocks and 3.15 billion short in 74.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "460",
+      "unit": "$ million",
+      "context": "What Knight lost on those unwanted positions, according to the SEC order. One server out of eight.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "kicker",
+      "text": "Seven servers were right. The eighth was enough.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Check every server.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
