@@ -16202,12 +16202,14 @@
     {
       "id": "nokia-tune-gran-vals-bars-13-16-1994",
       "niche": "tech",
-      "verified": false,
-      "reviewNote": "Draft. Every claim rests on Wikipedia's Nokia tune article, which cites a Finnish school textbook and a Finnish newspaper (Taloussanomat, 2010). Independent sources (BBC, NYT 2005, Nokia history, Microsoft Lumia Conversations) were all blocked from this environment. Needs a second source for the 1902 composition year, the 1993 Vanjoki and Kivinen selection, and the 2110 launch. Do not use the 1.8 billion plays a day claim: it comes from a 2009 TED talk and could not be checked.",
+      "verified": true,
       "sources": [
-        "https://en.wikipedia.org/wiki/Nokia_tune: read. Said the excerpt is bars 13 to 16 of Gran Vals, composed in 1902 by Francisco Tarrega, that Anssi Vanjoki showed Gran Vals to Lauri Kivinen in 1993 and they selected the excerpt, that it first appeared on the Nokia 2110 released in 1994, and that it was named 'Grande valse' with the Nokia 6110 in December 1997 and renamed 'Nokia tune' in 1998."
+        "https://en.wikipedia.org/wiki/Nokia_tune - read. Established the excerpt is from Gran Vals by Francisco Tarrega, the 1993 choice by Anssi Vanjoki and Lauri Kivinen, first use on the Nokia 2110 in 1994, the name Grande valse on the 6110 in December 1997 and the rename to Nokia tune in 1998.",
+        "https://www.bgr.com/2290878/where-famous-nokia-tune-ringtone-comes-from-history/ - read in full. Independently established composition in 1902, the 1993 pick by Vanjoki and Kivinen, the Nokia 2110 in 1994 where it was listed as Ringtone Type 7, and the names Grande Valse (1997) and Nokia Tune (1998).",
+        "https://yle.fi/a/74-20117758 - read in full (Finnish, Yle, 1 December 2024). Established that the story began in 1902 in Spain, that Vanjoki (sales and marketing director) showed the piece to Kivinen (communications director) in 1993, the 2110 in 1994, and that Turku guitarist Timo Korhonen made the recording, was paid a fee plus his own 2110 phone, and later regretted not asking for more.",
+        "https://blogs.windows.com/devices/2009/01/21/history-of-nokia-part-3-grand-valse/ - read in full. Established Tarrega (1852 to 1909) from Spain and that the tune arrived on the Nokia 2110 in 1994."
       ],
-      "verifiedNote": "Draft only. Not claimed: daily play counts, the 1992 advert with Lubomir Brabec, trademark status, and any Morse code link (not found in the sources).",
+      "verifiedNote": "Checked 12 Nov 2026 against four sources. Not claimed: the bar numbers 13 to 16 in any beat (BGR says a four bar phrase 13 bars in, Yle says a 13 note fragment, so the units disagree), the 1.8 billion plays a day figure (BGR gives it with no named source), the Chopin inspiration (BGR, unsourced), trademark status, and the 1992 advert. The performer's name and fee rest on Yle alone, so the beat attributes them to Yle. The id keeps its original wording only because it is the ledger key.",
       "palette": {
         "bg": "#170E0C",
         "ink": "#F6EEE8",
@@ -16217,31 +16219,37 @@
       "beats": [
         {
           "kind": "statement",
-          "lead": "The source",
-          "text": "The Nokia ringtone is a classical guitar waltz.",
-          "note": "It is bars 13 to 16 of Gran Vals by Francisco Tarrega."
+          "lead": "The ringtone",
+          "text": "It is a classical guitar waltz.",
+          "note": "Gran Vals, composed in 1902 by the Spanish guitarist Francisco Tarrega. Nokia used a short phrase from early in the piece."
         },
         {
           "kind": "statement",
           "lead": "1993",
-          "text": "Two executives picked the excerpt.",
-          "note": "Anssi Vanjoki showed Gran Vals to Lauri Kivinen and they chose the phrase."
+          "text": "Two executives picked the phrase.",
+          "note": "Anssi Vanjoki found the piece and showed it to Lauri Kivinen. Yle describes them as Nokia's sales and marketing director and its communications director."
         },
         {
           "kind": "statement",
           "lead": "1994",
-          "text": "It first appeared on the Nokia 2110.",
-          "note": "It was one of the standard ringtones."
+          "text": "It first rang on the Nokia 2110.",
+          "note": "BGR says the phone listed it as Ringtone Type 7."
+        },
+        {
+          "kind": "statement",
+          "lead": "The performer",
+          "text": "A guitarist from Turku recorded it.",
+          "note": "Yle reports that Timo Korhonen was paid a fee and given his own Nokia 2110, and later regretted not asking for more."
         },
         {
           "kind": "statement",
           "lead": "The name",
-          "text": "Nokia called it Grande valse first.",
-          "note": "It carried that name on the Nokia 6110 in 1997 and became Nokia tune in 1998."
+          "text": "It was Grande Valse before it was Nokia tune.",
+          "note": "The Grande Valse name arrived in 1997 and Nokia tune in 1998, according to both Wikipedia and BGR."
         },
         {
           "kind": "kicker",
-          "text": "The most heard ringtone started as a guitar piece."
+          "text": "A guitar waltz from 1902 became the sound of Nokia."
         },
         {
           "kind": "sign",
@@ -17988,6 +17996,269 @@
         {
           "kind": "sign",
           "line": "Use what you have.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "millennium-bridge-wobble-footsteps-consequence-2000",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Millennium_Bridge,_London - read in full. Established opening on 10 June 2000, closure on 12 June, reopening on 22 February 2002, opening day crowd of 90,000 with up to 2,000 on the bridge at once, the name synchronous lateral excitation, that stiffening was rejected because it would greatly change the appearance, and 37 viscous dampers plus 52 tuned mass dampers.",
+        "https://www.aisc.org/globalassets/modern-steel/archives/2002/08/2002v08_dynamic_results.pdf - read in full (Douglas Taylor, Modern Steel Construction, August 2002). Established the lateral frequency band of 0.5 to 1.1 Hz with accelerations up to 0.25 g, nearly 100,000 users on the first day, 2,000 people at peak load, that people stepped in unison by chance in groups over 200, 37 dampers, and acceleration falling from 0.25 g to 0.006 g. Taylor Devices supplied the dampers, so this is the supplier's account.",
+        "https://www.taylordevices.com/wp-content/uploads/66-Damper-Retrofit-of-London.pdf - read in full. Longer paper by the same author. Confirmed the damper table (17 chevron, 4 vertical, 16 pier) and that military manuals warn against marching in step over bridges.",
+        "https://www.bridgeweb.com/Academics-unravel-reasons-for-Millennium-Bridge-wobble/8702 - read in full (BD&E, 15 December 2021). Established the Georgia State University and University of Bristol team, Nature Communications 2021, that synchronisation is typically a consequence rather than a cause, and that the engineers who fixed the bridge were right all along.",
+        "https://enr.com/articles/53233-new-explanation-given-for-londons-wobbling-millennium-bridge-after-two-decades - read in full (ENR, 13 December 2021). Independently reported the same 2021 finding across nearly 30 bridges."
+      ],
+      "verifiedNote": "Checked 12 Nov 2026. Not claimed: that soldiers marching caused the wobble (no source says so; Taylor and BD&E mention marching only as background or the earlier expectation), Arup's own design report (cited by the sources but not opened), the 2021 Nature Communications paper itself (its findings come from BD&E and ENR), any repair cost (Wikipedia says 5 million pounds from a single citation, a press headline says 2 million, ENR says several million dollars), a damper count beyond 37 (ENR says nearly 40), whether closure lasted two or three days (sources differ), and a sway amplitude. The 20 months figure is computed from the sourced dates 12 June 2000 and 22 February 2002.",
+      "palette": {
+        "bg": "#0B1013",
+        "ink": "#E9F1F4",
+        "accent": "#4FB3D9",
+        "muted": "#6F8791"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The explanation",
+          "text": "For two decades, the story was that walkers fell into step.",
+          "note": "Engineers described synchronous lateral footfall. In a big enough crowd, enough people stepped in unison by chance to feed the sway."
+        },
+        {
+          "kind": "statement",
+          "lead": "The bridge",
+          "text": "Opened on 10 June 2000. Closed on 12 June.",
+          "note": "Opening day drew roughly 90,000 to 100,000 people, depending on the source, with up to 2,000 on the deck at once."
+        },
+        {
+          "kind": "statement",
+          "lead": "The sway",
+          "text": "Sideways, not up and down.",
+          "note": "Douglas Taylor reports a lateral frequency band of 0.5 to 1.1 hertz, with accelerations of up to 0.25 g."
+        },
+        {
+          "kind": "statement",
+          "lead": "The twist",
+          "text": "In 2021, researchers said the stepping was not the cause.",
+          "note": "A team led by Georgia State University and the University of Bristol reported in Nature Communications that synchronised walking is typically a consequence of the bridge moving, not the cause."
+        },
+        {
+          "kind": "statement",
+          "lead": "The fix",
+          "text": "Dampers, not stiffening.",
+          "note": "Wikipedia says stiffening was rejected because it would greatly change the look of the bridge. Taylor reports 37 viscous dampers cut peak acceleration from 0.25 g to 0.006 g."
+        },
+        {
+          "kind": "figure",
+          "value": "20",
+          "unit": "months",
+          "context": "About how long the bridge stayed shut, from 12 June 2000 to reopening on 22 February 2002."
+        },
+        {
+          "kind": "kicker",
+          "text": "The fix worked. The explanation behind it may not have been the whole story."
+        },
+        {
+          "kind": "sign",
+          "line": "Footsteps add up.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "brooks-law-mythical-man-month-1975",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Brooks%27s_law - read in full. Established the wording Adding manpower to a late software project makes it later, the three causes (ramp up, communication overhead, divisibility), the nine women line, and that the law applies only under certain conditions.",
+        "https://en.wikipedia.org/wiki/The_Mythical_Man-Month - read in full. Established the 1975 first publication, that Brooks drew on managing IBM's OS/360 development, the formula n(n-1)/2 and the worked example of 50 developers giving 1,225 channels.",
+        "https://stevemcconnell.com/?p=81 - read in full (Steve McConnell, Brooks' Law Repealed?, Software Development, November/December 1999). Established the training example of two people added after two months needing a month of training each, that the law bites in the final phases, that adding people early or to partitionable work can help, and a quotation of Brooks calling the law the best zeroth order approximation to the truth, cited to the 1995 edition.",
+        "https://www.historyofinformation.com/detail.php?entryid=2678 - read in full. Confirmed the 1975 date and the wording of the law."
+      ],
+      "verifiedNote": "Checked 12 Nov 2026. Not claimed: that Brooks called the law an outrageous oversimplification (it appears only through a Wikipedia quotation and no page gives a chapter or page), any OS/360 team size (no source gives one), and the exact wording of Brooks's training example (McConnell's account, not checked against the book). The zeroth order approximation quote is attributed to McConnell citing the 1995 edition, not to the book directly. The 1,225 figure is 50 times 49 divided by 2, checked arithmetically.",
+      "palette": {
+        "bg": "#101012",
+        "ink": "#EFEFEA",
+        "accent": "#E8A33D",
+        "muted": "#85857C"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The law",
+          "text": "Adding people to a late project makes it later.",
+          "note": "Fred Brooks wrote it in The Mythical Man-Month, first published in 1975, drawing on his time managing IBM's OS/360 software."
+        },
+        {
+          "kind": "statement",
+          "lead": "The baby line",
+          "text": "Nine women cannot make a baby in one month.",
+          "note": "The point is divisibility. Picking cotton splits across workers, but much software work does not."
+        },
+        {
+          "kind": "statement",
+          "lead": "The sum",
+          "text": "Every new person adds conversations.",
+          "note": "Channels between n people number n times n minus 1, divided by 2. For 50 developers, that is 1,225."
+        },
+        {
+          "kind": "figure",
+          "value": "1225",
+          "unit": "channels",
+          "context": "Communication paths between 50 developers, from the formula in The Mythical Man-Month."
+        },
+        {
+          "kind": "statement",
+          "lead": "The other cost",
+          "text": "New people have to be trained first.",
+          "note": "In Steve McConnell's account of Brooks's example, two people added after two months each need a month of training from the existing team."
+        },
+        {
+          "kind": "statement",
+          "lead": "The catch",
+          "text": "It does not apply to every project.",
+          "note": "McConnell argues it bites in the final phases, and that adding people early, or to work that divides cleanly, can help. He quotes Brooks calling it the best zeroth order approximation to the truth."
+        },
+        {
+          "kind": "kicker",
+          "text": "People and months are not interchangeable."
+        },
+        {
+          "kind": "sign",
+          "line": "Add help early, not late.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "halo-began-as-mac-strategy-game-macworld-1999",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Halo:_Combat_Evolved - read (verbatim section on development and release). Established that development began in 1997 as a real-time strategy game, the 1999 Macworld unveiling with Steve Jobs, Microsoft announcing the Bungie acquisition on 19 June 2000, release on 15 November 2001 alongside the Xbox in North America, and a Mac release in December 2003 (infobox and body disagree on the day).",
+        "https://en.wikipedia.org/wiki/Bungie - read (verbatim section). Independently gave the 19 June 2000 acquisition and the Macworld 1999 unveiling.",
+        "https://gamesradar.com/exploring-the-unlikely-development-of-halo-from-rts-to-third-person-mac-to-console-concept-to-an-edge-magazine-perfect-10 - read in full (Edge feature, Alex Spencer, 22 November 2023). Established the real-time strategy origin using the Myth II engine, the move to third person action, Jobs introducing Jason Jones at Macworld in July 1999 for a real-time Mac demo, Apple's reply that games were not its focus, and a November 2001 launch.",
+        "https://www.macworld.com/article/3249377/25-years-of-xbox-why-halo-should-have-come-to-the-mac-first.html - read in full. Established the demo on a Power Macintosh G3 in July 1999, Jobs announcing release for early the following year, and that the Mac version came out in 2003.",
+        "https://halo.bungie.org/misc/interviews/img.seropian.061900 - read in full (Inside Mac Games interview with Alexander Seropian, 19 June 2000). Showed the Mac version was still undecided on the day of the Microsoft announcement."
+      ],
+      "verifiedNote": "Checked 12 Nov 2026. Not claimed: any sales figure (Wikipedia says 6 million by November 2005 on one page and 6.5 million undated on another, and the other sources give none), an exact Mac release day (Wikipedia gives both 3 and 11 December 2003), the first person switch date (the team disagrees in GamesRadar), and the Westlake Interactive and MacSoft port details (summary only, not read verbatim). The kicker says Jobs showed Halo, which all sources support; it does not claim the game was a Mac exclusive, because Jobs announced simultaneous Mac and Windows versions. The 4 years figure is July 1999 to 2003, which is more than four years on any December 2003 date.",
+      "palette": {
+        "bg": "#0C100B",
+        "ink": "#EEF3E6",
+        "accent": "#8FD14F",
+        "muted": "#7B8670"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "Halo was always an Xbox shooter.",
+          "note": "It began as a real-time strategy game, according to Edge magazine's history on GamesRadar, built around the engine from Bungie's Myth II."
+        },
+        {
+          "kind": "statement",
+          "lead": "The change",
+          "text": "Then it became a third person action game.",
+          "note": "First person came later. The team does not agree on exactly when."
+        },
+        {
+          "kind": "statement",
+          "lead": "July 1999",
+          "text": "Steve Jobs showed it off on a Mac.",
+          "note": "At Macworld Expo, Jobs introduced Bungie's Jason Jones, who ran a real-time demo on a Power Macintosh G3."
+        },
+        {
+          "kind": "statement",
+          "lead": "19 June 2000",
+          "text": "Microsoft bought Bungie.",
+          "note": "GamesRadar says Bungie phoned Apple first and was told that games were not Apple's focus."
+        },
+        {
+          "kind": "statement",
+          "lead": "November 2001",
+          "text": "It launched with the Xbox instead.",
+          "note": "Wikipedia gives 15 November 2001 for North America."
+        },
+        {
+          "kind": "figure",
+          "value": "4",
+          "unit": "years",
+          "context": "More than four years from the Macworld demo in July 1999 to the Mac release in 2003."
+        },
+        {
+          "kind": "kicker",
+          "text": "The Xbox launch game was first shown by Steve Jobs."
+        },
+        {
+          "kind": "sign",
+          "line": "Plans change.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "flickr-game-neverending-vote-by-one-2004",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Flickr - first about 40,000 of 82,000 characters read verbatim. Established Ludicorp as the Vancouver company founded by Stewart Butterfield and Caterina Fake, that Flickr emerged from tools made for Game Neverending, launch on 10 February 2004, and acquisition by Yahoo on 20 March 2005 for a reported 22 to 25 million dollars.",
+        "https://thehistoryoftheweb.com/what-happens-yahoo-acquires/ - read in full (Jay Hoffmann). Established Game Neverending developed at Ludicorp in 2002 with messaging, item trading and photo sharing, that the team was running out of cash and voted by a margin of just one to spin out photo sharing, the February 2004 unveiling at the O'Reilly Emerging Tech conference, and the March 2005 Yahoo purchase.",
+        "https://www.britannica.com/topic/Flickrcom - read in full. Independently established that Flickr began as a peripheral feature of an online game by Ludicorp, and the March 2005 Yahoo purchase.",
+        "https://www.historyofinformation.com/detail.php?id=1382 - read in full. Independently established the February 2004 launch by Ludicorp and March 2005 Yahoo purchase.",
+        "https://johnnyrodgers.is/The-death-of-Glitch-the-birth-of-Slack - read in full. Established that Game Neverending launched in 2002 and was shelved, and gave a price of about 25 million dollars with no source."
+      ],
+      "verifiedNote": "Checked 12 Nov 2026. The one vote margin rests on The History of the Web alone, so the beat attributes it to that source. Not claimed: a definite price (Wikipedia says reportedly 22 to 25 million, one blog says about 25 million, the others give none), the exact date Game Neverending closed (no source gives one), how Glitch and Slack followed (already covered by the Slack topic, and no source gives Slack's launch year), user numbers for 2004 to 2008, and the co-founders' 2008 departure. Wikipedia says Flickr was launched on 10 February 2004; The History of the Web ties the public unveiling to that month, so the beat says February 2004 and does not tie the 10th to the conference.",
+      "palette": {
+        "bg": "#0E0F14",
+        "ink": "#F0F1F7",
+        "accent": "#FF4F9A",
+        "muted": "#7E8094"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "Flickr was a photo site from day one.",
+          "note": "It began inside a video game. Ludicorp's Game Neverending was a web based multiplayer game, and Flickr emerged from tools built for it."
+        },
+        {
+          "kind": "statement",
+          "lead": "2002",
+          "text": "The game came first.",
+          "note": "The History of the Web says Game Neverending was developed at Ludicorp in 2002, with messaging, item trading and photo sharing."
+        },
+        {
+          "kind": "statement",
+          "lead": "The vote",
+          "text": "The company was running out of cash.",
+          "note": "The History of the Web reports the team voted to spin out the photo feature by a margin of just one."
+        },
+        {
+          "kind": "figure",
+          "value": "1",
+          "unit": "vote",
+          "context": "The margin by which Ludicorp's team chose to spin out photo sharing, according to The History of the Web."
+        },
+        {
+          "kind": "statement",
+          "lead": "February 2004",
+          "text": "Flickr launched.",
+          "note": "Wikipedia gives 10 February 2004. The History of the Web says it was unveiled that month at the O'Reilly Emerging Tech conference."
+        },
+        {
+          "kind": "statement",
+          "lead": "March 2005",
+          "text": "Yahoo bought it.",
+          "note": "Wikipedia, Britannica, The History of the Web and Historyofinformation all give March 2005. Wikipedia reports a price between 22 and 25 million dollars."
+        },
+        {
+          "kind": "kicker",
+          "text": "The game was shelved. The side feature became the product."
+        },
+        {
+          "kind": "sign",
+          "line": "Side projects count.",
           "handle": "@bbmw.0"
         }
       ]
