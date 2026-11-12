@@ -372,7 +372,10 @@
     "reel:tacoma-narrows-flutter-not-resonance-1940",
     "reel:knight-capital-eighth-server-power-peg-2012",
     "reel:interruption-23-minutes-15-seconds-mark-gallup-2006",
-    "reel:marconi-supreme-court-1943-patent-not-who-invented-radio"
+    "reel:marconi-supreme-court-1943-patent-not-who-invented-radio",
+    "reel:flickr-game-neverending-vote-by-one-2004",
+    "reel:millennium-bridge-wobble-footsteps-consequence-2000",
+    "reel:nokia-tune-gran-vals-bars-13-16-1994"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -6496,6 +6499,57 @@
       "youtubeId": "SIdkfjQ9vg0",
       "youtubeUrl": "https://youtu.be/SIdkfjQ9vg0",
       "uploadedAt": "2026-11-11T17:01:08.220Z",
+      "privacy": "public"
+    },
+    {
+      "id": "flickr-game-neverending-vote-by-one-2004",
+      "date": "2026-11-12",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The popular version. Flickr was a photo site from day one.",
+      "description": "Flickr was a photo site from day one. It began inside a video game. Ludicorp's Game Neverending was a web based multiplayer game, and Flickr emerged from tools built for it.\n\nThe game came first. The History of the Web says Game Neverending was developed at Ludicorp in 2002, with messaging, item trading and photo sharing.\n\nThe company was running out of cash. The History of the Web reports the team voted to spin out the photo feature by a margin of just one.\n\nThe margin by which Ludicorp's team chose to spin out photo sharing, according to The History of the Web.\n\nFlickr launched. Wikipedia gives 10 February 2004. The History of the Web says it was unveiled that month at the O'Reilly Emerging Tech conference.\n\nYahoo bought it. Wikipedia, Britannica, The History of the Web and Historyofinformation all give March 2005. Wikipedia reports a price between 22 and 25 million dollars.\n\nThe game was shelved. The side feature became the product.\n\nSources:\n- https://en.wikipedia.org/wiki/Flickr - first about 40,000 of 82,000 characters read verbatim. Established Ludicorp as the Vancouver company founded by Stewart Butterfield and Caterina Fake, that Flickr emerged from tools made for Game Neverending, launch on 10 February 2004, and acquisition by Yahoo on 20 March 2005 for a reported 22 to 25 million dollars.\n- https://thehistoryoftheweb.com/what-happens-yahoo-acquires/ - read in full (Jay Hoffmann). Established Game Neverending developed at Ludicorp in 2002 with messaging, item trading and photo sharing, that the team was running out of cash and voted by a margin of just one to spin out photo sharing, the February 2004 unveiling at the O'Reilly Emerging Tech conference, and the March 2005 Yahoo purchase.\n- https://www.britannica.com/topic/Flickrcom - read in full. Independently established that Flickr began as a peripheral feature of an online game by Ludicorp, and the March 2005 Yahoo purchase.\n- https://www.historyofinformation.com/detail.php?id=1382 - read in full. Independently established the February 2004 launch by Ludicorp and March 2005 Yahoo purchase.\n- https://johnnyrodgers.is/The-death-of-Glitch-the-birth-of-Slack - read in full. Established that Game Neverending launched in 2002 and was shelved, and gave a price of about 25 million dollars with no source.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "app",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "AYtlV35lWJs",
+      "youtubeUrl": "https://youtu.be/AYtlV35lWJs",
+      "uploadedAt": "2026-11-12T17:16:18.703Z",
+      "privacy": "public"
+    },
+    {
+      "id": "millennium-bridge-wobble-footsteps-consequence-2000",
+      "date": "2026-11-12",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "For two decades, the story was that walkers fell into step.",
+      "description": "For two decades, the story was that walkers fell into step. Engineers described synchronous lateral footfall. In a big enough crowd, enough people stepped in unison by chance to feed the sway.\n\nOpened on 10 June 2000. Closed on 12 June. Opening day drew roughly 90,000 to 100,000 people, depending on the source, with up to 2,000 on the deck at once.\n\nSideways, not up and down. Douglas Taylor reports a lateral frequency band of 0.5 to 1.1 hertz, with accelerations of up to 0.25 g.\n\nIn 2021, researchers said the stepping was not the cause. A team led by Georgia State University and the University of Bristol reported in Nature Communications that synchronised walking is typically a consequence of the bridge moving, not the cause.\n\nDampers, not stiffening. Wikipedia says stiffening was rejected because it would greatly change the look of the bridge. Taylor reports 37 viscous dampers cut peak acceleration from 0.25 g to 0.006 g.\n\nAbout how long the bridge stayed shut, from 12 June 2000 to reopening on 22 February 2002.\n\nThe fix worked. The explanation behind it may not have been the whole story.\n\nSources:\n- https://en.wikipedia.org/wiki/Millennium_Bridge,_London - read in full. Established opening on 10 June 2000, closure on 12 June, reopening on 22 February 2002, opening day crowd of 90,000 with up to 2,000 on the bridge at once, the name synchronous lateral excitation, that stiffening was rejected because it would greatly change the appearance, and 37 viscous dampers plus 52 tuned mass dampers.\n- https://www.aisc.org/globalassets/modern-steel/archives/2002/08/2002v08_dynamic_results.pdf - read in full (Douglas Taylor, Modern Steel Construction, August 2002). Established the lateral frequency band of 0.5 to 1.1 Hz with accelerations up to 0.25 g, nearly 100,000 users on the first day, 2,000 people at peak load, that people stepped in unison by chance in groups over 200, 37 dampers, and acceleration falling from 0.25 g to 0.006 g. Taylor Devices supplied the dampers, so this is the supplier's account.\n- https://www.taylordevices.com/wp-content/uploads/66-Damper-Retrofit-of-London.pdf - read in full. Longer paper by the same author. Confirmed the damper table (17 chevron, 4 vertical, 16 pier) and that military manuals warn against marching in step over bridges.\n- https://www.bridgeweb.com/Academics-unravel-reasons-for-Millennium-Bridge-wobble/8702 - read in full (BD&E, 15 December 2021). Established the Georgia State University and University of Bristol team, Nature Communications 2021, that synchronisation is typically a consequence rather than a cause, and that the engineers who fixed the bridge were right all along.\n- https://enr.com/articles/53233-new-explanation-given-for-londons-wobbling-millennium-bridge-after-two-decades - read in full (ENR, 13 December 2021). Independently reported the same 2021 finding across nearly 30 bridges.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "qFDYrMs1xFo",
+      "youtubeUrl": "https://youtu.be/qFDYrMs1xFo",
+      "uploadedAt": "2026-11-12T17:17:47.408Z",
+      "privacy": "public"
+    },
+    {
+      "id": "nokia-tune-gran-vals-bars-13-16-1994",
+      "date": "2026-11-12",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It is a classical guitar waltz.",
+      "description": "It is a classical guitar waltz. Gran Vals, composed in 1902 by the Spanish guitarist Francisco Tarrega. Nokia used a short phrase from early in the piece.\n\nTwo executives picked the phrase. Anssi Vanjoki found the piece and showed it to Lauri Kivinen. Yle describes them as Nokia's sales and marketing director and its communications director.\n\nIt first rang on the Nokia 2110. BGR says the phone listed it as Ringtone Type 7.\n\nA guitarist from Turku recorded it. Yle reports that Timo Korhonen was paid a fee and given his own Nokia 2110, and later regretted not asking for more.\n\nIt was Grande Valse before it was Nokia tune. The Grande Valse name arrived in 1997 and Nokia tune in 1998, according to both Wikipedia and BGR.\n\nA guitar waltz from 1902 became the sound of Nokia.\n\nSources:\n- https://en.wikipedia.org/wiki/Nokia_tune - read. Established the excerpt is from Gran Vals by Francisco Tarrega, the 1993 choice by Anssi Vanjoki and Lauri Kivinen, first use on the Nokia 2110 in 1994, the name Grande valse on the 6110 in December 1997 and the rename to Nokia tune in 1998.\n- https://www.bgr.com/2290878/where-famous-nokia-tune-ringtone-comes-from-history/ - read in full. Independently established composition in 1902, the 1993 pick by Vanjoki and Kivinen, the Nokia 2110 in 1994 where it was listed as Ringtone Type 7, and the names Grande Valse (1997) and Nokia Tune (1998).\n- https://yle.fi/a/74-20117758 - read in full (Finnish, Yle, 1 December 2024). Established that the story began in 1902 in Spain, that Vanjoki (sales and marketing director) showed the piece to Kivinen (communications director) in 1993, the 2110 in 1994, and that Turku guitarist Timo Korhonen made the recording, was paid a fee plus his own 2110 phone, and later regretted not asking for more.\n- https://blogs.windows.com/devices/2009/01/21/history-of-nokia-part-3-grand-valse/ - read in full. Established Tarrega (1852 to 1909) from Spain and that the tune arrived on the Nokia 2110 in 1994.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "hUmb1hkYTU8",
+      "youtubeUrl": "https://youtu.be/hUmb1hkYTU8",
+      "uploadedAt": "2026-11-12T17:18:57.624Z",
       "privacy": "public"
     }
   ]

@@ -1,0 +1,25 @@
+{
+  "slug": "millennium-bridge-wobble-footsteps-consequence-2000",
+  "date": "2026-11-12",
+  "title": "For two decades, the story was that walkers fell into step.",
+  "description": "For two decades, the story was that walkers fell into step. Engineers described synchronous lateral footfall. In a big enough crowd, enough people stepped in unison by chance to feed the sway.\n\nOpened on 10 June 2000. Closed on 12 June. Opening day drew roughly 90,000 to 100,000 people, depending on the source, with up to 2,000 on the deck at once.\n\nSideways, not up and down. Douglas Taylor reports a lateral frequency band of 0.5 to 1.1 hertz, with accelerations of up to 0.25 g.\n\nIn 2021, researchers said the stepping was not the cause. A team led by Georgia State University and the University of Bristol reported in Nature Communications that synchronised walking is typically a consequence of the bridge moving, not the cause.\n\nDampers, not stiffening. Wikipedia says stiffening was rejected because it would greatly change the look of the bridge. Taylor reports 37 viscous dampers cut peak acceleration from 0.25 g to 0.006 g.\n\nAbout how long the bridge stayed shut, from 12 June 2000 to reopening on 22 February 2002.\n\nThe fix worked. The explanation behind it may not have been the whole story.\n\nSources:\n- https://en.wikipedia.org/wiki/Millennium_Bridge,_London - read in full. Established opening on 10 June 2000, closure on 12 June, reopening on 22 February 2002, opening day crowd of 90,000 with up to 2,000 on the bridge at once, the name synchronous lateral excitation, that stiffening was rejected because it would greatly change the appearance, and 37 viscous dampers plus 52 tuned mass dampers.\n- https://www.aisc.org/globalassets/modern-steel/archives/2002/08/2002v08_dynamic_results.pdf - read in full (Douglas Taylor, Modern Steel Construction, August 2002). Established the lateral frequency band of 0.5 to 1.1 Hz with accelerations up to 0.25 g, nearly 100,000 users on the first day, 2,000 people at peak load, that people stepped in unison by chance in groups over 200, 37 dampers, and acceleration falling from 0.25 g to 0.006 g. Taylor Devices supplied the dampers, so this is the supplier's account.\n- https://www.taylordevices.com/wp-content/uploads/66-Damper-Retrofit-of-London.pdf - read in full. Longer paper by the same author. Confirmed the damper table (17 chevron, 4 vertical, 16 pier) and that military manuals warn against marching in step over bridges.\n- https://www.bridgeweb.com/Academics-unravel-reasons-for-Millennium-Bridge-wobble/8702 - read in full (BD&E, 15 December 2021). Established the Georgia State University and University of Bristol team, Nature Communications 2021, that synchronisation is typically a consequence rather than a cause, and that the engineers who fixed the bridge were right all along.\n- https://enr.com/articles/53233-new-explanation-given-for-londons-wobbling-millennium-bridge-after-two-decades - read in full (ENR, 13 December 2021). Independently reported the same 2021 finding across nearly 30 bridges.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "science",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-12-millennium-bridge-wobble-footsteps-consequence-2000.mp4",
+  "propsFile": "daily/2026-11-12/millennium-bridge-wobble-footsteps-consequence-2000.props.json",
+  "durationInFrames": 1390,
+  "audioUrl": "",
+  "niche": "science",
+  "composition": "Reel"
+}

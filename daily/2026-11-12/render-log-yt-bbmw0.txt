@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-11-12 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- flickr-game-neverending-vote-by-one-2004 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-12-flickr-game-neverending-vote-by-one-2004.mp4
+  uploaded public: https://youtu.be/AYtlV35lWJs
+
+--- millennium-bridge-wobble-footsteps-consequence-2000 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-12-millennium-bridge-wobble-footsteps-consequence-2000.mp4
+  uploaded public: https://youtu.be/qFDYrMs1xFo
+
+--- nokia-tune-gran-vals-bars-13-16-1994 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-12-nokia-tune-gran-vals-bars-13-16-1994.mp4
+  uploaded public: https://youtu.be/hUmb1hkYTU8
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (millennium-bridge-wobble-footsteps-consequence-2000)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B1013",
+    "ink": "#E9F1F4",
+    "accent": "#4FB3D9",
+    "muted": "#6F8791"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The explanation",
+      "text": "For two decades, the story was that walkers fell into step.",
+      "note": "Engineers described synchronous lateral footfall. In a big enough crowd, enough people stepped in unison by chance to feed the sway.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The bridge",
+      "text": "Opened on 10 June 2000. Closed on 12 June.",
+      "note": "Opening day drew roughly 90,000 to 100,000 people, depending on the source, with up to 2,000 on the deck at once.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "The sway",
+      "text": "Sideways, not up and down.",
+      "note": "Douglas Taylor reports a lateral frequency band of 0.5 to 1.1 hertz, with accelerations of up to 0.25 g.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "The twist",
+      "text": "In 2021, researchers said the stepping was not the cause.",
+      "note": "A team led by Georgia State University and the University of Bristol reported in Nature Communications that synchronised walking is typically a consequence of the bridge moving, not the cause.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The fix",
+      "text": "Dampers, not stiffening.",
+      "note": "Wikipedia says stiffening was rejected because it would greatly change the look of the bridge. Taylor reports 37 viscous dampers cut peak acceleration from 0.25 g to 0.006 g.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "20",
+      "unit": "months",
+      "context": "About how long the bridge stayed shut, from 12 June 2000 to reopening on 22 February 2002.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "kicker",
+      "text": "The fix worked. The explanation behind it may not have been the whole story.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "sign",
+      "line": "Footsteps add up.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (nokia-tune-gran-vals-bars-13-16-1994)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#170E0C",
+    "ink": "#F6EEE8",
+    "accent": "#E3633A",
+    "muted": "#8F7A70"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The ringtone",
+      "text": "It is a classical guitar waltz.",
+      "note": "Gran Vals, composed in 1902 by the Spanish guitarist Francisco Tarrega. Nokia used a short phrase from early in the piece.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "statement",
+      "lead": "1993",
+      "text": "Two executives picked the phrase.",
+      "note": "Anssi Vanjoki found the piece and showed it to Lauri Kivinen. Yle describes them as Nokia's sales and marketing director and its communications director.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "1994",
+      "text": "It first rang on the Nokia 2110.",
+      "note": "BGR says the phone listed it as Ringtone Type 7.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "statement",
+      "lead": "The performer",
+      "text": "A guitarist from Turku recorded it.",
+      "note": "Yle reports that Timo Korhonen was paid a fee and given his own Nokia 2110, and later regretted not asking for more.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "The name",
+      "text": "It was Grande Valse before it was Nokia tune.",
+      "note": "The Grande Valse name arrived in 1997 and Nokia tune in 1998, according to both Wikipedia and BGR.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "kicker",
+      "text": "A guitar waltz from 1902 became the sound of Nokia.",
+      "durationInFrames": 82
+    },
+    {
+      "kind": "sign",
+      "line": "Hum it. You already know it.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

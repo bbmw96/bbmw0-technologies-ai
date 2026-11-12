@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (flickr-game-neverending-vote-by-one-2004)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0E0F14",
+    "ink": "#F0F1F7",
+    "accent": "#FF4F9A",
+    "muted": "#7E8094"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "Flickr was a photo site from day one.",
+      "note": "It began inside a video game. Ludicorp's Game Neverending was a web based multiplayer game, and Flickr emerged from tools built for it.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "2002",
+      "text": "The game came first.",
+      "note": "The History of the Web says Game Neverending was developed at Ludicorp in 2002, with messaging, item trading and photo sharing.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "The vote",
+      "text": "The company was running out of cash.",
+      "note": "The History of the Web reports the team voted to spin out the photo feature by a margin of just one.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "figure",
+      "value": "1",
+      "unit": "vote",
+      "context": "The margin by which Ludicorp's team chose to spin out photo sharing, according to The History of the Web.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "lead": "February 2004",
+      "text": "Flickr launched.",
+      "note": "Wikipedia gives 10 February 2004. The History of the Web says it was unveiled that month at the O'Reilly Emerging Tech conference.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "March 2005",
+      "text": "Yahoo bought it.",
+      "note": "Wikipedia, Britannica, The History of the Web and Historyofinformation all give March 2005. Wikipedia reports a price between 22 and 25 million dollars.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "kicker",
+      "text": "The game was shelved. The side feature became the product.",
+      "durationInFrames": 82
+    },
+    {
+      "kind": "sign",
+      "line": "Side projects count.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
