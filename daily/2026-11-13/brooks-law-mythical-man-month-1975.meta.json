@@ -1,0 +1,25 @@
+{
+  "slug": "brooks-law-mythical-man-month-1975",
+  "date": "2026-11-13",
+  "title": "Adding people to a late project makes it later.",
+  "description": "Adding people to a late project makes it later. Fred Brooks wrote it in The Mythical Man-Month, first published in 1975, drawing on his time managing IBM's OS/360 software.\n\nNine women cannot make a baby in one month. The point is divisibility. Picking cotton splits across workers, but much software work does not.\n\nEvery new person adds conversations. Channels between n people number n times n minus 1, divided by 2. For 50 developers, that is 1,225.\n\nCommunication paths between 50 developers, from the formula in The Mythical Man-Month.\n\nNew people have to be trained first. In Steve McConnell's account of Brooks's example, two people added after two months each need a month of training from the existing team.\n\nIt does not apply to every project. McConnell argues it bites in the final phases, and that adding people early, or to work that divides cleanly, can help. He quotes Brooks calling it the best zeroth order approximation to the truth.\n\nPeople and months are not interchangeable.\n\nSources:\n- https://en.wikipedia.org/wiki/Brooks%27s_law - read in full. Established the wording Adding manpower to a late software project makes it later, the three causes (ramp up, communication overhead, divisibility), the nine women line, and that the law applies only under certain conditions.\n- https://en.wikipedia.org/wiki/The_Mythical_Man-Month - read in full. Established the 1975 first publication, that Brooks drew on managing IBM's OS/360 development, the formula n(n-1)/2 and the worked example of 50 developers giving 1,225 channels.\n- https://stevemcconnell.com/?p=81 - read in full (Steve McConnell, Brooks' Law Repealed?, Software Development, November/December 1999). Established the training example of two people added after two months needing a month of training each, that the law bites in the final phases, that adding people early or to partitionable work can help, and a quotation of Brooks calling the law the best zeroth order approximation to the truth, cited to the 1995 edition.\n- https://www.historyofinformation.com/detail.php?entryid=2678 - read in full. Confirmed the 1975 date and the wording of the law.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "productivity",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-13-brooks-law-mythical-man-month-1975.mp4",
+  "propsFile": "daily/2026-11-13/brooks-law-mythical-man-month-1975.props.json",
+  "durationInFrames": 1272,
+  "audioUrl": "",
+  "niche": "productivity",
+  "composition": "Reel"
+}

@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T16:51:43.282Z",
+  "policyVersion": "1.0.0",
+  "strictMode": false,
+  "allowed": [
+    "brooks-law-mythical-man-month-1975"
+  ],
+  "blocked": [],
+  "results": [
+    {
+      "slug": "brooks-law-mythical-man-month-1975",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Adding people to a late project makes it later.",
+      "niche": "productivity",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.067,
+        "worstTitleAgainst": "great-molasses-flood-1919",
+        "worstDescriptionSimilarity": 0.261,
+        "combo": "reel:#101012:#E8A33D:#EFEFEA",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    }
+  ]
+}

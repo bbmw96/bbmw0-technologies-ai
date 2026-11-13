@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (brooks-law-mythical-man-month-1975)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#101012",
+    "ink": "#EFEFEA",
+    "accent": "#E8A33D",
+    "muted": "#85857C"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The law",
+      "text": "Adding people to a late project makes it later.",
+      "note": "Fred Brooks wrote it in The Mythical Man-Month, first published in 1975, drawing on his time managing IBM's OS/360 software.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "lead": "The baby line",
+      "text": "Nine women cannot make a baby in one month.",
+      "note": "The point is divisibility. Picking cotton splits across workers, but much software work does not.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "The sum",
+      "text": "Every new person adds conversations.",
+      "note": "Channels between n people number n times n minus 1, divided by 2. For 50 developers, that is 1,225.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "figure",
+      "value": "1225",
+      "unit": "channels",
+      "context": "Communication paths between 50 developers, from the formula in The Mythical Man-Month.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "statement",
+      "lead": "The other cost",
+      "text": "New people have to be trained first.",
+      "note": "In Steve McConnell's account of Brooks's example, two people added after two months each need a month of training from the existing team.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The catch",
+      "text": "It does not apply to every project.",
+      "note": "McConnell argues it bites in the final phases, and that adding people early, or to work that divides cleanly, can help. He quotes Brooks calling it the best zeroth order approximation to the truth.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "People and months are not interchangeable.",
+      "durationInFrames": 60
+    },
+    {
+      "kind": "sign",
+      "line": "Add help early, not late.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
