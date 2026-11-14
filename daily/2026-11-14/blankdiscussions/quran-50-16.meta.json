@@ -1,0 +1,40 @@
+{
+  "slug": "quran-50-16",
+  "date": "2026-11-14",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "And We have already created man and know what his soul whispers to him, and We are closer to him than [his] jugular vein.\n\nSurah Qaf (50:16). Swipe through for the Arabic, then English, Mandarin, Korean and Japanese renderings.\n\nSources on the final slide.\n\n#Quran #IslamicReminder #Ayah #Deen #IslamicGuidance",
+  "tags": [
+    "Quran",
+    "IslamicReminder",
+    "Ayah",
+    "Deen",
+    "IslamicGuidance",
+    "MuslimReminder",
+    "QuranicVerses",
+    "Alhamdulillah"
+  ],
+  "theme": "chaste-54",
+  "slides": [
+    "quran-50-16.slide-01.json",
+    "quran-50-16.slide-02.json",
+    "quran-50-16.slide-03.json",
+    "quran-50-16.slide-04.json",
+    "quran-50-16.slide-05.json",
+    "quran-50-16.slide-06.json",
+    "quran-50-16.slide-07.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an, Surah Qaf (50), Ayah 16",
+    "arabic": "Uthmani script (quran-uthmani), api.alquran.cloud. Two independent live fetches this session (2026-11-14) of GET /v1/ayah/50:16/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese, HTTP 200 each, diffed: byte-identical. Verbatim: \"وَلَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ وَنَعْلَمُ مَا تُوَسْوِسُ بِهِۦ نَفْسُهُۥ ۖ وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ ٱلْوَرِيدِ\"",
+    "english": "Saheeh International (en.sahih). Verbatim: \"And We have already created man and know what his soul whispers to him, and We are closer to him than [his] jugular vein\"",
+    "chinese": "Ma Jian (zh.jian). Verbatim: \"我确已创造人，我知道他心中的妄想；我比他的命脉还近于他。\"",
+    "korean": "ko.korean; source metadata lists translator as 'Unknown', credited on-slide as not specified. Raw: \"하나님은 인간을 창조하사 인간의 마음속에 속삭이고 있는 것을 알고 있으며 인간의 목에 있 는 혈관보다 내가 더 인간에게 가 까이 있노라\". Spacing-only fixes: '있 는' -> '있는'; '가 까이' -> '가까이'. Whitespace-stripped text verified identical to raw. No wording changed.",
+    "japanese": "ja.japanese; source metadata lists translator as 'Unknown', cited as such. Verbatim: \"本当にわれは人間を創った。そしてその魂が囁くことも知っている。われは（人間の）脛動脈よりも人間に近いのである。\"",
+    "verification_note": "All renderings from two live api.alquran.cloud fetches this session, diffed identical; none from memory. Manual halal compliance check against scripts/data/compliance-policy.json blocklists: typography only, no imagery. Dupcheck against local daily/*/blankdiscussions meta files: quran:50:16 NEW (only 50:9 reel exists from surah 50; different ayah)."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-11-14/quran-50-16-slide-NN.png --props=daily/2026-11-14/blankdiscussions/quran-50-16.slide-NN.json",
+  "status": "sourced_pending_render"
+}
