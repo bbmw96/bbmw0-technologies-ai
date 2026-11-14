@@ -18262,6 +18262,307 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "python-named-after-monty-python-christmas-1989",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://docs.python.org/3/faq/general.html: read in full. Established that van Rossum started Python during the 1989 Christmas holidays, that he wanted a name short, unique and slightly mysterious, that he was reading the scripts of Monty Python's Flying Circus (a BBC comedy series from the 1970s), that he had experience implementing an interpreted language in the ABC group at CWI, and that he posted to Usenet in February 1991 after just over a year of development.",
+        "https://www.python.org/doc/essays/foreword/: read in full (van Rossum's 1996 foreword to Programming Python). Established December 1989 as a hobby project to keep him occupied in the week around Christmas, Python as a working title chosen in an irreverent mood as a big fan of Monty Python's Flying Circus, and Python as a descendant of ABC, a teaching language.",
+        "https://python-history.blogspot.com/2009/01/personal-history-part-1-cwi.html: read in full (van Rossum, 20 January 2009). Established late December 1989 as the start, that he picked the first thing that came to mind, that ABC gave him the key inspiration, and that he first released Python on 20 February 1991 in the alt.sources newsgroup.",
+        "https://en.wikipedia.org/wiki/History_of_Python: first about 39,900 characters read verbatim. Cross-checked the December 1989 start at CWI, the successor to ABC, the Monty Python naming and the 1991-02-20 release date in the version table."
+      ],
+      "verifiedNote": "Checked 14 Nov 2026. Not claimed: the version number of the first release (the blog post says 0.9.0, Wikipedia says 0.9.1), the 3 December 2008 date for Python 3.0 (one source only), any user numbers or ranking, and anything about the snake logo. The FAQ and foreword say Christmas holidays while the blog and Wikipedia say late December, so the beats say December 1989 and the week around Christmas.",
+      "palette": {
+        "bg": "#0A1018",
+        "ink": "#EEF3FA",
+        "accent": "#FFD43B",
+        "muted": "#7F8DA0"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The name",
+          "text": "Not named after the snake.",
+          "note": "Guido van Rossum named it after Monty Python's Flying Circus, a BBC comedy series from the 1970s. The official Python FAQ says so directly."
+        },
+        {
+          "kind": "statement",
+          "lead": "The start",
+          "text": "A holiday hobby, December 1989.",
+          "note": "He was looking for a hobby programming project to keep him occupied in the week around Christmas, as he wrote in his 1996 foreword to Programming Python."
+        },
+        {
+          "kind": "statement",
+          "lead": "The choice",
+          "text": "A working title, chosen in an irreverent mood.",
+          "note": "He wanted a name that was short, unique and slightly mysterious. He was reading the scripts of the show at the time."
+        },
+        {
+          "kind": "statement",
+          "lead": "The parent",
+          "text": "It descended from a teaching language.",
+          "note": "ABC was built by a group at CWI in the Netherlands, where van Rossum had worked. He says ABC gave him the key inspiration for Python."
+        },
+        {
+          "kind": "credit",
+          "year": "20 Feb 1991",
+          "name": "alt.sources",
+          "role": "The Usenet newsgroup where van Rossum first released Python to the world, just over a year after he began."
+        },
+        {
+          "kind": "kicker",
+          "text": "A holiday hobby, named after a comedy series."
+        },
+        {
+          "kind": "sign",
+          "line": "Start small.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "dewey-defeats-truman-strike-early-deadline-150000-1948",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dewey_Defeats_Truman: read in full. Established the headline ran on 3 November 1948, the day after the election, that some 150,000 copies had been printed before correction, that the paper went to press before most results were in, and that Truman held up a copy for photographers. Its account of the strike, the Washington correspondent and the 303 to 189 to 39 electoral vote was not used because other sources could not confirm it.",
+        "https://blogs.loc.gov/loc/2012/11/stop-the-presses/: read in full (Library of Congress blog, 6 November 2012). Established that a printers' strike forced editors to go to press hours before the normal time, that the Library holds a copy dated 3 November 1948, and the popular vote of 24,105,812 for Truman to 21,970,065 for Dewey.",
+        "https://www.wbez.org/stories/the-tribune-messes-upor-what-ever-happened-to-president-dewey/8a765b9a-7b6a-4d08-af0b-d38cd797e002: read in full (WBEZ, John R. Schmidt). Established that printers were on strike so the first edition had an earlier deadline, that first returns showed Dewey ahead, that the political correspondent assured the editor Dewey was in, that over 150,000 papers were on the street, that trucks were sent to retrieve them, and that Truman held up a copy for photographers, grinning broadly.",
+        "https://www.mentalfloss.com/article/30749/what-made-people-think-dewey-defeated-truman: read in full (Mental Floss, 23 May 2012). Corroborated the strike, the earlier press time, the 150,000 copies and that Truman was handed a copy as he travelled back to Washington."
+      ],
+      "verifiedNote": "Checked 14 Nov 2026. Not claimed: the reporter's name (Arthur Sears Henning appears on Wikipedia only), the Taft-Hartley explanation of the strike (Wikipedia only), the electoral vote (Wikipedia only), where and on which day Truman was photographed (WBEZ says the next day at St. Louis, Mental Floss says two days later, the Library of Congress gives neither), the wording of the replacement headline (sources differ), and the exact hour the paper went to press (the Library of Congress says before any polls closed, WBEZ says about 10 p.m.). The beats say only that the result was not yet clear.",
+      "palette": {
+        "bg": "#14100A",
+        "ink": "#F6EFE3",
+        "accent": "#E0B24D",
+        "muted": "#9A8D78"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The headline",
+          "text": "Printed before the result was clear.",
+          "note": "The Chicago Tribune, 3 November 1948, the morning after the US presidential election. The first edition went to press while only early returns were in."
+        },
+        {
+          "kind": "statement",
+          "lead": "The reason",
+          "text": "A strike moved the deadline.",
+          "note": "Printers were on strike, so the first edition had to be finished hours earlier than usual, according to the Library of Congress and WBEZ."
+        },
+        {
+          "kind": "statement",
+          "lead": "The call",
+          "text": "Early returns showed Dewey ahead.",
+          "note": "The paper's political correspondent assured the editor that Dewey was in, and the editor ordered the presses to roll."
+        },
+        {
+          "kind": "figure",
+          "value": "150",
+          "unit": "thousand",
+          "context": "Over 150,000 copies were already on the street when the Tribune had second thoughts. Trucks were sent out to collect them."
+        },
+        {
+          "kind": "statement",
+          "lead": "The result",
+          "text": "Truman won by more than two million votes.",
+          "note": "The popular vote was 24,105,812 to 21,970,065, according to the Library of Congress."
+        },
+        {
+          "kind": "credit",
+          "year": "Nov 1948",
+          "name": "Harry S. Truman",
+          "role": "On his way back to Washington, he was handed a copy and held it up for the photographers, grinning broadly."
+        },
+        {
+          "kind": "kicker",
+          "text": "The deadline was real. The certainty was not."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the clock.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "pluto-named-by-venetia-burney-oxford-1930",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Venetia_Burney: read in full. Established that she was 11 and grew up in North Oxford, that on 14 March 1930 her grandfather Falconer Madan, Librarian of the Bodleian Library, read the story of the discovery in The Times and mentioned it to her, that he forwarded her suggestion to astronomer Herbert Hall Turner, and that Turner cabled colleagues at Lowell Observatory.",
+        "https://www.mentalfloss.com/science/space/venetia-burney-11-year-old-girl-who-named-pluto: read in full. Established the breakfast on 14 March 1930, that her grandfather passed the name to Turner, the text of Turner's telegram, and that her grandfather gave her five pounds.",
+        "https://www.todayifoundout.com/?p=13339: read in full (2012). Corroborated the breakfast on 14 March 1930, Madan to Turner, the same telegram text, the five pounds from her grandfather, and the announcement of the discovery on 13 March 1930.",
+        "https://www.sbs.com.au/news/article/how-a-precocious-11-year-old-girl-gave-pluto-its-name/zxkfvbdb3: read in full (reprinted from The Washington Post). Corroborated her age of 11, the morning of 14 March 1930, the observatory in Arizona, the five pound note from her grandfather, and the world announcement of the discovery on 13 March 1930."
+      ],
+      "verifiedNote": "Checked 14 Nov 2026. Not claimed: her exact words (Mental Floss and Today I Found Out say she said Pluto would be a good name, SBS has a different wording), the date the name was adopted (Wikipedia and Today I Found Out say 1 May 1930, Mental Floss says the end of May), the unanimous Lowell vote (SBS only), Tombaugh's plate dates, and anything about Pluto's later reclassification. One reference title in Wikipedia says 12 years old, but the article text and three other sources say 11.",
+      "palette": {
+        "bg": "#0B0D1A",
+        "ink": "#EEF0FA",
+        "accent": "#9A8CFF",
+        "muted": "#7B80A6"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The name",
+          "text": "It did not come from an observatory.",
+          "note": "The planet was found at Lowell Observatory in Arizona. The name was suggested at a breakfast table in Oxford, England."
+        },
+        {
+          "kind": "statement",
+          "lead": "The day before",
+          "text": "The discovery was announced on 13 March 1930.",
+          "note": "The next morning, 14 March, Falconer Madan of the Bodleian Library read the story in The Times and mentioned it to his granddaughter."
+        },
+        {
+          "kind": "figure",
+          "value": "11",
+          "unit": "years old",
+          "context": "Venetia Burney's age when she suggested the name Pluto for the new planet."
+        },
+        {
+          "kind": "statement",
+          "lead": "The route",
+          "text": "Granddad told an astronomer.",
+          "note": "Madan passed her suggestion to Herbert Hall Turner, an astronomer and a friend of his."
+        },
+        {
+          "kind": "statement",
+          "lead": "The telegram",
+          "text": "Turner cabled it to Lowell Observatory.",
+          "note": "As reported by Mental Floss and Today I Found Out, it read: 'Naming new planet, please consider PLUTO, suggested by small girl Venetia Burney for dark and gloomy planet.'"
+        },
+        {
+          "kind": "credit",
+          "year": "1930",
+          "name": "Venetia Burney",
+          "role": "Her grandfather rewarded her with five pounds for the name."
+        },
+        {
+          "kind": "kicker",
+          "text": "Eleven years old. Five pounds. A world named."
+        },
+        {
+          "kind": "sign",
+          "line": "Ask the kid.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "javascript-mocha-livescript-java-name-1995",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://brendaneich.com/2008/04/popularity/: read in full (Brendan Eich, 2008). Established that he used the name Mocha for the prototype in early to mid May 1995, that Oak had been renamed Java and Netscape was negotiating with Sun to include it in Navigator, that management required the language to look like Java, that he called the Java influences unfortunate, and that the two languages served different audiences.",
+        "https://en.wikipedia.org/wiki/JavaScript: first about 40,000 characters read verbatim. Established LiveScript in a September 1995 beta, JavaScript for the December 1995 release (first appearance 4 December 1995), that Eich considered the name a marketing ploy by Netscape while Java was popular, that Java and JavaScript differ greatly in design, and that the trademark was originally issued to Sun on 6 May 1997 and moved to Oracle in 2009.",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/About_JavaScript: read. Established that JavaScript is not interpreted Java and that both names are trademarks or registered trademarks of Oracle."
+      ],
+      "verifiedNote": "Checked 14 Nov 2026. Not claimed: the popular ten day figure for the prototype (none of the pages read confirm it), who chose the name JavaScript, the reason for the name ECMAScript, and the Netscape and Sun announcement (the archived press release was blocked). The marketing ploy line is attributed to Wikipedia's account of Eich's view, not to a direct Eich quote that was read.",
+      "palette": {
+        "bg": "#100E0A",
+        "ink": "#F7F3E8",
+        "accent": "#F7DF1E",
+        "muted": "#938C78"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The name",
+          "text": "It was never meant to be JavaScript.",
+          "note": "Brendan Eich used the name Mocha for his prototype in early to mid May 1995. It shipped as LiveScript in a September 1995 beta, then became JavaScript for the December release."
+        },
+        {
+          "kind": "statement",
+          "lead": "The brief",
+          "text": "Management said it must look like Java.",
+          "note": "Netscape was negotiating with Sun to include Java in Navigator. Eich has called the Java influences unfortunate, and says the two languages served different audiences."
+        },
+        {
+          "kind": "statement",
+          "lead": "The rename",
+          "text": "Eich called the name a marketing ploy.",
+          "note": "According to Wikipedia, he considered the JavaScript name a marketing ploy by Netscape, at a time when Java was popular."
+        },
+        {
+          "kind": "statement",
+          "lead": "The difference",
+          "text": "They are different languages.",
+          "note": "Java and JavaScript are similar in name and syntax but differ greatly in design. MDN is blunt about it: JavaScript is not interpreted Java."
+        },
+        {
+          "kind": "credit",
+          "year": "4 Dec 1995",
+          "name": "JavaScript",
+          "role": "The first appearance date Wikipedia gives for the language under its new name."
+        },
+        {
+          "kind": "credit",
+          "year": "6 May 1997",
+          "name": "Sun Microsystems",
+          "role": "The JavaScript trademark was originally issued to Sun. It moved to Oracle in 2009."
+        },
+        {
+          "kind": "kicker",
+          "text": "Mocha, LiveScript, JavaScript. Three names in one year."
+        },
+        {
+          "kind": "sign",
+          "line": "Names stick.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "drucker-what-gets-measured-gets-managed-misattributed",
+      "niche": "productivity",
+      "verified": false,
+      "reviewNote": "DRAFT. Two secondary sources (Ness Labs, Centre for Public Impact on Medium) say Drucker never said it and trace the idea to V. F. Ridgway, 1956. Still needed: the Drucker Institute or Quote Investigator page (both blocked or unreachable this run), Ridgway 1956 itself (DOI 10.2307/2390989) to see whether the idea is there, and the earliest dated appearance of the exact phrase (Paul L. Brown 1982 uses a variant per Barry Popik). Simon Caulkin, Observer, 10 February 2008, wrote the full sentence about it being pointless to measure and manage, read only via a reproduction. Do not mark verified until a primary or reference source confirms Drucker did not say it.",
+      "sources": [
+        "https://nesslabs.com/what-gets-measured-gets-managed: read in full (2021). Says Drucker never said it, cites The Effective Executive for the view that knowledge work cannot be measured as manual work can, links Ridgway 1956, and attributes the full sentence to Caulkin 2008.",
+        "https://medium.com/centre-for-public-impact/what-gets-measured-gets-managed-its-wrong-and-drucker-never-said-it-fe95886d3df6: read in full. Says the Drucker Institute states he never said it (not quoted), and that Caulkin summarised Ridgway.",
+        "https://demingcircle.blogspot.com/2008/02/rule-is-simple-be-careful-what-you.html?m=0: read in full. A reproduction of Caulkin's Observer column of 10 February 2008, not the original. Established his wording and that he paraphrases Ridgway 1956.",
+        "https://barrypopik.com/blog/what_gets_measured_gets_managed: read in full. Established that attributions to Drucker and Deming are common and secondary, and listed a 1982 Paul L. Brown variant. No origin found."
+      ],
+      "verifiedNote": "Draft only. Nothing here is cleared for publishing.",
+      "palette": {
+        "bg": "#0E1210",
+        "ink": "#EFF4F0",
+        "accent": "#7BD88F",
+        "muted": "#7F9186"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The quote",
+          "text": "Drucker is not the source.",
+          "note": "Both Ness Labs and the Centre for Public Impact say Peter Drucker never said it. Still to confirm against the Drucker Institute."
+        },
+        {
+          "kind": "statement",
+          "lead": "The lead",
+          "text": "The idea points to a 1956 paper.",
+          "note": "V. F. Ridgway wrote about the dysfunctional consequences of performance measurements. Whether the phrase itself is in the paper is still to confirm."
+        },
+        {
+          "kind": "statement",
+          "lead": "The sentence",
+          "text": "The long version is a columnist's.",
+          "note": "Simon Caulkin wrote in The Observer on 10 February 2008: what gets measured gets managed, even when it is pointless to measure and manage it."
+        },
+        {
+          "kind": "kicker",
+          "text": "Measure the right thing, or the wrong thing wins."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the source.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
