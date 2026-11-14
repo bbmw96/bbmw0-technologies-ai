@@ -376,7 +376,10 @@
     "reel:flickr-game-neverending-vote-by-one-2004",
     "reel:millennium-bridge-wobble-footsteps-consequence-2000",
     "reel:nokia-tune-gran-vals-bars-13-16-1994",
-    "reel:brooks-law-mythical-man-month-1975"
+    "reel:brooks-law-mythical-man-month-1975",
+    "reel:python-named-after-monty-python-christmas-1989",
+    "reel:javascript-mocha-livescript-java-name-1995",
+    "reel:pluto-named-by-venetia-burney-oxford-1930"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -6568,6 +6571,57 @@
       "youtubeId": "jnP9phTRSy4",
       "youtubeUrl": "https://youtu.be/jnP9phTRSy4",
       "uploadedAt": "2026-11-13T16:53:06.859Z",
+      "privacy": "public"
+    },
+    {
+      "id": "python-named-after-monty-python-christmas-1989",
+      "date": "2026-11-14",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Not named after the snake.",
+      "description": "Not named after the snake. Guido van Rossum named it after Monty Python's Flying Circus, a BBC comedy series from the 1970s. The official Python FAQ says so directly.\n\nA holiday hobby, December 1989. He was looking for a hobby programming project to keep him occupied in the week around Christmas, as he wrote in his 1996 foreword to Programming Python.\n\nA working title, chosen in an irreverent mood. He wanted a name that was short, unique and slightly mysterious. He was reading the scripts of the show at the time.\n\nIt descended from a teaching language. ABC was built by a group at CWI in the Netherlands, where van Rossum had worked. He says ABC gave him the key inspiration for Python.\n\nThe Usenet newsgroup where van Rossum first released Python to the world, just over a year after he began.\n\nA holiday hobby, named after a comedy series.\n\nSources:\n- https://docs.python.org/3/faq/general.html: read in full. Established that van Rossum started Python during the 1989 Christmas holidays, that he wanted a name short, unique and slightly mysterious, that he was reading the scripts of Monty Python's Flying Circus (a BBC comedy series from the 1970s), that he had experience implementing an interpreted language in the ABC group at CWI, and that he posted to Usenet in February 1991 after just over a year of development.\n- https://www.python.org/doc/essays/foreword/: read in full (van Rossum's 1996 foreword to Programming Python). Established December 1989 as a hobby project to keep him occupied in the week around Christmas, Python as a working title chosen in an irreverent mood as a big fan of Monty Python's Flying Circus, and Python as a descendant of ABC, a teaching language.\n- https://python-history.blogspot.com/2009/01/personal-history-part-1-cwi.html: read in full (van Rossum, 20 January 2009). Established late December 1989 as the start, that he picked the first thing that came to mind, that ABC gave him the key inspiration, and that he first released Python on 20 February 1991 in the alt.sources newsgroup.\n- https://en.wikipedia.org/wiki/History_of_Python: first about 39,900 characters read verbatim. Cross-checked the December 1989 start at CWI, the successor to ABC, the Monty Python naming and the 1991-02-20 release date in the version table.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "zKlISIPKRcg",
+      "youtubeUrl": "https://youtu.be/zKlISIPKRcg",
+      "uploadedAt": "2026-11-14T15:32:17.762Z",
+      "privacy": "public"
+    },
+    {
+      "id": "javascript-mocha-livescript-java-name-1995",
+      "date": "2026-11-14",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It was never meant to be JavaScript.",
+      "description": "It was never meant to be JavaScript. Brendan Eich used the name Mocha for his prototype in early to mid May 1995. It shipped as LiveScript in a September 1995 beta, then became JavaScript for the December release.\n\nManagement said it must look like Java. Netscape was negotiating with Sun to include Java in Navigator. Eich has called the Java influences unfortunate, and says the two languages served different audiences.\n\nEich called the name a marketing ploy. According to Wikipedia, he considered the JavaScript name a marketing ploy by Netscape, at a time when Java was popular.\n\nThey are different languages. Java and JavaScript are similar in name and syntax but differ greatly in design. MDN is blunt about it: JavaScript is not interpreted Java.\n\nThe first appearance date Wikipedia gives for the language under its new name.\n\nThe JavaScript trademark was originally issued to Sun. It moved to Oracle in 2009.\n\nMocha, LiveScript, JavaScript. Three names in one year.\n\nSources:\n- https://brendaneich.com/2008/04/popularity/: read in full (Brendan Eich, 2008). Established that he used the name Mocha for the prototype in early to mid May 1995, that Oak had been renamed Java and Netscape was negotiating with Sun to include it in Navigator, that management required the language to look like Java, that he called the Java influences unfortunate, and that the two languages served different audiences.\n- https://en.wikipedia.org/wiki/JavaScript: first about 40,000 characters read verbatim. Established LiveScript in a September 1995 beta, JavaScript for the December 1995 release (first appearance 4 December 1995), that Eich considered the name a marketing ploy by Netscape while Java was popular, that Java and JavaScript differ greatly in design, and that the trademark was originally issued to Sun on 6 May 1997 and moved to Oracle in 2009.\n- https://developer.mozilla.org/en-US/docs/Web/JavaScript/About_JavaScript: read. Established that JavaScript is not interpreted Java and that both names are trademarks or registered trademarks of Oracle.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "cPJZ07Pd5rU",
+      "youtubeUrl": "https://youtu.be/cPJZ07Pd5rU",
+      "uploadedAt": "2026-11-14T15:28:11.164Z",
+      "privacy": "public"
+    },
+    {
+      "id": "pluto-named-by-venetia-burney-oxford-1930",
+      "date": "2026-11-14",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It did not come from an observatory.",
+      "description": "It did not come from an observatory. The planet was found at Lowell Observatory in Arizona. The name was suggested at a breakfast table in Oxford, England.\n\nThe discovery was announced on 13 March 1930. The next morning, 14 March, Falconer Madan of the Bodleian Library read the story in The Times and mentioned it to his granddaughter.\n\nVenetia Burney's age when she suggested the name Pluto for the new planet.\n\nGranddad told an astronomer. Madan passed her suggestion to Herbert Hall Turner, an astronomer and a friend of his.\n\nTurner cabled it to Lowell Observatory. As reported by Mental Floss and Today I Found Out, it read: 'Naming new planet, please consider PLUTO, suggested by small girl Venetia Burney for dark and gloomy planet.'\n\nHer grandfather rewarded her with five pounds for the name.\n\nEleven years old. Five pounds. A world named.\n\nSources:\n- https://en.wikipedia.org/wiki/Venetia_Burney: read in full. Established that she was 11 and grew up in North Oxford, that on 14 March 1930 her grandfather Falconer Madan, Librarian of the Bodleian Library, read the story of the discovery in The Times and mentioned it to her, that he forwarded her suggestion to astronomer Herbert Hall Turner, and that Turner cabled colleagues at Lowell Observatory.\n- https://www.mentalfloss.com/science/space/venetia-burney-11-year-old-girl-who-named-pluto: read in full. Established the breakfast on 14 March 1930, that her grandfather passed the name to Turner, the text of Turner's telegram, and that her grandfather gave her five pounds.\n- https://www.todayifoundout.com/?p=13339: read in full (2012). Corroborated the breakfast on 14 March 1930, Madan to Turner, the same telegram text, the five pounds from her grandfather, and the announcement of the discovery on 13 March 1930.\n- https://www.sbs.com.au/news/article/how-a-precocious-11-year-old-girl-gave-pluto-its-name/zxkfvbdb3: read in full (reprinted from The Washington Post). Corroborated her age of 11, the morning of 14 March 1930, the observatory in Arizona, the five pound note from her grandfather, and the world announcement of the discovery on 13 March 1930.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "Nfv9vanhLxY",
+      "youtubeUrl": "https://youtu.be/Nfv9vanhLxY",
+      "uploadedAt": "2026-11-14T15:30:13.850Z",
       "privacy": "public"
     }
   ]

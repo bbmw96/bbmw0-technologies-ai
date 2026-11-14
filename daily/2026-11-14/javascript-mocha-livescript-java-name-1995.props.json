@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (javascript-mocha-livescript-java-name-1995)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#100E0A",
+    "ink": "#F7F3E8",
+    "accent": "#F7DF1E",
+    "muted": "#938C78"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The name",
+      "text": "It was never meant to be JavaScript.",
+      "note": "Brendan Eich used the name Mocha for his prototype in early to mid May 1995. It shipped as LiveScript in a September 1995 beta, then became JavaScript for the December release.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The brief",
+      "text": "Management said it must look like Java.",
+      "note": "Netscape was negotiating with Sun to include Java in Navigator. Eich has called the Java influences unfortunate, and says the two languages served different audiences.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The rename",
+      "text": "Eich called the name a marketing ploy.",
+      "note": "According to Wikipedia, he considered the JavaScript name a marketing ploy by Netscape, at a time when Java was popular.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "statement",
+      "lead": "The difference",
+      "text": "They are different languages.",
+      "note": "Java and JavaScript are similar in name and syntax but differ greatly in design. MDN is blunt about it: JavaScript is not interpreted Java.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "credit",
+      "year": "4 Dec 1995",
+      "name": "JavaScript",
+      "role": "The first appearance date Wikipedia gives for the language under its new name.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "credit",
+      "year": "6 May 1997",
+      "name": "Sun Microsystems",
+      "role": "The JavaScript trademark was originally issued to Sun. It moved to Oracle in 2009.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "kicker",
+      "text": "Mocha, LiveScript, JavaScript. Three names in one year.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Names stick.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

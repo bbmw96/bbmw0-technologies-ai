@@ -1,0 +1,25 @@
+{
+  "slug": "javascript-mocha-livescript-java-name-1995",
+  "date": "2026-11-14",
+  "title": "It was never meant to be JavaScript.",
+  "description": "It was never meant to be JavaScript. Brendan Eich used the name Mocha for his prototype in early to mid May 1995. It shipped as LiveScript in a September 1995 beta, then became JavaScript for the December release.\n\nManagement said it must look like Java. Netscape was negotiating with Sun to include Java in Navigator. Eich has called the Java influences unfortunate, and says the two languages served different audiences.\n\nEich called the name a marketing ploy. According to Wikipedia, he considered the JavaScript name a marketing ploy by Netscape, at a time when Java was popular.\n\nThey are different languages. Java and JavaScript are similar in name and syntax but differ greatly in design. MDN is blunt about it: JavaScript is not interpreted Java.\n\nThe first appearance date Wikipedia gives for the language under its new name.\n\nThe JavaScript trademark was originally issued to Sun. It moved to Oracle in 2009.\n\nMocha, LiveScript, JavaScript. Three names in one year.\n\nSources:\n- https://brendaneich.com/2008/04/popularity/: read in full (Brendan Eich, 2008). Established that he used the name Mocha for the prototype in early to mid May 1995, that Oak had been renamed Java and Netscape was negotiating with Sun to include it in Navigator, that management required the language to look like Java, that he called the Java influences unfortunate, and that the two languages served different audiences.\n- https://en.wikipedia.org/wiki/JavaScript: first about 40,000 characters read verbatim. Established LiveScript in a September 1995 beta, JavaScript for the December 1995 release (first appearance 4 December 1995), that Eich considered the name a marketing ploy by Netscape while Java was popular, that Java and JavaScript differ greatly in design, and that the trademark was originally issued to Sun on 6 May 1997 and moved to Oracle in 2009.\n- https://developer.mozilla.org/en-US/docs/Web/JavaScript/About_JavaScript: read. Established that JavaScript is not interpreted Java and that both names are trademarks or registered trademarks of Oracle.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-14-javascript-mocha-livescript-java-name-1995.mp4",
+  "propsFile": "daily/2026-11-14/javascript-mocha-livescript-java-name-1995.props.json",
+  "durationInFrames": 1264,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-11-14 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- javascript-mocha-livescript-java-name-1995 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-14-javascript-mocha-livescript-java-name-1995.mp4
+  uploaded public: https://youtu.be/cPJZ07Pd5rU
+
+--- pluto-named-by-venetia-burney-oxford-1930 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-14-pluto-named-by-venetia-burney-oxford-1930.mp4
+  uploaded public: https://youtu.be/Nfv9vanhLxY
+
+--- python-named-after-monty-python-christmas-1989 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-14-python-named-after-monty-python-christmas-1989.mp4
+  uploaded public: https://youtu.be/zKlISIPKRcg
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

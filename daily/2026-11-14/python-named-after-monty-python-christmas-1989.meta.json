@@ -1,0 +1,25 @@
+{
+  "slug": "python-named-after-monty-python-christmas-1989",
+  "date": "2026-11-14",
+  "title": "Not named after the snake.",
+  "description": "Not named after the snake. Guido van Rossum named it after Monty Python's Flying Circus, a BBC comedy series from the 1970s. The official Python FAQ says so directly.\n\nA holiday hobby, December 1989. He was looking for a hobby programming project to keep him occupied in the week around Christmas, as he wrote in his 1996 foreword to Programming Python.\n\nA working title, chosen in an irreverent mood. He wanted a name that was short, unique and slightly mysterious. He was reading the scripts of the show at the time.\n\nIt descended from a teaching language. ABC was built by a group at CWI in the Netherlands, where van Rossum had worked. He says ABC gave him the key inspiration for Python.\n\nThe Usenet newsgroup where van Rossum first released Python to the world, just over a year after he began.\n\nA holiday hobby, named after a comedy series.\n\nSources:\n- https://docs.python.org/3/faq/general.html: read in full. Established that van Rossum started Python during the 1989 Christmas holidays, that he wanted a name short, unique and slightly mysterious, that he was reading the scripts of Monty Python's Flying Circus (a BBC comedy series from the 1970s), that he had experience implementing an interpreted language in the ABC group at CWI, and that he posted to Usenet in February 1991 after just over a year of development.\n- https://www.python.org/doc/essays/foreword/: read in full (van Rossum's 1996 foreword to Programming Python). Established December 1989 as a hobby project to keep him occupied in the week around Christmas, Python as a working title chosen in an irreverent mood as a big fan of Monty Python's Flying Circus, and Python as a descendant of ABC, a teaching language.\n- https://python-history.blogspot.com/2009/01/personal-history-part-1-cwi.html: read in full (van Rossum, 20 January 2009). Established late December 1989 as the start, that he picked the first thing that came to mind, that ABC gave him the key inspiration, and that he first released Python on 20 February 1991 in the alt.sources newsgroup.\n- https://en.wikipedia.org/wiki/History_of_Python: first about 39,900 characters read verbatim. Cross-checked the December 1989 start at CWI, the successor to ABC, the Monty Python naming and the 1991-02-20 release date in the version table.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-14-python-named-after-monty-python-christmas-1989.mp4",
+  "propsFile": "daily/2026-11-14/python-named-after-monty-python-christmas-1989.props.json",
+  "durationInFrames": 1188,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

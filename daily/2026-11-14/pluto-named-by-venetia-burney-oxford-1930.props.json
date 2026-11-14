@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (pluto-named-by-venetia-burney-oxford-1930)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0D1A",
+    "ink": "#EEF0FA",
+    "accent": "#9A8CFF",
+    "muted": "#7B80A6"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The name",
+      "text": "It did not come from an observatory.",
+      "note": "The planet was found at Lowell Observatory in Arizona. The name was suggested at a breakfast table in Oxford, England.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "statement",
+      "lead": "The day before",
+      "text": "The discovery was announced on 13 March 1930.",
+      "note": "The next morning, 14 March, Falconer Madan of the Bodleian Library read the story in The Times and mentioned it to his granddaughter.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "11",
+      "unit": "years old",
+      "context": "Venetia Burney's age when she suggested the name Pluto for the new planet.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "statement",
+      "lead": "The route",
+      "text": "Granddad told an astronomer.",
+      "note": "Madan passed her suggestion to Herbert Hall Turner, an astronomer and a friend of his.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "lead": "The telegram",
+      "text": "Turner cabled it to Lowell Observatory.",
+      "note": "As reported by Mental Floss and Today I Found Out, it read: 'Naming new planet, please consider PLUTO, suggested by small girl Venetia Burney for dark and gloomy planet.'",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1930",
+      "name": "Venetia Burney",
+      "role": "Her grandfather rewarded her with five pounds for the name.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "kicker",
+      "text": "Eleven years old. Five pounds. A world named.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Ask the kid.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

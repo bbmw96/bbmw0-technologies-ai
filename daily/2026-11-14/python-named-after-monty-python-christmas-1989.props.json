@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (python-named-after-monty-python-christmas-1989)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A1018",
+    "ink": "#EEF3FA",
+    "accent": "#FFD43B",
+    "muted": "#7F8DA0"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The name",
+      "text": "Not named after the snake.",
+      "note": "Guido van Rossum named it after Monty Python's Flying Circus, a BBC comedy series from the 1970s. The official Python FAQ says so directly.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "lead": "The start",
+      "text": "A holiday hobby, December 1989.",
+      "note": "He was looking for a hobby programming project to keep him occupied in the week around Christmas, as he wrote in his 1996 foreword to Programming Python.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The choice",
+      "text": "A working title, chosen in an irreverent mood.",
+      "note": "He wanted a name that was short, unique and slightly mysterious. He was reading the scripts of the show at the time.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "The parent",
+      "text": "It descended from a teaching language.",
+      "note": "ABC was built by a group at CWI in the Netherlands, where van Rossum had worked. He says ABC gave him the key inspiration for Python.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "20 Feb 1991",
+      "name": "alt.sources",
+      "role": "The Usenet newsgroup where van Rossum first released Python to the world, just over a year after he began.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "kicker",
+      "text": "A holiday hobby, named after a comedy series.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Start small.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
