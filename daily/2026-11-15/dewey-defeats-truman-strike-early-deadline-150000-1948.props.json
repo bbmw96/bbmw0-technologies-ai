@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (dewey-defeats-truman-strike-early-deadline-150000-1948)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#14100A",
+    "ink": "#F6EFE3",
+    "accent": "#E0B24D",
+    "muted": "#9A8D78"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The headline",
+      "text": "Printed before the result was clear.",
+      "note": "The Chicago Tribune, 3 November 1948, the morning after the US presidential election. The first edition went to press while only early returns were in.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The reason",
+      "text": "A strike moved the deadline.",
+      "note": "Printers were on strike, so the first edition had to be finished hours earlier than usual, according to the Library of Congress and WBEZ.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "lead": "The call",
+      "text": "Early returns showed Dewey ahead.",
+      "note": "The paper's political correspondent assured the editor that Dewey was in, and the editor ordered the presses to roll.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "figure",
+      "value": "150",
+      "unit": "thousand",
+      "context": "Over 150,000 copies were already on the street when the Tribune had second thoughts. Trucks were sent out to collect them.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "The result",
+      "text": "Truman won by more than two million votes.",
+      "note": "The popular vote was 24,105,812 to 21,970,065, according to the Library of Congress.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "credit",
+      "year": "Nov 1948",
+      "name": "Harry S. Truman",
+      "role": "On his way back to Washington, he was handed a copy and held it up for the photographers, grinning broadly.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "kicker",
+      "text": "The deadline was real. The certainty was not.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Check the clock.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

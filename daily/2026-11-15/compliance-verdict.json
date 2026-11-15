@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T15:59:16.131Z",
+  "policyVersion": "1.0.0",
+  "strictMode": false,
+  "allowed": [],
+  "blocked": [
+    "dewey-defeats-truman-strike-early-deadline-150000-1948"
+  ],
+  "results": [
+    {
+      "slug": "dewey-defeats-truman-strike-early-deadline-150000-1948",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "BLOCK",
+      "title": "Printed before the result was clear.",
+      "niche": "history",
+      "blocks": [
+        {
+          "severity": "BLOCK",
+          "rule": "safety.hard_banned",
+          "message": "Prohibited term \"election\" appears in the video text or metadata.",
+          "detail": {
+            "term": "election"
+          }
+        },
+        {
+          "severity": "BLOCK",
+          "rule": "safety.hard_banned",
+          "message": "Prohibited term \"congress\" appears in the video text or metadata.",
+          "detail": {
+            "term": "congress"
+          }
+        },
+        {
+          "severity": "BLOCK",
+          "rule": "safety.hard_banned",
+          "message": "Prohibited term \"president\" appears in the video text or metadata.",
+          "detail": {
+            "term": "president"
+          }
+        }
+      ],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.115,
+        "worstTitleAgainst": "dropbox-demo-video-digg-75000-2007",
+        "worstDescriptionSimilarity": 0.267,
+        "combo": "reel:#14100A:#E0B24D:#F6EFE3",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    }
+  ]
+}
