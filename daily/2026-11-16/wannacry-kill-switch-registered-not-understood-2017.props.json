@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (wannacry-kill-switch-registered-not-understood-2017)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#100A0B",
+    "ink": "#F8EEEE",
+    "accent": "#FF5A5A",
+    "muted": "#9A8083"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "He knew exactly what he was stopping.",
+      "note": "Marcus Hutchins says on his own blog that he registered the domain as a routine sinkhole. He still did not know much about what it was for.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The switch",
+      "text": "The malware asked if a web address existed.",
+      "note": "If the unregistered domain could not be reached, it encrypted files. Once it was registered, spread halted at 15:03 UTC on 12 May 2017, according to Wikipedia. Machines already infected stayed locked.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "59",
+      "unit": "days",
+      "context": "Between Microsoft's MS17-010 patch on 14 March 2017 and the attack on 12 May. Wikipedia says patches existed for all then supported versions of Windows.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "The tool",
+      "text": "The exploit was reportedly the NSA's.",
+      "note": "Wikipedia says EternalBlue was developed by the US National Security Agency and was likely stolen from it. The Shadow Brokers published it about a month before the attack.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The NHS",
+      "text": "At least 81 of 236 trusts were hit.",
+      "note": "The National Audit Office identified 6,912 cancelled appointments, and NHS England estimated over 19,000 in total. Five A&E departments diverted patients. No NHS organisation paid the ransom.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The twist",
+      "text": "He now doubts it was a kill switch.",
+      "note": "Hutchins later wrote that he believes it was a badly thought out anti-analysis check. Sandboxes answer every lookup, so the malware would exit when the domain seemed to resolve.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "One routine registration slowed a global attack.",
+      "durationInFrames": 64
+    },
+    {
+      "kind": "sign",
+      "line": "Patch early.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (morris-worm-replication-flaw-1988)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A100C",
+    "ink": "#EDF5EE",
+    "accent": "#5CF28A",
+    "muted": "#7F9486"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "It did not destroy anything.",
+      "note": "The MIT team that took it apart found it did not destroy or attempt to destroy data, left no time bombs and almost never gained root. Morris said he never meant it to be actively destructive. It was released on 2 November 1988.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The flaw",
+      "text": "One rule made it unstoppable.",
+      "note": "According to Wikipedia, Morris coded the worm to copy itself whether or not a machine was already infected. His reasoning was a belief that administrators might report false positives.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "14",
+      "unit": "per cent",
+      "context": "How often the worm copied itself onto a machine regardless of infection, according to Wikipedia. Repeat infections acted as a fork bomb.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "statement",
+      "lead": "The giveaway",
+      "text": "It was too good at spreading.",
+      "note": "Reinfection drove up the load on machines and got it noticed. The MIT analysis says it spread much faster than its author expected, and was noticed for that very reason.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The number",
+      "text": "Ten per cent of the internet was a guess.",
+      "note": "As Wikipedia gives Paul Graham's account, someone guessed there were about 60,000 computers online and that the worm might have hit ten per cent. Reports usually say around 6,000 machines. Cliff Stoll said only a couple of thousand.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1986",
+      "name": "Computer Fraud and Abuse Act",
+      "role": "Morris became the first person convicted of a felony under it. After appeals: three years' probation, 400 hours of community service and a $10,050 fine.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "kicker",
+      "text": "It was noticed because it worked too well.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Test small.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

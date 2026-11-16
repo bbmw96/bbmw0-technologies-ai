@@ -1,0 +1,25 @@
+{
+  "slug": "morris-worm-replication-flaw-1988",
+  "date": "2026-11-16",
+  "title": "The popular version. It did not destroy anything.",
+  "description": "It did not destroy anything. The MIT team that took it apart found it did not destroy or attempt to destroy data, left no time bombs and almost never gained root. Morris said he never meant it to be actively destructive. It was released on 2 November 1988.\n\nOne rule made it unstoppable. According to Wikipedia, Morris coded the worm to copy itself whether or not a machine was already infected. His reasoning was a belief that administrators might report false positives.\n\nHow often the worm copied itself onto a machine regardless of infection, according to Wikipedia. Repeat infections acted as a fork bomb.\n\nIt was too good at spreading. Reinfection drove up the load on machines and got it noticed. The MIT analysis says it spread much faster than its author expected, and was noticed for that very reason.\n\nTen per cent of the internet was a guess. As Wikipedia gives Paul Graham's account, someone guessed there were about 60,000 computers online and that the worm might have hit ten per cent. Reports usually say around 6,000 machines. Cliff Stoll said only a couple of thousand.\n\nMorris became the first person convicted of a felony under it. After appeals: three years' probation, 400 hours of community service and a $10,050 fine.\n\nIt was noticed because it worked too well.\n\nSources:\n- https://en.wikipedia.org/wiki/Morris_worm: first about 40,000 characters read verbatim. Established the 2 November 1988 date, that Robert Tappan Morris was a Cornell graduate student, that he said he did not intend it to be actively destructive, that it was coded to copy itself 14 per cent of the time whether or not a machine was already infected (reasoning given: administrators might report false positives), that repeat infections acted like a fork bomb, the 60,000 computers and ten per cent guess attributed to Paul Graham, the usually reported 6,000 UNIX machines, Cliff Stoll's couple of thousand, and that Morris was the first felony conviction under the 1986 Computer Fraud and Abuse Act, with a sentence of three years' probation, 400 hours of community service and a $10,050 fine.\n- https://people.eecs.berkeley.edu/~daw/teaching/cs261-f98/papers/internet_worm.txt: first about 40,000 of 113,000 characters read verbatim (Eichin and Rochlis, MIT, 'With Microscope and Tweezers', dated 9 February 1989). Established that the worm did not destroy or attempt to destroy data, left no time bombs and almost never gained root, that reinfection drove up load and got it noticed, that it spread much faster than its author expected and was noticed for that reason, and that about 60,000 was the size of the Internet then, not the infected count.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-16-morris-worm-replication-flaw-1988.mp4",
+  "propsFile": "daily/2026-11-16/morris-worm-replication-flaw-1988.props.json",
+  "durationInFrames": 1426,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

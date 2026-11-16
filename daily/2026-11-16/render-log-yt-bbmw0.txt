@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-11-16 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- airbnb-obama-os-cereal-boxes-2008 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-16-airbnb-obama-os-cereal-boxes-2008.mp4
+  uploaded public: https://youtu.be/rToyvWBijKc
+
+--- morris-worm-replication-flaw-1988 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-16-morris-worm-replication-flaw-1988.mp4
+  uploaded public: https://youtu.be/cxFAMU_msdM
+
+--- wannacry-kill-switch-registered-not-understood-2017 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-16-wannacry-kill-switch-registered-not-understood-2017.mp4
+  uploaded public: https://youtu.be/pCNHMC6zpNY
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

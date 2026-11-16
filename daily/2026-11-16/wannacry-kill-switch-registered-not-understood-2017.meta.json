@@ -1,0 +1,25 @@
+{
+  "slug": "wannacry-kill-switch-registered-not-understood-2017",
+  "date": "2026-11-16",
+  "title": "The popular version. He knew exactly what he was stopping.",
+  "description": "He knew exactly what he was stopping. Marcus Hutchins says on his own blog that he registered the domain as a routine sinkhole. He still did not know much about what it was for.\n\nThe malware asked if a web address existed. If the unregistered domain could not be reached, it encrypted files. Once it was registered, spread halted at 15:03 UTC on 12 May 2017, according to Wikipedia. Machines already infected stayed locked.\n\nBetween Microsoft's MS17-010 patch on 14 March 2017 and the attack on 12 May. Wikipedia says patches existed for all then supported versions of Windows.\n\nThe exploit was reportedly the NSA's. Wikipedia says EternalBlue was developed by the US National Security Agency and was likely stolen from it. The Shadow Brokers published it about a month before the attack.\n\nAt least 81 of 236 trusts were hit. The National Audit Office identified 6,912 cancelled appointments, and NHS England estimated over 19,000 in total. Five A&E departments diverted patients. No NHS organisation paid the ransom.\n\nHe now doubts it was a kill switch. Hutchins later wrote that he believes it was a badly thought out anti-analysis check. Sandboxes answer every lookup, so the malware would exit when the domain seemed to resolve.\n\nOne routine registration slowed a global attack.\n\nSources:\n- https://malwaretech.com/2017/05/how-to-accidentally-stop-a-global-cyber-attacks.html: read in full (Marcus Hutchins, published 13 May 2017). Established that he registered the domain as one of routine sinkhole registrations, that he did not yet know what it was for, that the malware ransomed a system if the connection failed and exited if it succeeded, and that he now believes it was a badly thought out anti-analysis check because sandboxes answer every lookup.\n- https://en.wikipedia.org/wiki/WannaCry_ransomware_attack: first about 40,000 of 84,000 characters read verbatim. Established the 07:45 UTC Friday 12 May 2017 start, that the malware only encrypted files if it could not reach the domain, that registration stopped spread but did not help machines already infected, a halt at 15:03 UTC, MS17-010 issued on 14 March 2017, EternalBlue described as developed by the NSA and likely stolen from it, and the Shadow Brokers leak about a month before the attack.\n- https://www.nao.org.uk/reports/investigation-wannacry-cyber-attack-and-the-nhs/: read in full (National Audit Office, 27 October 2017). Established at least 81 of 236 trusts in England affected, 6,912 appointments identified as cancelled and an NHS England estimate of over 19,000 in total, five A&E departments diverting patients, and that no NHS organisation paid the ransom.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-16-wannacry-kill-switch-registered-not-understood-2017.mp4",
+  "propsFile": "daily/2026-11-16/wannacry-kill-switch-registered-not-understood-2017.props.json",
+  "durationInFrames": 1444,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (airbnb-obama-os-cereal-boxes-2008)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#120C0D",
+    "ink": "#FBF1F1",
+    "accent": "#FF5A5F",
+    "muted": "#9E8588"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The start",
+      "text": "It began with air mattresses in 2007.",
+      "note": "Brian Chesky and Joe Gebbia rented out space in their San Francisco apartment during a design conference, charging $80 a night, to help pay their rent.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The name",
+      "text": "It was called AirBed & Breakfast.",
+      "note": "The site, airbedandbreakfast.com, launched on 11 August 2008. It was shortened to Airbnb in March 2009 to eliminate confusion over air mattresses.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "The cereal",
+      "text": "They sold political cereal at the 2008 conventions.",
+      "note": "Obama O's and Cap'n McCain's, sold mostly at the Democratic National Convention, according to Wikipedia. ProductHabits says roughly 500 boxes of each were made, planned at $40 a box.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "30,000",
+      "unit": "dollars",
+      "context": "The sum reported as raised by selling cereal. Wikipedia, Benzinga and ProductHabits all give it, though none quotes the founders directly.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "The pitch",
+      "text": "Paul Graham doubted anyone would use it.",
+      "note": "ProductHabits says he was sceptical but backed the founders themselves. Y Combinator took them on in January 2009 for $20,000 and a 6 per cent stake, per Wikipedia.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "Mar 2009",
+      "name": "Airbnb",
+      "role": "The shortened name, by which point the site had 10,000 users and 2,500 listings, according to Wikipedia.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "kicker",
+      "text": "Cereal boxes first. Then 10,000 users.",
+      "durationInFrames": 60
+    },
+    {
+      "kind": "sign",
+      "line": "Sell something.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
