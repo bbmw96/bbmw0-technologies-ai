@@ -18563,6 +18563,261 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "morris-worm-replication-flaw-1988",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Morris_worm: first about 40,000 characters read verbatim. Established the 2 November 1988 date, that Robert Tappan Morris was a Cornell graduate student, that he said he did not intend it to be actively destructive, that it was coded to copy itself 14 per cent of the time whether or not a machine was already infected (reasoning given: administrators might report false positives), that repeat infections acted like a fork bomb, the 60,000 computers and ten per cent guess attributed to Paul Graham, the usually reported 6,000 UNIX machines, Cliff Stoll's couple of thousand, and that Morris was the first felony conviction under the 1986 Computer Fraud and Abuse Act, with a sentence of three years' probation, 400 hours of community service and a $10,050 fine.",
+        "https://people.eecs.berkeley.edu/~daw/teaching/cs261-f98/papers/internet_worm.txt: first about 40,000 of 113,000 characters read verbatim (Eichin and Rochlis, MIT, 'With Microscope and Tweezers', dated 9 February 1989). Established that the worm did not destroy or attempt to destroy data, left no time bombs and almost never gained root, that reinfection drove up load and got it noticed, that it spread much faster than its author expected and was noticed for that reason, and that about 60,000 was the size of the Internet then, not the infected count."
+      ],
+      "verifiedNote": "Checked 16 Nov 2026. Not claimed: the release time (Wikipedia says 8:30pm, the MIT paper gives 5:01:59pm as a disputed possible start, so only the date is used), where it was launched from (MIT versus Cornell is disputed in both pages), the phrase 'one in seven' (the 14 per cent figure is Wikipedia only, and the paper's interlock appendix was not read verbatim), and any cost figure. The FBI page and Spafford's paper could not be read. The ten per cent line is Wikipedia's account of Paul Graham's explanation, not a direct Graham quote.",
+      "palette": {
+        "bg": "#0A100C",
+        "ink": "#EDF5EE",
+        "accent": "#5CF28A",
+        "muted": "#7F9486"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "It did not destroy anything.",
+          "note": "The MIT team that took it apart found it did not destroy or attempt to destroy data, left no time bombs and almost never gained root. Morris said he never meant it to be actively destructive. It was released on 2 November 1988."
+        },
+        {
+          "kind": "statement",
+          "lead": "The flaw",
+          "text": "One rule made it unstoppable.",
+          "note": "According to Wikipedia, Morris coded the worm to copy itself whether or not a machine was already infected. His reasoning was a belief that administrators might report false positives."
+        },
+        {
+          "kind": "figure",
+          "value": "14",
+          "unit": "per cent",
+          "context": "How often the worm copied itself onto a machine regardless of infection, according to Wikipedia. Repeat infections acted as a fork bomb."
+        },
+        {
+          "kind": "statement",
+          "lead": "The giveaway",
+          "text": "It was too good at spreading.",
+          "note": "Reinfection drove up the load on machines and got it noticed. The MIT analysis says it spread much faster than its author expected, and was noticed for that very reason."
+        },
+        {
+          "kind": "statement",
+          "lead": "The number",
+          "text": "Ten per cent of the internet was a guess.",
+          "note": "As Wikipedia gives Paul Graham's account, someone guessed there were about 60,000 computers online and that the worm might have hit ten per cent. Reports usually say around 6,000 machines. Cliff Stoll said only a couple of thousand."
+        },
+        {
+          "kind": "credit",
+          "year": "1986",
+          "name": "Computer Fraud and Abuse Act",
+          "role": "Morris became the first person convicted of a felony under it. After appeals: three years' probation, 400 hours of community service and a $10,050 fine."
+        },
+        {
+          "kind": "kicker",
+          "text": "It was noticed because it worked too well."
+        },
+        {
+          "kind": "sign",
+          "line": "Test small.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "wannacry-kill-switch-registered-not-understood-2017",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://malwaretech.com/2017/05/how-to-accidentally-stop-a-global-cyber-attacks.html: read in full (Marcus Hutchins, published 13 May 2017). Established that he registered the domain as one of routine sinkhole registrations, that he did not yet know what it was for, that the malware ransomed a system if the connection failed and exited if it succeeded, and that he now believes it was a badly thought out anti-analysis check because sandboxes answer every lookup.",
+        "https://en.wikipedia.org/wiki/WannaCry_ransomware_attack: first about 40,000 of 84,000 characters read verbatim. Established the 07:45 UTC Friday 12 May 2017 start, that the malware only encrypted files if it could not reach the domain, that registration stopped spread but did not help machines already infected, a halt at 15:03 UTC, MS17-010 issued on 14 March 2017, EternalBlue described as developed by the NSA and likely stolen from it, and the Shadow Brokers leak about a month before the attack.",
+        "https://www.nao.org.uk/reports/investigation-wannacry-cyber-attack-and-the-nhs/: read in full (National Audit Office, 27 October 2017). Established at least 81 of 236 trusts in England affected, 6,912 appointments identified as cancelled and an NHS England estimate of over 19,000 in total, five A&E departments diverting patients, and that no NHS organisation paid the ransom."
+      ],
+      "verifiedNote": "Checked 16 Nov 2026. Not claimed: what the domain cost (no page states it), that Hutchins called it a kill switch at the time, any worldwide infection total (Wikipedia gives 200,000 and 300,000 plus without reconciling them), and the 59 day gap is arithmetic from 14 March to 12 May, not a quoted figure. NAO figures cover England only. The kill switch label is used by Wikipedia and the NAO, but Hutchins now doubts it, which the reel says.",
+      "palette": {
+        "bg": "#100A0B",
+        "ink": "#F8EEEE",
+        "accent": "#FF5A5A",
+        "muted": "#9A8083"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "He knew exactly what he was stopping.",
+          "note": "Marcus Hutchins says on his own blog that he registered the domain as a routine sinkhole. He still did not know much about what it was for."
+        },
+        {
+          "kind": "statement",
+          "lead": "The switch",
+          "text": "The malware asked if a web address existed.",
+          "note": "If the unregistered domain could not be reached, it encrypted files. Once it was registered, spread halted at 15:03 UTC on 12 May 2017, according to Wikipedia. Machines already infected stayed locked."
+        },
+        {
+          "kind": "figure",
+          "value": "59",
+          "unit": "days",
+          "context": "Between Microsoft's MS17-010 patch on 14 March 2017 and the attack on 12 May. Wikipedia says patches existed for all then supported versions of Windows."
+        },
+        {
+          "kind": "statement",
+          "lead": "The tool",
+          "text": "The exploit was reportedly the NSA's.",
+          "note": "Wikipedia says EternalBlue was developed by the US National Security Agency and was likely stolen from it. The Shadow Brokers published it about a month before the attack."
+        },
+        {
+          "kind": "statement",
+          "lead": "The NHS",
+          "text": "At least 81 of 236 trusts were hit.",
+          "note": "The National Audit Office identified 6,912 cancelled appointments, and NHS England estimated over 19,000 in total. Five A&E departments diverted patients. No NHS organisation paid the ransom."
+        },
+        {
+          "kind": "statement",
+          "lead": "The twist",
+          "text": "He now doubts it was a kill switch.",
+          "note": "Hutchins later wrote that he believes it was a badly thought out anti-analysis check. Sandboxes answer every lookup, so the malware would exit when the domain seemed to resolve."
+        },
+        {
+          "kind": "kicker",
+          "text": "One routine registration slowed a global attack."
+        },
+        {
+          "kind": "sign",
+          "line": "Patch early.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-obama-os-cereal-boxes-2008",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Airbnb: first about 40,000 of 84,000 characters read verbatim. Established the 2007 air mattress rental to help pay rent, airbedandbreakfast.com launching on 11 August 2008, cereal sold mostly at the 2008 Democratic National Convention, the $30,000 raised figure, the January 2009 Y Combinator session with $20,000 for a 6 per cent stake, the March 2009 shortening to Airbnb, and 10,000 users and 2,500 listings by March 2009.",
+        "https://producthabits.com/how-two-designers-created-airbnb-and-turned-it-into-a-30-billion-company/: first about 40,000 of 56,000 characters read verbatim (2018). Established roughly 500 boxes of each cereal, a planned price of $40 a box, that the sales netted around $30k, that Paul Graham was sceptical anybody would use the site but backed the founders, and the March 2009 rename.",
+        "https://benzinga.com/z/18700895: read. Established that the founders sold Obama and McCain themed cereal in 2008, that sales brought in $30,000, and that they charged $80 a night in 2007."
+      ],
+      "verifiedNote": "Checked 16 Nov 2026. Not claimed: that the $30,000 is the founders' own figure (no page quotes them, so the reel says it is reported), what the money was spent on (pages disagree), whether Cap'n McCain's sold out (ProductHabits says only Obama O's did, Benzinga says boxes sold out), the exact number of boxes in total, and the Paul Graham email exchange, which was not fetched. The Business Insider link on founded.com returned an archive page and was not used.",
+      "palette": {
+        "bg": "#120C0D",
+        "ink": "#FBF1F1",
+        "accent": "#FF5A5F",
+        "muted": "#9E8588"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The start",
+          "text": "It began with air mattresses in 2007.",
+          "note": "Brian Chesky and Joe Gebbia rented out space in their San Francisco apartment during a design conference, charging $80 a night, to help pay their rent."
+        },
+        {
+          "kind": "statement",
+          "lead": "The name",
+          "text": "It was called AirBed & Breakfast.",
+          "note": "The site, airbedandbreakfast.com, launched on 11 August 2008. It was shortened to Airbnb in March 2009 to eliminate confusion over air mattresses."
+        },
+        {
+          "kind": "statement",
+          "lead": "The cereal",
+          "text": "They sold political cereal at the 2008 conventions.",
+          "note": "Obama O's and Cap'n McCain's, sold mostly at the Democratic National Convention, according to Wikipedia. ProductHabits says roughly 500 boxes of each were made, planned at $40 a box."
+        },
+        {
+          "kind": "figure",
+          "value": "30,000",
+          "unit": "dollars",
+          "context": "The sum reported as raised by selling cereal. Wikipedia, Benzinga and ProductHabits all give it, though none quotes the founders directly."
+        },
+        {
+          "kind": "statement",
+          "lead": "The pitch",
+          "text": "Paul Graham doubted anyone would use it.",
+          "note": "ProductHabits says he was sceptical but backed the founders themselves. Y Combinator took them on in January 2009 for $20,000 and a 6 per cent stake, per Wikipedia."
+        },
+        {
+          "kind": "credit",
+          "year": "Mar 2009",
+          "name": "Airbnb",
+          "role": "The shortened name, by which point the site had 10,000 users and 2,500 listings, according to Wikipedia."
+        },
+        {
+          "kind": "kicker",
+          "text": "Cereal boxes first. Then 10,000 users."
+        },
+        {
+          "kind": "sign",
+          "line": "Sell something.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "montreal-protocol-ozone-recovery-2066",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://news.un.org/en/story/2023/01/1132277: read in full (UN News, January 2023, on the 2022 Scientific Assessment of Ozone Depletion). Established the nearly 99 per cent phase out of banned ozone depleting substances, recovery to 1980 values by 2040 for most of the world, about 2045 over the Arctic and about 2066 over the Antarctic if current policies hold, the hole first announced in May 1985 by three British Antarctic Survey scientists, and an estimated 0.5 degrees Celsius of warming avoided.",
+        "https://en.wikipedia.org/wiki/Montreal_Protocol: first about 40,000 of 83,000 characters read verbatim. Established agreement on 16 September 1987, entry into force on 1 January 1989, the first universally ratified treaty in United Nations history (all UN member states as of October 2022), the names Farman, Gardiner and Shanklin with the Halley Bay result, and recovery years of 2066, 2045 and 2040.",
+        "https://ozone.unep.org/treaties/montreal-protocol: read in full (UNEP Ozone Secretariat). Corroborated signature in 1987 and entry into force in 1989."
+      ],
+      "verifiedNote": "Checked 16 Nov 2026. Not claimed: the 98 per cent figure (Wikipedia) versus nearly 99 per cent (UN News), so the reel uses UN News and says nearly; the date universal ratification was reached (no page gives it); the 1995 Nobel Prize (no page read states it); why the avoided warming happened; and the 2100 date for the 0.5 degree figure (UN News gives that date only for the Kigali Amendment). The mid latitude recovery year is not separately given, so 2040 is described as most of the world.",
+      "palette": {
+        "bg": "#0A1014",
+        "ink": "#EDF6FA",
+        "accent": "#6FD3FF",
+        "muted": "#7F96A0"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "The ozone hole was fixed years ago.",
+          "note": "It is recovering, not recovered. The 2022 UN assessment expects the layer to return to 1980 values by 2040 over most of the world, and around 2066 over Antarctica."
+        },
+        {
+          "kind": "credit",
+          "year": "1985",
+          "name": "Farman, Gardiner and Shanklin",
+          "role": "British Antarctic Survey scientists whose results showed abnormally low ozone above Halley Bay near the South Pole."
+        },
+        {
+          "kind": "statement",
+          "lead": "The treaty",
+          "text": "Two years later, nations agreed to act.",
+          "note": "The Montreal Protocol was agreed on 16 September 1987 and entered into force on 1 January 1989."
+        },
+        {
+          "kind": "statement",
+          "lead": "The record",
+          "text": "Every UN member state signed up.",
+          "note": "Wikipedia describes it as the first universally ratified treaty in United Nations history. As of October 2022 that covered every UN member state."
+        },
+        {
+          "kind": "figure",
+          "value": "99",
+          "unit": "per cent",
+          "context": "Nearly this share of banned ozone depleting substances has been phased out, according to UN News citing the 2022 assessment."
+        },
+        {
+          "kind": "statement",
+          "lead": "The bonus",
+          "text": "It also avoided some warming.",
+          "note": "UN News says the Protocol has helped avoid an estimated 0.5 degrees Celsius of global warming."
+        },
+        {
+          "kind": "kicker",
+          "text": "A hole found in 1985 may not close until 2066."
+        },
+        {
+          "kind": "sign",
+          "line": "Treaties can work.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
