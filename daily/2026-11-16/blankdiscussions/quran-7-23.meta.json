@@ -1,0 +1,40 @@
+{
+  "slug": "quran-7-23",
+  "date": "2026-11-16",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "They said, \"Our Lord, we have wronged ourselves, and if You do not forgive us and have mercy upon us, we will surely be among the losers.\"\n\nSurah Al-A'raf (7:23). Swipe through for the Arabic, then English, Mandarin, Korean and Japanese renderings.\n\nSources on the final slide.\n\n#Quran #IslamicReminder #Ayah #Deen #IslamicGuidance",
+  "tags": [
+    "Quran",
+    "IslamicReminder",
+    "Ayah",
+    "Deen",
+    "IslamicGuidance",
+    "MuslimReminder",
+    "QuranicVerses",
+    "Alhamdulillah"
+  ],
+  "theme": "chaste-56",
+  "slides": [
+    "quran-7-23.slide-01.json",
+    "quran-7-23.slide-02.json",
+    "quran-7-23.slide-03.json",
+    "quran-7-23.slide-04.json",
+    "quran-7-23.slide-05.json",
+    "quran-7-23.slide-06.json",
+    "quran-7-23.slide-07.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an, Surah Al-A'raf (7), Ayah 23",
+    "arabic": "Uthmani script (quran-uthmani), api.alquran.cloud. Two independent live fetches this session (2026-11-16) of GET /v1/ayah/7:23/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese, HTTP 200 each, diffed: byte-identical. Verbatim: \"قَالَا رَبَّنَا ظَلَمْنَآ أَنفُسَنَا وَإِن لَّمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ ٱلْخَٰسِرِينَ\"",
+    "english": "Saheeh International (en.sahih). Verbatim: \"They said, \\\"Our Lord, we have wronged ourselves, and if You do not forgive us and have mercy upon us, we will surely be among the losers.\\\"\"",
+    "chinese": "Ma Jian (zh.jian). Verbatim: \"他俩说：我们的主啊！我们已自欺了，如果你不赦宥我们，不慈悯我们，我们必定变成亏折者。\"",
+    "korean": "ko.korean; source metadata lists translator as 'Unknown', credited on-slide as not specified. Raw: \"이때 그들이 주여 저희가 저희 스스로를 욕되게 하였나이다 당신께서 저희를 사하여 주지 아 니하시고 저희에게 은혜를 베풀어주지 아니한다면 저희는 잃은 자 들이 될 것입니다 라고 말하더라\". Spacing-only fixes: '아 니하시고' -> '아니하시고'; '자 들이' -> '자들이'. Whitespace-stripped text verified identical to raw. No wording changed.",
+    "japanese": "ja.japanese; source metadata lists translator as 'Unknown', cited as such. Verbatim: \"かれら両人は言った。「主よ，わたしたちは誤ちを犯しました。もしあなたの御赦しと慈悲を御受け出来ないならば，わたしたちは必ず失敗者の仲間になってしまいます。」\"",
+    "verification_note": "All renderings from two live api.alquran.cloud fetches this session, diffed identical; none from memory. Edition metadata re-checked via /v1/edition. Halal compliance check against scripts/data/compliance-policy.json halal wordlists: typography only, no imagery, 0 hits. Dupcheck against local daily/*/blankdiscussions meta files: quran:7:23 NEW (only 7:33 exists from surah 7)."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-11-16/quran-7-23-slide-NN.png --props=daily/2026-11-16/blankdiscussions/quran-7-23.slide-NN.json",
+  "status": "sourced_pending_render"
+}
