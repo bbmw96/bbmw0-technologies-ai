@@ -211,6 +211,35 @@
         "publicVideos": 166
       },
       "note": "Versus 2026-10-12: yt-bbmw0 views 15581 to 16217 (+636 in 7 days, about 91/day, down sharply from about 470/day in late Sep), subscribers flat at 7. yt-bbm0902 views +1, subs flat at 2, no uploads since 5 Oct because its topic supply is zero. videoCount includes unlisted so it is not a public count. Trend: growth has stalled despite daily reels on yt-bbmw0; 9 subscribers total against a 1,000 gate. Instagram not read."
+    },
+    {
+      "date": "2026-11-16",
+      "week": "2026-W47",
+      "source": "Composio YOUTUBE_GET_CHANNEL_STATISTICS",
+      "note": "No snapshot was recorded between 2026-10-19 and this one. Public video counts here are from the live uploads inventory, so the change from 10-19 is mostly the cleanup plus about 4 weeks of reels.",
+      "channels": {
+        "yt-bbmw0": {
+          "handle": "@bbmw.0",
+          "channelId": "UCSRkqZ0PckW8ae-cnZcN1hw",
+          "subscribers": 8,
+          "views": 17071,
+          "publicVideos": 167,
+          "reelsLive": null
+        },
+        "yt-bbm0902": {
+          "handle": "@bbm0902",
+          "channelId": "UC5O9s1vte7UiLICKP1pHiIQ",
+          "subscribers": 2,
+          "views": 1947,
+          "publicVideos": 32,
+          "reelsLive": null
+        }
+      },
+      "totals": {
+        "subscribers": 10,
+        "views": 19018,
+        "publicVideos": 199
+      }
     }
   ]
 }

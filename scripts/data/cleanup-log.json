@@ -10,9 +10,9 @@
   },
   "classB": {
     "total": 4,
-    "retired": 0,
-    "remaining": 4,
-    "note": "Pastel format, no invented figure. Queued behind Class A."
+    "retired": 4,
+    "remaining": 0,
+    "note": "Pastel format, no invented figure. Queued behind Class A. | 2026-11-16: batch 9 unlisted all 4."
   },
   "classC": {
     "total": 53,
@@ -137,6 +137,21 @@
       "newlyRetired": 7,
       "verifiedBy": "Pre-check YOUTUBE_GET_VIDEO_DETAILS_BATCH showed all 7 public. YOUTUBE_UPDATE_VIDEO responses: all 7 report privacyStatus=unlisted.",
       "note": "Finishes Class A: zero public pre-fix videos remain on either channel as of the last inventory. Only 7 this week because only 7 were left. Class B (4) and Class C (unknown, bbm0902 never checked) remain; a fresh live inventory of both uploads playlists is the next step."
+    },
+    {
+      "ranAt": "2026-11-16T14:55:00Z",
+      "week": "2026-W47",
+      "channelsTouched": [
+        "yt-bbmw0",
+        "yt-bbm0902"
+      ],
+      "defectClass": "B",
+      "attempted": 4,
+      "succeeded": 4,
+      "failed": 0,
+      "newlyRetired": 4,
+      "verifiedBy": "YOUTUBE_UPDATE_VIDEO responses all report privacyStatus=unlisted. Pre-check via live uploads playlist enumeration (YOUTUBE_LIST_CHANNEL_VIDEOS + YOUTUBE_GET_VIDEO_DETAILS_BATCH) showed all 4 public.",
+      "note": "Class B (4) is now complete, identified by date (Aug 17 to 22, #Shorts title suffix, after the stat fix). Frames were not re-watched this week, so the format is inferred from date and title pattern. Live inventory 2026-11-16: yt-bbmw0 273 uploads (167 public, 64 unlisted, 42 private), yt-bbm0902 47 uploads (32 public, 15 unlisted). NEXT: about 35 public videos on yt-bbmw0 and about 22 on yt-bbm0902 dated 2026-09-01 to 2026-09-14 carry the \"#Shorts\" title suffix and may still be pre-reel format. Verify the render style of a sample (watch frames) before unlisting any. Also 8 public promo videos from 2026-04-30 and 2026-05-02 on yt-bbmw0 have no sourced facts and near zero views: candidates. Class C on yt-bbm0902 has still never been checked."
     }
   ],
   "unlisted": [
@@ -899,6 +914,46 @@
       "reason": "pre-reel ThemedShort published before the 2026-08-11 invented-stat fix",
       "unlistedAt": "2026-10-19T11:10:00Z",
       "url": "https://youtu.be/TwswTLg9qKU"
+    },
+    {
+      "id": "xZNCzrqpoR0",
+      "channel": "yt-bbmw0",
+      "title": "It is a dead king's initials. #Shorts",
+      "publishedAt": "2026-08-22",
+      "defectClass": "B",
+      "reason": "pre-reel pastel ThemedShort, published after the 2026-08-11 fix, unsourced claim",
+      "unlistedAt": "2026-11-16T14:55:00Z",
+      "url": "https://youtu.be/xZNCzrqpoR0"
+    },
+    {
+      "id": "7PGHL5Ntwps",
+      "channel": "yt-bbmw0",
+      "title": "It was a graph with no scale. #Shorts",
+      "publishedAt": "2026-08-19",
+      "defectClass": "B",
+      "reason": "pre-reel pastel ThemedShort, published after the 2026-08-11 fix, unsourced claim",
+      "unlistedAt": "2026-11-16T14:55:00Z",
+      "url": "https://youtu.be/7PGHL5Ntwps"
+    },
+    {
+      "id": "ttsotqGpZsU",
+      "channel": "yt-bbm0902",
+      "title": "The headlines said supernova. #Shorts",
+      "publishedAt": "2026-08-20",
+      "defectClass": "B",
+      "reason": "pre-reel pastel ThemedShort, published after the 2026-08-11 fix, unsourced claim",
+      "unlistedAt": "2026-11-16T14:55:00Z",
+      "url": "https://youtu.be/ttsotqGpZsU"
+    },
+    {
+      "id": "AC9ngHP0Kyw",
+      "channel": "yt-bbm0902",
+      "title": "Was pollinated by hand. #Shorts",
+      "publishedAt": "2026-08-17",
+      "defectClass": "B",
+      "reason": "pre-reel pastel ThemedShort, published after the 2026-08-11 fix, unsourced claim",
+      "unlistedAt": "2026-11-16T14:55:00Z",
+      "url": "https://youtu.be/AC9ngHP0Kyw"
     }
   ],
   "_liveInventory2026-10-05": "Full live walk of both uploads playlists before this batch. Still PUBLIC and pre-reel after batch 6: yt-bbmw0 8 videos (sJfIfArcOiU, 8jdnxwp1gV0, 5pFrcs-BSoE 30 Jul; tJOLa7_Y210 31 Jul; --hT2RHXjKA 2 Aug; qZd4TJxY_Gk, pS0j05wiAkg, nsdwTZYSBfs 3 Aug) and yt-bbm0902 9 videos (RqAC_LVrT3o 9 Aug; jlOBHPMne-o, TwswTLg9qKU, Xhi2gJFmYWo, RIGIn1M9spQ 10 Aug; L_HBO00R5Gw, NDGMxAgGirI, aItIGproW00, WwGy9CWfv5w 11 Aug, all before the 18:58 fix). All 17 are Class A by date. Next week: unlist the 8 on yt-bbmw0 plus the 2 oldest on yt-bbm0902 (account youtube_puku-bret), then the remaining 7 the week after, which finishes Class A. The six 30 Apr and 2 May product-demo videos on yt-bbmw0 are not ThemedShorts and are out of scope."
