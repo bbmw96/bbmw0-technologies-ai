@@ -18517,6 +18517,308 @@
       ]
     },
     {
+      "id": "stanford-prison-experiment-guards-briefed-1971",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Stanford_experiment: read, first part verbatim. Established the advert (male college students, $15 per day, 1 to 2 weeks from 14 August), that seventy five men applied and 24 were selected, the two week design, that Zimbardo ended it on day 6, and that Christina Maslach confronted him about how participants were behaving and being treated.",
+        "https://www.Gwern.net/doc/psychology/2019-letexier.pdf: read, first part verbatim (Thibault Le Texier, Debunking the Stanford Prison Experiment, American Psychologist, 2019). Established the orientation day of Saturday 14 August 1971, quoted instructions given to guards (We can create boredom. We can create a sense of frustration.), the warden quote (we need you to play the part of, you know, tough guard), the Guard 11 quote (specifically directed me (us) to act a certain way), Zimbardo's own account that guards were told primarily to maintain law and order, and Le Texier's finding that the guards knew what results were wanted and how to achieve them."
+      ],
+      "verifiedNote": "Checked 17 Nov 2026. Read through a fetch agent that returned verbatim passages, covering about the first 40,000 characters of each document; later parts were not used. Claims about the guard briefing are attributed to Le Texier and to the quotations he reproduces, not stated as settled, and Zimbardo's replies to the critique were not read. Not claimed: the end date (the sources read disagree or were not read), the abuse details, whether the findings replicate, the Toyon Hall pilot, and any individual guard's identity. Did not say the study was fabricated.",
+      "palette": {
+        "bg": "#0B0D1A",
+        "ink": "#EEF0FA",
+        "accent": "#9A8CFF",
+        "muted": "#7B80A6"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The ad",
+          "text": "Seventy five men applied for 24 places.",
+          "note": "The advert asked for male college students for a study of prison life, paying $15 a day for one to two weeks from 14 August 1971."
+        },
+        {
+          "kind": "statement",
+          "lead": "The plan",
+          "text": "A two week study ended on day six.",
+          "note": "Psychologist Christina Maslach visited, was troubled by how participants were behaving and being treated, and confronted Philip Zimbardo."
+        },
+        {
+          "kind": "statement",
+          "lead": "The briefing",
+          "text": "The guards were told what to create.",
+          "note": "Thibault Le Texier's 2019 paper quotes the orientation: We can create boredom. We can create a sense of frustration."
+        },
+        {
+          "kind": "statement",
+          "lead": "The direction",
+          "text": "One guard said he was directed to act.",
+          "note": "Guard 11 wrote in 1971 that the team specifically directed him to act a certain way. On tape, the warden told guards: we need you to play the part of tough guard."
+        },
+        {
+          "kind": "statement",
+          "lead": "The telling",
+          "text": "The book says they had no formal training.",
+          "note": "Zimbardo wrote that the guards were told primarily to maintain law and order. Le Texier argues they knew what results were wanted and how to achieve them."
+        },
+        {
+          "kind": "figure",
+          "value": "6",
+          "unit": "days",
+          "context": "how long the study ran, against a plan of one to two weeks."
+        },
+        {
+          "kind": "kicker",
+          "text": "Human nature, or stage direction?"
+        },
+        {
+          "kind": "sign",
+          "line": "Check the method.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "sophia-robot-saudi-citizenship-lecun-wizard-of-oz-2017",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://www.livescience.com/60815-saudi-arabia-citizen-robot.html: read (Live Science, 30 October 2017). Established that Sophia, created by Hanson Robotics, addressed the Future Investment Initiative in Riyadh on 25 October and was granted citizenship at the summit.",
+        "https://www.businessinsider.in/facebooks-ai-boss-described-sophia-the-robot-as-complete-b-t-and-wizard-of-oz-ai/articleshow/62391979.cms: read. Established Yann LeCun's tweet (to AI as prestidigitation is to real magic; Cargo Cult AI, Potemkin AI or Wizard of Oz AI), that Sophia runs off a preprogrammed script and acts as a sophisticated chatbot, and Ben Goertzel's reply that Sophia's software is not human level general intelligence.",
+        "https://aiwiki.ai/wiki/sophia_robot: read, verbatim part only. A user editable wiki, used only to confirm 25 October 2017 as the citizenship date and the Hanson Robotics origin; nothing else relies on it."
+      ],
+      "verifiedNote": "Checked 17 Nov 2026. Read through a fetch agent that returned verbatim passages. Not claimed: what the citizenship means in law, whether Sophia is remotely operated, the exact date of the LeCun tweet (the Business Insider text is undated and the wiki date was not confirmed), any statement from Hanson Robotics (none found), and Goertzel's job title (the two sources disagree). LeCun's stronger wording is not quoted. Handle follows the existing ig-aigameodyssey ai topics.",
+      "palette": {
+        "bg": "#08121C",
+        "ink": "#EEF5FB",
+        "accent": "#4D8DFF",
+        "muted": "#7C8FA3"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The headline",
+          "text": "A robot became a citizen.",
+          "note": "Sophia, built by Hanson Robotics, was granted Saudi citizenship at the Future Investment Initiative in Riyadh."
+        },
+        {
+          "kind": "credit",
+          "year": "25 Oct 2017",
+          "name": "Sophia",
+          "role": "Addressed the summit in Riyadh, where the citizenship was announced."
+        },
+        {
+          "kind": "statement",
+          "lead": "The critic",
+          "text": "Facebook's AI boss called it a trick.",
+          "note": "Yann LeCun tweeted that it was to AI as prestidigitation is to real magic, and suggested Cargo Cult AI, Potemkin AI or Wizard of Oz AI."
+        },
+        {
+          "kind": "statement",
+          "lead": "The script",
+          "text": "Business Insider described a scripted chatbot.",
+          "note": "Its report says Sophia runs off a preprogrammed script and works as a sophisticated chatbot."
+        },
+        {
+          "kind": "statement",
+          "lead": "The reply",
+          "text": "Even a defender conceded the limit.",
+          "note": "Ben Goertzel disagreed with LeCun, but told Business Insider that the software controlling Sophia is not human level general intelligence."
+        },
+        {
+          "kind": "kicker",
+          "text": "The citizenship made headlines. The intelligence made the argument."
+        },
+        {
+          "kind": "sign",
+          "line": "Ask what is behind it.",
+          "handle": "@ai_game_odyssey"
+        }
+      ]
+    },
+    {
+      "id": "newton-apple-stukeley-1752-royal-society-online-2010",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://www.scientificamerican.com/blog/observations/whats-the-real-story-with-newton-and-the-apple-see-for-yourself/: read. Established that the account is by William Stukeley, a contemporary, not published until 1752; the quoted words It was occasion'd by the fall of an apple, as he sat in contemplative mood; the garden and tea under apple trees; and that the legend appears in other accounts of the time.",
+        "https://phys.org/news183018659.html: read (AP wire story). Established a spring afternoon in 1726 over tea, that the manuscript was posted online by the Royal Society on Monday 18 January 2010, and the plague retreat in the mid 1660s.",
+        "https://physicsworld.com/a/newtons-apple-the-birth-of-a/: read (18 January 2010). Established that Stukeley was a friend, that Newton appears to have repeated the story often in later life but never wrote it down, and that the apple story is on pages 42 and 43 of the manuscript on the Royal Society site."
+      ],
+      "verifiedNote": "Checked 17 Nov 2026. Read through a fetch agent that returned verbatim passages. None of the three pages says the apple hit Newton on the head, so the beat says only that the passages read describe a fall, not a blow; it does not claim who invented the head story (Voltaire was not mentioned in any source read). Not claimed: April, Kensington, the year Stukeley wrote it, the Woolsthorpe name (the pages say Lincolnshire or northern England), or that the apple caused the theory. SciAm says the manuscript went online Sunday while AP says Monday 18 January; only the month and year are used.",
+      "palette": {
+        "bg": "#0F1210",
+        "ink": "#F1F4EE",
+        "accent": "#C8D86B",
+        "muted": "#868E7C"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The legend",
+          "text": "Nobody wrote that it hit him.",
+          "note": "In the passages read, Newton's story is of an apple falling while he sat thinking, not of a blow to the head."
+        },
+        {
+          "kind": "statement",
+          "lead": "The source",
+          "text": "It comes from his friend William Stukeley.",
+          "note": "Stukeley's account describes tea in the garden under apple trees, and Newton saying the idea was occasioned by the fall of an apple, as he sat in contemplative mood."
+        },
+        {
+          "kind": "credit",
+          "year": "1726",
+          "name": "A spring afternoon",
+          "role": "When, according to the Associated Press, Newton shared the story with Stukeley over tea."
+        },
+        {
+          "kind": "statement",
+          "lead": "The silence",
+          "text": "Newton never wrote it down.",
+          "note": "Physics World says he appears to have repeated the story often in later life, but never wrote it down."
+        },
+        {
+          "kind": "credit",
+          "year": "1752",
+          "name": "Stukeley's biography",
+          "role": "The year the account was first published, long after the 1660s plague retreat it describes."
+        },
+        {
+          "kind": "credit",
+          "year": "Jan 2010",
+          "name": "The Royal Society",
+          "role": "Put the handwritten manuscript online, with the apple story on pages 42 and 43."
+        },
+        {
+          "kind": "kicker",
+          "text": "The apple stays. The bump on the head goes."
+        },
+        {
+          "kind": "sign",
+          "line": "Read the original.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "iphone-2007-demo-golden-path",
+      "niche": "tech",
+      "verified": false,
+      "reviewNote": "DRAFT. Every source read (MacRumors, Gizmodo, SlashGear, all 4 Oct 2013) relays one account: Andy Grignon via Fred Vogelstein in the New York Times Magazine. Still needed: the NYT piece itself or Grignon's own telling, an Apple response if any, and the date (sources say 8 and 9 January 2007). Do not mark verified until the primary piece is read.",
+      "sources": [
+        "https://www.macrumors.com/2013/10/04/former-apple-engineer-gives-behind-the-scenes-look-at-the-original-iphone-introduction/: read via fetch agent. Relays Grignon: golden path, five bars hard coded, only 100 iPhones existed.",
+        "https://gizmodo.com/the-iphones-first-demo-was-buggy-as-hell-1441324523: read via fetch agent. Quotes the NYT on the golden path, crashes on a whole clip, and spare demo units.",
+        "https://www.slashgear.com/iphone-smoke-mirrors-as-apple-engineer-dishes-on-steve-jobs-big-reveal-04300300: read via fetch agent. Relays the NYT: about a hundred iPhones existed; its own 128MB, three versions and 8 January claims are not used."
+      ],
+      "verifiedNote": "Draft only. Nothing here is cleared for publishing.",
+      "palette": {
+        "bg": "#0F1114",
+        "ink": "#EEF1F5",
+        "accent": "#6FB7FF",
+        "muted": "#838C98"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The route",
+          "text": "The demo followed a golden path.",
+          "note": "In the New York Times Magazine retelling, engineers described a specific set of tasks, in a specific order, that made the phone look as if it worked."
+        },
+        {
+          "kind": "statement",
+          "lead": "The limit",
+          "text": "It could not play a whole clip reliably.",
+          "note": "The account says it could play a section of a song or video, but not an entire clip without crashing."
+        },
+        {
+          "kind": "statement",
+          "lead": "The bars",
+          "text": "The signal bars were set to five.",
+          "note": "Andy Grignon, who managed the iPhone radios, said the display was made to show five bars regardless of true strength, with Jobs's approval."
+        },
+        {
+          "kind": "figure",
+          "value": "100",
+          "unit": "iPhones",
+          "context": "about how many existed when it was announced, of varying quality."
+        },
+        {
+          "kind": "kicker",
+          "text": "It worked. Along one chosen route."
+        },
+        {
+          "kind": "sign",
+          "line": "Demos are edited.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "swan-edison-lamp-1879-ediswan-merger-1883",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Joseph_Swan: read, first part verbatim. Established the Newcastle Chemical Society lecture of 18 December 1878, the lamp shown in operation on 17 January 1879, the public demonstration to over seven hundred people on 3 February 1879, Underhill in Gateshead as the first house with working light bulbs, British Patent 4933 on 27 November 1880, and the 1883 merger.",
+        "https://www.theiet.org/membership/library-archives/the-iet-archives/biographies/joseph-swan/: read (IET archives biography). Established lamps demonstrated in Newcastle in January 1879, a patent application in November 1880 for improved filaments, that Swan had not sought a patent covering his lamp in general terms, legal wrangling before the two British companies merged, and the Edison and Swan United Electric Light Company (Ediswan) formed on 26 October 1883.",
+        "https://gracesguide.co.uk/Edison_and_Swan_United_Electric_Light_Co: read (Grace's Guide). Established that the lamp usually cited as Edison's first success was made on 19 October 1879, that Edison brought an infringement case in the British courts over Swan's patent and lost, and that Edison had to take Swan in as a partner in his British works."
+      ],
+      "verifiedNote": "Checked 17 Nov 2026. Read through a fetch agent that returned verbatim passages. The sources conflict, so: Grace's Guide gives a Swan patent in 1878 while Wikipedia and the IET say November 1880, so 1880 is used; Grace's Guide says Swan's patent predated Edison's while Wikipedia says both were patented in 1880, so no claim of patent priority is made. Not claimed: that Swan invented the bulb alone, an Underhill lighting date (none on any page), the Savoy Theatre, Edison's US patent number (not read), and any outcome detail of the lawsuit beyond Grace's Guide, which differs in tone from the IET's legal wrangling then merger. The 19 October 1879 date is for Edison's lamp, not a patent.",
+      "palette": {
+        "bg": "#14110C",
+        "ink": "#F6F1E6",
+        "accent": "#F2B84B",
+        "muted": "#8E8672"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The legend",
+          "text": "Joseph Swan showed a working lamp in 1879.",
+          "note": "Wikipedia says that on 3 February 1879 he publicly demonstrated one to over seven hundred people. The lamp usually cited as Edison's first success was made on 19 October 1879."
+        },
+        {
+          "kind": "credit",
+          "year": "18 Dec 1878",
+          "name": "Newcastle Chemical Society",
+          "role": "Where Swan lectured, before showing the lamp in actual operation on 17 January 1879."
+        },
+        {
+          "kind": "statement",
+          "lead": "The house",
+          "text": "His home was the first with working bulbs.",
+          "note": "Wikipedia says Underhill, Low Fell, Gateshead was the world's first house to have working light bulbs installed."
+        },
+        {
+          "kind": "statement",
+          "lead": "The patent",
+          "text": "His British patent came in November 1880.",
+          "note": "Wikipedia gives British Patent 4933 on 27 November 1880. The IET adds that Swan had not sought a patent covering his lamp in general terms."
+        },
+        {
+          "kind": "statement",
+          "lead": "The courtroom",
+          "text": "Edison went to court in Britain.",
+          "note": "Grace's Guide says he brought an infringement case over Swan's patent and lost, and had to take Swan in as a partner in his British works."
+        },
+        {
+          "kind": "credit",
+          "year": "26 Oct 1883",
+          "name": "Ediswan",
+          "role": "The Edison and Swan United Electric Light Company, formed by merging the two British companies."
+        },
+        {
+          "kind": "kicker",
+          "text": "In Britain, the company name carried both inventors."
+        },
+        {
+          "kind": "sign",
+          "line": "Two names on one bulb.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
       "id": "drucker-what-gets-measured-gets-managed-misattributed",
       "niche": "productivity",
       "verified": false,
