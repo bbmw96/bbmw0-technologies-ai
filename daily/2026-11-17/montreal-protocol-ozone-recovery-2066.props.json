@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (montreal-protocol-ozone-recovery-2066)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A1014",
+    "ink": "#EDF6FA",
+    "accent": "#6FD3FF",
+    "muted": "#7F96A0"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "The ozone hole was fixed years ago.",
+      "note": "It is recovering, not recovered. The 2022 UN assessment expects the layer to return to 1980 values by 2040 over most of the world, and around 2066 over Antarctica.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1985",
+      "name": "Farman, Gardiner and Shanklin",
+      "role": "British Antarctic Survey scientists whose results showed abnormally low ozone above Halley Bay near the South Pole.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "statement",
+      "lead": "The treaty",
+      "text": "Two years later, nations agreed to act.",
+      "note": "The Montreal Protocol was agreed on 16 September 1987 and entered into force on 1 January 1989.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "The record",
+      "text": "Every UN member state signed up.",
+      "note": "Wikipedia describes it as the first universally ratified treaty in United Nations history. As of October 2022 that covered every UN member state.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "figure",
+      "value": "99",
+      "unit": "per cent",
+      "context": "Nearly this share of banned ozone depleting substances has been phased out, according to UN News citing the 2022 assessment.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "The bonus",
+      "text": "It also avoided some warming.",
+      "note": "UN News says the Protocol has helped avoid an estimated 0.5 degrees Celsius of global warming.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "kicker",
+      "text": "A hole found in 1985 may not close until 2066.",
+      "durationInFrames": 82
+    },
+    {
+      "kind": "sign",
+      "line": "Treaties can work.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

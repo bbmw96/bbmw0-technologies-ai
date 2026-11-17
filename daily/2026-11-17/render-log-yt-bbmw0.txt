@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-11-17 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- montreal-protocol-ozone-recovery-2066 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-17-montreal-protocol-ozone-recovery-2066.mp4
+  uploaded public: https://youtu.be/Fzbt4GPrx38
+
+--- newton-apple-stukeley-1752-royal-society-online-2010 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-17-newton-apple-stukeley-1752-royal-society-online-2010.mp4
+  uploaded public: https://youtu.be/xVhczkagzQA
+
+--- stanford-prison-experiment-guards-briefed-1971 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-17-stanford-prison-experiment-guards-briefed-1971.mp4
+  uploaded public: https://youtu.be/xO2NQPPAfyQ
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

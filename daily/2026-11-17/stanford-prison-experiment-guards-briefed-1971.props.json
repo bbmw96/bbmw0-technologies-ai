@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (stanford-prison-experiment-guards-briefed-1971)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0D1A",
+    "ink": "#EEF0FA",
+    "accent": "#9A8CFF",
+    "muted": "#7B80A6"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The ad",
+      "text": "Seventy five men applied for 24 places.",
+      "note": "The advert asked for male college students for a study of prison life, paying $15 a day for one to two weeks from 14 August 1971.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The plan",
+      "text": "A two week study ended on day six.",
+      "note": "Psychologist Christina Maslach visited, was troubled by how participants were behaving and being treated, and confronted Philip Zimbardo.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "statement",
+      "lead": "The briefing",
+      "text": "The guards were told what to create.",
+      "note": "Thibault Le Texier's 2019 paper quotes the orientation: We can create boredom. We can create a sense of frustration.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "statement",
+      "lead": "The direction",
+      "text": "One guard said he was directed to act.",
+      "note": "Guard 11 wrote in 1971 that the team specifically directed him to act a certain way. On tape, the warden told guards: we need you to play the part of tough guard.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The telling",
+      "text": "The book says they had no formal training.",
+      "note": "Zimbardo wrote that the guards were told primarily to maintain law and order. Le Texier argues they knew what results were wanted and how to achieve them.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "6",
+      "unit": "days",
+      "context": "how long the study ran, against a plan of one to two weeks.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "kicker",
+      "text": "Human nature, or stage direction?",
+      "durationInFrames": 60
+    },
+    {
+      "kind": "sign",
+      "line": "Check the method.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
