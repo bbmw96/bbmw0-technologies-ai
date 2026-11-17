@@ -1,0 +1,40 @@
+{
+  "slug": "quran-25-74",
+  "date": "2026-11-17",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "And those who say, \"Our Lord, grant us from among our wives and offspring comfort to our eyes and make us an example for the righteous.\"\n\nSurah Al-Furqan (25:74). Swipe through for the Arabic, then English, Mandarin, Korean and Japanese renderings.\n\nSources on the final slide.\n\n#Quran #IslamicReminder #Ayah #Deen #IslamicGuidance",
+  "tags": [
+    "Quran",
+    "IslamicReminder",
+    "Ayah",
+    "Deen",
+    "IslamicGuidance",
+    "MuslimReminder",
+    "QuranicVerses",
+    "Alhamdulillah"
+  ],
+  "theme": "chaste-58",
+  "slides": [
+    "quran-25-74.slide-01.json",
+    "quran-25-74.slide-02.json",
+    "quran-25-74.slide-03.json",
+    "quran-25-74.slide-04.json",
+    "quran-25-74.slide-05.json",
+    "quran-25-74.slide-06.json",
+    "quran-25-74.slide-07.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an, Surah Al-Furqan (25), Ayah 74",
+    "arabic": "Uthmani script (quran-uthmani), api.alquran.cloud. Two independent live fetches this session (2026-11-17) of GET /v1/ayah/25:74/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese, HTTP 200 each, diffed: byte-identical. Verbatim: \"وَٱلَّذِينَ يَقُولُونَ رَبَّنَا هَبْ لَنَا مِنْ أَزْوَٰجِنَا وَذُرِّيَّٰتِنَا قُرَّةَ أَعْيُنٍۢ وَٱجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا\"",
+    "english": "Saheeh International (en.sahih). Verbatim: \"And those who say, \\\"Our Lord, grant us from among our wives and offspring comfort to our eyes and make us an example for the righteous.\\\"\"",
+    "chinese": "Ma Jian (zh.jian). Raw: \"他们说：我们的主啊！求你以我们的妻子儿女为我们的安慰，求你以我们为敬畏者的典范。\". Used verbatim.",
+    "korean": "ko.korean; source metadata lists translator as 'Unknown', credited on-slide as not specified. Raw: \"기뻐할 수 있는 아내와 자손들을 주옵소서 그리고 저희들이 정직한 사람들의 모범이 되도록 하여 주옵소서 라고 말하는 자들 이라\". Spacing-only fix: '자들 이라' -> '자들이라'. Whitespace-stripped text verified identical to raw. No wording changed.",
+    "japanese": "ja.japanese; source metadata lists translator as 'Unknown', cited as such. Verbatim: \"そして，「主よ，心の慰めとなる妻と子孫をわたしたちに与え，主を畏れる者の模範にして下さい。」と（祈って）言う者。\"",
+    "verification_note": "All renderings from two live api.alquran.cloud fetches this session, diffed identical; none from memory. Edition metadata re-checked via /v1/edition (en.sahih Saheeh International, zh.jian Ma Jian, ko.korean Unknown, ja.japanese Unknown). Halal compliance check against scripts/data/compliance-policy.json halal wordlists (138 terms): typography only, no imagery, 0 hits. Dupcheck against local daily/*/blankdiscussions meta files: quran:25:74 NEW. Fixes applied: ko.korean: \"자들 이라\" -> \"자들이라\"."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-11-17/quran-25-74-slide-NN.png --props=daily/2026-11-17/blankdiscussions/quran-25-74.slide-NN.json",
+  "status": "sourced_pending_render"
+}

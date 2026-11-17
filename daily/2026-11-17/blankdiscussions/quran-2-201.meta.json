@@ -1,0 +1,40 @@
+{
+  "slug": "quran-2-201",
+  "date": "2026-11-17",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "But among them is he who says, \"Our Lord, give us in this world [that which is] good and in the Hereafter [that which is] good and protect us from the punishment of the Fire.\"\n\nSurah Al-Baqarah (2:201). Swipe through for the Arabic, then English, Mandarin, Korean and Japanese renderings.\n\nSources on the final slide.\n\n#Quran #IslamicReminder #Ayah #Deen #IslamicGuidance",
+  "tags": [
+    "Quran",
+    "IslamicReminder",
+    "Ayah",
+    "Deen",
+    "IslamicGuidance",
+    "MuslimReminder",
+    "QuranicVerses",
+    "Alhamdulillah"
+  ],
+  "theme": "chaste-57",
+  "slides": [
+    "quran-2-201.slide-01.json",
+    "quran-2-201.slide-02.json",
+    "quran-2-201.slide-03.json",
+    "quran-2-201.slide-04.json",
+    "quran-2-201.slide-05.json",
+    "quran-2-201.slide-06.json",
+    "quran-2-201.slide-07.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an, Surah Al-Baqarah (2), Ayah 201",
+    "arabic": "Uthmani script (quran-uthmani), api.alquran.cloud. Two independent live fetches this session (2026-11-17) of GET /v1/ayah/2:201/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese, HTTP 200 each, diffed: byte-identical. Verbatim: \"وَمِنْهُم مَّن يَقُولُ رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا حَسَنَةًۭ وَفِى ٱلْءَاخِرَةِ حَسَنَةًۭ وَقِنَا عَذَابَ ٱلنَّارِ\"",
+    "english": "Saheeh International (en.sahih). Verbatim: \"But among them is he who says, \\\"Our Lord, give us in this world [that which is] good and in the Hereafter [that which is] good and protect us from the punishment of the Fire.\\\"\"",
+    "chinese": "Ma Jian (zh.jian). Raw: \". 有人说：我们的主啊！求你在今世赏赐我们美好的（生活），在後世也赏赐我们美好的（生活），求你保护我们，免受火狱的刑罚。\". Punctuation/spacing-only fix (stray leading period removed). No wording changed.",
+    "korean": "ko.korean; source metadata lists translator as 'Unknown', credited on-slide as not specified. Raw: \"또 이렇게 말하는 무리가 있나니 주여 현세에서 축복하여 주시고 내세에서도 축복하여 주시며 불지옥의 고충으로부터 구하 여 주소서\". Spacing-only fix: '구하 여' -> '구하여'. Whitespace-stripped text verified identical to raw. No wording changed.",
+    "japanese": "ja.japanese; source metadata lists translator as 'Unknown', cited as such. Verbatim: \"また人びとの中には（祈って），「主よ，現世でわたしたちに幸いを賜い，また来世でも幸いを賜え。業火の懲罰から，わたしたちを守ってください。」と言う者がある。\"",
+    "verification_note": "All renderings from two live api.alquran.cloud fetches this session, diffed identical; none from memory. Edition metadata re-checked via /v1/edition (en.sahih Saheeh International, zh.jian Ma Jian, ko.korean Unknown, ja.japanese Unknown). Halal compliance check against scripts/data/compliance-policy.json halal wordlists (138 terms): typography only, no imagery, 0 hits. Dupcheck against local daily/*/blankdiscussions meta files: quran:2:201 NEW. Fixes applied: zh.jian: \". \" -> \"\"; ko.korean: \"구하 여\" -> \"구하여\"."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-11-17/quran-2-201-slide-NN.png --props=daily/2026-11-17/blankdiscussions/quran-2-201.slide-NN.json",
+  "status": "sourced_pending_render"
+}
