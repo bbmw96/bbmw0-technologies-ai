@@ -1,0 +1,25 @@
+{
+  "slug": "cern-web-public-domain-30-april-1993",
+  "date": "2026-11-18",
+  "title": "The popular version. The web was free from the start.",
+  "description": "The web was free from the start. It was proposed in 1989. It was not declared free until 1993.\n\nWrote the proposal at CERN in March. By Christmas 1990 he had written the first browser, editor and server software.\n\nIt ran on a NeXT computer at CERN. Its address was info.cern.ch, which CERN still hosts as a restored copy of the first site.\n\nOn 30 April 1993, CERN released it. CERN put the World Wide Web software in the public domain. That was over four years after the proposal.\n\nA later release used an open licence. Both CERN pages say so. Neither names the licence, so this reel does not.\n\nOpen was a decision, not a default.\n\nSources:\n- https://home.cern/about/birth-web: read in full (CERN). Established that on 30 April 1993 CERN put the World Wide Web software in the public domain, that the first browser was written in 1990 and hosted on Berners-Lee's NeXT computer, and that CERN later made a release available with an open licence.\n- https://web30.web.cern.ch/web-history.html: read in full (CERN, Web at 30). Established March 1989 as the date of Berners-Lee's proposal, that by Christmas 1990 he had written the first browser and editor and the server software, that info.cern.ch was the address of the first web server running on a NeXT computer, the 30 April 1993 statement, and that the next release was made available with an open licence.\n- https://conffab.com/elsewhere/software-release-of-www-into-public-domain/: read in full (archive of the CERN document, dated 30 Apr 1993). Established the date of the release. The description of the released software as client, server and code library, and the two signatory names, appear only in an image caption, so they are not used.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-18-cern-web-public-domain-30-april-1993.mp4",
+  "propsFile": "daily/2026-11-18/cern-web-public-domain-30-april-1993.props.json",
+  "durationInFrames": 1014,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

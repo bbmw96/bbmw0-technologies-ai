@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (cern-web-public-domain-30-april-1993)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A1116",
+    "ink": "#EAF3F8",
+    "accent": "#5CC8FF",
+    "muted": "#7C93A0"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "The web was free from the start.",
+      "note": "It was proposed in 1989. It was not declared free until 1993.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "credit",
+      "year": "1989",
+      "name": "Tim Berners-Lee",
+      "role": "Wrote the proposal at CERN in March. By Christmas 1990 he had written the first browser, editor and server software.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "The first server",
+      "text": "It ran on a NeXT computer at CERN.",
+      "note": "Its address was info.cern.ch, which CERN still hosts as a restored copy of the first site.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "The decision",
+      "text": "On 30 April 1993, CERN released it.",
+      "note": "CERN put the World Wide Web software in the public domain. That was over four years after the proposal.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "statement",
+      "lead": "The follow up",
+      "text": "A later release used an open licence.",
+      "note": "Both CERN pages say so. Neither names the licence, so this reel does not.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "kicker",
+      "text": "Open was a decision, not a default.",
+      "durationInFrames": 64
+    },
+    {
+      "kind": "sign",
+      "line": "Someone had to say yes.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

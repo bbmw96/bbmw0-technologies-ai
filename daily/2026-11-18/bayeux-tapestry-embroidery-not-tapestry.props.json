@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (bayeux-tapestry-embroidery-not-tapestry)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#14100C",
+    "ink": "#F6EEE2",
+    "accent": "#E0A15B",
+    "muted": "#9A8C7A"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "The Bayeux Tapestry is a tapestry.",
+      "note": "The scenes are stitched onto linen, not woven into it. That makes it an embroidery.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "figure",
+      "value": "68",
+      "unit": "metres",
+      "context": "Roughly its length. Sources give 68.38 metres, made from nine linen panels sewn together.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "statement",
+      "lead": "The thread",
+      "text": "About ten colours of wool.",
+      "note": "Worked in wool on linen, with dyes made from plant material.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "statement",
+      "lead": "The makers",
+      "text": "Probably English hands made it.",
+      "note": "Most scholars favour Canterbury. It was probably commissioned by Odo, Bishop of Bayeux.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "statement",
+      "lead": "The paper trail",
+      "text": "Its first written mention is 1476.",
+      "note": "A Bayeux Cathedral inventory lists it. That is the earliest known reference.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "kicker",
+      "text": "The name stuck. The technique did not.",
+      "durationInFrames": 64
+    },
+    {
+      "kind": "sign",
+      "line": "Old names hide good facts.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

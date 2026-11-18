@@ -386,7 +386,10 @@
     "reel:morris-worm-replication-flaw-1988",
     "reel:stanford-prison-experiment-guards-briefed-1971",
     "reel:montreal-protocol-ozone-recovery-2066",
-    "reel:newton-apple-stukeley-1752-royal-society-online-2010"
+    "reel:newton-apple-stukeley-1752-royal-society-online-2010",
+    "reel:bayeux-tapestry-embroidery-not-tapestry",
+    "reel:swan-edison-lamp-1879-ediswan-merger-1883",
+    "reel:cern-web-public-domain-30-april-1993"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -6745,6 +6748,53 @@
       "youtubeUrl": "https://youtu.be/xVhczkagzQA",
       "uploadedAt": "2026-11-17T18:03:56.148Z",
       "privacy": "public"
+    },
+    {
+      "id": "bayeux-tapestry-embroidery-not-tapestry",
+      "date": "2026-11-18",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The popular version. The Bayeux Tapestry is a tapestry.",
+      "description": "The Bayeux Tapestry is a tapestry. The scenes are stitched onto linen, not woven into it. That makes it an embroidery.\n\nRoughly its length. Sources give 68.38 metres, made from nine linen panels sewn together.\n\nAbout ten colours of wool. Worked in wool on linen, with dyes made from plant material.\n\nProbably English hands made it. Most scholars favour Canterbury. It was probably commissioned by Odo, Bishop of Bayeux.\n\nIts first written mention is 1476. A Bayeux Cathedral inventory lists it. That is the earliest known reference.\n\nThe name stuck. The technique did not.\n\nSources:\n- https://www.worldhistory.org/Bayeux_Tapestry/: read in full (World History Encyclopedia). Established that it is really an embroidery as the scenes are stitched not woven, 68.38 metres in length, two ply wool yarn dyed from plant material in at least ten colours, 58 scenes, most likely made by embroiderers in Canterbury, probably for Odo, Bishop of Bayeux, and first listed in the cathedral inventory in 1476.\n- https://en.wikipedia.org/wiki/Bayeux_Tapestry: first 39,946 of 87,200 characters read verbatim. Established technically an embroidery rather than a true tapestry, 68.38 m long, nine linen panels sewn together, wool thread on linen in ten natural dye colours, 58 scenes, probably made in or around Canterbury according to most contemporary scholars, generally thought to be commissioned by Odo, and a 1476 inventory as the earliest known written reference.\n- https://www.bayeuxmuseum.com/en/tapestry-or-embroidery/: read in full (Bayeux Museum). Established that the technique is unquestionably embroidery, that a tapestry's design emerges from weaving threads at right angles, nine linen panels joined together, about 68.3 metres long and ten colours of wool thread, and that most historians believe Odo commissioned it.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "RQYDJSTO_Rw",
+      "youtubeUrl": "https://youtu.be/RQYDJSTO_Rw",
+      "uploadedAt": "2026-11-18T17:43:37.327Z",
+      "privacy": "public"
+    },
+    {
+      "id": "swan-edison-lamp-1879-ediswan-merger-1883",
+      "date": "2026-11-18",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Joseph Swan showed a working lamp in 1879.",
+      "description": "Joseph Swan showed a working lamp in 1879. Wikipedia says that on 3 February 1879 he publicly demonstrated one to over seven hundred people. The lamp usually cited as Edison's first success was made on 19 October 1879.\n\nWhere Swan lectured, before showing the lamp in actual operation on 17 January 1879.\n\nHis home was the first with working bulbs. Wikipedia says Underhill, Low Fell, Gateshead was the world's first house to have working light bulbs installed.\n\nHis British patent came in November 1880. Wikipedia gives British Patent 4933 on 27 November 1880. The IET adds that Swan had not sought a patent covering his lamp in general terms.\n\nEdison went to court in Britain. Grace's Guide says he brought an infringement case over Swan's patent and lost, and had to take Swan in as a partner in his British works.\n\nThe Edison and Swan United Electric Light Company, formed by merging the two British companies.\n\nIn Britain, the company name carried both inventors.\n\nSources:\n- https://en.wikipedia.org/wiki/Joseph_Swan: read, first part verbatim. Established the Newcastle Chemical Society lecture of 18 December 1878, the lamp shown in operation on 17 January 1879, the public demonstration to over seven hundred people on 3 February 1879, Underhill in Gateshead as the first house with working light bulbs, British Patent 4933 on 27 November 1880, and the 1883 merger.\n- https://www.theiet.org/membership/library-archives/the-iet-archives/biographies/joseph-swan/: read (IET archives biography). Established lamps demonstrated in Newcastle in January 1879, a patent application in November 1880 for improved filaments, that Swan had not sought a patent covering his lamp in general terms, legal wrangling before the two British companies merged, and the Edison and Swan United Electric Light Company (Ediswan) formed on 26 October 1883.\n- https://gracesguide.co.uk/Edison_and_Swan_United_Electric_Light_Co: read (Grace's Guide). Established that the lamp usually cited as Edison's first success was made on 19 October 1879, that Edison brought an infringement case in the British courts over Swan's patent and lost, and that Edison had to take Swan in as a partner in his British works.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "UWkNRPqxBOw",
+      "youtubeUrl": "https://youtu.be/UWkNRPqxBOw",
+      "uploadedAt": "2026-11-18T17:47:38.805Z",
+      "privacy": "public"
+    },
+    {
+      "id": "cern-web-public-domain-30-april-1993",
+      "date": "2026-11-18",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The popular version. The web was free from the start.",
+      "description": "The web was free from the start. It was proposed in 1989. It was not declared free until 1993.\n\nWrote the proposal at CERN in March. By Christmas 1990 he had written the first browser, editor and server software.\n\nIt ran on a NeXT computer at CERN. Its address was info.cern.ch, which CERN still hosts as a restored copy of the first site.\n\nOn 30 April 1993, CERN released it. CERN put the World Wide Web software in the public domain. That was over four years after the proposal.\n\nA later release used an open licence. Both CERN pages say so. Neither names the licence, so this reel does not.\n\nOpen was a decision, not a default.\n\nSources:\n- https://home.cern/about/birth-web: read in full (CERN). Established that on 30 April 1993 CERN put the World Wide Web software in the public domain, that the first browser was written in 1990 and hosted on Berners-Lee's NeXT computer, and that CERN later made a release available with an open licence.\n- https://web30.web.cern.ch/web-history.html: read in full (CERN, Web at 30). Established March 1989 as the date of Berners-Lee's proposal, that by Christmas 1990 he had written the first browser and editor and the server software, that info.cern.ch was the address of the first web server running on a NeXT computer, the 30 April 1993 statement, and that the next release was made available with an open licence.\n- https://conffab.com/elsewhere/software-release-of-www-into-public-domain/: read in full (archive of the CERN document, dated 30 Apr 1993). Established the date of the release. The description of the released software as client, server and code library, and the two signatory names, appear only in an image caption, so they are not used.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
     }
   ]
 }

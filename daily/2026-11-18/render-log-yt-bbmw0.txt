@@ -1,0 +1,20 @@
+Rendering 3 Shorts for 2026-11-18 (concurrency=3, GL=default)
+Compliance: 2 cleared, 1 blocked (policy v1.0.0).
+Blocked by compliance: cern-web-public-domain-30-april-1993
+
+--- bayeux-tapestry-embroidery-not-tapestry ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-18-bayeux-tapestry-embroidery-not-tapestry.mp4
+  uploaded public: https://youtu.be/RQYDJSTO_Rw
+
+--- cern-web-public-domain-30-april-1993 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-18-cern-web-public-domain-30-april-1993.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-11-18/compliance-verdict.json.
+
+--- swan-edison-lamp-1879-ediswan-merger-1883 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-18-swan-edison-lamp-1879-ediswan-merger-1883.mp4
+  uploaded public: https://youtu.be/UWkNRPqxBOw
+
+=== Done. 3 rendered, 2 uploaded, 0 skipped, 1 blocked by compliance, 0 failed. ===

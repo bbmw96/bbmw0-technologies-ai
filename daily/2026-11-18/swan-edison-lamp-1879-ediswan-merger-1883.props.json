@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (swan-edison-lamp-1879-ediswan-merger-1883)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#14110C",
+    "ink": "#F6F1E6",
+    "accent": "#F2B84B",
+    "muted": "#8E8672"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The legend",
+      "text": "Joseph Swan showed a working lamp in 1879.",
+      "note": "Wikipedia says that on 3 February 1879 he publicly demonstrated one to over seven hundred people. The lamp usually cited as Edison's first success was made on 19 October 1879.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "18 Dec 1878",
+      "name": "Newcastle Chemical Society",
+      "role": "Where Swan lectured, before showing the lamp in actual operation on 17 January 1879.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "statement",
+      "lead": "The house",
+      "text": "His home was the first with working bulbs.",
+      "note": "Wikipedia says Underhill, Low Fell, Gateshead was the world's first house to have working light bulbs installed.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "The patent",
+      "text": "His British patent came in November 1880.",
+      "note": "Wikipedia gives British Patent 4933 on 27 November 1880. The IET adds that Swan had not sought a patent covering his lamp in general terms.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The courtroom",
+      "text": "Edison went to court in Britain.",
+      "note": "Grace's Guide says he brought an infringement case over Swan's patent and lost, and had to take Swan in as a partner in his British works.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "26 Oct 1883",
+      "name": "Ediswan",
+      "role": "The Edison and Swan United Electric Light Company, formed by merging the two British companies.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "kicker",
+      "text": "In Britain, the company name carried both inventors.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Two names on one bulb.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
