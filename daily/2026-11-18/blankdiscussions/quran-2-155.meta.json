@@ -1,0 +1,49 @@
+{
+  "slug": "quran-2-155",
+  "date": "2026-11-18",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "And We will surely test you with something of fear and hunger and a loss of wealth and lives and fruits, but give good tidings to the patient,\n\nSurah Al-Baqarah (2:155). Swipe through for the Arabic, then English, Mandarin, Korean and Japanese renderings.\n\nSources on the final slide.\n\n#Quran #IslamicReminder #Ayah #Deen #IslamicGuidance",
+  "tags": [
+    "Quran",
+    "IslamicReminder",
+    "Ayah",
+    "Deen",
+    "IslamicGuidance",
+    "MuslimReminder",
+    "QuranicVerses",
+    "Alhamdulillah"
+  ],
+  "theme": "chaste-59",
+  "slides": [
+    "quran-2-155.slide-01.json",
+    "quran-2-155.slide-02.json",
+    "quran-2-155.slide-03.json",
+    "quran-2-155.slide-04.json",
+    "quran-2-155.slide-05.json",
+    "quran-2-155.slide-06.json",
+    "quran-2-155.slide-07.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an, Surah Al-Baqarah (2), Ayah 155",
+    "arabic": "Uthmani script (quran-uthmani), api.alquran.cloud. Two independent live fetches this session (2026-11-18) of GET /v1/ayah/2:155/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese, HTTP 200 each, diffed: byte-identical. Verbatim: \"وَلَنَبْلُوَنَّكُم بِشَىْءٍۢ مِّنَ ٱلْخَوْفِ وَٱلْجُوعِ وَنَقْصٍۢ مِّنَ ٱلْأَمْوَٰلِ وَٱلْأَنفُسِ وَٱلثَّمَرَٰتِ ۗ وَبَشِّرِ ٱلصَّٰبِرِينَ\"",
+    "english": "Saheeh International (en.sahih). Verbatim: \"And We will surely test you with something of fear and hunger and a loss of wealth and lives and fruits, but give good tidings to the patient,\"",
+    "chinese": "Ma Jian (zh.jian). Raw: \"我必以些微的恐怖和饥馑，以及资产、生命、收获等的损失，试验你们，你当向坚忍的人报喜。\". Used verbatim, no edits.",
+    "korean": "ko.korean; source metadata lists translator as 'Unknown', credited on-slide as not specified. Raw: \"하나님은 두려움과 기아로 써 재산과 가족과 곡식들을 손실 케하여 너회들을 시험할 것이라 그러나 인내하는 자들에게는 복음 이 있으리라\". Used verbatim, no edits (source spacing irregularities left as-is rather than altered).",
+    "japanese": "ja.japanese; source metadata lists translator as 'Unknown', cited as such. Verbatim: \"われは，恐れや飢え，と共に財産や生命，（あなたがたの労苦の）果実の損失で，必ずあなたがたを試みる。だが耐え忍ぶ者には吉報を伝えなさい。\"",
+    "verification_note": "All renderings from two live api.alquran.cloud fetches this session, diffed identical; none from memory. Edition metadata re-checked via /v1/edition (en.sahih Saheeh International, zh.jian Ma Jian, ko.korean Unknown, ja.japanese Unknown). Halal compliance check against scripts/data/compliance-policy.json halal wordlists (138 terms): typography only, no imagery, 0 hits. Dupcheck against local daily/*/blankdiscussions meta files: quran:2:155 NEW. Fixes applied: ."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-11-18/quran-2-155-slide-NN.png --props=daily/2026-11-18/blankdiscussions/quran-2-155.slide-NN.json",
+  "status": "rendered_and_hosted",
+  "hostingUrls": [
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-18/blankdiscussions/renders/quran-2-155-slide-01.png",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-18/blankdiscussions/renders/quran-2-155-slide-02.png",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-18/blankdiscussions/renders/quran-2-155-slide-03.png",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-18/blankdiscussions/renders/quran-2-155-slide-04.png",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-18/blankdiscussions/renders/quran-2-155-slide-05.png",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-18/blankdiscussions/renders/quran-2-155-slide-06.png",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-18/blankdiscussions/renders/quran-2-155-slide-07.png"
+  ]
+}

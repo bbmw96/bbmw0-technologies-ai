@@ -1,0 +1,32 @@
+[
+ {
+  "id": "quran-uthmani",
+  "tr": "Uthmani",
+  "s": "Al-Baqara",
+  "t": "وَلَنَبْلُوَنَّكُم بِشَىْءٍۢ مِّنَ ٱلْخَوْفِ وَٱلْجُوعِ وَنَقْصٍۢ مِّنَ ٱلْأَمْوَٰلِ وَٱلْأَنفُسِ وَٱلثَّمَرَٰتِ ۗ وَبَشِّرِ ٱلصَّٰبِرِينَ"
+ },
+ {
+  "id": "en.sahih",
+  "tr": "Saheeh International",
+  "s": "Al-Baqara",
+  "t": "And We will surely test you with something of fear and hunger and a loss of wealth and lives and fruits, but give good tidings to the patient,"
+ },
+ {
+  "id": "zh.jian",
+  "tr": "Ma Jian",
+  "s": "Al-Baqara",
+  "t": "我必以些微的恐怖和饥馑，以及资产、生命、收获等的损失，试验你们，你当向坚忍的人报喜。"
+ },
+ {
+  "id": "ko.korean",
+  "tr": "Unknown",
+  "s": "Al-Baqara",
+  "t": "하나님은 두려움과 기아로 써 재산과 가족과 곡식들을 손실 케하여 너회들을 시험할 것이라 그러나 인내하는 자들에게는 복음 이 있으리라"
+ },
+ {
+  "id": "ja.japanese",
+  "tr": "Unknown",
+  "s": "Al-Baqara",
+  "t": "われは，恐れや飢え，と共に財産や生命，（あなたがたの労苦の）果実の損失で，必ずあなたがたを試みる。だが耐え忍ぶ者には吉報を伝えなさい。"
+ }
+]
