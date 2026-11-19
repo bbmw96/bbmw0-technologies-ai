@@ -33,8 +33,32 @@
     "chinese": "Ma Jian (zh.jian). Raw: \"我确是真主，除我外，绝无应受崇拜者。你应当崇拜我， 当为记念我而谨守拜功。\". Punctuation/spacing-only fix (stray space after comma removed). No wording changed.",
     "korean": "ko.korean; source metadata lists translator as 'Unknown', credited on-slide as not specified. Raw: \"실로 내가 하나님이요 나 외에는 신이 없나니 나만을 경배하 고 예배하며 나만을 생각하라\". Spacing-only fix: '하 고' -> '하고'. Whitespace-stripped text verified identical to raw. No wording changed.",
     "japanese": "ja.japanese; source metadata lists translator as 'Unknown', cited as such. Verbatim: \"本当にわれはアッラーである。われの外に神はない。だからわれに仕え，われを心に抱いて礼拝の務めを守れ。\"",
-    "verification_note": "All renderings from two live api.alquran.cloud fetches this session, diffed identical; none from memory. Edition metadata re-checked via /v1/edition (en.sahih Saheeh International, zh.jian Ma Jian, ko.korean Unknown, ja.japanese Unknown). Halal compliance check against scripts/data/compliance-policy.json halal wordlists (138 terms): typography only, no imagery, 0 hits. Dupcheck against local daily/*/blankdiscussions meta files: quran:20:14 NEW. Fixes applied: zh.jian: \"， \" -> \"，\"; ko.korean: \"하 고\" -> \"하고\"."
+    "verification_note": "All renderings from two live api.alquran.cloud fetches this session, diffed identical; none from memory. Edition metadata re-checked via /v1/edition (en.sahih Saheeh International, zh.jian Ma Jian, ko.korean Unknown, ja.japanese Unknown). Halal compliance check against scripts/data/compliance-policy.json halal wordlists (138 terms): typography only, no imagery, 0 hits. Dupcheck against local daily/*/blankdiscussions meta files: quran:20:14 NEW. Fixes applied: zh.jian: \"， \" -> \"，\"; ko.korean: \"하 고\" -> \"하고\". Theme emerald-gold (existing theme, not a repeat of the preceding chastity series)."
   },
   "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-11-19/quran-20-14-slide-NN.png --props=daily/2026-11-19/blankdiscussions/quran-20-14.slide-NN.json",
-  "status": "sourced_pending_render"
+  "status": "published",
+  "hostingUrls": [
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-19/blankdiscussions/renders/quran-20-14-slide-01.png",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-19/blankdiscussions/renders/quran-20-14-slide-02.png",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-19/blankdiscussions/renders/quran-20-14-slide-03.png",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-19/blankdiscussions/renders/quran-20-14-slide-04.png",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-19/blankdiscussions/renders/quran-20-14-slide-05.png",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-19/blankdiscussions/renders/quran-20-14-slide-06.png",
+    "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-19/blankdiscussions/renders/quran-20-14-slide-07.png"
+  ],
+  "published": {
+    "mediaId": "18136343044664203",
+    "permalink": "https://www.instagram.com/p/Df7DkZgIATW/",
+    "publishedAt": "2026-11-19T12:14:25Z",
+    "hostingUrls": [
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-19/blankdiscussions/renders/quran-20-14-slide-01.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-19/blankdiscussions/renders/quran-20-14-slide-02.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-19/blankdiscussions/renders/quran-20-14-slide-03.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-19/blankdiscussions/renders/quran-20-14-slide-04.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-19/blankdiscussions/renders/quran-20-14-slide-05.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-19/blankdiscussions/renders/quran-20-14-slide-06.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-19/blankdiscussions/renders/quran-20-14-slide-07.png"
+    ],
+    "publishedVia": "Composio INSTAGRAM_CREATE_CAROUSEL_CONTAINER + INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH (account instagram_willed-pried)"
+  }
 }
