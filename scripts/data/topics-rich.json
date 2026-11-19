@@ -19352,6 +19352,255 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "fast-inverse-sqrt-walsh-not-carmack-quake3-1999",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://beyond3d.com/content/articles/15: read (Beyond3D, \"Origin of Quake3's Fast InvSqrt() - Part Two\", 19 December 2006). Established that the fast 1/sqrt(x) was engineered by Greg Walsh at Ardent, working with Cleve Moler (\"Cleve as the inspiration and Greg as the author\"); that Gary Tarolli used and tweaked it at 3dfx; that it passed through people including John Carmack and Michael Abrash; and that it was published in the Quake III source release of 19 August 2005.",
+        "https://en.wikipedia.org/wiki/Fast_inverse_square_root: read. Established the Q_rsqrt code and its comment \"what the fuck?\", the constant 0x5F3759DF, one Newton iteration used in Quake III, an error of about 3.4% before and 0.17% after that iteration, \"approximately four times faster than computing the square root\", the Kahan and Ng unpublished paper of May 1986, that \"some guessed John Carmack\", that the Quake III source release at QuakeCon 2005 \"provided no answers\", and that it is not known precisely how the exact constant was determined. Also the 2009 benchmark note that the SSE rsqrtss instruction (released 1999) took 0.85ns against 3.54ns with less error."
+      ],
+      "verifiedNote": "Checked 19 Nov 2026 via fetch agent returning verbatim passages. Neither page quotes Carmack, Tarolli or Abrash about the code, so no one is quoted. Not claimed: that Walsh wrote the exact Quake III listing (Beyond3D shows an earlier InvSqrt form without the comment), that Tarolli brought it to id (Wikipedia says only that he likely brought it to 3dfx and Brian Hook may have brought it to id), or the GPL. Accuracy not used on screen (0.17% per Wikipedia, not 0.175%). The four times faster figure is Wikipedia's and is attributed. Wikipedia is a secondary source; Beyond3D is the primary investigation.",
+      "palette": {
+        "bg": "#0B0B0F",
+        "ink": "#F5F5F0",
+        "accent": "#FF3D2E",
+        "muted": "#8A8A93"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The legend",
+          "text": "John Carmack did not write it.",
+          "note": "Wikipedia says some guessed Carmack. Beyond3D traced it to Greg Walsh at Ardent Computer, with Cleve Moler as the inspiration."
+        },
+        {
+          "kind": "statement",
+          "lead": "The code",
+          "text": "The comment on the magic line reads: what the f***?",
+          "note": "The line is i = 0x5f3759df - ( i >> 1 ), followed by one Newton iteration. Only one was used in Quake III."
+        },
+        {
+          "kind": "credit",
+          "year": "1986",
+          "name": "Kahan and Ng",
+          "role": "Wrote an unpublished paper on a related technique in May 1986, according to Wikipedia."
+        },
+        {
+          "kind": "figure",
+          "value": "4",
+          "unit": "x faster",
+          "context": "Roughly how much quicker it was than computing the square root the normal way, according to Wikipedia, when Quake III came out in 1999."
+        },
+        {
+          "kind": "credit",
+          "year": "2005",
+          "name": "The source release",
+          "role": "Quake III code went public at QuakeCon, but according to Wikipedia it provided no answers on who wrote the line."
+        },
+        {
+          "kind": "statement",
+          "lead": "The twist",
+          "text": "A hardware instruction soon beat it.",
+          "note": "Wikipedia cites a benchmark of 0.85ns for the SSE rsqrtss instruction against 3.54ns for the trick, with less error."
+        },
+        {
+          "kind": "kicker",
+          "text": "We know who devised it. We do not know exactly how."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the source.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "bumblebees-cannot-fly-myth-magnan-1934",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://www.snopes.com/fact-check/bumblebees-cant-fly/: read. Established that Magnan included a passage in the introduction to his 1934 book Le Vol des Insectes saying that applying the laws of air resistance to insects made their flight \"impossible\"; that the calculation was by his assistant, apparently an engineer; that the dinner anecdote is variously tied to students of Ludwig Prandtl or to Swiss gas dynamicist Jacob Ackeret; that the calculation assumed a rigid, smooth wing (bee of almost a gram, wing area about a square centimetre, per Physics World 1996); that wings are not rigid and bend and twist; and that Torkel Weis-Fogh, Cambridge zoologist in the 1970s, did the key work on how insect wings generate lift.",
+        "https://www.sciencenews.org/article/flight-bumblebee: read. Established the same Magnan 1934 passage and dinner anecdote, \"Wings aren't rigid\", and the figure that a bumblebee beats its wings 130 times per second on average.",
+        "https://www.todayifoundout.com/index.php/2013/08/bumblebee-flight-does-not-violate-the-laws-of-physics/: read (2013 blog post, secondary). Established that Le Vol des Insectes is the earliest known reference, and that the calculation fails because bumblebees do not fly like planes or have stiff rigid wings."
+      ],
+      "verifiedNote": "Checked 19 Nov 2026 via fetch agent returning verbatim passages. Not claimed: any wing beat figure other than 130 per second (Science News; a commonly quoted 200 is on none of the pages), flight speed (Science News says about 3 m/s, Physics World via Snopes about 1 m/s), the spelling of the assistant's name (pages differ, so he is left unnamed), leading edge vortices, Dickinson or Ellington (not on any page read). Mechanism kept to what Snopes states: wings bend and twist, stroke angles change.",
+      "palette": {
+        "bg": "#150A12",
+        "ink": "#F8EDF3",
+        "accent": "#E85D9B",
+        "muted": "#8C7480"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The myth",
+          "text": "Science never proved bumblebees cannot fly.",
+          "note": "The sums behind the story assumed a rigid, smooth wing, according to Snopes."
+        },
+        {
+          "kind": "credit",
+          "year": "1934",
+          "name": "Antoine Magnan",
+          "role": "Wrote in Le Vol des Insectes that applying air resistance laws made insect flight impossible. The sums were by his assistant."
+        },
+        {
+          "kind": "statement",
+          "lead": "The mistake",
+          "text": "It treated a bee like a jumbo jet.",
+          "note": "Jumbo jets have fixed wings. The calculation only showed that bees with smooth, rigid wings cannot glide."
+        },
+        {
+          "kind": "figure",
+          "value": "130",
+          "unit": "beats/sec",
+          "context": "How often a bumblebee beats its wings on average, according to Science News."
+        },
+        {
+          "kind": "statement",
+          "lead": "The reality",
+          "text": "Real wings bend and twist.",
+          "note": "Stroke angles change, and air flows over the wing in a way that creates lift. Snopes credits Torkel Weis-Fogh at Cambridge in the 1970s."
+        },
+        {
+          "kind": "statement",
+          "lead": "The dinner",
+          "text": "Nobody agrees who did the sums.",
+          "note": "Some accounts name students of Ludwig Prandtl, others Swiss gas dynamicist Jacob Ackeret. The 1934 book is the earliest known reference."
+        },
+        {
+          "kind": "kicker",
+          "text": "The bee was fine. The model was wrong."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the source.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "bard-jwst-exoplanet-error-100-billion-2023",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://fortune.com/2023/02/08/google-bard-ai-mistake-ad-stock-price-market-cap/amp/: read (8 February 2023). Established the wrong claim that JWST took the very first pictures of a planet outside our solar system; that the first image was by the Very Large Telescope in Chile in 2004, confirmed as an exoplanet in 2005 per NASA; Bard premiered for testers on Monday; shares fell nearly 8% midday on Wednesday to around $99 from $108; and the reported $100 billion market value loss.",
+        "https://www.irishtimes.com/business/2023/02/09/alphabet-shares-dive-after-google-chatbot-gets-satellite-question-wrong: read. Established the prompt (\"What new discoveries from the James Webb Space Telescope (JWST) can I tell my 9-year old about?\"), that Alphabet lost $100 billion in market value on Wednesday, slid as much as 9% in regular trading then pared losses after hours, that the error was found just before Google's live-streamed Wednesday presentation, that Microsoft held its Bing event a day earlier, and the Google statement about its Trusted Tester programme.",
+        "https://www.androidauthority.com/google-bard-error-3280902/: read. Established the wording \"JWST took the very first pictures of a planet outside of our own solar system\", the VLT/NACO correction (Chauvin et al. 2004) in astrophysicist Grant Tremblay's tweet, and that Alphabet lost more than $100 billion in market value."
+      ],
+      "verifiedNote": "Checked 19 Nov 2026 via fetch agent returning verbatim passages. Not claimed: who spotted the error first (Fortune and Irish Times credit Reuters, Android Authority shows an astronomer's tweet dated 7 February), the exact closing percentage (sources give nearly 8%, 8% and as much as 9% intraday), the planet name 2M1207b (not in any page text), the Paris event (only Fortune mentions it and no date is given), or Tremblay's affiliation. The $100 billion is a reported figure and the video says so; Fortune's own market cap numbers do not reconcile with it, and shares pared losses after hours.",
+      "palette": {
+        "bg": "#0C0A14",
+        "ink": "#F1EEF7",
+        "accent": "#B38BFA",
+        "muted": "#7C7690"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The question",
+          "text": "Bard was asked what to tell a nine-year-old about the James Webb telescope.",
+          "note": "Its answer said JWST took the very first pictures of a planet outside our own solar system."
+        },
+        {
+          "kind": "credit",
+          "year": "2004",
+          "name": "The Very Large Telescope",
+          "role": "Took the first image of a planet outside our solar system, from Chile. NASA confirmed it as an exoplanet in 2005, according to Fortune."
+        },
+        {
+          "kind": "statement",
+          "lead": "The timing",
+          "text": "The error surfaced just before Google's live presentation.",
+          "note": "That was Wednesday 8 February 2023, a day after Microsoft held its Bing event, according to the Irish Times."
+        },
+        {
+          "kind": "figure",
+          "value": "100",
+          "unit": "$ billion",
+          "context": "The market value Alphabet reportedly lost on Wednesday 8 February 2023. Shares slid as much as 9% in regular trading, then pared losses after hours."
+        },
+        {
+          "kind": "statement",
+          "lead": "The reply",
+          "text": "Google called it part of its Trusted Tester programme.",
+          "note": "A spokesperson said it was something being kicked off that week, and that Google would combine external feedback with its own internal testing."
+        },
+        {
+          "kind": "kicker",
+          "text": "One wrong answer, in an advert."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the source.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "giza-pyramid-builders-not-slaves-workers-town",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://www.harvardmagazine.com/2003/07/who-built-the-pyramids.html: read (Harvard Magazine, Jonathan Shaw, 1 July 2003). Established that Mark Lehner found the city of the pyramid builders and that \"They were not slaves\"; two towns side by side; the oldest bakery found in Egypt; young, mostly male cattle, enough to feed several thousand people even if they ate meat every day; and that Reisner found workers' graffiti naming gangs such as Friends of Khufu or Drunkards of Menkaure.",
+        "https://phys.org/news/2010-01-egypt-slaves-didnt-pyramids.pdf: read (AP report, 10 January 2010). Established that graves of the pyramid builders were first discovered in the area in 1990 in the backyard of the Giza pyramids; that about 10,000 labourers ate 21 cattle and 23 sheep sent daily from farms; that workers ate meat regularly and worked in three month shifts; that Herodotus, who visited around 450 BC, described the builders as slaves; and that skeletons show arthritis and a hard life.",
+        "https://www.ancient-origins.net/news-history-archaeology/giza-pyramids-built-by-slaves-builders-evidence-00128327: read (fact check, secondary). Used only for the Loeb translation point that the Herodotus passage uses no word for slaves, and Hawass's statement that most fractures had healed well, indicating splints."
+      ],
+      "verifiedNote": "Checked 19 Nov 2026 via fetch agent returning verbatim passages. The AP piece says Herodotus described the builders as slaves while Ancient Origins (quoting the Loeb translation) says the passage uses no word for slaves, so the video reports both rather than ruling. Not claimed: a date for Khufu's pyramid (Harvard says around 2530 BC, AP gives a dynasty range, nothing says 2560), any workforce total (sources range from 1,600 to 36,000, plus Herodotus's 100,000), the phrase Lost City of the Pyramid Builders, or any medical care beyond the splints. The 21 cattle and 23 sheep a day is AP's figure for about 10,000 labourers. Ancient Origins is a weaker source with internal date oddities, so its two points are attributed and not leaned on.",
+      "palette": {
+        "bg": "#120E08",
+        "ink": "#F6F0E4",
+        "accent": "#E0A93B",
+        "muted": "#8F8570"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The myth",
+          "text": "The pyramid builders were not slaves.",
+          "note": "Harvard Magazine reported Mark Lehner's discovery of the city of the pyramid builders, and put it plainly."
+        },
+        {
+          "kind": "statement",
+          "lead": "The blame",
+          "text": "Herodotus gets the credit for the slave story.",
+          "note": "AP says he described the builders as slaves. A translation quoted by Ancient Origins says that passage uses no word for slaves."
+        },
+        {
+          "kind": "credit",
+          "year": "1990",
+          "name": "The workers' graves",
+          "role": "First found in the backyard of the Giza pyramids, according to AP. Hawass said the dead were buried near their pharaohs' pyramids."
+        },
+        {
+          "kind": "statement",
+          "lead": "The signatures",
+          "text": "The crews named themselves.",
+          "note": "Harvard says early graffiti named gangs such as Friends of Khufu and Drunkards of Menkaure."
+        },
+        {
+          "kind": "figure",
+          "value": "21",
+          "unit": "cattle",
+          "context": "Plus 23 sheep, sent in every day for about 10,000 labourers, according to AP in 2010. The team also found the oldest bakery ever found in Egypt."
+        },
+        {
+          "kind": "statement",
+          "lead": "The cost",
+          "text": "It was still brutal work.",
+          "note": "AP reports skeletons with arthritis and strained lower backs. Hawass said most fractures had healed well, indicating splints."
+        },
+        {
+          "kind": "kicker",
+          "text": "Fed, housed and buried beside the king's pyramid."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the source.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
