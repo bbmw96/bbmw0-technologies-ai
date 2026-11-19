@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-11-19 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- bumblebees-cannot-fly-myth-magnan-1934 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-19-bumblebees-cannot-fly-myth-magnan-1934.mp4
+  uploaded public: https://youtu.be/-KmxtpkU65c
+
+--- planning-fallacy-students-thesis-55-days-1994 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-19-planning-fallacy-students-thesis-55-days-1994.mp4
+  uploaded public: https://youtu.be/lmtA91gR7BA
+
+--- unix-epoch-1971-sixtieths-first-edition ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-19-unix-epoch-1971-sixtieths-first-edition.mp4
+  uploaded public: https://youtu.be/iCEp57tJ5TM
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

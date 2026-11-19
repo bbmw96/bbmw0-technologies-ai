@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (planning-fallacy-students-thesis-55-days-1994)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#100F14",
+    "ink": "#F0EEF8",
+    "accent": "#B79CFF",
+    "muted": "#8A86A0"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The law",
+      "text": "It always takes longer than you expect.",
+      "note": "Even when you take into account Hofstadter's law. Douglas Hofstadter wrote it in Godel, Escher, Bach in 1979, about chess computers.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "credit",
+      "year": "1994",
+      "name": "Buehler, Griffin and Ross",
+      "role": "Asked 37 psychology students to estimate how long their final year theses would take.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "statement",
+      "lead": "The guess",
+      "text": "Their average estimate was 33.9 days.",
+      "note": "The average time they actually took was 55.5 days.",
+      "durationInFrames": 124
+    },
+    {
+      "kind": "statement",
+      "lead": "The worst case",
+      "text": "Even the gloomy guess was too short.",
+      "note": "When asked for a worst case, the average was 48.6 days. That still fell short of the real average.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "figure",
+      "value": "30",
+      "unit": "per cent",
+      "context": "About this share finished in the time they had predicted.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "kicker",
+      "text": "Add the buffer before you start.",
+      "durationInFrames": 60
+    },
+    {
+      "kind": "sign",
+      "line": "Plans are guesses.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (bumblebees-cannot-fly-myth-magnan-1934)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#150A12",
+    "ink": "#F8EDF3",
+    "accent": "#E85D9B",
+    "muted": "#8C7480"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The myth",
+      "text": "Science never proved bumblebees cannot fly.",
+      "note": "The sums behind the story assumed a rigid, smooth wing, according to Snopes.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "credit",
+      "year": "1934",
+      "name": "Antoine Magnan",
+      "role": "Wrote in Le Vol des Insectes that applying air resistance laws made insect flight impossible. The sums were by his assistant.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "statement",
+      "lead": "The mistake",
+      "text": "It treated a bee like a jumbo jet.",
+      "note": "Jumbo jets have fixed wings. The calculation only showed that bees with smooth, rigid wings cannot glide.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "figure",
+      "value": "130",
+      "unit": "beats/sec",
+      "context": "How often a bumblebee beats its wings on average, according to Science News.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "statement",
+      "lead": "The reality",
+      "text": "Real wings bend and twist.",
+      "note": "Stroke angles change, and air flows over the wing in a way that creates lift. Snopes credits Torkel Weis-Fogh at Cambridge in the 1970s.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "lead": "The dinner",
+      "text": "Nobody agrees who did the sums.",
+      "note": "Some accounts name students of Ludwig Prandtl, others Swiss gas dynamicist Jacob Ackeret. The 1934 book is the earliest known reference.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "kicker",
+      "text": "The bee was fine. The model was wrong.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Check the source.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

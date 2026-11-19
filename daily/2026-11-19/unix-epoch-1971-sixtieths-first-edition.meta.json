@@ -1,0 +1,25 @@
+{
+  "slug": "unix-epoch-1971-sixtieths-first-edition",
+  "date": "2026-11-19",
+  "title": "The popular version. Unix time began in 1970.",
+  "description": "Unix time began in 1970. That is where the clock starts now. It is not where it started.\n\nDated 3 November 1971. It counted time from 1 January 1971, not 1970.\n\nThe first edition counted time in sixtieths of a second, as a 32 bit number.\n\nThe manual admits it would run out. Its own BUGS section says 2**32 sixtieths of a second is only about 2.5 years.\n\nIn 1973 the units became full seconds. Counted from the 1970 New Year. Wikipedia says engineers picked that date arbitrarily, as a convenient one.\n\nThe zero point was a patch.\n\nSources:\n- https://www.nokia.com/bell-labs/about/dennis-m-ritchie/1stEdman.html: read in full (Dennis Ritchie's page for the first edition Unix Programmer's Manual, hosted by Nokia Bell Labs). Established the manual is dated 3 November 1971, that time was measured in sixtieths of a second since 1 Jan. 1971 as a 32 bit quantity, the manual's own BUGS line that 2**32 sixtieths of a second is only about 2.5 years, and that this was later patched more than once before units became full seconds dating from the 1970 New Year in 1973.\n- https://en.wikipedia.org/wiki/Unix_time: History section read. Established that the current epoch of 1 January 1970 was selected arbitrarily by Unix engineers as a convenient date (citing Wired, 2001), and that the precision was changed to seconds to avoid short term overflow.\n- https://minnie.tuhs.org/mailman3/hyperkitty/list/tuhs@tuhs.org/thread/MVO2V2Y3OTFEBLLM3ABRP2FKYJOHLPCG: read in full (TUHS mailing list, May 2009). Corroborated the first edition epoch of 1 January 1971 and that the later epoch was set for the fourth edition. The poster says the manual texts are paraphrased, so no wording is taken from it.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-19-unix-epoch-1971-sixtieths-first-edition.mp4",
+  "propsFile": "daily/2026-11-19/unix-epoch-1971-sixtieths-first-edition.props.json",
+  "durationInFrames": 914,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

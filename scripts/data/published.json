@@ -389,7 +389,10 @@
     "reel:newton-apple-stukeley-1752-royal-society-online-2010",
     "reel:bayeux-tapestry-embroidery-not-tapestry",
     "reel:swan-edison-lamp-1879-ediswan-merger-1883",
-    "reel:cern-web-public-domain-30-april-1993"
+    "reel:cern-web-public-domain-30-april-1993",
+    "reel:bumblebees-cannot-fly-myth-magnan-1934",
+    "reel:unix-epoch-1971-sixtieths-first-edition",
+    "reel:planning-fallacy-students-thesis-55-days-1994"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -6795,6 +6798,57 @@
       "channelId": "yt-bbmw0",
       "special": false,
       "platform": "youtube"
+    },
+    {
+      "id": "bumblebees-cannot-fly-myth-magnan-1934",
+      "date": "2026-11-19",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Science never proved bumblebees cannot fly.",
+      "description": "Science never proved bumblebees cannot fly. The sums behind the story assumed a rigid, smooth wing, according to Snopes.\n\nWrote in Le Vol des Insectes that applying air resistance laws made insect flight impossible. The sums were by his assistant.\n\nIt treated a bee like a jumbo jet. Jumbo jets have fixed wings. The calculation only showed that bees with smooth, rigid wings cannot glide.\n\nHow often a bumblebee beats its wings on average, according to Science News.\n\nReal wings bend and twist. Stroke angles change, and air flows over the wing in a way that creates lift. Snopes credits Torkel Weis-Fogh at Cambridge in the 1970s.\n\nNobody agrees who did the sums. Some accounts name students of Ludwig Prandtl, others Swiss gas dynamicist Jacob Ackeret. The 1934 book is the earliest known reference.\n\nThe bee was fine. The model was wrong.\n\nSources:\n- https://www.snopes.com/fact-check/bumblebees-cant-fly/: read. Established that Magnan included a passage in the introduction to his 1934 book Le Vol des Insectes saying that applying the laws of air resistance to insects made their flight \"impossible\"; that the calculation was by his assistant, apparently an engineer; that the dinner anecdote is variously tied to students of Ludwig Prandtl or to Swiss gas dynamicist Jacob Ackeret; that the calculation assumed a rigid, smooth wing (bee of almost a gram, wing area about a square centimetre, per Physics World 1996); that wings are not rigid and bend and twist; and that Torkel Weis-Fogh, Cambridge zoologist in the 1970s, did the key work on how insect wings generate lift.\n- https://www.sciencenews.org/article/flight-bumblebee: read. Established the same Magnan 1934 passage and dinner anecdote, \"Wings aren't rigid\", and the figure that a bumblebee beats its wings 130 times per second on average.\n- https://www.todayifoundout.com/index.php/2013/08/bumblebee-flight-does-not-violate-the-laws-of-physics/: read (2013 blog post, secondary). Established that Le Vol des Insectes is the earliest known reference, and that the calculation fails because bumblebees do not fly like planes or have stiff rigid wings.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "-KmxtpkU65c",
+      "youtubeUrl": "https://youtu.be/-KmxtpkU65c",
+      "uploadedAt": "2026-11-19T17:53:24.145Z",
+      "privacy": "public"
+    },
+    {
+      "id": "unix-epoch-1971-sixtieths-first-edition",
+      "date": "2026-11-19",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The popular version. Unix time began in 1970.",
+      "description": "Unix time began in 1970. That is where the clock starts now. It is not where it started.\n\nDated 3 November 1971. It counted time from 1 January 1971, not 1970.\n\nThe first edition counted time in sixtieths of a second, as a 32 bit number.\n\nThe manual admits it would run out. Its own BUGS section says 2**32 sixtieths of a second is only about 2.5 years.\n\nIn 1973 the units became full seconds. Counted from the 1970 New Year. Wikipedia says engineers picked that date arbitrarily, as a convenient one.\n\nThe zero point was a patch.\n\nSources:\n- https://www.nokia.com/bell-labs/about/dennis-m-ritchie/1stEdman.html: read in full (Dennis Ritchie's page for the first edition Unix Programmer's Manual, hosted by Nokia Bell Labs). Established the manual is dated 3 November 1971, that time was measured in sixtieths of a second since 1 Jan. 1971 as a 32 bit quantity, the manual's own BUGS line that 2**32 sixtieths of a second is only about 2.5 years, and that this was later patched more than once before units became full seconds dating from the 1970 New Year in 1973.\n- https://en.wikipedia.org/wiki/Unix_time: History section read. Established that the current epoch of 1 January 1970 was selected arbitrarily by Unix engineers as a convenient date (citing Wired, 2001), and that the precision was changed to seconds to avoid short term overflow.\n- https://minnie.tuhs.org/mailman3/hyperkitty/list/tuhs@tuhs.org/thread/MVO2V2Y3OTFEBLLM3ABRP2FKYJOHLPCG: read in full (TUHS mailing list, May 2009). Corroborated the first edition epoch of 1 January 1971 and that the later epoch was set for the fourth edition. The poster says the manual texts are paraphrased, so no wording is taken from it.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "iCEp57tJ5TM",
+      "youtubeUrl": "https://youtu.be/iCEp57tJ5TM",
+      "uploadedAt": "2026-11-19T17:56:43.777Z",
+      "privacy": "public"
+    },
+    {
+      "id": "planning-fallacy-students-thesis-55-days-1994",
+      "date": "2026-11-19",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It always takes longer than you expect.",
+      "description": "It always takes longer than you expect. Even when you take into account Hofstadter's law. Douglas Hofstadter wrote it in Godel, Escher, Bach in 1979, about chess computers.\n\nAsked 37 psychology students to estimate how long their final year theses would take.\n\nTheir average estimate was 33.9 days. The average time they actually took was 55.5 days.\n\nEven the gloomy guess was too short. When asked for a worst case, the average was 48.6 days. That still fell short of the real average.\n\nAbout this share finished in the time they had predicted.\n\nAdd the buffer before you start.\n\nSources:\n- https://en.wikipedia.org/wiki/Planning_fallacy: read in full. Established that the planning fallacy was first proposed by Kahneman and Tversky in 1979, and the Buehler, Griffin and Ross study (Journal of Personality and Social Psychology 67(3): 366 to 381): 37 psychology students estimating how long their senior theses would take, an average estimate of 33.9 days, a best case average of 27.4, a worst case average of 48.6, an average actual completion of 55.5 days, and about 30 per cent finishing in the time they predicted.\n- https://siliconcanals.com/t-productivity-advice-usually-starts-after-the-plan-is-made-but-decades-of-research-suggest-many-missed-deadlines-begin-earlier-with-an-optimistic-estimate-of-how-long-the-work-will-take/: read in full (published 4 August 2026). Corroborated the 33.9 and 55.5 day averages, the roughly 30 per cent figure, and that the average worst case forecast of 48.6 days came in about a week short of the eventual result.\n- https://en.wikipedia.org/wiki/Hofstadter%27s_law: read in full. Established the wording of the law, that Douglas Hofstadter introduced it in Godel, Escher, Bach in 1979 in a discussion of chess playing computers, and the Basic Books 1979 page 152 citation.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "lmtA91gR7BA",
+      "youtubeUrl": "https://youtu.be/lmtA91gR7BA",
+      "uploadedAt": "2026-11-19T17:55:02.639Z",
+      "privacy": "public"
     }
   ]
 }

@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (unix-epoch-1971-sixtieths-first-edition)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B1210",
+    "ink": "#E9F5EE",
+    "accent": "#5FE0A0",
+    "muted": "#7C9A8C"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "Unix time began in 1970.",
+      "note": "That is where the clock starts now. It is not where it started.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "credit",
+      "year": "1971",
+      "name": "UNIX Programmer's Manual, first edition",
+      "role": "Dated 3 November 1971. It counted time from 1 January 1971, not 1970.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "figure",
+      "value": "60",
+      "unit": "per second",
+      "context": "The first edition counted time in sixtieths of a second, as a 32 bit number.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "statement",
+      "lead": "The catch",
+      "text": "The manual admits it would run out.",
+      "note": "Its own BUGS section says 2**32 sixtieths of a second is only about 2.5 years.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "statement",
+      "lead": "The fix",
+      "text": "In 1973 the units became full seconds.",
+      "note": "Counted from the 1970 New Year. Wikipedia says engineers picked that date arbitrarily, as a convenient one.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "kicker",
+      "text": "The zero point was a patch.",
+      "durationInFrames": 60
+    },
+    {
+      "kind": "sign",
+      "line": "Even clocks get rewritten.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
