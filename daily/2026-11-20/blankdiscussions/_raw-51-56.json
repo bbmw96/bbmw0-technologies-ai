@@ -1,0 +1,32 @@
+[
+ {
+  "id": "quran-uthmani",
+  "tr": "Uthmani",
+  "s": "Adh-Dhaariyat",
+  "t": "وَمَا خَلَقْتُ ٱلْجِنَّ وَٱلْإِنسَ إِلَّا لِيَعْبُدُونِ"
+ },
+ {
+  "id": "en.sahih",
+  "tr": "Saheeh International",
+  "s": "Adh-Dhaariyat",
+  "t": "And I did not create the jinn and mankind except to worship Me."
+ },
+ {
+  "id": "zh.jian",
+  "tr": "Ma Jian",
+  "s": "Adh-Dhaariyat",
+  "t": "我创造精灵和人类，只为要他们崇拜我。"
+ },
+ {
+  "id": "ko.korean",
+  "tr": "Unknown",
+  "s": "Adh-Dhaariyat",
+  "t": "내가 영마와 인간을 창조함은그들이 나를 섬기게 하려 함이라"
+ },
+ {
+  "id": "ja.japanese",
+  "tr": "Unknown",
+  "s": "Adh-Dhaariyat",
+  "t": "ジンと人間を創ったのはわれに仕えさせるため。"
+ }
+]

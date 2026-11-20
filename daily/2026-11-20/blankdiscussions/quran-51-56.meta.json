@@ -1,0 +1,40 @@
+{
+  "slug": "quran-51-56",
+  "date": "2026-11-20",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "And I did not create the jinn and mankind except to worship Me.\n\nSurah Adh-Dhaariyat (51:56). Swipe through for the Arabic, then English, Mandarin, Korean and Japanese renderings.\n\nSources on the final slide.\n\n#Quran #IslamicReminder #Ayah #Deen #IslamicGuidance",
+  "tags": [
+    "Quran",
+    "IslamicReminder",
+    "Ayah",
+    "Deen",
+    "IslamicGuidance",
+    "MuslimReminder",
+    "QuranicVerses",
+    "Alhamdulillah"
+  ],
+  "theme": "chaste-61",
+  "slides": [
+    "quran-51-56.slide-01.json",
+    "quran-51-56.slide-02.json",
+    "quran-51-56.slide-03.json",
+    "quran-51-56.slide-04.json",
+    "quran-51-56.slide-05.json",
+    "quran-51-56.slide-06.json",
+    "quran-51-56.slide-07.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an, Surah Adh-Dhaariyat (51), Ayah 56",
+    "arabic": "Uthmani script (quran-uthmani), api.alquran.cloud. Two independent live fetches this session (2026-11-20) of GET /v1/ayah/51:56/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese, HTTP 200 each, diffed: byte-identical. Verbatim: \"وَمَا خَلَقْتُ ٱلْجِنَّ وَٱلْإِنسَ إِلَّا لِيَعْبُدُونِ\"",
+    "english": "Saheeh International (en.sahih). Verbatim: \"And I did not create the jinn and mankind except to worship Me.\"",
+    "chinese": "Ma Jian (zh.jian). Raw: \"我创造精灵和人类，只为要他们崇拜我。\". Used verbatim.",
+    "korean": "ko.korean; source metadata lists translator as 'Unknown', credited on-slide as not specified. Raw: \"내가 영마와 인간을 창조함은그들이 나를 섬기게 하려 함이라\". Spacing-only fix: '함은그들이' -> '함은 그들이'. Whitespace-stripped text verified identical to raw. No wording changed.",
+    "japanese": "ja.japanese; source metadata lists translator as 'Unknown', cited as such. Verbatim: \"ジンと人間を創ったのはわれに仕えさせるため。\"",
+    "verification_note": "All renderings from two live api.alquran.cloud fetches this session, diffed identical; none from memory. Edition metadata re-checked via /v1/edition (en.sahih Saheeh International, zh.jian Ma Jian, ko.korean Unknown, ja.japanese Unknown). Halal compliance check against scripts/data/compliance-policy.json halal wordlists (138 terms): typography only, no imagery, 0 hits. Dupcheck against local daily/*/blankdiscussions meta files: quran:51:56 NEW. Fixes applied: ko.korean: \"함은그들이\" -> \"함은 그들이\"."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-11-20/quran-51-56-slide-NN.png --props=daily/2026-11-20/blankdiscussions/quran-51-56.slide-NN.json",
+  "status": "sourced_pending_render"
+}
