@@ -19601,6 +19601,254 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "netflix-prize-winning-blend-never-deployed-2012",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://flowingdata.com/2012/04/17/why-1m-netflix-algorithm-never-went-to-production: read (FlowingData, 17 April 2012). Established the $1 million prize for improving recommendations by at least ten percent, that BellKor, a statistics team at AT&T Labs, did that in 2009, that the grand prize winning solution contained over 800 models from 4 teams, and that the algorithms from the first year of the competition were indeed used.",
+        "https://archive.techdirt.com/articles/20120409/03412518422/why-netflix-never-implemented-algorithm-that-won-netflix-1-million-challenge.shtml: read (Techdirt, 9 April 2012, quoting Netflix's own blog). Established that Netflix put two algorithms into production (matrix factorization/SVD and Restricted Boltzmann Machines), Netflix's stated reason that the extra accuracy did not seem to justify the engineering effort, and that Netflix launched instant streaming in 2007, one year after the prize began."
+      ],
+      "verifiedNote": "Checked 20 Nov 2026 from two secondary pages that both quote Netflix. The Netflix tech blog post itself was not opened, so its words are attributed to Techdirt and FlowingData. Not claimed: the grand prize team's full name (neither page states it), an exact production date for the two algorithms, any dollar cost of the engineering, or that Netflix used nothing from the contest. The 800 models figure is FlowingData's and is worded as over 800.",
+      "palette": {
+        "bg": "#0B0B0F",
+        "ink": "#F4F1EA",
+        "accent": "#E50914",
+        "muted": "#8A8A93"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The prize",
+          "text": "Netflix paid out $1 million for a better recommendation engine.",
+          "note": "FlowingData says the target was an improvement of at least ten percent, and that BellKor, a statistics team at AT&T Labs, reached it in 2009."
+        },
+        {
+          "kind": "figure",
+          "value": "800",
+          "unit": "models",
+          "context": "FlowingData says the grand prize winning solution contained over 800 models from 4 teams."
+        },
+        {
+          "kind": "statement",
+          "lead": "The twist",
+          "text": "Netflix did not ship the winning blend.",
+          "note": "FlowingData says algorithms from the first year of the competition were indeed used. Techdirt quotes Netflix naming two: matrix factorization and Restricted Boltzmann Machines."
+        },
+        {
+          "kind": "statement",
+          "lead": "The reason",
+          "text": "The extra accuracy was not worth the engineering.",
+          "note": "Netflix said the additional accuracy gains it measured did not seem to justify the engineering effort needed to bring them into production, as quoted by Techdirt."
+        },
+        {
+          "kind": "credit",
+          "year": "2007",
+          "name": "Instant streaming",
+          "role": "Launched one year after the prize began, according to Techdirt. Members now wanted something great to watch right now."
+        },
+        {
+          "kind": "kicker",
+          "text": "The prize was won. The product had already moved on."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the source.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "spanish-flu-spain-uncensored-press-not-origin-1918",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://www.sciencefriday.com/articles/the-origin-of-the-spanish-flu/: read (Science Friday, Johanna Mayer, 29 January 2019). Established that Spain stayed neutral and was not subject to wartime censorship, that Madrid's ABC published news of a strange illness on 22 May 1918, that King Alfonso XIII fell sick a week after people collapsed in the street, that experts still disagree on the origin (China, the American Midwest or France), and that at least 50 million people died.",
+        "https://newamerica.org/weekly/down-spanish-flu: read (New America, Rachel Withers, 25 October 2018). Established that Spain's media had no qualms about covering the outbreak, that it first appeared in a headline in Madrid's ABC in May 1918, that the origin is still not agreed, the estimate of 50 million to 100 million deaths, and that fewer than 260,000 took place in Spain.",
+        "https://amp.cbc.ca/lite/story/1.5607552: read (CBC, Under the Influence, Terry O'Reilly). Established that the exact origin is difficult to pinpoint but it did not start in Spain, that Spain was not subject to media censorship, and that officials elsewhere chose to suppress the news or downplay the severity."
+      ],
+      "verifiedNote": "Checked 20 Nov 2026. The three sources agree on neutrality, the free press and that the flu did not start in Spain, and disagree on the likely origin, so the video says the origin is disputed and names no place as the source. Not claimed: Camp Funston or any March 1918 Kansas date (none of the three pages gives one), any single origin country, the 100 million upper bound as fact (New America calls it broadly estimated, so only the 50 million floor is used on screen), or that the Times of London coined the name. The 260,000 Spain figure is New America's, and the page's wording is ambiguous about whether it counts deaths, so the video does not put it on screen.",
+      "palette": {
+        "bg": "#16110C",
+        "ink": "#F3EBDD",
+        "accent": "#C8553D",
+        "muted": "#8C7F6E"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The name",
+          "text": "The Spanish flu did not start in Spain.",
+          "note": "CBC says the exact origin is difficult to pinpoint, but it did not start in Spain."
+        },
+        {
+          "kind": "statement",
+          "lead": "Why Spain",
+          "text": "Spain's newspapers were free to report it.",
+          "note": "Spain stayed neutral in the First World War and faced no wartime censorship, says Science Friday. Madrid's ABC reported a strange illness on 22 May 1918."
+        },
+        {
+          "kind": "credit",
+          "year": "1918",
+          "name": "King Alfonso XIII",
+          "role": "Fell sick a week after people collapsed in the street, according to Science Friday."
+        },
+        {
+          "kind": "statement",
+          "lead": "The silence",
+          "text": "Elsewhere, the news was played down.",
+          "note": "CBC says officials in other countries chose to suppress the news or downplay how severe the virus was."
+        },
+        {
+          "kind": "statement",
+          "lead": "The real origin",
+          "text": "Nobody agrees where it began.",
+          "note": "Science Friday lists China, the American Midwest and France as the suggestions. New America says it is still not agreed."
+        },
+        {
+          "kind": "figure",
+          "value": "50",
+          "unit": "million",
+          "context": "At least 50 million people died worldwide, according to Science Friday and CBC. New America gives a broad range of 50 million to 100 million."
+        },
+        {
+          "kind": "kicker",
+          "text": "It was named for the press that reported it, not for where it began."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the source.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "zoom-10-million-to-200-million-feature-freeze-2020",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://www.zoom.com/en/blog/a-message-to-our-users/?cms_guid=false: read (Zoom blog, Eric S. Yuan, published 1 April 2020). Established the approximately 10 million maximum daily meeting participants, free and paid, at the end of December 2019, more than 200 million in March 2020, the 90 day commitment and immediate feature freeze with engineering shifted to trust, safety and privacy, removal of the Facebook SDK from the iOS client on 27 March, the Zoombombing guidance, the encryption apology, and the admission that Zoom had fallen short of privacy and security expectations.",
+        "https://www.npr.org/sections/coronavirus-live-updates/2020/04/02/826224938/video-meeting-platform-zoom-addresses-criticisms-as-it-sees-explosive-growth-in: read (NPR, 2 April 2020). Established the same 10 million and 200 million figures as reported at the time, but describing them as daily users, which differs from Zoom's own wording of daily meeting participants."
+      ],
+      "verifiedNote": "Checked 20 Nov 2026. The primary source is Zoom's own post. NPR calls the figures daily users while Zoom says daily meeting participants, so the video uses Zoom's wording. Not claimed: any 300 million figure (neither page has it), Yuan's job title (not stated on the pages read), that Zoom was end to end encrypted (the post only apologises for confusion about encryption), or the result of the 90 day plan.",
+      "palette": {
+        "bg": "#0A1020",
+        "ink": "#EEF3FF",
+        "accent": "#2D8CFF",
+        "muted": "#7F8BA6"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "December 2019",
+          "text": "Zoom handled about 10 million daily meeting participants.",
+          "note": "Zoom's own post gives the maximum for the end of December 2019, free and paid, as approximately 10 million."
+        },
+        {
+          "kind": "figure",
+          "value": "200",
+          "unit": "million",
+          "context": "In March 2020, Zoom said it had reached more than 200 million daily meeting participants, free and paid."
+        },
+        {
+          "kind": "statement",
+          "lead": "The wording",
+          "text": "Participants, not users.",
+          "note": "Zoom counted daily meeting participants. NPR described the same figures as daily users, so the original post is the one to trust."
+        },
+        {
+          "kind": "statement",
+          "lead": "The pressure",
+          "text": "Growth arrived with scrutiny.",
+          "note": "The post covered Zoombombing harassment, removal of the Facebook SDK from the iOS client on 27 March, and an apology for confusion over encryption."
+        },
+        {
+          "kind": "statement",
+          "lead": "The admission",
+          "text": "Zoom said it had fallen short.",
+          "note": "Eric Yuan wrote that the company had fallen short of the community's, and its own, privacy and security expectations."
+        },
+        {
+          "kind": "credit",
+          "year": "2020",
+          "name": "The feature freeze",
+          "role": "Announced on 1 April, effective immediately, with engineering moved to trust, safety and privacy over the next 90 days."
+        },
+        {
+          "kind": "kicker",
+          "text": "Twenty times the participants, then a feature freeze."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the source.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "photo-51-franklin-gosling-62-hours-nature-1953",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://www.kcl.ac.uk/the-story-behind-photograph-51: read (King's College London, Brian Sutton, 14 April 2023). Established that Photograph 51 was taken by Rosalind Franklin together with PhD student Raymond Gosling at King's in May 1952, that the DNA was exposed to X rays for a total of 62 hours, that Wilkins showed it to Watson in January 1953 because he had a copy and was soon to take over the work, that Franklin was unaware it had been shown, and that it was published in Nature on 25 April 1953 in a paper by Franklin and Gosling alongside Watson and Crick's.",
+        "https://ukri.org/blog/from-the-archive-rosalind-franklins-famous-photo-51: read (UKRI). Established the May 1952 date and the Franklin and Gosling credit, that some people think Wilkins should not have shared it without her knowledge or permission, and the defence that he had it legitimately as part of her papers because she was soon to leave for Birkbeck College.",
+        "https://www.history.com/articles/rosalind-franklin-photo-51-dna: read (History, Becky Little, 28 May 2025). Established the 62 hours, the three papers in the April 1953 issue of Nature, Franklin's death in 1958, and that Wilkins, Watson and Crick shared the 1962 Nobel Prize, which is not awarded posthumously."
+      ],
+      "verifiedNote": "Checked 20 Nov 2026. Sources differ on emphasis: KCL and UKRI credit Franklin and Gosling jointly, History credits Franklin with Gosling assisting, so the video says jointly. Only History says Gosling showed it to Wilkins first, so that is left out. Not claimed: that the photo was stolen or taken in secret, any Perutz or Medical Research Council report passed to Crick (none of the three pages mention it), Franklin's cause or exact date of death, or that Franklin would have shared the prize. UKRI's defence of Wilkins is attributed, not endorsed.",
+      "palette": {
+        "bg": "#0D0F12",
+        "ink": "#F2F0EA",
+        "accent": "#9FC3D9",
+        "muted": "#7E8790"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The photograph",
+          "text": "Photo 51 had two names behind it.",
+          "note": "KCL and UKRI say it was taken by Rosalind Franklin with her PhD student Raymond Gosling at King's College London in May 1952."
+        },
+        {
+          "kind": "figure",
+          "value": "62",
+          "unit": "hours",
+          "context": "King's College London says the DNA was exposed to X rays for a total of 62 hours to take Photograph 51."
+        },
+        {
+          "kind": "statement",
+          "lead": "The viewing",
+          "text": "Watson saw it in January 1953.",
+          "note": "KCL says Wilkins showed it to him, having a copy because he was soon to take over the work. KCL says Franklin was unaware."
+        },
+        {
+          "kind": "statement",
+          "lead": "The defence",
+          "text": "Wilkins had it legitimately, says UKRI.",
+          "note": "UKRI says it was part of her papers as she was leaving for Birkbeck, and notes some people think he should not have shared it without her knowledge or permission."
+        },
+        {
+          "kind": "credit",
+          "year": "1953",
+          "name": "Nature, 25 April",
+          "role": "KCL says Photograph 51 was published in a paper by Franklin and Gosling, in the same issue as Watson and Crick's paper."
+        },
+        {
+          "kind": "statement",
+          "lead": "The prize",
+          "text": "The 1962 Nobel Prize went to three men.",
+          "note": "Wilkins, Watson and Crick shared it. Franklin died in 1958, and History notes the Nobel Foundation does not award prizes posthumously."
+        },
+        {
+          "kind": "kicker",
+          "text": "The evidence was public in 1953. The prize came nine years later."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the source.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
