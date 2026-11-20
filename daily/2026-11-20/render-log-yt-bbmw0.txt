@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-11-20 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- giza-pyramid-builders-not-slaves-workers-town ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-20-giza-pyramid-builders-not-slaves-workers-town.mp4
+  uploaded public: https://youtu.be/hWzXdb73JI0
+
+--- netflix-prize-winning-blend-never-deployed-2012 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-20-netflix-prize-winning-blend-never-deployed-2012.mp4
+  uploaded public: https://youtu.be/XePmsDQB3cY
+
+--- spanish-flu-spain-uncensored-press-not-origin-1918 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-20-spanish-flu-spain-uncensored-press-not-origin-1918.mp4
+  uploaded public: https://youtu.be/HOV0nfq983M
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

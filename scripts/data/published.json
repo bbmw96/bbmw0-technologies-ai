@@ -392,7 +392,10 @@
     "reel:cern-web-public-domain-30-april-1993",
     "reel:bumblebees-cannot-fly-myth-magnan-1934",
     "reel:unix-epoch-1971-sixtieths-first-edition",
-    "reel:planning-fallacy-students-thesis-55-days-1994"
+    "reel:planning-fallacy-students-thesis-55-days-1994",
+    "reel:netflix-prize-winning-blend-never-deployed-2012",
+    "reel:giza-pyramid-builders-not-slaves-workers-town",
+    "reel:spanish-flu-spain-uncensored-press-not-origin-1918"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -6848,6 +6851,57 @@
       "youtubeId": "lmtA91gR7BA",
       "youtubeUrl": "https://youtu.be/lmtA91gR7BA",
       "uploadedAt": "2026-11-19T17:55:02.639Z",
+      "privacy": "public"
+    },
+    {
+      "id": "netflix-prize-winning-blend-never-deployed-2012",
+      "date": "2026-11-20",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Netflix paid out $1 million for a better recommendation engine.",
+      "description": "Netflix paid out $1 million for a better recommendation engine. FlowingData says the target was an improvement of at least ten percent, and that BellKor, a statistics team at AT&T Labs, reached it in 2009.\n\nFlowingData says the grand prize winning solution contained over 800 models from 4 teams.\n\nNetflix did not ship the winning blend. FlowingData says algorithms from the first year of the competition were indeed used. Techdirt quotes Netflix naming two: matrix factorization and Restricted Boltzmann Machines.\n\nThe extra accuracy was not worth the engineering. Netflix said the additional accuracy gains it measured did not seem to justify the engineering effort needed to bring them into production, as quoted by Techdirt.\n\nLaunched one year after the prize began, according to Techdirt. Members now wanted something great to watch right now.\n\nThe prize was won. The product had already moved on.\n\nSources:\n- https://flowingdata.com/2012/04/17/why-1m-netflix-algorithm-never-went-to-production: read (FlowingData, 17 April 2012). Established the $1 million prize for improving recommendations by at least ten percent, that BellKor, a statistics team at AT&T Labs, did that in 2009, that the grand prize winning solution contained over 800 models from 4 teams, and that the algorithms from the first year of the competition were indeed used.\n- https://archive.techdirt.com/articles/20120409/03412518422/why-netflix-never-implemented-algorithm-that-won-netflix-1-million-challenge.shtml: read (Techdirt, 9 April 2012, quoting Netflix's own blog). Established that Netflix put two algorithms into production (matrix factorization/SVD and Restricted Boltzmann Machines), Netflix's stated reason that the extra accuracy did not seem to justify the engineering effort, and that Netflix launched instant streaming in 2007, one year after the prize began.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "XePmsDQB3cY",
+      "youtubeUrl": "https://youtu.be/XePmsDQB3cY",
+      "uploadedAt": "2026-11-20T17:29:39.098Z",
+      "privacy": "public"
+    },
+    {
+      "id": "giza-pyramid-builders-not-slaves-workers-town",
+      "date": "2026-11-20",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The pyramid builders were not slaves.",
+      "description": "The pyramid builders were not slaves. Harvard Magazine reported Mark Lehner's discovery of the city of the pyramid builders, and put it plainly.\n\nHerodotus gets the credit for the slave story. AP says he described the builders as slaves. A translation quoted by Ancient Origins says that passage uses no word for slaves.\n\nFirst found in the backyard of the Giza pyramids, according to AP. Hawass said the dead were buried near their pharaohs' pyramids.\n\nThe crews named themselves. Harvard says early graffiti named gangs such as Friends of Khufu and Drunkards of Menkaure.\n\nPlus 23 sheep, sent in every day for about 10,000 labourers, according to AP in 2010. The team also found the oldest bakery ever found in Egypt.\n\nIt was still brutal work. AP reports skeletons with arthritis and strained lower backs. Hawass said most fractures had healed well, indicating splints.\n\nFed, housed and buried beside the king's pyramid.\n\nSources:\n- https://www.harvardmagazine.com/2003/07/who-built-the-pyramids.html: read (Harvard Magazine, Jonathan Shaw, 1 July 2003). Established that Mark Lehner found the city of the pyramid builders and that \"They were not slaves\"; two towns side by side; the oldest bakery found in Egypt; young, mostly male cattle, enough to feed several thousand people even if they ate meat every day; and that Reisner found workers' graffiti naming gangs such as Friends of Khufu or Drunkards of Menkaure.\n- https://phys.org/news/2010-01-egypt-slaves-didnt-pyramids.pdf: read (AP report, 10 January 2010). Established that graves of the pyramid builders were first discovered in the area in 1990 in the backyard of the Giza pyramids; that about 10,000 labourers ate 21 cattle and 23 sheep sent daily from farms; that workers ate meat regularly and worked in three month shifts; that Herodotus, who visited around 450 BC, described the builders as slaves; and that skeletons show arthritis and a hard life.\n- https://www.ancient-origins.net/news-history-archaeology/giza-pyramids-built-by-slaves-builders-evidence-00128327: read (fact check, secondary). Used only for the Loeb translation point that the Herodotus passage uses no word for slaves, and Hawass's statement that most fractures had healed well, indicating splints.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "hWzXdb73JI0",
+      "youtubeUrl": "https://youtu.be/hWzXdb73JI0",
+      "uploadedAt": "2026-11-20T17:28:10.660Z",
+      "privacy": "public"
+    },
+    {
+      "id": "spanish-flu-spain-uncensored-press-not-origin-1918",
+      "date": "2026-11-20",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The Spanish flu did not start in Spain.",
+      "description": "The Spanish flu did not start in Spain. CBC says the exact origin is difficult to pinpoint, but it did not start in Spain.\n\nSpain's newspapers were free to report it. Spain stayed neutral in the First World War and faced no wartime censorship, says Science Friday. Madrid's ABC reported a strange illness on 22 May 1918.\n\nFell sick a week after people collapsed in the street, according to Science Friday.\n\nElsewhere, the news was played down. CBC says officials in other countries chose to suppress the news or downplay how severe the virus was.\n\nNobody agrees where it began. Science Friday lists China, the American Midwest and France as the suggestions. New America says it is still not agreed.\n\nAt least 50 million people died worldwide, according to Science Friday and CBC. New America gives a broad range of 50 million to 100 million.\n\nIt was named for the press that reported it, not for where it began.\n\nSources:\n- https://www.sciencefriday.com/articles/the-origin-of-the-spanish-flu/: read (Science Friday, Johanna Mayer, 29 January 2019). Established that Spain stayed neutral and was not subject to wartime censorship, that Madrid's ABC published news of a strange illness on 22 May 1918, that King Alfonso XIII fell sick a week after people collapsed in the street, that experts still disagree on the origin (China, the American Midwest or France), and that at least 50 million people died.\n- https://newamerica.org/weekly/down-spanish-flu: read (New America, Rachel Withers, 25 October 2018). Established that Spain's media had no qualms about covering the outbreak, that it first appeared in a headline in Madrid's ABC in May 1918, that the origin is still not agreed, the estimate of 50 million to 100 million deaths, and that fewer than 260,000 took place in Spain.\n- https://amp.cbc.ca/lite/story/1.5607552: read (CBC, Under the Influence, Terry O'Reilly). Established that the exact origin is difficult to pinpoint but it did not start in Spain, that Spain was not subject to media censorship, and that officials elsewhere chose to suppress the news or downplay the severity.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "HOV0nfq983M",
+      "youtubeUrl": "https://youtu.be/HOV0nfq983M",
+      "uploadedAt": "2026-11-20T17:31:17.590Z",
       "privacy": "public"
     }
   ]

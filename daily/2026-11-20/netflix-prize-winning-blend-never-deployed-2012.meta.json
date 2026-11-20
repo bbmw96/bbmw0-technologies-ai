@@ -1,0 +1,25 @@
+{
+  "slug": "netflix-prize-winning-blend-never-deployed-2012",
+  "date": "2026-11-20",
+  "title": "Netflix paid out $1 million for a better recommendation engine.",
+  "description": "Netflix paid out $1 million for a better recommendation engine. FlowingData says the target was an improvement of at least ten percent, and that BellKor, a statistics team at AT&T Labs, reached it in 2009.\n\nFlowingData says the grand prize winning solution contained over 800 models from 4 teams.\n\nNetflix did not ship the winning blend. FlowingData says algorithms from the first year of the competition were indeed used. Techdirt quotes Netflix naming two: matrix factorization and Restricted Boltzmann Machines.\n\nThe extra accuracy was not worth the engineering. Netflix said the additional accuracy gains it measured did not seem to justify the engineering effort needed to bring them into production, as quoted by Techdirt.\n\nLaunched one year after the prize began, according to Techdirt. Members now wanted something great to watch right now.\n\nThe prize was won. The product had already moved on.\n\nSources:\n- https://flowingdata.com/2012/04/17/why-1m-netflix-algorithm-never-went-to-production: read (FlowingData, 17 April 2012). Established the $1 million prize for improving recommendations by at least ten percent, that BellKor, a statistics team at AT&T Labs, did that in 2009, that the grand prize winning solution contained over 800 models from 4 teams, and that the algorithms from the first year of the competition were indeed used.\n- https://archive.techdirt.com/articles/20120409/03412518422/why-netflix-never-implemented-algorithm-that-won-netflix-1-million-challenge.shtml: read (Techdirt, 9 April 2012, quoting Netflix's own blog). Established that Netflix put two algorithms into production (matrix factorization/SVD and Restricted Boltzmann Machines), Netflix's stated reason that the extra accuracy did not seem to justify the engineering effort, and that Netflix launched instant streaming in 2007, one year after the prize began.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-20-netflix-prize-winning-blend-never-deployed-2012.mp4",
+  "propsFile": "daily/2026-11-20/netflix-prize-winning-blend-never-deployed-2012.props.json",
+  "durationInFrames": 1110,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

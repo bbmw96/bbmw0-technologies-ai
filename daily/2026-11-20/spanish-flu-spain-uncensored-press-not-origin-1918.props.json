@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (spanish-flu-spain-uncensored-press-not-origin-1918)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#16110C",
+    "ink": "#F3EBDD",
+    "accent": "#C8553D",
+    "muted": "#8C7F6E"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The name",
+      "text": "The Spanish flu did not start in Spain.",
+      "note": "CBC says the exact origin is difficult to pinpoint, but it did not start in Spain.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "Why Spain",
+      "text": "Spain's newspapers were free to report it.",
+      "note": "Spain stayed neutral in the First World War and faced no wartime censorship, says Science Friday. Madrid's ABC reported a strange illness on 22 May 1918.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1918",
+      "name": "King Alfonso XIII",
+      "role": "Fell sick a week after people collapsed in the street, according to Science Friday.",
+      "durationInFrames": 130
+    },
+    {
+      "kind": "statement",
+      "lead": "The silence",
+      "text": "Elsewhere, the news was played down.",
+      "note": "CBC says officials in other countries chose to suppress the news or downplay how severe the virus was.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "The real origin",
+      "text": "Nobody agrees where it began.",
+      "note": "Science Friday lists China, the American Midwest and France as the suggestions. New America says it is still not agreed.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "figure",
+      "value": "50",
+      "unit": "million",
+      "context": "At least 50 million people died worldwide, according to Science Friday and CBC. New America gives a broad range of 50 million to 100 million.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "kicker",
+      "text": "It was named for the press that reported it, not for where it began.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "sign",
+      "line": "Check the source.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

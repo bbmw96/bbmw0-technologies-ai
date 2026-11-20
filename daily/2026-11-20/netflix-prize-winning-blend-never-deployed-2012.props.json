@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (netflix-prize-winning-blend-never-deployed-2012)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0B0F",
+    "ink": "#F4F1EA",
+    "accent": "#E50914",
+    "muted": "#8A8A93"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The prize",
+      "text": "Netflix paid out $1 million for a better recommendation engine.",
+      "note": "FlowingData says the target was an improvement of at least ten percent, and that BellKor, a statistics team at AT&T Labs, reached it in 2009.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "800",
+      "unit": "models",
+      "context": "FlowingData says the grand prize winning solution contained over 800 models from 4 teams.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "statement",
+      "lead": "The twist",
+      "text": "Netflix did not ship the winning blend.",
+      "note": "FlowingData says algorithms from the first year of the competition were indeed used. Techdirt quotes Netflix naming two: matrix factorization and Restricted Boltzmann Machines.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The reason",
+      "text": "The extra accuracy was not worth the engineering.",
+      "note": "Netflix said the additional accuracy gains it measured did not seem to justify the engineering effort needed to bring them into production, as quoted by Techdirt.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2007",
+      "name": "Instant streaming",
+      "role": "Launched one year after the prize began, according to Techdirt. Members now wanted something great to watch right now.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "kicker",
+      "text": "The prize was won. The product had already moved on.",
+      "durationInFrames": 82
+    },
+    {
+      "kind": "sign",
+      "line": "Check the source.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

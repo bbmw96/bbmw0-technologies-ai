@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (giza-pyramid-builders-not-slaves-workers-town)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#120E08",
+    "ink": "#F6F0E4",
+    "accent": "#E0A93B",
+    "muted": "#8F8570"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The myth",
+      "text": "The pyramid builders were not slaves.",
+      "note": "Harvard Magazine reported Mark Lehner's discovery of the city of the pyramid builders, and put it plainly.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "statement",
+      "lead": "The blame",
+      "text": "Herodotus gets the credit for the slave story.",
+      "note": "AP says he described the builders as slaves. A translation quoted by Ancient Origins says that passage uses no word for slaves.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "credit",
+      "year": "1990",
+      "name": "The workers' graves",
+      "role": "First found in the backyard of the Giza pyramids, according to AP. Hawass said the dead were buried near their pharaohs' pyramids.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "The signatures",
+      "text": "The crews named themselves.",
+      "note": "Harvard says early graffiti named gangs such as Friends of Khufu and Drunkards of Menkaure.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "figure",
+      "value": "21",
+      "unit": "cattle",
+      "context": "Plus 23 sheep, sent in every day for about 10,000 labourers, according to AP in 2010. The team also found the oldest bakery ever found in Egypt.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "statement",
+      "lead": "The cost",
+      "text": "It was still brutal work.",
+      "note": "AP reports skeletons with arthritis and strained lower backs. Hawass said most fractures had healed well, indicating splints.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "kicker",
+      "text": "Fed, housed and buried beside the king's pyramid.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Check the source.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
