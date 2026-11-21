@@ -19849,6 +19849,251 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "lorem-ipsum-cicero-de-finibus-dolorem-cut",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://www.britannica.com/topic/Lorem-ipsum: read via fetch agent (21 Nov 2026). Established that the text was thought to be random words until the 1990s, that its source was discovered by Richard McClintock, that it comes from Cicero's De finibus bonorum et malorum of 45 BCE, that it became popular in the 1960s with Letraset transfer sheets, and that Aldus PageMaker included it in the 1980s.",
+        "https://en.wikipedia.org/wiki/Lorem_ipsum: read via fetch agent (21 Nov 2026). Established the source as sections 1.10.32 and 1.10.33 of De finibus, that the 1914 Loeb edition breaks off at \"Neque porro quisquam est qui do-\" on page 34 and resumes with \"lorem ipsum\" on page 36, that today's version derives from Letraset sheets first published in 1966, and that McClintock published the link in a 1994 letter.",
+        "https://www.openculture.com/2015/03/the-story-of-lorem-ipsum.html: read via fetch agent (21 Nov 2026). Established that the first word, Lorem, is not a word but a piece of dolorem, meaning pain or sorrow, and that Richard McClintock of Hampden-Sydney traced it."
+      ],
+      "verifiedNote": "Checked 21 Nov 2026 via fetch agent returning verbatim passages. Sources disagree on when McClintock made the link (Britannica: the 1990s; Wikipedia: a 1994 letter, with an unexplained \"sometime before 1982\") and on his role (professor, Latin scholar, Director of Publications), so the video gives Britannica's decade and Wikipedia's letter, and names no job title. Not claimed: the popular line that it has been used since the 1500s (Wikipedia says McClintock later admitted that date was a guess, but that 2026 interview was not read), Mosley supplying the text to Letraset, or any theory that Letraset garbled it deliberately. No translation of the opening sentence is given because none of the three sources supplied one.",
+      "palette": {
+        "bg": "#10100E",
+        "ink": "#F4F1E8",
+        "accent": "#D9B65C",
+        "muted": "#8A8676"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The myth",
+          "text": "Lorem ipsum is not random.",
+          "note": "Britannica says the text was thought to be random words until the 1990s."
+        },
+        {
+          "kind": "credit",
+          "year": "45 BC",
+          "name": "Cicero",
+          "role": "Britannica dates his ethics treatise De finibus bonorum et malorum to 45 BCE. Wikipedia places the source in sections 1.10.32 and 1.10.33."
+        },
+        {
+          "kind": "statement",
+          "lead": "The cut",
+          "text": "Lorem is half a word.",
+          "note": "Open Culture says it is a piece of dolorem, Latin for pain. Wikipedia says the 1914 Loeb edition breaks off at \"do-\" and resumes with \"lorem ipsum\" two pages later."
+        },
+        {
+          "kind": "credit",
+          "year": "1966",
+          "name": "Letraset",
+          "role": "Wikipedia says today's version derives from Letraset transfer sheets first published in 1966. Britannica says Aldus PageMaker added it in the 1980s."
+        },
+        {
+          "kind": "statement",
+          "lead": "The finder",
+          "text": "A Latin scholar traced it in the 1990s.",
+          "note": "Britannica credits Richard McClintock with the discovery. Wikipedia says he published the link in a 1994 letter."
+        },
+        {
+          "kind": "kicker",
+          "text": "A Roman essay on pain became the placeholder for every page."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the source.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "http-cookie-montulli-netscape-mci-shopping-cart-1994",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/HTTP_cookie: read via fetch agent (21 Nov 2026, first 40,000 of 97,757 characters verbatim). Established that Netscape was developing an e-commerce application for MCI, that MCI did not want its servers to retain partial transaction states, that Montulli coined the term from magic cookie (a data packet used by Unix programmers), that Mosaic Netscape 0.9beta released on 13 October 1994 supported cookies, that the working group identified third-party cookies as a considerable privacy threat in February 1996, and that RFC 2109 was published in February 1997 with a recommendation Netscape and Internet Explorer did not follow.",
+        "https://historyofinformation.com/detail.php?entryid=2469: read via fetch agent (21 Nov 2026). Established that Lou Montulli invented the HTTP cookie at Netscape in June 1994, that 0.9beta of Mosaic Netscape released on 13 October 1994 supported cookies, and that the first use was checking whether visitors to Netscape's own site had visited before.",
+        "https://iapp.org/news/a/creator-of-the-cookie-reflects-on-his-invention/: read via fetch agent (21 Nov 2026). A short summary of a Techonomy article. Established that he invented the cookie at age 23 and quoted him: cookies were designed to prevent tracking because only the originating website can set and receive that cookie, and companies figured out how to game the system.",
+        "https://www.guinnessworldrecords.com/world-records/106750-first-use-of-cookies-on-the-internet: read via fetch agent (21 Nov 2026). Corroborated that Montulli invented cookies while working for Netscape in 1994 and that first use was on Netscape's own website."
+      ],
+      "verifiedNote": "Checked 21 Nov 2026 via fetch agent returning verbatim passages. Only Wikipedia names MCI and the shopping cart, so that beat is attributed to it, and IAPP frames the original purpose as privacy and security, which is reported as Montulli's view via IAPP, not as settled fact. The Guinness page gives \"13 October 1994\" as its date, which matches the 0.9beta release and not the June invention, so the video uses June for the idea and October for the release. Not claimed: the 1995 patent application and US 5774670 (one source, not needed), any FTC hearing date in 2000 (the sources give 1996 and 1997 hearings), or that Montulli personally regrets third-party cookies (IAPP only says he wonders whether he should have foreseen the advertising use).",
+      "palette": {
+        "bg": "#0F1012",
+        "ink": "#F2EFEA",
+        "accent": "#E58A4B",
+        "muted": "#8C8780"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The job",
+          "text": "The cookie was built for a shopping cart.",
+          "note": "Wikipedia says Netscape was building an e-commerce application for MCI, and MCI did not want its servers to retain partial transaction states."
+        },
+        {
+          "kind": "credit",
+          "year": "1994",
+          "name": "Lou Montulli",
+          "role": "Netscape engineer, aged 23 according to IAPP. History of Information dates the invention to June 1994."
+        },
+        {
+          "kind": "statement",
+          "lead": "The name",
+          "text": "Cookie came from Unix slang.",
+          "note": "Wikipedia says Montulli coined the term from magic cookie, a data packet used by Unix programmers."
+        },
+        {
+          "kind": "credit",
+          "year": "1994",
+          "name": "Mosaic Netscape 0.9beta",
+          "role": "Released on 13 October 1994 with cookie support. Its first use was checking whether visitors to Netscape's own site had been before."
+        },
+        {
+          "kind": "statement",
+          "lead": "The irony",
+          "text": "It was meant to prevent tracking.",
+          "note": "IAPP quotes Montulli: only the originating website can set and receive the cookie, but companies figured out how to game the system."
+        },
+        {
+          "kind": "statement",
+          "lead": "The warning",
+          "text": "The advice was ignored almost at once.",
+          "note": "Wikipedia says the recommendation in RFC 2109, published in February 1997, was not followed by Netscape and Internet Explorer."
+        },
+        {
+          "kind": "kicker",
+          "text": "A shopping cart fix became a key tool for advertising."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the source.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "voyager-1-memory-chip-code-moved-april-2024",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://www.jpl.nasa.gov/news/nasas-voyager-1-resumes-sending-engineering-updates-to-earth/: read via fetch agent (21 Nov 2026), NASA JPL, 22 April 2024. Established that Voyager 1 stopped sending readable science and engineering data on 14 November 2023, that the fault was tied to the flight data subsystem and a single chip storing part of its memory, that the team divided the affected code into sections stored in different places because no single location was large enough, that the code went to its new location on 18 April, that the team saw it worked on 20 April, that the craft is over 15 billion miles (24 billion kilometres) away, and that a radio signal takes about 22.5 hours to reach it.",
+        "https://www.universetoday.com/166733/nasa-restores-communications-with-voyager-1/: read via fetch agent (21 Nov 2026), 22 April 2024. Established the figure of about 3 percent of flight data subsystem memory corrupted by one failed chip, that the chip could not be repaired, and the launch date of 5 September 1977.",
+        "https://www.theregister.com/2024/04/23/voyager_1_engineering_updates/: read via fetch agent (21 Nov 2026), 23 April 2024. Corroborated the single failed chip in the flight data subsystem, the 20 April confirmation, the distance, and about 22.5 hours each way."
+      ],
+      "verifiedNote": "Checked 21 Nov 2026 via fetch agent returning verbatim passages. The 3 percent figure appears only in Universe Today, so it is attributed to it. The science.nasa.gov copy of the NASA post failed to load, so JPL is the primary source used. Not claimed: that science data has since returned (all sources are from April 2024 and say only that work on it was next), the date of the poke command that produced the memory readout (undated in all three sources), or any current distance, because the distance given is as of April 2024.",
+      "palette": {
+        "bg": "#0B0E14",
+        "ink": "#EDF1F7",
+        "accent": "#8FB8F2",
+        "muted": "#7E8899"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The fault",
+          "text": "Voyager 1 started sending gibberish.",
+          "note": "JPL says it stopped sending readable science and engineering data on 14 November 2023."
+        },
+        {
+          "kind": "statement",
+          "lead": "The cause",
+          "text": "One memory chip had failed.",
+          "note": "JPL says a single chip storing part of the flight data subsystem memory was not working. Universe Today puts that at about 3 percent of the memory."
+        },
+        {
+          "kind": "statement",
+          "lead": "The catch",
+          "text": "The chip could not be repaired.",
+          "note": "JPL says no single location was large enough to hold the affected code, so the team divided it into sections and stored them in different places."
+        },
+        {
+          "kind": "credit",
+          "year": "2024",
+          "name": "The code move",
+          "role": "JPL says the new code location was sent on 18 April. On 20 April the team saw that the change had worked."
+        },
+        {
+          "kind": "figure",
+          "value": "15",
+          "unit": "bn miles",
+          "context": "JPL says Voyager 1 is over 15 billion miles from Earth. A radio signal takes about 22.5 hours to reach it."
+        },
+        {
+          "kind": "statement",
+          "lead": "The age",
+          "text": "It launched in 1977.",
+          "note": "Universe Today gives the launch date as 5 September 1977."
+        },
+        {
+          "kind": "kicker",
+          "text": "A 1977 computer was repaired by changing where its code lives."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the source.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "bell-burnell-pulsar-1967-nobel-1974-hewish-ryle",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://www.nationalgeographic.com/science/article/news-jocelyn-bell-burnell-breakthrough-prize-pulsars-astronomy: read via fetch agent (21 Nov 2026), 6 September 2018. Established that she was a graduate student at Cambridge in 1967, that the first sign was on 6 August 1967 in a squiggly stretch of paper readout under a quarter inch long, that higher speed recordings in November 1967 showed pulses a bit more than a second apart, and that she was awarded a $3 million Special Breakthrough Prize in Fundamental Physics and is donating it to a UK charity supporting physics graduate students from under-represented groups.",
+        "https://www.britannica.com/biography/Jocelyn-Bell-Burnell: read via fetch agent (21 Nov 2026). Established that the team jokingly dubbed the pulses LGM, for Little Green Men, that the 1974 Nobel Prize in Physics went to Hewish and Martin Ryle, that several prominent scientists protested the omission of Bell Burnell, and that she maintained the prize was presented appropriately given her student status at the time.",
+        "https://www.nobelprize.org/prizes/physics/1974/press-release/: read via fetch agent (21 Nov 2026), press release of 15 October 1974. Established that Ryle and Hewish were awarded the prize, Ryle for his observations and inventions, in particular of the aperture synthesis technique, and Hewish for his decisive role in the discovery of pulsars, with no mention of Bell Burnell."
+      ],
+      "verifiedNote": "Checked 21 Nov 2026 via fetch agent returning verbatim passages. Sources conflict on who coined LGM (Britannica: the team; National Geographic: Hewish, as LGM-1; Live Science: Bell), so the video says only that the pulses were jokingly dubbed LGM and names no coiner. National Geographic says the prize was for \"their (and Bell Burnell's) discovery\", which the official citation does not support, so the citation wording is used. Not claimed: the 1.337 second period (no source gave it), the Nature paper date and author order (one source, primary not read), the phrase No-Bell Prize and any quote of Bell saying she was not upset (both appeared only in an unverified model summary of the Live Science page), or a discovery date of 28 November (Live Science) because it clashes with National Geographic's August first sign.",
+      "palette": {
+        "bg": "#0C0F14",
+        "ink": "#EEF2F7",
+        "accent": "#7FD6A8",
+        "muted": "#808B96"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The scruff",
+          "text": "A graduate student spotted it on paper.",
+          "note": "National Geographic says the first sign was on 6 August 1967, in a squiggly stretch of readout under a quarter inch long, while she was a Cambridge graduate student."
+        },
+        {
+          "kind": "statement",
+          "lead": "The joke",
+          "text": "They half joked it was aliens.",
+          "note": "Britannica says the team jokingly dubbed the regular pulses LGM, for Little Green Men."
+        },
+        {
+          "kind": "credit",
+          "year": "1974",
+          "name": "Ryle and Hewish",
+          "role": "The Nobel press release credits Ryle for aperture synthesis and Hewish for his decisive role in the discovery of pulsars. It does not mention Bell Burnell."
+        },
+        {
+          "kind": "statement",
+          "lead": "The protest",
+          "text": "Prominent scientists objected.",
+          "note": "Britannica says several protested her omission, though she maintained the prize was presented appropriately given her student status."
+        },
+        {
+          "kind": "figure",
+          "value": "3",
+          "unit": "$ million",
+          "context": "Her 2018 Special Breakthrough Prize. National Geographic says she is donating it to a UK charity supporting physics graduate students from under-represented groups."
+        },
+        {
+          "kind": "kicker",
+          "text": "She found the pulses. The prize went to her advisor."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the source.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
