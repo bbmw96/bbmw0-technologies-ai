@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (zoom-10-million-to-200-million-feature-freeze-2020)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0A1020",
+    "ink": "#EEF3FF",
+    "accent": "#2D8CFF",
+    "muted": "#7F8BA6"
+  },
+  "niche": "app",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "December 2019",
+      "text": "Zoom handled about 10 million daily meeting participants.",
+      "note": "Zoom's own post gives the maximum for the end of December 2019, free and paid, as approximately 10 million.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "figure",
+      "value": "200",
+      "unit": "million",
+      "context": "In March 2020, Zoom said it had reached more than 200 million daily meeting participants, free and paid.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "statement",
+      "lead": "The wording",
+      "text": "Participants, not users.",
+      "note": "Zoom counted daily meeting participants. NPR described the same figures as daily users, so the original post is the one to trust.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "The pressure",
+      "text": "Growth arrived with scrutiny.",
+      "note": "The post covered Zoombombing harassment, removal of the Facebook SDK from the iOS client on 27 March, and an apology for confusion over encryption.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "The admission",
+      "text": "Zoom said it had fallen short.",
+      "note": "Eric Yuan wrote that the company had fallen short of the community's, and its own, privacy and security expectations.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "credit",
+      "year": "2020",
+      "name": "The feature freeze",
+      "role": "Announced on 1 April, effective immediately, with engineering moved to trust, safety and privacy over the next 90 days.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "kicker",
+      "text": "Twenty times the participants, then a feature freeze.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Check the source.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

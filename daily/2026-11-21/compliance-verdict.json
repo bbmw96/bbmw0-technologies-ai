@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-21T16:30:40.798Z",
+  "policyVersion": "1.0.0",
+  "strictMode": false,
+  "allowed": [
+    "photo-51-franklin-gosling-62-hours-nature-1953",
+    "zoom-10-million-to-200-million-feature-freeze-2020"
+  ],
+  "blocked": [],
+  "results": [
+    {
+      "slug": "photo-51-franklin-gosling-62-hours-nature-1953",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Photo 51 had two names behind it.",
+      "niche": "science",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "safety.context_review",
+          "message": "Context-sensitive term(s) present: death, died. Legitimate in educational science and history, referred to the AI safety reviewer.",
+          "detail": {
+            "terms": [
+              "death",
+              "died"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.1,
+        "worstTitleAgainst": "google-duplex-2018-disclosure",
+        "worstDescriptionSimilarity": 0.25,
+        "combo": "reel:#0D0F12:#9FC3D9:#F2F0EA",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "zoom-10-million-to-200-million-feature-freeze-2020",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Zoom handled about 10 million daily meeting participants.",
+      "niche": "app",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.103,
+        "worstTitleAgainst": "imagenet-mechanical-turk",
+        "worstDescriptionSimilarity": 0.252,
+        "combo": "reel:#0A1020:#2D8CFF:#EEF3FF",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+Rendering 2 Shorts for 2026-11-21 (concurrency=3, GL=default)
+Compliance: 2 cleared, 0 blocked (policy v1.0.0).
+
+--- photo-51-franklin-gosling-62-hours-nature-1953 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-21-photo-51-franklin-gosling-62-hours-nature-1953.mp4
+  uploaded public: https://youtu.be/KgaPzVw1Zgw
+
+--- zoom-10-million-to-200-million-feature-freeze-2020 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-21-zoom-10-million-to-200-million-feature-freeze-2020.mp4
+  uploaded public: https://youtu.be/qeZl7Frb_i4
+
+=== Done. 2 rendered, 2 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

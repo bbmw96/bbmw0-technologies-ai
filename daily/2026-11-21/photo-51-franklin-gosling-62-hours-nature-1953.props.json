@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (photo-51-franklin-gosling-62-hours-nature-1953)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0D0F12",
+    "ink": "#F2F0EA",
+    "accent": "#9FC3D9",
+    "muted": "#7E8790"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The photograph",
+      "text": "Photo 51 had two names behind it.",
+      "note": "KCL and UKRI say it was taken by Rosalind Franklin with her PhD student Raymond Gosling at King's College London in May 1952.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "figure",
+      "value": "62",
+      "unit": "hours",
+      "context": "King's College London says the DNA was exposed to X rays for a total of 62 hours to take Photograph 51.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "The viewing",
+      "text": "Watson saw it in January 1953.",
+      "note": "KCL says Wilkins showed it to him, having a copy because he was soon to take over the work. KCL says Franklin was unaware.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "The defence",
+      "text": "Wilkins had it legitimately, says UKRI.",
+      "note": "UKRI says it was part of her papers as she was leaving for Birkbeck, and notes some people think he should not have shared it without her knowledge or permission.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1953",
+      "name": "Nature, 25 April",
+      "role": "KCL says Photograph 51 was published in a paper by Franklin and Gosling, in the same issue as Watson and Crick's paper.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "The prize",
+      "text": "The 1962 Nobel Prize went to three men.",
+      "note": "Wilkins, Watson and Crick shared it. Franklin died in 1958, and History notes the Nobel Foundation does not award prizes posthumously.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "kicker",
+      "text": "The evidence was public in 1953. The prize came nine years later.",
+      "durationInFrames": 94
+    },
+    {
+      "kind": "sign",
+      "line": "Check the source.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

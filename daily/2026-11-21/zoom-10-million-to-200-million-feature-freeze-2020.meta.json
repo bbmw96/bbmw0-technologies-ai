@@ -1,0 +1,25 @@
+{
+  "slug": "zoom-10-million-to-200-million-feature-freeze-2020",
+  "date": "2026-11-21",
+  "title": "Zoom handled about 10 million daily meeting participants.",
+  "description": "Zoom handled about 10 million daily meeting participants. Zoom's own post gives the maximum for the end of December 2019, free and paid, as approximately 10 million.\n\nIn March 2020, Zoom said it had reached more than 200 million daily meeting participants, free and paid.\n\nParticipants, not users. Zoom counted daily meeting participants. NPR described the same figures as daily users, so the original post is the one to trust.\n\nGrowth arrived with scrutiny. The post covered Zoombombing harassment, removal of the Facebook SDK from the iOS client on 27 March, and an apology for confusion over encryption.\n\nZoom said it had fallen short. Eric Yuan wrote that the company had fallen short of the community's, and its own, privacy and security expectations.\n\nAnnounced on 1 April, effective immediately, with engineering moved to trust, safety and privacy over the next 90 days.\n\nTwenty times the participants, then a feature freeze.\n\nSources:\n- https://www.zoom.com/en/blog/a-message-to-our-users/?cms_guid=false: read (Zoom blog, Eric S. Yuan, published 1 April 2020). Established the approximately 10 million maximum daily meeting participants, free and paid, at the end of December 2019, more than 200 million in March 2020, the 90 day commitment and immediate feature freeze with engineering shifted to trust, safety and privacy, removal of the Facebook SDK from the iOS client on 27 March, the Zoombombing guidance, the encryption apology, and the admission that Zoom had fallen short of privacy and security expectations.\n- https://www.npr.org/sections/coronavirus-live-updates/2020/04/02/826224938/video-meeting-platform-zoom-addresses-criticisms-as-it-sees-explosive-growth-in: read (NPR, 2 April 2020). Established the same 10 million and 200 million figures as reported at the time, but describing them as daily users, which differs from Zoom's own wording of daily meeting participants.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "app",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-21-zoom-10-million-to-200-million-feature-freeze-2020.mp4",
+  "propsFile": "daily/2026-11-21/zoom-10-million-to-200-million-feature-freeze-2020.props.json",
+  "durationInFrames": 1234,
+  "audioUrl": "",
+  "niche": "app",
+  "composition": "Reel"
+}
