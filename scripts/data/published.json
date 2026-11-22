@@ -397,7 +397,10 @@
     "reel:giza-pyramid-builders-not-slaves-workers-town",
     "reel:spanish-flu-spain-uncensored-press-not-origin-1918",
     "reel:photo-51-franklin-gosling-62-hours-nature-1953",
-    "reel:zoom-10-million-to-200-million-feature-freeze-2020"
+    "reel:zoom-10-million-to-200-million-feature-freeze-2020",
+    "reel:lorem-ipsum-cicero-de-finibus-dolorem-cut",
+    "reel:bell-burnell-pulsar-1967-nobel-1974-hewish-ryle",
+    "reel:titanic-practically-unsinkable-1911-hedged-word"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -6938,6 +6941,57 @@
       "youtubeId": "qeZl7Frb_i4",
       "youtubeUrl": "https://youtu.be/qeZl7Frb_i4",
       "uploadedAt": "2026-11-21T16:35:33.708Z",
+      "privacy": "public"
+    },
+    {
+      "id": "lorem-ipsum-cicero-de-finibus-dolorem-cut",
+      "date": "2026-11-22",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Lorem ipsum is not random.",
+      "description": "Lorem ipsum is not random. Britannica says the text was thought to be random words until the 1990s.\n\nBritannica dates his ethics treatise De finibus bonorum et malorum to 45 BCE. Wikipedia places the source in sections 1.10.32 and 1.10.33.\n\nLorem is half a word. Open Culture says it is a piece of dolorem, Latin for pain. Wikipedia says the 1914 Loeb edition breaks off at \"do-\" and resumes with \"lorem ipsum\" two pages later.\n\nWikipedia says today's version derives from Letraset transfer sheets first published in 1966. Britannica says Aldus PageMaker added it in the 1980s.\n\nA Latin scholar traced it in the 1990s. Britannica credits Richard McClintock with the discovery. Wikipedia says he published the link in a 1994 letter.\n\nA Roman essay on pain became the placeholder for every page.\n\nSources:\n- https://www.britannica.com/topic/Lorem-ipsum: read via fetch agent (21 Nov 2026). Established that the text was thought to be random words until the 1990s, that its source was discovered by Richard McClintock, that it comes from Cicero's De finibus bonorum et malorum of 45 BCE, that it became popular in the 1960s with Letraset transfer sheets, and that Aldus PageMaker included it in the 1980s.\n- https://en.wikipedia.org/wiki/Lorem_ipsum: read via fetch agent (21 Nov 2026). Established the source as sections 1.10.32 and 1.10.33 of De finibus, that the 1914 Loeb edition breaks off at \"Neque porro quisquam est qui do-\" on page 34 and resumes with \"lorem ipsum\" on page 36, that today's version derives from Letraset sheets first published in 1966, and that McClintock published the link in a 1994 letter.\n- https://www.openculture.com/2015/03/the-story-of-lorem-ipsum.html: read via fetch agent (21 Nov 2026). Established that the first word, Lorem, is not a word but a piece of dolorem, meaning pain or sorrow, and that Richard McClintock of Hampden-Sydney traced it.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "rK6NHQjYuPo",
+      "youtubeUrl": "https://youtu.be/rK6NHQjYuPo",
+      "uploadedAt": "2026-11-22T16:50:29.367Z",
+      "privacy": "public"
+    },
+    {
+      "id": "bell-burnell-pulsar-1967-nobel-1974-hewish-ryle",
+      "date": "2026-11-22",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "A graduate student spotted it on paper.",
+      "description": "A graduate student spotted it on paper. National Geographic says the first sign was on 6 August 1967, in a squiggly stretch of readout under a quarter inch long, while she was a Cambridge graduate student.\n\nThey half joked it was aliens. Britannica says the team jokingly dubbed the regular pulses LGM, for Little Green Men.\n\nThe Nobel press release credits Ryle for aperture synthesis and Hewish for his decisive role in the discovery of pulsars. It does not mention Bell Burnell.\n\nProminent scientists objected. Britannica says several protested her omission, though she maintained the prize was presented appropriately given her student status.\n\nHer 2018 Special Breakthrough Prize. National Geographic says she is donating it to a UK charity supporting physics graduate students from under-represented groups.\n\nShe found the pulses. The prize went to her advisor.\n\nSources:\n- https://www.nationalgeographic.com/science/article/news-jocelyn-bell-burnell-breakthrough-prize-pulsars-astronomy: read via fetch agent (21 Nov 2026), 6 September 2018. Established that she was a graduate student at Cambridge in 1967, that the first sign was on 6 August 1967 in a squiggly stretch of paper readout under a quarter inch long, that higher speed recordings in November 1967 showed pulses a bit more than a second apart, and that she was awarded a $3 million Special Breakthrough Prize in Fundamental Physics and is donating it to a UK charity supporting physics graduate students from under-represented groups.\n- https://www.britannica.com/biography/Jocelyn-Bell-Burnell: read via fetch agent (21 Nov 2026). Established that the team jokingly dubbed the pulses LGM, for Little Green Men, that the 1974 Nobel Prize in Physics went to Hewish and Martin Ryle, that several prominent scientists protested the omission of Bell Burnell, and that she maintained the prize was presented appropriately given her student status at the time.\n- https://www.nobelprize.org/prizes/physics/1974/press-release/: read via fetch agent (21 Nov 2026), press release of 15 October 1974. Established that Ryle and Hewish were awarded the prize, Ryle for his observations and inventions, in particular of the aperture synthesis technique, and Hewish for his decisive role in the discovery of pulsars, with no mention of Bell Burnell.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "Sq_r7whSq9M",
+      "youtubeUrl": "https://youtu.be/Sq_r7whSq9M",
+      "uploadedAt": "2026-11-22T16:49:29.287Z",
+      "privacy": "public"
+    },
+    {
+      "id": "titanic-practically-unsinkable-1911-hedged-word",
+      "date": "2026-11-22",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Trade papers said practically unsinkable.",
+      "description": "Trade papers said practically unsinkable. Snopes quotes 1911 coverage saying the closing watertight doors made the vessel practically unsinkable. Wikipedia says three trade publications used the hedge.\n\nWhite Star sold size, not safety. Snopes says its adverts called the ships the largest and finest steamers. It adds that a flyer found in 1993 said they were designed to be unsinkable as far as it is possible to do.\n\nThe walls did not reach the top. History.com says the bulkheads rose only a few feet above the waterline, so water spilled from one compartment into the next.\n\nThe lifeboat capacity. History.com puts the number aboard at 2,240.\n\nMore than 1,500 people died. She sank at about 2:20 a.m. on 15 April 1912. History.com says 706 survived.\n\nThe unhedged word came afterwards. On 16 April 1912 the New York Times quoted an executive of the owning group: I thought her unsinkable.\n\nThe hedge vanished. The word stuck.\n\nSources:\n- https://www.snopes.com/history/titanic/unsinkable.asp: read via a fetch agent (page last updated 18 December 2005). Established that White Star adverts called the ships the largest and finest steamers and never made an unsinkable claim, that 1911 press coverage said the closing watertight doors made the vessel practically unsinkable, and that a White Star flyer found in February 1993 said the ships were designed to be unsinkable as far as it is possible to do.\n- https://en.wikipedia.org/wiki/Legends_and_myths_regarding_the_Titanic: read via a fetch agent. Established that three trade publications called Titanic practically unsinkable before she sank, that she was not described as unsinkable without qualification until after the sinking, and that the New York Times of 16 April 1912 quoted an executive of the owning group saying he thought her unsinkable.\n- https://www.history.com/topics/unsinkable-ships/titanic: read via a fetch agent. Established that the bulkhead walls rose only a few feet above the waterline so water spilled from one compartment to the next, that 16 boats plus four collapsibles could take 1,178 people, that 2,240 people were aboard, that more than 1,500 were lost, that 706 survived, and that she sank at about 2:20 a.m. on 15 April 1912.\n- https://www.whoi.edu/ocean-learning-hub/ocean-topics/ocean-human-lives/underwater-archaeology/rms-titanic/history-of-rms-titanic: first 40,000 of about 55,000 characters read via a fetch agent. Confirmed lifeboat capacity of 1,178 and more than 1,500 lives lost.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "imZv3LBVMl0",
+      "youtubeUrl": "https://youtu.be/imZv3LBVMl0",
+      "uploadedAt": "2026-11-22T16:51:38.070Z",
       "privacy": "public"
     }
   ]

@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (bell-burnell-pulsar-1967-nobel-1974-hewish-ryle)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0C0F14",
+    "ink": "#EEF2F7",
+    "accent": "#7FD6A8",
+    "muted": "#808B96"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The scruff",
+      "text": "A graduate student spotted it on paper.",
+      "note": "National Geographic says the first sign was on 6 August 1967, in a squiggly stretch of readout under a quarter inch long, while she was a Cambridge graduate student.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The joke",
+      "text": "They half joked it was aliens.",
+      "note": "Britannica says the team jokingly dubbed the regular pulses LGM, for Little Green Men.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "credit",
+      "year": "1974",
+      "name": "Ryle and Hewish",
+      "role": "The Nobel press release credits Ryle for aperture synthesis and Hewish for his decisive role in the discovery of pulsars. It does not mention Bell Burnell.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "The protest",
+      "text": "Prominent scientists objected.",
+      "note": "Britannica says several protested her omission, though she maintained the prize was presented appropriately given her student status.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "figure",
+      "value": "3",
+      "unit": "$ million",
+      "context": "Her 2018 Special Breakthrough Prize. National Geographic says she is donating it to a UK charity supporting physics graduate students from under-represented groups.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "kicker",
+      "text": "She found the pulses. The prize went to her advisor.",
+      "durationInFrames": 82
+    },
+    {
+      "kind": "sign",
+      "line": "Check the source.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

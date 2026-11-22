@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (lorem-ipsum-cicero-de-finibus-dolorem-cut)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#10100E",
+    "ink": "#F4F1E8",
+    "accent": "#D9B65C",
+    "muted": "#8A8676"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The myth",
+      "text": "Lorem ipsum is not random.",
+      "note": "Britannica says the text was thought to be random words until the 1990s.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "credit",
+      "year": "45 BC",
+      "name": "Cicero",
+      "role": "Britannica dates his ethics treatise De finibus bonorum et malorum to 45 BCE. Wikipedia places the source in sections 1.10.32 and 1.10.33.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "statement",
+      "lead": "The cut",
+      "text": "Lorem is half a word.",
+      "note": "Open Culture says it is a piece of dolorem, Latin for pain. Wikipedia says the 1914 Loeb edition breaks off at \"do-\" and resumes with \"lorem ipsum\" two pages later.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1966",
+      "name": "Letraset",
+      "role": "Wikipedia says today's version derives from Letraset transfer sheets first published in 1966. Britannica says Aldus PageMaker added it in the 1980s.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "statement",
+      "lead": "The finder",
+      "text": "A Latin scholar traced it in the 1990s.",
+      "note": "Britannica credits Richard McClintock with the discovery. Wikipedia says he published the link in a 1994 letter.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "kicker",
+      "text": "A Roman essay on pain became the placeholder for every page.",
+      "durationInFrames": 88
+    },
+    {
+      "kind": "sign",
+      "line": "Check the source.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

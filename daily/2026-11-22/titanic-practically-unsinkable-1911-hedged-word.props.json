@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (titanic-practically-unsinkable-1911-hedged-word)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#120E08",
+    "ink": "#F6F0E4",
+    "accent": "#E0A93B",
+    "muted": "#8F8570"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The word",
+      "text": "Trade papers said practically unsinkable.",
+      "note": "Snopes quotes 1911 coverage saying the closing watertight doors made the vessel practically unsinkable. Wikipedia says three trade publications used the hedge.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "statement",
+      "lead": "The adverts",
+      "text": "White Star sold size, not safety.",
+      "note": "Snopes says its adverts called the ships the largest and finest steamers. It adds that a flyer found in 1993 said they were designed to be unsinkable as far as it is possible to do.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The flaw",
+      "text": "The walls did not reach the top.",
+      "note": "History.com says the bulkheads rose only a few feet above the waterline, so water spilled from one compartment into the next.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "figure",
+      "value": "1178",
+      "unit": "places",
+      "context": "The lifeboat capacity. History.com puts the number aboard at 2,240.",
+      "durationInFrames": 94
+    },
+    {
+      "kind": "statement",
+      "lead": "The toll",
+      "text": "More than 1,500 people died.",
+      "note": "She sank at about 2:20 a.m. on 15 April 1912. History.com says 706 survived.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "lead": "The quote",
+      "text": "The unhedged word came afterwards.",
+      "note": "On 16 April 1912 the New York Times quoted an executive of the owning group: I thought her unsinkable.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "kicker",
+      "text": "The hedge vanished. The word stuck.",
+      "durationInFrames": 60
+    },
+    {
+      "kind": "sign",
+      "line": "Check the source.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

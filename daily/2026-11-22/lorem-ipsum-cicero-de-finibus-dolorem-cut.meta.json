@@ -1,0 +1,25 @@
+{
+  "slug": "lorem-ipsum-cicero-de-finibus-dolorem-cut",
+  "date": "2026-11-22",
+  "title": "Lorem ipsum is not random.",
+  "description": "Lorem ipsum is not random. Britannica says the text was thought to be random words until the 1990s.\n\nBritannica dates his ethics treatise De finibus bonorum et malorum to 45 BCE. Wikipedia places the source in sections 1.10.32 and 1.10.33.\n\nLorem is half a word. Open Culture says it is a piece of dolorem, Latin for pain. Wikipedia says the 1914 Loeb edition breaks off at \"do-\" and resumes with \"lorem ipsum\" two pages later.\n\nWikipedia says today's version derives from Letraset transfer sheets first published in 1966. Britannica says Aldus PageMaker added it in the 1980s.\n\nA Latin scholar traced it in the 1990s. Britannica credits Richard McClintock with the discovery. Wikipedia says he published the link in a 1994 letter.\n\nA Roman essay on pain became the placeholder for every page.\n\nSources:\n- https://www.britannica.com/topic/Lorem-ipsum: read via fetch agent (21 Nov 2026). Established that the text was thought to be random words until the 1990s, that its source was discovered by Richard McClintock, that it comes from Cicero's De finibus bonorum et malorum of 45 BCE, that it became popular in the 1960s with Letraset transfer sheets, and that Aldus PageMaker included it in the 1980s.\n- https://en.wikipedia.org/wiki/Lorem_ipsum: read via fetch agent (21 Nov 2026). Established the source as sections 1.10.32 and 1.10.33 of De finibus, that the 1914 Loeb edition breaks off at \"Neque porro quisquam est qui do-\" on page 34 and resumes with \"lorem ipsum\" on page 36, that today's version derives from Letraset sheets first published in 1966, and that McClintock published the link in a 1994 letter.\n- https://www.openculture.com/2015/03/the-story-of-lorem-ipsum.html: read via fetch agent (21 Nov 2026). Established that the first word, Lorem, is not a word but a piece of dolorem, meaning pain or sorrow, and that Richard McClintock of Hampden-Sydney traced it.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-22-lorem-ipsum-cicero-de-finibus-dolorem-cut.mp4",
+  "propsFile": "daily/2026-11-22/lorem-ipsum-cicero-de-finibus-dolorem-cut.props.json",
+  "durationInFrames": 1068,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

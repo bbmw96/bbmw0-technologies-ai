@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-11-22 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- bell-burnell-pulsar-1967-nobel-1974-hewish-ryle ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-22-bell-burnell-pulsar-1967-nobel-1974-hewish-ryle.mp4
+  uploaded public: https://youtu.be/Sq_r7whSq9M
+
+--- lorem-ipsum-cicero-de-finibus-dolorem-cut ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-22-lorem-ipsum-cicero-de-finibus-dolorem-cut.mp4
+  uploaded public: https://youtu.be/rK6NHQjYuPo
+
+--- titanic-practically-unsinkable-1911-hedged-word ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-22-titanic-practically-unsinkable-1911-hedged-word.mp4
+  uploaded public: https://youtu.be/imZv3LBVMl0
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===
