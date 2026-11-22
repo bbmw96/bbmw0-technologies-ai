@@ -20155,135 +20155,6 @@
       ]
     },
     {
-      "id": "netflix-prize-1-million-winner-never-deployed-2012",
-      "niche": "tech",
-      "verified": true,
-      "sources": [
-        "https://en.wikipedia.org/wiki/Netflix_Prize: read via a fetch agent, verbatim passages. Established the start on 2 October 2006, the $1,000,000 grand prize, the target of 0.8572 on the test set, a training set of 100,480,507 ratings from 480,189 users on 17,770 movies, the win by BellKor's Pragmatic Chaos announced 18 September 2009 with test RMSE 0.8567, that The Ensemble matched it on the test set but submitted 20 minutes later, and that on 12 March 2010 Netflix dropped a second contest after a lawsuit and Federal Trade Commission privacy concerns.",
-        "https://thenextweb.com/news/remember-netflixs-1m-algorithm-contest-well-heres-why-it-didnt-use-the-winning-entry: read via a fetch agent. Quoted Netflix's April 2012 engineers' post that the additional accuracy gains did not seem to justify the engineering effort needed to bring them into production.",
-        "https://flowingdata.com/2012/04/17/why-1m-netflix-algorithm-never-went-to-production: read via a fetch agent. Reported that the grand prize solution contained over 800 models from 4 teams and that the algorithms from the first year of the competition were used and remain a key part of the recommender."
-      ],
-      "verifiedNote": "Checked 22 Nov 2026. Read through a fetch agent; Netflix's own Medium post failed to load, so the 2012 statements are taken from The Next Web and FlowingData quoting it. The 800 models figure is attributed to FlowingData in the beat, not stated as settled. Not claimed: that two named algorithms were deployed (no source gave a count), that the tie was exact on every measure (on the quiz set The Ensemble scored slightly better, so the beat says test set), the exact number of teams (sources give 40,000 plus entrants and 5,169 submitting teams), and anything about Netflix's current system.",
-      "palette": {
-        "bg": "#0F1114",
-        "ink": "#EEF1F5",
-        "accent": "#6FB7FF",
-        "muted": "#838C98"
-      },
-      "beats": [
-        {
-          "kind": "statement",
-          "lead": "The offer",
-          "text": "Netflix offered $1 million to beat its own recommender.",
-          "note": "The contest began on 2 October 2006. The target was a test score of 0.8572, a 10 percent improvement on Netflix's Cinematch."
-        },
-        {
-          "kind": "statement",
-          "lead": "The data",
-          "text": "It released over 100 million ratings.",
-          "note": "The training set held 100,480,507 ratings from 480,189 users on 17,770 films."
-        },
-        {
-          "kind": "statement",
-          "lead": "The finish",
-          "text": "Twenty minutes decided the winner.",
-          "note": "BellKor's Pragmatic Chaos won, announced on 18 September 2009. The Ensemble matched its test result but submitted 20 minutes later."
-        },
-        {
-          "kind": "figure",
-          "value": "800",
-          "unit": "models",
-          "context": "FlowingData reported that the winning solution combined over 800 models from four teams."
-        },
-        {
-          "kind": "statement",
-          "lead": "The catch",
-          "text": "Netflix did not ship the winner.",
-          "note": "In April 2012 its engineers wrote that the extra accuracy did not seem to justify the engineering effort needed to put it into production."
-        },
-        {
-          "kind": "statement",
-          "lead": "The leftovers",
-          "text": "Only the early work stayed.",
-          "note": "Netflix said algorithms from the first year of the contest were used and remain a key part of its recommender."
-        },
-        {
-          "kind": "statement",
-          "lead": "The sequel",
-          "text": "A second prize was cancelled.",
-          "note": "On 12 March 2010 Netflix dropped it, after a lawsuit and Federal Trade Commission privacy concerns."
-        },
-        {
-          "kind": "kicker",
-          "text": "Winning was not the same as shipping."
-        },
-        {
-          "kind": "sign",
-          "line": "Accuracy is not the product.",
-          "handle": "@bbmw.0"
-        }
-      ]
-    },
-    {
-      "id": "airbnb-cereal-boxes-2008-forty-dollars-paul-graham",
-      "niche": "app",
-      "verified": true,
-      "sources": [
-        "https://www.cnbc.com/2023/04/18/airbnb-ceo-says-he-wooed-first-investors-with-boxes-of-cereal.html: read via a fetch agent. Established the $40 price per box, about $30,000 raised, that the founders sold self designed boxes, that Paul Graham offered an investment specifically because of the cereal, and that CNBC cites Crunchbase for $20,000 for 6 percent. CNBC says Airbnb and Y Combinator did not respond to confirm.",
-        "https://fortune.com/2023/04/19/airbnb-ceo-cereal-box-investors-changed-everything-billion-dollar-company/: read via a fetch agent. Established that Graham first asked why people would live with strangers, was intrigued by the cereal box, quoted him contrasting $40 with $4 boxes of cereal, about $30,000 raised to fund operations, and a Y Combinator place days later.",
-        "https://money.cnn.com/2012/09/06/technology/airbnb-dnc-startup/: read via a fetch agent. Gave the names Obama O's and Cap'n McCain, $40 a box and $30,000 in funding, and tied the founders' 2008 convention opportunity to Denver.",
-        "https://benzinga.com/z/18700895: read via a fetch agent. Gave the 2008 presidential election context and the candidate themed cereals, about $30,000, and a print run of 500 boxes (which conflicts with CNBC)."
-      ],
-      "verifiedNote": "Checked 22 Nov 2026. Four pages read through a fetch agent that kept quotes short. Sources conflict on the number of boxes (CNBC says more than 1,000, Benzinga says a print run of 500), so no box count is claimed. They also differ on whether the cereal was the reason for the offer (CNBC) or a late addition to a shaky pitch (Fortune), so the beats stick to what each reports. Graham's quote was cut off in the fetch, so only the $40 against $4 contrast is used. Not claimed: the Y Combinator batch or year, credit card debt, the 5 percent to campaigns detail (one source), or who designed which box.",
-      "palette": {
-        "bg": "#0B1018",
-        "ink": "#EDF2FA",
-        "accent": "#5AA6F2",
-        "muted": "#7A8799"
-      },
-      "beats": [
-        {
-          "kind": "statement",
-          "lead": "The product",
-          "text": "A start up sold political cereal.",
-          "note": "In 2008, during the presidential election, Airbnb's founders sold limited edition boxes called Obama O's and Cap'n McCain's."
-        },
-        {
-          "kind": "statement",
-          "lead": "The pitch",
-          "text": "Paul Graham asked about strangers first.",
-          "note": "Fortune reports his first question was why anyone would stay with strangers. The cereal box came later in the meeting."
-        },
-        {
-          "kind": "figure",
-          "value": "40",
-          "unit": "dollars",
-          "context": "The price of one box. Graham was reported contrasting it with the $4 boxes of cereal that people were paying it for."
-        },
-        {
-          "kind": "statement",
-          "lead": "The total",
-          "text": "About $30,000 came in.",
-          "note": "CNBC, Fortune, CNN and Benzinga all give roughly that figure, used to keep the company running."
-        },
-        {
-          "kind": "statement",
-          "lead": "The offer",
-          "text": "Graham backed them.",
-          "note": "CNBC says he offered an investment specifically because of the cereal. Crunchbase, cited by CNBC, lists the Y Combinator terms as $20,000 for 6 percent."
-        },
-        {
-          "kind": "kicker",
-          "text": "Proof beats promises."
-        },
-        {
-          "kind": "sign",
-          "line": "Sell something first.",
-          "handle": "@bbmw.0"
-        }
-      ]
-    },
-    {
       "id": "columbus-round-earth-size-dispute-not-shape-1492",
       "niche": "history",
       "verified": true,
@@ -20349,59 +20220,131 @@
       ]
     },
     {
-      "id": "luhmann-zettelkasten-two-collections-90000",
-      "niche": "productivity",
+      "id": "titanic-practically-unsinkable-1911-hedged-word",
+      "niche": "history",
       "verified": true,
       "sources": [
-        "https://www.uni-bielefeld.de/fakultaeten/soziologie/forschung/luhmann-archiv/: read (Bielefeld University, Luhmann Archive). Established the Zettelkasten of about 90,000 notes, that the cards were written between 1951 and 1996, and that Luhmann produced nearly 600 publications including more than 40 monographs.",
-        "https://uni-bielefeld.de/soz/luhmann-archiv/pdf/jschmidt-aus-dem-archiv.pdf: read, first section verbatim (Johannes Schmidt, from the archive). Established the split into two largely separate collections of about 23,000 cards (ZK I) and about 67,000 cards (ZK II), the numbering scheme (1,1 then 1,2, insertions such as 1,1a and 1,1a1), codes of up to 13 characters, a fixed location for each card, and that the entries are undated.",
-        "https://www.akademienunion.de/en/research/project-database/niklas-luhmann: read. Independently confirmed an index card file of about 90,000 index cards."
+        "https://www.snopes.com/history/titanic/unsinkable.asp: read via a fetch agent (page last updated 18 December 2005). Established that White Star adverts called the ships the largest and finest steamers and never made an unsinkable claim, that 1911 press coverage said the closing watertight doors made the vessel practically unsinkable, and that a White Star flyer found in February 1993 said the ships were designed to be unsinkable as far as it is possible to do.",
+        "https://en.wikipedia.org/wiki/Legends_and_myths_regarding_the_Titanic: read via a fetch agent. Established that three trade publications called Titanic practically unsinkable before she sank, that she was not described as unsinkable without qualification until after the sinking, and that the New York Times of 16 April 1912 quoted an executive of the owning group saying he thought her unsinkable.",
+        "https://www.history.com/topics/unsinkable-ships/titanic: read via a fetch agent. Established that the bulkhead walls rose only a few feet above the waterline so water spilled from one compartment to the next, that 16 boats plus four collapsibles could take 1,178 people, that 2,240 people were aboard, that more than 1,500 were lost, that 706 survived, and that she sank at about 2:20 a.m. on 15 April 1912.",
+        "https://www.whoi.edu/ocean-learning-hub/ocean-topics/ocean-human-lives/underwater-archaeology/rms-titanic/history-of-rms-titanic: first 40,000 of about 55,000 characters read via a fetch agent. Confirmed lifeboat capacity of 1,178 and more than 1,500 lives lost."
       ],
-      "verifiedNote": "Checked 17 Nov 2026. Read through a fetch agent that returned verbatim passages; the archive PDF was verbatim only for its first section, so nothing from its later pages is used. Not claimed: that the system caused his output (no source says so), the digitisation start date and the number of cards online (not found), the card to card link counts (the PDF calls them sample estimates), and the acquisition year (the archive pages give 2010 and 2011). The archive says nearly 600 publications; the commonly repeated 70 books and 400 articles was not confirmed, so it is not used.",
+      "verifiedNote": "Checked 22 Nov 2026. Read through a fetch agent that returned short quotes. The exact wording and month of the 1911 Shipbuilder article were not found on any page read, so the beats say trade papers and 1911 coverage rather than naming the magazine. Not claimed: the number of watertight compartments (sources say 15 or 16), whether the four collapsible boats count in the boat total (sources differ), the iceberg time (11.30 or 11.40 pm), or that White Star never used the word anywhere, because the 1993 flyer says otherwise. Snopes calls the common claim that adverts promised an unsinkable ship false but the flyer makes the truth more mixed, which is why the second beat carries both.",
       "palette": {
-        "bg": "#131211",
-        "ink": "#F3F0EA",
-        "accent": "#D97757",
-        "muted": "#89827A"
+        "bg": "#120E08",
+        "ink": "#F6F0E4",
+        "accent": "#E0A93B",
+        "muted": "#8F8570"
       },
       "beats": [
         {
           "kind": "statement",
-          "lead": "The legend",
-          "text": "It was not one box of 90,000 cards.",
-          "note": "The figure is real, but Bielefeld University describes two largely separate collections: about 23,000 cards in the first and about 67,000 in the second."
+          "lead": "The word",
+          "text": "Trade papers said practically unsinkable.",
+          "note": "Snopes quotes 1911 coverage saying the closing watertight doors made the vessel practically unsinkable. Wikipedia says three trade publications used the hedge."
         },
         {
           "kind": "statement",
-          "lead": "The addresses",
-          "text": "Every card had a fixed address.",
-          "note": "Card 1,1 was followed by 1,2. A later insertion became 1,1a, then 1,1a1. The archive reports codes of up to 13 characters."
+          "lead": "The adverts",
+          "text": "White Star sold size, not safety.",
+          "note": "Snopes says its adverts called the ships the largest and finest steamers. It adds that a flyer found in 1993 said they were designed to be unsinkable as far as it is possible to do."
         },
         {
           "kind": "statement",
-          "lead": "The gap",
-          "text": "The cards carry no dates.",
-          "note": "The archive notes that the entries are undated, even though the cards were written between 1951 and 1996."
+          "lead": "The flaw",
+          "text": "The walls did not reach the top.",
+          "note": "History.com says the bulkheads rose only a few feet above the waterline, so water spilled from one compartment into the next."
         },
         {
           "kind": "figure",
-          "value": "90,000",
-          "unit": "cards",
-          "context": "about how many notes the Luhmann Archive counts across both collections."
+          "value": "1178",
+          "unit": "places",
+          "context": "The lifeboat capacity. History.com puts the number aboard at 2,240."
         },
         {
           "kind": "statement",
-          "lead": "The output",
-          "text": "Nearly 600 publications.",
-          "note": "The archive credits Niklas Luhmann with approaching 600 publications, including more than 40 monographs."
+          "lead": "The toll",
+          "text": "More than 1,500 people died.",
+          "note": "She sank at about 2:20 a.m. on 15 April 1912. History.com says 706 survived."
+        },
+        {
+          "kind": "statement",
+          "lead": "The quote",
+          "text": "The unhedged word came afterwards.",
+          "note": "On 16 April 1912 the New York Times quoted an executive of the owning group: I thought her unsinkable."
         },
         {
           "kind": "kicker",
-          "text": "Ninety thousand notes, and every one had an address."
+          "text": "The hedge vanished. The word stuck."
         },
         {
           "kind": "sign",
-          "line": "Notes, with addresses.",
+          "line": "Check the source.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "benjamin-jesty-1774-cowpox-before-jenner-1796",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Benjamin_Jesty: read via a fetch agent, short quotes. Established the 1774 smallpox epidemic at Yetminster in Dorset, that Jesty took his wife Elizabeth and two eldest sons to a cow at a farm in nearby Chetnole and used a darning needle, that he and two female servants had already had cowpox, that he was hooted at, reviled and pelted at markets and that some neighbours feared they would turn into horned beasts, that evidence given in 1805 pre dated Jenner's by 22 years, that he received a testimonial and a pair of gold mounted lancets, and that Parliament gave Jenner 10,000 pounds in June 1802 and 20,000 pounds more in 1807.",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6047259: read via a fetch agent (Morabia, Journal of the Royal Society of Medicine 2018, a republication of the James Lind Library piece). Established that Jenner inoculated eight year old James Phipps on 14 May 1796 with material from the dairymaid Sarah Nelmes.",
+        "https://www.nature.com/articles/d42859-020-00007-6: read via a fetch agent. Said Jesty used pustule material from cowpox infected cows, that Jenner self published a longer monograph in 1798 with an additional 22 cases, and that it is not clear whether Jenner knew of earlier inoculations such as Jesty's.",
+        "https://www.jameslindlibrary.org/?p=1128: read via a fetch agent. Same text as the PMC article, so not counted as an independent source."
+      ],
+      "verifiedNote": "Checked 22 Nov 2026. Read through a fetch agent that returned short quotes. The PMC and James Lind Library pages are the same article, so there are three independent sources, not four. Not claimed: the sons' names or ages (Wikipedia gives Robert as 28 in 1805, which does not fit an inoculation in 1774, and could not be resolved), that Jesty or Jenner invented vaccination, the 22 year gap as settled (Morabia counts 31 years from 1774 to the 1805 report instead, so the figure is attributed to Wikipedia and measured to Jenner's 1796 experiment), the spelling of Nelmes (Nature has Nelms), and the Chetnole farm detail beyond Wikipedia. Wikipedia says Jesty got nothing from Parliament, but it also lists the lancets and testimonial, so the beat says only what he received.",
+      "palette": {
+        "bg": "#120E08",
+        "ink": "#F6F0E4",
+        "accent": "#E0A93B",
+        "muted": "#8F8570"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The farmer",
+          "text": "A Dorset farmer did it in 1774.",
+          "note": "When smallpox reached Yetminster, Benjamin Jesty took his wife and two sons to a cow with cowpox and scratched the material into their arms with a darning needle."
+        },
+        {
+          "kind": "statement",
+          "lead": "The reason",
+          "text": "He had already had cowpox.",
+          "note": "Jesty and two female servants had caught it. Wikipedia cites the folk belief that dairy workers were protected from smallpox."
+        },
+        {
+          "kind": "statement",
+          "lead": "The reaction",
+          "text": "His neighbours pelted him.",
+          "note": "Wikipedia says he was hooted at, reviled and pelted at markets. Some feared people would turn into horned beasts."
+        },
+        {
+          "kind": "figure",
+          "value": "22",
+          "unit": "years",
+          "context": "Wikipedia counts that gap between Jesty's family and Jenner's experiment in 1796."
+        },
+        {
+          "kind": "statement",
+          "lead": "The famous one",
+          "text": "Jenner tested it on 14 May 1796.",
+          "note": "He inoculated eight year old James Phipps with cowpox from a dairymaid, Sarah Nelmes, according to Morabia. Nature says it is not clear whether Jenner knew of earlier cases like Jesty's."
+        },
+        {
+          "kind": "statement",
+          "lead": "The reward",
+          "text": "Parliament paid Jenner 10,000 pounds.",
+          "note": "That was in June 1802, with 20,000 pounds more in 1807. Jesty received a testimonial and a pair of gold mounted lancets."
+        },
+        {
+          "kind": "kicker",
+          "text": "First is not the same as famous."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the source.",
           "handle": "@bbmw.0"
         }
       ]
