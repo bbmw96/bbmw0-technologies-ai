@@ -20094,6 +20094,317 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "sony-playstation-snes-ces-1991-nintendo-philips-next-day",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Super_NES_CD-ROM: read via a fetch agent, verbatim passages. Established that Sony unveiled a hybrid SNES compatible console called the PlayStation at the Consumer Electronics Show in June 1991, that Nintendo revealed its partnership with Philips the next day, that under Sony's proposal Sony would keep control of the Super Disc format and its software licensing and Hiroshi Yamauchi found the terms unacceptable, that Sony cut all ties in May 1992, that the PlayStation launched in Japan in December 1994, and that at least 200 to 300 SFX-100 prototypes were made.",
+        "https://www.techradar.com/news/the-ultimate-console-war-how-sony-beat-nintendo-and-sega-at-their-own-game: read via a fetch agent. Confirmed that Nintendo announced a deal with Philips the day after Sony went public, that Sony would claim a licence fee from every publisher releasing software on the format, and that the PlayStation reached Japan at the close of 1994.",
+        "https://www.inventorsdigest.com/articles/game-changing-feud/: read via a fetch agent. Confirmed the next day reveal and gave a prototype count of 200, with Terry Diebold credited with the surviving unit. It dates the Sony announcement to 28 May 1991, which conflicts with Wikipedia.",
+        "https://www.trustedreviews.com/opinion/the-story-of-the-snes-playstation-2934807: read via a fetch agent. Confirmed the Philips reveal and that Nintendo was unhappy about sharing licensing fees."
+      ],
+      "verifiedNote": "Checked 22 Nov 2026. Sources read through a fetch agent that returned short verbatim passages; the UPI 1991 archive and GamesBeat pages failed to load, so no primary press report was read. The month of Sony's announcement is NOT claimed: Wikipedia says June 1991 and Inventor's Digest says 28 May 1991, so the beats say only 1991. The prototype count is hedged because sources give 200 and 200 to 300. Not claimed: who presented for either company, the exact royalty terms, the Philips deal contents, the 2020 auction price (one source), and the phrase Nintendo PlayStation, which Wikipedia says is a fan term.",
+      "palette": {
+        "bg": "#0B0B0F",
+        "ink": "#F5F5F0",
+        "accent": "#FF3D2E",
+        "muted": "#8A8A93"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The reveal",
+          "text": "Sony showed a console that played SNES games.",
+          "note": "At the 1991 Consumer Electronics Show, Sony unveiled a hybrid SNES compatible machine it called the PlayStation."
+        },
+        {
+          "kind": "statement",
+          "lead": "The next day",
+          "text": "Nintendo announced Philips instead.",
+          "note": "Nintendo revealed a partnership with Philips for its own CD add on, which surprised the audience."
+        },
+        {
+          "kind": "statement",
+          "lead": "The sticking point",
+          "text": "Who would control the discs.",
+          "note": "Under Sony's proposal it would keep control of the Super Disc format and its software licensing. Nintendo president Hiroshi Yamauchi found the terms unacceptable."
+        },
+        {
+          "kind": "statement",
+          "lead": "The break",
+          "text": "Sony kept the name and left.",
+          "note": "Sony cut all ties with Nintendo in May 1992, then launched its own PlayStation in Japan in December 1994."
+        },
+        {
+          "kind": "figure",
+          "value": "200",
+          "unit": "units",
+          "context": "Roughly how many SNES based PlayStation prototypes were built. Sources give 200 or 200 to 300."
+        },
+        {
+          "kind": "kicker",
+          "text": "The rival was made by the refusal."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the source.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "netflix-prize-1-million-winner-never-deployed-2012",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Netflix_Prize: read via a fetch agent, verbatim passages. Established the start on 2 October 2006, the $1,000,000 grand prize, the target of 0.8572 on the test set, a training set of 100,480,507 ratings from 480,189 users on 17,770 movies, the win by BellKor's Pragmatic Chaos announced 18 September 2009 with test RMSE 0.8567, that The Ensemble matched it on the test set but submitted 20 minutes later, and that on 12 March 2010 Netflix dropped a second contest after a lawsuit and Federal Trade Commission privacy concerns.",
+        "https://thenextweb.com/news/remember-netflixs-1m-algorithm-contest-well-heres-why-it-didnt-use-the-winning-entry: read via a fetch agent. Quoted Netflix's April 2012 engineers' post that the additional accuracy gains did not seem to justify the engineering effort needed to bring them into production.",
+        "https://flowingdata.com/2012/04/17/why-1m-netflix-algorithm-never-went-to-production: read via a fetch agent. Reported that the grand prize solution contained over 800 models from 4 teams and that the algorithms from the first year of the competition were used and remain a key part of the recommender."
+      ],
+      "verifiedNote": "Checked 22 Nov 2026. Read through a fetch agent; Netflix's own Medium post failed to load, so the 2012 statements are taken from The Next Web and FlowingData quoting it. The 800 models figure is attributed to FlowingData in the beat, not stated as settled. Not claimed: that two named algorithms were deployed (no source gave a count), that the tie was exact on every measure (on the quiz set The Ensemble scored slightly better, so the beat says test set), the exact number of teams (sources give 40,000 plus entrants and 5,169 submitting teams), and anything about Netflix's current system.",
+      "palette": {
+        "bg": "#0F1114",
+        "ink": "#EEF1F5",
+        "accent": "#6FB7FF",
+        "muted": "#838C98"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The offer",
+          "text": "Netflix offered $1 million to beat its own recommender.",
+          "note": "The contest began on 2 October 2006. The target was a test score of 0.8572, a 10 percent improvement on Netflix's Cinematch."
+        },
+        {
+          "kind": "statement",
+          "lead": "The data",
+          "text": "It released over 100 million ratings.",
+          "note": "The training set held 100,480,507 ratings from 480,189 users on 17,770 films."
+        },
+        {
+          "kind": "statement",
+          "lead": "The finish",
+          "text": "Twenty minutes decided the winner.",
+          "note": "BellKor's Pragmatic Chaos won, announced on 18 September 2009. The Ensemble matched its test result but submitted 20 minutes later."
+        },
+        {
+          "kind": "figure",
+          "value": "800",
+          "unit": "models",
+          "context": "FlowingData reported that the winning solution combined over 800 models from four teams."
+        },
+        {
+          "kind": "statement",
+          "lead": "The catch",
+          "text": "Netflix did not ship the winner.",
+          "note": "In April 2012 its engineers wrote that the extra accuracy did not seem to justify the engineering effort needed to put it into production."
+        },
+        {
+          "kind": "statement",
+          "lead": "The leftovers",
+          "text": "Only the early work stayed.",
+          "note": "Netflix said algorithms from the first year of the contest were used and remain a key part of its recommender."
+        },
+        {
+          "kind": "statement",
+          "lead": "The sequel",
+          "text": "A second prize was cancelled.",
+          "note": "On 12 March 2010 Netflix dropped it, after a lawsuit and Federal Trade Commission privacy concerns."
+        },
+        {
+          "kind": "kicker",
+          "text": "Winning was not the same as shipping."
+        },
+        {
+          "kind": "sign",
+          "line": "Accuracy is not the product.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-cereal-boxes-2008-forty-dollars-paul-graham",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://www.cnbc.com/2023/04/18/airbnb-ceo-says-he-wooed-first-investors-with-boxes-of-cereal.html: read via a fetch agent. Established the $40 price per box, about $30,000 raised, that the founders sold self designed boxes, that Paul Graham offered an investment specifically because of the cereal, and that CNBC cites Crunchbase for $20,000 for 6 percent. CNBC says Airbnb and Y Combinator did not respond to confirm.",
+        "https://fortune.com/2023/04/19/airbnb-ceo-cereal-box-investors-changed-everything-billion-dollar-company/: read via a fetch agent. Established that Graham first asked why people would live with strangers, was intrigued by the cereal box, quoted him contrasting $40 with $4 boxes of cereal, about $30,000 raised to fund operations, and a Y Combinator place days later.",
+        "https://money.cnn.com/2012/09/06/technology/airbnb-dnc-startup/: read via a fetch agent. Gave the names Obama O's and Cap'n McCain, $40 a box and $30,000 in funding, and tied the founders' 2008 convention opportunity to Denver.",
+        "https://benzinga.com/z/18700895: read via a fetch agent. Gave the 2008 presidential election context and the candidate themed cereals, about $30,000, and a print run of 500 boxes (which conflicts with CNBC)."
+      ],
+      "verifiedNote": "Checked 22 Nov 2026. Four pages read through a fetch agent that kept quotes short. Sources conflict on the number of boxes (CNBC says more than 1,000, Benzinga says a print run of 500), so no box count is claimed. They also differ on whether the cereal was the reason for the offer (CNBC) or a late addition to a shaky pitch (Fortune), so the beats stick to what each reports. Graham's quote was cut off in the fetch, so only the $40 against $4 contrast is used. Not claimed: the Y Combinator batch or year, credit card debt, the 5 percent to campaigns detail (one source), or who designed which box.",
+      "palette": {
+        "bg": "#0B1018",
+        "ink": "#EDF2FA",
+        "accent": "#5AA6F2",
+        "muted": "#7A8799"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The product",
+          "text": "A start up sold political cereal.",
+          "note": "In 2008, during the presidential election, Airbnb's founders sold limited edition boxes called Obama O's and Cap'n McCain's."
+        },
+        {
+          "kind": "statement",
+          "lead": "The pitch",
+          "text": "Paul Graham asked about strangers first.",
+          "note": "Fortune reports his first question was why anyone would stay with strangers. The cereal box came later in the meeting."
+        },
+        {
+          "kind": "figure",
+          "value": "40",
+          "unit": "dollars",
+          "context": "The price of one box. Graham was reported contrasting it with the $4 boxes of cereal that people were paying it for."
+        },
+        {
+          "kind": "statement",
+          "lead": "The total",
+          "text": "About $30,000 came in.",
+          "note": "CNBC, Fortune, CNN and Benzinga all give roughly that figure, used to keep the company running."
+        },
+        {
+          "kind": "statement",
+          "lead": "The offer",
+          "text": "Graham backed them.",
+          "note": "CNBC says he offered an investment specifically because of the cereal. Crunchbase, cited by CNBC, lists the Y Combinator terms as $20,000 for 6 percent."
+        },
+        {
+          "kind": "kicker",
+          "text": "Proof beats promises."
+        },
+        {
+          "kind": "sign",
+          "line": "Sell something first.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "columbus-round-earth-size-dispute-not-shape-1492",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Myth_of_the_flat_Earth: read in full via a fetch agent, short verbatim passages. Established Stephen Jay Gould's line that there never was a period of flat Earth darkness among scholars, the statement that the issue in the 1490s was the size of the Earth and the position of Asia's east coast, that Columbus mistakenly assumed the shorter Italian mile so his figure was about 25 percent too small, that he put Japan about 5,000 km west, that Washington Irving's 1828 romanticised biography invented a commission with scriptural objections, and Jeffrey Burton Russell's tracing of the flat error to nineteenth century anticlerical French scholars.",
+        "https://en.wikipedia.org/wiki/Christopher_Columbus: first 40,000 characters of about 90,000 read via a fetch agent. Established that educated Westerners knew the Earth was spherical, that Spain's learned men replied that Columbus had grossly underestimated the distance to Asia, and the Canaries to Japan comparison of 2,400 nautical miles estimated against 10,600 actual.",
+        "https://www.todayifoundout.com/?p=21173: read via a fetch agent. Said the educated debate was about the exact size of the Earth, that no first hand record of scriptural objection exists, and that Columbus put the trip at about 3,100 miles (5,000 km) against a true figure of about 12,400 miles (20,000 km).",
+        "https://www.historytoday.com/print/pdf/node/48228/debug: only the introduction was readable (paywall). Said there were no sceptics, as educated people in Europe knew the Earth's spherical shape."
+      ],
+      "verifiedNote": "Checked 22 Nov 2026. Read through a fetch agent that kept quotes short; the History Today article was paywalled after its introduction and only part of the Columbus article was read. The distance to Japan differs between sources (about 5,000 km, or 4,400 km in the Columbus article), so the beat says about and the real distance is given as roughly four times larger. Not claimed: a 1490 Salamanca junta (the read text does not support it), the exact stadion length, the date of Letronne's essay (1834 in the text, 1883 in the reference), or that anyone ever opposed the voyage on scriptural grounds.",
+      "palette": {
+        "bg": "#120E08",
+        "ink": "#F6F0E4",
+        "accent": "#E0A93B",
+        "muted": "#8F8570"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The myth",
+          "text": "Columbus did not prove the Earth was round.",
+          "note": "Educated Europeans already knew it was a sphere. Stephen Jay Gould wrote that there never was a period of flat Earth darkness among scholars."
+        },
+        {
+          "kind": "statement",
+          "lead": "The real argument",
+          "text": "The dispute was about size.",
+          "note": "The issue in the 1490s was not the shape of the Earth but its size, and where the east coast of Asia lay."
+        },
+        {
+          "kind": "statement",
+          "lead": "The mistake",
+          "text": "Columbus shrank the world.",
+          "note": "He read a figure in Arabic miles as the shorter Italian mile, making his estimate about 25 percent too small."
+        },
+        {
+          "kind": "figure",
+          "value": "5000",
+          "unit": "km",
+          "context": "Columbus's estimate of the distance west to Japan, about 5,000 km. The real distance is roughly four times that."
+        },
+        {
+          "kind": "statement",
+          "lead": "The critics",
+          "text": "Spain's advisers said he was wrong.",
+          "note": "The learned men replied that Columbus had grossly underestimated the distance to Asia."
+        },
+        {
+          "kind": "statement",
+          "lead": "The source",
+          "text": "Washington Irving wrote the scene.",
+          "note": "His romanticised 1828 biography invented a commission whose ignorant members raised scriptural objections. No first hand record of such objections exists."
+        },
+        {
+          "kind": "kicker",
+          "text": "The scholars were right about the sums."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the source.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "luhmann-zettelkasten-two-collections-90000",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://www.uni-bielefeld.de/fakultaeten/soziologie/forschung/luhmann-archiv/: read (Bielefeld University, Luhmann Archive). Established the Zettelkasten of about 90,000 notes, that the cards were written between 1951 and 1996, and that Luhmann produced nearly 600 publications including more than 40 monographs.",
+        "https://uni-bielefeld.de/soz/luhmann-archiv/pdf/jschmidt-aus-dem-archiv.pdf: read, first section verbatim (Johannes Schmidt, from the archive). Established the split into two largely separate collections of about 23,000 cards (ZK I) and about 67,000 cards (ZK II), the numbering scheme (1,1 then 1,2, insertions such as 1,1a and 1,1a1), codes of up to 13 characters, a fixed location for each card, and that the entries are undated.",
+        "https://www.akademienunion.de/en/research/project-database/niklas-luhmann: read. Independently confirmed an index card file of about 90,000 index cards."
+      ],
+      "verifiedNote": "Checked 17 Nov 2026. Read through a fetch agent that returned verbatim passages; the archive PDF was verbatim only for its first section, so nothing from its later pages is used. Not claimed: that the system caused his output (no source says so), the digitisation start date and the number of cards online (not found), the card to card link counts (the PDF calls them sample estimates), and the acquisition year (the archive pages give 2010 and 2011). The archive says nearly 600 publications; the commonly repeated 70 books and 400 articles was not confirmed, so it is not used.",
+      "palette": {
+        "bg": "#131211",
+        "ink": "#F3F0EA",
+        "accent": "#D97757",
+        "muted": "#89827A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The legend",
+          "text": "It was not one box of 90,000 cards.",
+          "note": "The figure is real, but Bielefeld University describes two largely separate collections: about 23,000 cards in the first and about 67,000 in the second."
+        },
+        {
+          "kind": "statement",
+          "lead": "The addresses",
+          "text": "Every card had a fixed address.",
+          "note": "Card 1,1 was followed by 1,2. A later insertion became 1,1a, then 1,1a1. The archive reports codes of up to 13 characters."
+        },
+        {
+          "kind": "statement",
+          "lead": "The gap",
+          "text": "The cards carry no dates.",
+          "note": "The archive notes that the entries are undated, even though the cards were written between 1951 and 1996."
+        },
+        {
+          "kind": "figure",
+          "value": "90,000",
+          "unit": "cards",
+          "context": "about how many notes the Luhmann Archive counts across both collections."
+        },
+        {
+          "kind": "statement",
+          "lead": "The output",
+          "text": "Nearly 600 publications.",
+          "note": "The archive credits Niklas Luhmann with approaching 600 publications, including more than 40 monographs."
+        },
+        {
+          "kind": "kicker",
+          "text": "Ninety thousand notes, and every one had an address."
+        },
+        {
+          "kind": "sign",
+          "line": "Notes, with addresses.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
