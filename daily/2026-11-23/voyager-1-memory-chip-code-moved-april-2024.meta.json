@@ -1,0 +1,25 @@
+{
+  "slug": "voyager-1-memory-chip-code-moved-april-2024",
+  "date": "2026-11-23",
+  "title": "Voyager 1 started sending gibberish.",
+  "description": "Voyager 1 started sending gibberish. JPL says it stopped sending readable science and engineering data on 14 November 2023.\n\nOne memory chip had failed. JPL says a single chip storing part of the flight data subsystem memory was not working. Universe Today puts that at about 3 percent of the memory.\n\nThe chip could not be repaired. JPL says no single location was large enough to hold the affected code, so the team divided it into sections and stored them in different places.\n\nJPL says the new code location was sent on 18 April. On 20 April the team saw that the change had worked.\n\nJPL says Voyager 1 is over 15 billion miles from Earth. A radio signal takes about 22.5 hours to reach it.\n\nIt launched in 1977. Universe Today gives the launch date as 5 September 1977.\n\nA 1977 computer was repaired by changing where its code lives.\n\nSources:\n- https://www.jpl.nasa.gov/news/nasas-voyager-1-resumes-sending-engineering-updates-to-earth/: read via fetch agent (21 Nov 2026), NASA JPL, 22 April 2024. Established that Voyager 1 stopped sending readable science and engineering data on 14 November 2023, that the fault was tied to the flight data subsystem and a single chip storing part of its memory, that the team divided the affected code into sections stored in different places because no single location was large enough, that the code went to its new location on 18 April, that the team saw it worked on 20 April, that the craft is over 15 billion miles (24 billion kilometres) away, and that a radio signal takes about 22.5 hours to reach it.\n- https://www.universetoday.com/166733/nasa-restores-communications-with-voyager-1/: read via fetch agent (21 Nov 2026), 22 April 2024. Established the figure of about 3 percent of flight data subsystem memory corrupted by one failed chip, that the chip could not be repaired, and the launch date of 5 September 1977.\n- https://www.theregister.com/2024/04/23/voyager_1_engineering_updates/: read via fetch agent (21 Nov 2026), 23 April 2024. Corroborated the single failed chip in the flight data subsystem, the 20 April confirmation, the distance, and about 22.5 hours each way.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-23-voyager-1-memory-chip-code-moved-april-2024.mp4",
+  "propsFile": "daily/2026-11-23/voyager-1-memory-chip-code-moved-april-2024.props.json",
+  "durationInFrames": 1234,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

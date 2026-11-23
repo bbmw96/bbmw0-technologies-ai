@@ -400,7 +400,10 @@
     "reel:zoom-10-million-to-200-million-feature-freeze-2020",
     "reel:lorem-ipsum-cicero-de-finibus-dolorem-cut",
     "reel:bell-burnell-pulsar-1967-nobel-1974-hewish-ryle",
-    "reel:titanic-practically-unsinkable-1911-hedged-word"
+    "reel:titanic-practically-unsinkable-1911-hedged-word",
+    "reel:columbus-round-earth-size-dispute-not-shape-1492",
+    "reel:benjamin-jesty-1774-cowpox-before-jenner-1796",
+    "reel:voyager-1-memory-chip-code-moved-april-2024"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -6992,6 +6995,49 @@
       "youtubeId": "imZv3LBVMl0",
       "youtubeUrl": "https://youtu.be/imZv3LBVMl0",
       "uploadedAt": "2026-11-22T16:51:38.070Z",
+      "privacy": "public"
+    },
+    {
+      "id": "columbus-round-earth-size-dispute-not-shape-1492",
+      "date": "2026-11-23",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Columbus did not prove the Earth was round.",
+      "description": "Columbus did not prove the Earth was round. Educated Europeans already knew it was a sphere. Stephen Jay Gould wrote that there never was a period of flat Earth darkness among scholars.\n\nThe dispute was about size. The issue in the 1490s was not the shape of the Earth but its size, and where the east coast of Asia lay.\n\nColumbus shrank the world. He read a figure in Arabic miles as the shorter Italian mile, making his estimate about 25 percent too small.\n\nColumbus's estimate of the distance west to Japan, about 5,000 km. The real distance is roughly four times that.\n\nSpain's advisers said he was wrong. The learned men replied that Columbus had grossly underestimated the distance to Asia.\n\nWashington Irving wrote the scene. His romanticised 1828 biography invented a commission whose ignorant members raised scriptural objections. No first hand record of such objections exists.\n\nThe scholars were right about the sums.\n\nSources:\n- https://en.wikipedia.org/wiki/Myth_of_the_flat_Earth: read in full via a fetch agent, short verbatim passages. Established Stephen Jay Gould's line that there never was a period of flat Earth darkness among scholars, the statement that the issue in the 1490s was the size of the Earth and the position of Asia's east coast, that Columbus mistakenly assumed the shorter Italian mile so his figure was about 25 percent too small, that he put Japan about 5,000 km west, that Washington Irving's 1828 romanticised biography invented a commission with scriptural objections, and Jeffrey Burton Russell's tracing of the flat error to nineteenth century anticlerical French scholars.\n- https://en.wikipedia.org/wiki/Christopher_Columbus: first 40,000 characters of about 90,000 read via a fetch agent. Established that educated Westerners knew the Earth was spherical, that Spain's learned men replied that Columbus had grossly underestimated the distance to Asia, and the Canaries to Japan comparison of 2,400 nautical miles estimated against 10,600 actual.\n- https://www.todayifoundout.com/?p=21173: read via a fetch agent. Said the educated debate was about the exact size of the Earth, that no first hand record of scriptural objection exists, and that Columbus put the trip at about 3,100 miles (5,000 km) against a true figure of about 12,400 miles (20,000 km).\n- https://www.historytoday.com/print/pdf/node/48228/debug: only the introduction was readable (paywall). Said there were no sceptics, as educated people in Europe knew the Earth's spherical shape.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "benjamin-jesty-1774-cowpox-before-jenner-1796",
+      "date": "2026-11-23",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "A Dorset farmer did it in 1774.",
+      "description": "A Dorset farmer did it in 1774. When smallpox reached Yetminster, Benjamin Jesty took his wife and two sons to a cow with cowpox and scratched the material into their arms with a darning needle.\n\nHe had already had cowpox. Jesty and two female servants had caught it. Wikipedia cites the folk belief that dairy workers were protected from smallpox.\n\nHis neighbours pelted him. Wikipedia says he was hooted at, reviled and pelted at markets. Some feared people would turn into horned beasts.\n\nWikipedia counts that gap between Jesty's family and Jenner's experiment in 1796.\n\nJenner tested it on 14 May 1796. He inoculated eight year old James Phipps with cowpox from a dairymaid, Sarah Nelmes, according to Morabia. Nature says it is not clear whether Jenner knew of earlier cases like Jesty's.\n\nParliament paid Jenner 10,000 pounds. That was in June 1802, with 20,000 pounds more in 1807. Jesty received a testimonial and a pair of gold mounted lancets.\n\nFirst is not the same as famous.\n\nSources:\n- https://en.wikipedia.org/wiki/Benjamin_Jesty: read via a fetch agent, short quotes. Established the 1774 smallpox epidemic at Yetminster in Dorset, that Jesty took his wife Elizabeth and two eldest sons to a cow at a farm in nearby Chetnole and used a darning needle, that he and two female servants had already had cowpox, that he was hooted at, reviled and pelted at markets and that some neighbours feared they would turn into horned beasts, that evidence given in 1805 pre dated Jenner's by 22 years, that he received a testimonial and a pair of gold mounted lancets, and that Parliament gave Jenner 10,000 pounds in June 1802 and 20,000 pounds more in 1807.\n- https://pmc.ncbi.nlm.nih.gov/articles/PMC6047259: read via a fetch agent (Morabia, Journal of the Royal Society of Medicine 2018, a republication of the James Lind Library piece). Established that Jenner inoculated eight year old James Phipps on 14 May 1796 with material from the dairymaid Sarah Nelmes.\n- https://www.nature.com/articles/d42859-020-00007-6: read via a fetch agent. Said Jesty used pustule material from cowpox infected cows, that Jenner self published a longer monograph in 1798 with an additional 22 cases, and that it is not clear whether Jenner knew of earlier inoculations such as Jesty's.\n- https://www.jameslindlibrary.org/?p=1128: read via a fetch agent. Same text as the PMC article, so not counted as an independent source.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "voyager-1-memory-chip-code-moved-april-2024",
+      "date": "2026-11-23",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Voyager 1 started sending gibberish.",
+      "description": "Voyager 1 started sending gibberish. JPL says it stopped sending readable science and engineering data on 14 November 2023.\n\nOne memory chip had failed. JPL says a single chip storing part of the flight data subsystem memory was not working. Universe Today puts that at about 3 percent of the memory.\n\nThe chip could not be repaired. JPL says no single location was large enough to hold the affected code, so the team divided it into sections and stored them in different places.\n\nJPL says the new code location was sent on 18 April. On 20 April the team saw that the change had worked.\n\nJPL says Voyager 1 is over 15 billion miles from Earth. A radio signal takes about 22.5 hours to reach it.\n\nIt launched in 1977. Universe Today gives the launch date as 5 September 1977.\n\nA 1977 computer was repaired by changing where its code lives.\n\nSources:\n- https://www.jpl.nasa.gov/news/nasas-voyager-1-resumes-sending-engineering-updates-to-earth/: read via fetch agent (21 Nov 2026), NASA JPL, 22 April 2024. Established that Voyager 1 stopped sending readable science and engineering data on 14 November 2023, that the fault was tied to the flight data subsystem and a single chip storing part of its memory, that the team divided the affected code into sections stored in different places because no single location was large enough, that the code went to its new location on 18 April, that the team saw it worked on 20 April, that the craft is over 15 billion miles (24 billion kilometres) away, and that a radio signal takes about 22.5 hours to reach it.\n- https://www.universetoday.com/166733/nasa-restores-communications-with-voyager-1/: read via fetch agent (21 Nov 2026), 22 April 2024. Established the figure of about 3 percent of flight data subsystem memory corrupted by one failed chip, that the chip could not be repaired, and the launch date of 5 September 1977.\n- https://www.theregister.com/2024/04/23/voyager_1_engineering_updates/: read via fetch agent (21 Nov 2026), 23 April 2024. Corroborated the single failed chip in the flight data subsystem, the 20 April confirmation, the distance, and about 22.5 hours each way.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "4djLdTQh4mY",
+      "youtubeUrl": "https://youtu.be/4djLdTQh4mY",
+      "uploadedAt": "2026-11-23T20:51:12.109Z",
       "privacy": "public"
     }
   ]

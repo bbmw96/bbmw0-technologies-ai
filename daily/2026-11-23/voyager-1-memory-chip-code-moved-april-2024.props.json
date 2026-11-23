@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (voyager-1-memory-chip-code-moved-april-2024)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0E14",
+    "ink": "#EDF1F7",
+    "accent": "#8FB8F2",
+    "muted": "#7E8899"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The fault",
+      "text": "Voyager 1 started sending gibberish.",
+      "note": "JPL says it stopped sending readable science and engineering data on 14 November 2023.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "lead": "The cause",
+      "text": "One memory chip had failed.",
+      "note": "JPL says a single chip storing part of the flight data subsystem memory was not working. Universe Today puts that at about 3 percent of the memory.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The catch",
+      "text": "The chip could not be repaired.",
+      "note": "JPL says no single location was large enough to hold the affected code, so the team divided it into sections and stored them in different places.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2024",
+      "name": "The code move",
+      "role": "JPL says the new code location was sent on 18 April. On 20 April the team saw that the change had worked.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "figure",
+      "value": "15",
+      "unit": "bn miles",
+      "context": "JPL says Voyager 1 is over 15 billion miles from Earth. A radio signal takes about 22.5 hours to reach it.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "statement",
+      "lead": "The age",
+      "text": "It launched in 1977.",
+      "note": "Universe Today gives the launch date as 5 September 1977.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "kicker",
+      "text": "A 1977 computer was repaired by changing where its code lives.",
+      "durationInFrames": 88
+    },
+    {
+      "kind": "sign",
+      "line": "Check the source.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

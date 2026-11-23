@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (benjamin-jesty-1774-cowpox-before-jenner-1796)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#120E08",
+    "ink": "#F6F0E4",
+    "accent": "#E0A93B",
+    "muted": "#8F8570"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The farmer",
+      "text": "A Dorset farmer did it in 1774.",
+      "note": "When smallpox reached Yetminster, Benjamin Jesty took his wife and two sons to a cow with cowpox and scratched the material into their arms with a darning needle.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The reason",
+      "text": "He had already had cowpox.",
+      "note": "Jesty and two female servants had caught it. Wikipedia cites the folk belief that dairy workers were protected from smallpox.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "The reaction",
+      "text": "His neighbours pelted him.",
+      "note": "Wikipedia says he was hooted at, reviled and pelted at markets. Some feared people would turn into horned beasts.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "figure",
+      "value": "22",
+      "unit": "years",
+      "context": "Wikipedia counts that gap between Jesty's family and Jenner's experiment in 1796.",
+      "durationInFrames": 106
+    },
+    {
+      "kind": "statement",
+      "lead": "The famous one",
+      "text": "Jenner tested it on 14 May 1796.",
+      "note": "He inoculated eight year old James Phipps with cowpox from a dairymaid, Sarah Nelmes, according to Morabia. Nature says it is not clear whether Jenner knew of earlier cases like Jesty's.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The reward",
+      "text": "Parliament paid Jenner 10,000 pounds.",
+      "note": "That was in June 1802, with 20,000 pounds more in 1807. Jesty received a testimonial and a pair of gold mounted lancets.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "kicker",
+      "text": "First is not the same as famous.",
+      "durationInFrames": 64
+    },
+    {
+      "kind": "sign",
+      "line": "Check the source.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

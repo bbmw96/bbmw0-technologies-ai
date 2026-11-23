@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (columbus-round-earth-size-dispute-not-shape-1492)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#120E08",
+    "ink": "#F6F0E4",
+    "accent": "#E0A93B",
+    "muted": "#8F8570"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The myth",
+      "text": "Columbus did not prove the Earth was round.",
+      "note": "Educated Europeans already knew it was a sphere. Stephen Jay Gould wrote that there never was a period of flat Earth darkness among scholars.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The real argument",
+      "text": "The dispute was about size.",
+      "note": "The issue in the 1490s was not the shape of the Earth but its size, and where the east coast of Asia lay.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "lead": "The mistake",
+      "text": "Columbus shrank the world.",
+      "note": "He read a figure in Arabic miles as the shorter Italian mile, making his estimate about 25 percent too small.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "figure",
+      "value": "5000",
+      "unit": "km",
+      "context": "Columbus's estimate of the distance west to Japan, about 5,000 km. The real distance is roughly four times that.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "lead": "The critics",
+      "text": "Spain's advisers said he was wrong.",
+      "note": "The learned men replied that Columbus had grossly underestimated the distance to Asia.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "statement",
+      "lead": "The source",
+      "text": "Washington Irving wrote the scene.",
+      "note": "His romanticised 1828 biography invented a commission whose ignorant members raised scriptural objections. No first hand record of such objections exists.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "kicker",
+      "text": "The scholars were right about the sums.",
+      "durationInFrames": 64
+    },
+    {
+      "kind": "sign",
+      "line": "Check the source.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

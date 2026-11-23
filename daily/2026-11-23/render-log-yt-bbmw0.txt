@@ -1,0 +1,20 @@
+Rendering 3 Shorts for 2026-11-23 (concurrency=3, GL=default)
+Compliance: 1 cleared, 2 blocked (policy v1.0.0).
+Blocked by compliance: benjamin-jesty-1774-cowpox-before-jenner-1796, columbus-round-earth-size-dispute-not-shape-1492
+
+--- benjamin-jesty-1774-cowpox-before-jenner-1796 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-23-benjamin-jesty-1774-cowpox-before-jenner-1796.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-11-23/compliance-verdict.json.
+
+--- columbus-round-earth-size-dispute-not-shape-1492 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-23-columbus-round-earth-size-dispute-not-shape-1492.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-11-23/compliance-verdict.json.
+
+--- voyager-1-memory-chip-code-moved-april-2024 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-23-voyager-1-memory-chip-code-moved-april-2024.mp4
+  uploaded public: https://youtu.be/4djLdTQh4mY
+
+=== Done. 3 rendered, 1 uploaded, 0 skipped, 2 blocked by compliance, 0 failed. ===
