@@ -1,0 +1,40 @@
+{
+  "slug": "quran-93-5",
+  "date": "2026-11-23",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "And your Lord is going to give you, and you will be satisfied.\n\nSurah Ad-Dhuhaa (93:5). Swipe through for the Arabic, then English, Mandarin, Korean and Japanese renderings.\n\nSources on the final slide.\n\n#Quran #IslamicReminder #Ayah #Deen #IslamicGuidance",
+  "tags": [
+    "Quran",
+    "IslamicReminder",
+    "Ayah",
+    "Deen",
+    "IslamicGuidance",
+    "MuslimReminder",
+    "QuranicVerses",
+    "Alhamdulillah"
+  ],
+  "theme": "chaste-62",
+  "slides": [
+    "quran-93-5.slide-01.json",
+    "quran-93-5.slide-02.json",
+    "quran-93-5.slide-03.json",
+    "quran-93-5.slide-04.json",
+    "quran-93-5.slide-05.json",
+    "quran-93-5.slide-06.json",
+    "quran-93-5.slide-07.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an, Surah Ad-Dhuhaa (93), Ayah 5",
+    "arabic": "Uthmani script (quran-uthmani), api.alquran.cloud. Two independent live fetches this session (2026-11-23) of GET /v1/ayah/93:5/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese, HTTP 200 each, diffed: byte-identical. Verbatim: \"وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ\"",
+    "english": "Saheeh International (en.sahih). Verbatim: \"And your Lord is going to give you, and you will be satisfied.\"",
+    "chinese": "Ma Jian (zh.jian). Raw: \"你的主将来必赏赐你，以至你喜悦。\". Used verbatim.",
+    "korean": "ko.korean; source metadata lists translator as 'Unknown', credited on-slide as not specified. Raw: \"주님께서 그대에게 은혜를 베풀것이매 그대는 이로하여 기뻐하리라\". Spacing-only fix: . Whitespace-stripped text verified identical to raw. No wording changed.",
+    "japanese": "ja.japanese; source metadata lists translator as 'Unknown', cited as such. Verbatim: \"やがて主はあなたの満足するものを御授けになる。\"",
+    "verification_note": "All renderings from two live api.alquran.cloud fetches this session, diffed identical; none from memory. Edition metadata re-checked via /v1/edition (en.sahih Saheeh International, zh.jian Ma Jian, ko.korean Unknown, ja.japanese Unknown). Halal compliance check against scripts/data/compliance-policy.json halal wordlists (138 terms): typography only, no imagery, 0 hits. Dupcheck against local daily/*/blankdiscussions meta files: quran:93:5 NEW. Fixes applied: ."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-11-23/quran-93-5-slide-NN.png --props=daily/2026-11-23/blankdiscussions/quran-93-5.slide-NN.json",
+  "status": "sourced_pending_render"
+}
