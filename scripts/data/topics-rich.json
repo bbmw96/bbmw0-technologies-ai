@@ -20471,64 +20471,6 @@
       ]
     },
     {
-      "id": "flickr-game-neverending-ludicorp-photo-chat-2004",
-      "niche": "app",
-      "verified": true,
-      "sources": [
-        "https://en.wikipedia.org/wiki/Flickr: first 39,955 of 82,064 characters verbatim, the rest as a model summary. Established that Ludicorp was founded by Stewart Butterfield and Caterina Fake, that the service emerged from tools created for Game Neverending, the FlickrLive chat room with real-time photo exchange, the launch on 10 February 2004, the Yahoo acquisition on 20 March 2005 and the reported 22 to 25 million dollar price.",
-        "https://en.wikipedia.org/wiki/Ludicorp: read in full. Established that Game Neverending was released in 2002 and was a financial failure, and that the first version of Flickr was built in 8 weeks from its technology.",
-        "https://www.fastcompany.com/1835525/the-flickrverse: read in full (the page resolves to How Flickr Made It To The Next Level, 7 May 2012). Established that Butterfield suggested dropping photos into conversations, that an early 2004 prototype went nowhere, and a reported 40 million dollar sale figure."
-      ],
-      "verifiedNote": "Checked 24 Nov 2026 through fetch agents. Not claimed: when Game Neverending shut down (no page gave it), a confirmed sale price (22 to 25 million and 40 million are both only reported), the Ludicorp page's end of 2004 sale date (it conflicts with 20 March 2005), or Butterfield's departure date (the pages disagree). The eight week figure is Wikipedia's and is not used as a headline number because Fast Company describes an earlier prototype that went nowhere.",
-      "palette": {
-        "bg": "#0B1020",
-        "ink": "#F3F6FF",
-        "accent": "#FF3E8A",
-        "muted": "#7F8AAE"
-      },
-      "beats": [
-        {
-          "kind": "statement",
-          "lead": "The company",
-          "text": "Flickr started as a side effect.",
-          "note": "Ludicorp, the Vancouver company of Stewart Butterfield and Caterina Fake, built a web game called Game Neverending, released in 2002."
-        },
-        {
-          "kind": "statement",
-          "lead": "The game",
-          "text": "The game did not work.",
-          "note": "Wikipedia's Ludicorp entry calls Game Neverending a financial failure, and it was shelved."
-        },
-        {
-          "kind": "statement",
-          "lead": "The tools",
-          "text": "The photo sharing came from the game's tools.",
-          "note": "Early versions centred on a chat room called FlickrLive, with real-time photo exchange."
-        },
-        {
-          "kind": "statement",
-          "lead": "The launch",
-          "text": "Flickr launched on 10 February 2004.",
-          "note": "Wikipedia says the first version was built in eight weeks from the game's technology."
-        },
-        {
-          "kind": "statement",
-          "lead": "The sale",
-          "text": "Yahoo bought it a year later.",
-          "note": "The deal is dated 20 March 2005. The price was reported at 22 to 25 million US dollars, though Fast Company gives a reported 40 million."
-        },
-        {
-          "kind": "kicker",
-          "text": "The side project outlived the game."
-        },
-        {
-          "kind": "sign",
-          "line": "Pivots start as accidents.",
-          "handle": "@bbmw.0"
-        }
-      ]
-    },
-    {
       "id": "reddit-fake-users-aliases-huffman-ohanian-2005",
       "niche": "app",
       "verified": true,
