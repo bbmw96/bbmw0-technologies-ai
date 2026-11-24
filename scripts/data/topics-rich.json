@@ -20348,6 +20348,364 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "gettysburg-envelope-myth-andrews-1906",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://www.battlefields.org/learn/articles/versions-gettysburg-address: read, first part verbatim, rest as a model summary. Established that Mary Raymond Shipman Andrews popularised the envelope-on-the-train notion in her 1906 book The Perfect Tribute, that the Nicolay and Hay copies show the tale is likely a myth, that the Bliss copy is the only one bearing Lincoln's signature, and the five copies (Nicolay, Hay, Everett, Bancroft, Bliss).",
+        "https://constitutioncenter.org/blog/myths-and-mysteries-about-the-gettysburg-address: read in full. Established that the envelope story is called perhaps the biggest myth about the address, that Lincoln started work soon after the July 1863 battle, that the drafts are in his normal steady handwriting, that Everett spoke for about two hours, and Everett's two hours versus two minutes remark.",
+        "https://exhibits-prod.library.cornell.edu/gettysburg/feature/the-five-copies: read in full. Established that historians are divided over whether he wrote it in the weeks before, on the train, or the evening before at David Wills' house, and where the five copies are held."
+      ],
+      "verifiedNote": "Checked 24 Nov 2026 through fetch agents that kept quotes short. Not claimed: a word count or running time (no source read gave one), which copy is the standard text, that \"under God\" was or was not spoken (contested), or that Lincoln definitely wrote any part on the train. The \"steady handwriting\" argument is the Constitution Center's own reasoning and is attributed to it.",
+      "palette": {
+        "bg": "#10131A",
+        "ink": "#F2EFE6",
+        "accent": "#D8A24A",
+        "muted": "#8B8F99"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The myth",
+          "text": "Lincoln did not scribble it on an envelope.",
+          "note": "The tale of a hurried draft on the back of an envelope, written on the train, was popularised by Mary Raymond Shipman Andrews in her 1906 book The Perfect Tribute."
+        },
+        {
+          "kind": "statement",
+          "lead": "The evidence",
+          "text": "The drafts look calm.",
+          "note": "The National Constitution Center argues against the train story because the draft copies are in Lincoln's normal, steady handwriting."
+        },
+        {
+          "kind": "statement",
+          "lead": "The real answer",
+          "text": "Nobody knows exactly where.",
+          "note": "Historians are divided over whether he wrote it in the weeks before, on the train, or the evening before at David Wills' house. He began work soon after the July 1863 battle."
+        },
+        {
+          "kind": "figure",
+          "value": "5",
+          "unit": "copies",
+          "context": "Lincoln wrote out five known manuscript copies: Nicolay, Hay, Everett, Bancroft and Bliss. Only the Bliss copy bears his signature."
+        },
+        {
+          "kind": "statement",
+          "lead": "The other speaker",
+          "text": "Edward Everett spoke for two hours.",
+          "note": "Lincoln followed with brief dedicatory remarks. Everett is quoted as saying he came as near to the central idea in two hours as Lincoln did in two minutes."
+        },
+        {
+          "kind": "kicker",
+          "text": "A better story is not a better source."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the source.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "duke-nukem-forever-14-years-44-days-2011",
+      "niche": "gaming",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Development_of_Duke_Nukem_Forever: first 40,000 characters verbatim, the rest as a model summary. Established the 1997 announcement, the Quake II engine, the June 1998 switch to Unreal, suspension on 6 May 2009, layoffs on 8 May 2009, release on 10 June 2011, 14 years and 44 days, the Wired Vaporware placings, the Gearbox and 2K Games details and that the period was exceeded in 2022 by Beyond Good and Evil 2 and in 2024 by Kien.",
+        "https://www.shacknews.com/article/50465/a-decade-of-duke-the: read in full. Established the 27 April 1997 announcement, that the Quake II engine was licensed, the 15 June 1998 switch to the Unreal engine and the 7 to 8 May 2009 shutdown news."
+      ],
+      "verifiedNote": "Checked 24 Nov 2026 through fetch agents. Not claimed: a total budget (only the more than 20 million dollars of 3D Realms' own money was supported), the 2002 home-grown engine entry (Shacknews only and it conflicts with its 2007 entry), the Doom 3 engine rumour (denied), or that the game was officially cancelled (the sources record a suspension and layoffs, with no cancellation announcement). Wired placings are given as Wikipedia states them and Shacknews dates the Lifetime Achievement award slightly differently, so that award is not dated.",
+      "palette": {
+        "bg": "#140A08",
+        "ink": "#FFF3E0",
+        "accent": "#FFB400",
+        "muted": "#A38A6E"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The announcement",
+          "text": "Duke Nukem Forever was announced on 27 April 1997.",
+          "note": "3D Realms said it would use id Software's Quake II engine."
+        },
+        {
+          "kind": "statement",
+          "lead": "The switch",
+          "text": "Fourteen months later, a new engine.",
+          "note": "In June 1998 3D Realms announced it had switched to Epic's Unreal engine. Shacknews dates it to 15 June 1998."
+        },
+        {
+          "kind": "figure",
+          "value": "14",
+          "unit": "years",
+          "context": "From announcement on 27 April 1997 to release on 10 June 2011: 14 years and 44 days. Gearbox finished it, with 2K Games publishing."
+        },
+        {
+          "kind": "statement",
+          "lead": "The shutdown",
+          "text": "It was never announced as cancelled.",
+          "note": "Development was suspended on 6 May 2009 and the staff were laid off on 8 May because of a lack of funding."
+        },
+        {
+          "kind": "statement",
+          "lead": "The joke",
+          "text": "Wired gave it a Vaporware Award.",
+          "note": "According to Wikipedia it took first place on Wired's list in 2001, 2002, 2005, 2006, 2007 and 2008."
+        },
+        {
+          "kind": "statement",
+          "lead": "The record",
+          "text": "It no longer holds the record.",
+          "note": "By that measure, Wikipedia says the 14 years and 44 days was exceeded in 2022 by Beyond Good and Evil 2 and in 2024 by Kien."
+        },
+        {
+          "kind": "kicker",
+          "text": "Forever, it turned out, had an end date."
+        },
+        {
+          "kind": "sign",
+          "line": "Even forever ships.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "flickr-game-neverending-ludicorp-photo-chat-2004",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Flickr: first 39,955 of 82,064 characters verbatim, the rest as a model summary. Established that Ludicorp was founded by Stewart Butterfield and Caterina Fake, that the service emerged from tools created for Game Neverending, the FlickrLive chat room with real-time photo exchange, the launch on 10 February 2004, the Yahoo acquisition on 20 March 2005 and the reported 22 to 25 million dollar price.",
+        "https://en.wikipedia.org/wiki/Ludicorp: read in full. Established that Game Neverending was released in 2002 and was a financial failure, and that the first version of Flickr was built in 8 weeks from its technology.",
+        "https://www.fastcompany.com/1835525/the-flickrverse: read in full (the page resolves to How Flickr Made It To The Next Level, 7 May 2012). Established that Butterfield suggested dropping photos into conversations, that an early 2004 prototype went nowhere, and a reported 40 million dollar sale figure."
+      ],
+      "verifiedNote": "Checked 24 Nov 2026 through fetch agents. Not claimed: when Game Neverending shut down (no page gave it), a confirmed sale price (22 to 25 million and 40 million are both only reported), the Ludicorp page's end of 2004 sale date (it conflicts with 20 March 2005), or Butterfield's departure date (the pages disagree). The eight week figure is Wikipedia's and is not used as a headline number because Fast Company describes an earlier prototype that went nowhere.",
+      "palette": {
+        "bg": "#0B1020",
+        "ink": "#F3F6FF",
+        "accent": "#FF3E8A",
+        "muted": "#7F8AAE"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The company",
+          "text": "Flickr started as a side effect.",
+          "note": "Ludicorp, the Vancouver company of Stewart Butterfield and Caterina Fake, built a web game called Game Neverending, released in 2002."
+        },
+        {
+          "kind": "statement",
+          "lead": "The game",
+          "text": "The game did not work.",
+          "note": "Wikipedia's Ludicorp entry calls Game Neverending a financial failure, and it was shelved."
+        },
+        {
+          "kind": "statement",
+          "lead": "The tools",
+          "text": "The photo sharing came from the game's tools.",
+          "note": "Early versions centred on a chat room called FlickrLive, with real-time photo exchange."
+        },
+        {
+          "kind": "statement",
+          "lead": "The launch",
+          "text": "Flickr launched on 10 February 2004.",
+          "note": "Wikipedia says the first version was built in eight weeks from the game's technology."
+        },
+        {
+          "kind": "statement",
+          "lead": "The sale",
+          "text": "Yahoo bought it a year later.",
+          "note": "The deal is dated 20 March 2005. The price was reported at 22 to 25 million US dollars, though Fast Company gives a reported 40 million."
+        },
+        {
+          "kind": "kicker",
+          "text": "The side project outlived the game."
+        },
+        {
+          "kind": "sign",
+          "line": "Pivots start as accidents.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "reddit-fake-users-aliases-huffman-ohanian-2005",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://venturebeat.com/ai/reddit-fake-users: read in full (dated 22 June 2012, crediting MotherBoard). Established that Steve Huffman described it in a Udacity video lesson, that Reddit launched in 2005 relatively quiet and devoid of users, and that admins saw an extra field to enter a custom username registered on submit.",
+        "https://bigthink.com/?p=72779: read, about 40,000 of 58,000 characters verbatim, the rest as a model summary. Alexis Ohanian said a lot of early users were Steve and him with aliases, that they used silly generated names, that they needed a little deception, that Reddit was the first Y Combinator startup to launch, and that about a month in they spent a day only voting and then felt the site was alive.",
+        "https://dailydot.com/parsec/steve-huffman-built-reddit-fake-accounts: read in full. Corroborated that Huffman described fake users in the early days in the Udacity video."
+      ],
+      "verifiedNote": "Checked 24 Nov 2026 through fetch agents. Not claimed: how many fake accounts there were (no page gave a number), any early traffic figure, or a verbatim Huffman quote about fake users (the Daily Dot and VentureBeat quote his wording differently, so only Ohanian's words are quoted). The mention of Huffman saying it set the tone is given as VentureBeat reported it. Garbled words in the Big Think text were not relied on.",
+      "palette": {
+        "bg": "#130A06",
+        "ink": "#FFF1EA",
+        "accent": "#FF5A1F",
+        "muted": "#A88C7E"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The launch",
+          "text": "Reddit launched in 2005 with almost no users.",
+          "note": "VentureBeat describes a site that was relatively quiet and devoid of users. Alexis Ohanian says it was the first Y Combinator startup to launch."
+        },
+        {
+          "kind": "statement",
+          "lead": "The trick",
+          "text": "The founders were the users.",
+          "note": "Ohanian said a lot of early users were actually Steve and him with aliases, using silly names they generated."
+        },
+        {
+          "kind": "statement",
+          "lead": "The tool",
+          "text": "Admins could post as anyone.",
+          "note": "VentureBeat's account of Steve Huffman's Udacity lesson says logged in admins saw an extra field for a custom username, registered on submit."
+        },
+        {
+          "kind": "statement",
+          "lead": "The reason",
+          "text": "They called it deception.",
+          "note": "Ohanian used the word himself, saying they needed a little deception to make the site look alive."
+        },
+        {
+          "kind": "statement",
+          "lead": "The turn",
+          "text": "A day of voting changed it.",
+          "note": "About a month in, Ohanian says they spent a day only voting and submitted nothing. Afterwards they felt the site was actually alive."
+        },
+        {
+          "kind": "kicker",
+          "text": "Someone has to go first."
+        },
+        {
+          "kind": "sign",
+          "line": "Seed the crowd.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "neural-net-tank-detector-urban-legend-fredkin-1960s",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://gwern.net/tank: first 40,000 characters verbatim, the rest as a model summary. Established the abstract conclusion that the story is definitely not real as usually told and that dataset bias is real but exaggerated by it, Fredkin's 1960s speculative question as the probable origin, Yudkowsky's 2008 version with 50 camouflaged tank photos and 50 forest photos for training, and that the army, setting, bias and decade vary between tellings.",
+        "https://www.jefftk.com/p/detecting-tanks: read in full. Established that Dreyfus in 1992 called it the legend of one of connectionism's first applications with no source given, and the cloudy versus sunny version."
+      ],
+      "verifiedNote": "Checked 24 Nov 2026 through fetch agents. Not claimed: that Kanal and Randall 1964 is the origin (Jeff Kaufman says it might be, Gwern's summary says it reported no failure, and the summary part was not verified), Neil Fraser 1998 details (second hand only), or any specific real failure case. The Gwern abstract says definitely not real while a summary line says probably, so the beat uses the verbatim abstract wording and attributes it to Gwern.",
+      "palette": {
+        "bg": "#0A1210",
+        "ink": "#EEF8F2",
+        "accent": "#3DDC97",
+        "muted": "#7FA593"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The story",
+          "text": "A neural network learned the weather.",
+          "note": "In the usual telling, a network trained to spot tanks learned to tell sunny photos from cloudy ones. Yudkowsky's 2008 version trains on 50 camouflaged tank photos and 50 forest photos."
+        },
+        {
+          "kind": "statement",
+          "lead": "The problem",
+          "text": "Nobody can find it happening.",
+          "note": "Eliezer Yudkowsky wrote that he had never tracked down an original source."
+        },
+        {
+          "kind": "statement",
+          "lead": "The variants",
+          "text": "Every telling is different.",
+          "note": "Gwern's collection shows the army, the setting, the cause and even the decade change from version to version."
+        },
+        {
+          "kind": "credit",
+          "year": "1960s",
+          "name": "Edward Fredkin",
+          "role": "Gwern's probable origin: a speculative question at an AI conference, never followed up."
+        },
+        {
+          "kind": "credit",
+          "year": "1992",
+          "name": "Hubert Dreyfus",
+          "role": "Called it the legend of one of connectionism's first applications, and gave no source."
+        },
+        {
+          "kind": "statement",
+          "lead": "The verdict",
+          "text": "Gwern calls it an urban legend.",
+          "note": "He concludes it is definitely not real as usually told, and that dataset bias is real but exaggerated by the tank story."
+        },
+        {
+          "kind": "kicker",
+          "text": "The lesson is real. The tank is not."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the source.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "google-photos-gorilla-label-blocked-2015-2023",
+      "niche": "ai",
+      "verified": true,
+      "sources": [
+        "https://www.technologyreview.com/2018/01/11/146257/google-photos-still-has-a-problem-with-gorillas/: read in full. Established that Wired tested Google Photos with animal photos, that pandas to poodles were identified while gorillas, chimps and chimpanzees were never labelled, and that Wired confirmed with Google that the tags were censored.",
+        "https://incidentdatabase.ai/reports/95: read in full. A summary of a 2018 New York Magazine piece. Established a Google spokesperson saying image labelling is still early and nowhere near perfect, that several primate terms including gorilla were still blocked, and the post by Jacky Alcine from June 2015.",
+        "https://petapixel.com/2023/05/22/googles-photos-app-is-still-unable-to-find-gorillas/: read in full. Established that Google Photos launched in May 2015, that Google said it was appalled and genuinely sorry, that a Google executive said the label would no longer be applied to groups of photos, that the New York Times found in May 2023 that Google Photos still could not find gorillas eight years on, that Apple Photos had the same problem, and that Google said the benefit does not outweigh the risk of harm."
+      ],
+      "verifiedNote": "Checked 24 Nov 2026 through fetch agents. Not claimed: the 40,000 image figure for the Wired test (only in a second hand summary), the exact day of the tweet, the New York Times test size, or any statement about the cause beyond what Google said. The Wired, CNET and New York Times originals were not read, so those details rest on MIT Technology Review, the AI Incident Database and PetaPixel.",
+      "palette": {
+        "bg": "#0E0F14",
+        "ink": "#F4F4F7",
+        "accent": "#4DA3FF",
+        "muted": "#8A8FA0"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The error",
+          "text": "Google Photos mislabelled a friend as a gorilla.",
+          "note": "Jacky Alcine posted about it in June 2015, a month after the app launched. Google said it was appalled and genuinely sorry."
+        },
+        {
+          "kind": "statement",
+          "lead": "The fix",
+          "text": "The fix was to remove the label.",
+          "note": "A Google executive said the label gorilla would no longer be applied to groups of photos."
+        },
+        {
+          "kind": "statement",
+          "lead": "The test",
+          "text": "In 2018, Wired found nothing.",
+          "note": "MIT Technology Review reports that gorillas, chimps and chimpanzees were never labelled, while animals from pandas to poodles were. Google confirmed the tags were censored."
+        },
+        {
+          "kind": "figure",
+          "value": "8",
+          "unit": "years",
+          "context": "In May 2023 the New York Times found Google Photos still could not find gorillas, eight years after the error, according to PetaPixel."
+        },
+        {
+          "kind": "statement",
+          "lead": "The reasoning",
+          "text": "Google judged the risk too high.",
+          "note": "A Google spokesman said the benefit of labelling primates does not outweigh the risk of harm. Apple Photos had the same problem."
+        },
+        {
+          "kind": "kicker",
+          "text": "Sometimes the fix is a blank."
+        },
+        {
+          "kind": "sign",
+          "line": "Test the edge cases.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
