@@ -1,0 +1,40 @@
+﻿{
+    "slug":  "quran-15-99",
+    "date":  "2026-11-24",
+    "channel":  "ig-blankdiscussions",
+    "platform":  "instagram",
+    "handle":  "@blankdiscussions",
+    "mediaFormat":  "carousel",
+    "caption":  "And worship your Lord until there comes to you the certainty (death).\n\nSurah Al-Hijr (15:99). Swipe through for the Arabic, then English, Mandarin, Korean and Japanese renderings.\n\nSources on the final slide.\n\n#Quran #IslamicReminder #Ayah #Deen #IslamicGuidance",
+    "tags":  [
+                 "Quran",
+                 "IslamicReminder",
+                 "Ayah",
+                 "Deen",
+                 "IslamicGuidance",
+                 "MuslimReminder",
+                 "QuranicVerses",
+                 "Alhamdulillah"
+             ],
+    "theme":  "chaste-63",
+    "slides":  [
+                   "quran-15-99.slide-01.json",
+                   "quran-15-99.slide-02.json",
+                   "quran-15-99.slide-03.json",
+                   "quran-15-99.slide-04.json",
+                   "quran-15-99.slide-05.json",
+                   "quran-15-99.slide-06.json",
+                   "quran-15-99.slide-07.json"
+               ],
+    "sourcing":  {
+                     "primary_text":  "Qur\u0027an, Surah Al-Hijr (15), Ayah 99",
+                     "arabic":  "Uthmani script (quran-uthmani), api.alquran.cloud. Two independent live fetches this session (2026-11-24) of GET /v1/ayah/15:99/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese, HTTP 200 each, diffed: byte-identical. Verbatim: \"وَٱعْبُدْ رَبَّكَ حَتَّىٰ يَأْتِيَكَ ٱلْيَقِينُ\"",
+                     "english":  "Saheeh International (en.sahih). Verbatim: \"And worship your Lord until there comes to you the certainty (death).\"",
+                     "chinese":  "Ma Jian (zh.jian). Raw: \"你应当崇拜你的主，直到那无疑的消息来临。\". Used verbatim.",
+                     "korean":  "ko.korean; source metadata lists translator as \u0027Unknown\u0027, credited on-slide as not specified. Raw: \"그대의 주님을 경배하라 확 실한 그날이 그대에게 오리라\". Spacing-only fix: \u0027확 실한\u0027 -\u003e \u0027확실한\u0027. Whitespace-stripped text verified identical to raw. No wording changed.",
+                     "japanese":  "ja.japanese; source metadata lists translator as \u0027Unknown\u0027, cited as such. Verbatim: \"定めの時が訪れるまで，あなたの主に仕えなさい。\"",
+                     "verification_note":  "All renderings from two live api.alquran.cloud fetches this session, diffed identical; none from memory. Edition metadata re-checked via /v1/edition (en.sahih Saheeh International, zh.jian Ma Jian, ko.korean Unknown, ja.japanese Unknown). Halal compliance check against scripts/data/compliance-policy.json halal wordlists (138 terms): typography only, no imagery, 0 hits. Dupcheck against local daily/*/blankdiscussions meta files: quran:15:99 NEW. Fixes applied: ko.korean: \"확 실한\" -\u003e \"확실한\"."
+                 },
+    "renderCommand":  "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-11-24/quran-15-99-slide-NN.png --props=daily/2026-11-24/blankdiscussions/quran-15-99.slide-NN.json",
+    "status":  "rendered_and_hosted"
+}

@@ -1,0 +1,32 @@
+[
+ {
+  "id": "quran-uthmani",
+  "tr": "Uthmani",
+  "s": "Al-Hijr",
+  "t": "وَٱعْبُدْ رَبَّكَ حَتَّىٰ يَأْتِيَكَ ٱلْيَقِينُ"
+ },
+ {
+  "id": "en.sahih",
+  "tr": "Saheeh International",
+  "s": "Al-Hijr",
+  "t": "And worship your Lord until there comes to you the certainty (death)."
+ },
+ {
+  "id": "zh.jian",
+  "tr": "Ma Jian",
+  "s": "Al-Hijr",
+  "t": "你应当崇拜你的主，直到那无疑的消息来临。"
+ },
+ {
+  "id": "ko.korean",
+  "tr": "Unknown",
+  "s": "Al-Hijr",
+  "t": "그대의 주님을 경배하라 확 실한 그날이 그대에게 오리라"
+ },
+ {
+  "id": "ja.japanese",
+  "tr": "Unknown",
+  "s": "Al-Hijr",
+  "t": "定めの時が訪れるまで，あなたの主に仕えなさい。"
+ }
+]
