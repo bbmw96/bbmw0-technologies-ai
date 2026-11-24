@@ -20648,6 +20648,237 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "franklin-kite-never-struck-by-lightning-1752",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://fi.edu/benjamin-franklin/kite-key-experiment: read in full (Franklin Institute, published 12 June 2017, modified 19 June 2026). Established that Franklin's kite was not struck by lightning and that if it had been he probably would have been electrocuted, that the kite picked up ambient charge from the storm, that Dalibard succeeded in northern France a month earlier, that Richmann was killed trying a similar trial, and that Franklin did not discover electricity.",
+        "https://en.wikipedia.org/wiki/Kite_experiment: read in full. Established the line \"contrary to popular belief, Franklin's kite was not struck by lightning\", the 19 October 1752 Pennsylvania Gazette letter and that it did not specify the circumstances in which he carried out the experiment himself, Priestley's 1767 History and Present State of Electricity as the source of the flight account, Dalibard at Marly-la-Ville in May 1752, and Richmann's death in Saint Petersburg in August 1753."
+      ],
+      "verifiedNote": "Checked 24 Nov 2026 through fetch agents. The Founders Online primary text could not be fetched, so Franklin's own wording is taken from the two secondary pages only. Not claimed: the sentry box detail, a date for the flight (Wikipedia says June 1752 from Priestley but treats the account as second hand), the silk handkerchief and key details beyond the Franklin Institute's telling, or that Richmann was definitely killed by ball lightning (Wikipedia says thought to be).",
+      "palette": {
+        "bg": "#0D1220",
+        "ink": "#EEF3FF",
+        "accent": "#F5C542",
+        "muted": "#8591B0"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The myth",
+          "text": "Lightning did not strike Franklin's kite.",
+          "note": "The Franklin Institute says that if it had, he probably would have been electrocuted. The kite picked up charge from the storm."
+        },
+        {
+          "kind": "credit",
+          "year": "1752",
+          "name": "Thomas-François Dalibard",
+          "role": "Ran the lightning experiment first, in May 1752 at Marly-la-Ville in northern France, about a month before Franklin's kite."
+        },
+        {
+          "kind": "statement",
+          "lead": "Franklin's account",
+          "text": "His own letter does not describe the flight.",
+          "note": "The letter in the Pennsylvania Gazette of 19 October 1752 did not specify how he carried out the experiment himself."
+        },
+        {
+          "kind": "credit",
+          "year": "1767",
+          "name": "Joseph Priestley",
+          "role": "Gave the account of the kite flight in his History and Present State of Electricity, presumably learned from Franklin himself."
+        },
+        {
+          "kind": "statement",
+          "lead": "The cost",
+          "text": "Copying it killed someone.",
+          "note": "Georg Wilhelm Richmann died in Saint Petersburg in August 1753 attempting to replicate the experiment. Wikipedia says he was thought to be the victim of ball lightning."
+        },
+        {
+          "kind": "statement",
+          "lead": "The correction",
+          "text": "He did not discover electricity.",
+          "note": "The Franklin Institute notes that, despite a common misconception, Franklin did not discover electricity during this experiment."
+        },
+        {
+          "kind": "kicker",
+          "text": "The famous scene comes second hand."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the source.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "sugar-hyperactivity-23-studies-1995-jama",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/7474248/: abstract only. Established JAMA, November 1995, 274(20):1617 to 1621, that sixteen reports met the criteria for a total of 23 within-subject studies, the conclusion that sugar does not affect behaviour or cognitive performance of children, that a small effect or effects on subsets of children cannot be ruled out, and effect sizes from minus 0.14 to plus 0.30 across 14 constructs.",
+        "https://www.medicalnewstoday.com/amp/articles/medical-myths-does-sugar-make-children-hyperactive: read in full (Tim Newman, 21 July 2020, fact checked by Hilary Guite). Established the 35 boys aged 5 to 7 whose mothers called them sugar sensitive, that all received aspartame as a placebo, that mothers told it was sugar rated them as significantly more hyperactive, the NEJM 1994 diet study results, and that the jury is still out for children with ADHD.",
+        "https://www.livescience.com/55754-does-sugar-make-kids-hyper.html: read, last 9,500 characters as a model summary only. Corroborated the 35 boys aged 5 to 7 and Mark Wolraich's comment that the placebo effect can be very powerful."
+      ],
+      "verifiedNote": "Checked 24 Nov 2026 through fetch agents. Not claimed: author names for either study (the pages read did not name Hoover, Milich, Wolraich or Wilson in the abstract), where the belief began (Feingold was not on any page read), or that sugar has no effect on any child (the abstract itself allows a small effect or effects on subsets). The Medical News Today wording of the conclusion differs from the PubMed abstract, so the abstract wording is used. The statistician quote was in a summary only and is not used.",
+      "palette": {
+        "bg": "#150B14",
+        "ink": "#FFF0F8",
+        "accent": "#FF6BB5",
+        "muted": "#A88BA0"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The belief",
+          "text": "Sugar makes children hyper.",
+          "note": "Medical News Today traces the idea to theories from 1947 and the 1970s, neither of which is now backed by the data."
+        },
+        {
+          "kind": "figure",
+          "value": "23",
+          "unit": "studies",
+          "context": "A 1995 JAMA review pooled 23 blinded, placebo controlled studies from 16 reports. Sugar did not affect behaviour or cognitive performance."
+        },
+        {
+          "kind": "statement",
+          "lead": "The caveat",
+          "text": "A small effect was not ruled out.",
+          "note": "The authors wrote that a small effect, or effects on subsets of children, could not be ruled out."
+        },
+        {
+          "kind": "statement",
+          "lead": "The twist",
+          "text": "Parents were the variable.",
+          "note": "In a 1994 study, 35 boys aged 5 to 7 all received aspartame. Mothers told it was sugar rated their sons as significantly more hyperactive."
+        },
+        {
+          "kind": "statement",
+          "lead": "The behaviour",
+          "text": "They also behaved differently.",
+          "note": "Those mothers maintained more physical closeness, and showed trends to criticise and talk to their sons, according to Medical News Today."
+        },
+        {
+          "kind": "statement",
+          "lead": "The open question",
+          "text": "ADHD is a separate question.",
+          "note": "Medical News Today says the jury is still out for children with ADHD."
+        },
+        {
+          "kind": "kicker",
+          "text": "The sugar was not the variable."
+        },
+        {
+          "kind": "sign",
+          "line": "Test the belief.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "library-of-alexandria-slow-decline-not-one-fire",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://worldhistory.org/article/207: read in full (World History Encyclopedia, Brian Haughton, 1 February 2011). Established that the library is popularly believed to have been destroyed in a huge fire, that the catastrophe was gradual over four or five hundred years, that Seneca quoting Livy gave 40,000 scrolls destroyed in Caesar's fire, that Dio Cassius mentions a warehouse of manuscripts and Canfora's view that manuscripts were stored in warehouses near the port, and that the Serapeum was destroyed under Theodosius I with Theophilus carrying it out.",
+        "https://www.britannica.com/topic/Library-of-Alexandria/The-fate-of-the-Library-of-Alexandria: read in full (Mostafa El-Abbadi). Established the 48 BCE fire, that Caesar is silent about the extent of the destruction, Plutarch's line that fire spread from the dockyards and destroyed the Great Library, that the Arab conquest burning story appears first in an early 13th century account and is called a fabrication, and the growing agreement that both libraries perished long before the Arab conquest.",
+        "https://www.nationalgeographic.com/history/article/who-burned-library-of-alexandria-egypt: read in full (Erin Blakemore, 16 October 2025). Established that the library burned multiple times, that it slowly declined through neglect, that historical sources disagree on how much damage Caesar's fire caused, and Roger Bagnall's description of a murder mystery with a number of suspects."
+      ],
+      "verifiedNote": "Checked 24 Nov 2026 through fetch agents. The pages disagree on several points, so none of these are claimed: the date of the Arab conquest (640 or 642), the exact sequence at the Serapeum in 391, whether Ptolemy XIII or XIV fought Cleopatra, or what Strabo's silence proves (World History Encyclopedia and Britannica read it oppositely). The 40,000 figure is given as Seneca's, quoted second hand, not as an established loss. Aulus Gellius was not on any page read and is not mentioned.",
+      "palette": {
+        "bg": "#140F08",
+        "ink": "#FBF3E4",
+        "accent": "#E3A24A",
+        "muted": "#9C8F78"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The myth",
+          "text": "One fire destroyed it.",
+          "note": "World History Encyclopedia says the library is popularly believed to have been destroyed in a huge fire around 2000 years ago."
+        },
+        {
+          "kind": "statement",
+          "lead": "The real timeline",
+          "text": "It faded over centuries.",
+          "note": "World History Encyclopedia says the catastrophe was gradual, taking place over four or five hundred years. National Geographic says neglect slowly ended it."
+        },
+        {
+          "kind": "figure",
+          "value": "40000",
+          "unit": "scrolls",
+          "context": "Seneca, quoting Livy, gave this as the number destroyed in Caesar's fire of 48 BCE. Historical sources disagree on how much damage resulted."
+        },
+        {
+          "kind": "statement",
+          "lead": "The warehouse",
+          "text": "The fire may have hit port warehouses.",
+          "note": "Dio Cassius mentions a warehouse of manuscripts. Luciano Canfora argues the manuscripts burned were stored near the port waiting for export."
+        },
+        {
+          "kind": "statement",
+          "lead": "The late story",
+          "text": "The caliph story came centuries later.",
+          "note": "Britannica says the tale of books burned as bath fuel first appears in an early 13th century account, and calls it a fabrication."
+        },
+        {
+          "kind": "statement",
+          "lead": "The verdict",
+          "text": "It is a murder mystery with suspects.",
+          "note": "Roger Bagnall is quoted by National Geographic using that phrase. Britannica notes growing agreement that both libraries perished long before the Arab conquest."
+        },
+        {
+          "kind": "kicker",
+          "text": "Neglect is a quieter culprit."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the source.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "seinfeld-dont-break-the-chain-single-source",
+      "niche": "productivity",
+      "verified": false,
+      "reviewNote": "DRAFT. The original Lifehacker post by Brad Isaac was not read (lifehacker.com/281626, named by GovExec) and the 2007 date is unconfirmed. Need to read it, find any direct Seinfeld statement or denial, and confirm the comedy club detail before setting verified true.",
+      "sources": [
+        "https://www.cbsnews.com/news/a-productivity-secret-from-seinfeld-and-convicts: read in full (Jessica Stillman, updated 29 December 2010). Established that the story rests on software developer Brad Isaac, the wall calendar with a whole year on one page and the big red X for each day he wrote, and that Seinfeld is not quoted.",
+        "https://www.govexec.com/management/2012/08/how-jerry-seinfeld-training-me-marathon/57748/: read in full (29 August 2012). Corroborated the account as recounted by Brad Isaac, with no Seinfeld quote."
+      ],
+      "verifiedNote": "Draft. Not claimed: that Seinfeld ever confirmed the method, a 2007 date, the comedy club setting, or any origin in convicts (CBS only draws a resemblance).",
+      "palette": {
+        "bg": "#10120C",
+        "ink": "#F4F7EA",
+        "accent": "#E0463A",
+        "muted": "#8E9780"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The story",
+          "text": "Seinfeld told a young comic to hang a calendar.",
+          "note": "In Brad Isaac's account, each day he did his writing he put a big red X over that day."
+        },
+        {
+          "kind": "statement",
+          "lead": "The catch",
+          "text": "The source is one person.",
+          "note": "Neither CBS News nor GovExec quotes Seinfeld confirming it. Both rely on Isaac's account."
+        },
+        {
+          "kind": "kicker",
+          "text": "A good habit does not need a famous source."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the source.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
