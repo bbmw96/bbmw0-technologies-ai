@@ -1,0 +1,25 @@
+{
+  "slug": "http-cookie-montulli-netscape-mci-shopping-cart-1994",
+  "date": "2026-11-24",
+  "title": "The cookie was built for a shopping cart.",
+  "description": "The cookie was built for a shopping cart. Wikipedia says Netscape was building an e-commerce application for MCI, and MCI did not want its servers to retain partial transaction states.\n\nNetscape engineer, aged 23 according to IAPP. History of Information dates the invention to June 1994.\n\nCookie came from Unix slang. Wikipedia says Montulli coined the term from magic cookie, a data packet used by Unix programmers.\n\nReleased on 13 October 1994 with cookie support. Its first use was checking whether visitors to Netscape's own site had been before.\n\nIt was meant to prevent tracking. IAPP quotes Montulli: only the originating website can set and receive the cookie, but companies figured out how to game the system.\n\nThe advice was ignored almost at once. Wikipedia says the recommendation in RFC 2109, published in February 1997, was not followed by Netscape and Internet Explorer.\n\nA shopping cart fix became a key tool for advertising.\n\nSources:\n- https://en.wikipedia.org/wiki/HTTP_cookie: read via fetch agent (21 Nov 2026, first 40,000 of 97,757 characters verbatim). Established that Netscape was developing an e-commerce application for MCI, that MCI did not want its servers to retain partial transaction states, that Montulli coined the term from magic cookie (a data packet used by Unix programmers), that Mosaic Netscape 0.9beta released on 13 October 1994 supported cookies, that the working group identified third-party cookies as a considerable privacy threat in February 1996, and that RFC 2109 was published in February 1997 with a recommendation Netscape and Internet Explorer did not follow.\n- https://historyofinformation.com/detail.php?entryid=2469: read via fetch agent (21 Nov 2026). Established that Lou Montulli invented the HTTP cookie at Netscape in June 1994, that 0.9beta of Mosaic Netscape released on 13 October 1994 supported cookies, and that the first use was checking whether visitors to Netscape's own site had visited before.\n- https://iapp.org/news/a/creator-of-the-cookie-reflects-on-his-invention/: read via fetch agent (21 Nov 2026). A short summary of a Techonomy article. Established that he invented the cookie at age 23 and quoted him: cookies were designed to prevent tracking because only the originating website can set and receive that cookie, and companies figured out how to game the system.\n- https://www.guinnessworldrecords.com/world-records/106750-first-use-of-cookies-on-the-internet: read via fetch agent (21 Nov 2026). Corroborated that Montulli invented cookies while working for Netscape in 1994 and that first use was on Netscape's own website.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-24-http-cookie-montulli-netscape-mci-shopping-cart-1994.mp4",
+  "propsFile": "daily/2026-11-24/http-cookie-montulli-netscape-mci-shopping-cart-1994.props.json",
+  "durationInFrames": 1258,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

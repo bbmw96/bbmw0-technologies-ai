@@ -1,0 +1,20 @@
+Rendering 3 Shorts for 2026-11-24 (concurrency=3, GL=default)
+Compliance: 2 cleared, 1 blocked (policy v1.0.0).
+Blocked by compliance: gettysburg-envelope-myth-andrews-1906
+
+--- gettysburg-envelope-myth-andrews-1906 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-24-gettysburg-envelope-myth-andrews-1906.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-11-24/compliance-verdict.json.
+
+--- http-cookie-montulli-netscape-mci-shopping-cart-1994 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-24-http-cookie-montulli-netscape-mci-shopping-cart-1994.mp4
+  uploaded public: https://youtu.be/18uO9cP7lEU
+
+--- sugar-hyperactivity-23-studies-1995-jama ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-24-sugar-hyperactivity-23-studies-1995-jama.mp4
+  uploaded public: https://youtu.be/8ASklkpDESM
+
+=== Done. 3 rendered, 2 uploaded, 0 skipped, 1 blocked by compliance, 0 failed. ===

@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (gettysburg-envelope-myth-andrews-1906)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#10131A",
+    "ink": "#F2EFE6",
+    "accent": "#D8A24A",
+    "muted": "#8B8F99"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The myth",
+      "text": "Lincoln did not scribble it on an envelope.",
+      "note": "The tale of a hurried draft on the back of an envelope, written on the train, was popularised by Mary Raymond Shipman Andrews in her 1906 book The Perfect Tribute.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The evidence",
+      "text": "The drafts look calm.",
+      "note": "The National Constitution Center argues against the train story because the draft copies are in Lincoln's normal, steady handwriting.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "statement",
+      "lead": "The real answer",
+      "text": "Nobody knows exactly where.",
+      "note": "Historians are divided over whether he wrote it in the weeks before, on the train, or the evening before at David Wills' house. He began work soon after the July 1863 battle.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "5",
+      "unit": "copies",
+      "context": "Lincoln wrote out five known manuscript copies: Nicolay, Hay, Everett, Bancroft and Bliss. Only the Bliss copy bears his signature.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "statement",
+      "lead": "The other speaker",
+      "text": "Edward Everett spoke for two hours.",
+      "note": "Lincoln followed with brief dedicatory remarks. Everett is quoted as saying he came as near to the central idea in two hours as Lincoln did in two minutes.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "A better story is not a better source.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Check the source.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

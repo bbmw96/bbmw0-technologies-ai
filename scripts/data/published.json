@@ -403,7 +403,10 @@
     "reel:titanic-practically-unsinkable-1911-hedged-word",
     "reel:columbus-round-earth-size-dispute-not-shape-1492",
     "reel:benjamin-jesty-1774-cowpox-before-jenner-1796",
-    "reel:voyager-1-memory-chip-code-moved-april-2024"
+    "reel:voyager-1-memory-chip-code-moved-april-2024",
+    "reel:sugar-hyperactivity-23-studies-1995-jama",
+    "reel:gettysburg-envelope-myth-andrews-1906",
+    "reel:http-cookie-montulli-netscape-mci-shopping-cart-1994"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -7038,6 +7041,53 @@
       "youtubeId": "4djLdTQh4mY",
       "youtubeUrl": "https://youtu.be/4djLdTQh4mY",
       "uploadedAt": "2026-11-23T20:51:12.109Z",
+      "privacy": "public"
+    },
+    {
+      "id": "sugar-hyperactivity-23-studies-1995-jama",
+      "date": "2026-11-24",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Sugar makes children hyper.",
+      "description": "Sugar makes children hyper. Medical News Today traces the idea to theories from 1947 and the 1970s, neither of which is now backed by the data.\n\nA 1995 JAMA review pooled 23 blinded, placebo controlled studies from 16 reports. Sugar did not affect behaviour or cognitive performance.\n\nA small effect was not ruled out. The authors wrote that a small effect, or effects on subsets of children, could not be ruled out.\n\nParents were the variable. In a 1994 study, 35 boys aged 5 to 7 all received aspartame. Mothers told it was sugar rated their sons as significantly more hyperactive.\n\nThey also behaved differently. Those mothers maintained more physical closeness, and showed trends to criticise and talk to their sons, according to Medical News Today.\n\nADHD is a separate question. Medical News Today says the jury is still out for children with ADHD.\n\nThe sugar was not the variable.\n\nSources:\n- https://pubmed.ncbi.nlm.nih.gov/7474248/: abstract only. Established JAMA, November 1995, 274(20):1617 to 1621, that sixteen reports met the criteria for a total of 23 within-subject studies, the conclusion that sugar does not affect behaviour or cognitive performance of children, that a small effect or effects on subsets of children cannot be ruled out, and effect sizes from minus 0.14 to plus 0.30 across 14 constructs.\n- https://www.medicalnewstoday.com/amp/articles/medical-myths-does-sugar-make-children-hyperactive: read in full (Tim Newman, 21 July 2020, fact checked by Hilary Guite). Established the 35 boys aged 5 to 7 whose mothers called them sugar sensitive, that all received aspartame as a placebo, that mothers told it was sugar rated them as significantly more hyperactive, the NEJM 1994 diet study results, and that the jury is still out for children with ADHD.\n- https://www.livescience.com/55754-does-sugar-make-kids-hyper.html: read, last 9,500 characters as a model summary only. Corroborated the 35 boys aged 5 to 7 and Mark Wolraich's comment that the placebo effect can be very powerful.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "8ASklkpDESM",
+      "youtubeUrl": "https://youtu.be/8ASklkpDESM",
+      "uploadedAt": "2026-11-24T19:54:16.424Z",
+      "privacy": "public"
+    },
+    {
+      "id": "gettysburg-envelope-myth-andrews-1906",
+      "date": "2026-11-24",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Lincoln did not scribble it on an envelope.",
+      "description": "Lincoln did not scribble it on an envelope. The tale of a hurried draft on the back of an envelope, written on the train, was popularised by Mary Raymond Shipman Andrews in her 1906 book The Perfect Tribute.\n\nThe drafts look calm. The National Constitution Center argues against the train story because the draft copies are in Lincoln's normal, steady handwriting.\n\nNobody knows exactly where. Historians are divided over whether he wrote it in the weeks before, on the train, or the evening before at David Wills' house. He began work soon after the July 1863 battle.\n\nLincoln wrote out five known manuscript copies: Nicolay, Hay, Everett, Bancroft and Bliss. Only the Bliss copy bears his signature.\n\nEdward Everett spoke for two hours. Lincoln followed with brief dedicatory remarks. Everett is quoted as saying he came as near to the central idea in two hours as Lincoln did in two minutes.\n\nA better story is not a better source.\n\nSources:\n- https://www.battlefields.org/learn/articles/versions-gettysburg-address: read, first part verbatim, rest as a model summary. Established that Mary Raymond Shipman Andrews popularised the envelope-on-the-train notion in her 1906 book The Perfect Tribute, that the Nicolay and Hay copies show the tale is likely a myth, that the Bliss copy is the only one bearing Lincoln's signature, and the five copies (Nicolay, Hay, Everett, Bancroft, Bliss).\n- https://constitutioncenter.org/blog/myths-and-mysteries-about-the-gettysburg-address: read in full. Established that the envelope story is called perhaps the biggest myth about the address, that Lincoln started work soon after the July 1863 battle, that the drafts are in his normal steady handwriting, that Everett spoke for about two hours, and Everett's two hours versus two minutes remark.\n- https://exhibits-prod.library.cornell.edu/gettysburg/feature/the-five-copies: read in full. Established that historians are divided over whether he wrote it in the weeks before, on the train, or the evening before at David Wills' house, and where the five copies are held.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "history",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "http-cookie-montulli-netscape-mci-shopping-cart-1994",
+      "date": "2026-11-24",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The cookie was built for a shopping cart.",
+      "description": "The cookie was built for a shopping cart. Wikipedia says Netscape was building an e-commerce application for MCI, and MCI did not want its servers to retain partial transaction states.\n\nNetscape engineer, aged 23 according to IAPP. History of Information dates the invention to June 1994.\n\nCookie came from Unix slang. Wikipedia says Montulli coined the term from magic cookie, a data packet used by Unix programmers.\n\nReleased on 13 October 1994 with cookie support. Its first use was checking whether visitors to Netscape's own site had been before.\n\nIt was meant to prevent tracking. IAPP quotes Montulli: only the originating website can set and receive the cookie, but companies figured out how to game the system.\n\nThe advice was ignored almost at once. Wikipedia says the recommendation in RFC 2109, published in February 1997, was not followed by Netscape and Internet Explorer.\n\nA shopping cart fix became a key tool for advertising.\n\nSources:\n- https://en.wikipedia.org/wiki/HTTP_cookie: read via fetch agent (21 Nov 2026, first 40,000 of 97,757 characters verbatim). Established that Netscape was developing an e-commerce application for MCI, that MCI did not want its servers to retain partial transaction states, that Montulli coined the term from magic cookie (a data packet used by Unix programmers), that Mosaic Netscape 0.9beta released on 13 October 1994 supported cookies, that the working group identified third-party cookies as a considerable privacy threat in February 1996, and that RFC 2109 was published in February 1997 with a recommendation Netscape and Internet Explorer did not follow.\n- https://historyofinformation.com/detail.php?entryid=2469: read via fetch agent (21 Nov 2026). Established that Lou Montulli invented the HTTP cookie at Netscape in June 1994, that 0.9beta of Mosaic Netscape released on 13 October 1994 supported cookies, and that the first use was checking whether visitors to Netscape's own site had visited before.\n- https://iapp.org/news/a/creator-of-the-cookie-reflects-on-his-invention/: read via fetch agent (21 Nov 2026). A short summary of a Techonomy article. Established that he invented the cookie at age 23 and quoted him: cookies were designed to prevent tracking because only the originating website can set and receive that cookie, and companies figured out how to game the system.\n- https://www.guinnessworldrecords.com/world-records/106750-first-use-of-cookies-on-the-internet: read via fetch agent (21 Nov 2026). Corroborated that Montulli invented cookies while working for Netscape in 1994 and that first use was on Netscape's own website.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "18uO9cP7lEU",
+      "youtubeUrl": "https://youtu.be/18uO9cP7lEU",
+      "uploadedAt": "2026-11-24T19:52:39.761Z",
       "privacy": "public"
     }
   ]

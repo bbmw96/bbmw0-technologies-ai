@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (sugar-hyperactivity-23-studies-1995-jama)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#150B14",
+    "ink": "#FFF0F8",
+    "accent": "#FF6BB5",
+    "muted": "#A88BA0"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The belief",
+      "text": "Sugar makes children hyper.",
+      "note": "Medical News Today traces the idea to theories from 1947 and the 1970s, neither of which is now backed by the data.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "figure",
+      "value": "23",
+      "unit": "studies",
+      "context": "A 1995 JAMA review pooled 23 blinded, placebo controlled studies from 16 reports. Sugar did not affect behaviour or cognitive performance.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "The caveat",
+      "text": "A small effect was not ruled out.",
+      "note": "The authors wrote that a small effect, or effects on subsets of children, could not be ruled out.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "The twist",
+      "text": "Parents were the variable.",
+      "note": "In a 1994 study, 35 boys aged 5 to 7 all received aspartame. Mothers told it was sugar rated their sons as significantly more hyperactive.",
+      "durationInFrames": 208
+    },
+    {
+      "kind": "statement",
+      "lead": "The behaviour",
+      "text": "They also behaved differently.",
+      "note": "Those mothers maintained more physical closeness, and showed trends to criticise and talk to their sons, according to Medical News Today.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "The open question",
+      "text": "ADHD is a separate question.",
+      "note": "Medical News Today says the jury is still out for children with ADHD.",
+      "durationInFrames": 148
+    },
+    {
+      "kind": "kicker",
+      "text": "The sugar was not the variable.",
+      "durationInFrames": 60
+    },
+    {
+      "kind": "sign",
+      "line": "Test the belief.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
