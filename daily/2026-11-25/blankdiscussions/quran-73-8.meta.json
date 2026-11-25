@@ -36,5 +36,20 @@
     "verification_note": "All renderings from two live api.alquran.cloud fetches this session, diffed identical; none from memory. Edition metadata re-checked via /v1/edition (en.sahih Saheeh International, zh.jian Ma Jian, ko.korean Unknown, ja.japanese Unknown). Halal compliance check against scripts/data/compliance-policy.json halal wordlists (138 terms): typography only, no imagery, 0 hits. Dupcheck against local daily/*/blankdiscussions meta files: quran:73:8 NEW. Fixes applied: ."
   },
   "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-11-25/quran-73-8-slide-NN.png --props=daily/2026-11-25/blankdiscussions/quran-73-8.slide-NN.json",
-  "status": "sourced_pending_render"
+  "status": "published",
+  "published": {
+    "mediaId": "18133045885693356",
+    "permalink": "https://www.instagram.com/p/DgKOxkLm-Id/",
+    "publishedAt": "2026-11-25T09:40:54Z",
+    "hostingUrls": [
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-25/blankdiscussions/renders/quran-73-8-slide-01.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-25/blankdiscussions/renders/quran-73-8-slide-02.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-25/blankdiscussions/renders/quran-73-8-slide-03.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-25/blankdiscussions/renders/quran-73-8-slide-04.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-25/blankdiscussions/renders/quran-73-8-slide-05.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-25/blankdiscussions/renders/quran-73-8-slide-06.png",
+      "https://raw.githubusercontent.com/bbmw96/bbmw0-technologies-ai/main/daily/2026-11-25/blankdiscussions/renders/quran-73-8-slide-07.png"
+    ],
+    "publishedVia": "Composio INSTAGRAM_CREATE_CAROUSEL_CONTAINER + PUBLISH, account instagram_willed-pried"
+  }
 }
