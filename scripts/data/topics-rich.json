@@ -20815,6 +20815,277 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "marshall-swallowed-h-pylori-gastritis-not-ulcer-1984",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://www.discovermagazine.com/health/the-doctor-who-drank-infectious-broth-gave-himself-an-ulcer-and-solved-a-medical-mystery: read in full. Established that Marshall took H. pylori from a patient, stirred it into a broth and drank it, that he developed gastritis, the precursor to an ulcer, that animals could not be infected, and that Marshall and Robin Warren shared the 2005 Nobel Prize.",
+        "https://laskerfoundation.org/gut-feeling/: read in full. Established the July 1984 swallow, that Marshall did not develop an ulcer, that the bacterium did not grow in animal stomachs, the endoscopy ten days later, the antibiotic course afterwards, the consensus that stomach acid and stress caused ulcers, and that 77 per cent of 100 ulcer patients in the 1982 study carried H. pylori.",
+        "https://www.scientificamerican.com/blog/guest-blog/when-scientists-experiment-on-themselves-h-pylori-and-ulcers/: read in full. Established the prevailing theory that ulcers were psychosomatic and stress related, and that he asked neither an ethics commission nor his wife for permission.",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC1246068: read in full (BMJ 2005 news item). Established the Nobel citation wording about Helicobacter pylori and its role in gastritis and peptic ulcer disease."
+      ],
+      "verifiedNote": "Checked 25 Nov 2026. Not claimed: the number of days before symptoms (Discover says five, Scientific American says three), when he took the antibiotics (sources disagree), who prepared the broth (sources disagree), any ulcer outcome (Discover headline says ulcer, its text and the Lasker Foundation say gastritis or no ulcer), the Lancet year, the culture date and the claim that ethics approval was refused (no page says so). The beats say only that he did not ask for permission, not that it was denied. The H. pylori in tissue samples line in the BMJ item was not attached to the self experiment.",
+      "palette": {
+        "bg": "#0B1417",
+        "ink": "#EAF4F2",
+        "accent": "#4DD6C1",
+        "muted": "#7C9A96"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "He did not give himself an ulcer.",
+          "note": "Discover says he developed gastritis, the precursor to an ulcer. The Lasker Foundation says he did not develop an ulcer."
+        },
+        {
+          "kind": "statement",
+          "lead": "The belief",
+          "text": "Ulcers were blamed on stress.",
+          "note": "Scientific American describes the prevailing theory as a psychosomatic illness caused by too much stress. The Lasker Foundation adds excess stomach acid."
+        },
+        {
+          "kind": "statement",
+          "lead": "The problem",
+          "text": "Animals would not catch it.",
+          "note": "The Lasker Foundation reports the bacterium did not grow in animal stomachs, so there was no animal model to prove it."
+        },
+        {
+          "kind": "statement",
+          "lead": "The experiment",
+          "text": "In July 1984 he drank the broth himself.",
+          "note": "Discover says he took H. pylori from a patient, stirred it into a broth and drank it. Scientific American says he asked neither an ethics commission nor his wife."
+        },
+        {
+          "kind": "statement",
+          "lead": "The check",
+          "text": "Ten days later, an endoscopy.",
+          "note": "The Lasker Foundation reports the endoscopy, then a course of antibiotics to clear the infection."
+        },
+        {
+          "kind": "figure",
+          "value": "77",
+          "unit": "% ulcers",
+          "context": "In the 1982 study of 100 patients, 77 per cent of those with stomach ulcers carried H. pylori. The Lasker Foundation reports it."
+        },
+        {
+          "kind": "credit",
+          "year": "2005",
+          "name": "Barry Marshall and Robin Warren",
+          "role": "Shared the Nobel Prize in Physiology or Medicine for the bacterium Helicobacter pylori and its role in gastritis and peptic ulcer disease."
+        },
+        {
+          "kind": "kicker",
+          "text": "He drank the evidence, then took the antibiotics."
+        },
+        {
+          "kind": "sign",
+          "line": "Sometimes the proof is in the glass.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "peter-principle-satire-1969-sales-managers-qje-2019",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://www.nber.org/digest/may18/peter-principle-isnt-just-real-its-costly: read in full. Established that high performing sales representatives are more likely to be promoted into management, that a doubling of sales credits raised promotion probability by 14.3 per cent, that more than 1,500 employees promoted into management and 156 million sales transactions were studied, and that a doubling of the new manager pre-promotion sales was associated with a 7.5 per cent decline in subordinates sales.",
+        "https://econpapers.repec.org/RePEc:oup:qjecon:v:134:y:2019:i:4:p:2085-2134.: read in full. Established authors Alan Benson, Danielle Li and Kelly Shue, the Quarterly Journal of Economics 2019 volume 134 issue 4 pages 2085 to 2134, the wording evidence consistent with the Peter Principle, and that firms place less weight on sales performance when managerial roles carry more responsibility.",
+        "https://www.nber.org/papers/w24343: read in full. Cross-check of the working paper abstract and its statement that the costs of promoting workers with lower managerial potential are high.",
+        "https://en.wikipedia.org/wiki/Peter_principle: read in full. Established the 1969 book by Laurence J. Peter and Raymond Hull, the core statement that in a hierarchy every employee tends to rise to his level of incompetence, and that Peter and Hull intended the book as satire."
+      ],
+      "verifiedNote": "Checked 25 Nov 2026. Not claimed: the number of firms (the QJE abstract says 131, the NBER abstract says 214, so the pages conflict), the time span (not stated), any dollar cost, and that the paper proves the principle. The paper says evidence consistent with it, which the final statement beat reflects. Wikipedia was the only source for the satire claim and the 1969 book details, so that rests on one secondary source.",
+      "palette": {
+        "bg": "#15110A",
+        "ink": "#F6F0E4",
+        "accent": "#F2B134",
+        "muted": "#9C927E"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "It started as a joke.",
+          "note": "Wikipedia says Peter and Hull intended the book as satire, but it became popular as it seemed to make a serious point about promotion."
+        },
+        {
+          "kind": "credit",
+          "year": "1969",
+          "name": "Laurence J. Peter and Raymond Hull",
+          "role": "The Peter Principle. In a hierarchy, every employee tends to rise to his level of incompetence."
+        },
+        {
+          "kind": "statement",
+          "lead": "The test",
+          "text": "In 2019 economists checked it with sales data.",
+          "note": "Benson, Li and Shue, in the Quarterly Journal of Economics. The NBER Digest counts more than 1,500 promotions into management and 156 million sales transactions."
+        },
+        {
+          "kind": "statement",
+          "lead": "The finding",
+          "text": "The best sellers got promoted.",
+          "note": "The NBER Digest reports a doubling of sales credits raised the chance of promotion by 14.3 per cent."
+        },
+        {
+          "kind": "statement",
+          "lead": "The cost",
+          "text": "Their new teams sold less.",
+          "note": "A doubling of the new manager pre-promotion sales was associated with a 7.5 per cent decline in the sales of their subordinates, says the NBER Digest."
+        },
+        {
+          "kind": "statement",
+          "lead": "The caveat",
+          "text": "Consistent with it, not proof of it.",
+          "note": "The paper says evidence consistent with the Peter Principle. Firms put less weight on sales performance when the management role carries more responsibility."
+        },
+        {
+          "kind": "kicker",
+          "text": "A satire from 1969 became a finding in 2019."
+        },
+        {
+          "kind": "sign",
+          "line": "Great at the job is not the same as great at managing it.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "chicago-fire-1871-reporter-invented-cow-oleary-exonerated-1997",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://www.smithsonianmag.com/history/what-or-who-caused-the-great-chicago-fire-61481977/: read in full. Established that the fire began on Sunday 8 October 1871 in the barn on DeKoven Street, that the Chicago Evening Journal implicated Catherine O'Leary before the fire died out, about 300 lives lost and 100,000 left homeless, the inquiry conclusion we are unable to determine, nativist fears and ethnic stereotypes, and the 1997 City Council resolution exonerating Catherine and her cow.",
+        "https://www.mentalfloss.com/article/12864/did-cow-really-cause-great-chicago-fire: read in full. Established the around 9pm start on 8 October 1871, about 300 deaths and 100,000 homeless, that the reporter and two colleagues made up the cow story to add colour, and the inquiry conclusion we are unable to determine.",
+        "https://www.ripleys.com/stories/olearys-chicago-fire-cow: read in full. Established that Michael Ahern retracted his statements and said he made it up, the anti Irish, anti Catholic and anti immigrant sentiment, and the 1997 exoneration.",
+        "https://en.wikipedia.org/wiki/Catherine_O%27Leary: read in full. Established that the fire began in the O'Leary family barn on the evening of 8 October 1871, that Ahern admitted he fabricated the story, that anti Irish sentiment contributed to the family being scapegoats, that the council formally exonerated her, and that she died on 3 July 1895."
+      ],
+      "verifiedNote": "Checked 25 Nov 2026. Not claimed: the year of the reporter admission (Wikipedia and Ripley's say 1893, Mental Floss says 1921), which newspaper he wrote for (sources differ), the length of the inquiry (nine days against two months), who sponsored the 1997 resolution (no page names a sponsor), whether it was a resolution or an ordinance, the exact acreage, and her death year beyond 1895 (Ripley's says 1894). The 126 years in the kicker is arithmetic, 1997 minus 1871. The real cause remains undetermined, and no beat names an alternative culprit.",
+      "palette": {
+        "bg": "#140C0A",
+        "ink": "#F7ECE6",
+        "accent": "#FF6A3D",
+        "muted": "#A08B82"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The popular version",
+          "text": "A cow started the fire.",
+          "note": "It began on the evening of 8 October 1871 in the O'Leary family barn on DeKoven Street. Smithsonian reports the Chicago Evening Journal implicated Catherine O'Leary before the fire died out."
+        },
+        {
+          "kind": "statement",
+          "lead": "The official answer",
+          "text": "Nobody could say what started it.",
+          "note": "The 1871 inquiry reported, in Smithsonian and Mental Floss, that we are unable to determine the cause."
+        },
+        {
+          "kind": "statement",
+          "lead": "The source",
+          "text": "A reporter made up the cow.",
+          "note": "Wikipedia, Ripley's and Mental Floss all report that Michael Ahern admitted he fabricated the story. Mental Floss says he and two colleagues invented it to add colour."
+        },
+        {
+          "kind": "figure",
+          "value": "300",
+          "unit": "deaths",
+          "context": "About 300 people died and around 100,000 were left homeless, according to Smithsonian and Mental Floss. The blame landed on one woman."
+        },
+        {
+          "kind": "statement",
+          "lead": "The motive",
+          "text": "She was an easy scapegoat.",
+          "note": "Smithsonian cites ethnic stereotypes and nativist fears. Ripley's names anti Irish and anti Catholic sentiment."
+        },
+        {
+          "kind": "credit",
+          "year": "1997",
+          "name": "Chicago City Council",
+          "role": "Formally exonerated Catherine O'Leary of responsibility for the fire. She had died on 3 July 1895."
+        },
+        {
+          "kind": "kicker",
+          "text": "The city took 126 years to clear her name."
+        },
+        {
+          "kind": "sign",
+          "line": "The best story is not always the true one.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "sql-slammer-376-bytes-one-packet-25-january-2003",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://css.csail.mit.edu/6.566/2014/readings/slammer.pdf: read in full (Moore et al, Inside the Slammer Worm, IEEE Security and Privacy). Established that Slammer began slightly before 05:30 UTC on Saturday 25 January 2003, that its 376 bytes became a single 404 byte UDP packet to port 1434, that it hit Microsoft SQL Server and MSDE 2000, that it infected at least 75,000 hosts and more than 90 per cent of vulnerable hosts within 10 minutes, that Litchfield discovered the weakness in July 2002 and Microsoft released a patch before public disclosure, that growth slowed as bandwidth ran out, that it had no malicious payload, and the cancelled flights, election interference, Bellevue 911 terminals and Bank of America ATM failures.",
+        "https://www.caida.org/catalog/papers/2003_sapphire2/sapphire/: partly read (page truncated at about 40,000 of 52,626 characters). Used only as a cross-check of the same abstract, start time, size, port and consequence sentences.",
+        "https://www.infoworld.com/article/2230102/study-slammer-was-fastest-spreading-worm-yet.html: read in full. Cross-check of the 376 byte size, 404 byte packet, roughly 05:30 GMT start and the 75,000 estimate."
+      ],
+      "verifiedNote": "Checked 25 Nov 2026. Not claimed: the 8.5 second doubling time (InfoWorld only, not in the paper), that Microsoft patched in July 2002 (the paper says Litchfield found it then and a patch preceded public disclosure, with no patch date), the name SQL Server Resolution Service, South Korea or Continental Airlines specifics (not in the pages read), and that it had no payload at all (the paper says no malicious payload). InfoWorld says majority of 75,000 while the paper says more than 90 per cent of vulnerable hosts, so only the paper figure is used.",
+      "palette": {
+        "bg": "#080F0B",
+        "ink": "#E8F5EC",
+        "accent": "#3DDC84",
+        "muted": "#7A9683"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The size",
+          "text": "The whole worm was one small packet.",
+          "note": "The paper calls it a simple, fast scanner of 376 bytes. With headers it became a single 404 byte UDP packet."
+        },
+        {
+          "kind": "figure",
+          "value": "376",
+          "unit": "bytes",
+          "context": "The entire worm, aimed at port 1434 of Microsoft SQL Server and MSDE 2000."
+        },
+        {
+          "kind": "statement",
+          "lead": "The start",
+          "text": "Saturday 25 January 2003.",
+          "note": "Slammer began infecting hosts slightly before 05:30 UTC, according to Moore and colleagues. InfoWorld gives roughly 05:30 GMT."
+        },
+        {
+          "kind": "statement",
+          "lead": "The speed",
+          "text": "Ten minutes was enough.",
+          "note": "It infected more than 90 per cent of vulnerable hosts within 10 minutes, and at least 75,000 hosts in total."
+        },
+        {
+          "kind": "statement",
+          "lead": "The flaw",
+          "text": "The hole was known before the worm.",
+          "note": "The paper says David Litchfield discovered the weakness in July 2002, and Microsoft released a patch before it was publicly disclosed."
+        },
+        {
+          "kind": "statement",
+          "lead": "The payload",
+          "text": "It carried nothing malicious.",
+          "note": "The paper says it had no malicious payload but caused harm by overloading networks. Growth slowed once bandwidth ran out."
+        },
+        {
+          "kind": "statement",
+          "lead": "The damage",
+          "text": "It still cancelled flights.",
+          "note": "The paper lists cancelled airline flights, interference with elections and ATM failures, including Bellevue 911 data entry terminals and part of the Bank of America ATM network."
+        },
+        {
+          "kind": "kicker",
+          "text": "No malicious payload, and it still overloaded networks."
+        },
+        {
+          "kind": "sign",
+          "line": "Small code, huge reach.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
