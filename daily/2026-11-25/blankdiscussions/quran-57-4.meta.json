@@ -1,0 +1,40 @@
+{
+  "slug": "quran-57-4",
+  "date": "2026-11-25",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "It is He who created the heavens and earth in six days and then established Himself above the Throne. He knows what penetrates into the earth and what emerges from it and what descends from the heaven and what ascends therein; and He is with you wherever you are. And Allah, of what you do, is Seeing.\n\nSurah Al-Hadid (57:4). Swipe through for the Arabic, then English, Mandarin, Korean and Japanese renderings.\n\nSources on the final slide.\n\n#Quran #IslamicReminder #Ayah #Deen #IslamicGuidance",
+  "tags": [
+    "Quran",
+    "IslamicReminder",
+    "Ayah",
+    "Deen",
+    "IslamicGuidance",
+    "MuslimReminder",
+    "QuranicVerses",
+    "Alhamdulillah"
+  ],
+  "theme": "chaste-65",
+  "slides": [
+    "quran-57-4.slide-01.json",
+    "quran-57-4.slide-02.json",
+    "quran-57-4.slide-03.json",
+    "quran-57-4.slide-04.json",
+    "quran-57-4.slide-05.json",
+    "quran-57-4.slide-06.json",
+    "quran-57-4.slide-07.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an, Surah Al-Hadid (57), Ayah 4",
+    "arabic": "Uthmani script (quran-uthmani), api.alquran.cloud. Two independent live fetches this session (2026-11-25) of GET /v1/ayah/57:4/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese, HTTP 200 each, diffed: byte-identical. Verbatim: \"هُوَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍۢ ثُمَّ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۚ يَعْلَمُ مَا يَلِجُ فِى ٱلْأَرْضِ وَمَا يَخْرُجُ مِنْهَا وَمَا يَنزِلُ مِنَ ٱلسَّمَآءِ وَمَا يَعْرُجُ فِيهَا ۖ وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌۭ\"",
+    "english": "Saheeh International (en.sahih). Verbatim: \"It is He who created the heavens and earth in six days and then established Himself above the Throne. He knows what penetrates into the earth and what emerges from it and what descends from the heaven and what ascends therein; and He is with you wherever you are. And Allah, of what you do, is Seeing.\"",
+    "chinese": "Ma Jian (zh.jian). Raw: \"他是在六日内创造天地，然后升上宝座的。他知道潜入地中的，和从地中生出的，与从天空降下的，和升上天空的。无论你们在哪里，他是与你们同在的；他是鉴察你们的行为的。\". Used verbatim.",
+    "korean": "ko.korean; source metadata lists translator as 'Unknown', credited on-slide as not specified. Raw: \"그분은 하늘과 대지를 엿새 동안에 창조한 후 권좌로 오르셨 나니 대지 속에 들어가는 것과 그곳에서 나오는 것과 하늘에서 내려오는 것과 그곳으로 을라가 는 것 모두를 알고 계시며 너희 가 있는 곳에 항상 함께 하시매 너희가 행하는 모든 것을 지켜보 고 계시니라\". Spacing-only fix: '오르셨 나니' -> '오르셨나니'; '을라가 는' -> '을라가는'; '너희 가 있는' -> '너희가 있는'; '지켜보 고' -> '지켜보고'. Whitespace-stripped text verified identical to raw. No wording changed.",
+    "japanese": "ja.japanese; source metadata lists translator as 'Unknown', cited as such. Verbatim: \"かれこそは天地を6日の間に創造なされ，それから玉座に鎮座なされる方である。かれは地に入るもの，そこから出るもの，また天から下るもの，そこに上るものを知り尽される。あなたがたが何処にいようとも，かれはあなたがたと共にあられる。アッラーはあなたがたの行う凡てのことを御存知であられる。\"",
+    "verification_note": "All renderings from two live api.alquran.cloud fetches this session, diffed identical; none from memory. Edition metadata re-checked via /v1/edition (en.sahih Saheeh International, zh.jian Ma Jian, ko.korean Unknown, ja.japanese Unknown). Halal compliance check against scripts/data/compliance-policy.json halal wordlists (138 terms): typography only, no imagery, 0 hits. Dupcheck against local daily/*/blankdiscussions meta files: quran:57:4 NEW. Fixes applied: ko.korean: \"오르셨 나니\" -> \"오르셨나니\"; ko.korean: \"을라가 는\" -> \"을라가는\"; ko.korean: \"너희 가 있는\" -> \"너희가 있는\"; ko.korean: \"지켜보 고\" -> \"지켜보고\"."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-11-25/quran-57-4-slide-NN.png --props=daily/2026-11-25/blankdiscussions/quran-57-4.slide-NN.json",
+  "status": "sourced_pending_render"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "quran-73-8",
+  "date": "2026-11-25",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "And remember the name of your Lord and devote yourself to Him with [complete] devotion.\n\nSurah Al-Muzzammil (73:8). Swipe through for the Arabic, then English, Mandarin, Korean and Japanese renderings.\n\nSources on the final slide.\n\n#Quran #IslamicReminder #Ayah #Deen #IslamicGuidance",
+  "tags": [
+    "Quran",
+    "IslamicReminder",
+    "Ayah",
+    "Deen",
+    "IslamicGuidance",
+    "MuslimReminder",
+    "QuranicVerses",
+    "Alhamdulillah"
+  ],
+  "theme": "chaste-66",
+  "slides": [
+    "quran-73-8.slide-01.json",
+    "quran-73-8.slide-02.json",
+    "quran-73-8.slide-03.json",
+    "quran-73-8.slide-04.json",
+    "quran-73-8.slide-05.json",
+    "quran-73-8.slide-06.json",
+    "quran-73-8.slide-07.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an, Surah Al-Muzzammil (73), Ayah 8",
+    "arabic": "Uthmani script (quran-uthmani), api.alquran.cloud. Two independent live fetches this session (2026-11-25) of GET /v1/ayah/73:8/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese, HTTP 200 each, diffed: byte-identical. Verbatim: \"وَٱذْكُرِ ٱسْمَ رَبِّكَ وَتَبَتَّلْ إِلَيْهِ تَبْتِيلًۭا\"",
+    "english": "Saheeh International (en.sahih). Verbatim: \"And remember the name of your Lord and devote yourself to Him with [complete] devotion.\"",
+    "chinese": "Ma Jian (zh.jian). Raw: \"故你应当纪念你的主的尊名，你应当专心致志地敬事他。\". Used verbatim.",
+    "korean": "ko.korean; source metadata lists translator as 'Unknown', credited on-slide as not specified. Raw: \"그대 주님의 이름을 상기하고 온 정성을 다하여 그분만을 성기라\". Spacing-only fix: . Whitespace-stripped text verified identical to raw. No wording changed.",
+    "japanese": "ja.japanese; source metadata lists translator as 'Unknown', cited as such. Verbatim: \"それであなたの主の御名を唱念し，精魂を傾けてかれに仕えなさい。\"",
+    "verification_note": "All renderings from two live api.alquran.cloud fetches this session, diffed identical; none from memory. Edition metadata re-checked via /v1/edition (en.sahih Saheeh International, zh.jian Ma Jian, ko.korean Unknown, ja.japanese Unknown). Halal compliance check against scripts/data/compliance-policy.json halal wordlists (138 terms): typography only, no imagery, 0 hits. Dupcheck against local daily/*/blankdiscussions meta files: quran:73:8 NEW. Fixes applied: ."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-11-25/quran-73-8-slide-NN.png --props=daily/2026-11-25/blankdiscussions/quran-73-8.slide-NN.json",
+  "status": "sourced_pending_render"
+}
