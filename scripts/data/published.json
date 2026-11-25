@@ -406,7 +406,10 @@
     "reel:voyager-1-memory-chip-code-moved-april-2024",
     "reel:sugar-hyperactivity-23-studies-1995-jama",
     "reel:gettysburg-envelope-myth-andrews-1906",
-    "reel:http-cookie-montulli-netscape-mci-shopping-cart-1994"
+    "reel:http-cookie-montulli-netscape-mci-shopping-cart-1994",
+    "reel:peter-principle-satire-1969-sales-managers-qje-2019",
+    "reel:sql-slammer-376-bytes-one-packet-25-january-2003",
+    "reel:marshall-swallowed-h-pylori-gastritis-not-ulcer-1984"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -7088,6 +7091,53 @@
       "youtubeId": "18uO9cP7lEU",
       "youtubeUrl": "https://youtu.be/18uO9cP7lEU",
       "uploadedAt": "2026-11-24T19:52:39.761Z",
+      "privacy": "public"
+    },
+    {
+      "id": "peter-principle-satire-1969-sales-managers-qje-2019",
+      "date": "2026-11-25",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The popular version. It started as a joke.",
+      "description": "It started as a joke. Wikipedia says Peter and Hull intended the book as satire, but it became popular as it seemed to make a serious point about promotion.\n\nThe Peter Principle. In a hierarchy, every employee tends to rise to his level of incompetence.\n\nIn 2019 economists checked it with sales data. Benson, Li and Shue, in the Quarterly Journal of Economics. The NBER Digest counts more than 1,500 promotions into management and 156 million sales transactions.\n\nThe best sellers got promoted. The NBER Digest reports a doubling of sales credits raised the chance of promotion by 14.3 per cent.\n\nTheir new teams sold less. A doubling of the new manager pre-promotion sales was associated with a 7.5 per cent decline in the sales of their subordinates, says the NBER Digest.\n\nConsistent with it, not proof of it. The paper says evidence consistent with the Peter Principle. Firms put less weight on sales performance when the management role carries more responsibility.\n\nA satire from 1969 became a finding in 2019.\n\nSources:\n- https://www.nber.org/digest/may18/peter-principle-isnt-just-real-its-costly: read in full. Established that high performing sales representatives are more likely to be promoted into management, that a doubling of sales credits raised promotion probability by 14.3 per cent, that more than 1,500 employees promoted into management and 156 million sales transactions were studied, and that a doubling of the new manager pre-promotion sales was associated with a 7.5 per cent decline in subordinates sales.\n- https://econpapers.repec.org/RePEc:oup:qjecon:v:134:y:2019:i:4:p:2085-2134.: read in full. Established authors Alan Benson, Danielle Li and Kelly Shue, the Quarterly Journal of Economics 2019 volume 134 issue 4 pages 2085 to 2134, the wording evidence consistent with the Peter Principle, and that firms place less weight on sales performance when managerial roles carry more responsibility.\n- https://www.nber.org/papers/w24343: read in full. Cross-check of the working paper abstract and its statement that the costs of promoting workers with lower managerial potential are high.\n- https://en.wikipedia.org/wiki/Peter_principle: read in full. Established the 1969 book by Laurence J. Peter and Raymond Hull, the core statement that in a hierarchy every employee tends to rise to his level of incompetence, and that Peter and Hull intended the book as satire.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "B_Eh44Slh64",
+      "youtubeUrl": "https://youtu.be/B_Eh44Slh64",
+      "uploadedAt": "2026-11-25T19:01:30.247Z",
+      "privacy": "public"
+    },
+    {
+      "id": "sql-slammer-376-bytes-one-packet-25-january-2003",
+      "date": "2026-11-25",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The whole worm was one small packet.",
+      "description": "The whole worm was one small packet. The paper calls it a simple, fast scanner of 376 bytes. With headers it became a single 404 byte UDP packet.\n\nThe entire worm, aimed at port 1434 of Microsoft SQL Server and MSDE 2000.\n\nSaturday 25 January 2003. Slammer began infecting hosts slightly before 05:30 UTC, according to Moore and colleagues. InfoWorld gives roughly 05:30 GMT.\n\nTen minutes was enough. It infected more than 90 per cent of vulnerable hosts within 10 minutes, and at least 75,000 hosts in total.\n\nThe hole was known before the worm. The paper says David Litchfield discovered the weakness in July 2002, and Microsoft released a patch before it was publicly disclosed.\n\nIt carried nothing malicious. The paper says it had no malicious payload but caused harm by overloading networks. Growth slowed once bandwidth ran out.\n\nIt still cancelled flights. The paper lists cancelled airline flights, interference with elections and ATM failures, including Bellevue 911 data entry terminals and part of the Bank of America ATM network.\n\nNo malicious payload, and it still overloaded networks.\n\nSources:\n- https://css.csail.mit.edu/6.566/2014/readings/slammer.pdf: read in full (Moore et al, Inside the Slammer Worm, IEEE Security and Privacy). Established that Slammer began slightly before 05:30 UTC on Saturday 25 January 2003, that its 376 bytes became a single 404 byte UDP packet to port 1434, that it hit Microsoft SQL Server and MSDE 2000, that it infected at least 75,000 hosts and more than 90 per cent of vulnerable hosts within 10 minutes, that Litchfield discovered the weakness in July 2002 and Microsoft released a patch before public disclosure, that growth slowed as bandwidth ran out, that it had no malicious payload, and the cancelled flights, election interference, Bellevue 911 terminals and Bank of America ATM failures.\n- https://www.caida.org/catalog/papers/2003_sapphire2/sapphire/: partly read (page truncated at about 40,000 of 52,626 characters). Used only as a cross-check of the same abstract, start time, size, port and consequence sentences.\n- https://www.infoworld.com/article/2230102/study-slammer-was-fastest-spreading-worm-yet.html: read in full. Cross-check of the 376 byte size, 404 byte packet, roughly 05:30 GMT start and the 75,000 estimate.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube"
+    },
+    {
+      "id": "marshall-swallowed-h-pylori-gastritis-not-ulcer-1984",
+      "date": "2026-11-25",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The popular version. He did not give himself an ulcer.",
+      "description": "He did not give himself an ulcer. Discover says he developed gastritis, the precursor to an ulcer. The Lasker Foundation says he did not develop an ulcer.\n\nUlcers were blamed on stress. Scientific American describes the prevailing theory as a psychosomatic illness caused by too much stress. The Lasker Foundation adds excess stomach acid.\n\nAnimals would not catch it. The Lasker Foundation reports the bacterium did not grow in animal stomachs, so there was no animal model to prove it.\n\nIn July 1984 he drank the broth himself. Discover says he took H. pylori from a patient, stirred it into a broth and drank it. Scientific American says he asked neither an ethics commission nor his wife.\n\nTen days later, an endoscopy. The Lasker Foundation reports the endoscopy, then a course of antibiotics to clear the infection.\n\nIn the 1982 study of 100 patients, 77 per cent of those with stomach ulcers carried H. pylori. The Lasker Foundation reports it.\n\nShared the Nobel Prize in Physiology or Medicine for the bacterium Helicobacter pylori and its role in gastritis and peptic ulcer disease.\n\nHe drank the evidence, then took the antibiotics.\n\nSources:\n- https://www.discovermagazine.com/health/the-doctor-who-drank-infectious-broth-gave-himself-an-ulcer-and-solved-a-medical-mystery: read in full. Established that Marshall took H. pylori from a patient, stirred it into a broth and drank it, that he developed gastritis, the precursor to an ulcer, that animals could not be infected, and that Marshall and Robin Warren shared the 2005 Nobel Prize.\n- https://laskerfoundation.org/gut-feeling/: read in full. Established the July 1984 swallow, that Marshall did not develop an ulcer, that the bacterium did not grow in animal stomachs, the endoscopy ten days later, the antibiotic course afterwards, the consensus that stomach acid and stress caused ulcers, and that 77 per cent of 100 ulcer patients in the 1982 study carried H. pylori.\n- https://www.scientificamerican.com/blog/guest-blog/when-scientists-experiment-on-themselves-h-pylori-and-ulcers/: read in full. Established the prevailing theory that ulcers were psychosomatic and stress related, and that he asked neither an ethics commission nor his wife for permission.\n- https://pmc.ncbi.nlm.nih.gov/articles/PMC1246068: read in full (BMJ 2005 news item). Established the Nobel citation wording about Helicobacter pylori and its role in gastritis and peptic ulcer disease.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "science",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "2vbr307FGmU",
+      "youtubeUrl": "https://youtu.be/2vbr307FGmU",
+      "uploadedAt": "2026-11-25T18:58:57.630Z",
       "privacy": "public"
     }
   ]

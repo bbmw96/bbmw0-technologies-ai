@@ -1,0 +1,20 @@
+Rendering 3 Shorts for 2026-11-25 (concurrency=3, GL=default)
+Compliance: 2 cleared, 1 blocked (policy v1.0.0).
+Blocked by compliance: sql-slammer-376-bytes-one-packet-25-january-2003
+
+--- marshall-swallowed-h-pylori-gastritis-not-ulcer-1984 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-25-marshall-swallowed-h-pylori-gastritis-not-ulcer-1984.mp4
+  uploaded public: https://youtu.be/2vbr307FGmU
+
+--- peter-principle-satire-1969-sales-managers-qje-2019 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-25-peter-principle-satire-1969-sales-managers-qje-2019.mp4
+  uploaded public: https://youtu.be/B_Eh44Slh64
+
+--- sql-slammer-376-bytes-one-packet-25-january-2003 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-25-sql-slammer-376-bytes-one-packet-25-january-2003.mp4
+  BLOCKED BY COMPLIANCE: not uploaded. See daily/2026-11-25/compliance-verdict.json.
+
+=== Done. 3 rendered, 2 uploaded, 0 skipped, 1 blocked by compliance, 0 failed. ===

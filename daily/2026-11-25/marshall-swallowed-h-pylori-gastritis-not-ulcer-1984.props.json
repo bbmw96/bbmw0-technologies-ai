@@ -1,0 +1,75 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (marshall-swallowed-h-pylori-gastritis-not-ulcer-1984)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B1417",
+    "ink": "#EAF4F2",
+    "accent": "#4DD6C1",
+    "muted": "#7C9A96"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "He did not give himself an ulcer.",
+      "note": "Discover says he developed gastritis, the precursor to an ulcer. The Lasker Foundation says he did not develop an ulcer.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "The belief",
+      "text": "Ulcers were blamed on stress.",
+      "note": "Scientific American describes the prevailing theory as a psychosomatic illness caused by too much stress. The Lasker Foundation adds excess stomach acid.",
+      "durationInFrames": 196
+    },
+    {
+      "kind": "statement",
+      "lead": "The problem",
+      "text": "Animals would not catch it.",
+      "note": "The Lasker Foundation reports the bacterium did not grow in animal stomachs, so there was no animal model to prove it.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "statement",
+      "lead": "The experiment",
+      "text": "In July 1984 he drank the broth himself.",
+      "note": "Discover says he took H. pylori from a patient, stirred it into a broth and drank it. Scientific American says he asked neither an ethics commission nor his wife.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The check",
+      "text": "Ten days later, an endoscopy.",
+      "note": "The Lasker Foundation reports the endoscopy, then a course of antibiotics to clear the infection.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "figure",
+      "value": "77",
+      "unit": "% ulcers",
+      "context": "In the 1982 study of 100 patients, 77 per cent of those with stomach ulcers carried H. pylori. The Lasker Foundation reports it.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "credit",
+      "year": "2005",
+      "name": "Barry Marshall and Robin Warren",
+      "role": "Shared the Nobel Prize in Physiology or Medicine for the bacterium Helicobacter pylori and its role in gastritis and peptic ulcer disease.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "kicker",
+      "text": "He drank the evidence, then took the antibiotics.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Sometimes the proof is in the glass.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

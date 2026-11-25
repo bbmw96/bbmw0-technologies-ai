@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (peter-principle-satire-1969-sales-managers-qje-2019)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#15110A",
+    "ink": "#F6F0E4",
+    "accent": "#F2B134",
+    "muted": "#9C927E"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "It started as a joke.",
+      "note": "Wikipedia says Peter and Hull intended the book as satire, but it became popular as it seemed to make a serious point about promotion.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "credit",
+      "year": "1969",
+      "name": "Laurence J. Peter and Raymond Hull",
+      "role": "The Peter Principle. In a hierarchy, every employee tends to rise to his level of incompetence.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "statement",
+      "lead": "The test",
+      "text": "In 2019 economists checked it with sales data.",
+      "note": "Benson, Li and Shue, in the Quarterly Journal of Economics. The NBER Digest counts more than 1,500 promotions into management and 156 million sales transactions.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The finding",
+      "text": "The best sellers got promoted.",
+      "note": "The NBER Digest reports a doubling of sales credits raised the chance of promotion by 14.3 per cent.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "statement",
+      "lead": "The cost",
+      "text": "Their new teams sold less.",
+      "note": "A doubling of the new manager pre-promotion sales was associated with a 7.5 per cent decline in the sales of their subordinates, says the NBER Digest.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The caveat",
+      "text": "Consistent with it, not proof of it.",
+      "note": "The paper says evidence consistent with the Peter Principle. Firms put less weight on sales performance when the management role carries more responsibility.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "kicker",
+      "text": "A satire from 1969 became a finding in 2019.",
+      "durationInFrames": 76
+    },
+    {
+      "kind": "sign",
+      "line": "Great at the job is not the same as great at managing it.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 124
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "sql-slammer-376-bytes-one-packet-25-january-2003",
+  "date": "2026-11-25",
+  "title": "The whole worm was one small packet.",
+  "description": "The whole worm was one small packet. The paper calls it a simple, fast scanner of 376 bytes. With headers it became a single 404 byte UDP packet.\n\nThe entire worm, aimed at port 1434 of Microsoft SQL Server and MSDE 2000.\n\nSaturday 25 January 2003. Slammer began infecting hosts slightly before 05:30 UTC, according to Moore and colleagues. InfoWorld gives roughly 05:30 GMT.\n\nTen minutes was enough. It infected more than 90 per cent of vulnerable hosts within 10 minutes, and at least 75,000 hosts in total.\n\nThe hole was known before the worm. The paper says David Litchfield discovered the weakness in July 2002, and Microsoft released a patch before it was publicly disclosed.\n\nIt carried nothing malicious. The paper says it had no malicious payload but caused harm by overloading networks. Growth slowed once bandwidth ran out.\n\nIt still cancelled flights. The paper lists cancelled airline flights, interference with elections and ATM failures, including Bellevue 911 data entry terminals and part of the Bank of America ATM network.\n\nNo malicious payload, and it still overloaded networks.\n\nSources:\n- https://css.csail.mit.edu/6.566/2014/readings/slammer.pdf: read in full (Moore et al, Inside the Slammer Worm, IEEE Security and Privacy). Established that Slammer began slightly before 05:30 UTC on Saturday 25 January 2003, that its 376 bytes became a single 404 byte UDP packet to port 1434, that it hit Microsoft SQL Server and MSDE 2000, that it infected at least 75,000 hosts and more than 90 per cent of vulnerable hosts within 10 minutes, that Litchfield discovered the weakness in July 2002 and Microsoft released a patch before public disclosure, that growth slowed as bandwidth ran out, that it had no malicious payload, and the cancelled flights, election interference, Bellevue 911 terminals and Bank of America ATM failures.\n- https://www.caida.org/catalog/papers/2003_sapphire2/sapphire/: partly read (page truncated at about 40,000 of 52,626 characters). Used only as a cross-check of the same abstract, start time, size, port and consequence sentences.\n- https://www.infoworld.com/article/2230102/study-slammer-was-fastest-spreading-worm-yet.html: read in full. Cross-check of the 376 byte size, 404 byte packet, roughly 05:30 GMT start and the 75,000 estimate.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-25-sql-slammer-376-bytes-one-packet-25-january-2003.mp4",
+  "propsFile": "daily/2026-11-25/sql-slammer-376-bytes-one-packet-25-january-2003.props.json",
+  "durationInFrames": 1430,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

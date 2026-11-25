@@ -1,0 +1,75 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (sql-slammer-376-bytes-one-packet-25-january-2003)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#080F0B",
+    "ink": "#E8F5EC",
+    "accent": "#3DDC84",
+    "muted": "#7A9683"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The size",
+      "text": "The whole worm was one small packet.",
+      "note": "The paper calls it a simple, fast scanner of 376 bytes. With headers it became a single 404 byte UDP packet.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "figure",
+      "value": "376",
+      "unit": "bytes",
+      "context": "The entire worm, aimed at port 1434 of Microsoft SQL Server and MSDE 2000.",
+      "durationInFrames": 118
+    },
+    {
+      "kind": "statement",
+      "lead": "The start",
+      "text": "Saturday 25 January 2003.",
+      "note": "Slammer began infecting hosts slightly before 05:30 UTC, according to Moore and colleagues. InfoWorld gives roughly 05:30 GMT.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "statement",
+      "lead": "The speed",
+      "text": "Ten minutes was enough.",
+      "note": "It infected more than 90 per cent of vulnerable hosts within 10 minutes, and at least 75,000 hosts in total.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "The flaw",
+      "text": "The hole was known before the worm.",
+      "note": "The paper says David Litchfield discovered the weakness in July 2002, and Microsoft released a patch before it was publicly disclosed.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "The payload",
+      "text": "It carried nothing malicious.",
+      "note": "The paper says it had no malicious payload but caused harm by overloading networks. Growth slowed once bandwidth ran out.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "The damage",
+      "text": "It still cancelled flights.",
+      "note": "The paper lists cancelled airline flights, interference with elections and ATM failures, including Bellevue 911 data entry terminals and part of the Bank of America ATM network.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "kicker",
+      "text": "No malicious payload, and it still overloaded networks.",
+      "durationInFrames": 70
+    },
+    {
+      "kind": "sign",
+      "line": "Small code, huge reach.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}
