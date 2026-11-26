@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-11-26 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- hawaii-false-missile-alert-38-minutes-2018 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-26-hawaii-false-missile-alert-38-minutes-2018.mp4
+  uploaded public: https://youtu.be/Us7fY14NS8k
+
+--- luhmann-zettelkasten-two-collections-90000 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-26-luhmann-zettelkasten-two-collections-90000.mp4
+  uploaded public: https://youtu.be/MZu-Obdx6n8
+
+--- netflix-prize-1-million-winner-never-deployed-2012 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-26-netflix-prize-1-million-winner-never-deployed-2012.mp4
+  uploaded public: https://youtu.be/j0lFcz704Gg
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

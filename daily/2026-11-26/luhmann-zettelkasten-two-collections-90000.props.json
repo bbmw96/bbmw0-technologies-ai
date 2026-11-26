@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (luhmann-zettelkasten-two-collections-90000)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#131211",
+    "ink": "#F3F0EA",
+    "accent": "#D97757",
+    "muted": "#89827A"
+  },
+  "niche": "productivity",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The legend",
+      "text": "It was not one box of 90,000 cards.",
+      "note": "The figure is real, but Bielefeld University describes two largely separate collections: about 23,000 cards in the first and about 67,000 in the second.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The addresses",
+      "text": "Every card had a fixed address.",
+      "note": "Card 1,1 was followed by 1,2. A later insertion became 1,1a, then 1,1a1. The archive reports codes of up to 13 characters.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "The gap",
+      "text": "The cards carry no dates.",
+      "note": "The archive notes that the entries are undated, even though the cards were written between 1951 and 1996.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "figure",
+      "value": "90,000",
+      "unit": "cards",
+      "context": "about how many notes the Luhmann Archive counts across both collections.",
+      "durationInFrames": 100
+    },
+    {
+      "kind": "statement",
+      "lead": "The output",
+      "text": "Nearly 600 publications.",
+      "note": "The archive credits Niklas Luhmann with approaching 600 publications, including more than 40 monographs.",
+      "durationInFrames": 136
+    },
+    {
+      "kind": "kicker",
+      "text": "Ninety thousand notes, and every one had an address.",
+      "durationInFrames": 76
+    },
+    {
+      "kind": "sign",
+      "line": "Notes, with addresses.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

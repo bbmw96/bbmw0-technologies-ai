@@ -1,0 +1,25 @@
+{
+  "slug": "hawaii-false-missile-alert-38-minutes-2018",
+  "date": "2026-11-26",
+  "title": "The usual version. It was not a slip of the finger.",
+  "description": "It was not a slip of the finger. Early accounts blamed a wrong button during a routine test. The employee's written statement says he mistakenly believed an exercise was a real event, after a drill call that included the words this is not a drill.\n\nAt around 8:07 am on 13 January, phones across Hawaii read: BALLISTIC MISSILE THREAT INBOUND TO HAWAII. SEEK IMMEDIATE SHELTER. THIS IS NOT A DRILL.\n\nOne person could send it alone. The FCC found that no second person had to approve an alert, and that test and live alerts shared one interface with an identical confirmation prompt.\n\nUntil a correction reached phones through the alert system itself: There is no missile threat. False Alarm. A social media post had said so after 13 minutes. The agency had no procedure for correcting a false alert.\n\nTwo people now approve every alert. Hawaii also added a cancellation command that works within seconds and a correction template. The agency's administrator, Vern Miyagi, resigned.\n\nFor 38 minutes, it was real.\n\nSources:\n- https://dod.hawaii.gov/hiema/hawaii-emergency-management-agency-statement-on-missile-launch-false-alarm-january-13-2018/: read. The agency's own timeline: alert at 8:07 am, cancellation logged at 8:13, social media correction at 8:20, correction by alert system at 8:45, and the first fixes (two person rule, a cancellation command).\n- https://civilbeat.org/2018/01/tick-tock-of-terror-timeline-of-false-missile-alert/: read. An AP timeline confirming the 8:07, 8:20 and 8:45 sequence and the wording of the alert.\n- https://benton.org/headlines/report-and-recommendations-hawaii-emergency-management-agency-january-13-2018-false-alert: read. A summary of the FCC bureau report: 13 minutes to the social media correction, 38 minutes to the alert system correction, and the finding of human error and inadequate safeguards.\n- https://www.commerce.senate.gov/services/files/439A3B27-F18F-440C-82EC-7DA8A614AADB: FCC bureau chief's testimony, read. Established the employee's written statement that he mistakenly believed the exercise was a real event, that test and live alerts shared one interface with an identical confirmation prompt, and the remedies.\n- https://courthousenews.com/human-error-abounded-in-hawaiis-missile-false-alarm/: read. Established the drill that began the shift, the supervisor miscommunication, and the firing and resignation of staff.\n- https://en.wikipedia.org/wiki/2018_Hawaii_false_missile_alert: read. Used as a cross check only, because its own text has small errors.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-26-hawaii-false-missile-alert-38-minutes-2018.mp4",
+  "propsFile": "daily/2026-11-26/hawaii-false-missile-alert-38-minutes-2018.props.json",
+  "durationInFrames": 1208,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}

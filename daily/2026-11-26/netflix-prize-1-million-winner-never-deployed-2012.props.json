@@ -1,0 +1,75 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (netflix-prize-1-million-winner-never-deployed-2012)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0F1114",
+    "ink": "#EEF1F5",
+    "accent": "#6FB7FF",
+    "muted": "#838C98"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The offer",
+      "text": "Netflix offered $1 million to beat its own recommender.",
+      "note": "The contest began on 2 October 2006. The target was a test score of 0.8572, a 10 percent improvement on Netflix's Cinematch.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The data",
+      "text": "It released over 100 million ratings.",
+      "note": "The training set held 100,480,507 ratings from 480,189 users on 17,770 films.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "statement",
+      "lead": "The finish",
+      "text": "Twenty minutes decided the winner.",
+      "note": "BellKor's Pragmatic Chaos won, announced on 18 September 2009. The Ensemble matched its test result but submitted 20 minutes later.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "figure",
+      "value": "800",
+      "unit": "models",
+      "context": "FlowingData reported that the winning solution combined over 800 models from four teams.",
+      "durationInFrames": 112
+    },
+    {
+      "kind": "statement",
+      "lead": "The catch",
+      "text": "Netflix did not ship the winner.",
+      "note": "In April 2012 its engineers wrote that the extra accuracy did not seem to justify the engineering effort needed to put it into production.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "statement",
+      "lead": "The leftovers",
+      "text": "Only the early work stayed.",
+      "note": "Netflix said algorithms from the first year of the contest were used and remain a key part of its recommender.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "The sequel",
+      "text": "A second prize was cancelled.",
+      "note": "On 12 March 2010 Netflix dropped it, after a lawsuit and Federal Trade Commission privacy concerns.",
+      "durationInFrames": 160
+    },
+    {
+      "kind": "kicker",
+      "text": "Winning was not the same as shipping.",
+      "durationInFrames": 64
+    },
+    {
+      "kind": "sign",
+      "line": "Accuracy is not the product.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

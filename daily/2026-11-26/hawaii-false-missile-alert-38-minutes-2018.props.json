@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (hawaii-false-missile-alert-38-minutes-2018)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0D0F14",
+    "ink": "#F4F5F7",
+    "accent": "#FF4B3A",
+    "muted": "#8B909C"
+  },
+  "niche": "tech",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The usual version",
+      "text": "It was not a slip of the finger.",
+      "note": "Early accounts blamed a wrong button during a routine test. The employee's written statement says he mistakenly believed an exercise was a real event, after a drill call that included the words this is not a drill.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "2018",
+      "name": "Hawaii Emergency Management Agency",
+      "role": "At around 8:07 am on 13 January, phones across Hawaii read: BALLISTIC MISSILE THREAT INBOUND TO HAWAII. SEEK IMMEDIATE SHELTER. THIS IS NOT A DRILL.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "statement",
+      "lead": "The system",
+      "text": "One person could send it alone.",
+      "note": "The FCC found that no second person had to approve an alert, and that test and live alerts shared one interface with an identical confirmation prompt.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "38",
+      "unit": "minutes",
+      "context": "Until a correction reached phones through the alert system itself: There is no missile threat. False Alarm. A social media post had said so after 13 minutes. The agency had no procedure for correcting a false alert.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The fix",
+      "text": "Two people now approve every alert.",
+      "note": "Hawaii also added a cancellation command that works within seconds and a correction template. The agency's administrator, Vern Miyagi, resigned.",
+      "durationInFrames": 190
+    },
+    {
+      "kind": "kicker",
+      "text": "For 38 minutes, it was real.",
+      "durationInFrames": 60
+    },
+    {
+      "kind": "sign",
+      "line": "Design the undo.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -409,7 +409,10 @@
     "reel:http-cookie-montulli-netscape-mci-shopping-cart-1994",
     "reel:peter-principle-satire-1969-sales-managers-qje-2019",
     "reel:sql-slammer-376-bytes-one-packet-25-january-2003",
-    "reel:marshall-swallowed-h-pylori-gastritis-not-ulcer-1984"
+    "reel:marshall-swallowed-h-pylori-gastritis-not-ulcer-1984",
+    "reel:netflix-prize-1-million-winner-never-deployed-2012",
+    "reel:luhmann-zettelkasten-two-collections-90000",
+    "reel:hawaii-false-missile-alert-38-minutes-2018"
   ],
   "combosUsed": [
     "sunset|mono|sounds/Drums.mp3",
@@ -7138,6 +7141,57 @@
       "youtubeId": "2vbr307FGmU",
       "youtubeUrl": "https://youtu.be/2vbr307FGmU",
       "uploadedAt": "2026-11-25T18:58:57.630Z",
+      "privacy": "public"
+    },
+    {
+      "id": "netflix-prize-1-million-winner-never-deployed-2012",
+      "date": "2026-11-26",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "Netflix offered $1 million to beat its own recommender.",
+      "description": "Netflix offered $1 million to beat its own recommender. The contest began on 2 October 2006. The target was a test score of 0.8572, a 10 percent improvement on Netflix's Cinematch.\n\nIt released over 100 million ratings. The training set held 100,480,507 ratings from 480,189 users on 17,770 films.\n\nTwenty minutes decided the winner. BellKor's Pragmatic Chaos won, announced on 18 September 2009. The Ensemble matched its test result but submitted 20 minutes later.\n\nFlowingData reported that the winning solution combined over 800 models from four teams.\n\nNetflix did not ship the winner. In April 2012 its engineers wrote that the extra accuracy did not seem to justify the engineering effort needed to put it into production.\n\nOnly the early work stayed. Netflix said algorithms from the first year of the contest were used and remain a key part of its recommender.\n\nA second prize was cancelled. On 12 March 2010 Netflix dropped it, after a lawsuit and Federal Trade Commission privacy concerns.\n\nWinning was not the same as shipping.\n\nSources:\n- https://en.wikipedia.org/wiki/Netflix_Prize: read via a fetch agent, verbatim passages. Established the start on 2 October 2006, the $1,000,000 grand prize, the target of 0.8572 on the test set, a training set of 100,480,507 ratings from 480,189 users on 17,770 movies, the win by BellKor's Pragmatic Chaos announced 18 September 2009 with test RMSE 0.8567, that The Ensemble matched it on the test set but submitted 20 minutes later, and that on 12 March 2010 Netflix dropped a second contest after a lawsuit and Federal Trade Commission privacy concerns.\n- https://thenextweb.com/news/remember-netflixs-1m-algorithm-contest-well-heres-why-it-didnt-use-the-winning-entry: read via a fetch agent. Quoted Netflix's April 2012 engineers' post that the additional accuracy gains did not seem to justify the engineering effort needed to bring them into production.\n- https://flowingdata.com/2012/04/17/why-1m-netflix-algorithm-never-went-to-production: read via a fetch agent. Reported that the grand prize solution contained over 800 models from 4 teams and that the algorithms from the first year of the competition were used and remain a key part of the recommender.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "j0lFcz704Gg",
+      "youtubeUrl": "https://youtu.be/j0lFcz704Gg",
+      "uploadedAt": "2026-11-26T18:48:06.835Z",
+      "privacy": "public"
+    },
+    {
+      "id": "luhmann-zettelkasten-two-collections-90000",
+      "date": "2026-11-26",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "It was not one box of 90,000 cards.",
+      "description": "It was not one box of 90,000 cards. The figure is real, but Bielefeld University describes two largely separate collections: about 23,000 cards in the first and about 67,000 in the second.\n\nEvery card had a fixed address. Card 1,1 was followed by 1,2. A later insertion became 1,1a, then 1,1a1. The archive reports codes of up to 13 characters.\n\nThe cards carry no dates. The archive notes that the entries are undated, even though the cards were written between 1951 and 1996.\n\nabout how many notes the Luhmann Archive counts across both collections.\n\nNearly 600 publications. The archive credits Niklas Luhmann with approaching 600 publications, including more than 40 monographs.\n\nNinety thousand notes, and every one had an address.\n\nSources:\n- https://www.uni-bielefeld.de/fakultaeten/soziologie/forschung/luhmann-archiv/: read (Bielefeld University, Luhmann Archive). Established the Zettelkasten of about 90,000 notes, that the cards were written between 1951 and 1996, and that Luhmann produced nearly 600 publications including more than 40 monographs.\n- https://uni-bielefeld.de/soz/luhmann-archiv/pdf/jschmidt-aus-dem-archiv.pdf: read, first section verbatim (Johannes Schmidt, from the archive). Established the split into two largely separate collections of about 23,000 cards (ZK I) and about 67,000 cards (ZK II), the numbering scheme (1,1 then 1,2, insertions such as 1,1a and 1,1a1), codes of up to 13 characters, a fixed location for each card, and that the entries are undated.\n- https://www.akademienunion.de/en/research/project-database/niklas-luhmann: read. Independently confirmed an index card file of about 90,000 index cards.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "productivity",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "MZu-Obdx6n8",
+      "youtubeUrl": "https://youtu.be/MZu-Obdx6n8",
+      "uploadedAt": "2026-11-26T18:46:50.026Z",
+      "privacy": "public"
+    },
+    {
+      "id": "hawaii-false-missile-alert-38-minutes-2018",
+      "date": "2026-11-26",
+      "themeId": "reel",
+      "fontFamilyId": "reel",
+      "audioUrl": "",
+      "title": "The usual version. It was not a slip of the finger.",
+      "description": "It was not a slip of the finger. Early accounts blamed a wrong button during a routine test. The employee's written statement says he mistakenly believed an exercise was a real event, after a drill call that included the words this is not a drill.\n\nAt around 8:07 am on 13 January, phones across Hawaii read: BALLISTIC MISSILE THREAT INBOUND TO HAWAII. SEEK IMMEDIATE SHELTER. THIS IS NOT A DRILL.\n\nOne person could send it alone. The FCC found that no second person had to approve an alert, and that test and live alerts shared one interface with an identical confirmation prompt.\n\nUntil a correction reached phones through the alert system itself: There is no missile threat. False Alarm. A social media post had said so after 13 minutes. The agency had no procedure for correcting a false alert.\n\nTwo people now approve every alert. Hawaii also added a cancellation command that works within seconds and a correction template. The agency's administrator, Vern Miyagi, resigned.\n\nFor 38 minutes, it was real.\n\nSources:\n- https://dod.hawaii.gov/hiema/hawaii-emergency-management-agency-statement-on-missile-launch-false-alarm-january-13-2018/: read. The agency's own timeline: alert at 8:07 am, cancellation logged at 8:13, social media correction at 8:20, correction by alert system at 8:45, and the first fixes (two person rule, a cancellation command).\n- https://civilbeat.org/2018/01/tick-tock-of-terror-timeline-of-false-missile-alert/: read. An AP timeline confirming the 8:07, 8:20 and 8:45 sequence and the wording of the alert.\n- https://benton.org/headlines/report-and-recommendations-hawaii-emergency-management-agency-january-13-2018-false-alert: read. A summary of the FCC bureau report: 13 minutes to the social media correction, 38 minutes to the alert system correction, and the finding of human error and inadequate safeguards.\n- https://www.commerce.senate.gov/services/files/439A3B27-F18F-440C-82EC-7DA8A614AADB: FCC bureau chief's testimony, read. Established the employee's written statement that he mistakenly believed the exercise was a real event, that test and live alerts shared one interface with an identical confirmation prompt, and the remedies.\n- https://courthousenews.com/human-error-abounded-in-hawaiis-missile-false-alarm/: read. Established the drill that began the shift, the supervisor miscommunication, and the firing and resignation of staff.\n- https://en.wikipedia.org/wiki/2018_Hawaii_false_missile_alert: read. Used as a cross check only, because its own text has small errors.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+      "niche": "tech",
+      "channelId": "yt-bbmw0",
+      "special": false,
+      "platform": "youtube",
+      "youtubeId": "Us7fY14NS8k",
+      "youtubeUrl": "https://youtu.be/Us7fY14NS8k",
+      "uploadedAt": "2026-11-26T18:45:53.267Z",
       "privacy": "public"
     }
   ]

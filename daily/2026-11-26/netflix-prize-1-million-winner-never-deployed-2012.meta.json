@@ -1,0 +1,25 @@
+{
+  "slug": "netflix-prize-1-million-winner-never-deployed-2012",
+  "date": "2026-11-26",
+  "title": "Netflix offered $1 million to beat its own recommender.",
+  "description": "Netflix offered $1 million to beat its own recommender. The contest began on 2 October 2006. The target was a test score of 0.8572, a 10 percent improvement on Netflix's Cinematch.\n\nIt released over 100 million ratings. The training set held 100,480,507 ratings from 480,189 users on 17,770 films.\n\nTwenty minutes decided the winner. BellKor's Pragmatic Chaos won, announced on 18 September 2009. The Ensemble matched its test result but submitted 20 minutes later.\n\nFlowingData reported that the winning solution combined over 800 models from four teams.\n\nNetflix did not ship the winner. In April 2012 its engineers wrote that the extra accuracy did not seem to justify the engineering effort needed to put it into production.\n\nOnly the early work stayed. Netflix said algorithms from the first year of the contest were used and remain a key part of its recommender.\n\nA second prize was cancelled. On 12 March 2010 Netflix dropped it, after a lawsuit and Federal Trade Commission privacy concerns.\n\nWinning was not the same as shipping.\n\nSources:\n- https://en.wikipedia.org/wiki/Netflix_Prize: read via a fetch agent, verbatim passages. Established the start on 2 October 2006, the $1,000,000 grand prize, the target of 0.8572 on the test set, a training set of 100,480,507 ratings from 480,189 users on 17,770 movies, the win by BellKor's Pragmatic Chaos announced 18 September 2009 with test RMSE 0.8567, that The Ensemble matched it on the test set but submitted 20 minutes later, and that on 12 March 2010 Netflix dropped a second contest after a lawsuit and Federal Trade Commission privacy concerns.\n- https://thenextweb.com/news/remember-netflixs-1m-algorithm-contest-well-heres-why-it-didnt-use-the-winning-entry: read via a fetch agent. Quoted Netflix's April 2012 engineers' post that the additional accuracy gains did not seem to justify the engineering effort needed to bring them into production.\n- https://flowingdata.com/2012/04/17/why-1m-netflix-algorithm-never-went-to-production: read via a fetch agent. Reported that the grand prize solution contained over 800 models from 4 teams and that the algorithms from the first year of the competition were used and remain a key part of the recommender.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "tech",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-26-netflix-prize-1-million-winner-never-deployed-2012.mp4",
+  "propsFile": "daily/2026-11-26/netflix-prize-1-million-winner-never-deployed-2012.props.json",
+  "durationInFrames": 1376,
+  "audioUrl": "",
+  "niche": "tech",
+  "composition": "Reel"
+}
