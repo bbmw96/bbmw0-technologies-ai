@@ -1,0 +1,40 @@
+{
+  "slug": "quran-7-56",
+  "date": "2026-11-26",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "And cause not corruption upon the earth after its reformation. And invoke Him in fear and aspiration. Indeed, the mercy of Allah is near to the doers of good.\n\nSurah Al-A'raf (7:56). Swipe through for the Arabic, then English, Mandarin, Korean and Japanese renderings.\n\nSources on the final slide.\n\n#Quran #IslamicReminder #Ayah #Deen #IslamicGuidance",
+  "tags": [
+    "Quran",
+    "IslamicReminder",
+    "Ayah",
+    "Deen",
+    "IslamicGuidance",
+    "MuslimReminder",
+    "QuranicVerses",
+    "Alhamdulillah"
+  ],
+  "theme": "chaste-67",
+  "slides": [
+    "quran-7-56.slide-01.json",
+    "quran-7-56.slide-02.json",
+    "quran-7-56.slide-03.json",
+    "quran-7-56.slide-04.json",
+    "quran-7-56.slide-05.json",
+    "quran-7-56.slide-06.json",
+    "quran-7-56.slide-07.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an, Surah Al-A'raf (7), Ayah 56",
+    "arabic": "Uthmani script (quran-uthmani), api.alquran.cloud. Two independent live fetches this session (2026-11-26) of GET /v1/ayah/7:56/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese, HTTP 200 each, diffed: byte-identical. Verbatim: \"وَلَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ بَعْدَ إِصْلَٰحِهَا وَٱدْعُوهُ خَوْفًۭا وَطَمَعًا ۚ إِنَّ رَحْمَتَ ٱللَّهِ قَرِيبٌۭ مِّنَ ٱلْمُحْسِنِينَ\"",
+    "english": "Saheeh International (en.sahih). Verbatim: \"And cause not corruption upon the earth after its reformation. And invoke Him in fear and aspiration. Indeed, the mercy of Allah is near to the doers of good.\"",
+    "chinese": "Ma Jian (zh.jian). Raw: \"在改善地方之后，你们不要在地方上作恶，你们要怀著恐惧和希望的心情祈祷他。真主的慈恩确是临近行善者的。\". Used verbatim.",
+    "korean": "ko.korean; source metadata lists translator as 'Unknown', credited on-slide as not specified. Raw: \"하나님께서 정돈 하셨으니 지상에서 해악을 끼치지 말라 그 리고 그분을 두려워하고 갈망하라하나님의 은혜는 선을 행하는 이 들 가까이에 있노라\". Spacing-only fix: '정돈 하셨으니' -> '정돈하셨으니'; '그 리고' -> '그리고'; '이 들' -> '이들'. Whitespace-stripped text verified identical to raw. No wording changed.",
+    "japanese": "ja.japanese; source metadata lists translator as 'Unknown', cited as such. Verbatim: \"秩序が定められた後，地上で悪を行ってはならない。恐れと熱情をもってかれに祈れ。本当にアッラーの慈悲は，（常に）善行をなす者の近くにある。\"",
+    "verification_note": "All renderings from two live api.alquran.cloud fetches this session, diffed identical; none from memory. Edition metadata re-checked via /v1/edition (en.sahih Saheeh International, zh.jian Ma Jian, ko.korean Unknown, ja.japanese Unknown). Halal compliance check against scripts/data/compliance-policy.json halal wordlists (138 terms): typography only, no imagery, 0 hits. Dupcheck against local daily/*/blankdiscussions meta files: quran:7:56 NEW. Fixes applied: ko.korean: \"정돈 하셨으니\" -> \"정돈하셨으니\"; ko.korean: \"그 리고\" -> \"그리고\"; ko.korean: \"이 들\" -> \"이들\"."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-11-26/quran-7-56-slide-NN.png --props=daily/2026-11-26/blankdiscussions/quran-7-56.slide-NN.json",
+  "status": "rendered_and_hosted"
+}

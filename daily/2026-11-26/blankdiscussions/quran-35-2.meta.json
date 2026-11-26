@@ -1,0 +1,40 @@
+{
+  "slug": "quran-35-2",
+  "date": "2026-11-26",
+  "channel": "ig-blankdiscussions",
+  "platform": "instagram",
+  "handle": "@blankdiscussions",
+  "mediaFormat": "carousel",
+  "caption": "Whatever Allah grants to people of mercy - none can withhold it; and whatever He withholds - none can release it thereafter. And He is the Exalted in Might, the Wise.\n\nSurah Fatir (35:2). Swipe through for the Arabic, then English, Mandarin, Korean and Japanese renderings.\n\nSources on the final slide.\n\n#Quran #IslamicReminder #Ayah #Deen #IslamicGuidance",
+  "tags": [
+    "Quran",
+    "IslamicReminder",
+    "Ayah",
+    "Deen",
+    "IslamicGuidance",
+    "MuslimReminder",
+    "QuranicVerses",
+    "Alhamdulillah"
+  ],
+  "theme": "chaste-68",
+  "slides": [
+    "quran-35-2.slide-01.json",
+    "quran-35-2.slide-02.json",
+    "quran-35-2.slide-03.json",
+    "quran-35-2.slide-04.json",
+    "quran-35-2.slide-05.json",
+    "quran-35-2.slide-06.json",
+    "quran-35-2.slide-07.json"
+  ],
+  "sourcing": {
+    "primary_text": "Qur'an, Surah Fatir (35), Ayah 2",
+    "arabic": "Uthmani script (quran-uthmani), api.alquran.cloud. Two independent live fetches this session (2026-11-26) of GET /v1/ayah/35:2/editions/quran-uthmani,en.sahih,zh.jian,ko.korean,ja.japanese, HTTP 200 each, diffed: byte-identical. Verbatim: \"مَّا يَفْتَحِ ٱللَّهُ لِلنَّاسِ مِن رَّحْمَةٍۢ فَلَا مُمْسِكَ لَهَا ۖ وَمَا يُمْسِكْ فَلَا مُرْسِلَ لَهُۥ مِنۢ بَعْدِهِۦ ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ\"",
+    "english": "Saheeh International (en.sahih). Verbatim: \"Whatever Allah grants to people of mercy - none can withhold it; and whatever He withholds - none can release it thereafter. And He is the Exalted in Might, the Wise.\"",
+    "chinese": "Ma Jian (zh.jian). Raw: \"无论真主赏赐你们什么恩惠，绝无人能加以阻拦；无论他扣留什么恩惠，在禁施之后，绝无人能加以开释。他确是万能的，确是至睿的。\". Used verbatim.",
+    "korean": "ko.korean; source metadata lists translator as 'Unknown', credited on-slide as not specified. Raw: \"하나님께서 그분의 자비로 인류를 위해 보내신 그 은혜를 누 구도 제재할 수 없으며 또한 그분께서 제지하신 것을 누구도 자유 롭게 할 수 없나니 그분은 권능과지혜로 충만하심이라\". Spacing-only fix: '누 구도' -> '누구도'; '자유 롭게' -> '자유롭게'. Whitespace-stripped text verified identical to raw. No wording changed.",
+    "japanese": "ja.japanese; source metadata lists translator as 'Unknown', cited as such. Verbatim: \"アッラーが人間に与えられるどんな慈悲も，阻まれることはない。またかれが阻む何事も，それを解き放すものはない。本当にかれは偉力ならびなく英明であられる。\"",
+    "verification_note": "All renderings from two live api.alquran.cloud fetches this session, diffed identical; none from memory. Edition metadata re-checked via /v1/edition (en.sahih Saheeh International, zh.jian Ma Jian, ko.korean Unknown, ja.japanese Unknown). Halal compliance check against scripts/data/compliance-policy.json halal wordlists (138 terms): typography only, no imagery, 0 hits. Dupcheck against local daily/*/blankdiscussions meta files: quran:35:2 NEW. Fixes applied: ko.korean: \"누 구도\" -> \"누구도\"; ko.korean: \"자유 롭게\" -> \"자유롭게\"."
+  },
+  "renderCommand": "npx remotion still src/compositions/registry.tsx IslamicSlide out/blankdiscussions/2026-11-26/quran-35-2-slide-NN.png --props=daily/2026-11-26/blankdiscussions/quran-35-2.slide-NN.json",
+  "status": "rendered_and_hosted"
+}
