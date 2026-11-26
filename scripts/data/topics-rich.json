@@ -21086,6 +21086,440 @@
           "handle": "@bbmw.0"
         }
       ]
+    },
+    {
+      "id": "luhmann-zettelkasten-two-collections-90000",
+      "niche": "productivity",
+      "verified": true,
+      "sources": [
+        "https://www.uni-bielefeld.de/fakultaeten/soziologie/forschung/luhmann-archiv/: read (Bielefeld University, Luhmann Archive). Established the Zettelkasten of about 90,000 notes, that the cards were written between 1951 and 1996, and that Luhmann produced nearly 600 publications including more than 40 monographs.",
+        "https://uni-bielefeld.de/soz/luhmann-archiv/pdf/jschmidt-aus-dem-archiv.pdf: read, first section verbatim (Johannes Schmidt, from the archive). Established the split into two largely separate collections of about 23,000 cards (ZK I) and about 67,000 cards (ZK II), the numbering scheme (1,1 then 1,2, insertions such as 1,1a and 1,1a1), codes of up to 13 characters, a fixed location for each card, and that the entries are undated.",
+        "https://www.akademienunion.de/en/research/project-database/niklas-luhmann: read. Independently confirmed an index card file of about 90,000 index cards."
+      ],
+      "verifiedNote": "Checked 17 Nov 2026. Read through a fetch agent that returned verbatim passages; the archive PDF was verbatim only for its first section, so nothing from its later pages is used. Not claimed: that the system caused his output (no source says so), the digitisation start date and the number of cards online (not found), the card to card link counts (the PDF calls them sample estimates), and the acquisition year (the archive pages give 2010 and 2011). The archive says nearly 600 publications; the commonly repeated 70 books and 400 articles was not confirmed, so it is not used.",
+      "palette": {
+        "bg": "#131211",
+        "ink": "#F3F0EA",
+        "accent": "#D97757",
+        "muted": "#89827A"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The legend",
+          "text": "It was not one box of 90,000 cards.",
+          "note": "The figure is real, but Bielefeld University describes two largely separate collections: about 23,000 cards in the first and about 67,000 in the second."
+        },
+        {
+          "kind": "statement",
+          "lead": "The addresses",
+          "text": "Every card had a fixed address.",
+          "note": "Card 1,1 was followed by 1,2. A later insertion became 1,1a, then 1,1a1. The archive reports codes of up to 13 characters."
+        },
+        {
+          "kind": "statement",
+          "lead": "The gap",
+          "text": "The cards carry no dates.",
+          "note": "The archive notes that the entries are undated, even though the cards were written between 1951 and 1996."
+        },
+        {
+          "kind": "figure",
+          "value": "90,000",
+          "unit": "cards",
+          "context": "about how many notes the Luhmann Archive counts across both collections."
+        },
+        {
+          "kind": "statement",
+          "lead": "The output",
+          "text": "Nearly 600 publications.",
+          "note": "The archive credits Niklas Luhmann with approaching 600 publications, including more than 40 monographs."
+        },
+        {
+          "kind": "kicker",
+          "text": "Ninety thousand notes, and every one had an address."
+        },
+        {
+          "kind": "sign",
+          "line": "Notes, with addresses.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "netflix-prize-1-million-winner-never-deployed-2012",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Netflix_Prize: read via a fetch agent, verbatim passages. Established the start on 2 October 2006, the $1,000,000 grand prize, the target of 0.8572 on the test set, a training set of 100,480,507 ratings from 480,189 users on 17,770 movies, the win by BellKor's Pragmatic Chaos announced 18 September 2009 with test RMSE 0.8567, that The Ensemble matched it on the test set but submitted 20 minutes later, and that on 12 March 2010 Netflix dropped a second contest after a lawsuit and Federal Trade Commission privacy concerns.",
+        "https://thenextweb.com/news/remember-netflixs-1m-algorithm-contest-well-heres-why-it-didnt-use-the-winning-entry: read via a fetch agent. Quoted Netflix's April 2012 engineers' post that the additional accuracy gains did not seem to justify the engineering effort needed to bring them into production.",
+        "https://flowingdata.com/2012/04/17/why-1m-netflix-algorithm-never-went-to-production: read via a fetch agent. Reported that the grand prize solution contained over 800 models from 4 teams and that the algorithms from the first year of the competition were used and remain a key part of the recommender."
+      ],
+      "verifiedNote": "Checked 22 Nov 2026. Read through a fetch agent; Netflix's own Medium post failed to load, so the 2012 statements are taken from The Next Web and FlowingData quoting it. The 800 models figure is attributed to FlowingData in the beat, not stated as settled. Not claimed: that two named algorithms were deployed (no source gave a count), that the tie was exact on every measure (on the quiz set The Ensemble scored slightly better, so the beat says test set), the exact number of teams (sources give 40,000 plus entrants and 5,169 submitting teams), and anything about Netflix's current system.",
+      "palette": {
+        "bg": "#0F1114",
+        "ink": "#EEF1F5",
+        "accent": "#6FB7FF",
+        "muted": "#838C98"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The offer",
+          "text": "Netflix offered $1 million to beat its own recommender.",
+          "note": "The contest began on 2 October 2006. The target was a test score of 0.8572, a 10 percent improvement on Netflix's Cinematch."
+        },
+        {
+          "kind": "statement",
+          "lead": "The data",
+          "text": "It released over 100 million ratings.",
+          "note": "The training set held 100,480,507 ratings from 480,189 users on 17,770 films."
+        },
+        {
+          "kind": "statement",
+          "lead": "The finish",
+          "text": "Twenty minutes decided the winner.",
+          "note": "BellKor's Pragmatic Chaos won, announced on 18 September 2009. The Ensemble matched its test result but submitted 20 minutes later."
+        },
+        {
+          "kind": "figure",
+          "value": "800",
+          "unit": "models",
+          "context": "FlowingData reported that the winning solution combined over 800 models from four teams."
+        },
+        {
+          "kind": "statement",
+          "lead": "The catch",
+          "text": "Netflix did not ship the winner.",
+          "note": "In April 2012 its engineers wrote that the extra accuracy did not seem to justify the engineering effort needed to put it into production."
+        },
+        {
+          "kind": "statement",
+          "lead": "The leftovers",
+          "text": "Only the early work stayed.",
+          "note": "Netflix said algorithms from the first year of the contest were used and remain a key part of its recommender."
+        },
+        {
+          "kind": "statement",
+          "lead": "The sequel",
+          "text": "A second prize was cancelled.",
+          "note": "On 12 March 2010 Netflix dropped it, after a lawsuit and Federal Trade Commission privacy concerns."
+        },
+        {
+          "kind": "kicker",
+          "text": "Winning was not the same as shipping."
+        },
+        {
+          "kind": "sign",
+          "line": "Accuracy is not the product.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "airbnb-cereal-boxes-2008-forty-dollars-paul-graham",
+      "niche": "app",
+      "verified": true,
+      "sources": [
+        "https://www.cnbc.com/2023/04/18/airbnb-ceo-says-he-wooed-first-investors-with-boxes-of-cereal.html: read via a fetch agent. Established the $40 price per box, about $30,000 raised, that the founders sold self designed boxes, that Paul Graham offered an investment specifically because of the cereal, and that CNBC cites Crunchbase for $20,000 for 6 percent. CNBC says Airbnb and Y Combinator did not respond to confirm.",
+        "https://fortune.com/2023/04/19/airbnb-ceo-cereal-box-investors-changed-everything-billion-dollar-company/: read via a fetch agent. Established that Graham first asked why people would live with strangers, was intrigued by the cereal box, quoted him contrasting $40 with $4 boxes of cereal, about $30,000 raised to fund operations, and a Y Combinator place days later.",
+        "https://money.cnn.com/2012/09/06/technology/airbnb-dnc-startup/: read via a fetch agent. Gave the names Obama O's and Cap'n McCain, $40 a box and $30,000 in funding, and tied the founders' 2008 convention opportunity to Denver.",
+        "https://benzinga.com/z/18700895: read via a fetch agent. Gave the 2008 presidential election context and the candidate themed cereals, about $30,000, and a print run of 500 boxes (which conflicts with CNBC)."
+      ],
+      "verifiedNote": "Checked 22 Nov 2026. Four pages read through a fetch agent that kept quotes short. Sources conflict on the number of boxes (CNBC says more than 1,000, Benzinga says a print run of 500), so no box count is claimed. They also differ on whether the cereal was the reason for the offer (CNBC) or a late addition to a shaky pitch (Fortune), so the beats stick to what each reports. Graham's quote was cut off in the fetch, so only the $40 against $4 contrast is used. Not claimed: the Y Combinator batch or year, credit card debt, the 5 percent to campaigns detail (one source), or who designed which box.",
+      "palette": {
+        "bg": "#0B1018",
+        "ink": "#EDF2FA",
+        "accent": "#5AA6F2",
+        "muted": "#7A8799"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The product",
+          "text": "A start up sold political cereal.",
+          "note": "In 2008, during the presidential election, Airbnb's founders sold limited edition boxes called Obama O's and Cap'n McCain's."
+        },
+        {
+          "kind": "statement",
+          "lead": "The pitch",
+          "text": "Paul Graham asked about strangers first.",
+          "note": "Fortune reports his first question was why anyone would stay with strangers. The cereal box came later in the meeting."
+        },
+        {
+          "kind": "figure",
+          "value": "40",
+          "unit": "dollars",
+          "context": "The price of one box. Graham was reported contrasting it with the $4 boxes of cereal that people were paying it for."
+        },
+        {
+          "kind": "statement",
+          "lead": "The total",
+          "text": "About $30,000 came in.",
+          "note": "CNBC, Fortune, CNN and Benzinga all give roughly that figure, used to keep the company running."
+        },
+        {
+          "kind": "statement",
+          "lead": "The offer",
+          "text": "Graham backed them.",
+          "note": "CNBC says he offered an investment specifically because of the cereal. Crunchbase, cited by CNBC, lists the Y Combinator terms as $20,000 for 6 percent."
+        },
+        {
+          "kind": "kicker",
+          "text": "Proof beats promises."
+        },
+        {
+          "kind": "sign",
+          "line": "Sell something first.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "gimli-glider-air-canada-143-wrong-density-factor-1983",
+      "niche": "history",
+      "verified": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gimli_Glider: read. Established the 23 July 1983 date, the Boeing 767, 69 people aboard, the 22,300 kg the flight needed, the correct top up of 20,088 litres, the nose gear collapse, and that Gimli was a former RCAF base.",
+        "https://www.faa.gov/sites/faa.gov/files/2024-12/AirCanada143_C-GAUN.pdf: Board of Inquiry report, first 100,000 of about 119,800 characters read. Established that 1.77 is a litres to pounds factor where a litres to kilograms factor (about 0.8) was needed, warnings at 41,000 ft and both engines out at 35,000 ft, about 65 miles from Winnipeg and 45 from Gimli, 61 passengers and 6 cabin crew, no loss of life, a 7,200 ft runway, touchdown within 800 ft of the threshold, and the Board calling a pure metric mix up explanation simplistic and inaccurate.",
+        "https://code7700.com/case_study_air_canada_143.htm: read. Established the 7,682 litre dipstick reading, the 1.77 factor being applied, roughly 4,917 litres ordered, 8 crew and 61 passengers, and that the aircraft was among those with fuel gauges in kilograms while the rest of the fleet used pounds.",
+        "https://www.cbc.ca/archives/when-a-metric-mix-up-led-to-the-gimli-glider-emergency-1.4754039: read. Established Captain Robert Pearson and First Officer Maurice Quintal, Quintal having once been stationed at Gimli, and that part of the old base was in use for racing.",
+        "https://www.aopa.org/news-and-media/all-news/2000/july/pilot/the-gimli-glider: read. Established the landing detail and the skid on the nose after the main tyres blew."
+      ],
+      "verifiedNote": "Checked 26 Nov 2026. Not claimed: the glide distance (no source gives it), the type of racing event (sources vary between drag racing, a sports car race and a family day), an injury count (Wikipedia says ten minor, the Board says none significant), any altitude beyond warnings at 41,000 and engines out at 35,000, total litres loaded, or the names of crew on earlier legs, which differ between sources. The 17 minute glide appears in Wikipedia only and was left out. The Board report was an FAA hosted excerpt, so the original Transport Canada page was not read.",
+      "palette": {
+        "bg": "#0B1218",
+        "ink": "#F2F6F8",
+        "accent": "#F5A524",
+        "muted": "#7F909C"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The usual version",
+          "text": "It was not simply pounds against kilograms.",
+          "note": "The Board of Inquiry called that explanation simplistic and inaccurate. The crew used a factor of 1.77, which converts litres to pounds, where one for kilograms, about 0.8, was needed."
+        },
+        {
+          "kind": "credit",
+          "year": "1983",
+          "name": "Air Canada Flight 143",
+          "role": "A Boeing 767 needed 22,300 kilograms of fuel. It left with roughly 10,000 kilograms, less than half, and nobody on board knew."
+        },
+        {
+          "kind": "statement",
+          "lead": "The warnings began at 41,000 feet",
+          "text": "Then both engines failed at 35,000.",
+          "note": "About 65 miles from Winnipeg and 45 miles from Gimli, a former air force base, according to the Board of Inquiry."
+        },
+        {
+          "kind": "credit",
+          "year": "1983",
+          "name": "Robert Pearson",
+          "role": "The captain. First Officer Maurice Quintal had once been stationed at Gimli himself, and the pair glided the 767 towards the old base."
+        },
+        {
+          "kind": "figure",
+          "value": "69",
+          "unit": "people",
+          "context": "Aboard: 61 passengers and 8 crew. Everyone lived. The jet touched down within 800 feet of the threshold of a 7,200 foot runway."
+        },
+        {
+          "kind": "kicker",
+          "text": "Both engines out. Everyone lived."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the factor.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "hawaii-false-missile-alert-38-minutes-2018",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://dod.hawaii.gov/hiema/hawaii-emergency-management-agency-statement-on-missile-launch-false-alarm-january-13-2018/: read. The agency's own timeline: alert at 8:07 am, cancellation logged at 8:13, social media correction at 8:20, correction by alert system at 8:45, and the first fixes (two person rule, a cancellation command).",
+        "https://civilbeat.org/2018/01/tick-tock-of-terror-timeline-of-false-missile-alert/: read. An AP timeline confirming the 8:07, 8:20 and 8:45 sequence and the wording of the alert.",
+        "https://benton.org/headlines/report-and-recommendations-hawaii-emergency-management-agency-january-13-2018-false-alert: read. A summary of the FCC bureau report: 13 minutes to the social media correction, 38 minutes to the alert system correction, and the finding of human error and inadequate safeguards.",
+        "https://www.commerce.senate.gov/services/files/439A3B27-F18F-440C-82EC-7DA8A614AADB: FCC bureau chief's testimony, read. Established the employee's written statement that he mistakenly believed the exercise was a real event, that test and live alerts shared one interface with an identical confirmation prompt, and the remedies.",
+        "https://courthousenews.com/human-error-abounded-in-hawaiis-missile-false-alarm/: read. Established the drill that began the shift, the supervisor miscommunication, and the firing and resignation of staff.",
+        "https://en.wikipedia.org/wiki/2018_Hawaii_false_missile_alert: read. Used as a cross check only, because its own text has small errors."
+      ],
+      "verifiedNote": "Checked 26 Nov 2026. The FCC report itself could not be fetched, so every FCC finding is relayed from the bureau summary and the bureau chief's Senate testimony, which is why the beats attribute them to the FCC rather than to a document read in full. Not claimed: the exact start second (8:07 per the agency, 8:08 per Wikipedia), a date for the final FCC report, the dropdown menu labels (secondary sources only), that the employee did not hear the word exercise (his own account, disputed by colleagues), whether FEMA approval was needed for the correction, whether sirens sounded, the date he was sacked, or prior counselling (the officials' claim, disputed). The 38 minutes is the FCC bureau's own figure.",
+      "palette": {
+        "bg": "#0D0F14",
+        "ink": "#F4F5F7",
+        "accent": "#FF4B3A",
+        "muted": "#8B909C"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The usual version",
+          "text": "It was not a slip of the finger.",
+          "note": "Early accounts blamed a wrong button during a routine test. The employee's written statement says he mistakenly believed an exercise was a real event, after a drill call that included the words this is not a drill."
+        },
+        {
+          "kind": "credit",
+          "year": "2018",
+          "name": "Hawaii Emergency Management Agency",
+          "role": "At around 8:07 am on 13 January, phones across Hawaii read: BALLISTIC MISSILE THREAT INBOUND TO HAWAII. SEEK IMMEDIATE SHELTER. THIS IS NOT A DRILL."
+        },
+        {
+          "kind": "statement",
+          "lead": "The system",
+          "text": "One person could send it alone.",
+          "note": "The FCC found that no second person had to approve an alert, and that test and live alerts shared one interface with an identical confirmation prompt."
+        },
+        {
+          "kind": "figure",
+          "value": "38",
+          "unit": "minutes",
+          "context": "Until a correction reached phones through the alert system itself: There is no missile threat. False Alarm. A social media post had said so after 13 minutes. The agency had no procedure for correcting a false alert."
+        },
+        {
+          "kind": "statement",
+          "lead": "The fix",
+          "text": "Two people now approve every alert.",
+          "note": "Hawaii also added a cancellation command that works within seconds and a correction template. The agency's administrator, Vern Miyagi, resigned."
+        },
+        {
+          "kind": "kicker",
+          "text": "For 38 minutes, it was real."
+        },
+        {
+          "kind": "sign",
+          "line": "Design the undo.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "mariner-1-overbar-not-hyphen-1962",
+      "niche": "tech",
+      "verified": true,
+      "sources": [
+        "https://www.nasa.gov/history/60-years-ago-mariner-1-launch-attempt-to-venus/: read. NASA History: destruction 293 seconds after launch, about 6 seconds before separation, an Atlas antenna losing lock, the omitted overbar, and the line that it was not a hyphen, as sometimes erroneously reported.",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=MARIN1: read. Atlas Agena B, launched 22 July 1962, destroyed at 293 seconds, a beacon malfunction plus a missing overbar in the guidance instructions, and Mariner 2 as the identical successful backup.",
+        "https://science.nasa.gov/mission/mariner-1: read. Cape Canaveral Launch Complex 12, an antenna fault plus a missing overbar, not a hyphen, and Mariner 2 launching on 27 August and reaching Venus on 14 December 1962.",
+        "https://catless.ncl.ac.uk/risks/8/75: RISKS Digest, Peter Neumann quoting Paul Ceruzzi, read. The missing bar marked smoothed data in hand written equations, the rate hardware failed, and the flawed program had flown on earlier Ranger launches without ill effect.",
+        "https://catless.ncl.ac.uk/risks/5/66: RISKS Digest, read. Established that The New York Times of 28 July 1962 blamed the omission of a hyphen, and that the FORTRAN period for comma legend is a separate, unsupported story.",
+        "https://en.wikipedia.com/wiki/Mariner_1: read. The R dot bar sub n symbol for smoothed velocity, and the Times headline For Want of Hyphen, Venus Rocket is Lost."
+      ],
+      "verifiedNote": "Checked 26 Nov 2026. The Mariner Venus 1962 final project report was not found, so the post flight findings are read second hand through NASA pages, Ceruzzi and the Wikipedia citation list. Not claimed: any cost (about 18.5 million dollars in Wikipedia and the 1962 Times, 80 million in Gizmodo, nothing from NASA, so it is left out), that the hardware fault was specifically an antenna (NASA says antenna, the NASA data centre says beacon, so the beat says rate hardware), the destruct time as 294.5 seconds, who first said most expensive hyphen in history (Arthur C. Clarke is credited but the original source was not verified, so the kicker uses the phrase without attributing it), the FORTRAN DO loop story, and that the bar was lost at data entry.",
+      "palette": {
+        "bg": "#0A0E1A",
+        "ink": "#F1F3FA",
+        "accent": "#4DA3FF",
+        "muted": "#7C86A3"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The famous version",
+          "text": "It was not a hyphen.",
+          "note": "NASA History says the missing character was not a hyphen, as sometimes erroneously reported. The hyphen came from The New York Times of 28 July 1962."
+        },
+        {
+          "kind": "credit",
+          "year": "1962",
+          "name": "Mariner 1",
+          "role": "Launched on an Atlas Agena B on 22 July. A range safety officer destroyed it about 293 seconds in, about 6 seconds before the Agena was due to separate."
+        },
+        {
+          "kind": "statement",
+          "lead": "The real character",
+          "text": "A bar was missing from one symbol.",
+          "note": "The overbar sat on R dot bar sub n, the symbol for smoothed velocity. Without it, the equations took raw velocity data instead."
+        },
+        {
+          "kind": "statement",
+          "lead": "The second fault",
+          "text": "The code was not alone.",
+          "note": "The rocket's rate hardware had also failed. According to Paul Ceruzzi, the same program had flown on earlier Ranger launches without trouble."
+        },
+        {
+          "kind": "figure",
+          "value": "293",
+          "unit": "seconds",
+          "context": "From launch to destruction. Mariner 2, an identical spacecraft, left on 27 August 1962 and flew past Venus on 14 December."
+        },
+        {
+          "kind": "kicker",
+          "text": "The most expensive hyphen was never a hyphen."
+        },
+        {
+          "kind": "sign",
+          "line": "Read the report, not the legend.",
+          "handle": "@bbmw.0"
+        }
+      ]
+    },
+    {
+      "id": "eddington-1919-eclipse-sobral-plates-not-fudged",
+      "niche": "science",
+      "verified": true,
+      "sources": [
+        "https://arxiv.org/pdf/0709.0685v2: David Kennefick, read (100,000 of 101,228 characters). Established Principe 1.61 arcseconds with an uncertainty of 0.30 from 2 usable plates showing 5 stars each, Sobral 4 inch 1.98 with an uncertainty of 0.18, that Eddington was not privy to the Sobral reduction, and the 1979 remeasurement.",
+        "https://physicstoday.aip.org/features/testing-relativity-from-the-1919-eclipse-a-question-of-bias: Kennefick, Physics Today, read. Established the Earman and Glymour 1980 bias charge, that Dyson made the decision on the astrographic plates, and the Harvey and Clements remeasurement: 1.90 for the 4 inch plates and 1.55 for the astrographic plates.",
+        "https://w.astro.berkeley.edu/~kalas/labs/documents/dyson1920.pdf: Dyson, Eddington and Davidson 1920, read until the fetch truncated. Established the Newtonian 0.87 and Einstein 1.75 arcsecond figures, 16 plates at Principe with only two furnishing results, that the sky was never clear, the 4 inch result, and the heat distortion explanation for the astrographic plates.",
+        "https://en.wikipedia.org/wiki/Eddington_experiment: read. Used for the 29 May 1919 date and the 6 November 1919 joint meeting. Its mention of the 1979 remeasurement was cross checked against Kennefick."
+      ],
+      "verifiedNote": "Checked 26 Nov 2026. Not claimed: any single astrographic figure (0.93, 0.86 and 1.52 appear in different reductions), the phrase discarded or cherry picking (the plates were given much less weight, and the bias charge is attributed to Earman and Glymour), the date of The Times headline, that Principe was decisive (Eddington's own data there was weak), the name Ellis and Mountford for the remeasurement (the sources credit Harvey and Clements), the number 0.83 for Einstein's 1911 prediction, or the uncertainty for the 4 inch lens as 0.12, which could not be verified. The 4 inch uncertainty of 0.18 is attributed to Kennefick in the beat.",
+      "palette": {
+        "bg": "#0B0B12",
+        "ink": "#F4F2EC",
+        "accent": "#F2C14E",
+        "muted": "#8C8A99"
+      },
+      "beats": [
+        {
+          "kind": "statement",
+          "lead": "The accusation",
+          "text": "Eddington did not bin the data he disliked.",
+          "note": "Dyson, not Eddington, set aside the defocused Sobral astrographic plates, giving a documented reason: the Sun's heat had distorted the mirror, according to David Kennefick."
+        },
+        {
+          "kind": "statement",
+          "lead": "The stakes",
+          "text": "Einstein said 1.75. Newton said 0.87.",
+          "note": "Arcseconds of starlight bending at the Sun's edge. The 1920 paper by Dyson, Eddington and Davidson notes the Einstein figure is just double the Newtonian one."
+        },
+        {
+          "kind": "credit",
+          "year": "1919",
+          "name": "Arthur Eddington",
+          "role": "At Principe on 29 May. He took 16 plates, but only 2 gave results, each showing 5 stars. His own figure was 1.61, give or take 0.30."
+        },
+        {
+          "kind": "credit",
+          "year": "1919",
+          "name": "Crommelin and Davidson",
+          "role": "At Sobral in Brazil. Their 4 inch lens gave 1.98, give or take 0.18 according to Kennefick. The second lens produced blurred images."
+        },
+        {
+          "kind": "figure",
+          "value": "2",
+          "unit": "plates",
+          "context": "Gave results at Principe, out of 16 taken, because the sky was never clear. That thin evidence is why the Sobral plates mattered."
+        },
+        {
+          "kind": "statement",
+          "lead": "The re-check",
+          "text": "In 1979 the Sobral plates were measured again.",
+          "note": "Harvey and Clements found 1.90 for the 4 inch plates and 1.55 for the astrographic plates. Both sit well above Newton's 0.87."
+        },
+        {
+          "kind": "kicker",
+          "text": "Sixty years on, the plates agreed."
+        },
+        {
+          "kind": "sign",
+          "line": "Check the accusation too.",
+          "handle": "@bbmw.0"
+        }
+      ]
     }
   ]
 }
