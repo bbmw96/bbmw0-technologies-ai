@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (chicago-fire-1871-reporter-invented-cow-oleary-exonerated-1997)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#140C0A",
+    "ink": "#F7ECE6",
+    "accent": "#FF6A3D",
+    "muted": "#A08B82"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The popular version",
+      "text": "A cow started the fire.",
+      "note": "It began on the evening of 8 October 1871 in the O'Leary family barn on DeKoven Street. Smithsonian reports the Chicago Evening Journal implicated Catherine O'Leary before the fire died out.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The official answer",
+      "text": "Nobody could say what started it.",
+      "note": "The 1871 inquiry reported, in Smithsonian and Mental Floss, that we are unable to determine the cause.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "statement",
+      "lead": "The source",
+      "text": "A reporter made up the cow.",
+      "note": "Wikipedia, Ripley's and Mental Floss all report that Michael Ahern admitted he fabricated the story. Mental Floss says he and two colleagues invented it to add colour.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "figure",
+      "value": "300",
+      "unit": "deaths",
+      "context": "About 300 people died and around 100,000 were left homeless, according to Smithsonian and Mental Floss. The blame landed on one woman.",
+      "durationInFrames": 166
+    },
+    {
+      "kind": "statement",
+      "lead": "The motive",
+      "text": "She was an easy scapegoat.",
+      "note": "Smithsonian cites ethnic stereotypes and nativist fears. Ripley's names anti Irish and anti Catholic sentiment.",
+      "durationInFrames": 154
+    },
+    {
+      "kind": "credit",
+      "year": "1997",
+      "name": "Chicago City Council",
+      "role": "Formally exonerated Catherine O'Leary of responsibility for the fire. She had died on 3 July 1895.",
+      "durationInFrames": 142
+    },
+    {
+      "kind": "kicker",
+      "text": "The city took 126 years to clear her name.",
+      "durationInFrames": 76
+    },
+    {
+      "kind": "sign",
+      "line": "The best story is not always the true one.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 100
+    }
+  ],
+  "cta": "Subscribe for more."
+}

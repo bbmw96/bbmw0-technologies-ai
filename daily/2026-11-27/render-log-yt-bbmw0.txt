@@ -1,0 +1,19 @@
+Rendering 3 Shorts for 2026-11-27 (concurrency=3, GL=default)
+Compliance: 3 cleared, 0 blocked (policy v1.0.0).
+
+--- chicago-fire-1871-reporter-invented-cow-oleary-exonerated-1997 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-27-chicago-fire-1871-reporter-invented-cow-oleary-exonerated-1997.mp4
+  uploaded public: https://youtu.be/qheHlMrn1lE
+
+--- eddington-1919-eclipse-sobral-plates-not-fudged ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-27-eddington-1919-eclipse-sobral-plates-not-fudged.mp4
+  uploaded public: https://youtu.be/67kEWQMymZU
+
+--- gimli-glider-air-canada-143-wrong-density-factor-1983 ---
+  composition=Reel audio= privacy=public
+  rendered: out/daily-2026-11-27-gimli-glider-air-canada-143-wrong-density-factor-1983.mp4
+  uploaded public: https://youtu.be/s-AwuU7xAB4
+
+=== Done. 3 rendered, 3 uploaded, 0 skipped, 0 blocked by compliance, 0 failed. ===

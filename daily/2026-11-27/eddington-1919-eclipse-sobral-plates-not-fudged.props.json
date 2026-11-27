@@ -1,0 +1,68 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (eddington-1919-eclipse-sobral-plates-not-fudged)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B0B12",
+    "ink": "#F4F2EC",
+    "accent": "#F2C14E",
+    "muted": "#8C8A99"
+  },
+  "niche": "science",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The accusation",
+      "text": "Eddington did not bin the data he disliked.",
+      "note": "Dyson, not Eddington, set aside the defocused Sobral astrographic plates, giving a documented reason: the Sun's heat had distorted the mirror, according to David Kennefick.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "statement",
+      "lead": "The stakes",
+      "text": "Einstein said 1.75. Newton said 0.87.",
+      "note": "Arcseconds of starlight bending at the Sun's edge. The 1920 paper by Dyson, Eddington and Davidson notes the Einstein figure is just double the Newtonian one.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1919",
+      "name": "Arthur Eddington",
+      "role": "At Principe on 29 May. He took 16 plates, but only 2 gave results, each showing 5 stars. His own figure was 1.61, give or take 0.30.",
+      "durationInFrames": 202
+    },
+    {
+      "kind": "credit",
+      "year": "1919",
+      "name": "Crommelin and Davidson",
+      "role": "At Sobral in Brazil. Their 4 inch lens gave 1.98, give or take 0.18 according to Kennefick. The second lens produced blurred images.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "figure",
+      "value": "2",
+      "unit": "plates",
+      "context": "Gave results at Principe, out of 16 taken, because the sky was never clear. That thin evidence is why the Sobral plates mattered.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "statement",
+      "lead": "The re-check",
+      "text": "In 1979 the Sobral plates were measured again.",
+      "note": "Harvey and Clements found 1.90 for the 4 inch plates and 1.55 for the astrographic plates. Both sit well above Newton's 0.87.",
+      "durationInFrames": 214
+    },
+    {
+      "kind": "kicker",
+      "text": "Sixty years on, the plates agreed.",
+      "durationInFrames": 60
+    },
+    {
+      "kind": "sign",
+      "line": "Check the accusation too.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

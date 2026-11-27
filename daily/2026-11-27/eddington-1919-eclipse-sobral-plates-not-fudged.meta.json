@@ -1,0 +1,25 @@
+{
+  "slug": "eddington-1919-eclipse-sobral-plates-not-fudged",
+  "date": "2026-11-27",
+  "title": "Eddington did not bin the data he disliked.",
+  "description": "Eddington did not bin the data he disliked. Dyson, not Eddington, set aside the defocused Sobral astrographic plates, giving a documented reason: the Sun's heat had distorted the mirror, according to David Kennefick.\n\nEinstein said 1.75. Newton said 0.87. Arcseconds of starlight bending at the Sun's edge. The 1920 paper by Dyson, Eddington and Davidson notes the Einstein figure is just double the Newtonian one.\n\nAt Principe on 29 May. He took 16 plates, but only 2 gave results, each showing 5 stars. His own figure was 1.61, give or take 0.30.\n\nAt Sobral in Brazil. Their 4 inch lens gave 1.98, give or take 0.18 according to Kennefick. The second lens produced blurred images.\n\nGave results at Principe, out of 16 taken, because the sky was never clear. That thin evidence is why the Sobral plates mattered.\n\nIn 1979 the Sobral plates were measured again. Harvey and Clements found 1.90 for the 4 inch plates and 1.55 for the astrographic plates. Both sit well above Newton's 0.87.\n\nSixty years on, the plates agreed.\n\nSources:\n- https://arxiv.org/pdf/0709.0685v2: David Kennefick, read (100,000 of 101,228 characters). Established Principe 1.61 arcseconds with an uncertainty of 0.30 from 2 usable plates showing 5 stars each, Sobral 4 inch 1.98 with an uncertainty of 0.18, that Eddington was not privy to the Sobral reduction, and the 1979 remeasurement.\n- https://physicstoday.aip.org/features/testing-relativity-from-the-1919-eclipse-a-question-of-bias: Kennefick, Physics Today, read. Established the Earman and Glymour 1980 bias charge, that Dyson made the decision on the astrographic plates, and the Harvey and Clements remeasurement: 1.90 for the 4 inch plates and 1.55 for the astrographic plates.\n- https://w.astro.berkeley.edu/~kalas/labs/documents/dyson1920.pdf: Dyson, Eddington and Davidson 1920, read until the fetch truncated. Established the Newtonian 0.87 and Einstein 1.75 arcsecond figures, 16 plates at Principe with only two furnishing results, that the sky was never clear, the 4 inch result, and the heat distortion explanation for the astrographic plates.\n- https://en.wikipedia.org/wiki/Eddington_experiment: read. Used for the 29 May 1919 date and the 6 November 1919 joint meeting. Its mention of the 1979 remeasurement was cross checked against Kennefick.\n\nMade with BBMW0 Technologies AI. Open-source, mobile-first video editor.\nhttps://bbmw0-technologies-ai.vercel.app",
+  "tags": [
+    "shorts",
+    "science",
+    "facts",
+    "didyouknow",
+    "history"
+  ],
+  "categoryId": "28",
+  "privacy": "public",
+  "channelId": "yt-bbmw0",
+  "special": false,
+  "platform": "youtube",
+  "handle": "@bbmw.0",
+  "file": "out/daily-2026-11-27-eddington-1919-eclipse-sobral-plates-not-fudged.mp4",
+  "propsFile": "daily/2026-11-27/eddington-1919-eclipse-sobral-plates-not-fudged.props.json",
+  "durationInFrames": 1368,
+  "audioUrl": "",
+  "niche": "science",
+  "composition": "Reel"
+}

@@ -1,0 +1,61 @@
+{
+  "_composition": "Reel",
+  "_generatedBy": "scripts/generate-reels.mjs from topics-rich.json (gimli-glider-air-canada-143-wrong-density-factor-1983)",
+  "_timing": "No narration yet. Each beat is the larger of the time it needs to finish animating and the time it takes to read, plus a 22-frame hold. This is a floor, not considered pacing — measure a real read and switch this topic to voiceCuts.",
+  "palette": {
+    "bg": "#0B1218",
+    "ink": "#F2F6F8",
+    "accent": "#F5A524",
+    "muted": "#7F909C"
+  },
+  "niche": "history",
+  "beats": [
+    {
+      "kind": "statement",
+      "lead": "The usual version",
+      "text": "It was not simply pounds against kilograms.",
+      "note": "The Board of Inquiry called that explanation simplistic and inaccurate. The crew used a factor of 1.77, which converts litres to pounds, where one for kilograms, about 0.8, was needed.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1983",
+      "name": "Air Canada Flight 143",
+      "role": "A Boeing 767 needed 22,300 kilograms of fuel. It left with roughly 10,000 kilograms, less than half, and nobody on board knew.",
+      "durationInFrames": 184
+    },
+    {
+      "kind": "statement",
+      "lead": "The warnings began at 41,000 feet",
+      "text": "Then both engines failed at 35,000.",
+      "note": "About 65 miles from Winnipeg and 45 miles from Gimli, a former air force base, according to the Board of Inquiry.",
+      "durationInFrames": 220
+    },
+    {
+      "kind": "credit",
+      "year": "1983",
+      "name": "Robert Pearson",
+      "role": "The captain. First Officer Maurice Quintal had once been stationed at Gimli himself, and the pair glided the 767 towards the old base.",
+      "durationInFrames": 178
+    },
+    {
+      "kind": "figure",
+      "value": "69",
+      "unit": "people",
+      "context": "Aboard: 61 passengers and 8 crew. Everyone lived. The jet touched down within 800 feet of the threshold of a 7,200 foot runway.",
+      "durationInFrames": 172
+    },
+    {
+      "kind": "kicker",
+      "text": "Both engines out. Everyone lived.",
+      "durationInFrames": 60
+    },
+    {
+      "kind": "sign",
+      "line": "Check the factor.",
+      "handle": "@bbmw.0",
+      "durationInFrames": 96
+    }
+  ],
+  "cta": "Subscribe for more."
+}

@@ -1,0 +1,168 @@
+{
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T18:35:52.870Z",
+  "policyVersion": "1.0.0",
+  "strictMode": false,
+  "allowed": [
+    "chicago-fire-1871-reporter-invented-cow-oleary-exonerated-1997",
+    "eddington-1919-eclipse-sobral-plates-not-fudged",
+    "gimli-glider-air-canada-143-wrong-density-factor-1983"
+  ],
+  "blocked": [],
+  "results": [
+    {
+      "slug": "chicago-fire-1871-reporter-invented-cow-oleary-exonerated-1997",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "The popular version. A cow started the fire.",
+      "niche": "history",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "safety.context_review",
+          "message": "Context-sensitive term(s) present: died. Legitimate in educational science and history, referred to the AI safety reviewer.",
+          "detail": {
+            "terms": [
+              "died"
+            ]
+          }
+        },
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.5,
+        "worstTitleAgainst": "peter-principle-satire-1969-sales-managers-qje-2019",
+        "worstDescriptionSimilarity": 0.26,
+        "combo": "reel:#140C0A:#FF6A3D:#F7ECE6",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "eddington-1919-eclipse-sobral-plates-not-fudged",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "Eddington did not bin the data he disliked.",
+      "niche": "science",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "legal.attributed_quote",
+          "message": "Text may attribute a statement to a named person. Verify before publishing.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.143,
+        "worstTitleAgainst": "pluto-named-by-venetia-burney-oxford-1930",
+        "worstDescriptionSimilarity": 0.246,
+        "combo": "reel:#0B0B12:#F2C14E:#F4F2EC",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    },
+    {
+      "slug": "gimli-glider-air-canada-143-wrong-density-factor-1983",
+      "channelId": "yt-bbmw0",
+      "platform": "youtube",
+      "verdict": "PASS_WITH_WARNINGS",
+      "title": "The usual version. It was not simply pounds against kilograms.",
+      "niche": "history",
+      "blocks": [],
+      "warnings": [
+        {
+          "severity": "WARN",
+          "rule": "coppa.undeclared",
+          "message": "No madeForKids field on the video. Falling back to the channel default of false.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "repetition.audio_spacing",
+          "message": "Audio \"\" reused after only 0 video(s). Minimum gap is 2.",
+          "detail": null
+        },
+        {
+          "severity": "WARN",
+          "rule": "ai_panel.unavailable",
+          "message": "AI review panel did not run: AI_ENDPOINT is not configured. Only deterministic rules were applied.",
+          "detail": null
+        }
+      ],
+      "info": [],
+      "similarity": {
+        "worstTitleSimilarity": 0.328,
+        "worstTitleAgainst": "hawaii-false-missile-alert-38-minutes-2018",
+        "worstDescriptionSimilarity": 0.237,
+        "combo": "reel:#0B1218:#F5A524:#F2F6F8",
+        "themeGap": null,
+        "audioGap": 0
+      },
+      "aiPanel": {
+        "available": false,
+        "passRatio": null,
+        "skipped": "AI_ENDPOINT not set",
+        "reviews": []
+      }
+    }
+  ]
+}
